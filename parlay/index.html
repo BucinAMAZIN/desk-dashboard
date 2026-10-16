@@ -16,12 +16,12 @@ details summary{list-style:none;cursor:pointer}details summary::-webkit-details-
 <div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Our Record</div><div class="tab" data-k="cappers">Cappers</div></div>
 <div id="v"></div><div class="m" id="upd" style="text-align:center;margin-top:8px"></div>
 <script>
-let D=null,K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+let D=null,K=location.hash.slice(1)||'today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chip=r=>`<span class="chip c${['W','L','P','Pending'].includes(r)?r:'P'}">${E(r)}</span>`;
 const pc=p=>p==null?'—':p+'%',col=p=>p==null?'#8b949e':p>=55?'#3fb950':p>=45?'#d29922':'#f85149';
 const bar=p=>`<div class="bar"><i style="width:${p??0}%;background:${col(p)}"></i></div>`;
 const et=t=>new Date(t*1000).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET';
-document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{K=b.dataset.k;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));draw()});
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{K=b.dataset.k;history.replaceState(null,'','#'+K);document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));draw()});
 function status(s){const c=s=='W'||/won/i.test(s)?'#3fb950':s=='L'||/lost/i.test(s)?'#f85149':'#d29922';return `<span class="dot" style="background:${c}"></span>${E(s=='W'?'Won':s=='L'?'Lost':s)}`}
 function today(){const t=D.today;let h=`<div class="m" style="margin-bottom:6px">${E(t.title)}</div>`;
  if(!t.tickets.length)return h+'<div class="card m">No picks posted yet. Picks drop around noon ET.</div>';
@@ -50,7 +50,7 @@ function cappers(){let cs=[...D.cappers].sort((a,b)=>(b.pct??-1)-(a.pct??-1));
  h+=cs.map(c=>`<details class="card"><summary><div class="row"><b>${E(c.name)}</b><span><b>${E(c.w)}-${E(c.l)}${c.p?'-'+c.p:''}</b> <span style="color:${col(c.pct)}">${pc(c.pct)}</span></span></div>${bar(c.pct)}</summary>
  <table style="margin-top:8px">${c.props.map(p=>`<tr><td>${E(p.prop)}</td><td style="text-align:right;white-space:nowrap"><b>${E(p.w)}-${E(p.l)}</b> <span style="color:${col(p.pct)}">${pc(p.pct)}</span></td></tr>`).join('')||'<tr><td class=m>No graded picks</td></tr>'}</table></details>`).join('');
  if(D.capper_notes&&D.capper_notes.length)h+='<h2>Notes</h2><div class="card m">'+D.capper_notes.map(E).join('<br><br>')+'</div>';return h}
-function draw(){if(!D)return;$('v').innerHTML={today,results,record,cappers}[K]();$('upd').textContent='Updated '+et(D.generated)}
+function draw(){if(!D)return;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));$('v').innerHTML={today,results,record,cappers}[K]();$('upd').textContent='Updated '+et(D.generated)}
 async function load(){try{D=await(await fetch('data.json?'+Date.now(),{cache:'no-store'})).json();draw()}catch(e){$('upd').textContent='Offline / no data'}}
 load();document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
 </script></body></html>
