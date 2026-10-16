@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Desk</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Desk"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0d1117"><link rel="manifest" href="manifest.json"><link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>body{background:#0d1117;color:#e6edf3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:calc(env(safe-area-inset-top) + 10px) 12px 30px}
+.tabs{display:flex;gap:6px;margin-bottom:10px}.tab{flex:1;padding:10px;border-radius:10px;background:#161b22;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600}
+.tab.on{color:#e6edf3;border-color:#58a6ff}.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:12px;margin-bottom:10px}
+.big{font-size:36px;font-weight:700}.g{color:#3fb950}.r{color:#f85149}.m{color:#8b949e;font-size:12px}h2{font-size:14px;color:#8b949e;margin:14px 0 6px}
+table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;border-bottom:1px solid #21262d}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}svg{width:100%;height:120px}</style></head><body>
+<div class="tabs"><div class="tab on" data-k="meme">Memecoin</div><div class="tab" data-k="poly">Polymarket</div></div>
+<div class="card"><div class="m" id="run"></div><div class="big" id="eq">…</div><div id="pct"></div>
+<div style="margin-top:6px"><span class="dot" id="dot"></span><span id="alive"></span></div><div class="m" id="upd"></div></div>
+<div class="card"><svg id="sp" viewBox="0 0 300 120" preserveAspectRatio="none"></svg></div>
+<h2 id="ph">Open positions</h2><div class="card"><table id="pos"></table></div>
+<h2>Recent trades</h2><div class="card"><table id="tr"></table></div><div class="m">Paper money only.</div>
+<script>
+let D=null,K='meme';const $=i=>document.getElementById(i),E=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&','<':'<','>':'>'}[c]));
+const et=t=>new Date(t*1000).toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit',second:'2-digit'})+' ET';
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{K=b.dataset.k;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));draw()});
+function draw(){if(!D)return;const d=D[K];$('upd').textContent='Updated '+et(D.generated);
+ if(!d||!d.run){$('run').textContent='No run yet';$('eq').textContent='—';$('pct').textContent='';$('pos').innerHTML=$('tr').innerHTML=$('sp').innerHTML='';$('dot').style.background='#8b949e';$('alive').textContent='';return}
+ $('run').textContent=d.run+' · start $'+d.start;$('eq').textContent='$'+d.equity.toFixed(2);
+ $('pct').innerHTML=`<span class="${d.pct>=0?'g':'r'}">${d.pct>=0?'+':''}${d.pct}%</span>`;
+ const age=Date.now()/1000-(d.hb||0),ok=d.hb&&age<180;$('dot').style.background=d.halted?'#d29922':ok?'#3fb950':'#f85149';
+ $('alive').textContent=d.halted?'Halted':ok?'Alive':'Stale'+(d.hb?' ('+Math.round(age/60)+' min since heartbeat)':'');
+ const v=(d.spark||[]).map(p=>p[1]);if(v.length>1){const lo=Math.min(...v),hi=Math.max(...v),r=hi-lo||1;
+  $('sp').innerHTML=`<polyline fill="none" stroke="${d.pct>=0?'#3fb950':'#f85149'}" stroke-width="2" points="${v.map((y,i)=>(i*300/(v.length-1)).toFixed(1)+','+(115-(y-lo)/r*110).toFixed(1)).join(' ')}"/>`}else $('sp').innerHTML='';
+ if(K=='meme'){$('ph').textContent='Open positions';$('pos').innerHTML=(d.positions||[]).map(p=>`<tr><td>${E(p.sym)}</td><td>$${p.cost_usd}</td><td class="${p.pct>=0?'g':'r'}">${p.pct??''}%</td></tr>`).join('')||'<tr><td class=m>None</td></tr>'}
+ else{$('ph').textContent='Markets (Up / Down shares, pair cost)';$('pos').innerHTML=(d.positions||[]).map(m=>`<tr><td>${E(m.title)}<div class=m>${E(m.status)}</div></td><td>${m.up}/${m.down}</td><td>${m.pair??''}</td><td>${m.pnl!=null?'$'+(+m.pnl).toFixed(2):''}</td></tr>`).join('')||'<tr><td class=m>None</td></tr>'}
+ $('tr').innerHTML=(d.trades||[]).map(t=>`<tr><td class=m>${E(t.t)}</td><td>${E(t.ev)} ${E(t.sym)}<div class=m>${E(t.detail)}</div></td></tr>`).join('')||'<tr><td class=m>None yet</td></tr>'}
+async function load(){try{D=await(await fetch('data.json?'+Date.now(),{cache:'no-store'})).json();draw()}catch(e){$('upd').textContent='Offline / no data'}}
+load();setInterval(load,45000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
+</script></body></html>
