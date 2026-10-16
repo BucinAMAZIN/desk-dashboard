@@ -1,5 +1,5 @@
 {
- "generated": 1792182838.181227,
+ "generated": 1792183252.345259,
  "today": {
   "title": "Oct 16 placed bets (Hard Rock)",
   "tickets": [
@@ -936,5 +936,34 @@
   "@bigmikepickz: No posts in the Oct 15 ET window.",
   "Jones ID: Tone's Jones o2.5 SOG (+190) was Seth Jones (FLA) vs VAN (5 SOG) — confirmed from bet-slip image + NHL box score.",
   "Austin Kupp o20.5 and Doc Bo Nix o21.5 were posted late Oct 14 ET for the Oct 15 TNF slate; logged under 2026-10-15."
- ]
+ ],
+ "bankroll": {
+  "start": 51.05,
+  "total": 51.05,
+  "available": 31.05,
+  "pending": 20.0,
+  "pct": 0.0,
+  "pending_bets": [
+   {
+    "bet": "POTD Pastrnak o3.5 SOG -110",
+    "stake": "$10.00",
+    "pays": "$19.09"
+   },
+   {
+    "bet": "+100 ticket 2-leg +108 (Díaz u0.5 RBI, Carlsson u2.5 SOG)",
+    "stake": "$10.00",
+    "pays": "$20.84"
+   }
+  ],
+  "ledger": [
+   {
+    "date": "2026-10-16 16:40 ET",
+    "event": "Starting balance (2 bets pending)",
+    "amount": "$0.00",
+    "available": 31.05,
+    "pending": 20.0,
+    "total": 51.05
+   }
+  ]
+ }
 }

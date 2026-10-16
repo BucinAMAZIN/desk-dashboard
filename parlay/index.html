@@ -4,7 +4,7 @@
 <meta name="apple-mobile-web-app-title" content="Picks"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#0d1117"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
 <style>body{background:#0d1117;color:#e6edf3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:calc(env(safe-area-inset-top) + 10px) 12px 30px;max-width:640px;margin:auto}
-.tabs{display:flex;gap:6px;margin-bottom:10px;position:sticky;top:0;background:#0d1117;padding:6px 0;z-index:2}.tab{flex:1;padding:10px 4px;border-radius:10px;background:#161b22;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600;font-size:13px;cursor:pointer}
+.tabs{display:flex;gap:6px;margin-bottom:10px;position:sticky;top:0;background:#0d1117;padding:6px 0;z-index:2}.tab{flex:1;padding:10px 2px;border-radius:10px;background:#161b22;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600;font-size:12px;white-space:nowrap;cursor:pointer}
 .tab.on{color:#e6edf3;border-color:#58a6ff}.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:12px;margin-bottom:10px}
 .big{font-size:36px;font-weight:700}.g{color:#3fb950}.r{color:#f85149}.y{color:#d29922}.m{color:#8b949e;font-size:12px}h2{font-size:14px;color:#8b949e;margin:14px 0 6px}
 table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;border-bottom:1px solid #21262d;vertical-align:top}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
@@ -13,7 +13,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 .row{display:flex;justify-content:space-between;align-items:center;gap:8px}.bar{height:6px;background:#21262d;border-radius:3px;margin-top:4px;overflow:hidden}.bar>i{display:block;height:100%}
 .stats{display:flex;gap:8px}.stats .card{flex:1;text-align:center;padding:10px 4px}.stats b{font-size:20px;display:block}
 details summary{list-style:none;cursor:pointer}details summary::-webkit-details-marker{display:none}</style></head><body>
-<div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Our Record</div><div class="tab" data-k="cappers">Cappers</div></div>
+<div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Our Record</div><div class="tab" data-k="cappers">Cappers</div><div class="tab" data-k="bankroll">Bankroll</div></div>
 <div id="v"></div><div class="m" id="upd" style="text-align:center;margin-top:8px"></div>
 <script>
 let D=null,K=location.hash.slice(1)||'today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
@@ -50,7 +50,18 @@ function cappers(){let cs=[...D.cappers].sort((a,b)=>(b.pct??-1)-(a.pct??-1));
  h+=cs.map(c=>`<details class="card"><summary><div class="row"><b>${E(c.name)}</b><span><b>${E(c.w)}-${E(c.l)}${c.p?'-'+c.p:''}</b> <span style="color:${col(c.pct)}">${pc(c.pct)}</span></span></div>${bar(c.pct)}</summary>
  <table style="margin-top:8px">${c.props.map(p=>`<tr><td>${E(p.prop)}</td><td style="text-align:right;white-space:nowrap"><b>${E(p.w)}-${E(p.l)}</b> <span style="color:${col(p.pct)}">${pc(p.pct)}</span></td></tr>`).join('')||'<tr><td class=m>No graded picks</td></tr>'}</table></details>`).join('');
  if(D.capper_notes&&D.capper_notes.length)h+='<h2>Notes</h2><div class="card m">'+D.capper_notes.map(E).join('<br><br>')+'</div>';return h}
-function draw(){if(!D)return;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));$('v').innerHTML={today,results,record,cappers}[K]();$('upd').textContent='Updated '+et(D.generated)}
+function bankroll(){const b=D.bankroll;if(!b)return '<div class="card m">No bankroll data yet.</div>';
+ const f=v=>v==null?'—':'$'+(+v).toFixed(2),up=(b.pct??0)>=0;
+ let h=`<div class="card"><div class="m">Total bankroll · start ${f(b.start)}</div><div class="big">${f(b.total)}</div>
+ <div><span class="${up?'g':'r'}">${b.pct==null?'—':(up?'+':'')+b.pct+'%'}</span> <span class=m>since start</span></div></div>
+ <div class="stats"><div class="card"><span class=m>Available</span><b>${f(b.available)}</b></div><div class="card"><span class=m>Pending</span><b class="y">${f(b.pending)}</b></div></div>`;
+ const v=(b.ledger||[]).map(x=>x.total).filter(x=>x!=null);
+ if(v.length>1){const lo=Math.min(...v),hi=Math.max(...v),rg=hi-lo||1;h+=`<div class="card"><span class=m>Total over time</span><svg viewBox="0 0 300 140" preserveAspectRatio="none"><polyline fill="none" stroke="${up?'#3fb950':'#f85149'}" stroke-width="2" points="${v.map((y,i)=>(i*300/(v.length-1)).toFixed(1)+','+(130-(y-lo)/rg*120).toFixed(1)).join(' ')}"/></svg></div>`}
+ else h+='<div class="card m">Chart starts after the first settled bet.</div>';
+ h+='<h2>Pending bets</h2><div class="card"><table>'+((b.pending_bets||[]).map(p=>`<tr><td>${E(p.bet)}</td><td style="white-space:nowrap">${E(p.stake)}</td><td class="g" style="text-align:right;white-space:nowrap">${E(p.pays)}</td></tr>`).join('')||'<tr><td class=m>None</td></tr>')+'</table></div>';
+ h+='<h2>Ledger</h2><div class="card"><table>'+[...(b.ledger||[])].reverse().slice(0,15).map(l=>`<tr><td class=m>${E(l.date)}</td><td>${E(l.event)}<div class=m>Avail ${f(l.available)} · Pend ${f(l.pending)}</div></td><td style="text-align:right">${E(l.amount)}<div><b>${f(l.total)}</b></div></td></tr>`).join('')+'</table></div>';
+ return h}
+function draw(){if(!D)return;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));$('v').innerHTML={today,results,record,cappers,bankroll}[K]();$('upd').textContent='Updated '+et(D.generated)}
 async function load(){try{D=await(await fetch('data.json?'+Date.now(),{cache:'no-store'})).json();draw()}catch(e){$('upd').textContent='Offline / no data'}}
 load();document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
 </script></body></html>
