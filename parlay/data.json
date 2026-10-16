@@ -1,0 +1,940 @@
+{
+ "generated": 1792182723.8499346,
+ "today": {
+  "title": "Oct 16 placed bets (Hard Rock)",
+  "tickets": [
+   {
+    "name": "POTD",
+    "desc": "David Pastrnak o3.5 SOG -110, $10, pays $19.09 (BOS @ ANA 10:00 PM ET)",
+    "odds": "-110",
+    "stake": "$10",
+    "payout": "$19.09",
+    "status": "Pending",
+    "game": "BOS @ ANA 10:00 PM ET",
+    "legs": [],
+    "pick": "David Pastrnak o3.5 SOG"
+   },
+   {
+    "name": "+100 ticket",
+    "desc": "2-leg +108, $10, pays $20.84",
+    "odds": "+108",
+    "stake": "$10",
+    "payout": "$20.84",
+    "status": "Pending",
+    "game": "",
+    "legs": [
+     {
+      "pick": "Yandy Diaz u0.5 RBI",
+      "odds": "-375",
+      "game": "TB @ CLE 8:00 PM ET",
+      "status": "Pending"
+     },
+     {
+      "pick": "Leo Carlsson u2.5 SOG",
+      "odds": "-155",
+      "game": "BOS @ ANA 10:00 PM ET",
+      "status": "Pending"
+     }
+    ],
+    "pick": "2-leg +108"
+   }
+  ]
+ },
+ "results": {
+  "tickets": [
+   {
+    "date": "2026-10-15",
+    "name": "POTD",
+    "desc": "$5 single -120, to pay $9.17",
+    "result": "L",
+    "legs": [
+     {
+      "pick": "Owen Power UNDER 1.5 SOG",
+      "result": "L",
+      "stat": "2 SOG, 1 G (OT winner), 28:01 TOI",
+      "final": "BUF 5, TOR 4 (OT)"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-15",
+    "name": "Ticket B",
+    "desc": "$10 2-leg +101, to pay $20.12",
+    "result": "W",
+    "legs": [
+     {
+      "pick": "Matthew Schaefer o2.5 SOG",
+      "result": "W",
+      "stat": "3 SOG, 29:29 TOI",
+      "final": "OTT 2, NYI 1 (SO)"
+     },
+     {
+      "pick": "Jaxon Smith-Njigba o64.5 Rec Yds",
+      "result": "W",
+      "stat": "12 rec, 134 yds, 16 tgt, long 32",
+      "final": "DEN 17, SEA 14 (OT)"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-15",
+    "name": "Ticket A",
+    "desc": "$5 3-leg +344, to pay $22.18",
+    "result": "L",
+    "legs": [
+     {
+      "pick": "Gavin Williams o2.5 Hits Allowed",
+      "result": "L",
+      "stat": "5.0 IP, 2 H, 2 R/ER, 9 K, 1 BB, 70 pitches",
+      "final": "CLE 3, TB 2"
+     },
+     {
+      "pick": "Kyle Connor o3.5 SOG",
+      "result": "W",
+      "stat": "5 SOG, 1 G (PPG), 21:03 TOI",
+      "final": "CHI 4, WPG 3"
+     },
+     {
+      "pick": "Leon Draisaitl o2.5 SOG",
+      "result": "L",
+      "stat": "2 SOG, 1 G, 23:00 TOI",
+      "final": "UTA 4, EDM 2"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-14",
+    "name": "Ticket B",
+    "desc": "$5 3-leg +284, to pay $19.18",
+    "result": "L",
+    "legs": [
+     {
+      "pick": "Boone Jenner o1.5 SOG",
+      "result": "L",
+      "stat": "0 SOG, 0 G, 0 A, 15:08 TOI",
+      "final": "WSH 5, MTL 4"
+     },
+     {
+      "pick": "Robert Gasser o11.5 outs",
+      "result": "W",
+      "stat": "5.0 IP (15 outs), 3 H, 0 ER, 1 BB, 3 K, 72 pitches",
+      "final": "MIL 6, LAD 2"
+     },
+     {
+      "pick": "Nazem Kadri 2+ SOG",
+      "result": "W",
+      "stat": "2 SOG, 0 G, 2 A, 24:16 TOI",
+      "final": "DAL 3, COL 2 (SO)"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-14",
+    "name": "Ticket A",
+    "desc": "$15 2-leg +145, to pay $36.70",
+    "result": "L",
+    "legs": [
+     {
+      "pick": "Blake Snell u1.5 ER",
+      "result": "L",
+      "stat": "6.0 IP, 4 H, 4 R, 4 ER, 2 BB, 9 K, 3 HR, 101 pitches (L)",
+      "final": "MIL 6, LAD 2"
+     },
+     {
+      "pick": "Tyler Seguin o1.5 SOG",
+      "result": "W",
+      "stat": "3 SOG, 0 G, 0 A, 14:59 TOI",
+      "final": "DAL 3, COL 2 (SO)"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-13",
+    "name": "Ticket B",
+    "desc": "$5 5-leg, to pay $32.20",
+    "result": "L",
+    "legs": [
+     {
+      "pick": "Alex Tuch 2+ SOG",
+      "result": "L",
+      "stat": "1 SOG, 18:50 TOI",
+      "final": "CAR 4, WSH 2"
+     },
+     {
+      "pick": "B. McMann 2+ SOG",
+      "result": "W",
+      "stat": "2 SOG, 1 G",
+      "final": "SEA 3, PHI 2 (SO)"
+     },
+     {
+      "pick": "Parker Messick o3.5 K",
+      "result": "L",
+      "stat": "3 K, 5.0 IP, 6 H, 3 R (0 ER), 2 BB, 82 pitches",
+      "final": "TB 3, CLE 1"
+     },
+     {
+      "pick": "Leon Draisaitl 3+ SOG",
+      "result": "W",
+      "stat": "3 SOG, 1 G, 1 A",
+      "final": "EDM 4, LAK 1"
+     },
+     {
+      "pick": "David Pastrnak 3+ SOG",
+      "result": "W",
+      "stat": "4 SOG, 1 A",
+      "final": "BOS 6, SJS 3"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-13",
+    "name": "Ticket A",
+    "desc": "$15 2-leg, to pay $35.60",
+    "result": "L",
+    "legs": [
+     {
+      "pick": "Drake Batherson o1.5 SOG",
+      "result": "L",
+      "stat": "1 SOG, 1 A, 17:44 TOI",
+      "final": "STL 7, OTT 2"
+     },
+     {
+      "pick": "Nazem Kadri o1.5 SOG",
+      "result": "W",
+      "stat": "3 SOG, 22:47 TOI",
+      "final": "COL 3, DAL 2"
+     }
+    ]
+   }
+  ],
+  "nights": [
+   {
+    "date": "2026-10-13",
+    "text": "4 of 7 legs hit, 0 of 2 tickets. Net: -$20."
+   },
+   {
+    "date": "2026-10-14",
+    "text": "3 of 5 legs hit, 0 of 2 tickets. Net: -$20."
+   },
+   {
+    "date": "2026-10-15",
+    "text": "4 of 6 legs hit, 1 of 2 parlays (+ POTD lost). Net: +$0.12."
+   }
+  ],
+  "placed_legs": [
+   {
+    "date": "10/13",
+    "sport": "NHL",
+    "player": "Drake Batherson",
+    "prop": "NHL SOG",
+    "line": "o1.5",
+    "odds": "n/a",
+    "ticket": "10/13 A 2-leg $15",
+    "result": "L",
+    "stat": "1 SOG"
+   },
+   {
+    "date": "10/13",
+    "sport": "NHL",
+    "player": "Nazem Kadri",
+    "prop": "NHL SOG",
+    "line": "o1.5",
+    "odds": "n/a",
+    "ticket": "10/13 A",
+    "result": "W",
+    "stat": "3 SOG"
+   },
+   {
+    "date": "10/13",
+    "sport": "NHL",
+    "player": "Alex Tuch",
+    "prop": "NHL SOG",
+    "line": "o1.5",
+    "odds": "-185 rec",
+    "ticket": "10/13 B 5-leg $5",
+    "result": "L",
+    "stat": "1 SOG"
+   },
+   {
+    "date": "10/13",
+    "sport": "NHL",
+    "player": "Brandon McMann",
+    "prop": "NHL SOG",
+    "line": "o1.5",
+    "odds": "n/a",
+    "ticket": "10/13 B",
+    "result": "W",
+    "stat": "2 SOG"
+   },
+   {
+    "date": "10/13",
+    "sport": "MLB",
+    "player": "Parker Messick",
+    "prop": "MLB pitcher K",
+    "line": "o3.5",
+    "odds": "n/a",
+    "ticket": "10/13 B",
+    "result": "L",
+    "stat": "3 K, 5 IP"
+   },
+   {
+    "date": "10/13",
+    "sport": "NHL",
+    "player": "Leon Draisaitl",
+    "prop": "NHL SOG",
+    "line": "o2.5",
+    "odds": "n/a",
+    "ticket": "10/13 B",
+    "result": "W",
+    "stat": "3 SOG"
+   },
+   {
+    "date": "10/13",
+    "sport": "NHL",
+    "player": "David Pastrnak",
+    "prop": "NHL SOG",
+    "line": "o2.5",
+    "odds": "n/a",
+    "ticket": "10/13 B",
+    "result": "W",
+    "stat": "4 SOG"
+   },
+   {
+    "date": "10/14",
+    "sport": "MLB",
+    "player": "Blake Snell",
+    "prop": "MLB pitcher ER",
+    "line": "u1.5",
+    "odds": "-135 rec",
+    "ticket": "10/14 A 2-leg +145 $15",
+    "result": "L",
+    "stat": "4 ER, 3 HR"
+   },
+   {
+    "date": "10/14",
+    "sport": "NHL",
+    "player": "Tyler Seguin",
+    "prop": "NHL SOG",
+    "line": "o1.5",
+    "odds": "-160 rec",
+    "ticket": "10/14 A",
+    "result": "W",
+    "stat": "3 SOG"
+   },
+   {
+    "date": "10/14",
+    "sport": "NHL",
+    "player": "Boone Jenner",
+    "prop": "NHL SOG",
+    "line": "o1.5",
+    "odds": "n/a",
+    "ticket": "10/14 B 3-leg +284 $5",
+    "result": "L",
+    "stat": "0 SOG"
+   },
+   {
+    "date": "10/14",
+    "sport": "MLB",
+    "player": "Robert Gasser",
+    "prop": "MLB pitcher outs",
+    "line": "o11.5",
+    "odds": "n/a",
+    "ticket": "10/14 B",
+    "result": "W",
+    "stat": "15 outs"
+   },
+   {
+    "date": "10/14",
+    "sport": "NHL",
+    "player": "Nazem Kadri",
+    "prop": "NHL SOG",
+    "line": "o1.5",
+    "odds": "n/a",
+    "ticket": "10/14 B",
+    "result": "W",
+    "stat": "2 SOG"
+   },
+   {
+    "date": "10/15",
+    "sport": "MLB",
+    "player": "Gavin Williams",
+    "prop": "MLB pitcher hits allowed",
+    "line": "o2.5",
+    "odds": "-400 rec",
+    "ticket": "10/15 A 3-leg +344 $5",
+    "result": "L",
+    "stat": "2 H, 5 IP (pulled at 70 pitches)"
+   },
+   {
+    "date": "10/15",
+    "sport": "NHL",
+    "player": "Kyle Connor",
+    "prop": "NHL SOG",
+    "line": "o3.5",
+    "odds": "+115 rec",
+    "ticket": "10/15 A",
+    "result": "W",
+    "stat": "5 SOG, 1 G (CHI 4 WPG 3)"
+   },
+   {
+    "date": "10/15",
+    "sport": "NHL",
+    "player": "Leon Draisaitl",
+    "prop": "NHL SOG",
+    "line": "o2.5",
+    "odds": "-150 rec",
+    "ticket": "10/15 A",
+    "result": "L",
+    "stat": "2 SOG, 1 G (UTA 4 EDM 2)"
+   },
+   {
+    "date": "10/15",
+    "sport": "NHL",
+    "player": "Matthew Schaefer",
+    "prop": "NHL SOG",
+    "line": "o2.5",
+    "odds": "-155 rec",
+    "ticket": "10/15 B 2-leg +101 $10",
+    "result": "W",
+    "stat": "3 SOG (OTT 2 NYI 1 SO)"
+   },
+   {
+    "date": "10/15",
+    "sport": "NFL",
+    "player": "Jaxon Smith-Njigba",
+    "prop": "NFL rec yds (alt)",
+    "line": "o64.5",
+    "odds": "-375 rec",
+    "ticket": "10/15 B",
+    "result": "W",
+    "stat": "12 rec, 134 yds (DEN 17 SEA 14 OT)"
+   }
+  ]
+ },
+ "record": {
+  "overall": {
+   "legs": {
+    "prop": "Overall (all graded)",
+    "w": 18,
+    "l": 14,
+    "p": 0,
+    "pct": 56
+   },
+   "placed_legs": {
+    "prop": "Placed legs only (incl. POTD)",
+    "w": 15,
+    "l": 12,
+    "p": 0,
+    "pct": 56
+   },
+   "tickets": {
+    "prop": "Placed tickets",
+    "w": 2,
+    "l": 9,
+    "p": 0,
+    "pct": 18
+   },
+   "potd": {
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
+   }
+  },
+  "props": [
+   {
+    "prop": "NHL SOG",
+    "w": 10,
+    "l": 5,
+    "p": 0,
+    "pct": 67
+   },
+   {
+    "prop": "NHL points",
+    "w": 1,
+    "l": 2,
+    "p": 0,
+    "pct": 33
+   },
+   {
+    "prop": "MLB batter hits",
+    "w": 2,
+    "l": 1,
+    "p": 0,
+    "pct": 67
+   },
+   {
+    "prop": "MLB batter total bases",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "NFL receptions",
+    "w": 2,
+    "l": 1,
+    "p": 0,
+    "pct": 67
+   },
+   {
+    "prop": "NFL rec yds",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "prop": "MLB pitcher K",
+    "w": 0,
+    "l": 2,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "MLB pitcher ER",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "MLB pitcher hits allowed",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "MLB pitcher outs",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "prop": "MLB pitcher walks",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   }
+  ],
+  "potd": [
+   {
+    "date": "10/15",
+    "pick": "Owen Power u1.5 SOG (BUF@TOR)",
+    "odds": "-120 ($5 placed, pays $9.17)",
+    "result": "L",
+    "detail": "L (2 SOG, 1 G OT winner, BUF 5 TOR 4 OT)"
+   },
+   {
+    "date": "10/16",
+    "pick": "David Pastrnak o3.5 SOG (BOS@ANA)",
+    "odds": "-110 (placed)",
+    "result": "Pending",
+    "detail": "pending"
+   }
+  ],
+  "chart": [
+   [
+    "10/13",
+    -1
+   ],
+   [
+    "10/13",
+    0
+   ],
+   [
+    "10/13",
+    -1
+   ],
+   [
+    "10/13",
+    0
+   ],
+   [
+    "10/13",
+    -1
+   ],
+   [
+    "10/13",
+    0
+   ],
+   [
+    "10/13",
+    1
+   ],
+   [
+    "10/14",
+    0
+   ],
+   [
+    "10/14",
+    1
+   ],
+   [
+    "10/14",
+    0
+   ],
+   [
+    "10/14",
+    1
+   ],
+   [
+    "10/14",
+    2
+   ],
+   [
+    "10/15",
+    1
+   ],
+   [
+    "10/15",
+    2
+   ],
+   [
+    "10/15",
+    1
+   ],
+   [
+    "10/15",
+    2
+   ],
+   [
+    "10/15",
+    3
+   ],
+   [
+    "10/15",
+    2
+   ]
+  ]
+ },
+ "cappers": [
+  {
+   "name": "@alexcaruso",
+   "w": 4,
+   "l": 4,
+   "p": 0,
+   "pct": 50,
+   "props": [
+    {
+     "prop": "MLB batter hits (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "MLB pitcher ER (under)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL rush yds (over)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50
+    },
+    {
+     "prop": "NFL rush/rec yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL receptions (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    }
+   ]
+  },
+  {
+   "name": "@austinsprops",
+   "w": 3,
+   "l": 2,
+   "p": 0,
+   "pct": 60,
+   "props": [
+    {
+     "prop": "MLB pitcher outs (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "MLB pitcher walks (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50
+    },
+    {
+     "prop": "NFL receptions (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "name": "@panpotd",
+   "w": 1,
+   "l": 2,
+   "p": 0,
+   "pct": 33,
+   "props": [
+    {
+     "prop": "NFL receptions (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL rush yds (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    }
+   ]
+  },
+  {
+   "name": "@doctorprofit",
+   "w": 2,
+   "l": 2,
+   "p": 0,
+   "pct": 50,
+   "props": [
+    {
+     "prop": "NFL pass completions (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL pass yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL receptions (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    }
+   ]
+  },
+  {
+   "name": "@showtimepicks2",
+   "w": 5,
+   "l": 1,
+   "p": 0,
+   "pct": 83,
+   "props": [
+    {
+     "prop": "NCAAF ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NCAAF spread",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NCAAF rush yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NCAAF pass yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL spread",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "name": "@salbets_",
+   "w": 0,
+   "l": 4,
+   "p": 0,
+   "pct": 0,
+   "props": [
+    {
+     "prop": "NFL anytime TD",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL receptions (over)",
+     "w": 0,
+     "l": 2,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL rush yds (under)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    }
+   ]
+  },
+  {
+   "name": "@tonestakes",
+   "w": 6,
+   "l": 8,
+   "p": 0,
+   "pct": 43,
+   "props": [
+    {
+     "prop": "MLB game total (under)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "MLB pitcher outs (under)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "MLB F5 total (under)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NHL 1st period line",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NHL SOG (over)",
+     "w": 3,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NHL ML",
+     "w": 2,
+     "l": 2,
+     "p": 0,
+     "pct": 50
+    },
+    {
+     "prop": "NHL team total (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NHL game total (under)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50
+    }
+   ]
+  },
+  {
+   "name": "@bigmikepickz",
+   "w": 1,
+   "l": 0,
+   "p": 0,
+   "pct": 100,
+   "props": [
+    {
+     "prop": "NCAAF ML",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    }
+   ]
+  }
+ ],
+ "capper_notes": [
+  "**@salbets_ video-only:** Official $1000 TNF parlay video (post 2110767405299327431) — ungraded (video-only). Text thread + Underdog slip listed the same four legs and those are graded above (0-4).",
+  "**@doctorprofit video-only:** +2118 Primetime Parlay YouTube/clip (legs not in text/caption; article 404) — ungraded. Moonshot SGP image legs and Bo Nix completions pick are graded above.",
+  "**@bigmikepickz:** No posts in the Oct 15 ET window.",
+  "**Jones ID:** Tone's Jones o2.5 SOG (+190) was **Seth Jones (FLA)** vs VAN (5 SOG) — confirmed from bet-slip image + NHL box score.",
+  "**Austin Kupp o20.5** and **Doc Bo Nix o21.5** were posted late Oct 14 ET for the Oct 15 TNF slate; logged under 2026-10-15."
+ ]
+}

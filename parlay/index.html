@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Picks</title><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Picks"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#0d1117"><link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>body{background:#0d1117;color:#e6edf3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:calc(env(safe-area-inset-top) + 10px) 12px 30px;max-width:640px;margin:auto}
+.tabs{display:flex;gap:6px;margin-bottom:10px;position:sticky;top:0;background:#0d1117;padding:6px 0;z-index:2}.tab{flex:1;padding:10px 4px;border-radius:10px;background:#161b22;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600;font-size:13px;cursor:pointer}
+.tab.on{color:#e6edf3;border-color:#58a6ff}.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:12px;margin-bottom:10px}
+.big{font-size:36px;font-weight:700}.g{color:#3fb950}.r{color:#f85149}.y{color:#d29922}.m{color:#8b949e;font-size:12px}h2{font-size:14px;color:#8b949e;margin:14px 0 6px}
+table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;border-bottom:1px solid #21262d;vertical-align:top}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
+svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align:center;padding:2px 7px;border-radius:999px;font-size:12px;font-weight:700}
+.cW{background:#12361f;color:#3fb950}.cL{background:#3d1517;color:#f85149}.cP{background:#30363d;color:#c9d1d9}.cPending{background:#3a2d0b;color:#d29922}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px}.bar{height:6px;background:#21262d;border-radius:3px;margin-top:4px;overflow:hidden}.bar>i{display:block;height:100%}
+.stats{display:flex;gap:8px}.stats .card{flex:1;text-align:center;padding:10px 4px}.stats b{font-size:20px;display:block}
+details summary{list-style:none;cursor:pointer}details summary::-webkit-details-marker{display:none}</style></head><body>
+<div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Our Record</div><div class="tab" data-k="cappers">Cappers</div></div>
+<div id="v"></div><div class="m" id="upd" style="text-align:center;margin-top:8px"></div>
+<script>
+let D=null,K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const chip=r=>`<span class="chip c${['W','L','P','Pending'].includes(r)?r:'P'}">${E(r)}</span>`;
+const pc=p=>p==null?'—':p+'%',col=p=>p==null?'#8b949e':p>=55?'#3fb950':p>=45?'#d29922':'#f85149';
+const bar=p=>`<div class="bar"><i style="width:${p??0}%;background:${col(p)}"></i></div>`;
+const et=t=>new Date(t*1000).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET';
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{K=b.dataset.k;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));draw()});
+function status(s){const c=s=='W'||/won/i.test(s)?'#3fb950':s=='L'||/lost/i.test(s)?'#f85149':'#d29922';return `<span class="dot" style="background:${c}"></span>${E(s=='W'?'Won':s=='L'?'Lost':s)}`}
+function today(){const t=D.today;let h=`<div class="m" style="margin-bottom:6px">${E(t.title)}</div>`;
+ if(!t.tickets.length)return h+'<div class="card m">No picks posted yet. Picks drop around noon ET.</div>';
+ for(const k of t.tickets){h+=`<div class="card"><div class="m">${E(k.name=='POTD'?'Play of the Day':k.name)}</div>
+ <div class="big" style="font-size:${k.legs.length?30:24}px">${E(k.legs.length?k.odds:k.pick)}</div>
+ ${k.legs.length?'':`<div class="m">${E(k.game)}</div>`}
+ <div class="row" style="margin-top:8px"><div>${status(k.status)}</div><div class="m">${k.legs.length?'':'Odds <b style="color:#e6edf3">'+E(k.odds)+'</b> · '}Stake <b style="color:#e6edf3">${E(k.stake)}</b> · Pays <b class="g">${E(k.payout)}</b></div></div>
+ ${k.legs.length?'<table style="margin-top:8px">'+k.legs.map(l=>`<tr><td>${E(l.pick)}<div class=m>${E(l.game)}</div></td><td>${E(l.odds)}</td><td style="text-align:right">${chip(l.status)}</td></tr>`).join('')+'</table>':''}</div>`}
+ return h}
+function results(){const r=D.results;let h='<h2>Recent tickets</h2>';
+ h+=r.tickets.map(t=>`<div class="card"><div class="row"><div><b>${E(t.name)}</b> <span class="m">${E(t.date)}</span><div class=m>${E(t.desc)}</div></div>${chip(t.result)}</div>
+ <table style="margin-top:6px">${t.legs.map(l=>`<tr><td>${E(l.pick)}<div class=m>${E(l.stat)} · ${E(l.final)}</div></td><td style="text-align:right">${chip(l.result)}</td></tr>`).join('')}</table></div>`).join('')||'<div class="card m">None yet</div>';
+ h+='<h2>Nightly</h2><div class="card"><table>'+r.nights.map(n=>`<tr><td class=m>${E(n.date)}</td><td>${E(n.text)}</td></tr>`).join('')+'</table></div>';
+ return h}
+function record(){const o=D.record.overall,L=o.legs||{},T=o.tickets||{},P=o.potd||{};
+ let h=`<div class="card"><div class="m">All graded legs since Oct 12</div><div class="big ${L.pct>=50?'g':'r'}">${E(L.w)}-${E(L.l)}</div><div>${pc(L.pct)} hit rate</div>
+ <div class="m" style="margin-top:4px">Placed legs: ${E((o.placed_legs||{}).w)}-${E((o.placed_legs||{}).l)} (${pc((o.placed_legs||{}).pct)})</div></div>
+ <div class="stats"><div class="card"><span class=m>Tickets</span><b>${E(T.w)}-${E(T.l)}</b><span class=m>${pc(T.pct)}</span></div><div class="card"><span class=m>POTD</span><b>${E(P.w)}-${E(P.l)}${P.p?'-'+P.p:''}</b><span class=m>${pc(P.pct)}</span></div></div>`;
+ const c=D.record.chart||[];if(c.length>1){const v=c.map(x=>x[1]),lo=Math.min(0,...v),hi=Math.max(0,...v),rg=hi-lo||1,Y=y=>(130-(y-lo)/rg*120).toFixed(1),X=i=>(i*300/(v.length-1)).toFixed(1),last=v[v.length-1];
+  h+=`<div class="card"><div class="row"><span class=m>Net wins (W−L), placed legs + POTD from Oct 13</span><b class="${last>=0?'g':'r'}">${last>=0?'+':''}${last}</b></div><svg viewBox="0 0 300 140" preserveAspectRatio="none"><line x1="0" x2="300" y1="${Y(0)}" y2="${Y(0)}" stroke="#30363d" stroke-dasharray="4 4"/><polyline fill="none" stroke="${last>=0?'#3fb950':'#f85149'}" stroke-width="2" points="${v.map((y,i)=>X(i)+','+Y(y)).join(' ')}"/></svg><div class="row m"><span>${E(c[0][0])}</span><span>${E(c[c.length-1][0])}</span></div></div>`}
+ h+='<h2>By prop type</h2><div class="card">'+D.record.props.map(p=>`<div style="margin:8px 0"><div class="row"><span>${E(p.prop)}</span><span><b>${E(p.w)}-${E(p.l)}</b> <span class=m>${pc(p.pct)}</span></span></div>${bar(p.pct)}</div>`).join('')+'</div>';
+ h+='<h2>Play of the Day log</h2><div class="card"><table>'+D.record.potd.map(p=>`<tr><td class=m>${E(p.date)}</td><td>${E(p.pick)}<div class=m>${E(p.odds)} · ${E(p.detail)}</div></td><td style="text-align:right">${chip(p.result)}</td></tr>`).join('')+'</table></div>';
+ return h}
+function cappers(){let cs=[...D.cappers].sort((a,b)=>(b.pct??-1)-(a.pct??-1));
+ let h='<div class="m" style="margin-bottom:6px">Idea sources only. Tap a capper for prop types.</div>';
+ h+=cs.map(c=>`<details class="card"><summary><div class="row"><b>${E(c.name)}</b><span><b>${E(c.w)}-${E(c.l)}${c.p?'-'+c.p:''}</b> <span style="color:${col(c.pct)}">${pc(c.pct)}</span></span></div>${bar(c.pct)}</summary>
+ <table style="margin-top:8px">${c.props.map(p=>`<tr><td>${E(p.prop)}</td><td style="text-align:right;white-space:nowrap"><b>${E(p.w)}-${E(p.l)}</b> <span style="color:${col(p.pct)}">${pc(p.pct)}</span></td></tr>`).join('')||'<tr><td class=m>No graded picks</td></tr>'}</table></details>`).join('');
+ if(D.capper_notes&&D.capper_notes.length)h+='<h2>Notes</h2><div class="card m">'+D.capper_notes.map(E).join('<br><br>')+'</div>';return h}
+function draw(){if(!D)return;$('v').innerHTML={today,results,record,cappers}[K]();$('upd').textContent='Updated '+et(D.generated)}
+async function load(){try{D=await(await fetch('data.json?'+Date.now(),{cache:'no-store'})).json();draw()}catch(e){$('upd').textContent='Offline / no data'}}
+load();document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
+</script></body></html>
