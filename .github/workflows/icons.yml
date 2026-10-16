@@ -1,0 +1,16 @@
+name: decode-icons
+on:
+  push:
+    paths: ['b64/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  decode:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          for f in b64/*.b64; do n=$(basename "$f" .b64); base64 -d "$f" > "$n"; done
+          git config user.name icons-bot; git config user.email icons-bot@users.noreply.github.com
+          git add *.png; git diff --cached --quiet || git commit -m 'decode icons' && git push
