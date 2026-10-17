@@ -16,7 +16,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 <div id="hb" class="card" style="margin-bottom:6px;padding:10px 12px"></div><div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Our Record</div><div class="tab" data-k="cappers">Cappers</div><div class="tab" data-k="bankroll">Bankroll</div></div>
 <div id="sb" class="sb"></div><div id="v"></div><div class="m" id="upd" style="text-align:center;margin-top:8px"></div>
 <script>
-const UI_BUILD='1792270860';
+const UI_BUILD='1792271115';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Touchdown City').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${['W','L','P','Pending'].includes(r)?r:'P'}">${E(r)}</span>`;
 const pc=p=>p==null?'—':p+'%',col=p=>p==null?'#8b949e':p>=55?'#3fb950':p>=45?'#d29922':'#f85149';
@@ -126,7 +126,7 @@ async function lvFetch(){if(LV.busy)return;LV.busy=1;try{const G=lvGames(),keys=
   for(const k of keys){const [a,h]=k.split(' @ ');if(lvSide(a,A.team)&&lvSide(h,H.team)){out.push({l,e,c,st,A,H,picks:[...G[k]],k});break}}}}
  await Promise.all(out.filter(o=>o.picks.length).map(async o=>{try{const j=await(await fetch(`https://site.api.espn.com/apis/site/v2/sports/${o.l[0]}/${o.l[1]}/summary?event=${o.e.id}`)).json();o.ps=lvPlayers(j,o.picks)}catch(_){}}))}
  LV.ev=out;LV.t=Date.now()}finally{LV.busy=0}lvPaint()}
-const LVK=[[/sog|shots on goal/i,['S','SOG']],[/reception|catches/i,['REC']],[/rec(eiving)? ?y|receiving/i,['YDS','REC']],[/rush/i,['CAR','YDS']],[/pass/i,['C/ATT','YDS','TD']],[/strikeout| k\b|ks\b/i,['K','IP']],[/hits?\b|total bases|tb\b/i,['H','AB']],[/points|pts/i,['PTS']],[/rebound|reb/i,['REB']],[/assist|ast/i,['AST','A']],[/goal/i,['G']]];
+const LVK=[[/sog|shots on goal/i,['SOG']],[/reception|catches/i,['REC']],[/rec(eiving)? ?y|receiving/i,['YDS','REC']],[/rush/i,['CAR','YDS']],[/pass/i,['C/ATT','YDS','TD']],[/strikeout| k\b|ks\b/i,['K','IP']],[/hits?\b|total bases|tb\b/i,['H','AB']],[/points|pts/i,['PTS']],[/rebound|reb/i,['REB']],[/assist|ast/i,['AST','A']],[/goal/i,['G']]];
 function lvPlayers(j,picks){const r=[];const box=(j.boxscore&&j.boxscore.players)||[];const ath=[];box.forEach(t=>(t.statistics||[]).forEach(g=>(g.athletes||[]).forEach(a=>ath.push({n:(a.athlete||{}).displayName||'',lab:g.labels||g.keys||[],st:a.stats||[]}))));
  for(const p of picks){const pl=lvN(p);const hits=ath.filter(a=>{const parts=lvN(a.n).split(' ');return parts.length>1&&pl.includes(parts[parts.length-1])&&pl.includes(parts[0])});if(!hits.length)continue;const want=(LVK.find(x=>x[0].test(p))||[0,[]])[1];const seen={};hits.forEach(a=>a.lab.forEach((L,i)=>{if((!want.length||want.includes(L))&&a.st[i]!=null&&!(L in seen))seen[L]=a.st[i]}));const s=Object.entries(seen).slice(0,want.length?4:6).map(([L,v])=>L+' '+v).join(' · ');if(s)r.push([p,hits[0].n,s])}return r}
 function lvHTML(){if(!LV.t)return '<div class=m>Loading live scores…</div>';if(!LV.ev.length)return '<div class=m>No live games with our picks right now.</div>';
