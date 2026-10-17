@@ -1,5 +1,5 @@
 {
- "generated": 1792250853.8378634,
+ "generated": 1792250960.3081949,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -1471,7 +1471,7 @@
   ],
   "grades": []
  },
- "ui_build": "1792250853",
+ "ui_build": "1792250960",
  "ncaaf_record": {
   "overall": {
    "w": 0,
@@ -2379,6 +2379,136 @@
    "l": 0,
    "p": 0,
    "pct": null
+  }
+ ],
+ "sport_categories": [
+  {
+   "sport": "MLB",
+   "w": 4,
+   "l": 6,
+   "p": 0,
+   "pct": 40,
+   "props": [
+    {
+     "prop": "MLB batter hits",
+     "w": 2,
+     "l": 1,
+     "p": 0,
+     "pct": 67
+    },
+    {
+     "prop": "MLB batter total bases",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "MLB pitcher K",
+     "w": 0,
+     "l": 2,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "MLB pitcher ER",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "MLB pitcher hits allowed",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "MLB pitcher outs",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "MLB pitcher walks",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "sport": "NHL",
+   "w": 13,
+   "l": 7,
+   "p": 0,
+   "pct": 65,
+   "props": [
+    {
+     "prop": "NHL SOG",
+     "w": 12,
+     "l": 5,
+     "p": 0,
+     "pct": 71
+    },
+    {
+     "prop": "NHL points",
+     "w": 1,
+     "l": 2,
+     "p": 0,
+     "pct": 33
+    }
+   ]
+  },
+  {
+   "sport": "NFL",
+   "w": 3,
+   "l": 1,
+   "p": 0,
+   "pct": 75,
+   "props": [
+    {
+     "prop": "NFL receptions",
+     "w": 2,
+     "l": 1,
+     "p": 0,
+     "pct": 67
+    },
+    {
+     "prop": "NFL rec yds",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    }
+   ]
+  },
+  {
+   "sport": "NCAA F",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null,
+   "props": []
+  },
+  {
+   "sport": "WNBA",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null,
+   "props": []
+  },
+  {
+   "sport": "MLS",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null,
+   "props": []
   }
  ]
 }
