@@ -1,5 +1,5 @@
 {
- "generated": 1792251013.4005342,
+ "generated": 1792251152.367005,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -257,7 +257,18 @@
      "why": "Only MLB game today. Nick Martinez has 13 scoreless innings in two starts vs CLE this year; Cleveland runs a bullpen game (Shawn Armstrong opens). F5 totals this series 2, 3, 5; LineMate TB F5 ML 5 of last 6 vs CLE. ~45°F, light wind. Risk: Martinez's early hook (3.2 and 2.2 IP last two). Hard Rock price via LineMate. No MLB parlay: only one game on the slate, and no second Hard Rock-priced leg to reach +100 without guessing odds.",
      "desc": "Tampa Bay Rays F5 ML -125 (TB @ CLE 8:00 PM ET)"
     },
-    "parlay": null
+    "parlay": null,
+    "runners_up": [
+     {
+      "pick": "Tampa Bay Rays +1.5 F5",
+      "odds": "-375",
+      "game": "TB @ CLE 8:00 PM ET",
+      "status": "Pending",
+      "why": "Only other Hard Rock-priced MLB play: loses only if CLE leads by 2+ after 5. Martinez 13 scoreless IP vs CLE this year; CLE bullpen game; LineMate TB +1.5 F5 6/6 vs CLE. Risk: Martinez's early hook.",
+      "grade": "A",
+      "rank": 1
+     }
+    ]
    },
    "NHL": {
     "potd": {
@@ -291,7 +302,54 @@
        "why": "LineMate L4 4/4 and away 4/4 on SEA o2.5; McCann (L12 11/12 2+ SOG) and Dunn healthy. Risk: FLA is a -185 home favorite."
       }
      ]
-    }
+    },
+    "runners_up": [
+     {
+      "pick": "Tampa Bay Lightning ML",
+      "odds": "-450",
+      "game": "VAN @ TB 4:00 PM ET",
+      "status": "Pending",
+      "why": "VAN 2-6-1, 7 losses in 8, allows 4.56 GA and 32.4 shots/g; TB 4/4 at home; Demko on IR.",
+      "grade": "A-",
+      "rank": 1
+     },
+     {
+      "pick": "Jack Roslovic o1.5 SOG",
+      "odds": "-195",
+      "game": "NYI @ TOR 7:00 PM ET",
+      "status": "Pending",
+      "why": "2+ shots in all 8 games (avg 3.1); Tavares day-to-day could add minutes; NYI allows 26.0 shots/g.",
+      "grade": "B++",
+      "rank": 2
+     },
+     {
+      "pick": "Noah Dobson u2.5 SOG",
+      "odds": "-185",
+      "game": "BUF @ MTL 7:00 PM ET",
+      "status": "Pending",
+      "why": "2 or fewer in 6 of 7 this season (LineMate L17 14/17, vs BUF 6/6); BUF allows 24.6 shots/g. Risk: 5 shots last game.",
+      "grade": "B+",
+      "rank": 3
+     },
+     {
+      "pick": "Arseny Gritsyuk o1.5 SOG",
+      "odds": "-140",
+      "game": "NJ @ WSH 1:00 PM ET",
+      "status": "Pending",
+      "why": "2+ in 6 of 7 (LineMate L14 12/14); TOI rising; NJ 35.6 shots/g. Thin cushion (many exact 2s).",
+      "grade": "B",
+      "rank": 4
+     },
+     {
+      "pick": "(+EV) Quinton Byfield o2.5 SOG",
+      "odds": "+110",
+      "game": "+EV",
+      "status": "Pending",
+      "why": "LineMate L9 8/9 vs +110 (implied 48%); 3,3,0,4,3 SOG this year on 19-23 min.",
+      "grade": "B-",
+      "rank": 5
+     }
+    ]
    },
    "NCAA F": {
     "potd": {
@@ -325,7 +383,63 @@
        "why": "Michigan offense 83rd (23.0); both pass defenses top 5 (4th, 5th); Michigan allows 15.8 pts/g."
       }
      ]
-    }
+    },
+    "runners_up": [
+     {
+      "pick": "Nebraska Over 21.5 Team Total",
+      "odds": "-125",
+      "game": "Nebraska @ Oregon 11:00 PM ET",
+      "status": "Pending",
+      "why": "NEB offense 6th (40.2) vs ORE D 79th in points, 106th vs the pass.",
+      "grade": "B+",
+      "rank": 1
+     },
+     {
+      "pick": "Ohio State @ Indiana 1st Half Under 24.5",
+      "odds": "-130",
+      "game": "Ohio State @ Indiana 12:00 PM ET",
+      "status": "Pending",
+      "why": "Both defenses top 8 in points allowed; top-20 run defenses.",
+      "grade": "B+",
+      "rank": 2
+     },
+     {
+      "pick": "Notre Dame -10.5",
+      "odds": "-120",
+      "game": "Notre Dame @ BYU 7:30 PM ET",
+      "status": "Pending",
+      "why": "ND 2nd in scoring and 2nd in points allowed vs BYU offense 59th; correlates with the BYU under in the parlay.",
+      "grade": "B+",
+      "rank": 3
+     },
+     {
+      "pick": "Miami -19.5",
+      "odds": "-125",
+      "game": "FSU @ Miami 7:00 PM ET",
+      "status": "Pending",
+      "why": "Miami 4th scoring, 1st points allowed; FSU D 93rd, rush 105th, pass 115th.",
+      "grade": "B",
+      "rank": 4
+     },
+     {
+      "pick": "Auburn Under 14.5 Team Total",
+      "odds": "-130",
+      "game": "Auburn @ Georgia 3:30 PM ET",
+      "status": "Pending",
+      "why": "AUB offense 64th vs UGA D 14th, rush D 8th. Low number.",
+      "grade": "B",
+      "rank": 5
+     },
+     {
+      "pick": "Ohio State @ Indiana Total Rushing Yards Under 248.5",
+      "odds": "-115",
+      "game": "Ohio State @ Indiana 12:00 PM ET",
+      "status": "Pending",
+      "why": "Run D allowed 87.4 (7th) and 96.2 (18th); ~184 combined.",
+      "grade": "B",
+      "rank": 6
+     }
+    ]
    },
    "MLS": {
     "potd": {
@@ -359,7 +473,45 @@
        "why": "Atlanta 4 wins vs Miami since 2023, home and desperate; Miami 0 away wins in nearly three months."
       }
      ]
-    }
+    },
+    "runners_up": [
+     {
+      "pick": "Inter Miami Over 5.5 Shots on Target",
+      "odds": "-125",
+      "game": "Atlanta United vs Inter Miami 7:30 PM ET",
+      "status": "Pending",
+      "why": "Miami is MLS's top scorer (70 goals in 29); Messi has a goal contribution in 11 straight; open game expected with Atlanta chasing.",
+      "grade": "B",
+      "rank": 1
+     },
+     {
+      "pick": "Atlanta United 1H Over 0.5 Team Goals",
+      "odds": "-125",
+      "game": "Atlanta United vs Inter Miami 7:30 PM ET",
+      "status": "Pending",
+      "why": "Atlanta 2+ goals in 8 of last 12; must-win at home. Risk: Miami's two straight clean sheets.",
+      "grade": "B-",
+      "rank": 2
+     },
+     {
+      "pick": "Atlanta United to win either half Yes",
+      "odds": "-115",
+      "game": "Atlanta United vs Inter Miami 7:30 PM ET",
+      "status": "Pending",
+      "why": "Atlanta 4 wins vs Miami since 2023; Miami 0 away wins since July 25.",
+      "grade": "C+",
+      "rank": 3
+     },
+     {
+      "pick": "San Diego FC 1H Over 0.5 Team Goals",
+      "odds": "-125",
+      "game": "LA Galaxy vs San Diego FC 10:30 PM ET",
+      "status": "Pending",
+      "why": "SD scored early 2-0 vs HOU midweek; Galaxy missing Lozano/Furuhashi/Puig, allowed 6 at STL 10/11. Risk: SD winless in 8.",
+      "grade": "C+",
+      "rank": 4
+     }
+    ]
    }
   }
  },
@@ -1586,7 +1738,7 @@
   ],
   "grades": []
  },
- "ui_build": "1792250960",
+ "ui_build": "1792251130",
  "ncaaf_record": {
   "overall": {
    "w": 0,

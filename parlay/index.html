@@ -16,7 +16,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 <div id="hb" class="card" style="margin-bottom:6px;padding:10px 12px"></div><div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Our Record</div><div class="tab" data-k="cappers">Cappers</div><div class="tab" data-k="bankroll">Bankroll</div></div>
 <div id="sb" class="sb"></div><div id="v"></div><div class="m" id="upd" style="text-align:center;margin-top:8px"></div>
 <script>
-const UI_BUILD='1792250960';
+const UI_BUILD='1792251130';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Touchdown City').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chip=r=>`<span class="chip c${['W','L','P','Pending'].includes(r)?r:'P'}">${E(r)}</span>`;
 const pc=p=>p==null?'—':p+'%',col=p=>p==null?'#8b949e':p>=55?'#3fb950':p>=45?'#d29922':'#f85149';
@@ -35,10 +35,12 @@ function sbub(){const R=D.sport_records||[];return R.map(r=>`<div class="card" s
 let SP='';
 function goSport(n){SP=n;K='sport';history.replaceState(null,'','#sport');document.querySelectorAll('.tab').forEach(b=>b.classList.remove('on'));draw();scrollTo(0,0)}
 function sport(){const S=((D.today||{}).sports||{})[SP];let h=`<h2>${E(SP)} picks today</h2><div class="m" style="margin-bottom:6px">Unofficial · unstaked · tap a pick for the reasoning</div>`;
- if(!S||(!S.potd&&!S.parlay))return h+'<div class="card m">No picks today</div>';
+ if(!S||(!S.potd&&!S.parlay&&!(S.runners_up||[]).length))return h+'<div class="card m">No picks today</div>';
  const lg=l=>`<details class="leg"><summary><div class="row"><div>${E(l.pick)}<div class=m>${E(l.game)}</div></div><div style="text-align:right;white-space:nowrap">${E(l.odds)} ${chip(l.status)}<div class=m>Why ▾</div></div></div></summary>${why(l.why)}</details>`;
  h+=S.potd?`<details class="card"><summary><div class="m">Play of the Day</div><div class="big" style="font-size:24px">${E(S.potd.pick)}</div><div class="m">${E(S.potd.game)}</div><div class="row" style="margin-top:8px"><div>${chip(S.potd.status)}</div><div class="m">Odds <b style="color:#e6edf3">${E(S.potd.odds)}</b> · Why ▾</div></div></summary>${why(S.potd.why)}</details>`:'<div class="card m">No POTD today</div>';
  h+=S.parlay?`<div class="card"><div class="m">Parlay</div><div class="big" style="font-size:30px">${E(S.parlay.odds)}</div>${chip(S.parlay.status)}${S.parlay.why?why(S.parlay.why):''}<div style="margin-top:8px">${(S.parlay.legs||[]).map(lg).join('')}</div></div>`:'<div class="card m">No parlay today</div>';
+ const R=S.runners_up||[];h+='<h2>Runners-up (next-best plays)</h2>';
+ h+=R.length?'<div class="card">'+R.map(x=>`<details class="leg"><summary><div class="row"><div><span class="chip cP">${x.rank}</span> ${x.grade&&x.grade!='—'?`<span class="chip" style="background:${gc(x.grade)}22;color:${gc(x.grade)};border:1px solid ${gc(x.grade)}66">${E(x.grade)}</span> `:''}${E(x.pick)}<div class=m>${E(x.game)}</div></div><div style="text-align:right;white-space:nowrap"><b>${E(x.odds)}</b> ${chip(x.status)}<div class=m>Why ▾</div></div></div></summary>${why(x.why)}</details>`).join('')+'</div>':'<div class="card m">No runners-up today</div>';
  return h}
 function today(){const t=D.today;const RS={};((D.runners_up_record||{}).recent||[]).forEach(x=>{if(x.date==D.capper_today_date)RS[x.rank]=x.sport});let h=`<div class="tg"><div class="${ALL?'':'on'}" onclick="setAll(false)">Majors</div><div class="${ALL?'on':''}" onclick="setAll(true)">All sports</div></div>`+`<div class="m" style="margin-bottom:6px">${E(t.title)} · tap a pick for the reasoning</div>`;
  if(!t.tickets.length)h+='<div class="card m">No picks posted yet. Picks drop around noon ET.</div>';
