@@ -1,5 +1,5 @@
 {
- "generated": 1792221296.2140703,
+ "generated": 1792227269.0444741,
  "today": {
   "title": "Oct 16 placed bets (Hard Rock)",
   "tickets": [
@@ -16,24 +16,24 @@
    },
    {
     "name": "+100 ticket",
-    "desc": "2-leg +108, $10, pays $20.84; Carlsson leg won, Díaz leg rain-postponed (TB-CLE ALCS G4 moved to Sat 10/17 8:00 PM ET)",
+    "desc": "2-leg +108, $10; Díaz leg VOIDED by Hard Rock (rainout), settled as Carlsson single -155, pays $16.45",
     "odds": "+108",
     "stake": "$10",
-    "payout": "$20.84",
-    "status": "Pending",
+    "payout": "$16.45",
+    "status": "Won",
     "game": "",
     "legs": [
      {
       "pick": "Yandy Diaz u0.5 RBI",
       "odds": "-375",
-      "game": "TB @ CLE, postponed by rain; Hard Rock void/action rule not confirmed",
-      "status": "Pending"
+      "game": "TB @ CLE",
+      "status": "Void"
      },
      {
       "pick": "Leo Carlsson u2.5 SOG",
       "odds": "-155",
       "game": "BOS @ ANA 10:00 PM ET",
-      "status": "Pending"
+      "status": "Won"
      }
     ],
     "pick": "2-leg +108"
@@ -45,8 +45,8 @@
    {
     "date": "2026-10-16",
     "name": "Ticket B",
-    "desc": "$10 2-leg +108, to pay $20.84",
-    "result": "Pending",
+    "desc": "$10 2-leg +108 (settled as Carlsson single -155 after Díaz void), paid $16.45",
+    "result": "W",
     "legs": [
      {
       "pick": "Leo Carlsson u2.5 SOG",
@@ -56,8 +56,8 @@
      },
      {
       "pick": "Yandy Díaz u0.5 RBI",
-      "result": "Pending",
-      "stat": "game postponed (rain); ALCS G4 now Sat 10/17 8:00 PM ET",
+      "result": "Void",
+      "stat": "no action — Hard Rock voided leg (rainout); not carried to Sat",
       "final": "PPD"
      }
     ]
@@ -256,7 +256,7 @@
    },
    {
     "date": "2026-10-16",
-    "text": "2 of 2 graded legs hit; POTD won (+$9.09 profit). +100 ticket still open (Díaz leg postponed)."
+    "text": "2 of 2 graded legs hit; POTD won (+$9.09 profit). +100 ticket WON as Carlsson single -155, $16.45 (Díaz leg voided, confirmed by user 10/17)."
    }
   ],
   "placed_legs": [
@@ -466,8 +466,8 @@
     "line": "u0.5",
     "odds": "-375 placed",
     "ticket": "10/16 +100",
-    "result": "Pending",
-    "stat": "TB @ CLE rain-postponed to Sat 10/17"
+    "result": "Void",
+    "stat": "No action: Hard Rock voided (rainout); not carried to Sat"
    }
   ]
  },
@@ -489,10 +489,10 @@
    },
    "tickets": {
     "prop": "Placed tickets",
-    "w": 3,
+    "w": 4,
     "l": 9,
     "p": 0,
-    "pct": 25
+    "pct": 31
    },
    "potd": {
     "w": 1,
@@ -1026,17 +1026,11 @@
  ],
  "bankroll": {
   "start": 51.05,
-  "total": 60.14,
-  "available": 50.14,
-  "pending": 10.0,
-  "pct": 17.81,
-  "pending_bets": [
-   {
-    "bet": "+100 ticket 2-leg +108 (Carlsson u2.5 SOG won; Díaz u0.5 RBI rain-postponed)",
-    "stake": "$10.00",
-    "pays": "$20.84"
-   }
-  ],
+  "total": 66.59,
+  "available": 66.59,
+  "pending": 0.0,
+  "pct": 30.44,
+  "pending_bets": [],
   "ledger": [
    {
     "date": "2026-10-16 16:40 ET",
@@ -1053,6 +1047,14 @@
     "available": 50.14,
     "pending": 10.0,
     "total": 60.14
+   },
+   {
+    "date": "2026-10-17 04:53 ET",
+    "event": "+100 ticket WON as Carlsson u2.5 SOG single -155 (Díaz leg voided, rainout)",
+    "amount": "+$16.45",
+    "available": 66.59,
+    "pending": 0.0,
+    "total": 66.59
    }
   ]
  }
