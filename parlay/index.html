@@ -45,10 +45,12 @@ function record(){const o=D.record.overall,L=o.legs||{},T=o.tickets||{},P=o.potd
  h+='<h2>By prop type</h2><div class="card">'+D.record.props.map(p=>`<div style="margin:8px 0"><div class="row"><span>${E(p.prop)}</span><span><b>${E(p.w)}-${E(p.l)}</b> <span class=m>${pc(p.pct)}</span></span></div>${bar(p.pct)}</div>`).join('')+'</div>';
  h+='<h2>Play of the Day log</h2><div class="card"><table>'+D.record.potd.map(p=>`<tr><td class=m>${E(p.date)}</td><td>${E(p.pick)}<div class=m>${E(p.odds)} · ${E(p.detail)}</div></td><td style="text-align:right">${chip(p.result)}</td></tr>`).join('')+'</table></div>';
  return h}
-function cappers(){let cs=[...D.cappers].sort((a,b)=>(b.pct??-1)-(a.pct??-1));
- let h='<div class="m" style="margin-bottom:6px">Idea sources only. Tap a capper for prop types.</div>';
- h+=cs.map(c=>`<details class="card"><summary><div class="row"><b>${E(c.name)}</b><span><b>${E(c.w)}-${E(c.l)}${c.p?'-'+c.p:''}</b> <span style="color:${col(c.pct)}">${pc(c.pct)}</span></span></div>${bar(c.pct)}</summary>
- <table style="margin-top:8px">${c.props.map(p=>`<tr><td>${E(p.prop)}</td><td style="text-align:right;white-space:nowrap"><b>${E(p.w)}-${E(p.l)}</b> <span style="color:${col(p.pct)}">${pc(p.pct)}</span></td></tr>`).join('')||'<tr><td class=m>No graded picks</td></tr>'}</table></details>`).join('');
+function cappers(){const cs=D.cappers||[],td=D.capper_today_date||'';
+ let h=`<div class="m" style="margin-bottom:6px">Idea sources only. Tap a capper for today's picks (${E(td)}) and records by prop type.</div>`;
+ h+=cs.map(c=>{const t=c.today||[],pend=t.filter(x=>x.status=='Pending').length;
+ return `<details class="card"><summary><div class="row"><b>${E(c.name)}</b><span class="m">${t.length?`<b style="color:#e6edf3">${t.length}</b> pick${t.length>1?'s':''} today${pend?' · '+pend+' pending':''}`:'No picks yet'} ▾</span></div></summary>
+ <h2 style="margin-top:10px">Today's picks</h2>${t.length?'<table>'+t.map(x=>`<tr><td><span class="m">${E(x.sport)}</span> ${E(x.pick)}<div class=m>${E(x.prop)} · ${E(x.odds)}</div></td><td style="text-align:right">${chip(x.status)}</td></tr>`).join('')+'</table>':'<div class="m">No picks posted yet</div>'}
+ <h2>Record by prop type</h2><table>${(c.props||[]).map(p=>`<tr><td>${E(p.prop)}${bar(p.pct)}</td><td style="text-align:right;white-space:nowrap"><b>${E(p.w)}-${E(p.l)}${p.p?'-'+p.p:''}</b> <span style="color:${col(p.pct)}">${pc(p.pct)}</span></td></tr>`).join('')||'<tr><td class=m>No graded picks</td></tr>'}</table></details>`}).join('');
  if(D.capper_notes&&D.capper_notes.length)h+='<h2>Notes</h2><div class="card m">'+D.capper_notes.map(E).join('<br><br>')+'</div>';return h}
 function bankroll(){const b=D.bankroll;if(!b)return '<div class="card m">No bankroll data yet.</div>';
  const f=v=>v==null?'—':'$'+(+v).toFixed(2),up=(b.pct??0)>=0;
@@ -61,7 +63,7 @@ function bankroll(){const b=D.bankroll;if(!b)return '<div class="card m">No bank
  h+='<h2>Pending bets</h2><div class="card"><table>'+((b.pending_bets||[]).map(p=>`<tr><td>${E(p.bet)}</td><td style="white-space:nowrap">${E(p.stake)}</td><td class="g" style="text-align:right;white-space:nowrap">${E(p.pays)}</td></tr>`).join('')||'<tr><td class=m>None</td></tr>')+'</table></div>';
  h+='<h2>Ledger</h2><div class="card"><table>'+[...(b.ledger||[])].reverse().slice(0,15).map(l=>`<tr><td class=m>${E(l.date)}</td><td>${E(l.event)}<div class=m>Avail ${f(l.available)} · Pend ${f(l.pending)}</div></td><td style="text-align:right">${E(l.amount)}<div><b>${f(l.total)}</b></div></td></tr>`).join('')+'</table></div>';
  return h}
-function draw(){if(!D)return;{const b=D.bankroll||{},f=v=>v==null?'—':'$'+(+v).toFixed(2);$('hb').innerHTML=`<div class="row"><div><div class=m>Hard Rock balance</div><div style="font-size:26px;font-weight:700" class=g>${f(b.available)}</div></div><div class=m style="text-align:right">Total ${f(b.total)}<br>Pending <span class=y>${f(b.pending)}</span></div></div>`}document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));$('v').innerHTML={today,results,record,cappers,bankroll}[K]();$('upd').textContent='Updated '+et(D.generated)}
+function draw(){if(!D)return;{const b=D.bankroll||{},f=v=>v==null?'—':'$'+(+v).toFixed(2);$('hb').innerHTML=`<div class="row"><div><div class=m>Hard Rock balance</div><div style="font-size:26px;font-weight:700" class=g>${f(b.available)}</div></div><div class=m style="text-align:right">Total ${f(b.total)}<br>Pending <span class=y>${f(b.pending)}</span></div></div>`}document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));const op=[...document.querySelectorAll('details')].map(d=>d.open);$('v').innerHTML={today,results,record,cappers,bankroll}[K]();document.querySelectorAll('details').forEach((d,i)=>{if(op[i])d.open=true});$('upd').textContent='Updated '+et(D.generated)}
 async function load(){try{D=await(await fetch('data.json?'+Date.now(),{cache:'no-store'})).json();draw()}catch(e){$('upd').textContent='Offline / no data'}}
 load();document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
 </script></body></html>

@@ -1,5 +1,5 @@
 {
- "generated": 1792227269.0444741,
+ "generated": 1792230863.005982,
  "today": {
   "title": "Oct 16 placed bets (Hard Rock)",
   "tickets": [
@@ -682,10 +682,6 @@
  "cappers": [
   {
    "name": "@alexcaruso",
-   "w": 4,
-   "l": 4,
-   "p": 0,
-   "pct": 50,
    "props": [
     {
      "prop": "MLB batter hits (under)",
@@ -736,14 +732,26 @@
      "p": 0,
      "pct": 0
     }
+   ],
+   "today": [
+    {
+     "sport": "MLB",
+     "prop": "MLB batter hits (under)",
+     "pick": "Taylor Walls u0.5 hits (TB @ CLE ALCS G4, 8 PM; PPD from 10/16)",
+     "odds": "—",
+     "status": "Pending"
+    },
+    {
+     "sport": "MLB",
+     "prop": "MLB ML",
+     "pick": "Guardians ML (vs TB, ALCS G4)",
+     "odds": "-104 FD",
+     "status": "Pending"
+    }
    ]
   },
   {
    "name": "@austinsprops",
-   "w": 3,
-   "l": 2,
-   "p": 0,
-   "pct": 60,
    "props": [
     {
      "prop": "MLB pitcher outs (over)",
@@ -773,14 +781,11 @@
      "p": 0,
      "pct": 100
     }
-   ]
+   ],
+   "today": []
   },
   {
    "name": "@panpotd",
-   "w": 1,
-   "l": 2,
-   "p": 0,
-   "pct": 33,
    "props": [
     {
      "prop": "NFL receptions (over)",
@@ -803,14 +808,11 @@
      "p": 0,
      "pct": 0
     }
-   ]
+   ],
+   "today": []
   },
   {
    "name": "@doctorprofit",
-   "w": 2,
-   "l": 2,
-   "p": 0,
-   "pct": 50,
    "props": [
     {
      "prop": "NFL pass completions (over)",
@@ -840,14 +842,11 @@
      "p": 0,
      "pct": 0
     }
-   ]
+   ],
+   "today": []
   },
   {
    "name": "@showtimepicks2",
-   "w": 6,
-   "l": 1,
-   "p": 0,
-   "pct": 86,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -891,14 +890,11 @@
      "p": 0,
      "pct": 100
     }
-   ]
+   ],
+   "today": []
   },
   {
    "name": "@salbets_",
-   "w": 0,
-   "l": 4,
-   "p": 0,
-   "pct": 0,
    "props": [
     {
      "prop": "NFL anytime TD",
@@ -921,14 +917,11 @@
      "p": 0,
      "pct": 0
     }
-   ]
+   ],
+   "today": []
   },
   {
    "name": "@tonestakes",
-   "w": 7,
-   "l": 7,
-   "p": 1,
-   "pct": 50,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -993,14 +986,19 @@
      "p": 0,
      "pct": 100
     }
+   ],
+   "today": [
+    {
+     "sport": "MLB",
+     "prop": "MLB team total (over)",
+     "pick": "Rays TT Over 3.5 (@ CLE, ALCS G4)",
+     "odds": "+116",
+     "status": "Pending"
+    }
    ]
   },
   {
    "name": "@bigmikepickz",
-   "w": 1,
-   "l": 0,
-   "p": 0,
-   "pct": 100,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -1009,7 +1007,8 @@
      "p": 0,
      "pct": 100
     }
-   ]
+   ],
+   "today": []
   }
  ],
  "capper_notes": [
@@ -1057,5 +1056,6 @@
     "total": 66.59
    }
   ]
- }
+ },
+ "capper_today_date": "2026-10-17"
 }
