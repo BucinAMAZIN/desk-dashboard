@@ -1,5 +1,5 @@
 {
- "generated": 1792250489.426073,
+ "generated": 1792250853.8378634,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -1471,7 +1471,7 @@
   ],
   "grades": []
  },
- "ui_build": "1792250489",
+ "ui_build": "1792250853",
  "ncaaf_record": {
   "overall": {
    "w": 0,
@@ -1814,6 +1814,571 @@
      ]
     }
    ]
+  },
+  {
+   "key": "soccer",
+   "sport": "Soccer",
+   "file": "soccer-oct17.md",
+   "title": "Hard Rock Soccer lines, Oct 17 (filter -105 to -130)",
+   "summary": "Bayern Munich vs RB Leipzig (17 alt/team/corner/shot lines in range), then Real Betis vs FC Barcelona (15), then Newcastle United vs Aston Villa and Lille vs Brest (14 each).",
+   "games": [
+    {
+     "game": "Newcastle United vs Aston Villa (EPL) 12:30 PM ET",
+     "markets": [
+      {
+       "market": "Team totals",
+       "lines": "Newcastle United Over 1.5 -125; Newcastle United Under 1.5 -110"
+      },
+      {
+       "market": "Corners total",
+       "lines": "Over 10.5 -110; Under 10.5 -130; 1H Under 4.5 -110; 2H Over 5.5 -115; 2H Under 5.5 -120"
+      },
+      {
+       "market": "Team corners",
+       "lines": "Newcastle United Over 5.5 -110; Newcastle United Under 5.5 -125; Aston Villa Over 4.5 -110; Aston Villa Under 4.5 -125; 1H Newcastle United Over 2.5 -115"
+      },
+      {
+       "market": "1H team total goals",
+       "lines": "Aston Villa Over 0.5 -110; Aston Villa Under 0.5 -130; Newcastle United Under 0.5 -105"
+      },
+      {
+       "market": "Shots total",
+       "lines": "Under 27.5 -105; Over 28.5 -115"
+      },
+      {
+       "market": "Team shots",
+       "lines": "Newcastle United Under 14.5 -120; Aston Villa Under 12.5 -110"
+      },
+      {
+       "market": "Team shots on target",
+       "lines": "Aston Villa Over 4.5 -125; Newcastle United most shots on target -130"
+      },
+      {
+       "market": "Specials",
+       "lines": "Aston Villa to win either half No -120; Aston Villa to win either half Yes -125"
+      },
+      {
+       "market": "Score 1st goal",
+       "lines": "Newcastle United -120"
+      }
+     ]
+    },
+    {
+     "game": "Real Betis vs FC Barcelona (La Liga) 12:30 PM ET",
+     "markets": [
+      {
+       "market": "Team totals",
+       "lines": "FC Barcelona Over 2.5 -130; FC Barcelona Under 2.5 -105; 1H Betis Over 0.5 -110; 1H Betis Under 0.5 -130; 2H FC Barcelona Over 1.5 -110; 2H FC Barcelona Under 1.5 -125"
+      },
+      {
+       "market": "Corners total",
+       "lines": "Over 10.5 -110; Under 10.5 -125; 1H Under 4.5 -105; 2H Over 5.5 -115; 2H Under 5.5 -120"
+      },
+      {
+       "market": "Team corners",
+       "lines": "1H Betis Under 1.5 -110; 1H FC Barcelona Under 2.5 -105"
+      },
+      {
+       "market": "Shots total",
+       "lines": "Under 30.5 -105; Over 31.5 -115"
+      },
+      {
+       "market": "Team shots",
+       "lines": "Betis Under 12.5 -120; FC Barcelona Under 17.5 -110; FC Barcelona Over 18.5 -105"
+      },
+      {
+       "market": "Team shots on target",
+       "lines": "Betis Over 4.5 -105; FC Barcelona Over 7.5 -115"
+      },
+      {
+       "market": "1H double chance",
+       "lines": "Betis or Tie -115"
+      },
+      {
+       "market": "1H result",
+       "lines": "FC Barcelona -125"
+      }
+     ]
+    },
+    {
+     "game": "Valencia vs Athletic Bilbao (La Liga) 3:00 PM ET",
+     "markets": [
+      {
+       "market": "Total goals",
+       "lines": "Under 2.5 -130"
+      },
+      {
+       "market": "Both teams to score",
+       "lines": "No -105; Yes -130"
+      },
+      {
+       "market": "Corners total",
+       "lines": "Over 9.5 -105"
+      },
+      {
+       "market": "Team corners",
+       "lines": "Valencia Over 4.5 -115; Valencia Under 4.5 -125; Athletic Bilbao Over 4.5 -110; Athletic Bilbao Under 4.5 -130"
+      },
+      {
+       "market": "Most corners",
+       "lines": "1H Valencia -105; 1H Athletic Bilbao -105; 2H Valencia -115; 2H Athletic Bilbao -105"
+      },
+      {
+       "market": "First corner",
+       "lines": "Valencia -120; Athletic Bilbao -120"
+      },
+      {
+       "market": "2H team total goals",
+       "lines": "Valencia Over 0.5 -105; Valencia Under 0.5 -130"
+      },
+      {
+       "market": "Shots total",
+       "lines": "Under 24.5 -105; Over 25.5 -110"
+      },
+      {
+       "market": "Team shots",
+       "lines": "Valencia Over 12.5 -110; Athletic Bilbao Over 12.5 -120; Athletic Bilbao Under 12.5 -130"
+      },
+      {
+       "market": "Team shots on target",
+       "lines": "Valencia Over 3.5 -115"
+      },
+      {
+       "market": "Score 1st goal",
+       "lines": "Athletic Bilbao -120"
+      }
+     ]
+    },
+    {
+     "game": "Bologna vs Inter (Serie A) 12:00 PM ET",
+     "markets": [
+      {
+       "market": "Corners total",
+       "lines": "Over 9.5 -120; Under 9.5 -115; 1H Over 4.5 -105"
+      },
+      {
+       "market": "Team corners",
+       "lines": "1H Bologna Under 1.5 -110; 1H Inter Over 2.5 -110; 2H Inter Over 2.5 -130; 2H Inter Under 2.5 -110"
+      },
+      {
+       "market": "2H total goals",
+       "lines": "Over 1.5 -130; Under 1.5 -110"
+      },
+      {
+       "market": "2H double chance",
+       "lines": "Bologna or Tie -115"
+      },
+      {
+       "market": "2H result",
+       "lines": "Inter -125"
+      },
+      {
+       "market": "Shots total",
+       "lines": "Over 27.5 -120; Under 27.5 -130"
+      },
+      {
+       "market": "Team shots",
+       "lines": "Bologna Over 10.5 -130; Bologna Under 10.5 -120; Inter Under 15.5 -105; Inter Over 16.5 -110"
+      },
+      {
+       "market": "Team shots on target",
+       "lines": "Bologna Over 3.5 -120"
+      }
+     ]
+    },
+    {
+     "game": "Roma vs Genoa (Serie A) 2:45 PM ET",
+     "markets": [
+      {
+       "market": "Total goals",
+       "lines": "Over 2.5 -120; Under 2.5 -110"
+      },
+      {
+       "market": "Both teams to score",
+       "lines": "No -125; Yes -110"
+      },
+      {
+       "market": "Corners total",
+       "lines": "Over 9.5 -105"
+      },
+      {
+       "market": "Team corners",
+       "lines": "1H Roma Under 2.5 -105; 2H Genoa Over 1.5 -110; 2H Genoa Under 1.5 -130"
+      },
+      {
+       "market": "2H total goals",
+       "lines": "Over 1.5 -105"
+      },
+      {
+       "market": "2H double chance",
+       "lines": "Tie or Genoa -120"
+      },
+      {
+       "market": "2H result",
+       "lines": "Roma -120"
+      },
+      {
+       "market": "Specials",
+       "lines": "Roma to hit the woodwork Yes -115"
+      },
+      {
+       "market": "Shots total",
+       "lines": "Under 26.5 -110; Over 27.5 -110"
+      },
+      {
+       "market": "Team shots",
+       "lines": "Roma Under 17.5 -105; Roma Over 18.5 -115; Genoa Over 8.5 -120"
+      }
+     ]
+    },
+    {
+     "game": "Bayern Munich vs RB Leipzig (Bundesliga) 12:30 PM ET",
+     "markets": [
+      {
+       "market": "Total goals",
+       "lines": "Over 4.5 -130"
+      },
+      {
+       "market": "Team totals",
+       "lines": "Bayern Munich Over 3.5 -115; Bayern Munich Under 3.5 -125; 1H Bayern Munich Over 1.5 -110; 1H Bayern Munich Under 1.5 -130; 2H RB Leipzig Over 0.5 -115; 2H RB Leipzig Under 0.5 -120"
+      },
+      {
+       "market": "2H total goals",
+       "lines": "Over 2.5 -125; Under 2.5 -110"
+      },
+      {
+       "market": "Spread",
+       "lines": "Bayern Munich -2.5 -105; RB Leipzig +2.5 -130"
+      },
+      {
+       "market": "Corners total",
+       "lines": "Under 10.5 -105; 2H Over 5.5 -125; 2H Under 5.5 -110"
+      },
+      {
+       "market": "Team corners",
+       "lines": "Bayern Munich Over 7.5 -115; Bayern Munich Under 7.5 -120; 1H Bayern Munich Over 3.5 -120; 1H Bayern Munich Under 3.5 -130; 2H RB Leipzig Over 1.5 -115; 2H RB Leipzig Under 1.5 -125"
+      },
+      {
+       "market": "Specials",
+       "lines": "Bayern Munich to hit the woodwork Yes -115"
+      },
+      {
+       "market": "Shots total",
+       "lines": "Under 31.5 -110; Over 32.5 -115"
+      },
+      {
+       "market": "Total shots on target",
+       "lines": "Over 12.5 -130"
+      },
+      {
+       "market": "Team shots",
+       "lines": "Bayern Munich Over 21.5 -125; Bayern Munich Under 21.5 -130; RB Leipzig Over 10.5 -110"
+      },
+      {
+       "market": "Team shots on target",
+       "lines": "Bayern Munich Over 8.5 -110"
+      }
+     ]
+    },
+    {
+     "game": "Lille vs Brest (Ligue 1) 2:45 PM ET",
+     "markets": [
+      {
+       "market": "Moneyline/3-way",
+       "lines": "Lille -110"
+      },
+      {
+       "market": "Double chance",
+       "lines": "Tie or Brest -120"
+      },
+      {
+       "market": "Team totals",
+       "lines": "Lille Over 1.5 -125; Lille Under 1.5 -115; 1H Lille Under 0.5 -105; 2H Brest Over 0.5 -115; 2H Brest Under 0.5 -120"
+      },
+      {
+       "market": "2H total goals",
+       "lines": "Over 1.5 -115; Under 1.5 -120"
+      },
+      {
+       "market": "Spread",
+       "lines": "Lille -0.5 -110; Brest +0.5 -125"
+      },
+      {
+       "market": "Match result 2-up",
+       "lines": "Lille -115"
+      },
+      {
+       "market": "Team corners",
+       "lines": "Lille Over 5.5 -110; Lille Under 5.5 -130; 1H Lille Over 2.5 -110; 1H Brest Over 1.5 -110"
+      },
+      {
+       "market": "Shots total",
+       "lines": "Over 25.5 -125; Under 25.5 -125"
+      },
+      {
+       "market": "Team shots",
+       "lines": "Lille Under 13.5 -105; Lille Over 14.5 -110; Brest Under 10.5 -115"
+      },
+      {
+       "market": "Team shots on target",
+       "lines": "Lille Over 5.5 -115; Brest Over 3.5 -115"
+      }
+     ]
+    },
+    {
+     "game": "Troyes vs Lens (Ligue 1) 2:45 PM ET",
+     "markets": [
+      {
+       "market": "Moneyline/3-way",
+       "lines": "Lens -120"
+      },
+      {
+       "market": "Double chance",
+       "lines": "Troyes or Tie -110"
+      },
+      {
+       "market": "Spread",
+       "lines": "Troyes -0.5 -120; Lens +0.5 -115"
+      },
+      {
+       "market": "Match result 2-up",
+       "lines": "Lens -125"
+      },
+      {
+       "market": "2H total goals",
+       "lines": "Under 1.5 -105"
+      },
+      {
+       "market": "2H team total goals",
+       "lines": "Troyes Over 0.5 -120; Troyes Under 0.5 -110"
+      },
+      {
+       "market": "Team corners",
+       "lines": "1H Troyes Under 1.5 -110; 2H Lens Over 2.5 -120; 2H Lens Under 2.5 -120"
+      },
+      {
+       "market": "Shots total",
+       "lines": "Over 27.5 -110"
+      },
+      {
+       "market": "Team shots",
+       "lines": "Troyes Over 11.5 -115"
+      }
+     ]
+    },
+    {
+     "game": "Atlanta United FC vs Inter Miami (MLS) 7:30 PM ET",
+     "markets": [
+      {
+       "market": "Moneyline/3-way",
+       "lines": "Inter Miami -110"
+      },
+      {
+       "market": "Double chance",
+       "lines": "Atlanta United FC or Tie -115"
+      },
+      {
+       "market": "Corners total",
+       "lines": "Over 9.5 -125; Under 9.5 -115"
+      },
+      {
+       "market": "Most corners",
+       "lines": "Inter Miami -120"
+      },
+      {
+       "market": "Team corners",
+       "lines": "Atlanta United FC Over 4.5 -105"
+      },
+      {
+       "market": "Team totals",
+       "lines": "Atlanta United FC Over 1.5 -120; Atlanta United FC Under 1.5 -120; 1H Atlanta United FC Over 0.5 -125; 1H Atlanta United FC Under 0.5 -110"
+      },
+      {
+       "market": "1H total goals",
+       "lines": "Over 1.5 -120; Under 1.5 -115"
+      },
+      {
+       "market": "Spread",
+       "lines": "Atlanta United FC -0.5 -110; Inter Miami +0.5 -120"
+      },
+      {
+       "market": "Match result 2-up",
+       "lines": "Inter Miami -130"
+      },
+      {
+       "market": "Specials",
+       "lines": "Atlanta United FC to win either half Yes -115"
+      },
+      {
+       "market": "Total shots on target",
+       "lines": "Over 10.5 -120"
+      },
+      {
+       "market": "Team shots on target",
+       "lines": "Atlanta United FC Over 4.5 -130; Inter Miami Over 5.5 -125"
+      }
+     ]
+    },
+    {
+     "game": "Los Angeles Galaxy vs San Diego FC (MLS) 10:30 PM ET",
+     "markets": [
+      {
+       "market": "Total goals",
+       "lines": "Over 3.5 -120; Under 3.5 -105"
+      },
+      {
+       "market": "Score 1st goal",
+       "lines": "Los Angeles Galaxy -130"
+      },
+      {
+       "market": "Match result 2-up",
+       "lines": "Los Angeles Galaxy -105"
+      },
+      {
+       "market": "Team totals",
+       "lines": "San Diego FC Over 1.5 -125; San Diego FC Under 1.5 -110; 1H San Diego FC Over 0.5 -125; 1H San Diego FC Under 0.5 -110"
+      },
+      {
+       "market": "1H total goals",
+       "lines": "Over 1.5 -110; Under 1.5 -125"
+      },
+      {
+       "market": "Team corners",
+       "lines": "Los Angeles Galaxy Under 4.5 -110; San Diego FC Over 4.5 -130; San Diego FC Under 4.5 -110"
+      },
+      {
+       "market": "Specials",
+       "lines": "San Diego FC to win either half No -120; San Diego FC to win either half Yes -130"
+      }
+     ]
+    },
+    {
+     "game": "Guadalajara Chivas vs Tigres UANL (Liga MX) 7:07 PM ET",
+     "markets": [
+      {
+       "market": "Moneyline/3-way",
+       "lines": "Guadalajara Chivas -120"
+      },
+      {
+       "market": "Double chance",
+       "lines": "Tie or Tigres UANL -110"
+      },
+      {
+       "market": "Corners total",
+       "lines": "Under 9.5 -110"
+      },
+      {
+       "market": "Team corners",
+       "lines": "Guadalajara Chivas Over 5.5 -125; Guadalajara Chivas Under 5.5 -125"
+      },
+      {
+       "market": "Team totals",
+       "lines": "Guadalajara Chivas Over 1.5 -130; Guadalajara Chivas Under 1.5 -110; 2H Tigres UANL Over 0.5 -105; 2H Tigres UANL Under 0.5 -130"
+      },
+      {
+       "market": "2H total goals",
+       "lines": "Over 1.5 -110; Under 1.5 -125"
+      },
+      {
+       "market": "Spread",
+       "lines": "Guadalajara Chivas -0.5 -120; Tigres UANL +0.5 -115"
+      },
+      {
+       "market": "Match result 2-up",
+       "lines": "Guadalajara Chivas -125"
+      },
+      {
+       "market": "Total shots on target",
+       "lines": "Over 9.5 -110"
+      },
+      {
+       "market": "Team shots on target",
+       "lines": "Guadalajara Chivas Over 5.5 -115"
+      }
+     ]
+    },
+    {
+     "game": "Club León vs Club América (Liga MX) 9:00 PM ET",
+     "markets": [
+      {
+       "market": "Team totals",
+       "lines": "Club América Over 1.5 -115; Club América Under 1.5 -125; 1H Club América Over 0.5 -125; 1H Club América Under 0.5 -110; 2H Club León Under 0.5 -105"
+      },
+      {
+       "market": "2H total goals",
+       "lines": "Over 1.5 -120; Under 1.5 -115"
+      },
+      {
+       "market": "Score 1st goal",
+       "lines": "Club América -125"
+      },
+      {
+       "market": "Most corners",
+       "lines": "Club América -130"
+      },
+      {
+       "market": "Team corners",
+       "lines": "Club León Over 4.5 -115"
+      },
+      {
+       "market": "First corner",
+       "lines": "Club León -105"
+      },
+      {
+       "market": "Specials",
+       "lines": "Club León to win either half Yes -110"
+      },
+      {
+       "market": "Total shots on target",
+       "lines": "Over 9.5 -110"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "sport_records": [
+  {
+   "sport": "MLB",
+   "w": 4,
+   "l": 6,
+   "p": 0,
+   "pct": 40
+  },
+  {
+   "sport": "NHL",
+   "w": 13,
+   "l": 7,
+   "p": 0,
+   "pct": 65
+  },
+  {
+   "sport": "NFL",
+   "w": 3,
+   "l": 1,
+   "p": 0,
+   "pct": 75
+  },
+  {
+   "sport": "NCAA F",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null
+  },
+  {
+   "sport": "WNBA",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null
+  },
+  {
+   "sport": "MLS",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null
   }
  ]
 }
