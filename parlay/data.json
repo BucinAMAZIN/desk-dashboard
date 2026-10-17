@@ -1,5 +1,5 @@
 {
- "generated": 1792272500.2835333,
+ "generated": 1792273909.8040535,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -791,6 +791,132 @@
       "why": "8.3 avg running position and top-6 in his last three here, but only 5 of 9 top-10s overall.",
       "grade": "B",
       "rank": 8
+     }
+    ]
+   },
+   "NFL": {
+    "potd": {
+     "pick": "Jacksonville Jaguars -2.5",
+     "odds": "-120",
+     "game": "Texans @ Jaguars Sun 9:30 AM ET",
+     "status": "Pending",
+     "why": "JAX 4-1 with the NFL's 2nd-best scoring D (14.0 pts/g allowed), +53 point diff, SRS +12.5; HOU 1-4, 22.0 pts/g, SRS -2.6 (PFR/TeamRankings through Wk 6). A 15-point rating gap vs a 2.5-pt line. Risk: neutral-site London game, HOU D allows only 11.0 on the road. Hard Rock price via agentbets.ai (The Odds API Hard Rock feed, Oct 17 5 PM ET). Locked Sat 9:30 AM ET (kickoff −24h). Stake 5% = $3.33, pays $6.11.",
+     "desc": "Jacksonville Jaguars -2.5 -120 (Texans @ Jaguars Sun 9:30 AM ET)"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+108",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +108 (calc from Hard Rock leg prices), stake $3.33, pays $6.92",
+     "legs": [
+      {
+       "pick": "New York Giants +1",
+       "odds": "-115",
+       "game": "Saints @ Giants Sun 1:00 PM ET",
+       "status": "Pending",
+       "why": "NYG 3-1-1 allowing 21.2 (17.0 at home) vs NO 1-4, losers of 3 straight, allowing 30.2 (31st). +1 covers a win or a 1-pt loss. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET."
+      },
+      {
+       "pick": "Los Angeles Rams ML",
+       "odds": "-900",
+       "game": "Cardinals @ Rams Sun 4:05 PM ET",
+       "status": "Pending",
+       "why": "ARI 1-4, lost 4 straight, worst D in the league (32.4 allowed, 39.0 last 3); Rams favored by 13. Hard Rock via agentbets.ai. Locked Sat 4:05 PM ET."
+      }
+     ]
+    },
+    "runners_up": [
+     {
+      "pick": "(+EV) Kansas City Chiefs -7.5",
+      "odds": "-105",
+      "game": "Chargers @ Chiefs Sun 4:25 PM ET",
+      "status": "Pending",
+      "why": "Best value: KC 4-0 (SRS +8.5, 19.3 allowed) vs LAC 0-5 scoring 16.8 (SRS -9.6). An 18-pt rating gap priced at -7.5 at near-even juice. Risk: hook at 7.5. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
+      "grade": "B+",
+      "rank": 1
+     },
+     {
+      "pick": "Chargers @ Chiefs Under 41",
+      "odds": "-105",
+      "game": "Chargers @ Chiefs Sun 4:25 PM ET",
+      "status": "Pending",
+      "why": "LAC offense 16.8 pts/g (OSRS -9.9); KC D 19.3 allowed. Projection ~38-40. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
+      "grade": "B",
+      "rank": 2
+     },
+     {
+      "pick": "Steelers @ Buccaneers Under 38.5",
+      "odds": "-105",
+      "game": "Steelers @ Buccaneers Sun 1:00 PM ET",
+      "status": "Pending",
+      "why": "Mayfield OUT (thumb); rookie Jalon Daniels makes a 3rd start for a 1-4 TB offense (20.0 pts/g). PIT offense 22.2. Freiermuth questionable. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
+      "grade": "B",
+      "rank": 3
+     },
+     {
+      "pick": "Indianapolis Colts -7",
+      "odds": "-105",
+      "game": "Titans @ Colts Sun 1:00 PM ET",
+      "status": "Pending",
+      "why": "TEN 0-5 scoring 11.6 pts/g (worst, OSRS -10.9), SRS -13.2 vs IND -2.9. Risk: IND D allows 27.6. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
+      "grade": "B-",
+      "rank": 4
+     },
+     {
+      "pick": "Ravens @ Browns Over 39.5",
+      "odds": "-115",
+      "game": "Ravens @ Browns Sun 1:00 PM ET",
+      "status": "Pending",
+      "why": "BAL scores 29.2 and allows 23.8; CLE averages 18.6. Season averages project ~45. Risk: division game, CLE D 19.7 last 3. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
+      "grade": "C+",
+      "rank": 5
+     },
+     {
+      "pick": "(Quality) Kansas City Chiefs ML",
+      "odds": "-425",
+      "game": "Chargers @ Chiefs Sun 4:25 PM ET",
+      "status": "Pending",
+      "why": "Unbeaten KC vs winless LAC (-45 point diff). Overlaps the KC -7.5. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
+      "grade": "A",
+      "rank": 6
+     },
+     {
+      "pick": "(Quality) Indianapolis Colts ML",
+      "odds": "-350",
+      "game": "Titans @ Colts Sun 1:00 PM ET",
+      "status": "Pending",
+      "why": "TEN has scored 58 points in 5 games. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
+      "grade": "A-",
+      "rank": 7
+     },
+     {
+      "pick": "(Quality) New England Patriots ML",
+      "odds": "-375",
+      "game": "Jets @ Patriots Sun 1:00 PM ET",
+      "status": "Pending",
+      "why": "NE SRS +7.5 vs NYJ -1.4; NE allows 10.0 at home; NYJ offense 18.6. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
+      "grade": "B+",
+      "rank": 8
+     },
+     {
+      "pick": "(Quality) Jacksonville Jaguars ML",
+      "odds": "-145",
+      "game": "Texans @ Jaguars Sun 9:30 AM ET",
+      "status": "Pending",
+      "why": "Same edge as the POTD without the 2.5; take one, not both. Hard Rock via agentbets.ai. Locked Sat 9:30 AM ET.",
+      "grade": "B+",
+      "rank": 9
+     },
+     {
+      "pick": "(Quality) San Francisco 49ers ML",
+      "odds": "-425",
+      "game": "Commanders @ 49ers Mon 8:15 PM ET",
+      "status": "Pending",
+      "why": "SF 5-0 (30.8 pts/g) vs WSH 1-3-1 allowing 29.8; Mariota doubtful, Croskey-Merritt expected out. Hard Rock via agentbets.ai. Provisional until Sun 8:15 PM ET (kickoff −24h).",
+      "grade": "A-",
+      "rank": 10
      }
     ]
    }
@@ -2234,7 +2360,7 @@
   ],
   "grades": []
  },
- "ui_build": "1792272500",
+ "ui_build": "1792273909",
  "ncaaf_record": {
   "overall": {
    "w": 0,
