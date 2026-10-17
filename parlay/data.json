@@ -1,5 +1,5 @@
 {
- "generated": 1792251783.9620273,
+ "generated": 1792251854.1867495,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -521,6 +521,47 @@
       "rank": 4
      }
     ]
+   },
+   "ALL": {
+    "potd": {
+     "pick": "Colorado Under 17.5 Team Total",
+     "odds": "-130",
+     "game": "Utah @ Colorado 10:15 PM ET",
+     "status": "Pending",
+     "why": "Best -115 to -130 play across all six sports today (A grade): Colorado's offense is 134th (10.3 pts/g) vs Utah's D, 5th in points allowed (12.8) and 5th vs the run (72 yds/g). TeamRankings 2026; Hard Rock price from hr-lines/ncaaf-oct17.md.",
+     "desc": "Colorado Under 17.5 Team Total -130 (Utah @ Colorado 10:15 PM ET)"
+    },
+    "parlay": {
+     "pick": "3-leg",
+     "odds": "+106",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": null,
+     "desc": "3-leg +106 (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "Tampa Bay Lightning ML",
+       "odds": "-450",
+       "game": "VAN @ TB 4:00 PM ET",
+       "status": "Pending",
+       "why": "VAN 2-6-1 with 7 losses in 8, allows 4.56 goals and 32.4 shots/g; TB 4/4 at home; Demko on IR. ML includes OT."
+      },
+      {
+       "pick": "Tampa Bay Rays +1.5 F5",
+       "odds": "-375",
+       "game": "TB @ CLE 8:00 PM ET",
+       "status": "Pending",
+       "why": "Loses only if CLE leads by 2+ after 5. Martinez 13 scoreless IP vs CLE this year; CLE bullpen game; LineMate 6/6 vs CLE."
+      },
+      {
+       "pick": "St. Louis Blues +1.5",
+       "odds": "-300",
+       "game": "STL @ NSH 8:00 PM ET",
+       "status": "Pending",
+       "why": "STL is the ML favorite; LineMate +1.5 18/20 away; NSH has won only one game by 2+; NSH starting Annunen (no NHL games this year). Risk: empty-netter."
+      }
+     ]
+    }
    }
   }
  },
@@ -1747,7 +1788,7 @@
   ],
   "grades": []
  },
- "ui_build": "1792251130",
+ "ui_build": "1792251854",
  "ncaaf_record": {
   "overall": {
    "w": 0,
