@@ -1,22 +1,22 @@
 {
- "generated": 1792183252.345259,
+ "generated": 1792221296.2140703,
  "today": {
   "title": "Oct 16 placed bets (Hard Rock)",
   "tickets": [
    {
     "name": "POTD",
-    "desc": "David Pastrnak o3.5 SOG -110, $10, pays $19.09 (BOS @ ANA 10:00 PM ET)",
+    "desc": "David Pastrnak o3.5 SOG -110, $10, pays $19.09 (BOS @ ANA 10:00 PM ET), 4 SOG 1 G 1 A, Bruins won 4-2",
     "odds": "-110",
     "stake": "$10",
     "payout": "$19.09",
-    "status": "Pending",
+    "status": "Won",
     "game": "BOS @ ANA 10:00 PM ET",
     "legs": [],
     "pick": "David Pastrnak o3.5 SOG"
    },
    {
     "name": "+100 ticket",
-    "desc": "2-leg +108, $10, pays $20.84",
+    "desc": "2-leg +108, $10, pays $20.84; Carlsson leg won, Díaz leg rain-postponed (TB-CLE ALCS G4 moved to Sat 10/17 8:00 PM ET)",
     "odds": "+108",
     "stake": "$10",
     "payout": "$20.84",
@@ -26,7 +26,7 @@
      {
       "pick": "Yandy Diaz u0.5 RBI",
       "odds": "-375",
-      "game": "TB @ CLE 8:00 PM ET",
+      "game": "TB @ CLE, postponed by rain; Hard Rock void/action rule not confirmed",
       "status": "Pending"
      },
      {
@@ -42,6 +42,40 @@
  },
  "results": {
   "tickets": [
+   {
+    "date": "2026-10-16",
+    "name": "Ticket B",
+    "desc": "$10 2-leg +108, to pay $20.84",
+    "result": "Pending",
+    "legs": [
+     {
+      "pick": "Leo Carlsson u2.5 SOG",
+      "result": "W",
+      "stat": "1 SOG, 20:23 TOI",
+      "final": "BOS 4, ANA 2"
+     },
+     {
+      "pick": "Yandy Díaz u0.5 RBI",
+      "result": "Pending",
+      "stat": "game postponed (rain); ALCS G4 now Sat 10/17 8:00 PM ET",
+      "final": "PPD"
+     }
+    ]
+   },
+   {
+    "date": "2026-10-16",
+    "name": "POTD",
+    "desc": "$10 single -110, to pay $19.09",
+    "result": "W",
+    "legs": [
+     {
+      "pick": "David Pastrnak o3.5 SOG",
+      "result": "W",
+      "stat": "4 SOG, 1 G, 1 A, 20:35 TOI",
+      "final": "BOS 4, ANA 2"
+     }
+    ]
+   },
    {
     "date": "2026-10-15",
     "name": "POTD",
@@ -219,6 +253,10 @@
    {
     "date": "2026-10-15",
     "text": "4 of 6 legs hit, 1 of 2 parlays (+ POTD lost). Net: +$0.12."
+   },
+   {
+    "date": "2026-10-16",
+    "text": "2 of 2 graded legs hit; POTD won (+$9.09 profit). +100 ticket still open (Díaz leg postponed)."
    }
   ],
   "placed_legs": [
@@ -408,6 +446,28 @@
     "ticket": "10/15 B",
     "result": "W",
     "stat": "12 rec, 134 yds (DEN 17 SEA 14 OT)"
+   },
+   {
+    "date": "10/16",
+    "sport": "NHL",
+    "player": "Leo Carlsson",
+    "prop": "NHL SOG",
+    "line": "u2.5",
+    "odds": "-155 placed",
+    "ticket": "10/16 +100 2-leg +108 $10",
+    "result": "W",
+    "stat": "1 SOG, 20:23 TOI (BOS 4 ANA 2)"
+   },
+   {
+    "date": "10/16",
+    "sport": "MLB",
+    "player": "Yandy Díaz",
+    "prop": "MLB batter RBI",
+    "line": "u0.5",
+    "odds": "-375 placed",
+    "ticket": "10/16 +100",
+    "result": "Pending",
+    "stat": "TB @ CLE rain-postponed to Sat 10/17"
    }
   ]
  },
@@ -415,39 +475,39 @@
   "overall": {
    "legs": {
     "prop": "Overall (all graded)",
-    "w": 18,
+    "w": 20,
     "l": 14,
     "p": 0,
-    "pct": 56
+    "pct": 59
    },
    "placed_legs": {
     "prop": "Placed legs only (incl. POTD)",
-    "w": 15,
+    "w": 17,
     "l": 12,
     "p": 0,
-    "pct": 56
+    "pct": 59
    },
    "tickets": {
     "prop": "Placed tickets",
-    "w": 2,
+    "w": 3,
     "l": 9,
     "p": 0,
-    "pct": 18
+    "pct": 25
    },
    "potd": {
-    "w": 0,
+    "w": 1,
     "l": 1,
     "p": 0,
-    "pct": 0
+    "pct": 50
    }
   },
   "props": [
    {
     "prop": "NHL SOG",
-    "w": 10,
+    "w": 12,
     "l": 5,
     "p": 0,
-    "pct": 67
+    "pct": 71
    },
    {
     "prop": "NHL points",
@@ -532,8 +592,8 @@
     "date": "10/16",
     "pick": "David Pastrnak o3.5 SOG (BOS@ANA)",
     "odds": "-110 (placed)",
-    "result": "Pending",
-    "detail": "pending"
+    "result": "W",
+    "detail": "W (4 SOG, 1 G, 1 A, BOS 4 ANA 2)"
    }
   ],
   "chart": [
@@ -608,6 +668,14 @@
    [
     "10/15",
     2
+   ],
+   [
+    "10/16",
+    3
+   ],
+   [
+    "10/16",
+    4
    ]
   ]
  },
@@ -776,10 +844,10 @@
   },
   {
    "name": "@showtimepicks2",
-   "w": 5,
+   "w": 6,
    "l": 1,
    "p": 0,
-   "pct": 83,
+   "pct": 86,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -811,6 +879,13 @@
     },
     {
      "prop": "NFL spread",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NCAAF total (over)",
      "w": 1,
      "l": 0,
      "p": 0,
@@ -850,10 +925,10 @@
   },
   {
    "name": "@tonestakes",
-   "w": 6,
-   "l": 8,
-   "p": 0,
-   "pct": 43,
+   "w": 7,
+   "l": 7,
+   "p": 1,
+   "pct": 50,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -900,9 +975,9 @@
     {
      "prop": "NHL team total (over)",
      "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
+     "l": 0,
+     "p": 1,
+     "pct": null
     },
     {
      "prop": "NHL game total (under)",
@@ -910,6 +985,13 @@
      "l": 1,
      "p": 0,
      "pct": 50
+    },
+    {
+     "prop": "NHL game total (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ]
   },
@@ -935,22 +1017,22 @@
   "@doctorprofit video-only: +2118 Primetime Parlay YouTube/clip (legs not in text/caption; article 404) — ungraded. Moonshot SGP image legs and Bo Nix completions pick are graded above.",
   "@bigmikepickz: No posts in the Oct 15 ET window.",
   "Jones ID: Tone's Jones o2.5 SOG (+190) was Seth Jones (FLA) vs VAN (5 SOG) — confirmed from bet-slip image + NHL box score.",
-  "Austin Kupp o20.5 and Doc Bo Nix o21.5 were posted late Oct 14 ET for the Oct 15 TNF slate; logged under 2026-10-15."
+  "Austin Kupp o20.5 and Doc Bo Nix o21.5 were posted late Oct 14 ET for the Oct 15 TNF slate; logged under 2026-10-15.",
+  "Oct 16 sweep (graded 10/17 3:20 AM ET): Tone's 1-play NHL card was a BettingNews article best bet (PIT@COL Over 6.5 -113), graded W; his own recap said +1.00. Showtime's free CFB play Washington/Purdue O50.5 graded W. Alex's two MLB plays and Tone's MLB best bet were on TB @ CLE, rain-postponed; carried to Sat 10/17's ALCS G4.",
+  "@salbets_ video-only (Oct 16): \"Official WTF Parlay for Week 6\" video post (2111126018769486032), ungraded as video; the same 4 legs were posted earlier as text plus an Underdog slip and are in Pending picks.",
+  "@panpotd: \"Flex Friday Slip\" post was link-only with no legs in text or image; not logged.",
+  "@bigmikepickz: No posts in the Oct 16 ET window.",
+  "SJ TT o3 reconciled to Push (final 3-2 SO; Tone's recap graded it a push). Tone's record changed from 6-8 to 6-7-1 before adding Oct 16."
  ],
  "bankroll": {
   "start": 51.05,
-  "total": 51.05,
-  "available": 31.05,
-  "pending": 20.0,
-  "pct": 0.0,
+  "total": 60.14,
+  "available": 50.14,
+  "pending": 10.0,
+  "pct": 17.81,
   "pending_bets": [
    {
-    "bet": "POTD Pastrnak o3.5 SOG -110",
-    "stake": "$10.00",
-    "pays": "$19.09"
-   },
-   {
-    "bet": "+100 ticket 2-leg +108 (Díaz u0.5 RBI, Carlsson u2.5 SOG)",
+    "bet": "+100 ticket 2-leg +108 (Carlsson u2.5 SOG won; Díaz u0.5 RBI rain-postponed)",
     "stake": "$10.00",
     "pays": "$20.84"
    }
@@ -963,6 +1045,14 @@
     "available": 31.05,
     "pending": 20.0,
     "total": 51.05
+   },
+   {
+    "date": "2026-10-17 03:20 ET",
+    "event": "POTD Pastrnak o3.5 SOG WON (4 SOG)",
+    "amount": "+$19.09",
+    "available": 50.14,
+    "pending": 10.0,
+    "total": 60.14
    }
   ]
  }
