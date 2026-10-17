@@ -1,5 +1,5 @@
 {
- "generated": 1792252873.913764,
+ "generated": 1792253233.166144,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -611,6 +611,114 @@
       }
      ]
     }
+   },
+   "NASCAR": {
+    "potd": {
+     "pick": "Kyle Larson to beat Chase Briscoe (H2H)",
+     "odds": "-120",
+     "game": "H2H",
+     "status": "Pending",
+     "why": "At Phoenix since 2022 (9 Next Gen races), Larson averages an 8.6 finish and 8.4 running position, with 6 top-5s and a 3rd in each of his last three starts. Briscoe averages 18.2 and 16.9, and his last three Phoenix finishes are 37, 18 and 35. Driver rating: 102.1 vs 78.3. Risk: picked before Saturday 5:35 PM ET qualifying, plus wrecks or pit trouble. Hard Rock -120 (hr-lines/nascar-golf-oct17.md); field data from Racing Reference loop data. Runners-up shortfall: only 2 of 4 -105 to -130 slots filled (the other priced H2Hs and Gibbs Top 10 -125 show no edge).",
+     "desc": "Kyle Larson to beat Chase Briscoe (H2H) -120 (Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET)"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+134",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +134 (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "Ryan Blaney Top 10",
+       "odds": "-400",
+       "game": "Phoenix 3:00 PM ET",
+       "status": "Pending",
+       "why": "Top 10 in 8 of 9 Next Gen Phoenix races, 5.2 avg finish, best rating in the field (114.4), won the last two here."
+      },
+      {
+       "pick": "Denny Hamlin to beat Joey Logano (H2H)",
+       "odds": "-115",
+       "game": "H2H",
+       "status": "Pending",
+       "why": "Hamlin averages a 9.7 finish and 8.3 running position, finishing 5, 6, 2 in his last three. Logano averages 13.4 and 11.1, finishing 31, 4, 13."
+      }
+     ]
+    },
+    "runners_up": [
+     {
+      "pick": "Ryan Blaney to beat Christopher Bell (H2H)",
+      "odds": "-115",
+      "game": "H2H",
+      "status": "Pending",
+      "why": "Averages 5.2 finish / 6.0 running position here vs Bell's 10.9 / 10.0, with 8 top-5s to Bell's 4. Risk: Bell has 2 Phoenix wins and finished 2nd here in March.",
+      "grade": "B+",
+      "rank": 1
+     },
+     {
+      "pick": "William Byron to beat Tyler Reddick (H2H)",
+      "odds": "-115",
+      "game": "H2H",
+      "status": "Pending",
+      "why": "Byron has the best average running position in the field here (5.6, Reddick 9.6) and the better finish average (10.7 vs 13.4). Risk: Byron finished 33rd here last fall.",
+      "grade": "B",
+      "rank": 2
+     },
+     {
+      "pick": "(+EV) Kyle Larson Top 5",
+      "odds": "+125",
+      "game": "+EV",
+      "status": "Pending",
+      "why": "Top 5 in 6 of 9 Next Gen Phoenix races (67%) and 3rd in each of the last three. +125 implies 44%.",
+      "grade": "B",
+      "rank": 3
+     },
+     {
+      "pick": "(Quality) Ryan Blaney Top 10",
+      "odds": "-400",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "8 of 9 top-10s, 5.2 avg finish, back-to-back Phoenix wins.",
+      "grade": "A",
+      "rank": 4
+     },
+     {
+      "pick": "(Quality) Kyle Larson Top 10",
+      "odds": "-220",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "7 of 9 top-10s, 8.6 avg finish, 3rd in each of the last three.",
+      "grade": "A-",
+      "rank": 5
+     },
+     {
+      "pick": "(Quality) Ryan Blaney Top Ford",
+      "odds": "+100",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "Blaney averages a 5.2 finish here. The next-best Fords are Buescher at 10.3 and Logano at 13.4; Cindric averages 25.7.",
+      "grade": "B+",
+      "rank": 6
+     },
+     {
+      "pick": "(Quality) Ross Chastain to beat Josh Berry (H2H)",
+      "odds": "+100",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "Chastain averages an 11.9 finish and 11.0 running position (rating 92.8). Berry averages 17.2 and 18.0 (71.1). Risk: Chastain finished 28th here in March; Berry has finished 4th and 7th here.",
+      "grade": "B-",
+      "rank": 7
+     },
+     {
+      "pick": "(Quality) Denny Hamlin Top 10",
+      "odds": "-260",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "8.3 avg running position and top-6 in his last three here, but only 5 of 9 top-10s overall.",
+      "grade": "B",
+      "rank": 8
+     }
+    ]
    }
   }
  },
