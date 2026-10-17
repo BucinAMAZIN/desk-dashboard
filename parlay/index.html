@@ -21,14 +21,14 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 .pkr td{background:#1f6feb26}.pkr td:first-child{box-shadow:inset 3px 0 0 #58a6ff;white-space:nowrap}.pkt{display:inline-block;font-size:10px;font-weight:700;color:#58a6ff;border:1px solid #58a6ff88;border-radius:4px;padding:0 4px;margin-left:4px;vertical-align:middle}.lvh{position:relative;text-align:center;padding:2px 18px}.lvs{font-size:22px;cursor:pointer;margin:2px 0}.lvs b{font-size:24px}.lvd{font-size:13px;font-weight:600;margin-bottom:2px}.lvc{position:absolute;right:6px;top:6px}
 .lsh{display:block!important;padding:0 18px}.lss{font-size:18px}.lss b{font-size:20px}
 .lvt{color:#fffbe8!important;text-shadow:0 0 6px rgba(255,214,102,.45),0 0 2px rgba(255,230,150,.35)}html.day .lvt{text-shadow:0 0 5px rgba(0,60,170,.22)}
-</style></head><body>
+/*CREC-LEFT: delete this rule to restore centered capper record*/.crec{text-align:left!important}</style></head><body>
 <div class="uit"><button id="tLg" title="Large text">Aa</button><button id="tDay" title="Day / Night">🌙 Night</button></div><div id="hb" class="card" style="margin-bottom:6px;padding:10px 12px"></div><div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Our Record</div><div class="tab" data-k="cappers">Cappers</div><div class="tab" data-k="bankroll">Bankroll</div></div>
 <div id="sb" class="sb"></div><div id="v"></div><div class="m" id="upd" style="text-align:center;margin-top:8px"></div>
 <script>
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792277277';
+const UI_BUILD='1792277434';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Touchdown City').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${['W','L','P','Pending'].includes(r)?r:'P'}">${E(r)}</span>`;
 const pc=p=>p==null?'—':p+'%',col=p=>p==null?'#8b949e':p>=55?'#3fb950':p>=45?'#d29922':'#f85149';
