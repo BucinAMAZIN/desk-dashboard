@@ -28,7 +28,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792279017';
+const UI_BUILD='1792279442';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Touchdown City').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${['W','L','P','Pending'].includes(r)?r:'P'}">${E(r)}</span>`;
 const pc=p=>p==null?'—':p+'%',col=p=>p==null?'#8b949e':p>=55?'#3fb950':p>=45?'#d29922':'#f85149';
@@ -227,7 +227,7 @@ async function lvModal(sp,lg,id){let m=document.getElementById('lvm');if(!m){m=d
 document.addEventListener('click',e=>{const s=e.target.closest&&e.target.closest('.lvs');if(!s)return;e.preventDefault();e.stopPropagation();lvModal(s.dataset.sp,s.dataset.lg,s.dataset.ev)},true);
 
 function lvPaint(){lvAttach()}
-function lvBox(){if(K=='cappers'){lvAttach();if(LV.sp!=='CAP')lvFetch();return}if(K=='today'){lvAttach();if(LV.sp!=='TODAY')lvFetch();return}if(K!='sport'||!LVL.some(l=>l[2]==SP))return;{const v=$('v'),b=document.createElement('div');b.className='card';b.id='lsb';b.innerHTML='<div class="m">🔴 Live scores · '+E(SP)+' slate</div><div id="lsi"></div>';const h2=v.querySelector('h2');if(h2)h2.after(b);else v.prepend(b);lsPaint();if(SP=='MLB')nriMount(b)}lvAttach();if(LV.sp!==lvCur())lvFetch()}
+function lvBox(){if(K=='cappers'){lvAttach();if(LV.sp!=='CAP')lvFetch();return}if(K=='today'){lvAttach();if(LV.sp!=='TODAY')lvFetch();return}if(K!='sport'||!LVL.some(l=>l[2]==SP))return;{const v=$('v'),b=document.createElement('div');b.className='card';b.id='lsb';b.innerHTML='<div class="m">🔴 Live scores · '+E(SP)+' slate</div><div id="lsi"></div>';const h2=v.querySelector('h2');if(h2)h2.after(b);else v.prepend(b);lsPaint();if(SP=='MLB'){nriMount(b);nrfcMount()}}lvAttach();if(LV.sp!==lvCur())lvFetch()}
 setInterval(()=>{if(!document.hidden&&D){lvFetch();nriTick()}},45000);
 /* ===== Live no-run innings (MLB page). Not graded / not in any record. Data: mlb-nri.json (mlb_nri.py) + MLB StatsAPI live ===== */
 const NRI={d:null,t:0,bvp:{},st:null};
@@ -282,6 +282,15 @@ function nriPaint(){const el=document.getElementById('nrii');if(!el||!NRI.d)retu
   h+='</div>'}
  if(!NRI.st.gs.length)h='<div class=m>No MLB games on today’s slate.</div>';
  const t=NRI.st.t;const NR=D&&D.nrfi_record?nrfiLive(D.nrfi_record):null;el.innerHTML=(NR?`<div class=m style="margin-bottom:4px">NRFI/YRFI record (unofficial): <b>${NR.w}-${NR.l}</b> · separate from official records</div>`:'')+h+`<div class=m style="margin-top:6px">Per-team inning calls not graded · NRFI/YRFI tracked only in the unofficial record above. Model: batter vs pitcher-hand splits × pitcher splits vs batter side (log5, regressed), Statcast pitch-mix xwOBA, BvP only at 15+ PA, pitch-count fatigue; 5,000-sim half-inning; side picked by edge vs typical Hard Rock break-even (no live HR price feed), grade by edge size. Live ${t.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'})} ET · Savant data ${E(d.generated)} ET.</div>`}
+async function nrfcMount(){const v=$('v');if(!v||document.getElementById('nrfc'))return;const d=await nriData();if(!d||K!='sport'||SP!='MLB'||document.getElementById('nrfc'))return;
+ const rows=(d.games||[]).map(g=>{const n=g.nrfi||{};const t=new Date(g.start).toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit',timeZone:'America/New_York'});const gm=`${E(g.away)} @ ${E(g.home)} · ${t} ET`;
+  if(n.status=='locked'&&n.side){const x=NRI.gr[g.pk];const res=x?((x.runs==0)==(n.side=='NRFI')?' <span class="nrl">✅ W 1st '+x.a+'-'+x.h+'</span>':' <span class="nrl" style="color:#f85149;border-color:#f8514966">❌ L 1st '+x.a+'-'+x.h+'</span>'):'';
+   return`<details class="leg"><summary><div class="nrt"><b>${E(n.pick)}</b> <b>${Math.round(n.pct*100)}%</b> <span class="chip">${E(n.grade)}</span> <span class="nrl">🔒 Locked</span>${res}</div><div class=m>${gm} · Why ▾</div></summary><div class=m style="font-size:12px;margin-top:4px">${E(n.why)}</div></details>`}
+  if(n.status=='locked')return`<div class=m style="margin:4px 0">${gm}: Not enough data, no pick <span class="nrl">🔒 Locked</span></div>`;
+  return`<div class=m style="margin:4px 0">${gm}: <span class="nrl nrlp">Provisional · locks at lineup lock</span>${n.note?' · '+E(n.note):''}</div>`}).join('');
+ if(!rows)return;const N=D.nrfi_record?nrfiLive(D.nrfi_record):null;const c=document.createElement('div');c.className='card';c.id='nrfc';c.style.borderColor='#3fb95066';
+ c.innerHTML=`<div class="m">NRFI/YRFI (unofficial)${N?` · record <b>${N.w}-${N.l}</b>`:''} · not in official records</div>${rows}`;
+ const ru=[...v.querySelectorAll('h2,h3,.m,div')].find(e=>/^Runners-up/.test((e.textContent||'').trim())&&e.children.length<4);if(ru){let a=ru;while(a.parentElement&&a.parentElement!==v)a=a.parentElement;v.insertBefore(c,a)}else v.appendChild(c)}
 function nriMount(after){if(document.getElementById('nrib'))return;const b=document.createElement('div');b.className='card';b.id='nrib';const open=localStorage.getItem('nri:open')=='1';b.innerHTML=`<div class="m nrhd" style="cursor:pointer">⚾ Live inning runs (O/U 0.5) <span class="nrc">${open?'▾':'▸'}</span> <span style="float:right;font-size:11px">Not graded</span></div><div id="nrii"${open?'':' hidden'}></div>`;after.after(b);
  b.querySelector('.nrhd').addEventListener('click',()=>{const i=document.getElementById('nrii'),o=i.hidden;i.hidden=!o;try{localStorage.setItem('nri:open',o?'1':'0')}catch(e){}b.querySelector('.nrc').textContent=o?'▾':'▸';if(o)nriTick()});if(open)nriTick()}
 function nriTick(){if(document.getElementById('nrib')&&!document.getElementById('nrii').hidden)nriFetch()}
