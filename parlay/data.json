@@ -1,5 +1,5 @@
 {
- "generated": 1792250960.3081949,
+ "generated": 1792251013.4005342,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -246,7 +246,122 @@
     "rank": 10,
     "stat": "—"
    }
-  ]
+  ],
+  "sports": {
+   "MLB": {
+    "potd": {
+     "pick": "Tampa Bay Rays F5 ML",
+     "odds": "-125",
+     "game": "TB @ CLE 8:00 PM ET",
+     "status": "Pending",
+     "why": "Only MLB game today. Nick Martinez has 13 scoreless innings in two starts vs CLE this year; Cleveland runs a bullpen game (Shawn Armstrong opens). F5 totals this series 2, 3, 5; LineMate TB F5 ML 5 of last 6 vs CLE. ~45°F, light wind. Risk: Martinez's early hook (3.2 and 2.2 IP last two). Hard Rock price via LineMate. No MLB parlay: only one game on the slate, and no second Hard Rock-priced leg to reach +100 without guessing odds.",
+     "desc": "Tampa Bay Rays F5 ML -125 (TB @ CLE 8:00 PM ET)"
+    },
+    "parlay": null
+   },
+   "NHL": {
+    "potd": {
+     "pick": "Charlie McAvoy o1.5 SOG",
+     "odds": "-115",
+     "game": "BOS @ LAK 9:00 PM ET",
+     "status": "Pending",
+     "why": "LineMate L6 6/6, vs LAK 2/2, away 4/5; 2 and 3 SOG this season on 24-27 min as top-pair D; Zacha out adds PP time. Risk: BOS on a back-to-back. Hard Rock price via LineMate.",
+     "desc": "Charlie McAvoy o1.5 SOG -115 (BOS @ LAK 9:00 PM ET)"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+218",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +218 (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "Will Cuylle o1.5 SOG",
+       "odds": "-130",
+       "game": "NYR @ CBJ 7:00 PM ET",
+       "status": "Pending",
+       "why": "LineMate L9 7/9, vs CBJ 4/4; 2+ shots in 6 of 8 this season on 14-18 min; CBJ rates 29th as a matchup. Risk: 0 SOG last game."
+      },
+      {
+       "pick": "Seattle Kraken Over 2.5 Team Total",
+       "odds": "-125",
+       "game": "SEA @ FLA 6:00 PM ET",
+       "status": "Pending",
+       "why": "LineMate L4 4/4 and away 4/4 on SEA o2.5; McCann (L12 11/12 2+ SOG) and Dunn healthy. Risk: FLA is a -185 home favorite."
+      }
+     ]
+    }
+   },
+   "NCAA F": {
+    "potd": {
+     "pick": "Colorado Under 17.5 Team Total",
+     "odds": "-130",
+     "game": "Utah @ Colorado 10:15 PM ET",
+     "status": "Pending",
+     "why": "Colorado's offense ranks 134th (10.3 pts/g) vs Utah's D, 5th in points allowed (12.8) and 5th vs the run. TeamRankings 2026 stats; Hard Rock price from hr-lines/ncaaf-oct17.md.",
+     "desc": "Colorado Under 17.5 Team Total -130 (Utah @ Colorado 10:15 PM ET)"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+230",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +230 (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "BYU Under 17.5 Team Total",
+       "odds": "-125",
+       "game": "Notre Dame @ BYU 7:30 PM ET",
+       "status": "Pending",
+       "why": "BYU offense 59th (27.5) vs Notre Dame D 2nd in points allowed (11.0), 3rd vs the run, 11th vs the pass."
+      },
+      {
+       "pick": "Penn State @ Michigan Under 43.5",
+       "odds": "-120",
+       "game": "Penn State @ Michigan 3:30 PM ET",
+       "status": "Pending",
+       "why": "Michigan offense 83rd (23.0); both pass defenses top 5 (4th, 5th); Michigan allows 15.8 pts/g."
+      }
+     ]
+    }
+   },
+   "MLS": {
+    "potd": {
+     "pick": "Atlanta United Over 1.5 Team Total",
+     "odds": "-120",
+     "game": "Atlanta United vs Inter Miami 7:30 PM ET",
+     "status": "Pending",
+     "why": "Atlanta scored 2+ in 8 of its last 12 league games (19 goals) and won 3-0 at Montréal midweek; Miami's L5 xGA is 1.65 and it hasn't won away since July 25. Atlanta has beaten Miami 4 times since Messi arrived; last meeting 2-2. Must-win for Atlanta (6 pts off the line). Risk: Miami has back-to-back clean sheets (both at home). Hard Rock price from hr-lines/soccer-oct17.md.",
+     "desc": "Atlanta United Over 1.5 Team Total -120 (Atlanta United vs Inter Miami 7:30 PM ET)"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+237",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +237 (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "San Diego FC Over 1.5 Team Total",
+       "odds": "-125",
+       "game": "LA Galaxy vs San Diego FC 10:30 PM ET",
+       "status": "Pending",
+       "why": "SD has scored 2+ in all three meetings with LA (2-0, 2-1, 3-1) and 3 of its last 5 (3,1,3,2,0); Galaxy allowed 6 at STL on 10/11 and are -9 GD, missing Lozano, Furuhashi and Puig. Risk: SD winless in 8."
+      },
+      {
+       "pick": "Atlanta United or Tie (Double chance)",
+       "odds": "-115",
+       "game": "Double chance",
+       "status": "Pending",
+       "why": "Atlanta 4 wins vs Miami since 2023, home and desperate; Miami 0 away wins in nearly three months."
+      }
+     ]
+    }
+   }
+  }
  },
  "results": {
   "tickets": [
