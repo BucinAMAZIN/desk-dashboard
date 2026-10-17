@@ -1,5 +1,5 @@
 {
- "generated": 1792277963.3128455,
+ "generated": 1792278052.9070818,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -1836,9 +1836,9 @@
   {
    "name": "@showtimepicks2",
    "w": 6,
-   "l": 1,
+   "l": 2,
    "p": 0,
-   "pct": 86,
+   "pct": 75,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -1850,9 +1850,9 @@
     {
      "prop": "NCAAF spread",
      "w": 2,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100
+     "pct": 67
     },
     {
      "prop": "NCAAF rush yds (over)",
@@ -2126,14 +2126,21 @@
   },
   {
    "name": "@bigmikepickz",
-   "w": 1,
+   "w": 5,
    "l": 0,
    "p": 0,
    "pct": 100,
    "props": [
     {
      "prop": "NCAAF ML",
-     "w": 1,
+     "w": 3,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NCAAF spread",
+     "w": 2,
      "l": 0,
      "p": 0,
      "pct": 100
@@ -2172,6 +2179,7 @@
   }
  ],
  "capper_notes": [
+  "ALREADY COUNTED (graded 2026-10-17 7:00 PM ET): the five 2026-10-17 NCAAF picks above (showtimepicks2 Indiana +3.5 L; bigmikepickz Kansas State -3, Army ML, Michigan State +7.5, West Virginia ML W) are in the totals and prop-type tables. Tracker routine: do NOT add them again; capper-picks.md marks them \"(counted in capper-records)\".",
   "@salbets_ video-only: Official $1000 TNF parlay video (post 2110767405299327431) — ungraded (video-only). Text thread + Underdog slip listed the same four legs and those are graded above (0-4).",
   "@doctorprofit video-only: +2118 Primetime Parlay YouTube/clip (legs not in text/caption; article 404) — ungraded. Moonshot SGP image legs and Bo Nix completions pick are graded above.",
   "@bigmikepickz: No posts in the Oct 15 ET window.",
@@ -2504,7 +2512,7 @@
    }
   ]
  },
- "ui_build": "1792277963",
+ "ui_build": "1792278052",
  "ncaaf_record": {
   "overall": {
    "w": 2,
