@@ -1,49 +1,100 @@
 {
- "generated": 1792237338.0454292,
+ "generated": 1792246785.2266352,
  "today": {
-  "title": "Oct 16 placed bets (Hard Rock)",
+  "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
    {
     "name": "POTD",
-    "desc": "David Pastrnak o3.5 SOG -110, $10, pays $19.09 (BOS @ ANA 10:00 PM ET), 4 SOG 1 G 1 A, Bruins won 4-2",
-    "odds": "-110",
-    "stake": "$10",
-    "payout": "$19.09",
-    "status": "Won",
-    "game": "BOS @ ANA 10:00 PM ET",
+    "desc": "Ben Kindel o1.5 SOG -115, $3.50, pays $6.54 (PIT @ VGK 10:00 PM ET)",
+    "odds": "-115",
+    "stake": "$3.50",
+    "payout": "$6.54",
+    "status": "Pending",
+    "game": "PIT @ VGK 10:00 PM ET",
     "legs": [],
-    "why": null,
-    "pick": "David Pastrnak o3.5 SOG"
+    "why": "Kindel has 2+ shots in all 7 games this season (2,2,2,3,2,2,5 newest first; LineMate L9 8/9, away 4/5), averaging 2.57 SOG, so the 1.5 line sits about a full shot under his average. He is a full-role center at 15 to 19.5 minutes with a power-play goal and LineMate has him 8/9 without injured D Ryan Graves. VGK is a heavy -200 home favorite, so PIT should be chasing and shooting; PIT averages 28.8 shots per game. He is not on any injury report. Risks: PIT is on a back-to-back (lost 5-2 at COL Friday, Kindel 14:57 TOI) and his late-2025-26 call-up games were mostly 1 shot, so this leans on the current-season role, not a long history. Hard Rock price via LineMate.",
+    "pick": "Ben Kindel o1.5 SOG"
    },
    {
     "name": "+100 ticket",
-    "desc": "2-leg +108, $10; Díaz leg VOIDED by Hard Rock (rainout), settled as Carlsson single -155, pays $16.45",
-    "odds": "+108",
-    "stake": "$10",
-    "payout": "$16.45",
-    "status": "Won",
+    "desc": "2-leg +100, $3.50, pays $7.00",
+    "odds": "+100",
+    "stake": "$3.50",
+    "payout": "$7.00",
+    "status": "Pending",
     "game": "",
     "legs": [
      {
-      "pick": "Yandy Diaz u0.5 RBI",
-      "odds": "-375",
-      "game": "TB @ CLE",
-      "status": "Void",
-      "why": null
+      "pick": "Jordan Kyrou u2.5 SOG",
+      "odds": "-200",
+      "game": "NJ @ WSH 1:00 PM ET",
+      "status": "Pending",
+      "why": "Kyrou has been at 2 or fewer shots in 6 of 7 games this season (3,1,1,0,1,1,2 newest first, 1.3 per game) and in 13 of his last 15 across both seasons (LineMate L14 13/14, home 10/11). He is playing only 11 to 15 minutes a night, and NJ allows just 25.0 shots per game, fourth-fewest. Not on the injury report. Risk: Pierre-Luc Dubois is out sick, which could bump Kyrou up the lineup; he had 3 shots in 15:15 last game, so the cushion is about one shot."
      },
      {
-      "pick": "Leo Carlsson u2.5 SOG",
-      "odds": "-155",
-      "game": "BOS @ ANA 10:00 PM ET",
-      "status": "Won",
-      "why": null
+      "pick": "St. Louis Blues +1.5",
+      "odds": "-300",
+      "game": "STL @ NSH 8:00 PM ET",
+      "status": "Pending",
+      "why": "STL is actually the moneyline favorite (-115), so +1.5 only loses if the Blues lose by 2 or more. LineMate has STL +1.5 covering 18 of 20 away and 4 of 4 last 4. NSH has won only one game by 2+ all season (5-2 at MTL), and 4 of Nashville's 7 games were decided by one goal (three in OT or a shootout). NSH is projected to start Justus Annunen, who hasn't played an NHL game this season. STL's Buchnevich is day-to-day (personal), the only notable absence. Risk: an empty-net goal turning a one-goal loss into two."
      }
     ],
     "why": null,
-    "pick": "2-leg +108"
+    "pick": "2-leg +100"
    }
   ],
-  "runners_up": []
+  "runners_up": [
+   {
+    "pick": "Tampa Bay Rays +1.5 F5",
+    "odds": "-375",
+    "game": "TB @ CLE 8:00 PM ET",
+    "why": "The Rays lose this only if Cleveland leads by 2+ after five innings. Nick Martinez threw 13 scoreless innings in two starts against CLE this year, and Cleveland is running a bullpen game (Shawn Armstrong opens). First-five totals in this series have been 2, 3 and 5. LineMate shows TB +1.5 F5 covering 6 of 6 vs CLE. Savant batter-vs-pitcher vs Martinez is all tiny samples with no home runs: Kwan 3-for-7 (xBA .198), Ramírez 1-for-11 (xBA .116), DeLauter 1-for-3, Adell 0-for-3 with a walk, Lowe 2-for-6. Weather is fine: about 45°F at first pitch, wind 3 to 4 mph from the southwest, 0% rain, and the cold favors pitching. Lineups aren't confirmed yet. Risk: Martinez has an early hook (3.2 and 2.2 innings in his last two starts), so TB's fully rested bullpen has to cover innings 4 and 5.",
+    "grade": "A",
+    "rank": 1,
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "pick": "Tampa Bay Lightning ML",
+    "odds": "-450",
+    "game": "VAN @ TB 4:00 PM ET",
+    "why": "VAN is 2-6-1 with 7 losses in its last 8, gives up 4.56 goals and 32.4 shots per game, and generates only 21.9 shots (second-fewest). TB has won 4 of 4 at home and 5 of its last 6 (LineMate). Demko is on IR, so VAN starts Meriläinen (projected). The moneyline counts overtime, so a tie through regulation can still cash.",
+    "grade": "A+",
+    "rank": 2,
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "pick": "Jack Roslovic o1.5 SOG",
+    "odds": "-195",
+    "game": "NYI @ TOR 7:00 PM ET",
+    "why": "Roslovic has 2+ shots in all 8 games this season (5,2,5,3,4,2,2,2 newest first; LineMate home 7/7) and in 12 of his last 15 across both seasons, averaging 3.1 shots on 15 to 19 minutes. John Tavares is day-to-day after getting hurt Thursday, which could add center minutes. NYI allows 26.0 shots per game.",
+    "grade": "A-",
+    "rank": 3,
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "pick": "Noah Dobson u2.5 SOG",
+    "odds": "-185",
+    "game": "BUF @ MTL 7:00 PM ET",
+    "why": "Dobson was at 2 or fewer shots in 6 of 7 games this season and 12 of his last 15 (LineMate L17 14/17, vs BUF 6/6, home 9/11). BUF allows only 24.6 shots per game. Risk: he had 5 shots in his most recent game, and Matheson is day-to-day, which could mean more minutes.",
+    "grade": "B+",
+    "rank": 4,
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "pick": "Arseny Gritsyuk o1.5 SOG",
+    "odds": "-140",
+    "game": "NJ @ WSH 1:00 PM ET",
+    "why": "Gritsyuk has 2+ shots in 6 of 7 games this season (2,2,2,1,2,2,2) and 12 of his last 15 (LineMate L14 12/14, away 6/7, 9/10 without Connor Brown). His ice time is climbing (16:56 and 19:27 in his last two). NJ leads the NHL at 35.6 shots per game, and WSH allows 29.4. Brown is out, so his role holds. The cushion is thin since he has a lot of exact 2s.",
+    "grade": "B-",
+    "rank": 5,
+    "status": "Pending",
+    "stat": "—"
+   }
+  ]
  },
  "results": {
   "tickets": [
@@ -473,6 +524,28 @@
     "ticket": "10/16 +100",
     "result": "Void",
     "stat": "No action: Hard Rock voided (rainout); not carried to Sat"
+   },
+   {
+    "date": "10/17",
+    "sport": "NHL",
+    "player": "Jordan Kyrou",
+    "prop": "NHL SOG",
+    "line": "u2.5",
+    "odds": "-200 rec",
+    "ticket": "10/17 +100 2-leg +100 $3.50",
+    "result": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "10/17",
+    "sport": "NHL",
+    "player": "St. Louis Blues",
+    "prop": "NHL puck line (alt)",
+    "line": "+1.5",
+    "odds": "-300 rec",
+    "ticket": "10/17 +100",
+    "result": "Pending",
+    "stat": "—"
    }
   ]
  },
@@ -596,9 +669,16 @@
    {
     "date": "10/16",
     "pick": "David Pastrnak o3.5 SOG (BOS@ANA)",
-    "odds": "-110 (placed)",
+    "odds": "-110 ($10 placed, pays $19.09)",
     "result": "W",
     "detail": "W (4 SOG, 1 G, 1 A, BOS 4 ANA 2)"
+   },
+   {
+    "date": "10/17",
+    "pick": "Ben Kindel o1.5 SOG (PIT@VGK)",
+    "odds": "-115 (placed)",
+    "result": "Pending",
+    "detail": "Pending"
    }
   ],
   "chart": [
@@ -916,7 +996,15 @@
      "pct": 100
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NCAAF",
+     "prop": "NCAAF spread",
+     "pick": "Indiana Hoosiers +3.5 (vs Ohio State, 12 PM ET)",
+     "odds": "-124",
+     "status": "Pending"
+    }
+   ]
   },
   {
    "name": "@salbets_",
@@ -1027,6 +1115,20 @@
      "pick": "Rays TT Over 3.5 (@ CLE, ALCS G4)",
      "odds": "+116",
      "status": "Pending"
+    },
+    {
+     "sport": "NHL",
+     "prop": "NHL ML",
+     "pick": "Fade BOS = LA Kings (vs BOS, 9 PM ET; #TonesB2BNHLSystem, bet type not stated, ML assumed)",
+     "odds": "—",
+     "status": "Pending"
+    },
+    {
+     "sport": "NHL",
+     "prop": "NHL ML",
+     "pick": "Tail PIT = Penguins (@ VGK, 10 PM ET; #TonesB2BNHLSystem, bet type not stated, ML assumed)",
+     "odds": "—",
+     "status": "Pending"
     }
    ]
   },
@@ -1103,6 +1205,63 @@
    "pct": null
   },
   "props": [],
-  "recent": []
+  "recent": [
+   {
+    "date": "2026-10-17",
+    "rank": "5",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "Arseny Gritsyuk o1.5 SOG",
+    "odds": "-140",
+    "grade": "B-",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "rank": "4",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "Noah Dobson u2.5 SOG",
+    "odds": "-185",
+    "grade": "B+",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "rank": "3",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "Jack Roslovic o1.5 SOG",
+    "odds": "-195",
+    "grade": "A-",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "rank": "2",
+    "sport": "NHL",
+    "prop": "NHL ML",
+    "pick": "Tampa Bay Lightning ML",
+    "odds": "-450",
+    "grade": "A+",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "rank": "1",
+    "sport": "MLB",
+    "prop": "MLB F5 spread (alt)",
+    "pick": "Tampa Bay Rays +1.5 F5",
+    "odds": "-375",
+    "grade": "A",
+    "status": "Pending",
+    "stat": "—"
+   }
+  ],
+  "grades": []
  }
 }
