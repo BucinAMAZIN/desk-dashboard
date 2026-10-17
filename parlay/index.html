@@ -12,7 +12,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 .cW{background:#12361f;color:#3fb950}.cL{background:#3d1517;color:#f85149}.cP{background:#30363d;color:#c9d1d9}.cPending{background:#3a2d0b;color:#d29922}
 .row{display:flex;justify-content:space-between;align-items:center;gap:8px}.bar{height:6px;background:#21262d;border-radius:3px;margin-top:4px;overflow:hidden}.bar>i{display:block;height:100%}
 .stats{display:flex;gap:8px}.stats .card{flex:1;text-align:center;padding:10px 4px}.stats b{font-size:20px;display:block}
-details summary{list-style:none;cursor:pointer}details summary::-webkit-details-marker{display:none}</style></head><body>
+.leg{border-bottom:1px solid #21262d;padding:8px 0}.leg:last-child{border-bottom:0}.why{margin-top:8px;padding:8px 10px;background:#0d1117;border-radius:8px;font-size:13px;line-height:1.45;color:#c9d1d9}details summary{list-style:none;cursor:pointer}details summary::-webkit-details-marker{display:none}</style></head><body>
 <div id="hb" class="card" style="margin-bottom:6px;padding:10px 12px"></div><div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Our Record</div><div class="tab" data-k="cappers">Cappers</div><div class="tab" data-k="bankroll">Bankroll</div></div>
 <div id="v"></div><div class="m" id="upd" style="text-align:center;margin-top:8px"></div>
 <script>
@@ -23,13 +23,18 @@ const bar=p=>`<div class="bar"><i style="width:${p??0}%;background:${col(p)}"></
 const et=t=>new Date(t*1000).toLocaleString('en-US',{timeZone:'America/New_York',month:'short',day:'numeric',hour:'numeric',minute:'2-digit'})+' ET';
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{K=b.dataset.k;history.replaceState(null,'','#'+K);document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));draw()});
 function status(s){const c=s=='W'||/won/i.test(s)?'#3fb950':s=='L'||/lost/i.test(s)?'#f85149':'#d29922';return `<span class="dot" style="background:${c}"></span>${E(s=='W'?'Won':s=='L'?'Lost':s)}`}
-function today(){const t=D.today;let h=`<div class="m" style="margin-bottom:6px">${E(t.title)}</div>`;
- if(!t.tickets.length)return h+'<div class="card m">No picks posted yet. Picks drop around noon ET.</div>';
- for(const k of t.tickets){h+=`<div class="card"><div class="m">${E(k.name=='POTD'?'Play of the Day':k.name)}</div>
+const why=w=>`<div class="why">${w?E(w):'<span class=m>Reasoning not logged</span>'}</div>`;
+function today(){const t=D.today;let h=`<div class="m" style="margin-bottom:6px">${E(t.title)} · tap a pick for the reasoning</div>`;
+ if(!t.tickets.length)h+='<div class="card m">No picks posted yet. Picks drop around noon ET.</div>';
+ for(const k of t.tickets){const head=`<div class="m">${E(k.name=='POTD'?'Play of the Day':k.name)}</div>
  <div class="big" style="font-size:${k.legs.length?30:24}px">${E(k.legs.length?k.odds:k.pick)}</div>
  ${k.legs.length?'':`<div class="m">${E(k.game)}</div>`}
- <div class="row" style="margin-top:8px"><div>${status(k.status)}</div><div class="m">${k.legs.length?'':'Odds <b style="color:#e6edf3">'+E(k.odds)+'</b> · '}Stake <b style="color:#e6edf3">${E(k.stake)}</b> · Pays <b class="g">${E(k.payout)}</b></div></div>
- ${k.legs.length?'<table style="margin-top:8px">'+k.legs.map(l=>`<tr><td>${E(l.pick)}<div class=m>${E(l.game)}</div></td><td>${E(l.odds)}</td><td style="text-align:right">${chip(l.status)}</td></tr>`).join('')+'</table>':''}</div>`}
+ <div class="row" style="margin-top:8px"><div>${status(k.status)}</div><div class="m">${k.legs.length?'':'Odds <b style="color:#e6edf3">'+E(k.odds)+'</b> · '}Stake <b style="color:#e6edf3">${E(k.stake)}</b> · Pays <b class="g">${E(k.payout)}</b></div></div>`;
+  if(!k.legs.length){h+=`<details class="card"><summary>${head}<div class="m" style="text-align:right">Why ▾</div></summary>${why(k.why)}</details>`;continue}
+  h+=`<div class="card">${head}${k.why?why(k.why):''}<div style="margin-top:8px">`+k.legs.map(l=>`<details class="leg"><summary><div class="row"><div>${E(l.pick)}<div class=m>${E(l.game)}</div></div><div style="text-align:right;white-space:nowrap">${E(l.odds)} ${chip(l.status)}<div class=m>Why ▾</div></div></div></summary>${why(l.why)}</details>`).join('')+'</div></div>'}
+ const r=t.runners_up||[];
+ h+='<h2>Runners-up (backups if a leg is lost)</h2>';
+ h+=r.length?'<div class="card">'+r.map(x=>`<details class="leg"><summary><div class="row"><div><span class="chip cP">${x.rank}</span> ${E(x.pick)}<div class=m>${E(x.game)}</div></div><div style="text-align:right;white-space:nowrap"><b>${E(x.odds)}</b><div class=m>Why ▾</div></div></div></summary>${why(x.why)}</details>`).join('')+'</div>':'<div class="card m">No runners-up logged yet.</div>';
  return h}
 function results(){const r=D.results;let h='<h2>Recent tickets</h2>';
  h+=r.tickets.map(t=>`<div class="card"><div class="row"><div><b>${E(t.name)}</b> <span class="m">${E(t.date)}</span><div class=m>${E(t.desc)}</div></div>${chip(t.result)}</div>
