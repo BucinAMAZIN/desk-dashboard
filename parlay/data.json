@@ -1,5 +1,5 @@
 {
- "generated": 1792252096.9573283,
+ "generated": 1792252182.5089538,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -248,118 +248,6 @@
    }
   ],
   "sports": {
-   "MLB": {
-    "potd": {
-     "pick": "Tampa Bay Rays F5 ML",
-     "odds": "-125",
-     "game": "TB @ CLE 8:00 PM ET",
-     "status": "Pending",
-     "why": "Only MLB game today. Nick Martinez has 13 scoreless innings in two starts vs CLE this year; Cleveland runs a bullpen game (Shawn Armstrong opens). F5 totals this series 2, 3, 5; LineMate TB F5 ML 5 of last 6 vs CLE. ~45°F, light wind. Risk: Martinez's early hook (3.2 and 2.2 IP last two). Hard Rock price via LineMate. No MLB parlay: only one game on the slate, and no second Hard Rock-priced leg to reach +100 without guessing odds.",
-     "desc": "Tampa Bay Rays F5 ML -125 (TB @ CLE 8:00 PM ET)"
-    },
-    "parlay": null,
-    "runners_up": [
-     {
-      "pick": "(Quality) Tampa Bay Rays +1.5 F5",
-      "odds": "-375",
-      "game": "Quality",
-      "status": "Pending",
-      "why": "Loses only if CLE leads by 2+ after 5. Martinez has 13 scoreless IP vs CLE this year; CLE runs a bullpen game; LineMate TB +1.5 F5 6/6 vs CLE. Risk: Martinez's early hook. Hard Rock price via LineMate.",
-      "grade": "A",
-      "rank": 1
-     }
-    ]
-   },
-   "NHL": {
-    "potd": {
-     "pick": "Charlie McAvoy o1.5 SOG",
-     "odds": "-115",
-     "game": "BOS @ LAK 9:00 PM ET",
-     "status": "Pending",
-     "why": "LineMate L6 6/6, vs LAK 2/2, away 4/5; 2 and 3 SOG this season on 24-27 min as top-pair D; Zacha out adds PP time. Risk: BOS on a back-to-back. Hard Rock price via LineMate.",
-     "desc": "Charlie McAvoy o1.5 SOG -115 (BOS @ LAK 9:00 PM ET)"
-    },
-    "parlay": {
-     "pick": "2-leg",
-     "odds": "+218",
-     "game": "calc from Hard Rock leg prices",
-     "status": "Pending",
-     "why": null,
-     "desc": "2-leg +218 (calc from Hard Rock leg prices)",
-     "legs": [
-      {
-       "pick": "Will Cuylle o1.5 SOG",
-       "odds": "-130",
-       "game": "NYR @ CBJ 7:00 PM ET",
-       "status": "Pending",
-       "why": "LineMate L9 7/9, vs CBJ 4/4; 2+ shots in 6 of 8 this season on 14-18 min; CBJ rates 29th as a matchup. Risk: 0 SOG last game."
-      },
-      {
-       "pick": "Seattle Kraken Over 2.5 Team Total",
-       "odds": "-125",
-       "game": "SEA @ FLA 6:00 PM ET",
-       "status": "Pending",
-       "why": "LineMate L4 4/4 and away 4/4 on SEA o2.5; McCann (L12 11/12 2+ SOG) and Dunn healthy. Risk: FLA is a -185 home favorite."
-      }
-     ]
-    },
-    "runners_up": [
-     {
-      "pick": "Ben Kindel o1.5 SOG",
-      "odds": "-115",
-      "game": "PIT @ VGK 10:00 PM ET",
-      "status": "Pending",
-      "why": "Same play as today's official POTD: 2+ shots in all 7 games (avg 2.57; LineMate L9 8/9); full-role center; VGK -200 so PIT should be chasing. Risk: PIT back-to-back. Hard Rock price via LineMate.",
-      "grade": "B+",
-      "rank": 1
-     },
-     {
-      "pick": "(+EV) Quinton Byfield o2.5 SOG",
-      "odds": "+110",
-      "game": "+EV",
-      "status": "Pending",
-      "why": "Best value: LineMate L9 8/9 (89%) vs +110 (implied 48%); 3,3,0,4,3 SOG on 19-23 min; Turcotte on IR. Hard Rock price via LineMate.",
-      "grade": "B-",
-      "rank": 2
-     },
-     {
-      "pick": "(Quality) Tampa Bay Lightning ML",
-      "odds": "-450",
-      "game": "Quality",
-      "status": "Pending",
-      "why": "VAN 2-6-1, 7 losses in 8, allows 4.56 GA and 32.4 shots/g; TB 4/4 at home; Demko on IR.",
-      "grade": "A-",
-      "rank": 3
-     },
-     {
-      "pick": "(Quality) Jack Roslovic o1.5 SOG",
-      "odds": "-195",
-      "game": "Quality",
-      "status": "Pending",
-      "why": "2+ shots in all 8 games (avg 3.1); Tavares day-to-day could add minutes; NYI allows 26.0 shots/g.",
-      "grade": "B++",
-      "rank": 4
-     },
-     {
-      "pick": "(Quality) Noah Dobson u2.5 SOG",
-      "odds": "-185",
-      "game": "Quality",
-      "status": "Pending",
-      "why": "2 or fewer in 6 of 7 (LineMate L17 14/17, vs BUF 6/6); BUF allows 24.6 shots/g. Risk: 5 shots last game.",
-      "grade": "B+",
-      "rank": 5
-     },
-     {
-      "pick": "(Quality) Arseny Gritsyuk o1.5 SOG",
-      "odds": "-140",
-      "game": "Quality",
-      "status": "Pending",
-      "why": "2+ in 6 of 7 (LineMate L14 12/14); TOI rising; NJ leads NHL at 35.6 shots/g. Thin cushion.",
-      "grade": "B",
-      "rank": 6
-     }
-    ]
-   },
    "NCAA F": {
     "potd": {
      "pick": "Colorado Under 17.5 Team Total",
@@ -522,6 +410,248 @@
      }
     ]
    },
+   "MLB": {
+    "potd": {
+     "pick": "Tampa Bay Rays F5 ML",
+     "odds": "-125",
+     "game": "TB @ CLE 8:08 PM ET",
+     "status": "Pending",
+     "why": "Only MLB game today. Nick Martinez has 13 scoreless innings in two starts vs CLE this year; Cleveland runs a bullpen game (Shawn Armstrong opens). F5 totals this series 2, 3, 5; LineMate TB F5 ML 5 of last 6 vs CLE. ~45°F, light wind. Risk: Martinez's early hook (3.2 and 2.2 IP last two). Hard Rock price confirmed in hr-lines/overall-oct17.md. No MLB parlay: only one game, and I'm not building a same-game parlay without a Hard Rock SGP price.",
+     "desc": "Tampa Bay Rays F5 ML -125 (TB @ CLE 8:08 PM ET)"
+    },
+    "parlay": null,
+    "runners_up": [
+     {
+      "pick": "Guardians F5 Under 1.5 Team Runs",
+      "odds": "-125",
+      "game": "TB @ CLE 8:08 PM ET",
+      "status": "Pending",
+      "why": "Martinez 13 scoreless IP vs CLE this year; CLE has scored 0, 1 and 2 in the series' first fives. Cold (~45°F) favors pitching. Risk: early hook. Hard Rock (overall-oct17.md).",
+      "grade": "B+",
+      "rank": 1
+     },
+     {
+      "pick": "F5 Total Under 3.5",
+      "odds": "-120",
+      "game": "TB @ CLE 8:08 PM ET",
+      "status": "Pending",
+      "why": "F5 totals this series 2, 3, 5; Martinez vs a CLE lineup with tiny-sample BvP and no HRs; cold weather. Risk: TB scoring off CLE's bullpen game.",
+      "grade": "B",
+      "rank": 2
+     },
+     {
+      "pick": "Tampa Bay Rays ML",
+      "odds": "-115",
+      "game": "TB @ CLE 8:08 PM ET",
+      "status": "Pending",
+      "why": "Martinez edge vs a CLE bullpen game; TB bullpen fully rested. Risk: full-game coin flip late.",
+      "grade": "B-",
+      "rank": 3
+     },
+     {
+      "pick": "Total Hits Under 15.5",
+      "odds": "-125",
+      "game": "TB @ CLE 8:08 PM ET",
+      "status": "Pending",
+      "why": "Cold night and a starter CLE hasn't scored on; series has been low-event. Risk: bullpen-heavy late innings.",
+      "grade": "C+",
+      "rank": 4
+     },
+     {
+      "pick": "(+EV) Tampa Bay Rays F5 -0.5",
+      "odds": "+120",
+      "game": "+EV",
+      "status": "Pending",
+      "why": "Best value: same F5 edge as the POTD, at plus money, but loses on an F5 tie.",
+      "grade": "B-",
+      "rank": 5
+     },
+     {
+      "pick": "(Quality) Tampa Bay Rays +1.5 F5",
+      "odds": "-375",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "Loses only if CLE leads by 2+ after 5; LineMate 6/6 vs CLE.",
+      "grade": "A",
+      "rank": 6
+     },
+     {
+      "pick": "(Quality) Tampa Bay Rays +0.5 F5",
+      "odds": "-185",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "Wins or ties after 5; Martinez dominance vs CLE plus CLE bullpen game.",
+      "grade": "B+",
+      "rank": 7
+     },
+     {
+      "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
+      "odds": "-275",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "CLE needs 3 off Martinez in 5 innings; hasn't scored on him in 13 IP.",
+      "grade": "B",
+      "rank": 8
+     },
+     {
+      "pick": "(Quality) F5 Total Under 4.5",
+      "odds": "-220",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "Every F5 this series has been 5 or fewer; this needs 4 or fewer.",
+      "grade": "B",
+      "rank": 9
+     }
+    ]
+   },
+   "NHL": {
+    "potd": {
+     "pick": "Charlie McAvoy o1.5 SOG",
+     "odds": "-110",
+     "game": "BOS @ LAK 9:00 PM ET",
+     "status": "Pending",
+     "why": "LineMate L6 6/6, vs LAK 2/2, away 4/5; 2 and 3 SOG this season on 24-27 min as top-pair D; Zacha out adds PP time. Risk: BOS on a back-to-back. Hard Rock price -110 per overall-oct17.md (was -115 via LineMate). Outside the -105 to -130 band by 5 cents; kept as the best NHL single.",
+     "desc": "Charlie McAvoy o1.5 SOG -110 (BOS @ LAK 9:00 PM ET)"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+224",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +224 (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "Will Cuylle o1.5 SOG",
+       "odds": "-130",
+       "game": "NYR @ CBJ 7:00 PM ET",
+       "status": "Pending",
+       "why": "LineMate L9 7/9, vs CBJ 4/4; 2+ shots in 6 of 8 this season on 14-18 min; CBJ rates 29th as a matchup. Risk: 0 SOG last game."
+      },
+      {
+       "pick": "Seattle Kraken Over 2.5 Team Total",
+       "odds": "-120",
+       "game": "SEA @ FLA 6:00 PM ET",
+       "status": "Pending",
+       "why": "LineMate L4 4/4 and away 4/4 on SEA o2.5; McCann (L12 11/12 2+ SOG) and Dunn healthy. Risk: FLA is the home favorite."
+      }
+     ]
+    },
+    "runners_up": [
+     {
+      "pick": "Ben Kindel o1.5 SOG",
+      "odds": "-115",
+      "game": "PIT @ VGK 10:00 PM ET",
+      "status": "Pending",
+      "why": "Same play as today's official POTD: 2+ shots in all 7 games (avg 2.57; LineMate L9 8/9). Risk: PIT back-to-back. Hard Rock price via LineMate (PIT@VGK not in overall-oct17.md).",
+      "grade": "B+",
+      "rank": 1
+     },
+     {
+      "pick": "(+EV) Quinton Byfield o2.5 SOG",
+      "odds": "+110",
+      "game": "+EV",
+      "status": "Pending",
+      "why": "Best value: LineMate L9 8/9 (89%) vs +110 (implied 48%); 3,3,0,4,3 SOG on 19-23 min. Hard Rock +110 confirmed in overall-oct17.md.",
+      "grade": "B-",
+      "rank": 2
+     },
+     {
+      "pick": "(Quality) Tampa Bay Lightning ML",
+      "odds": "-375",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "VAN 2-6-1, 7 losses in 8, allows 4.56 GA and 32.4 shots/g; TB 4/4 at home; Demko on IR. Hard Rock -375 (overall-oct17.md).",
+      "grade": "A-",
+      "rank": 3
+     },
+     {
+      "pick": "(Quality) Jack Roslovic o1.5 SOG",
+      "odds": "-165",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "2+ shots in all 8 games (avg 3.1); Tavares day-to-day; NYI allows 26.0 shots/g. Hard Rock -165 (overall-oct17.md).",
+      "grade": "B++",
+      "rank": 4
+     },
+     {
+      "pick": "(Quality) Noah Dobson u2.5 SOG",
+      "odds": "-185",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "2 or fewer in 6 of 7 (LineMate L17 14/17, vs BUF 6/6); BUF allows 24.6 shots/g. Hard Rock price via LineMate (game not in overall-oct17.md).",
+      "grade": "B+",
+      "rank": 5
+     },
+     {
+      "pick": "(Quality) Arseny Gritsyuk o1.5 SOG",
+      "odds": "-145",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "2+ in 6 of 7 (LineMate L14 12/14); TOI rising; NJ 35.6 shots/g. Hard Rock -145 (overall-oct17.md).",
+      "grade": "B",
+      "rank": 6
+     }
+    ]
+   },
+   "WNBA": {
+    "potd": {
+     "pick": "1st Quarter Total Under 37.5",
+     "odds": "-115",
+     "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
+     "status": "Pending",
+     "why": "WNBA Finals Game 1 between the league's two best defenses: Golden State allowed 95.9 pts/100 (best by 4.5) and Atlanta is 2nd; both lead the league in steals and limiting transition. Atlanta's Allisha Gray is day-to-day (hand). Full-game total is only 154.5 (projection 79-73 = 152). Finals openers tend to start tight. Hard Rock (hr-lines/wnba-oct17.md). No WNBA parlay: one game only, no Hard Rock SGP price.",
+     "desc": "1st Quarter Total Under 37.5 -115 (Atlanta Dream @ Golden State Valkyries 3:30 PM ET)"
+    },
+    "parlay": null,
+    "runners_up": [
+     {
+      "pick": "2nd Half Total Under 79.5 incl OT",
+      "odds": "-115",
+      "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
+      "status": "Pending",
+      "why": "Two elite defenses; full-game total 154.5. Risk: late fouling and OT count.",
+      "grade": "B",
+      "rank": 1
+     },
+     {
+      "pick": "Allisha Gray Under 14.5 Points",
+      "odds": "-115",
+      "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
+      "status": "Pending",
+      "why": "Day-to-day after a hand procedure, facing the league's best defense (Gabby Williams was DPOY runner-up). Risk: she plays full minutes and is fine.",
+      "grade": "B",
+      "rank": 2
+     },
+     {
+      "pick": "Valkyries 1st Quarter -0.5",
+      "odds": "-110",
+      "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
+      "status": "Pending",
+      "why": "Home at Chase Center, 3-0 vs ATL in the regular season. Risk: coin-flip quarter.",
+      "grade": "C+",
+      "rank": 3
+     },
+     {
+      "pick": "(+EV) Valkyries/Valkyries Halftime-Fulltime",
+      "odds": "+125",
+      "game": "+EV",
+      "status": "Pending",
+      "why": "Best value: GS is -135 to win either half and -140 full game; leading at half and winning is priced at +125.",
+      "grade": "C+",
+      "rank": 4
+     },
+     {
+      "pick": "(Quality) Valkyries ML",
+      "odds": "-140",
+      "game": "Quality",
+      "status": "Pending",
+      "why": "GS 3-0 vs ATL this season, home court, best defense, Gray hurt. Risk: Atlanta is 5-0 in these playoffs.",
+      "grade": "B",
+      "rank": 5
+     }
+    ]
+   },
    "ALL": {
     "potd": {
      "pick": "Colorado Under 17.5 Team Total",
@@ -533,32 +663,32 @@
     },
     "parlay": {
      "pick": "3-leg",
-     "odds": "+106",
+     "odds": "+114",
      "game": "calc from Hard Rock leg prices",
      "status": "Pending",
      "why": null,
-     "desc": "3-leg +106 (calc from Hard Rock leg prices)",
+     "desc": "3-leg +114 (calc from Hard Rock leg prices)",
      "legs": [
       {
        "pick": "Tampa Bay Lightning ML",
-       "odds": "-450",
+       "odds": "-375",
        "game": "VAN @ TB 4:00 PM ET",
        "status": "Pending",
-       "why": "VAN 2-6-1 with 7 losses in 8, allows 4.56 goals and 32.4 shots/g; TB 4/4 at home; Demko on IR. ML includes OT."
+       "why": "VAN 2-6-1 with 7 losses in 8, allows 4.56 goals and 32.4 shots/g; TB 4/4 at home; Demko on IR. Hard Rock -375 (overall-oct17.md)."
       },
       {
        "pick": "Tampa Bay Rays +1.5 F5",
        "odds": "-375",
-       "game": "TB @ CLE 8:00 PM ET",
+       "game": "TB @ CLE 8:08 PM ET",
        "status": "Pending",
-       "why": "Loses only if CLE leads by 2+ after 5. Martinez 13 scoreless IP vs CLE this year; CLE bullpen game; LineMate 6/6 vs CLE."
+       "why": "Loses only if CLE leads by 2+ after 5. Martinez 13 scoreless IP vs CLE this year; CLE bullpen game; LineMate 6/6 vs CLE. Hard Rock -375 (overall-oct17.md)."
       },
       {
        "pick": "St. Louis Blues +1.5",
        "odds": "-300",
        "game": "STL @ NSH 8:00 PM ET",
        "status": "Pending",
-       "why": "STL is the ML favorite; LineMate +1.5 18/20 away; NSH has won only one game by 2+; NSH starting Annunen (no NHL games this year). Risk: empty-netter."
+       "why": "STL is the ML favorite; LineMate +1.5 18/20 away; NSH has won only one game by 2+; NSH starting Annunen. Risk: empty-netter. Hard Rock price via LineMate."
       }
      ]
     }
@@ -3723,6 +3853,117 @@
       {
        "market": "Pitcher strikeouts (Nick Martinez)",
        "lines": "O/U 2.5 +125/-165. Hits, Total Bases, RBIs, Hits+Runs+RBI, Doubles, Triples, To Record X Hits/RBIs/Strikeouts, Hits Allowed, Earned Runs, Batter Walks: listed by name on site, prices not exposed in captured text, not included"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "wnba",
+   "sport": "WNBA",
+   "file": "wnba-oct17.md",
+   "title": "Hard Rock WNBA lines, Oct 17",
+   "summary": "—",
+   "games": [
+    {
+     "game": "Atlanta Dream @ Golden State Valkyries (WNBA) 3:30 PM ET",
+     "markets": [
+      {
+       "market": "Moneyline",
+       "lines": "Dream +120; Valkyries -140"
+      },
+      {
+       "market": "Spread",
+       "lines": "Dream +2.5 -110; Valkyries -2.5 -110"
+      },
+      {
+       "market": "Total points",
+       "lines": "Over 154.5 -110; Under 154.5 -110"
+      },
+      {
+       "market": "1st Half Spread",
+       "lines": "Dream +3.5 -175; Valkyries -3.5 +135; Dream +2.5 -145; Valkyries -2.5 +115; Dream +1.5 -120; Valkyries -1.5 +100; Dream +0.5 +100; Valkyries -0.5 -120; Dream -0.5 +115; Valkyries +0.5 -145"
+      },
+      {
+       "market": "1st Half Total Points",
+       "lines": "Over 72.5 -165 / Under 72.5 +125; Over 73.5 -135 / Under 73.5 +110; Over 74.5 -115 / Under 74.5 -105; Over 75.5 +105 / Under 75.5 -130; Over 76.5 +120 / Under 76.5 -150"
+      },
+      {
+       "market": "1st Half Winner",
+       "lines": "Valkyries -135; Dream +105"
+      },
+      {
+       "market": "2nd Half Spread (incl. OT)",
+       "lines": "Dream +1.5 -120; Valkyries -1.5 +100; Dream +0.5 +100; Valkyries -0.5 -120; Dream -0.5 +115; Valkyries +0.5 -145"
+      },
+      {
+       "market": "2nd Half Total Points (incl. OT)",
+       "lines": "Over 78.5 -120 / Under 78.5 +100; Over 79.5 -105 / Under 79.5 -115; Over 80.5 +110 / Under 80.5 -135"
+      },
+      {
+       "market": "2nd Half Winner (incl. OT)",
+       "lines": "Valkyries -135; Dream +105"
+      },
+      {
+       "market": "1st Quarter Spread",
+       "lines": "Dream +0.5 -110; Valkyries -0.5 -110"
+      },
+      {
+       "market": "1st Quarter Total Points",
+       "lines": "Over 37.5 -105 / Under 37.5 -115"
+      },
+      {
+       "market": "1st Quarter Winner",
+       "lines": "Valkyries -130; Dream +100"
+      },
+      {
+       "market": "Halftime & Game Winner (excl. OT)",
+       "lines": "Valkyries/Valkyries +125; Valkyries/Tie +2500; Valkyries/Dream +650; Tie/Valkyries +3000; Dream/Tie +2500; Tie/Tie +20000; Tie/Dream +4000; Dream/Valkyries +525; Dream/Dream +200"
+      },
+      {
+       "market": "Highest Scoring Quarter",
+       "lines": "1st +350; 2nd +375; 3rd +175; 4th +260; Tie +1300"
+      },
+      {
+       "market": "Game To Go To Overtime",
+       "lines": "Yes +900; No -2500"
+      },
+      {
+       "market": "Odd vs Even Total Points",
+       "lines": "Odd -115; Even -105"
+      },
+      {
+       "market": "Points O/U (player)",
+       "lines": "Rhyne Howard O15.5 -105 / U15.5 -125; DeWanna Bonner O8.5 +100 / U8.5 -130; Angel Reese O14.5 -120 / U14.5 -110; Allisha Gray O14.5 -115 / U14.5 -115; Naz Hillmon O6.5 -110 / U6.5 -120; Jordin Canada O11.5 -110 / U11.5 -120; Kiah Stokes O3.5 -105 / U3.5 -125; Tiffany Hayes O8.5 -110 / U8.5 -120; Kayla Thornton O7.5 +100 / U7.5 -135; Veronica Burton O10.5 +110 / U10.5 -140; Cecilia Zandalasini O6.5 -115 / U6.5 -110; Gabby Williams O18.5 -115 / U18.5 -115; Janelle Salaun O5.5 -125 / U5.5 -105; Kaitlyn Chen O5.5 +115 / U5.5 -155"
+      },
+      {
+       "market": "",
+       "lines": "To Record X Points (alt, kept -500..+200): Dream Naz Hillmon O4.5 -260; Jordin Canada O9.5 -200; DeWanna Bonner O9.5 +135; Allisha Gray O14.5 -115; Angel Reese O14.5 -120; Rhyne Howard O14.5 -140; Valkyries Kayla Thornton O4.5 -325; Kiah Stokes O4.5 +185; Cecilia Zandalasini O4.5 -260; Janelle Salaun O4.5 -185; Kaitlyn Chen O4.5 -120; Veronica Burton O9.5 -125; Tiffany Hayes O9.5 +125; Kayla Thornton O9.5 +195 (rungs above +200 e.g. Angel Reese O19.5 +275, Rhyne Howard O19.5 +230, Cecilia Zandalasini O9.5 +230 excluded)"
+      },
+      {
+       "market": "Assists O/U",
+       "lines": "Dream Rhyne Howard O3.5 +110 / U3.5 -155; Naz Hillmon O1.5 -140 / U1.5 +100; Allisha Gray O1.5 -165 / U1.5 +115; Angel Reese O1.5 -170 / U1.5 +120; Jordin Canada O7.5 +110 / U7.5 -160; Valkyries Cecilia Zandalasini O1.5 +115 / U1.5 -160; Kiah Stokes O1.5 -110 / U1.5 -130; Kayla Thornton O0.5 -150 / U0.5 +105; Veronica Burton O4.5 -140 / U4.5 +100; Gabby Williams O3.5 +120 / U3.5 -175"
+      },
+      {
+       "market": "",
+       "lines": "Rebounds, Threes Made, Combos, First Basket, Team Lines: listed on site, not captured in this pass"
+      }
+     ]
+    },
+    {
+     "game": "WNBA Futures (Hard Rock WNBA Finals tab)",
+     "markets": [
+      {
+       "market": "WNBA Champion",
+       "lines": "Valkyries -125; Dream -105"
+      },
+      {
+       "market": "",
+       "lines": "Series Correct Score (Valkyries vs Dream): Valkyries 4-3 +425; Dream 4-2 +450; Valkyries 4-1 +500; Dream 4-3 +600; Valkyries 4-2 +650; Dream 4-1 +700; Valkyries 4-0 +900; Dream 4-0 +900"
+      },
+      {
+       "market": "",
+       "lines": "Series Handicap, When Will the Series End, Most Total Points / Assists / Rebounds / 3P Made in Series, Finals MVP: listed on site, prices not captured"
       }
      ]
     }
