@@ -1,5 +1,5 @@
 {
- "generated": 1792280390.2907958,
+ "generated": 1792280661.8682165,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -2527,7 +2527,7 @@
    }
   ]
  },
- "ui_build": "1792280390",
+ "ui_build": "1792280661",
  "ncaaf_record": {
   "overall": {
    "w": 2,
@@ -4295,99 +4295,110 @@
  "td_city": {
   "date": "2026-10-18",
   "title": "Touchdown City · NFL Sun Oct 18",
-  "locked_at": "Sat Oct 17, 7:45 PM ET (legs 10-11 added 7:50 PM ET)",
+  "locked_at": "Sat Oct 17, 7:58 PM ET (re-locked with researched position mix at user request)",
   "status": "Pending",
-  "odds": "~+17,157",
-  "odds_note": "Approximate: product of the 11 leg prices (FanDuel, decimal ×172.6). Hard Rock prices NOT verified; confirm each leg on Hard Rock before betting.",
-  "why": "11 lead/goal-line backs on the Sunday slate, all listed Active (no Friday designation) on the ESPN injury report as of 7:40 PM ET Sat. Skipped: Rhamondre Stevenson (role depends on TreVeyon Henderson's ankle), Puka Nacua (only 2 TDs), Jeanty/Bowers (in-week foot/knee listing). Lotto; not in official record. Rico Dowdle skipped (questionable, toe).",
+  "odds": "~+29,847",
+  "odds_note": "Approximate: product of 11 FanDuel leg prices (decimal ×299.5). Hard Rock prices NOT verified; confirm each leg on Hard Rock before betting.",
+  "why": "Method: nflverse play-by-play wks 1-6; L4 = wks 3-6 for red-zone and inside-10 rush+target share (season and L4), TD per opportunity; opponent rush/pass EPA allowed, stuff rate and red-zone TD% (drives reaching the 20) ranked 1-32; implied team totals from ESPN spread/total; Open-Meteo weather (CLE 57°F, KC 64°F, GB 51°F, all dry, ≤13 mph); ESPN injury report 7:45 PM ET Sat. Model p = Poisson on blended TD rate and inside-10 volume × team-total and opponent-RZ factors, vs FanDuel implied. NOT available/used: PFF or ESPN run/pass-block vs pass-rush/run-stop win rates and CB shadow assignments (paywalled / not pulled); yards-before-contact allowed. Mix: 6 RB, 3 WR, 1 TE, 1 QB. Dropped from earlier versions: Bijan Robinson (-290, model 51%), Swift (-14 pts edge), Lloyd, Marks, Hubbard. Skipped: McBride (LAR pass D 4th), A.J. Brown (questionable), Kelce (0 inside-10 targets), Drake London (0 RZ targets). Candidate ranking (edge = model − implied): edge +12.5 J.Allen   BUF QB FD -175 g5 TD8 in10 7 model 76% vs implied 64% fair -320 | edge +12.5 C.Watson   GB WR FD +120 g5 TD6 in10 4 model 58% vs implied 45% fair -138 | edge +5.5 K.Williams  LA RB FD -195 g5 TD5 in10 14 model 72% vs implied 66% fair -252 | edge +2.5 J.Williams  DAL RB FD -220 g5 TD7 in10 15 model 71% vs implied 69% fair -247 | edge +2.3 J.Cook    BUF RB FD -170 g5 TD5 in10 12 model 65% vs implied 63% fair -188 | edge +1.2 C.Lamb    DAL WR FD +120 g5 TD4 in10 4 model 47% vs implied 45% fair +114 | edge -1.4 B.Bowers   LV TE FD -115 g3 TD3 in10 2 model 52% vs implied 53% fair -109 | edge -2.6 K.Walker   KC RB FD -170 g4 TD6 in10 15 model 60% vs implied 63% fair -152 | edge -3.0 D.Adams   LA WR FD -135 g5 TD4 in10 2 model 54% vs implied 57% fair -119 | edge -3.7 P.Washington JAX WR FD +160 g5 TD4 in10 3 model 35% vs implied 38% fair +188 | edge -6.9 P.Nacua   LA WR FD -155 g3 TD2 in10 4 model 54% vs implied 61% fair -117 | edge -7.8 T.McBride  ARI TE FD +155 g5 TD3 in10 8 model 31% vs implied 39% fair +218 | edge -8.0 C.Hubbard  CAR RB FD -115 g4 TD5 in10 9 model 46% vs implied 53% fair +120 | edge -8.5 T.Warren   IND TE FD +150 g5 TD3 in10 4 model 31% vs implied 40% fair +218 | edge -8.6 H.Fannin   CLE TE FD +230 g5 TD3 in10 2 model 22% vs implied 30% fair +360 | edge -10.8 D.Henry   BAL RB FD -165 g5 TD8 in10 21 model 52% vs implied 62% fair -106 | edge -10.9 T.McMillan  CAR WR FD +195 g4 TD2 in10 5 model 23% vs implied 34% fair +336 | edge -12.3 E.Egbuka   TB WR FD +270 g5 TD2 in10 3 model 15% vs implied 27% fair +579 | edge -14.3 D.Swift   CHI RB FD -195 g5 TD4 in10 16 model 52% vs implied 66% fair -107 | edge -16.2 B.Irving   TB RB FD +160 g5 TD3 in10 6 model 22% vs implied 38% fair +349 | edge -17.5 M.Lloyd   GB RB FD -150 g5 TD3 in10 9 model 43% vs implied 60% fair +135 | edge -17.5 J.Taylor   IND RB FD -280 g5 TD6 in10 13 model 56% vs implied 74% fair -128 | edge -19.5 T.Kraft   GB TE FD +175 g5 TD1 in10 3 model 17% vs implied 36% fair +493 | edge -20.2 M.Nabers   NYG WR FD +150 g5 TD2 in10 2 model 20% vs implied 40% fair +404 | edge -20.9 G.Pickens  DAL WR FD +150 g5 TD1 in10 4 model 19% vs implied 40% fair +425 | edge -21.6 A.Jeanty   LV RB FD -130 g5 TD2 in10 9 model 35% vs implied 57% fair +186 | edge -21.8 T.Kelce   KC TE FD +135 g4 TD2 in10 0 model 21% vs implied 43% fair +381 | edge -23.6 Bi.Robinson ATL RB FD -290 g5 TD5 in10 11 model 51% vs implied 74% fair -103 | edge -32.9 W.Marks   HOU RB FD +125 g5 TD2 in10 5 model 12% vs implied 44% fair +766",
   "legs": [
    {
-    "pick": "Jonathan Taylor anytime TD",
-    "game": "TEN @ IND 1:00 PM ET Sun",
-    "odds": "-280",
-    "book": "FanDuel (DK -310, CZ -290, MGM -235); HR unverified",
-    "status": "Pending",
-    "why": "6 rush TDs on 101 carries; Colts' goal-line back, IND -7 home favorite vs TEN."
-   },
-   {
-    "pick": "Bijan Robinson anytime TD",
-    "game": "CHI @ ATL 1:00 PM ET Sun",
-    "odds": "-290",
-    "book": "FanDuel (DK -295, CZ -310, MGM -275); HR unverified",
-    "status": "Pending",
-    "why": "5 total TDs (4 rush, 1 rec), 120 touches; ATL's red-zone engine in a 52.5-total game."
-   },
-   {
-    "pick": "Javonte Williams anytime TD",
-    "game": "DAL @ GB 8:20 PM ET Sun",
-    "odds": "-220",
-    "book": "FanDuel (DK -210, CZ -209, MGM -185); HR unverified",
-    "status": "Pending",
-    "why": "7 total TDs on 91 touches; Dallas' short-yardage/goal-line back, 53.5 total."
-   },
-   {
-    "pick": "Kyren Williams anytime TD",
+    "pick": "Kyren Williams (RB) anytime TD",
     "game": "ARI @ LAR 4:05 PM ET Sun",
     "odds": "-195",
     "book": "FanDuel (DK -185, CZ -200, MGM -220); HR unverified",
     "status": "Pending",
-    "why": "5 total TDs, 97 touches incl. 27 catches; LAR -12.5 with a 51.5 total, heavy red-zone volume."
+    "grade": "A",
+    "why": "[A] 50% of LAR inside-10 opps (season & L4), 5 TDs; LAR implied 32 pts (-12.5/51.5); ARI red-zone TD rate 78% (30th), rush EPA 11th. Model 72% vs 66% implied, fair -252."
    },
    {
-    "pick": "D'Andre Swift anytime TD",
-    "game": "CHI @ ATL 1:00 PM ET Sun",
-    "odds": "-195",
-    "book": "FanDuel (DK -195, CZ -197, MGM -185); HR unverified",
+    "pick": "Javonte Williams (RB) anytime TD",
+    "game": "DAL @ GB 8:20 PM ET Sun",
+    "odds": "-220",
+    "book": "FanDuel (DK -210, CZ -209, MGM -185); HR unverified",
     "status": "Pending",
-    "why": "4 rush TDs; Kyle Monangai ruled OUT (thumb/toe), so Swift gets the full backfield/goal-line load."
+    "grade": "A-",
+    "why": "[A-] 54% inside-10 share (58% L4), 7 TDs, 5 in L4; DAL implied 26; GB run D 27th rush EPA, RZ TD 72% (25th); 51°F, light wind. Model 71% vs 69%."
    },
    {
-    "pick": "Kenneth Walker III anytime TD",
+    "pick": "Kenneth Walker III (RB) anytime TD",
     "game": "LAC @ KC 4:25 PM ET Sun",
     "odds": "-170",
     "book": "FanDuel (DK -170, CZ -200, MGM -190); HR unverified",
     "status": "Pending",
-    "why": "6 total TDs (4 rush, 2 rec); 22 carries, 177 yds, 2 TDs last week; KC -7.5 home favorite."
+    "grade": "B+",
+    "why": "[B+] Slate-best 71% inside-10 share (75% L4), 6 TDs in 4 games; KC implied 24; LAC run D 14th, stuff rate 24th, RZ 11th. Model 60% vs 63%: fair-ish."
    },
    {
-    "pick": "James Cook III anytime TD",
-    "game": "BUF @ LV 4:25 PM ET Sun",
-    "odds": "-170",
-    "book": "FanDuel (DK -165, CZ -170, MGM -155); HR unverified",
-    "status": "Pending",
-    "why": "5 rush TDs; lead back, BUF -5.5 in the slate's top total (53.5). Josh Allen vulturing is the risk."
-   },
-   {
-    "pick": "Derrick Henry anytime TD",
+    "pick": "Derrick Henry (RB) anytime TD",
     "game": "BAL @ CLE 1:00 PM ET Sun",
     "odds": "-165",
     "book": "FanDuel (DK -170, CZ -164, MGM -155); HR unverified",
     "status": "Pending",
-    "why": "8 total TDs (7 rush) on 121 touches, scored last week; BAL's goal-line hammer, BAL -3."
+    "grade": "B",
+    "why": "[B] 60% inside-10 share, 21 inside-10 opps (slate high), 8 TDs; CLE run D 29th rush EPA but RZ D 4th (43%); BAL implied only 21. Volume beats matchup."
    },
    {
-    "pick": "MarShawn Lloyd anytime TD",
+    "pick": "Jonathan Taylor (RB) anytime TD",
+    "game": "TEN @ IND 1:00 PM ET Sun",
+    "odds": "-280",
+    "book": "FanDuel (DK -310, CZ -290, MGM -235); HR unverified",
+    "status": "Pending",
+    "grade": "B-",
+    "why": "[B-] 50% RZ & inside-10 share, 6 TDs; IND implied 25.75 (-7), dome. TEN stuff rate 4th is a drag; heavy chalk (fair ~-130 by model, market -280)."
+   },
+   {
+    "pick": "James Cook III (RB) anytime TD",
+    "game": "BUF @ LV 4:25 PM ET Sun",
+    "odds": "-170",
+    "book": "FanDuel (DK -165, CZ -170, MGM -155); HR unverified",
+    "status": "Pending",
+    "grade": "B",
+    "why": "[B] 41% inside-10 share, 4 TDs in L4; BUF implied 29.5 (slate 2nd); LV RZ TD 74% (28th); dome. Correlated with Allen leg. Model 65% vs 63%."
+   },
+   {
+    "pick": "Josh Allen (QB) anytime TD",
+    "game": "BUF @ LV 4:25 PM ET Sun",
+    "odds": "-175",
+    "book": "FanDuel (DK -175, CZ -179, MGM -140); HR unverified",
+    "status": "Pending",
+    "grade": "A",
+    "why": "[A] 8 rush TDs on 43 carries, 21% of BUF inside-10 opps; BUF implied 29.5; LV RZ 28th. Model 76% vs 64% implied (fair -320): best value on the board."
+   },
+   {
+    "pick": "Christian Watson (WR) anytime TD",
     "game": "DAL @ GB 8:20 PM ET Sun",
-    "odds": "-150",
-    "book": "FanDuel (DK -150, CZ -143, MGM -140); HR unverified",
+    "odds": "+120",
+    "book": "FanDuel (DK +120, CZ +117, MGM +115); HR unverified",
     "status": "Pending",
-    "why": "Lead back with Josh Jacobs out (Exempt list); 2 rush TDs last week, 3 total TDs; 53.5 total."
+    "grade": "A",
+    "why": "[A] 6 TDs on 40 targets (3 in L4); GB implied 27.5; DAL pass D 32nd EPA/play, RZ 22nd. Model 58% vs 45% implied, fair -138: plus-money value."
    },
    {
-    "pick": "Chuba Hubbard anytime TD",
-    "game": "CAR @ PHI 1:00 PM ET Sun",
+    "pick": "CeeDee Lamb (WR) anytime TD",
+    "game": "DAL @ GB 8:20 PM ET Sun",
+    "odds": "+120",
+    "book": "FanDuel (DK +115, CZ +118, MGM +110); HR unverified",
+    "status": "Pending",
+    "grade": "B",
+    "why": "[B] 4 TDs, team-high 51 targets, 13% RZ share; DAL implied 26; GB pass D 5th is the risk. Thigh: full practice, Active, no designation. Model 47% vs 45%, fair +114."
+   },
+   {
+    "pick": "Davante Adams (WR) anytime TD",
+    "game": "ARI @ LAR 4:05 PM ET Sun",
+    "odds": "-135",
+    "book": "FanDuel (DK -130, CZ -134, MGM -120); HR unverified",
+    "status": "Pending",
+    "grade": "B",
+    "why": "[B] 4 TDs, 2 last week, 18% RZ target share L4; LAR implied 32; ARI pass D 31st EPA, RZ 30th. Model 54% vs 57%: near-fair."
+   },
+   {
+    "pick": "Brock Bowers (TE) anytime TD",
+    "game": "BUF @ LV 4:25 PM ET Sun",
     "odds": "-115",
-    "book": "FanDuel (DK -120, CZ -118, MGM -125); HR unverified",
+    "book": "FanDuel (DK -115, CZ -113, MGM -111); HR unverified",
     "status": "Pending",
-    "why": "5 total TDs (3 rush, 2 rec) on 71 touches; 20 carries and 2 TDs last week; CAR's lead and goal-line back."
-   },
-   {
-    "pick": "Woody Marks anytime TD",
-    "game": "HOU @ JAX 9:30 AM ET Sun",
-    "odds": "+125",
-    "book": "FanDuel (DK +125, CZ +123, MGM +135); HR unverified",
-    "status": "Pending",
-    "why": "Named HOU's lead back this week by DeMeco Ryans; 2 rush TDs on 54 touches; shortest TD price in the London game."
+    "grade": "B",
+    "why": "[B] 3 TDs in 3 games, 19% RZ share L4; BUF pass D 27th EPA, RZ TD 76% (29th); LV trails as 5.5-pt dog. Knee: full practice, Active. Model 52% vs 53%."
    }
   ],
   "hr_unverified": true
