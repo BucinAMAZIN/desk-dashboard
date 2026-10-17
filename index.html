@@ -7,16 +7,16 @@
 .tabs{display:flex;gap:6px;margin-bottom:10px}.tab{flex:1;padding:10px;border-radius:10px;background:#161b22;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600}
 .tab.on{color:#e6edf3;border-color:#58a6ff}.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:12px;margin-bottom:10px}
 .big{font-size:36px;font-weight:700}.g{color:#3fb950}.r{color:#f85149}.m{color:#8b949e;font-size:12px}h2{font-size:14px;color:#8b949e;margin:14px 0 6px}
-table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;border-bottom:1px solid #21262d}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}svg{width:100%;height:120px}</style></head><body>
+table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;border-bottom:1px solid #21262d}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}svg{width:100%;height:120px}.tip{display:none;position:absolute;top:6px;background:#0d1117ee;border:1px solid #30363d;border-radius:8px;padding:6px 8px;font-size:12px;line-height:1.45;pointer-events:none;white-space:nowrap;z-index:2}</style></head><body>
 <div class="tabs"><div class="tab on" data-k="meme">Memecoin</div><div class="tab" data-k="poly">Polymarket</div></div>
 <div class="card"><div class="m" id="run"></div><div class="big" id="eq">…</div><div id="pct"></div>
 <div style="margin-top:6px"><span class="dot" id="dot"></span><span id="alive"></span></div><div class="m" id="upd"></div></div>
-<div class="card"><svg id="sp" viewBox="0 0 300 120" preserveAspectRatio="none"></svg></div>
+<div class="card" id="spc" style="position:relative"><svg id="sp" viewBox="0 0 300 120" preserveAspectRatio="none" style="touch-action:none"></svg><div id="tip" class="tip"></div><div class="m" id="sph">Tap or drag the graph for details</div></div>
 <h2 id="ph">Open positions</h2><div class="card"><table id="pos"></table></div>
 <div id="ws"><h2>What it's watching</h2><div class="card"><div class="m" id="fn"></div><table id="wt"></table></div></div>
 <h2>Recent trades</h2><div class="card"><table id="tr"></table></div><div class="m">Paper money only.</div>
 <script>
-let D=null,K='meme';const $=i=>document.getElementById(i),E=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+let D=null,K='meme',SP=[],SS=50,SY=null;const $=i=>document.getElementById(i),E=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const et=t=>new Date(t*1000).toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit',second:'2-digit'})+' ET';
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{K=b.dataset.k;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));draw()});
 function draw(){if(!D)return;const d=D[K];$('upd').textContent='Updated '+et(D.generated);
@@ -25,13 +25,20 @@ function draw(){if(!D)return;const d=D[K];$('upd').textContent='Updated '+et(D.g
  $('pct').innerHTML=`<span class="${d.pct>=0?'g':'r'}">${d.pct>=0?'+':''}${d.pct}%</span>`;
  const age=Date.now()/1000-(d.hb||0),ok=d.hb&&age<180;$('dot').style.background=d.halted?'#d29922':ok?'#3fb950':'#f85149';
  $('alive').textContent=d.halted?'Halted':ok?'Alive':'Stale'+(d.hb?' ('+Math.round(age/60)+' min since heartbeat)':'');
- const v=(d.spark||[]).map(p=>p[1]);if(v.length>1){const lo=Math.min(...v),hi=Math.max(...v),r=hi-lo||1;
-  $('sp').innerHTML=`<polyline fill="none" stroke="${d.pct>=0?'#3fb950':'#f85149'}" stroke-width="2" points="${v.map((y,i)=>(i*300/(v.length-1)).toFixed(1)+','+(115-(y-lo)/r*110).toFixed(1)).join(' ')}"/>`}else $('sp').innerHTML='';
+ SP=d.spark||[];SS=d.start;const v=SP.map(p=>p[1]);$('tip').style.display='none';if(v.length>1){const lo=Math.min(...v),hi=Math.max(...v),r=hi-lo||1;SY=y=>115-(y-lo)/r*110;
+  $('sp').innerHTML=`<polyline fill="none" stroke="${d.pct>=0?'#3fb950':'#f85149'}" stroke-width="2" vector-effect="non-scaling-stroke" points="${v.map((y,i)=>(i*300/(v.length-1)).toFixed(1)+','+SY(y).toFixed(1)).join(' ')}"/>${SP.map((p,i)=>p[2]>0?`<line x1="${(i*300/(v.length-1)).toFixed(1)}" x2="${(i*300/(v.length-1)).toFixed(1)}" y1="120" y2="114" stroke="#58a6ff" stroke-width="2" vector-effect="non-scaling-stroke"/>`:'').join('')}<line id="cx" y1="0" y2="120" stroke="#8b949e" stroke-width="1" vector-effect="non-scaling-stroke" visibility="hidden"/><circle id="cd" r="3" fill="#e6edf3" visibility="hidden"/>`}else $('sp').innerHTML='';
  if(K=='meme'){$('ph').textContent='Open positions';$('pos').innerHTML=(d.positions||[]).map(p=>`<tr><td>${E(p.sym)}</td><td>$${p.cost_usd}</td><td class="${p.pct>=0?'g':'r'}">${p.pct??''}%</td></tr>`).join('')||'<tr><td class=m>None</td></tr>'}
  else{$('ph').textContent='Markets (Up / Down shares, pair cost)';$('pos').innerHTML=(d.positions||[]).map(m=>`<tr><td>${E(m.title)}<div class=m>${E(m.status)}${m.orders?' · resting bids: '+E(m.orders):''}</div></td><td>${m.up}/${m.down}</td><td>${m.pair??''}</td><td>${m.pnl!=null?'$'+(+m.pnl).toFixed(2):''}</td></tr>`).join('')||'<tr><td class=m>None</td></tr>'}
  $('ws').style.display=K=='meme'?'':'none';if(K=='meme'){const f=d.funnel||{};$('fn').textContent=`This run: ${f.scanned??0} scanned → ${f.cleared??0} passed safety → ${f.confirmed??0} approved → ${f.executed??0} bought`;
   $('wt').innerHTML=(d.watching||[]).map(w=>`<tr><td class=m>${E(w.t)}</td><td>${E(w.what)} <b>${E(w.sym)}</b><div class=m>${E(w.why)}</div></td></tr>`).join('')||'<tr><td class=m>Nothing yet</td></tr>'}
  $('tr').innerHTML=(d.trades||[]).map(t=>`<tr><td class=m>${E(t.t)}</td><td>${E(t.ev)} ${E(t.sym)}<div class=m>${E(t.detail)}</div></td></tr>`).join('')||'<tr><td class=m>None yet</td></tr>'}
+function tip(ev){if(SP.length<2||!SY)return;const sv=$('sp'),b=sv.getBoundingClientRect(),x=Math.min(Math.max(ev.clientX-b.left,0),b.width),i=Math.round(x/b.width*(SP.length-1)),p=SP[i],px=i*300/(SP.length-1);
+ $('cx').setAttribute('x1',px);$('cx').setAttribute('x2',px);$('cx').setAttribute('visibility','visible');const c=$('cd');c.setAttribute('cx',px);c.setAttribute('cy',SY(p[1]));c.setAttribute('visibility','visible');
+ const pr=p[1]-SS,pc=SS?pr/SS*100:0,s=pr>=0?'+':'-',t=$('tip');
+ t.innerHTML=`<b>${E(p[0])} ET</b><br>Equity $${(+p[1]).toFixed(2)}<br>Profit <span class="${pr>=0?'g':'r'}">${s}$${Math.abs(pr).toFixed(2)} (${pc>=0?'+':''}${pc.toFixed(2)}%)</span>`+(p.length>2?`<br>Volume here $${(+p[2]).toFixed(2)}<br>Total volume $${(+(p[3]??0)).toFixed(2)}`:'<br><span class=m>No volume data</span>');
+ t.style.display='block';const w=t.offsetWidth,cw=$('spc').clientWidth,lx=x+12;t.style.left=Math.max(4,Math.min(lx+w>cw-4?x+12-w-24:lx,cw-w-4))+'px'}
+(()=>{const sv=$('sp');let on=false;sv.addEventListener('pointerdown',e=>{on=true;sv.setPointerCapture?.(e.pointerId);tip(e)});sv.addEventListener('pointermove',e=>{if(on||e.pointerType=='mouse')tip(e)});
+ sv.addEventListener('pointerup',()=>{on=false});sv.addEventListener('pointercancel',()=>{on=false});document.addEventListener('pointerdown',e=>{if(!$('spc').contains(e.target)){$('tip').style.display='none';$('cx')?.setAttribute('visibility','hidden');$('cd')?.setAttribute('visibility','hidden')}})})();
 async function load(){try{D=await(await fetch('data.json?'+Date.now(),{cache:'no-store'})).json();draw()}catch(e){$('upd').textContent='Offline / no data'}}
 load();setInterval(load,45000);document.addEventListener('visibilitychange',()=>{if(!document.hidden)load()});
 </script></body></html>
