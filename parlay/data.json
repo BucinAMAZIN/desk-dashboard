@@ -1,5 +1,5 @@
 {
- "generated": 1792279888.1855211,
+ "generated": 1792279994.1369221,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -3632,7 +3632,7 @@
  },
  "nascar_proj": {
   "title": "Top 10 projected finish · Freeway Insurance 500 (Phoenix, Sun 3:00 PM ET)",
-  "note": "Qualifying results pending (5:35 PM ET Sat); rankings use Hard Rock odds, Phoenix Next Gen history and recent form. Will be re-run once qualifying posts.",
+  "note": "Re-run with the confirmed qualifying lineup (Blaney pole; Larson P22). Rankings use Hard Rock Top-10 odds, Phoenix Next Gen history, recent form and starting position. Not graded.",
   "rows": [
    {
     "rank": 1,
@@ -3640,15 +3640,17 @@
     "score": 97,
     "top10_odds": "-400",
     "top5_odds": "-150",
-    "why": "Hard Rock Top 10 -400 (implied 80%), win +400. Phoenix Next Gen (9 starts): avg finish 5.2, avg running 6.0, driver rating 114.4, top-10s 8; last 3 at PHX 1 (2026-04), 1 (2025-36), 28 (2025-04). Recent form: NASCAR qualifying-order metric 3.6 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "start": 1,
+    "why": "Hard Rock Top 10 -400 (implied 80%), win +400. Phoenix Next Gen (9 starts): avg finish 5.2, avg running 6.0, driver rating 114.4, top-10s 8; last 3 at PHX 1 (2026-04), 1 (2025-36), 28 (2025-04). Recent form: NASCAR qualifying-order metric 3.6 (lower is better; it rates recent performance). Starts P1 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 2,
     "driver": "Christopher Bell",
-    "score": 93,
+    "score": 92,
     "top10_odds": "-375",
     "top5_odds": "-145",
-    "why": "Hard Rock Top 10 -375 (implied 79%), win +450. Phoenix Next Gen (9 starts): avg finish 10.9, avg running 10.0, driver rating 107.3, top-10s 6; last 3 at PHX 2 (2026-04), 11 (2025-36), 1 (2025-04). Recent form: NASCAR qualifying-order metric 2.3 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "start": 5,
+    "why": "Hard Rock Top 10 -375 (implied 79%), win +450. Phoenix Next Gen (9 starts): avg finish 10.9, avg running 10.0, driver rating 107.3, top-10s 6; last 3 at PHX 2 (2026-04), 11 (2025-36), 1 (2025-04). Recent form: NASCAR qualifying-order metric 2.3 (lower is better; it rates recent performance). Starts P5 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 3,
@@ -3656,63 +3658,71 @@
     "score": 88,
     "top10_odds": "-260",
     "top5_odds": "+110",
-    "why": "Hard Rock Top 10 -260 (implied 72%), win +700. Phoenix Next Gen (9 starts): avg finish 9.7, avg running 8.3, driver rating 101.8, top-10s 5; last 3 at PHX 5 (2026-04), 6 (2025-36), 2 (2025-04). Recent form: NASCAR qualifying-order metric 4.1 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "start": 4,
+    "why": "Hard Rock Top 10 -260 (implied 72%), win +700. Phoenix Next Gen (9 starts): avg finish 9.7, avg running 8.3, driver rating 101.8, top-10s 5; last 3 at PHX 5 (2026-04), 6 (2025-36), 2 (2025-04). Recent form: NASCAR qualifying-order metric 4.1 (lower is better; it rates recent performance). Starts P4 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 4,
-    "driver": "Kyle Larson",
-    "score": 86,
-    "top10_odds": "-220",
-    "top5_odds": "+125",
-    "why": "Hard Rock Top 10 -220 (implied 69%), win +800. Phoenix Next Gen (9 starts): avg finish 8.6, avg running 8.4, driver rating 102.1, top-10s 7; last 3 at PHX 3 (2026-04), 3 (2025-36), 3 (2025-04). Recent form: NASCAR qualifying-order metric 4.5 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "driver": "Joey Logano",
+    "score": 85,
+    "top10_odds": "-250",
+    "top5_odds": "+115",
+    "start": 2,
+    "why": "Hard Rock Top 10 -250 (implied 71%), win +750. Phoenix Next Gen (9 starts): avg finish 13.4, avg running 11.1, driver rating 98.4, top-10s 4; last 3 at PHX 31 (2026-04), 4 (2025-36), 13 (2025-04). Recent form: NASCAR qualifying-order metric 8.1 (lower is better; it rates recent performance). Starts P2 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 5,
-    "driver": "Joey Logano",
+    "driver": "Chase Briscoe",
     "score": 82,
-    "top10_odds": "-250",
-    "top5_odds": "+115",
-    "why": "Hard Rock Top 10 -250 (implied 71%), win +750. Phoenix Next Gen (9 starts): avg finish 13.4, avg running 11.1, driver rating 98.4, top-10s 4; last 3 at PHX 31 (2026-04), 4 (2025-36), 13 (2025-04). Recent form: NASCAR qualifying-order metric 8.1 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "top10_odds": "-220",
+    "top5_odds": "+135",
+    "start": 3,
+    "why": "Hard Rock Top 10 -220 (implied 69%), win +900. Phoenix Next Gen (9 starts): avg finish 18.2, avg running 16.9, driver rating 78.3, top-10s 4; last 3 at PHX 37 (2026-04), 18 (2025-36), 35 (2025-04). Recent form: NASCAR qualifying-order metric 1.9 (lower is better; it rates recent performance). Starts P3 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 6,
-    "driver": "Chase Briscoe",
-    "score": 80,
-    "top10_odds": "-220",
-    "top5_odds": "+135",
-    "why": "Hard Rock Top 10 -220 (implied 69%), win +900. Phoenix Next Gen (9 starts): avg finish 18.2, avg running 16.9, driver rating 78.3, top-10s 4; last 3 at PHX 37 (2026-04), 18 (2025-36), 35 (2025-04). Recent form: NASCAR qualifying-order metric 1.9 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "driver": "Tyler Reddick",
+    "score": 78,
+    "top10_odds": "-160",
+    "top5_odds": "+200",
+    "start": 6,
+    "why": "Hard Rock Top 10 -160 (implied 62%), win +1400. Phoenix Next Gen (9 starts): avg finish 13.4, avg running 9.6, driver rating 94.2, top-10s 5; last 3 at PHX 8 (2026-04), 26 (2025-36), 20 (2025-04). Recent form: NASCAR qualifying-order metric 7.7 (lower is better; it rates recent performance). Starts P6 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 7,
-    "driver": "Tyler Reddick",
+    "driver": "Kyle Larson",
     "score": 76,
-    "top10_odds": "-160",
-    "top5_odds": "+200",
-    "why": "Hard Rock Top 10 -160 (implied 62%), win +1400. Phoenix Next Gen (9 starts): avg finish 13.4, avg running 9.6, driver rating 94.2, top-10s 5; last 3 at PHX 8 (2026-04), 26 (2025-36), 20 (2025-04). Recent form: NASCAR qualifying-order metric 7.7 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "top10_odds": "-220",
+    "top5_odds": "+125",
+    "start": 22,
+    "why": "Hard Rock Top 10 -220 (implied 69%), win +800. Phoenix Next Gen (9 starts): avg finish 8.6, avg running 8.4, driver rating 102.1, top-10s 7; last 3 at PHX 3 (2026-04), 3 (2025-36), 3 (2025-04). Recent form: NASCAR qualifying-order metric 4.5 (lower is better; it rates recent performance). Starts P22 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 8,
-    "driver": "Chase Elliott",
-    "score": 64,
-    "top10_odds": "+100",
-    "top5_odds": "+275",
-    "why": "Hard Rock Top 10 +100 (implied 50%), win +2250. Phoenix Next Gen (8 starts): avg finish 15.6, avg running 12.9, driver rating 83.9, top-10s 3; last 3 at PHX 23 (2026-04), 10 (2025-36), 10 (2025-04). Recent form: NASCAR qualifying-order metric 12.0 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "driver": "William Byron",
+    "score": 66,
+    "top10_odds": "-145",
+    "top5_odds": "+220",
+    "start": 10,
+    "why": "Hard Rock Top 10 -145 (implied 59%), win +1600. Phoenix Next Gen (9 starts): avg finish 10.7, avg running 5.6, driver rating 109.0, top-10s 6; last 3 at PHX 7 (2026-04), 33 (2025-36), 6 (2025-04). Recent form: NASCAR qualifying-order metric 31.2 (lower is better; it rates recent performance). Starts P10 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 9,
-    "driver": "William Byron",
-    "score": 63,
-    "top10_odds": "-145",
-    "top5_odds": "+220",
-    "why": "Hard Rock Top 10 -145 (implied 59%), win +1600. Phoenix Next Gen (9 starts): avg finish 10.7, avg running 5.6, driver rating 109.0, top-10s 6; last 3 at PHX 7 (2026-04), 33 (2025-36), 6 (2025-04). Recent form: NASCAR qualifying-order metric 31.2 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "driver": "Chase Elliott",
+    "score": 62,
+    "top10_odds": "+100",
+    "top5_odds": "+275",
+    "start": 16,
+    "why": "Hard Rock Top 10 +100 (implied 50%), win +2250. Phoenix Next Gen (8 starts): avg finish 15.6, avg running 12.9, driver rating 83.9, top-10s 3; last 3 at PHX 23 (2026-04), 10 (2025-36), 10 (2025-04). Recent form: NASCAR qualifying-order metric 12.0 (lower is better; it rates recent performance). Starts P16 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    },
    {
     "rank": 10,
-    "driver": "Ross Chastain",
-    "score": 59,
-    "top10_odds": "+135",
+    "driver": "Josh Berry",
+    "score": 62,
+    "top10_odds": "+130",
     "top5_odds": "",
-    "why": "Hard Rock Top 10 +135 (implied 43%), win +4000. Phoenix Next Gen (9 starts): avg finish 11.9, avg running 11.0, driver rating 92.8, top-10s 4; last 3 at PHX 28 (2026-04), 13 (2025-36), 11 (2025-04). Recent form: NASCAR qualifying-order metric 16.9 (lower is better; it rates recent performance). Score = 55% market Top-10 probability, 25% Phoenix history, 20% recent form, scaled so the top driver is 97. Qualifying (Sat 5:35 PM ET) not posted when built, so starting spot isn't factored yet."
+    "start": 9,
+    "why": "Hard Rock Top 10 +130 (implied 43%), win +4000. Phoenix Next Gen (6 starts): avg finish 17.2, avg running 18.0, driver rating 71.1, top-10s 3; last 3 at PHX 32 (2026-04), 7 (2025-36), 4 (2025-04). Recent form: NASCAR qualifying-order metric 10.0 (lower is better; it rates recent performance). Starts P9 (official qualifying, verified). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
    }
   ]
  },
