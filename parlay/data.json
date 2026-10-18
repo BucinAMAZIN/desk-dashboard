@@ -1,5 +1,5 @@
 {
- "generated": 1792366327.610365,
+ "generated": 1792366641.362511,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -647,10 +647,16 @@
     "legs": [
      {
       "pick": "Josh Allen (QB) anytime TD",
-      "result": "Pending",
+      "result": "L",
       "stat": "—",
       "final": "—",
-      "game": "BUF @ LV 4:25 PM ET Sun"
+      "game": "BUF @ LV 4:25 PM ET Sun",
+      "pm": {
+       "title": "Why we lost",
+       "head": "Box score not found yet",
+       "bullets": [],
+       "moments": null
+      }
      },
      {
       "pick": "Christian Watson (WR) anytime TD",
@@ -707,10 +713,16 @@
      },
      {
       "pick": "Brock Bowers (TE) anytime TD",
-      "result": "Pending",
+      "result": "L",
       "stat": "—",
       "final": "—",
-      "game": "BUF @ LV 4:25 PM ET Sun"
+      "game": "BUF @ LV 4:25 PM ET Sun",
+      "pm": {
+       "title": "Why we lost",
+       "head": "Box score not found yet",
+       "bullets": [],
+       "moments": null
+      }
      },
      {
       "pick": "Isaiah Likely (TE) anytime TD",
@@ -1835,8 +1847,8 @@
     "line": "ATD",
     "odds": "SGP +178 (w/ Bowers)",
     "ticket": "10/18 TDCITY 11-leg +48611 $1",
-    "result": "Pending",
-    "stat": "—"
+    "result": "L",
+    "stat": "anytime TD (td-city.json)"
    },
    {
     "date": "10/18",
@@ -1901,8 +1913,8 @@
     "line": "ATD",
     "odds": "SGP +178 (w/ Allen)",
     "ticket": "10/18 TDCITY 11-leg +48611 $1",
-    "result": "Pending",
-    "stat": "—"
+    "result": "L",
+    "stat": "anytime TD (td-city.json)"
    },
    {
     "date": "10/18",
@@ -2424,9 +2436,9 @@
   "overall": {
    "official": {
     "w": 35,
-    "l": 29,
+    "l": 32,
     "p": 1,
-    "pct": 55
+    "pct": 52
    },
    "potd": {
     "w": 4,
@@ -2436,9 +2448,9 @@
    },
    "legs": {
     "w": 26,
-    "l": 20,
+    "l": 22,
     "p": 0,
-    "pct": 57
+    "pct": 54
    },
    "parlay": {
     "w": 4,
@@ -2448,11 +2460,11 @@
    },
    "tracked": {
     "w": 60,
-    "l": 48,
+    "l": 50,
     "p": 2,
-    "pct": 56
+    "pct": 55
    },
-   "pending": 16
+   "pending": 13
   },
   "props": [
    {
@@ -2465,9 +2477,9 @@
    {
     "prop": "NFL anytime TD",
     "w": 4,
-    "l": 3,
+    "l": 5,
     "p": 0,
-    "pct": 57
+    "pct": 44
    },
    {
     "prop": "Big 4 parlay",
@@ -2678,6 +2690,13 @@
     "l": 1,
     "p": 0,
     "pct": 0
+   },
+   {
+    "prop": "NFL ML",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
    }
   ],
   "potd": [
@@ -2720,8 +2739,8 @@
     "date": "2026-10-18",
     "pick": "NFL · Edge: Raiders ML",
     "odds": "+210",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (BUF 33-30 LV)"
    },
    {
     "date": "2026-10-18",
@@ -2769,8 +2788,8 @@
     "date": "2026-10-18",
     "pick": "NFL · Leg: Brock Bowers (TE) ATD · 10/18 TDCITY 11-leg +48611 $1",
     "odds": "SGP +178 (w/ Allen)",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "anytime TD (td-city.json)"
    },
    {
     "date": "2026-10-18",
@@ -2811,8 +2830,8 @@
     "date": "2026-10-18",
     "pick": "NFL · Leg: Josh Allen (QB) ATD · 10/18 TDCITY 11-leg +48611 $1",
     "odds": "SGP +178 (w/ Bowers)",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "anytime TD (td-city.json)"
    },
    {
     "date": "2026-10-18",
@@ -3490,7 +3509,7 @@
    ],
    [
     "10/18",
-    5
+    3
    ],
    [
     "10/18",
@@ -3498,15 +3517,7 @@
    ],
    [
     "10/18",
-    5
-   ],
-   [
-    "10/18",
-    6
-   ],
-   [
-    "10/18",
-    5
+    3
    ],
    [
     "10/18",
@@ -3514,11 +3525,31 @@
    ],
    [
     "10/18",
-    5
+    3
    ],
    [
     "10/18",
-    6
+    4
+   ],
+   [
+    "10/18",
+    3
+   ],
+   [
+    "10/18",
+    2
+   ],
+   [
+    "10/18",
+    3
+   ],
+   [
+    "10/18",
+    2
+   ],
+   [
+    "10/18",
+    3
    ]
   ]
  },
@@ -3526,9 +3557,9 @@
   {
    "name": "@alexcaruso",
    "w": 9,
-   "l": 9,
+   "l": 10,
    "p": 0,
-   "pct": 50,
+   "pct": 47,
    "props": [
     {
      "prop": "MLB batter hits (under)",
@@ -3568,9 +3599,9 @@
     {
      "prop": "NFL rec yds (over)",
      "w": 1,
-     "l": 1,
+     "l": 2,
      "p": 0,
-     "pct": 50
+     "pct": 33
     },
     {
      "prop": "NFL ML",
@@ -3642,7 +3673,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "Brock Bowers o79.5 rec yds (BUF @ LV, 4:25 PM ET)",
      "odds": "—",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
@@ -4249,10 +4280,10 @@
   },
   {
    "name": "@tonestakes",
-   "w": 24,
-   "l": 20,
+   "w": 26,
+   "l": 22,
    "p": 1,
-   "pct": 55,
+   "pct": 54,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -4340,14 +4371,14 @@
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 5,
-     "l": 3,
+     "w": 6,
+     "l": 5,
      "p": 0,
-     "pct": 62
+     "pct": 55
     },
     {
      "prop": "NFL game total (over)",
-     "w": 1,
+     "w": 2,
      "l": 0,
      "p": 0,
      "pct": 100
@@ -4492,28 +4523,28 @@
      "prop": "NFL game total (over)",
      "pick": "BUF @ LV Over 53 (4:25 PM ET)",
      "odds": "-113",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Ashton Jeanty o25.5 rec yds (BUF @ LV, 4:25 PM ET)",
      "odds": "-115",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Brock Bowers o79.5 rec yds (BUF @ LV, 4:25 PM ET)",
      "odds": "-114",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Dalton Kincaid o47.5 rec yds (BUF @ LV, 4:25 PM ET)",
      "odds": "-115",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NHL",
@@ -5153,7 +5184,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-18 07:32 PM ET",
+  "updated": "2026-10-18 07:37 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -5163,15 +5194,15 @@
        {
         "t": "Buffalo Bills",
         "ab": "BUF",
-        "rec": "4-1",
-        "pct": ".800",
+        "rec": "5-1",
+        "pct": ".833",
         "gb": "-",
         "pts": null,
         "home": "2-1",
-        "road": "2-0",
+        "road": "3-0",
         "l10": null,
-        "strk": "W1",
-        "diff": "+23",
+        "strk": "W2",
+        "diff": "+26",
         "div": "0-1",
         "seed": "2"
        },
@@ -5180,7 +5211,7 @@
         "ab": "NE",
         "rec": "4-2",
         "pct": ".667",
-        "gb": "0.5",
+        "gb": "1",
         "pts": null,
         "home": "3-0",
         "road": "1-2",
@@ -5195,7 +5226,7 @@
         "ab": "NYJ",
         "rec": "2-4",
         "pct": ".333",
-        "gb": "2.5",
+        "gb": "3",
         "pts": null,
         "home": "1-1",
         "road": "1-3",
@@ -5210,7 +5241,7 @@
         "ab": "MIA",
         "rec": "0-5",
         "pct": ".000",
-        "gb": "4",
+        "gb": "4.5",
         "pts": null,
         "home": "0-2",
         "road": "0-3",
@@ -5388,15 +5419,15 @@
        {
         "t": "Las Vegas Raiders",
         "ab": "LV",
-        "rec": "3-2",
-        "pct": ".600",
-        "gb": "2",
+        "rec": "3-3",
+        "pct": ".500",
+        "gb": "2.5",
         "pts": null,
-        "home": "1-1",
+        "home": "1-2",
         "road": "2-1",
         "l10": null,
-        "strk": "L2",
-        "diff": "+3",
+        "strk": "L3",
+        "diff": "0",
         "div": "1-1",
         "seed": "10"
        },
@@ -5680,20 +5711,6 @@
     ],
     "games": [
      {
-      "a": "LAC",
-      "h": "KC",
-      "st": "Final",
-      "div": true,
-      "stake": "LAC 0-6: 4th AFC West (5.5 GB), AFC #16 seed (outside playoffs) · KC 5-0: 1st AFC West, AFC #1 seed (in playoff spot)"
-     },
-     {
-      "a": "BUF",
-      "h": "LV",
-      "st": "0:54 - 4th",
-      "div": false,
-      "stake": "BUF 4-1: 1st AFC East, AFC #2 seed (in playoff spot) · LV 3-2: 3rd AFC West (2 GB), AFC #10 seed (outside playoffs)"
-     },
-     {
       "a": "HOU",
       "h": "JAX",
       "st": "Final",
@@ -5726,7 +5743,7 @@
       "h": "NE",
       "st": "Final",
       "div": true,
-      "stake": "NYJ 2-4: 3rd AFC East (2.5 GB), AFC #11 seed (outside playoffs) · NE 4-2: 2nd AFC East (0.5 GB), AFC #5 seed (in playoff spot)"
+      "stake": "NYJ 2-4: 3rd AFC East (3 GB), AFC #11 seed (outside playoffs) · NE 4-2: 2nd AFC East (1 GB), AFC #5 seed (in playoff spot)"
      },
      {
       "a": "NO",
@@ -5755,6 +5772,20 @@
       "st": "Final",
       "div": true,
       "stake": "ARI 2-4: 3rd NFC West (3.5 GB), NFC #13 seed (outside playoffs) · LAR 2-4: 4th NFC West (3.5 GB), NFC #14 seed (outside playoffs)"
+     },
+     {
+      "a": "LAC",
+      "h": "KC",
+      "st": "Final",
+      "div": true,
+      "stake": "LAC 0-6: 4th AFC West (5.5 GB), AFC #16 seed (outside playoffs) · KC 5-0: 1st AFC West, AFC #1 seed (in playoff spot)"
+     },
+     {
+      "a": "BUF",
+      "h": "LV",
+      "st": "Final",
+      "div": false,
+      "stake": "BUF 5-1: 1st AFC East, AFC #2 seed (in playoff spot) · LV 3-3: 3rd AFC West (2.5 GB), AFC #10 seed (outside playoffs)"
      },
      {
       "a": "DAL",
@@ -6757,7 +6788,7 @@
      {
       "a": "CBJ",
       "h": "MIN",
-      "st": "4:57 - 2nd",
+      "st": "1:31 - 2nd",
       "div": false,
       "stake": "CBJ 3-3-0: 7th Metropolitan Division (9 pts back), East #15 seed (outside playoffs) · MIN 5-2-1: 3rd Central Division (1 pts back), West #5 seed (in playoff spot)"
      },
@@ -7862,7 +7893,7 @@
    }
   }
  },
- "ui_build": "1792366327",
+ "ui_build": "1792366635",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -8007,9 +8038,9 @@
   {
    "sport": "NFL",
    "w": 10,
-   "l": 8,
+   "l": 11,
    "p": 0,
-   "pct": 56,
+   "pct": 48,
    "active": true,
    "runners_up": {
     "w": 4,
@@ -8556,16 +8587,16 @@
   {
    "sport": "NFL",
    "w": 10,
-   "l": 8,
+   "l": 11,
    "p": 0,
-   "pct": 56,
+   "pct": 48,
    "props": [
     {
      "prop": "NFL anytime TD",
      "w": 4,
-     "l": 3,
+     "l": 5,
      "p": 0,
-     "pct": 57
+     "pct": 44
     },
     {
      "prop": "NFL spread",
@@ -8622,20 +8653,27 @@
      "l": 1,
      "p": 0,
      "pct": 0
+    },
+    {
+     "prop": "NFL ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "official": {
     "w": 10,
-    "l": 8,
+    "l": 11,
     "p": 0,
-    "pct": 56,
+    "pct": 48,
     "props": [
      {
       "prop": "NFL anytime TD",
       "w": 4,
-      "l": 3,
+      "l": 5,
       "p": 0,
-      "pct": 57
+      "pct": 44
      },
      {
       "prop": "NFL spread",
@@ -8692,21 +8730,28 @@
       "l": 1,
       "p": 0,
       "pct": 0
+     },
+     {
+      "prop": "NFL ML",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
      }
     ]
    },
    "tracked": {
     "w": 13,
-    "l": 13,
+    "l": 15,
     "p": 0,
-    "pct": 50,
+    "pct": 46,
     "props": [
      {
       "prop": "NFL anytime TD",
       "w": 4,
-      "l": 3,
+      "l": 5,
       "p": 0,
-      "pct": 57
+      "pct": 44
      },
      {
       "prop": "NFL spread",
@@ -11510,7 +11555,7 @@
     "fair": "+209",
     "fair_prob": 0.3241106719367589,
     "edge": 0.004743083003952542,
-    "result": "Pending",
+    "result": "Loss (BUF 33-30 LV)",
     "picked_et": "3:16 PM ET"
    },
    {
@@ -11970,7 +12015,7 @@
     "game": "BUF @ LV 4:25 PM ET Sun",
     "odds": "SGP +178 (w/ Bowers)",
     "book": "Hard Rock same-game parlay price (verified from user's slip)",
-    "status": "Pending",
+    "status": "L",
     "grade": "A",
     "why": "[A] 8 TDs in 5 games; 23% of team inside-10 opps (L4 18%); team implied 29.5 pts; LV run D: rush EPA #6, stuff rate #11, 1.2 rush TD/g allowed; RZ D #28. Model 73% vs 64% implied (fair -264). Goal-line runner, dome."
    },
@@ -12027,7 +12072,7 @@
     "game": "BUF @ LV 4:25 PM ET Sun",
     "odds": "SGP +178 (w/ Allen)",
     "book": "Hard Rock same-game parlay price (verified from user's slip)",
-    "status": "Pending",
+    "status": "L",
     "grade": "B-",
     "why": "[B-] 3 TDs in 3 games; 10% of team inside-10 opps (L4 14%); team implied 24 pts; BUF pass D: EPA #27, 2.6 pass TD/g allowed; RZ D #29. Model 51% vs 53% implied (fair -103). Knee: full practice, Active."
    },
@@ -12116,11 +12161,11 @@
  "edge_record": {
   "overall": {
    "w": 1,
-   "l": 0,
+   "l": 1,
    "p": 0,
-   "pct": 100,
-   "units": 0.87,
-   "pending": 5
+   "pct": 50,
+   "units": -0.13,
+   "pending": 4
   },
   "by_sport": {
    "MLB": {
@@ -12133,11 +12178,11 @@
    },
    "NFL": {
     "w": 1,
-    "l": 0,
+    "l": 1,
     "p": 0,
-    "pct": 100,
-    "units": 0.87,
-    "pending": 2
+    "pct": 50,
+    "units": -0.13,
+    "pending": 1
    },
    "NHL": {
     "w": 0,
@@ -12159,11 +12204,11 @@
    },
    "NFL ML": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "p": 0,
-    "pct": null,
-    "units": 0.0,
-    "pending": 1
+    "pct": 0,
+    "units": -1.0,
+    "pending": 0
    },
    "NFL receptions": {
     "w": 0,
@@ -12848,8 +12893,8 @@
    "prop": "NFL anytime TD",
    "pick": "Josh Allen (QB) ATD · 10/18 TDCITY 11-leg +48611 $1",
    "odds": "SGP +178 (w/ Bowers)",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "anytime TD (td-city.json)"
   },
   {
    "date": "2026-10-18",
@@ -12908,8 +12953,8 @@
    "prop": "NFL anytime TD",
    "pick": "Brock Bowers (TE) ATD · 10/18 TDCITY 11-leg +48611 $1",
    "odds": "SGP +178 (w/ Allen)",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "anytime TD (td-city.json)"
   },
   {
    "date": "2026-10-18",
@@ -12978,8 +13023,8 @@
    "prop": "NFL ML",
    "pick": "Raiders ML",
    "odds": "+210",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (BUF 33-30 LV)"
   },
   {
    "date": "2026-10-18",
@@ -13725,8 +13770,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 65,
-  "headline": 65
+  "tiles_sum": 68,
+  "headline": 68
  },
  "inning_record": {
   "w": 13,
@@ -13734,21 +13779,21 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-18 19:32 ET",
-  "generated_ts": 1792366333,
+  "generated": "2026-10-18 19:37 ET",
+  "generated_ts": 1792366648,
   "hr_fetched": "2026-10-18 19:27 ET",
   "hr_fetched_ts": 1792366020,
-  "hr_age_min": 5,
+  "hr_age_min": 10,
   "sports": {
    "NFL": {
     "games": [
      {
       "game": "Bills @ Raiders",
       "score": "BUF 33 @ LV 30",
-      "clock": "0:54 - 4th",
+      "clock": "Final",
       "espn_id": "401873005",
       "picks": [],
-      "note": "Hard Rock has this game's live markets suspended right now (scoring play or review); lines return when they reopen."
+      "note": "Just kicked off: lines appear once the game is underway (a few minutes in)."
      }
     ],
     "note": ""
@@ -13758,18 +13803,18 @@
      {
       "game": "Blue Jackets @ Wild",
       "score": "CBJ 1 @ MIN 2",
-      "clock": "4:57 - 2nd",
+      "clock": "1:31 - 2nd",
       "espn_id": "401892533",
       "picks": [
        {
         "rank": 1,
         "pick": "Blue Jackets @ Wild Under 6.5 total",
         "odds": "-130",
-        "grade": "B",
-        "reason": "Game total is 3 with 58% played (4:57 - 2nd); scoring pace projects about 5. Needs no more than 3.5 more.",
-        "why_not": "Our number is about 58% (fair -139); live prices move fast and the Hard Rock price is from 2026-10-18 19:27 ET, so it may have moved.",
+        "grade": "B+",
+        "reason": "Game total is 3 with 64% played (1:31 - 2nd); scoring pace projects about 5. Needs no more than 3.5 more.",
+        "why_not": "Our number is about 60% (fair -148); live prices move fast and the Hard Rock price is from 2026-10-18 19:27 ET, so it may have moved.",
         "price_time": "2026-10-18 19:27 ET",
-        "edge": 4.5
+        "edge": 6.0
        }
       ],
       "note": ""

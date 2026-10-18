@@ -87,7 +87,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792366327';
+const UI_BUILD='1792366635';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -139,7 +139,42 @@ function ltl(){if(!['MLB','NHL','NFL','NBA','NCAA F','WNBA','NASCAR'].includes(S
  else body=all.length?all.slice(0,10).map(row).join(''):'<div class="m" style="margin-top:6px">No lines yet</div>';
  return `<h2>Live top lines</h2><div class="card ltl"><div class="m">Not graded · updates every 15 min${up?' · updated '+E(fu(up))+' ET':''}</div>${lpBox()}<div>${body}</div></div>`}
 document.addEventListener('click',e=>{const h=e.target.closest&&e.target.closest('.lth');if(!h)return;e.stopPropagation();const k=h.dataset.k,v=!colGet(k);colSet(k,v);h.nextElementSibling.style.display=v?'none':'';h.querySelector('.lvc').textContent=v?'▸':'▾'},true);
-function proj(){return proj0()+nxBox()}
+/* NASCAR live race feed (approved Oct 18 2026, nascar-live-v1). Source: cf.nascar.com public live feed (CORS *), polled from the page every 10s. Collapsed on every load (in-memory only). */
+let NLF=null,NLN=null,NLO=false,NLT=0,NLU={};
+const NLFL={1:['GREEN','🟢','#3fb950'],2:['YELLOW','🟡','#d29922'],3:['RED','🔴','#f85149'],4:['CHECKERED','🏁','#e6edf3'],5:['WHITE','⚪','#e6edf3'],6:['STOPPED','⏹','#8b949e'],8:['WARM UP','🔵','#58a6ff'],9:['CHECKERED','🏁','#e6edf3']};
+function nlFlag(c){const f=NLFL[c];if(f)return f;if(!NLU[c]){NLU[c]=1;console.warn('NASCAR live: unknown flag_state',c)}return['FLAG '+c,'⚑','#8b949e']}
+const nlNm=s=>String(s||'').replace(/\s*\(.*?\)|\*|\(i\)/g,'').trim();
+function nlPicks(){const S=((D.today||{}).sports||{}).NASCAR||{},X=D.nascar_extra||{},o=[];
+ if(S.potd)o.push({t:'POTD',p:S.potd.pick,odds:S.potd.odds});(S.runners_up||[]).forEach(r=>o.push({t:'RU',p:r.pick,odds:r.odds}));
+ (X.wild||[]).forEach(r=>o.push({t:'Wild',p:r.pick,odds:r.odds}));(X.safe||[]).forEach(r=>o.push({t:'Safe',p:r.pick,odds:r.odds}));
+ ((D.nascar_proj||{}).rows||[]).slice(0,10).forEach(r=>o.push({t:'Proj #'+r.rank,p:r.driver+' Top 10',odds:r.top10_odds||''}));
+ const seen=new Set();return o.filter(x=>{const k=x.t+x.p;if(seen.has(k))return false;seen.add(k);return true})}
+function nlParse(p,V){const s=String(p).replace(/^\([^)]*\)\s*/,'');let m=s.match(/^(.+?)\s+Top\s*(\d+)/i),n;if(m)n=+m[2];else{m=s.match(/^(.+?)\s+(?:to\s+)?Win\b/i);if(!m)return null;n=1}
+ const v=V.find(x=>nlNm(x.driver&&x.driver.full_name).toLowerCase()==m[1].trim().toLowerCase());return v?{d:m[1].trim(),n,pos:v.running_position,num:v.vehicle_number}:null}
+function nlState(){const F=NLF;if(!F||!F.vehicles||!F.vehicles.length)return{k:'none'};const dt=String(F.time_of_day_os||'').slice(0,10),today=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});
+ const done=(F.laps_to_go<=0&&F.lap_number>=F.laps_in_race)||F.flag_state==4||F.flag_state==9;if(dt&&dt!=today)return{k:'old',done};return{k:done?'final':(F.lap_number>0?'live':'pre'),done}}
+function nlSum(){const F=NLF,s=nlState();if(s.k=='live'){const f=nlFlag(F.flag_state);return `Live race · Lap ${F.lap_number}/${F.laps_in_race} · ${f[1]}`}
+ if(s.k=='final'){const w=[...F.vehicles].sort((a,b)=>a.running_position-b.running_position)[0];return `🏁 Final · ${E(nlNm(w.driver.full_name).split(' ').slice(-1)[0])} won`}
+ if(NLN)return `Next: ${E(NLN)}`;return s.k=='pre'?'Pre-race':'No race live'}
+function nlBody(){const F=NLF;if(!F||!F.vehicles)return'<div class=m style="margin-top:6px">Live feed not reachable right now.</div>';const s=nlState(),V=[...F.vehicles].sort((a,b)=>a.running_position-b.running_position),f=nlFlag(F.flag_state),st=F.stage||{},lead=V[0];
+ const P=nlPicks().map(x=>({x,r:nlParse(x.p,V)})).filter(o=>o.r),our=new Set(P.map(o=>o.r.num));const done=s.done;
+ return `<div class="row" style="margin-top:8px"><div><b>${E(F.run_name)}</b><div class=m>${E(F.track_name)}</div></div><span class="chip" style="color:${f[2]};border:1px solid ${f[2]}88;background:none">${done?'🏁 FINAL':E(f[0])}</span></div>
+ <div class="row" style="margin-top:8px"><span>Lap <b>${F.lap_number}</b> of ${F.laps_in_race}</span><span class=m>Stage ${E(st.stage_num||'—')} · ends lap ${E(st.finish_at_lap||'—')}</span></div>
+ <div style="height:6px;background:#30363d;border-radius:3px;overflow:hidden;margin:8px 0 4px"><i style="display:block;height:100%;width:${Math.min(100,F.lap_number/(F.laps_in_race||1)*100)}%;background:linear-gradient(90deg,#3fb950,#58a6ff)"></i></div>
+ <div class=m>Leader: <b style="color:#e6edf3">#${E(lead.vehicle_number)} ${E(nlNm(lead.driver.full_name))}</b> · ${E(F.number_of_caution_segments||0)} cautions · ${E(F.number_of_lead_changes||0)} lead changes</div>
+ <table style="width:100%;border-collapse:collapse;margin-top:8px;font-size:13px">${V.slice(0,10).map(v=>`<tr style="${our.has(v.vehicle_number)?'background:#d2992214':''}"><td class=m style="width:22px;padding:4px 2px;border-top:1px solid #21262d">${v.running_position}</td><td style="width:34px;border-top:1px solid #21262d"><span style="display:inline-block;min-width:26px;text-align:center;font-weight:800;border-radius:4px;background:#21262d">${E(v.vehicle_number)}</span></td><td style="border-top:1px solid #21262d">${E(nlNm(v.driver.full_name))}${our.has(v.vehicle_number)?'<span style="font-size:10px;color:#d29922;font-weight:700;margin-left:4px">OUR PICK</span>':''}</td><td class=m style="text-align:right;border-top:1px solid #21262d">${v.running_position==1?'Leader':'+'+(+v.delta||0).toFixed(3)}</td></tr>`).join('')}</table>
+ ${P.length?`<div style="margin-top:10px;font-weight:600;font-size:13px">Our picks</div>`+P.map(({x,r})=>{const ok=r.pos<=r.n;return `<div class="row" style="padding:5px 0;border-top:1px solid #21262d;font-size:13px"><span style="min-width:0"><span class=m style="font-size:11px">${E(x.t)}</span> #${E(r.num)} ${E(r.d)} ${r.n==1?'Win':'Top '+r.n} <span class=m>${E(x.odds)}</span></span><span style="white-space:nowrap;color:${ok?'#3fb950':'#f85149'}">P${r.pos} · ${ok?(done?'Hit':'on pace'):(done?'Missed':'outside')}</span></div>`}).join(''):''}
+ <div class=m style="margin-top:8px;font-size:11px">NASCAR live feed · refreshes every 10s${s.k=='old'?' · last race shown':''}</div>`}
+function nlHTML(){return `<div class="row nlh" style="cursor:pointer;align-items:center"><b>🏁 Live race</b><span class=m style="flex:1;text-align:right;margin-right:6px">${nlSum()}</span><span class=m>${NLO?'▴':'▾'}</span></div>${NLO?nlBody():''}`}
+function nlPaint(){const el=document.getElementById('nlive');if(el)el.innerHTML=nlHTML()}
+async function nlFetch(){if(SP!='NASCAR'||document.hidden)return;try{NLF=await(await fetch('https://cf.nascar.com/live/feeds/live-feed.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){}
+ if(!NLN){try{const L=await(await fetch('https://cf.nascar.com/cacher/'+new Date().getFullYear()+'/race_list_basic.json')).json();const now=new Date().toLocaleString('sv-SE',{timeZone:'America/New_York'}).replace(' ','T');const r=(L.series_1||[]).filter(x=>x.date_scheduled>now).sort((a,b)=>a.date_scheduled.localeCompare(b.date_scheduled))[0];
+  if(r){const [d,t]=r.date_scheduled.split('T'),[y,mo,da]=d.split('-'),[h,mi]=t.split(':'),dw=new Date(+y,mo-1,+da).toLocaleDateString('en-US',{weekday:'short'});NLN=`${String(r.track_name||'').split(' ')[0]} ${dw} ${+mo}/${+da} ${(+h%12)||12}:${mi} ${+h>=12?'PM':'AM'} ET`}}catch(e){}}
+ nlPaint()}
+function nlBox(){if(SP!='NASCAR')return'';if(!NLT){NLT=setInterval(nlFetch,10000);setTimeout(nlFetch,50)}return `<div class="card" id="nlive" style="margin-top:12px">${nlHTML()}</div>`}
+document.addEventListener('click',e=>{const h=e.target.closest&&e.target.closest('.nlh');if(!h)return;NLO=!NLO;nlPaint()});
+
+function proj(){return nlBox()+proj0()+nxBox()}
 function nxSplit(p){const C=D.nascar_cars||{};const nk=t=>String(t).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase();const d=Object.keys(C).sort((a,b)=>b.length-a.length).find(n=>nk(p).startsWith(nk(n)));return d?[p.slice(0,d.length).trim(),p.slice(d.length).trim()]:[p,'']}
 function nxCar(n){const C=D.nascar_cars||{};const nk=t=>String(t).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase();const k=Object.keys(C).find(x=>nk(x)==nk(n));return k?'#'+E(C[k]):''}
 function nxBox(){if(SP!='NASCAR')return'';const X=D.nascar_extra;if(!X||!X.title)return'';const row=x=>`<details class="leg" style="padding:5px 0"><summary><div class="row" style="align-items:flex-start"><div style="flex:1;min-width:0"><div><span class="chip" style="background:${gc(x.grade)}22;color:${gc(x.grade)};border:1px solid ${gc(x.grade)}66">${E(x.grade)}</span> <b>${nxCar(nxSplit(x.pick)[0])}</b></div><div>${E(nxSplit(x.pick).join(', '))}</div></div><div style="text-align:right;white-space:nowrap;flex:0 0 64px;margin-left:8px"><b style="display:block">${E(x.odds)}</b><div class=m style="font-size:11px">Why ▾</div></div></div></summary>${why(x.reason,x.why_not)}</details>`;
