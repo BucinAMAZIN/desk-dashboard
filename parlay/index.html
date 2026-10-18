@@ -28,7 +28,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792329211';
+const UI_BUILD='1792329513';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -113,8 +113,7 @@ function today(){const t=D.today;const RS={};((D.runners_up_record||{}).recent||
  h+=n.length?n.map((x,i)=>`<details class="card" style="border-color:#6e40c9"><summary><div class="row"><div>${pkL(x,i)}<div class=m>${E(x.game)}</div></div><div style="text-align:right;white-space:nowrap"><b>${E(x.odds)}</b> ${chip(x.status)}<div class=m>Why ▾</div></div></div></summary>${x.stat&&x.stat!='—'?`<div class="m" style="margin-top:6px">Result: ${E(x.stat)}</div>`:''}${why(x.why,x.why_not)}</details>`).join(''):'<div class="card m">No College Football plays posted today.</div>';}
  return h}
 function results(){const r=D.results;let h='<h2>Recent tickets</h2>';
- h+=r.tickets.map(t=>`<div class="card"><div class="row"><div><b>${E(t.name)}</b> <span class="m">${E(t.date)}</span><div class=m>${E(t.desc)}</div></div>${chip(t.result)}</div>
- <table style="margin-top:6px">${t.legs.map(l=>`<tr><td>${E(l.pick)}<div class=m>${E(l.stat)} · ${E(l.final)}</div></td><td style="text-align:right">${chip(l.result)}</td></tr>`).join('')}</table>${(t.images||[]).length?`<div style="display:flex;gap:8px;margin-top:8px;flex-wrap:wrap">${t.images.map(u=>`<img src="${E(u)}" alt="Hard Rock slip" loading="lazy" onclick="tkView(this.src)" style="width:72px;height:96px;object-fit:cover;object-position:top;border-radius:8px;border:1px solid #30363d;cursor:zoom-in">`).join('')}<span class=m style="font-size:11px;align-self:flex-end">Hard Rock slip · tap to view</span></div>`:''}</div>`).join('')||'<div class="card m">None yet</div>';
+ h+=r.tickets.map(tkCard).join('')||'<div class="card m">None yet</div>';
  const SPK=r.sport_picks||[];if(SPK.length)h+='<details class="card"><summary><div class="row"><b>Sport picks graded</b><span>▾</span></div><div class=m>POTD / Parlay official · runners-up unofficial</div></summary><table style="margin-top:6px">'+SPK.map(x=>`<tr><td><b>${E(x.sport)}</b> <span class=m>${E(x.date)} · ${E(x.type)}</span><div>${E(x.pick)} ${E(x.odds)}</div><div class=m>${E(x.stat)}</div></td><td style="text-align:right">${chip(x.result)}</td></tr>`).join('')+'</table></details>';
  h+='<h2>Nightly</h2><div class="card"><table>'+r.nights.map(n=>`<tr><td class=m>${E(n.date)}</td><td>${E(n.text)}</td></tr>`).join('')+'</table></div>';
  return h}
@@ -399,5 +398,25 @@ document.addEventListener('touchend',e=>{const sv=tgt(e);if(sv)clear(sv)});
    const a=document.createElement('span');a.className='ppn';a.textContent=(/^\s/.test(t.nodeValue)?' ':'')+m[1];const b=document.createElement('span');b.className='ppl';b.style.display='block';b.textContent=m[2];const f=document.createDocumentFragment();f.append(a,b);p.replaceChild(f,t)}}
  let q=0;new MutationObserver(()=>{if(q)return;q=requestAnimationFrame(()=>{q=0;fix(document.body)})}).observe(document.body,{childList:true,subtree:true});fix(document.body)})();</script>
 
+<script>
+function tkCard(t){const L=t.legs||[],d=t.desc||'',n=L.length;
+ const st=(d.match(/\$(\d+(?:\.\d+)?)/)||[])[1],od=(d.match(/(?:^|\s)([+-]\d{3,6})\b/)||[])[1],py=(d.match(/(?:pays|paid|to pay)\s*\$(\d+(?:\.\d+)?)/i)||[])[1];
+ const R=t.result,s=+st,p=+py;let pl='',pc='#8b949e';
+ if(st){if(R==='W'&&py){pl='+$'+(p-s).toFixed(2);pc='#3fb950'}else if(R==='L'){pl='−$'+s.toFixed(2);pc='#f85149'}else if(R==='P'||R==='Void'){pl='$0.00'}else if(py){pl='to pay $'+p.toFixed(2)}}
+ let base=String(t.name||'').replace(/\(?\b\d+-leg\b\)?/i,'').replace(/\bticket\b/i,'').replace(/\bsingle\b/i,'').replace(/\s+/g,' ').trim();
+ if(/^[A-Z]$/.test(base))base='Ticket '+base;
+ const title=(base?base+' ':'')+(n>1?n+'-Leg Parlay':'Single');
+ const dt=(()=>{const m=String(t.date||'').match(/^(\d{4})-(\d{2})-(\d{2})$/);return m?new Date(+m[1],+m[2]-1,+m[3]).toLocaleDateString('en-US',{month:'short',day:'numeric'}):E(t.date)})();
+ const meta=[dt,st?'$'+s.toFixed(2):'',od||''].filter(Boolean).map(x=>`<span>${E(x)}</span>`).join('<span class=m> · </span>')+(pl?`<span class=m> · </span><b style="color:${pc}">${E(pl)}</b>`:'');
+ const leg=l=>{let pk=String(l.pick||'');const g=(pk.match(/\(([^()]*)\)\s*$/)||[])[1]||'';pk=pk.replace(/\s*\([^()]*\)\s*$/,'').trim();
+  const m=pk.match(/^(.*?)\s+((?:o|u|over|under)\s*\d.*|[+-]\d+(?:\.\d+)?\b.*|ML\b.*|\d+\+.*|TT\b.*)$/i);let a=m?m[1]:pk,b=m?m[2]:'';
+  if(m&&/^TT\b/i.test(b)){a=m[1];b='Team total '+b.replace(/^TT\s*/i,'')}
+  const om=b.match(/\s([+-]\d{3,5})$/);let o='';if(om){o=om[1];b=b.slice(0,om.index).trim()}
+  const ok=x=>x&&x!=='—'&&x!=='-';const info=[ok(l.stat)?l.stat:'',ok(l.final)?l.final:''].filter(Boolean).join(' · ')||g;
+  return `<div class="tkl" style="display:flex;align-items:center;gap:10px;padding:8px 0;border-top:1px solid #21262d"><div style="flex:1;min-width:0"><div style="font-weight:600;line-height:1.25">${E(a)}</div><div style="font-size:13px;line-height:1.3">${E(b)}${o?` <span class=m>${E(o)}</span>`:''}</div>${info?`<div class=m style="font-size:12px;line-height:1.3">${E(info)}</div>`:''}</div><div style="flex:none">${chip(l.result)}</div></div>`};
+ const im=(t.images||[])[0];
+ const bc=R==='W'?'rgba(63,185,80,.55)':R==='L'?'rgba(248,81,73,.55)':'#30363d';
+ return `<div class="card tkc" style="padding:12px 14px;border:1px solid ${bc}"><div class="row" style="display:flex;align-items:center;gap:10px;margin-bottom:8px"><div style="flex:1;min-width:0"><b style="display:block;font-size:16px;line-height:1.25">${E(title)}</b><div style="font-size:13px;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:400">${meta}</div></div><div style="flex:none">${chip(R)}</div></div>${L.map(leg).join('')}${im?`<div style="display:flex;justify-content:flex-end;align-items:center;gap:8px;border-top:1px solid #21262d;padding-top:8px"><button onclick="tkView('${E(im)}')" style="display:flex;align-items:center;gap:8px;background:#161b22;border:1px solid #30363d;color:inherit;border-radius:8px;padding:4px 10px 4px 4px;font-size:13px;cursor:zoom-in"><img src="${E(im)}" alt="Hard Rock slip" loading="lazy" style="width:28px;height:36px;object-fit:cover;object-position:top;border-radius:4px">View slip</button></div>`:''}</div>`}
+</script>
 <script>function tkView(u){const o=document.createElement('div');o.style.cssText='position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.92);display:flex;align-items:center;justify-content:center;padding:env(safe-area-inset-top) 8px 8px';o.innerHTML='<img src="'+u+'" style="max-width:100%;max-height:100%;border-radius:10px"><button aria-label="Close" style="position:absolute;top:calc(env(safe-area-inset-top) + 10px);right:12px;font-size:22px;background:#21262d;color:#fff;border:0;border-radius:50%;width:40px;height:40px">✕</button>';o.onclick=()=>o.remove();document.body.appendChild(o)}</script>
 </body></html>
