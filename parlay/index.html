@@ -29,7 +29,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792334778';
+const UI_BUILD='1792336531';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -302,8 +302,19 @@ async function lvModal(sp,lg,id){let m=document.getElementById('lvm');if(!m){m=d
   if(!((j.boxscore||{}).players||[]).length)h+='<div class=m style="margin-top:8px">Player stats not available yet.</div>';document.getElementById('lvmb').innerHTML=h}catch(e){const b=document.getElementById('lvmb');if(b)b.textContent='Could not load box score.'}}
 document.addEventListener('click',e=>{const s=e.target.closest&&e.target.closest('.lvs');if(!s)return;e.preventDefault();e.stopPropagation();lvModal(s.dataset.sp,s.dataset.lg,s.dataset.ev)},true);
 
+/* ===== In-game lines (unofficial, Oct 18): Hard Rock LIVE in-play markets + ESPN pace. Not graded, never official. ===== */
+function igBox(after){const old=document.getElementById('igb');if(old)old.remove();const I=(D&&D.ingame_lines)||{};const S=(I.sports||{})[SP];const key='igb:'+SP,cx=colGetD?colGetD(key,false):false;
+ const row=x=>`<details class="leg" style="padding:5px 0"><summary><div class="row" style="align-items:flex-start"><div style="flex:1;min-width:0"><b class=m>#${E(x.rank)}</b> <span class="chip" style="background:${gc(x.grade)}22;color:${gc(x.grade)};border:1px solid ${gc(x.grade)}66">${E(x.grade)}</span> <b>${E(x.pick)}</b><div class=m style="font-size:12px">Hard Rock live price as of ${E(String(x.price_time||'').replace(/^\d{4}-\d\d-\d\d /,''))} · Why ▾</div></div><div style="flex:none;text-align:right"><b>${E(x.odds)}</b></div></div></summary>${why(x.reason,x.why_not)}</details>`;
+ let h='';const G=(S&&S.games)||[];
+ if(I.error)h=`<div class=m>No in-game prices available (${E(I.error)}).</div>`;
+ else if(!G.length)h=`<div class=m>${E((S&&S.note)||'No '+SP+' game is live with Hard Rock in-game prices right now.')}</div>`;
+ else h=G.map(g=>`<div style="border-top:1px solid #30363d;padding-top:6px;margin-top:6px"><div class=row><b>${E(g.score||g.game)}</b><span class=m style="font-size:12px">${E(g.clock||'')}</span></div>${(g.picks||[]).length?g.picks.map(row).join(''):`<div class=m style="font-size:12px">${E(g.note||'No in-game line clears our edge bar right now.')}</div>`}</div>`).join('');
+ const stale=I.hr_age_min!=null&&I.hr_age_min>20?` · <span style="color:#d29922">prices ${I.hr_age_min} min old</span>`:'';
+ const c=document.createElement('div');c.className='card';c.id='igb';
+ c.innerHTML=`<div class="row igh" data-k="${E(key)}" style="cursor:pointer"><span class="m">📡 In-game lines · ${E(SP)} <span style="font-size:11px">(unofficial · not graded)</span></span></div><div class="igi" style="${cx?'display:none':''}"><div class=m style="font-size:11px;margin:2px 0 4px">Hard Rock live in-game markets, top 10 per live game, ranked by edge vs our pace model. Hard Rock prices ${E(String(I.hr_fetched||'n/a').replace(/^\d{4}-\d\d-\d\d /,''))}${stale}.</div>${h}</div>`;
+ after.after(c)}
 function lvPaint(){lvAttach()}
-function lvBox(){if(K=='cappers'){lvAttach();if(LV.sp!=='CAP')lvFetch();return}if(K=='today'){lvAttach();if(LV.sp!=='TODAY')lvFetch();return}if(K!='sport'||!LVL.some(l=>l[2]==SP))return;{const v=$('v'),b=document.createElement('div');b.className='card';b.id='lsb';b.innerHTML='<div class="m">🔴 Live scores · '+E(SP)+' slate</div><div id="lsi"></div>';const h2=v.querySelector('h2');if(h2)h2.after(b);else v.prepend(b);lsPaint();if(SP=='MLB'){nriFetch().then(()=>nrfcMount(1))}}lvAttach();if(LV.sp!==lvCur())lvFetch()}
+function lvBox(){if(K=='cappers'){lvAttach();if(LV.sp!=='CAP')lvFetch();return}if(K=='today'){lvAttach();if(LV.sp!=='TODAY')lvFetch();return}if(K!='sport'||!LVL.some(l=>l[2]==SP))return;{const v=$('v'),b=document.createElement('div');b.className='card';b.id='lsb';b.innerHTML='<div class="m">🔴 Live scores · '+E(SP)+' slate</div><div id="lsi"></div>';const h2=v.querySelector('h2');if(h2)h2.after(b);else v.prepend(b);lsPaint();try{igBox(b)}catch(_){}if(SP=='MLB'){nriFetch().then(()=>nrfcMount(1))}}lvAttach();if(LV.sp!==lvCur())lvFetch()}
 setInterval(()=>{if(!document.hidden&&D){lvFetch();nriTick();if(K=='sport'&&SP=='MLB')nriFetch().then(()=>nrfcMount(1))}},45000);
 /* ===== Live no-run innings (MLB page). Not graded / not in any record. Data: mlb-nri.json (mlb_nri.py) + MLB StatsAPI live ===== */
 const NRI={d:null,t:0,bvp:{},st:null};
