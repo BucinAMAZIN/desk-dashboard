@@ -1,5 +1,5 @@
 {
- "generated": 1792286827.0212073,
+ "generated": 1792287305.4180627,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -932,8 +932,7 @@
       "status": "Pending",
       "why": "SF 5-0 (30.8 pts/g) vs WSH 1-3-1 allowing 29.8; Mariota doubtful, Croskey-Merritt expected out. Hard Rock via agentbets.ai. Provisional until Sun 8:15 PM ET (kickoff −24h).",
       "grade": "A-",
-      "rank": 10,
-      "now": "-450"
+      "rank": 10
      }
     ]
    }
@@ -1679,18 +1678,18 @@
     "pct": 69
    },
    {
-    "prop": "ALL parlay",
-    "w": 3,
-    "l": 1,
-    "p": 0,
-    "pct": 75
-   },
-   {
     "prop": "MLB o0.5 hits",
     "w": 2,
     "l": 1,
     "p": 0,
     "pct": 67
+   },
+   {
+    "prop": "Big 4 parlay",
+    "w": 3,
+    "l": 0,
+    "p": 0,
+    "pct": 100
    },
    {
     "prop": "NFL o1.5 rec",
@@ -1736,6 +1735,13 @@
    },
    {
     "prop": "NFL o0.5 rec",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "NHL parlay",
     "w": 0,
     "l": 1,
     "p": 0,
@@ -3321,7 +3327,7 @@
    }
   ]
  },
- "ui_build": "1792286826",
+ "ui_build": "1792287275",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -3813,7 +3819,7 @@
      "pct": 0
     },
     {
-     "prop": "ALL parlay",
+     "prop": "NHL parlay",
      "w": 0,
      "l": 1,
      "p": 0,
@@ -3855,7 +3861,7 @@
       "pct": 0
      },
      {
-      "prop": "ALL parlay",
+      "prop": "NHL parlay",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -3898,7 +3904,7 @@
       "pct": 0
      },
      {
-      "prop": "ALL parlay",
+      "prop": "NHL parlay",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -4210,7 +4216,7 @@
    "pct": 100,
    "props": [
     {
-     "prop": "ALL parlay",
+     "prop": "Big 4 parlay",
      "w": 3,
      "l": 0,
      "p": 0,
@@ -4224,7 +4230,7 @@
     "pct": 100,
     "props": [
      {
-      "prop": "ALL parlay",
+      "prop": "Big 4 parlay",
       "w": 3,
       "l": 0,
       "p": 0,
@@ -4239,7 +4245,7 @@
     "pct": 100,
     "props": [
      {
-      "prop": "ALL parlay",
+      "prop": "Big 4 parlay",
       "w": 3,
       "l": 0,
       "p": 0,
@@ -5548,7 +5554,7 @@
    "date": "2026-10-13",
    "sport": "NHL",
    "type": "Parlay",
-   "prop": "ALL parlay",
+   "prop": "NHL parlay",
    "pick": "2-leg (backfill: daily +100 ticket)",
    "odds": "+115",
    "res": "L",
@@ -5658,7 +5664,7 @@
    "date": "2026-10-14",
    "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "ALL parlay",
+   "prop": "Big 4 parlay",
    "pick": "2-leg (backfill: daily +100 ticket)",
    "odds": "+100",
    "res": "W",
@@ -5748,7 +5754,7 @@
    "date": "2026-10-15",
    "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "ALL parlay",
+   "prop": "Big 4 parlay",
    "pick": "2-leg (backfill: daily +100 ticket)",
    "odds": "+108",
    "res": "W",
@@ -5818,7 +5824,7 @@
    "date": "2026-10-16",
    "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "ALL parlay",
+   "prop": "Big 4 parlay",
    "pick": "2-leg (backfill: daily +100 ticket)",
    "odds": "+114",
    "res": "W",
@@ -5908,7 +5914,7 @@
    "date": "2026-10-17",
    "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "ALL parlay",
+   "prop": "Big 4 parlay",
    "pick": "3-leg",
    "odds": "+114",
    "res": "Pending",
@@ -6471,5 +6477,10 @@
   "errors": [],
   "tiles_sum": 40,
   "headline": 40
+ },
+ "inning_record": {
+  "w": 7,
+  "l": 2,
+  "pct": 78
  }
 }
