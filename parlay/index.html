@@ -29,7 +29,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792333104';
+const UI_BUILD='1792333406';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -464,11 +464,16 @@ navigator.serviceWorker.register('sw.js',{scope:'./'}).catch(function(){});
 var sa=window.matchMedia('(display-mode: standalone)').matches||navigator.standalone===true,ios=/iP(hone|ad|od)/.test(navigator.userAgent);
 if(!('PushManager' in window)||!('Notification' in window)||(ios&&!sa))return;
 var A=document.getElementById('pwaA'),Bt=document.getElementById('pwaB');function k(b){b=b.replace(/-/g,'+').replace(/_/g,'/');b+='==='.slice((b.length+3)%4);var r=atob(b),o=new Uint8Array(r.length);for(var i=0;i<r.length;i++)o[i]=r.charCodeAt(i);return o}
-function done(){Bt.textContent='🔔 Alerts on';Bt.disabled=true}
-navigator.serviceWorker.ready.then(function(g){return g.pushManager.getSubscription()}).then(function(x){A.style.display='';if(x&&Notification.permission==='granted'&&localStorage.getItem('pwaSent'))done()});
-Bt.onclick=function(){Notification.requestPermission().then(function(p){if(p!=='granted'){Bt.textContent='Alerts blocked in Settings';return}
+function on(){Bt.textContent='🔔 Alerts on';Bt.disabled=false;localStorage.setItem('pwaState','on')}
+function off(){Bt.textContent='🔕 Alerts off';Bt.disabled=false;localStorage.setItem('pwaState','off')}
+function post(o){return fetch('https://ntfy.sh/'+T,{method:'POST',body:JSON.stringify(o)})}
+navigator.serviceWorker.ready.then(function(g){return g.pushManager.getSubscription()}).then(function(x){A.style.display='';if(x&&Notification.permission==='granted'&&localStorage.getItem('pwaState')!=='off')on();else if(localStorage.getItem('pwaState')==='off'||localStorage.getItem('pwaSent'))off()});
+function sub(){return Notification.requestPermission().then(function(p){if(p!=='granted'){Bt.textContent='Alerts blocked in Settings';return}
 return navigator.serviceWorker.ready.then(function(g){return g.pushManager.getSubscription().then(function(x){return x||g.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:k(K)})})}).then(function(x){
-return fetch('https://ntfy.sh/'+T,{method:'POST',body:JSON.stringify({sub:x.toJSON(),ua:navigator.userAgent,t:Date.now()})}).then(function(){localStorage.setItem('pwaSent',1);done()})})}).catch(function(e){Bt.textContent='Alerts failed, tap to retry'})}})();</script><script>/* NFL per-game live drive field (inside each game's live card) */
+return post({sub:x.toJSON(),ua:navigator.userAgent,t:Date.now()}).then(function(){localStorage.setItem('pwaSent',1);on()})})})}
+function unsub(){return navigator.serviceWorker.ready.then(function(g){return g.pushManager.getSubscription()}).then(function(x){if(!x){off();return}var ep=x.endpoint;
+return x.unsubscribe().then(function(){return post({unsub:ep,t:Date.now()})}).then(off)})}
+Bt.onclick=function(){Bt.disabled=true;(localStorage.getItem('pwaState')==='on'?unsub():sub()).catch(function(e){Bt.disabled=false;Bt.textContent='Alerts failed, tap to retry'})}})();</script><script>/* NFL per-game live drive field (inside each game's live card) */
 function ndSit(j){const cur=(j.drives||{}).current;const P=(cur&&cur.plays)||[];const lp=P.length?P[P.length-1]:null;return {cur,end:lp&&lp.end,plays:P}}
 function ndField(o){try{if(!o||!o.l||o.l[2]!='NFL'||!o.st||o.st.state!='in')return '';const j=(LV.sum||{})[o.e.id];const si=o.c.situation||{};const H=o.H,A=o.A;
  const S=j?ndSit(j):{};const en=S.end||{};const yl=en.yardLine!=null?en.yardLine:si.yardLine;const posId=(en.team&&en.team.id)||si.possession;const dist=en.distance!=null?en.distance:si.distance;const ddt=en.downDistanceText||si.downDistanceText||'';
