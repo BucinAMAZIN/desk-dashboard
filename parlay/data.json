@@ -1,5 +1,5 @@
 {
- "generated": 1792285699.7657294,
+ "generated": 1792285839.964817,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -1582,7 +1582,7 @@
    },
    {
     "date": "2026-10-17",
-    "pick": "ALL · Parlay: 3-leg",
+    "pick": "BIG 4 · Parlay: 3-leg",
     "odds": "+114",
     "result": "Pending",
     "detail": "—"
@@ -1631,42 +1631,42 @@
    },
    {
     "date": "2026-10-16",
-    "pick": "ALL · Parlay: 2-leg (backfill: daily +100 ticket)",
+    "pick": "BIG 4 · Parlay: 2-leg (backfill: daily +100 ticket)",
     "odds": "+114",
     "result": "W",
     "detail": "legs W/Void (Díaz rainout)"
    },
    {
     "date": "2026-10-16",
-    "pick": "ALL · POTD: David Pastrnak o3.5 SOG (backfill)",
+    "pick": "NHL · POTD: David Pastrnak o3.5 SOG (backfill)",
     "odds": "-120",
     "result": "W",
     "detail": "4 SOG"
    },
    {
     "date": "2026-10-15",
-    "pick": "ALL · Parlay: 2-leg (backfill: daily +100 ticket)",
+    "pick": "BIG 4 · Parlay: 2-leg (backfill: daily +100 ticket)",
     "odds": "+108",
     "result": "W",
     "detail": "legs W/W"
    },
    {
     "date": "2026-10-15",
-    "pick": "ALL · POTD: Owen Power u1.5 SOG (backfill)",
+    "pick": "NHL · POTD: Owen Power u1.5 SOG (backfill)",
     "odds": "-120",
     "result": "L",
     "detail": "2 SOG"
    },
    {
     "date": "2026-10-14",
-    "pick": "ALL · Parlay: 2-leg (backfill: daily +100 ticket)",
+    "pick": "BIG 4 · Parlay: 2-leg (backfill: daily +100 ticket)",
     "odds": "+100",
     "result": "W",
     "detail": "legs W/W"
    },
    {
     "date": "2026-10-13",
-    "pick": "ALL · Parlay: 2-leg (backfill: daily +100 ticket)",
+    "pick": "NHL · Parlay: 2-leg (backfill: daily +100 ticket)",
     "odds": "+115",
     "result": "L",
     "detail": "legs L/W"
@@ -2620,7 +2620,7 @@
    }
   ]
  },
- "ui_build": "1792285621",
+ "ui_build": "1792285810",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -2738,10 +2738,10 @@
   },
   {
    "sport": "NHL",
-   "w": 0,
-   "l": 0,
+   "w": 1,
+   "l": 2,
    "p": 0,
-   "pct": null,
+   "pct": 33,
    "active": true,
    "runners_up": {
     "w": 3,
@@ -2833,6 +2833,20 @@
     "p": 0,
     "pct": null
    }
+  },
+  {
+   "sport": "BIG 4",
+   "w": 3,
+   "l": 0,
+   "p": 0,
+   "pct": 100,
+   "runners_up": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
+   },
+   "label": "Big 4"
   }
  ],
  "sport_categories": [
@@ -2860,33 +2874,70 @@
   },
   {
    "sport": "NHL",
-   "w": 0,
-   "l": 0,
+   "w": 1,
+   "l": 2,
    "p": 0,
-   "pct": null,
-   "props": [],
+   "pct": 33,
+   "props": [
+    {
+     "prop": "NHL SOG",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50
+    },
+    {
+     "prop": "ALL parlay",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    }
+   ],
    "official": {
-    "w": 0,
-    "l": 0,
+    "w": 1,
+    "l": 2,
     "p": 0,
-    "pct": null,
-    "props": []
-   },
-   "tracked": {
-    "w": 3,
-    "l": 0,
-    "p": 0,
-    "pct": 100,
+    "pct": 33,
     "props": [
      {
-      "prop": "NHL ML",
+      "prop": "NHL SOG",
       "w": 1,
-      "l": 0,
+      "l": 1,
       "p": 0,
-      "pct": 100
+      "pct": 50
      },
      {
+      "prop": "ALL parlay",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     }
+    ]
+   },
+   "tracked": {
+    "w": 4,
+    "l": 2,
+    "p": 0,
+    "pct": 67,
+    "props": [
+     {
       "prop": "NHL SOG",
+      "w": 2,
+      "l": 1,
+      "p": 0,
+      "pct": 67
+     },
+     {
+      "prop": "ALL parlay",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     },
+     {
+      "prop": "NHL ML",
       "w": 1,
       "l": 0,
       "p": 0,
@@ -3095,68 +3146,47 @@
    }
   },
   {
-   "sport": "Big 4 / All Sports",
-   "w": 4,
-   "l": 2,
+   "sport": "Big 4",
+   "w": 3,
+   "l": 0,
    "p": 0,
-   "pct": 67,
+   "pct": 100,
    "props": [
     {
      "prop": "ALL parlay",
      "w": 3,
-     "l": 1,
+     "l": 0,
      "p": 0,
-     "pct": 75
-    },
-    {
-     "prop": "NHL SOG",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
+     "pct": 100
     }
    ],
    "official": {
-    "w": 4,
-    "l": 2,
+    "w": 3,
+    "l": 0,
     "p": 0,
-    "pct": 67,
+    "pct": 100,
     "props": [
      {
       "prop": "ALL parlay",
       "w": 3,
-      "l": 1,
+      "l": 0,
       "p": 0,
-      "pct": 75
-     },
-     {
-      "prop": "NHL SOG",
-      "w": 1,
-      "l": 1,
-      "p": 0,
-      "pct": 50
+      "pct": 100
      }
     ]
    },
    "tracked": {
-    "w": 4,
-    "l": 2,
+    "w": 3,
+    "l": 0,
     "p": 0,
-    "pct": 67,
+    "pct": 100,
     "props": [
      {
       "prop": "ALL parlay",
       "w": 3,
-      "l": 1,
+      "l": 0,
       "p": 0,
-      "pct": 75
-     },
-     {
-      "prop": "NHL SOG",
-      "w": 1,
-      "l": 1,
-      "p": 0,
-      "pct": 50
+      "pct": 100
      }
     ]
    }
@@ -4365,5 +4395,489 @@
    "games_today": 1,
    "season": "Postseason"
   }
- }
+ },
+ "official_rows": [
+  {
+   "date": "2026-10-13",
+   "sport": "NHL",
+   "type": "Parlay",
+   "prop": "ALL parlay",
+   "pick": "2-leg (backfill: daily +100 ticket)",
+   "odds": "+115",
+   "res": "L",
+   "stat": "legs L/W"
+  },
+  {
+   "date": "2026-10-14",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "ALL parlay",
+   "pick": "2-leg (backfill: daily +100 ticket)",
+   "odds": "+100",
+   "res": "W",
+   "stat": "legs W/W"
+  },
+  {
+   "date": "2026-10-15",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL SOG",
+   "pick": "Owen Power u1.5 SOG (backfill)",
+   "odds": "-120",
+   "res": "L",
+   "stat": "2 SOG"
+  },
+  {
+   "date": "2026-10-15",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "ALL parlay",
+   "pick": "2-leg (backfill: daily +100 ticket)",
+   "odds": "+108",
+   "res": "W",
+   "stat": "legs W/W"
+  },
+  {
+   "date": "2026-10-16",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL SOG",
+   "pick": "David Pastrnak o3.5 SOG (backfill)",
+   "odds": "-120",
+   "res": "W",
+   "stat": "4 SOG"
+  },
+  {
+   "date": "2026-10-16",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "ALL parlay",
+   "pick": "2-leg (backfill: daily +100 ticket)",
+   "odds": "+114",
+   "res": "W",
+   "stat": "legs W/Void (Díaz rainout)"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NCAA F",
+   "type": "POTD",
+   "prop": "NCAAF team total",
+   "pick": "Colorado Under 17.5 Team Total",
+   "odds": "-130",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NCAA F",
+   "type": "Parlay",
+   "prop": "NCAAF parlay",
+   "pick": "2-leg",
+   "odds": "+230",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "POTD",
+   "prop": "MLB F5 ML",
+   "pick": "Tampa Bay Rays F5 ML",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL SOG",
+   "pick": "Charlie McAvoy o1.5 SOG",
+   "odds": "-110",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Parlay",
+   "prop": "NHL parlay",
+   "pick": "2-leg",
+   "odds": "+224",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "WNBA",
+   "type": "POTD",
+   "prop": "WNBA 1Q total",
+   "pick": "1st Quarter Total Under 37.5",
+   "odds": "-115",
+   "res": "W",
+   "stat": "total 36"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "ALL parlay",
+   "pick": "3-leg",
+   "odds": "+114",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "POTD",
+   "prop": "NASCAR H2H",
+   "pick": "Kyle Larson over Chase Briscoe (H2H)",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Parlay",
+   "prop": "NASCAR parlay",
+   "pick": "2-leg",
+   "odds": "+134",
+   "res": "Pending",
+   "stat": "—"
+  }
+ ],
+ "tracked_rows": [
+  {
+   "date": "2026-10-17",
+   "sport": "NCAA F",
+   "type": "Runner-up",
+   "prop": "NCAAF team total",
+   "pick": "Florida State Under 18.5 Team Total",
+   "odds": "-130",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NCAA F",
+   "type": "Runner-up",
+   "prop": "NCAAF team total",
+   "pick": "Nebraska Over 21.5 Team Total",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NCAA F",
+   "type": "Runner-up",
+   "prop": "NCAAF spread",
+   "pick": "Miami -19.5",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NCAA F",
+   "type": "Runner-up",
+   "prop": "NCAAF team total",
+   "pick": "Auburn Under 14.5 Team Total",
+   "odds": "-130",
+   "res": "L",
+   "stat": "AUB 24 (live)"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NCAA F",
+   "type": "Runner-up",
+   "prop": "NCAAF spread",
+   "pick": "(+EV) Notre Dame -11.5",
+   "odds": "-105",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NCAA F",
+   "type": "Runner-up",
+   "prop": "NCAAF spread",
+   "pick": "(Quality) Notre Dame -10.5",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 team total",
+   "pick": "Guardians F5 Under 1.5 Team Runs",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 total",
+   "pick": "F5 Total Under 3.5",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 ML",
+   "pick": "(+EV) Tampa Bay Rays F5 -0.5",
+   "odds": "+120",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 spread (alt)",
+   "pick": "(Quality) Tampa Bay Rays +1.5 F5",
+   "odds": "-375",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 spread (alt)",
+   "pick": "(Quality) Tampa Bay Rays +0.5 F5",
+   "odds": "-185",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 team total",
+   "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
+   "odds": "-275",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 total",
+   "pick": "(Quality) F5 Total Under 4.5",
+   "odds": "-220",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "Ben Kindel o1.5 SOG",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(+EV) Quinton Byfield o2.5 SOG",
+   "odds": "+110",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL ML",
+   "pick": "(Quality) Tampa Bay Lightning ML",
+   "odds": "-375",
+   "res": "W",
+   "stat": "TB 4-2"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(Quality) Jack Roslovic o1.5 SOG",
+   "odds": "-165",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(Quality) Noah Dobson u2.5 SOG",
+   "odds": "-185",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(Quality) Arseny Gritsyuk o1.5 SOG",
+   "odds": "-145",
+   "res": "W",
+   "stat": "6 SOG"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA 2H total",
+   "pick": "2nd Half Total Under 79.5 incl OT",
+   "odds": "-115",
+   "res": "W",
+   "stat": "total 51"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA player points",
+   "pick": "Allisha Gray Under 14.5 Points",
+   "odds": "-115",
+   "res": "L",
+   "stat": "19 PTS"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA HT/FT",
+   "pick": "(+EV) Valkyries/Valkyries Halftime-Fulltime",
+   "odds": "+125",
+   "res": "W",
+   "stat": "HT GS / FT GS"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA ML",
+   "pick": "(Quality) Valkyries ML",
+   "odds": "-140",
+   "res": "W",
+   "stat": "ATL 64-68 GS"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 team total",
+   "pick": "(Quality) Tampa Bay Rays F5 Over 0.5 Team Runs",
+   "odds": "-325",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL puck line",
+   "pick": "(Quality) Tampa Bay Lightning -1.5",
+   "odds": "-145",
+   "res": "W",
+   "stat": "TB 4-2"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Runner-up",
+   "prop": "NASCAR H2H",
+   "pick": "Ryan Blaney over Christopher Bell (H2H)",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Runner-up",
+   "prop": "NASCAR H2H",
+   "pick": "William Byron over Tyler Reddick (H2H)",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Runner-up",
+   "prop": "NASCAR top 5",
+   "pick": "(+EV) Kyle Larson Top 5",
+   "odds": "+125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Runner-up",
+   "prop": "NASCAR top 10",
+   "pick": "(Quality) Ryan Blaney Top 10",
+   "odds": "-400",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Runner-up",
+   "prop": "NASCAR top 10",
+   "pick": "(Quality) Kyle Larson Top 10",
+   "odds": "-220",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Runner-up",
+   "prop": "NASCAR top manufacturer",
+   "pick": "(Quality) Ryan Blaney Top Ford",
+   "odds": "+100",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Runner-up",
+   "prop": "NASCAR H2H",
+   "pick": "(Quality) Ross Chastain over Josh Berry (H2H)",
+   "odds": "+100",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NASCAR",
+   "type": "Runner-up",
+   "prop": "NASCAR top 10",
+   "pick": "(Quality) Denny Hamlin Top 10",
+   "odds": "-260",
+   "res": "Pending",
+   "stat": "—"
+  }
+ ]
 }
