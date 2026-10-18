@@ -1,5 +1,5 @@
 {
- "generated": 1792290426.4146883,
+ "generated": 1792290697.219637,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -3389,7 +3389,7 @@
    }
   ]
  },
- "ui_build": "1792290410",
+ "ui_build": "1792290674",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -4878,210 +4878,273 @@
  },
  "live_top_lines": {
   "MLB": {
-   "ml": [],
-   "spread": [],
-   "total": [],
-   "props": [
+   "ml": [
     {
-     "pick": "Victor Mesa Jr. 2+ Total Bases",
+     "pick": "Guardians ML",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+325",
+     "odds": "+1000",
+     "grade": "C+",
      "live": true,
-     "updated": "22:24",
-     "grade": "C",
-     "reason": "Poisson mean 0.88 from HR main 1.5: 22% vs implied 24% (EV -7.0%).",
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 9% vs implied 9%.",
+     "updated": "22:29",
      "rank": 1
     },
+    {
+     "pick": "Rays ML",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "-2200",
+     "grade": "C+",
+     "live": true,
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 91% vs implied 96%.",
+     "updated": "22:29",
+     "rank": 2
+    }
+   ],
+   "spread": [
+    {
+     "pick": "Rays -2.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "-240",
+     "grade": "C",
+     "live": true,
+     "reason": "HR spread ladder: Guardians by -2.9; this line no-vig 66%. Model 66% vs implied 71%.",
+     "updated": "22:29",
+     "rank": 1
+    },
+    {
+     "pick": "Guardians +2.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+180",
+     "grade": "C",
+     "live": true,
+     "reason": "HR spread ladder: Guardians by -2.9; this line no-vig 34%. Model 34% vs implied 36%.",
+     "updated": "22:29",
+     "rank": 2
+    }
+   ],
+   "total": [
+    {
+     "pick": "Rays @ Guardians Under 8.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "-155",
+     "grade": "C",
+     "live": true,
+     "reason": "HR total ladder centers 8.2; this line no-vig 57%. Model 57% vs implied 61%.",
+     "updated": "22:29",
+     "rank": 1
+    },
+    {
+     "pick": "Rays @ Guardians Over 8.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+115",
+     "grade": "C",
+     "live": true,
+     "reason": "HR total ladder centers 8.2; this line no-vig 43%. Model 43% vs implied 47%.",
+     "updated": "22:29",
+     "rank": 2
+    }
+   ],
+   "props": [
     {
      "pick": "Yandy Diaz o2.5 Total Bases",
      "game": "Rays @ Guardians LIVE",
      "odds": "+300",
      "live": true,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C",
      "reason": "Poisson mean 1.66 from HR main 2.5: 23% vs implied 25% (EV -7.1%).",
-     "rank": 2
-    },
-    {
-     "pick": "Travis Bazzana o0.5 Hits",
-     "game": "Rays @ Guardians LIVE",
-     "odds": "+300",
-     "live": true,
-     "updated": "22:24",
-     "grade": "C",
-     "reason": "Poisson mean 0.26 from HR main 0.5: 23% vs implied 25% (EV -7.1%).",
-     "rank": 3
-    },
-    {
-     "pick": "Patrick Bailey o0.5 Hits",
-     "game": "Rays @ Guardians LIVE",
-     "odds": "+325",
-     "live": true,
-     "updated": "22:24",
-     "grade": "C",
-     "reason": "Poisson mean 0.25 from HR main 0.5: 22% vs implied 24% (EV -7.5%).",
-     "rank": 4
-    },
-    {
-     "pick": "Chase DeLauter o1.5 Total Bases",
-     "game": "Rays @ Guardians LIVE",
-     "odds": "+325",
-     "live": true,
-     "updated": "22:24",
-     "grade": "C",
-     "reason": "Poisson mean 0.87 from HR main 1.5: 22% vs implied 24% (EV -7.5%).",
-     "rank": 5
-    },
-    {
-     "pick": "Steven Kwan o1.5 Total Bases",
-     "game": "Rays @ Guardians LIVE",
-     "odds": "+275",
-     "live": true,
-     "updated": "22:24",
-     "grade": "C",
-     "reason": "Poisson mean 0.95 from HR main 1.5: 25% vs implied 27% (EV -7.8%).",
-     "rank": 6
+     "rank": 1
     },
     {
      "pick": "Taylor Walls o2.5 Hits+Runs+RBI",
      "game": "Rays @ Guardians LIVE",
      "odds": "+375",
      "live": true,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C",
-     "reason": "Poisson mean 1.51 from HR main 2.5: 19% vs implied 21% (EV -7.9%).",
-     "rank": 7
+     "reason": "Poisson mean 1.52 from HR main 2.5: 20% vs implied 21% (EV -7.2%).",
+     "rank": 2
+    },
+    {
+     "pick": "Jo Adell o0.5 Hits",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+350",
+     "live": true,
+     "updated": "22:29",
+     "grade": "C",
+     "reason": "Poisson mean 0.23 from HR main 0.5: 21% vs implied 22% (EV -7.4%).",
+     "rank": 3
+    },
+    {
+     "pick": "Victor Mesa Jr. o1.5 Hits",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+350",
+     "live": true,
+     "updated": "22:29",
+     "grade": "C",
+     "reason": "Poisson mean 0.84 from HR main 1.5: 21% vs implied 22% (EV -7.4%).",
+     "rank": 4
     },
     {
      "pick": "Jose Ramirez 1+ Hits",
      "game": "Rays @ Guardians LIVE",
      "odds": "+325",
      "live": true,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C",
-     "reason": "Poisson mean 0.24 from HR main 0.5: 22% vs implied 24% (EV -8.0%).",
+     "reason": "Poisson mean 0.25 from HR main 0.5: 22% vs implied 24% (EV -7.5%).",
+     "rank": 5
+    },
+    {
+     "pick": "Nathaniel Lowe o0.5 Hits+Runs+RBI",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+325",
+     "live": true,
+     "updated": "22:29",
+     "grade": "C",
+     "reason": "Poisson mean 0.25 from HR main 0.5: 22% vs implied 24% (EV -7.5%).",
+     "rank": 6
+    },
+    {
+     "pick": "Brayan Rocchio 1+ Hits",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+300",
+     "live": true,
+     "updated": "22:29",
+     "grade": "C",
+     "reason": "Poisson mean 0.26 from HR main 0.5: 23% vs implied 25% (EV -7.7%).",
+     "rank": 7
+    },
+    {
+     "pick": "Chase DeLauter o2.5 Hits+Runs+RBI",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+240",
+     "live": true,
+     "updated": "22:29",
+     "grade": "C",
+     "reason": "Poisson mean 1.81 from HR main 2.5: 27% vs implied 29% (EV -7.7%).",
      "rank": 8
     },
     {
-     "pick": "Brayan Rocchio o0.5 Hits+Runs+RBI",
+     "pick": "Richie Palacios o3.5 Hits+Runs+RBI",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+260",
+     "odds": "+375",
      "live": true,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C",
-     "reason": "Poisson mean 0.30 from HR main 0.5: 26% vs implied 28% (EV -8.0%).",
+     "reason": "Poisson mean 2.27 from HR main 3.5: 19% vs implied 21% (EV -7.9%).",
      "rank": 9
     },
     {
-     "pick": "Petey Halpin 1+ Hits",
+     "pick": "Steven Kwan o1.5 Total Bases",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+350",
+     "odds": "+260",
      "live": true,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C",
-     "reason": "Poisson mean 0.23 from HR main 0.5: 20% vs implied 22% (EV -8.2%).",
+     "reason": "Poisson mean 0.98 from HR main 1.5: 26% vs implied 28% (EV -8.0%).",
      "rank": 10
     }
    ],
    "alt": [
     {
-     "pick": "Rays -4.5",
+     "pick": "Rays @ Guardians Over 10.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+350",
+     "grade": "C",
+     "live": true,
+     "reason": "HR total ladder centers 8.2; this line no-vig 21%. Model 21% vs implied 22% (EV -6.4%).",
+     "updated": "22:29",
+     "rank": 1
+    },
+    {
+     "pick": "Rays -3.5",
      "game": "Rays @ Guardians LIVE",
      "odds": "+240",
      "grade": "C",
      "live": true,
-     "reason": "HR spread ladder: Guardians by -3.8; this line no-vig 27%. Model 27% vs implied 29% (EV -6.7%).",
-     "updated": "22:24",
-     "rank": 1
+     "reason": "HR spread ladder: Guardians by -2.9; this line no-vig 27%. Model 27% vs implied 29% (EV -6.7%).",
+     "updated": "22:29",
+     "rank": 2
     },
     {
-     "pick": "Guardians +4.5",
+     "pick": "Guardians +3.5",
      "game": "Rays @ Guardians LIVE",
      "odds": "-350",
      "grade": "C",
      "live": true,
-     "reason": "HR spread ladder: Guardians by -3.8; this line no-vig 73%. Model 73% vs implied 78% (EV -6.7%).",
-     "updated": "22:24",
-     "rank": 2
-    },
-    {
-     "pick": "Guardians +2.5",
-     "game": "Rays @ Guardians LIVE",
-     "odds": "+400",
-     "grade": "C",
-     "live": true,
-     "reason": "HR spread ladder: Guardians by -3.8; this line no-vig 19%. Model 19% vs implied 20% (EV -7.0%).",
-     "updated": "22:24",
+     "reason": "HR spread ladder: Guardians by -2.9; this line no-vig 73%. Model 73% vs implied 78% (EV -6.7%).",
+     "updated": "22:29",
      "rank": 3
     },
     {
-     "pick": "Rays @ Guardians Over 8.5",
+     "pick": "Guardians +1.5",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+275",
+     "odds": "+375",
      "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 7.1; this line no-vig 25%. Model 25% vs implied 27% (EV -7.1%).",
-     "updated": "22:24",
+     "reason": "HR spread ladder: Guardians by -2.9; this line no-vig 20%. Model 20% vs implied 21% (EV -7.2%).",
+     "updated": "22:29",
      "rank": 4
     },
     {
-     "pick": "Rays @ Guardians Under 6.5",
+     "pick": "Rays @ Guardians Over 7.5",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+155",
+     "odds": "-230",
      "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 7.1; this line no-vig 36%. Model 36% vs implied 39% (EV -7.4%).",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 8.2; this line no-vig 64%. Model 64% vs implied 70% (EV -7.5%).",
+     "updated": "22:29",
      "rank": 5
     },
     {
-     "pick": "Rays @ Guardians Over 6.5",
+     "pick": "Rays @ Guardians Under 7.5",
      "game": "Rays @ Guardians LIVE",
-     "odds": "-220",
+     "odds": "+160",
      "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 7.1; this line no-vig 64%. Model 64% vs implied 69% (EV -7.4%).",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 8.2; this line no-vig 36%. Model 36% vs implied 38% (EV -7.5%).",
+     "updated": "22:29",
      "rank": 6
+    },
+    {
+     "pick": "Rays @ Guardians Over 9.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "+240",
+     "grade": "C",
+     "live": true,
+     "reason": "HR total ladder centers 8.2; this line no-vig 27%. Model 27% vs implied 29% (EV -7.7%).",
+     "updated": "22:29",
+     "rank": 7
     },
     {
      "pick": "Steven Kwan 3+ Total Bases",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+1000",
+     "odds": "+850",
      "live": true,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
-     "reason": "Alt line; Poisson mean 0.95 from HR main 1.5: 7% vs implied 9%; value vs HR's same-distance Total Bases rungs on other players +26.7%.",
-     "rank": 7
+     "reason": "Alt line; Poisson mean 0.98 from HR main 1.5: 8% vs implied 11%; value vs HR's same-distance Total Bases rungs on other players +19.0%.",
+     "rank": 8
     },
     {
      "pick": "Chase DeLauter 3+ Total Bases",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+850",
+     "odds": "+750",
      "live": true,
-     "updated": "22:24",
-     "grade": "A-",
-     "reason": "Alt line; Poisson mean 0.87 from HR main 1.5: 6% vs implied 11%; value vs HR's same-distance Total Bases rungs on other players +3.8%.",
-     "rank": 8
+     "updated": "22:29",
+     "grade": "B+",
+     "reason": "Alt line; Poisson mean 0.91 from HR main 1.5: 6% vs implied 12%; value vs HR's same-distance Total Bases rungs on other players +0.9%.",
+     "rank": 9
     },
     {
      "pick": "Taylor Walls 3+ Total Bases",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+1200",
+     "odds": "+1300",
      "live": true,
-     "updated": "22:24",
-     "grade": "C+",
-     "reason": "Alt line; Poisson mean 0.72 from HR main 1.5: 4% vs implied 8%; value vs HR's same-distance Total Bases rungs on other players -4.5%.",
-     "rank": 9
-    },
-    {
-     "pick": "Rays -6.5",
-     "game": "Rays @ Guardians LIVE",
-     "odds": "+1200",
-     "grade": "C",
-     "live": true,
-     "reason": "HR spread ladder: Guardians by -3.8; this line no-vig 7%. Model 7% vs implied 8% (EV -5.9%).",
-     "updated": "22:24",
+     "updated": "22:29",
+     "grade": "B+",
+     "reason": "Alt line; Poisson mean 0.74 from HR main 1.5: 4% vs implied 7%; value vs HR's same-distance Total Bases rungs on other players +0.7%.",
      "rank": 10
     }
    ]
@@ -5089,67 +5152,158 @@
   "NHL": {
    "ml": [
     {
-     "pick": "Bruins ML",
-     "game": "Bruins @ Kings LIVE",
-     "odds": "-110",
+     "pick": "Mammoth ML",
+     "game": "Oilers @ Mammoth LIVE",
+     "odds": "+120",
      "grade": "C",
      "live": true,
-     "reason": "Live HR moneyline, no-vig fair from both sides. Model 49% vs implied 52%.",
-     "updated": "22:24",
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 43% vs implied 45%.",
+     "updated": "22:29",
      "rank": 1
+    },
+    {
+     "pick": "Oilers ML",
+     "game": "Oilers @ Mammoth LIVE",
+     "odds": "-155",
+     "grade": "C",
+     "live": true,
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 57% vs implied 61%.",
+     "updated": "22:29",
+     "rank": 2
     },
     {
      "pick": "Kings ML",
      "game": "Bruins @ Kings LIVE",
-     "odds": "-120",
+     "odds": "-130",
      "grade": "C",
      "live": true,
-     "reason": "Live HR moneyline, no-vig fair from both sides. Model 51% vs implied 55%.",
-     "updated": "22:24",
-     "rank": 2
-    }
-   ],
-   "spread": [],
-   "total": [
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 53% vs implied 57%.",
+     "updated": "22:29",
+     "rank": 3
+    },
     {
-     "pick": "Bruins @ Kings Over 5.5",
+     "pick": "Bruins ML",
      "game": "Bruins @ Kings LIVE",
      "odds": "+100",
-     "grade": "C+",
+     "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 5.7; this line no-vig 48%. Model 48% vs implied 50%.",
-     "updated": "22:24",
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 47% vs implied 50%.",
+     "updated": "22:29",
+     "rank": 4
+    },
+    {
+     "pick": "Golden Knights ML",
+     "game": "Penguins @ Golden Knights LIVE",
+     "odds": "-1100",
+     "grade": "C",
+     "live": true,
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 86% vs implied 92%.",
+     "updated": "22:29",
+     "rank": 5
+    }
+   ],
+   "spread": [
+    {
+     "pick": "Oilers -1.5",
+     "game": "Oilers @ Mammoth LIVE",
+     "odds": "+160",
+     "grade": "C",
+     "live": true,
+     "reason": "HR spread ladder: Mammoth by -0.6; this line no-vig 36%. Model 36% vs implied 38%.",
+     "updated": "22:29",
      "rank": 1
     },
     {
-     "pick": "Bruins @ Kings Under 5.5",
-     "game": "Bruins @ Kings LIVE",
-     "odds": "-120",
-     "grade": "C+",
+     "pick": "Mammoth +1.5",
+     "game": "Oilers @ Mammoth LIVE",
+     "odds": "-210",
+     "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 5.7; this line no-vig 52%. Model 52% vs implied 55%.",
-     "updated": "22:24",
+     "reason": "HR spread ladder: Mammoth by -0.6; this line no-vig 64%. Model 64% vs implied 68%.",
+     "updated": "22:29",
      "rank": 2
+    },
+    {
+     "pick": "Golden Knights -2.5",
+     "game": "Penguins @ Golden Knights LIVE",
+     "odds": "-185",
+     "grade": "C",
+     "live": true,
+     "reason": "HR spread ladder: Golden Knights by +2.9; this line no-vig 61%. Model 61% vs implied 65%.",
+     "updated": "22:29",
+     "rank": 3
+    },
+    {
+     "pick": "Penguins +2.5",
+     "game": "Penguins @ Golden Knights LIVE",
+     "odds": "+140",
+     "grade": "C",
+     "live": true,
+     "reason": "HR spread ladder: Golden Knights by +2.9; this line no-vig 39%. Model 39% vs implied 42%.",
+     "updated": "22:29",
+     "rank": 4
+    },
+    {
+     "pick": "Bruins -1.5",
+     "game": "Bruins @ Kings LIVE",
+     "odds": "+325",
+     "grade": "C",
+     "live": true,
+     "reason": "HR spread ladder: Kings by +0.2; this line no-vig 22%. Model 22% vs implied 24%.",
+     "updated": "22:29",
+     "rank": 5
+    }
+   ],
+   "total": [
+    {
+     "pick": "Penguins @ Golden Knights Under 7.5",
+     "game": "Penguins @ Golden Knights LIVE",
+     "odds": "-130",
+     "grade": "C",
+     "live": true,
+     "reason": "HR total ladder centers 7.5; this line no-vig 54%. Model 54% vs implied 57%.",
+     "updated": "22:29",
+     "rank": 1
     },
     {
      "pick": "Penguins @ Golden Knights Over 7.5",
      "game": "Penguins @ Golden Knights LIVE",
-     "odds": "-115",
-     "grade": "C+",
+     "odds": "+105",
+     "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 7.7; this line no-vig 51%. Model 51% vs implied 53%.",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 7.5; this line no-vig 46%. Model 46% vs implied 49%.",
+     "updated": "22:29",
+     "rank": 2
+    },
+    {
+     "pick": "Oilers @ Mammoth Under 6.5",
+     "game": "Oilers @ Mammoth LIVE",
+     "odds": "+115",
+     "grade": "C",
+     "live": true,
+     "reason": "HR total ladder centers 6.6; this line no-vig 44%. Model 44% vs implied 47%.",
+     "updated": "22:29",
      "rank": 3
     },
     {
-     "pick": "Penguins @ Golden Knights Under 7.5",
-     "game": "Penguins @ Golden Knights LIVE",
-     "odds": "-105",
-     "grade": "C+",
+     "pick": "Oilers @ Mammoth Over 6.5",
+     "game": "Oilers @ Mammoth LIVE",
+     "odds": "-145",
+     "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 7.7; this line no-vig 49%. Model 49% vs implied 51%.",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 6.6; this line no-vig 56%. Model 56% vs implied 59%.",
+     "updated": "22:29",
      "rank": 4
+    },
+    {
+     "pick": "Bruins @ Kings Under 5.5",
+     "game": "Bruins @ Kings LIVE",
+     "odds": "-185",
+     "grade": "C",
+     "live": true,
+     "reason": "HR total ladder centers 5.4; this line no-vig 61%. Model 61% vs implied 65%.",
+     "updated": "22:29",
+     "rank": 5
     }
    ],
    "props": [
@@ -5158,7 +5312,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+240",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 2.54 from HR main 2.5: 25% vs implied 29%; value vs HR's same-distance Shots rungs on other players -3.7%.",
      "rank": 1
@@ -5168,7 +5322,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "-250",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 2.42 from HR main 2.5: 70% vs implied 71%; value vs HR's same-distance Shots rungs on other players -4.2%.",
      "rank": 2
@@ -5178,7 +5332,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+260",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 2.46 from HR main 2.5: 23% vs implied 28%; value vs HR's same-distance Shots rungs on other players -4.5%.",
      "rank": 3
@@ -5188,7 +5342,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "-230",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 2.34 from HR main 2.5: 68% vs implied 70%; value vs HR's same-distance Shots rungs on other players -4.5%.",
      "rank": 4
@@ -5198,7 +5352,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+350",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 1.48 from HR main 1.5: 19% vs implied 22%; value vs HR's same-distance Shots rungs on other players -4.5%.",
      "rank": 5
@@ -5208,7 +5362,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "-300",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 2.58 from HR main 2.5: 73% vs implied 75%; value vs HR's same-distance Shots rungs on other players -4.7%.",
      "rank": 6
@@ -5218,7 +5372,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+225",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 1.76 from HR main 1.5: 26% vs implied 31%; value vs HR's same-distance Shots rungs on other players -4.8%.",
      "rank": 7
@@ -5228,7 +5382,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+240",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C",
      "reason": "Alt line; Poisson mean 1.71 from HR main 1.5: 25% vs implied 29%; value vs HR's same-distance Shots rungs on other players -5.2%.",
      "rank": 8
@@ -5238,7 +5392,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+300",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C",
      "reason": "Alt line; Poisson mean 2.34 from HR main 2.5: 21% vs implied 25%; value vs HR's same-distance Shots rungs on other players -5.4%.",
      "rank": 9
@@ -5248,7 +5402,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "-275",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C",
      "reason": "Alt line; Poisson mean 2.46 from HR main 2.5: 70% vs implied 73%; value vs HR's same-distance Shots rungs on other players -5.7%.",
      "rank": 10
@@ -5260,7 +5414,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+400",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A-",
      "reason": "Alt line; Poisson mean 2.80 from HR main 2.5: 15% vs implied 20%; value vs HR's same-distance Shots rungs on other players +2.7%.",
      "rank": 1
@@ -5270,7 +5424,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+160",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "B",
      "reason": "Alt line; Poisson mean 2.06 from HR main 1.5: 34% vs implied 38%; value vs HR's same-distance Shots rungs on other players -0.7%.",
      "rank": 2
@@ -5280,7 +5434,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+375",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "B",
      "reason": "Alt line; Poisson mean 2.06 from HR main 1.5: 15% vs implied 21%; value vs HR's same-distance Shots rungs on other players -0.7%.",
      "rank": 3
@@ -5290,7 +5444,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+185",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "B",
      "reason": "Alt line; Poisson mean 2.80 from HR main 2.5: 31% vs implied 35%; value vs HR's same-distance Shots rungs on other players -0.9%.",
      "rank": 4
@@ -5300,7 +5454,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+190",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "B-",
      "reason": "Alt line; Poisson mean 1.90 from HR main 1.5: 30% vs implied 34%; value vs HR's same-distance Shots rungs on other players -2.7%.",
      "rank": 5
@@ -5310,7 +5464,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+210",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 1.83 from HR main 1.5: 28% vs implied 32%; value vs HR's same-distance Shots rungs on other players -3.1%.",
      "rank": 6
@@ -5320,7 +5474,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+230",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 2.58 from HR main 2.5: 26% vs implied 30%; value vs HR's same-distance Shots rungs on other players -3.3%.",
      "rank": 7
@@ -5330,7 +5484,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+260",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 1.68 from HR main 1.5: 24% vs implied 28%; value vs HR's same-distance Shots rungs on other players -3.4%.",
      "rank": 8
@@ -5340,7 +5494,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "+260",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 1.68 from HR main 1.5: 24% vs implied 28%; value vs HR's same-distance Shots rungs on other players -3.4%.",
      "rank": 9
@@ -5350,7 +5504,7 @@
      "game": "Hurricanes @ Flames 10/18 08:00 PM ET",
      "odds": "-275",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "C+",
      "reason": "Alt line; Poisson mean 2.54 from HR main 2.5: 72% vs implied 73%; value vs HR's same-distance Shots rungs on other players -3.5%.",
      "rank": 10
@@ -5434,7 +5588,7 @@
      "game": "Saints @ Giants 10/18 01:00 PM ET",
      "odds": "+300",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 52 yds (CV 0.6) from HR main 52.5: 23% vs implied 25%; value vs HR's same-distance Receiving Yards rungs on other players +10.9%.",
      "rank": 1
@@ -5444,7 +5598,7 @@
      "game": "Commanders @ 49ers 10/19 08:15 PM ET",
      "odds": "+210",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 61 yds (CV 0.55) from HR main 60.5: 30% vs implied 32%; value vs HR's same-distance Rushing Yards rungs on other players +10.5%.",
      "rank": 2
@@ -5454,79 +5608,79 @@
      "game": "Bills @ Raiders 10/18 04:25 PM ET",
      "odds": "+300",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 50 yds (CV 0.6) from HR main 49.5: 20% vs implied 25%; value vs HR's same-distance Receiving Yards rungs on other players +9.5%.",
      "rank": 3
-    },
-    {
-     "pick": "Malik Nabers 100+ Receiving Yards",
-     "game": "Saints @ Giants 10/18 01:00 PM ET",
-     "odds": "+230",
-     "live": false,
-     "updated": "22:24",
-     "grade": "A",
-     "reason": "Alt line; lognormal median 71 yds (CV 0.6) from HR main 71.5: 28% vs implied 30%; value vs HR's same-distance Receiving Yards rungs on other players +8.6%.",
-     "rank": 4
     },
     {
      "pick": "Garrett Wilson 100+ Receiving Yards",
      "game": "Jets @ Patriots 10/18 01:00 PM ET",
      "odds": "+220",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 72 yds (CV 0.6) from HR main 72.5: 28% vs implied 31%; value vs HR's same-distance Receiving Yards rungs on other players +8.5%.",
-     "rank": 5
+     "rank": 4
     },
     {
      "pick": "Brock Bowers 10+ Receptions",
      "game": "Bills @ Raiders 10/18 04:25 PM ET",
      "odds": "+375",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; Poisson mean 6.87 from HR main 6.5: 16% vs implied 21%; value vs HR's same-distance Receptions rungs on other players +8.4%.",
-     "rank": 6
+     "rank": 5
     },
     {
      "pick": "Davante Adams 100+ Receiving Yards",
      "game": "Cardinals @ Rams 10/18 04:05 PM ET",
      "odds": "+375",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 59 yds (CV 0.6) from HR main 58.5: 17% vs implied 21%; value vs HR's same-distance Receiving Yards rungs on other players +7.9%.",
-     "rank": 7
+     "rank": 6
     },
     {
      "pick": "Matthew Golden 100+ Receiving Yards",
      "game": "Cowboys @ Packers 10/18 08:20 PM ET",
      "odds": "+275",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 66 yds (CV 0.6) from HR main 66.5: 23% vs implied 27%; value vs HR's same-distance Receiving Yards rungs on other players +7.7%.",
-     "rank": 8
+     "rank": 7
     },
     {
      "pick": "Ladd McConkey 65+ Receiving Yards",
      "game": "Chargers @ Chiefs 10/18 04:25 PM ET",
      "odds": "+260",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 41 yds (CV 0.6) from HR main 41.5: 21% vs implied 28%; value vs HR's same-distance Receiving Yards rungs on other players +7.7%.",
-     "rank": 9
+     "rank": 8
     },
     {
      "pick": "Stefon Diggs 65+ Receiving Yards",
      "game": "Commanders @ 49ers 10/19 08:15 PM ET",
      "odds": "+260",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 41 yds (CV 0.6) from HR main 41.5: 21% vs implied 28%; value vs HR's same-distance Receiving Yards rungs on other players +7.7%.",
+     "rank": 9
+    },
+    {
+     "pick": "George Pickens 100+ Receiving Yards",
+     "game": "Cowboys @ Packers 10/18 08:20 PM ET",
+     "odds": "+250",
+     "live": false,
+     "updated": "22:29",
+     "grade": "A",
+     "reason": "Alt line; lognormal median 68 yds (CV 0.6) from HR main 68.5: 25% vs implied 29%; value vs HR's same-distance Receiving Yards rungs on other players +7.7%.",
      "rank": 10
     }
    ],
@@ -5536,7 +5690,7 @@
      "game": "Cardinals @ Rams 10/18 04:05 PM ET",
      "odds": "+350",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 63 yds (CV 0.6) from HR main 63.5: 21% vs implied 22%; value vs HR's same-distance Receiving Yards rungs on other players +25.0%.",
      "rank": 1
@@ -5546,7 +5700,7 @@
      "game": "Panthers @ Eagles 10/18 01:00 PM ET",
      "odds": "+325",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 63 yds (CV 0.6) from HR main 63.5: 21% vs implied 24%; value vs HR's same-distance Receiving Yards rungs on other players +19.8%.",
      "rank": 2
@@ -5556,7 +5710,7 @@
      "game": "Bills @ Raiders 10/18 04:25 PM ET",
      "odds": "+325",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 51 yds (CV 0.6) from HR main 50.5: 21% vs implied 24%; value vs HR's same-distance Receiving Yards rungs on other players +18.8%.",
      "rank": 3
@@ -5566,7 +5720,7 @@
      "game": "Commanders @ 49ers 10/19 08:15 PM ET",
      "odds": "+350",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 40 yds (CV 0.6) from HR main 40.5: 19% vs implied 22%; value vs HR's same-distance Receiving Yards rungs on other players +18.1%.",
      "rank": 4
@@ -5576,7 +5730,7 @@
      "game": "Texans @ Jaguars 10/18 09:30 AM ET",
      "odds": "+325",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 63 yds (CV 0.6) from HR main 62.5: 20% vs implied 24%; value vs HR's same-distance Receiving Yards rungs on other players +16.3%.",
      "rank": 5
@@ -5586,7 +5740,7 @@
      "game": "Ravens @ Browns 10/18 01:00 PM ET",
      "odds": "+400",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 37 yds (CV 0.6) from HR main 36.5: 15% vs implied 20%; value vs HR's same-distance Receiving Yards rungs on other players +15.3%.",
      "rank": 6
@@ -5596,7 +5750,7 @@
      "game": "Cowboys @ Packers 10/18 08:20 PM ET",
      "odds": "+300",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 51 yds (CV 0.6) from HR main 50.5: 21% vs implied 25%; value vs HR's same-distance Receiving Yards rungs on other players +13.6%.",
      "rank": 7
@@ -5606,7 +5760,7 @@
      "game": "Cardinals @ Rams 10/18 04:05 PM ET",
      "odds": "+375",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 60 yds (CV 0.6) from HR main 59.5: 18% vs implied 21%; value vs HR's same-distance Receiving Yards rungs on other players +11.6%.",
      "rank": 8
@@ -5616,7 +5770,7 @@
      "game": "Commanders @ 49ers 10/19 08:15 PM ET",
      "odds": "+230",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 72 yds (CV 0.6) from HR main 72.5: 28% vs implied 30%; value vs HR's same-distance Receiving Yards rungs on other players +11.4%.",
      "rank": 9
@@ -5626,7 +5780,7 @@
      "game": "Ravens @ Browns 10/18 01:00 PM ET",
      "odds": "+375",
      "live": false,
-     "updated": "22:24",
+     "updated": "22:29",
      "grade": "A",
      "reason": "Alt line; lognormal median 59 yds (CV 0.6) from HR main 58.5: 18% vs implied 21%; value vs HR's same-distance Receiving Yards rungs on other players +11.0%.",
      "rank": 10
@@ -5646,7 +5800,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Lakers by +6.3; this line no-vig 48%. Model 48% vs implied 50% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 1
     },
     {
@@ -5656,7 +5810,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Lakers by +6.3; this line no-vig 52%. Model 52% vs implied 55% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 2
     },
     {
@@ -5666,7 +5820,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Rockets by +8.2; this line no-vig 52%. Model 52% vs implied 55% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 3
     },
     {
@@ -5676,7 +5830,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Rockets by +8.2; this line no-vig 48%. Model 48% vs implied 50% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 4
     },
     {
@@ -5686,7 +5840,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR total ladder centers 229.5; this line no-vig 52%. Model 52% vs implied 55% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 5
     },
     {
@@ -5696,7 +5850,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR total ladder centers 229.5; this line no-vig 48%. Model 48% vs implied 50% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 6
     },
     {
@@ -5706,7 +5860,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR total ladder centers 229.5; this line no-vig 48%. Model 48% vs implied 50% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 7
     },
     {
@@ -5716,7 +5870,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR total ladder centers 229.5; this line no-vig 52%. Model 52% vs implied 55% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 8
     },
     {
@@ -5726,7 +5880,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Knicks by +4.6; this line no-vig 48%. Model 48% vs implied 50% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 9
     },
     {
@@ -5736,7 +5890,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Knicks by +4.6; this line no-vig 52%. Model 52% vs implied 55% (EV -4.3%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 10
     }
    ]
@@ -5744,65 +5898,105 @@
   "NCAA F": {
    "ml": [
     {
-     "pick": "BYU ML",
-     "game": "Notre Dame @ BYU LIVE",
-     "odds": "-130",
+     "pick": "Oklahoma ML",
+     "game": "Kentucky @ Oklahoma LIVE",
+     "odds": "+195",
      "grade": "C",
      "live": true,
-     "reason": "Live HR moneyline, no-vig fair from both sides. Model 54% vs implied 57%.",
-     "updated": "22:24",
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 32% vs implied 34%.",
+     "updated": "22:29",
      "rank": 1
+    },
+    {
+     "pick": "Kentucky ML",
+     "game": "Kentucky @ Oklahoma LIVE",
+     "odds": "-250",
+     "grade": "C",
+     "live": true,
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 68% vs implied 71%.",
+     "updated": "22:29",
+     "rank": 2
+    },
+    {
+     "pick": "Notre Dame ML",
+     "game": "Notre Dame @ BYU LIVE",
+     "odds": "-145",
+     "grade": "C",
+     "live": true,
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 56% vs implied 59%.",
+     "updated": "22:29",
+     "rank": 3
+    },
+    {
+     "pick": "BYU ML",
+     "game": "Notre Dame @ BYU LIVE",
+     "odds": "+115",
+     "grade": "C",
+     "live": true,
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 44% vs implied 47%.",
+     "updated": "22:29",
+     "rank": 4
+    },
+    {
+     "pick": "Florida State ML",
+     "game": "Florida State @ Miami (FL) LIVE",
+     "odds": "+400",
+     "grade": "C",
+     "live": true,
+     "reason": "Live HR moneyline, no-vig fair from both sides. Model 19% vs implied 20%.",
+     "updated": "22:29",
+     "rank": 5
     }
    ],
    "spread": [
     {
-     "pick": "Ohio -23.5",
-     "game": "Ohio @ Sacramento State LIVE",
-     "odds": "-125",
+     "pick": "Wisconsin +9.5",
+     "game": "Wisconsin @ UCLA LIVE",
+     "odds": "+145",
      "grade": "C",
      "live": true,
-     "reason": "HR spread ladder: Sacramento State by -24.0; this line no-vig 52%. Model 52% vs implied 56%.",
-     "updated": "22:24",
+     "reason": "HR spread ladder: UCLA by +14.2; this line no-vig 38%. Model 38% vs implied 41%.",
+     "updated": "22:29",
      "rank": 1
     },
     {
-     "pick": "BYU -1.5",
-     "game": "Notre Dame @ BYU LIVE",
-     "odds": "-125",
+     "pick": "UCLA -9.5",
+     "game": "Wisconsin @ UCLA LIVE",
+     "odds": "-190",
      "grade": "C",
      "live": true,
-     "reason": "HR spread ladder: BYU by +1.9; this line no-vig 52%. Model 52% vs implied 56%.",
-     "updated": "22:24",
+     "reason": "HR spread ladder: UCLA by +14.2; this line no-vig 62%. Model 62% vs implied 66%.",
+     "updated": "22:29",
      "rank": 2
     },
     {
-     "pick": "Sacramento State +23.5",
-     "game": "Ohio @ Sacramento State LIVE",
-     "odds": "-105",
+     "pick": "BYU +1.5",
+     "game": "Notre Dame @ BYU LIVE",
+     "odds": "-165",
      "grade": "C",
      "live": true,
-     "reason": "HR spread ladder: Sacramento State by -24.0; this line no-vig 48%. Model 48% vs implied 51%.",
-     "updated": "22:24",
+     "reason": "HR spread ladder: BYU by -0.3; this line no-vig 58%. Model 58% vs implied 62%.",
+     "updated": "22:29",
      "rank": 3
     },
     {
-     "pick": "Notre Dame +1.5",
+     "pick": "Notre Dame -1.5",
      "game": "Notre Dame @ BYU LIVE",
-     "odds": "-105",
+     "odds": "+125",
      "grade": "C",
      "live": true,
-     "reason": "HR spread ladder: BYU by +1.9; this line no-vig 48%. Model 48% vs implied 51%.",
-     "updated": "22:24",
+     "reason": "HR spread ladder: BYU by -0.3; this line no-vig 42%. Model 42% vs implied 44%.",
+     "updated": "22:29",
      "rank": 4
     },
     {
-     "pick": "Louisville -5.5",
-     "game": "Louisville @ Syracuse LIVE",
-     "odds": "-110",
+     "pick": "Houston -9.5",
+     "game": "Oklahoma State @ Houston LIVE",
+     "odds": "-125",
      "grade": "C",
      "live": true,
-     "reason": "HR spread ladder: Syracuse by -6.4; this line no-vig 49%. Model 49% vs implied 52%.",
-     "updated": "22:24",
+     "reason": "HR spread ladder: Houston by +9.2; this line no-vig 52%. Model 52% vs implied 56%.",
+     "updated": "22:29",
      "rank": 5
     }
    ],
@@ -5817,53 +6011,53 @@
      "updated": "22:20"
     },
     {
-     "pick": "Ohio @ Sacramento State Under 47.5",
-     "game": "Ohio @ Sacramento State LIVE",
-     "odds": "-120",
+     "pick": "Oklahoma State @ Houston Over 57.5",
+     "game": "Oklahoma State @ Houston LIVE",
+     "odds": "-130",
      "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 47.1; this line no-vig 51%. Model 51% vs implied 55%.",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 57.2; this line no-vig 53%. Model 53% vs implied 57%.",
+     "updated": "22:29",
      "rank": 1
     },
     {
-     "pick": "Oklahoma State @ Houston Over 61.5",
+     "pick": "Oklahoma State @ Houston Under 57.5",
      "game": "Oklahoma State @ Houston LIVE",
-     "odds": "-120",
+     "odds": "+100",
      "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 62.1; this line no-vig 51%. Model 51% vs implied 55%.",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 57.2; this line no-vig 47%. Model 47% vs implied 50%.",
+     "updated": "22:29",
      "rank": 2
     },
     {
-     "pick": "Louisville @ Syracuse Over 66.5",
-     "game": "Louisville @ Syracuse LIVE",
-     "odds": "-110",
+     "pick": "Wisconsin @ UCLA Under 30.5",
+     "game": "Wisconsin @ UCLA LIVE",
+     "odds": "-120",
      "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 67.1; this line no-vig 49%. Model 49% vs implied 52%.",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 30.1; this line no-vig 51%. Model 51% vs implied 55%.",
+     "updated": "22:29",
      "rank": 3
     },
     {
-     "pick": "Louisiana Tech @ Louisiana-Monroe Over 24.5",
-     "game": "Louisiana Tech @ Louisiana-Monroe LIVE",
+     "pick": "Wisconsin @ UCLA Over 30.5",
+     "game": "Wisconsin @ UCLA LIVE",
      "odds": "-110",
      "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 24.1; this line no-vig 49%. Model 49% vs implied 52%.",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 30.1; this line no-vig 49%. Model 49% vs implied 52%.",
+     "updated": "22:29",
      "rank": 4
     },
     {
-     "pick": "Notre Dame @ BYU Under 49.5",
-     "game": "Notre Dame @ BYU LIVE",
-     "odds": "-110",
+     "pick": "San Jose State @ UTEP Over 28.5",
+     "game": "San Jose State @ UTEP LIVE",
+     "odds": "-115",
      "grade": "C",
      "live": true,
-     "reason": "HR total ladder centers 49.2; this line no-vig 49%. Model 49% vs implied 52%.",
-     "updated": "22:24",
+     "reason": "HR total ladder centers 28.5; this line no-vig 50%. Model 50% vs implied 53%.",
+     "updated": "22:29",
      "rank": 5
     }
    ],
@@ -5876,7 +6070,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Hawaii by -14.7; this line no-vig 39%. Model 39% vs implied 41% (EV -3.6%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 1
     },
     {
@@ -5886,7 +6080,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Hawaii by -14.7; this line no-vig 61%. Model 61% vs implied 63% (EV -3.6%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 2
     },
     {
@@ -5896,7 +6090,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR total ladder centers 45.9; this line no-vig 44%. Model 44% vs implied 45% (EV -3.6%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 3
     },
     {
@@ -5906,7 +6100,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR total ladder centers 45.9; this line no-vig 56%. Model 56% vs implied 58% (EV -3.6%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 4
     },
     {
@@ -5916,7 +6110,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Oregon by +7.2; this line no-vig 55%. Model 55% vs implied 57% (EV -3.8%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 5
     },
     {
@@ -5926,7 +6120,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR total ladder centers 45.7; this line no-vig 55%. Model 55% vs implied 57% (EV -3.8%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 6
     },
     {
@@ -5936,7 +6130,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Oregon by +7.2; this line no-vig 45%. Model 45% vs implied 47% (EV -3.8%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 7
     },
     {
@@ -5946,7 +6140,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR total ladder centers 45.7; this line no-vig 45%. Model 45% vs implied 47% (EV -3.8%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 8
     },
     {
@@ -5956,7 +6150,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: Hawaii by -14.7; this line no-vig 37%. Model 37% vs implied 38% (EV -3.8%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 9
     },
     {
@@ -5966,7 +6160,7 @@
      "grade": "C+",
      "live": false,
      "reason": "HR spread ladder: San Diego State by -6.8; this line no-vig 37%. Model 37% vs implied 38% (EV -3.8%).",
-     "updated": "22:24",
+     "updated": "22:29",
      "rank": 10
     }
    ]
@@ -5980,8 +6174,110 @@
   },
   "NASCAR": []
  },
- "home_field": [],
- "home_field_record": {},
+ "home_field": [
+  {
+   "key": "NFL|2791733172688257451",
+   "sport": "NFL",
+   "team": "Bucs",
+   "game": "Steelers @ Buccaneers Sun 1:00 PM ET",
+   "start_iso": "2026-10-18T13:00-04:00",
+   "built_at": "2026-10-17 22:30 ET",
+   "locked": true,
+   "locked_at": "2026-10-17 22:30 ET",
+   "late_lock": true,
+   "lock_rule": "24h before start",
+   "note": "",
+   "picks": [
+    {
+     "pick": "DK Metcalf 6+ Receptions",
+     "odds": "+260",
+     "grade": "A",
+     "reason": "Alt line; Poisson mean 4.13 from HR main 3.5: 24% vs implied 28%; value vs HR's same-distance Receptions rungs on other players +6.2%.",
+     "status": null,
+     "rank": 1
+    },
+    {
+     "pick": "Bucky Irving 100+ Rushing Yards",
+     "odds": "+325",
+     "grade": "A",
+     "reason": "Alt line; lognormal median 66 yds (CV 0.55) from HR main 65.5: 21% vs implied 24%; value vs HR's same-distance Rushing Yards rungs on other players +5.4%.",
+     "status": null,
+     "rank": 2
+    },
+    {
+     "pick": "Emeka Egbuka 65+ Receiving Yards",
+     "odds": "+325",
+     "grade": "A-",
+     "reason": "Alt line; lognormal median 37 yds (CV 0.6) from HR main 36.5: 15% vs implied 24%; value vs HR's same-distance Receiving Yards rungs on other players +3.9%.",
+     "status": null,
+     "rank": 3
+    },
+    {
+     "pick": "Darnell Washington 5+ Receptions",
+     "odds": "+375",
+     "grade": "A-",
+     "reason": "Alt line; Poisson mean 2.93 from HR main 2.5: 17% vs implied 21%; value vs HR's same-distance Receptions rungs on other players +3.3%.",
+     "status": null,
+     "rank": 4
+    },
+    {
+     "pick": "Jaylen Warren 80+ Rushing Yards",
+     "odds": "+185",
+     "grade": "A-",
+     "reason": "Alt line; lognormal median 61 yds (CV 0.55) from HR main 60.5: 30% vs implied 35%; value vs HR's same-distance Rushing Yards rungs on other players +3.1%.",
+     "status": null,
+     "rank": 5
+    },
+    {
+     "pick": "Emeka Egbuka 25+ Receiving Yards",
+     "odds": "-250",
+     "grade": "B+",
+     "reason": "Alt line; lognormal median 37 yds (CV 0.6) from HR main 36.5: 76% vs implied 71%; value vs HR's same-distance Receiving Yards rungs on other players +1.9%.",
+     "status": null,
+     "rank": 6
+    },
+    {
+     "pick": "Pat Freiermuth 25+ Receiving Yards",
+     "odds": "-220",
+     "grade": "B+",
+     "reason": "Alt line; lognormal median 35 yds (CV 0.6) from HR main 34.5: 73% vs implied 69%; value vs HR's same-distance Receiving Yards rungs on other players +1.3%.",
+     "status": null,
+     "rank": 7
+    },
+    {
+     "pick": "Jaylen Warren 6+ Receptions",
+     "odds": "+325",
+     "grade": "B+",
+     "reason": "Alt line; Poisson mean 3.82 from HR main 3.5: 19% vs implied 24%; value vs HR's same-distance Receptions rungs on other players +1.0%.",
+     "status": null,
+     "rank": 8
+    },
+    {
+     "pick": "DK Metcalf 5+ Receptions",
+     "odds": "+130",
+     "grade": "B+",
+     "reason": "Alt line; Poisson mean 4.13 from HR main 3.5: 40% vs implied 43%; value vs HR's same-distance Receptions rungs on other players +1.0%.",
+     "status": null,
+     "rank": 9
+    },
+    {
+     "pick": "Germie Bernard 65+ Receiving Yards",
+     "odds": "+225",
+     "grade": "B",
+     "reason": "Alt line; lognormal median 44 yds (CV 0.6) from HR main 43.5: 25% vs implied 31%; value vs HR's same-distance Receiving Yards rungs on other players +0.2%.",
+     "status": null,
+     "rank": 10
+    }
+   ]
+  }
+ ],
+ "home_field_record": {
+  "NFL": {
+   "w": 0,
+   "l": 0,
+   "p": 0
+  }
+ },
  "nrfi_record": {
   "w": 0,
   "l": 1,
