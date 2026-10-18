@@ -1,5 +1,5 @@
 {
- "generated": 1792360337.845096,
+ "generated": 1792360554.818345,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -2322,10 +2322,10 @@
     "pct": 50
    },
    "tracked": {
-    "w": 47,
-    "l": 36,
-    "p": 1,
-    "pct": 57
+    "w": 51,
+    "l": 41,
+    "p": 2,
+    "pct": 55
    },
    "pending": 15
   },
@@ -3444,9 +3444,9 @@
   {
    "name": "@austinsprops",
    "w": 4,
-   "l": 2,
+   "l": 3,
    "p": 0,
-   "pct": 67,
+   "pct": 57,
    "props": [
     {
      "prop": "MLB pitcher outs (over)",
@@ -3472,9 +3472,9 @@
     {
      "prop": "NFL receptions (over)",
      "w": 1,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100
+     "pct": 50
     },
     {
      "prop": "NFL rush yds (over)",
@@ -3532,7 +3532,7 @@
      "prop": "NFL receptions (over)",
      "pick": "Pat Freiermuth o3.5 rec (PIT @ TB, 1 PM ET)",
      "odds": "+110 DK",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
@@ -3552,17 +3552,17 @@
   },
   {
    "name": "@panpotd",
-   "w": 2,
-   "l": 3,
+   "w": 3,
+   "l": 4,
    "p": 0,
-   "pct": 40,
+   "pct": 43,
    "props": [
     {
      "prop": "NFL receptions (over)",
-     "w": 1,
-     "l": 0,
+     "w": 2,
+     "l": 1,
      "p": 0,
-     "pct": 100
+     "pct": 67
     },
     {
      "prop": "NFL rec yds (over)",
@@ -3592,7 +3592,7 @@
      "prop": "NFL receptions (over)",
      "pick": "Parker Washington o4.5 rec (JAX vs HOU)",
      "odds": "-120",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
@@ -3606,7 +3606,7 @@
      "prop": "NFL receptions (over)",
      "pick": "Malik Nabers o5.5 rec (NYG vs NO)",
      "odds": "-110",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NFL",
@@ -3633,10 +3633,10 @@
   },
   {
    "name": "@doctorprofit",
-   "w": 3,
+   "w": 4,
    "l": 7,
    "p": 0,
-   "pct": 30,
+   "pct": 36,
    "props": [
     {
      "prop": "NFL pass completions (over)",
@@ -3686,6 +3686,13 @@
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "NFL receptions (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ],
    "today": [
@@ -3722,7 +3729,7 @@
      "prop": "NFL receptions (under)",
      "pick": "Kayshon Boutte u2.5 rec (HOU @ JAX London, 9:30 AM ET)",
      "odds": "-130 FD",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NFL",
@@ -3852,9 +3859,9 @@
   {
    "name": "@salbets_",
    "w": 1,
-   "l": 7,
+   "l": 9,
    "p": 0,
-   "pct": 12,
+   "pct": 10,
    "props": [
     {
      "prop": "NFL anytime TD",
@@ -3893,6 +3900,20 @@
     },
     {
      "prop": "NFL rush yds (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL FGs made (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL pass attempts (over)",
      "w": 0,
      "l": 1,
      "p": 0,
@@ -3940,7 +3961,7 @@
      "prop": "NFL FGs made (over)",
      "pick": "Cairo Santos o1.5 FGs (CHI vs ATL)",
      "odds": "Underdog",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
@@ -3968,7 +3989,7 @@
      "prop": "NFL pass attempts (over)",
      "pick": "CJ Stroud o35.5 pass att (HOU vs JAX)",
      "odds": "Underdog",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
@@ -3989,9 +4010,9 @@
   {
    "name": "@tonestakes",
    "w": 24,
-   "l": 17,
+   "l": 18,
    "p": 1,
-   "pct": 59,
+   "pct": 57,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -4090,6 +4111,13 @@
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "NFL receptions (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "today": [
@@ -4119,7 +4147,7 @@
      "prop": "NFL receptions (over)",
      "pick": "Kenneth Gainwell o2.5 rec (PIT @ TB, 1 PM ET)",
      "odds": "+115",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
@@ -4456,18 +4484,39 @@
  "capper_today_date": "2026-10-18",
  "runners_up_record": {
   "overall": {
-   "w": 8,
-   "l": 7,
+   "w": 19,
+   "l": 15,
    "p": 1,
-   "pct": 53
+   "pct": 56
   },
   "props": [
    {
     "prop": "NHL SOG",
-    "w": 4,
+    "w": 5,
     "l": 2,
     "p": 0,
-    "pct": 67
+    "pct": 71
+   },
+   {
+    "prop": "NCAAF team total",
+    "w": 0,
+    "l": 3,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "NCAAF spread",
+    "w": 0,
+    "l": 3,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "MLB F5 team total",
+    "w": 3,
+    "l": 0,
+    "p": 0,
+    "pct": 100
    },
    {
     "prop": "NFL moneyline",
@@ -4477,6 +4526,20 @@
     "pct": 33
    },
    {
+    "prop": "MLB F5 total",
+    "w": 2,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "prop": "MLB F5 spread (alt)",
+    "w": 2,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
     "prop": "NFL game total",
     "w": 0,
     "l": 2,
@@ -4484,7 +4547,42 @@
     "pct": 0
    },
    {
-    "prop": "MLB F5 spread (alt)",
+    "prop": "MLB F5 ML",
+    "w": 0,
+    "l": 1,
+    "p": 1,
+    "pct": 0
+   },
+   {
+    "prop": "WNBA 2H total",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "prop": "WNBA player points",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "WNBA HT/FT",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "prop": "WNBA ML",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "prop": "NHL puck line",
     "w": 1,
     "l": 0,
     "p": 0,
@@ -4510,71 +4608,9 @@
     "l": 1,
     "p": 0,
     "pct": 0
-   },
-   {
-    "prop": "MLB F5 ML",
-    "w": 0,
-    "l": 0,
-    "p": 1,
-    "pct": null
    }
   ],
   "recent": [
-   {
-    "date": "2026-10-18",
-    "rank": "5",
-    "sport": "NHL",
-    "prop": "NHL game total",
-    "pick": "Blue Jackets @ Wild Under 6.5",
-    "odds": "-120",
-    "grade": "B-",
-    "status": "Pending",
-    "stat": "—"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "4",
-    "sport": "NHL",
-    "prop": "NHL ML",
-    "pick": "Carolina Hurricanes ML",
-    "odds": "-200",
-    "grade": "B",
-    "status": "Pending",
-    "stat": "—"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "3",
-    "sport": "NHL",
-    "prop": "NHL ML",
-    "pick": "Minnesota Wild ML",
-    "odds": "-185",
-    "grade": "B+",
-    "status": "Pending",
-    "stat": "—"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "2",
-    "sport": "NHL",
-    "prop": "NHL SOG",
-    "pick": "Joel Eriksson Ek o1.5 SOG",
-    "odds": "-400",
-    "grade": "A-",
-    "status": "Pending",
-    "stat": "—"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "1",
-    "sport": "MLB",
-    "prop": "MLB run line (alt)",
-    "pick": "Tampa Bay Rays +1.5",
-    "odds": "-325",
-    "grade": "A-",
-    "status": "Pending",
-    "stat": "—"
-   },
    {
     "date": "2026-10-19",
     "rank": "10",
@@ -4633,6 +4669,17 @@
    {
     "date": "2026-10-18",
     "rank": "5",
+    "sport": "NHL",
+    "prop": "NHL game total",
+    "pick": "Blue Jackets @ Wild Under 6.5",
+    "odds": "-120",
+    "grade": "B-",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-18",
+    "rank": "5",
     "sport": "NFL",
     "prop": "NFL game total",
     "pick": "Ravens @ Browns Over 39.5",
@@ -4640,6 +4687,17 @@
     "grade": "C+",
     "status": "L",
     "stat": "total 23"
+   },
+   {
+    "date": "2026-10-18",
+    "rank": "4",
+    "sport": "NHL",
+    "prop": "NHL ML",
+    "pick": "Carolina Hurricanes ML",
+    "odds": "-200",
+    "grade": "B",
+    "status": "Pending",
+    "stat": "—"
    },
    {
     "date": "2026-10-18",
@@ -4655,6 +4713,17 @@
    {
     "date": "2026-10-18",
     "rank": "3",
+    "sport": "NHL",
+    "prop": "NHL ML",
+    "pick": "Minnesota Wild ML",
+    "odds": "-185",
+    "grade": "B+",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-18",
+    "rank": "3",
     "sport": "NFL",
     "prop": "NFL game total",
     "pick": "Steelers @ Buccaneers Under 38.5",
@@ -4662,6 +4731,17 @@
     "grade": "B",
     "status": "L",
     "stat": "total 45"
+   },
+   {
+    "date": "2026-10-18",
+    "rank": "2",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "Joel Eriksson Ek o1.5 SOG",
+    "odds": "-400",
+    "grade": "A-",
+    "status": "Pending",
+    "stat": "—"
    },
    {
     "date": "2026-10-18",
@@ -4677,6 +4757,17 @@
    {
     "date": "2026-10-18",
     "rank": "1",
+    "sport": "MLB",
+    "prop": "MLB run line (alt)",
+    "pick": "Tampa Bay Rays +1.5",
+    "odds": "-325",
+    "grade": "A-",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-18",
+    "rank": "1",
     "sport": "NFL",
     "prop": "NFL spread",
     "pick": "(+EV) Kansas City Chiefs -7.5",
@@ -4686,59 +4777,59 @@
     "stat": "—"
    },
    {
-    "date": "2026-10-17",
-    "rank": "10",
+    "date": "2026-10-18",
+    "rank": "",
     "sport": "NHL",
     "prop": "NHL SOG",
-    "pick": "(+EV) Quinton Byfield o2.5 SOG",
-    "odds": "+110",
+    "pick": "(Quality) Nikolaj Ehlers u2.5 SOG",
+    "odds": "-160",
     "grade": "B-",
-    "status": "L",
-    "stat": "1 SOG"
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-17",
-    "rank": "9",
-    "sport": "MLB",
-    "prop": "MLB F5 ML",
-    "pick": "Tampa Bay Rays F5 ML",
-    "odds": "-125",
-    "grade": "B",
-    "status": "P",
-    "stat": "TB 1-1 CLE (tie push)"
-   },
-   {
-    "date": "2026-10-17",
-    "rank": "8",
+    "date": "2026-10-18",
+    "rank": "",
     "sport": "NHL",
-    "prop": "NHL team total",
-    "pick": "Seattle Kraken Over 2.5 Team Total",
-    "odds": "-125",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Adam Fantilli o1.5 SOG",
+    "odds": "-260",
     "grade": "B-",
-    "status": "W",
-    "stat": "SEA 3"
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-17",
-    "rank": "7",
+    "date": "2026-10-18",
+    "rank": "",
     "sport": "NHL",
     "prop": "NHL SOG",
-    "pick": "Will Cuylle o1.5 SOG",
-    "odds": "-130",
-    "grade": "B",
-    "status": "W",
-    "stat": "2 SOG"
-   },
-   {
-    "date": "2026-10-17",
-    "rank": "6",
-    "sport": "NHL",
-    "prop": "NHL SOG",
-    "pick": "Charlie McAvoy o1.5 SOG",
-    "odds": "-115",
+    "pick": "(Quality) Matt Boldy o2.5 SOG",
+    "odds": "-250",
     "grade": "B+",
-    "status": "W",
-    "stat": "2 SOG"
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-18",
+    "rank": "",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Jackson Blake o1.5 SOG",
+    "odds": "-225",
+    "grade": "B+",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-18",
+    "rank": "",
+    "sport": "NHL",
+    "prop": "NHL puck line",
+    "pick": "(+EV) Minnesota Wild -1.5",
+    "odds": "+130",
+    "grade": "B-",
+    "status": "Pending",
+    "stat": "—"
    }
   ],
   "grades": [
@@ -4752,9 +4843,9 @@
    {
     "grade": "A-",
     "w": 1,
-    "l": 1,
+    "l": 2,
     "p": 0,
-    "pct": 50
+    "pct": 33
    },
    {
     "grade": "B++",
@@ -4765,36 +4856,36 @@
    },
    {
     "grade": "B+",
-    "w": 2,
-    "l": 2,
+    "w": 5,
+    "l": 4,
     "p": 0,
-    "pct": 50
+    "pct": 56
    },
    {
     "grade": "B",
-    "w": 2,
-    "l": 1,
+    "w": 9,
+    "l": 5,
     "p": 1,
-    "pct": 67
+    "pct": 64
    },
    {
     "grade": "B-",
     "w": 1,
-    "l": 2,
+    "l": 3,
     "p": 0,
-    "pct": 33
+    "pct": 25
    },
    {
     "grade": "C+",
-    "w": 0,
+    "w": 1,
     "l": 1,
     "p": 0,
-    "pct": 0
+    "pct": 50
    }
   ]
  },
  "standings": {
-  "updated": "2026-10-18 05:52 PM ET",
+  "updated": "2026-10-18 05:55 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -5323,7 +5414,7 @@
      {
       "a": "ARI",
       "h": "LAR",
-      "st": "6:25 - 3rd",
+      "st": "4:09 - 3rd",
       "div": true,
       "stake": "ARI 1-4: 4th NFC West (4 GB), NFC #15 seed (outside playoffs) · LAR 2-3: 3rd NFC West (3 GB), NFC #9 seed (outside playoffs)"
      },
@@ -7615,7 +7706,7 @@
    "runners_up": {
     "w": 7,
     "l": 1,
-    "p": 0,
+    "p": 1,
     "pct": 88
    },
    "ticket_legs": {
@@ -7633,10 +7724,10 @@
    "pct": 64,
    "active": true,
    "runners_up": {
-    "w": 5,
+    "w": 8,
     "l": 2,
     "p": 0,
-    "pct": 71
+    "pct": 80
    },
    "ticket_legs": {
     "w": 15,
@@ -7653,10 +7744,10 @@
    "pct": 50,
    "active": true,
    "runners_up": {
-    "w": 0,
-    "l": 0,
+    "w": 1,
+    "l": 5,
     "p": 0,
-    "pct": null
+    "pct": 17
    },
    "ticket_legs": {
     "w": 3,
@@ -7918,7 +8009,7 @@
    "tracked": {
     "w": 11,
     "l": 7,
-    "p": 1,
+    "p": 2,
     "pct": 61,
     "props": [
      {
@@ -7927,6 +8018,13 @@
       "l": 1,
       "p": 0,
       "pct": 67
+     },
+     {
+      "prop": "MLB F5 ML",
+      "w": 0,
+      "l": 1,
+      "p": 2,
+      "pct": 0
      },
      {
       "prop": "MLB F5 team total",
@@ -7940,13 +8038,6 @@
       "w": 0,
       "l": 2,
       "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB F5 ML",
-      "w": 0,
-      "l": 1,
-      "p": 1,
       "pct": 0
      },
      {
@@ -8116,17 +8207,17 @@
     ]
    },
    "tracked": {
-    "w": 21,
+    "w": 24,
     "l": 11,
     "p": 0,
-    "pct": 66,
+    "pct": 69,
     "props": [
      {
       "prop": "NHL SOG",
-      "w": 15,
+      "w": 17,
       "l": 7,
       "p": 0,
-      "pct": 68
+      "pct": 71
      },
      {
       "prop": "NHL parlay",
@@ -8179,6 +8270,13 @@
      },
      {
       "prop": "NHL puck line",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
+     {
+      "prop": "NHL team total",
       "w": 1,
       "l": 0,
       "p": 0,
@@ -8330,10 +8428,10 @@
     ]
    },
    "tracked": {
-    "w": 7,
-    "l": 7,
+    "w": 8,
+    "l": 12,
     "p": 0,
-    "pct": 50,
+    "pct": 40,
     "props": [
      {
       "prop": "NFL anytime TD",
@@ -8343,11 +8441,32 @@
       "pct": 60
      },
      {
+      "prop": "NFL moneyline",
+      "w": 1,
+      "l": 2,
+      "p": 0,
+      "pct": 33
+     },
+     {
       "prop": "NFL o1.5 rec",
       "w": 2,
       "l": 0,
       "p": 0,
       "pct": 100
+     },
+     {
+      "prop": "NFL spread",
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "pct": 0
+     },
+     {
+      "prop": "NFL game total",
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "pct": 0
      },
      {
       "prop": "NFL o0.5 rec",
@@ -8362,13 +8481,6 @@
       "l": 0,
       "p": 0,
       "pct": 100
-     },
-     {
-      "prop": "NFL spread",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
      },
      {
       "prop": "NFL parlay",
@@ -10883,8 +10995,8 @@
   }
  },
  "nrfi_record": {
-  "w": 0,
-  "l": 2,
+  "w": 2,
+  "l": 6,
   "rows": [
    {
     "date": "2026-10-17",
@@ -10903,6 +11015,60 @@
     "pct": "61%",
     "grade": "A-",
     "result": "L (1st: 1-0)"
+   },
+   {
+    "date": "2026-10-15",
+    "pk": "849818",
+    "game": "Tampa Bay Rays @ Cleveland Guardians",
+    "side": "NRFI",
+    "pct": "53%",
+    "grade": "C",
+    "result": "W (1st: 0-0)"
+   },
+   {
+    "date": "2026-10-15",
+    "pk": "849810",
+    "game": "Milwaukee Brewers @ Los Angeles Dodgers",
+    "side": "YRFI",
+    "pct": "48%",
+    "grade": "C",
+    "result": "L (1st: 0-0)"
+   },
+   {
+    "date": "2026-10-14",
+    "pk": "849811",
+    "game": "Milwaukee Brewers @ Los Angeles Dodgers",
+    "side": "NRFI",
+    "pct": "55%",
+    "grade": "C",
+    "result": "L (1st: 1-0)"
+   },
+   {
+    "date": "2026-10-13",
+    "pk": "849813",
+    "game": "Cleveland Guardians @ Tampa Bay Rays",
+    "side": "NRFI",
+    "pct": "55%",
+    "grade": "C",
+    "result": "W (1st: 0-0)"
+   },
+   {
+    "date": "2026-10-12",
+    "pk": "849812",
+    "game": "Los Angeles Dodgers @ Milwaukee Brewers",
+    "side": "NRFI",
+    "pct": "54%",
+    "grade": "C",
+    "result": "L (1st: 1-1)"
+   },
+   {
+    "date": "2026-10-12",
+    "pk": "849820",
+    "game": "Cleveland Guardians @ Tampa Bay Rays",
+    "side": "NRFI",
+    "pct": "59%",
+    "grade": "B+",
+    "result": "L (1st: 0-2)"
    }
   ]
  },
@@ -13011,6 +13177,182 @@
    "res": "Pending",
    "stat": "—",
    "grade": "B-"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "Charlie McAvoy o1.5 SOG",
+   "odds": "-115",
+   "res": "W",
+   "stat": "2 SOG",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "Will Cuylle o1.5 SOG",
+   "odds": "-130",
+   "res": "W",
+   "stat": "2 SOG",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL team total",
+   "pick": "Seattle Kraken Over 2.5 Team Total",
+   "odds": "-125",
+   "res": "W",
+   "stat": "SEA 3",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 ML",
+   "pick": "Tampa Bay Rays F5 ML",
+   "odds": "-125",
+   "res": "P",
+   "stat": "TB 1-1 CLE (tie push)",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL spread",
+   "pick": "(+EV) Kansas City Chiefs -7.5",
+   "odds": "-105",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL game total",
+   "pick": "Chargers @ Chiefs Under 41",
+   "odds": "-105",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL game total",
+   "pick": "Steelers @ Buccaneers Under 38.5",
+   "odds": "-105",
+   "res": "L",
+   "stat": "total 45",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL ML",
+   "pick": "Minnesota Wild ML",
+   "odds": "-185",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL spread",
+   "pick": "Indianapolis Colts -7",
+   "odds": "-105",
+   "res": "L",
+   "stat": "TEN 26-20 IND",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL ML",
+   "pick": "Carolina Hurricanes ML",
+   "odds": "-200",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL game total",
+   "pick": "Ravens @ Browns Over 39.5",
+   "odds": "-115",
+   "res": "L",
+   "stat": "total 23",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL moneyline",
+   "pick": "(Quality) Kansas City Chiefs ML",
+   "odds": "-425",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL moneyline",
+   "pick": "(Quality) Indianapolis Colts ML",
+   "odds": "-350",
+   "res": "L",
+   "stat": "TEN 26-20 IND",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL moneyline",
+   "pick": "(Quality) New England Patriots ML",
+   "odds": "-375",
+   "res": "W",
+   "stat": "NYJ 19-26 NE",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL moneyline",
+   "pick": "(Quality) Jacksonville Jaguars ML",
+   "odds": "-145",
+   "res": "L",
+   "stat": "HOU 34-31 JAX",
+   "grade": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NFL",
+   "type": "Runner-up",
+   "prop": "NFL moneyline",
+   "pick": "(Quality) San Francisco 49ers ML",
+   "odds": "-425",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "—"
   }
  ],
  "ticket_legs_all": {
@@ -13031,11 +13373,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-18 17:52 ET",
-  "generated_ts": 1792360345,
+  "generated": "2026-10-18 17:56 ET",
+  "generated_ts": 1792360562,
   "hr_fetched": "2026-10-18 17:50 ET",
   "hr_fetched_ts": 1792360200,
-  "hr_age_min": 2,
+  "hr_age_min": 6,
   "sports": {
    "NFL": {
     "games": [
@@ -13151,108 +13493,108 @@
      {
       "game": "Cardinals @ Rams",
       "score": "ARI 12 @ LAR 9",
-      "clock": "6:25 - 3rd",
+      "clock": "4:09 - 3rd",
       "espn_id": "401873004",
       "picks": [
        {
         "rank": 1,
-        "pick": "Elijah Higgins Over 21.5 rec yds",
-        "odds": "+100",
+        "pick": "Blake Corum Over 9.5 carries",
+        "odds": "-145",
         "grade": "A",
-        "reason": "Higgins has 21 rec yds with 64% of the game played (6:25 - 3rd); pace projects about 32.7. Needs more than 0.5 more.",
-        "why_not": "Our number is about 59% (fair -144); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Corum has 9 carries with 68% of the game played (4:09 - 3rd); pace projects about 13.2. Needs more than 0.5 more.",
+        "why_not": "Our number is about 73% (fair -274); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
-        "edge": 12.1
+        "edge": 17.9
        },
        {
         "rank": 2,
         "pick": "Rams Under 22.5",
         "odds": "-110",
         "grade": "A",
-        "reason": "Rams team total is 9 with 64% played (6:25 - 3rd); scoring pace projects about 14. Needs no more than 13.5 more.",
-        "why_not": "Our number is about 61% (fair -154); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Rams team total is 9 with 68% played (4:09 - 3rd); scoring pace projects about 13. Needs no more than 13.5 more.",
+        "why_not": "Our number is about 62% (fair -165); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:50 ET",
+        "edge": 13.3
+       },
+       {
+        "rank": 3,
+        "pick": "Blake Corum Over 49.5 rush yds",
+        "odds": "+180",
+        "grade": "A",
+        "reason": "Corum has 42 rush yds with 68% of the game played (4:09 - 3rd); pace projects about 61.7. Needs more than 7.5 more.",
+        "why_not": "Our number is about 46% (fair +120); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
         "edge": 11.6
        },
        {
-        "rank": 3,
-        "pick": "Matthew Stafford Under 201.5 pass yds",
-        "odds": "-115",
-        "grade": "A",
-        "reason": "Stafford has 72 pass yds with 64% of the game played (6:25 - 3rd); pace projects about 112.0. Needs no more than 129.5 more.",
-        "why_not": "Our number is about 61% (fair -157); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:50 ET",
-        "edge": 11.2
-       },
-       {
         "rank": 4,
-        "pick": "Colby Parkinson Over 21.5 rec yds",
-        "odds": "-110",
+        "pick": "Elijah Higgins Over 21.5 rec yds",
+        "odds": "+100",
         "grade": "A",
-        "reason": "Parkinson has 21 rec yds with 64% of the game played (6:25 - 3rd); pace projects about 32.7. Needs more than 0.5 more.",
-        "why_not": "Our number is about 60% (fair -149); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Higgins has 21 rec yds with 68% of the game played (4:09 - 3rd); pace projects about 30.8. Needs more than 0.5 more.",
+        "why_not": "Our number is about 58% (fair -138); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
-        "edge": 10.8
+        "edge": 11.0
        },
        {
         "rank": 5,
-        "pick": "Matthew Stafford Under 29.5 pass att",
-        "odds": "-130",
+        "pick": "Cardinals @ Rams Under 40.5 total",
+        "odds": "-105",
         "grade": "A-",
-        "reason": "Stafford has 15 pass att with 64% of the game played (6:25 - 3rd); pace projects about 23.3. Needs no more than 14.5 more.",
-        "why_not": "Our number is about 62% (fair -164); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Game total is 21 with 68% played (4:09 - 3rd); scoring pace projects about 31. Needs no more than 19.5 more.",
+        "why_not": "Our number is about 58% (fair -138); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
-        "edge": 9.7
+        "edge": 10.0
        },
        {
         "rank": 6,
-        "pick": "Puka Nacua Under 5.5 rec",
-        "odds": "+100",
+        "pick": "Colby Parkinson Over 21.5 rec yds",
+        "odds": "-110",
         "grade": "A-",
-        "reason": "Nacua has 2 rec with 64% of the game played (6:25 - 3rd); pace projects about 3.1. Needs no more than 3.5 more.",
-        "why_not": "Our number is about 55% (fair -123); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Parkinson has 21 rec yds with 68% of the game played (4:09 - 3rd); pace projects about 30.8. Needs more than 0.5 more.",
+        "why_not": "Our number is about 59% (fair -142); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
-        "edge": 8.6
+        "edge": 9.8
        },
        {
         "rank": 7,
-        "pick": "Matthew Stafford Under 19.5 completions",
-        "odds": "-110",
+        "pick": "Matthew Stafford Under 201.5 pass yds",
+        "odds": "-115",
         "grade": "A-",
-        "reason": "Stafford has 10 completions with 64% of the game played (6:25 - 3rd); pace projects about 15.6. Needs no more than 9.5 more.",
-        "why_not": "Our number is about 57% (fair -134); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Stafford has 88 pass yds with 68% of the game played (4:09 - 3rd); pace projects about 129.3. Needs no more than 113.5 more.",
+        "why_not": "Our number is about 60% (fair -148); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
-        "edge": 8.2
+        "edge": 9.6
        },
        {
         "rank": 8,
-        "pick": "Puka Nacua Under 63.5 rec yds",
-        "odds": "-115",
+        "pick": "Puka Nacua Under 5.5 rec",
+        "odds": "+100",
         "grade": "A-",
-        "reason": "Nacua has 16 rec yds with 64% of the game played (6:25 - 3rd); pace projects about 24.9. Needs no more than 47.5 more.",
-        "why_not": "Our number is about 58% (fair -139); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Nacua has 2 rec with 68% of the game played (4:09 - 3rd); pace projects about 2.9. Needs no more than 3.5 more.",
+        "why_not": "Our number is about 56% (fair -126); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
-        "edge": 8.1
+        "edge": 9.2
        },
        {
         "rank": 9,
-        "pick": "Kyren Williams Under 10.5 carries",
-        "odds": "+105",
+        "pick": "Puka Nacua Under 63.5 rec yds",
+        "odds": "-115",
         "grade": "A-",
-        "reason": "Williams has 5 carries with 64% of the game played (6:25 - 3rd); pace projects about 7.8. Needs no more than 5.5 more.",
-        "why_not": "Our number is about 53% (fair -115); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Nacua has 16 rec yds with 68% of the game played (4:09 - 3rd); pace projects about 23.5. Needs no more than 47.5 more.",
+        "why_not": "Our number is about 58% (fair -140); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
-        "edge": 8.0
+        "edge": 8.4
        },
        {
         "rank": 10,
-        "pick": "Kendrick Bourne Over 6.5 rec",
-        "odds": "+160",
+        "pick": "Matthew Stafford Under 29.5 pass att",
+        "odds": "-130",
         "grade": "A-",
-        "reason": "Bourne has 5 rec with 64% of the game played (6:25 - 3rd); pace projects about 7.8. Needs more than 1.5 more.",
-        "why_not": "Our number is about 44% (fair +126); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
+        "reason": "Stafford has 17 pass att with 68% of the game played (4:09 - 3rd); pace projects about 25.0. Needs no more than 12.5 more.",
+        "why_not": "Our number is about 60% (fair -151); live prices move fast and the Hard Rock price is from 2026-10-18 17:50 ET, so it may have moved.",
         "price_time": "2026-10-18 17:50 ET",
-        "edge": 7.8
+        "edge": 7.7
        }
       ],
       "note": ""
