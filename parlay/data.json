@@ -1,5 +1,5 @@
 {
- "generated": 1792288160.8326461,
+ "generated": 1792288348.4574487,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -104,8 +104,8 @@
     "why": "Roslovic has 2+ shots in all 8 games this season (5,2,5,3,4,2,2,2 newest first; LineMate home 7/7) and in 12 of his last 15 across both seasons, averaging 3.1 shots on 15 to 19 minutes. John Tavares is day-to-day after getting hurt Thursday, which could add center minutes. NYI allows 26.0 shots per game.",
     "grade": "B++",
     "rank": 3,
-    "status": "Pending",
-    "stat": "—",
+    "status": "W",
+    "stat": "5 SOG",
     "now": "-175"
    },
    {
@@ -115,8 +115,8 @@
     "why": "Dobson was at 2 or fewer shots in 6 of 7 games this season and 12 of his last 15 (LineMate L17 14/17, vs BUF 6/6, home 9/11). BUF allows only 24.6 shots per game. Risk: he had 5 shots in his most recent game, and Matheson is day-to-day, which could mean more minutes.",
     "grade": "B+",
     "rank": 4,
-    "status": "Pending",
-    "stat": "—",
+    "status": "L",
+    "stat": "3 SOG",
     "now": "-180"
    },
    {
@@ -568,7 +568,7 @@
       "pick": "(Quality) Jack Roslovic o1.5 SOG",
       "odds": "-165",
       "game": "NYI @ TOR 7:00 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "2+ shots in all 8 games (avg 3.1); Tavares day-to-day; NYI allows 26.0 shots/g. Hard Rock -165 (overall-oct17.md).",
       "grade": "B++",
       "rank": 4,
@@ -578,7 +578,7 @@
       "pick": "(Quality) Noah Dobson u2.5 SOG",
       "odds": "-185",
       "game": "BUF @ MTL 7:00 PM ET",
-      "status": "Pending",
+      "status": "Lost",
       "why": "2 or fewer in 6 of 7 (LineMate L17 14/17, vs BUF 6/6); BUF allows 24.6 shots/g. Hard Rock price via LineMate (game not in overall-oct17.md).",
       "grade": "B+",
       "rank": 5,
@@ -1601,6 +1601,24 @@
     "date": "2026-10-17",
     "sport": "NHL",
     "type": "Runner-up",
+    "pick": "(Quality) Noah Dobson u2.5 SOG",
+    "odds": "-185",
+    "result": "L",
+    "stat": "3 SOG"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "type": "Runner-up",
+    "pick": "(Quality) Jack Roslovic o1.5 SOG",
+    "odds": "-165",
+    "result": "W",
+    "stat": "5 SOG"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "type": "Runner-up",
     "pick": "(Quality) Tampa Bay Lightning ML",
     "odds": "-375",
     "result": "W",
@@ -1662,10 +1680,10 @@
     "pct": 75
    },
    "tracked": {
-    "w": 31,
-    "l": 17,
+    "w": 32,
+    "l": 18,
     "p": 0,
-    "pct": 65
+    "pct": 64
    },
    "pending": 23
   },
@@ -2727,10 +2745,10 @@
   },
   {
    "name": "@tonestakes",
-   "w": 7,
-   "l": 8,
+   "w": 13,
+   "l": 9,
    "p": 1,
-   "pct": 47,
+   "pct": 59,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -2762,17 +2780,17 @@
     },
     {
      "prop": "NHL SOG (over)",
-     "w": 3,
+     "w": 7,
      "l": 1,
      "p": 0,
-     "pct": 75
+     "pct": 88
     },
     {
      "prop": "NHL ML",
      "w": 2,
-     "l": 2,
+     "l": 3,
      "p": 0,
-     "pct": 50
+     "pct": 40
     },
     {
      "prop": "NHL team total (over)",
@@ -2790,6 +2808,13 @@
     },
     {
      "prop": "NHL game total (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NHL saves (over)",
      "w": 1,
      "l": 0,
      "p": 0,
@@ -2823,21 +2848,21 @@
      "prop": "NHL game total (over)",
      "pick": "BUF @ MTL Over 6.5 (7 PM ET)",
      "odds": "-110 Lucky Rebel",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NHL",
      "prop": "NHL SOG (over)",
      "pick": "Cole Caufield o3.5 SOG (MTL vs BUF, 7 PM ET)",
      "odds": "+120 Lucky Rebel",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NHL",
      "prop": "NHL SOG (over)",
      "pick": "Tage Thompson o3.5 SOG (BUF @ MTL, 7 PM ET)",
      "odds": "+125 Lucky Rebel",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NHL",
@@ -2865,28 +2890,28 @@
      "prop": "NHL ML",
      "pick": "Chicago Blackhawks ML (vs DAL, 7 PM ET)",
      "odds": "+180",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NHL",
      "prop": "NHL saves (over)",
      "pick": "Dan Vladar o23.5 saves (PHI vs OTT, 7 PM ET)",
      "odds": "+100",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NHL",
      "prop": "NHL SOG (over)",
      "pick": "Olen Zellweger 3+ SOG (BUF @ MTL, 7 PM ET)",
      "odds": "+175",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NHL",
      "prop": "NHL SOG (over)",
      "pick": "Matthew Schaefer o3.5 SOG (NYI @ TOR, 7 PM ET)",
      "odds": "+135",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NHL",
@@ -3053,21 +3078,21 @@
  "capper_today_date": "2026-10-17",
  "runners_up_record": {
   "overall": {
-   "w": 3,
-   "l": 0,
+   "w": 4,
+   "l": 1,
    "p": 0,
-   "pct": 100
+   "pct": 80
   },
   "props": [
    {
-    "prop": "NHL ML",
-    "w": 1,
-    "l": 0,
+    "prop": "NHL SOG",
+    "w": 2,
+    "l": 1,
     "p": 0,
-    "pct": 100
+    "pct": 67
    },
    {
-    "prop": "NHL SOG",
+    "prop": "NHL ML",
     "w": 1,
     "l": 0,
     "p": 0,
@@ -3266,8 +3291,8 @@
     "pick": "Noah Dobson u2.5 SOG",
     "odds": "-185",
     "grade": "B+",
-    "status": "Pending",
-    "stat": "—"
+    "status": "L",
+    "stat": "3 SOG"
    },
    {
     "date": "2026-10-17",
@@ -3277,8 +3302,8 @@
     "pick": "Jack Roslovic o1.5 SOG",
     "odds": "-195",
     "grade": "B++",
-    "status": "Pending",
-    "stat": "—"
+    "status": "W",
+    "stat": "5 SOG"
    },
    {
     "date": "2026-10-17",
@@ -3310,6 +3335,20 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "grade": "B++",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "grade": "B+",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
    },
    {
     "grade": "B",
@@ -3457,10 +3496,10 @@
    "pct": 62,
    "active": true,
    "runners_up": {
-    "w": 3,
-    "l": 0,
+    "w": 4,
+    "l": 1,
     "p": 0,
-    "pct": 100
+    "pct": 80
    },
    "ticket_legs": {
     "w": 13,
@@ -3870,17 +3909,17 @@
     ]
    },
    "tracked": {
-    "w": 16,
-    "l": 8,
+    "w": 17,
+    "l": 9,
     "p": 0,
-    "pct": 67,
+    "pct": 65,
     "props": [
      {
       "prop": "NHL SOG",
-      "w": 12,
-      "l": 5,
+      "w": 13,
+      "l": 6,
       "p": 0,
-      "pct": 71
+      "pct": 68
      },
      {
       "prop": "NHL points",
@@ -6287,8 +6326,8 @@
    "prop": "NHL SOG",
    "pick": "(Quality) Jack Roslovic o1.5 SOG",
    "odds": "-165",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "5 SOG",
    "grade": "B++"
   },
   {
@@ -6298,8 +6337,8 @@
    "prop": "NHL SOG",
    "pick": "(Quality) Noah Dobson u2.5 SOG",
    "odds": "-185",
-   "res": "Pending",
-   "stat": "—",
+   "res": "L",
+   "stat": "3 SOG",
    "grade": "B+"
   },
   {
@@ -6482,7 +6521,7 @@
  },
  "inning_record": {
   "w": 7,
-  "l": 2,
-  "pct": 78
+  "l": 3,
+  "pct": 70
  }
 }
