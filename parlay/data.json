@@ -1,5 +1,5 @@
 {
- "generated": 1792288348.4574487,
+ "generated": 1792288874.637171,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -147,8 +147,8 @@
     "why": "LineMate L9 7/9, vs CBJ 4/4; 2+ shots in 6 of 8 this season (3,2,2,4,1,3,4,0 oldest-newest) on 14-18 min. CBJ rates 29th as a team-total matchup on LineMate. Risk: 0 SOG last game; middle-six minutes. Hard Rock price via LineMate.",
     "grade": "B",
     "rank": 7,
-    "status": "Pending",
-    "stat": "—",
+    "status": "W",
+    "stat": "2 SOG",
     "now": "-150"
    },
    {
@@ -512,7 +512,7 @@
      "pick": "2-leg",
      "odds": "+224",
      "game": "calc from Hard Rock leg prices",
-     "status": "Pending",
+     "status": "Won",
      "why": null,
      "desc": "2-leg +224 (calc from Hard Rock leg prices)",
      "legs": [
@@ -520,7 +520,7 @@
        "pick": "Will Cuylle o1.5 SOG",
        "odds": "-130",
        "game": "NYR @ CBJ 7:00 PM ET",
-       "status": "Pending",
+       "status": "Won",
        "why": "LineMate L9 7/9, vs CBJ 4/4; 2+ shots in 6 of 8 this season on 14-18 min; CBJ rates 29th as a matchup. Risk: 0 SOG last game.",
        "now": "-150"
       },
@@ -1635,6 +1635,24 @@
    },
    {
     "date": "2026-10-17",
+    "sport": "NHL",
+    "type": "Leg",
+    "pick": "Will Cuylle o1.5 SOG",
+    "odds": "-130",
+    "result": "W",
+    "stat": "2 SOG"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "type": "Parlay",
+    "pick": "2-leg",
+    "odds": "+224",
+    "result": "W",
+    "stat": "legs W/W"
+   },
+   {
+    "date": "2026-10-17",
     "sport": "NCAA F",
     "type": "Runner-up",
     "pick": "Auburn Under 14.5 Team Total",
@@ -1656,10 +1674,10 @@
  "record": {
   "overall": {
    "official": {
-    "w": 25,
+    "w": 26,
     "l": 15,
     "p": 0,
-    "pct": 62
+    "pct": 63
    },
    "potd": {
     "w": 2,
@@ -1674,18 +1692,18 @@
     "pct": 61
    },
    "parlay": {
-    "w": 3,
+    "w": 4,
     "l": 1,
     "p": 0,
-    "pct": 75
+    "pct": 80
    },
    "tracked": {
-    "w": 32,
+    "w": 33,
     "l": 18,
     "p": 0,
-    "pct": 64
+    "pct": 65
    },
-   "pending": 23
+   "pending": 22
   },
   "props": [
    {
@@ -1715,6 +1733,13 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "prop": "NHL parlay",
+    "w": 1,
+    "l": 1,
+    "p": 0,
+    "pct": 50
    },
    {
     "prop": "MLB pitcher K",
@@ -1753,13 +1778,6 @@
    },
    {
     "prop": "NFL o0.5 rec",
-    "w": 0,
-    "l": 1,
-    "p": 0,
-    "pct": 0
-   },
-   {
-    "prop": "NHL parlay",
     "w": 0,
     "l": 1,
     "p": 0,
@@ -1960,8 +1978,8 @@
     "date": "2026-10-17",
     "pick": "NHL · Parlay: 2-leg",
     "odds": "+224",
-    "result": "Pending",
-    "detail": "—"
+    "result": "W",
+    "detail": "legs W/W"
    },
    {
     "date": "2026-10-17",
@@ -2425,6 +2443,10 @@
    [
     "10/17",
     10
+   ],
+   [
+    "10/17",
+    11
    ]
   ]
  },
@@ -2745,10 +2767,10 @@
   },
   {
    "name": "@tonestakes",
-   "w": 13,
-   "l": 9,
+   "w": 14,
+   "l": 10,
    "p": 1,
-   "pct": 59,
+   "pct": 58,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -2788,9 +2810,9 @@
     {
      "prop": "NHL ML",
      "w": 2,
-     "l": 3,
+     "l": 4,
      "p": 0,
-     "pct": 40
+     "pct": 33
     },
     {
      "prop": "NHL team total (over)",
@@ -2801,10 +2823,10 @@
     },
     {
      "prop": "NHL game total (under)",
-     "w": 1,
+     "w": 2,
      "l": 1,
      "p": 0,
-     "pct": 50
+     "pct": 67
     },
     {
      "prop": "NHL game total (over)",
@@ -2876,14 +2898,14 @@
      "prop": "NHL game total (under)",
      "pick": "NYR @ CBJ Under 6.5 (7 PM ET)",
      "odds": "-120",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NHL",
      "prop": "NHL ML",
      "pick": "San Jose Sharks ML (@ DET, 7 PM ET)",
      "odds": "+135",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NHL",
@@ -3078,18 +3100,18 @@
  "capper_today_date": "2026-10-17",
  "runners_up_record": {
   "overall": {
-   "w": 4,
+   "w": 5,
    "l": 1,
    "p": 0,
-   "pct": 80
+   "pct": 83
   },
   "props": [
    {
     "prop": "NHL SOG",
-    "w": 2,
+    "w": 3,
     "l": 1,
     "p": 0,
-    "pct": 67
+    "pct": 75
    },
    {
     "prop": "NHL ML",
@@ -3258,8 +3280,8 @@
     "pick": "Will Cuylle o1.5 SOG",
     "odds": "-130",
     "grade": "B",
-    "status": "Pending",
-    "stat": "—"
+    "status": "W",
+    "stat": "2 SOG"
    },
    {
     "date": "2026-10-17",
@@ -3352,7 +3374,7 @@
    },
    {
     "grade": "B",
-    "w": 1,
+    "w": 2,
     "l": 0,
     "p": 0,
     "pct": 100
@@ -3366,7 +3388,7 @@
    }
   ]
  },
- "ui_build": "1792288160",
+ "ui_build": "1792288445",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -3490,10 +3512,10 @@
   },
   {
    "sport": "NHL",
-   "w": 13,
+   "w": 14,
    "l": 8,
    "p": 0,
-   "pct": 62,
+   "pct": 64,
    "active": true,
    "runners_up": {
     "w": 4,
@@ -3824,10 +3846,10 @@
   },
   {
    "sport": "NHL",
-   "w": 13,
+   "w": 14,
    "l": 8,
    "p": 0,
-   "pct": 62,
+   "pct": 64,
    "props": [
     {
      "prop": "NHL SOG",
@@ -3835,6 +3857,13 @@
      "l": 5,
      "p": 0,
      "pct": 69
+    },
+    {
+     "prop": "NHL parlay",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50
     },
     {
      "prop": "NHL points",
@@ -3856,20 +3885,13 @@
      "l": 1,
      "p": 0,
      "pct": 0
-    },
-    {
-     "prop": "NHL parlay",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
     }
    ],
    "official": {
-    "w": 13,
+    "w": 14,
     "l": 8,
     "p": 0,
-    "pct": 62,
+    "pct": 64,
     "props": [
      {
       "prop": "NHL SOG",
@@ -3879,6 +3901,13 @@
       "pct": 69
      },
      {
+      "prop": "NHL parlay",
+      "w": 1,
+      "l": 1,
+      "p": 0,
+      "pct": 50
+     },
+     {
       "prop": "NHL points",
       "w": 1,
       "l": 1,
@@ -3898,21 +3927,14 @@
       "l": 1,
       "p": 0,
       "pct": 0
-     },
-     {
-      "prop": "NHL parlay",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
      }
     ]
    },
    "tracked": {
-    "w": 17,
+    "w": 18,
     "l": 9,
     "p": 0,
-    "pct": 65,
+    "pct": 67,
     "props": [
      {
       "prop": "NHL SOG",
@@ -3922,6 +3944,13 @@
       "pct": 68
      },
      {
+      "prop": "NHL parlay",
+      "w": 1,
+      "l": 1,
+      "p": 0,
+      "pct": 50
+     },
+     {
       "prop": "NHL points",
       "w": 1,
       "l": 1,
@@ -3937,13 +3966,6 @@
      },
      {
       "prop": "NHL o0.5 pts",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "NHL parlay",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -5938,8 +5960,8 @@
    "prop": "NHL parlay",
    "pick": "2-leg",
    "odds": "+224",
-   "res": "Pending",
-   "stat": "—"
+   "res": "W",
+   "stat": "legs W/W"
   },
   {
    "date": "2026-10-17",
@@ -6516,8 +6538,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 40,
-  "headline": 40
+  "tiles_sum": 41,
+  "headline": 41
  },
  "inning_record": {
   "w": 7,
