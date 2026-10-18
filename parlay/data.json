@@ -1,5 +1,5 @@
 {
- "generated": 1792285086.442142,
+ "generated": 1792285222.5795345,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -2618,7 +2618,7 @@
    }
   ]
  },
- "ui_build": "1792285073",
+ "ui_build": "1792285222",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -2726,13 +2726,13 @@
    "l": 0,
    "p": 0,
    "pct": null,
-   "tracked": {
+   "active": true,
+   "runners_up": {
     "w": 0,
     "l": 0,
     "p": 0,
     "pct": null
-   },
-   "active": true
+   }
   },
   {
    "sport": "NHL",
@@ -2740,13 +2740,13 @@
    "l": 0,
    "p": 0,
    "pct": null,
-   "tracked": {
+   "active": true,
+   "runners_up": {
     "w": 3,
     "l": 0,
     "p": 0,
     "pct": 100
-   },
-   "active": true
+   }
   },
   {
    "sport": "NFL",
@@ -2754,13 +2754,13 @@
    "l": 0,
    "p": 0,
    "pct": null,
-   "tracked": {
+   "active": true,
+   "runners_up": {
     "w": 0,
     "l": 0,
     "p": 0,
     "pct": null
-   },
-   "active": true
+   }
   },
   {
    "sport": "NBA",
@@ -2768,13 +2768,13 @@
    "l": 0,
    "p": 0,
    "pct": null,
-   "tracked": {
+   "active": true,
+   "runners_up": {
     "w": 0,
     "l": 0,
     "p": 0,
     "pct": null
-   },
-   "active": true
+   }
   },
   {
    "sport": "NCAA F",
@@ -2782,13 +2782,13 @@
    "l": 0,
    "p": 0,
    "pct": null,
-   "tracked": {
+   "active": true,
+   "runners_up": {
     "w": 0,
     "l": 1,
     "p": 0,
     "pct": 0
-   },
-   "active": true
+   }
   },
   {
    "sport": "WNBA",
@@ -2796,13 +2796,13 @@
    "l": 0,
    "p": 0,
    "pct": 100,
-   "tracked": {
-    "w": 4,
+   "active": true,
+   "runners_up": {
+    "w": 3,
     "l": 1,
     "p": 0,
-    "pct": 80
-   },
-   "active": true
+    "pct": 75
+   }
   },
   {
    "sport": "NASCAR",
@@ -2810,13 +2810,13 @@
    "l": 0,
    "p": 0,
    "pct": null,
-   "tracked": {
+   "active": null,
+   "runners_up": {
     "w": 0,
     "l": 0,
     "p": 0,
     "pct": null
-   },
-   "active": null
+   }
   },
   {
    "sport": "GOLF",
@@ -2824,13 +2824,13 @@
    "l": 0,
    "p": 0,
    "pct": null,
-   "tracked": {
+   "active": null,
+   "runners_up": {
     "w": 0,
     "l": 0,
     "p": 0,
     "pct": null
-   },
-   "active": null
+   }
   }
  ],
  "sport_categories": [
