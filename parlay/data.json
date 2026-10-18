@@ -1,5 +1,5 @@
 {
- "generated": 1792330090.5825768,
+ "generated": 1792330379.8988242,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -109,7 +109,8 @@
     "rank": 5,
     "why_not": "Kaprizov is Minnesota's top shooter and had a 6-shot game this year; last season he went over 3.5 in 32 of 78 games.",
     "status": "Pending",
-    "stat": "—"
+    "stat": "—",
+    "now": "-130"
    }
   ],
   "ncaaf": [],
@@ -315,7 +316,8 @@
       "why": "3 or fewer shots in 5 of 8 games this season and 46 of 78 last season (59%), against 55% implied. Thin edge; he has a 6-shot game this year.",
       "grade": "B-",
       "rank": 2,
-      "why_not": "Kaprizov is Minnesota's top shooter and had a 6-shot game this year; last season he went over 3.5 in 32 of 78 games."
+      "why_not": "Kaprizov is Minnesota's top shooter and had a 6-shot game this year; last season he went over 3.5 in 32 of 78 games.",
+      "now": "-130"
      },
      {
       "pick": "(Quality) Joel Eriksson Ek o1.5 SOG",
@@ -4137,7 +4139,7 @@
    }
   ]
  },
- "ui_build": "1792329855",
+ "ui_build": "1792330094",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -5908,7 +5910,7 @@
      "grade": "A-",
      "reason": "Rocchio 0.9 hits/gm this season (153 gms), 1.2 last 10; hit 1+ in 8 of last 10, 94 of 153 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 2,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -5919,7 +5921,7 @@
      "grade": "B+",
      "reason": "Adell 0.9 hits/gm this season (159 gms), 1.0 last 10; hit 1+ in 8 of last 10, 95 of 159 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 3,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -5930,12 +5932,25 @@
      "grade": "B",
      "reason": "Caminero 1.0 hits/gm this season (162 gms), 0.9 last 10; hit 1+ in 7 of last 10, 119 of 162 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 4,
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     }
    ],
    "alt": [
+    {
+     "pick": "Drew Rasmussen 5+ Ks",
+     "game": "Rays @ Guardians 10/18 05:08 PM ET",
+     "odds": "-250",
+     "grade": "B-",
+     "reason": "Last 5 starts: 4, 3, 11, 10, 7 Ks (7.0 avg); cleared 4.5 in 6 of last 8 starts. 26.0% strikeout rate this season; opponent strikes out 20.6% vs righties (league ~22%). Recent depth: 7.0, 5.0, 6.2, 8.0, 6.0 innings on 92, 76, 114, 101, 91 pitches.",
+     "live": false,
+     "updated": "09:31",
+     "rank": 2,
+     "group": "Safe",
+     "why_not": "Postseason urgency: managers pull starters before a third time through the order at the first sign of trouble. Opponent rarely strikes out vs righties (20.6%).",
+     "k_gate": "kept: 6/8 vs 71% implied"
+    },
     {
      "pick": "Rays @ Guardians Under 8.5",
      "game": "Rays @ Guardians 10/18 05:08 PM ET",
@@ -5943,7 +5958,7 @@
      "grade": "C+",
      "live": false,
      "reason": "2-pt cushion vs the main total 6.5; Hard Rock's prices make it about 69% to cash.",
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 3,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
@@ -5955,7 +5970,7 @@
      "grade": "C+",
      "live": false,
      "reason": "1-pt cushion vs the main total 6.5; Hard Rock's prices make it about 62% to cash.",
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 4,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
@@ -5967,7 +5982,7 @@
      "grade": "B+",
      "reason": "Simpson 1.2 hits/gm this season (151 gms), 1.3 last 10; hit 2+ in 4 of last 10, 56 of 151 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 2,
      "group": "Wild",
      "why_not": "It missed in 6 of the last 10 games, so one quiet game sinks it."
@@ -5979,7 +5994,7 @@
      "grade": "B",
      "reason": "DeLauter 1.7 total bases/gm this season (133 gms), 1.7 last 10; hit 2+ in 4 of last 10, 60 of 133 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 3,
      "group": "Wild",
      "why_not": "It missed in 6 of the last 10 games, so one quiet game sinks it."
@@ -5991,7 +6006,7 @@
      "grade": "B",
      "reason": "Ramirez 1.4 total bases/gm this season (125 gms), 1.8 last 10; hit 2+ in 5 of last 10, 44 of 125 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 4,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -6153,7 +6168,7 @@
      "grade": "A",
      "reason": "Blake 2.8 SOG/gm this season (9 gms), 2.9 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 1,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
@@ -6164,7 +6179,7 @@
      "grade": "A-",
      "reason": "Ek 2.9 SOG/gm this season (8 gms), 3.2 last 10; hit 3+ in 8 of last 10, 6 of 8 this season; 19 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 2,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -6175,7 +6190,7 @@
      "grade": "A-",
      "reason": "Boldy 4.4 SOG/gm this season (8 gms), 4.4 last 10; hit 3+ in 9 of last 10, 7 of 8 this season; 21 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 3,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
@@ -6186,7 +6201,7 @@
      "grade": "A-",
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 3+ in 6 of last 10, 5 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 4,
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
     },
@@ -6197,7 +6212,7 @@
      "grade": "A-",
      "reason": "Johnson 3.0 SOG/gm this season (6 gms), 2.4 last 10; hit 2+ in 7 of last 10, 5 of 6 this season; 15 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 5,
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     },
@@ -6208,7 +6223,7 @@
      "grade": "B+",
      "reason": "Frost 2.0 SOG/gm this season (7 gms), 2.3 last 10; hit 2+ in 8 of last 10, 5 of 7 this season; 16 min TOI; Hurricanes allow 21.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 6,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -6219,7 +6234,7 @@
      "grade": "B+",
      "reason": "Kaprizov 3.2 SOG/gm this season (8 gms), 3.0 last 10; hit 3+ in 8 of last 10, 7 of 8 this season; 21 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 7,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -6230,7 +6245,7 @@
      "grade": "B+",
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 8,
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
     }
@@ -6243,7 +6258,7 @@
      "grade": "A-",
      "reason": "Monahan 1.7 SOG/gm this season (6 gms), 1.7 last 10; hit 1+ in 10 of last 10, 6 of 6 this season; 16 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 1,
      "group": "Safe",
      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it."
@@ -6255,7 +6270,7 @@
      "grade": "A-",
      "reason": "Svechnikov 3.2 SOG/gm this season (9 gms), 3.4 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 2,
      "group": "Safe",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -6267,7 +6282,7 @@
      "grade": "B+",
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 3,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -6279,7 +6294,7 @@
      "grade": "B",
      "reason": "Fantilli 2.8 SOG/gm this season (6 gms), 2.6 last 10; hit 2+ in 7 of last 10, 5 of 6 this season; 20 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 4,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -6291,7 +6306,7 @@
      "grade": "B-",
      "reason": "Hughes 3.0 SOG/gm this season (8 gms), 2.6 last 10; hit 2+ in 7 of last 10, 6 of 8 this season; 28 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 5,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -6303,7 +6318,7 @@
      "grade": "B-",
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 2+ in 7 of last 10, 6 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 6,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -6315,7 +6330,7 @@
      "grade": "B-",
      "reason": "Parekh 1.9 SOG/gm this season (7 gms), 2.1 last 10; hit 1+ in 9 of last 10, 6 of 7 this season; 19 min TOI; Hurricanes allow 21.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 7,
      "group": "Safe",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -6327,7 +6342,7 @@
      "grade": "C+",
      "live": false,
      "reason": "1-pt cushion vs the main line (Blue Jackets +1.5); Hard Rock's prices make it about 69% to cash.",
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 8,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
@@ -6339,7 +6354,7 @@
      "grade": "A-",
      "reason": "Svechnikov 3.2 SOG/gm this season (9 gms), 3.4 last 10; hit 4+ in 5 of last 10, 4 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 1,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -6351,7 +6366,7 @@
      "grade": "A-",
      "reason": "Johnson 3.0 SOG/gm this season (6 gms), 2.4 last 10; hit 3+ in 4 of last 10, 4 of 6 this season; 15 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 2,
      "group": "Wild",
      "why_not": "It missed in 6 of the last 10 games, so one quiet game sinks it."
@@ -6363,7 +6378,7 @@
      "grade": "A-",
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 3+ in 6 of last 10, 5 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 3,
      "group": "Wild",
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
@@ -6375,7 +6390,7 @@
      "grade": "B+",
      "reason": "Hughes 3.0 SOG/gm this season (8 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 8 this season; 28 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 4,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -6387,7 +6402,7 @@
      "grade": "B+",
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 5,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -6481,8 +6496,19 @@
      "grade": "A",
      "reason": "Dowdle 12.0 carries/gm over his last 10 games; hit 7+ in 9 of last 10.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 1,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
+    },
+    {
+     "pick": "Cam Skattebo 12+ carries",
+     "game": "Saints @ Giants 10/18 01:00 PM ET",
+     "odds": "-115",
+     "grade": "A",
+     "reason": "Skattebo 16.2 carries/gm this season (5 gms), 15.9 last 10; hit 12+ in 9 of last 10, 5 of 5 this season.",
+     "live": false,
+     "updated": "09:31",
+     "rank": 2,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
     {
@@ -6492,8 +6518,8 @@
      "grade": "A",
      "reason": "Hampton 14.6 carries/gm this season (5 gms), 14.3 last 10; hit 9+ in 10 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
-     "rank": 2,
+     "updated": "09:31",
+     "rank": 3,
      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it."
     },
     {
@@ -6503,29 +6529,18 @@
      "grade": "A",
      "reason": "Hutchinson 46.2 rec yds/gm this season (5 gms), 35.6 last 10; hit 16+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
-     "rank": 3,
+     "updated": "09:31",
+     "rank": 4,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "Chris Rodriguez Jr. 5+ carries",
      "game": "Texans @ Jaguars 10/18 09:30 AM ET",
-     "odds": "+100",
+     "odds": "-105",
      "grade": "A",
      "reason": "Rodriguez 5.6 carries/gm this season (5 gms), 9.5 last 10; hit 5+ in 9 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "09:12",
-     "rank": 4,
-     "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
-    },
-    {
-     "pick": "Cam Skattebo 12+ carries",
-     "game": "Saints @ Giants 10/18 01:00 PM ET",
-     "odds": "-145",
-     "grade": "A",
-     "reason": "Skattebo 16.2 carries/gm this season (5 gms), 15.9 last 10; hit 12+ in 9 of last 10, 5 of 5 this season.",
-     "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 5,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
@@ -6536,7 +6551,7 @@
      "grade": "A",
      "reason": "Odunze 54.6 rec yds/gm this season (5 gms), 46.1 last 10; hit 40+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 6,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -6547,7 +6562,7 @@
      "grade": "A",
      "reason": "Godwin 35.8 rec yds/gm this season (5 gms), 40.0 last 10; hit 25+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 7,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -6558,7 +6573,7 @@
      "grade": "A",
      "reason": "Johnson 3.3 rec/gm this season (3 gms), 2.6 last 10; hit 2+ in 9 of last 10, 3 of 3 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 8,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
@@ -6569,7 +6584,7 @@
      "grade": "A",
      "reason": "Waller 37.0 rec yds/gm this season (4 gms), 31.4 last 10; hit 24+ in 7 of last 10, 4 of 4 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 9,
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     },
@@ -6580,24 +6595,12 @@
      "grade": "A",
      "reason": "McBride 8.4 rec/gm this season (5 gms), 8.0 last 10; hit 7+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 10,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     }
    ],
    "alt": [
-    {
-     "pick": "Jakobi Meyers 25+ rec yds",
-     "game": "Texans @ Jaguars 10/18 09:30 AM ET",
-     "odds": "-220",
-     "grade": "A",
-     "reason": "Meyers 40.4 rec yds/gm this season (5 gms), 44.0 last 10; hit 25+ in 10 of last 10, 5 of 5 this season.",
-     "live": false,
-     "updated": "09:12",
-     "rank": 1,
-     "group": "Safe",
-     "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it."
-    },
     {
      "pick": "Omarion Hampton 25+ rush yds",
      "game": "Chargers @ Chiefs 10/18 04:25 PM ET",
@@ -6605,7 +6608,19 @@
      "grade": "A",
      "reason": "Hampton 54.2 rush yds/gm this season (5 gms), 54.6 last 10; hit 25+ in 10 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
+     "rank": 1,
+     "group": "Safe",
+     "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it."
+    },
+    {
+     "pick": "Jakobi Meyers 25+ rec yds",
+     "game": "Texans @ Jaguars 10/18 09:30 AM ET",
+     "odds": "-260",
+     "grade": "A",
+     "reason": "Meyers 40.4 rec yds/gm this season (5 gms), 44.0 last 10; hit 25+ in 10 of last 10, 5 of 5 this season.",
+     "live": false,
+     "updated": "09:31",
      "rank": 2,
      "group": "Safe",
      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it."
@@ -6617,7 +6632,7 @@
      "grade": "A",
      "reason": "Godwin 3.8 rec/gm this season (5 gms), 4.1 last 10; hit 3+ in 9 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 3,
      "group": "Safe",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -6629,22 +6644,10 @@
      "grade": "A-",
      "reason": "Boston 66.0 rec yds/gm this season (5 gms), 66.0 last 5; hit 40+ in 5 of last 5, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 4,
      "group": "Safe",
      "why_not": "It hit in all of the last 5 games, but streaks end, and one quiet game sinks it."
-    },
-    {
-     "pick": "C.J. Stroud 2+ carries",
-     "game": "Texans @ Jaguars 10/18 09:30 AM ET",
-     "odds": "-350",
-     "grade": "A-",
-     "reason": "Stroud 3.0 carries/gm this season (5 gms), 3.3 last 10; hit 2+ in 10 of last 10, 5 of 5 this season.",
-     "live": false,
-     "updated": "09:12",
-     "rank": 5,
-     "group": "Safe",
-     "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it."
     },
     {
      "pick": "Derrick Henry 65+ rush yds",
@@ -6653,8 +6656,8 @@
      "grade": "A-",
      "reason": "Henry 95.2 rush yds/gm this season (5 gms), 114.0 last 10; hit 65+ in 10 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
-     "rank": 6,
+     "updated": "09:31",
+     "rank": 5,
      "group": "Safe",
      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it."
     },
@@ -6665,8 +6668,8 @@
      "grade": "A-",
      "reason": "Otton 3.6 rec/gm this season (5 gms), 3.6 last 10; hit 3+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
-     "rank": 7,
+     "updated": "09:31",
+     "rank": 6,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -6677,10 +6680,22 @@
      "grade": "A-",
      "reason": "Williams 3.0 rec/gm this season (5 gms), 3.0 last 5; hit 2+ in 5 of last 5, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
-     "rank": 8,
+     "updated": "09:31",
+     "rank": 7,
      "group": "Safe",
      "why_not": "It hit in all of the last 5 games, but streaks end, and one quiet game sinks it."
+    },
+    {
+     "pick": "Cam Skattebo 9+ carries",
+     "game": "Saints @ Giants 10/18 01:00 PM ET",
+     "odds": "-300",
+     "grade": "A-",
+     "reason": "Skattebo 16.2 carries/gm this season (5 gms), 15.9 last 10; hit 9+ in 9 of last 10, 5 of 5 this season.",
+     "live": false,
+     "updated": "09:31",
+     "rank": 8,
+     "group": "Safe",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "Keaton Mitchell 4+ carries",
@@ -6689,7 +6704,7 @@
      "grade": "A-",
      "reason": "Mitchell 6.6 carries/gm this season (5 gms), 6.7 last 10; hit 4+ in 9 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 9,
      "group": "Safe",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -6701,7 +6716,7 @@
      "grade": "A-",
      "reason": "Maye 6.0 carries/gm this season (5 gms), 5.8 last 10; hit 4+ in 9 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 10,
      "group": "Safe",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -6713,7 +6728,7 @@
      "grade": "A",
      "reason": "Dowdle 12.0 carries/gm over his last 10 games; hit 7+ in 9 of last 10.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 1,
      "group": "Wild",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -6721,11 +6736,11 @@
     {
      "pick": "Chris Rodriguez Jr. 6+ carries",
      "game": "Texans @ Jaguars 10/18 09:30 AM ET",
-     "odds": "+170",
+     "odds": "+145",
      "grade": "A",
      "reason": "Rodriguez 5.6 carries/gm this season (5 gms), 9.5 last 10; hit 6+ in 9 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 2,
      "group": "Wild",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -6737,7 +6752,7 @@
      "grade": "A",
      "reason": "Hampton 14.6 carries/gm this season (5 gms), 14.3 last 10; hit 12+ in 9 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 3,
      "group": "Wild",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -6745,11 +6760,11 @@
     {
      "pick": "Xavier Hutchinson 25+ rec yds",
      "game": "Texans @ Jaguars 10/18 09:30 AM ET",
-     "odds": "+180",
+     "odds": "+160",
      "grade": "A",
      "reason": "Hutchinson 46.2 rec yds/gm this season (5 gms), 35.6 last 10; hit 25+ in 6 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 4,
      "group": "Wild",
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
@@ -6761,7 +6776,7 @@
      "grade": "A",
      "reason": "Shough 259.8 pass yds/gm this season (5 gms), 261.5 last 10; hit 250+ in 8 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 5,
      "group": "Wild",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -6806,7 +6821,7 @@
      "grade": "C+",
      "live": false,
      "reason": "4-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 66% to cash.",
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 1,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
@@ -6818,7 +6833,7 @@
      "grade": "C+",
      "live": false,
      "reason": "5-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 67% to cash.",
-     "updated": "09:12",
+     "updated": "09:31",
      "rank": 2,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
@@ -7151,7 +7166,7 @@
    "team": "Rays",
    "game": "Rays @ Guardians Sun 5:08 PM ET",
    "start_iso": "2026-10-18T17:08-04:00",
-   "built_at": "2026-10-18 09:13 ET",
+   "built_at": "2026-10-18 09:31 ET",
    "locked": false,
    "locked_at": null,
    "late_lock": false,
@@ -7381,6 +7396,18 @@
      "status": null,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it.",
      "_game": "Rays @ Guardians Sun 5:08 PM ET Rays"
+    },
+    {
+     "rank": 5,
+     "section": "alt",
+     "pick": "Drew Rasmussen 5+ Ks",
+     "odds": "-250",
+     "grade": "B-",
+     "reason": "Last 5 starts: 4, 3, 11, 10, 7 Ks (7.0 avg); cleared 4.5 in 6 of last 8 starts. 26.0% strikeout rate this season; opponent strikes out 20.6% vs righties (league ~22%). Recent depth: 7.0, 5.0, 6.2, 8.0, 6.0 innings on 92, 76, 114, 101, 91 pitches.",
+     "status": null,
+     "why_not": "Postseason urgency: managers pull starters before a third time through the order at the first sign of trouble. Opponent rarely strikes out vs righties (20.6%).",
+     "_game": "Rays @ Guardians Sun 5:08 PM ET Rays",
+     "k_gate": "kept: 6/8 vs 71% implied"
     },
     {
      "rank": 6,
