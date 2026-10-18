@@ -1,5 +1,5 @@
 {
- "generated": 1792281930.5929484,
+ "generated": 1792282163.3078296,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -223,11 +223,11 @@
     "pick": "Penn State @ Michigan Under 43.5",
     "odds": "-120",
     "game": "Penn State @ Michigan 3:30 PM ET",
-    "status": "Pending",
+    "status": "W",
     "why": "#4. Michigan's offense is 83rd (23.0 pts/g); both pass defenses are top 5 (Michigan 4th, 146.8; Penn State 5th, 149.8) and Michigan allows 15.8 pts/g (12th). Alt line gives a point over the 42.5 main. Ranks: TeamRankings 2026 season stats. LineMate NCAAF team trends unavailable (pending odds/not loadable), so none cited. Hard Rock price confirmed (hr-lines/ncaaf-oct17.md).",
     "grade": "A-",
     "rank": 4,
-    "stat": "—"
+    "stat": "total 39"
    },
    {
     "pick": "Nebraska Over 21.5 Team Total",
@@ -322,7 +322,7 @@
        "pick": "Penn State @ Michigan Under 43.5",
        "odds": "-120",
        "game": "Penn State @ Michigan 3:30 PM ET",
-       "status": "Pending",
+       "status": "Won",
        "why": "Michigan offense 83rd (23.0); both pass defenses top 5 (4th, 5th); Michigan allows 15.8 pts/g."
       }
      ]
@@ -605,7 +605,7 @@
      "pick": "1st Quarter Total Under 37.5",
      "odds": "-115",
      "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
-     "status": "Pending",
+     "status": "Won",
      "why": "WNBA Finals Game 1 between the league's two best defenses: Golden State allowed 95.9 pts/100 (best by 4.5) and Atlanta is 2nd; both lead the league in steals and limiting transition. Atlanta's Allisha Gray is day-to-day (hand). Full-game total is only 154.5 (projection 79-73 = 152). Finals openers tend to start tight. Hard Rock (hr-lines/wnba-oct17.md). No WNBA parlay: one game only, no Hard Rock SGP price.",
      "desc": "1st Quarter Total Under 37.5 -115 (Atlanta Dream @ Golden State Valkyries 3:30 PM ET)"
     },
@@ -615,7 +615,7 @@
       "pick": "2nd Half Total Under 79.5 incl OT",
       "odds": "-115",
       "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "Two elite defenses; full-game total 154.5. Risk: late fouling and OT count.",
       "grade": "B",
       "rank": 1
@@ -624,7 +624,7 @@
       "pick": "Allisha Gray Under 14.5 Points",
       "odds": "-115",
       "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
-      "status": "Pending",
+      "status": "Lost",
       "why": "Day-to-day after a hand procedure, facing the league's best defense (Gabby Williams was DPOY runner-up). Risk: she plays full minutes and is fine.",
       "grade": "B",
       "rank": 2
@@ -633,7 +633,7 @@
       "pick": "(+EV) Valkyries/Valkyries Halftime-Fulltime",
       "odds": "+125",
       "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "Best value: GS is -135 to win either half and -140 full game; leading at half and winning is priced at +125.",
       "grade": "C+",
       "rank": 3
@@ -642,7 +642,7 @@
       "pick": "(Quality) Valkyries ML",
       "odds": "-140",
       "game": "Atlanta Dream @ Golden State Valkyries 3:30 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "GS 3-0 vs ATL this season, home court, best defense, Gray hurt. Risk: Atlanta is 5-0 in these playoffs.",
       "grade": "B",
       "rank": 4
@@ -1391,8 +1391,8 @@
     "line": "u43.5",
     "odds": "-120 placed",
     "ticket": "10/17 NCAAF 2-leg +230 $3.59",
-    "result": "Pending",
-    "stat": "—"
+    "result": "W",
+    "stat": "total 39"
    },
    {
     "date": "10/17",
@@ -1619,6 +1619,10 @@
    [
     "10/16",
     4
+   ],
+   [
+    "10/17",
+    5
    ]
   ]
  },
@@ -2528,10 +2532,10 @@
  "ui_build": "1792281505",
  "ncaaf_record": {
   "overall": {
-   "w": 2,
+   "w": 3,
    "l": 1,
    "p": 0,
-   "pct": 67
+   "pct": 75
   },
   "recent": [
    {
@@ -2594,8 +2598,8 @@
     "type": "Alt total",
     "pick": "Penn State @ Michigan Under 43.5",
     "odds": "-120",
-    "status": "Pending",
-    "stat": "—"
+    "status": "W",
+    "stat": "total 39"
    },
    {
     "date": "2026-10-17",
@@ -2657,10 +2661,10 @@
   },
   {
    "sport": "NCAA F",
-   "w": 2,
+   "w": 3,
    "l": 1,
    "p": 0,
-   "pct": 67
+   "pct": 75
   },
   {
    "sport": "WNBA",
@@ -3042,11 +3046,18 @@
     "props": []
    },
    "tracked": {
-    "w": 2,
+    "w": 4,
     "l": 2,
     "p": 0,
-    "pct": 50,
+    "pct": 67,
     "props": [
+     {
+      "prop": "NCAAF alt total",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
      {
       "prop": "NCAAF 1h total",
       "w": 1,
@@ -3063,6 +3074,13 @@
      },
      {
       "prop": "NCAAF game special",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
+     {
+      "prop": "NCAAF total",
       "w": 1,
       "l": 0,
       "p": 0,
@@ -3086,11 +3104,47 @@
     "props": []
    },
    "tracked": {
-    "w": 0,
-    "l": 0,
+    "w": 4,
+    "l": 1,
     "p": 0,
-    "pct": null,
-    "props": []
+    "pct": 80,
+    "props": [
+     {
+      "prop": "WNBA 1Q total",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
+     {
+      "prop": "WNBA 2H total",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
+     {
+      "prop": "WNBA player points",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     },
+     {
+      "prop": "WNBA HT/FT",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
+     {
+      "prop": "WNBA ML",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     }
+    ]
    }
   },
   {
