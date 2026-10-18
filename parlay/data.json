@@ -1,5 +1,5 @@
 {
- "generated": 1792329231.3082397,
+ "generated": 1792329844.1266751,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -653,13 +653,27 @@
       "pick": "PSU @ MICH Under 43.5 -120 (3:30)",
       "result": "W",
       "stat": "—",
-      "final": "—"
+      "final": "—",
+      "pm": {
+       "title": "Why it hit",
+       "head": "39 vs u43.5 · cleared by 4.5",
+       "bullets": [
+        "Final: PSU 18, MICH 21"
+       ]
+      }
      },
      {
       "pick": "BYU TT Under 17.5 -125 (ND @ BYU 7:30)",
       "result": "L",
       "stat": "—",
-      "final": "—"
+      "final": "—",
+      "pm": {
+       "title": "Why we lost",
+       "head": "28 vs u17.5 · missed by 10.5",
+       "bullets": [
+        "Final: ND 24, BYU 28"
+       ]
+      }
      }
     ],
     "images": [
@@ -676,13 +690,28 @@
       "pick": "Blues +1.5 -300 (STL @ NSH 8:00)",
       "result": "L",
       "stat": "—",
-      "final": "—"
+      "final": "—",
+      "pm": {
+       "title": "Why we lost",
+       "head": "Lost by 3 vs +1.5 · missed by 1.5",
+       "bullets": [
+        "Final: STL 2, NSH 5"
+       ]
+      }
      },
      {
       "pick": "Charlie McAvoy o1.5 SOG -110 (BOS @ LAK 9:00)",
       "result": "W",
       "stat": "—",
-      "final": "—"
+      "final": "—",
+      "pm": {
+       "title": "Why it hit",
+       "head": "2 vs o1.5 · cleared by 0.5",
+       "bullets": [
+        "Played 25:55 of ice time",
+        "Final: BOS 4, LA 1"
+       ]
+      }
      }
     ],
     "images": [
@@ -699,7 +728,15 @@
       "pick": "Ben Kindel o1.5 SOG (PIT @ VGK 10:00)",
       "result": "W",
       "stat": "—",
-      "final": "—"
+      "final": "—",
+      "pm": {
+       "title": "Why it hit",
+       "head": "4 vs o1.5 · cleared by 2.5",
+       "bullets": [
+        "Played 15:37 of ice time",
+        "Final: PIT 2, VGK 6"
+       ]
+      }
      }
     ],
     "images": [
@@ -716,13 +753,26 @@
       "pick": "Leo Carlsson u2.5 SOG",
       "result": "W",
       "stat": "1 SOG, 20:23 TOI",
-      "final": "BOS 4, ANA 2"
+      "final": "BOS 4, ANA 2",
+      "pm": {
+       "title": "Why it hit",
+       "head": "1 vs u2.5 · cleared by 1.5",
+       "bullets": [
+        "Played 20:23 of ice time",
+        "Final: BOS 4, ANA 2"
+       ]
+      }
      },
      {
       "pick": "Yandy Díaz u0.5 RBI",
       "result": "Void",
       "stat": "no action — Hard Rock voided leg (rainout); not carried to Sat",
-      "final": "PPD"
+      "final": "PPD",
+      "pm": {
+       "title": "Voided",
+       "head": "no action — Hard Rock voided leg (rainout); not carried to Sat",
+       "bullets": []
+      }
      }
     ]
    },
@@ -736,7 +786,16 @@
       "pick": "David Pastrnak o3.5 SOG",
       "result": "W",
       "stat": "4 SOG, 1 G, 1 A, 20:35 TOI",
-      "final": "BOS 4, ANA 2"
+      "final": "BOS 4, ANA 2",
+      "pm": {
+       "title": "Why it hit",
+       "head": "4 vs o3.5 · cleared by 0.5",
+       "bullets": [
+        "Played 20:35 of ice time",
+        "Also scored: 1 G",
+        "Final: BOS 4, ANA 2"
+       ]
+      }
      }
     ]
    },
@@ -750,7 +809,16 @@
       "pick": "Owen Power UNDER 1.5 SOG",
       "result": "L",
       "stat": "2 SOG, 1 G (OT winner), 28:01 TOI",
-      "final": "BUF 5, TOR 4 (OT)"
+      "final": "BUF 5, TOR 4 (OT)",
+      "pm": {
+       "title": "Why we lost",
+       "head": "2 vs u1.5 · missed by 0.5",
+       "bullets": [
+        "Played 28:01 of ice time",
+        "Also scored: 1 G (OT winner)",
+        "Game went to OT (BUF 5, TOR 4 (OT)), which added extra time"
+       ]
+      }
      }
     ]
    },
@@ -764,13 +832,29 @@
       "pick": "Matthew Schaefer o2.5 SOG",
       "result": "W",
       "stat": "3 SOG, 29:29 TOI",
-      "final": "OTT 2, NYI 1 (SO)"
+      "final": "OTT 2, NYI 1 (SO)",
+      "pm": {
+       "title": "Why it hit",
+       "head": "3 vs o2.5 · cleared by 0.5",
+       "bullets": [
+        "Played 29:29 of ice time",
+        "Game went to OT (OTT 2, NYI 1 (SO)), which added extra time"
+       ]
+      }
      },
      {
       "pick": "Jaxon Smith-Njigba o64.5 Rec Yds",
       "result": "W",
       "stat": "12 rec, 134 yds, 16 tgt, long 32",
-      "final": "DEN 17, SEA 14 (OT)"
+      "final": "DEN 17, SEA 14 (OT)",
+      "pm": {
+       "title": "Why it hit",
+       "head": "134 vs o64.5 · cleared by 69.5",
+       "bullets": [
+        "Saw 16 targets and caught 12",
+        "Game went to OT (DEN 17, SEA 14 (OT)), which added extra time"
+       ]
+      }
      }
     ]
    },
@@ -784,19 +868,45 @@
       "pick": "Gavin Williams o2.5 Hits Allowed",
       "result": "L",
       "stat": "5.0 IP, 2 H, 2 R/ER, 9 K, 1 BB, 70 pitches",
-      "final": "CLE 3, TB 2"
+      "final": "CLE 3, TB 2",
+      "pm": {
+       "title": "Why we lost",
+       "head": "2 vs o2.5 · missed by 0.5",
+       "bullets": [
+        "Worked 5.0 innings on 70 pitches",
+        "Final: CLE 3, TB 2"
+       ]
+      }
      },
      {
       "pick": "Kyle Connor o3.5 SOG",
       "result": "W",
       "stat": "5 SOG, 1 G (PPG), 21:03 TOI",
-      "final": "CHI 4, WPG 3"
+      "final": "CHI 4, WPG 3",
+      "pm": {
+       "title": "Why it hit",
+       "head": "5 vs o3.5 · cleared by 1.5",
+       "bullets": [
+        "Played 21:03 of ice time",
+        "Also scored: 1 G (PPG)",
+        "Final: CHI 4, WPG 3"
+       ]
+      }
      },
      {
       "pick": "Leon Draisaitl o2.5 SOG",
       "result": "L",
       "stat": "2 SOG, 1 G, 23:00 TOI",
-      "final": "UTA 4, EDM 2"
+      "final": "UTA 4, EDM 2",
+      "pm": {
+       "title": "Why we lost",
+       "head": "2 vs o2.5 · missed by 0.5",
+       "bullets": [
+        "Played 23:00 of ice time",
+        "Also scored: 1 G",
+        "Final: UTA 4, EDM 2"
+       ]
+      }
      }
     ]
    },
@@ -810,19 +920,43 @@
       "pick": "Boone Jenner o1.5 SOG",
       "result": "L",
       "stat": "0 SOG, 0 G, 0 A, 15:08 TOI",
-      "final": "WSH 5, MTL 4"
+      "final": "WSH 5, MTL 4",
+      "pm": {
+       "title": "Why we lost",
+       "head": "0 vs o1.5 · missed by 1.5",
+       "bullets": [
+        "Played 15:08 of ice time",
+        "Final: WSH 5, MTL 4"
+       ]
+      }
      },
      {
       "pick": "Robert Gasser o11.5 outs",
       "result": "W",
       "stat": "5.0 IP (15 outs), 3 H, 0 ER, 1 BB, 3 K, 72 pitches",
-      "final": "MIL 6, LAD 2"
+      "final": "MIL 6, LAD 2",
+      "pm": {
+       "title": "Why it hit",
+       "head": "15 vs o11.5 · cleared by 3.5",
+       "bullets": [
+        "Worked 5.0 innings on 72 pitches",
+        "Final: MIL 6, LAD 2"
+       ]
+      }
      },
      {
       "pick": "Nazem Kadri 2+ SOG",
       "result": "W",
       "stat": "2 SOG, 0 G, 2 A, 24:16 TOI",
-      "final": "DAL 3, COL 2 (SO)"
+      "final": "DAL 3, COL 2 (SO)",
+      "pm": {
+       "title": "Why it hit",
+       "head": "2 vs o1.5 · cleared by 0.5",
+       "bullets": [
+        "Played 24:16 of ice time",
+        "Game went to SO (DAL 3, COL 2 (SO)), which added extra time"
+       ]
+      }
      }
     ]
    },
@@ -836,13 +970,30 @@
       "pick": "Blake Snell u1.5 ER",
       "result": "L",
       "stat": "6.0 IP, 4 H, 4 R, 4 ER, 2 BB, 9 K, 3 HR, 101 pitches (L)",
-      "final": "MIL 6, LAD 2"
+      "final": "MIL 6, LAD 2",
+      "pm": {
+       "title": "Why we lost",
+       "head": "4 vs u1.5 · missed by 2.5",
+       "bullets": [
+        "Worked 6.0 innings on 101 pitches",
+        "Gave up 3 home runs",
+        "Final: MIL 6, LAD 2"
+       ]
+      }
      },
      {
       "pick": "Tyler Seguin o1.5 SOG",
       "result": "W",
       "stat": "3 SOG, 0 G, 0 A, 14:59 TOI",
-      "final": "DAL 3, COL 2 (SO)"
+      "final": "DAL 3, COL 2 (SO)",
+      "pm": {
+       "title": "Why it hit",
+       "head": "3 vs o1.5 · cleared by 1.5",
+       "bullets": [
+        "Played 14:59 of ice time",
+        "Game went to SO (DAL 3, COL 2 (SO)), which added extra time"
+       ]
+      }
      }
     ]
    },
@@ -856,31 +1007,70 @@
       "pick": "Alex Tuch 2+ SOG",
       "result": "L",
       "stat": "1 SOG, 18:50 TOI",
-      "final": "CAR 4, WSH 2"
+      "final": "CAR 4, WSH 2",
+      "pm": {
+       "title": "Why we lost",
+       "head": "1 vs o1.5 · missed by 0.5",
+       "bullets": [
+        "Played 18:50 of ice time",
+        "Final: CAR 4, WSH 2"
+       ]
+      }
      },
      {
       "pick": "B. McMann 2+ SOG",
       "result": "W",
       "stat": "2 SOG, 1 G",
-      "final": "SEA 3, PHI 2 (SO)"
+      "final": "SEA 3, PHI 2 (SO)",
+      "pm": {
+       "title": "Why it hit",
+       "head": "2 vs o1.5 · cleared by 0.5",
+       "bullets": [
+        "Also scored: 1 G",
+        "Game went to SO (SEA 3, PHI 2 (SO)), which added extra time"
+       ]
+      }
      },
      {
       "pick": "Parker Messick o3.5 K",
       "result": "L",
       "stat": "3 K, 5.0 IP, 6 H, 3 R (0 ER), 2 BB, 82 pitches",
-      "final": "TB 3, CLE 1"
+      "final": "TB 3, CLE 1",
+      "pm": {
+       "title": "Why we lost",
+       "head": "3 vs o3.5 · missed by 0.5",
+       "bullets": [
+        "Worked 5.0 innings on 82 pitches; pulled early, which capped his strikeout chances",
+        "Final: TB 3, CLE 1"
+       ]
+      }
      },
      {
       "pick": "Leon Draisaitl 3+ SOG",
       "result": "W",
       "stat": "3 SOG, 1 G, 1 A",
-      "final": "EDM 4, LAK 1"
+      "final": "EDM 4, LAK 1",
+      "pm": {
+       "title": "Why it hit",
+       "head": "3 vs o2.5 · cleared by 0.5",
+       "bullets": [
+        "Also scored: 1 G",
+        "Final: EDM 4, LAK 1"
+       ]
+      }
      },
      {
       "pick": "David Pastrnak 3+ SOG",
       "result": "W",
       "stat": "4 SOG, 1 A",
-      "final": "BOS 6, SJS 3"
+      "final": "BOS 6, SJS 3",
+      "pm": {
+       "title": "Why it hit",
+       "head": "4 vs o2.5 · cleared by 1.5",
+       "bullets": [
+        "Final: BOS 6, SJS 3"
+       ]
+      }
      }
     ]
    },
@@ -894,13 +1084,29 @@
       "pick": "Drake Batherson o1.5 SOG",
       "result": "L",
       "stat": "1 SOG, 1 A, 17:44 TOI",
-      "final": "STL 7, OTT 2"
+      "final": "STL 7, OTT 2",
+      "pm": {
+       "title": "Why we lost",
+       "head": "1 vs o1.5 · missed by 0.5",
+       "bullets": [
+        "Played 17:44 of ice time",
+        "Final: STL 7, OTT 2"
+       ]
+      }
      },
      {
       "pick": "Nazem Kadri o1.5 SOG",
       "result": "W",
       "stat": "3 SOG, 22:47 TOI",
-      "final": "COL 3, DAL 2"
+      "final": "COL 3, DAL 2",
+      "pm": {
+       "title": "Why it hit",
+       "head": "3 vs o1.5 · cleared by 1.5",
+       "bullets": [
+        "Played 22:47 of ice time",
+        "Final: COL 3, DAL 2"
+       ]
+      }
      }
     ]
    }
@@ -3856,7 +4062,7 @@
    }
   ]
  },
- "ui_build": "1792329211",
+ "ui_build": "1792329513",
  "ncaaf_record": {
   "overall": {
    "w": 3,
