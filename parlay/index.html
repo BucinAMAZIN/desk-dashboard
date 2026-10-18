@@ -40,7 +40,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792342420';
+const UI_BUILD='1792342792';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -343,7 +343,7 @@ async function lvModal(sp,lg,id){let m=document.getElementById('lvm');if(!m){m=d
 document.addEventListener('click',e=>{const s=e.target.closest&&e.target.closest('.lvs');if(!s)return;e.preventDefault();e.stopPropagation();lvModal(s.dataset.sp,s.dataset.lg,s.dataset.ev)},true);
 
 /* ===== In-game lines (unofficial, Oct 18): Hard Rock LIVE in-play markets + ESPN pace. Not graded, never official. ===== */
-let IGL=null,IGLs='';function igSrc(){const d=(D&&D.ingame_lines)||{};return IGL&&!IGL.idle&&(IGL.hr_fetched_ts||0)>=(d.hr_fetched_ts||0)?Object.assign({},IGL,{record:IGL.record||d.record}):d}
+let IGL=null,IGLs='';function igSrc(){const d=(D&&D.ingame_lines)||{};return IGL&&!IGL.idle&&(IGL.hr_fetched_ts||0)>=(d.hr_fetched_ts||0)?IGL:d}
 function igAgeH(I){const t=I.hr_fetched_ts;if(!t)return E(String(I.hr_fetched||'n/a').replace(/^\d{4}-\d\d-\d\d /,''));const a=Math.max(0,Math.round(Date.now()/1000-t)),s=a<90?a+'s':Math.round(a/60)+' min';return a>180?`<span style="color:#d29922">⚠ price ${s} ago (stale, may have moved)</span>`:`price ${s} ago`}
 async function igPull(){try{const t=await(await fetch('ingame.json?t='+Date.now(),{cache:'no-store'})).text();if(t!==IGLs){IGLs=t;IGL=JSON.parse(t);const b=document.getElementById('lsb');if(b&&document.getElementById('igb'))igBox(b)}}catch(_){}}
 setInterval(()=>{if(document.hidden)return;if(K=='sport')igPull();const I=igSrc();document.querySelectorAll('#igb .igAge').forEach(e=>e.innerHTML=igAgeH(I))},20000);setTimeout(igPull,1500);
@@ -355,7 +355,7 @@ function igBox(after){const old=document.getElementById('igb');if(old)old.remove
  else h=G.map(g=>`<div style="border-top:1px solid #30363d;padding-top:6px;margin-top:6px"><div class=row><b>${E(g.score||g.game)}</b><span class=m style="font-size:12px">${E(g.clock||'')}</span></div>${(g.picks||[]).length?g.picks.map(row).join(''):`<div class=m style="font-size:12px">${E(g.note||'No in-game line clears our edge bar right now.')}</div>`}</div>`).join('');
  const stale='';
  const c=document.createElement('div');c.className='card';c.id='igb';
- c.innerHTML=`<div class="row igh" data-k="${E(key)}" style="cursor:pointer"><span class="m">📡 In-game lines · ${E(SP)} <span style="font-size:11px">(unofficial · not graded)</span></span></div><div class="igi" style="${cx?'display:none':''}"><div class=m style="font-size:11px;margin:2px 0 4px">Hard Rock live in-game markets, top 10 per live game, ranked by edge vs our pace model. Hard Rock <span class=igAge>${igAgeH(I)}</span>.${I.record?` In-game record (unofficial): <b>${I.record.w}-${I.record.l}</b>.`:''}</div>${h}</div>`;
+ c.innerHTML=`<div class="row igh" data-k="${E(key)}" style="cursor:pointer"><span class="m">📡 In-game lines · ${E(SP)} <span style="font-size:11px">(unofficial)</span></span></div><div class="igi" style="${cx?'display:none':''}"><div class=m style="font-size:11px;margin:2px 0 4px">Hard Rock live in-game markets, top 10 per live game, ranked by edge vs our pace model. Hard Rock <span class=igAge>${igAgeH(I)}</span>.</div>${h}</div>`;
  after.after(c)}
 /* ===== League standings (Oct 18): ESPN standings via standings.py -> D.standings. Collapsed until tapped. ===== */
 let STO={};
