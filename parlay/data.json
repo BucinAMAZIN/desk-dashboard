@@ -1,5 +1,5 @@
 {
- "generated": 1792292890.5501583,
+ "generated": 1792292946.1625884,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -3477,7 +3477,7 @@
    }
   ]
  },
- "ui_build": "1792292601",
+ "ui_build": "1792292946",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -5940,9 +5940,9 @@
    "team": "Bucs",
    "game": "Steelers @ Buccaneers Sun 1:00 PM ET",
    "start_iso": "2026-10-18T13:00-04:00",
-   "built_at": "2026-10-17 23:02 ET",
+   "built_at": "2026-10-17 23:09 ET",
    "locked": true,
-   "locked_at": "2026-10-17 23:02 ET",
+   "locked_at": "2026-10-17 23:09 ET",
    "late_lock": false,
    "lock_rule": "24h before start",
    "note": "",
@@ -6060,33 +6060,6 @@
     {
      "rank": 3,
      "section": "ev",
-     "pick": "Chris Godwin Jr. 25+ rec yds",
-     "odds": "-140",
-     "grade": "A",
-     "reason": "Godwin 35.8 rec yds/gm this season (5 gms), 40.0 last 10; hit 25+ in 8 of last 10, 5 of 5 this season. Edge: we make it 74% to hit; -140 implies 58%, so +26.3% expected value per bet.",
-     "status": null
-    },
-    {
-     "rank": 4,
-     "section": "ev",
-     "pick": "Aaron Rodgers 22+ completions",
-     "odds": "-115",
-     "grade": "A",
-     "reason": "Rodgers 22.0 completions/gm this season (5 gms), 23.5 last 10; hit 22+ in 8 of last 10, 4 of 5 this season. Edge: we make it 67% to hit; -115 implies 53%, so +24.8% expected value per bet.",
-     "status": null
-    },
-    {
-     "rank": 5,
-     "section": "ev",
-     "pick": "Cade Otton 25+ rec yds",
-     "odds": "-145",
-     "grade": "A",
-     "reason": "Otton 36.4 rec yds/gm this season (5 gms), 35.2 last 10; hit 25+ in 7 of last 10, 5 of 5 this season. Edge: we make it 71% to hit; -145 implies 59%, so +20.5% expected value per bet.",
-     "status": null
-    },
-    {
-     "rank": 6,
-     "section": "ev",
      "pick": "Jaylen Warren 80+ rush yds",
      "odds": "+185",
      "grade": "B+",
@@ -6094,25 +6067,7 @@
      "status": null
     },
     {
-     "rank": 7,
-     "section": "ev",
-     "pick": "Chris Godwin Jr. 3+ rec",
-     "odds": "-210",
-     "grade": "A",
-     "reason": "Godwin 3.8 rec/gm this season (5 gms), 4.1 last 10; hit 3+ in 9 of last 10, 5 of 5 this season. Edge: we make it 81% to hit; -210 implies 68%, so +19.8% expected value per bet.",
-     "status": null
-    },
-    {
-     "rank": 8,
-     "section": "ev",
-     "pick": "DK Metcalf under 51.5 rec yds",
-     "odds": "-115",
-     "grade": "A-",
-     "reason": "Metcalf 45.0 rec yds/gm this season (5 gms), 52.4 last 10; stayed under 51.5 in 7 of last 10, 4 of 5 this season. Edge: we make it 64% to hit; -115 implies 53%, so +19.6% expected value per bet.",
-     "status": null
-    },
-    {
-     "rank": 9,
+     "rank": 4,
      "section": "ev",
      "pick": "Ted Hurst III 2+ rec",
      "odds": "+155",
@@ -6121,12 +6076,57 @@
      "status": null
     },
     {
+     "rank": 5,
+     "section": "ev",
+     "pick": "Jaylen Warren under 3.5 rec",
+     "odds": "+100",
+     "grade": "A-",
+     "reason": "Warren 3.8 rec/gm this season (5 gms), 3.2 last 10; stayed under 3.5 in 7 of last 10, 3 of 5 this season. Edge: we make it 58% to hit; +100 implies 50%, so +15.5% expected value per bet.",
+     "status": null
+    },
+    {
+     "rank": 6,
+     "section": "ev",
+     "pick": "Darnell Washington under 2.5 rec",
+     "odds": "+115",
+     "grade": "B+",
+     "reason": "Washington 2.2 rec/gm this season (5 gms), 2.2 last 10; stayed under 2.5 in 6 of last 10, 3 of 5 this season. Edge: we make it 53% to hit; +115 implies 47%, so +14.5% expected value per bet.",
+     "status": null
+    },
+    {
+     "rank": 7,
+     "section": "ev",
+     "pick": "Kenneth Gainwell 3+ rec",
+     "odds": "+110",
+     "grade": "B+",
+     "reason": "Gainwell 2.2 rec/gm this season (5 gms), 4.0 last 10; hit 3+ in 7 of last 10, 2 of 5 this season. Edge: we make it 52% to hit; +110 implies 48%, so +9.3% expected value per bet.",
+     "status": null
+    },
+    {
+     "rank": 8,
+     "section": "ev",
+     "pick": "Aaron Rodgers 250+ pass yds",
+     "odds": "+155",
+     "grade": "B+",
+     "reason": "Rodgers 246.8 pass yds/gm this season (5 gms), 247.0 last 10; hit 250+ in 5 of last 10, 2 of 5 this season. Edge: we make it 42% to hit; +155 implies 39%, so +8.0% expected value per bet.",
+     "status": null
+    },
+    {
+     "rank": 9,
+     "section": "ev",
+     "pick": "Chris Godwin Jr. 4+ rec",
+     "odds": "+120",
+     "grade": "B",
+     "reason": "Godwin 3.8 rec/gm this season (5 gms), 4.1 last 10; hit 4+ in 6 of last 10, 2 of 5 this season. Edge: we make it 48% to hit; +120 implies 45%, so +6.1% expected value per bet.",
+     "status": null
+    },
+    {
      "rank": 10,
      "section": "ev",
-     "pick": "Germie Bernard under 43.5 rec yds",
-     "odds": "-110",
-     "grade": "A-",
-     "reason": "Bernard 28.0 rec yds/gm this season (5 gms), 28.0 last 5; stayed under 43.5 in 4 of last 5, 4 of 5 this season. Edge: we make it 62% to hit; -110 implies 52%, so +17.6% expected value per bet.",
+     "pick": "Chris Godwin Jr. 40+ rec yds",
+     "odds": "+180",
+     "grade": "B",
+     "reason": "Godwin 35.8 rec yds/gm this season (5 gms), 40.0 last 10; hit 40+ in 4 of last 10, 2 of 5 this season. Edge: we make it 38% to hit; +180 implies 36%, so +6.0% expected value per bet.",
      "status": null
     },
     {
