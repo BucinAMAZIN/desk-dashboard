@@ -1,5 +1,5 @@
 {
- "generated": 1792323703.5443692,
+ "generated": 1792323941.9180696,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -12,8 +12,9 @@
     "status": "Pending",
     "game": "CBJ @ MIN 6:00 PM ET",
     "legs": [],
-    "why": "Coyle has 1 or fewer shots in 5 of 6 games this season (1,1,1,7,1,0, newest first) on 15-24 minutes, and he stayed under 1.5 in 44 of 82 games last season, so this isn't a streak-only read. His 1.83 average is inflated by one 7-shot game on Oct 9. Columbus is on the second night of a back-to-back (beat the Rangers 1-0 in OT Saturday, Coyle had 1 shot in 21 minutes) and plays on the road at Minnesota, which allows 26.8 shots per game. Columbus has no one on the ESPN injury report, so his role isn't growing. Hit rates come from NHL API game logs; LineMate is app-only and can't be read here. Record check: NHL SOG is our strongest prop type (14-5 on graded legs). NHL SOG unders are only 1-2 in our record, too small a sample to weigh. Risk: he can spike (7 shots on Oct 9). Price is Hard Rock's -105 (Over 1.5 is -125) from the 6:19 AM ET feed pull. Stake is 5% of the $62.54 bankroll ($3.13), rounded to $3.00.",
-    "pick": "Charlie Coyle u1.5 SOG"
+    "why": "Coyle has 1 or fewer shots in 5 of 6 games this season (1,1,1,7,1,0, newest first) on 15-24 minutes, and he stayed under 1.5 in 44 of 82 games last season, so this isn't a streak-only read. His 1.83 average is inflated by one 7-shot game on Oct 9. Columbus is on the second night of a back-to-back (beat the Rangers 1-0 in OT Saturday, Coyle had 1 shot in 21 minutes) and plays on the road at Minnesota, which allows 26.8 shots per game. Columbus has no one on the ESPN injury report, so his role isn't growing. Hit rates come from NHL API game logs; LineMate is app-only and can't be read here. Record check: NHL SOG is our strongest prop type (14-5 on graded legs). NHL SOG unders are only 1-2 in our record, too small a sample to weigh. Price is Hard Rock's -105 (Over 1.5 is -125) from the 6:19 AM ET feed pull. Stake is 5% of the $62.54 bankroll ($3.13), rounded to $3.00.",
+    "pick": "Charlie Coyle u1.5 SOG",
+    "why_not": "He can spike (7 shots on Oct 9)."
    },
    {
     "name": "+100 ticket",
@@ -29,19 +30,22 @@
       "odds": "-225",
       "game": "CAR @ CGY 8:00 PM ET",
       "status": "Pending",
-      "why": "Blake has 2+ shots in 8 of 9 games this season (4,1,4,2,5,2,2,3,2, newest first; 2.78 average) on 16-22 minutes. Carolina is without Taylor Hall, Seth Jarvis and Jordan Staal (ESPN injuries), so his top-six minutes are safe. CAR leads the league at 32.8 shots per game, and Calgary allows 28.7, is 1-6, and has a goalie (Wolf) at an .834 save percentage. Last season he went 2+ in 46 of 81 (57%), so this leans on his bigger role this year. Risk: CAR is on a back-to-back after winning 3-2 at Winnipeg Saturday (Blake had 4 shots in 20 minutes). This is Hard Rock's \"2+ shots\" alt at -225; the main line is o2.5 at +130.",
-      "now": "-250"
+      "why": "Blake has 2+ shots in 8 of 9 games this season (4,1,4,2,5,2,2,3,2, newest first; 2.78 average) on 16-22 minutes. Carolina is without Taylor Hall, Seth Jarvis and Jordan Staal (ESPN injuries), so his top-six minutes are safe. CAR leads the league at 32.8 shots per game, and Calgary allows 28.7, is 1-6, and has a goalie (Wolf) at an .834 save percentage. Last season he went 2+ in 46 of 81 (57%), so this leans on his bigger role this year. This is Hard Rock's \"2+ shots\" alt at -225; the main line is o2.5 at +130.",
+      "now": "-250",
+      "why_not": "CAR is on a back-to-back after winning 3-2 at Winnipeg Saturday (Blake had 4 shots in 20 minutes)."
      },
      {
       "pick": "Matt Boldy o2.5 SOG",
       "odds": "-250",
       "game": "CBJ @ MIN 6:00 PM ET",
       "status": "Pending",
-      "why": "Boldy has 3+ shots in 7 of 8 games this season (8,1,3,4,3,7,4,5; 4.38 average) on 18-25 minutes, and 48 of 76 last season (63%). Columbus is on a road back-to-back, allows 27.2 shots per game, and will likely start backup Cam Talbot (.822) since Greaves played Saturday. Risk: his 1-shot game on Oct 13. This is Hard Rock's \"3+ shots\" alt at -250; the main line is o3.5 at -105. Combined price: 1.444 x 1.400 = 2.02 (+102). Separate games, so it's not a same-game parlay. NHL SOG is our best prop type (14-5)."
+      "why": "Boldy has 3+ shots in 7 of 8 games this season (8,1,3,4,3,7,4,5; 4.38 average) on 18-25 minutes, and 48 of 76 last season (63%). Columbus is on a road back-to-back, allows 27.2 shots per game, and will likely start backup Cam Talbot (.822) since Greaves played Saturday. This is Hard Rock's \"3+ shots\" alt at -250; the main line is o3.5 at -105. Combined price: 1.444 x 1.400 = 2.02 (+102). Separate games, so it's not a same-game parlay. NHL SOG is our best prop type (14-5).",
+      "why_not": "His 1-shot game on Oct 13."
      }
     ],
     "why": null,
-    "pick": "2-leg +102"
+    "pick": "2-leg +102",
+    "why_not": "Both legs must hit: Carolina is on a back-to-back, and Boldy had a 1-shot game on Oct 13."
    }
   ],
   "runners_up": [
@@ -49,34 +53,37 @@
     "pick": "Tampa Bay Rays +1.5",
     "odds": "-325",
     "game": "TB @ CLE 5:08 PM ET",
-    "why": "TB is the -130 moneyline favorite, so +1.5 loses only if Cleveland wins by 2 or more. Drew Rasmussen (2.67 ERA, 0.91 WHIP, .543 OPS allowed in 172 innings; 14 playoff innings with 2 earned runs) faces Parker Messick, who has been pulled early in all three of his playoff starts (4.1, 2.1 and 5.0 innings). Savant batter-vs-pitcher against Rasmussen (career incl. playoffs, all small samples): Kwan 5-for-15 (xBA .288), Ramírez 2-for-15 (.099), Rocchio 1-for-12 (.140), DeLauter 4-for-7 with a HR (.405), Adell 0-for-7, Lowe 2-for-6, Bazzana 1-for-8. Series margins have been CLE by 4, TB by 2, CLE by 1 and TB by 4, so +1.5 covered 3 of 4. Weather at Progressive Field (Open-Meteo): about 60°F at first pitch, falling to the low 50s, wind 9 mph from the south-southwest, 0% rain. Lineups aren't posted yet (pre-lock). Risk: CLE beat Rasmussen 7-3 in Game 1 after the bullpen gave up 5.",
+    "why": "TB is the -130 moneyline favorite, so +1.5 loses only if Cleveland wins by 2 or more. Drew Rasmussen (2.67 ERA, 0.91 WHIP, .543 OPS allowed in 172 innings; 14 playoff innings with 2 earned runs) faces Parker Messick, who has been pulled early in all three of his playoff starts (4.1, 2.1 and 5.0 innings). Savant batter-vs-pitcher against Rasmussen (career incl. playoffs, all small samples): Kwan 5-for-15 (xBA .288), Ramírez 2-for-15 (.099), Rocchio 1-for-12 (.140), DeLauter 4-for-7 with a HR (.405), Adell 0-for-7, Lowe 2-for-6, Bazzana 1-for-8. Series margins have been CLE by 4, TB by 2, CLE by 1 and TB by 4, so +1.5 covered 3 of 4. Weather at Progressive Field (Open-Meteo): about 60°F at first pitch, falling to the low 50s, wind 9 mph from the south-southwest, 0% rain. Lineups aren't posted yet (pre-lock).",
     "grade": "A-",
     "rank": 1,
     "status": "Pre-lock",
     "stat": "—",
     "lu_txt": "TB ✗ CLE ✗",
     "lu": "red",
-    "now": "-350"
+    "now": "-350",
+    "why_not": "CLE beat Rasmussen 7-3 in Game 1 after the bullpen gave up 5."
    },
    {
     "pick": "Joel Eriksson Ek o1.5 SOG",
     "odds": "-400",
     "game": "CBJ @ MIN 6:00 PM ET",
-    "why": "Eriksson Ek has 2+ shots in 7 of 8 games this season (3,3,3,3,6,0,2,3) and 56 of 70 last season (80%) on 18-23 minutes. Columbus is on a road back-to-back and allows 27.2 shots per game. Hard Rock \"2+ shots\" alt. Risk: the 0-shot game on Oct 6.",
+    "why": "Eriksson Ek has 2+ shots in 7 of 8 games this season (3,3,3,3,6,0,2,3) and 56 of 70 last season (80%) on 18-23 minutes. Columbus is on a road back-to-back and allows 27.2 shots per game. Hard Rock \"2+ shots\" alt.",
     "grade": "A-",
     "rank": 2,
     "status": "Pending",
-    "stat": "—"
+    "stat": "—",
+    "why_not": "The 0-shot game on Oct 6."
    },
    {
     "pick": "Minnesota Wild ML",
     "odds": "-185",
     "game": "CBJ @ MIN 6:00 PM ET",
-    "why": "MIN is 5-2-1 and 3-0 at home, with Wallstedt confirmed in goal (.921, 2.13 GAA; DailyFaceoff). Columbus played Saturday (Greaves made 29 saves in a 1-0 OT win), so backup Cam Talbot (.822 in 2 games) likely starts, though that isn't confirmed. CBJ allows 3.5 goals per game with a 66.7% penalty kill, against MIN's 33.3% power play. The moneyline counts overtime. Risk: MIN is missing defensemen Spurgeon, Faber and Maatta.",
+    "why": "MIN is 5-2-1 and 3-0 at home, with Wallstedt confirmed in goal (.921, 2.13 GAA; DailyFaceoff). Columbus played Saturday (Greaves made 29 saves in a 1-0 OT win), so backup Cam Talbot (.822 in 2 games) likely starts, though that isn't confirmed. CBJ allows 3.5 goals per game with a 66.7% penalty kill, against MIN's 33.3% power play. The moneyline counts overtime.",
     "grade": "B+",
     "rank": 3,
     "status": "Pending",
-    "stat": "—"
+    "stat": "—",
+    "why_not": "MIN is missing defensemen Spurgeon, Faber and Maatta."
    },
    {
     "pick": "Carolina Hurricanes ML",
@@ -85,6 +92,7 @@
     "why": "CAR is 7-1-1 with seven straight wins (5-0 on the road), allows 2.33 goals and a league-low 21.7 shots per game. Calgary is 1-6 (0-3 at home), scoring 2.0 and allowing 5.0 per game, and Wolf has an .834 save percentage. Graded down because CAR is on a back-to-back after Kochetkov started Saturday, so Brandon Bussi (.871) likely starts (DailyFaceoff still shows Kochetkov, unconfirmed), and Hall, Jarvis and Staal are out. The capper NHL ML picks we track are 2-6, so I only took this one because of the huge talent gap.",
     "grade": "B",
     "rank": 4,
+    "why_not": "Carolina is on a back-to-back with backup Bussi (.871) likely in goal, and Hall, Jarvis and Staal are out.",
     "status": "Pending",
     "stat": "—",
     "now": "-220"
@@ -96,6 +104,7 @@
     "why": "Kaprizov has 3 or fewer shots in 5 of 8 games this season (6,3,4,4,0,3,3,3) and 46 of 78 last season (59%), against the 55% that -120 implies. He plays 19-25 minutes. The edge is thin: he's MIN's top shooter, has a 6-shot game this year, and Columbus is tired.",
     "grade": "B-",
     "rank": 5,
+    "why_not": "Kaprizov is Minnesota's top shooter and had a 6-shot game this year; last season he went over 3.5 in 32 of 78 games.",
     "status": "Pending",
     "stat": "—"
    }
@@ -109,7 +118,8 @@
      "game": "CBJ @ MIN 6:00 PM ET",
      "status": "Pending",
      "why": "This was the best -105 to -130 play across today's sports with picks (MLB, NHL, NFL, NASCAR); it's the same play as the main POTD. He has 1 or fewer shots in 5 of 6 games this season and in 44 of 82 last season, and Columbus is on a road back-to-back at Minnesota (26.8 shots allowed per game). Hard Rock -105 (6:19 AM ET pull).",
-     "desc": "Charlie Coyle u1.5 SOG -105 (CBJ @ MIN 6:00 PM ET)"
+     "desc": "Charlie Coyle u1.5 SOG -105 (CBJ @ MIN 6:00 PM ET)",
+     "why_not": "He had 7 shots on Oct 9, so one big night beats it, and he went over 1.5 in 38 of 82 games last season."
     },
     "parlay": {
      "pick": "3-leg",
@@ -125,6 +135,7 @@
        "game": "TB @ CLE 5:08 PM ET",
        "status": "Pre-lock",
        "why": "Loses only if Cleveland wins by 3 or more. TB is the -130 favorite with Rasmussen (2.67 ERA, 0.91 WHIP) against Messick, who has been pulled early in all three playoff starts. Savant BvP shows Cleveland's core doing little against Rasmussen (Ramírez 2-for-15, Rocchio 1-for-12, Adell 0-for-7). This would have covered 3 of the 4 series games. About 60°F, wind 9 mph from the SSW, 0% rain. Lineups are pending.",
+       "why_not": "A Cleveland win by 3 or more loses it, and Cleveland won Game 1 7-3 off Tampa's bullpen.",
        "lu_txt": "TB ✗ CLE ✗",
        "lu": "red",
        "now": "-650"
@@ -134,7 +145,8 @@
        "odds": "-400",
        "game": "CBJ @ MIN 6:00 PM ET",
        "status": "Pending",
-       "why": "2+ shots in 7 of 8 games this season and 56 of 70 last season (80%) on 18-23 minutes. CBJ is on a road back-to-back (27.2 shots allowed per game)."
+       "why": "2+ shots in 7 of 8 games this season and 56 of 70 last season (80%) on 18-23 minutes. CBJ is on a road back-to-back (27.2 shots allowed per game).",
+       "why_not": "He had a 0-shot game on Oct 6, so a quiet night can happen even against a tired team."
       },
       {
        "pick": "Jackson Blake o1.5 SOG",
@@ -142,9 +154,11 @@
        "game": "CAR @ CGY 8:00 PM ET",
        "status": "Pending",
        "why": "2+ shots in 8 of 9 games this season (2.78 average). Hall, Jarvis and Staal are out, so his minutes hold. Calgary allows 28.7 shots per game and is 1-6. Combined price: 1.167 x 1.25 x 1.444 = 2.11 (+111).",
+       "why_not": "Carolina is on a back-to-back, and last season he went 2+ in only 46 of 81 games.",
        "now": "-250"
       }
-     ]
+     ],
+     "why_not": "All three legs must hit, and Rays +2.5 at -600 adds little payout while still losing to a Cleveland blowout."
     }
    },
    "MLB": {
@@ -153,11 +167,12 @@
      "odds": "-130",
      "game": "TB @ CLE 5:08 PM ET · On hold: posts only if it's back to -130 or better at lineup lock; otherwise no MLB POTD today",
      "status": "Pre-lock",
-     "why": "ALCS Game 5, tied 2-2, and the only MLB game today. TB has the better starter: Drew Rasmussen (2.67 ERA, 0.91 WHIP, .543 OPS allowed; 8 one-hit innings vs NYY and 6 innings with 2 earned runs vs CLE this postseason). Parker Messick (2.56 ERA in the regular season) has been pulled early in all three playoff starts (4.1, 2.1 and 5.0 innings), so Cleveland's bullpen has to cover a lot of innings. Savant BvP against Rasmussen (career incl. playoffs, small samples): Kwan 5-for-15 (xBA .288), Ramírez 2-for-15 (.099), Rocchio 1-for-12, DeLauter 4-for-7 with 1 HR, Adell 0-for-7, Lowe 2-for-6, Bazzana 1-for-8. TB against Messick: no HRs in 97 combined plate appearances (Díaz 3-for-14, Caminero 2-for-14, Simpson 4-for-13). Risks: TB hits only .679 OPS against lefties (vs .752 against righties), and CLE has home field. Weather at Progressive Field (Open-Meteo): about 60°F at first pitch, cooling to the low 50s, wind 9 mph from the SSW, 0% rain. Lineups aren't posted yet, so this stays pre-lock and gets rechecked when they are. Hard Rock -130 (6:19 AM ET pull). No MLB parlay: it's a one-game slate, and I won't build a same-game parlay without a Hard Rock SGP price. Runners-up note: only 6 MLB runners-up met the bar today (1 +EV, 5 Quality). Hitter props wait for confirmed lineups (top-5 rule), K and outs props are off in the playoffs, and nothing else priced -105 to -130 had a real edge.",
+     "why": "ALCS Game 5, tied 2-2, and the only MLB game today. TB has the better starter: Drew Rasmussen (2.67 ERA, 0.91 WHIP, .543 OPS allowed; 8 one-hit innings vs NYY and 6 innings with 2 earned runs vs CLE this postseason). Parker Messick (2.56 ERA in the regular season) has been pulled early in all three playoff starts (4.1, 2.1 and 5.0 innings), so Cleveland's bullpen has to cover a lot of innings. Savant BvP against Rasmussen (career incl. playoffs, small samples): Kwan 5-for-15 (xBA .288), Ramírez 2-for-15 (.099), Rocchio 1-for-12, DeLauter 4-for-7 with 1 HR, Adell 0-for-7, Lowe 2-for-6, Bazzana 1-for-8. TB against Messick: no HRs in 97 combined plate appearances (Díaz 3-for-14, Caminero 2-for-14, Simpson 4-for-13). Weather at Progressive Field (Open-Meteo): about 60°F at first pitch, cooling to the low 50s, wind 9 mph from the SSW, 0% rain. Lineups aren't posted yet, so this stays pre-lock and gets rechecked when they are. Hard Rock -130 (6:19 AM ET pull). No MLB parlay: it's a one-game slate, and I won't build a same-game parlay without a Hard Rock SGP price. Runners-up note: only 6 MLB runners-up met the bar today (1 +EV, 5 Quality). Hitter props wait for confirmed lineups (top-5 rule), K and outs props are off in the playoffs, and nothing else priced -105 to -130 had a real edge.",
      "desc": "Tampa Bay Rays ML -130 (TB @ CLE 5:08 PM ET · On hold: posts only if it's back to -130 or better at lineup lock; otherwise no MLB POTD today)",
      "lu_txt": "TB ✗ CLE ✗",
      "lu": "red",
-     "now": "-140"
+     "now": "-140",
+     "why_not": "TB hits only .679 OPS against lefties (vs .752 against righties), and CLE has home field."
     },
     "parlay": null,
     "runners_up": [
@@ -166,11 +181,12 @@
       "odds": "+110",
       "game": "TB @ CLE 5:08 PM ET",
       "status": "Pre-lock",
-      "why": "Best value on the board: the same starter edge as the POTD over five innings at plus money (+110 implies 48%). TB has led after five in 2 of 4 series games. Messick's early hooks put CLE's bullpen in the 4th or 5th. Risk: a tie after five loses, and TB hits .679 OPS against lefties. About 60°F, SSW wind 9 mph, 0% rain. Lineups are pending.",
+      "why": "Best value on the board: the same starter edge as the POTD over five innings at plus money (+110 implies 48%). TB has led after five in 2 of 4 series games. Messick's early hooks put CLE's bullpen in the 4th or 5th. About 60°F, SSW wind 9 mph, 0% rain. Lineups are pending.",
       "grade": "C+",
       "rank": 1,
       "lu_txt": "TB ✗ CLE ✗",
-      "lu": "red"
+      "lu": "red",
+      "why_not": "A tie after five loses, and TB hits .679 OPS against lefties."
      },
      {
       "pick": "(Quality) Tampa Bay Rays F5 +1.5",
@@ -180,6 +196,7 @@
       "why": "Loses only if Cleveland leads by 2+ after five innings, which hasn't happened in this series (CLE's best was 3-2 in Game 3). Cleveland managed 0 runs in five innings against Rasmussen in Game 1, and Savant BvP has the core well below .200 xBA except Kwan and DeLauter. Weather is fine (60°F, 0% rain). Lineups are pending.",
       "grade": "A-",
       "rank": 2,
+      "why_not": "Messick's early hook brings in Cleveland's bullpen, and Kwan and DeLauter have hit Rasmussen well.",
       "lu_txt": "TB ✗ CLE ✗",
       "lu": "red"
      },
@@ -188,23 +205,25 @@
       "odds": "-325",
       "game": "TB @ CLE 5:08 PM ET",
       "status": "Pre-lock",
-      "why": "TB is the -130 favorite, so this loses only on a Cleveland win by 2+. It covered 3 of 4 series games. Rasmussen against Messick's short starts favors TB. 60°F, SSW wind 9 mph, 0% rain. Risk: CLE's 7-3 Game 1 win came off TB's bullpen.",
+      "why": "TB is the -130 favorite, so this loses only on a Cleveland win by 2+. It covered 3 of 4 series games. Rasmussen against Messick's short starts favors TB. 60°F, SSW wind 9 mph, 0% rain.",
       "grade": "A-",
       "rank": 3,
       "lu_txt": "TB ✗ CLE ✗",
       "lu": "red",
-      "now": "-350"
+      "now": "-350",
+      "why_not": "CLE's 7-3 Game 1 win came off TB's bullpen."
      },
      {
       "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
       "odds": "-375",
       "game": "TB @ CLE 5:08 PM ET",
       "status": "Pre-lock",
-      "why": "Cleveland has scored 0, 0, 3 and 1 in the series' first fives (under in 3 of 4) and was shut out through five against Rasmussen in Game 1. Rasmussen allows a .568 OPS to lefties, and CLE's lineup leans left. 60°F, 0% rain. Risk: DeLauter (4-for-7, 1 HR vs Rasmussen).",
+      "why": "Cleveland has scored 0, 0, 3 and 1 in the series' first fives (under in 3 of 4) and was shut out through five against Rasmussen in Game 1. Rasmussen allows a .568 OPS to lefties, and CLE's lineup leans left. 60°F, 0% rain.",
       "grade": "B+",
       "rank": 4,
       "lu_txt": "TB ✗ CLE ✗",
-      "lu": "red"
+      "lu": "red",
+      "why_not": "DeLauter (4-for-7, 1 HR vs Rasmussen)."
      },
      {
       "pick": "(Quality) Tampa Bay Rays F5 +0.5",
@@ -214,6 +233,7 @@
       "why": "Wins if TB is tied or ahead after five, which happened in 3 of 4 series games (2-0, 3-0, 1-1; lost 2-3 in Game 3). It's the starter edge without needing a lead. 60°F, 0% rain. Lineups are pending.",
       "grade": "B",
       "rank": 5,
+      "why_not": "Cleveland led after five in Game 3 (3-2), and any deficit after five loses it.",
       "lu_txt": "TB ✗ CLE ✗",
       "lu": "red"
      },
@@ -225,6 +245,7 @@
       "why": "First-five totals in this series: 2, 3, 5 and 2 (under in 3 of 4). Two strong starters (Rasmussen .91 WHIP, Messick 1.06), and Savant shows no HRs by TB's hitters against Messick in 97 plate appearances. Graded down because Messick's early hook means CLE's middle relief may pitch the 4th and 5th. 60°F, wind 9 mph from the SSW.",
       "grade": "B-",
       "rank": 6,
+      "why_not": "Game 3 had 5 runs in the first five, and Messick's early hook can bring weaker relievers in by the 4th.",
       "lu_txt": "TB ✗ CLE ✗",
       "lu": "red"
      }
@@ -236,8 +257,9 @@
      "odds": "-105",
      "game": "CBJ @ MIN 6:00 PM ET",
      "status": "Pending",
-     "why": "Same play as the main POTD: 1 or fewer shots in 5 of 6 games this season (1,1,1,7,1,0) and in 44 of 82 last season. Columbus is on a road back-to-back at Minnesota (26.8 shots allowed per game). NHL API game logs; Hard Rock -105 (6:19 AM ET pull). Risk: the 7-shot spike on Oct 9. Runners-up note: only 7 NHL runners-up met the bar today. With two games, just 1 of the 4 -105 to -130 slots had a real edge.",
-     "desc": "Charlie Coyle u1.5 SOG -105 (CBJ @ MIN 6:00 PM ET)"
+     "why": "Same play as the main POTD: 1 or fewer shots in 5 of 6 games this season (1,1,1,7,1,0) and in 44 of 82 last season. Columbus is on a road back-to-back at Minnesota (26.8 shots allowed per game). NHL API game logs; Hard Rock -105 (6:19 AM ET pull). Runners-up note: only 7 NHL runners-up met the bar today. With two games, just 1 of the 4 -105 to -130 slots had a real edge.",
+     "desc": "Charlie Coyle u1.5 SOG -105 (CBJ @ MIN 6:00 PM ET)",
+     "why_not": "The 7-shot spike on Oct 9."
     },
     "parlay": {
      "pick": "2-leg",
@@ -252,17 +274,20 @@
        "odds": "-185",
        "game": "CBJ @ MIN 6:00 PM ET",
        "status": "Pending",
-       "why": "MIN is 3-0 at home with Wallstedt confirmed (.921). Columbus is on a back-to-back with Talbot (.822) likely (unconfirmed), allows 3.5 goals per game, and has a 66.7% penalty kill. Risk: MIN is missing Spurgeon, Faber and Maatta."
+       "why": "MIN is 3-0 at home with Wallstedt confirmed (.921). Columbus is on a back-to-back with Talbot (.822) likely (unconfirmed), allows 3.5 goals per game, and has a 66.7% penalty kill.",
+       "why_not": "MIN is missing Spurgeon, Faber and Maatta."
       },
       {
        "pick": "Carolina Hurricanes ML",
        "odds": "-200",
        "game": "CAR @ CGY 8:00 PM ET",
        "status": "Pending",
-       "why": "CAR is 7-1-1 (5-0 on the road), and Calgary is 1-6, allowing 5.0 goals per game with Wolf at .834. Risk: CAR's back-to-back with Bussi (.871) likely, plus Hall, Jarvis and Staal out. Combined price: 1.541 x 1.500 = 2.31 (+131). Separate games.",
-       "now": "-220"
+       "why": "CAR is 7-1-1 (5-0 on the road), and Calgary is 1-6, allowing 5.0 goals per game with Wolf at .834. Combined price: 1.541 x 1.500 = 2.31 (+131). Separate games.",
+       "now": "-220",
+       "why_not": "CAR's back-to-back with Bussi (.871) likely, plus Hall, Jarvis and Staal out."
       }
-     ]
+     ],
+     "why_not": "Both moneylines must win: Carolina is on a back-to-back with its backup likely in goal, and Minnesota is missing three defensemen."
     },
     "runners_up": [
      {
@@ -270,9 +295,10 @@
       "odds": "+130",
       "game": "CBJ @ MIN 6:00 PM ET",
       "status": "Pending",
-      "why": "Best value: 4 of MIN's 5 regulation wins came by 2+, and all three Columbus losses were by 2+ (1-4, 3-5, 3-7). A tired CBJ team with its backup goalie likely in net, plus MIN's 33.3% power play, gives this a real shot at +130 (43% implied). Empty-net goals help. Risk: a one-goal game.",
+      "why": "Best value: 4 of MIN's 5 regulation wins came by 2+, and all three Columbus losses were by 2+ (1-4, 3-5, 3-7). A tired CBJ team with its backup goalie likely in net, plus MIN's 33.3% power play, gives this a real shot at +130 (43% implied). Empty-net goals help.",
       "grade": "B-",
-      "rank": 1
+      "rank": 1,
+      "why_not": "A one-goal game."
      },
      {
       "pick": "Kirill Kaprizov u3.5 SOG",
@@ -281,7 +307,8 @@
       "status": "Pending",
       "why": "3 or fewer shots in 5 of 8 games this season and 46 of 78 last season (59%), against 55% implied. Thin edge; he has a 6-shot game this year.",
       "grade": "B-",
-      "rank": 2
+      "rank": 2,
+      "why_not": "Kaprizov is Minnesota's top shooter and had a 6-shot game this year; last season he went over 3.5 in 32 of 78 games."
      },
      {
       "pick": "(Quality) Joel Eriksson Ek o1.5 SOG",
@@ -290,17 +317,19 @@
       "status": "Pending",
       "why": "2+ shots in 7 of 8 games this season and 56 of 70 last season (80%) on 18-23 minutes; CBJ is on a road back-to-back.",
       "grade": "A-",
-      "rank": 3
+      "rank": 3,
+      "why_not": "He had a 0-shot game on Oct 6, so a quiet night can happen even against a tired team."
      },
      {
       "pick": "(Quality) Jackson Blake o1.5 SOG",
       "odds": "-225",
       "game": "CAR @ CGY 8:00 PM ET",
       "status": "Pending",
-      "why": "2+ shots in 8 of 9 games (2.78 average). Hall, Jarvis and Staal are out, and Calgary allows 28.7 shots per game. Risk: CAR's back-to-back. Also a +100 ticket leg.",
+      "why": "2+ shots in 8 of 9 games (2.78 average). Hall, Jarvis and Staal are out, and Calgary allows 28.7 shots per game. Also a +100 ticket leg.",
       "grade": "B+",
       "rank": 4,
-      "now": "-250"
+      "now": "-250",
+      "why_not": "CAR's back-to-back."
      },
      {
       "pick": "(Quality) Matt Boldy o2.5 SOG",
@@ -309,25 +338,28 @@
       "status": "Pending",
       "why": "3+ shots in 7 of 8 games this season (4.38 average) and 48 of 76 last season (63%); CBJ is tired and allows 27.2 shots per game. Also a +100 ticket leg.",
       "grade": "B+",
-      "rank": 5
+      "rank": 5,
+      "why_not": "He had a 1-shot game on Oct 13, and last season he hit 3+ in only 48 of 76 games."
      },
      {
       "pick": "(Quality) Adam Fantilli o1.5 SOG",
       "odds": "-260",
       "game": "CBJ @ MIN 6:00 PM ET",
       "status": "Pending",
-      "why": "2+ shots in 5 of 6 games this season (5,2,4,3,1,2) on 17-24 minutes and 57 of 82 last season (70%). Risk: Columbus on a road back-to-back.",
+      "why": "2+ shots in 5 of 6 games this season (5,2,4,3,1,2) on 17-24 minutes and 57 of 82 last season (70%).",
       "grade": "B-",
-      "rank": 6
+      "rank": 6,
+      "why_not": "Columbus on a road back-to-back."
      },
      {
       "pick": "(Quality) Nikolaj Ehlers u2.5 SOG",
       "odds": "-160",
       "game": "CAR @ CGY 8:00 PM ET",
       "status": "Pending",
-      "why": "2 or fewer shots in 7 of 9 games this season (1,1,3,1,1,2,1,4,2) on 11-20 minutes and 47 of 82 last season (57%), against 62% implied. Risk: more power-play time with Hall and Jarvis out.",
+      "why": "2 or fewer shots in 7 of 9 games this season (1,1,3,1,1,2,1,4,2) on 11-20 minutes and 47 of 82 last season (57%), against 62% implied.",
       "grade": "B-",
-      "rank": 7
+      "rank": 7,
+      "why_not": "More power-play time with Hall and Jarvis out."
      }
     ]
    },
@@ -337,8 +369,9 @@
      "odds": "-130",
      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
      "status": "Pending",
-     "why": "Grade B. Byron starts P10 in the confirmed lineup. Across the 9 Next Gen Phoenix races he has the best average running position in the field (5.6) and the second-best driver rating (109.0, behind Blaney's 114.4), with 6 top-10s in 9 starts (67%), 1 win and a 10.7 average finish. His last three Phoenix finishes are 7, 33 and 6. Hard Rock -130 implies 56.5%, below his 67% Phoenix top-10 rate. Our Top 10 box also projects him inside the top 10 (9th). Risks: his recent form is poor (NASCAR qualifying-order metric 31.2, the worst among the contenders), he wasn't in the practice top 5, and the 33rd last fall shows a wreck or pit problem can sink this. It's the only -115 to -130 play with a real edge: Ty Gibbs Top 10 -130 is the other one (see runners-up), and no Top 5 price falls in that range. Locked Sat Oct 17 9:36 PM ET off the live Hard Rock lines seen at 9:31 PM ET (hr-lines/nascar-phoenix-hr-live-2131.md). This replaces the earlier Larson-over-Briscoe H2H POTD: Hard Rock pulled that price and doesn't offer H2H for this race. Only \"now X\" price markers change from here.",
-     "desc": "William Byron Top 10 -130 (Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET)"
+     "why": "Grade B. Byron starts P10 in the confirmed lineup. Across the 9 Next Gen Phoenix races he has the best average running position in the field (5.6) and the second-best driver rating (109.0, behind Blaney's 114.4), with 6 top-10s in 9 starts (67%), 1 win and a 10.7 average finish. His last three Phoenix finishes are 7, 33 and 6. Hard Rock -130 implies 56.5%, below his 67% Phoenix top-10 rate. Our Top 10 box also projects him inside the top 10 (9th). It's the only -115 to -130 play with a real edge: Ty Gibbs Top 10 -130 is the other one (see runners-up), and no Top 5 price falls in that range. Locked Sat Oct 17 9:36 PM ET off the live Hard Rock lines seen at 9:31 PM ET (hr-lines/nascar-phoenix-hr-live-2131.md). This replaces the earlier Larson-over-Briscoe H2H POTD: Hard Rock pulled that price and doesn't offer H2H for this race. Only \"now X\" price markers change from here.",
+     "desc": "William Byron Top 10 -130 (Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET)",
+     "why_not": "His recent form is poor (NASCAR qualifying-order metric 31.2, the worst among the contenders), he wasn't in the practice top 5, and the 33rd last fall shows a wreck or pit problem can sink this."
     },
     "parlay": {
      "pick": "2-leg",
@@ -353,16 +386,19 @@
        "odds": "-165",
        "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
        "status": "Pending",
-       "why": "On the pole (26.250s, 137.143 mph) and fastest in Saturday practice. He has 8 top-5s in 9 Next Gen Phoenix races (89%), a 5.2 average finish, the best driver rating in the field (114.4), and he won the last two races here (Mar 2026, Nov 2025). His recent-form metric is 3.6 (good). -165 implies 62%. Risk: he finished 28th here in spring 2025, so trouble can happen."
+       "why": "On the pole (26.250s, 137.143 mph) and fastest in Saturday practice. He has 8 top-5s in 9 Next Gen Phoenix races (89%), a 5.2 average finish, the best driver rating in the field (114.4), and he won the last two races here (Mar 2026, Nov 2025). His recent-form metric is 3.6 (good). -165 implies 62%.",
+       "why_not": "He finished 28th here in spring 2025, so trouble can happen."
       },
       {
        "pick": "Denny Hamlin Top 10",
        "odds": "-275",
        "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
        "status": "Pending",
-       "why": "Starts P4, was 4th in practice and ran the most practice laps (84). His last three Phoenix finishes are 5, 6 and 2, with an 8.3 average running position and a 101.8 driver rating. His recent-form metric is 4.1 (good). -275 implies 73%. Risk: only 5 of 9 Next Gen Phoenix top-10s overall."
+       "why": "Starts P4, was 4th in practice and ran the most practice laps (84). His last three Phoenix finishes are 5, 6 and 2, with an 8.3 average running position and a 101.8 driver rating. His recent-form metric is 4.1 (good). -275 implies 73%.",
+       "why_not": "Only 5 of 9 Next Gen Phoenix top-10s overall."
       }
-     ]
+     ],
+     "why_not": "Both legs must hit: Blaney finished 28th here in spring 2025, and Hamlin has only 5 top-10s in 9 Next Gen races here."
     },
     "runners_up": [
      {
@@ -372,7 +408,8 @@
       "status": "Pending",
       "why": "Starts on the front row (P2) and was 3rd in practice. He won 2 Next Gen Phoenix races, but only 3 of 9 were top-5s (avg finish 13.4, avg running 11.1), and his last three here are 31, 4 and 13. -105 implies 51%. Track position plus practice speed make it playable, but his history says it's close to fair. Shortfall: only 2 of the 4 -105 to -130 slots are filled. Hard Rock's only other prices in that range are Byron Top 10 -130 (our POTD) and this race has no H2H; Top 3 prices weren't captured. Locked 9:36 PM ET.",
       "grade": "C+",
-      "rank": 1
+      "rank": 1,
+      "why_not": "Only 3 of his 9 Next Gen Phoenix races were top-5s, and he finished 31st here in March."
      },
      {
       "pick": "Ty Gibbs Top 10",
@@ -381,16 +418,18 @@
       "status": "Pending",
       "why": "Starts P7 and finished 4th here in March 2026. But he has only 2 top-10s in 7 Next Gen Phoenix starts (20.3 avg finish, 19.0 avg running, 67.2 rating), and his recent-form metric is weak (26.5). -130 implies 56.5%, so this price is fair at best. It's here mainly for the starting spot. Locked 9:36 PM ET.",
       "grade": "C",
-      "rank": 2
+      "rank": 2,
+      "why_not": "Only 2 top-10s in 7 Next Gen Phoenix starts, with a 20.3 average finish."
      },
      {
       "pick": "(+EV) Kyle Larson Top 5",
       "odds": "+200",
       "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
       "status": "Pending",
-      "why": "Best value: Larson has 6 top-5s in 9 Next Gen Phoenix races (67%), finished 3rd in each of his last three here, and has a 102.1 rating with a good recent-form metric (4.5). +200 implies only 33%. Risk: he starts P22 after a poor qualifying run, so he has to pass about 17 cars. Locked 9:36 PM ET.",
+      "why": "Best value: Larson has 6 top-5s in 9 Next Gen Phoenix races (67%), finished 3rd in each of his last three here, and has a 102.1 rating with a good recent-form metric (4.5). +200 implies only 33%. Locked 9:36 PM ET.",
       "grade": "B-",
-      "rank": 3
+      "rank": 3,
+      "why_not": "He starts P22 after a poor qualifying run, so he has to pass about 17 cars."
      },
      {
       "pick": "(Quality) Ryan Blaney Top 10",
@@ -399,16 +438,18 @@
       "status": "Pending",
       "why": "Pole and fastest in practice. 8 of 9 Next Gen Phoenix top-10s, 5.2 average finish, back-to-back Phoenix wins, 114.4 rating. -500 implies 83%. Locked 9:36 PM ET.",
       "grade": "A",
-      "rank": 4
+      "rank": 4,
+      "why_not": "He finished 28th here in spring 2025, so one crash or pit problem sinks it."
      },
      {
       "pick": "(Quality) Christopher Bell Top 10",
       "odds": "-500",
       "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
       "status": "Pending",
-      "why": "Starts P5 and had the best 10-lap average in practice (5th overall). 2 Phoenix wins, last three here 2, 11 and 1, 107.3 rating, best recent-form metric among the contenders (2.3). Risk: 6 of 9 top-10s here, which is below the 83% that -500 implies. Locked 9:36 PM ET.",
+      "why": "Starts P5 and had the best 10-lap average in practice (5th overall). 2 Phoenix wins, last three here 2, 11 and 1, 107.3 rating, best recent-form metric among the contenders (2.3). Locked 9:36 PM ET.",
       "grade": "A-",
-      "rank": 5
+      "rank": 5,
+      "why_not": "6 of 9 top-10s here, which is below the 83% that -500 implies."
      },
      {
       "pick": "(Quality) Denny Hamlin Top 10",
@@ -417,7 +458,8 @@
       "status": "Pending",
       "why": "Starts P4, 4th in practice with the most laps. Last three here 5, 6 and 2, 8.3 average running position. This is also a parlay leg. Locked 9:36 PM ET.",
       "grade": "B+",
-      "rank": 6
+      "rank": 6,
+      "why_not": "Only 5 of his 9 Next Gen Phoenix races ended in the top 10."
      },
      {
       "pick": "(Quality) Kyle Larson Top 10",
@@ -426,16 +468,18 @@
       "status": "Pending",
       "why": "7 of 9 Next Gen Phoenix top-10s (78%), 8.6 average finish, 3rd in each of the last three. -150 implies 60%, with the P22 start as the discount. Locked 9:36 PM ET.",
       "grade": "B",
-      "rank": 7
+      "rank": 7,
+      "why_not": "He starts 22nd, and gaining spots on a short, flat track like Phoenix is hard."
      },
      {
       "pick": "(Quality) Joey Logano Top 10",
       "odds": "-325",
       "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
       "status": "Pending",
-      "why": "Starts P2 and was 3rd in practice, so he begins with track position and speed. Risk: 4 of 9 Next Gen Phoenix top-10s and 31st here in March. -325 implies 76.5%. Locked 9:36 PM ET.",
+      "why": "Starts P2 and was 3rd in practice, so he begins with track position and speed. Locked 9:36 PM ET.",
       "grade": "B",
-      "rank": 8
+      "rank": 8,
+      "why_not": "4 of 9 Next Gen Phoenix top-10s and 31st here in March. -325 implies 76.5%."
      }
     ]
    },
@@ -445,9 +489,10 @@
      "odds": "-120",
      "game": "Texans @ Jaguars Sun 9:30 AM ET",
      "status": "Pending",
-     "why": "JAX 4-1 with the NFL's 2nd-best scoring D (14.0 pts/g allowed), +53 point diff, SRS +12.5; HOU 1-4, 22.0 pts/g, SRS -2.6 (PFR/TeamRankings through Wk 6). A 15-point rating gap vs a 2.5-pt line. Risk: neutral-site London game, HOU D allows only 11.0 on the road. Hard Rock price via agentbets.ai (The Odds API Hard Rock feed, Oct 17 5 PM ET). Locked Sat 9:30 AM ET (kickoff −24h). Stake 5% = $3.33, pays $6.11.",
+     "why": "JAX 4-1 with the NFL's 2nd-best scoring D (14.0 pts/g allowed), +53 point diff, SRS +12.5; HOU 1-4, 22.0 pts/g, SRS -2.6 (PFR/TeamRankings through Wk 6). A 15-point rating gap vs a 2.5-pt line. Hard Rock price via agentbets.ai (The Odds API Hard Rock feed, Oct 17 5 PM ET). Locked Sat 9:30 AM ET (kickoff −24h). Stake 5% = $3.33, pays $6.11.",
      "desc": "Jacksonville Jaguars -2.5 -120 (Texans @ Jaguars Sun 9:30 AM ET)",
-     "now": "-115"
+     "now": "-115",
+     "why_not": "Neutral-site London game, HOU D allows only 11.0 on the road."
     },
     "parlay": {
      "pick": "2-leg",
@@ -463,6 +508,7 @@
        "game": "Saints @ Giants Sun 1:00 PM ET",
        "status": "Pending",
        "why": "NYG 3-1-1 allowing 21.2 (17.0 at home) vs NO 1-4, losers of 3 straight, allowing 30.2 (31st). +1 covers a win or a 1-pt loss. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
+       "why_not": "It's close to a coin flip: a Saints win by 2 or more loses it.",
        "now": "-115"
       },
       {
@@ -471,9 +517,11 @@
        "game": "Cardinals @ Rams Sun 4:05 PM ET",
        "status": "Pending",
        "why": "ARI 1-4, lost 4 straight, worst D in the league (32.4 allowed, 39.0 last 3); Rams favored by 13. Hard Rock via agentbets.ai. Locked Sat 4:05 PM ET.",
+       "why_not": "At -900 it adds little to the parlay, and one upset sinks the ticket.",
        "now": "-850"
       }
-     ]
+     ],
+     "why_not": "Both legs must hit: the Giants leg is close to a coin flip, and the Rams leg adds little to the price."
     },
     "runners_up": [
      {
@@ -481,9 +529,10 @@
       "odds": "-105",
       "game": "Chargers @ Chiefs Sun 4:25 PM ET",
       "status": "Pending",
-      "why": "Best value: KC 4-0 (SRS +8.5, 19.3 allowed) vs LAC 0-5 scoring 16.8 (SRS -9.6). An 18-pt rating gap priced at -7.5 at near-even juice. Risk: hook at 7.5. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
+      "why": "Best value: KC 4-0 (SRS +8.5, 19.3 allowed) vs LAC 0-5 scoring 16.8 (SRS -9.6). An 18-pt rating gap priced at -7.5 at near-even juice. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
       "grade": "B+",
-      "rank": 1
+      "rank": 1,
+      "why_not": "Hook at 7.5."
      },
      {
       "pick": "Chargers @ Chiefs Under 41",
@@ -492,7 +541,8 @@
       "status": "Pending",
       "why": "LAC offense 16.8 pts/g (OSRS -9.9); KC D 19.3 allowed. Projection ~38-40. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
       "grade": "B",
-      "rank": 2
+      "rank": 2,
+      "why_not": "Kansas City can pile up points against a winless team, and one blowout pushes it over 41."
      },
      {
       "pick": "Steelers @ Buccaneers Under 38.5",
@@ -501,27 +551,30 @@
       "status": "Pending",
       "why": "Mayfield OUT (thumb); rookie Jalon Daniels makes a 3rd start for a 1-4 TB offense (20.0 pts/g). PIT offense 22.2. Freiermuth questionable. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
       "grade": "B",
-      "rank": 3
+      "rank": 3,
+      "why_not": "Pittsburgh scores 22.2 per game, and one defensive or special-teams touchdown can push it over."
      },
      {
       "pick": "Indianapolis Colts -7",
       "odds": "-105",
       "game": "Titans @ Colts Sun 1:00 PM ET",
       "status": "Pending",
-      "why": "TEN 0-5 scoring 11.6 pts/g (worst, OSRS -10.9), SRS -13.2 vs IND -2.9. Risk: IND D allows 27.6. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET. Price check 6:30 PM ET: Hard Rock's main line moved to Colts -6.5 -115 (Titans +6.5 -105); -7 no longer shows as the main spread. This pick stays locked at -7 -105.",
+      "why": "TEN 0-5 scoring 11.6 pts/g (worst, OSRS -10.9), SRS -13.2 vs IND -2.9. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET. Price check 6:30 PM ET: Hard Rock's main line moved to Colts -6.5 -115 (Titans +6.5 -105); -7 no longer shows as the main spread. This pick stays locked at -7 -105.",
       "grade": "B-",
       "rank": 4,
-      "now": "+105"
+      "now": "+105",
+      "why_not": "IND D allows 27.6."
      },
      {
       "pick": "Ravens @ Browns Over 39.5",
       "odds": "-115",
       "game": "Ravens @ Browns Sun 1:00 PM ET",
       "status": "Pending",
-      "why": "BAL scores 29.2 and allows 23.8; CLE averages 18.6. Season averages project ~45. Risk: division game, CLE D 19.7 last 3. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
+      "why": "BAL scores 29.2 and allows 23.8; CLE averages 18.6. Season averages project ~45. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
       "grade": "C+",
       "rank": 5,
-      "now": "-110"
+      "now": "-110",
+      "why_not": "Division game, CLE D 19.7 last 3."
      },
      {
       "pick": "(Quality) Kansas City Chiefs ML",
@@ -531,6 +584,7 @@
       "why": "Unbeaten KC vs winless LAC (-45 point diff). Overlaps the KC -7.5. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
       "grade": "A",
       "rank": 6,
+      "why_not": "It's a big favorite with little payout, and it overlaps the Chiefs -7.5 pick.",
       "now": "-450"
      },
      {
@@ -540,7 +594,8 @@
       "status": "Pending",
       "why": "TEN has scored 58 points in 5 games. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
       "grade": "A-",
-      "rank": 7
+      "rank": 7,
+      "why_not": "Indianapolis's defense allows 27.6 points per game, so Tennessee can keep it close."
      },
      {
       "pick": "(Quality) New England Patriots ML",
@@ -549,7 +604,8 @@
       "status": "Pending",
       "why": "NE SRS +7.5 vs NYJ -1.4; NE allows 10.0 at home; NYJ offense 18.6. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
       "grade": "B+",
-      "rank": 8
+      "rank": 8,
+      "why_not": "The Jets score 18.6 per game, so an off day for New England's offense makes it close."
      },
      {
       "pick": "(Quality) Jacksonville Jaguars ML",
@@ -559,6 +615,7 @@
       "why": "Same edge as the POTD without the 2.5; take one, not both. Hard Rock via agentbets.ai. Locked Sat 9:30 AM ET.",
       "grade": "B+",
       "rank": 9,
+      "why_not": "It's a neutral-site London game, and Houston's defense allows only 11.0 points per game on the road.",
       "now": "-150"
      },
      {
@@ -569,6 +626,7 @@
       "why": "SF 5-0 (30.8 pts/g) vs WSH 1-3-1 allowing 29.8; Mariota doubtful, Croskey-Merritt expected out. Hard Rock via agentbets.ai. Provisional until Sun 8:15 PM ET (kickoff −24h).",
       "grade": "A-",
       "rank": 10,
+      "why_not": "It's provisional until Sunday night, and injury news on either side could change it.",
       "now": "-450"
      }
     ]
@@ -3626,7 +3684,7 @@
    }
   ]
  },
- "ui_build": "1792323570",
+ "ui_build": "1792323908",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -5176,7 +5234,8 @@
     "top10_odds": "-500",
     "top5_odds": "-165",
     "start": 1,
-    "why": "Hard Rock Top 10 -500 (implied 83%), Top 5 -165, win +350 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 5.2, avg running 6.0, driver rating 114.4, top-10s 8; last 3 at PHX 1 (2026-04), 1 (2025-36), 28 (2025-04). Recent form: NASCAR qualifying-order metric 3.6 (lower is better; it rates recent performance). Saturday practice P1. Starts P1 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -500 (implied 83%), Top 5 -165, win +350 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 5.2, avg running 6.0, driver rating 114.4, top-10s 8; last 3 at PHX 1 (2026-04), 1 (2025-36), 28 (2025-04). Recent form: NASCAR qualifying-order metric 3.6 (lower is better; it rates recent performance). Saturday practice P1. Starts P1 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 6; one bad break loses it."
    },
    {
     "rank": 2,
@@ -5185,7 +5244,8 @@
     "top10_odds": "-500",
     "top5_odds": "-165",
     "start": 5,
-    "why": "Hard Rock Top 10 -500 (implied 83%), Top 5 -165, win +350 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 10.9, avg running 10.0, driver rating 107.3, top-10s 6; last 3 at PHX 2 (2026-04), 11 (2025-36), 1 (2025-04). Recent form: NASCAR qualifying-order metric 2.3 (lower is better; it rates recent performance). Saturday practice P5, best 10-lap average. Starts P5 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -500 (implied 83%), Top 5 -165, win +350 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 10.9, avg running 10.0, driver rating 107.3, top-10s 6; last 3 at PHX 2 (2026-04), 11 (2025-36), 1 (2025-04). Recent form: NASCAR qualifying-order metric 2.3 (lower is better; it rates recent performance). Saturday practice P5, best 10-lap average. Starts P5 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 6; one bad break loses it."
    },
    {
     "rank": 3,
@@ -5194,7 +5254,8 @@
     "top10_odds": "-275",
     "top5_odds": "+105",
     "start": 4,
-    "why": "Hard Rock Top 10 -275 (implied 73%), Top 5 +105, win +700 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 9.7, avg running 8.3, driver rating 101.8, top-10s 5; last 3 at PHX 5 (2026-04), 6 (2025-36), 2 (2025-04). Recent form: NASCAR qualifying-order metric 4.1 (lower is better; it rates recent performance). Saturday practice P4, most laps (84). Starts P4 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -275 (implied 73%), Top 5 +105, win +700 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 9.7, avg running 8.3, driver rating 101.8, top-10s 5; last 3 at PHX 5 (2026-04), 6 (2025-36), 2 (2025-04). Recent form: NASCAR qualifying-order metric 4.1 (lower is better; it rates recent performance). Saturday practice P4, most laps (84). Starts P4 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
    },
    {
     "rank": 4,
@@ -5203,7 +5264,8 @@
     "top10_odds": "-325",
     "top5_odds": "-105",
     "start": 2,
-    "why": "Hard Rock Top 10 -325 (implied 76%), Top 5 -105, win +600 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 13.4, avg running 11.1, driver rating 98.4, top-10s 4; last 3 at PHX 31 (2026-04), 4 (2025-36), 13 (2025-04). Recent form: NASCAR qualifying-order metric 8.1 (lower is better; it rates recent performance). Saturday practice P3. Starts P2 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -325 (implied 76%), Top 5 -105, win +600 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 13.4, avg running 11.1, driver rating 98.4, top-10s 4; last 3 at PHX 31 (2026-04), 4 (2025-36), 13 (2025-04). Recent form: NASCAR qualifying-order metric 8.1 (lower is better; it rates recent performance). Saturday practice P3. Starts P2 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
    },
    {
     "rank": 5,
@@ -5212,7 +5274,8 @@
     "top10_odds": "-220",
     "top5_odds": "+135",
     "start": 3,
-    "why": "Hard Rock Top 10 -220 (implied 69%), Top 5 +135, win +900 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 18.2, avg running 16.9, driver rating 78.3, top-10s 4; last 3 at PHX 37 (2026-04), 18 (2025-36), 35 (2025-04). Recent form: NASCAR qualifying-order metric 1.9 (lower is better; it rates recent performance). Starts P3 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -220 (implied 69%), Top 5 +135, win +900 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 18.2, avg running 16.9, driver rating 78.3, top-10s 4; last 3 at PHX 37 (2026-04), 18 (2025-36), 35 (2025-04). Recent form: NASCAR qualifying-order metric 1.9 (lower is better; it rates recent performance). Starts P3 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
    },
    {
     "rank": 6,
@@ -5221,7 +5284,8 @@
     "top10_odds": "-140",
     "top5_odds": "+225",
     "start": 6,
-    "why": "Hard Rock Top 10 -140 (implied 58%), Top 5 +225, win +1600 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 13.4, avg running 9.6, driver rating 94.2, top-10s 5; last 3 at PHX 8 (2026-04), 26 (2025-36), 20 (2025-04). Recent form: NASCAR qualifying-order metric 7.7 (lower is better; it rates recent performance). Starts P6 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -140 (implied 58%), Top 5 +225, win +1600 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 13.4, avg running 9.6, driver rating 94.2, top-10s 5; last 3 at PHX 8 (2026-04), 26 (2025-36), 20 (2025-04). Recent form: NASCAR qualifying-order metric 7.7 (lower is better; it rates recent performance). Starts P6 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
    },
    {
     "rank": 7,
@@ -5230,7 +5294,8 @@
     "top10_odds": "-150",
     "top5_odds": "+200",
     "start": 22,
-    "why": "Hard Rock Top 10 -150 (implied 60%), Top 5 +200, win +1400 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 8.6, avg running 8.4, driver rating 102.1, top-10s 7; last 3 at PHX 3 (2026-04), 3 (2025-36), 3 (2025-04). Recent form: NASCAR qualifying-order metric 4.5 (lower is better; it rates recent performance). Starts P22 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -150 (implied 60%), Top 5 +200, win +1400 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 8.6, avg running 8.4, driver rating 102.1, top-10s 7; last 3 at PHX 3 (2026-04), 3 (2025-36), 3 (2025-04). Recent form: NASCAR qualifying-order metric 4.5 (lower is better; it rates recent performance). Starts P22 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 2; one bad break loses it."
    },
    {
     "rank": 8,
@@ -5239,7 +5304,8 @@
     "top10_odds": "-150",
     "top5_odds": "+200",
     "start": 9,
-    "why": "Hard Rock Top 10 -150 (implied 60%), Top 5 +200, win +1400 (live 9:31 PM ET lines). Phoenix Next Gen (6 starts): avg finish 17.2, avg running 18.0, driver rating 71.1, top-10s 3; last 3 at PHX 32 (2026-04), 7 (2025-36), 4 (2025-04). Recent form: NASCAR qualifying-order metric 10.0 (lower is better; it rates recent performance). Starts P9 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -150 (implied 60%), Top 5 +200, win +1400 (live 9:31 PM ET lines). Phoenix Next Gen (6 starts): avg finish 17.2, avg running 18.0, driver rating 71.1, top-10s 3; last 3 at PHX 32 (2026-04), 7 (2025-36), 4 (2025-04). Recent form: NASCAR qualifying-order metric 10.0 (lower is better; it rates recent performance). Starts P9 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 2; one bad break loses it."
    },
    {
     "rank": 9,
@@ -5248,7 +5314,8 @@
     "top10_odds": "-130",
     "top5_odds": "+250",
     "start": 10,
-    "why": "Hard Rock Top 10 -130 (implied 57%), Top 5 +250, win +1750 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 10.7, avg running 5.6, driver rating 109.0, top-10s 6; last 3 at PHX 7 (2026-04), 33 (2025-36), 6 (2025-04). Recent form: NASCAR qualifying-order metric 31.2 (lower is better; it rates recent performance). Starts P10 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 -130 (implied 57%), Top 5 +250, win +1750 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 10.7, avg running 5.6, driver rating 109.0, top-10s 6; last 3 at PHX 7 (2026-04), 33 (2025-36), 6 (2025-04). Recent form: NASCAR qualifying-order metric 31.2 (lower is better; it rates recent performance). Starts P10 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
    },
    {
     "rank": 10,
@@ -5257,7 +5324,8 @@
     "top10_odds": "+145",
     "top5_odds": "+500",
     "start": 11,
-    "why": "Hard Rock Top 10 +145 (implied 41%), Top 5 +500, win +4000 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 11.9, avg running 11.0, driver rating 92.8, top-10s 4; last 3 at PHX 28 (2026-04), 13 (2025-36), 11 (2025-04). Recent form: NASCAR qualifying-order metric 16.9 (lower is better; it rates recent performance). Starts P11 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97."
+    "why": "Hard Rock Top 10 +145 (implied 41%), Top 5 +500, win +4000 (live 9:31 PM ET lines). Phoenix Next Gen (9 starts): avg finish 11.9, avg running 11.0, driver rating 92.8, top-10s 4; last 3 at PHX 28 (2026-04), 13 (2025-36), 11 (2025-04). Recent form: NASCAR qualifying-order metric 16.9 (lower is better; it rates recent performance). Starts P11 (official qualifying, confirmed). Score = 45% market Top-10 probability, 20% Phoenix history, 15% recent form, 20% starting position, scaled so the top driver is 97.",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
    }
   ]
  },
@@ -5275,7 +5343,8 @@
      "reason": "Rocchio 0.9 hits/gm this season (153 gms), 1.2 last 10; hit 1+ in 8 of last 10, 94 of 153 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 1
+     "rank": 1,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Jo Adell 1+ hits",
@@ -5285,7 +5354,8 @@
      "reason": "Adell 0.9 hits/gm this season (159 gms), 1.0 last 10; hit 1+ in 8 of last 10, 95 of 159 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 2
+     "rank": 2,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Junior Caminero 1+ hits",
@@ -5295,7 +5365,8 @@
      "reason": "Caminero 1.0 hits/gm this season (162 gms), 0.9 last 10; hit 1+ in 7 of last 10, 119 of 162 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 3
+     "rank": 3,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Jonathan Aranda 1+ hits",
@@ -5305,7 +5376,8 @@
      "reason": "Aranda 1.0 hits/gm this season (155 gms), 0.7 last 10; hit 1+ in 7 of last 10, 107 of 155 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 4
+     "rank": 4,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     }
    ],
    "alt": [
@@ -5318,7 +5390,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 1,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Rays @ Guardians Under 8.5",
@@ -5329,7 +5402,8 @@
      "reason": "2-pt cushion vs the main total 6.5; Hard Rock's prices make it about 69% to cash.",
      "updated": "07:41",
      "rank": 2,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     },
     {
      "pick": "Rays @ Guardians Under 7.5",
@@ -5340,7 +5414,8 @@
      "reason": "1-pt cushion vs the main total 6.5; Hard Rock's prices make it about 62% to cash.",
      "updated": "07:41",
      "rank": 3,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
     },
     {
      "pick": "Guardians +2.5",
@@ -5351,7 +5426,8 @@
      "reason": "1-pt cushion vs the main line (Guardians +1.5); Hard Rock's prices make it about 68% to cash.",
      "updated": "07:41",
      "rank": 4,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     },
     {
      "pick": "Chandler Simpson 2+ hits",
@@ -5362,7 +5438,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 1,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Chase DeLauter 2+ total bases",
@@ -5373,7 +5450,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 2,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Jose Ramirez 2+ total bases",
@@ -5384,7 +5462,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 3,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Jonny DeLuca 2+ total bases",
@@ -5395,7 +5474,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 4,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     }
    ]
   },
@@ -5412,7 +5492,8 @@
      "reason": "Blake 2.8 SOG/gm this season (9 gms), 2.9 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
      "updated": "07:41",
-     "rank": 1
+     "rank": 1,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Joel Eriksson Ek 3+ SOG",
@@ -5422,7 +5503,8 @@
      "reason": "Ek 2.9 SOG/gm this season (8 gms), 3.2 last 10; hit 3+ in 8 of last 10, 6 of 8 this season; 19 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
      "updated": "07:41",
-     "rank": 2
+     "rank": 2,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Matt Boldy 3+ SOG",
@@ -5432,7 +5514,8 @@
      "reason": "Boldy 4.4 SOG/gm this season (8 gms), 4.4 last 10; hit 3+ in 9 of last 10, 7 of 8 this season; 21 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
      "updated": "07:41",
-     "rank": 3
+     "rank": 3,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Morgan Frost 2+ SOG",
@@ -5442,7 +5525,8 @@
      "reason": "Frost 2.0 SOG/gm this season (7 gms), 2.3 last 10; hit 2+ in 8 of last 10, 5 of 7 this season; 16 min TOI; Hurricanes allow 21.7 shots/gm (lg 27.0).",
      "live": false,
      "updated": "07:41",
-     "rank": 4
+     "rank": 4,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Kent Johnson 2+ SOG",
@@ -5452,7 +5536,8 @@
      "reason": "Johnson 3.0 SOG/gm this season (6 gms), 2.4 last 10; hit 2+ in 7 of last 10, 5 of 6 this season; 15 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
      "updated": "07:41",
-     "rank": 5
+     "rank": 5,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Sebastian Aho 3+ SOG",
@@ -5462,7 +5547,8 @@
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 3+ in 6 of last 10, 5 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
      "updated": "07:41",
-     "rank": 6
+     "rank": 6,
+     "why_not": "It missed in 4 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Kirill Kaprizov 3+ SOG",
@@ -5472,7 +5558,8 @@
      "reason": "Kaprizov 3.2 SOG/gm this season (8 gms), 3.0 last 10; hit 3+ in 8 of last 10, 7 of 8 this season; 21 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
      "updated": "07:41",
-     "rank": 7
+     "rank": 7,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Logan Stankoven 3+ SOG",
@@ -5482,7 +5569,8 @@
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
      "updated": "07:41",
-     "rank": 8
+     "rank": 8,
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     }
    ],
    "alt": [
@@ -5495,7 +5583,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 1,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it."
     },
     {
      "pick": "Joel Eriksson Ek 2+ SOG",
@@ -5506,7 +5595,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 2,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Sebastian Aho 2+ SOG",
@@ -5517,7 +5607,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 3,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Logan Stankoven 2+ SOG",
@@ -5528,7 +5619,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 4,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Adam Fantilli 2+ SOG",
@@ -5539,7 +5631,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 5,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Quinn Hughes 2+ SOG",
@@ -5550,7 +5643,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 6,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Zayne Parekh 1+ SOG",
@@ -5561,7 +5655,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 7,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Flames +2.5",
@@ -5572,7 +5667,8 @@
      "reason": "1-pt cushion vs the main line (Flames +1.5); Hard Rock's prices make it about 67% to cash.",
      "updated": "07:41",
      "rank": 8,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     },
     {
      "pick": "Andrei Svechnikov 4+ SOG",
@@ -5583,7 +5679,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 1,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Sebastian Aho 3+ SOG",
@@ -5594,7 +5691,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 2,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 4 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Quinn Hughes 3+ SOG",
@@ -5605,7 +5703,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 3,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Matt Boldy 5+ SOG",
@@ -5616,7 +5715,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 4,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Logan Stankoven 3+ SOG",
@@ -5627,7 +5727,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 5,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     }
    ]
   },
@@ -5639,7 +5740,8 @@
      "odds": "-110",
      "grade": "B-",
      "reason": "NYG 3-1-1 allowing 17.0 at home vs NO 1-4, lost 3 straight, allowing 30.2 pts/g (31st). Pick'em price.",
-     "updated": "22:12"
+     "updated": "22:12",
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     }
    ],
    "spread": [
@@ -5648,16 +5750,18 @@
      "game": "Texans @ Jaguars Sun 9:30 AM ET",
      "odds": "-120",
      "grade": "B+",
-     "reason": "JAX 4-1 allowing 14.0 pts/g (2nd), SRS +12.5 vs HOU 1-4, SRS -2.6. Risk: neutral-site London game.",
-     "updated": "22:20"
+     "reason": "JAX 4-1 allowing 14.0 pts/g (2nd), SRS +12.5 vs HOU 1-4, SRS -2.6.",
+     "updated": "22:20",
+     "why_not": "Neutral-site London game."
     },
     {
      "pick": "Kansas City Chiefs -7.5",
      "game": "Chargers @ Chiefs Sun 4:25 PM ET",
      "odds": "-105",
      "grade": "B+",
-     "reason": "KC 4-0 (SRS +8.5) vs winless LAC scoring 16.8 pts/g (SRS -9.6). Risk: the hook at 7.5.",
-     "updated": "22:20"
+     "reason": "KC 4-0 (SRS +8.5) vs winless LAC scoring 16.8 pts/g (SRS -9.6).",
+     "updated": "22:20",
+     "why_not": "The hook at 7.5."
     },
     {
      "pick": "New York Giants +1",
@@ -5665,15 +5769,17 @@
      "odds": "-115",
      "grade": "B",
      "reason": "NYG 3-1-1 allowing 17.0 at home; NO 1-4, lost 3 straight, allows 30.2 pts/g (31st).",
-     "updated": "22:20"
+     "updated": "22:20",
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "pick": "Indianapolis Colts -6.5",
      "game": "Titans @ Colts Sun 1:00 PM ET",
      "odds": "-115",
      "grade": "B-",
-     "reason": "TEN 0-5 scoring 11.6 pts/g (worst), SRS -13.2 vs IND -2.9. Risk: IND D allows 27.6.",
-     "updated": "22:20"
+     "reason": "TEN 0-5 scoring 11.6 pts/g (worst), SRS -13.2 vs IND -2.9.",
+     "updated": "22:20",
+     "why_not": "IND D allows 27.6."
     }
    ],
    "total": [
@@ -5683,7 +5789,8 @@
      "odds": "-105",
      "grade": "B",
      "reason": "LAC offense 16.8 pts/g (OSRS -9.9); KC D allows 19.3. Projection about 38 to 40.",
-     "updated": "22:20"
+     "updated": "22:20",
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "pick": "Steelers @ Buccaneers Under 38.5",
@@ -5691,15 +5798,17 @@
      "odds": "-105",
      "grade": "B",
      "reason": "Mayfield out (thumb); rookie Jalon Daniels makes a 3rd start for a TB offense scoring 20.0 pts/g.",
-     "updated": "22:20"
+     "updated": "22:20",
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "pick": "Ravens @ Browns Over 39.5",
      "game": "Ravens @ Browns Sun 1:00 PM ET",
      "odds": "-115",
      "grade": "C+",
-     "reason": "BAL scores 29.2 and allows 23.8; CLE averages 18.6. Risk: division game, CLE D 19.7 last 3.",
-     "updated": "22:20"
+     "reason": "BAL scores 29.2 and allows 23.8; CLE averages 18.6.",
+     "updated": "22:20",
+     "why_not": "Division game, CLE D 19.7 last 3."
     }
    ],
    "props": [
@@ -5711,7 +5820,8 @@
      "reason": "Dowdle 12.0 carries/gm over his last 10 games; hit 7+ in 9 of last 10.",
      "live": false,
      "updated": "07:41",
-     "rank": 1
+     "rank": 1,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Omarion Hampton 33+ rush yds",
@@ -5721,7 +5831,8 @@
      "reason": "Hampton 54.2 rush yds/gm this season (5 gms), 54.6 last 10; hit 33+ in 9 of last 10, 5 of 5 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 2
+     "rank": 2,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Xavier Hutchinson 15+ rec yds",
@@ -5731,7 +5842,8 @@
      "reason": "Hutchinson 46.2 rec yds/gm this season (5 gms), 35.6 last 10; hit 15+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 3
+     "rank": 3,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Chris Rodriguez Jr. 5+ carries",
@@ -5741,7 +5853,8 @@
      "reason": "Rodriguez 5.6 carries/gm this season (5 gms), 9.5 last 10; hit 5+ in 9 of last 10, 4 of 5 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 4
+     "rank": 4,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Rome Odunze 40+ rec yds",
@@ -5751,7 +5864,8 @@
      "reason": "Odunze 54.6 rec yds/gm this season (5 gms), 46.1 last 10; hit 40+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 5
+     "rank": 5,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Chris Godwin Jr. 25+ rec yds",
@@ -5761,7 +5875,8 @@
      "reason": "Godwin 35.8 rec yds/gm this season (5 gms), 40.0 last 10; hit 25+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 6
+     "rank": 6,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Ty Johnson 2+ rec",
@@ -5771,7 +5886,8 @@
      "reason": "Johnson 3.3 rec/gm this season (3 gms), 2.6 last 10; hit 2+ in 9 of last 10, 3 of 3 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 7
+     "rank": 7,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Darren Waller 24+ rec yds",
@@ -5781,7 +5897,8 @@
      "reason": "Waller 37.0 rec yds/gm this season (4 gms), 31.4 last 10; hit 24+ in 7 of last 10, 4 of 4 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 8
+     "rank": 8,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Trey McBride 7+ rec",
@@ -5791,7 +5908,8 @@
      "reason": "McBride 8.4 rec/gm this season (5 gms), 8.0 last 10; hit 7+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 9
+     "rank": 9,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Tyler Shough 230+ pass yds",
@@ -5801,7 +5919,8 @@
      "reason": "Shough 259.8 pass yds/gm this season (5 gms), 261.5 last 10; hit 230+ in 8 of last 10, 4 of 5 this season.",
      "live": false,
      "updated": "07:41",
-     "rank": 10
+     "rank": 10,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     }
    ],
    "alt": [
@@ -5814,7 +5933,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 1,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it."
     },
     {
      "pick": "Jakobi Meyers 25+ rec yds",
@@ -5825,7 +5945,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 2,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it."
     },
     {
      "pick": "Chris Godwin Jr. 3+ rec",
@@ -5836,7 +5957,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 3,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Cam Skattebo 12+ carries",
@@ -5847,7 +5969,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 4,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Denzel Boston 40+ rec yds",
@@ -5858,7 +5981,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 5,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It hit in all of the last 5 games, but streaks end, and one quiet night sinks it."
     },
     {
      "pick": "Derrick Henry 65+ rush yds",
@@ -5869,7 +5993,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 6,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it."
     },
     {
      "pick": "C.J. Stroud 2+ carries",
@@ -5880,7 +6005,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 7,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it."
     },
     {
      "pick": "Cade Otton 3+ rec",
@@ -5891,7 +6017,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 8,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Antonio Williams 2+ rec",
@@ -5902,7 +6029,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 9,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It hit in all of the last 5 games, but streaks end, and one quiet night sinks it."
     },
     {
      "pick": "Keaton Mitchell 4+ carries",
@@ -5913,7 +6041,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 10,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Rico Dowdle 7+ carries",
@@ -5924,7 +6053,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 1,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Chris Rodriguez Jr. 6+ carries",
@@ -5935,7 +6065,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 2,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Omarion Hampton 12+ carries",
@@ -5946,7 +6077,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 3,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Xavier Hutchinson 25+ rec yds",
@@ -5957,7 +6089,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 4,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 4 of the last 10 games, so one quiet night sinks it."
     },
     {
      "pick": "Tyler Shough 250+ pass yds",
@@ -5968,7 +6101,8 @@
      "live": false,
      "updated": "07:41",
      "rank": 5,
-     "group": "Wild"
+     "group": "Wild",
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     }
    ]
   },
@@ -5990,7 +6124,8 @@
      "grade": "B+",
      "reason": "Nebraska's offense is 6th (40.2 pts/g) vs an Oregon defense that's 79th in points allowed (27.5) and 106th vs the pass (257 yds/g).",
      "why": "Nebraska's offense is 6th (40.2 pts/g) vs an Oregon defense that's 79th in points allowed (27.5) and 106th vs the pass (257 yds/g). Ranks: TeamRankings 2026 season stats. LineMate NCAAF team trends unavailable (pending odds/not loadable), so none cited. Hard Rock price confirmed (hr-lines/ncaaf-oct17.md).",
-     "updated": "22:20"
+     "updated": "22:20",
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     }
    ],
    "props": [],
@@ -6011,7 +6146,8 @@
      "reason": "4-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 66% to cash.",
      "updated": "07:41",
      "rank": 1,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
     },
     {
      "pick": "Atlanta Dream +7.5",
@@ -6022,7 +6158,8 @@
      "reason": "5-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 67% to cash.",
      "updated": "07:41",
      "rank": 2,
-     "group": "Safe"
+     "group": "Safe",
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     }
    ]
   },
@@ -6051,7 +6188,8 @@
      "odds": "-120",
      "grade": "A",
      "reason": "Dowdle 37.8 rush yds/gm over his last 10 games; hit 20+ in 8 of last 10.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 2,
@@ -6060,7 +6198,8 @@
      "odds": "-115",
      "grade": "A",
      "reason": "Rodgers 22.0 completions/gm this season (5 gms), 23.5 last 10; hit 22+ in 8 of last 10, 4 of 5 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 3,
@@ -6069,7 +6208,8 @@
      "odds": "-115",
      "grade": "A-",
      "reason": "Metcalf 45.0 rec yds/gm this season (5 gms), 52.4 last 10; stayed under 51.5 in 7 of last 10, 4 of 5 this season.",
-     "status": null
+     "status": null,
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "rank": 4,
@@ -6078,7 +6218,8 @@
      "odds": "-120",
      "grade": "A-",
      "reason": "Godwin 35.8 rec yds/gm this season (5 gms), 40.0 last 10; hit 27+ in 7 of last 10, 4 of 5 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 5,
@@ -6087,7 +6228,8 @@
      "odds": "-115",
      "grade": "A-",
      "reason": "Dowdle 19.3 rec yds/gm over his last 10 games; hit 8+ in 7 of last 10.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 6,
@@ -6096,7 +6238,8 @@
      "odds": "-110",
      "grade": "A-",
      "reason": "Bernard 28.0 rec yds/gm this season (5 gms), 28.0 last 5; stayed under 43.5 in 4 of last 5, 4 of 5 this season.",
-     "status": null
+     "status": null,
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "rank": 7,
@@ -6105,7 +6248,8 @@
      "odds": "-120",
      "grade": "A-",
      "reason": "Hurst 25.6 rec yds/gm this season (5 gms), 25.6 last 5; hit 12+ in 4 of last 5, 4 of 5 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 1 of the last 5 games, so one quiet night sinks it."
     },
     {
      "rank": 8,
@@ -6114,7 +6258,8 @@
      "odds": "-120",
      "grade": "A-",
      "reason": "Warren 46.0 rec yds/gm this season (5 gms), 33.5 last 10; hit 29+ in 6 of last 10, 4 of 5 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 4 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 9,
@@ -6123,7 +6268,8 @@
      "odds": "-105",
      "grade": "B+",
      "reason": "Rodgers 3.6 rush yds/gm this season (5 gms), 5.3 last 10; hit 1+ in 6 of last 10, 3 of 5 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 4 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 10,
@@ -6132,7 +6278,8 @@
      "odds": "-110",
      "grade": "B+",
      "reason": "Washington 26.2 rec yds/gm this season (5 gms), 26.4 last 10; stayed under 25.5 in 6 of last 10, 3 of 5 this season.",
-     "status": null
+     "status": null,
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "rank": 1,
@@ -6141,7 +6288,8 @@
      "odds": "+110",
      "grade": "A",
      "reason": "Dowdle 12.0 carries/gm over his last 10 games; hit 7+ in 9 of last 10. Edge: we make it 73% to hit; +110 implies 48%, so +53.4% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 2,
@@ -6150,7 +6298,8 @@
      "odds": "+100",
      "grade": "A",
      "reason": "Dowdle 2.8 rec/gm over his last 10 games; hit 2+ in 9 of last 10. Edge: we make it 74% to hit; +100 implies 50%, so +48.0% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 3,
@@ -6159,7 +6308,8 @@
      "odds": "+185",
      "grade": "B+",
      "reason": "Warren 82.0 rush yds/gm this season (5 gms), 72.9 last 10; hit 80+ in 4 of last 10, 3 of 5 this season. Edge: we make it 42% to hit; +185 implies 35%, so +19.8% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 4,
@@ -6168,7 +6318,8 @@
      "odds": "+155",
      "grade": "B+",
      "reason": "Hurst 1.6 rec/gm this season (5 gms), 1.6 last 5; hit 2+ in 3 of last 5, 3 of 5 this season. Edge: we make it 46% to hit; +155 implies 39%, so +17.7% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 5 games, so one quiet night sinks it."
     },
     {
      "rank": 5,
@@ -6177,7 +6328,8 @@
      "odds": "+100",
      "grade": "A-",
      "reason": "Warren 3.8 rec/gm this season (5 gms), 3.2 last 10; stayed under 3.5 in 7 of last 10, 3 of 5 this season. Edge: we make it 58% to hit; +100 implies 50%, so +15.5% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
     },
     {
      "rank": 6,
@@ -6186,7 +6338,8 @@
      "odds": "+115",
      "grade": "B+",
      "reason": "Washington 2.2 rec/gm this season (5 gms), 2.2 last 10; stayed under 2.5 in 6 of last 10, 3 of 5 this season. Edge: we make it 53% to hit; +115 implies 47%, so +14.5% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
     },
     {
      "rank": 7,
@@ -6195,7 +6348,8 @@
      "odds": "+110",
      "grade": "B+",
      "reason": "Gainwell 2.2 rec/gm this season (5 gms), 4.0 last 10; hit 3+ in 7 of last 10, 2 of 5 this season. Edge: we make it 52% to hit; +110 implies 48%, so +9.3% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 8,
@@ -6204,7 +6358,8 @@
      "odds": "+155",
      "grade": "B+",
      "reason": "Rodgers 246.8 pass yds/gm this season (5 gms), 247.0 last 10; hit 250+ in 5 of last 10, 2 of 5 this season. Edge: we make it 42% to hit; +155 implies 39%, so +8.0% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 9,
@@ -6213,7 +6368,8 @@
      "odds": "+120",
      "grade": "B",
      "reason": "Godwin 3.8 rec/gm this season (5 gms), 4.1 last 10; hit 4+ in 6 of last 10, 2 of 5 this season. Edge: we make it 48% to hit; +120 implies 45%, so +6.1% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 4 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 10,
@@ -6222,7 +6378,8 @@
      "odds": "+180",
      "grade": "B",
      "reason": "Godwin 35.8 rec yds/gm this season (5 gms), 40.0 last 10; hit 40+ in 4 of last 10, 2 of 5 this season. Edge: we make it 38% to hit; +180 implies 36%, so +6.0% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 1,
@@ -6231,7 +6388,8 @@
      "odds": "-210",
      "grade": "A",
      "reason": "Godwin 3.8 rec/gm this season (5 gms), 4.1 last 10; hit 3+ in 9 of last 10, 5 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 2,
@@ -6240,7 +6398,8 @@
      "odds": "-220",
      "grade": "A-",
      "reason": "Otton 3.6 rec/gm this season (5 gms), 3.6 last 10; hit 3+ in 8 of last 10, 5 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 3,
@@ -6249,7 +6408,8 @@
      "odds": "-275",
      "grade": "B+",
      "reason": "Gainwell 2.2 rec/gm this season (5 gms), 4.0 last 10; hit 2+ in 9 of last 10, 4 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 1 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 4,
@@ -6258,7 +6418,8 @@
      "odds": "-375",
      "grade": "B+",
      "reason": "Warren 82.0 rush yds/gm this season (5 gms), 72.9 last 10; hit 40+ in 8 of last 10, 5 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 5,
@@ -6267,7 +6428,8 @@
      "odds": "-240",
      "grade": "B+",
      "reason": "Rodgers 246.8 pass yds/gm this season (5 gms), 247.0 last 10; hit 200+ in 8 of last 10, 4 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 6,
@@ -6276,7 +6438,8 @@
      "odds": "-260",
      "grade": "B+",
      "reason": "Freiermuth 3.8 rec/gm this season (5 gms), 3.4 last 10; hit 3+ in 8 of last 10, 4 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 7,
@@ -6285,7 +6448,8 @@
      "odds": "-220",
      "grade": "B",
      "reason": "Freiermuth 33.8 rec yds/gm this season (5 gms), 35.7 last 10; hit 25+ in 7 of last 10, 4 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 8,
@@ -6294,7 +6458,8 @@
      "odds": "-350",
      "grade": "B-",
      "reason": "Warren 3.8 rec/gm this season (5 gms), 3.2 last 10; hit 3+ in 7 of last 10, 4 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 9,
@@ -6303,7 +6468,8 @@
      "odds": "-260",
      "grade": "B-",
      "reason": "Irving 81.2 rush yds/gm this season (5 gms), 69.6 last 10; hit 50+ in 7 of last 10, 3 of 5 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 10,
@@ -6312,7 +6478,8 @@
      "odds": "-210",
      "grade": "C+",
      "reason": "5-pt cushion vs the main total 39; Hard Rock's prices make it about 64% to cash.",
-     "status": null
+     "status": null,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
     }
    ]
   },
@@ -6339,7 +6506,8 @@
      "odds": "-120",
      "grade": "A-",
      "reason": "Rocchio 0.9 hits/gm this season (153 gms), 1.2 last 10; hit 1+ in 8 of last 10, 94 of 153 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 2,
@@ -6348,7 +6516,8 @@
      "odds": "-115",
      "grade": "B",
      "reason": "Halpin 0.5 hits/gm this season (83 gms), 0.6 last 10; stayed under 0.5 in 5 of last 10, 51 of 83 this season.",
-     "status": null
+     "status": null,
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "rank": 3,
@@ -6357,7 +6526,8 @@
      "odds": "-115",
      "grade": "B",
      "reason": "Fortes 0.7 hits/gm this season (109 gms), 0.4 last 10; stayed under 0.5 in 6 of last 10, 50 of 109 this season.",
-     "status": null
+     "status": null,
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "rank": 4,
@@ -6366,7 +6536,8 @@
      "odds": "-115",
      "grade": "B-",
      "reason": "Bailey 0.6 hits/gm this season (112 gms), 0.6 last 10; stayed under 0.5 in 5 of last 10, 63 of 112 this season.",
-     "status": null
+     "status": null,
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "rank": 5,
@@ -6375,7 +6546,8 @@
      "odds": "-110",
      "grade": "B-",
      "reason": "Rasmussen 5.8 Ks/gm this season (30 gms), 6.2 last 10; stayed under 5.5 in 5 of last 10, 15 of 30 this season.",
-     "status": null
+     "status": null,
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "rank": 6,
@@ -6384,7 +6556,8 @@
      "odds": "-120",
      "grade": "B-",
      "reason": "Rasmussen 5.8 Ks/gm this season (30 gms), 6.2 last 10; hit 6+ in 5 of last 10, 15 of 30 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 7,
@@ -6393,7 +6566,8 @@
      "odds": "-115",
      "grade": "B-",
      "reason": "Bailey 0.6 hits/gm this season (112 gms), 0.6 last 10; hit 1+ in 5 of last 10, 49 of 112 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 8,
@@ -6402,7 +6576,8 @@
      "odds": "-115",
      "grade": "C+",
      "reason": "Fortes 0.7 hits/gm this season (109 gms), 0.4 last 10; hit 1+ in 4 of last 10, 59 of 109 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 9,
@@ -6411,7 +6586,8 @@
      "odds": "-130",
      "grade": "C+",
      "reason": "Walls 0.7 hits/gm this season (124 gms), 0.7 last 10; stayed under 0.5 in 5 of last 10, 58 of 124 this season.",
-     "status": null
+     "status": null,
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
      "rank": 10,
@@ -6420,7 +6596,8 @@
      "odds": "-115",
      "grade": "C+",
      "reason": "Halpin 0.5 hits/gm this season (83 gms), 0.6 last 10; hit 1+ in 5 of last 10, 32 of 83 this season.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 1,
@@ -6429,7 +6606,8 @@
      "odds": "+175",
      "grade": "A-",
      "reason": "Diaz 1.2 hits/gm this season (154 gms), 0.7 last 10; stayed under 0.5 in 7 of last 10, 48 of 154 this season. Edge: we make it 46% to hit; +175 implies 36%, so +26.7% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
     },
     {
      "rank": 2,
@@ -6438,7 +6616,8 @@
      "odds": "+200",
      "grade": "B+",
      "reason": "Simpson 1.2 hits/gm this season (151 gms), 1.3 last 10; hit 2+ in 4 of last 10, 56 of 151 this season. Edge: we make it 37% to hit; +200 implies 33%, so +9.6% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 3,
@@ -6447,7 +6626,8 @@
      "odds": "+110",
      "grade": "B+",
      "reason": "Lowe 0.8 hits/gm this season (126 gms), 0.5 last 10; stayed under 0.5 in 6 of last 10, 58 of 126 this season. Edge: we make it 51% to hit; +110 implies 48%, so +7.7% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
     },
     {
      "rank": 4,
@@ -6456,7 +6636,8 @@
      "odds": "+165",
      "grade": "B",
      "reason": "DeLauter 1.7 total bases/gm this season (133 gms), 1.7 last 10; hit 2+ in 4 of last 10, 60 of 133 this season. Edge: we make it 40% to hit; +165 implies 38%, so +7.3% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 5,
@@ -6465,7 +6646,8 @@
      "odds": "+155",
      "grade": "B",
      "reason": "Ramirez 1.4 total bases/gm this season (125 gms), 1.8 last 10; hit 2+ in 5 of last 10, 44 of 125 this season. Edge: we make it 42% to hit; +155 implies 39%, so +6.3% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 6,
@@ -6474,7 +6656,8 @@
      "odds": "+190",
      "grade": "B",
      "reason": "DeLuca 1.3 total bases/gm this season (112 gms), 1.9 last 10; hit 2+ in 4 of last 10, 39 of 112 this season. Edge: we make it 36% to hit; +190 implies 34%, so +5.5% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 7,
@@ -6483,7 +6666,8 @@
      "odds": "+105",
      "grade": "B",
      "reason": "Bazzana 0.9 hits/gm this season (124 gms), 0.6 last 10; stayed under 0.5 in 6 of last 10, 52 of 124 this season. Edge: we make it 51% to hit; +105 implies 49%, so +3.8% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
     },
     {
      "rank": 8,
@@ -6492,7 +6676,8 @@
      "odds": "+100",
      "grade": "B",
      "reason": "Walls 0.7 hits/gm this season (124 gms), 0.7 last 10; hit 1+ in 5 of last 10, 66 of 124 this season. Edge: we make it 51% to hit; +100 implies 50%, so +1.7% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 5 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 9,
@@ -6501,7 +6686,8 @@
      "odds": "+135",
      "grade": "B",
      "reason": "Caminero 2.0 total bases/gm this season (162 gms), 1.4 last 10; hit 2+ in 4 of last 10, 77 of 162 this season. Edge: we make it 43% to hit; +135 implies 43%, so +1.2% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 10,
@@ -6510,7 +6696,8 @@
      "odds": "+150",
      "grade": "B",
      "reason": "Aranda 1.6 total bases/gm this season (155 gms), 1.3 last 10; hit 2+ in 4 of last 10, 63 of 155 this season. Edge: we make it 40% to hit; +150 implies 40%, so +0.4% expected value per bet.",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 6 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 1,
@@ -6519,7 +6706,8 @@
      "odds": "-200",
      "grade": "B",
      "reason": "Caminero 1.0 hits/gm this season (162 gms), 0.9 last 10; hit 1+ in 7 of last 10, 119 of 162 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 2,
@@ -6528,7 +6716,8 @@
      "odds": "-200",
      "grade": "B",
      "reason": "Aranda 1.0 hits/gm this season (155 gms), 0.7 last 10; hit 1+ in 7 of last 10, 107 of 155 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 3,
@@ -6537,7 +6726,8 @@
      "odds": "-275",
      "grade": "B",
      "reason": "Simpson 1.2 hits/gm this season (151 gms), 1.3 last 10; hit 1+ in 8 of last 10, 107 of 151 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 4,
@@ -6546,7 +6736,8 @@
      "odds": "-260",
      "grade": "B-",
      "reason": "Rasmussen 5.8 Ks/gm this season (30 gms), 6.2 last 10; hit 5+ in 7 of last 10, 21 of 30 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 5,
@@ -6555,7 +6746,8 @@
      "odds": "-210",
      "grade": "B-",
      "reason": "Kwan 1.0 hits/gm this season (151 gms), 1.2 last 10; hit 1+ in 6 of last 10, 97 of 151 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 4 of the last 10 games, so one quiet night sinks it."
     },
     {
      "rank": 6,
@@ -6564,7 +6756,8 @@
      "odds": "-275",
      "grade": "C+",
      "reason": "2-pt cushion vs the main total 6.5; Hard Rock's prices make it about 69% to cash.",
-     "status": null
+     "status": null,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     },
     {
      "rank": 7,
@@ -6573,7 +6766,8 @@
      "odds": "-200",
      "grade": "C+",
      "reason": "1-pt cushion vs the main total 6.5; Hard Rock's prices make it about 62% to cash.",
-     "status": null
+     "status": null,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
     },
     {
      "rank": 8,
@@ -6582,7 +6776,8 @@
      "odds": "-275",
      "grade": "C+",
      "reason": "1-pt cushion vs the main line (Guardians +1.5); Hard Rock's prices make it about 68% to cash.",
-     "status": null
+     "status": null,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     },
     {
      "rank": 9,
@@ -6591,7 +6786,8 @@
      "odds": "-350",
      "grade": "C+",
      "reason": "2-pt cushion vs the main total 6.5; Hard Rock's prices make it about 72% to cash.",
-     "status": null
+     "status": null,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     },
     {
      "rank": 10,
@@ -6600,7 +6796,8 @@
      "odds": "-250",
      "grade": "C",
      "reason": "Diaz 1.2 hits/gm this season (154 gms), 0.7 last 10; hit 1+ in 3 of last 10, 106 of 154 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null
+     "status": null,
+     "why_not": "It missed in 7 of the last 10 games, so one quiet night sinks it."
     }
    ]
   }
@@ -6683,70 +6880,80 @@
     "grade": "A-",
     "pick": "Kyle Larson Top 5",
     "odds": "+200",
-    "reason": "Finished 3rd in each of his last three Phoenix races and top 5 in 6 of 9 there. Starting 22nd is why the price is this long."
+    "reason": "Finished 3rd in each of his last three Phoenix races and top 5 in 6 of 9 there. Starting 22nd is why the price is this long.",
+    "why_not": "He starts 22nd, and passing through traffic at Phoenix is hard, so a slow first stage could leave him out of the top 5."
    },
    {
     "rank": 2,
     "grade": "B+",
     "pick": "Denny Hamlin Top 5",
     "odds": "+105",
-    "reason": "Starts 4th, was 4th in practice and ran the most laps, and has finished 6th or better in his last three races here."
+    "reason": "Starts 4th, was 4th in practice and ran the most laps, and has finished 6th or better in his last three races here.",
+    "why_not": "Only 2 of his 9 Next Gen races at Phoenix were top-5 finishes."
    },
    {
     "rank": 3,
     "grade": "B+",
     "pick": "Ryan Blaney to Win",
     "odds": "+350",
-    "reason": "On the pole, fastest in practice, and won two of his last three Phoenix races."
+    "reason": "On the pole, fastest in practice, and won two of his last three Phoenix races.",
+    "why_not": "Bell and others are priced the same at +350, and one pit-road slip ends any win bid."
    },
    {
     "rank": 4,
     "grade": "B+",
     "pick": "Christopher Bell to Win",
     "odds": "+350",
-    "reason": "Starts 5th, had the best 10-lap average in practice, and has won here twice."
+    "reason": "Starts 5th, had the best 10-lap average in practice, and has won here twice.",
+    "why_not": "He's only 2 of 9 for Phoenix wins in this era. Blaney starts on the pole, and one bad restart costs track position."
    },
    {
     "rank": 5,
     "grade": "B",
     "pick": "Tyler Reddick Top 5",
     "odds": "+225",
-    "reason": "Starts 6th and usually runs around 10th here. Needs a clean day to move into the top 5."
+    "reason": "Starts 6th and usually runs around 10th here. Needs a clean day to move into the top 5.",
+    "why_not": "His Phoenix average finish is 13.4, and he was 26th and 20th in two of his last three races here."
    },
    {
     "rank": 6,
     "grade": "B-",
     "pick": "Kyle Larson to Win",
     "odds": "+1400",
-    "reason": "Three straight 3rd-place finishes here. Has the speed to win if he gets through traffic from 22nd."
+    "reason": "Three straight 3rd-place finishes here. Has the speed to win if he gets through traffic from 22nd.",
+    "why_not": "Starting 22nd makes winning a long climb, and he has no Phoenix win in this era."
    },
    {
     "rank": 7,
     "grade": "B-",
     "pick": "Chase Briscoe Top 5",
     "odds": "+135",
-    "reason": "Starts 3rd, which helps a lot, but his Phoenix results have been poor (18th on average)."
+    "reason": "Starts 3rd, which helps a lot, but his Phoenix results have been poor (18th on average).",
+    "why_not": "His Phoenix results are poor: 18th on average, and 37th and 35th in two of his last three."
    },
    {
     "rank": 8,
     "grade": "B-",
     "pick": "Chase Elliott Top 10",
     "odds": "+135",
-    "reason": "Starts 16th. Finished 10th in two of his last three Phoenix races and is steady here."
+    "reason": "Starts 16th. Finished 10th in two of his last three Phoenix races and is steady here.",
+    "why_not": "Only 3 top-10s in 8 Phoenix starts, and he starts mid-pack."
    },
    {
     "rank": 9,
     "grade": "C+",
     "pick": "Bubba Wallace Top 10",
     "odds": "+135",
-    "reason": "Finished 6th here in the spring, but starts 23rd and his results swing a lot."
+    "reason": "Finished 6th here in the spring, but starts 23rd and his results swing a lot.",
+    "why_not": "His results here swing wildly (6th, 37th, 29th in his last three), and he starts 23rd."
    },
    {
     "rank": 10,
     "grade": "C+",
     "pick": "Carson Hocevar Top 10",
     "odds": "+125",
-    "reason": "2nd in Saturday practice, so the car is fast. But he has never finished top 10 at Phoenix."
+    "reason": "2nd in Saturday practice, so the car is fast. But he has never finished top 10 at Phoenix.",
+    "why_not": "He has zero top-10s in 6 Phoenix starts, so practice speed may not carry over to the race."
    }
   ]
  },
@@ -7150,7 +7357,8 @@
     "book": "Hard Rock (verified from user's slip)",
     "status": "Pending",
     "grade": "A",
-    "why": "[A] 6 TDs in 4 games; 62% of team inside-10 opps (L4 64%); team implied 24 pts; LAC run D: rush EPA #14, stuff rate #24, 1.4 rush TD/g allowed; RZ D #11. Model 68% vs 63% implied (fair -210)."
+    "why": "[A] 6 TDs in 4 games; 62% of team inside-10 opps (L4 64%); team implied 24 pts; LAC run D: rush EPA #14, stuff rate #24, 1.4 rush TD/g allowed; RZ D #11. Model 68% vs 63% implied (fair -210).",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
    },
    {
     "pick": "Javonte Williams (RB) anytime TD",
@@ -7168,7 +7376,8 @@
     "book": "Hard Rock (verified from user's slip)",
     "status": "Pending",
     "grade": "B+",
-    "why": "[B+] 5 TDs in 5 games; 44% of team inside-10 opps (L4 41%); team implied 32 pts; ARI run D: rush EPA #11, stuff rate #23, 1.2 rush TD/g allowed; RZ D #30. Model 66% vs 66% implied (fair -198). LAR -12.5, dome."
+    "why": "[B+] 5 TDs in 5 games; 44% of team inside-10 opps (L4 41%); team implied 32 pts; ARI run D: rush EPA #11, stuff rate #23, 1.2 rush TD/g allowed; RZ D #30. Model 66% vs 66% implied (fair -198). LAR -12.5, dome.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
    },
    {
     "pick": "Chuba Hubbard (RB) anytime TD",
@@ -7177,7 +7386,8 @@
     "book": "Hard Rock (verified from user's slip)",
     "status": "Pending",
     "grade": "B",
-    "why": "[B] 5 TDs in 4 games; 32% of team inside-10 opps (L4 29%); team implied 21.25 pts; PHI run D: rush EPA #19, stuff rate #14, 1.4 rush TD/g allowed; RZ D #7. Model 54% vs 53% implied (fair -116). 20 carries/2 TDs last week."
+    "why": "[B] 5 TDs in 4 games; 32% of team inside-10 opps (L4 29%); team implied 21.25 pts; PHI run D: rush EPA #19, stuff rate #14, 1.4 rush TD/g allowed; RZ D #7. Model 54% vs 53% implied (fair -116). 20 carries/2 TDs last week.",
+    "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
    },
    {
     "pick": "Brock Bowers (TE) anytime TD",
@@ -7195,7 +7405,8 @@
     "book": "Hard Rock (verified from user's slip)",
     "status": "Pending",
     "grade": "C+",
-    "why": "[C+] 4 TDs in 5 games; 11% of team inside-10 opps (L4 9%); team implied 22.5 pts; NO pass D: EPA #26, 1.6 pass TD/g allowed; RZ D #23. Model 36% vs 39% implied (fair +181). NO run/pass D both bottom-6."
+    "why": "[C+] 4 TDs in 5 games; 11% of team inside-10 opps (L4 9%); team implied 22.5 pts; NO pass D: EPA #26, 1.6 pass TD/g allowed; RZ D #23. Model 36% vs 39% implied (fair +181). NO run/pass D both bottom-6.",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
    },
    {
     "pick": "Parker Washington (WR) anytime TD",
@@ -7204,7 +7415,8 @@
     "book": "Hard Rock (verified from user's slip)",
     "status": "Pending",
     "grade": "C",
-    "why": "[C] 4 TDs in 5 games; 11% of team inside-10 opps (L4 14%); team implied 22.5 pts; HOU pass D: EPA #16, 1.2 pass TD/g allowed; RZ D #15. Model 34% vs 38% implied (fair +198). 2 TDs last week; London."
+    "why": "[C] 4 TDs in 5 games; 11% of team inside-10 opps (L4 14%); team implied 22.5 pts; HOU pass D: EPA #16, 1.2 pass TD/g allowed; RZ D #15. Model 34% vs 38% implied (fair +198). 2 TDs last week; London.",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
    },
    {
     "pick": "Derrick Henry (RB) anytime TD",
@@ -7213,7 +7425,8 @@
     "book": "Hard Rock (verified from user's slip)",
     "status": "Pending",
     "grade": "C",
-    "why": "[C] 8 TDs in 5 games; 60% of team inside-10 opps (L4 56%); team implied 21.25 pts; CLE run D: rush EPA #29, stuff rate #17, 0.2 rush TD/g allowed; RZ D #4. Model 52% vs 62% implied (fair -109). Slate-high 21 inside-10 opps; CLE RZ D is tough."
+    "why": "[C] 8 TDs in 5 games; 60% of team inside-10 opps (L4 56%); team implied 21.25 pts; CLE run D: rush EPA #29, stuff rate #17, 0.2 rush TD/g allowed; RZ D #4. Model 52% vs 62% implied (fair -109). Slate-high 21 inside-10 opps; CLE RZ D is tough.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
    },
    {
     "pick": "Jonathan Taylor (RB) anytime TD",
@@ -7222,7 +7435,8 @@
     "book": "Hard Rock (verified from user's slip)",
     "status": "Pending",
     "grade": "C-",
-    "why": "[C-] 6 TDs in 5 games; 50% of team inside-10 opps (L4 41%); team implied 25.75 pts; TEN run D: rush EPA #16, stuff rate #4, 1.0 rush TD/g allowed; RZ D #14. Model 58% vs 74% implied (fair -138). Heavy chalk; anchor only."
+    "why": "[C-] 6 TDs in 5 games; 50% of team inside-10 opps (L4 41%); team implied 25.75 pts; TEN run D: rush EPA #16, stuff rate #4, 1.0 rush TD/g allowed; RZ D #14. Model 58% vs 74% implied (fair -138). Heavy chalk; anchor only.",
+    "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
    }
   ],
   "hr_unverified": false,
