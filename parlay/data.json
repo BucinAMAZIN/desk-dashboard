@@ -1,5 +1,5 @@
 {
- "generated": 1792292578.9795547,
+ "generated": 1792292880.9667923,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -214,11 +214,11 @@
     "pick": "Florida State Under 18.5 Team Total",
     "odds": "-130",
     "game": "FSU @ Miami 7:00 PM ET",
-    "status": "Pending",
+    "status": "L",
     "why": "#3. Miami's defense is 1st in points allowed (10.5) and 1st vs the run (44.0 yds/g); FSU's offense is 45th (30.4). Miami's pass D is 94th (241 yds/g), so FSU has to throw to get there. Ranks: TeamRankings 2026 season stats. LineMate NCAAF team trends unavailable (pending odds/not loadable), so none cited. Hard Rock price confirmed (hr-lines/ncaaf-oct17.md).",
     "grade": "A-",
     "rank": 3,
-    "stat": "—",
+    "stat": "FSU 35",
     "now": "-120"
    },
    {
@@ -265,11 +265,11 @@
     "pick": "Miami -19.5",
     "odds": "-125",
     "game": "FSU @ Miami 7:00 PM ET",
-    "status": "Pending",
+    "status": "L",
     "why": "#8. Miami: 4th in scoring (42.8), 1st in points allowed (10.5). FSU allows 29.0 pts/g (93rd), 176.6 rush (105th) and 266 pass (115th). Big number; correlates with FSU team-total under. Ranks: TeamRankings 2026 season stats. LineMate NCAAF team trends unavailable (pending odds/not loadable), so none cited. Hard Rock price confirmed (hr-lines/ncaaf-oct17.md).",
     "grade": "B",
     "rank": 8,
-    "stat": "—",
+    "stat": "FSU 35-43 MIA",
     "now": "-120"
    },
    {
@@ -334,7 +334,7 @@
       "pick": "Florida State Under 18.5 Team Total",
       "odds": "-130",
       "game": "FSU @ Miami 7:00 PM ET",
-      "status": "Pending",
+      "status": "Lost",
       "why": "Miami D 1st in points allowed (10.5) and 1st vs the run (44 yds/g); FSU offense 45th. Risk: Miami pass D 94th.",
       "grade": "A-",
       "rank": 1,
@@ -353,7 +353,7 @@
       "pick": "Miami -19.5",
       "odds": "-125",
       "game": "FSU @ Miami 7:00 PM ET",
-      "status": "Pending",
+      "status": "Lost",
       "why": "Miami 4th in scoring, 1st in points allowed; FSU D 93rd, rush 105th, pass 115th. Correlates with #1.",
       "grade": "B",
       "rank": 3,
@@ -885,7 +885,8 @@
       "status": "Pending",
       "why": "BAL scores 29.2 and allows 23.8; CLE averages 18.6. Season averages project ~45. Risk: division game, CLE D 19.7 last 3. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
       "grade": "C+",
-      "rank": 5
+      "rank": 5,
+      "now": "-110"
      },
      {
       "pick": "(Quality) Kansas City Chiefs ML",
@@ -1686,6 +1687,24 @@
    {
     "date": "2026-10-17",
     "sport": "NCAA F",
+    "type": "Runner-up",
+    "pick": "Miami -19.5",
+    "odds": "-125",
+    "result": "L",
+    "stat": "FSU 35-43 MIA"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAA F",
+    "type": "Runner-up",
+    "pick": "Florida State Under 18.5 Team Total",
+    "odds": "-130",
+    "result": "L",
+    "stat": "FSU 35"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAA F",
     "type": "Leg",
     "pick": "Penn State @ Michigan Under 43.5",
     "odds": "-120",
@@ -1722,9 +1741,9 @@
    },
    "tracked": {
     "w": 33,
-    "l": 20,
+    "l": 22,
     "p": 0,
-    "pct": 62
+    "pct": 60
    },
    "pending": 21
   },
@@ -3458,13 +3477,13 @@
    }
   ]
  },
- "ui_build": "1792292578",
+ "ui_build": "1792292601",
  "ncaaf_record": {
   "overall": {
    "w": 3,
-   "l": 1,
+   "l": 3,
    "p": 0,
-   "pct": 75
+   "pct": 50
   },
   "recent": [
    {
@@ -3491,8 +3510,8 @@
     "type": "Alt spread",
     "pick": "Miami -19.5",
     "odds": "-125",
-    "status": "Pending",
-    "stat": "—"
+    "status": "L",
+    "stat": "FSU 35-43 MIA"
    },
    {
     "date": "2026-10-17",
@@ -3536,8 +3555,8 @@
     "type": "Team total",
     "pick": "Florida State Under 18.5 Team Total",
     "odds": "-130",
-    "status": "Pending",
-    "stat": "—"
+    "status": "L",
+    "stat": "FSU 35"
    },
    {
     "date": "2026-10-17",
@@ -3649,7 +3668,7 @@
    "active": true,
    "runners_up": {
     "w": 0,
-    "l": 1,
+    "l": 3,
     "p": 0,
     "pct": 0
    },
@@ -4221,10 +4240,17 @@
    },
    "tracked": {
     "w": 1,
-    "l": 1,
+    "l": 3,
     "p": 0,
-    "pct": 50,
+    "pct": 25,
     "props": [
+     {
+      "prop": "NCAAF team total",
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "pct": 0
+     },
      {
       "prop": "NCAA F game total",
       "w": 1,
@@ -4233,7 +4259,7 @@
       "pct": 100
      },
      {
-      "prop": "NCAAF team total",
+      "prop": "NCAAF spread",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -4968,59 +4994,48 @@
  },
  "live_top_lines": {
   "MLB": {
-   "ml": [
+   "ml": [],
+   "spread": [
     {
-     "pick": "Rays ML",
+     "pick": "Guardians +3.5",
      "game": "Rays @ Guardians LIVE",
-     "odds": "-3000",
-     "grade": "C+",
+     "odds": "+350",
+     "grade": "C",
      "live": true,
-     "reason": "Live price; Hard Rock has it about 93% to win right now.",
-     "updated": "23:02",
+     "reason": "Main line; Hard Rock's prices make it about 21% to cash.",
+     "updated": "23:04",
      "rank": 1
     },
     {
-     "pick": "Guardians ML",
+     "pick": "Rays -3.5",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+1300",
-     "grade": "C+",
-     "live": true,
-     "reason": "Live price; Hard Rock has it about 7% to win right now.",
-     "updated": "23:02",
-     "rank": 2
-    }
-   ],
-   "spread": [
-    {
-     "pick": "Rays -2.5",
-     "game": "Rays @ Guardians LIVE",
-     "odds": "+400",
+     "odds": "-550",
      "grade": "C",
      "live": true,
-     "reason": "Main line; Hard Rock's prices make it about 19% to cash.",
-     "updated": "23:02",
-     "rank": 1
+     "reason": "Main line; Hard Rock's prices make it about 79% to cash.",
+     "updated": "23:04",
+     "rank": 2
     }
    ],
    "total": [
     {
-     "pick": "Rays @ Guardians Under 8.5",
+     "pick": "Rays @ Guardians Over 10.5",
      "game": "Rays @ Guardians LIVE",
-     "odds": "-210",
+     "odds": "+210",
      "grade": "C",
      "live": true,
-     "reason": "Main total; Hard Rock's prices make it about 64% to cash.",
-     "updated": "23:02",
+     "reason": "Main total; Hard Rock's prices make it about 31% to cash.",
+     "updated": "23:04",
      "rank": 1
     },
     {
-     "pick": "Rays @ Guardians Over 8.5",
+     "pick": "Rays @ Guardians Under 10.5",
      "game": "Rays @ Guardians LIVE",
-     "odds": "+160",
+     "odds": "-275",
      "grade": "C",
      "live": true,
-     "reason": "Main total; Hard Rock's prices make it about 36% to cash.",
-     "updated": "23:02",
+     "reason": "Main total; Hard Rock's prices make it about 69% to cash.",
+     "updated": "23:04",
      "rank": 2
     }
    ],
@@ -5036,7 +5051,7 @@
      "grade": "C",
      "live": true,
      "reason": "Live price; Hard Rock has it about 53% to win right now.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1
     },
     {
@@ -5046,7 +5061,7 @@
      "grade": "C",
      "live": true,
      "reason": "Live price; Hard Rock has it about 47% to win right now.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2
     },
     {
@@ -5056,7 +5071,7 @@
      "grade": "C+",
      "live": true,
      "reason": "Live price; Hard Rock has it about 7% to win right now.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3
     },
     {
@@ -5066,7 +5081,7 @@
      "grade": "C+",
      "live": true,
      "reason": "Live price; Hard Rock has it about 93% to win right now.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4
     },
     {
@@ -5076,7 +5091,7 @@
      "grade": "C",
      "live": true,
      "reason": "Live price; Hard Rock has it about 86% to win right now.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5
     }
    ],
@@ -5088,7 +5103,7 @@
      "grade": "C",
      "live": true,
      "reason": "Main line; Hard Rock's prices make it about 54% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1
     },
     {
@@ -5098,7 +5113,7 @@
      "grade": "C",
      "live": true,
      "reason": "Main line; Hard Rock's prices make it about 46% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2
     },
     {
@@ -5108,7 +5123,7 @@
      "grade": "C",
      "live": true,
      "reason": "Main line; Hard Rock's prices make it about 61% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3
     },
     {
@@ -5118,7 +5133,7 @@
      "grade": "C",
      "live": true,
      "reason": "Main line; Hard Rock's prices make it about 39% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4
     },
     {
@@ -5128,7 +5143,7 @@
      "grade": "C",
      "live": true,
      "reason": "Main line; Hard Rock's prices make it about 20% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5
     }
    ],
@@ -5140,7 +5155,7 @@
      "grade": "C+",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 50% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1
     },
     {
@@ -5150,7 +5165,7 @@
      "grade": "C+",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 50% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2
     },
     {
@@ -5160,7 +5175,7 @@
      "grade": "C",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 54% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3
     },
     {
@@ -5170,7 +5185,7 @@
      "grade": "C",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 54% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4
     },
     {
@@ -5180,7 +5195,7 @@
      "grade": "C",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 46% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5
     }
    ],
@@ -5192,7 +5207,7 @@
      "grade": "A",
      "reason": "Blake 2.8 SOG/gm this season (9 gms), 2.9 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1
     },
     {
@@ -5202,7 +5217,7 @@
      "grade": "A-",
      "reason": "Ek 2.9 SOG/gm this season (8 gms), 3.2 last 10; hit 3+ in 8 of last 10, 6 of 8 this season; 19 min TOI; Blue Jackets allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2
     },
     {
@@ -5212,7 +5227,7 @@
      "grade": "A-",
      "reason": "Boldy 4.4 SOG/gm this season (8 gms), 4.4 last 10; hit 3+ in 9 of last 10, 7 of 8 this season; 21 min TOI; Blue Jackets allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3
     },
     {
@@ -5222,7 +5237,7 @@
      "grade": "B+",
      "reason": "Frost 2.0 SOG/gm this season (7 gms), 2.3 last 10; hit 2+ in 8 of last 10, 5 of 7 this season; 16 min TOI; Hurricanes allow 21.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4
     },
     {
@@ -5232,7 +5247,7 @@
      "grade": "A-",
      "reason": "Johnson 3.0 SOG/gm this season (6 gms), 2.4 last 10; hit 2+ in 7 of last 10, 5 of 6 this season; 15 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5
     },
     {
@@ -5242,7 +5257,7 @@
      "grade": "B+",
      "reason": "Kaprizov 3.2 SOG/gm this season (8 gms), 3.0 last 10; hit 3+ in 8 of last 10, 7 of 8 this season; 21 min TOI; Blue Jackets allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 6
     },
     {
@@ -5252,7 +5267,7 @@
      "grade": "B+",
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 3+ in 6 of last 10, 5 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 7
     },
     {
@@ -5262,7 +5277,7 @@
      "grade": "B+",
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 8
     }
    ],
@@ -5274,7 +5289,7 @@
      "grade": "A-",
      "reason": "Monahan 1.7 SOG/gm this season (6 gms), 1.7 last 10; hit 1+ in 10 of last 10, 6 of 6 this season; 16 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1,
      "group": "Safe"
     },
@@ -5285,7 +5300,7 @@
      "grade": "A-",
      "reason": "Svechnikov 3.2 SOG/gm this season (9 gms), 3.4 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2,
      "group": "Safe"
     },
@@ -5296,7 +5311,7 @@
      "grade": "B+",
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3,
      "group": "Safe"
     },
@@ -5307,7 +5322,7 @@
      "grade": "B",
      "reason": "Fantilli 2.8 SOG/gm this season (6 gms), 2.6 last 10; hit 2+ in 7 of last 10, 5 of 6 this season; 20 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4,
      "group": "Safe"
     },
@@ -5318,7 +5333,7 @@
      "grade": "C+",
      "live": true,
      "reason": "1-pt cushion vs the main line (Mammoth +2.5); Hard Rock's prices make it about 64% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5,
      "group": "Safe"
     },
@@ -5329,7 +5344,7 @@
      "grade": "A-",
      "reason": "Johnson 3.0 SOG/gm this season (6 gms), 2.4 last 10; hit 3+ in 4 of last 10, 4 of 6 this season; 15 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1,
      "group": "Wild"
     },
@@ -5340,7 +5355,7 @@
      "grade": "A-",
      "reason": "Svechnikov 3.2 SOG/gm this season (9 gms), 3.4 last 10; hit 4+ in 5 of last 10, 4 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2,
      "group": "Wild"
     },
@@ -5351,7 +5366,7 @@
      "grade": "B+",
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3,
      "group": "Wild"
     },
@@ -5362,7 +5377,7 @@
      "grade": "B+",
      "reason": "Hughes 3.0 SOG/gm this season (8 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 8 this season; 28 min TOI; Blue Jackets allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4,
      "group": "Wild"
     },
@@ -5373,7 +5388,7 @@
      "grade": "B+",
      "reason": "Blake 2.8 SOG/gm this season (9 gms), 2.9 last 10; hit 3+ in 5 of last 10, 4 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5,
      "group": "Wild"
     }
@@ -5458,7 +5473,7 @@
      "grade": "A",
      "reason": "Dowdle 12.0 carries/gm over his last 10 games; hit 7+ in 9 of last 10.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1
     },
     {
@@ -5468,7 +5483,7 @@
      "grade": "A",
      "reason": "Hampton 54.2 rush yds/gm this season (5 gms), 54.6 last 10; hit 33+ in 9 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2
     },
     {
@@ -5478,7 +5493,7 @@
      "grade": "A",
      "reason": "Hutchinson 46.2 rec yds/gm this season (5 gms), 35.6 last 10; hit 15+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3
     },
     {
@@ -5488,7 +5503,7 @@
      "grade": "A",
      "reason": "Rodriguez 5.6 carries/gm this season (5 gms), 9.5 last 10; hit 5+ in 9 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4
     },
     {
@@ -5498,7 +5513,7 @@
      "grade": "A",
      "reason": "Odunze 54.6 rec yds/gm this season (5 gms), 46.1 last 10; hit 40+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5
     },
     {
@@ -5508,7 +5523,7 @@
      "grade": "A",
      "reason": "Godwin 35.8 rec yds/gm this season (5 gms), 40.0 last 10; hit 25+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 6
     },
     {
@@ -5518,7 +5533,7 @@
      "grade": "A",
      "reason": "Johnson 3.3 rec/gm this season (3 gms), 2.6 last 10; hit 2+ in 9 of last 10, 3 of 3 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 7
     },
     {
@@ -5528,7 +5543,7 @@
      "grade": "A",
      "reason": "Waller 37.0 rec yds/gm this season (4 gms), 31.4 last 10; hit 25+ in 7 of last 10, 4 of 4 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 8
     },
     {
@@ -5538,7 +5553,7 @@
      "grade": "A",
      "reason": "Skattebo 16.2 carries/gm this season (5 gms), 15.9 last 10; hit 12+ in 9 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 9
     },
     {
@@ -5548,7 +5563,7 @@
      "grade": "A",
      "reason": "McBride 8.4 rec/gm this season (5 gms), 8.0 last 10; hit 7+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 10
     }
    ],
@@ -5560,7 +5575,7 @@
      "grade": "A",
      "reason": "Meyers 40.4 rec yds/gm this season (5 gms), 44.0 last 10; hit 25+ in 10 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1,
      "group": "Safe"
     },
@@ -5571,7 +5586,7 @@
      "grade": "A",
      "reason": "Hampton 54.2 rush yds/gm this season (5 gms), 54.6 last 10; hit 25+ in 10 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2,
      "group": "Safe"
     },
@@ -5582,7 +5597,7 @@
      "grade": "A",
      "reason": "Godwin 3.8 rec/gm this season (5 gms), 4.1 last 10; hit 3+ in 9 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3,
      "group": "Safe"
     },
@@ -5593,7 +5608,7 @@
      "grade": "A-",
      "reason": "Stroud 3.0 carries/gm this season (5 gms), 3.3 last 10; hit 2+ in 10 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4,
      "group": "Safe"
     },
@@ -5604,7 +5619,7 @@
      "grade": "A-",
      "reason": "Boston 66.0 rec yds/gm this season (5 gms), 66.0 last 5; hit 40+ in 5 of last 5, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5,
      "group": "Safe"
     },
@@ -5615,7 +5630,7 @@
      "grade": "A",
      "reason": "Dowdle 12.0 carries/gm over his last 10 games; hit 7+ in 9 of last 10.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1,
      "group": "Wild"
     },
@@ -5626,7 +5641,7 @@
      "grade": "A",
      "reason": "Rodriguez 5.6 carries/gm this season (5 gms), 9.5 last 10; hit 6+ in 9 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2,
      "group": "Wild"
     },
@@ -5637,7 +5652,7 @@
      "grade": "A",
      "reason": "Hampton 14.6 carries/gm this season (5 gms), 14.3 last 10; hit 12+ in 9 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 3,
      "group": "Wild"
     },
@@ -5648,7 +5663,7 @@
      "grade": "A",
      "reason": "Hutchinson 46.2 rec yds/gm this season (5 gms), 35.6 last 10; hit 25+ in 6 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 4,
      "group": "Wild"
     },
@@ -5659,7 +5674,7 @@
      "grade": "A",
      "reason": "Shough 259.8 pass yds/gm this season (5 gms), 261.5 last 10; hit 250+ in 8 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5,
      "group": "Wild"
     }
@@ -5675,105 +5690,105 @@
   "NCAA F": {
    "ml": [
     {
-     "pick": "BYU ML",
+     "pick": "Notre Dame ML",
      "game": "Notre Dame @ BYU LIVE",
-     "odds": "-125",
+     "odds": "+165",
      "grade": "C",
      "live": true,
-     "reason": "Live price; Hard Rock has it about 53% to win right now.",
-     "updated": "23:02",
+     "reason": "Live price; Hard Rock has it about 36% to win right now.",
+     "updated": "23:04",
      "rank": 1
     },
     {
-     "pick": "Oklahoma State ML",
-     "game": "Oklahoma State @ Houston LIVE",
-     "odds": "+350",
-     "grade": "C",
-     "live": true,
-     "reason": "Live price; Hard Rock has it about 21% to win right now.",
-     "updated": "23:02",
-     "rank": 2
-    },
-    {
-     "pick": "Notre Dame ML",
+     "pick": "BYU ML",
      "game": "Notre Dame @ BYU LIVE",
-     "odds": "+100",
+     "odds": "-210",
      "grade": "C",
      "live": true,
-     "reason": "Live price; Hard Rock has it about 47% to win right now.",
-     "updated": "23:02",
-     "rank": 3
+     "reason": "Live price; Hard Rock has it about 64% to win right now.",
+     "updated": "23:04",
+     "rank": 2
     },
     {
      "pick": "Fresno State ML",
      "game": "Fresno State @ San Diego State LIVE",
-     "odds": "-185",
+     "odds": "-165",
      "grade": "C",
      "live": true,
-     "reason": "Live price; Hard Rock has it about 60% to win right now.",
-     "updated": "23:02",
-     "rank": 4
+     "reason": "Live price; Hard Rock has it about 58% to win right now.",
+     "updated": "23:04",
+     "rank": 3
     },
     {
      "pick": "San Diego State ML",
      "game": "Fresno State @ San Diego State LIVE",
-     "odds": "+135",
+     "odds": "+125",
      "grade": "C",
      "live": true,
-     "reason": "Live price; Hard Rock has it about 40% to win right now.",
-     "updated": "23:02",
+     "reason": "Live price; Hard Rock has it about 42% to win right now.",
+     "updated": "23:04",
+     "rank": 4
+    },
+    {
+     "pick": "Hawaii ML",
+     "game": "New Mexico @ Hawaii LIVE",
+     "odds": "+240",
+     "grade": "C",
+     "live": true,
+     "reason": "Live price; Hard Rock has it about 27% to win right now.",
+     "updated": "23:04",
      "rank": 5
     }
    ],
    "spread": [
     {
-     "pick": "New Mexico -9.5",
-     "game": "New Mexico @ Hawaii LIVE",
-     "odds": "-115",
+     "pick": "San Jose State -13.5",
+     "game": "San Jose State @ UTEP LIVE",
+     "odds": "-125",
      "grade": "C",
      "live": true,
-     "reason": "Main line; Hard Rock's prices make it about 50% to cash.",
-     "updated": "23:02",
+     "reason": "Main line; Hard Rock's prices make it about 52% to cash.",
+     "updated": "23:04",
      "rank": 1
     },
     {
-     "pick": "Hawaii +9.5",
-     "game": "New Mexico @ Hawaii LIVE",
-     "odds": "-115",
+     "pick": "UTEP +13.5",
+     "game": "San Jose State @ UTEP LIVE",
+     "odds": "-105",
      "grade": "C",
      "live": true,
-     "reason": "Main line; Hard Rock's prices make it about 50% to cash.",
-     "updated": "23:02",
+     "reason": "Main line; Hard Rock's prices make it about 48% to cash.",
+     "updated": "23:04",
      "rank": 2
     },
     {
-     "pick": "San Diego State +3.5",
-     "game": "Fresno State @ San Diego State LIVE",
-     "odds": "-135",
+     "pick": "UTSA -3.5",
+     "game": "Navy @ UTSA LIVE",
+     "odds": "-145",
      "grade": "C",
      "live": true,
-     "reason": "Main line; Hard Rock's prices make it about 53% to cash.",
-     "updated": "23:02",
+     "reason": "Main line; Hard Rock's prices make it about 55% to cash.",
+     "updated": "23:04",
      "rank": 3
     },
     {
-     "pick": "Fresno State -3.5",
-     "game": "Fresno State @ San Diego State LIVE",
-     "odds": "+100",
+     "pick": "Navy +3.5",
+     "game": "Navy @ UTSA LIVE",
+     "odds": "+110",
      "grade": "C",
      "live": true,
-     "reason": "Main line; Hard Rock's prices make it about 47% to cash.",
-     "updated": "23:02",
+     "reason": "Main line; Hard Rock's prices make it about 45% to cash.",
+     "updated": "23:04",
      "rank": 4
     },
     {
-     "pick": "Sacramento State +26.5",
-     "game": "Ohio @ Sacramento State LIVE",
-     "odds": "-115",
+     "pick": "Hawaii +6.5",
+     "game": "New Mexico @ Hawaii LIVE",
+     "odds": "-120",
      "grade": "C",
      "live": true,
-     "reason": "Main line; Hard Rock's prices make it about 50% to cash.",
-     "updated": "23:02",
+     "reason": "Main line; Hard Rock's prices make it about 51% to cash.",
+     "updated": "23:04",
      "rank": 5
     }
    ],
@@ -5788,99 +5803,99 @@
      "updated": "22:20"
     },
     {
-     "pick": "Ohio @ Sacramento State Over 43.5",
-     "game": "Ohio @ Sacramento State LIVE",
-     "odds": "-120",
-     "grade": "C",
-     "live": true,
-     "reason": "Main total; Hard Rock's prices make it about 51% to cash.",
-     "updated": "23:02",
-     "rank": 1
-    },
-    {
-     "pick": "Wake Forest @ California Over 55.5",
-     "game": "Wake Forest @ California LIVE",
+     "pick": "Utah @ Colorado Over 49.5",
+     "game": "Utah @ Colorado LIVE",
      "odds": "-110",
      "grade": "C",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 49% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
+     "rank": 1
+    },
+    {
+     "pick": "San Jose State @ UTEP Under 31.5",
+     "game": "San Jose State @ UTEP LIVE",
+     "odds": "-120",
+     "grade": "C",
+     "live": true,
+     "reason": "Main total; Hard Rock's prices make it about 51% to cash.",
+     "updated": "23:04",
      "rank": 2
     },
     {
-     "pick": "Utah @ Colorado Over 50.5",
+     "pick": "Navy @ UTSA Over 65.5",
+     "game": "Navy @ UTSA LIVE",
+     "odds": "-110",
+     "grade": "C",
+     "live": true,
+     "reason": "Main total; Hard Rock's prices make it about 49% to cash.",
+     "updated": "23:04",
+     "rank": 3
+    },
+    {
+     "pick": "Fresno State @ San Diego State Under 39.5",
+     "game": "Fresno State @ San Diego State LIVE",
+     "odds": "-110",
+     "grade": "C",
+     "live": true,
+     "reason": "Main total; Hard Rock's prices make it about 49% to cash.",
+     "updated": "23:04",
+     "rank": 4
+    },
+    {
+     "pick": "Utah @ Colorado Under 49.5",
      "game": "Utah @ Colorado LIVE",
      "odds": "-120",
      "grade": "C",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 51% to cash.",
-     "updated": "23:02",
-     "rank": 3
-    },
-    {
-     "pick": "Ohio @ Sacramento State Under 43.5",
-     "game": "Ohio @ Sacramento State LIVE",
-     "odds": "-110",
-     "grade": "C",
-     "live": true,
-     "reason": "Main total; Hard Rock's prices make it about 49% to cash.",
-     "updated": "23:02",
-     "rank": 4
-    },
-    {
-     "pick": "Wake Forest @ California Under 55.5",
-     "game": "Wake Forest @ California LIVE",
-     "odds": "-120",
-     "grade": "C",
-     "live": true,
-     "reason": "Main total; Hard Rock's prices make it about 51% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 5
     }
    ],
    "props": [],
    "alt": [
     {
-     "pick": "Nebraska @ Oregon Under 59.5",
+     "pick": "Nebraska @ Oregon Under 57.5",
      "game": "Nebraska @ Oregon 10/17 11:00 PM ET",
-     "odds": "-260",
+     "odds": "-200",
      "grade": "B-",
      "live": false,
-     "reason": "8-pt cushion vs the main total 51.5; Hard Rock's prices make it about 69% to cash.",
-     "updated": "23:02",
+     "reason": "6-pt cushion vs the main total 51.5; Hard Rock's prices make it about 63% to cash.",
+     "updated": "23:04",
      "rank": 1,
      "group": "Safe"
     },
     {
-     "pick": "Nebraska @ Oregon Under 60.5",
+     "pick": "Nebraska @ Oregon Under 58.5",
      "game": "Nebraska @ Oregon 10/17 11:00 PM ET",
-     "odds": "-275",
+     "odds": "-220",
      "grade": "B-",
      "live": false,
-     "reason": "9-pt cushion vs the main total 51.5; Hard Rock's prices make it about 70% to cash.",
-     "updated": "23:02",
+     "reason": "7-pt cushion vs the main total 51.5; Hard Rock's prices make it about 65% to cash.",
+     "updated": "23:04",
      "rank": 2,
      "group": "Safe"
     },
     {
      "pick": "Nebraska @ Oregon Over 45.5",
      "game": "Nebraska @ Oregon 10/17 11:00 PM ET",
-     "odds": "-200",
-     "grade": "B-",
-     "live": false,
-     "reason": "6-pt cushion vs the main total 51.5; Hard Rock's prices make it about 63% to cash.",
-     "updated": "23:02",
-     "rank": 3,
-     "group": "Safe"
-    },
-    {
-     "pick": "Nebraska @ Oregon Under 57.5",
-     "game": "Nebraska @ Oregon 10/17 11:00 PM ET",
      "odds": "-210",
      "grade": "C+",
      "live": false,
      "reason": "6-pt cushion vs the main total 51.5; Hard Rock's prices make it about 64% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
+     "rank": 3,
+     "group": "Safe"
+    },
+    {
+     "pick": "Oregon -1.5",
+     "game": "Nebraska @ Oregon 10/17 11:00 PM ET",
+     "odds": "-230",
+     "grade": "C+",
+     "live": false,
+     "reason": "5-pt cushion vs the main line (Oregon -6.5); Hard Rock's prices make it about 66% to cash.",
+     "updated": "23:04",
      "rank": 4,
      "group": "Safe"
     }
@@ -5899,7 +5914,7 @@
      "grade": "C+",
      "live": false,
      "reason": "4-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 64% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 1,
      "group": "Safe"
     },
@@ -5910,7 +5925,7 @@
      "grade": "C+",
      "live": false,
      "reason": "5-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 67% to cash.",
-     "updated": "23:02",
+     "updated": "23:04",
      "rank": 2,
      "group": "Safe"
     }
@@ -7389,8 +7404,8 @@
    "prop": "NCAAF team total",
    "pick": "Florida State Under 18.5 Team Total",
    "odds": "-130",
-   "res": "Pending",
-   "stat": "—",
+   "res": "L",
+   "stat": "FSU 35",
    "grade": "A-"
   },
   {
@@ -7411,8 +7426,8 @@
    "prop": "NCAAF spread",
    "pick": "Miami -19.5",
    "odds": "-125",
-   "res": "Pending",
-   "stat": "—",
+   "res": "L",
+   "stat": "FSU 35-43 MIA",
    "grade": "B"
   },
   {
