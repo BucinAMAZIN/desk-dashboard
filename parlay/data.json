@@ -1,5 +1,5 @@
 {
- "generated": 1792318475.0450122,
+ "generated": 1792318538.5940697,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -3518,8 +3518,8 @@
  "bankroll": {
   "start": 51.05,
   "total": 62.54,
-  "available": 52.54,
-  "pending": 10.0,
+  "available": 51.54,
+  "pending": 11.0,
   "pct": 22.51,
   "pending_bets": [
    {
@@ -3531,6 +3531,11 @@
     "bet": "10/18 NFL 2-leg +107: Giants +1 -115 + Rams ML -950",
     "stake": "$5.00",
     "pays": "$10.33"
+   },
+   {
+    "bet": "10/18 NFL Lotto Ticket 11-leg SGPMAX +48,611 (50% boost)",
+    "stake": "$1.00",
+    "pays": "$730.16"
    }
   ],
   "ledger": [
@@ -3596,6 +3601,14 @@
     "amount": "$0.00 (lost $3.59)",
     "available": 52.54,
     "pending": 10.0,
+    "total": 62.54
+   },
+   {
+    "date": "2026-10-18 06:20 ET",
+    "event": "Balance correction: Lotto Ticket $1 (placed Sat 10/17) was never deducted; Hard Rock app shows $51.54 available",
+    "amount": "-$1.00 (placed)",
+    "available": 51.54,
+    "pending": 11.0,
     "total": 62.54
    }
   ]
