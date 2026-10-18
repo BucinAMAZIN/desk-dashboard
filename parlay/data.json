@@ -1,5 +1,5 @@
 {
- "generated": 1792286316.8942626,
+ "generated": 1792286541.7230766,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -1517,16 +1517,22 @@
  "record": {
   "overall": {
    "official": {
-    "w": 5,
-    "l": 2,
+    "w": 7,
+    "l": 10,
     "p": 0,
-    "pct": 71
+    "pct": 41
    },
    "potd": {
     "w": 2,
     "l": 1,
     "p": 0,
     "pct": 67
+   },
+   "tickets": {
+    "w": 2,
+    "l": 8,
+    "p": 0,
+    "pct": 20
    },
    "parlay": {
     "w": 3,
@@ -1535,14 +1541,21 @@
     "pct": 75
    },
    "tracked": {
-    "w": 11,
-    "l": 4,
+    "w": 13,
+    "l": 12,
     "p": 0,
-    "pct": 73
+    "pct": 52
    },
-   "pending": 8
+   "pending": 11
   },
   "props": [
+   {
+    "prop": "User ticket",
+    "w": 2,
+    "l": 8,
+    "p": 0,
+    "pct": 20
+   },
    {
     "prop": "ALL parlay",
     "w": 3,
@@ -1568,6 +1581,13 @@
   "potd": [
    {
     "date": "2026-10-18",
+    "pick": "NFL · Ticket: Touchdown City 11-leg: anytime TD x11 (td-city.json)",
+    "odds": "+48611",
+    "result": "Pending",
+    "detail": "$1"
+   },
+   {
+    "date": "2026-10-18",
     "pick": "NASCAR · Parlay: 2-leg",
     "odds": "+134",
     "result": "Pending",
@@ -1579,6 +1599,20 @@
     "odds": "-120",
     "result": "Pending",
     "detail": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "NHL · Ticket: +100 2-leg: Blues +1.5 + Charlie McAvoy o1.5 SOG",
+    "odds": "+155",
+    "result": "Pending",
+    "detail": "$3.50"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "NHL · Ticket: POTD single: Ben Kindel o1.5 SOG",
+    "odds": "-115",
+    "result": "Pending",
+    "detail": "$3.50"
    },
    {
     "date": "2026-10-17",
@@ -1645,6 +1679,20 @@
    },
    {
     "date": "2026-10-15",
+    "pick": "BIG 4 · Ticket: B 2-leg: Schaefer o2.5 SOG + Smith-Njigba o64.5 rec yds",
+    "odds": "+101",
+    "result": "W",
+    "detail": "$10"
+   },
+   {
+    "date": "2026-10-15",
+    "pick": "BIG 4 · Ticket: A 3-leg: G. Williams o2.5 H + Connor o3.5 SOG + Draisaitl o2.5 SOG",
+    "odds": "+344",
+    "result": "L",
+    "detail": "$5"
+   },
+   {
+    "date": "2026-10-15",
     "pick": "BIG 4 · Parlay: 2-leg (backfill: daily +100 ticket)",
     "odds": "+108",
     "result": "W",
@@ -1659,6 +1707,20 @@
    },
    {
     "date": "2026-10-14",
+    "pick": "BIG 4 · Ticket: B 3-leg: Jenner o1.5 SOG + Gasser o11.5 outs + Kadri o1.5 SOG",
+    "odds": "+284",
+    "result": "L",
+    "detail": "$5"
+   },
+   {
+    "date": "2026-10-14",
+    "pick": "BIG 4 · Ticket: A 2-leg: Snell u1.5 ER + Seguin o1.5 SOG",
+    "odds": "+145",
+    "result": "L",
+    "detail": "$15"
+   },
+   {
+    "date": "2026-10-14",
     "pick": "BIG 4 · Parlay: 2-leg (backfill: daily +100 ticket)",
     "odds": "+100",
     "result": "W",
@@ -1666,40 +1728,122 @@
    },
    {
     "date": "2026-10-13",
+    "pick": "BIG 4 · Ticket: B 5-leg: Tuch, McMann, Messick o3.5 K, Draisaitl, Pastrnak",
+    "odds": "+544",
+    "result": "L",
+    "detail": "$5"
+   },
+   {
+    "date": "2026-10-13",
+    "pick": "NHL · Ticket: A 2-leg: Batherson o1.5 SOG + Kadri o1.5 SOG",
+    "odds": "+137",
+    "result": "L",
+    "detail": "$15"
+   },
+   {
+    "date": "2026-10-13",
     "pick": "NHL · Parlay: 2-leg (backfill: daily +100 ticket)",
     "odds": "+115",
     "result": "L",
     "detail": "legs L/W"
+   },
+   {
+    "date": "2026-10-12",
+    "pick": "BIG 4 · Ticket: D 4-leg: Batherson o1.5 SOG + Stone o0.5 pts + Whittington o0.5 rec + Caminero o0.5 hits",
+    "odds": "n/a",
+    "result": "L",
+    "detail": "n/a"
+   },
+   {
+    "date": "2026-10-12",
+    "pick": "BIG 4 · Ticket: C 4-leg: Kyle Tucker u1.5 TB + 3 legs not on file",
+    "odds": "n/a",
+    "result": "L",
+    "detail": "n/a"
+   },
+   {
+    "date": "2026-10-12",
+    "pick": "MLB · Ticket: B 2-leg: Chourio o0.5 hits + Kwan o0.5 hits",
+    "odds": "n/a",
+    "result": "L",
+    "detail": "n/a"
+   },
+   {
+    "date": "2026-10-12",
+    "pick": "NFL · Ticket: A SGP: Ty Johnson o1.5 rec + Tyler Higbee o1.5 rec",
+    "odds": "n/a",
+    "result": "W",
+    "detail": "n/a"
    }
   ],
   "chart": [
    [
-    "10/13",
-    -1
-   ],
-   [
-    "10/14",
-    0
-   ],
-   [
-    "10/15",
-    -1
-   ],
-   [
-    "10/15",
-    0
-   ],
-   [
-    "10/16",
+    "10/12",
     1
    ],
    [
+    "10/12",
+    0
+   ],
+   [
+    "10/12",
+    -1
+   ],
+   [
+    "10/12",
+    -2
+   ],
+   [
+    "10/13",
+    -3
+   ],
+   [
+    "10/13",
+    -4
+   ],
+   [
+    "10/13",
+    -5
+   ],
+   [
+    "10/14",
+    -4
+   ],
+   [
+    "10/14",
+    -5
+   ],
+   [
+    "10/14",
+    -6
+   ],
+   [
+    "10/15",
+    -7
+   ],
+   [
+    "10/15",
+    -6
+   ],
+   [
+    "10/15",
+    -7
+   ],
+   [
+    "10/15",
+    -6
+   ],
+   [
     "10/16",
-    2
+    -5
+   ],
+   [
+    "10/16",
+    -4
    ],
    [
     "10/17",
-    3
+    -3
    ]
   ]
  },
@@ -2620,7 +2764,7 @@
    }
   ]
  },
- "ui_build": "1792286313",
+ "ui_build": "1792286537",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -2725,43 +2869,61 @@
   {
    "sport": "MLB",
    "w": 0,
-   "l": 0,
+   "l": 1,
    "p": 0,
-   "pct": null,
+   "pct": 0,
    "active": true,
    "runners_up": {
     "w": 0,
     "l": 0,
     "p": 0,
     "pct": null
+   },
+   "ticket_legs": {
+    "w": 4,
+    "l": 6,
+    "p": 0,
+    "pct": 40
    }
   },
   {
    "sport": "NHL",
    "w": 1,
-   "l": 2,
+   "l": 3,
    "p": 0,
-   "pct": 33,
+   "pct": 25,
    "active": true,
    "runners_up": {
     "w": 3,
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   "ticket_legs": {
+    "w": 13,
+    "l": 7,
+    "p": 0,
+    "pct": 65
    }
   },
   {
    "sport": "NFL",
-   "w": 0,
+   "w": 1,
    "l": 0,
    "p": 0,
-   "pct": null,
+   "pct": 100,
    "active": true,
    "runners_up": {
     "w": 0,
     "l": 0,
     "p": 0,
     "pct": null
+   },
+   "ticket_legs": {
+    "w": 3,
+    "l": 1,
+    "p": 0,
+    "pct": 75
    }
   },
   {
@@ -2772,6 +2934,12 @@
    "pct": null,
    "active": true,
    "runners_up": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
+   },
+   "ticket_legs": {
     "w": 0,
     "l": 0,
     "p": 0,
@@ -2790,6 +2958,12 @@
     "l": 1,
     "p": 0,
     "pct": 0
+   },
+   "ticket_legs": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
    }
   },
   {
@@ -2804,6 +2978,12 @@
     "l": 1,
     "p": 0,
     "pct": 75
+   },
+   "ticket_legs": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
    }
   },
   {
@@ -2814,6 +2994,12 @@
    "pct": null,
    "active": null,
    "runners_up": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
+   },
+   "ticket_legs": {
     "w": 0,
     "l": 0,
     "p": 0,
@@ -2832,52 +3018,88 @@
     "l": 0,
     "p": 0,
     "pct": null
+   },
+   "ticket_legs": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
    }
   },
   {
    "sport": "BIG 4",
-   "w": 3,
-   "l": 0,
+   "w": 4,
+   "l": 6,
    "p": 0,
-   "pct": 100,
+   "pct": 40,
    "runners_up": {
     "w": 0,
     "l": 0,
     "p": 0,
     "pct": null
    },
-   "label": "Big 4"
+   "label": "Big 4",
+   "ticket_legs": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
+   }
   }
  ],
  "sport_categories": [
   {
    "sport": "MLB",
    "w": 0,
-   "l": 0,
+   "l": 1,
    "p": 0,
-   "pct": null,
-   "props": [],
+   "pct": 0,
+   "props": [
+    {
+     "prop": "User ticket",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    }
+   ],
    "official": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "p": 0,
-    "pct": null,
-    "props": []
+    "pct": 0,
+    "props": [
+     {
+      "prop": "User ticket",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     }
+    ]
    },
    "tracked": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "p": 0,
-    "pct": null,
-    "props": []
+    "pct": 0,
+    "props": [
+     {
+      "prop": "User ticket",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     }
+    ]
    }
   },
   {
    "sport": "NHL",
    "w": 1,
-   "l": 2,
+   "l": 3,
    "p": 0,
-   "pct": 33,
+   "pct": 25,
    "props": [
     {
      "prop": "NHL SOG",
@@ -2892,13 +3114,20 @@
      "l": 1,
      "p": 0,
      "pct": 0
+    },
+    {
+     "prop": "User ticket",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "official": {
     "w": 1,
-    "l": 2,
+    "l": 3,
     "p": 0,
-    "pct": 33,
+    "pct": 25,
     "props": [
      {
       "prop": "NHL SOG",
@@ -2913,14 +3142,21 @@
       "l": 1,
       "p": 0,
       "pct": 0
+     },
+     {
+      "prop": "User ticket",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
      }
     ]
    },
    "tracked": {
     "w": 4,
-    "l": 2,
+    "l": 3,
     "p": 0,
-    "pct": 67,
+    "pct": 57,
     "props": [
      {
       "prop": "NHL SOG",
@@ -2931,6 +3167,13 @@
      },
      {
       "prop": "ALL parlay",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     },
+     {
+      "prop": "User ticket",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -2955,24 +3198,48 @@
   },
   {
    "sport": "NFL",
-   "w": 0,
+   "w": 1,
    "l": 0,
    "p": 0,
-   "pct": null,
-   "props": [],
+   "pct": 100,
+   "props": [
+    {
+     "prop": "User ticket",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    }
+   ],
    "official": {
-    "w": 0,
+    "w": 1,
     "l": 0,
     "p": 0,
-    "pct": null,
-    "props": []
+    "pct": 100,
+    "props": [
+     {
+      "prop": "User ticket",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     }
+    ]
    },
    "tracked": {
-    "w": 0,
+    "w": 1,
     "l": 0,
     "p": 0,
-    "pct": null,
-    "props": []
+    "pct": 100,
+    "props": [
+     {
+      "prop": "User ticket",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     }
+    ]
    }
   },
   {
@@ -3147,11 +3414,18 @@
   },
   {
    "sport": "Big 4",
-   "w": 3,
-   "l": 0,
+   "w": 4,
+   "l": 6,
    "p": 0,
-   "pct": 100,
+   "pct": 40,
    "props": [
+    {
+     "prop": "User ticket",
+     "w": 1,
+     "l": 6,
+     "p": 0,
+     "pct": 14
+    },
     {
      "prop": "ALL parlay",
      "w": 3,
@@ -3161,11 +3435,18 @@
     }
    ],
    "official": {
-    "w": 3,
-    "l": 0,
+    "w": 4,
+    "l": 6,
     "p": 0,
-    "pct": 100,
+    "pct": 40,
     "props": [
+     {
+      "prop": "User ticket",
+      "w": 1,
+      "l": 6,
+      "p": 0,
+      "pct": 14
+     },
      {
       "prop": "ALL parlay",
       "w": 3,
@@ -3176,11 +3457,18 @@
     ]
    },
    "tracked": {
-    "w": 3,
-    "l": 0,
+    "w": 4,
+    "l": 6,
     "p": 0,
-    "pct": 100,
+    "pct": 40,
     "props": [
+     {
+      "prop": "User ticket",
+      "w": 1,
+      "l": 6,
+      "p": 0,
+      "pct": 14
+     },
      {
       "prop": "ALL parlay",
       "w": 3,
@@ -4398,6 +4686,46 @@
  },
  "official_rows": [
   {
+   "date": "2026-10-12",
+   "sport": "NFL",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "A SGP: Ty Johnson o1.5 rec + Tyler Higbee o1.5 rec",
+   "odds": "n/a",
+   "res": "W",
+   "stat": "n/a"
+  },
+  {
+   "date": "2026-10-12",
+   "sport": "MLB",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "B 2-leg: Chourio o0.5 hits + Kwan o0.5 hits",
+   "odds": "n/a",
+   "res": "L",
+   "stat": "n/a"
+  },
+  {
+   "date": "2026-10-12",
+   "sport": "BIG 4",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "C 4-leg: Kyle Tucker u1.5 TB + 3 legs not on file",
+   "odds": "n/a",
+   "res": "L",
+   "stat": "n/a"
+  },
+  {
+   "date": "2026-10-12",
+   "sport": "BIG 4",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "D 4-leg: Batherson o1.5 SOG + Stone o0.5 pts + Whittington o0.5 rec + Caminero o0.5 hits",
+   "odds": "n/a",
+   "res": "L",
+   "stat": "n/a"
+  },
+  {
    "date": "2026-10-13",
    "sport": "NHL",
    "type": "Parlay",
@@ -4408,6 +4736,26 @@
    "stat": "legs L/W"
   },
   {
+   "date": "2026-10-13",
+   "sport": "NHL",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "A 2-leg: Batherson o1.5 SOG + Kadri o1.5 SOG",
+   "odds": "+137",
+   "res": "L",
+   "stat": "$15"
+  },
+  {
+   "date": "2026-10-13",
+   "sport": "BIG 4",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "B 5-leg: Tuch, McMann, Messick o3.5 K, Draisaitl, Pastrnak",
+   "odds": "+544",
+   "res": "L",
+   "stat": "$5"
+  },
+  {
    "date": "2026-10-14",
    "sport": "BIG 4",
    "type": "Parlay",
@@ -4416,6 +4764,26 @@
    "odds": "+100",
    "res": "W",
    "stat": "legs W/W"
+  },
+  {
+   "date": "2026-10-14",
+   "sport": "BIG 4",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "A 2-leg: Snell u1.5 ER + Seguin o1.5 SOG",
+   "odds": "+145",
+   "res": "L",
+   "stat": "$15"
+  },
+  {
+   "date": "2026-10-14",
+   "sport": "BIG 4",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "B 3-leg: Jenner o1.5 SOG + Gasser o11.5 outs + Kadri o1.5 SOG",
+   "odds": "+284",
+   "res": "L",
+   "stat": "$5"
   },
   {
    "date": "2026-10-15",
@@ -4436,6 +4804,26 @@
    "odds": "+108",
    "res": "W",
    "stat": "legs W/W"
+  },
+  {
+   "date": "2026-10-15",
+   "sport": "BIG 4",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "A 3-leg: G. Williams o2.5 H + Connor o3.5 SOG + Draisaitl o2.5 SOG",
+   "odds": "+344",
+   "res": "L",
+   "stat": "$5"
+  },
+  {
+   "date": "2026-10-15",
+   "sport": "BIG 4",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "B 2-leg: Schaefer o2.5 SOG + Smith-Njigba o64.5 rec yds",
+   "odds": "+101",
+   "res": "W",
+   "stat": "$10"
   },
   {
    "date": "2026-10-16",
@@ -4528,6 +4916,26 @@
    "stat": "—"
   },
   {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "POTD single: Ben Kindel o1.5 SOG",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "$3.50"
+  },
+  {
+   "date": "2026-10-17",
+   "sport": "NHL",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "+100 2-leg: Blues +1.5 + Charlie McAvoy o1.5 SOG",
+   "odds": "+155",
+   "res": "Pending",
+   "stat": "$3.50"
+  },
+  {
    "date": "2026-10-18",
    "sport": "NASCAR",
    "type": "POTD",
@@ -4546,6 +4954,16 @@
    "odds": "+134",
    "res": "Pending",
    "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Ticket",
+   "prop": "User ticket",
+   "pick": "Touchdown City 11-leg: anytime TD x11 (td-city.json)",
+   "odds": "+48611",
+   "res": "Pending",
+   "stat": "$1"
   }
  ],
  "tracked_rows": [
@@ -4880,10 +5298,16 @@
    "stat": "—"
   }
  ],
+ "ticket_legs_all": {
+  "w": 20,
+  "l": 14,
+  "p": 0,
+  "pct": 59
+ },
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 7,
-  "headline": 7
+  "tiles_sum": 17,
+  "headline": 17
  }
 }
