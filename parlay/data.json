@@ -1,5 +1,5 @@
 {
- "generated": 1792283919.0803432,
+ "generated": 1792283953.455439,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -1408,6 +1408,98 @@
     "result": "Pending",
     "stat": "—"
    }
+  ],
+  "sport_picks": [
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "type": "Runner-up",
+    "pick": "(Quality) Tampa Bay Lightning -1.5",
+    "odds": "-145",
+    "result": "W",
+    "stat": "TB 4-2"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "WNBA",
+    "type": "Runner-up",
+    "pick": "(Quality) Valkyries ML",
+    "odds": "-140",
+    "result": "W",
+    "stat": "ATL 64-68 GS"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "WNBA",
+    "type": "Runner-up",
+    "pick": "(+EV) Valkyries/Valkyries Halftime-Fulltime",
+    "odds": "+125",
+    "result": "W",
+    "stat": "HT GS / FT GS"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "WNBA",
+    "type": "Runner-up",
+    "pick": "Allisha Gray Under 14.5 Points",
+    "odds": "-115",
+    "result": "L",
+    "stat": "19 PTS"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "WNBA",
+    "type": "Runner-up",
+    "pick": "2nd Half Total Under 79.5 incl OT",
+    "odds": "-115",
+    "result": "W",
+    "stat": "total 51"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "WNBA",
+    "type": "POTD",
+    "pick": "1st Quarter Total Under 37.5",
+    "odds": "-115",
+    "result": "W",
+    "stat": "total 36"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "type": "Runner-up",
+    "pick": "(Quality) Arseny Gritsyuk o1.5 SOG",
+    "odds": "-145",
+    "result": "W",
+    "stat": "6 SOG"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "type": "Runner-up",
+    "pick": "(Quality) Tampa Bay Lightning ML",
+    "odds": "-375",
+    "result": "W",
+    "stat": "TB 4-2"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAA F",
+    "type": "Runner-up",
+    "pick": "Auburn Under 14.5 Team Total",
+    "odds": "-130",
+    "result": "L",
+    "stat": "AUB 24 (live)"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAA F",
+    "type": "Leg",
+    "pick": "Penn State @ Michigan Under 43.5",
+    "odds": "-120",
+    "result": "W",
+    "stat": "total 39"
+   }
   ]
  },
  "record": {
@@ -2532,7 +2624,7 @@
    }
   ]
  },
- "ui_build": "1792283822",
+ "ui_build": "1792283953",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -2639,56 +2731,112 @@
    "w": 4,
    "l": 6,
    "p": 0,
-   "pct": 40
+   "pct": 40,
+   "tracked": {
+    "w": 4,
+    "l": 6,
+    "p": 0,
+    "pct": 40
+   },
+   "active": true
   },
   {
    "sport": "NHL",
    "w": 13,
    "l": 7,
    "p": 0,
-   "pct": 65
+   "pct": 65,
+   "tracked": {
+    "w": 16,
+    "l": 7,
+    "p": 0,
+    "pct": 70
+   },
+   "active": true
   },
   {
    "sport": "NFL",
    "w": 3,
    "l": 1,
    "p": 0,
-   "pct": 75
+   "pct": 75,
+   "tracked": {
+    "w": 3,
+    "l": 1,
+    "p": 0,
+    "pct": 75
+   },
+   "active": true
   },
   {
    "sport": "NBA",
    "w": 0,
    "l": 0,
    "p": 0,
-   "pct": null
+   "pct": null,
+   "tracked": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
+   },
+   "active": true
   },
   {
    "sport": "NCAA F",
    "w": 3,
    "l": 1,
    "p": 0,
-   "pct": 75
+   "pct": 75,
+   "tracked": {
+    "w": 4,
+    "l": 2,
+    "p": 0,
+    "pct": 67
+   },
+   "active": true
   },
   {
    "sport": "WNBA",
    "w": 0,
    "l": 0,
    "p": 0,
-   "pct": null
+   "pct": null,
+   "tracked": {
+    "w": 4,
+    "l": 1,
+    "p": 0,
+    "pct": 80
+   },
+   "active": true
   },
   {
    "sport": "NASCAR",
    "w": 0,
    "l": 0,
    "p": 0,
-   "pct": null
+   "pct": null,
+   "tracked": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
+   },
+   "active": null
   },
   {
    "sport": "GOLF",
    "w": 0,
    "l": 0,
    "p": 0,
-   "pct": null
+   "pct": null,
+   "tracked": {
+    "w": 0,
+    "l": 0,
+    "p": 0,
+    "pct": null
+   },
+   "active": null
   }
  ],
  "sport_categories": [
@@ -4413,6 +4561,38 @@
    "stake": "$1.00",
    "payout": "$730.16",
    "boost": "50% profit boost"
+  }
+ },
+ "sport_status": {
+  "MLB": {
+   "active": true,
+   "games_today": 1,
+   "season": "Postseason"
+  },
+  "NHL": {
+   "active": true,
+   "games_today": 14,
+   "season": "Regular Season"
+  },
+  "NFL": {
+   "active": true,
+   "games_today": 0,
+   "season": "Regular Season"
+  },
+  "NBA": {
+   "active": true,
+   "games_today": 0,
+   "season": "Preseason"
+  },
+  "NCAA F": {
+   "active": true,
+   "games_today": 52,
+   "season": "Regular Season"
+  },
+  "WNBA": {
+   "active": true,
+   "games_today": 1,
+   "season": "Postseason"
   }
  }
 }

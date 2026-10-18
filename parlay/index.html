@@ -28,7 +28,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792283822';
+const UI_BUILD='1792283953';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Touchdown City').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${['W','L','P','Pending'].includes(r)?r:'P'}">${E(r)}</span>`;
 const pc=p=>p==null?'—':p+'%',col=p=>p==null?'#8b949e':p>=55?'#3fb950':p>=45?'#d29922':'#f85149';
@@ -42,7 +42,7 @@ let ALL=sessionStorage.getItem('allsp')=='1';
 function spOf(t){t=t||'';if(/\b(NASCAR|GOLF|PGA|LPGA)\b/i.test(t))return'OTHER';if(/\b(NHL|SOG|puck|Lightning|Kraken|Blues|Kings|Penguins)\b/i.test(t))return'NHL';if(/\b(MLB|F5|RBI|Rays|Guardians|innings?|strikeouts?|hits allowed)\b/i.test(t))return'MLB';if(/\bNBA\b/i.test(t))return'NBA';if(/\b(NFL|Rec Yds|Rush Yds|touchdowns?|TDs?)\b/i.test(t))return'NFL';return'';}
 function isMaj(t){const s=spOf(t);return s?['MLB','NHL','NBA','NFL'].includes(s):true}
 function setAll(v){ALL=v;sessionStorage.setItem('allsp',v?'1':'0');draw()}
-function sbub(){const R=D.sport_records||[];return R.map(r=>`<div class="card" style="cursor:pointer;${K=='sport'&&SP==r.sport?'border-color:#1f6feb':''}" onclick="goSport('${E(r.sport)}')"><b>${E(r.sport)}</b><span class=m>${E(r.w)}-${E(r.l)}-${E(r.p)} · ${r.pct==null?'—':r.pct+'%'}</span></div>`).join('')}
+function sbub(){const R=D.sport_records||[];return R.map(r=>`<div class="card" style="cursor:pointer;${K=='sport'&&SP==r.sport?'border-color:#1f6feb':''}" onclick="goSport('${E(r.sport)}')"><b>${E(r.sport)}</b><span class=m>${E(r.w)}-${E(r.l)}-${E(r.p)} · ${r.pct==null?'—':r.pct+'%'}</span>${r.tracked&&(r.tracked.w+r.tracked.l+r.tracked.p)>(r.w+r.l+r.p)?`<div class=m style="font-size:11px">All tracked ${E(r.tracked.w)}-${E(r.tracked.l)}-${E(r.tracked.p)} · ${r.tracked.pct==null?'—':r.tracked.pct+'%'}</div>`:''}</div>`).join('')}
 
 let SP='';
 function goSport(n){SP=n;K='sport';history.replaceState(null,'','#sport');document.querySelectorAll('.tab').forEach(b=>b.classList.remove('on'));draw();scrollTo(0,0)}
@@ -93,6 +93,7 @@ function today(){const t=D.today;const RS={};((D.runners_up_record||{}).recent||
 function results(){const r=D.results;let h='<h2>Recent tickets</h2>';
  h+=r.tickets.map(t=>`<div class="card"><div class="row"><div><b>${E(t.name)}</b> <span class="m">${E(t.date)}</span><div class=m>${E(t.desc)}</div></div>${chip(t.result)}</div>
  <table style="margin-top:6px">${t.legs.map(l=>`<tr><td>${E(l.pick)}<div class=m>${E(l.stat)} · ${E(l.final)}</div></td><td style="text-align:right">${chip(l.result)}</td></tr>`).join('')}</table></div>`).join('')||'<div class="card m">None yet</div>';
+ const SPK=r.sport_picks||[];if(SPK.length)h+='<details class="card"><summary><div class="row"><b>Sport picks graded (unofficial)</b><span>▾</span></div><div class=m>Per-sport POTD / runners-up · unstaked</div></summary><table style="margin-top:6px">'+SPK.map(x=>`<tr><td><b>${E(x.sport)}</b> <span class=m>${E(x.date)} · ${E(x.type)}</span><div>${E(x.pick)} ${E(x.odds)}</div><div class=m>${E(x.stat)}</div></td><td style="text-align:right">${chip(x.result)}</td></tr>`).join('')+'</table></details>';
  h+='<h2>Nightly</h2><div class="card"><table>'+r.nights.map(n=>`<tr><td class=m>${E(n.date)}</td><td>${E(n.text)}</td></tr>`).join('')+'</table></div>';
  return h}
 function record(){const o=D.record.overall,L=o.legs||{},T=o.tickets||{},P=o.potd||{};
