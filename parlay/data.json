@@ -1,5 +1,5 @@
 {
- "generated": 1792285020.5772839,
+ "generated": 1792285086.442142,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -1514,107 +1514,49 @@
  },
  "record": {
   "overall": {
-   "legs": {
-    "prop": "Overall (all graded)",
-    "w": 20,
-    "l": 14,
+   "official": {
+    "w": 5,
+    "l": 2,
     "p": 0,
-    "pct": 59
-   },
-   "placed_legs": {
-    "prop": "Placed legs only (incl. POTD)",
-    "w": 17,
-    "l": 12,
-    "p": 0,
-    "pct": 59
-   },
-   "tickets": {
-    "prop": "Placed tickets",
-    "w": 4,
-    "l": 9,
-    "p": 0,
-    "pct": 31
+    "pct": 71
    },
    "potd": {
+    "w": 2,
+    "l": 1,
+    "p": 0,
+    "pct": 67
+   },
+   "parlay": {
+    "w": 3,
+    "l": 1,
+    "p": 0,
+    "pct": 75
+   },
+   "tracked": {
+    "w": 11,
+    "l": 4,
+    "p": 0,
+    "pct": 73
+   },
+   "pending": 8
+  },
+  "props": [
+   {
+    "prop": "ALL parlay",
+    "w": 3,
+    "l": 1,
+    "p": 0,
+    "pct": 75
+   },
+   {
+    "prop": "NHL SOG",
     "w": 1,
     "l": 1,
     "p": 0,
     "pct": 50
-   }
-  },
-  "props": [
-   {
-    "prop": "NHL SOG",
-    "w": 12,
-    "l": 5,
-    "p": 0,
-    "pct": 71
    },
    {
-    "prop": "NHL points",
-    "w": 1,
-    "l": 2,
-    "p": 0,
-    "pct": 33
-   },
-   {
-    "prop": "MLB batter hits",
-    "w": 2,
-    "l": 1,
-    "p": 0,
-    "pct": 67
-   },
-   {
-    "prop": "MLB batter total bases",
-    "w": 0,
-    "l": 1,
-    "p": 0,
-    "pct": 0
-   },
-   {
-    "prop": "NFL receptions",
-    "w": 2,
-    "l": 1,
-    "p": 0,
-    "pct": 67
-   },
-   {
-    "prop": "NFL rec yds",
-    "w": 1,
-    "l": 0,
-    "p": 0,
-    "pct": 100
-   },
-   {
-    "prop": "MLB pitcher K",
-    "w": 0,
-    "l": 2,
-    "p": 0,
-    "pct": 0
-   },
-   {
-    "prop": "MLB pitcher ER",
-    "w": 0,
-    "l": 1,
-    "p": 0,
-    "pct": 0
-   },
-   {
-    "prop": "MLB pitcher hits allowed",
-    "w": 0,
-    "l": 1,
-    "p": 0,
-    "pct": 0
-   },
-   {
-    "prop": "MLB pitcher outs",
-    "w": 1,
-    "l": 0,
-    "p": 0,
-    "pct": 100
-   },
-   {
-    "prop": "MLB pitcher walks",
+    "prop": "WNBA 1Q total",
     "w": 1,
     "l": 0,
     "p": 0,
@@ -1623,25 +1565,109 @@
   ],
   "potd": [
    {
-    "date": "10/15",
-    "pick": "Owen Power u1.5 SOG (BUF@TOR)",
-    "odds": "-120 ($5 placed, pays $9.17)",
-    "result": "L",
-    "detail": "L (2 SOG, 1 G OT winner, BUF 5 TOR 4 OT)"
-   },
-   {
-    "date": "10/16",
-    "pick": "David Pastrnak o3.5 SOG (BOS@ANA)",
-    "odds": "-110 ($10 placed, pays $19.09)",
-    "result": "W",
-    "detail": "W (4 SOG, 1 G, 1 A, BOS 4 ANA 2)"
-   },
-   {
-    "date": "10/17",
-    "pick": "Ben Kindel o1.5 SOG (PIT@VGK)",
-    "odds": "-115 (placed)",
+    "date": "2026-10-18",
+    "pick": "NASCAR · Parlay: 2-leg",
+    "odds": "+134",
     "result": "Pending",
-    "detail": "Pending"
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-18",
+    "pick": "NASCAR · POTD: Kyle Larson over Chase Briscoe (H2H)",
+    "odds": "-120",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "ALL · Parlay: 3-leg",
+    "odds": "+114",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "WNBA · POTD: 1st Quarter Total Under 37.5",
+    "odds": "-115",
+    "result": "W",
+    "detail": "total 36"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "NHL · Parlay: 2-leg",
+    "odds": "+224",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "NHL · POTD: Charlie McAvoy o1.5 SOG",
+    "odds": "-110",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "MLB · POTD: Tampa Bay Rays F5 ML",
+    "odds": "-125",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "NCAA F · Parlay: 2-leg",
+    "odds": "+230",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-17",
+    "pick": "NCAA F · POTD: Colorado Under 17.5 Team Total",
+    "odds": "-130",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-16",
+    "pick": "ALL · Parlay: 2-leg (backfill: daily +100 ticket)",
+    "odds": "+114",
+    "result": "W",
+    "detail": "legs W/Void (Díaz rainout)"
+   },
+   {
+    "date": "2026-10-16",
+    "pick": "ALL · POTD: David Pastrnak o3.5 SOG (backfill)",
+    "odds": "-120",
+    "result": "W",
+    "detail": "4 SOG"
+   },
+   {
+    "date": "2026-10-15",
+    "pick": "ALL · Parlay: 2-leg (backfill: daily +100 ticket)",
+    "odds": "+108",
+    "result": "W",
+    "detail": "legs W/W"
+   },
+   {
+    "date": "2026-10-15",
+    "pick": "ALL · POTD: Owen Power u1.5 SOG (backfill)",
+    "odds": "-120",
+    "result": "L",
+    "detail": "2 SOG"
+   },
+   {
+    "date": "2026-10-14",
+    "pick": "ALL · Parlay: 2-leg (backfill: daily +100 ticket)",
+    "odds": "+100",
+    "result": "W",
+    "detail": "legs W/W"
+   },
+   {
+    "date": "2026-10-13",
+    "pick": "ALL · Parlay: 2-leg (backfill: daily +100 ticket)",
+    "odds": "+115",
+    "result": "L",
+    "detail": "legs L/W"
    }
   ],
   "chart": [
@@ -1650,84 +1676,28 @@
     -1
    ],
    [
-    "10/13",
+    "10/14",
     0
    ],
    [
-    "10/13",
+    "10/15",
     -1
    ],
    [
-    "10/13",
+    "10/15",
     0
-   ],
-   [
-    "10/13",
-    -1
-   ],
-   [
-    "10/13",
-    0
-   ],
-   [
-    "10/13",
-    1
-   ],
-   [
-    "10/14",
-    0
-   ],
-   [
-    "10/14",
-    1
-   ],
-   [
-    "10/14",
-    0
-   ],
-   [
-    "10/14",
-    1
-   ],
-   [
-    "10/14",
-    2
-   ],
-   [
-    "10/15",
-    1
-   ],
-   [
-    "10/15",
-    2
-   ],
-   [
-    "10/15",
-    1
-   ],
-   [
-    "10/15",
-    2
-   ],
-   [
-    "10/15",
-    3
-   ],
-   [
-    "10/15",
-    2
    ],
    [
     "10/16",
-    3
+    1
    ],
    [
     "10/16",
-    4
+    2
    ],
    [
     "10/17",
-    5
+    3
    ]
   ]
  },
@@ -2648,7 +2618,7 @@
    }
   ]
  },
- "ui_build": "1792284640",
+ "ui_build": "1792285073",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -2752,43 +2722,43 @@
  "sport_records": [
   {
    "sport": "MLB",
-   "w": 4,
-   "l": 6,
+   "w": 0,
+   "l": 0,
    "p": 0,
-   "pct": 40,
+   "pct": null,
    "tracked": {
-    "w": 4,
-    "l": 6,
+    "w": 0,
+    "l": 0,
     "p": 0,
-    "pct": 40
+    "pct": null
    },
    "active": true
   },
   {
    "sport": "NHL",
-   "w": 13,
-   "l": 7,
+   "w": 0,
+   "l": 0,
    "p": 0,
-   "pct": 65,
+   "pct": null,
    "tracked": {
-    "w": 17,
-    "l": 7,
+    "w": 3,
+    "l": 0,
     "p": 0,
-    "pct": 71
+    "pct": 100
    },
    "active": true
   },
   {
    "sport": "NFL",
-   "w": 3,
-   "l": 1,
+   "w": 0,
+   "l": 0,
    "p": 0,
-   "pct": 75,
+   "pct": null,
    "tracked": {
-    "w": 3,
-    "l": 1,
+    "w": 0,
+    "l": 0,
     "p": 0,
-    "pct": 75
+    "pct": null
    },
    "active": true
   },
@@ -2808,24 +2778,24 @@
   },
   {
    "sport": "NCAA F",
-   "w": 3,
-   "l": 1,
+   "w": 0,
+   "l": 0,
    "p": 0,
-   "pct": 75,
+   "pct": null,
    "tracked": {
-    "w": 4,
-    "l": 2,
+    "w": 0,
+    "l": 1,
     "p": 0,
-    "pct": 67
+    "pct": 0
    },
    "active": true
   },
   {
    "sport": "WNBA",
-   "w": 0,
+   "w": 1,
    "l": 0,
    "p": 0,
-   "pct": null,
+   "pct": 100,
    "tracked": {
     "w": 4,
     "l": 1,
@@ -2866,249 +2836,55 @@
  "sport_categories": [
   {
    "sport": "MLB",
-   "w": 4,
-   "l": 6,
+   "w": 0,
+   "l": 0,
    "p": 0,
-   "pct": 40,
-   "props": [
-    {
-     "prop": "MLB batter hits",
-     "w": 2,
-     "l": 1,
-     "p": 0,
-     "pct": 67
-    },
-    {
-     "prop": "MLB batter total bases",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "MLB pitcher K",
-     "w": 0,
-     "l": 2,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "MLB pitcher ER",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "MLB pitcher hits allowed",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "MLB pitcher outs",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "MLB pitcher walks",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    }
-   ],
+   "pct": null,
+   "props": [],
    "official": {
-    "w": 4,
-    "l": 6,
+    "w": 0,
+    "l": 0,
     "p": 0,
-    "pct": 40,
-    "props": [
-     {
-      "prop": "MLB batter hits",
-      "w": 2,
-      "l": 1,
-      "p": 0,
-      "pct": 67
-     },
-     {
-      "prop": "MLB batter total bases",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB pitcher K",
-      "w": 0,
-      "l": 2,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB pitcher ER",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB pitcher hits allowed",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB pitcher outs",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     },
-     {
-      "prop": "MLB pitcher walks",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     }
-    ]
+    "pct": null,
+    "props": []
    },
    "tracked": {
-    "w": 4,
-    "l": 6,
+    "w": 0,
+    "l": 0,
     "p": 0,
-    "pct": 40,
-    "props": [
-     {
-      "prop": "MLB batter hits",
-      "w": 2,
-      "l": 1,
-      "p": 0,
-      "pct": 67
-     },
-     {
-      "prop": "MLB batter total bases",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB pitcher K",
-      "w": 0,
-      "l": 2,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB pitcher ER",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB pitcher hits allowed",
-      "w": 0,
-      "l": 1,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "MLB pitcher outs",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     },
-     {
-      "prop": "MLB pitcher walks",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     }
-    ]
+    "pct": null,
+    "props": []
    }
   },
   {
    "sport": "NHL",
-   "w": 13,
-   "l": 7,
+   "w": 0,
+   "l": 0,
    "p": 0,
-   "pct": 65,
-   "props": [
-    {
-     "prop": "NHL SOG",
-     "w": 12,
-     "l": 5,
-     "p": 0,
-     "pct": 71
-    },
-    {
-     "prop": "NHL points",
-     "w": 1,
-     "l": 2,
-     "p": 0,
-     "pct": 33
-    }
-   ],
+   "pct": null,
+   "props": [],
    "official": {
-    "w": 13,
-    "l": 7,
+    "w": 0,
+    "l": 0,
     "p": 0,
-    "pct": 65,
-    "props": [
-     {
-      "prop": "NHL SOG",
-      "w": 12,
-      "l": 5,
-      "p": 0,
-      "pct": 71
-     },
-     {
-      "prop": "NHL points",
-      "w": 1,
-      "l": 2,
-      "p": 0,
-      "pct": 33
-     }
-    ]
+    "pct": null,
+    "props": []
    },
    "tracked": {
-    "w": 17,
-    "l": 7,
+    "w": 3,
+    "l": 0,
     "p": 0,
-    "pct": 71,
+    "pct": 100,
     "props": [
      {
-      "prop": "NHL SOG",
-      "w": 13,
-      "l": 5,
-      "p": 0,
-      "pct": 72
-     },
-     {
-      "prop": "NHL points",
-      "w": 1,
-      "l": 2,
-      "p": 0,
-      "pct": 33
-     },
-     {
-      "prop": "NHL team total",
+      "prop": "NHL ML",
       "w": 1,
       "l": 0,
       "p": 0,
       "pct": 100
      },
      {
-      "prop": "NHL ML",
+      "prop": "NHL SOG",
       "w": 1,
       "l": 0,
       "p": 0,
@@ -3126,69 +2902,24 @@
   },
   {
    "sport": "NFL",
-   "w": 3,
-   "l": 1,
+   "w": 0,
+   "l": 0,
    "p": 0,
-   "pct": 75,
-   "props": [
-    {
-     "prop": "NFL receptions",
-     "w": 2,
-     "l": 1,
-     "p": 0,
-     "pct": 67
-    },
-    {
-     "prop": "NFL rec yds",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    }
-   ],
+   "pct": null,
+   "props": [],
    "official": {
-    "w": 3,
-    "l": 1,
+    "w": 0,
+    "l": 0,
     "p": 0,
-    "pct": 75,
-    "props": [
-     {
-      "prop": "NFL receptions",
-      "w": 2,
-      "l": 1,
-      "p": 0,
-      "pct": 67
-     },
-     {
-      "prop": "NFL rec yds",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     }
-    ]
+    "pct": null,
+    "props": []
    },
    "tracked": {
-    "w": 3,
-    "l": 1,
+    "w": 0,
+    "l": 0,
     "p": 0,
-    "pct": 75,
-    "props": [
-     {
-      "prop": "NFL receptions",
-      "w": 2,
-      "l": 1,
-      "p": 0,
-      "pct": 67
-     },
-     {
-      "prop": "NFL rec yds",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     }
-    ]
+    "pct": null,
+    "props": []
    }
   },
   {
@@ -3228,62 +2959,50 @@
     "props": []
    },
    "tracked": {
-    "w": 4,
-    "l": 2,
+    "w": 0,
+    "l": 1,
     "p": 0,
-    "pct": 67,
+    "pct": 0,
     "props": [
-     {
-      "prop": "NCAAF alt total",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     },
-     {
-      "prop": "NCAAF 1h total",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     },
      {
       "prop": "NCAAF team total",
       "w": 0,
-      "l": 2,
+      "l": 1,
       "p": 0,
       "pct": 0
-     },
-     {
-      "prop": "NCAAF game special",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     },
-     {
-      "prop": "NCAAF total",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
      }
     ]
    }
   },
   {
    "sport": "WNBA",
-   "w": 0,
+   "w": 1,
    "l": 0,
    "p": 0,
-   "pct": null,
-   "props": [],
+   "pct": 100,
+   "props": [
+    {
+     "prop": "WNBA 1Q total",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    }
+   ],
    "official": {
-    "w": 0,
+    "w": 1,
     "l": 0,
     "p": 0,
-    "pct": null,
-    "props": []
+    "pct": 100,
+    "props": [
+     {
+      "prop": "WNBA 1Q total",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     }
+    ]
    },
    "tracked": {
     "w": 4,
@@ -3374,31 +3093,68 @@
    }
   },
   {
-   "sport": "All Sports",
-   "w": 0,
-   "l": 0,
+   "sport": "Big 4 / All Sports",
+   "w": 4,
+   "l": 2,
    "p": 0,
-   "pct": null,
-   "props": [],
+   "pct": 67,
+   "props": [
+    {
+     "prop": "ALL parlay",
+     "w": 3,
+     "l": 1,
+     "p": 0,
+     "pct": 75
+    },
+    {
+     "prop": "NHL SOG",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50
+    }
+   ],
    "official": {
-    "w": 0,
-    "l": 0,
+    "w": 4,
+    "l": 2,
     "p": 0,
-    "pct": null,
-    "props": []
-   },
-   "tracked": {
-    "w": 1,
-    "l": 0,
-    "p": 0,
-    "pct": 100,
+    "pct": 67,
     "props": [
      {
-      "prop": "NHL ML",
-      "w": 1,
-      "l": 0,
+      "prop": "ALL parlay",
+      "w": 3,
+      "l": 1,
       "p": 0,
-      "pct": 100
+      "pct": 75
+     },
+     {
+      "prop": "NHL SOG",
+      "w": 1,
+      "l": 1,
+      "p": 0,
+      "pct": 50
+     }
+    ]
+   },
+   "tracked": {
+    "w": 4,
+    "l": 2,
+    "p": 0,
+    "pct": 67,
+    "props": [
+     {
+      "prop": "ALL parlay",
+      "w": 3,
+      "l": 1,
+      "p": 0,
+      "pct": 75
+     },
+     {
+      "prop": "NHL SOG",
+      "w": 1,
+      "l": 1,
+      "p": 0,
+      "pct": 50
      }
     ]
    }
