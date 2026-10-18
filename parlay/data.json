@@ -1,5 +1,5 @@
 {
- "generated": 1792293789.5600464,
+ "generated": 1792293803.1349533,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -81,8 +81,8 @@
     "why": "The Rays lose this only if Cleveland leads by 2+ after five innings. Nick Martinez threw 13 scoreless innings in two starts against CLE this year, and Cleveland is running a bullpen game (Shawn Armstrong opens). First-five totals in this series have been 2, 3 and 5. LineMate shows TB +1.5 F5 covering 6 of 6 vs CLE. Savant batter-vs-pitcher vs Martinez is all tiny samples with no home runs: Kwan 3-for-7 (xBA .198), Ramírez 1-for-11 (xBA .116), DeLauter 1-for-3, Adell 0-for-3 with a walk, Lowe 2-for-6. Weather is fine: about 45°F at first pitch, wind 3 to 4 mph from the southwest, 0% rain, and the cold favors pitching. Lineups aren't confirmed yet. Risk: Martinez has an early hook (3.2 and 2.2 innings in his last two starts), so TB's fully rested bullpen has to cover innings 4 and 5.",
     "grade": "A",
     "rank": 1,
-    "status": "Pending",
-    "stat": "—",
+    "status": "W",
+    "stat": "TB 1-1 CLE",
     "lu_txt": "TB ✓ CLE ✓",
     "lu": "green",
     "now": "-400"
@@ -169,8 +169,8 @@
     "why": "LineMate TB F5 ML won 5 of last 6 vs CLE. Nick Martinez has 13 scoreless innings in two starts vs CLE this year; Cleveland runs a bullpen game (Armstrong opens). F5 totals this series 2, 3, 5. Weather ~45°F, light wind, 0% rain. Correlated with runner-up #1. Risk: Martinez's early hook and unconfirmed lineups. Hard Rock price via LineMate.",
     "grade": "B",
     "rank": 9,
-    "status": "Pending",
-    "stat": "—",
+    "status": "P",
+    "stat": "TB 1-1 CLE (tie push)",
     "lu_txt": "TB ✓ CLE ✓",
     "lu": "green",
     "now": "-130"
@@ -203,11 +203,11 @@
     "pick": "BYU Under 17.5 Team Total",
     "odds": "-125",
     "game": "Notre Dame @ BYU 7:30 PM ET",
-    "status": "Pending",
+    "status": "L",
     "why": "#2. BYU's offense is 59th (27.5 pts/g) vs Notre Dame's defense, 2nd in points allowed (11.0), 3rd vs the run (58.3 yds/g) and 11th vs the pass (155.7). Ranks: TeamRankings 2026 season stats. LineMate NCAAF team trends unavailable (pending odds/not loadable), so none cited. Hard Rock price confirmed (hr-lines/ncaaf-oct17.md).",
     "grade": "A-",
     "rank": 2,
-    "stat": "—",
+    "stat": "BYU 28",
     "now": "-120"
    },
    {
@@ -255,11 +255,11 @@
     "pick": "Notre Dame -10.5",
     "odds": "-120",
     "game": "Notre Dame @ BYU 7:30 PM ET",
-    "status": "Pending",
+    "status": "L",
     "why": "#7. Notre Dame is 2nd in scoring (44.0) and 2nd in points allowed (11.0) vs BYU's 59th-ranked offense (27.5). BYU's defense is good (9th, 15.0), which is why this isn't higher. Correlates with BYU team-total under. Ranks: TeamRankings 2026 season stats. LineMate NCAAF team trends unavailable (pending odds/not loadable), so none cited. Hard Rock price confirmed (hr-lines/ncaaf-oct17.md).",
     "grade": "B+",
     "rank": 7,
-    "stat": "—"
+    "stat": "ND 24-28 BYU"
    },
    {
     "pick": "Miami -19.5",
@@ -308,7 +308,7 @@
      "pick": "2-leg",
      "odds": "+230",
      "game": "calc from Hard Rock leg prices",
-     "status": "Pending",
+     "status": "Lost",
      "why": null,
      "desc": "2-leg +230 (calc from Hard Rock leg prices)",
      "legs": [
@@ -316,7 +316,7 @@
        "pick": "BYU Under 17.5 Team Total",
        "odds": "-125",
        "game": "Notre Dame @ BYU 7:30 PM ET",
-       "status": "Pending",
+       "status": "Lost",
        "why": "BYU offense 59th (27.5) vs Notre Dame D 2nd in points allowed (11.0), 3rd vs the run, 11th vs the pass.",
        "now": "-120"
       },
@@ -372,7 +372,7 @@
       "pick": "(+EV) Notre Dame -11.5",
       "odds": "-105",
       "game": "Notre Dame @ BYU 7:30 PM ET",
-      "status": "Pending",
+      "status": "Lost",
       "why": "Best value on the board: ND is 2nd in scoring (44.0) and 2nd in points allowed (11.0) vs BYU's 59th offense; -105 is the cheapest price on that edge (vs -10.5 at -120). Risk: BYU D is 9th.",
       "grade": "B",
       "rank": 5
@@ -381,7 +381,7 @@
       "pick": "(Quality) Notre Dame -10.5",
       "odds": "-120",
       "game": "Notre Dame @ BYU 7:30 PM ET",
-      "status": "Pending",
+      "status": "Lost",
       "why": "ND 2nd in scoring and 2nd in points allowed vs BYU's 59th offense. Overlaps the (+EV) ND -11.5; take one, not both.",
       "grade": "B+",
       "rank": 6
@@ -393,7 +393,7 @@
      "pick": "Tampa Bay Rays F5 ML",
      "odds": "-125",
      "game": "TB @ CLE 8:08 PM ET",
-     "status": "Pending",
+     "status": "Push",
      "why": "Only MLB game today. Nick Martinez has 13 scoreless innings in two starts vs CLE this year; Cleveland runs a bullpen game (Shawn Armstrong opens). F5 totals this series 2, 3, 5; LineMate TB F5 ML 5 of last 6 vs CLE. ~45°F, light wind. Risk: Martinez's early hook (3.2 and 2.2 IP last two). Hard Rock price confirmed in hr-lines/overall-oct17.md. No MLB parlay: only one game, and I'm not building a same-game parlay without a Hard Rock SGP price. Cleveland's official lineup posted at 4:03 PM ET with no surprises: Kwan, Ramírez, DeLauter, Adell, Lowe, Bazzana, Bailey, Halpin, Rocchio. It is lefty-heavy (five lefties, three switch-hitters), and Martinez has been better against lefties this year (.659 OPS allowed vs .705 against righties), so the pick holds. Tampa Bay's lineup is still pending. Tampa Bay's official lineup posted at about 5:07 PM ET: Díaz DH, Aranda 1B, Simpson LF, Caminero 3B, Hicks C, Mesa Jr. RF, DeLuca CF, Palacios 2B, Walls SS (Vilade, Fortes, Mateo and Mullins sit). It's six lefties plus switch-hitting Walls, and Tanner Bibee, Cleveland's main pitcher behind Armstrong, has allowed a .755 OPS and 22 HR to lefties this year vs .678 to righties (MLB stats), so the TB side gets stronger. Both lineups are final, Martinez still starts, weather ~49°F with 7 mph wind, so the pick holds.",
      "desc": "Tampa Bay Rays F5 ML -125 (TB @ CLE 8:08 PM ET)",
      "lu_txt": "TB ✓ CLE ✓",
@@ -406,7 +406,7 @@
       "pick": "Guardians F5 Under 1.5 Team Runs",
       "odds": "-125",
       "game": "TB @ CLE 8:08 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "Martinez 13 scoreless IP vs CLE this year; CLE has scored 0, 1 and 2 in the series' first fives. Cold (~45°F) favors pitching. Risk: early hook. Hard Rock (overall-oct17.md).",
       "grade": "B+",
       "rank": 1,
@@ -418,7 +418,7 @@
       "pick": "F5 Total Under 3.5",
       "odds": "-120",
       "game": "TB @ CLE 8:08 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "F5 totals this series 2, 3, 5; Martinez vs a CLE lineup with tiny-sample BvP and no HRs; cold weather. Risk: TB scoring off CLE's bullpen game.",
       "grade": "B",
       "rank": 2,
@@ -429,7 +429,7 @@
       "pick": "(+EV) Tampa Bay Rays F5 -0.5",
       "odds": "+120",
       "game": "TB @ CLE 8:08 PM ET",
-      "status": "Pending",
+      "status": "Push",
       "why": "Best value: same F5 edge as the POTD, at plus money, but loses on an F5 tie.",
       "grade": "B-",
       "rank": 3,
@@ -440,7 +440,7 @@
       "pick": "(Quality) Tampa Bay Rays +1.5 F5",
       "odds": "-375",
       "game": "TB @ CLE 8:08 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "Loses only if CLE leads by 2+ after 5; LineMate 6/6 vs CLE.",
       "grade": "A",
       "rank": 4,
@@ -452,7 +452,7 @@
       "pick": "(Quality) Tampa Bay Rays +0.5 F5",
       "odds": "-185",
       "game": "TB @ CLE 8:08 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "Wins or ties after 5; Martinez dominance vs CLE plus CLE bullpen game.",
       "grade": "B+",
       "rank": 5,
@@ -464,7 +464,7 @@
       "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
       "odds": "-275",
       "game": "TB @ CLE 8:08 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "CLE needs 3 off Martinez in 5 innings; hasn't scored on him in 13 IP.",
       "grade": "B",
       "rank": 6,
@@ -476,7 +476,7 @@
       "pick": "(Quality) F5 Total Under 4.5",
       "odds": "-220",
       "game": "TB @ CLE 8:08 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "Every F5 this series has been 5 or fewer; this needs 4 or fewer.",
       "grade": "B",
       "rank": 7,
@@ -488,7 +488,7 @@
       "pick": "(Quality) Tampa Bay Rays F5 Over 0.5 Team Runs",
       "odds": "-325",
       "game": "TB @ CLE 8:08 PM ET",
-      "status": "Pending",
+      "status": "Won",
       "why": "TB faces a CLE bullpen game (Armstrong opens) and needs just one run in five innings; F5 totals this series 2, 3, 5. Hard Rock (overall-oct17.md).",
       "grade": "B",
       "rank": 8,
@@ -682,7 +682,7 @@
        "pick": "Tampa Bay Rays +1.5 F5",
        "odds": "-375",
        "game": "TB @ CLE 8:08 PM ET",
-       "status": "Pending",
+       "status": "Won",
        "why": "Loses only if CLE leads by 2+ after 5. Martinez 13 scoreless IP vs CLE this year; CLE bullpen game; LineMate 6/6 vs CLE. Hard Rock -375 (overall-oct17.md).",
        "lu_txt": "TB ✓ CLE ✓",
        "lu": "green",
@@ -1410,8 +1410,8 @@
     "line": "u17.5",
     "odds": "-125 placed",
     "ticket": "10/17 NCAAF 2-leg +230",
-    "result": "Pending",
-    "stat": "—"
+    "result": "L",
+    "stat": "BYU 28"
    },
    {
     "date": "10/18",
@@ -1569,6 +1569,15 @@
    },
    {
     "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "Runner-up",
+    "pick": "(Quality) Tampa Bay Rays F5 Over 0.5 Team Runs",
+    "odds": "-325",
+    "result": "W",
+    "stat": "TB 1"
+   },
+   {
+    "date": "2026-10-17",
     "sport": "WNBA",
     "type": "Runner-up",
     "pick": "(Quality) Valkyries ML",
@@ -1677,6 +1686,96 @@
    },
    {
     "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "Runner-up",
+    "pick": "(Quality) F5 Total Under 4.5",
+    "odds": "-220",
+    "result": "W",
+    "stat": "total 2"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "Runner-up",
+    "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
+    "odds": "-275",
+    "result": "W",
+    "stat": "CLE 1"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "Runner-up",
+    "pick": "(Quality) Tampa Bay Rays +0.5 F5",
+    "odds": "-185",
+    "result": "W",
+    "stat": "TB 1-1 CLE"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "Runner-up",
+    "pick": "(Quality) Tampa Bay Rays +1.5 F5",
+    "odds": "-375",
+    "result": "W",
+    "stat": "TB 1-1 CLE"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "Runner-up",
+    "pick": "(+EV) Tampa Bay Rays F5 -0.5",
+    "odds": "+120",
+    "result": "P",
+    "stat": "TB 1-1 CLE (tie push)"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "Runner-up",
+    "pick": "F5 Total Under 3.5",
+    "odds": "-120",
+    "result": "W",
+    "stat": "total 2"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "Runner-up",
+    "pick": "Guardians F5 Under 1.5 Team Runs",
+    "odds": "-125",
+    "result": "W",
+    "stat": "CLE 1"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "type": "POTD",
+    "pick": "Tampa Bay Rays F5 ML",
+    "odds": "-125",
+    "result": "P",
+    "stat": "TB 1-1 CLE (tie push)"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAA F",
+    "type": "Runner-up",
+    "pick": "(Quality) Notre Dame -10.5",
+    "odds": "-120",
+    "result": "L",
+    "stat": "ND 24-28 BYU"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAA F",
+    "type": "Runner-up",
+    "pick": "(+EV) Notre Dame -11.5",
+    "odds": "-105",
+    "result": "L",
+    "stat": "ND 24-28 BYU"
+   },
+   {
+    "date": "2026-10-17",
     "sport": "NCAA F",
     "type": "Runner-up",
     "pick": "Auburn Under 14.5 Team Total",
@@ -1710,6 +1809,24 @@
     "odds": "-120",
     "result": "W",
     "stat": "total 39"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAA F",
+    "type": "Leg",
+    "pick": "BYU Under 17.5 Team Total",
+    "odds": "-125",
+    "result": "L",
+    "stat": "BYU 28"
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAA F",
+    "type": "Parlay",
+    "pick": "2-leg",
+    "odds": "+230",
+    "result": "L",
+    "stat": "legs L/W"
    }
   ]
  },
@@ -1717,35 +1834,35 @@
   "overall": {
    "official": {
     "w": 26,
-    "l": 17,
-    "p": 0,
-    "pct": 60
+    "l": 19,
+    "p": 1,
+    "pct": 58
    },
    "potd": {
     "w": 2,
     "l": 1,
-    "p": 0,
+    "p": 1,
     "pct": 67
    },
    "legs": {
     "w": 20,
-    "l": 14,
+    "l": 15,
     "p": 0,
-    "pct": 59
+    "pct": 57
    },
    "parlay": {
     "w": 4,
-    "l": 2,
+    "l": 3,
     "p": 0,
-    "pct": 67
+    "pct": 57
    },
    "tracked": {
-    "w": 33,
-    "l": 22,
-    "p": 0,
-    "pct": 60
+    "w": 40,
+    "l": 26,
+    "p": 2,
+    "pct": 61
    },
-   "pending": 21
+   "pending": 18
   },
   "props": [
    {
@@ -1861,6 +1978,20 @@
     "pct": 100
    },
    {
+    "prop": "NCAAF parlay",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
+   },
+   {
+    "prop": "MLB F5 ML",
+    "w": 0,
+    "l": 0,
+    "p": 1,
+    "pct": null
+   },
+   {
     "prop": "WNBA 1Q total",
     "w": 1,
     "l": 0,
@@ -1880,6 +2011,13 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "prop": "NCAA F team total",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
    }
   ],
   "potd": [
@@ -1999,8 +2137,8 @@
     "date": "2026-10-17",
     "pick": "NCAA F · Leg: BYU u17.5 · 10/17 NCAAF 2-leg +230",
     "odds": "-125 placed",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "BYU 28"
    },
    {
     "date": "2026-10-17",
@@ -2048,15 +2186,15 @@
     "date": "2026-10-17",
     "pick": "MLB · POTD: Tampa Bay Rays F5 ML",
     "odds": "-125",
-    "result": "Pending",
-    "detail": "—"
+    "result": "P",
+    "detail": "TB 1-1 CLE (tie push)"
    },
    {
     "date": "2026-10-17",
     "pick": "NCAA F · Parlay: 2-leg",
     "odds": "+230",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "legs L/W"
    },
    {
     "date": "2026-10-17",
@@ -2494,11 +2632,11 @@
    ],
    [
     "10/17",
-    9
+    7
    ],
    [
     "10/17",
-    10
+    8
    ],
    [
     "10/17",
@@ -2510,7 +2648,15 @@
    ],
    [
     "10/17",
-    9
+    7
+   ],
+   [
+    "10/17",
+    8
+   ],
+   [
+    "10/17",
+    7
    ]
   ]
  },
@@ -2518,9 +2664,9 @@
   {
    "name": "@alexcaruso",
    "w": 4,
-   "l": 4,
+   "l": 5,
    "p": 0,
-   "pct": 50,
+   "pct": 44,
    "props": [
     {
      "prop": "MLB batter hits (under)",
@@ -2570,6 +2716,13 @@
      "l": 1,
      "p": 0,
      "pct": 0
+    },
+    {
+     "prop": "MLB ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "today": [
@@ -2585,7 +2738,7 @@
      "prop": "MLB ML",
      "pick": "Guardians ML (vs TB, ALCS G4)",
      "odds": "-102 FD (reposted Sat)",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "UFC",
@@ -2838,10 +2991,10 @@
   },
   {
    "name": "@tonestakes",
-   "w": 14,
+   "w": 15,
    "l": 10,
    "p": 1,
-   "pct": 58,
+   "pct": 60,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -2912,6 +3065,13 @@
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "MLB team total (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ],
    "today": [
@@ -2920,7 +3080,7 @@
      "prop": "MLB team total (over)",
      "pick": "Rays TT Over 3.5 (@ CLE, ALCS G4)",
      "odds": "+116",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NHL",
@@ -3189,10 +3349,10 @@
  "capper_today_date": "2026-10-17",
  "runners_up_record": {
   "overall": {
-   "w": 5,
+   "w": 6,
    "l": 1,
-   "p": 0,
-   "pct": 83
+   "p": 1,
+   "pct": 86
   },
   "props": [
    {
@@ -3201,6 +3361,13 @@
     "l": 1,
     "p": 0,
     "pct": 75
+   },
+   {
+    "prop": "MLB F5 spread (alt)",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
    },
    {
     "prop": "NHL ML",
@@ -3215,6 +3382,13 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "prop": "MLB F5 ML",
+    "w": 0,
+    "l": 0,
+    "p": 1,
+    "pct": null
    }
   ],
   "recent": [
@@ -3347,8 +3521,8 @@
     "pick": "Tampa Bay Rays F5 ML",
     "odds": "-125",
     "grade": "B",
-    "status": "Pending",
-    "stat": "—"
+    "status": "P",
+    "stat": "TB 1-1 CLE (tie push)"
    },
    {
     "date": "2026-10-17",
@@ -3435,11 +3609,18 @@
     "pick": "Tampa Bay Rays +1.5 F5",
     "odds": "-375",
     "grade": "A",
-    "status": "Pending",
-    "stat": "—"
+    "status": "W",
+    "stat": "TB 1-1 CLE"
    }
   ],
   "grades": [
+   {
+    "grade": "A",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
    {
     "grade": "A-",
     "w": 1,
@@ -3465,7 +3646,7 @@
     "grade": "B",
     "w": 2,
     "l": 0,
-    "p": 0,
+    "p": 1,
     "pct": 100
    },
    {
@@ -3481,9 +3662,9 @@
  "ncaaf_record": {
   "overall": {
    "w": 3,
-   "l": 3,
+   "l": 5,
    "p": 0,
-   "pct": 50
+   "pct": 38
   },
   "recent": [
    {
@@ -3519,8 +3700,8 @@
     "type": "Spread",
     "pick": "Notre Dame -10.5",
     "odds": "-120",
-    "status": "Pending",
-    "stat": "—"
+    "status": "L",
+    "stat": "ND 24-28 BYU"
    },
    {
     "date": "2026-10-17",
@@ -3564,8 +3745,8 @@
     "type": "Team total",
     "pick": "BYU Under 17.5 Team Total",
     "odds": "-125",
-    "status": "Pending",
-    "stat": "—"
+    "status": "L",
+    "stat": "BYU 28"
    },
    {
     "date": "2026-10-17",
@@ -3583,14 +3764,14 @@
    "sport": "MLB",
    "w": 4,
    "l": 6,
-   "p": 0,
+   "p": 1,
    "pct": 40,
    "active": true,
    "runners_up": {
-    "w": 0,
+    "w": 7,
     "l": 0,
-    "p": 0,
-    "pct": null
+    "p": 1,
+    "pct": 100
    },
    "ticket_legs": {
     "w": 4,
@@ -3662,13 +3843,13 @@
   {
    "sport": "NCAA F",
    "w": 1,
-   "l": 0,
+   "l": 2,
    "p": 0,
-   "pct": 100,
+   "pct": 33,
    "active": true,
    "runners_up": {
     "w": 0,
-    "l": 3,
+    "l": 5,
     "p": 0,
     "pct": 0
    },
@@ -3765,7 +3946,7 @@
    "sport": "MLB",
    "w": 4,
    "l": 6,
-   "p": 0,
+   "p": 1,
    "pct": 40,
    "props": [
     {
@@ -3816,12 +3997,19 @@
      "l": 1,
      "p": 0,
      "pct": 0
+    },
+    {
+     "prop": "MLB F5 ML",
+     "w": 0,
+     "l": 0,
+     "p": 1,
+     "pct": null
     }
    ],
    "official": {
     "w": 4,
     "l": 6,
-    "p": 0,
+    "p": 1,
     "pct": 40,
     "props": [
      {
@@ -3872,14 +4060,21 @@
       "l": 1,
       "p": 0,
       "pct": 0
+     },
+     {
+      "prop": "MLB F5 ML",
+      "w": 0,
+      "l": 0,
+      "p": 1,
+      "pct": null
      }
     ]
    },
    "tracked": {
-    "w": 4,
+    "w": 11,
     "l": 6,
-    "p": 0,
-    "pct": 40,
+    "p": 2,
+    "pct": 65,
     "props": [
      {
       "prop": "MLB o0.5 hits",
@@ -3889,11 +4084,39 @@
       "pct": 67
      },
      {
+      "prop": "MLB F5 team total",
+      "w": 3,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
+     {
       "prop": "MLB pitcher K",
       "w": 0,
       "l": 2,
       "p": 0,
       "pct": 0
+     },
+     {
+      "prop": "MLB F5 ML",
+      "w": 0,
+      "l": 0,
+      "p": 2,
+      "pct": null
+     },
+     {
+      "prop": "MLB F5 total",
+      "w": 2,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
+     {
+      "prop": "MLB F5 spread (alt)",
+      "w": 2,
+      "l": 0,
+      "p": 0,
+      "pct": 100
      },
      {
       "prop": "MLB u1.5 TB",
@@ -4211,43 +4434,42 @@
   {
    "sport": "NCAA F",
    "w": 1,
-   "l": 0,
+   "l": 2,
    "p": 0,
-   "pct": 100,
+   "pct": 33,
    "props": [
+    {
+     "prop": "NCAAF parlay",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
     {
      "prop": "NCAA F game total",
      "w": 1,
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "NCAA F team total",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "official": {
     "w": 1,
-    "l": 0,
+    "l": 2,
     "p": 0,
-    "pct": 100,
+    "pct": 33,
     "props": [
      {
-      "prop": "NCAA F game total",
-      "w": 1,
-      "l": 0,
-      "p": 0,
-      "pct": 100
-     }
-    ]
-   },
-   "tracked": {
-    "w": 1,
-    "l": 3,
-    "p": 0,
-    "pct": 25,
-    "props": [
-     {
-      "prop": "NCAAF team total",
+      "prop": "NCAAF parlay",
       "w": 0,
-      "l": 2,
+      "l": 1,
       "p": 0,
       "pct": 0
      },
@@ -4259,7 +4481,50 @@
       "pct": 100
      },
      {
+      "prop": "NCAA F team total",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     }
+    ]
+   },
+   "tracked": {
+    "w": 1,
+    "l": 7,
+    "p": 0,
+    "pct": 12,
+    "props": [
+     {
       "prop": "NCAAF spread",
+      "w": 0,
+      "l": 3,
+      "p": 0,
+      "pct": 0
+     },
+     {
+      "prop": "NCAAF team total",
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "pct": 0
+     },
+     {
+      "prop": "NCAAF parlay",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     },
+     {
+      "prop": "NCAA F game total",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
+     },
+     {
+      "prop": "NCAA F team total",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -7189,8 +7454,8 @@
    "prop": "NCAAF parlay",
    "pick": "2-leg",
    "odds": "+230",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "legs L/W"
   },
   {
    "date": "2026-10-17",
@@ -7199,8 +7464,8 @@
    "prop": "MLB F5 ML",
    "pick": "Tampa Bay Rays F5 ML",
    "odds": "-125",
-   "res": "Pending",
-   "stat": "—"
+   "res": "P",
+   "stat": "TB 1-1 CLE (tie push)"
   },
   {
    "date": "2026-10-17",
@@ -7269,8 +7534,8 @@
    "prop": "NCAA F team total",
    "pick": "BYU u17.5 · 10/17 NCAAF 2-leg +230",
    "odds": "-125 placed",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "BYU 28"
   },
   {
    "date": "2026-10-17",
@@ -7485,8 +7750,8 @@
    "prop": "NCAAF spread",
    "pick": "(+EV) Notre Dame -11.5",
    "odds": "-105",
-   "res": "Pending",
-   "stat": "—",
+   "res": "L",
+   "stat": "ND 24-28 BYU",
    "grade": "B"
   },
   {
@@ -7496,8 +7761,8 @@
    "prop": "NCAAF spread",
    "pick": "(Quality) Notre Dame -10.5",
    "odds": "-120",
-   "res": "Pending",
-   "stat": "—",
+   "res": "L",
+   "stat": "ND 24-28 BYU",
    "grade": "B+"
   },
   {
@@ -7507,8 +7772,8 @@
    "prop": "MLB F5 team total",
    "pick": "Guardians F5 Under 1.5 Team Runs",
    "odds": "-125",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "CLE 1",
    "grade": "B+"
   },
   {
@@ -7518,8 +7783,8 @@
    "prop": "MLB F5 total",
    "pick": "F5 Total Under 3.5",
    "odds": "-120",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "total 2",
    "grade": "B"
   },
   {
@@ -7529,8 +7794,8 @@
    "prop": "MLB F5 ML",
    "pick": "(+EV) Tampa Bay Rays F5 -0.5",
    "odds": "+120",
-   "res": "Pending",
-   "stat": "—",
+   "res": "P",
+   "stat": "TB 1-1 CLE (tie push)",
    "grade": "B-"
   },
   {
@@ -7540,8 +7805,8 @@
    "prop": "MLB F5 spread (alt)",
    "pick": "(Quality) Tampa Bay Rays +1.5 F5",
    "odds": "-375",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "TB 1-1 CLE",
    "grade": "A"
   },
   {
@@ -7551,8 +7816,8 @@
    "prop": "MLB F5 spread (alt)",
    "pick": "(Quality) Tampa Bay Rays +0.5 F5",
    "odds": "-185",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "TB 1-1 CLE",
    "grade": "B+"
   },
   {
@@ -7562,8 +7827,8 @@
    "prop": "MLB F5 team total",
    "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
    "odds": "-275",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "CLE 1",
    "grade": "B"
   },
   {
@@ -7573,8 +7838,8 @@
    "prop": "MLB F5 total",
    "pick": "(Quality) F5 Total Under 4.5",
    "odds": "-220",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "total 2",
    "grade": "B"
   },
   {
@@ -7694,8 +7959,8 @@
    "prop": "MLB F5 team total",
    "pick": "(Quality) Tampa Bay Rays F5 Over 0.5 Team Runs",
    "odds": "-325",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "TB 1",
    "grade": "B"
   },
   {
@@ -7807,8 +8072,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 43,
-  "headline": 43
+  "tiles_sum": 46,
+  "headline": 46
  },
  "inning_record": {
   "w": 13,
