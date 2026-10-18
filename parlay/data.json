@@ -1,5 +1,5 @@
 {
- "generated": 1792367318.4906714,
+ "generated": 1792367456.7650633,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -5184,7 +5184,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-18 07:48 PM ET",
+  "updated": "2026-10-18 07:50 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -7288,7 +7288,7 @@
      {
       "a": "TB",
       "h": "CLE",
-      "st": "Top 9th",
+      "st": "Mid 9th",
       "div": false,
       "stake": "TB 98-64: 1st American League East, AL #1 seed (in playoff spot) · CLE 85-77: 1st American League Central, AL #2 seed (in playoff spot)"
      }
@@ -7893,7 +7893,7 @@
    }
   }
  },
- "ui_build": "1792367310",
+ "ui_build": "1792367456",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -13778,11 +13778,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-18 19:48 ET",
-  "generated_ts": 1792367334,
+  "generated": "2026-10-18 19:51 ET",
+  "generated_ts": 1792367468,
   "hr_fetched": "2026-10-18 19:41 ET",
   "hr_fetched_ts": 1792366860,
-  "hr_age_min": 8,
+  "hr_age_min": 10,
   "sports": {
    "NHL": {
     "games": [
@@ -13813,18 +13813,18 @@
      {
       "game": "Rays @ Guardians",
       "score": "TB 3 @ CLE 1",
-      "clock": "Top 9th",
+      "clock": "Mid 9th",
       "espn_id": "401930515",
       "picks": [
        {
         "rank": 1,
-        "pick": "Rays @ Guardians Over 4.5 total",
-        "odds": "+175",
-        "grade": "C",
-        "reason": "Game total is 4 with 89% played (Top 9th); scoring pace projects about 4. Needs more than 0.5 more.",
-        "why_not": "Our number is about 35% (fair +185); live prices move fast and the Hard Rock price is from 2026-10-18 19:41 ET, so it may have moved.",
+        "pick": "Rays @ Guardians Under 4.5 total",
+        "odds": "-230",
+        "grade": "C+",
+        "reason": "Game total is 4 with 94% played (Mid 9th); scoring pace projects about 4. Needs no more than 0.5 more.",
+        "why_not": "Our number is about 68% (fair -208); live prices move fast and the Hard Rock price is from 2026-10-18 19:41 ET, so it may have moved.",
         "price_time": "2026-10-18 19:41 ET",
-        "edge": 0.8
+        "edge": 1.8
        }
       ],
       "note": ""
