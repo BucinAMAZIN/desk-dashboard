@@ -1,5 +1,5 @@
 {
- "generated": 1792291256.4269383,
+ "generated": 1792291824.118121,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -1415,6 +1415,28 @@
    {
     "date": "10/18",
     "sport": "NFL",
+    "player": "New York Giants",
+    "prop": "NFL spread",
+    "line": "+1",
+    "odds": "-115 placed",
+    "ticket": "10/18 +100 2-leg +107 $5 (= our Parlay)",
+    "result": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "10/18",
+    "sport": "NFL",
+    "player": "Los Angeles Rams",
+    "prop": "NFL moneyline",
+    "line": "ML",
+    "odds": "-950 placed",
+    "ticket": "10/18 +100 2-leg +107 (= our Parlay)",
+    "result": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "10/18",
+    "sport": "NFL",
     "player": "Josh Allen (QB)",
     "prop": "NFL anytime TD",
     "line": "ATD",
@@ -1704,7 +1726,7 @@
     "p": 0,
     "pct": 65
    },
-   "pending": 22
+   "pending": 23
   },
   "props": [
    {
@@ -1927,6 +1949,20 @@
     "detail": "—"
    },
    {
+    "date": "2026-10-18",
+    "pick": "NFL · Parlay: 2-leg",
+    "odds": "+108",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-18",
+    "pick": "NFL · POTD: Jacksonville Jaguars -2.5",
+    "odds": "-120",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
     "date": "2026-10-17",
     "pick": "NHL · Leg: Ben Kindel o1.5 SOG (PIT@VGK) · single",
     "odds": "-115 ($3.50, pays $6.54)",
@@ -1946,13 +1982,6 @@
     "odds": "-120 placed",
     "result": "W",
     "detail": "total 39"
-   },
-   {
-    "date": "2026-10-17",
-    "pick": "NHL · Leg: Charlie McAvoy o1.5 · 10/17 +100 2-leg +155",
-    "odds": "-110 placed",
-    "result": "Pending",
-    "detail": "—"
    },
    {
     "date": "2026-10-17",
@@ -3043,8 +3072,8 @@
  "bankroll": {
   "start": 51.05,
   "total": 66.59,
-  "available": 56.0,
-  "pending": 10.59,
+  "available": 46.0,
+  "pending": 20.59,
   "pct": 30.44,
   "pending_bets": [
    {
@@ -3061,6 +3090,16 @@
     "bet": "10/17 NCAAF 2-leg +230: PSU@MICH U43.5 -120 + BYU TT U17.5 -125",
     "stake": "$3.59",
     "pays": "$11.85"
+   },
+   {
+    "bet": "10/18 NFL POTD Jaguars -2.5 -120 (HOU@JAX)",
+    "stake": "$5.00",
+    "pays": "$9.17"
+   },
+   {
+    "bet": "10/18 NFL 2-leg +107: Giants +1 -115 + Rams ML -950",
+    "stake": "$5.00",
+    "pays": "$10.33"
    }
   ],
   "ledger": [
@@ -3094,6 +3133,14 @@
     "amount": "-$10.59 (placed)",
     "available": 56.0,
     "pending": 10.59,
+    "total": 66.59
+   },
+   {
+    "date": "2026-10-17 22:50 ET",
+    "event": "Placed 2 NFL bets: Jaguars -2.5 $5, 2-leg +107 $5",
+    "amount": "-$10.00 (placed)",
+    "available": 46.0,
+    "pending": 20.59,
     "total": 66.59
    }
   ]
@@ -6902,16 +6949,6 @@
   },
   {
    "date": "2026-10-17",
-   "sport": "NHL",
-   "type": "Leg",
-   "prop": "NHL SOG",
-   "pick": "Charlie McAvoy o1.5 · 10/17 +100 2-leg +155",
-   "odds": "-110 placed",
-   "res": "Pending",
-   "stat": "—"
-  },
-  {
-   "date": "2026-10-17",
    "sport": "NCAA F",
    "type": "Leg",
    "prop": "NCAA F game total",
@@ -6939,6 +6976,26 @@
    "odds": "-115 ($3.50, pays $6.54)",
    "res": "Pending",
    "stat": "Pending"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "POTD",
+   "prop": "NFL spread",
+   "pick": "Jacksonville Jaguars -2.5",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
+   "type": "Parlay",
+   "prop": "NFL parlay",
+   "pick": "2-leg",
+   "odds": "+108",
+   "res": "Pending",
+   "stat": "—"
   },
   {
    "date": "2026-10-18",
@@ -7449,8 +7506,8 @@
   "headline": 41
  },
  "inning_record": {
-  "w": 8,
+  "w": 9,
   "l": 5,
-  "pct": 62
+  "pct": 64
  }
 }
