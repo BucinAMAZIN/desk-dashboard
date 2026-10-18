@@ -13777,5 +13777,79 @@
   "w": 13,
   "l": 6,
   "pct": 68
+ },
+ "ingame_lines": {
+  "generated": "2026-10-18 19:40 ET",
+  "generated_ts": 1792366832,
+  "hr_fetched": "2026-10-18 19:27 ET",
+  "hr_fetched_ts": 1792366020,
+  "hr_age_min": 14,
+  "sports": {
+   "NFL": {
+    "games": [
+     {
+      "game": "Bills @ Raiders",
+      "score": "BUF 33 @ LV 30",
+      "clock": "Final",
+      "espn_id": "401873005",
+      "picks": [],
+      "note": "Just kicked off: lines appear once the game is underway (a few minutes in)."
+     }
+    ],
+    "note": ""
+   },
+   "NHL": {
+    "games": [
+     {
+      "game": "Blue Jackets @ Wild",
+      "score": "CBJ 1 @ MIN 2",
+      "clock": "End of 2nd",
+      "espn_id": "401892533",
+      "picks": [
+       {
+        "rank": 1,
+        "pick": "Blue Jackets @ Wild Under 6.5 total",
+        "odds": "-130",
+        "grade": "B+",
+        "reason": "Game total is 3 with 67% played (End of 2nd); scoring pace projects about 4. Needs no more than 3.5 more.",
+        "why_not": "Our number is about 60% (fair -152); live prices move fast and the Hard Rock price is from 2026-10-18 19:27 ET, so it may have moved.",
+        "price_time": "2026-10-18 19:27 ET",
+        "edge": 6.6
+       }
+      ],
+      "note": ""
+     }
+    ],
+    "note": ""
+   },
+   "MLB": {
+    "games": [
+     {
+      "game": "Rays @ Guardians",
+      "score": "TB 3 @ CLE 1",
+      "clock": "Top 9th",
+      "espn_id": "401930515",
+      "picks": [
+       {
+        "rank": 1,
+        "pick": "Rays @ Guardians Under 5.5 total",
+        "odds": "-350",
+        "grade": "B-",
+        "reason": "Game total is 4 with 89% played (Top 9th); scoring pace projects about 4. Needs no more than 1.5 more.",
+        "why_not": "Our number is about 75% (fair -308); live prices move fast and the Hard Rock price is from 2026-10-18 19:27 ET, so it may have moved.",
+        "price_time": "2026-10-18 19:27 ET",
+        "edge": 2.9
+       }
+      ],
+      "note": ""
+     }
+    ],
+    "note": ""
+   },
+   "NASCAR": {
+    "games": [],
+    "note": "Hard Rock's NASCAR live markets aren't in our price feed, so no in-game lines."
+   }
+  }
  }
 }
