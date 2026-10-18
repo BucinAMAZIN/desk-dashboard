@@ -1,5 +1,5 @@
 {
- "generated": 1792325970.3134046,
+ "generated": 1792326214.3024874,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -1135,6 +1135,28 @@
     "line": "ML",
     "odds": "-950 placed",
     "ticket": "10/18 +100 2-leg +107 (= our Parlay)",
+    "result": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "10/18",
+    "sport": "NHL",
+    "player": "Jackson Blake",
+    "prop": "NHL SOG",
+    "line": "o1.5",
+    "odds": "-275 placed",
+    "ticket": "10/18 NHL +100 2-leg -110 $5 (= our Parlay)",
+    "result": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "10/18",
+    "sport": "NHL",
+    "player": "Matt Boldy",
+    "prop": "NHL SOG",
+    "line": "o2.5",
+    "odds": "-250 placed",
+    "ticket": "10/18 NHL +100 2-leg -110 $5 (= our Parlay)",
     "result": "Pending",
     "stat": "—"
    },
@@ -3282,8 +3304,8 @@
  "bankroll": {
   "start": 51.05,
   "total": 62.54,
-  "available": 51.54,
-  "pending": 11.0,
+  "available": 46.54,
+  "pending": 16.0,
   "pct": 22.51,
   "pending_bets": [
    {
@@ -3300,6 +3322,11 @@
     "bet": "10/18 NFL Lotto Ticket 11-leg SGPMAX +48,611 (50% boost)",
     "stake": "$1.00",
     "pays": "$730.16"
+   },
+   {
+    "bet": "10/18 NHL 2-leg -110: Jackson Blake o1.5 SOG -275 (CAR@CGY) + Matt Boldy o2.5 SOG -250 (CBJ@MIN)",
+    "stake": "$5.00",
+    "pays": "$9.55"
    }
   ],
   "ledger": [
@@ -3373,6 +3400,14 @@
     "amount": "-$1.00 (placed)",
     "available": 51.54,
     "pending": 11.0,
+    "total": 62.54
+   },
+   {
+    "date": "2026-10-18 08:23 ET",
+    "event": "Placed NHL 2-leg -110 $5 (Blake o1.5 SOG + Boldy o2.5 SOG = our NHL +100)",
+    "amount": "-$5.00 (placed)",
+    "available": 46.54,
+    "pending": 16.0,
     "total": 62.54
    }
   ]
