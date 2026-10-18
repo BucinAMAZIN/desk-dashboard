@@ -1,5 +1,5 @@
 {
- "generated": 1792366705.0588803,
+ "generated": 1792366827.1943257,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -171,10 +171,10 @@
     "potd": {
      "pick": "Tampa Bay Rays ML",
      "odds": "-130",
-     "game": "TB @ CLE 5:08 PM ET · VOID at lineup lock: still -135 when both lineups posted, outside the -105 to -130 band, so no MLB POTD today",
-     "status": "Void",
+     "game": "TB @ CLE 5:08 PM ET · in band at selection, drifted to -135 later, stays live at -130",
+     "status": "Pending",
      "why": "ALCS Game 5, tied 2-2, and the only MLB game today. TB has the better starter: Drew Rasmussen (2.67 ERA, 0.91 WHIP, .543 OPS allowed; 8 one-hit innings vs NYY and 6 innings with 2 earned runs vs CLE this postseason). Parker Messick (2.56 ERA in the regular season) has been pulled early in all three playoff starts (4.1, 2.1 and 5.0 innings), so Cleveland's bullpen has to cover a lot of innings. Savant BvP against Rasmussen (career incl. playoffs, small samples): Kwan 5-for-15 (xBA .288), Ramírez 2-for-15 (.099), Rocchio 1-for-12, DeLauter 4-for-7 with 1 HR, Adell 0-for-7, Lowe 2-for-6, Bazzana 1-for-8. TB against Messick: no HRs in 97 combined plate appearances (Díaz 3-for-14, Caminero 2-for-14, Simpson 4-for-13). Weather at Progressive Field (Open-Meteo): about 60°F at first pitch, cooling to the low 50s, wind 9 mph from the SSW, 0% rain. Lineups aren't posted yet, so this stays pre-lock and gets rechecked when they are. Hard Rock -130 (6:19 AM ET pull). No MLB parlay: it's a one-game slate, and I won't build a same-game parlay without a Hard Rock SGP price. Runners-up note: only 6 MLB runners-up met the bar today (1 +EV, 5 Quality). Hitter props wait for confirmed lineups (top-5 rule), K and outs props are off in the playoffs, and nothing else priced -105 to -130 had a real edge.",
-     "desc": "Tampa Bay Rays ML -130 (TB @ CLE 5:08 PM ET · VOID at lineup lock: still -135 when both lineups posted, outside the -105 to -130 band, so no MLB POTD today)",
+     "desc": "Tampa Bay Rays ML -130 (TB @ CLE 5:08 PM ET · in band at selection, drifted to -135 later, stays live at -130)",
      "lu_txt": "TB ✓ CLE ✓",
      "lu": "green",
      "now": "-135",
@@ -2464,7 +2464,7 @@
     "p": 2,
     "pct": 55
    },
-   "pending": 13
+   "pending": 14
   },
   "props": [
    {
@@ -2886,8 +2886,8 @@
     "date": "2026-10-18",
     "pick": "MLB · POTD: Tampa Bay Rays ML",
     "odds": "-130",
-    "result": "Void",
-    "detail": "Voided at lock: -135, outside band"
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-10-18",
@@ -5184,7 +5184,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-18 07:38 PM ET",
+  "updated": "2026-10-18 07:40 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6788,7 +6788,7 @@
      {
       "a": "CBJ",
       "h": "MIN",
-      "st": "1:00 - 2nd",
+      "st": "End of 2nd",
       "div": false,
       "stake": "CBJ 3-3-0: 7th Metropolitan Division (9 pts back), East #15 seed (outside playoffs) · MIN 5-2-1: 3rd Central Division (1 pts back), West #5 seed (in playoff spot)"
      },
@@ -7288,7 +7288,7 @@
      {
       "a": "TB",
       "h": "CLE",
-      "st": "Bot 8th",
+      "st": "Top 9th",
       "div": false,
       "stake": "TB 98-64: 1st American League East, AL #1 seed (in playoff spot) · CLE 85-77: 1st American League Central, AL #2 seed (in playoff spot)"
      }
@@ -7893,7 +7893,7 @@
    }
   }
  },
- "ui_build": "1792366704",
+ "ui_build": "1792366823",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -12813,8 +12813,8 @@
    "prop": "MLB ML",
    "pick": "Tampa Bay Rays ML",
    "odds": "-130",
-   "res": "Void",
-   "stat": "Voided at lock: -135, outside band"
+   "res": "Pending",
+   "stat": "—"
   },
   {
    "date": "2026-10-18",
@@ -13777,79 +13777,5 @@
   "w": 13,
   "l": 6,
   "pct": 68
- },
- "ingame_lines": {
-  "generated": "2026-10-18 19:38 ET",
-  "generated_ts": 1792366710,
-  "hr_fetched": "2026-10-18 19:27 ET",
-  "hr_fetched_ts": 1792366020,
-  "hr_age_min": 12,
-  "sports": {
-   "NFL": {
-    "games": [
-     {
-      "game": "Bills @ Raiders",
-      "score": "BUF 33 @ LV 30",
-      "clock": "Final",
-      "espn_id": "401873005",
-      "picks": [],
-      "note": "Just kicked off: lines appear once the game is underway (a few minutes in)."
-     }
-    ],
-    "note": ""
-   },
-   "NHL": {
-    "games": [
-     {
-      "game": "Blue Jackets @ Wild",
-      "score": "CBJ 1 @ MIN 2",
-      "clock": "1:00 - 2nd",
-      "espn_id": "401892533",
-      "picks": [
-       {
-        "rank": 1,
-        "pick": "Blue Jackets @ Wild Under 6.5 total",
-        "odds": "-130",
-        "grade": "B+",
-        "reason": "Game total is 3 with 65% played (1:00 - 2nd); scoring pace projects about 5. Needs no more than 3.5 more.",
-        "why_not": "Our number is about 60% (fair -149); live prices move fast and the Hard Rock price is from 2026-10-18 19:27 ET, so it may have moved.",
-        "price_time": "2026-10-18 19:27 ET",
-        "edge": 6.2
-       }
-      ],
-      "note": ""
-     }
-    ],
-    "note": ""
-   },
-   "MLB": {
-    "games": [
-     {
-      "game": "Rays @ Guardians",
-      "score": "TB 3 @ CLE 1",
-      "clock": "End 8th",
-      "espn_id": "401930515",
-      "picks": [
-       {
-        "rank": 1,
-        "pick": "Rays @ Guardians Under 5.5 total",
-        "odds": "-350",
-        "grade": "B-",
-        "reason": "Game total is 4 with 89% played (End 8th); scoring pace projects about 4. Needs no more than 1.5 more.",
-        "why_not": "Our number is about 75% (fair -308); live prices move fast and the Hard Rock price is from 2026-10-18 19:27 ET, so it may have moved.",
-        "price_time": "2026-10-18 19:27 ET",
-        "edge": 2.9
-       }
-      ],
-      "note": ""
-     }
-    ],
-    "note": ""
-   },
-   "NASCAR": {
-    "games": [],
-    "note": "Hard Rock's NASCAR live markets aren't in our price feed, so no in-game lines."
-   }
-  }
  }
 }
