@@ -1,5 +1,5 @@
 {
- "generated": 1792366234.6741621,
+ "generated": 1792366268.5264294,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -5153,7 +5153,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-18 07:30 PM ET",
+  "updated": "2026-10-18 07:31 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -7862,7 +7862,7 @@
    }
   }
  },
- "ui_build": "1792366234",
+ "ui_build": "1792366262",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -11405,45 +11405,6 @@
  "safe100": {
   "date": "2026-10-18",
   "sports": {
-   "NFL": {
-    "sport": "NFL",
-    "odds": "+104",
-    "posted": "8:04 AM ET",
-    "locked": true,
-    "legs": [
-     {
-      "pick": "Derrick Henry 65+ rush yds",
-      "game": "Ravens @ Browns 10/18 01:00 PM ET",
-      "odds": "-350",
-      "grade": "A-",
-      "reason": "Henry 95.2 rush yds/gm this season (5 gms), 114.0 last 10; hit 65+ in 10 of last 10, 5 of 5 this season.",
-      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it.",
-      "status": "LOST",
-      "result": "58 rush yds"
-     },
-     {
-      "pick": "Nico Collins 50+ rec yds",
-      "game": "Texans @ Jaguars 10/18 09:30 AM ET",
-      "odds": "-350",
-      "grade": "A-",
-      "reason": "Collins 83.0 rec yds/gm this season (3 gms), 81.6 last 10; hit 50+ in 10 of last 10, 3 of 3 this season.",
-      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it.",
-      "status": "WON",
-      "result": "74 rec yds"
-     },
-     {
-      "pick": "Bijan Robinson 15+ carries",
-      "game": "Bears @ Falcons 10/18 01:00 PM ET",
-      "odds": "-425",
-      "grade": "A-",
-      "reason": "Robinson 20.4 carries/gm this season (5 gms), 19.4 last 10; hit 15+ in 10 of last 10, 5 of 5 this season.",
-      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it.",
-      "status": "LOST",
-      "result": "9 carries"
-     }
-    ],
-    "status": "LOST"
-   },
    "NHL": {
     "sport": "NHL",
     "odds": "+142",
@@ -11489,8 +11450,52 @@
    "NCAA F": "No Safe +100 for NCAA F today: only 0 real Hard Rock legs met the bar (-350 to -450, 8+ of last 10, grade B or better), not enough for +100.",
    "NBA": "No Safe +100 for NBA today: only 0 real Hard Rock legs met the bar (-350 to -450, 8+ of last 10, grade B or better), not enough for +100.",
    "MLB": "No Safe +100 for MLB today: only 0 real Hard Rock legs met the bar (-350 to -450, 8+ of last 10, grade B or better), not enough for +100.",
-   "WNBA": "No Safe +100 for WNBA today: only 0 real Hard Rock legs met the bar (-350 to -450, 8+ of last 10, grade B or better), not enough for +100."
-  }
+   "WNBA": "No Safe +100 for WNBA today: only 0 real Hard Rock legs met the bar (-350 to -450, 8+ of last 10, grade B or better), not enough for +100.",
+   "NFL": "Safe +100 #1 lost and closed to Record. No #2: only 1 unstarted Hard Rock legs met the bar (-340 to -460, 8+ of last 10, grade B or better), not enough for +100."
+  },
+  "closed": [
+   {
+    "sport": "NFL",
+    "odds": "+104",
+    "posted": "8:04 AM ET",
+    "locked": true,
+    "legs": [
+     {
+      "pick": "Derrick Henry 65+ rush yds",
+      "game": "Ravens @ Browns 10/18 01:00 PM ET",
+      "odds": "-350",
+      "grade": "A-",
+      "reason": "Henry 95.2 rush yds/gm this season (5 gms), 114.0 last 10; hit 65+ in 10 of last 10, 5 of 5 this season.",
+      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it.",
+      "status": "LOST",
+      "result": "58 rush yds"
+     },
+     {
+      "pick": "Nico Collins 50+ rec yds",
+      "game": "Texans @ Jaguars 10/18 09:30 AM ET",
+      "odds": "-350",
+      "grade": "A-",
+      "reason": "Collins 83.0 rec yds/gm this season (3 gms), 81.6 last 10; hit 50+ in 10 of last 10, 3 of 3 this season.",
+      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it.",
+      "status": "WON",
+      "result": "74 rec yds"
+     },
+     {
+      "pick": "Bijan Robinson 15+ carries",
+      "game": "Bears @ Falcons 10/18 01:00 PM ET",
+      "odds": "-425",
+      "grade": "A-",
+      "reason": "Robinson 20.4 carries/gm this season (5 gms), 19.4 last 10; hit 15+ in 10 of last 10, 5 of 5 this season.",
+      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet night sinks it.",
+      "status": "LOST",
+      "result": "9 carries"
+     }
+    ],
+    "status": "LOST",
+    "n": 1,
+    "closed_at": "7:31 PM ET"
+   }
+  ]
  },
  "edge": {
   "date": "2026-10-18",
@@ -13729,8 +13734,8 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-18 19:30 ET",
-  "generated_ts": 1792366241,
+  "generated": "2026-10-18 19:31 ET",
+  "generated_ts": 1792366274,
   "hr_fetched": "2026-10-18 19:27 ET",
   "hr_fetched_ts": 1792366020,
   "hr_age_min": 4,
