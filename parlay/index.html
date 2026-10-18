@@ -28,7 +28,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792287275';
+const UI_BUILD='1792287502';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Touchdown City').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -173,7 +173,7 @@ const LUC={red:'#f85149',yellow:'#d29922',green:'#3fb950'};function paintLU(){if
 const LVL=[['baseball','mlb','MLB'],['hockey','nhl','NHL'],['football','nfl','NFL'],['football','college-football','NCAA F','&groups=80&limit=300'],['basketball','nba','NBA'],['basketball','wnba','WNBA']];let LV={ev:[],t:0,busy:0};
 function lvN(s){return String(s||'').toLowerCase().replace(/[^a-z0-9 ]/g,'').replace(/\s+/g,' ').trim()}
 function lvGames(){const g={};(function w(o){if(Array.isArray(o))o.forEach(w);else if(o&&typeof o=='object'){if(o.game&&/ @ /.test(o.game)){const k=o.game.replace(/\s+\d{1,2}:\d{2}.*$/,'').trim();(g[k]=g[k]||new Set());if(o.pick)g[k].add(String(o.pick).replace(/^\(Quality\)\s*/,''));if(o.desc&&!o.pick)g[k].add(o.desc)}Object.values(o).forEach(w)}})([D&&D.today,D&&D.td_city]);return g}
-function lvSide(s,t){s=lvN(s);if(!s)return false;return [t.abbreviation,t.location,t.shortDisplayName,t.displayName,t.name,t.nickname].some(x=>lvN(x)==s)}
+const LVAL={lak:'la',sjs:'sj',tbl:'tb',njd:'nj',tbr:'tb',sfg:'sf',sdp:'sd',kcr:'kc',chw:'cws',wsn:'wsh',was:'wsh',jac:'jax',lvr:'lv',lv:'lv',ari:'az',nyy:'nyy',mon:'mtl',cbj:'cbj',wpg:'wpg',vgk:'vgk',uta:'utah'};function lvSide(s,t){s=lvN(s);if(!s)return false;if(LVAL[s]&&lvN(t.abbreviation)==LVAL[s])return true;return [t.abbreviation,t.location,t.shortDisplayName,t.displayName,t.name,t.nickname].some(x=>lvN(x)==s)}
 function lvCur(){return K=='today'?'TODAY':K=='cappers'?'CAP':SP}
 const CAPSP={MLB:'MLB',NHL:'NHL',NFL:'NFL',NBA:'NBA',NCAAF:'NCAA F','NCAA F':'NCAA F',CFB:'NCAA F',WNBA:'WNBA'};
 function capPicks(){const r=[];(D.cappers||[]).forEach(c=>(c.today||[]).forEach(x=>{const sp=CAPSP[String(x.sport||'').toUpperCase()]||CAPSP[x.sport];if(sp&&x.pick)r.push({sp,orig:x.pick,pn:capNorm(x.pick)})}));return r}
