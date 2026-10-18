@@ -1,5 +1,5 @@
 {
- "generated": 1792291824.118121,
+ "generated": 1792292044.5641186,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -667,7 +667,7 @@
      "pick": "3-leg",
      "odds": "+114",
      "game": "calc from Hard Rock leg prices",
-     "status": "Pending",
+     "status": "Lost",
      "why": null,
      "desc": "3-leg +114 (calc from Hard Rock leg prices)",
      "legs": [
@@ -692,7 +692,7 @@
        "pick": "St. Louis Blues +1.5",
        "odds": "-300",
        "game": "STL @ NSH 8:00 PM ET",
-       "status": "Pending",
+       "status": "Lost",
        "why": "STL is the ML favorite; LineMate +1.5 18/20 away; NSH has won only one game by 2+; NSH starting Annunen. Risk: empty-netter. Hard Rock price via LineMate."
       }
      ]
@@ -1376,8 +1376,8 @@
     "line": "+1.5",
     "odds": "-300 placed",
     "ticket": "10/17 +100 2-leg +155 $3.50",
-    "result": "Pending",
-    "stat": "—"
+    "result": "L",
+    "stat": "STL 2-5 NSH"
    },
    {
     "date": "10/17",
@@ -1698,9 +1698,9 @@
   "overall": {
    "official": {
     "w": 26,
-    "l": 15,
+    "l": 17,
     "p": 0,
-    "pct": 63
+    "pct": 60
    },
    "potd": {
     "w": 2,
@@ -1710,23 +1710,23 @@
    },
    "legs": {
     "w": 20,
-    "l": 13,
+    "l": 14,
     "p": 0,
-    "pct": 61
+    "pct": 59
    },
    "parlay": {
     "w": 4,
-    "l": 1,
+    "l": 2,
     "p": 0,
-    "pct": 80
+    "pct": 67
    },
    "tracked": {
     "w": 33,
-    "l": 18,
+    "l": 20,
     "p": 0,
-    "pct": 65
+    "pct": 62
    },
-   "pending": 23
+   "pending": 21
   },
   "props": [
    {
@@ -1737,18 +1737,18 @@
     "pct": 69
    },
    {
+    "prop": "Big 4 parlay",
+    "w": 3,
+    "l": 1,
+    "p": 0,
+    "pct": 75
+   },
+   {
     "prop": "MLB o0.5 hits",
     "w": 2,
     "l": 1,
     "p": 0,
     "pct": 67
-   },
-   {
-    "prop": "Big 4 parlay",
-    "w": 3,
-    "l": 0,
-    "p": 0,
-    "pct": 100
    },
    {
     "prop": "NFL o1.5 rec",
@@ -1847,6 +1847,13 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "prop": "NHL puck line (alt)",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
    },
    {
     "prop": "NCAA F game total",
@@ -1987,15 +1994,15 @@
     "date": "2026-10-17",
     "pick": "NHL · Leg: St. Louis Blues +1.5 · 10/17 +100 2-leg +155 $3.50",
     "odds": "-300 placed",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "STL 2-5 NSH"
    },
    {
     "date": "2026-10-17",
     "pick": "BIG 4 · Parlay: 3-leg",
     "odds": "+114",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "legs W/Pending/L"
    },
    {
     "date": "2026-10-17",
@@ -2476,7 +2483,15 @@
    ],
    [
     "10/17",
-    11
+    9
+   ],
+   [
+    "10/17",
+    8
+   ],
+   [
+    "10/17",
+    9
    ]
   ]
  },
@@ -2700,9 +2715,9 @@
   {
    "name": "@showtimepicks2",
    "w": 6,
-   "l": 2,
+   "l": 3,
    "p": 0,
-   "pct": 75,
+   "pct": 67,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -2745,6 +2760,13 @@
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "NCAAF parlay",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "today": [
@@ -2760,7 +2782,7 @@
      "prop": "NCAAF parlay",
      "pick": "NCAAF 2-leg parlay: Baylor ML + Notre Dame ML (free play)",
      "odds": "-109",
-     "status": "Pending"
+     "status": "L"
     }
    ]
   },
@@ -3561,9 +3583,9 @@
   {
    "sport": "NHL",
    "w": 14,
-   "l": 8,
+   "l": 9,
    "p": 0,
-   "pct": 64,
+   "pct": 61,
    "active": true,
    "runners_up": {
     "w": 4,
@@ -3701,9 +3723,9 @@
   {
    "sport": "BIG 4",
    "w": 3,
-   "l": 0,
+   "l": 1,
    "p": 0,
-   "pct": 100,
+   "pct": 75,
    "runners_up": {
     "w": 0,
     "l": 0,
@@ -3895,9 +3917,9 @@
   {
    "sport": "NHL",
    "w": 14,
-   "l": 8,
+   "l": 9,
    "p": 0,
-   "pct": 64,
+   "pct": 61,
    "props": [
     {
      "prop": "NHL SOG",
@@ -3933,13 +3955,20 @@
      "l": 1,
      "p": 0,
      "pct": 0
+    },
+    {
+     "prop": "NHL puck line (alt)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "official": {
     "w": 14,
-    "l": 8,
+    "l": 9,
     "p": 0,
-    "pct": 64,
+    "pct": 61,
     "props": [
      {
       "prop": "NHL SOG",
@@ -3975,14 +4004,21 @@
       "l": 1,
       "p": 0,
       "pct": 0
+     },
+     {
+      "prop": "NHL puck line (alt)",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
      }
     ]
    },
    "tracked": {
     "w": 18,
-    "l": 9,
+    "l": 10,
     "p": 0,
-    "pct": 67,
+    "pct": 64,
     "props": [
      {
       "prop": "NHL SOG",
@@ -4014,6 +4050,13 @@
      },
      {
       "prop": "NHL o0.5 pts",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     },
+     {
+      "prop": "NHL puck line (alt)",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -4320,45 +4363,45 @@
   {
    "sport": "Big 4",
    "w": 3,
-   "l": 0,
+   "l": 1,
    "p": 0,
-   "pct": 100,
+   "pct": 75,
    "props": [
     {
      "prop": "Big 4 parlay",
      "w": 3,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100
+     "pct": 75
     }
    ],
    "official": {
     "w": 3,
-    "l": 0,
+    "l": 1,
     "p": 0,
-    "pct": 100,
+    "pct": 75,
     "props": [
      {
       "prop": "Big 4 parlay",
       "w": 3,
-      "l": 0,
+      "l": 1,
       "p": 0,
-      "pct": 100
+      "pct": 75
      }
     ]
    },
    "tracked": {
     "w": 3,
-    "l": 0,
+    "l": 1,
     "p": 0,
-    "pct": 100,
+    "pct": 75,
     "props": [
      {
       "prop": "Big 4 parlay",
       "w": 3,
-      "l": 0,
+      "l": 1,
       "p": 0,
-      "pct": 100
+      "pct": 75
      }
     ]
    }
@@ -6934,8 +6977,8 @@
    "prop": "Big 4 parlay",
    "pick": "3-leg",
    "odds": "+114",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "legs W/Pending/L"
   },
   {
    "date": "2026-10-17",
@@ -6944,8 +6987,8 @@
    "prop": "NHL puck line (alt)",
    "pick": "St. Louis Blues +1.5 · 10/17 +100 2-leg +155 $3.50",
    "odds": "-300 placed",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "STL 2-5 NSH"
   },
   {
    "date": "2026-10-17",
@@ -7502,8 +7545,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 41,
-  "headline": 41
+  "tiles_sum": 43,
+  "headline": 43
  },
  "inning_record": {
   "w": 9,
