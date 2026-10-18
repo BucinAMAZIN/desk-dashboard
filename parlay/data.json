@@ -1,5 +1,5 @@
 {
- "generated": 1792367714.7249453,
+ "generated": 1792367918.4752686,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -5184,7 +5184,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-18 07:55 PM ET",
+  "updated": "2026-10-18 07:58 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6788,7 +6788,7 @@
      {
       "a": "CBJ",
       "h": "MIN",
-      "st": "End of 2nd",
+      "st": "20:00 - 3rd",
       "div": false,
       "stake": "CBJ 3-3-0: 7th Metropolitan Division (9 pts back), East #15 seed (outside playoffs) · MIN 5-2-1: 3rd Central Division (1 pts back), West #5 seed (in playoff spot)"
      },
@@ -7893,7 +7893,7 @@
    }
   }
  },
- "ui_build": "1792367714",
+ "ui_build": "1792367918",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -13807,18 +13807,18 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-18 19:55 ET",
-  "generated_ts": 1792367720,
+  "generated": "2026-10-18 19:58 ET",
+  "generated_ts": 1792367927,
   "hr_fetched": "2026-10-18 19:41 ET",
   "hr_fetched_ts": 1792366860,
-  "hr_age_min": 14,
+  "hr_age_min": 18,
   "sports": {
    "NHL": {
     "games": [
      {
       "game": "Blue Jackets @ Wild",
       "score": "CBJ 1 @ MIN 2",
-      "clock": "End of 2nd",
+      "clock": "20:00 - 3rd",
       "espn_id": "401892533",
       "picks": [
        {
@@ -13826,7 +13826,7 @@
         "pick": "Blue Jackets @ Wild Under 6.5 total",
         "odds": "-300",
         "grade": "B",
-        "reason": "Game total is 3 with 67% played (End of 2nd); scoring pace projects about 4. Needs no more than 3.5 more.",
+        "reason": "Game total is 3 with 67% played (20:00 - 3rd); scoring pace projects about 4. Needs no more than 3.5 more.",
         "why_not": "Our number is about 74% (fair -278); live prices move fast and the Hard Rock price is from 2026-10-18 19:41 ET, so it may have moved.",
         "price_time": "2026-10-18 19:41 ET",
         "edge": 4.3
@@ -13866,5 +13866,69 @@
     "note": "Hard Rock's NASCAR live markets aren't in our price feed, so no in-game lines."
    }
   }
+ },
+ "rules": {
+  "potd": [
+   "Bands when SELECTED: MLB/NHL -105 to -130. Other sports -115 to -130. Today/Big 4 POTD (Oct 18, supersedes flat -105..-140): -105 to -130 normally. -131 to -140 only if graded A or better. Never beyond -140.",
+   "PRICE DRIFT (final rule, Oct 18 2026): a POTD only has to be in band at selection. Later moves of any size never void it (the earlier 20-cent cap idea was replaced). Void only for inactive player or postponed/cancelled game. hold_check.py never voids for drift.",
+   "A provisional pick that is out of band before lock with no in-band replacement is marked \"On hold\" and run through hold_check.py at lock. It still never voids for drift.",
+   "Today POTD = single best, most-favored play across all sports on the slate.",
+   "POTD auto-chain (Oct 18): when a sport's POTD settles, staged pick posts as \"POTD #n\" (official, locked). Candidates are B or better, pregame, ≥10 min to start, not a game already used by the chain, in band, final live HR check. Nothing qualifies → nothing posts. All Sports POTD does NOT chain. The newest chain pick shows alone in the card.",
+   "MLB locks at lineup lock (pre-lock colors red/yellow/green). Others lock when posted."
+  ],
+  "parlay100": [
+   "One per sport per day, 2-4 legs, +100 or better (sport pages). Legs are exact HR lines, -500..+120, grade B or better, one per game.",
+   "Chain (Oct 18): a parlay that settles (L as soon as any leg loses) is followed by \"Parlay +100 #n\" at total +100..+125, using no game from an earlier parlay that day. The All Sports (Big 4) parlay chains too (approved Oct 18).",
+   "Same-game rule: legs normally come from different games. When only ONE game is on the slate or left, the ticket is built as a same-game parlay PREGAME (Oct 18 fix: this also applies to ticket #1, not just follow-ups).",
+   "Over-cap rule (from before Oct 18; exact wording is not in any file, see conflict C4).",
+   "All Sports parlay: safest 2-4 legs, about +100 to +115 (unofficial in All-sports mode)."
+  ],
+  "safe100": [
+   "Per sport: 3-4 real Hard Rock ALT-line (\"To Record X+\" rungs etc.) legs on consistent-volume players. Allowed: workhorse RB rush yds/carries (carries only for RBs averaging 12+), WR1/TE receptions or rec yds, high-volume NHL SOG, NBA pts/reb rungs, MLB hits/TB overs.",
+   "Thresholds (loosened permanently, user Oct 18 2026 evening): each leg priced -300 to -460, grade B- or better, hit its line in 7+ of last 10. Combined +100 or better.",
+   "Bans: NHL assists/points, MLB pitcher K props, MLB hitter unders, soccer, fantasy. One leg per player, one per game when possible. Never reuse a player from today's Safe tickets or any POTD.",
+   "CLOSEST-TO-+100 FALLBACK (Oct 18): if no qualifying combo reaches +100, post the closest qualifying 2-4 leg combo (highest combined odds), labeled \"Closest to +100\" with its actual odds.",
+   "One-game slate / one game left: same-game ticket allowed, built pregame. Priced by straight multiply (noted on card) unless an HR SGP price exists.",
+   "Lock: locks on build (MLB stays provisional until safe100.py --lock MLB). Re-runs never change a locked ticket.",
+   "RE-POST (Oct 18): safe100_repost.py runs every 60s from potd_loop.sh. A lost ticket closes to Record (\"Lost · closed to Record\") and #n+1 builds from UNSTARTED same-day games only (kickoff > now+10 min), with the same leg rules. 2+ games are required unless only one unstarted game is left (then SGP is OK). Never the next day's slate. Nothing qualifies → honest note.",
+   "Record: safe100-record.md, its own unofficial row. Never official, never in tiles or bankroll.",
+   "Display: sports with no live ticket show a collapsed Safe +100 status box (e.g. \"Lost (#1 +104) · no #2 qualified\" / \"No qualifying ticket today\"). Rules/reason text is NOT shown on the card (rules live here and in code)."
+  ],
+  "edge": [
+   "edge/edge.py: Hard Rock price vs Pinnacle no-vig fair (multiplicative). Edge % = EV% at HR price. Top 3 +EV plays per sport per ET day (TOP=3), ranked by edge. One per game and per team per sport per day. Picked once per day (locked).",
+   "Markets: ML, spread, total and full-game player props (same line on both books). No NHL assists/points, no soccer.",
+   "Ledger edge/edge-ledger.md. Graded by grade_finals.py from edge-picks.json. Counts officially under its own Edge section by prop type (Oct 18). Report results in chat.",
+   "Display: Edge box collapsed shows only its 3 games until opened (this is the collapse standard for every box)."
+  ],
+  "alt": [
+   "Safe +100 is always alt-line focused (user confirmed Oct 18).",
+   "Live top lines Alt box: \"Safe (10)\" alts -200 to -400 and \"Wild (5)\" +100..+600. Player-props box: realistic lines, mostly -110 to -300, max 1 per player, 2 per game. NHL SOG/saves only.",
+   "Home Field Safe section: alts -200 to -400. Wild: plus-money with positive edge. Props: -105 to -130."
+  ],
+  "lotto": [
+   "Lotto Ticket (anytime-TD, unofficial): internal key stays TDCITY. Max 1 leg per team, 2 per game, position mix. Locks ~24h before first Sunday kickoff. The UI calls it \"Lotto Ticket\"."
+  ],
+  "homefield": [
+   "Home Field Advantage (Bucs, Lightning, Rays, USF, Magic): unofficial. Locked boxes are rebuilt only on user request."
+  ],
+  "live": [
+   "Live POTD/Parlay: unofficial. One each per day. POTD -105..-140 B+. Parlay legs -150 or shorter, B+."
+  ],
+  "runnersup": [
+   "Runners-up: up to 10 per sport (1 +EV, 4 at -105..-130, 5 Quality), graded, unofficial."
+  ],
+  "nascar": [
+   "NASCAR: live race feed (cf.nascar.com live-feed.json, 10s refresh, snapshot fallback) sits BELOW Qualifying and loads collapsed. NASCAR/GOLF are non-majors."
+  ],
+  "nrfi": [
+   "MLB inning O/U calls: always publish the next two half-innings and freeze each when it starts. MLB picks match ESPN games within 20 min of the listed start."
+  ],
+  "grading": [
+   "grade_finals.py grades Pending rows whose game is FINAL (ESPN etc.). NHL SOG = ESPN key shotsTotal. Ambiguous stays Pending.",
+   "Void = inactive/scratched player or postponed/cancelled game (no carry-over). Never void a POTD for price drift.",
+   "Voided picks display \"VOID\", not \"PUSH\".",
+   "Parlay is L as soon as any leg loses. Runners-up removed mid-game are dropped, not graded.",
+   "Bankroll: push/void returns stake. Real-money settlement is by the 3 AM routine."
+  ]
  }
 }

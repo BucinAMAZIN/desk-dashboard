@@ -88,7 +88,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792367714';
+const UI_BUILD='1792367918';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -740,4 +740,21 @@ let n=d.querySelector(':scope>.lgn');if(!n){n=document.createElement('div');n.cl
 const x=n.lastChild;if(x.textContent!==t)x.textContent=t})}finally{busy=0}}
 const go=()=>{const v=document.getElementById('v');if(!v)return setTimeout(go,300);run();new MutationObserver(()=>{if(go.t)return;go.t=setTimeout(()=>{go.t=0;run()},40)}).observe(v,{childList:true,subtree:true,characterData:true})};go()})();</script>
 <style>details.leg>summary .lgm{display:none!important}</style>
+<style>/*RULES-DD*/details.rbk{margin:8px 0 0;padding:6px 14px 4px;border-top:1px solid #30363d55;font-size:11px;color:#8b949e;text-align:left;position:relative;z-index:5}details.rbk>summary{cursor:pointer;list-style:none;font-size:11px;color:#8b949e}details.rbk>summary::-webkit-details-marker{display:none}details.rbk ul{margin:4px 0 2px;padding-left:16px}details.rbk li{margin:3px 0;line-height:1.35}</style>
+<script>/*RULES-DD*/(function(){
+const T=(el)=>{const c=el.className||'',t=(el.textContent||'').trim().slice(0,80);
+ if(/\bpv8o\b/.test(c))return['potd','Play of the Day'];if(/\bpw\b/.test(c)||(/^(Parlay \+100|No parlay)/.test(t)&&/card/.test(c)))return['parlay100','Parlay +100'];
+ if(/\bs1w\b/.test(c))return['safe100','Safe +100'];if(/\bedgebox\b/.test(c))return['edge','Edge'];if(/\bltl\b/.test(c))return['alt','Live top lines / Alt lines'];
+ if(!/card/.test(c))return null;
+ if(/^Runners-up/.test(t))return['runnersup','Runners-up'];if(/Home Field/.test(t))return['homefield','Home Field'];if(/NRFI/.test(t))return['nrfi','NRFI / innings'];
+ if(/Lotto/i.test(t))return['lotto','Lotto Ticket'];if(/^Live (POTD|Parlay)/.test(t))return['live','Live POTD/Parlay'];
+ if(/Live race|Qualifying|Top 10 projected|Wild long|Safe plays|Field data/.test(t))return['nascar','NASCAR'];return null};
+const E=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function deco(){if(!window.D&&typeof D=='undefined')return;const R=(typeof D!='undefined'&&D&&D.rules)||{};
+ const roots=new Set();document.querySelectorAll('.pv8o,.s1w,.edgebox,.pw,.ltl').forEach(e=>e.parentElement&&roots.add(e.parentElement));
+ roots.forEach(r=>[...r.children].forEach(el=>{if(el.querySelector('details.rbk'))return;const k=T(el);if(!k||!(R[k[0]]||[]).length)return;
+  const d=document.createElement('details');d.className='rbk';d.innerHTML=`<summary>Rules ▾</summary><ul>${R[k[0]].map(x=>`<li>${E(x)}</li>`).join('')}</ul>`;
+  d.addEventListener('click',ev=>ev.stopPropagation());(el.querySelector('.s1i')||el.querySelector('.p100')||el).appendChild(d)}))}
+let q=0;new MutationObserver(()=>{if(q)return;q=1;requestAnimationFrame(()=>{q=0;deco()})}).observe(document.body,{childList:true,subtree:true});
+})();</script>
 </body></html>
