@@ -1,5 +1,5 @@
 {
- "generated": 1792284462.3405097,
+ "generated": 1792285020.5772839,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -183,7 +183,7 @@
     "rank": 10,
     "status": "Pending",
     "stat": "—",
-    "now": "+105"
+    "now": "+145"
    }
   ],
   "ncaaf": [
@@ -551,7 +551,7 @@
       "why": "Best value: LineMate L9 8/9 (89%) vs +110 (implied 48%); 3,3,0,4,3 SOG on 19-23 min. Hard Rock +110 confirmed in overall-oct17.md.",
       "grade": "B-",
       "rank": 2,
-      "now": "+105"
+      "now": "+145"
      },
      {
       "pick": "(Quality) Tampa Bay Lightning ML",
@@ -827,7 +827,7 @@
        "game": "Saints @ Giants Sun 1:00 PM ET",
        "status": "Pending",
        "why": "NYG 3-1-1 allowing 21.2 (17.0 at home) vs NO 1-4, losers of 3 straight, allowing 30.2 (31st). +1 covers a win or a 1-pt loss. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
-       "now": "-110"
+       "now": "-115"
       },
       {
        "pick": "Los Angeles Rams ML",
@@ -892,7 +892,8 @@
       "status": "Pending",
       "why": "Unbeaten KC vs winless LAC (-45 point diff). Overlaps the KC -7.5. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
       "grade": "A",
-      "rank": 6
+      "rank": 6,
+      "now": "-450"
      },
      {
       "pick": "(Quality) Indianapolis Colts ML",
@@ -2647,7 +2648,7 @@
    }
   ]
  },
- "ui_build": "1792283953",
+ "ui_build": "1792284640",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -3980,25 +3981,7 @@
      "grade": "B+",
      "reason": "Kindel has 2+ shots in all 7 games this season (2,2,2,3,2,2,5 newest first; LineMate L9 8/9, away 4/5), averaging 2.57 SOG, so the 1.5 line ",
      "why": "Kindel has 2+ shots in all 7 games this season (2,2,2,3,2,2,5 newest first; LineMate L9 8/9, away 4/5), averaging 2.57 SOG, so the 1.5 line sits about a full shot under his average. He is a full-role center at 15 to 19.5 minutes with a power-play goal and LineMate has him 8/9 without injured D Ryan Graves. VGK is a heavy -200 home favorite, so PIT should be chasing and shooting; PIT averages 28.8 shots per game. He is not on any injury report. Risks: PIT is on a back-to-back (lost 5-2 at COL Friday, Kindel 14:57 TOI) and his late-2025-26 call-up games were mostly 1 shot, so this leans on the current-season role, not a long history. Hard Rock price via LineMate.",
-     "updated": "20:38"
-    },
-    {
-     "pick": "Charlie McAvoy o1.5 SOG",
-     "game": "BOS @ LAK 9:00 PM ET",
-     "odds": "-105",
-     "grade": "B+",
-     "reason": "LineMate L6 6/6, vs LAK 2/2, away 4/5; 2 and 3 SOG this season on 24-27 min as top-pair D; Zacha out adds PP time.",
-     "why": "LineMate L6 6/6, vs LAK 2/2, away 4/5; 2 and 3 SOG this season on 24-27 min as top-pair D; Zacha out adds PP time. Risk: BOS on a back-to-back. Hard Rock price -110 per overall-oct17.md (was -115 via LineMate). Outside the -105 to -130 band by 5 cents; kept as the best NHL single.",
-     "updated": "20:38"
-    },
-    {
-     "pick": "Quinton Byfield o2.5 SOG",
-     "game": "BOS @ LAK 9:00 PM ET",
-     "odds": "+105",
-     "grade": "B-",
-     "reason": "Plus-money value: LineMate L9 8/9 (89%) vs a +110 price (implied 48%); 5/5 without Alex Turcotte, who is on IR.",
-     "why": "Plus-money value: LineMate L9 8/9 (89%) vs a +110 price (implied 48%); 5/5 without Alex Turcotte, who is on IR. This season 3,3,0,4,3 SOG on 19-23 min. Not on injury report. Risk: one 0-shot game this year; BOS allowed shots matchup is middling (vs BOS 3/4). Hard Rock price via LineMate.",
-     "updated": "20:38"
+     "updated": "20:55"
     }
    ],
    "alt": []
@@ -4012,7 +3995,7 @@
      "odds": "-120",
      "grade": "B+",
      "reason": "JAX 4-1 allowing 14.0 pts/g (2nd), SRS +12.5 vs HOU 1-4, SRS -2.6. Risk: neutral-site London game.",
-     "updated": "20:38"
+     "updated": "20:55"
     },
     {
      "pick": "Kansas City Chiefs -7.5",
@@ -4020,15 +4003,15 @@
      "odds": "-105",
      "grade": "B+",
      "reason": "KC 4-0 (SRS +8.5) vs winless LAC scoring 16.8 pts/g (SRS -9.6). Risk: the hook at 7.5.",
-     "updated": "20:38"
+     "updated": "20:55"
     },
     {
      "pick": "New York Giants +1",
      "game": "Saints @ Giants Sun 1:00 PM ET",
-     "odds": "-110",
+     "odds": "-115",
      "grade": "B",
      "reason": "NYG 3-1-1 allowing 17.0 at home; NO 1-4, lost 3 straight, allows 30.2 pts/g (31st).",
-     "updated": "20:38"
+     "updated": "20:55"
     },
     {
      "pick": "Indianapolis Colts -6.5",
@@ -4036,7 +4019,7 @@
      "odds": "-115",
      "grade": "B-",
      "reason": "TEN 0-5 scoring 11.6 pts/g (worst), SRS -13.2 vs IND -2.9. Risk: IND D allows 27.6.",
-     "updated": "20:38"
+     "updated": "20:55"
     }
    ],
    "total": [
@@ -4046,7 +4029,7 @@
      "odds": "-105",
      "grade": "B",
      "reason": "LAC offense 16.8 pts/g (OSRS -9.9); KC D allows 19.3. Projection about 38 to 40.",
-     "updated": "20:38"
+     "updated": "20:55"
     },
     {
      "pick": "Steelers @ Buccaneers Under 38.5",
@@ -4054,7 +4037,7 @@
      "odds": "-105",
      "grade": "B",
      "reason": "Mayfield out (thumb); rookie Jalon Daniels makes a 3rd start for a TB offense scoring 20.0 pts/g.",
-     "updated": "20:38"
+     "updated": "20:55"
     },
     {
      "pick": "Ravens @ Browns Over 39.5",
@@ -4062,7 +4045,7 @@
      "odds": "-115",
      "grade": "C+",
      "reason": "BAL scores 29.2 and allows 23.8; CLE averages 18.6. Risk: division game, CLE D 19.7 last 3.",
-     "updated": "20:38"
+     "updated": "20:55"
     }
    ],
    "props": [],
@@ -4086,7 +4069,7 @@
      "grade": "A",
      "reason": "Colorado's offense ranks 134th (10.3 pts/g) and faces Utah's defense, 5th in points allowed (12.8) and 5th vs the run (72.0 yds/g).",
      "why": "Colorado's offense ranks 134th (10.3 pts/g) and faces Utah's defense, 5th in points allowed (12.8) and 5th vs the run (72.0 yds/g). Colorado has to score 18 to lose this; Utah also allows 228 pass yds/g (75th), the one soft spot. Ranks: TeamRankings 2026 season stats. LineMate NCAAF team trends unavailable (pending odds/not loadable), so none cited. Hard Rock price confirmed (hr-lines/ncaaf-oct17.md).",
-     "updated": "20:38"
+     "updated": "20:55"
     },
     {
      "pick": "Nebraska Over 21.5 Team Total",
@@ -4095,7 +4078,7 @@
      "grade": "B+",
      "reason": "Nebraska's offense is 6th (40.2 pts/g) vs an Oregon defense that's 79th in points allowed (27.5) and 106th vs the pass (257 yds/g).",
      "why": "Nebraska's offense is 6th (40.2 pts/g) vs an Oregon defense that's 79th in points allowed (27.5) and 106th vs the pass (257 yds/g). Ranks: TeamRankings 2026 season stats. LineMate NCAAF team trends unavailable (pending odds/not loadable), so none cited. Hard Rock price confirmed (hr-lines/ncaaf-oct17.md).",
-     "updated": "20:38"
+     "updated": "20:55"
     }
    ],
    "props": [],
