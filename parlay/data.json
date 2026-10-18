@@ -1,5 +1,5 @@
 {
- "generated": 1792283953.455439,
+ "generated": 1792284462.3405097,
  "today": {
   "title": "Oct 17 placed bets (Hard Rock)",
   "tickets": [
@@ -157,8 +157,8 @@
     "why": "LineMate L4 4/4 and away 4/4 on SEA o2.5; SEA +1.5 also 4/4 vs FLA and away. McCann (L12 11/12 2+ SOG) and Dunn healthy. Risk: FLA -185 home favorite, so SEA needs 3 regulation/OT goals (empty-net goals for FLA don't help). Hard Rock price via LineMate.",
     "grade": "B-",
     "rank": 8,
-    "status": "Pending",
-    "stat": "—",
+    "status": "W",
+    "stat": "SEA 3",
     "now": "-115"
    },
    {
@@ -527,7 +527,7 @@
        "pick": "Seattle Kraken Over 2.5 Team Total",
        "odds": "-120",
        "game": "SEA @ FLA 6:00 PM ET",
-       "status": "Pending",
+       "status": "Won",
        "why": "LineMate L4 4/4 and away 4/4 on SEA o2.5; McCann (L12 11/12 2+ SOG) and Dunn healthy. Risk: FLA is the home favorite.",
        "now": "-115"
       }
@@ -1484,6 +1484,15 @@
    },
    {
     "date": "2026-10-17",
+    "sport": "NHL",
+    "type": "Leg",
+    "pick": "Seattle Kraken Over 2.5 Team Total",
+    "odds": "-120",
+    "result": "W",
+    "stat": "SEA 3"
+   },
+   {
+    "date": "2026-10-17",
     "sport": "NCAA F",
     "type": "Runner-up",
     "pick": "Auburn Under 14.5 Team Total",
@@ -2039,9 +2048,9 @@
   {
    "name": "@tonestakes",
    "w": 7,
-   "l": 7,
+   "l": 8,
    "p": 1,
-   "pct": 50,
+   "pct": 47,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -2074,9 +2083,9 @@
     {
      "prop": "NHL SOG (over)",
      "w": 3,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100
+     "pct": 75
     },
     {
      "prop": "NHL ML",
@@ -2155,7 +2164,7 @@
      "prop": "NHL SOG (over)",
      "pick": "Seth Jones o2.5 SOG (FLA vs SEA, 6 PM ET)",
      "odds": "+210 Lucky Rebel",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NHL",
@@ -2364,7 +2373,7 @@
  "capper_today_date": "2026-10-17",
  "runners_up_record": {
   "overall": {
-   "w": 2,
+   "w": 3,
    "l": 0,
    "p": 0,
    "pct": 100
@@ -2379,6 +2388,13 @@
    },
    {
     "prop": "NHL SOG",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "prop": "NHL team total",
     "w": 1,
     "l": 0,
     "p": 0,
@@ -2526,8 +2542,8 @@
     "pick": "Seattle Kraken Over 2.5 Team Total",
     "odds": "-125",
     "grade": "B-",
-    "status": "Pending",
-    "stat": "—"
+    "status": "W",
+    "stat": "SEA 3"
    },
    {
     "date": "2026-10-17",
@@ -2617,6 +2633,13 @@
    },
    {
     "grade": "B",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
+   },
+   {
+    "grade": "B-",
     "w": 1,
     "l": 0,
     "p": 0,
@@ -2747,10 +2770,10 @@
    "p": 0,
    "pct": 65,
    "tracked": {
-    "w": 16,
+    "w": 17,
     "l": 7,
     "p": 0,
-    "pct": 70
+    "pct": 71
    },
    "active": true
   },
@@ -3057,10 +3080,10 @@
     ]
    },
    "tracked": {
-    "w": 16,
+    "w": 17,
     "l": 7,
     "p": 0,
-    "pct": 70,
+    "pct": 71,
     "props": [
      {
       "prop": "NHL SOG",
@@ -3075,6 +3098,13 @@
       "l": 2,
       "p": 0,
       "pct": 33
+     },
+     {
+      "prop": "NHL team total",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
      },
      {
       "prop": "NHL ML",
