@@ -1,5 +1,5 @@
 {
- "generated": 1792359788.455614,
+ "generated": 1792360195.151659,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -74,7 +74,7 @@
     "rank": 2,
     "status": "Pending",
     "stat": "—",
-    "now": "-450",
+    "now": "-475",
     "why_not": "The 0-shot game on Oct 6."
    },
    {
@@ -152,7 +152,7 @@
        "status": "Pending",
        "why": "2+ shots in 7 of 8 games this season and 56 of 70 last season (80%) on 18-23 minutes. CBJ is on a road back-to-back (27.2 shots allowed per game).",
        "why_not": "He had a 0-shot game on Oct 6, so a quiet night can happen even against a tired team.",
-       "now": "-450"
+       "now": "-475"
       },
       {
        "pick": "Jackson Blake o1.5 SOG",
@@ -328,7 +328,7 @@
       "grade": "A-",
       "rank": 3,
       "why_not": "He had a 0-shot game on Oct 6, so a quiet night can happen even against a tired team.",
-      "now": "-450"
+      "now": "-475"
      },
      {
       "pick": "(Quality) Jackson Blake o1.5 SOG",
@@ -624,7 +624,7 @@
      "n": 1,
      "status": "Lost",
      "odds": "+108",
-     "note": "Parlay +100 Lost (+108) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-4 legs graded B or better at +100 to +125; one leg per game, or a same-game parlay when only one unstarted game is left)."
+     "note": "Parlay +100 Lost (+108) and moved to Record. Next parlay is staged and posts on the next chain check."
     }
    }
   },
@@ -4764,7 +4764,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-18 05:43 PM ET",
+  "updated": "2026-10-18 05:49 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -5293,21 +5293,21 @@
      {
       "a": "ARI",
       "h": "LAR",
-      "st": "11:54 - 3rd",
+      "st": "6:25 - 3rd",
       "div": true,
       "stake": "ARI 1-4: 4th NFC West (4 GB), NFC #15 seed (outside playoffs) · LAR 2-3: 3rd NFC West (3 GB), NFC #9 seed (outside playoffs)"
      },
      {
       "a": "LAC",
       "h": "KC",
-      "st": "0:44 - 2nd",
+      "st": "Halftime",
       "div": true,
       "stake": "LAC 0-5: 4th AFC West (4.5 GB), AFC #16 seed (outside playoffs) · KC 4-0: 1st AFC West, AFC #1 seed (in playoff spot)"
      },
      {
       "a": "BUF",
       "h": "LV",
-      "st": "0:09 - 2nd",
+      "st": "Halftime",
       "div": false,
       "stake": "BUF 4-1: 1st AFC East, AFC #2 seed (in playoff spot) · LV 3-2: 3rd AFC West (1.5 GB), AFC #10 seed (outside playoffs)"
      },
@@ -6868,7 +6868,7 @@
      {
       "a": "TB",
       "h": "CLE",
-      "st": "Top 2nd",
+      "st": "Bot 2nd",
       "div": false,
       "stake": "TB 98-64: 1st American League East, AL #1 seed (in playoff spot) · CLE 85-77: 1st American League Central, AL #2 seed (in playoff spot)"
      }
@@ -9255,6 +9255,17 @@
      "live": false,
      "updated": "09:06",
      "why_not": "TB hits .679 OPS vs LHP; CLE has home field."
+    },
+    {
+     "pick": "Rays ML",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "-375",
+     "grade": "C",
+     "live": true,
+     "reason": "Live price; Hard Rock has it about 74% to win right now.",
+     "updated": "17:48",
+     "rank": 1,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it."
     }
    ],
    "spread": [
@@ -9277,6 +9288,17 @@
      "live": false,
      "updated": "09:06",
      "why_not": "CLE's 7-3 Game 1 win came off TB's bullpen."
+    },
+    {
+     "pick": "Guardians +2.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "-150",
+     "grade": "C",
+     "live": true,
+     "reason": "Main line; Hard Rock's prices make it about 56% to cash.",
+     "updated": "17:48",
+     "rank": 1,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 2; one bad break loses it."
     }
    ],
    "total": [
@@ -9309,10 +9331,46 @@
      "live": false,
      "updated": "09:06",
      "why_not": "Still loses a bullpen track meet."
+    },
+    {
+     "pick": "Rays @ Guardians Under 7.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "-150",
+     "grade": "C",
+     "live": true,
+     "reason": "Main total; Hard Rock's prices make it about 56% to cash.",
+     "updated": "17:48",
+     "rank": 1,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 2; one bad break loses it."
     }
    ],
    "props": [],
-   "alt": []
+   "alt": [
+    {
+     "pick": "Rays @ Guardians Over 5.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "-260",
+     "grade": "C+",
+     "live": true,
+     "reason": "2-pt cushion vs the main total 7.5; Hard Rock's prices make it about 68% to cash.",
+     "updated": "17:48",
+     "rank": 1,
+     "group": "Safe",
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
+    },
+    {
+     "pick": "Guardians +3.5",
+     "game": "Rays @ Guardians LIVE",
+     "odds": "-275",
+     "grade": "C+",
+     "live": true,
+     "reason": "1-pt cushion vs the main line (Guardians +2.5); Hard Rock's prices make it about 68% to cash.",
+     "updated": "17:48",
+     "rank": 2,
+     "group": "Safe",
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
+    }
+   ]
   },
   "NHL": {
    "ml": [
@@ -9399,7 +9457,7 @@
      "grade": "A",
      "reason": "Blake 2.8 SOG/gm this season (9 gms), 2.9 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 1,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
@@ -9410,7 +9468,7 @@
      "grade": "A-",
      "reason": "Ek 2.9 SOG/gm this season (8 gms), 3.2 last 10; hit 3+ in 8 of last 10, 6 of 8 this season; 19 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -9421,7 +9479,7 @@
      "grade": "A-",
      "reason": "Brink 1.6 SOG/gm this season (8 gms), 1.7 last 10; hit 2+ in 7 of last 10, 5 of 8 this season; 13 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 3,
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     },
@@ -9432,7 +9490,7 @@
      "grade": "A-",
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 3+ in 6 of last 10, 5 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 4,
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
     },
@@ -9443,7 +9501,7 @@
      "grade": "A-",
      "reason": "Boldy 4.4 SOG/gm this season (8 gms), 4.4 last 10; hit 3+ in 9 of last 10, 7 of 8 this season; 21 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 5,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
@@ -9454,7 +9512,7 @@
      "grade": "B+",
      "reason": "Frost 2.0 SOG/gm this season (7 gms), 2.3 last 10; hit 2+ in 8 of last 10, 5 of 7 this season; 16 min TOI; Hurricanes allow 21.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 6,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -9465,7 +9523,7 @@
      "grade": "B+",
      "reason": "Johnson 3.0 SOG/gm this season (6 gms), 2.4 last 10; hit 2+ in 7 of last 10, 5 of 6 this season; 15 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 7,
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     },
@@ -9476,7 +9534,7 @@
      "grade": "B+",
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 8,
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
     }
@@ -9489,7 +9547,7 @@
      "grade": "A-",
      "reason": "Monahan 1.7 SOG/gm this season (6 gms), 1.7 last 10; hit 1+ in 10 of last 10, 6 of 6 this season; 16 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 1,
      "group": "Safe",
      "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it."
@@ -9501,7 +9559,7 @@
      "grade": "B+",
      "reason": "Kaprizov 3.2 SOG/gm this season (8 gms), 3.0 last 10; hit 3+ in 8 of last 10, 7 of 8 this season; 21 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -9513,7 +9571,7 @@
      "grade": "B+",
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 3,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -9525,7 +9583,7 @@
      "grade": "B-",
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 2+ in 7 of last 10, 6 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 4,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -9537,7 +9595,7 @@
      "grade": "B",
      "reason": "Fantilli 2.8 SOG/gm this season (6 gms), 2.6 last 10; hit 2+ in 7 of last 10, 5 of 6 this season; 20 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 5,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -9549,7 +9607,7 @@
      "grade": "B",
      "reason": "Hughes 3.0 SOG/gm this season (8 gms), 2.6 last 10; hit 2+ in 7 of last 10, 6 of 8 this season; 28 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 6,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -9561,7 +9619,7 @@
      "grade": "C+",
      "live": false,
      "reason": "1-pt cushion vs the main line (Flames +1.5); Hard Rock's prices make it about 67% to cash.",
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 7,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
@@ -9573,7 +9631,7 @@
      "grade": "C+",
      "live": false,
      "reason": "1-pt cushion vs the main total 6.5; Hard Rock's prices make it about 72% to cash.",
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 8,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
@@ -9585,7 +9643,7 @@
      "grade": "A-",
      "reason": "Brink 1.6 SOG/gm this season (8 gms), 1.7 last 10; hit 2+ in 7 of last 10, 5 of 8 this season; 13 min TOI; Blue Jackets allow 27.2 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 1,
      "group": "Wild",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -9593,11 +9651,11 @@
     {
      "pick": "Kent Johnson 3+ SOG",
      "game": "Blue Jackets @ Wild 10/18 06:00 PM ET",
-     "odds": "+170",
+     "odds": "+175",
      "grade": "A-",
      "reason": "Johnson 3.0 SOG/gm this season (6 gms), 2.4 last 10; hit 3+ in 4 of last 10, 4 of 6 this season; 15 min TOI; Wild allow 26.8 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "group": "Wild",
      "why_not": "It missed in 6 of the last 10 games, so one quiet game sinks it."
@@ -9609,7 +9667,7 @@
      "grade": "A-",
      "reason": "Aho 3.0 SOG/gm this season (9 gms), 3.2 last 10; hit 3+ in 6 of last 10, 5 of 9 this season; 20 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 3,
      "group": "Wild",
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
@@ -9621,7 +9679,7 @@
      "grade": "A-",
      "reason": "Svechnikov 3.2 SOG/gm this season (9 gms), 3.4 last 10; hit 4+ in 5 of last 10, 4 of 9 this season; 18 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 4,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -9633,7 +9691,7 @@
      "grade": "B+",
      "reason": "Stankoven 2.7 SOG/gm this season (9 gms), 2.6 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Flames allow 28.7 shots/gm (lg 27.0).",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 5,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -9654,35 +9712,24 @@
     {
      "pick": "Bills ML",
      "game": "Bills @ Raiders LIVE",
-     "odds": "-325",
+     "odds": "-175",
      "grade": "C",
      "live": true,
-     "reason": "Live price; Hard Rock has it about 72% to win right now.",
-     "updated": "17:24",
+     "reason": "Live price; Hard Rock has it about 60% to win right now.",
+     "updated": "17:48",
      "rank": 1,
-     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
     },
     {
      "pick": "Rams ML",
      "game": "Cardinals @ Rams LIVE",
-     "odds": "-325",
+     "odds": "-240",
      "grade": "C",
      "live": true,
-     "reason": "Live price; Hard Rock has it about 72% to win right now.",
-     "updated": "17:24",
+     "reason": "Live price; Hard Rock has it about 66% to win right now.",
+     "updated": "17:48",
      "rank": 2,
-     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
-    },
-    {
-     "pick": "Chiefs ML",
-     "game": "Chargers @ Chiefs LIVE",
-     "odds": "-600",
-     "grade": "C",
-     "live": true,
-     "reason": "Live price; Hard Rock has it about 80% to win right now.",
-     "updated": "17:24",
-     "rank": 3,
-     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 7; one bad break loses it."
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
     }
    ],
    "spread": [
@@ -9723,37 +9770,59 @@
      "why_not": "IND D allows 27.6."
     },
     {
-     "pick": "Chiefs -8.5",
-     "game": "Chargers @ Chiefs LIVE",
-     "odds": "-110",
+     "pick": "Bills -2.5",
+     "game": "Bills @ Raiders LIVE",
+     "odds": "-145",
      "grade": "C",
      "live": true,
-     "reason": "Main line; Hard Rock's prices make it about 49% to cash.",
-     "updated": "17:24",
+     "reason": "Main line; Hard Rock's prices make it about 55% to cash.",
+     "updated": "17:48",
      "rank": 1,
      "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
-     "pick": "Bills -5.5",
-     "game": "Bills @ Raiders LIVE",
+     "pick": "Cardinals +3.5",
+     "game": "Cardinals @ Rams LIVE",
      "odds": "-120",
      "grade": "C",
      "live": true,
      "reason": "Main line; Hard Rock's prices make it about 51% to cash.",
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
-     "pick": "Cardinals +4.5",
-     "game": "Cardinals @ Rams LIVE",
+     "pick": "Chiefs -18.5",
+     "game": "Chargers @ Chiefs LIVE",
      "odds": "-115",
      "grade": "C",
      "live": true,
      "reason": "Main line; Hard Rock's prices make it about 50% to cash.",
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 3,
      "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
+    },
+    {
+     "pick": "Bills +2.5",
+     "game": "Bills @ Raiders LIVE",
+     "odds": "-230",
+     "grade": "C",
+     "live": true,
+     "reason": "5-pt cushion vs the main line (Bills -2.5); Hard Rock's prices make it about 64% to cash.",
+     "updated": "17:48",
+     "rank": 4,
+     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
+    },
+    {
+     "pick": "Cardinals -3.5",
+     "game": "Cardinals @ Rams LIVE",
+     "odds": "+375",
+     "grade": "C",
+     "live": true,
+     "reason": "7-pt cushion vs the main line (Cardinals +3.5); Hard Rock's prices make it about 19% to cash.",
+     "updated": "17:48",
+     "rank": 5,
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
     }
    ],
    "total": [
@@ -9787,35 +9856,35 @@
      "status": "LOST"
     },
     {
-     "pick": "Chargers @ Chiefs Under 37.5",
-     "game": "Chargers @ Chiefs LIVE",
-     "odds": "-110",
+     "pick": "Cardinals @ Rams Over 40.5",
+     "game": "Cardinals @ Rams LIVE",
+     "odds": "-135",
      "grade": "C",
      "live": true,
-     "reason": "Main total; Hard Rock's prices make it about 49% to cash.",
-     "updated": "17:24",
+     "reason": "Main total; Hard Rock's prices make it about 54% to cash.",
+     "updated": "17:48",
      "rank": 1,
      "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
-     "pick": "Bills @ Raiders Over 54.5",
+     "pick": "Bills @ Raiders Under 53.5",
      "game": "Bills @ Raiders LIVE",
      "odds": "-120",
      "grade": "C",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 51% to cash.",
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     },
     {
-     "pick": "Cardinals @ Rams Over 42.5",
-     "game": "Cardinals @ Rams LIVE",
+     "pick": "Chargers @ Chiefs Under 40.5",
+     "game": "Chargers @ Chiefs LIVE",
      "odds": "-115",
      "grade": "C",
      "live": true,
      "reason": "Main total; Hard Rock's prices make it about 50% to cash.",
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 3,
      "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
     }
@@ -9828,7 +9897,7 @@
      "grade": "A-",
      "reason": "Purdy 25.6 rush yds/gm this season (5 gms), 23.6 last 10; hit 20+ in 7 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 1,
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     },
@@ -9839,7 +9908,7 @@
      "grade": "A-",
      "reason": "McLaurin 50.8 rec yds/gm this season (4 gms), 58.2 last 10; hit 45+ in 8 of last 10, 3 of 4 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -9850,7 +9919,7 @@
      "grade": "A-",
      "reason": "Prescott 276.2 pass yds/gm this season (5 gms), 267.2 last 10; hit 275+ in 7 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 3,
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     },
@@ -9861,7 +9930,7 @@
      "grade": "B+",
      "reason": "Turpin 7.8 rec yds/gm this season (5 gms), 17.5 last 10; hit 6+ in 7 of last 10, 3 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 4,
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     },
@@ -9872,7 +9941,7 @@
      "grade": "A-",
      "reason": "Williams 3.0 rec/gm this season (5 gms), 3.0 last 5; hit 2+ in 5 of last 5, 5 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 5,
      "why_not": "It hit in all of the last 5 games, but streaks end, and one quiet game sinks it."
     },
@@ -9883,7 +9952,7 @@
      "grade": "B+",
      "reason": "Diggs 4.5 rec/gm this season (4 gms), 4.4 last 10; hit 4+ in 6 of last 10, 4 of 4 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 6,
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
     },
@@ -9894,7 +9963,7 @@
      "grade": "B+",
      "reason": "Williams 18.8 rec yds/gm this season (5 gms), 12.4 last 10; hit 13+ in 5 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 7,
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
     },
@@ -9905,7 +9974,7 @@
      "grade": "B+",
      "reason": "Watson 94.8 rec yds/gm this season (5 gms), 80.2 last 10; hit 78+ in 6 of last 10, 3 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 8,
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
     }
@@ -9918,7 +9987,7 @@
      "grade": "A-",
      "reason": "Diggs 42.5 rec yds/gm this season (4 gms), 52.4 last 10; hit 25+ in 9 of last 10, 4 of 4 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 1,
      "group": "Safe",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -9930,7 +9999,7 @@
      "grade": "B+",
      "reason": "McCaffrey 57.2 rush yds/gm this season (5 gms), 69.2 last 10; hit 50+ in 8 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -9942,7 +10011,7 @@
      "grade": "B+",
      "reason": "Williams 3.4 rec/gm this season (5 gms), 2.4 last 10; hit 2+ in 8 of last 10, 5 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 3,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -9954,7 +10023,7 @@
      "grade": "B",
      "reason": "Prescott 2.4 carries/gm this season (5 gms), 2.4 last 10; hit 2+ in 8 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 4,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -9966,7 +10035,7 @@
      "grade": "B+",
      "reason": "Daniels 67.7 rush yds/gm this season (3 gms), 48.1 last 10; hit 25+ in 8 of last 10, 3 of 3 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 5,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -9978,7 +10047,7 @@
      "grade": "B",
      "reason": "McLaurin 50.8 rec yds/gm this season (4 gms), 58.2 last 10; hit 25+ in 9 of last 10, 3 of 4 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 6,
      "group": "Safe",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -9990,22 +10059,22 @@
      "grade": "B",
      "reason": "Ferguson 3.0 rec/gm this season (5 gms), 2.7 last 10; hit 3+ in 6 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 7,
      "group": "Safe",
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
     },
     {
-     "pick": "CeeDee Lamb 5+ rec",
+     "pick": "Tucker Kraft 40+ rec yds",
      "game": "Cowboys @ Packers 10/18 08:20 PM ET",
-     "odds": "-400",
-     "grade": "B",
-     "reason": "Lamb 7.8 rec/gm this season (5 gms), 6.3 last 10; hit 5+ in 8 of last 10, 4 of 5 this season.",
+     "odds": "-210",
+     "grade": "B-",
+     "reason": "Kraft 42.4 rec yds/gm this season (5 gms), 53.2 last 10; hit 40+ in 7 of last 10, 3 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 8,
      "group": "Safe",
-     "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
+     "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "Terry McLaurin 50+ rec yds",
@@ -10014,7 +10083,7 @@
      "grade": "A",
      "reason": "McLaurin 50.8 rec yds/gm this season (4 gms), 58.2 last 10; hit 50+ in 8 of last 10, 3 of 4 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 1,
      "group": "Wild",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -10026,7 +10095,7 @@
      "grade": "A",
      "reason": "Purdy 25.6 rush yds/gm this season (5 gms), 23.6 last 10; hit 25+ in 6 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "group": "Wild",
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
@@ -10038,7 +10107,7 @@
      "grade": "A-",
      "reason": "Lamb 101.4 rec yds/gm this season (5 gms), 84.0 last 10; hit 100+ in 5 of last 10, 3 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 3,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -10050,7 +10119,7 @@
      "grade": "B",
      "reason": "Pickens 5.4 rec/gm this season (5 gms), 4.7 last 10; hit 6+ in 4 of last 10, 3 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 4,
      "group": "Wild",
      "why_not": "It missed in 6 of the last 10 games, so one quiet game sinks it."
@@ -10062,7 +10131,7 @@
      "grade": "A-",
      "reason": "Williams 3.0 rec/gm this season (5 gms), 3.0 last 5; hit 3+ in 4 of last 5, 4 of 5 this season.",
      "live": false,
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 5,
      "group": "Wild",
      "why_not": "It missed in 1 of the last 5 games, so one quiet game sinks it."
@@ -10107,7 +10176,7 @@
      "grade": "C+",
      "live": false,
      "reason": "4-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 66% to cash.",
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 1,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
@@ -10119,7 +10188,7 @@
      "grade": "C+",
      "live": false,
      "reason": "5-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 67% to cash.",
-     "updated": "17:24",
+     "updated": "17:48",
      "rank": 2,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
@@ -10663,7 +10732,7 @@
      "pick": "Drew Rasmussen 6+ Ks",
      "odds": "+110",
      "grade": "B",
-     "reason": "Last 5 starts: 3, 11, 10, 7, 1 Ks (6.4 avg); cleared 5.5 in 5 of last 8 starts. 26.0% strikeout rate this season; opponent strikes out 20.6% vs righties (league ~22%). Recent depth: 5.0, 6.2, 8.0, 6.0, 1.0 innings on 76, 114, 101, 91, 21 pitches.",
+     "reason": "Last 5 starts: 3, 11, 10, 7, 3 Ks (6.8 avg); cleared 5.5 in 5 of last 8 starts. 26.0% strikeout rate this season; opponent strikes out 20.6% vs righties (league ~22%). Recent depth: 5.0, 6.2, 8.0, 6.0, 2.0 innings on 76, 114, 101, 91, 33 pitches.",
      "status": null,
      "why_not": "Postseason urgency: managers pull starters before a third time through the order at the first sign of trouble. Opponent rarely strikes out vs righties (20.6%).",
      "_game": "Rays @ Guardians Sun 5:08 PM ET Rays",
@@ -11054,7 +11123,7 @@
     "edge": 0.004743083003952542,
     "result": "Pending",
     "picked_et": "3:16 PM ET",
-    "now": "+240"
+    "now": "+135"
    },
    {
     "sport": "NHL",
@@ -11095,8 +11164,7 @@
     "fair_prob": 0.537852568752202,
     "edge": 0.005550454623681977,
     "result": "Pending",
-    "picked_et": "3:34 PM ET",
-    "now": "-575"
+    "picked_et": "3:34 PM ET"
    },
    {
     "sport": "MLB",
@@ -11109,7 +11177,8 @@
     "fair_prob": 0.09536102527067171,
     "edge": 0.04897127797738876,
     "result": "Pending",
-    "picked_et": "3:35 PM ET"
+    "picked_et": "3:35 PM ET",
+    "now": "+850"
    }
   ]
  },
@@ -12922,337 +12991,337 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-18 17:43 ET",
-  "generated_ts": 1792359795,
-  "hr_fetched": "2026-10-18 17:24 ET",
-  "hr_fetched_ts": 1792358640,
-  "hr_age_min": 19,
+  "generated": "2026-10-18 17:50 ET",
+  "generated_ts": 1792360211,
+  "hr_fetched": "2026-10-18 17:48 ET",
+  "hr_fetched_ts": 1792360080,
+  "hr_age_min": 2,
   "sports": {
    "NFL": {
     "games": [
      {
       "game": "Chargers @ Chiefs",
-      "score": "LAC 3 @ KC 16",
-      "clock": "0:44 - 2nd",
+      "score": "LAC 3 @ KC 19",
+      "clock": "Halftime",
       "espn_id": "401873006",
       "picks": [
        {
         "rank": 1,
-        "pick": "Travis Kelce Over 49.5 rec yds",
-        "odds": "+250",
+        "pick": "Noah Gray Over 22.5 rec yds",
+        "odds": "+160",
         "grade": "A",
-        "reason": "Kelce has 40 rec yds with 49% of the game played (0:44 - 2nd); pace projects about 82.0. Needs more than 9.5 more.",
-        "why_not": "Our number is about 50% (fair -100); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 22.9
+        "reason": "Gray has 22 rec yds with 50% of the game played (Halftime); pace projects about 44.0. Needs more than 0.5 more.",
+        "why_not": "Our number is about 64% (fair -175); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 27.5
        },
        {
         "rank": 2,
-        "pick": "Noah Gray Over 2.5 rec",
-        "odds": "+240",
+        "pick": "Xavier Worthy Over 84.5 rec yds",
+        "odds": "-110",
         "grade": "A",
-        "reason": "Gray has 2 rec with 49% of the game played (0:44 - 2nd); pace projects about 4.1. Needs more than 0.5 more.",
-        "why_not": "Our number is about 44% (fair +127); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 16.1
+        "reason": "Worthy has 70 rec yds with 50% of the game played (Halftime); pace projects about 140.0. Needs more than 14.5 more.",
+        "why_not": "Our number is about 65% (fair -185); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 15.9
        },
        {
         "rank": 3,
-        "pick": "Noah Gray Over 22.5 rec yds",
-        "odds": "-110",
+        "pick": "Patrick Mahomes Over 274.5 pass yds",
+        "odds": "+210",
         "grade": "A",
-        "reason": "Gray has 22 rec yds with 49% of the game played (0:44 - 2nd); pace projects about 45.1. Needs more than 0.5 more.",
-        "why_not": "Our number is about 65% (fair -183); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 15.2
+        "reason": "Mahomes has 179 pass yds with 50% of the game played (Halftime); pace projects about 358.0. Needs more than 95.5 more.",
+        "why_not": "Our number is about 46% (fair +116); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 15.6
        },
        {
         "rank": 4,
-        "pick": "Patrick Mahomes Over 19.5 completions",
-        "odds": "-105",
+        "pick": "Patrick Mahomes Over 28.5 pass att",
+        "odds": "-140",
         "grade": "A",
-        "reason": "Mahomes has 13 completions with 49% of the game played (0:44 - 2nd); pace projects about 26.7. Needs more than 6.5 more.",
-        "why_not": "Our number is about 63% (fair -167); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 15.1
+        "reason": "Mahomes has 19 pass att with 50% of the game played (Halftime); pace projects about 38.0. Needs more than 9.5 more.",
+        "why_not": "Our number is about 70% (fair -231); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 15.3
        },
        {
         "rank": 5,
-        "pick": "Omarion Hampton Over 2.5 rec",
-        "odds": "+180",
+        "pick": "Patrick Mahomes Over 21.5 completions",
+        "odds": "-160",
         "grade": "A",
-        "reason": "Hampton has 2 rec with 49% of the game played (0:44 - 2nd); pace projects about 4.1. Needs more than 0.5 more.",
-        "why_not": "Our number is about 48% (fair +108); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 14.1
+        "reason": "Mahomes has 15 completions with 50% of the game played (Halftime); pace projects about 30.0. Needs more than 6.5 more.",
+        "why_not": "Our number is about 73% (fair -266); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 15.2
        },
        {
         "rank": 6,
-        "pick": "Patrick Mahomes Over 207.5 pass yds",
-        "odds": "-115",
+        "pick": "Xavier Worthy Over 6.5 rec",
+        "odds": "+100",
         "grade": "A",
-        "reason": "Mahomes has 146 pass yds with 49% of the game played (0:44 - 2nd); pace projects about 299.3. Needs more than 61.5 more.",
-        "why_not": "Our number is about 63% (fair -174); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 13.5
+        "reason": "Worthy has 5 rec with 50% of the game played (Halftime); pace projects about 10.0. Needs more than 1.5 more.",
+        "why_not": "Our number is about 62% (fair -163); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 15.0
        },
        {
         "rank": 7,
-        "pick": "Justin Herbert Under 18.5 completions",
-        "odds": "-105",
+        "pick": "Emmett Johnson Over 2.5 rec",
+        "odds": "+160",
         "grade": "A",
-        "reason": "Herbert has 6 completions with 49% of the game played (0:44 - 2nd); pace projects about 12.3. Needs no more than 12.5 more.",
-        "why_not": "Our number is about 59% (fair -141); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 10.6
+        "reason": "Johnson has 2 rec with 50% of the game played (Halftime); pace projects about 4.0. Needs more than 0.5 more.",
+        "why_not": "Our number is about 49% (fair +102); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 13.2
        },
        {
         "rank": 8,
-        "pick": "Travis Kelce Over 2.5 rec",
-        "odds": "+105",
+        "pick": "Noah Gray Over 2.5 rec",
+        "odds": "+130",
         "grade": "A",
-        "reason": "Kelce has 2 rec with 49% of the game played (0:44 - 2nd); pace projects about 4.1. Needs more than 0.5 more.",
-        "why_not": "Our number is about 56% (fair -129); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 10.3
+        "reason": "Gray has 2 rec with 50% of the game played (Halftime); pace projects about 4.0. Needs more than 0.5 more.",
+        "why_not": "Our number is about 53% (fair -111); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 11.7
        },
        {
         "rank": 9,
-        "pick": "Patrick Mahomes Over 28.5 pass att",
-        "odds": "-110",
+        "pick": "Chiefs Over 29.5",
+        "odds": "+120",
         "grade": "A",
-        "reason": "Mahomes has 17 pass att with 49% of the game played (0:44 - 2nd); pace projects about 34.9. Needs more than 11.5 more.",
-        "why_not": "Our number is about 59% (fair -145); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 10.2
+        "reason": "Chiefs team total is 19 with 50% played (Halftime); scoring pace projects about 38. Needs more than 10.5 more.",
+        "why_not": "Our number is about 54% (fair -116); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 10.8
        },
        {
         "rank": 10,
-        "pick": "Justin Herbert Under 178.5 pass yds",
-        "odds": "-115",
+        "pick": "Justin Herbert Under 17.5 completions",
+        "odds": "-105",
         "grade": "A",
-        "reason": "Herbert has 45 pass yds with 49% of the game played (0:44 - 2nd); pace projects about 92.3. Needs no more than 133.5 more.",
-        "why_not": "Our number is about 60% (fair -150); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 10.0
+        "reason": "Herbert has 6 completions with 50% of the game played (Halftime); pace projects about 12.0. Needs no more than 11.5 more.",
+        "why_not": "Our number is about 58% (fair -140); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 10.4
        }
       ],
       "note": ""
      },
      {
       "game": "Cardinals @ Rams",
-      "score": "ARI 9 @ LAR 9",
-      "clock": "11:17 - 3rd",
+      "score": "ARI 12 @ LAR 9",
+      "clock": "6:25 - 3rd",
       "espn_id": "401873004",
       "picks": [
        {
         "rank": 1,
-        "pick": "Kendrick Bourne Over 4.5 rec",
-        "odds": "-105",
+        "pick": "Elijah Higgins Over 21.5 rec yds",
+        "odds": "+100",
         "grade": "A",
-        "reason": "Bourne has 4 rec with 56% of the game played (11:17 - 3rd); pace projects about 7.1. Needs more than 0.5 more.",
-        "why_not": "Our number is about 64% (fair -178); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 16.1
+        "reason": "Higgins has 21 rec yds with 64% of the game played (6:25 - 3rd); pace projects about 32.7. Needs more than 0.5 more.",
+        "why_not": "Our number is about 59% (fair -144); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 12.1
        },
        {
         "rank": 2,
-        "pick": "Kendrick Bourne Over 42.5 rec yds",
-        "odds": "-115",
+        "pick": "Rams Under 22.5",
+        "odds": "-110",
         "grade": "A",
-        "reason": "Bourne has 39 rec yds with 56% of the game played (11:17 - 3rd); pace projects about 69.4. Needs more than 3.5 more.",
-        "why_not": "Our number is about 63% (fair -171); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 13.1
+        "reason": "Rams team total is 9 with 64% played (6:25 - 3rd); scoring pace projects about 14. Needs no more than 13.5 more.",
+        "why_not": "Our number is about 61% (fair -154); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 11.6
        },
        {
         "rank": 3,
-        "pick": "Tyler Allgeier Over 15.5 carries",
-        "odds": "+105",
+        "pick": "Matthew Stafford Under 200.5 pass yds",
+        "odds": "-115",
         "grade": "A",
-        "reason": "Allgeier has 11 carries with 56% of the game played (11:17 - 3rd); pace projects about 19.6. Needs more than 4.5 more.",
-        "why_not": "Our number is about 58% (fair -135); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 11.2
+        "reason": "Stafford has 72 pass yds with 64% of the game played (6:25 - 3rd); pace projects about 112.0. Needs no more than 128.5 more.",
+        "why_not": "Our number is about 61% (fair -157); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 11.1
        },
        {
         "rank": 4,
-        "pick": "Rams Under 25.5",
-        "odds": "-135",
+        "pick": "Colby Parkinson Over 21.5 rec yds",
+        "odds": "-110",
         "grade": "A",
-        "reason": "Rams team total is 9 with 56% played (11:17 - 3rd); scoring pace projects about 16. Needs no more than 16.5 more.",
-        "why_not": "Our number is about 64% (fair -180); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
+        "reason": "Parkinson has 21 rec yds with 64% of the game played (6:25 - 3rd); pace projects about 32.7. Needs more than 0.5 more.",
+        "why_not": "Our number is about 60% (fair -149); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
         "edge": 10.8
        },
        {
         "rank": 5,
-        "pick": "Colby Parkinson Over 3.5 rec",
-        "odds": "-120",
-        "grade": "A",
-        "reason": "Parkinson has 3 rec with 56% of the game played (11:17 - 3rd); pace projects about 5.3. Needs more than 0.5 more.",
-        "why_not": "Our number is about 62% (fair -160); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 10.6
+        "pick": "Matthew Stafford Under 29.5 pass att",
+        "odds": "-130",
+        "grade": "A-",
+        "reason": "Stafford has 15 pass att with 64% of the game played (6:25 - 3rd); pace projects about 23.3. Needs no more than 14.5 more.",
+        "why_not": "Our number is about 62% (fair -164); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 9.7
        },
        {
         "rank": 6,
-        "pick": "Matthew Stafford Under 213.5 pass yds",
-        "odds": "-115",
-        "grade": "A",
-        "reason": "Stafford has 72 pass yds with 56% of the game played (11:17 - 3rd); pace projects about 128.1. Needs no more than 141.5 more.",
-        "why_not": "Our number is about 60% (fair -151); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 10.1
+        "pick": "Puka Nacua Under 5.5 rec",
+        "odds": "+100",
+        "grade": "A-",
+        "reason": "Nacua has 2 rec with 64% of the game played (6:25 - 3rd); pace projects about 3.1. Needs no more than 3.5 more.",
+        "why_not": "Our number is about 55% (fair -123); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 8.6
        },
        {
         "rank": 7,
-        "pick": "Cardinals @ Rams Under 47.5 total",
-        "odds": "-225",
+        "pick": "Matthew Stafford Under 19.5 completions",
+        "odds": "-110",
         "grade": "A-",
-        "reason": "Game total is 18 with 56% played (11:17 - 3rd); scoring pace projects about 32. Needs no more than 29.5 more.",
-        "why_not": "Our number is about 74% (fair -281); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 9.9
-       },
-       {
-        "rank": 8,
-        "pick": "Colby Parkinson Over 23.5 rec yds",
-        "odds": "-120",
-        "grade": "A-",
-        "reason": "Parkinson has 21 rec yds with 56% of the game played (11:17 - 3rd); pace projects about 37.4. Needs more than 2.5 more.",
-        "why_not": "Our number is about 59% (fair -145); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
+        "reason": "Stafford has 10 completions with 64% of the game played (6:25 - 3rd); pace projects about 15.6. Needs no more than 9.5 more.",
+        "why_not": "Our number is about 57% (fair -134); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
         "edge": 8.2
        },
        {
-        "rank": 9,
-        "pick": "Kyren Williams Under 12.5 carries",
-        "odds": "-125",
+        "rank": 8,
+        "pick": "Cardinals @ Rams Under 40.5 total",
+        "odds": "+105",
         "grade": "A-",
-        "reason": "Williams has 5 carries with 56% of the game played (11:17 - 3rd); pace projects about 8.9. Needs no more than 7.5 more.",
-        "why_not": "Our number is about 60% (fair -151); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
+        "reason": "Game total is 21 with 64% played (6:25 - 3rd); scoring pace projects about 33. Needs no more than 19.5 more.",
+        "why_not": "Our number is about 54% (fair -117); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
         "edge": 8.1
        },
        {
-        "rank": 10,
-        "pick": "Blake Corum Over 2.5 rec",
-        "odds": "+115",
+        "rank": 9,
+        "pick": "Puka Nacua Under 62.5 rec yds",
+        "odds": "-115",
         "grade": "A-",
-        "reason": "Corum has 2 rec with 56% of the game played (11:17 - 3rd); pace projects about 3.6. Needs more than 0.5 more.",
-        "why_not": "Our number is about 51% (fair -106); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 7.7
+        "reason": "Nacua has 16 rec yds with 64% of the game played (6:25 - 3rd); pace projects about 24.9. Needs no more than 46.5 more.",
+        "why_not": "Our number is about 58% (fair -138); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 8.0
+       },
+       {
+        "rank": 10,
+        "pick": "Kyren Williams Under 10.5 carries",
+        "odds": "+105",
+        "grade": "A-",
+        "reason": "Williams has 5 carries with 64% of the game played (6:25 - 3rd); pace projects about 7.8. Needs no more than 5.5 more.",
+        "why_not": "Our number is about 53% (fair -115); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 8.0
        }
       ],
       "note": ""
      },
      {
       "game": "Bills @ Raiders",
-      "score": "BUF 13 @ LV 10",
-      "clock": "0:09 - 2nd",
+      "score": "BUF 13 @ LV 13",
+      "clock": "Halftime",
       "espn_id": "401873005",
       "picks": [
        {
         "rank": 1,
-        "pick": "Joshua Palmer Over 46.5 rec yds",
-        "odds": "-115",
+        "pick": "Joshua Palmer Over 42.5 rec yds",
+        "odds": "-110",
         "grade": "A",
-        "reason": "Palmer has 37 rec yds with 50% of the game played (0:09 - 2nd); pace projects about 74.4. Needs more than 9.5 more.",
-        "why_not": "Our number is about 60% (fair -150); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 10.1
+        "reason": "Palmer has 37 rec yds with 50% of the game played (Halftime); pace projects about 74.0. Needs more than 5.5 more.",
+        "why_not": "Our number is about 63% (fair -168); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 13.7
        },
        {
         "rank": 2,
-        "pick": "Bills @ Raiders Under 59.5 total",
-        "odds": "-230",
-        "grade": "A-",
-        "reason": "Game total is 23 with 50% played (0:09 - 2nd); scoring pace projects about 46. Needs no more than 36.5 more.",
-        "why_not": "Our number is about 72% (fair -256); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 7.5
+        "pick": "Michael Mayer Over 6.5 rec",
+        "odds": "-145",
+        "grade": "A",
+        "reason": "Mayer has 5 rec with 50% of the game played (Halftime); pace projects about 10.0. Needs more than 1.5 more.",
+        "why_not": "Our number is about 68% (fair -208); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 12.2
        },
        {
         "rank": 3,
-        "pick": "Jalen Nailor Under 1.5 rec",
-        "odds": "-175",
-        "grade": "A-",
-        "reason": "Nailor has 0 rec with 50% of the game played (0:09 - 2nd); pace projects about 0.0. Needs no more than 1.5 more.",
-        "why_not": "Our number is about 67% (fair -205); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 7.3
+        "pick": "Michael Mayer Over 66.5 rec yds",
+        "odds": "-120",
+        "grade": "A",
+        "reason": "Mayer has 52 rec yds with 50% of the game played (Halftime); pace projects about 104.0. Needs more than 14.5 more.",
+        "why_not": "Our number is about 62% (fair -162); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 10.8
        },
        {
         "rank": 4,
-        "pick": "Ty Johnson Over 32.5 rec yds",
-        "odds": "-110",
-        "grade": "B+",
-        "reason": "Johnson has 24 rec yds with 50% of the game played (0:09 - 2nd); pace projects about 48.2. Needs more than 8.5 more.",
-        "why_not": "Our number is about 56% (fair -126); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 6.8
+        "pick": "Ty Johnson Over 30.5 rec yds",
+        "odds": "-120",
+        "grade": "A-",
+        "reason": "Johnson has 24 rec yds with 50% of the game played (Halftime); pace projects about 48.0. Needs more than 6.5 more.",
+        "why_not": "Our number is about 59% (fair -143); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 7.2
        },
        {
         "rank": 5,
-        "pick": "Ashton Jeanty Over 6.5 rec",
-        "odds": "+125",
+        "pick": "James Cook III Over 2.5 rec",
+        "odds": "-155",
         "grade": "B+",
-        "reason": "Jeanty has 4 rec with 50% of the game played (0:09 - 2nd); pace projects about 8.0. Needs more than 2.5 more.",
-        "why_not": "Our number is about 48% (fair +108); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 6.5
+        "reason": "Cook has 2 rec with 50% of the game played (Halftime); pace projects about 4.0. Needs more than 0.5 more.",
+        "why_not": "Our number is about 64% (fair -175); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 6.9
        },
        {
         "rank": 6,
-        "pick": "Mike Washington Jr. Over 22.5 rush yds",
-        "odds": "-110",
+        "pick": "Jalen Nailor Under 1.5 rec",
+        "odds": "-240",
         "grade": "B+",
-        "reason": "Washington has 17 rush yds with 50% of the game played (0:09 - 2nd); pace projects about 34.2. Needs more than 5.5 more.",
-        "why_not": "Our number is about 55% (fair -123); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 6.2
+        "reason": "Nailor has 0 rec with 50% of the game played (Halftime); pace projects about 0.0. Needs no more than 1.5 more.",
+        "why_not": "Our number is about 73% (fair -265); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 6.6
        },
        {
         "rank": 7,
-        "pick": "James Cook III Over 2.5 rec",
-        "odds": "-175",
+        "pick": "Dalton Kincaid Over 6.5 rec",
+        "odds": "+105",
         "grade": "B+",
-        "reason": "Cook has 2 rec with 50% of the game played (0:09 - 2nd); pace projects about 4.0. Needs more than 0.5 more.",
-        "why_not": "Our number is about 66% (fair -194); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 6.1
+        "reason": "Kincaid has 4 rec with 50% of the game played (Halftime); pace projects about 8.0. Needs more than 2.5 more.",
+        "why_not": "Our number is about 51% (fair -106); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 5.6
        },
        {
         "rank": 8,
-        "pick": "Khalil Shakir Under 3.5 rec",
-        "odds": "-125",
+        "pick": "Mike Washington Jr. Over 23.5 rush yds",
+        "odds": "-110",
         "grade": "B+",
-        "reason": "Shakir has 1 rec with 50% of the game played (0:09 - 2nd); pace projects about 2.0. Needs no more than 2.5 more.",
-        "why_not": "Our number is about 58% (fair -139); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 6.1
+        "reason": "Washington has 17 rush yds with 50% of the game played (Halftime); pace projects about 34.0. Needs more than 6.5 more.",
+        "why_not": "Our number is about 54% (fair -119); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 5.3
        },
        {
         "rank": 9,
-        "pick": "Ashton Jeanty Over 52.5 rec yds",
-        "odds": "-115",
+        "pick": "Josh Allen Under 18.5 rush yds",
+        "odds": "-110",
         "grade": "B+",
-        "reason": "Jeanty has 36 rec yds with 50% of the game played (0:09 - 2nd); pace projects about 72.4. Needs more than 16.5 more.",
-        "why_not": "Our number is about 56% (fair -127); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 6.0
+        "reason": "Allen has 2 rush yds with 50% of the game played (Halftime); pace projects about 4.0. Needs no more than 16.5 more.",
+        "why_not": "Our number is about 54% (fair -118); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 5.2
        },
        {
         "rank": 10,
-        "pick": "Raiders Under 26.5",
-        "odds": "-170",
+        "pick": "Khalil Shakir Under 3.5 rec",
+        "odds": "-180",
         "grade": "B+",
-        "reason": "Raiders team total is 10 with 50% played (0:09 - 2nd); scoring pace projects about 20. Needs no more than 16.5 more.",
-        "why_not": "Our number is about 64% (fair -177); live prices move fast and the Hard Rock price is from 2026-10-18 17:24 ET, so it may have moved.",
-        "price_time": "2026-10-18 17:24 ET",
-        "edge": 5.8
+        "reason": "Shakir has 1 rec with 50% of the game played (Halftime); pace projects about 2.0. Needs no more than 2.5 more.",
+        "why_not": "Our number is about 65% (fair -188); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 5.1
        }
       ],
       "note": ""
@@ -13265,10 +13334,21 @@
      {
       "game": "Rays @ Guardians",
       "score": "TB 2 @ CLE 0",
-      "clock": "Top 2nd",
+      "clock": "Bot 2nd",
       "espn_id": "401930515",
-      "picks": [],
-      "note": "No in-game line clears our edge bar right now."
+      "picks": [
+       {
+        "rank": 1,
+        "pick": "Rays @ Guardians Over 5.5 total",
+        "odds": "-260",
+        "grade": "C+",
+        "reason": "Game total is 2 with 17% played (Bot 2nd); scoring pace projects about 12. Needs more than 3.5 more.",
+        "why_not": "Our number is about 69% (fair -224); live prices move fast and the Hard Rock price is from 2026-10-18 17:48 ET, so it may have moved.",
+        "price_time": "2026-10-18 17:48 ET",
+        "edge": 1.4
+       }
+      ],
+      "note": ""
      }
     ],
     "note": ""
