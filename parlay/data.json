@@ -1,5 +1,5 @@
 {
- "generated": 1792365726.3169508,
+ "generated": 1792366041.6944206,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -478,15 +478,15 @@
    },
    "NFL": {
     "potd": {
-     "pick": "Kansas City Chiefs -7",
-     "odds": "-125",
-     "game": "Chargers @ Chiefs Sun 4:25 PM ET",
+     "pick": "Dak Prescott 275+ pass yds",
+     "odds": "-120",
+     "game": "Cowboys @ Packers 10/18 08:20 PM ET",
      "status": "Pending",
-     "why": "Posted Sun 1:15 PM ET after POTD #1 (Jaguars -2.5) lost. Unbeaten KC (4-0, SRS +8.5, 19.3 allowed) hosts winless LAC (0-5, 16.8 pts/g, SRS -9.6, -45 point diff), an 18-point rating gap. LAC is also without OT Joe Alt and S Derwin James Jr. (ESPN injury report). Hard Rock -125 at 1:12 PM ET (alt spread; main line is -7.5 -110).",
-     "desc": "Kansas City Chiefs -7 -125 (Chargers @ Chiefs Sun 4:25 PM ET)",
-     "n": 2,
-     "why_not": "A 7-point line can push (a push grades P), and KC is missing WR Rashee Rice and OT Josh Simmons, so the offense may not pull away.",
-     "chain": 2
+     "why": "Posted Sun 7:27 PM ET after POTD #2 (Kansas City Chiefs -7) settled (W). Prescott 276.2 pass yds/gm this season (5 gms), 267.2 last 10; hit 275+ in 7 of last 10, 4 of 5 this season. Staged from our top lines (Dak Prescott 275+ pass yds -120) [A-]; Hard Rock price from the 15-min refresh -120 at 19:27 ET.",
+     "desc": "Dak Prescott 275+ pass yds -120 (Cowboys @ Packers 10/18 08:20 PM ET)",
+     "n": 3,
+     "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it.",
+     "chain": 3
     },
     "parlay": {
      "pick": "2-leg",
@@ -661,10 +661,16 @@
      },
      {
       "pick": "Kenneth Walker III (RB) anytime TD",
-      "result": "Pending",
+      "result": "W",
       "stat": "—",
       "final": "—",
-      "game": "LAC @ KC 4:25 PM ET Sun"
+      "game": "LAC @ KC 4:25 PM ET Sun",
+      "pm": {
+       "title": "Why it hit",
+       "head": "Box score not found yet",
+       "bullets": [],
+       "moments": null
+      }
      },
      {
       "pick": "Javonte Williams (RB) anytime TD",
@@ -1851,8 +1857,8 @@
     "line": "ATD",
     "odds": "-180",
     "ticket": "10/18 TDCITY 11-leg +48611 $1",
-    "result": "Pending",
-    "stat": "—"
+    "result": "W",
+    "stat": "anytime TD (td-city.json)"
    },
    {
     "date": "10/18",
@@ -2078,6 +2084,15 @@
     "odds": "+108",
     "result": "L",
     "stat": "legs L/Pending"
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "type": "POTD #2",
+    "pick": "Kansas City Chiefs -7",
+    "odds": "-125",
+    "result": "W",
+    "stat": "LAC 6-22 KC"
    },
    {
     "date": "2026-10-18",
@@ -2408,22 +2423,22 @@
  "record": {
   "overall": {
    "official": {
-    "w": 33,
+    "w": 35,
     "l": 29,
     "p": 1,
-    "pct": 53
+    "pct": 55
    },
    "potd": {
-    "w": 3,
+    "w": 4,
     "l": 4,
     "p": 1,
-    "pct": 43
+    "pct": 50
    },
    "legs": {
-    "w": 25,
+    "w": 26,
     "l": 20,
     "p": 0,
-    "pct": 56
+    "pct": 57
    },
    "parlay": {
     "w": 4,
@@ -2432,12 +2447,12 @@
     "pct": 44
    },
    "tracked": {
-    "w": 55,
+    "w": 60,
     "l": 48,
     "p": 2,
-    "pct": 53
+    "pct": 56
    },
-   "pending": 17
+   "pending": 16
   },
   "props": [
    {
@@ -2449,10 +2464,10 @@
    },
    {
     "prop": "NFL anytime TD",
-    "w": 3,
+    "w": 4,
     "l": 3,
     "p": 0,
-    "pct": 50
+    "pct": 57
    },
    {
     "prop": "Big 4 parlay",
@@ -2463,6 +2478,13 @@
    },
    {
     "prop": "MLB o0.5 hits",
+    "w": 2,
+    "l": 1,
+    "p": 0,
+    "pct": 67
+   },
+   {
+    "prop": "NFL spread",
     "w": 2,
     "l": 1,
     "p": 0,
@@ -2491,13 +2513,6 @@
    },
    {
     "prop": "NHL points",
-    "w": 1,
-    "l": 1,
-    "p": 0,
-    "pct": 50
-   },
-   {
-    "prop": "NFL spread",
     "w": 1,
     "l": 1,
     "p": 0,
@@ -2782,8 +2797,8 @@
     "date": "2026-10-18",
     "pick": "NFL · Leg: Kenneth Walker III (RB) ATD · 10/18 TDCITY 11-leg +48611 $1",
     "odds": "-180",
-    "result": "Pending",
-    "detail": "—"
+    "result": "W",
+    "detail": "anytime TD (td-city.json)"
    },
    {
     "date": "2026-10-18",
@@ -2819,6 +2834,13 @@
     "odds": "-375 placed",
     "result": "L",
     "detail": "58 rush yds"
+   },
+   {
+    "date": "2026-10-18",
+    "pick": "NFL · POTD #3: Dak Prescott 275+ pass yds",
+    "odds": "-120",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-10-18",
@@ -2880,8 +2902,8 @@
     "date": "2026-10-18",
     "pick": "NFL · POTD #2: Kansas City Chiefs -7",
     "odds": "-125",
-    "result": "Pending",
-    "detail": "—"
+    "result": "W",
+    "detail": "LAC 6-22 KC"
    },
    {
     "date": "2026-10-18",
@@ -3440,6 +3462,14 @@
    ],
    [
     "10/18",
+    8
+   ],
+   [
+    "10/18",
+    7
+   ],
+   [
+    "10/18",
     6
    ],
    [
@@ -3452,7 +3482,7 @@
    ],
    [
     "10/18",
-    3
+    5
    ],
    [
     "10/18",
@@ -3460,15 +3490,7 @@
    ],
    [
     "10/18",
-    3
-   ],
-   [
-    "10/18",
-    2
-   ],
-   [
-    "10/18",
-    3
+    5
    ],
    [
     "10/18",
@@ -3476,19 +3498,27 @@
    ],
    [
     "10/18",
-    3
+    5
    ],
    [
     "10/18",
-    2
+    6
    ],
    [
     "10/18",
-    3
+    5
    ],
    [
     "10/18",
     4
+   ],
+   [
+    "10/18",
+    5
+   ],
+   [
+    "10/18",
+    6
    ]
   ]
  },
@@ -4701,10 +4731,10 @@
  "capper_today_date": "2026-10-18",
  "runners_up_record": {
   "overall": {
-   "w": 23,
+   "w": 26,
    "l": 19,
    "p": 1,
-   "pct": 55
+   "pct": 58
   },
   "props": [
    {
@@ -4720,6 +4750,13 @@
     "l": 2,
     "p": 0,
     "pct": 67
+   },
+   {
+    "prop": "NFL moneyline",
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "pct": 50
    },
    {
     "prop": "NCAAF team total",
@@ -4743,7 +4780,7 @@
     "pct": 100
    },
    {
-    "prop": "NFL moneyline",
+    "prop": "NFL game total",
     "w": 1,
     "l": 2,
     "p": 0,
@@ -4771,11 +4808,11 @@
     "pct": 0
    },
    {
-    "prop": "NFL game total",
-    "w": 0,
-    "l": 2,
+    "prop": "NFL spread",
+    "w": 1,
+    "l": 1,
     "p": 0,
-    "pct": 0
+    "pct": 50
    },
    {
     "prop": "MLB F5 ML",
@@ -4832,13 +4869,6 @@
     "l": 0,
     "p": 0,
     "pct": 100
-   },
-   {
-    "prop": "NFL spread",
-    "w": 0,
-    "l": 1,
-    "p": 0,
-    "pct": 0
    }
   ],
   "recent": [
@@ -4894,8 +4924,8 @@
     "pick": "(Quality) Kansas City Chiefs ML",
     "odds": "-425",
     "grade": "A",
-    "status": "Pending",
-    "stat": "—"
+    "status": "W",
+    "stat": "LAC 6-22 KC"
    },
    {
     "date": "2026-10-18",
@@ -4982,8 +5012,8 @@
     "pick": "Chargers @ Chiefs Under 41",
     "odds": "-105",
     "grade": "B",
-    "status": "Pending",
-    "stat": "—"
+    "status": "W",
+    "stat": "total 28"
    },
    {
     "date": "2026-10-18",
@@ -5004,8 +5034,8 @@
     "pick": "(+EV) Kansas City Chiefs -7.5",
     "odds": "-105",
     "grade": "B+",
-    "status": "Pending",
-    "stat": "—"
+    "status": "W",
+    "stat": "LAC 6-22 KC"
    },
    {
     "date": "2026-10-18",
@@ -5066,7 +5096,7 @@
   "grades": [
    {
     "grade": "A",
-    "w": 2,
+    "w": 3,
     "l": 0,
     "p": 0,
     "pct": 100
@@ -5087,17 +5117,17 @@
    },
    {
     "grade": "B+",
-    "w": 5,
+    "w": 6,
     "l": 5,
     "p": 0,
-    "pct": 50
+    "pct": 55
    },
    {
     "grade": "B",
-    "w": 10,
+    "w": 11,
     "l": 6,
     "p": 1,
-    "pct": 62
+    "pct": 65
    },
    {
     "grade": "B-",
@@ -5123,7 +5153,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-18 07:22 PM ET",
+  "updated": "2026-10-18 07:27 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -5652,14 +5682,14 @@
      {
       "a": "LAC",
       "h": "KC",
-      "st": "1:28 - 4th",
+      "st": "Final",
       "div": true,
       "stake": "LAC 0-5: 4th AFC West (4.5 GB), AFC #16 seed (outside playoffs) · KC 4-0: 1st AFC West, AFC #1 seed (in playoff spot)"
      },
      {
       "a": "BUF",
       "h": "LV",
-      "st": "2:00 - 4th",
+      "st": "1:43 - 4th",
       "div": false,
       "stake": "BUF 4-1: 1st AFC East, AFC #2 seed (in playoff spot) · LV 3-2: 3rd AFC West (1.5 GB), AFC #10 seed (outside playoffs)"
      },
@@ -6727,7 +6757,7 @@
      {
       "a": "CBJ",
       "h": "MIN",
-      "st": "9:49 - 2nd",
+      "st": "6:53 - 2nd",
       "div": false,
       "stake": "CBJ 3-3-0: 7th Metropolitan Division (9 pts back), East #15 seed (outside playoffs) · MIN 5-2-1: 3rd Central Division (1 pts back), West #5 seed (in playoff spot)"
      },
@@ -7227,7 +7257,7 @@
      {
       "a": "TB",
       "h": "CLE",
-      "st": "Top 8th",
+      "st": "Mid 8th",
       "div": false,
       "stake": "TB 98-64: 1st American League East, AL #1 seed (in playoff spot) · CLE 85-77: 1st American League Central, AL #2 seed (in playoff spot)"
      }
@@ -7832,7 +7862,7 @@
    }
   }
  },
- "ui_build": "1792365726",
+ "ui_build": "1792366018",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -7976,16 +8006,16 @@
   },
   {
    "sport": "NFL",
-   "w": 8,
+   "w": 10,
    "l": 8,
    "p": 0,
-   "pct": 50,
+   "pct": 56,
    "active": true,
    "runners_up": {
-    "w": 1,
+    "w": 4,
     "l": 5,
     "p": 0,
-    "pct": 17
+    "pct": 44
    },
    "ticket_legs": {
     "w": 3,
@@ -8525,17 +8555,24 @@
   },
   {
    "sport": "NFL",
-   "w": 8,
+   "w": 10,
    "l": 8,
    "p": 0,
-   "pct": 50,
+   "pct": 56,
    "props": [
     {
      "prop": "NFL anytime TD",
-     "w": 3,
+     "w": 4,
      "l": 3,
      "p": 0,
-     "pct": 50
+     "pct": 57
+    },
+    {
+     "prop": "NFL spread",
+     "w": 2,
+     "l": 1,
+     "p": 0,
+     "pct": 67
     },
     {
      "prop": "NFL o1.5 rec",
@@ -8543,13 +8580,6 @@
      "l": 0,
      "p": 0,
      "pct": 100
-    },
-    {
-     "prop": "NFL spread",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
     },
     {
      "prop": "NFL o0.5 rec",
@@ -8595,17 +8625,24 @@
     }
    ],
    "official": {
-    "w": 8,
+    "w": 10,
     "l": 8,
     "p": 0,
-    "pct": 50,
+    "pct": 56,
     "props": [
      {
       "prop": "NFL anytime TD",
-      "w": 3,
+      "w": 4,
       "l": 3,
       "p": 0,
-      "pct": 50
+      "pct": 57
+     },
+     {
+      "prop": "NFL spread",
+      "w": 2,
+      "l": 1,
+      "p": 0,
+      "pct": 67
      },
      {
       "prop": "NFL o1.5 rec",
@@ -8613,13 +8650,6 @@
       "l": 0,
       "p": 0,
       "pct": 100
-     },
-     {
-      "prop": "NFL spread",
-      "w": 1,
-      "l": 1,
-      "p": 0,
-      "pct": 50
      },
      {
       "prop": "NFL o0.5 rec",
@@ -8666,20 +8696,34 @@
     ]
    },
    "tracked": {
-    "w": 8,
+    "w": 13,
     "l": 13,
     "p": 0,
-    "pct": 38,
+    "pct": 50,
     "props": [
      {
       "prop": "NFL anytime TD",
-      "w": 3,
+      "w": 4,
       "l": 3,
+      "p": 0,
+      "pct": 57
+     },
+     {
+      "prop": "NFL spread",
+      "w": 2,
+      "l": 2,
       "p": 0,
       "pct": 50
      },
      {
       "prop": "NFL moneyline",
+      "w": 2,
+      "l": 2,
+      "p": 0,
+      "pct": 50
+     },
+     {
+      "prop": "NFL game total",
       "w": 1,
       "l": 2,
       "p": 0,
@@ -8691,20 +8735,6 @@
       "l": 0,
       "p": 0,
       "pct": 100
-     },
-     {
-      "prop": "NFL spread",
-      "w": 0,
-      "l": 2,
-      "p": 0,
-      "pct": 0
-     },
-     {
-      "prop": "NFL game total",
-      "w": 0,
-      "l": 2,
-      "p": 0,
-      "pct": 0
      },
      {
       "prop": "NFL o0.5 rec",
@@ -10198,7 +10228,8 @@
      "grade": "B",
      "reason": "LAC offense 16.8 pts/g (OSRS -9.9); KC D allows 19.3. Projection about 38 to 40.",
      "updated": "22:20",
-     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
+     "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss.",
+     "status": "WON"
     },
     {
      "pick": "Steelers @ Buccaneers Under 38.5",
@@ -12021,7 +12052,7 @@
     "game": "LAC @ KC 4:25 PM ET Sun",
     "odds": "-180",
     "book": "Hard Rock (verified from user's slip)",
-    "status": "Pending",
+    "status": "W",
     "grade": "A",
     "why": "[A] 6 TDs in 4 games; 62% of team inside-10 opps (L4 64%); team implied 24 pts; LAC run D: rush EPA #14, stuff rate #24, 1.4 rush TD/g allowed; RZ D #11. Model 68% vs 63% implied (fair -210).",
     "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
@@ -12751,8 +12782,8 @@
    "prop": "NFL spread",
    "pick": "Kansas City Chiefs -7",
    "odds": "-125",
-   "res": "Pending",
-   "stat": "—"
+   "res": "W",
+   "stat": "LAC 6-22 KC"
   },
   {
    "date": "2026-10-18",
@@ -12837,6 +12868,16 @@
   {
    "date": "2026-10-18",
    "sport": "NFL",
+   "type": "POTD",
+   "prop": "NFL prop",
+   "pick": "Dak Prescott 275+ pass yds",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-18",
+   "sport": "NFL",
    "type": "Leg",
    "prop": "NFL rush yds",
    "pick": "Derrick Henry o64.5 · 10/18 NFL Safe100 3-leg +101 $10",
@@ -12891,8 +12932,8 @@
    "prop": "NFL anytime TD",
    "pick": "Kenneth Walker III (RB) ATD · 10/18 TDCITY 11-leg +48611 $1",
    "odds": "-180",
-   "res": "Pending",
-   "stat": "—"
+   "res": "W",
+   "stat": "anytime TD (td-city.json)"
   },
   {
    "date": "2026-10-18",
@@ -13613,8 +13654,8 @@
    "prop": "NFL spread",
    "pick": "(+EV) Kansas City Chiefs -7.5",
    "odds": "-105",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "LAC 6-22 KC",
    "grade": "—"
   },
   {
@@ -13624,8 +13665,8 @@
    "prop": "NFL game total",
    "pick": "Chargers @ Chiefs Under 41",
    "odds": "-105",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "total 28",
    "grade": "—"
   },
   {
@@ -13690,8 +13731,8 @@
    "prop": "NFL moneyline",
    "pick": "(Quality) Kansas City Chiefs ML",
    "odds": "-425",
-   "res": "Pending",
-   "stat": "—",
+   "res": "W",
+   "stat": "LAC 6-22 KC",
    "grade": "—"
   },
   {
@@ -13748,8 +13789,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 63,
-  "headline": 63
+  "tiles_sum": 65,
+  "headline": 65
  },
  "inning_record": {
   "w": 13,
@@ -13757,57 +13798,26 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-18 19:22 ET",
-  "generated_ts": 1792365734,
+  "generated": "2026-10-18 19:27 ET",
+  "generated_ts": 1792366048,
   "hr_fetched": "2026-10-18 19:11 ET",
   "hr_fetched_ts": 1792365060,
-  "hr_age_min": 11,
+  "hr_age_min": 16,
   "sports": {
    "NFL": {
     "games": [
      {
       "game": "Chargers @ Chiefs",
       "score": "LAC 6 @ KC 22",
-      "clock": "1:28 - 4th",
+      "clock": "Final",
       "espn_id": "401873006",
-      "picks": [
-       {
-        "rank": 1,
-        "pick": "Chargers Under 9.5",
-        "odds": "-220",
-        "grade": "A",
-        "reason": "Chargers team total is 6 with 97% played (1:28 - 4th); scoring pace projects about 6. Needs no more than 3.5 more.",
-        "why_not": "Our number is about 75% (fair -302); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
-        "price_time": "2026-10-18 19:11 ET",
-        "edge": 11.9
-       },
-       {
-        "rank": 2,
-        "pick": "Chargers @ Chiefs Under 33.5 total",
-        "odds": "-250",
-        "grade": "A",
-        "reason": "Game total is 28 with 97% played (1:28 - 4th); scoring pace projects about 29. Needs no more than 5.5 more.",
-        "why_not": "Our number is about 77% (fair -329); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
-        "price_time": "2026-10-18 19:11 ET",
-        "edge": 10.9
-       },
-       {
-        "rank": 3,
-        "pick": "Chiefs Over 22.5",
-        "odds": "+185",
-        "grade": "B+",
-        "reason": "Chiefs team total is 22 with 97% played (1:28 - 4th); scoring pace projects about 23. Needs more than 0.5 more.",
-        "why_not": "Our number is about 38% (fair +165); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
-        "price_time": "2026-10-18 19:11 ET",
-        "edge": 5.4
-       }
-      ],
-      "note": ""
+      "picks": [],
+      "note": "Just kicked off: lines appear once the game is underway (a few minutes in)."
      },
      {
       "game": "Bills @ Raiders",
-      "score": "BUF 30 @ LV 23",
-      "clock": "2:00 - 4th",
+      "score": "BUF 33 @ LV 23",
+      "clock": "1:43 - 4th",
       "espn_id": "401873005",
       "picks": [
        {
@@ -13815,7 +13825,7 @@
         "pick": "Cody White Over 0.5 rec yds",
         "odds": "+300",
         "grade": "A",
-        "reason": "White has 0 rec yds with 97% of the game played (2:00 - 4th); pace projects about 0.0. Needs more than 0.5 more.",
+        "reason": "White has 0 rec yds with 97% of the game played (1:43 - 4th); pace projects about 0.0. Needs more than 0.5 more.",
         "why_not": "Our number is about 45% (fair +120); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
         "edge": 21.7
@@ -13825,90 +13835,90 @@
         "pick": "Dalton Kincaid Over 38.5 rec yds",
         "odds": "+260",
         "grade": "A",
-        "reason": "Kincaid has 38 rec yds with 97% of the game played (2:00 - 4th); pace projects about 39.3. Needs more than 0.5 more.",
+        "reason": "Kincaid has 38 rec yds with 97% of the game played (1:43 - 4th); pace projects about 39.2. Needs more than 0.5 more.",
         "why_not": "Our number is about 47% (fair +112); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 20.9
+        "edge": 20.7
        },
        {
         "rank": 3,
-        "pick": "Bills @ Raiders Under 62.5 total",
-        "odds": "-210",
+        "pick": "Bills Over 33.5",
+        "odds": "+275",
         "grade": "A",
-        "reason": "Game total is 53 with 97% played (2:00 - 4th); scoring pace projects about 55. Needs no more than 9.5 more.",
-        "why_not": "Our number is about 81% (fair -420); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
+        "reason": "Bills team total is 33 with 97% played (1:43 - 4th); scoring pace projects about 34. Needs more than 0.5 more.",
+        "why_not": "Our number is about 39% (fair +155); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 18.4
+        "edge": 14.7
        },
        {
         "rank": 4,
         "pick": "Jalen Nailor Over 9.5 rec yds",
         "odds": "+190",
         "grade": "A",
-        "reason": "Nailor has 9 rec yds with 97% of the game played (2:00 - 4th); pace projects about 9.3. Needs more than 0.5 more.",
+        "reason": "Nailor has 9 rec yds with 97% of the game played (1:43 - 4th); pace projects about 9.3. Needs more than 0.5 more.",
         "why_not": "Our number is about 46% (fair +118); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 13.6
+        "edge": 13.5
        },
        {
         "rank": 5,
-        "pick": "Raiders Under 26.5",
-        "odds": "-165",
+        "pick": "Bills @ Raiders Under 62.5 total",
+        "odds": "-210",
         "grade": "A",
-        "reason": "Raiders team total is 23 with 97% played (2:00 - 4th); scoring pace projects about 24. Needs no more than 3.5 more.",
-        "why_not": "Our number is about 68% (fair -213); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
+        "reason": "Game total is 56 with 97% played (1:43 - 4th); scoring pace projects about 58. Needs no more than 6.5 more.",
+        "why_not": "Our number is about 75% (fair -294); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 10.3
+        "edge": 12.2
        },
        {
         "rank": 6,
-        "pick": "Kirk Cousins Under 323.5 pass yds",
-        "odds": "-115",
-        "grade": "A-",
-        "reason": "Cousins has 269 pass yds with 97% of the game played (2:00 - 4th); pace projects about 278.3. Needs no more than 54.5 more.",
-        "why_not": "Our number is about 59% (fair -143); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
+        "pick": "Raiders Under 26.5",
+        "odds": "-165",
+        "grade": "A",
+        "reason": "Raiders team total is 23 with 97% played (1:43 - 4th); scoring pace projects about 24. Needs no more than 3.5 more.",
+        "why_not": "Our number is about 69% (fair -223); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 8.8
+        "edge": 11.2
        },
        {
         "rank": 7,
-        "pick": "Brock Bowers Under 5.5 rec",
-        "odds": "-130",
+        "pick": "Kirk Cousins Under 323.5 pass yds",
+        "odds": "-115",
         "grade": "A-",
-        "reason": "Bowers has 4 rec with 97% of the game played (2:00 - 4th); pace projects about 4.1. Needs no more than 1.5 more.",
-        "why_not": "Our number is about 60% (fair -152); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
+        "reason": "Cousins has 269 pass yds with 97% of the game played (1:43 - 4th); pace projects about 277.3. Needs no more than 54.5 more.",
+        "why_not": "Our number is about 59% (fair -144); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 7.3
+        "edge": 9.0
        },
        {
         "rank": 8,
-        "pick": "Bills Under 32.5",
-        "odds": "-125",
-        "grade": "B+",
-        "reason": "Bills team total is 30 with 97% played (2:00 - 4th); scoring pace projects about 31. Needs no more than 2.5 more.",
-        "why_not": "Our number is about 57% (fair -134); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
+        "pick": "Brock Bowers Under 5.5 rec",
+        "odds": "-130",
+        "grade": "A-",
+        "reason": "Bowers has 4 rec with 97% of the game played (1:43 - 4th); pace projects about 4.1. Needs no more than 1.5 more.",
+        "why_not": "Our number is about 60% (fair -153); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 6.4
+        "edge": 7.4
        },
        {
         "rank": 9,
         "pick": "Brock Bowers Under 87.5 rec yds",
         "odds": "-115",
         "grade": "B+",
-        "reason": "Bowers has 70 rec yds with 97% of the game played (2:00 - 4th); pace projects about 72.4. Needs no more than 17.5 more.",
-        "why_not": "Our number is about 55% (fair -123); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
+        "reason": "Bowers has 70 rec yds with 97% of the game played (1:43 - 4th); pace projects about 72.2. Needs no more than 17.5 more.",
+        "why_not": "Our number is about 55% (fair -124); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 5.2
+        "edge": 5.3
        },
        {
         "rank": 10,
         "pick": "Tre Tucker Under 4.5 rec",
         "odds": "-105",
         "grade": "B",
-        "reason": "Tucker has 4 rec with 97% of the game played (2:00 - 4th); pace projects about 4.1. Needs no more than 0.5 more.",
+        "reason": "Tucker has 4 rec with 97% of the game played (1:43 - 4th); pace projects about 4.1. Needs no more than 0.5 more.",
         "why_not": "Our number is about 52% (fair -109); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 4.5
+        "edge": 4.6
        }
       ],
       "note": ""
@@ -13921,18 +13931,18 @@
      {
       "game": "Blue Jackets @ Wild",
       "score": "CBJ 1 @ MIN 2",
-      "clock": "9:49 - 2nd",
+      "clock": "7:15 - 2nd",
       "espn_id": "401892533",
       "picks": [
        {
         "rank": 1,
         "pick": "Blue Jackets @ Wild Under 6.5 total",
         "odds": "+160",
-        "grade": "B",
-        "reason": "Game total is 3 with 50% played (9:49 - 2nd); scoring pace projects about 6. Needs no more than 3.5 more.",
-        "why_not": "Our number is about 40% (fair +150); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
+        "grade": "B+",
+        "reason": "Game total is 3 with 55% played (7:15 - 2nd); scoring pace projects about 5. Needs no more than 3.5 more.",
+        "why_not": "Our number is about 41% (fair +142); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 3.9
+        "edge": 5.2
        }
       ],
       "note": ""
@@ -13945,18 +13955,18 @@
      {
       "game": "Rays @ Guardians",
       "score": "TB 3 @ CLE 1",
-      "clock": "Top 8th",
+      "clock": "Mid 8th",
       "espn_id": "401930515",
       "picks": [
        {
         "rank": 1,
         "pick": "Rays @ Guardians Under 6.5 total",
         "odds": "-200",
-        "grade": "B",
-        "reason": "Game total is 4 with 78% played (Top 8th); scoring pace projects about 5. Needs no more than 2.5 more.",
-        "why_not": "Our number is about 66% (fair -197); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
+        "grade": "B+",
+        "reason": "Game total is 4 with 83% played (Mid 8th); scoring pace projects about 5. Needs no more than 2.5 more.",
+        "why_not": "Our number is about 68% (fair -210); live prices move fast and the Hard Rock price is from 2026-10-18 19:11 ET, so it may have moved.",
         "price_time": "2026-10-18 19:11 ET",
-        "edge": 4.3
+        "edge": 5.7
        }
       ],
       "note": ""
