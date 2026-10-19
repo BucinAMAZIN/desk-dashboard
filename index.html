@@ -7,19 +7,21 @@
 .tabs{display:flex;gap:6px;margin-bottom:10px}.tab{flex:1;padding:10px;border-radius:10px;background:#161b22;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600}
 .tab.on{color:#e6edf3;border-color:#58a6ff}.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:12px;margin-bottom:10px}
 .big{font-size:36px;font-weight:700}.g{color:#3fb950}.r{color:#f85149}.m{color:#8b949e;font-size:12px}h2{font-size:14px;color:#8b949e;margin:14px 0 6px}
-table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;border-bottom:1px solid #21262d}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}svg{width:100%;height:120px}.tip{display:none;position:absolute;top:6px;background:#0d1117ee;border:1px solid #30363d;border-radius:8px;padding:6px 8px;font-size:12px;line-height:1.45;pointer-events:none;white-space:nowrap;z-index:2}</style></head><body>
-<div class="tabs"><div class="tab on" data-k="meme">Memecoin</div><div class="tab" data-k="surv">Survivor</div></div>
+table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;border-bottom:1px solid #21262d}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}svg{width:100%;height:120px}.bk{display:flex;justify-content:space-between;align-items:baseline}.bn{font-weight:600}.be{font-size:22px;font-weight:700}.pill{display:inline-block;padding:1px 7px;border-radius:9px;font-size:11px;background:#21262d;color:#8b949e;margin-left:6px}.pill.y{background:#3a2d0b;color:#d29922}.tip{display:none;position:absolute;top:6px;background:#0d1117ee;border:1px solid #30363d;border-radius:8px;padding:6px 8px;font-size:12px;line-height:1.45;pointer-events:none;white-space:nowrap;z-index:2}</style></head><body>
+<div class="tabs"><div class="tab on" data-k="meme">Memecoin</div><div class="tab" data-k="surv">Survivor</div><div class="tab" data-k="stocks">Stocks</div></div>
 <div class="card"><div class="m" id="run"></div><div class="big" id="eq">…</div><div id="pct"></div>
 <div style="margin-top:6px"><span class="dot" id="dot"></span><span id="alive"></span></div><div class="m" id="upd"></div></div>
-<div class="card" id="spc" style="position:relative"><svg id="sp" viewBox="0 0 300 120" preserveAspectRatio="none" style="touch-action:none"></svg><div id="tip" class="tip"></div><div class="m" id="sph">Tap or drag the graph for details</div></div>
+<div id="gen"><div class="card" id="spc" style="position:relative"><svg id="sp" viewBox="0 0 300 120" preserveAspectRatio="none" style="touch-action:none"></svg><div id="tip" class="tip"></div><div class="m" id="sph">Tap or drag the graph for details</div></div>
 <h2 id="ph">Open positions</h2><div class="card"><table id="pos"></table></div>
 <div id="ws"><h2>What it's watching</h2><div class="card"><div class="m" id="fn"></div><table id="wt"></table></div></div>
-<h2>Recent trades</h2><div class="card"><table id="tr"></table></div><div class="m">Paper money only.</div>
+<h2>Recent trades</h2><div class="card"><table id="tr"></table></div></div>
+<div id="stk" style="display:none"><div class="card"><svg id="ssp" viewBox="0 0 300 120" preserveAspectRatio="none"></svg><div class="m" id="slg"></div></div><div id="sbk"></div><h2>Recent trades</h2><div class="card"><table id="str"></table></div></div><div class="m">Paper money only.</div>
 <script>
 let D=null,K='meme',SP=[],SS=50,SY=null;const $=i=>document.getElementById(i),E=s=>String(s??'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const et=t=>new Date(t*1000).toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit',second:'2-digit'})+' ET';
 document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{K=b.dataset.k;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x===b));draw()});
-function draw(){if(!D)return;const d=D[K];$('upd').textContent='Updated '+et(D.generated);
+function draw(){if(!D)return;const d=D[K];$('upd').textContent='Updated '+et(D.generated);$('gen').style.display=K=='stocks'?'none':'';$('stk').style.display=K=='stocks'?'':'none';
+ if(K=='stocks'&&d&&d.run)return drawStk(d);
  if(!d||!d.run){$('run').textContent='No run yet';$('eq').textContent='—';$('pct').textContent='';$('pos').innerHTML=$('tr').innerHTML=$('sp').innerHTML='';$('dot').style.background='#8b949e';$('alive').textContent='';return}
  $('run').textContent=d.run+' · start $'+d.start;$('eq').textContent='$'+d.equity.toFixed(2);
  $('pct').innerHTML=`<span class="${d.pct>=0?'g':'r'}">${d.pct>=0?'+':''}${d.pct}%</span>`;
@@ -32,6 +34,20 @@ function draw(){if(!D)return;const d=D[K];$('upd').textContent='Updated '+et(D.g
  $('ws').style.display=K!='poly'?'':'none';if(K!='poly'){const f=d.funnel||{};$('fn').textContent=K=='surv'?`6h survivor signals: ${f.signals??0} seen → ${f.bought??0} bought, ${f.skipped??0} skipped`:`This run: ${f.scanned??0} scanned → ${f.cleared??0} passed safety → ${f.confirmed??0} approved → ${f.executed??0} bought`;
   $('wt').innerHTML=(d.watching||[]).map(w=>`<tr><td class=m>${E(w.t)}</td><td>${E(w.what)} <b>${E(w.sym)}</b><div class=m>${E(w.why)}</div></td></tr>`).join('')||'<tr><td class=m>Nothing yet</td></tr>'}
  $('tr').innerHTML=(d.trades||[]).map(t=>`<tr><td class=m>${E(t.t)}</td><td>${E(t.ev)} ${E(t.sym)}<div class=m>${E(t.detail)}</div></td></tr>`).join('')||'<tr><td class=m>None yet</td></tr>'}
+const SC={bh_spy:'#8b949e',trend200:'#58a6ff',rot6:'#3fb950',rsi2:'#d29922'},sg=x=>(x>=0?'+':'')+(+x).toFixed(2),tg=t=>Object.keys(t||{}).length?Object.entries(t).map(([s,w])=>E(s)+' '+Math.round(w*100)+'%').join(', '):'Cash';
+function drawStk(d){const n=d.books.length,st=d.start*n,p=st?(d.equity/st-1)*100:0;$('run').textContent=d.run+' · '+n+' books × $'+d.start;$('eq').textContent='$'+d.equity.toFixed(2);
+ $('pct').innerHTML=`<span class="${p>=0?'g':'r'}">${sg(p)}%</span> <span class=m>all books combined</span>`;
+ const age=Date.now()/1000-(d.hb||0),ok=d.hb&&age<4*86400;$('dot').style.background=d.halted?'#d29922':ok?'#3fb950':'#f85149';
+ $('alive').textContent=(d.halted?'Halted':ok?'Running':'Stale')+' · signals 4:30 PM ET, fills 9:35 AM ET';
+ const c=d.curve||[];if(c.length>1){const all=c.flatMap(r=>Object.values(r[1])),lo=Math.min(...all),hi=Math.max(...all),r=hi-lo||1,Y=y=>115-(y-lo)/r*110;
+  $('ssp').innerHTML=d.books.map(b=>`<polyline fill="none" stroke="${SC[b.k]||'#e6edf3'}" stroke-width="2" vector-effect="non-scaling-stroke" points="${c.map((q,i)=>(i*300/(c.length-1)).toFixed(1)+','+Y(q[1][b.k]??d.start).toFixed(1)).join(' ')}"/>`).join('');
+  $('slg').innerHTML=c[0][0]+' → '+c[c.length-1][0]+' (daily closes)'}else{$('ssp').innerHTML='<text x="150" y="64" text-anchor="middle" fill="#8b949e" font-size="11">Chart starts after the 2nd daily close</text>';$('slg').innerHTML=''}
+ $('slg').innerHTML+='<div>'+d.books.map(b=>`<span style="white-space:nowrap;margin-right:10px"><span class="dot" style="background:${SC[b.k]}"></span>${E(b.name)}</span>`).join('')+'</div>';
+ $('sbk').innerHTML=d.books.map(b=>`<div class="card"><div class="bk"><div class="bn"><span class="dot" style="background:${SC[b.k]}"></span>${E(b.name)}${b.halted?'<span class="pill y">Halted</span>':''}</div><div class="be">$${b.equity.toFixed(2)}</div></div>
+  <div class="bk"><span class="${b.pct>=0?'g':'r'}">${sg(b.pct)}%</span><span class="m">${b.k=='bh_spy'?'benchmark':`vs SPY <span class="${b.vs_spy>=0?'g':'r'}">${sg(b.vs_spy)} pts</span>`}</span></div>
+  <table style="margin-top:6px">${(b.holdings||[]).map(h=>`<tr><td>${E(h.sym)}</td><td class=m>${h.shares} sh</td><td>${h.value!=null?'$'+h.value.toFixed(2):''}</td></tr>`).join('')||'<tr><td class=m>All cash</td><td></td><td>$'+b.cash.toFixed(2)+'</td></tr>'}${b.holdings&&b.holdings.length&&b.cash>=0.01?`<tr><td class=m>Cash</td><td></td><td>$${b.cash.toFixed(2)}</td></tr>`:''}</table>
+  <div class="m" style="margin-top:6px">Signal (${E(d.signal_date||'—')} close): <b style="color:#e6edf3">${tg(b.target)}</b> · ${b.trade?(d.filled?'filled '+E(d.filled):'trades next open'):'hold'}${b.divs>0?' · dividends $'+b.divs.toFixed(2):''} · ${b.trades} trades</div></div>`).join('');
+ $('str').innerHTML=(d.trades||[]).map(t=>`<tr><td class=m>${E(t.t)}</td><td>${E(t.ev)} ${E(t.sym)}<div class=m>${E(t.book)} · ${E(t.detail)}</div></td></tr>`).join('')||'<tr><td class=m>None yet</td></tr>'}
 function tip(ev){if(SP.length<2||!SY)return;const sv=$('sp'),b=sv.getBoundingClientRect(),x=Math.min(Math.max(ev.clientX-b.left,0),b.width),i=Math.round(x/b.width*(SP.length-1)),p=SP[i],px=i*300/(SP.length-1);
  $('cx').setAttribute('x1',px);$('cx').setAttribute('x2',px);$('cx').setAttribute('visibility','visible');const c=$('cd');c.setAttribute('cx',px);c.setAttribute('cy',SY(p[1]));c.setAttribute('visibility','visible');
  const pr=p[1]-SS,pc=SS?pr/SS*100:0,s=pr>=0?'+':'-',t=$('tip');
