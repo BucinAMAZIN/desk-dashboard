@@ -1,545 +1,167 @@
 {
- "generated": 1792401621.0594232,
+ "generated": 1792401710.3490546,
  "today": {
-  "title": "Oct 18 placed bets (Hard Rock)",
+  "title": "Oct 19 placed bets (Hard Rock)",
   "tickets": [
    {
     "name": "POTD",
-    "desc": "Charlie Coyle u1.5 SOG -105, $3.00, pays $5.86 (CBJ @ MIN 6:00 PM ET) — Lost (2 SOG; CBJ 1, MIN 2)",
-    "odds": "-105",
-    "stake": "$3.00",
-    "payout": "$5.86",
-    "status": "—",
-    "game": "CBJ @ MIN 6:00 PM ET",
+    "desc": "Philadelphia Flyers Under 2.5 Team Total -115, $2.50, pays $4.67 (COL @ PHI 7:00 PM ET)",
+    "odds": "-115",
+    "stake": "$2.50",
+    "payout": "$4.67",
+    "status": "Pending",
+    "game": "COL @ PHI 7:00 PM ET",
     "legs": [],
-    "why": "Coyle has 1 or fewer shots in 5 of 6 games this season (1,1,1,7,1,0, newest first) on 15-24 minutes, and he stayed under 1.5 in 44 of 82 games last season, so this isn't a streak-only read. His 1.83 average is inflated by one 7-shot game on Oct 9. Columbus is on the second night of a back-to-back (beat the Rangers 1-0 in OT Saturday, Coyle had 1 shot in 21 minutes) and plays on the road at Minnesota, which allows 26.8 shots per game. Columbus has no one on the ESPN injury report, so his role isn't growing. Hit rates come from NHL API game logs; LineMate is app-only and can't be read here. Record check: NHL SOG is our strongest prop type (14-5 on graded legs). NHL SOG unders are only 1-2 in our record, too small a sample to weigh. Price is Hard Rock's -105 (Over 1.5 is -125) from the 6:19 AM ET feed pull. Stake is 5% of the $62.54 bankroll ($3.13), rounded to $3.00.",
-    "pick": "Charlie Coyle u1.5 SOG",
-    "now": "-115",
-    "why_not": "He can spike (7 shots on Oct 9)."
+    "why": "Philadelphia has scored 2 or fewer goals in 9 of 10 games this season (0, 2, 2, 1, 1, 1, 1, 2, 1, 3, oldest first). Its 1.40 goals per game are the fewest in the NHL, it takes the second-fewest shots (21.2 per game), and its power play is at 10.3% (NHL stats API). ESPN lists three of its forwards as day-to-day: Tyson Foerster and Owen Tippett (its top two shooters, with 22 and 21 shots) and Sean Couturier. Colorado (5-2-1) outshoots teams 30.8 to 26.0 per game, so Philly should spend most of the night in its own end. Philly's three overtime or shootout games all ended with 2 goals for. Neither team is on a back-to-back (COL last played Oct 16, PHI Oct 17). Record check: NHL team totals are 2-0 across our sport picks and runners-up, too few to lean on. NHL is our strongest sport (NHL SOG 14-6). Hard Rock's -115 (Over 2.5 is -105, from the 1:16 AM ET feed pull) implies 53.5%, while Philly has stayed at 2 or fewer in 9 of 10. The stake is 5% of the $46.54 bankroll ($2.33), rounded to $2.50.",
+    "pick": "Philadelphia Flyers Under 2.5 Team Total",
+    "why_not": "Colorado's goalies have been shaky (Blackwood .891, Wedgewood .902), and the Avs have allowed 3 or more goals in 4 of 8 games. Philly scored 3 in its last game, and a 1.40 scoring rate is likely to climb over time."
    },
    {
     "name": "+100 ticket",
-    "desc": "2-leg +102, $3.00, pays $6.07 — Won (Blake 2 SOG, Boldy 6 SOG; placed on Hard Rock as 2-leg -110 $5, paid $9.55)",
-    "odds": "+102",
-    "stake": "$3.00",
-    "payout": "$6.07",
-    "status": "—",
+    "desc": "3-leg +105, $2.50, pays $5.12",
+    "odds": "+105",
+    "stake": "$2.50",
+    "payout": "$5.12",
+    "status": "Pending",
     "game": "",
     "legs": [
      {
-      "pick": "Jackson Blake o1.5 SOG",
-      "odds": "-225",
-      "game": "CAR @ CGY 8:00 PM ET",
-      "status": "Won",
-      "why": "Blake has 2+ shots in 8 of 9 games this season (4,1,4,2,5,2,2,3,2, newest first; 2.78 average) on 16-22 minutes. Carolina is without Taylor Hall, Seth Jarvis and Jordan Staal (ESPN injuries), so his top-six minutes are safe. CAR leads the league at 32.8 shots per game, and Calgary allows 28.7, is 1-6, and has a goalie (Wolf) at an .834 save percentage. Last season he went 2+ in 46 of 81 (57%), so this leans on his bigger role this year. This is Hard Rock's \"2+ shots\" alt at -225; the main line is o2.5 at +130.",
-      "now": "-325",
-      "why_not": "CAR is on a back-to-back after winning 3-2 at Winnipeg Saturday (Blake had 4 shots in 20 minutes)."
+      "pick": "Nazem Kadri o1.5 SOG",
+      "odds": "-300",
+      "game": "COL @ PHI 7:00 PM ET",
+      "status": "Pending",
+      "why": "Kadri has 2+ shots in all 8 games this season (4, 2, 3, 3, 2, 4, 4, 2, newest first; 3.0 average) on 17-24 minutes, and he did it in 62 of 77 games last season (81%). Philadelphia allows the most shots in the NHL (32.9 per game) and has three forwards day-to-day, so Colorado should have the puck a lot. This is Hard Rock's \"2+ shots\" alt at -300; the main line is o2.5 at -105. NHL SOG is our best prop type (14-6).",
+      "why_not": "He has 0 goals on 24 shots, so a line shuffle could trim his minutes, and Colorado may coast if it builds a big lead."
      },
      {
-      "pick": "Matt Boldy o2.5 SOG",
-      "odds": "-250",
-      "game": "CBJ @ MIN 6:00 PM ET",
-      "status": "Won",
-      "why": "Boldy has 3+ shots in 7 of 8 games this season (8,1,3,4,3,7,4,5; 4.38 average) on 18-25 minutes, and 48 of 76 last season (63%). Columbus is on a road back-to-back, allows 27.2 shots per game, and will likely start backup Cam Talbot (.822) since Greaves played Saturday. This is Hard Rock's \"3+ shots\" alt at -250; the main line is o3.5 at -105. Combined price: 1.444 x 1.400 = 2.02 (+102). Separate games, so it's not a same-game parlay. NHL SOG is our best prop type (14-5).",
-      "now": "-300",
-      "why_not": "His 1-shot game on Oct 13."
+      "pick": "Guardians F5 Under 2.5 Team Runs",
+      "odds": "-325",
+      "game": "CLE @ TB 8:08 PM ET",
+      "status": "Pending",
+      "why": "Cleveland scored 0, 0, 3, 1 and 0 runs through five innings in the five ALCS games, so this cashed in 4 of 5. Freddy Peralta threw six scoreless innings against them in Game 2. He has a 0.79 postseason ERA over 11.1 innings and a 3.25 ERA with a 1.01 WHIP since joining Tampa (MLB StatsAPI). MLB.com notes a 0.99 ERA in his five home starts since late August. Savant batter-vs-pitcher for current Guardians against Peralta: Kwan 2-for-13, Ramírez 3-for-9 with 4 walks, Rocchio 0-for-4, Adell 0-for-3, Lowe 0-for-3, DeLauter 0-for-2, Bazzana 1-for-3, and no home runs. Cleveland ranked 24th of 30 in runs this season (.696 OPS, .706 against righties). Tropicana Field is a dome, so weather isn't a factor. Peralta's start is confirmed (Tampa Bay Times via RotoWire). Lineups aren't posted yet. MLB F5 team totals are 4-0 in our records.",
+      "why_not": "Peralta threw 9 relief pitches in Game 4 on Saturday, so his early command could be off, and Ramírez has walked 4 times against him."
+     },
+     {
+      "pick": "Dylan Guenther o1.5 SOG",
+      "odds": "-575",
+      "game": "PIT @ UTA 9:00 PM ET",
+      "status": "Pending",
+      "why": "Guenther has 2+ shots in 8 of 9 games this season (2, 2, 2, 5, 0, 5, 2, 5, 5, newest first) and did it in 64 of 79 games last season (81%). He plays 15-19 minutes, including time on Utah's 35.3% power play. Utah averages 30.2 shots per game, and Pittsburgh allows 27.7. This is Hard Rock's \"2+ shots\" alt at -575; the main line is o3.5 at +125. Combined price: 1.333 x 1.308 x 1.174 = 2.047 (+105). All three legs come from different games.",
+      "why_not": "He had a 0-shot game on Oct 8, and at -575 this leg adds little payout for that risk."
      }
     ],
     "why": null,
-    "pick": "2-leg +102",
-    "why_not": "Both legs must hit: Carolina is on a back-to-back, and Boldy had a 1-shot game on Oct 13."
+    "pick": "3-leg +105",
+    "why_not": "All three legs must hit. Guenther had a 0-shot game on Oct 8, and one crooked number from Cleveland in the first five innings sinks the MLB leg."
    }
   ],
   "runners_up": [
    {
-    "pick": "Tampa Bay Rays +1.5",
-    "odds": "-325",
-    "game": "TB @ CLE 5:08 PM ET",
-    "why": "TB is the -130 moneyline favorite, so +1.5 loses only if Cleveland wins by 2 or more. Drew Rasmussen (2.67 ERA, 0.91 WHIP, .543 OPS allowed in 172 innings; 14 playoff innings with 2 earned runs) faces Parker Messick, who has been pulled early in all three of his playoff starts (4.1, 2.1 and 5.0 innings). Savant batter-vs-pitcher against Rasmussen (career incl. playoffs, all small samples): Kwan 5-for-15 (xBA .288), Ramírez 2-for-15 (.099), Rocchio 1-for-12 (.140), DeLauter 4-for-7 with a HR (.405), Adell 0-for-7, Lowe 2-for-6, Bazzana 1-for-8. Series margins have been CLE by 4, TB by 2, CLE by 1 and TB by 4, so +1.5 covered 3 of 4. Weather at Progressive Field (Open-Meteo): about 60°F at first pitch, falling to the low 50s, wind 9 mph from the south-southwest, 0% rain. Lineups aren't posted yet (pre-lock).",
+    "pick": "Nazem Kadri o2.5 SOG",
+    "odds": "-105",
+    "game": "COL @ PHI 7:00 PM ET",
+    "why": "He has 3+ shots in 5 of 8 games this season (3.0 average, 17-24 minutes) and 40 of 77 last season (52%). Philadelphia allows the most shots in the league (32.9 per game) and is missing three day-to-day forwards. Hard Rock -105 (Under -125). NHL SOG is our best prop type (14-6).",
     "grade": "A-",
     "rank": 1,
-    "status": "Won",
-    "stat": "TB 3-1 CLE",
-    "now": "-325",
-    "why_not": "CLE beat Rasmussen 7-3 in Game 1 after the bullpen gave up 5."
+    "why_not": "He hit 3+ in only about half his games last season, and he's had exactly 2 shots in 3 of 8 games this year.",
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "pick": "Joel Eriksson Ek o1.5 SOG",
-    "odds": "-400",
-    "game": "CBJ @ MIN 6:00 PM ET",
-    "why": "Eriksson Ek has 2+ shots in 7 of 8 games this season (3,3,3,3,6,0,2,3) and 56 of 70 last season (80%) on 18-23 minutes. Columbus is on a road back-to-back and allows 27.2 shots per game. Hard Rock \"2+ shots\" alt.",
+    "pick": "San Francisco 49ers Over 23.5 Team Total",
+    "odds": "-450",
+    "game": "WSH @ SF 8:15 PM ET",
+    "why": "SF (5-0) has scored 27, 35, 36, 24 and 32 (30.8 average, over 23.5 every game). Washington (1-3-1) has allowed 24, 37, 31, 30 and 27 (29.8 average, 24 or more every game). The -7.5 spread and 52.5 total point to SF scoring around 30. It's a Monday night home game at Levi's Stadium, 66°F with gusts to 18 mph and no rain in the forecast (ESPN/AccuWeather). This is Hard Rock's alt team total; the main SF line is 29.5.",
     "grade": "A-",
     "rank": 2,
-    "status": "Won",
-    "stat": "2 SOG",
-    "now": "-475",
-    "why_not": "The 0-shot game on Oct 6."
+    "why_not": "SF scored exactly 24 against Denver, so one stalled game is enough to miss. Christian Kirk is on IR, and a capper reports Mike Evans might sit, though ESPN doesn't list him.",
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "pick": "Minnesota Wild ML",
-    "odds": "-185",
-    "game": "CBJ @ MIN 6:00 PM ET",
-    "why": "MIN is 5-2-1 and 3-0 at home, with Wallstedt confirmed in goal (.921, 2.13 GAA; DailyFaceoff). Columbus played Saturday (Greaves made 29 saves in a 1-0 OT win), so backup Cam Talbot (.822 in 2 games) likely starts, though that isn't confirmed. CBJ allows 3.5 goals per game with a 66.7% penalty kill, against MIN's 33.3% power play. The moneyline counts overtime.",
+    "pick": "Jack Roslovic o1.5 SOG",
+    "odds": "-210",
+    "game": "SJ @ TOR 7:30 PM ET",
+    "why": "He has 2+ shots in all 9 games this season (5, 5, 2, 5, 3, 4, 2, 2, 2, newest first; 3.3 average) on 15-19 minutes. Toronto has Tavares, Domi, Joshua and Wood on IR, which keeps him in the top six. San Jose allows 27.5 shots per game. He hit 5 shots as our Oct 17 runner-up. This is Hard Rock's \"2+ shots\" alt; the main line is o2.5 at +140.",
     "grade": "B+",
     "rank": 3,
-    "status": "Won",
-    "stat": "CBJ 1-2 MIN",
-    "now": "-185",
-    "why_not": "MIN is missing defensemen Spurgeon, Faber and Maatta."
+    "why_not": "He went 2+ in only 45 of 69 games last season (65%), well below this year's pace, and he plays under 20 minutes.",
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "pick": "Carolina Hurricanes ML",
-    "odds": "-200",
-    "game": "CAR @ CGY 8:00 PM ET",
-    "why": "CAR is 7-1-1 with seven straight wins (5-0 on the road), allows 2.33 goals and a league-low 21.7 shots per game. Calgary is 1-6 (0-3 at home), scoring 2.0 and allowing 5.0 per game, and Wolf has an .834 save percentage. Graded down because CAR is on a back-to-back after Kochetkov started Saturday, so Brandon Bussi (.871) likely starts (DailyFaceoff still shows Kochetkov, unconfirmed), and Hall, Jarvis and Staal are out. The capper NHL ML picks we track are 2-6, so I only took this one because of the huge talent gap.",
-    "grade": "B",
+    "pick": "Tampa Bay Rays +1.5",
+    "odds": "-250",
+    "game": "CLE @ TB 8:08 PM ET",
+    "why": "TB is the -145 home favorite, so +1.5 loses only if Cleveland wins by 2 or more. Series margins have been CLE by 4, TB by 2, CLE by 1, TB by 4 and TB by 2, so it covered 4 of 5. Peralta (0.79 postseason ERA, six scoreless innings against CLE in Game 2) faces a Cleveland bullpen game: Gavin Williams is unavailable, and Vogt named Cantillo, Bibee or an Armstrong opener. The game is in a dome. Alt run lines are 3-0 in our records.",
+    "grade": "B+",
     "rank": 4,
-    "why_not": "Carolina is on a back-to-back with backup Bussi (.871) likely in goal, and Hall, Jarvis and Staal are out.",
-    "status": "Lost",
-    "stat": "CAR 2-3 CGY",
-    "now": "-175"
+    "why_not": "Cleveland won Game 1 7-3, and Tampa's own bullpen still has to cover the late innings.",
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "pick": "Blue Jackets @ Wild Under 6.5",
-    "odds": "-120",
-    "game": "CBJ @ MIN 6:00 PM ET",
-    "why": "Replaces Kaprizov u3.5 SOG at the noon lock: that price moved from -120 to -145, out of the -105 to -130 band, and at -145 (59% implied) it no longer had an edge. Minnesota's games have gone 6 or fewer goals in 6 of 8 this season, and Columbus's in 3 of 6 (9 of 14 combined, 64%) against the 54.5% that -120 implies. Wallstedt is confirmed for MIN (.920), and Columbus is on a road back-to-back after a 1-0 OT win Saturday. Hard Rock -120 (10:58 AM ET pull).",
-    "grade": "B-",
+    "pick": "Guardians Under 3.5 Team Runs",
+    "odds": "-180",
+    "game": "CLE @ TB 8:08 PM ET",
+    "why": "Cleveland scored 7, 1, 3, 3 and 1 in the series (under 3.5 in 4 of 5) and ranked 24th in MLB in runs this season (4.19 per game). Savant shows the current Guardians with no home runs against Peralta (Kwan 2-for-13, Rocchio 0-for-4, Adell 0-for-3). Hard Rock -180 (Over 3.5 +130). The game is in a dome. Runners-up note: only 5 plays cleared the bar. Hitter props wait for confirmed lineups (top-5 rule). K, outs and hits-allowed props are off in the playoffs. Rachaad White's model unders are stale because Jacory Croskey-Merritt is reportedly out. Diggs is questionable. Capper ideas checked: Dr. Profit's CMC receptions ladder didn't confirm (he went under 4.5 in 4 of 5 games this season), and Austin's White o12.5 rec yds depends on the same unconfirmed backfield change.",
+    "grade": "B",
     "rank": 5,
-    "why_not": "Columbus will likely start Talbot (.822, still unconfirmed), and its 66.7% penalty kill faces Minnesota's 33.3% power play, so a 7-goal game is very possible.",
-    "status": "Won",
-    "stat": "total 3"
+    "why_not": "Cleveland scored 7 in Game 1, and the late innings against Tampa's bullpen count here too.",
+    "status": "Pending",
+    "stat": "—"
    }
   ],
   "ncaaf": [],
   "sports": {
    "ALL": {
     "potd": {
-     "pick": "Charlie Coyle u1.5 SOG",
-     "odds": "-105",
-     "game": "CBJ @ MIN 6:00 PM ET",
-     "status": "Lost",
-     "why": "This was the best -105 to -130 play across today's sports with picks (MLB, NHL, NFL, NASCAR); it's the same play as the main POTD. He has 1 or fewer shots in 5 of 6 games this season and in 44 of 82 last season, and Columbus is on a road back-to-back at Minnesota (26.8 shots allowed per game). Hard Rock -105 (6:19 AM ET pull).",
-     "desc": "Charlie Coyle u1.5 SOG -105 (CBJ @ MIN 6:00 PM ET)",
-     "why_not": "He had 7 shots on Oct 9, so one big night beats it, and he went over 1.5 in 38 of 82 games last season.",
-     "now": "-115"
+     "pick": "Philadelphia Flyers Under 2.5 Team Total",
+     "odds": "-115",
+     "game": "COL @ PHI 7:00 PM ET",
+     "status": "Pending",
+     "why": "This was the best play priced -105 to -130 across today's eight-sport slate (NHL, MLB, NFL, WNBA; no NCAA F, NASCAR or golf today), the same play as the main POTD. Philly has scored 2 or fewer in 9 of 10 games, with the NHL's fewest goals (1.40) and second-fewest shots (21.2). Three of its forwards are day-to-day, and Colorado outshoots teams 30.8 to 26.0. Hard Rock -115 (1:16 AM ET pull).",
+     "desc": "Philadelphia Flyers Under 2.5 Team Total -115 (COL @ PHI 7:00 PM ET)",
+     "why_not": "Colorado's goalies are below .905, and the Avs have allowed 3+ goals in 4 of 8 games."
     },
-    "parlay": null,
-    "parlay_done": {
-     "n": 1,
-     "status": "Won",
-     "odds": "+111",
-     "note": "Parlay +100 Won (+111) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-4 legs graded B or better at +100 to +125; one leg per game, or a same-game parlay when only one unstarted game is left)."
-    }
-   },
-   "MLB": {
-    "potd": {
-     "pick": "Tampa Bay Rays ML",
-     "odds": "-130",
-     "game": "TB @ CLE 5:08 PM ET · in band at selection, drifted to -135 later, stays live at -130",
-     "status": "Won",
-     "why": "ALCS Game 5, tied 2-2, and the only MLB game today. TB has the better starter: Drew Rasmussen (2.67 ERA, 0.91 WHIP, .543 OPS allowed; 8 one-hit innings vs NYY and 6 innings with 2 earned runs vs CLE this postseason). Parker Messick (2.56 ERA in the regular season) has been pulled early in all three playoff starts (4.1, 2.1 and 5.0 innings), so Cleveland's bullpen has to cover a lot of innings. Savant BvP against Rasmussen (career incl. playoffs, small samples): Kwan 5-for-15 (xBA .288), Ramírez 2-for-15 (.099), Rocchio 1-for-12, DeLauter 4-for-7 with 1 HR, Adell 0-for-7, Lowe 2-for-6, Bazzana 1-for-8. TB against Messick: no HRs in 97 combined plate appearances (Díaz 3-for-14, Caminero 2-for-14, Simpson 4-for-13). Weather at Progressive Field (Open-Meteo): about 60°F at first pitch, cooling to the low 50s, wind 9 mph from the SSW, 0% rain. Lineups aren't posted yet, so this stays pre-lock and gets rechecked when they are. Hard Rock -130 (6:19 AM ET pull). No MLB parlay: it's a one-game slate, and I won't build a same-game parlay without a Hard Rock SGP price. Runners-up note: only 6 MLB runners-up met the bar today (1 +EV, 5 Quality). Hitter props wait for confirmed lineups (top-5 rule), K and outs props are off in the playoffs, and nothing else priced -105 to -130 had a real edge.",
-     "desc": "Tampa Bay Rays ML -130 (TB @ CLE 5:08 PM ET · in band at selection, drifted to -135 later, stays live at -130)",
-     "now": "-135",
-     "why_not": "TB hits only .679 OPS against lefties (vs .752 against righties), and CLE has home field."
-    },
-    "parlay": null,
-    "runners_up": [
-     {
-      "pick": "(+EV) Tampa Bay Rays F5 -0.5",
-      "odds": "+110",
-      "game": "TB @ CLE 5:08 PM ET",
-      "status": "Won",
-      "why": "Best value on the board: the same starter edge as the POTD over five innings at plus money (+110 implies 48%). TB has led after five in 2 of 4 series games. Messick's early hooks put CLE's bullpen in the 4th or 5th. About 60°F, SSW wind 9 mph, 0% rain. Lineups are pending.",
-      "grade": "C+",
-      "rank": 1,
-      "why_not": "A tie after five loses, and TB hits .679 OPS against lefties."
-     },
-     {
-      "pick": "(Quality) Tampa Bay Rays F5 +1.5",
-      "odds": "-450",
-      "game": "TB @ CLE 5:08 PM ET",
-      "status": "Won",
-      "why": "Loses only if Cleveland leads by 2+ after five innings, which hasn't happened in this series (CLE's best was 3-2 in Game 3). Cleveland managed 0 runs in five innings against Rasmussen in Game 1, and Savant BvP has the core well below .200 xBA except Kwan and DeLauter. Weather is fine (60°F, 0% rain). Lineups are pending.",
-      "grade": "A-",
-      "rank": 2,
-      "why_not": "Messick's early hook brings in Cleveland's bullpen, and Kwan and DeLauter have hit Rasmussen well."
-     },
-     {
-      "pick": "(Quality) Tampa Bay Rays +1.5",
-      "odds": "-325",
-      "game": "TB @ CLE 5:08 PM ET",
-      "status": "Won",
-      "why": "TB is the -130 favorite, so this loses only on a Cleveland win by 2+. It covered 3 of 4 series games. Rasmussen against Messick's short starts favors TB. 60°F, SSW wind 9 mph, 0% rain.",
-      "grade": "A-",
-      "rank": 3,
-      "now": "-325",
-      "why_not": "CLE's 7-3 Game 1 win came off TB's bullpen."
-     },
-     {
-      "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
-      "odds": "-375",
-      "game": "TB @ CLE 5:08 PM ET",
-      "status": "Won",
-      "why": "Cleveland has scored 0, 0, 3 and 1 in the series' first fives (under in 3 of 4) and was shut out through five against Rasmussen in Game 1. Rasmussen allows a .568 OPS to lefties, and CLE's lineup leans left. 60°F, 0% rain.",
-      "grade": "B+",
-      "rank": 4,
-      "why_not": "DeLauter (4-for-7, 1 HR vs Rasmussen)."
-     },
-     {
-      "pick": "(Quality) Tampa Bay Rays F5 +0.5",
-      "odds": "-220",
-      "game": "TB @ CLE 5:08 PM ET",
-      "status": "Won",
-      "why": "Wins if TB is tied or ahead after five, which happened in 3 of 4 series games (2-0, 3-0, 1-1; lost 2-3 in Game 3). It's the starter edge without needing a lead. 60°F, 0% rain. Lineups are pending.",
-      "grade": "B",
-      "rank": 5,
-      "why_not": "Cleveland led after five in Game 3 (3-2), and any deficit after five loses it.",
-      "now": "-210"
-     },
-     {
-      "pick": "(Quality) F5 Total Under 4.5",
-      "odds": "-260",
-      "game": "TB @ CLE 5:08 PM ET",
-      "status": "Won",
-      "why": "First-five totals in this series: 2, 3, 5 and 2 (under in 3 of 4). Two strong starters (Rasmussen .91 WHIP, Messick 1.06), and Savant shows no HRs by TB's hitters against Messick in 97 plate appearances. Graded down because Messick's early hook means CLE's middle relief may pitch the 4th and 5th. 60°F, wind 9 mph from the SSW.",
-      "grade": "B-",
-      "rank": 6,
-      "why_not": "Game 3 had 5 runs in the first five, and Messick's early hook can bring weaker relievers in by the 4th."
-     }
-    ]
-   },
-   "NHL": {
-    "potd": {
-     "pick": "Charlie Coyle u1.5 SOG",
-     "odds": "-105",
-     "game": "CBJ @ MIN 6:00 PM ET",
-     "status": "Lost",
-     "why": "Same play as the main POTD: 1 or fewer shots in 5 of 6 games this season (1,1,1,7,1,0) and in 44 of 82 last season. Columbus is on a road back-to-back at Minnesota (26.8 shots allowed per game). NHL API game logs; Hard Rock -105 (6:19 AM ET pull). Runners-up note: only 7 NHL runners-up met the bar today. With two games, just 1 of the 4 -105 to -130 slots had a real edge. Noon lock (Sun 11:10 AM ET): NHL picks are final. DailyFaceoff has Bussi confirmed for Carolina and Wallstedt confirmed for Minnesota; Talbot (CBJ) is still unconfirmed, and Calgary's projected starter is now Devin Cooley (.818, unconfirmed) rather than Wolf. ESPN's injury report has no new scratches for any of our players, and all of them are in DailyFaceoff's lines (Coyle is on Columbus's top power play, a risk for the locked POTD). One swap: Kaprizov u3.5 SOG (now -145, no edge) became Blue Jackets @ Wild Under 6.5 -120. No NBA or WNBA games today.",
-     "desc": "Charlie Coyle u1.5 SOG -105 (CBJ @ MIN 6:00 PM ET)",
-     "now": "-115",
-     "why_not": "The 7-shot spike on Oct 9."
-    },
-    "parlay": null,
-    "runners_up": [
-     {
-      "pick": "(+EV) Minnesota Wild -1.5",
-      "odds": "+130",
-      "game": "CBJ @ MIN 6:00 PM ET",
-      "status": "Lost",
-      "why": "Best value: 4 of MIN's 5 regulation wins came by 2+, and all three Columbus losses were by 2+ (1-4, 3-5, 3-7). A tired CBJ team with its backup goalie likely in net, plus MIN's 33.3% power play, gives this a real shot at +130 (43% implied). Empty-net goals help.",
-      "grade": "B-",
-      "rank": 1,
-      "why_not": "A one-goal game."
-     },
-     {
-      "pick": "Blue Jackets @ Wild Under 6.5",
-      "odds": "-120",
-      "game": "CBJ @ MIN 6:00 PM ET",
-      "status": "Won",
-      "why": "Replaces Kaprizov u3.5 SOG at the noon lock: that price moved from -120 to -145, out of the -105 to -130 band, and at -145 (59% implied) it no longer had an edge. Minnesota's games have gone 6 or fewer goals in 6 of 8 this season, and Columbus's in 3 of 6 (9 of 14 combined, 64%) against the 54.5% that -120 implies. Wallstedt is confirmed for MIN (.920), and Columbus is on a road back-to-back after a 1-0 OT win Saturday. Hard Rock -120 (10:58 AM ET pull).",
-      "grade": "B-",
-      "rank": 2,
-      "why_not": "Columbus will likely start Talbot (.822, still unconfirmed), and its 66.7% penalty kill faces Minnesota's 33.3% power play, so a 7-goal game is very possible."
-     },
-     {
-      "pick": "(Quality) Joel Eriksson Ek o1.5 SOG",
-      "odds": "-400",
-      "game": "CBJ @ MIN 6:00 PM ET",
-      "status": "Won",
-      "why": "2+ shots in 7 of 8 games this season and 56 of 70 last season (80%) on 18-23 minutes; CBJ is on a road back-to-back.",
-      "grade": "A-",
-      "rank": 3,
-      "why_not": "He had a 0-shot game on Oct 6, so a quiet night can happen even against a tired team.",
-      "now": "-475"
-     },
-     {
-      "pick": "(Quality) Jackson Blake o1.5 SOG",
-      "odds": "-225",
-      "game": "CAR @ CGY 8:00 PM ET",
-      "status": "Won",
-      "why": "2+ shots in 8 of 9 games (2.78 average). Hall, Jarvis and Staal are out, and Calgary allows 28.7 shots per game. Also a +100 ticket leg.",
-      "grade": "B+",
-      "rank": 4,
-      "now": "-325",
-      "why_not": "CAR's back-to-back."
-     },
-     {
-      "pick": "(Quality) Matt Boldy o2.5 SOG",
-      "odds": "-250",
-      "game": "CBJ @ MIN 6:00 PM ET",
-      "status": "Won",
-      "why": "3+ shots in 7 of 8 games this season (4.38 average) and 48 of 76 last season (63%); CBJ is tired and allows 27.2 shots per game. Also a +100 ticket leg.",
-      "grade": "B+",
-      "rank": 5,
-      "why_not": "He had a 1-shot game on Oct 13, and last season he hit 3+ in only 48 of 76 games.",
-      "now": "-300"
-     },
-     {
-      "pick": "(Quality) Adam Fantilli o1.5 SOG",
-      "odds": "-260",
-      "game": "CBJ @ MIN 6:00 PM ET",
-      "status": "Won",
-      "why": "2+ shots in 5 of 6 games this season (5,2,4,3,1,2) on 17-24 minutes and 57 of 82 last season (70%).",
-      "grade": "B-",
-      "rank": 6,
-      "now": "-260",
-      "why_not": "Columbus on a road back-to-back."
-     },
-     {
-      "pick": "(Quality) Nikolaj Ehlers u2.5 SOG",
-      "odds": "-160",
-      "game": "CAR @ CGY 8:00 PM ET",
-      "status": "Lost",
-      "why": "2 or fewer shots in 7 of 9 games this season (1,1,3,1,1,2,1,4,2) on 11-20 minutes and 47 of 82 last season (57%), against 62% implied.",
-      "grade": "B-",
-      "rank": 7,
-      "now": "-135",
-      "why_not": "More power-play time with Hall and Jarvis out."
-     }
-    ],
-    "parlay_done": {
-     "n": 1,
-     "status": "Lost",
-     "odds": "+131",
-     "note": "Parlay +100 Lost (+131) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-4 legs graded B or better at +100 to +125; one leg per game, or a same-game parlay when only one unstarted game is left)."
-    }
-   },
-   "NASCAR": {
-    "potd": {
-     "pick": "William Byron Top 10",
-     "odds": "-130",
-     "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-     "status": "Lost",
-     "why": "Grade B. Byron starts P10 in the confirmed lineup. Across the 9 Next Gen Phoenix races he has the best average running position in the field (5.6) and the second-best driver rating (109.0, behind Blaney's 114.4), with 6 top-10s in 9 starts (67%), 1 win and a 10.7 average finish. His last three Phoenix finishes are 7, 33 and 6. Hard Rock -130 implies 56.5%, below his 67% Phoenix top-10 rate. Our Top 10 box also projects him inside the top 10 (9th). It's the only -115 to -130 play with a real edge: Ty Gibbs Top 10 -130 is the other one (see runners-up), and no Top 5 price falls in that range. Locked Sat Oct 17 9:36 PM ET off the live Hard Rock lines seen at 9:31 PM ET (hr-lines/nascar-phoenix-hr-live-2131.md). This replaces the earlier Larson-over-Briscoe H2H POTD: Hard Rock pulled that price and doesn't offer H2H for this race. Only \"now X\" price markers change from here.",
-     "desc": "William Byron Top 10 -130 (Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET)",
-     "why_not": "His recent form is poor (NASCAR qualifying-order metric 31.2, the worst among the contenders), he wasn't in the practice top 5, and the 33rd last fall shows a wreck or pit problem can sink this."
-    },
-    "parlay": null,
-    "runners_up": [
-     {
-      "pick": "Joey Logano Top 5",
-      "odds": "-105",
-      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-      "status": "Lost",
-      "why": "Starts on the front row (P2) and was 3rd in practice. He won 2 Next Gen Phoenix races, but only 3 of 9 were top-5s (avg finish 13.4, avg running 11.1), and his last three here are 31, 4 and 13. -105 implies 51%. Track position plus practice speed make it playable, but his history says it's close to fair. Shortfall: only 2 of the 4 -105 to -130 slots are filled. Hard Rock's only other prices in that range are Byron Top 10 -130 (our POTD) and this race has no H2H; Top 3 prices weren't captured. Locked 9:36 PM ET.",
-      "grade": "C+",
-      "rank": 1,
-      "why_not": "Only 3 of his 9 Next Gen Phoenix races were top-5s, and he finished 31st here in March."
-     },
-     {
-      "pick": "Ty Gibbs Top 10",
-      "odds": "-130",
-      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-      "status": "Won",
-      "why": "Starts P7 and finished 4th here in March 2026. But he has only 2 top-10s in 7 Next Gen Phoenix starts (20.3 avg finish, 19.0 avg running, 67.2 rating), and his recent-form metric is weak (26.5). -130 implies 56.5%, so this price is fair at best. It's here mainly for the starting spot. Locked 9:36 PM ET.",
-      "grade": "C",
-      "rank": 2,
-      "why_not": "Only 2 top-10s in 7 Next Gen Phoenix starts, with a 20.3 average finish."
-     },
-     {
-      "pick": "(+EV) Kyle Larson Top 5",
-      "odds": "+200",
-      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-      "status": "Lost",
-      "why": "Best value: Larson has 6 top-5s in 9 Next Gen Phoenix races (67%), finished 3rd in each of his last three here, and has a 102.1 rating with a good recent-form metric (4.5). +200 implies only 33%. Locked 9:36 PM ET.",
-      "grade": "B-",
-      "rank": 3,
-      "why_not": "He starts P22 after a poor qualifying run, so he has to pass about 17 cars."
-     },
-     {
-      "pick": "(Quality) Ryan Blaney Top 10",
-      "odds": "-500",
-      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-      "status": "Won",
-      "why": "Pole and fastest in practice. 8 of 9 Next Gen Phoenix top-10s, 5.2 average finish, back-to-back Phoenix wins, 114.4 rating. -500 implies 83%. Locked 9:36 PM ET.",
-      "grade": "A",
-      "rank": 4,
-      "why_not": "He finished 28th here in spring 2025, so one crash or pit problem sinks it."
-     },
-     {
-      "pick": "(Quality) Christopher Bell Top 10",
-      "odds": "-500",
-      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-      "status": "Won",
-      "why": "Starts P5 and had the best 10-lap average in practice (5th overall). 2 Phoenix wins, last three here 2, 11 and 1, 107.3 rating, best recent-form metric among the contenders (2.3). Locked 9:36 PM ET.",
-      "grade": "A-",
-      "rank": 5,
-      "why_not": "6 of 9 top-10s here, which is below the 83% that -500 implies."
-     },
-     {
-      "pick": "(Quality) Denny Hamlin Top 10",
-      "odds": "-275",
-      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-      "status": "Lost",
-      "why": "Starts P4, 4th in practice with the most laps. Last three here 5, 6 and 2, 8.3 average running position. This is also a parlay leg. Locked 9:36 PM ET.",
-      "grade": "B+",
-      "rank": 6,
-      "why_not": "Only 5 of his 9 Next Gen Phoenix races ended in the top 10."
-     },
-     {
-      "pick": "(Quality) Kyle Larson Top 10",
-      "odds": "-150",
-      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-      "status": "Lost",
-      "why": "7 of 9 Next Gen Phoenix top-10s (78%), 8.6 average finish, 3rd in each of the last three. -150 implies 60%, with the P22 start as the discount. Locked 9:36 PM ET.",
-      "grade": "B",
-      "rank": 7,
-      "why_not": "He starts 22nd, and gaining spots on a short, flat track like Phoenix is hard."
-     },
-     {
-      "pick": "(Quality) Joey Logano Top 10",
-      "odds": "-325",
-      "game": "Freeway Insurance 500, Phoenix, Sun Oct 18 3:00 PM ET",
-      "status": "Won",
-      "why": "Starts P2 and was 3rd in practice, so he begins with track position and speed. Locked 9:36 PM ET.",
-      "grade": "B",
-      "rank": 8,
-      "why_not": "4 of 9 Next Gen Phoenix top-10s and 31st here in March. -325 implies 76.5%."
-     }
-    ],
-    "parlay_done": {
-     "n": 1,
-     "status": "Lost",
-     "odds": "+119",
-     "note": "Parlay +100 Lost (+119) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-4 legs graded B or better at +100 to +125; one leg per game, or a same-game parlay when only one unstarted game is left)."
-    }
-   },
-   "NFL": {
-    "potd": {
-     "pick": "Dak Prescott 275+ pass yds",
-     "odds": "-120",
-     "game": "Cowboys @ Packers 10/18 08:20 PM ET",
-     "status": "Lost",
-     "why": "Posted Sun 7:27 PM ET after POTD #2 (Kansas City Chiefs -7) settled (W). Prescott 276.2 pass yds/gm this season (5 gms), 267.2 last 10; hit 275+ in 7 of last 10, 4 of 5 this season. Staged from our top lines (Dak Prescott 275+ pass yds -120) [A-]; Hard Rock price from the 15-min refresh -120 at 19:27 ET.",
-     "desc": "Dak Prescott 275+ pass yds -120 (Cowboys @ Packers 10/18 08:20 PM ET)",
-     "n": 3,
-     "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it.",
-     "chain": 3,
-     "now": "+115"
-    },
-    "parlay": null,
-    "potd_more": [],
-    "parlay_more": [],
-    "runners_up": [
-     {
-      "pick": "(+EV) Kansas City Chiefs -7.5",
-      "odds": "-105",
-      "game": "Chargers @ Chiefs Sun 4:25 PM ET",
-      "status": "Pending",
-      "why": "Best value: KC 4-0 (SRS +8.5, 19.3 allowed) vs LAC 0-5 scoring 16.8 (SRS -9.6). An 18-pt rating gap priced at -7.5 at near-even juice. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
-      "grade": "B+",
-      "rank": 1,
-      "now": "-110",
-      "why_not": "Hook at 7.5."
-     },
-     {
-      "pick": "Chargers @ Chiefs Under 41",
-      "odds": "-105",
-      "game": "Chargers @ Chiefs Sun 4:25 PM ET",
-      "status": "Pending",
-      "why": "LAC offense 16.8 pts/g (OSRS -9.9); KC D 19.3 allowed. Projection ~38-40. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
-      "grade": "B",
-      "rank": 2,
-      "why_not": "Kansas City can pile up points against a winless team, and one blowout pushes it over 41."
-     },
-     {
-      "pick": "Steelers @ Buccaneers Under 38.5",
-      "odds": "-105",
-      "game": "Steelers @ Buccaneers Sun 1:00 PM ET",
-      "status": "Pending",
-      "why": "Mayfield OUT (thumb); rookie Jalon Daniels makes a 3rd start for a 1-4 TB offense (20.0 pts/g). PIT offense 22.2. Freiermuth questionable. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
-      "grade": "B",
-      "rank": 3,
-      "why_not": "Pittsburgh scores 22.2 per game, and one defensive or special-teams touchdown can push it over.",
-      "now": "-115"
-     },
-     {
-      "pick": "Indianapolis Colts -7",
-      "odds": "-105",
-      "game": "Titans @ Colts Sun 1:00 PM ET",
-      "status": "Pending",
-      "why": "TEN 0-5 scoring 11.6 pts/g (worst, OSRS -10.9), SRS -13.2 vs IND -2.9. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET. Price check 6:30 PM ET: Hard Rock's main line moved to Colts -6.5 -115 (Titans +6.5 -105); -7 no longer shows as the main spread. This pick stays locked at -7 -105.",
-      "grade": "B-",
-      "rank": 4,
-      "now": "+105",
-      "why_not": "IND D allows 27.6."
-     },
-     {
-      "pick": "Ravens @ Browns Over 39.5",
-      "odds": "-115",
-      "game": "Ravens @ Browns Sun 1:00 PM ET",
-      "status": "Pending",
-      "why": "BAL scores 29.2 and allows 23.8; CLE averages 18.6. Season averages project ~45. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
-      "grade": "C+",
-      "rank": 5,
-      "now": "-110",
-      "why_not": "Division game, CLE D 19.7 last 3."
-     },
-     {
-      "pick": "(Quality) Kansas City Chiefs ML",
-      "odds": "-425",
-      "game": "Chargers @ Chiefs Sun 4:25 PM ET",
-      "status": "Pending",
-      "why": "Unbeaten KC vs winless LAC (-45 point diff). Overlaps the KC -7.5. Hard Rock via agentbets.ai. Locked Sat 4:25 PM ET.",
-      "grade": "A",
-      "rank": 6,
-      "why_not": "It's a big favorite with little payout, and it overlaps the Chiefs -7.5 pick.",
-      "now": "-475"
-     },
-     {
-      "pick": "(Quality) Indianapolis Colts ML",
-      "odds": "-350",
-      "game": "Titans @ Colts Sun 1:00 PM ET",
-      "status": "Pending",
-      "why": "TEN has scored 58 points in 5 games. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
-      "grade": "A-",
-      "rank": 7,
-      "why_not": "Indianapolis's defense allows 27.6 points per game, so Tennessee can keep it close.",
-      "now": "-325"
-     },
-     {
-      "pick": "(Quality) New England Patriots ML",
-      "odds": "-375",
-      "game": "Jets @ Patriots Sun 1:00 PM ET",
-      "status": "Pending",
-      "why": "NE SRS +7.5 vs NYJ -1.4; NE allows 10.0 at home; NYJ offense 18.6. Hard Rock via agentbets.ai. Locked Sat 1:00 PM ET.",
-      "grade": "B+",
-      "rank": 8,
-      "why_not": "The Jets score 18.6 per game, so an off day for New England's offense makes it close."
-     },
-     {
-      "pick": "(Quality) Jacksonville Jaguars ML",
-      "odds": "-145",
-      "game": "Texans @ Jaguars Sun 9:30 AM ET",
-      "status": "Pending",
-      "why": "Same edge as the POTD without the 2.5; take one, not both. Hard Rock via agentbets.ai. Locked Sat 9:30 AM ET.",
-      "grade": "B+",
-      "rank": 9,
-      "why_not": "It's a neutral-site London game, and Houston's defense allows only 11.0 points per game on the road.",
-      "now": "+130"
-     },
-     {
-      "pick": "(Quality) San Francisco 49ers ML",
-      "odds": "-425",
-      "game": "Commanders @ 49ers Mon 8:15 PM ET",
-      "status": "Pending",
-      "why": "SF 5-0 (30.8 pts/g) vs WSH 1-3-1 allowing 29.8; Mariota doubtful, Croskey-Merritt expected out. Hard Rock via agentbets.ai. Locked Sun 8:15 AM ET after final injury/weather check: NFL.com final report has WSH without Croskey-Merritt, Mariota, Omenihu and Jean-Baptiste (Daniels full go); SF without Bosa and Deebo Samuel, McCaffrey full go. Levi's forecast ~57-60F, 2% rain, light wind.",
-      "grade": "A-",
-      "rank": 10,
-      "why_not": "San Francisco is without Nick Bosa and Deebo Samuel, and Diggs may return for Washington. A -425 favorite still loses about 1 in 6.",
-      "now": "-450"
-     }
-    ],
-    "parlay_done": {
-     "n": 2,
-     "status": "Lost",
-     "odds": "+126",
-     "note": "Parlay +100 #2 Lost (+126) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-4 legs graded B or better at +100 to +125; one leg per game, or a same-game parlay when only one unstarted game is left)."
+    "parlay": {
+     "pick": "3-leg",
+     "odds": "+101",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": null,
+     "desc": "3-leg +101 (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "San Francisco 49ers Over 23.5 Team Total",
+       "odds": "-450",
+       "game": "WSH @ SF 8:15 PM ET",
+       "status": "Pending",
+       "why": "SF has scored 24 or more in all 5 games (30.8 average), and Washington has allowed 24 or more in all 5 (29.8 average). The spread (-7.5) and total (52.5) imply about 30 SF points. 66°F, no rain.",
+       "why_not": "SF's low was exactly 24, and Kirk is on IR."
+      },
+      {
+       "pick": "Tampa Bay Rays +1.5",
+       "odds": "-250",
+       "game": "CLE @ TB 8:08 PM ET",
+       "status": "Pending",
+       "why": "Loses only on a Cleveland win by 2 or more. It covered 4 of 5 series games, and Peralta (0.79 postseason ERA) faces a Cleveland bullpen game. Dome.",
+       "why_not": "Cleveland won Game 1 by 4."
+      },
+      {
+       "pick": "Dylan Guenther o1.5 SOG",
+       "odds": "-575",
+       "game": "PIT @ UTA 9:00 PM ET",
+       "status": "Pending",
+       "why": "2+ shots in 8 of 9 games this season and in 81% of games last season. Utah averages 30.2 shots per game, and Pittsburgh allows 27.7. Combined price: 1.222 x 1.400 x 1.174 = 2.009 (+101). WNBA Finals Game 2 (ATL @ GS) was checked, but no Hard Rock line there graded better than B-, so nothing from it made the ticket.",
+       "why_not": "He had a 0-shot game on Oct 8."
+      }
+     ],
+     "why_not": "All three legs must hit, and two of them (49ers team total and Rays +1.5) depend on a lead holding up late."
     }
    }
   },
-  "date": "2026-10-18"
+  "date": "2026-10-19"
  },
  "results": {
   "tickets": [
@@ -4753,7 +4375,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-19 05:20 AM ET",
+  "updated": "2026-10-19 05:21 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -13769,11 +13391,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 05:20 ET",
-  "generated_ts": 1792401627,
+  "generated": "2026-10-19 05:21 ET",
+  "generated_ts": 1792401718,
   "hr_fetched": "2026-10-19 01:16 ET",
   "hr_fetched_ts": 1792386960,
-  "hr_age_min": 244,
+  "hr_age_min": 246,
   "sports": {
    "NASCAR": {
     "games": [],
