@@ -1,5 +1,5 @@
 {
- "generated": 1792381248.1994834,
+ "generated": 1792381701.688062,
  "today": {
   "title": "Oct 18 placed bets (Hard Rock)",
   "tickets": [
@@ -426,7 +426,7 @@
      "pick": "Dak Prescott 275+ pass yds",
      "odds": "-120",
      "game": "Cowboys @ Packers 10/18 08:20 PM ET",
-     "status": "Pending",
+     "status": "Lost",
      "why": "Posted Sun 7:27 PM ET after POTD #2 (Kansas City Chiefs -7) settled (W). Prescott 276.2 pass yds/gm this season (5 gms), 267.2 last 10; hit 275+ in 7 of last 10, 4 of 5 this season. Staged from our top lines (Dak Prescott 275+ pass yds -120) [A-]; Hard Rock price from the 15-min refresh -120 at 19:27 ET.",
      "desc": "Dak Prescott 275+ pass yds -120 (Cowboys @ Packers 10/18 08:20 PM ET)",
      "n": 3,
@@ -434,35 +434,7 @@
      "chain": 3,
      "now": "+115"
     },
-    "parlay": {
-     "pick": "2-leg",
-     "odds": "+126",
-     "game": "SNF DAL @ GB",
-     "status": "Pending",
-     "why": "Javonte Williams 13+ rec yds: Williams averages 18.8 rec yds this season and has gone over 12.5 in 4 of 5 games. CeeDee Lamb 5+ rec: Lamb averages 7.8 rec this season and has gone over 4.5 in 4 of 5 games.",
-     "desc": "2-leg +126 · Same-game parlay (SNF DAL @ GB) (calc from Hard Rock leg prices)",
-     "n": 2,
-     "legs": [
-      {
-       "pick": "Javonte Williams 13+ rec yds",
-       "odds": "-120",
-       "game": "Cowboys @ Packers 10/18 08:20 PM ET · LINE PULLED: at 6:30 PM ET Hard Rock moved his receiving yards line from 12.5 to 13.5, Over 13.5 now -115; 12.5 is no longer offered",
-       "status": "Pending",
-       "why": "Williams averages 18.8 rec yds this season and has gone over 12.5 in 4 of 5 games. Last 10 games: 5/10 cleared the line; last 5 went 17, 21, 5, 20, 31. Close game expected (Cowboys -1, total 54.0), which keeps both offenses playing it straight for four quarters.",
-       "why_not": "Volume is thin: 4.0 targets a game over his last 5, so a quiet script can leave him short. Missed in 5 of the last 10 (low of 0 rec yds). He fell short as recently as BAL. Same-game parlay: the legs share one game script, so a bad night for the offense can sink both."
-      },
-      {
-       "pick": "CeeDee Lamb 5+ rec",
-       "odds": "-425",
-       "game": "Cowboys @ Packers 10/18 08:20 PM ET",
-       "status": "Pending",
-       "why": "Lamb averages 7.8 rec this season and has gone over 4.5 in 4 of 5 games. Last 10 games: 8/10 cleared the line; last 5 went 2, 17, 7, 8, 5. He's seen 10.2 targets a game over his last 5. Close game expected (Cowboys -1, total 54.0), which keeps both offenses playing it straight for four quarters.",
-       "why_not": "Missed in 2 of the last 10 (low of 1 rec). He fell short as recently as TB. Same-game parlay: the legs share one game script, so a bad night for the offense can sink both."
-      }
-     ],
-     "why_not": "Javonte Williams 13+ rec yds: Volume is thin: 4.0 targets a game over his last 5, so a quiet script can leave him short. CeeDee Lamb 5+ rec: Missed in 2 of the last 10 (low of 1 rec). Same-game parlay: both legs ride one game script.",
-     "chain": 2
-    },
+    "parlay": null,
     "potd_more": [],
     "parlay_more": [],
     "runners_up": [
@@ -574,7 +546,13 @@
       "why_not": "San Francisco is without Nick Bosa and Deebo Samuel, and Diggs may return for Washington. A -425 favorite still loses about 1 in 6.",
       "now": "-475"
      }
-    ]
+    ],
+    "parlay_done": {
+     "n": 2,
+     "status": "Lost",
+     "odds": "+126",
+     "note": "Parlay +100 #2 Lost (+126) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-4 legs graded B or better at +100 to +125; one leg per game, or a same-game parlay when only one unstarted game is left)."
+    }
    }
   },
   "date": "2026-10-18"
@@ -587,7 +565,7 @@
     ],
     "date": "2026-10-18",
     "name": "Lotto Ticket (11-leg) · 50% profit boost",
-    "desc": "$1 +48611 · SGPMAX, 50% profit boost · LOST · legs still tracking",
+    "desc": "$1 +48611 · SGPMAX, 50% profit boost · LOST",
     "result": "L",
     "legs": [
      {
@@ -605,10 +583,16 @@
      },
      {
       "pick": "Christian Watson (WR) anytime TD",
-      "result": "Pending",
+      "result": "L",
       "stat": "—",
       "final": "—",
-      "game": "DAL @ GB 8:20 PM ET Sun"
+      "game": "DAL @ GB 8:20 PM ET Sun",
+      "pm": {
+       "title": "Why we lost",
+       "head": "Box score not found yet",
+       "bullets": [],
+       "moments": null
+      }
      },
      {
       "pick": "Kenneth Walker III (RB) anytime TD",
@@ -625,10 +609,16 @@
      },
      {
       "pick": "Javonte Williams (RB) anytime TD",
-      "result": "Pending",
+      "result": "W",
       "stat": "—",
       "final": "—",
-      "game": "DAL @ GB 8:20 PM ET Sun"
+      "game": "DAL @ GB 8:20 PM ET Sun",
+      "pm": {
+       "title": "Why it hit",
+       "head": "Box score not found yet",
+       "bullets": [],
+       "moments": null
+      }
      },
      {
       "pick": "Kyren Williams (RB) anytime TD",
@@ -1818,8 +1808,8 @@
     "line": "ATD",
     "odds": "SGP +207 (w/ Javonte)",
     "ticket": "10/18 TDCITY 11-leg +48611 $1",
-    "result": "Pending",
-    "stat": "—"
+    "result": "L",
+    "stat": "anytime TD (td-city.json)"
    },
    {
     "date": "10/18",
@@ -1840,8 +1830,8 @@
     "line": "ATD",
     "odds": "SGP +207 (w/ Watson)",
     "ticket": "10/18 TDCITY 11-leg +48611 $1",
-    "result": "Pending",
-    "stat": "—"
+    "result": "W",
+    "stat": "anytime TD (td-city.json)"
    },
    {
     "date": "10/18",
@@ -1922,6 +1912,42 @@
    }
   ],
   "sport_picks": [
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "type": "POTD #3",
+    "pick": "Dak Prescott 275+ pass yds",
+    "odds": "-120",
+    "result": "L",
+    "stat": "258 pass yds"
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "type": "Leg",
+    "pick": "CeeDee Lamb 5+ rec",
+    "odds": "-425",
+    "result": "W",
+    "stat": "9 rec"
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "type": "Leg",
+    "pick": "Javonte Williams 13+ rec yds",
+    "odds": "-120",
+    "result": "L",
+    "stat": "9 rec yds"
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "type": "Parlay #2",
+    "pick": "2-leg",
+    "odds": "+126",
+    "result": "L",
+    "stat": "legs L/W"
+   },
    {
     "date": "2026-10-18",
     "sport": "NHL",
@@ -2425,78 +2451,42 @@
     "odds": "-375",
     "result": "W",
     "stat": "TB 1-1 CLE"
-   },
-   {
-    "date": "2026-10-17",
-    "sport": "MLB",
-    "type": "Runner-up",
-    "pick": "(+EV) Tampa Bay Rays F5 -0.5",
-    "odds": "+120",
-    "result": "L",
-    "stat": "TB 1-1 CLE (F5 tie: -0.5 loses)"
-   },
-   {
-    "date": "2026-10-17",
-    "sport": "MLB",
-    "type": "Runner-up",
-    "pick": "F5 Total Under 3.5",
-    "odds": "-120",
-    "result": "W",
-    "stat": "total 2"
-   },
-   {
-    "date": "2026-10-17",
-    "sport": "MLB",
-    "type": "Runner-up",
-    "pick": "Guardians F5 Under 1.5 Team Runs",
-    "odds": "-125",
-    "result": "W",
-    "stat": "CLE 1"
-   },
-   {
-    "date": "2026-10-17",
-    "sport": "MLB",
-    "type": "POTD",
-    "pick": "Tampa Bay Rays F5 ML",
-    "odds": "-125",
-    "result": "P",
-    "stat": "TB 1-1 CLE (tie push)"
    }
   ]
  },
  "record": {
   "overall": {
    "official": {
-    "w": 40,
-    "l": 36,
+    "w": 42,
+    "l": 39,
     "p": 1,
-    "pct": 53
+    "pct": 52
    },
    "potd": {
     "w": 5,
-    "l": 5,
+    "l": 6,
     "p": 1,
-    "pct": 50
+    "pct": 45
    },
    "legs": {
-    "w": 28,
-    "l": 22,
+    "w": 29,
+    "l": 23,
     "p": 0,
     "pct": 56
    },
    "parlay": {
     "w": 5,
-    "l": 6,
+    "l": 7,
     "p": 0,
-    "pct": 45
+    "pct": 42
    },
    "tracked": {
-    "w": 76,
-    "l": 55,
+    "w": 77,
+    "l": 58,
     "p": 2,
-    "pct": 58
+    "pct": 57
    },
-   "pending": 5
+   "pending": 0
   },
   "props": [
    {
@@ -2508,10 +2498,10 @@
    },
    {
     "prop": "NFL anytime TD",
-    "w": 4,
-    "l": 5,
+    "w": 5,
+    "l": 6,
     "p": 0,
-    "pct": 44
+    "pct": 45
    },
    {
     "prop": "Big 4 parlay",
@@ -2561,6 +2551,13 @@
     "l": 1,
     "p": 0,
     "pct": 50
+   },
+   {
+    "prop": "NFL parlay",
+    "w": 0,
+    "l": 2,
+    "p": 0,
+    "pct": 0
    },
    {
     "prop": "MLB u1.5 TB",
@@ -2682,13 +2679,6 @@
     "pct": 100
    },
    {
-    "prop": "NFL parlay",
-    "w": 0,
-    "l": 1,
-    "p": 0,
-    "pct": 0
-   },
-   {
     "prop": "NASCAR top 10",
     "w": 0,
     "l": 1,
@@ -2708,6 +2698,13 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "prop": "NFL prop",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
    },
    {
     "prop": "NFL rush yds",
@@ -2750,6 +2747,13 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "prop": "NFL receptions",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
    }
   ],
   "potd": [
@@ -2757,8 +2761,8 @@
     "date": "2026-10-18",
     "pick": "NFL · Edge: Christian Watson Under 4.5 Receptions",
     "odds": "+115",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (3 rec)"
    },
    {
     "date": "2026-10-18",
@@ -2862,8 +2866,8 @@
     "date": "2026-10-18",
     "pick": "NFL · Leg: Javonte Williams (RB) ATD · 10/18 TDCITY 11-leg +48611 $1",
     "odds": "SGP +207 (w/ Watson)",
-    "result": "Pending",
-    "detail": "—"
+    "result": "W",
+    "detail": "anytime TD (td-city.json)"
    },
    {
     "date": "2026-10-18",
@@ -2876,8 +2880,8 @@
     "date": "2026-10-18",
     "pick": "NFL · Leg: Christian Watson (WR) ATD · 10/18 TDCITY 11-leg +48611 $1",
     "odds": "SGP +207 (w/ Javonte)",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "anytime TD (td-city.json)"
    },
    {
     "date": "2026-10-18",
@@ -2911,15 +2915,15 @@
     "date": "2026-10-18",
     "pick": "NFL · POTD #3: Dak Prescott 275+ pass yds",
     "odds": "-120",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "258 pass yds"
    },
    {
     "date": "2026-10-18",
     "pick": "NFL · Parlay #2: 2-leg",
     "odds": "+126",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "legs L/W"
    },
    {
     "date": "2026-10-18",
@@ -3570,38 +3574,6 @@
    ],
    [
     "10/18",
-    5
-   ],
-   [
-    "10/18",
-    4
-   ],
-   [
-    "10/18",
-    3
-   ],
-   [
-    "10/18",
-    4
-   ],
-   [
-    "10/18",
-    3
-   ],
-   [
-    "10/18",
-    4
-   ],
-   [
-    "10/18",
-    3
-   ],
-   [
-    "10/18",
-    4
-   ],
-   [
-    "10/18",
     3
    ],
    [
@@ -3614,19 +3586,51 @@
    ],
    [
     "10/18",
-    4
+    2
    ],
    [
     "10/18",
-    5
+    1
    ],
    [
     "10/18",
-    4
+    0
    ],
    [
     "10/18",
-    3
+    1
+   ],
+   [
+    "10/18",
+    2
+   ],
+   [
+    "10/18",
+    1
+   ],
+   [
+    "10/18",
+    2
+   ],
+   [
+    "10/18",
+    1
+   ],
+   [
+    "10/18",
+    2
+   ],
+   [
+    "10/18",
+    1
+   ],
+   [
+    "10/18",
+    0
+   ],
+   [
+    "10/18",
+    1
    ],
    [
     "10/18",
@@ -3638,17 +3642,37 @@
    ],
    [
     "10/18",
-    4
+    2
+   ],
+   [
+    "10/18",
+    1
+   ],
+   [
+    "10/18",
+    0
+   ],
+   [
+    "10/18",
+    1
+   ],
+   [
+    "10/18",
+    2
+   ],
+   [
+    "10/18",
+    3
    ]
   ]
  },
  "cappers": [
   {
    "name": "@alexcaruso",
-   "w": 9,
-   "l": 10,
+   "w": 10,
+   "l": 12,
    "p": 0,
-   "pct": 47,
+   "pct": 45,
    "props": [
     {
      "prop": "MLB batter hits (under)",
@@ -3688,16 +3712,16 @@
     {
      "prop": "NFL rec yds (over)",
      "w": 1,
-     "l": 2,
+     "l": 3,
      "p": 0,
-     "pct": 33
+     "pct": 25
     },
     {
      "prop": "NFL ML",
-     "w": 0,
+     "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 50
     },
     {
      "prop": "MLB ML",
@@ -3733,6 +3757,13 @@
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "NFL pass TDs (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "today": [
@@ -3776,30 +3807,30 @@
      "prop": "NFL pass TDs (over)",
      "pick": "Dak Prescott o1.5 pass TDs (DAL @ GB SNF, 8:20 PM ET)",
      "odds": "—",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Tucker Kraft o49.5 rec yds (DAL @ GB SNF, 8:20 PM ET)",
      "odds": "—",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL ML",
      "pick": "Green Bay Packers ML (vs DAL SNF, 8:20 PM ET; \"HAMMER the Packers\" on Kalshi)",
      "odds": "50% Kalshi (~+100)",
-     "status": "Pending"
+     "status": "W"
     }
    ]
   },
   {
    "name": "@austinsprops",
-   "w": 4,
+   "w": 6,
    "l": 3,
    "p": 0,
-   "pct": 57,
+   "pct": 67,
    "props": [
     {
      "prop": "MLB pitcher outs (over)",
@@ -3817,10 +3848,10 @@
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 1,
+     "w": 2,
      "l": 1,
      "p": 0,
-     "pct": 50
+     "pct": 67
     },
     {
      "prop": "NFL receptions (over)",
@@ -3835,6 +3866,13 @@
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "NFL parlay",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ],
    "today": [
@@ -3843,7 +3881,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "George Pickens o67.5 rec yds (DAL vs GB)",
      "odds": "-114 DK",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NFL",
@@ -3899,16 +3937,16 @@
      "prop": "NFL parlay",
      "pick": "NFL 2-leg parlay: George Pickens o5.5 rec + Matthew Golden 100+ rec yds (DAL @ GB SNF, 8:20 PM ET; mini SGP lotto)",
      "odds": "+657 FD / +810 Polymarket",
-     "status": "Pending"
+     "status": "W"
     }
    ]
   },
   {
    "name": "@panpotd",
-   "w": 3,
-   "l": 4,
+   "w": 4,
+   "l": 8,
    "p": 0,
-   "pct": 43,
+   "pct": 33,
    "props": [
     {
      "prop": "NFL receptions (over)",
@@ -3920,19 +3958,26 @@
     {
      "prop": "NFL rec yds (over)",
      "w": 0,
-     "l": 2,
+     "l": 5,
      "p": 0,
      "pct": 0
     },
     {
      "prop": "NFL rush yds (over)",
      "w": 0,
-     "l": 1,
+     "l": 2,
      "p": 0,
      "pct": 0
     },
     {
      "prop": "NFL pass yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL anytime TD",
      "w": 1,
      "l": 0,
      "p": 0,
@@ -3952,7 +3997,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "Christian Watson o66.5 rec yds (GB vs DAL)",
      "odds": "-114",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
@@ -3980,37 +4025,37 @@
      "prop": "NFL rec yds (over)",
      "pick": "CeeDee Lamb o79.5 rec yds (DAL @ GB; pick'em slip, 40% boost)",
      "odds": "—",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL anytime TD",
      "pick": "Javonte Williams anytime TD (o0.5 rush+rec TDs) (DAL @ GB SNF; pick'em slip, 30% boost)",
      "odds": "—",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Christian Watson o79.5 rec yds (DAL @ GB SNF; pick'em slip, 30% boost)",
      "odds": "—",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL rush yds (over)",
      "pick": "Javonte Williams o66.5 rush yds (DAL @ GB SNF; pick'em slip, 30% boost)",
      "odds": "—",
-     "status": "Pending"
+     "status": "L"
     }
    ]
   },
   {
    "name": "@doctorprofit",
-   "w": 4,
-   "l": 7,
+   "w": 5,
+   "l": 11,
    "p": 0,
-   "pct": 36,
+   "pct": 31,
    "props": [
     {
      "prop": "NFL pass completions (over)",
@@ -4021,10 +4066,10 @@
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 1,
+     "w": 2,
      "l": 2,
      "p": 0,
-     "pct": 33
+     "pct": 50
     },
     {
      "prop": "NFL pass yds (over)",
@@ -4043,14 +4088,14 @@
     {
      "prop": "NFL parlay",
      "w": 0,
-     "l": 2,
+     "l": 4,
      "p": 0,
      "pct": 0
     },
     {
      "prop": "NFL ML",
      "w": 0,
-     "l": 1,
+     "l": 2,
      "p": 0,
      "pct": 0
     },
@@ -4067,6 +4112,13 @@
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "NFL rush yds (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "today": [
@@ -4159,44 +4211,44 @@
      "prop": "NFL parlay",
      "pick": "NFL 4-leg parlay: Javonte Williams anytime TD + MarShawn Lloyd anytime TD + Javonte Williams 70+ rush yds + Matthew Golden 80+ rec yds (DAL @ GB SNF, 8:20 PM ET; \"+1324 Primetime Parlay\" collab w/ @MCAnalyticsHQ & @JSleeprStats)",
      "odds": "+1324 FD (50% profit boost; +883 base)",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL parlay",
      "pick": "NFL 3-leg parlay: Dallas Cowboys ML + Javonte Williams anytime TD + Javonte Williams 70+ rush yds (DAL @ GB SNF, 8:20 PM ET; Primetime Parlay companion slip, collab w/ @MCAnalyticsHQ)",
      "odds": "+305 FD (30% profit boost; +235 base)",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL ML",
      "pick": "Dallas Cowboys ML (@ GB SNF, 8:20 PM ET; Full SNF Surgical Card, straight)",
      "odds": "-108",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL rush yds (over)",
      "pick": "Javonte Williams o66.5 rush yds (DAL @ GB SNF, 8:20 PM ET; Full SNF Surgical Card)",
      "odds": "-113",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Matthew Golden o65.5 rec yds (DAL @ GB SNF, 8:20 PM ET; Full SNF Surgical Card)",
      "odds": "-113",
-     "status": "Pending"
+     "status": "W"
     }
    ]
   },
   {
    "name": "@showtimepicks2",
-   "w": 8,
+   "w": 9,
    "l": 3,
    "p": 0,
-   "pct": 73,
+   "pct": 75,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -4246,6 +4298,13 @@
      "l": 1,
      "p": 0,
      "pct": 0
+    },
+    {
+     "prop": "NFL ML",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ],
    "today": [
@@ -4268,16 +4327,16 @@
      "prop": "NFL ML",
      "pick": "Green Bay Packers ML (vs DAL SNF, 8:20 PM ET; Primetime play)",
      "odds": "-108",
-     "status": "Pending"
+     "status": "W"
     }
    ]
   },
   {
    "name": "@salbets_",
-   "w": 2,
+   "w": 3,
    "l": 9,
    "p": 0,
-   "pct": 18,
+   "pct": 25,
    "props": [
     {
      "prop": "NFL anytime TD",
@@ -4330,10 +4389,10 @@
     },
     {
      "prop": "NFL pass attempts (over)",
-     "w": 0,
+     "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 50
     },
     {
      "prop": "NFL pass yds (under)",
@@ -4377,7 +4436,7 @@
      "prop": "NFL pass attempts (over)",
      "pick": "Dak Prescott o35.5 pass att (DAL vs GB)",
      "odds": "Underdog",
-     "status": "Pending"
+     "status": "W"
     },
     {
      "sport": "NFL",
@@ -4433,9 +4492,9 @@
   {
    "name": "@tonestakes",
    "w": 28,
-   "l": 23,
+   "l": 26,
    "p": 1,
-   "pct": 55,
+   "pct": 52,
    "props": [
     {
      "prop": "MLB game total (under)",
@@ -4524,16 +4583,16 @@
     {
      "prop": "NFL rec yds (over)",
      "w": 6,
-     "l": 5,
+     "l": 6,
      "p": 0,
-     "pct": 55
+     "pct": 50
     },
     {
      "prop": "NFL game total (over)",
      "w": 2,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100
+     "pct": 67
     },
     {
      "prop": "NFL receptions (over)",
@@ -4545,7 +4604,7 @@
     {
      "prop": "NFL rush yds (over)",
      "w": 0,
-     "l": 1,
+     "l": 2,
      "p": 0,
      "pct": 0
     }
@@ -4738,21 +4797,21 @@
      "prop": "NFL game total (over)",
      "pick": "DAL @ GB Over 53.5 (SNF, 8:20 PM ET)",
      "odds": "-113",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL rush yds (over)",
      "pick": "Javonte Williams o67.5 rush yds (DAL @ GB SNF, 8:20 PM ET)",
      "odds": "-105",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Christian Watson o72.5 rec yds (DAL @ GB SNF, 8:20 PM ET)",
      "odds": "-115",
-     "status": "Pending"
+     "status": "L"
     },
     {
      "sport": "NFL",
@@ -5378,7 +5437,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-18 11:40 PM ET",
+  "updated": "2026-10-18 11:48 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -5661,21 +5720,6 @@
         "seed": "4"
        },
        {
-        "t": "Dallas Cowboys",
-        "ab": "DAL",
-        "rec": "2-3",
-        "pct": ".400",
-        "gb": "1",
-        "pts": null,
-        "home": "1-2",
-        "road": "1-1",
-        "l10": null,
-        "strk": "L1",
-        "diff": "+2",
-        "div": "1-1",
-        "seed": "9"
-       },
-       {
         "t": "Philadelphia Eagles",
         "ab": "PHI",
         "rec": "2-4",
@@ -5688,6 +5732,21 @@
         "strk": "L4",
         "diff": "-31",
         "div": "1-0",
+        "seed": "11"
+       },
+       {
+        "t": "Dallas Cowboys",
+        "ab": "DAL",
+        "rec": "2-4",
+        "pct": ".333",
+        "gb": "1.5",
+        "pts": null,
+        "home": "1-2",
+        "road": "1-2",
+        "l10": null,
+        "strk": "L2",
+        "diff": "-8",
+        "div": "1-1",
         "seed": "12"
        },
        {
@@ -5726,6 +5785,21 @@
         "seed": "2"
        },
        {
+        "t": "Green Bay Packers",
+        "ab": "GB",
+        "rec": "4-2",
+        "pct": ".667",
+        "gb": "1.5",
+        "pts": null,
+        "home": "2-1",
+        "road": "2-1",
+        "l10": null,
+        "strk": "W3",
+        "diff": "+2",
+        "div": "1-1",
+        "seed": "5"
+       },
+       {
         "t": "Chicago Bears",
         "ab": "CHI",
         "rec": "4-2",
@@ -5738,21 +5812,6 @@
         "strk": "W1",
         "diff": "+31",
         "div": "0-2",
-        "seed": "5"
-       },
-       {
-        "t": "Green Bay Packers",
-        "ab": "GB",
-        "rec": "3-2",
-        "pct": ".600",
-        "gb": "2",
-        "pts": null,
-        "home": "1-1",
-        "road": "2-1",
-        "l10": null,
-        "strk": "W2",
-        "diff": "-8",
-        "div": "1-1",
         "seed": "6"
        },
        {
@@ -5803,7 +5862,7 @@
         "strk": "L2",
         "diff": "-11",
         "div": "1-1",
-        "seed": "10"
+        "seed": "9"
        },
        {
         "t": "New Orleans Saints",
@@ -5818,7 +5877,7 @@
         "strk": "W1",
         "diff": "-26",
         "div": "0-1",
-        "seed": "11"
+        "seed": "10"
        },
        {
         "t": "Tampa Bay Buccaneers",
@@ -5907,9 +5966,9 @@
      {
       "a": "DAL",
       "h": "GB",
-      "st": "1:03 - 4th",
+      "st": "Final",
       "div": false,
-      "stake": "DAL 2-3: 2nd NFC East (1 GB), NFC #9 seed (outside playoffs) · GB 3-2: 3rd NFC North (2 GB), NFC #6 seed (in playoff spot)"
+      "stake": "DAL 2-4: 3rd NFC East (1.5 GB), NFC #12 seed (outside playoffs) · GB 4-2: 2nd NFC North (1.5 GB), NFC #5 seed (in playoff spot)"
      },
      {
       "a": "HOU",
@@ -5923,7 +5982,7 @@
       "h": "ATL",
       "st": "Final",
       "div": false,
-      "stake": "CHI 4-2: 2nd NFC North (1.5 GB), NFC #5 seed (in playoff spot) · ATL 2-4: 2nd NFC South (1.5 GB), NFC #10 seed (outside playoffs)"
+      "stake": "CHI 4-2: 3rd NFC North (1.5 GB), NFC #6 seed (in playoff spot) · ATL 2-4: 2nd NFC South (1.5 GB), NFC #9 seed (outside playoffs)"
      },
      {
       "a": "BAL",
@@ -5951,14 +6010,14 @@
       "h": "NYG",
       "st": "Final",
       "div": false,
-      "stake": "NO 2-4: 3rd NFC South (1.5 GB), NFC #11 seed (outside playoffs) · NYG 3-2-1: 1st NFC East, NFC #4 seed (in playoff spot)"
+      "stake": "NO 2-4: 3rd NFC South (1.5 GB), NFC #10 seed (outside playoffs) · NYG 3-2-1: 1st NFC East, NFC #4 seed (in playoff spot)"
      },
      {
       "a": "CAR",
       "h": "PHI",
       "st": "Final",
       "div": false,
-      "stake": "CAR 3-2: 1st NFC South, NFC #3 seed (in playoff spot) · PHI 2-4: 3rd NFC East (1.5 GB), NFC #12 seed (outside playoffs)"
+      "stake": "CAR 3-2: 1st NFC South, NFC #3 seed (in playoff spot) · PHI 2-4: 2nd NFC East (1.5 GB), NFC #11 seed (outside playoffs)"
      },
      {
       "a": "PIT",
@@ -8231,10 +8290,10 @@
   },
   {
    "sport": "NFL",
-   "w": 10,
-   "l": 11,
+   "w": 12,
+   "l": 14,
    "p": 0,
-   "pct": 48,
+   "pct": 46,
    "active": true,
    "runners_up": {
     "w": 4,
@@ -8843,17 +8902,17 @@
   },
   {
    "sport": "NFL",
-   "w": 10,
-   "l": 11,
+   "w": 12,
+   "l": 14,
    "p": 0,
-   "pct": 48,
+   "pct": 46,
    "props": [
     {
      "prop": "NFL anytime TD",
-     "w": 4,
-     "l": 5,
+     "w": 5,
+     "l": 6,
      "p": 0,
-     "pct": 44
+     "pct": 45
     },
     {
      "prop": "NFL spread",
@@ -8870,6 +8929,13 @@
      "pct": 100
     },
     {
+     "prop": "NFL parlay",
+     "w": 0,
+     "l": 2,
+     "p": 0,
+     "pct": 0
+    },
+    {
      "prop": "NFL o0.5 rec",
      "w": 0,
      "l": 1,
@@ -8884,7 +8950,7 @@
      "pct": 100
     },
     {
-     "prop": "NFL parlay",
+     "prop": "NFL prop",
      "w": 0,
      "l": 1,
      "p": 0,
@@ -8917,20 +8983,27 @@
      "l": 1,
      "p": 0,
      "pct": 0
+    },
+    {
+     "prop": "NFL receptions",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ],
    "official": {
-    "w": 10,
-    "l": 11,
+    "w": 12,
+    "l": 14,
     "p": 0,
-    "pct": 48,
+    "pct": 46,
     "props": [
      {
       "prop": "NFL anytime TD",
-      "w": 4,
-      "l": 5,
+      "w": 5,
+      "l": 6,
       "p": 0,
-      "pct": 44
+      "pct": 45
      },
      {
       "prop": "NFL spread",
@@ -8947,6 +9020,13 @@
       "pct": 100
      },
      {
+      "prop": "NFL parlay",
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "pct": 0
+     },
+     {
       "prop": "NFL o0.5 rec",
       "w": 0,
       "l": 1,
@@ -8961,7 +9041,7 @@
       "pct": 100
      },
      {
-      "prop": "NFL parlay",
+      "prop": "NFL prop",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -8994,21 +9074,28 @@
       "l": 1,
       "p": 0,
       "pct": 0
+     },
+     {
+      "prop": "NFL receptions",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
      }
     ]
    },
    "tracked": {
-    "w": 13,
-    "l": 15,
+    "w": 14,
+    "l": 18,
     "p": 0,
-    "pct": 46,
+    "pct": 44,
     "props": [
      {
       "prop": "NFL anytime TD",
-      "w": 4,
-      "l": 5,
+      "w": 5,
+      "l": 6,
       "p": 0,
-      "pct": 44
+      "pct": 45
      },
      {
       "prop": "NFL spread",
@@ -9039,6 +9126,13 @@
       "pct": 100
      },
      {
+      "prop": "NFL parlay",
+      "w": 0,
+      "l": 2,
+      "p": 0,
+      "pct": 0
+     },
+     {
       "prop": "NFL o0.5 rec",
       "w": 0,
       "l": 1,
@@ -9053,7 +9147,7 @@
       "pct": 100
      },
      {
-      "prop": "NFL parlay",
+      "prop": "NFL prop",
       "w": 0,
       "l": 1,
       "p": 0,
@@ -12149,43 +12243,13 @@
  },
  "safe100": {
   "date": "2026-10-18",
-  "sports": {
-   "NFL": {
-    "sport": "NFL",
-    "n": 2,
-    "odds": "-165",
-    "posted": "7:52 PM ET",
-    "locked": true,
-    "sgp": true,
-    "closest": true,
-    "label": "Closest to +100",
-    "price_note": "straight multiply (Hard Rock SGP price not available to us)",
-    "legs": [
-     {
-      "pick": "Javonte Williams 2+ rec",
-      "game": "Cowboys @ Packers 10/18 08:20 PM ET",
-      "odds": "-400",
-      "grade": "B+",
-      "reason": "Williams 3.4 rec/gm this season (5 gms), 2.4 last 10; hit 2+ in 8 of last 10, 5 of 5 this season.",
-      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
-     },
-     {
-      "pick": "Christian Watson 4+ rec",
-      "game": "Cowboys @ Packers 10/18 08:20 PM ET",
-      "odds": "-350",
-      "grade": "B-",
-      "reason": "Watson 5.2 rec/gm this season (5 gms), 4.4 last 10; hit 4+ in 7 of last 10, 4 of 5 this season.",
-      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
-     }
-    ]
-   }
-  },
+  "sports": {},
   "notes": {
    "NCAA F": "No Safe +100 for NCAA F today: only 0 real Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100.",
    "NBA": "No Safe +100 for NBA today: only 0 real Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100.",
    "MLB": "No Safe +100 for MLB today: only 0 real Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100.",
    "WNBA": "No Safe +100 for WNBA today: only 0 real Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100.",
-   "NFL": "Safe +100 #1 lost and closed to Record; #2 posted 7:52 PM ET.",
+   "NFL": "Safe +100 #2 lost and closed to Record. No #3: only 0 unstarted Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100.",
    "NHL": "Safe +100 #1 lost and closed to Record. No #2: only 0 unstarted Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100."
   },
   "closed": [
@@ -12280,6 +12344,41 @@
     "status": "LOST",
     "n": 1,
     "closed_at": "8:29 PM ET"
+   },
+   {
+    "sport": "NFL",
+    "n": 2,
+    "odds": "-165",
+    "posted": "7:52 PM ET",
+    "locked": true,
+    "sgp": true,
+    "closest": true,
+    "label": "Closest to +100",
+    "price_note": "straight multiply (Hard Rock SGP price not available to us)",
+    "legs": [
+     {
+      "pick": "Javonte Williams 2+ rec",
+      "game": "Cowboys @ Packers 10/18 08:20 PM ET",
+      "odds": "-400",
+      "grade": "B+",
+      "reason": "Williams 3.4 rec/gm this season (5 gms), 2.4 last 10; hit 2+ in 8 of last 10, 5 of 5 this season.",
+      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it.",
+      "status": "WON",
+      "result": "2 rec"
+     },
+     {
+      "pick": "Christian Watson 4+ rec",
+      "game": "Cowboys @ Packers 10/18 08:20 PM ET",
+      "odds": "-350",
+      "grade": "B-",
+      "reason": "Watson 5.2 rec/gm this season (5 gms), 4.4 last 10; hit 4+ in 7 of last 10, 4 of 5 this season.",
+      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it.",
+      "status": "LOST",
+      "result": "3 rec"
+     }
+    ],
+    "status": "LOST",
+    "closed_at": "11:48 PM ET"
    }
   ]
  },
@@ -12361,7 +12460,7 @@
     "fair": "+110",
     "fair_prob": 0.4773218142548596,
     "edge": 0.02624190064794818,
-    "result": "Pending",
+    "result": "Win (3 rec)",
     "picked_et": "6:30 PM ET"
    }
   ]
@@ -12369,14 +12468,14 @@
  "safe100_record": {
   "overall": {
    "w": 0,
-   "l": 2,
+   "l": 3,
    "p": 0,
    "pct": 0
   },
   "by_sport": {
    "NFL": {
     "w": 0,
-    "l": 1,
+    "l": 2,
     "p": 0,
     "pct": 0
    },
@@ -12763,7 +12862,7 @@
     "game": "DAL @ GB 8:20 PM ET Sun",
     "odds": "SGP +207 (w/ Javonte)",
     "book": "Hard Rock same-game parlay price (verified from user's slip)",
-    "status": "Pending",
+    "status": "L",
     "grade": "A",
     "why": "[A] 6 TDs in 5 games; 14% of team inside-10 opps (L4 10%); team implied 27.5 pts; DAL pass D: EPA #32, 2.0 pass TD/g allowed; RZ D #22. Model 58% vs 45% implied (fair -137). Jacobs out; 51°F dry."
    },
@@ -12782,7 +12881,7 @@
     "game": "DAL @ GB 8:20 PM ET Sun",
     "odds": "SGP +207 (w/ Watson)",
     "book": "Hard Rock same-game parlay price (verified from user's slip)",
-    "status": "Pending",
+    "status": "W",
     "grade": "A-",
     "why": "[A-] 7 TDs in 5 games; 50% of team inside-10 opps (L4 52%); team implied 26 pts; GB run D: rush EPA #27, stuff rate #9, 1.6 rush TD/g allowed; RZ D #25. Model 71% vs 69% implied (fair -246)."
    },
@@ -12899,12 +12998,12 @@
  },
  "edge_record": {
   "overall": {
-   "w": 2,
+   "w": 3,
    "l": 3,
    "p": 0,
-   "pct": 40,
-   "units": 7.87,
-   "pending": 1
+   "pct": 50,
+   "units": 9.02,
+   "pending": 0
   },
   "by_sport": {
    "MLB": {
@@ -12916,12 +13015,12 @@
     "pending": 0
    },
    "NFL": {
-    "w": 1,
+    "w": 2,
     "l": 1,
     "p": 0,
-    "pct": 50,
-    "units": -0.13,
-    "pending": 1
+    "pct": 67,
+    "units": 1.02,
+    "pending": 0
    },
    "NHL": {
     "w": 0,
@@ -12950,12 +13049,12 @@
     "pending": 0
    },
    "NFL receptions": {
-    "w": 0,
+    "w": 1,
     "l": 0,
     "p": 0,
-    "pct": null,
-    "units": 0.0,
-    "pending": 1
+    "pct": 100,
+    "units": 1.15,
+    "pending": 0
    },
    "NFL spread": {
     "w": 1,
@@ -13582,8 +13681,8 @@
    "prop": "NFL parlay",
    "pick": "2-leg",
    "odds": "+126",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "legs L/W"
   },
   {
    "date": "2026-10-18",
@@ -13592,8 +13691,8 @@
    "prop": "NFL prop",
    "pick": "Dak Prescott 275+ pass yds",
    "odds": "-120",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "258 pass yds"
   },
   {
    "date": "2026-10-18",
@@ -13642,8 +13741,8 @@
    "prop": "NFL anytime TD",
    "pick": "Christian Watson (WR) ATD · 10/18 TDCITY 11-leg +48611 $1",
    "odds": "SGP +207 (w/ Javonte)",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "anytime TD (td-city.json)"
   },
   {
    "date": "2026-10-18",
@@ -13662,8 +13761,8 @@
    "prop": "NFL anytime TD",
    "pick": "Javonte Williams (RB) ATD · 10/18 TDCITY 11-leg +48611 $1",
    "odds": "SGP +207 (w/ Watson)",
-   "res": "Pending",
-   "stat": "—"
+   "res": "W",
+   "stat": "anytime TD (td-city.json)"
   },
   {
    "date": "2026-10-18",
@@ -13812,8 +13911,8 @@
    "prop": "NFL receptions",
    "pick": "Christian Watson Under 4.5 Receptions",
    "odds": "+115",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (3 rec)"
   }
  ],
  "tracked_rows": [
@@ -14509,8 +14608,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 77,
-  "headline": 77
+  "tiles_sum": 82,
+  "headline": 82
  },
  "inning_record": {
   "w": 13,
@@ -14518,21 +14617,21 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-18 23:40 ET",
-  "generated_ts": 1792381257,
+  "generated": "2026-10-18 23:48 ET",
+  "generated_ts": 1792381710,
   "hr_fetched": "2026-10-18 23:40 ET",
   "hr_fetched_ts": 1792381200,
-  "hr_age_min": 1,
+  "hr_age_min": 8,
   "sports": {
    "NFL": {
     "games": [
      {
       "game": "Cowboys @ Packers",
-      "score": "DAL 7 @ GB 23",
-      "clock": "1:03 - 4th",
+      "score": "DAL 13 @ GB 23",
+      "clock": "Final",
       "espn_id": "401873007",
       "picks": [],
-      "note": "Hard Rock has this game's live markets suspended right now (scoring play or review); lines return when they reopen."
+      "note": "Just kicked off: lines appear once the game is underway (a few minutes in)."
      }
     ],
     "note": ""
