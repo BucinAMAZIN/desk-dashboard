@@ -1,5 +1,5 @@
 {
- "generated": 1792432699.243653,
+ "generated": 1792433066.7997568,
  "today": {
   "title": "Oct 19 picks (Hard Rock prices · nothing placed yet)",
   "tickets": [
@@ -3973,6 +3973,13 @@
      "pick": "Rachaad White o12.5 rec yds (WSH @ SF MNF, 8:15 PM ET; MNF POTD)",
      "odds": "-110 DK",
      "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL parlay",
+     "pick": "NFL 2-leg parlay: Rachaad White anytime TD + Christian McCaffrey 80+ rush yds (WSH @ SF MNF, 8:15 PM ET; \"MINI SGP Lotto\")",
+     "odds": "+488 FD (+677 Polymarket)",
+     "status": "Pending"
     }
    ]
   },
@@ -4473,6 +4480,48 @@
      "prop": "NHL team total (over)",
      "pick": "Utah TT Over 3.5 (PIT @ UTA, 9 PM ET; \"6th NHL take\")",
      "odds": "-130 Fanatics",
+     "status": "Pending"
+    },
+    {
+     "sport": "NHL",
+     "prop": "NHL team total (over)",
+     "pick": "Toronto Maple Leafs TT Over 3.5 (SJ @ TOR, 7:30 PM ET; added to NHL card)",
+     "odds": "-106 BR",
+     "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rush yds (over)",
+     "pick": "Brock Purdy o18.5 rush yds (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+     "odds": "-115",
+     "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "George Kittle o66.5 rec yds (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+     "odds": "-113",
+     "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rush yds (over)",
+     "pick": "Jayden Daniels o37.5 rush yds (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+     "odds": "-115",
+     "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL receptions (over)",
+     "pick": "Rachaad White o2.5 rec (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+     "odds": "+113",
+     "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Rachaad White o13.5 rec yds (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+     "odds": "-112",
      "status": "Pending"
     }
    ]
@@ -5091,7 +5140,7 @@
   "deduped": 20
  },
  "standings": {
-  "updated": "2026-10-19 01:58 PM ET",
+  "updated": "2026-10-19 02:04 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -13526,11 +13575,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 13:58 ET",
-  "generated_ts": 1792432708,
+  "generated": "2026-10-19 14:04 ET",
+  "generated_ts": 1792433076,
   "hr_fetched": "2026-10-19 13:50 ET",
   "hr_fetched_ts": 1792432200,
-  "hr_age_min": 8,
+  "hr_age_min": 15,
   "sports": {
    "NASCAR": {
     "games": [],
@@ -21024,6 +21073,102 @@
     "leg": false,
     "img": null,
     "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL team total (over)",
+    "fam": "Team total",
+    "pick": "Toronto Maple Leafs TT Over 3.5 (SJ @ TOR, 7:30 PM ET; added to NHL card)",
+    "odds": "-106 BR",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "Brock Purdy o18.5 rush yds (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "George Kittle o66.5 rec yds (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+    "odds": "-113",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "Jayden Daniels o37.5 rush yds (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Rachaad White o13.5 rec yds (WSH @ SF MNF, 8:15 PM ET; MNF card)",
+    "odds": "-112",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL parlay",
+    "fam": "Parlay",
+    "pick": "NFL 2-leg parlay: Rachaad White anytime TD + Christian McCaffrey 80+ rush yds (WSH @ SF MNF, 8:15 PM ET; \"MINI SGP Lotto\")",
+    "odds": "+488 FD (+677 Polymarket)",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
    }
   ],
   "summary": {
@@ -21064,7 +21209,7 @@
      "w": 143,
      "l": 136,
      "p": 3,
-     "pending": 47,
+     "pending": 53,
      "units": 7
     },
     "legs": {
@@ -21080,8 +21225,8 @@
    "2026-10-15 B 2-leg merged into our posted Parlay +100 (same ticket)",
    "2026-10-18 placed Lotto Ticket (Lotto Ticket 11-leg (SGPMAX, 50% profit boost)) counted once in Official Placed tickets (not Unofficial/Lotto)",
    "2026-10-18 +100 2-leg (Jackson Blake o1.5 SOG + Matt Boldy o2.5 SOG) is marked dup in user-tickets.md but matches no posted ticket; counted once as a placed ticket",
-   "cappers: 20 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
-   "cappers: 22 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
+   "cappers: 27 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 23 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "runners-up: 20 rows dropped from Unofficial (same play as an Official pick that day): 2026-10-17 (Quality) Tampa Bay Rays +1.5 F5 -375; 2026-10-17 Ben Kindel o1.5 SOG -115; 2026-10-17 (Quality) Tampa Bay Lightning ML -375; 2026-10-18 (Quality) Denny Hamlin Top 10 -275; 2026-10-18 (Quality) Joel Eriksson Ek o1.5 SOG -400; 2026-10-18 (Quality) Jackson Blake o1.5 SOG -225; 2026-10-18 (Quality) Matt Boldy o2.5 SOG -250; 2026-10-19 (Quality) Guardians F5 Under 2.5 Team Runs -325; 2026-10-19 (Quality) Tampa Bay Rays +1.5 -260; 2026-10-19 (Quality) Guardians Under 4.5 Team Runs -325; 2026-10-19 (Quality) Rays Over 1.5 Team Runs -500; 2026-10-19 (Quality) Nazem Kadri o1.5 SOG -300; 2026-10-17 Charlie McAvoy o1.5 SOG -115; 2026-10-17 Will Cuylle o1.5 SOG -130; 2026-10-17 Seattle Kraken Over 2.5 Team Total -125; 2026-10-17 Tampa Bay Rays F5 ML -125; 2026-10-18 Minnesota Wild ML -185; 2026-10-18 Carolina Hurricanes ML -200; 2026-10-19 San Francisco 49ers Over 23.5 Team Total -450; 2026-10-19 Jack Roslovic o1.5 SOG -210"
   ],
   "ru_dropped": [
