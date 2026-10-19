@@ -112,7 +112,7 @@ details.r2rules{background:none;border-top:1px solid #30363d55;border-radius:0;m
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792398675';
+const UI_BUILD='1792398894';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -481,7 +481,7 @@ details>summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{d
 .rules ul{margin:0;padding-left:18px;font-size:12.5px;color:#c4cad6}.rules li{margin:3px 0}
 .upd{text-align:center;color:#8b949e;font-size:12px;margin-top:14px}
 `;
-const E=s=>RV1_GE(s).replace(/"/g,'&quot;');
+const E=s=>String(s??'—').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));const NE=s=>RV1_GE(s).replace(/"/g,'&quot;');
 const rec=a=>{let w=0,l=0,p=0,pe=0;a.forEach(r=>{if(r.res=='W')w++;else if(r.res=='L')l++;else if(r.res=='P'||r.res=='V')p++;else pe++});return{w,l,p,pe,u:w-l,n:a.length,pct:w+l?Math.round(100*w/(w+l)):null}};
 const fr=s=>`${s.w}-${s.l}${s.p?'-'+s.p:''}`;
 const fu=u=>`<span class="${u>0?'pos':u<0?'neg':'zer'}">${u>0?'+':''}${u}u</span>`;
@@ -498,7 +498,7 @@ function bars(groups,top=8){const L=Object.entries(groups).map(([k,v])=>[k,rec(v
  const one=([k,s])=>`<div class=br><span class=nm>${E(k)}</span><div class=bar>${s.w+s.l?`<i class=bw style="width:${100*s.w/(s.w+s.l)}%"></i><i class=bl style="width:${100*s.l/(s.w+s.l)}%"></i>`:''}</div><span class=wl>${fr(s)}</span><span class=uu>${fu(s.u)}</span></div>`;
  return `<div class=bars>${L.slice(0,top).map(one).join('')}${L.length>top?`<details class=more><summary>Show ${L.length-top} more ▾</summary>${L.slice(top).map(one).join('')}</details>`:''}</div>`}
 const grp=(a,f)=>{const M={};a.forEach(r=>{const k=f(r);(M[k]=M[k]||[]).push(r)});return M};
-function prow(r){return`<div class=pr><span class="rs r${r.res||'X'}">${lab[r.res]||'…'}</span><div class=n>${r.leg?'↳ ':''}${E(INT(r.pick))}${r.alt?' <span class=alt>ALT</span>':''}${INT(r.sub)?`<small>${E(INT(r.sub))}</small>`:''}<small>${E(r.date.slice(5).replace('-','/'))} · ${E(r.sport)} · ${E(INT(r.prop))}${INT(r.stat)&&r.stat!='—'?' · '+E(INT(r.stat)):''}</small></div><span class=o>${E(r.odds)}${r.img?`<a href="${E(r.img)}" target=_blank rel=noopener>🧾 slip</a>`:''}</span></div>`}
+function prow(r){return`<div class=pr><span class="rs r${r.res||'X'}">${lab[r.res]||'…'}</span><div class=n>${r.leg?'↳ ':''}${NE(INT(r.pick))}${r.alt?' <span class=alt>ALT</span>':''}${INT(r.sub)?`<small>${NE(INT(r.sub))}</small>`:''}<small>${E(r.date.slice(5).replace('-','/'))} · ${E(r.sport)} · ${NE(INT(r.prop))}${INT(r.stat)&&r.stat!='—'?' · '+NE(INT(r.stat)):''}</small></div><span class=o>${E(r.odds)}${r.img?`<a href="${E(r.img)}" target=_blank rel=noopener>🧾 slip</a>`:''}</span></div>`}
 function plist(a,n=5,title='RECENT'){const s=a.slice().sort((x,y)=>x.date<y.date?1:x.date>y.date?-1:0);return`<div class=sec>${title}<i></i></div>${s.slice(0,n).map(prow).join('')}${s.length>n?`<details class=more><summary>Show all ${s.length} ▾</summary>${s.slice(n).map(prow).join('')}</details>`:''}`}
 function card(cls,emb,a,unit,body,extra=''){const s=rec(a);
  const sum=`<summary>${emb}<div class=st>${a.length?`<div class=r>${fr(s)}<span class=u>${fu(s.u)}</span></div><small>${pl(a.length,unit)}${s.pe?' · '+s.pe+' pending':''}</small>${extra?`<small>${extra}</small>`:''}`:`<div class=r style="font-size:15px;font-style:normal">No picks yet</div><small>${F0=='All'?'Nothing tracked':'Nothing tracked for '+E(F0)}</small>`}</div>${ovr(s)}<span class=chev>▸</span></summary>`;
