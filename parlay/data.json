@@ -1,27 +1,27 @@
 {
- "generated": 1792404662.5117004,
+ "generated": 1792405036.9732661,
  "today": {
   "title": "Oct 19 placed bets (Hard Rock)",
   "tickets": [
    {
     "name": "POTD",
-    "desc": "Philadelphia Flyers Under 2.5 Team Total -115, $2.50, pays $4.67 (COL @ PHI 7:00 PM ET)",
+    "desc": "Philadelphia Flyers Under 2.5 Team Total -115, $2.30, pays $4.30 (COL @ PHI 7:00 PM ET)",
     "odds": "-115",
-    "stake": "$2.50",
-    "payout": "$4.67",
+    "stake": "$2.30",
+    "payout": "$4.30",
     "status": "Pending",
     "game": "COL @ PHI 7:00 PM ET",
     "legs": [],
-    "why": "Philadelphia has scored 2 or fewer goals in 9 of 10 games this season (0, 2, 2, 1, 1, 1, 1, 2, 1, 3, oldest first). Its 1.40 goals per game are the fewest in the NHL, it takes the second-fewest shots (21.2 per game), and its power play is at 10.3% (NHL stats API). ESPN lists three of its forwards as day-to-day: Tyson Foerster and Owen Tippett (its top two shooters, with 22 and 21 shots) and Sean Couturier. Colorado (5-2-1) outshoots teams 30.8 to 26.0 per game, so Philly should spend most of the night in its own end. Philly's three overtime or shootout games all ended with 2 goals for. Neither team is on a back-to-back (COL last played Oct 16, PHI Oct 17). Record check: NHL team totals are 2-0 across our sport picks and runners-up, too few to lean on. NHL is our strongest sport (NHL SOG 14-6). Hard Rock's -115 (Over 2.5 is -105, from the 1:16 AM ET feed pull) implies 53.5%, while Philly has stayed at 2 or fewer in 9 of 10. The stake is 5% of the $46.54 bankroll ($2.33), rounded to $2.50.",
+    "why": "Philadelphia has scored 2 or fewer goals in 9 of 10 games this season (0, 2, 2, 1, 1, 1, 1, 2, 1, 3, oldest first). Its 1.40 goals per game are the fewest in the NHL, it takes the second-fewest shots (21.2 per game), and its power play is at 10.3% (NHL stats API). ESPN lists three of its forwards as day-to-day: Tyson Foerster and Owen Tippett (its top two shooters, with 22 and 21 shots) and Sean Couturier. Colorado (5-2-1) outshoots teams 30.8 to 26.0 per game, so Philly should spend most of the night in its own end. Philly's three overtime or shootout games all ended with 2 goals for. Neither team is on a back-to-back (COL last played Oct 16, PHI Oct 17). Record check: NHL team totals are 2-0 across our sport picks and runners-up, too few to lean on. NHL is our strongest sport (NHL SOG 14-6). Hard Rock's -115 (Over 2.5 is -105, from the 1:16 AM ET feed pull) implies 53.5%, while Philly has stayed at 2 or fewer in 9 of 10. The stake is 5% of the $46.09 bankroll, $2.30.",
     "pick": "Philadelphia Flyers Under 2.5 Team Total",
     "why_not": "Colorado's goalies have been shaky (Blackwood .891, Wedgewood .902), and the Avs have allowed 3 or more goals in 4 of 8 games. Philly scored 3 in its last game, and a 1.40 scoring rate is likely to climb over time."
    },
    {
     "name": "+100 ticket",
-    "desc": "3-leg +105, $2.50, pays $5.12",
+    "desc": "3-leg +105, $2.30, pays $4.71",
     "odds": "+105",
-    "stake": "$2.50",
-    "payout": "$5.12",
+    "stake": "$2.30",
+    "payout": "$4.71",
     "status": "Pending",
     "game": "",
     "legs": [
@@ -1941,7 +1941,7 @@
     "p": 2,
     "pct": 57
    },
-   "pending": 5
+   "pending": 6
   },
   "props": [
    {
@@ -2256,22 +2256,29 @@
    },
    {
     "date": "2026-10-19",
-    "pick": "NHL · Leg: Dylan Guenther o1.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+    "pick": "NHL · Leg: Dylan Guenther o1.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
     "odds": "-575 rec",
     "result": "Pending",
     "detail": "—"
    },
    {
     "date": "2026-10-19",
-    "pick": "MLB · Leg: Cleveland Guardians F5 u2.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+    "pick": "MLB · Leg: Cleveland Guardians F5 u2.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
     "odds": "-325 rec",
     "result": "Pending",
     "detail": "—"
    },
    {
     "date": "2026-10-19",
-    "pick": "NHL · Leg: Nazem Kadri o1.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+    "pick": "NHL · Leg: Nazem Kadri o1.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
     "odds": "-300 rec",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "BIG 4 · Parlay: 3-leg (daily +100 ticket)",
+    "odds": "+105",
     "result": "Pending",
     "detail": "—"
    },
@@ -4375,7 +4382,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-19 06:11 AM ET",
+  "updated": "2026-10-19 06:17 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12532,10 +12539,20 @@
   },
   {
    "date": "2026-10-19",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "Big 4 parlay",
+   "pick": "3-leg (daily +100 ticket)",
+   "odds": "+105",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
    "sport": "NHL",
    "type": "Leg",
    "prop": "NHL SOG",
-   "pick": "Nazem Kadri o1.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+   "pick": "Nazem Kadri o1.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
    "odds": "-300 rec",
    "res": "Pending",
    "stat": "—"
@@ -12545,7 +12562,7 @@
    "sport": "MLB",
    "type": "Leg",
    "prop": "MLB F5 team total",
-   "pick": "Cleveland Guardians F5 u2.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+   "pick": "Cleveland Guardians F5 u2.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
    "odds": "-325 rec",
    "res": "Pending",
    "stat": "—"
@@ -12555,7 +12572,7 @@
    "sport": "NHL",
    "type": "Leg",
    "prop": "NHL SOG",
-   "pick": "Dylan Guenther o1.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+   "pick": "Dylan Guenther o1.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
    "odds": "-575 rec",
    "res": "Pending",
    "stat": "—"
@@ -13378,11 +13395,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 06:11 ET",
-  "generated_ts": 1792404674,
+  "generated": "2026-10-19 06:17 ET",
+  "generated_ts": 1792405051,
   "hr_fetched": "2026-10-19 06:09 ET",
   "hr_fetched_ts": 1792404540,
-  "hr_age_min": 2,
+  "hr_age_min": 9,
   "sports": {
    "NASCAR": {
     "games": [],
@@ -14752,12 +14769,28 @@
    },
    {
     "date": "2026-10-19",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "Big 4 parlay",
+    "pick": "3-leg (daily +100 ticket)",
+    "odds": "+105",
+    "res": "",
+    "stat": "—",
+    "sub": "Nazem Kadri o1.5 SOG + Guardians F5 Under 2.5 Team Runs + Dylan Guenther o1.5 SOG",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-19",
     "sport": "NHL",
     "grp": "O",
     "cat": "Parlay +100",
     "leg": true,
     "prop": "NHL SOG",
-    "pick": "Nazem Kadri o1.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+    "pick": "Nazem Kadri o1.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
     "odds": "-300 rec",
     "res": "",
     "stat": "—",
@@ -14773,7 +14806,7 @@
     "cat": "Parlay +100",
     "leg": true,
     "prop": "MLB F5 team total",
-    "pick": "Cleveland Guardians F5 u2.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+    "pick": "Cleveland Guardians F5 u2.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
     "odds": "-325 rec",
     "res": "",
     "stat": "—",
@@ -14789,7 +14822,7 @@
     "cat": "Parlay +100",
     "leg": true,
     "prop": "NHL SOG",
-    "pick": "Dylan Guenther o1.5 · 10/19 +100 3-leg +105 $2.50 (rec)",
+    "pick": "Dylan Guenther o1.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
     "odds": "-575 rec",
     "res": "",
     "stat": "—",
@@ -20386,7 +20419,7 @@
      "w": 13,
      "l": 23,
      "p": 1,
-     "pending": 2,
+     "pending": 3,
      "units": -10
     },
     "legs": {
