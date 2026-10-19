@@ -1,5 +1,5 @@
 {
- "generated": 1792445014.8426995,
+ "generated": 1792445487.2181015,
  "today": {
   "title": "Oct 19 placed bets (Hard Rock)",
   "tickets": [
@@ -2398,10 +2398,10 @@
  "record": {
   "overall": {
    "official": {
-    "w": 42,
-    "l": 39,
+    "w": 41,
+    "l": 40,
     "p": 1,
-    "pct": 52
+    "pct": 51
    },
    "potd": {
     "w": 5,
@@ -2684,10 +2684,10 @@
    },
    {
     "prop": "MLB HR",
-    "w": 1,
-    "l": 0,
+    "w": 0,
+    "l": 1,
     "p": 0,
-    "pct": 100
+    "pct": 0
    },
    {
     "prop": "NFL receptions",
@@ -3066,8 +3066,8 @@
     "date": "2026-10-18",
     "pick": "MLB · Edge: Petey Halpin Over 0.5 Home Runs",
     "odds": "+1000",
-    "result": "W",
-    "detail": "Win (total 4)"
+    "result": "L",
+    "detail": "Loss (0 HR)"
    },
    {
     "date": "2026-10-18",
@@ -4117,11 +4117,11 @@
    ],
    [
     "10/18",
-    2
+    0
    ],
    [
     "10/18",
-    3
+    1
    ]
   ]
  },
@@ -5561,7 +5561,7 @@
   "deduped": 13
  },
  "standings": {
-  "updated": "2026-10-19 05:23 PM ET",
+  "updated": "2026-10-19 05:31 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -8318,10 +8318,10 @@
  "sport_records": [
   {
    "sport": "MLB",
-   "w": 6,
-   "l": 6,
+   "w": 5,
+   "l": 7,
    "p": 1,
-   "pct": 50,
+   "pct": 42,
    "active": true,
    "runners_up": {
     "w": 12,
@@ -8500,10 +8500,10 @@
  "sport_categories": [
   {
    "sport": "MLB",
-   "w": 6,
-   "l": 6,
+   "w": 5,
+   "l": 7,
    "p": 1,
-   "pct": 50,
+   "pct": 42,
    "props": [
     {
      "prop": "MLB o0.5 hits",
@@ -8570,17 +8570,17 @@
     },
     {
      "prop": "MLB HR",
-     "w": 1,
-     "l": 0,
+     "w": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100
+     "pct": 0
     }
    ],
    "official": {
-    "w": 6,
-    "l": 6,
+    "w": 5,
+    "l": 7,
     "p": 1,
-    "pct": 50,
+    "pct": 42,
     "props": [
      {
       "prop": "MLB o0.5 hits",
@@ -8647,10 +8647,10 @@
      },
      {
       "prop": "MLB HR",
-      "w": 1,
-      "l": 0,
+      "w": 0,
+      "l": 1,
       "p": 0,
-      "pct": 100
+      "pct": 0
      }
     ]
    },
@@ -13920,20 +13920,20 @@
  },
  "edge_record": {
   "overall": {
-   "w": 3,
-   "l": 3,
+   "w": 2,
+   "l": 4,
    "p": 0,
-   "pct": 50,
-   "units": 9.02,
+   "pct": 33,
+   "units": -1.98,
    "pending": 51
   },
   "by_sport": {
    "MLB": {
-    "w": 1,
-    "l": 0,
+    "w": 0,
+    "l": 1,
     "p": 0,
-    "pct": 100,
-    "units": 10.0,
+    "pct": 0,
+    "units": -1.0,
     "pending": 4
    },
    "NFL": {
@@ -13963,11 +13963,11 @@
   },
   "by_prop": {
    "MLB HR": {
-    "w": 1,
-    "l": 0,
+    "w": 0,
+    "l": 1,
     "p": 0,
-    "pct": 100,
-    "units": 10.0,
+    "pct": 0,
+    "units": -1.0,
     "pending": 3
    },
    "MLB spread": {
@@ -15149,8 +15149,8 @@
    "prop": "MLB HR",
    "pick": "Petey Halpin Over 0.5 Home Runs",
    "odds": "+1000",
-   "res": "W",
-   "stat": "Win (total 4)"
+   "res": "L",
+   "stat": "Loss (0 HR)"
   },
   {
    "date": "2026-10-18",
@@ -16606,11 +16606,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 17:23 ET",
-  "generated_ts": 1792445022,
+  "generated": "2026-10-19 17:31 ET",
+  "generated_ts": 1792445496,
   "hr_fetched": "2026-10-19 17:15 ET",
   "hr_fetched_ts": 1792444500,
-  "hr_age_min": 9,
+  "hr_age_min": 17,
   "sports": {
    "NASCAR": {
     "games": [],
@@ -16723,7 +16723,7 @@
  },
  "alt_lines": {
   "date": "2026-10-19",
-  "built": "2026-10-19 17:23",
+  "built": "2026-10-19 17:31",
   "max": 10,
   "per_game": 4,
   "sports": {
@@ -19099,8 +19099,8 @@
     "prop": "MLB HR",
     "pick": "Petey Halpin Over 0.5 Home Runs",
     "odds": "+1000",
-    "res": "W",
-    "stat": "Win (total 4)",
+    "res": "L",
+    "stat": "Loss (0 HR)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -26398,11 +26398,11 @@
    },
    "E": {
     "tickets": {
-     "w": 3,
-     "l": 3,
+     "w": 2,
+     "l": 4,
      "p": 0,
      "pending": 51,
-     "units": 0
+     "units": -2
     },
     "legs": {
      "w": 0,
