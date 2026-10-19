@@ -102,6 +102,8 @@ details.r2slip{margin:2px 0 6px;border-radius:10px}details.r2slip>summary{paddin
 details.r2more>summary{font-size:12px;color:#f5c542;padding:6px 4px}.r2dt{font-size:10px;color:#8b93a7;margin-top:4px}
 .r2tag{font-size:10px;padding:2px 7px;border-radius:999px;background:#f5c54222;color:#f5c542;font-weight:700}
 details.r2rules{background:none;border-top:1px solid #30363d55;border-radius:0;margin-top:12px}details.r2rules>summary{font-size:12px;color:#8b93a7;padding:8px 4px}details.r2rules ul{margin:0;padding:0 8px 10px 22px;font-size:12px;color:#aab}details.r2rules li{margin:3px 0}
+
+/*SB-V2 tiles*/.sbv2 .sbr{color:#e6edf3;font-weight:700}.sbp{color:#3fb950;font-weight:700}.sbn{color:#f85149;font-weight:700}.sbz{color:#8b949e;font-weight:700}
 </style></head><body>
 
 <div class="uit"><button id="tLg" title="Large text">Aa</button><button id="tDay" title="Day / Night">🌙 Night</button></div><div id="hb" class="card" style="margin-bottom:6px;padding:10px 12px"></div><div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Record</div><div class="tab" data-k="cappers">Cappers</div><div class="tab" data-k="bankroll">Bankroll</div></div>
@@ -110,7 +112,7 @@ details.r2rules{background:none;border-top:1px solid #30363d55;border-radius:0;m
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792390108';
+const UI_BUILD='1792398203';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -126,7 +128,9 @@ let ALL=sessionStorage.getItem('allsp')=='1';
 function spOf(t){t=t||'';if(/\b(NASCAR|GOLF|PGA|LPGA)\b/i.test(t))return'OTHER';if(/\b(NHL|SOG|puck|Lightning|Kraken|Blues|Kings|Penguins)\b/i.test(t))return'NHL';if(/\b(MLB|F5|RBI|Rays|Guardians|innings?|strikeouts?|hits allowed)\b/i.test(t))return'MLB';if(/\bNBA\b/i.test(t))return'NBA';if(/\b(NFL|Rec Yds|Rush Yds|touchdowns?|TDs?)\b/i.test(t))return'NFL';return'';}
 function isMaj(t){const s=spOf(t);return s?['MLB','NHL','NBA','NFL'].includes(s):true}
 function setAll(v){ALL=v;sessionStorage.setItem('allsp',v?'1':'0');draw()}
-function sbub(){const R=(D.sport_records||[]).filter(r=>K=='record'||r.sport!='BIG 4');return (K=='record'?`<div class="card" style="cursor:pointer;${!RF?'border-color:#1f6feb;background:#1f6feb22':''}" onclick="setRF('')"><b>All</b><span class=m>${(()=>{const o=((D.record||{}).overall||{}).official||{};return `${o.w}-${o.l}-${o.p} · ${o.pct==null?'—':o.pct+'%'}`})()}</span></div>`:'')+R.map(r=>`<div class="card" style="cursor:pointer;${(K=='sport'&&SP==r.sport)||(K=='record'&&RF==r.sport)?'border-color:#1f6feb;background:#1f6feb22':''}" onclick="${K=='record'?`setRF('${E(r.sport)}')`:`goSport('${E(r.sport)}')`}"><b>${E(r.label||r.sport)}</b><span class=m>${E(r.w)}-${E(r.l)}-${E(r.p)} · ${r.pct==null?'—':r.pct+'%'}</span></div>`).join('')}
+function sbV2(sp){const X=((D.results_v2||{}).rows||[]),k={'NCAA F':'NCAAF','BIG 4':'Big 4'}[sp]||sp;let w=0,l=0,p=0,pe=0;X.forEach(r=>{if(r.grp!='O'||r.leg||(k!='*'&&r.sport!=k))return;if(r.res=='W')w++;else if(r.res=='L')l++;else if(r.res=='P'||r.res=='V')p++;else pe++});return{w,l,p,pe,u:w-l}}
+function sbT(lab,v,on,click){const n=v.w+v.l+v.p;return `<div class="card sbv2" style="cursor:pointer;${on?'border-color:#1f6feb;background:#1f6feb22':''}" onclick="${click}"><b>${E(lab)}</b><span class=m>${n?`<span class="sbr">${v.w}-${v.l}${v.p?'-'+v.p:''}</span> · <span class="${v.u>0?'sbp':v.u<0?'sbn':'sbz'}">${v.u>0?'+':''}${v.u}u</span>`:'No tickets yet'}${v.pe?` · ${v.pe} pend`:''}</span></div>`}
+function sbub(){const R=(D.sport_records||[]).filter(r=>K=='record'||r.sport!='BIG 4');if(D.results_v2&&D.results_v2.rows)return K=='record'?sbT('All',sbV2('*'),!RF,"setRF('')")+R.map(r=>sbT(r.label||r.sport,sbV2(r.sport),RF==r.sport,`setRF('${E(r.sport)}')`)).join(''):R.map(r=>sbT(r.label||r.sport,sbV2(r.sport),K=='sport'&&SP==r.sport,`goSport('${E(r.sport)}')`)).join('');return (K=='record'?`<div class="card" style="cursor:pointer;${!RF?'border-color:#1f6feb;background:#1f6feb22':''}" onclick="setRF('')"><b>All</b><span class=m>${(()=>{const o=((D.record||{}).overall||{}).official||{};return `${o.w}-${o.l}-${o.p} · ${o.pct==null?'—':o.pct+'%'}`})()}</span></div>`:'')+R.map(r=>`<div class="card" style="cursor:pointer;${(K=='sport'&&SP==r.sport)||(K=='record'&&RF==r.sport)?'border-color:#1f6feb;background:#1f6feb22':''}" onclick="${K=='record'?`setRF('${E(r.sport)}')`:`goSport('${E(r.sport)}')`}"><b>${E(r.label||r.sport)}</b><span class=m>${E(r.w)}-${E(r.l)}-${E(r.p)} · ${r.pct==null?'—':r.pct+'%'}</span></div>`).join('')}
 
 let SP='';
 let RF=localStorage.getItem('recSP')||'';function setRF(v){RF=(RF===v?'':v);localStorage.setItem('recSP',RF);draw()}
@@ -216,7 +220,7 @@ function edgeBox(){const A=((D.edge||{}).picks||[]).filter(p=>p.sport==SP).sort(
  const st=r=>/^Win/.test(r)?chip('Win'):/^Loss/.test(r)?chip('Loss'):/^Push/.test(r)?chip('Push'):chip('Pending');
  const row=p=>`<details class="leg"><summary><div class="row"><div><b class=m style="color:#39c5bb">#${E(p.rank)}</b> ${E(p.pick)}<div class=m>${E(p.game)} · ${E((p.start||'').replace(/^\w+ [\d/]+ /,''))} <span class="lkt" style="margin-left:6px;font-size:10px;padding:0 5px;border-radius:4px;border:1px solid #3fb95066;color:#3fb950;white-space:nowrap">🔒 Locked</span></div><div class=m style="font-size:11px">Pinnacle fair ${E(p.fair)} · <b style="color:#39c5bb">+${(p.edge*100).toFixed(2)}%</b></div></div><div style="text-align:right;white-space:nowrap">${E(p.hr)} ${st(p.result||'')}<div class=m>Why ▾</div></div></div></summary><div class=m style="font-size:12px;padding:4px 0">Hard Rock ${E(p.hr)} vs Pinnacle no-vig fair ${E(p.fair)} (${p.fair_prob!=null?(p.fair_prob*100).toFixed(1)+'%':'—'}) → edge +${(p.edge*100).toFixed(2)}%. Picked ${E(p.picked_et||'')}.${/\(/.test(p.result||'')?' Result: '+E(p.result):''}</div></details>`;
  return `<div class="edgebox"><details class="card edgec"><summary><div class="elogo"><img src="edge-logo-crop.jpg" alt="EDGE"><i class="eglint"></i></div><div class="row"><div><b style="font-size:15px">${A.length?A.length+' play'+(A.length>1?'s':''):'No +EV play today'}</b><div class="m" style="font-size:11px">Official · tracked under Edge</div></div><span class=m>▾</span></div></summary><div class=m style="font-size:11px;margin:4px 0">Hard Rock price vs Pinnacle no-vig fair · -130 or better · one per game</div>${A.map(row).join('')}</details></div>`}
-function sport(){const S=((D.today||{}).sports||{})[SP];const SR=(D.sport_records||[]).find(x=>x.sport==SP)||{},SU=SR.runners_up||{w:0,l:0,p:0,pct:null};let h=qualBox()+nlBox()+`<div class="card" style="padding:8px 12px"><div class="row"><span class=m>${E(SP)} official record</span><span><b>${E(SR.w??0)}-${E(SR.l??0)}-${E(SR.p??0)}</b> <span class=m>· ${SR.pct==null?'—':SR.pct+'%'}</span></span></div><div class="row" style="margin-top:2px"><span class=m style="font-size:12px">Runners-up (unofficial)</span><span class=m style="font-size:12px"><b style="color:#c9d1d9">${E(SU.w)}-${E(SU.l)}-${E(SU.p)}</b> · ${SU.pct==null?'—':SU.pct+'%'}</span></div></div><h2>${E(SP)} picks today</h2>${SP=='MLB'?'':'<div class="m" style="margin-bottom:6px">Official · tap a pick for the reasoning</div>'}`;
+function sport(){const S=((D.today||{}).sports||{})[SP];const SR=(D.sport_records||[]).find(x=>x.sport==SP)||{},SU=SR.runners_up||{w:0,l:0,p:0,pct:null};let h=qualBox()+nlBox()+`<div class="card" style="padding:8px 12px"><div class="row">${(()=>{const v=sbV2(SP);return `<span class=m>${E(SP)} official tickets <span style="opacity:.7">(1u flat)</span></span><span><b>${v.w}-${v.l}${v.p?'-'+v.p:''}</b> <span class="${v.u>0?'sbp':v.u<0?'sbn':'sbz'}" style="font-size:12px">${v.u>0?'+':''}${v.u}u</span>${v.pe?` <span class=m>· ${v.pe} pending</span>`:''}</span>`})()}</div><div class="row" style="margin-top:2px"><span class=m style="font-size:12px">Runners-up (unofficial)</span><span class=m style="font-size:12px"><b style="color:#c9d1d9">${E(SU.w)}-${E(SU.l)}-${E(SU.p)}</b> · ${SU.pct==null?'—':SU.pct+'%'}</span></div></div><h2>${E(SP)} picks today</h2>${SP=='MLB'?'':'<div class="m" style="margin-bottom:6px">Official · tap a pick for the reasoning</div>'}`;
  if(!S||(!S.potd&&!S.parlay&&!(S.runners_up||[]).length)){h+=`<div class="card m">${SP=='GOLF'?'No PGA Tour event this week':'No picks today'}</div><div class="card m">Play of the Day: —</div><div class="card m">Parlay +100: —</div>`+edgeBox()+tdBox()+`<h2>`+proj()+`<h2>Runners-up (next-best plays)</h2><div class="card m">No runners-up today</div>`;return h+ltl()+hfa('sport')+fld()}
  const lg=l=>`<details class="leg"><summary><div class="row"><div>${E(l.pick)}<div class=m>${E(l.game)}</div></div><div style="text-align:right;white-space:nowrap">${E(l.odds)} ${chip(l.status)}<div class=m>Why ▾</div></div></div></summary>${why(l.why,l.why_not)}</details>`;
  h+=S.potd?PV8(`Play of the Day${S.potd.chain?` #${E(S.potd.chain)}`:''}`,S.potd):'<div class="card m">No POTD today</div>';h+=(S.potd_more||[]).map(q=>PV8(`Play of the Day #${E(q.n)} · posted after POTD #${E(q.n-1)} settled`,q)).join('');
@@ -286,7 +290,7 @@ function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m
  const rl=(RR.results||[]).concat(...RK.map(k=>(RR[k]||[]).slice(0,3)),RR.grading||[]);
  if(rl.length)h+=`<details class=r2rules><summary>📜 Rules ▾</summary><ul>${rl.map(x=>`<li>${E(x)}</li>`).join('')}</ul></details>`;
  return h+'</div>'}
-function record(){const F=RF,OR=(D.official_rows||[]).filter(x=>!F||x.sport==F),TR=(D.tracked_rows||[]).filter(x=>!F||x.sport==F);
+function recordV0(){const F=RF,OR=(D.official_rows||[]).filter(x=>!F||x.sport==F),TR=(D.tracked_rows||[]).filter(x=>!F||x.sport==F);
  const g=x=>['W','L','P'].includes(x.res),wl=a=>{const w=a.filter(x=>x.res=='W').length,l=a.filter(x=>x.res=='L').length,p=a.filter(x=>x.res=='P').length;return{w,l,p,pct:w+l?Math.round(100*w/(w+l)):null}};
  const L=wl(OR.filter(g)),P=wl(OR.filter(x=>g(x)&&x.type=='POTD')),T=wl(OR.filter(x=>g(x)&&x.type=='Parlay')),TK=wl(OR.filter(x=>g(x)&&x.type=='Leg')),RU=wl(TR.filter(g)),pend=OR.filter(x=>!g(x)&&x.res!='Void').length;
  const lab=F?(F=='BIG 4'?'Big 4':F):'All sports';
@@ -334,7 +338,224 @@ function bankroll(){const b=D.bankroll;if(!b)return '<div class="card m">No bank
  h+='<h2>Pending bets</h2><div class="card"><table>'+((b.pending_bets||[]).map(p=>`<tr><td>${E(p.bet)}</td><td style="white-space:nowrap">${E(p.stake)}</td><td class="g" style="text-align:right;white-space:nowrap">${E(p.pays)}</td></tr>`).join('')||'<tr><td class=m>None</td></tr>')+'</table></div>';
  h+='<h2>Ledger</h2><div class="card"><table>'+[...(b.ledger||[])].reverse().slice(0,15).map(l=>`<tr><td class=m>${E(l.date)}</td><td>${E(l.event)}<div class=m>Avail ${f(l.available)} · Pend ${f(l.pending)}</div></td><td style="text-align:right">${E(l.amount)}<div><b>${f(l.total)}</b></div></td></tr>`).join('')+'</table></div>';
  return h}
-function draw(){if(!D)return;{const b=D.bankroll||{},f=v=>v==null?'—':'$'+(+v).toFixed(2);$('hb').innerHTML=`<div class="row"><div><div class=m>Hard Rock balance</div><div style="font-size:26px;font-weight:700" class=g>${f(b.available)}</div></div><div class=m style="text-align:right">Total ${f(b.total)}<br>Pending <span class=y>${f(b.pending)}</span></div></div>`}document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));const op=[...document.querySelectorAll('details')].map(d=>d.open);$('sb').innerHTML=sbub();$('v').innerHTML={today,results,record,cappers,bankroll,sport}[K]();document.querySelectorAll('details').forEach((d,i)=>{if(op[i])d.open=true});paintLU();paintNow();paintLock();try{stBox()}catch(_){}lvBox();try{ndBox()}catch(_){}collapsify();try{ndEnsure()}catch(_){}$('upd').textContent='Updated '+et(D.generated)}
+/* RECORD-V1 (live Oct 19 2026, user-approved): Official / Edge / Unofficial record built from D.results_v2 (same counting as Results v2). Rendered in a shadow root so no global CSS or post-render hooks touch it. */
+const RV1_GE=s=>E(s);
+(function(){
+const INTRX=/\b[\w\-\/]+\.(?:py|md|json|sh|log|txt|csv)\b|\bscripts\b|script-readable|readable from|app-only|not loadable|none cited|\bcron\b|\bloop\.sh\b/i;
+function INT(t){if(t==null)return t;let s=String(t).replace(/\s*\([^()]*\)/g,m=>INTRX.test(m)?'':m);return s.split(/(?<=[.!?])\s+/).filter(x=>x&&!INTRX.test(x)).join(' ').trim()}
+const ETd=t=>new Date(t).toLocaleDateString('en-CA',{timeZone:'America/New_York'});
+let ROWS=[],TD='',WK='',F0='All',FL='All';
+function RULES(){const R=D.rules||{},res=R.results||[],gr=R.grading||[];const pk=(l,ks)=>ks.map(k=>l.find(x=>x.startsWith(k))).filter(Boolean);
+ return [['Groups',pk(res,['Exactly three groups','Official =','Edge =','Unofficial =','Live plays'])],['Counting',pk(res,['Count every ticket once','Headline record','Units ='])],['Grading & void',pk(gr,['Picks are graded','Void =','Voided picks'])]].filter(x=>x[1].length)}
+const CSS=`:host{display:block;font-size:14px;line-height:1.35}
+*{box-sizing:border-box}
+:host(.day) img{filter:invert(1) hue-rotate(180deg)}
+
+.m{color:#8b949e}.pos{color:#3ddc84}.neg{color:#ff5c6c}.zer{color:#c9d1d9}
+details>summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{display:none}
+/* ---------- HERO (crystal / holographic) ---------- */
+.holo{position:relative;border-radius:20px;padding:3px;overflow:hidden;isolation:isolate;box-shadow:0 0 22px rgba(180,120,255,.45),0 0 10px rgba(80,240,255,.35)}
+.holo::before{content:"";position:absolute;left:50%;top:50%;width:220%;aspect-ratio:1;z-index:-1;transform:translate(-50%,-50%) rotate(25deg);background:conic-gradient(from 0deg,#b98cf5,#5ee6f2,#f06ad2,#f2d36a,#a072f0,#5ee6f2,#f06ad2,#b98cf5);animation:spin 8s linear infinite}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(385deg)}}
+.hero .in{position:relative;border-radius:17px;padding:14px 14px 12px;overflow:hidden;
+ background:linear-gradient(155deg,rgba(255,255,255,.07) 0 18%,transparent 18% 100%),linear-gradient(205deg,transparent 0 62%,rgba(160,120,255,.10) 62% 78%,transparent 78%),linear-gradient(115deg,transparent 0 70%,rgba(94,230,242,.08) 70% 100%),radial-gradient(120% 90% at 85% 0%,#2a1460 0,#07011a 60%)}
+.foil{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:inherit;z-index:3}
+.foil::before{content:"";position:absolute;top:-30%;bottom:-30%;left:0;width:55%;opacity:.22;mix-blend-mode:screen;background:linear-gradient(100deg,transparent 0,#ff4fd8 20%,#ffd84a 35%,#fff 50%,#2ef2ff 65%,#b77bff 80%,transparent 100%);transform:translateX(40%) skewX(-22deg);animation:foil 4.5s cubic-bezier(.4,0,.3,1) infinite}
+@keyframes foil{0%{transform:translateX(-140%) skewX(-22deg)}70%,100%{transform:translateX(260%) skewX(-22deg)}}
+.kick{font-size:10.5px;font-weight:800;letter-spacing:.2em;color:#cdb8ff;display:flex;align-items:center;gap:6px}
+.kick i{flex:1;height:1px;background:linear-gradient(90deg,#b98cf588,transparent)}
+.big{display:flex;align-items:flex-end;gap:10px;margin-top:4px}
+.bigrec{font-size:50px;font-weight:900;font-style:italic;letter-spacing:-.02em;line-height:1;background:linear-gradient(100deg,#fff 0,#efe6ff 35%,#a9f1ff 55%,#ffd1f3 75%,#fff 100%);-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 2px 10px rgba(150,110,255,.45))}
+.bigside{display:flex;flex-direction:column;gap:3px;padding-bottom:3px}
+.upill{font-weight:900;font-size:15px;padding:2px 9px;border-radius:999px;background:#ffffff10;border:1px solid #ffffff22;width:max-content}
+.subl{font-size:12px;color:#b4acd6;margin-top:6px}
+.subl b{color:#e9e4ff}
+.tri{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px}
+.tri>div{background:#ffffff0b;border:1px solid #ffffff1a;border-radius:12px;padding:7px 4px;text-align:center;backdrop-filter:blur(2px)}
+.tri small{display:block;font-size:9.5px;letter-spacing:.14em;color:#a99fd0;font-weight:700}
+.tri b{display:block;font-size:17px;font-weight:900;font-style:italic;margin:1px 0}
+.tri span{font-size:11.5px;font-weight:800}
+.form{display:flex;align-items:center;gap:6px;margin-top:10px;font-size:10px;letter-spacing:.14em;color:#a99fd0;font-weight:700}
+.form .ch{display:flex;gap:3px}
+.c{width:13px;height:13px;border-radius:4px;display:inline-block;box-shadow:inset 0 0 0 1px #ffffff22}
+.cW{background:linear-gradient(135deg,#5dffa6,#1fae5b)}.cL{background:linear-gradient(135deg,#ff7b88,#c22f43)}.cP,.cV{background:#6e7681}.cX{background:#2d3350}
+/* sport tiles */
+/* group headers */
+.gh{display:flex;align-items:center;gap:8px;margin:20px 2px 8px}
+.gh .t{font-size:13px;font-weight:900;letter-spacing:.22em}
+.gh .ln{flex:1;height:2px;border-radius:2px}
+.gh .tot{font-size:13px;font-weight:800;white-space:nowrap}
+.gh .tot small{font-weight:600;color:#8b949e;font-size:11px}
+.ghO .t{background:linear-gradient(90deg,#fff,#d7c4ff,#9fe8ff);-webkit-background-clip:text;color:transparent}.ghO .ln{background:linear-gradient(90deg,#b98cf5,#5ee6f2,transparent)}
+.ghE .t{background:linear-gradient(180deg,#fff,#9aa0a8 55%,#e8ebef);-webkit-background-clip:text;color:transparent}.ghE .ln{background:linear-gradient(90deg,#e8ebef,#5b6068,transparent)}
+.ghU .t{color:#8b93a7}.ghU .ln{background:linear-gradient(90deg,#39405a,transparent)}
+.tag{font-size:9px;font-weight:800;letter-spacing:.12em;padding:2px 6px;border-radius:999px;border:1px solid #ffffff2a;color:#c9d1d9;white-space:nowrap}
+/* ---------- record cards ---------- */
+.rc{position:relative;margin:0 0 10px;border-radius:18px}
+.rc .wrap>summary{display:flex;align-items:center;gap:10px;padding:10px 10px 10px 12px;min-height:78px;position:relative;z-index:2}
+.em{width:116px;height:56px;flex:none;display:flex;align-items:center;justify-content:center;position:relative}
+.em img{max-width:100%;max-height:100%;display:block}
+.st{flex:1;min-width:0}
+.st .r{font-size:22px;font-weight:900;font-style:italic;letter-spacing:-.01em;line-height:1.05;white-space:nowrap}
+.st .r .u{font-size:14px;font-style:normal;font-weight:800;margin-left:4px}
+.st small{display:block;font-size:11.5px;color:#9aa3b8;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ovr{width:42px;height:48px;flex:none;display:flex;flex-direction:column;align-items:center;justify-content:center;clip-path:polygon(50% 0,100% 16%,100% 70%,50% 100%,0 70%,0 16%);font-weight:900;color:#111;line-height:1}
+.ovr b{font-size:17px;font-style:italic}.ovr i{font-style:normal;font-size:7.5px;letter-spacing:.08em;margin-top:2px}
+.t-elite{background:linear-gradient(150deg,#f3e9ff,#a8f0ff 40%,#ffb8ee 70%,#fff3b0)}
+.t-gold{background:linear-gradient(150deg,#fff1b0,#e7b53a 55%,#fff1b0)}
+.t-silver{background:linear-gradient(150deg,#ffffff,#a9b0ba 55%,#eef1f4)}
+.t-bronze{background:linear-gradient(150deg,#ffd2a8,#b36a35 55%,#f0b88a)}
+.t-none{background:#2a3046;color:#8b93a7}
+.chev{color:#8b93a7;font-size:12px;transition:transform .2s;flex:none;width:10px}
+.wrap[open]>summary .chev{transform:rotate(90deg)}
+.body{padding:0 12px 12px;position:relative;z-index:2}
+/* POTD crystal */
+.potd{padding:3px;overflow:hidden;isolation:isolate;box-shadow:0 0 18px rgba(180,120,255,.45),0 0 8px rgba(80,240,255,.3)}
+.potd::before{content:"";position:absolute;left:50%;top:50%;width:220%;aspect-ratio:1;z-index:-1;transform:translate(-50%,-50%) rotate(140deg);background:conic-gradient(from 0deg,#b98cf5,#5ee6f2,#f06ad2,#f2d36a,#a072f0,#5ee6f2,#f06ad2,#b98cf5);animation:spin 6s linear infinite}
+.potd>.wrap{background:#07011a;border-radius:15px;position:relative;overflow:hidden}
+/* Parlay +100 lightning */
+.p100>.wrap{background:#000;border-radius:18px;border:3px solid #f5c542;box-shadow:0 0 0 2px #000,inset 0 0 0 2px #000,0 0 16px #f5c54233;position:relative}
+.bolt{position:absolute;width:13px;height:18px;z-index:5;filter:drop-shadow(0 0 4px #f5c542aa)}
+/* placed tickets */
+.plc>.wrap{border-radius:18px;background:linear-gradient(160deg,#17130a,#0d0f14 60%);border:2px solid #f5c54299;position:relative;overflow:hidden}
+.plc .wrap>summary::after{content:"";position:absolute;left:134px;top:12px;bottom:12px;border-left:2px dashed #f5c54244}.plc .wrap>summary .st{padding-left:6px}
+/* legs */
+.lgs>.wrap{border-radius:18px;background:linear-gradient(160deg,#0f1d2e,#0b0f18 65%);border:2px solid transparent;background-clip:padding-box;position:relative}
+.lgs{background:linear-gradient(135deg,#9fe8ff,#3f6fb5,#c8f4ff,#2b4f8a);padding:2px}
+.lgs>.wrap{border:0;border-radius:16px}
+/* Edge chrome */
+.edge{padding:2px;overflow:hidden;isolation:isolate;background:linear-gradient(135deg,#5b6068,#f2f4f7 22%,#8a9099 40%,#fff 52%,#6d727a 68%,#d9dde3 85%,#4a4e55)}
+.edge::before{content:"";position:absolute;left:50%;top:50%;width:220%;aspect-ratio:1;z-index:-1;transform:translate(-50%,-50%) rotate(60deg);background:conic-gradient(from 0deg,transparent 0 70%,rgba(255,255,255,.95) 78%,transparent 86% 100%);animation:spin 6s linear infinite}
+.edge>.wrap{background:#000;border-radius:16px;position:relative}
+.edge .em img{filter:brightness(.85) contrast(1.1)}
+/* Safe +100 gold */
+.safe>.wrap{background:#000;border-radius:18px;border:3px solid #d8b24a;box-shadow:inset 0 0 0 3px #1f7a44,0 0 14px #d8b24a33;position:relative}
+/* unofficial: crystal frames tinted to each emblem */
+.uf{padding:2px;overflow:hidden;isolation:isolate}
+.uf>.wrap{background:radial-gradient(120% 140% at 0% 0%,var(--tn,#1c2234) 0,#0b0e16 55%);border-radius:16px;position:relative}
+.uf>.wrap::before{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;background:linear-gradient(155deg,rgba(255,255,255,.06) 0 22%,transparent 22%),linear-gradient(115deg,transparent 0 72%,rgba(255,255,255,.04) 72%)}
+.uf .wrap>summary{min-height:70px}
+.uf .em{width:128px;height:50px}
+.uf .st .r{font-size:19px}
+.u-ru{background:linear-gradient(135deg,#e8eef8,#4c8dff 35%,#7f8aa3 60%,#c9d3e3)}.u-ru>.wrap{--tn:#16264a}
+.u-alt{background:linear-gradient(135deg,#7ff0ff,#0a6f8a 40%,#ffe9a0 70%,#5ee6f2)}.u-alt>.wrap{--tn:#08303a}
+.u-hf{background:linear-gradient(135deg,#ff6a3d,#2f8cff 45%,#b3200b 75%,#ffd9cf)}.u-hf>.wrap{--tn:#2a1410}
+.u-lot{background:linear-gradient(135deg,#ffe08a,#17a865 40%,#b57a10 70%,#fff6c2)}.u-lot>.wrap{--tn:#2a2208}
+.u-nr{background:linear-gradient(135deg,#e2ffe9,#0b7a3e 40%,#ffffff 60%,#3ddc84)}.u-nr>.wrap{--tn:#08281a}
+.u-cap{background:linear-gradient(135deg,#f3e9ff,#b98cf5 30%,#5ee6f2 55%,#f06ad2 80%)}.u-cap>.wrap{--tn:#1e1240}
+.uf{box-shadow:0 0 10px #00000080}
+/* text emblems */
+.tem{font-weight:900;font-style:italic;text-align:center;line-height:.95;letter-spacing:.02em}
+.tem.gold{font-size:21px;background:linear-gradient(180deg,#fff6c8,#f5c542 50%,#a8781c);-webkit-background-clip:text;color:transparent;filter:drop-shadow(0 1px 0 #000)}
+.tem.gold small{display:block;font-size:9.5px;letter-spacing:.2em;font-style:normal;margin-top:3px}
+.tem.ice{font-size:22px;background:linear-gradient(180deg,#ffffff,#9fe8ff 50%,#3f7fd0);-webkit-background-clip:text;color:transparent}
+.tem.ice small{display:block;font-size:9.5px;letter-spacing:.2em;font-style:normal;margin-top:3px}
+/* body widgets */
+.sec{font-size:10px;font-weight:800;letter-spacing:.18em;color:#8b93a7;margin:12px 0 6px;display:flex;align-items:center;gap:6px}
+.sec i{flex:1;height:1px;background:#ffffff14}
+.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.mini>div{background:#ffffff08;border:1px solid #ffffff14;border-radius:10px;padding:6px 2px;text-align:center}
+.mini small{display:block;font-size:9px;letter-spacing:.14em;color:#8b93a7;font-weight:700}
+.mini b{display:block;font-size:15px;font-weight:900;font-style:italic}
+.mini span{font-size:11px;font-weight:800}
+.bars .br{display:grid;grid-template-columns:104px 1fr 54px 34px;gap:8px;align-items:center;font-size:12.5px;padding:4px 0}
+.bars .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}
+.bar{height:7px;border-radius:4px;background:#ffffff12;overflow:hidden}
+.bar{display:flex;gap:2px}.bar i{display:block;height:100%}.bar .bw{background:linear-gradient(90deg,#1fae5b,#5dffa6);border-radius:4px 0 0 4px}.bar .bl{background:linear-gradient(90deg,#ff7b88,#c22f43);border-radius:0 4px 4px 0}.bar .bw:last-child{border-radius:4px}.bar .bl:first-child{border-radius:4px}
+.bars .wl{text-align:right;font-variant-numeric:tabular-nums;font-weight:700}
+.bars .uu{text-align:right;font-weight:800;font-size:12px}
+.more>summary{font-size:12px;color:#9aa3b8;padding:6px 0 2px;font-weight:700}
+.pr{display:flex;gap:8px;align-items:center;padding:7px 0;border-top:1px solid #ffffff10;font-size:13px}
+.pr .rs{min-width:40px;text-align:center;border-radius:8px;padding:3px 4px;font-weight:900;font-size:11px}
+.rW{background:#1f6f43;color:#bfffd8}.rL{background:#6d1f2a;color:#ffc2c9}.rP,.rV{background:#3a3f4b;color:#d0d4dc}.rX{background:#262b3d;color:#8b93a7}
+.pr .n{flex:1;min-width:0;overflow-wrap:anywhere;font-weight:600}
+.pr .n small{display:block;font-size:11px;color:#8b93a7;font-weight:500}
+.pr .o{color:#9aa3b8;font-size:12px;text-align:right;max-width:78px;overflow-wrap:anywhere}
+.pr .o a{display:block;color:#f5c542;text-decoration:none;font-size:11px;font-weight:700}
+.alt{font-size:9px;padding:1px 6px;border-radius:999px;background:#f5c54222;color:#f5c542;font-weight:800}
+.empty{font-size:13px;color:#9aa3b8;padding:4px 0 2px}
+/* rules */
+.rules{margin-top:22px;border-top:1px solid #30363d88;padding-top:4px}
+.rules>summary{padding:10px 2px;font-weight:800;font-size:14px;display:flex;justify-content:space-between}
+.rules h4{margin:10px 0 4px;font-size:10.5px;letter-spacing:.16em;color:#b9a8e6}
+.rules ul{margin:0;padding-left:18px;font-size:12.5px;color:#c4cad6}.rules li{margin:3px 0}
+.upd{text-align:center;color:#8b949e;font-size:12px;margin-top:14px}
+`;
+const E=s=>RV1_GE(s).replace(/"/g,'&quot;');
+const rec=a=>{let w=0,l=0,p=0,pe=0;a.forEach(r=>{if(r.res=='W')w++;else if(r.res=='L')l++;else if(r.res=='P'||r.res=='V')p++;else pe++});return{w,l,p,pe,u:w-l,n:a.length,pct:w+l?Math.round(100*w/(w+l)):null}};
+const fr=s=>`${s.w}-${s.l}${s.p?'-'+s.p:''}`;
+const fu=u=>`<span class="${u>0?'pos':u<0?'neg':'zer'}">${u>0?'+':''}${u}u</span>`;
+const tier=p=>p==null?'t-none':p>=60?'t-elite':p>=52?'t-gold':p>=45?'t-silver':'t-bronze';
+const ovr=s=>`<div class="ovr ${tier(s.pct)}"><b>${s.pct??'—'}</b><i>HIT%</i></div>`;
+const lab={W:'💰',L:'L',P:'PUSH',V:'VOID'};
+const chips=(a,n=10)=>a.filter(r=>r.res).sort((x,y)=>x.date<y.date?1:-1).slice(0,n).reverse().map(r=>`<i class="c c${r.res}"></i>`).join('');
+const pl=(n,w)=>n+' '+(n==1?w:w+'s');
+const BOLT='<svg viewBox="0 0 13 18"><path d="M8 0 1 10h4l-2 8 9-11H7l3-7z" fill="#f5c542" stroke="#000" stroke-width="1.2" stroke-linejoin="round"/></svg>';
+const bolts=()=>[[-6,22],[-6,null,'r'],[44,-8],[null,-8,'r2'],[-6,'b'],[null,'b','r3']].map((p,i)=>{const pos=['top:-8px;left:30px','top:-8px;right:30px','top:50%;left:-7px;margin-top:-9px','top:50%;right:-7px;margin-top:-9px','bottom:-8px;left:60px','bottom:-8px;right:60px'][i];return`<span class=bolt style="${pos}">${BOLT}</span>`}).join('');
+function mini(a){const t=TD,w=WK;return '<div class=mini>'+[['TODAY',x=>x.date==t],['THIS WEEK',x=>x.date>=w],['ALL-TIME',x=>1]].map(([n,f])=>{const s=rec(a.filter(f));return`<div><small>${n}</small><b>${fr(s)}</b>${fu(s.u)}${s.pe?`<small style="letter-spacing:0;font-weight:600;margin-top:1px">${s.pe} pending</small>`:''}</div>`}).join('')+'</div>'}
+function bars(groups,top=8){const L=Object.entries(groups).map(([k,v])=>[k,rec(v)]).sort((x,y)=>(y[1].n-x[1].n)||((y[1].pct??-1)-(x[1].pct??-1)));
+ const col=p=>p==null?'#3a4260':p>=55?'linear-gradient(90deg,#1fae5b,#5dffa6)':p>=45?'linear-gradient(90deg,#b08a2a,#f5c542)':'linear-gradient(90deg,#c22f43,#ff7b88)';
+ const one=([k,s])=>`<div class=br><span class=nm>${E(k)}</span><div class=bar>${s.w+s.l?`<i class=bw style="width:${100*s.w/(s.w+s.l)}%"></i><i class=bl style="width:${100*s.l/(s.w+s.l)}%"></i>`:''}</div><span class=wl>${fr(s)}</span><span class=uu>${fu(s.u)}</span></div>`;
+ return `<div class=bars>${L.slice(0,top).map(one).join('')}${L.length>top?`<details class=more><summary>Show ${L.length-top} more ▾</summary>${L.slice(top).map(one).join('')}</details>`:''}</div>`}
+const grp=(a,f)=>{const M={};a.forEach(r=>{const k=f(r);(M[k]=M[k]||[]).push(r)});return M};
+function prow(r){return`<div class=pr><span class="rs r${r.res||'X'}">${lab[r.res]||'…'}</span><div class=n>${r.leg?'↳ ':''}${E(INT(r.pick))}${r.alt?' <span class=alt>ALT</span>':''}${INT(r.sub)?`<small>${E(INT(r.sub))}</small>`:''}<small>${E(r.date.slice(5).replace('-','/'))} · ${E(r.sport)} · ${E(INT(r.prop))}${INT(r.stat)&&r.stat!='—'?' · '+E(INT(r.stat)):''}</small></div><span class=o>${E(r.odds)}${r.img?`<a href="${E(r.img)}" target=_blank rel=noopener>🧾 slip</a>`:''}</span></div>`}
+function plist(a,n=5,title='RECENT'){const s=a.slice().sort((x,y)=>x.date<y.date?1:x.date>y.date?-1:0);return`<div class=sec>${title}<i></i></div>${s.slice(0,n).map(prow).join('')}${s.length>n?`<details class=more><summary>Show all ${s.length} ▾</summary>${s.slice(n).map(prow).join('')}</details>`:''}`}
+function card(cls,emb,a,unit,body,extra=''){const s=rec(a);
+ const sum=`<summary>${emb}<div class=st>${a.length?`<div class=r>${fr(s)}<span class=u>${fu(s.u)}</span></div><small>${pl(a.length,unit)}${s.pe?' · '+s.pe+' pending':''}</small>${extra?`<small>${extra}</small>`:''}`:`<div class=r style="font-size:15px;font-style:normal">No picks yet</div><small>${F0=='All'?'Nothing tracked':'Nothing tracked for '+E(F0)}</small>`}</div>${ovr(s)}<span class=chev>▸</span></summary>`;
+ const inner=a.length?body():`<div class=empty>Nothing tracked here yet.</div>`;
+ return`<div class="rc ${cls}">${cls=='p100'?bolts():''}<details class=wrap>${sum}<div class=body>${inner}</div></details></div>`}
+function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F);
+ const O=base.filter(r=>r.grp=='O'),Ot=O.filter(r=>!r.leg),Ol=O.filter(r=>r.leg),Eg=base.filter(r=>r.grp=='E'),U=base.filter(r=>r.grp=='U'),Ut=U.filter(r=>!r.leg);
+ const so=rec(Ot),sl=rec(Ol);
+ // hero callouts (same math as Results v2)
+ const srt=Ot.filter(r=>r.res=='W'||r.res=='L').sort((x,y)=>x.date<y.date?-1:x.date>y.date?1:0);let best=0,c=0;srt.forEach(r=>{c=r.res=='W'?c+1:0;best=Math.max(best,c)});
+ const fm=grp(O.filter(r=>r.leg||r.cat=='POTD'),r=>r.fam);const fl=Object.entries(fm).map(([k,v])=>[k,rec(v)]).filter(([k,s])=>s.w+s.l>=3&&k!='Parlay'&&k!='Other').sort((x,y)=>y[1].pct-x[1].pct||(y[1].w+y[1].l)-(x[1].w+x[1].l));
+ const hot=fl[0],cold=fl.length>1?fl[fl.length-1]:null,wk=rec(Ot.filter(x=>x.date>=WK)),td=rec(Ot.filter(x=>x.date==TD));
+ let h=`<div class="holo hero"><div class=in><div class=foil></div>
+  <div class=kick>⭐ OFFICIAL RECORD · ${F=='All'?'ALL SPORTS':E(FL)}<i></i></div>
+  <div class=big><div class=bigrec>${fr(so)}</div><div class=bigside><span class=upill>${fu(so.u)}</span><span class=m style="font-size:11px">${pl(Ot.length,'ticket')}${so.pe?'<br>'+so.pe+' pending':''}</span></div><div style="margin-left:auto;transform:scale(1.15);transform-origin:right bottom">${ovr(so)}</div></div>
+  <div class=subl>Legs <b>${fr(sl)}</b> ${fu(sl.u)} &nbsp;·&nbsp; Edge <b>${fr(rec(Eg))}</b> ${fu(rec(Eg).u)}</div>
+  <div class=tri><div><small>TODAY</small><b>${fr(td)}</b>${fu(td.u)}${td.pe?`<span class=m style="display:block;font-size:10.5px;font-weight:600">${td.pe} pending</span>`:''}</div><div><small>THIS WEEK</small><b>${fr(wk)}</b>${fu(wk.u)}</div><div><small>🔥 STREAK</small><b>${best} W</b><span class=m>best run</span></div></div>
+  <div class=tri style="grid-template-columns:1fr 1fr;margin-top:6px"><div><small>📈 HOTTEST</small><b style="font-size:14px">${hot?E(hot[0])+' · '+hot[1].pct+'%':'–'}</b></div><div><small>🧊 COLDEST</small><b style="font-size:14px">${cold?E(cold[0])+' · '+cold[1].pct+'%':'–'}</b></div></div>
+  <div class=form>LAST 10<span class=ch>${chips(Ot)}</span></div></div></div>`;
+ // OFFICIAL
+ h+=`<div class="gh ghO"><span class=t>OFFICIAL</span><span class=ln></span><span class=tot>${fr(so)} ${fu(so.u)}</span></div>`;
+ const P=Ot.filter(r=>r.cat=='POTD');
+ h+=card('potd','<div class=em><img src="potd-logo-v6.jpg" alt="POTD"></div>',P,'POTD',()=>mini(P)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(P,r=>r.sport))+plist(P));
+ const PX=Ot.filter(r=>r.cat=='Parlay +100'),PXl=Ol.filter(r=>r.cat=='Parlay +100'),pls=rec(PXl);
+ h+=card('p100','<div class=em><img src="parlay100-logo.png" alt="+100 Parlay"></div>',PX,'ticket',()=>mini(PX)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(PX,r=>r.sport))+plist(PX),PXl.length?`legs ${fr(pls)} ${fu(pls.u)}${pls.pe?' · '+pls.pe+' pending':''}`:'');
+ const PT=Ot.filter(r=>r.cat=='Placed tickets');
+ h+=card('plc','<div class=em><div class="tem gold">PLACED<small>HARD ROCK SLIPS</small></div></div>',PT,'ticket',()=>mini(PT)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(PT,r=>r.sport))+plist(PT,6,'TICKETS'));
+ h+=card('lgs','<div class=em><div class="tem ice">LEGS<small>TICKET LEGS</small></div></div>',Ol,'leg',()=>mini(Ol)+`<div class=sec>BY PROP FAMILY<i></i></div>`+bars(grp(Ol,r=>r.fam))+plist(Ol,5,'RECENT LEGS'));
+ // EDGE
+ const se=rec(Eg);
+ h+=`<div class="gh ghE"><span class=t>EDGE</span><span class=tag>OFFICIAL · OWN SECTION</span><span class=ln></span><span class=tot>${fr(se)} ${fu(se.u)}</span></div>`;
+ h+=card('edge','<div class=em><img src="edge-logo-crop.jpg" alt="Edge"></div>',Eg,'pick',()=>mini(Eg)+`<div class=sec>BY PROP TYPE<i></i></div>`+bars(grp(Eg,r=>r.fam))+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(Eg,r=>r.sport))+plist(Eg,6,'PICKS'));
+ // UNOFFICIAL
+ const su=rec(Ut);
+ h+=`<div class="gh ghU"><span class=t>UNOFFICIAL</span><span class=ln></span><span class=tot>${fr(su)} ${fu(su.u)}</span></div>`;
+ const SF=Ut.filter(r=>r.cat=='Safe +100'),SFl=U.filter(r=>r.cat=='Safe +100'&&r.leg);
+ h+=card('safe','<div class=em><img src="altlines-logo.jpg" alt="Safe +100"></div>',SF,'ticket',()=>mini(SF)+plist(U.filter(r=>r.cat=='Safe +100'),8,'TICKETS + LEGS'),SFl.length?`legs ${fr(rec(SFl))} ${fu(rec(SFl).u)}`:'');
+ const UC=[['Runners-up','runnersup-logo.png','Runners-up','pick',r=>r.fam,'u-ru'],['Alt lines','altlines-crystal-logo.png','Alt lines','pick',r=>r.fam,'u-alt'],['Home Field','homefield-logo.png','Home Field Advantage','pick',r=>r.prop||r.fam,'u-hf'],['Lotto','lotto-logo.png','Lotto Ticket','ticket',r=>r.fam,'u-lot'],['NRFI','nrfi-logo.png','NRFI calls','call',r=>r.pick.split(' · ')[0],'u-nr'],['Cappers','cappers-logo.png','Cappers','pick',r=>r.prop.split(' · ')[0],'u-cap']];
+ UC.forEach(([k,img,name,unit,gf,uc])=>{const a=Ut.filter(r=>r.cat==k),lg=U.filter(r=>r.cat==k&&r.leg);
+  const by=k=='Cappers'?'BY CAPPER':k=='Home Field'?'BY SECTION':k=='NRFI'?'BY SIDE':'BY PROP FAMILY';
+  h+=card('uf '+uc,`<div class=em><img src="${img}" alt="${name}"></div>`,a,unit,()=>mini(a)+(k=='Lotto'?`<div class=sec>LEGS · ${fr(rec(lg))}<i></i></div>`+bars(grp(lg,r=>r.sport))+plist(a.concat(lg),6,'TICKET + LEGS'):`<div class=sec>${by}<i></i></div>`+bars(grp(a,gf))+plist(a)),lg.length?`legs ${fr(rec(lg))} ${fu(rec(lg).u)}`:'')});
+ h+=`<details class=rules><summary><span>📜 Rules</span><span class=m>▾</span></summary>${RULES().map(([t,l])=>`<h4>${E(t.toUpperCase())}</h4><ul>${l.map(x=>`<li>${E(x)}</li>`).join('')}</ul>`).join('')}</details>`;
+ return h}
+
+let OPEN=new Set(),LASTF=null,MO=null;
+window.rv1Mount=function(){const host=document.getElementById('rv1h');if(!host)return;const X=D.results_v2;
+ if(!X||!X.rows){host.innerHTML='<div class="card m">Record is rebuilding. Check back in a few minutes.</div>';return}
+ ROWS=X.rows;TD=ETd(Date.now());WK=ETd(Date.now()-6*864e5);FL=RF||'All';F0=({'NCAA F':'NCAAF','BIG 4':'Big 4'})[RF]||RF||'All';
+ if(LASTF!==F0){OPEN=new Set();LASTF=F0}
+ const sr=host.shadowRoot||host.attachShadow({mode:'open'});sr.innerHTML='<style>'+CSS+'</style>'+render();
+ const ds=[...sr.querySelectorAll('details')];ds.forEach((d,i)=>{if(OPEN.has(i))d.open=true;d.addEventListener('toggle',()=>{d.open?OPEN.add(i):OPEN.delete(i)})});
+ const dm=()=>host.classList.toggle('day',document.documentElement.classList.contains('day'));dm();
+ if(!MO){MO=new MutationObserver(()=>{const h=document.getElementById('rv1h');if(h)h.classList.toggle('day',document.documentElement.classList.contains('day'))});MO.observe(document.documentElement,{attributes:true,attributeFilter:['class']})}};
+})();
+function record(){return '<div id="rv1h"></div>'}
+
+function draw(){if(!D)return;{const b=D.bankroll||{},f=v=>v==null?'—':'$'+(+v).toFixed(2);$('hb').innerHTML=`<div class="row"><div><div class=m>Hard Rock balance</div><div style="font-size:26px;font-weight:700" class=g>${f(b.available)}</div></div><div class=m style="text-align:right">Total ${f(b.total)}<br>Pending <span class=y>${f(b.pending)}</span></div></div>`}document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));const op=[...document.querySelectorAll('details')].map(d=>d.open);$('sb').innerHTML=sbub();$('v').innerHTML={today,results,record,cappers,bankroll,sport}[K]();if(K=='record')try{rv1Mount()}catch(e){console.error('rv1',e)}document.querySelectorAll('details').forEach((d,i)=>{if(op[i])d.open=true});paintLU();paintNow();paintLock();try{stBox()}catch(_){}lvBox();try{ndBox()}catch(_){}collapsify();try{ndEnsure()}catch(_){}$('upd').textContent='Updated '+et(D.generated)}
 (function(){try{Object.keys(localStorage).filter(k=>/^col:/.test(k)).forEach(k=>localStorage.removeItem(k))}catch(e){}})();
 function colKey(t){return 'col:'+K+(K=='sport'?SP:'')+':'+String(t).replace(/[\d$%.,+\-−—·▾▸()]/g,'').replace(/\s+/g,' ').trim().slice(0,40)}
 function colGet(k){try{return localStorage.getItem(k)=='1'}catch(e){return false}}
