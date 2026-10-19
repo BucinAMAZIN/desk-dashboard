@@ -143,6 +143,44 @@ details.r2rules{background:none;border-top:1px solid #30363d55;border-radius:0;m
 .pv8s .p,.p100s .p,.s1s .p,.eslr .p,.eslot .ess{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;line-height:1.25}
 /*END-EMPTY-STATES-V1*/
 
+/*RESULTS-4G (preview)*/
+@property --r4a{syntax:'<angle>';inherits:false;initial-value:0deg}
+.r4seg{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin:8px 0 10px}
+.r4seg .r4b{font-family:inherit;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;min-width:0;padding:7px 2px 6px;border-radius:14px;background:#151a29;border:1px solid #262d44;color:#cfd5e4;white-space:normal;overflow:visible;text-overflow:clip;line-height:1.15}
+.r4seg .r4b i{font-style:normal;font-size:15px;line-height:1}.r4seg .r4b b{font-size:12px;font-weight:800;letter-spacing:-.01em}.r4seg .r4b small{font-size:11px;color:#8b93a7;font-weight:600}
+html.lg .r4seg .r4b{padding:6px 1px 5px}html.lg .r4seg .r4b b{font-size:11px;letter-spacing:-.02em}html.lg .r4seg .r4b small{font-size:11px}
+.r4seg button.r4b.on{color:#fff;border-color:transparent}.r4seg .r4b.on small{color:#f3f5fa}
+.r4seg button.r4b-O.on{background:linear-gradient(160deg,#5a4307,#2a1f05);box-shadow:0 0 0 2px #f5c542,0 0 12px #f5c54266}
+.r4seg button.r4b-E.on{background:linear-gradient(160deg,#0b4a3c,#06201b);box-shadow:0 0 0 2px #2fe0b0,0 0 12px #2fe0b066}
+.r4seg button.r4b-U.on{background:linear-gradient(160deg,#2c3552,#151a29);box-shadow:0 0 0 2px #9fb4ff,0 0 12px #9fb4ff55}
+.r4seg button.r4b-C.on{background:linear-gradient(160deg,#4a1a63,#1a0b2a);box-shadow:0 0 0 2px #d77bff,0 0 14px #ff6ad566}
+.r4hero{position:relative;overflow:hidden;display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"em st" "nt nt";align-items:center;gap:6px 10px;padding:14px;border-radius:18px;margin:0 0 10px;isolation:isolate}
+.r4hero:before{content:"";position:absolute;inset:0;border-radius:inherit;padding:3px;background:conic-gradient(from var(--r4a),var(--r4c1),var(--r4c2),var(--r4c3),var(--r4c1));-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:r4spin 9s linear infinite;z-index:1;pointer-events:none}
+@keyframes r4spin{to{--r4a:360deg}}
+.r4gl{position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,#ffffff1c 48%,transparent 60%);background-size:250% 100%;animation:r4gl 5s ease-in-out infinite;pointer-events:none;z-index:0}
+@keyframes r4gl{0%,55%{background-position:120% 0}100%{background-position:-120% 0}}
+@media (prefers-reduced-motion:reduce){.r4hero:before,.r4gl{animation:none}}
+.r4em{grid-area:em;min-width:0;position:relative;z-index:2}.r4em img{display:block;max-width:100%;height:44px;object-fit:contain;object-position:left center}
+.r4hs{grid-area:st;text-align:right;position:relative;z-index:2}.r4big{font-size:24px;font-weight:900;letter-spacing:-.02em;white-space:nowrap;color:#fff;text-shadow:0 0 12px #ffffff33}.r4hu{font-size:12px;color:#cfd5e4;font-weight:700;white-space:nowrap}
+.r4hn{grid-area:nt;font-size:11px;color:#b9c0d4;position:relative;z-index:2;border-top:1px solid #ffffff14;padding-top:6px}
+.r4tem{display:inline-block;font-weight:900;font-size:22px;letter-spacing:.06em;line-height:1;background-clip:text;-webkit-background-clip:text;color:transparent}.r4tem small{display:block;font-size:11px;letter-spacing:.1em;margin-top:4px;font-weight:800}
+html.lg .r4tem{font-size:19px}
+.r4gold{background-image:linear-gradient(100deg,#fff1b8,#f5c542 40%,#fff 52%,#c8901a 70%,#ffe28a)}.r4ice{background-image:linear-gradient(100deg,#e7eeff,#9fb4ff 40%,#fff 52%,#7f8fd6 70%,#dbe4ff)}
+.r4h-O{background:radial-gradient(120% 140% at 0 0,#3a2c08,#0c0a05 70%);--r4c1:#f5c542;--r4c2:#fff3c4;--r4c3:#b8860b}
+.r4h-E{background:radial-gradient(120% 140% at 0 0,#0b3a31,#050f0d 70%);--r4c1:#2fe0b0;--r4c2:#b6fff0;--r4c3:#138a6d}
+.r4h-U{background:radial-gradient(120% 140% at 0 0,#232b47,#0b0e18 70%);--r4c1:#9fb4ff;--r4c2:#e8ecff;--r4c3:#5a6aa8}
+.r4h-C{background:radial-gradient(120% 140% at 0 0,#3b1250,#0d0614 70%);--r4c1:#d77bff;--r4c2:#7fd8ff;--r4c3:#ff6ad5}
+.r2co.r4co div{white-space:normal;overflow:visible;text-overflow:clip}.r2co.r4co b{white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;line-height:1.2}.r4co em{display:block;font-style:normal;color:#e8ebf3;font-weight:800;font-size:12px}
+.r4na{display:block;font-size:11px;color:#8b93a7;font-weight:600;line-height:1.25;margin-top:2px}
+html.lg .r2co.r4co div{font-size:11px}html.lg .r2co.r4co b{font-size:12px}
+details.r4cap{background:linear-gradient(150deg,#22102f,#120a1c);border:1.5px solid #b06bff88;box-shadow:inset 0 0 0 1px #7fd8ff22}
+details.r4cap>summary{gap:8px}.r4mic{font-size:16px;line-height:1;filter:drop-shadow(0 0 6px #d77bff)}.r4cr{white-space:nowrap;font-weight:700}
+.r4-C .r2tabs button.on{border-color:#d77bff;color:#e9b6ff}.r4-C .r2sp button.on{background:#e9d2ff}
+.r4-C .r2tb .r2bar i{background:linear-gradient(90deg,#d77bff,#7fd8ff)}
+html.day .r4seg .r4b{background:#eef1f7;border-color:#d0d6e4;color:#1d2433}html.day .r4seg .r4b small{color:#5b6478}html.day .r4seg .r4b.on{color:#fff}html.day .r4seg .r4b.on small{color:#f3f5fa}
+.r2tb td.r{color:inherit}
+.r2 .r2dt{font-size:11px}.r2 .r2tag{font-size:11px}
+
 /*FIXES-V1 batch 2*/
 .tabs{z-index:20;box-shadow:0 8px 10px -8px #000c}.tabs::before{content:"";position:absolute;top:0;bottom:0;left:-12px;right:-12px;background:#0d1117;z-index:-1}
 .r2sp{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;overflow:visible;scrollbar-width:none}.r2sp::-webkit-scrollbar{display:none}.r2sp button{padding:5px 4px;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -204,7 +242,7 @@ html.lg #slipv .svb{font-size:max(17px,1.1rem)}
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792434438';
+const UI_BUILD='1792435690';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -413,49 +451,79 @@ function today(){const t=D.today;const RS={};((D.runners_up_record||{}).recent||
  h+=`<h2 style="margin-top:22px;border-top:1px solid #30363d;padding-top:14px">🏈 College Football <span class="m" style="font-weight:400">· separate record ${E(NR.w)}-${E(NR.l)}${NR.p?'-'+NR.p:''}</span></h2>`;
  h+=n.length?n.map((x,i)=>`<details class="card" style="border-color:#6e40c9"><summary><div class="row"><div>${pkL(x,i)}<div class=m>${E(x.game)}</div></div><div style="text-align:right;white-space:nowrap"><b>${E(x.odds)}</b> ${chip(x.status)}<div class=m>Why ▾</div></div></div></summary>${x.stat&&x.stat!='—'?`<div class="m" style="margin-top:6px">Result: ${E(x.stat)}</div>`:''}${why(x.why,x.why_not)}</details>`).join(''):'<div class="card m">No College Football plays posted today.</div>';}
  return h}
-/* RESULTS-V2 (live Oct 19 2026, user-approved design): Official / Edge / Unofficial, by day + by prop, built from D.results_v2 */
+/* RESULTS-4G (live Oct 19 2026, user-approved 2:45 PM ET; request "in results lets sort by official edge unofficial and cappers"): four groups Official / Edge / Unofficial / Cappers. Cappers = results_v2 rows grp U + cat Cappers, shown in their own group (display-only split, no data change; each row sits in exactly one group). */
 const R2S={v:'days',g:'O',s:'All'};
-function r2set(k,v){R2S[k]=v;if(K=='results'){$('v').innerHTML=results()}}
+function r2set(k,v){R2S[k]=v;if(k=='g'&&v!='C'&&R2S.v=='cap')R2S.v='days';if(K=='results'){$('v').innerHTML=results()}}
+const R4FAM=[['Receiving yds',/rec yds/],['Receptions',/\brec\b|receptions/],['Rushing yds',/rush yds/],['Rush attempts',/rush att|carries/],['Pass yds',/pass|completions/],['Anytime TD',/anytime td|\batd\b/],['SOG',/sog/],['Saves',/save/],['Pitcher Ks',/pitcher k\b/],['Pitcher other',/pitcher/],['Hits/TB/HR/RBI',/hits|\btb\b|\bhr\b|rbi|home run/],['Player points',/points|\bpts\b/],['ML',/\bml\b|moneyline|ht\/ft/],['Spread',/spread|run line|puck line/],['Team total',/team total|team runs/],['Total',/total/],['NASCAR finish',/nascar top/],['NRFI/inning',/nrfi|yrfi/],['Parlay',/parlay|safe100/]];
+function R4F(p){p=String(p||'').toLowerCase();for(const [n,rx] of R4FAM)if(rx.test(p))return n;return'Other'}
+/* #67 display-side read (Bug Hunter Oct 19): results_v2.py drops a same-capper, same-player pending pick when a second pick on that player is logged (Sal's Mike Evans 2+ TD vs Mike Evans anytime TD). Today's PENDING capper picks from D.cappers that have no Results row (same capper + date + exact pick text) are shown once as Pending. Ladder rungs are skipped (results_v2 already merges them into one ladder row). Pending only: W-L and units do not change. The data fix landed Oct 19 (results_v2.py #67), so the exact-text match finds the row and this adds nothing; kept only as a safety net. */
+function R4CAPX(X){if(X._capx)return X._capx;const td=D.capper_today_date||'',rows=X.rows,add=[];
+ (D.cappers||[]).forEach(c=>(c.today||[]).forEach(t=>{if(!td||!/^pending$/i.test(String(t.status||''))||/ladder rung/i.test(t.pick)||/\blive\b|in-game/i.test((t.prop||'')+' '+t.pick))return;
+  if(rows.some(r=>r.cat=='Cappers'&&r.date==td&&String(r.prop).split(' · ')[0]==c.name&&r.pick==t.pick))return;
+  add.push({date:td,sport:t.sport,grp:'U',cat:'Cappers',prop:c.name+' · '+t.prop,fam:R4F(t.prop),pick:t.pick,odds:t.odds,res:'',stat:'',alt:false,leg:false,img:null,sub:'',_ds:1})}));
+ return X._capx=add}
+function R4G(r){return r.grp=='U'&&r.cat=='Cappers'?'C':r.grp}
 function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m">Results are rebuilding. Check back in a few minutes.</div>';
- const G=R2S.g,S=R2S.s,V=R2S.v,ET=t=>new Date(t).toLocaleDateString('en-CA',{timeZone:'America/New_York'});
+ const G=R2S.g,S=R2S.s,V=(R2S.v=='cap'&&G!='C')?'days':R2S.v,ET=t=>new Date(t).toLocaleDateString('en-CA',{timeZone:'America/New_York'});
  const today=ET(Date.now()),wk=ET(Date.now()-6*864e5);
- const LOGO={POTD:'potd-logo-v6.jpg','Parlay +100':'parlay100-logo.png','Safe +100':'altlines-logo.jpg',Edge:'edge-logo-crop.jpg'};
+ const LOGO={POTD:'potd-logo-v6.jpg','Parlay +100':'parlay100-logo.png','Safe +100':'altlines-logo.jpg',Edge:'edge-logo-crop.jpg','Runners-up':'runnersup-logo.png','Alt lines':'altlines-crystal-logo.png','Home Field':'homefield-logo.png',NRFI:'nrfi-logo.png',Lotto:'lotto-logo.png'};
  const CLS={POTD:'r2potd','Parlay +100':'r2p100','Placed tickets':'r2plc','Safe +100':'r2safe',Edge:'r2edge'};
  const rec=a=>{let w=0,l=0,p=0,pe=0;a.forEach(r=>{if(r.res=='W')w++;else if(r.res=='L')l++;else if(r.res=='P'||r.res=='V')p++;else pe++});return{w,l,p,pe,u:w-l,pct:w+l?Math.round(100*w/(w+l)):null}};
  const fu=u=>`<span class="${u>=0?'r2pos':'r2neg'}">${u>=0?'+':''}${u}u</span>`,fr=s=>`${s.w}-${s.l}${s.p?'-'+s.p:''}`;
  const chips=a=>'<span class=r2chips>'+a.slice(0,12).map(r=>`<i class="r2c c${['W','L','P','V'].includes(r.res)?r.res:'X'}"></i>`).join('')+'</span>';
  const lab={W:'💰',L:'L',P:'PUSH',V:'VOID'};
- const base=X.rows.filter(r=>(S=='All'||r.sport==S)&&r.grp==G),tix=a=>a.filter(r=>!r.leg);
+ const ALL=X.rows.concat(R4CAPX(X));
+ const base=ALL.filter(r=>(S=='All'||r.sport==S)&&R4G(r)==G),tix=a=>a.filter(r=>!r.leg);
  const t0=tix(base),lg0=base.filter(r=>r.leg);
- let h='<div class="r2"><div class="r2h">📊 Results</div>';
- h+='<div class=r2seg>'+[['O','⭐ Official'],['E','⚡ Edge'],['U','📋 Unofficial']].map(([k,n])=>`<button class="${G==k?'on':''}" onclick="r2set('g','${k}')">${n}</button>`).join('')+'</div>';
+ const capOf=r=>String(r.prop||'').split(' · ')[0];
+ /* by-prop source: Official = POTD + legs; Edge/Unofficial = singles + legs (ticket parlays live in their legs); Cappers = every pick (a capper parlay is one pick with no legs, so it stays in) */
+ const propSrc=a=>a.filter(r=>G=='O'?(r.leg||r.cat=='POTD'):G=='C'?!r.leg:(r.leg||r.fam!='Parlay'));
+ let h=`<div class="r2 r4 r4-${G}"><div class="r2h">📊 Results</div>`;
+ const GS=[['O','⭐','Official'],['E','⚡','Edge'],['U','📋','Unofficial'],['C','🎙️','Cappers']];
+ h+='<div class="r2seg r4seg">'+GS.map(([k,i,n])=>{const s=rec(tix(ALL.filter(r=>(S=='All'||r.sport==S)&&R4G(r)==k)));return`<button class="r4b r4b-${k}${G==k?' on':''}" onclick="r2set('g','${k}')"><i>${i}</i><b>${n}</b><small>${fr(s)}</small></button>`}).join('')+'</div>';
+ {const s=rec(t0),HERO={O:['<span class="r4tem r4gold">OFFICIAL<small>OUR RECORD</small></span>','POTD · Parlay +100 · placed tickets'],E:['<img src="edge-logo-crop.jpg" alt="Edge">','Edge picks · official, own section'],U:['<span class="r4tem r4ice">UNOFFICIAL<small>TRACKED · NOT IN OUR RECORD</small></span>','Runners-up · alt lines · Safe +100 · Home Field · NRFI · Lotto'],C:['<img src="cappers-logo.png" alt="Cappers">','Idea sources · not in our record']}[G];
+  const nc=G=='C'?new Set(t0.map(capOf)).size:0;
+  h+=`<div class="r4hero r4h-${G}"><div class=r4em>${HERO[0]}</div><div class=r4hs><div class=r4big>${fr(s)}</div><div class=r4hu>${fu(s.u)}${s.pct!=null?` · ${s.pct}%`:''}</div></div><div class=r4hn>${E(HERO[1])}${nc?` · ${nc} cappers`:''}</div><i class=r4gl></i></div>`}
  h+='<div class=r2strip>'+[['Today',x=>x.date==today],['This week',x=>x.date>=wk],['All-time',x=>1]].map(([n,f])=>{const s=rec(t0.filter(f)),l=rec(lg0.filter(f));
   return`<div class=r2tile><small>${n}</small><b>${fr(s)}</b>${fu(s.u)}${s.pe?`<span class=r2legs>${s.pe} pending</span>`:''}${G=='O'&&l.w+l.l?`<span class=r2legs>legs ${fr(l)}</span>`:''}</div>`}).join('')+'</div>';
  {const srt=t0.filter(r=>r.res=='W'||r.res=='L').sort((x,y)=>x.date<y.date?-1:x.date>y.date?1:0);let b=0,c=0;srt.forEach(r=>{c=r.res=='W'?c+1:0;b=Math.max(b,c)});
-  const fm={};base.filter(r=>G=='O'?(r.leg||r.cat=='POTD'):(r.leg||r.fam!='Parlay')).forEach(r=>(fm[r.fam]=fm[r.fam]||[]).push(r));
+  const fm={};propSrc(base).forEach(r=>(fm[r.fam]=fm[r.fam]||[]).push(r));
   const fl=Object.entries(fm).map(([k,v])=>[k,rec(v)]).filter(([k,s])=>s.w+s.l>=3&&k!='Parlay'&&k!='Other').sort((x,y)=>y[1].pct-x[1].pct||(y[1].w+y[1].l)-(x[1].w+x[1].l));
-  const hot=fl[0],cold=fl.length>1?fl[fl.length-1]:null;
-  h+=`<div class=r2co><div>🔥 Best streak<b>${b} W</b></div><div>📈 Hottest<b>${hot?E(hot[0])+' '+hot[1].pct+'%':'<span class=r2na style="display:block;font-size:11px;color:#8b93a7;font-weight:600">Needs 3+ results</span>'}</b></div><div>🧊 Coldest<b>${cold?E(cold[0])+' '+cold[1].pct+'%':'<span class=r2na style="display:block;font-size:11px;color:#8b93a7;font-weight:600">Needs 3+ results</span>'}</b></div></div>`}
+  const hot=fl[0],cold=fl.length>1?fl[fl.length-1]:null,na='<span class=r4na>Needs 3+ results</span>';
+  h+=`<div class="r2co r4co"><div>🔥 Best streak<b>${b} W</b></div><div>📈 Hottest${hot?`<b>${E(hot[0])}</b><em>${hot[1].pct}%</em>`:na}</div><div>🧊 Coldest${cold?`<b>${E(cold[0])}</b><em>${cold[1].pct}%</em>`:na}</div></div>`}
  h+='<div class=r2sp>'+(X.sports||['All']).map(x=>`<button class="${S==x?'on':''}" onclick="r2set('s','${x}')">${x}</button>`).join('')+'</div>';
- h+='<div class=r2tabs>'+[['days','By day'],['props','By prop']].map(([k,n])=>`<button class="${V==k?'on':''}" onclick="r2set('v','${k}')">${n}</button>`).join('')+'</div>';
- const row=r=>`<div class="r2row${r.leg?' r2lg':''}"><span class="r2res r${r.res||'X'}">${lab[r.res]||'…'}</span><div class=r2n>${r.leg?'↳ ':''}${E(r.pick)}${r.alt?' <span class=r2tag>ALT</span>':''}${r.sub?`<small>${E(r.sub)}</small>`:''}<small>${E(FX3S(r))} · ${E(FX3P(r))}${INTN(r.stat)&&r.stat!='—'&&String(r.stat).trim().toLowerCase()!=String(SPP(r.sport,r.prop)).trim().toLowerCase()?' · '+E(INTN(r.stat)):''}</small></div><span class=r2o>${E(r.odds)}</span></div>`+(r.img?`<details class=r2slip><summary>🧾 Hard Rock slip ▾</summary><a href="${E(r.img)}" target=_blank rel=noopener><img loading=lazy src="${E(r.img)}" alt="Hard Rock slip"></a></details>`:'');
+ h+='<div class=r2tabs>'+[['days','By day'],['props','By prop']].concat(G=='C'?[['cap','By capper']]:[]).map(([k,n])=>`<button class="${V==k?'on':''}" onclick="r2set('v','${k}')">${n}</button>`).join('')+'</div>';
+ /* Cappers rows: pick on the main line; the trailing (game; note) goes to the small line as the game only (stake/entry notes stay off the card) */
+ const cpk=r=>{const m=String(r.pick||'').match(/^(.*?)\s*\(([^()]*)\)\s*$/);return m&&m[1]?[m[1],m[2].split(';')[0].trim()]:[r.pick,'']};
+ const row=r=>{const [pk,cx]=G=='C'?cpk(r):[r.pick,''];return`<div class="r2row${r.leg?' r2lg':''}"><span class="r2res r${r.res||'X'}">${lab[r.res]||'…'}</span><div class=r2n>${r.leg?'↳ ':''}${E(pk)}${r.alt?' <span class=r2tag>ALT</span>':''}${r.sub?`<small>${E(r.sub)}</small>`:''}<small>${cx?E(cx)+' · ':''}${E(FX3S(r))} · ${E(G=='C'?SPP(r.sport,String(r.prop).split(' · ').slice(1).join(' · ')):FX3P(r))}${INTN(r.stat)&&r.stat!='—'&&String(r.stat).trim().toLowerCase()!=String(SPP(r.sport,r.prop)).trim().toLowerCase()?' · '+E(INTN(r.stat)):''}</small></div><span class=r2o>${E(r.odds)}</span></div>`+(r.img?`<details class=r2slip><summary>🧾 Hard Rock slip ▾</summary><a href="${E(r.img)}" target=_blank rel=noopener><img loading=lazy src="${E(r.img)}" alt="Hard Rock slip"></a></details>`:'')};
  const unit=G=='O'?'tickets':'picks';
- if(!base.length)h+='<div class="card m">Nothing tracked for this filter yet.</div>';
+ const capCard=(nm,cr)=>{const cs=rec(cr),n=cr.length;return`<details class="r2cat r4cap"><summary><span class=r4mic>🎙️</span><span class=r2t>${E(nm)}<span class=r2s>${NW2(FX2PL(n,'picks'))}${cs.pe?' · '+NW2(cs.pe+' pending'):''}</span></span><span class=r4cr>${fr(cs)} ${fu(cs.u)}</span></summary><div class=r2b>${cr.map(row).join('')}</div></details>`};
+ if(!base.length)h+=`<div class="card m">Nothing tracked for this filter yet.</div>`;
  else if(V=='days'){const ds=[...new Set(base.map(r=>r.date))].sort().reverse();
   h+=ds.map(dt=>{const x=base.filter(r=>r.date==dt),t=tix(x),s=rec(t);const d0=new Date(dt+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
-   const cats=[...new Set(x.map(r=>r.cat))];const inner=cats.map(c=>{const cr=x.filter(r=>r.cat==c&&!r.leg).concat(x.filter(r=>r.cat==c&&r.leg)),cs=rec(tix(cr));const n=tix(cr).length;
-    return`<details class="r2cat ${CLS[c]||'r2unof'}"><summary>${LOGO[c]?`<img src="${LOGO[c]}" alt="">`:''}<span class=r2t>${E(c)}<span class=r2s>${n} ${n==1?unit.slice(0,-1):unit}${cr.length>n?' · '+(cr.length-n)+' legs':''}</span></span><span>${fr(cs)} ${fu(cs.u)}</span></summary><div class=r2b>${cr.map(row).join('')}</div></details>`}).join('');
+   let inner;
+   if(G=='C'){const cp=[...new Set(x.map(capOf))].sort((a,b)=>x.filter(r=>capOf(r)==b).length-x.filter(r=>capOf(r)==a).length||a.localeCompare(b));inner=cp.map(c=>capCard(c,x.filter(r=>capOf(r)==c))).join('')}
+   else{const cats=[...new Set(x.map(r=>r.cat))];inner=cats.map(c=>{const cr=x.filter(r=>r.cat==c&&!r.leg).concat(x.filter(r=>r.cat==c&&r.leg)),cs=rec(tix(cr));const n=tix(cr).length;
+    return`<details class="r2cat ${CLS[c]||'r2unof'}"><summary>${LOGO[c]?`<img src="${LOGO[c]}" alt="">`:''}<span class=r2t>${E(c)}<span class=r2s>${n} ${n==1?unit.slice(0,-1):unit}${cr.length>n?' · '+(cr.length-n)+' legs':''}</span></span><span>${fr(cs)} ${fu(cs.u)}</span></summary><div class=r2b>${cr.map(row).join('')}</div></details>`}).join('')}
    return`<details class=r2d><summary>${chips(t)}<span class=r2t>${d0}<span class=r2s>${NW2(FX2PL(t.length,unit))} · ${NW2(fr(s))}${s.pe?' · '+NW2(s.pe+' pending'):''}</span></span>${fu(s.u)}</summary><div class=r2b>${inner}</div></details>`}).join('')}
- else{const a=base.filter(r=>G=='O'?(r.leg||r.cat=='POTD'):(r.leg||r.fam!='Parlay'));const ps={};a.forEach(r=>(ps[r.fam]=ps[r.fam]||[]).push(r));
+ else if(V=='cap'){const cp={};t0.forEach(r=>(cp[capOf(r)]=cp[capOf(r)]||[]).push(r));
+  const L=Object.entries(cp).map(([k,v])=>[k,rec(v),v]).sort((x,y)=>(y[1].u-x[1].u)||(y[2].length-x[2].length));
+  const tr=([k,s])=>`<tr><td>${E(k)}<div class=r2bar><i style="width:${s.pct||0}%"></i></div></td><td class=r>${fr(s)}</td><td class=r>${s.pct??'–'}</td><td class=r>${fu(s.u)}</td></tr>`;
+  h+=`<details class=r2d><summary><span class=r2t>🏆 Capper leaderboard<span class=r2s>${NW2(FX2PL(L.length,'cappers'))} · ${NW2(fr(rec(t0)))} · ${NW2('by units')}</span></span></summary><div class=r2b><table class=r2tb><tr><th>Capper</th><th class=r>W-L</th><th class=r>%</th><th class=r>Units</th></tr>${L.map(tr).join('')}</table></div></details>`;
+  h+=L.map(([k,s,v])=>capCard(k,v.slice().sort((x,y)=>x.date<y.date?1:-1))).join('')}
+ else{const a=propSrc(base);const ps={};a.forEach(r=>(ps[r.fam]=ps[r.fam]||[]).push(r));
   const L=Object.entries(ps).map(([k,v])=>[k,rec(v),v]).sort((x,y)=>y[2].length-x[2].length);
   const tr=([k,s])=>`<tr><td>${E(k)}<div class=r2bar><i style="width:${s.pct||0}%"></i></div></td><td class=r>${fr(s)}</td><td class=r>${s.pct??'–'}</td><td class=r>${fu(s.u)}</td></tr>`;
   const top=L.slice(0,8),rest=L.slice(8),th='<tr><th>Prop</th><th class=r>W-L</th><th class=r>%</th><th class=r>Units</th></tr>';
-  h+=`<details class=r2d><summary><span class=r2t>${G=='E'?'⚡ Edge by prop':'By prop family'}<span class=r2s>${NW2(FX2PL(L.length,'families').replace(/familie$/,'family'))} · ${NW2(fr(rec(a)))}${G=='O'?' · '+NW2('POTD + legs'):''}</span></span></summary><div class=r2b><table class=r2tb>${th}${top.map(tr).join('')}</table>${rest.length?`<details class=r2more><summary>Show ${rest.length} more ▾</summary><table class=r2tb>${rest.map(tr).join('')}</table></details>`:''}</div></details>`;
+  h+=`<details class=r2d><summary><span class=r2t>${G=='E'?'⚡ Edge by prop':G=='C'?'🎙️ Cappers by prop':'By prop family'}<span class=r2s>${NW2(FX2PL(L.length,'families').replace(/familie$/,'family'))} · ${NW2(fr(rec(a)))}${G=='O'?' · '+NW2('POTD + legs'):''}</span></span></summary><div class=r2b><table class=r2tb>${th}${top.map(tr).join('')}</table>${rest.length?`<details class=r2more><summary>Show ${rest.length} more ▾</summary><table class=r2tb>${rest.map(tr).join('')}</table></details>`:''}</div></details>`;
   h+=L.map(([k,s,v])=>`<details class=r2d><summary>${chips(v)}<span class=r2t>${E(k)}<span class=r2s>${NW2(FX2PL(v.length,'picks'))} · ${NW2(fr(s))}</span></span>${fu(s.u)}</summary><div class=r2b>${v.slice().sort((x,y)=>x.date<y.date?1:-1).map(r=>`<div class=r2dt>${E(r.date.slice(5).replace('-','/'))}</div>`+row(r)).join('')}</div></details>`).join('')}
- const RK={O:['potd','parlay100'],E:['edge'],U:['runnersup','safe100','alt','homefield','lotto','nrfi']}[G];const RR=D.rules||{};
- const rl=(RR.results||[]).concat(...RK.map(k=>(RR[k]||[]).slice(0,3)),RR.grading||[]);
+ const RK={O:['potd','parlay100'],E:['edge'],U:['runnersup','safe100','alt','homefield','lotto','nrfi'],C:[]}[G];const RR=D.rules||{};
+ /* Results rules text comes straight from RULEBOOK §13 (four groups since Oct 19 2026 2:45 PM ET go-live). */
+ const RES4=RR.results||[];
+ const rl=RES4.concat(...RK.map(k=>(RR[k]||[]).slice(0,3)),RR.grading||[]);
  if(rl.length)h+=`<details class=r2rules><summary>📜 Rules ▾</summary><ul>${rl.map(x=>`<li>${E(x)}</li>`).join('')}</ul></details>`;
  return h+'</div>'}
+
 function recordV0(){const F=RF,OR=(D.official_rows||[]).filter(x=>!F||x.sport==F),TR=(D.tracked_rows||[]).filter(x=>!F||x.sport==F);
  const g=x=>['W','L','P'].includes(x.res),wl=a=>{const w=a.filter(x=>x.res=='W').length,l=a.filter(x=>x.res=='L').length,p=a.filter(x=>x.res=='P').length;return{w,l,p,pct:w+l?Math.round(100*w/(w+l)):null}};
  const L=wl(OR.filter(g)),P=wl(OR.filter(x=>g(x)&&x.type=='POTD')),T=wl(OR.filter(x=>g(x)&&x.type=='Parlay')),TK=wl(OR.filter(x=>g(x)&&x.type=='Leg')),RU=wl(TR.filter(g)),pend=OR.filter(x=>!g(x)&&x.res!='Void').length;
@@ -506,7 +574,7 @@ function bankroll(){const b=D.bankroll;if(!b)return '<div class="card m">No bank
  const AM=s=>{const m=String(s||'').match(/^\s*([+\-−]?\s?\$[\d,]+(?:\.\d+)?)\s*(?:\((.*)\))?\s*$/);return m?[m[1].replace(/\s/g,''),m[2]||'']:[String(s||''),'']};
  h+='<div class="card"><span class=m>Ledger · last 15 · times ET</span><table class="lgt">'+[...(b.ledger||[])].filter(l=>!FX3HIDE(l)).reverse().slice(0,15).map(l=>{const [d,t]=LD(l.date),[a,nt]=AM(l.amount),ac=/^[+]/.test(a)?'g':/^[-−]/.test(a)?'r':'';return `<tr><td class="m lgd">${d}${t?`<div>${E(t)}</div>`:''}</td><td>${E(l.event)}<div class=m>${NW2('Avail '+f(l.available))} · ${NW2('Pend '+f(l.pending))}${nt?' · '+NW2(E(nt)):''}</div></td><td class="lga"><b class="${ac}">${E(a)}</b><div><b>${f(l.total)}</b></div></td></tr>`}).join('')+'</table></div>'}
  return h}
-/* RECORD-V1 (live Oct 19 2026, user-approved): Official / Edge / Unofficial record built from D.results_v2 (same counting as Results v2). Rendered in a shadow root so no global CSS or post-render hooks touch it. */
+/* RECORD-V1 (live Oct 19 2026, user-approved; 4 groups Official / Edge / Unofficial / Cappers since Oct 19 2:45 PM ET): record built from D.results_v2 (same counting as Results v2). Rendered in a shadow root so no global CSS or post-render hooks touch it. */
 const RV1_GE=s=>E(s);
 (function(){
 const INTRX=/\b[\w\-\/]+\.(?:py|md|json|sh|log|txt|csv)\b|\bscripts\b|script-readable|readable from|app-only|not loadable|none cited|\bcron\b|\bloop\.sh\b/i;
@@ -514,7 +582,7 @@ function INT(t){if(t==null)return t;let s=String(t).replace(/\s*\([^()]*\)/g,m=>
 const ETd=t=>new Date(t).toLocaleDateString('en-CA',{timeZone:'America/New_York'});
 let ROWS=[],TD='',WK='',F0='All',FL='All';
 function RULES(){const R=D.rules||{},res=R.results||[],gr=R.grading||[];const pk=(l,ks)=>ks.map(k=>l.find(x=>x.startsWith(k))).filter(Boolean);
- return [['Groups',pk(res,['Exactly three groups','Official =','Edge =','Unofficial =','Live plays'])],['Counting',pk(res,['Count every ticket once','Headline record','Units ='])],['Grading & void',pk(gr,['Picks are graded','Void =','Voided picks'])]].filter(x=>x[1].length)}
+ return [['Groups',pk(res,['Exactly four groups','Official =','Edge =','Unofficial =','Cappers =','Record tab','Live plays'])],['Counting',pk(res,['Count every ticket once','Headline record','Units ='])],['Grading & void',pk(gr,['Picks are graded','Void =','Voided picks'])]].filter(x=>x[1].length)}
 const CSS=`:host{display:block;font-size:14px;line-height:1.35}
 *{box-sizing:border-box}
 :host(.day) img{filter:invert(1) hue-rotate(180deg)}
@@ -559,6 +627,7 @@ details>summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{d
 .ghO .t{background:linear-gradient(90deg,#fff,#d7c4ff,#9fe8ff);-webkit-background-clip:text;color:transparent}.ghO .ln{background:linear-gradient(90deg,#b98cf5,#5ee6f2,transparent)}
 .ghE .t{background:linear-gradient(180deg,#fff,#9aa0a8 55%,#e8ebef);-webkit-background-clip:text;color:transparent}.ghE .ln{background:linear-gradient(90deg,#e8ebef,#5b6068,transparent)}
 .ghU .t{color:#8b93a7}.ghU .ln{background:linear-gradient(90deg,#39405a,transparent)}
+.ghC .t{background:linear-gradient(90deg,#f3e9ff,#d7a8ff 40%,#f06ad2 70%,#9fe8ff);-webkit-background-clip:text;color:transparent}.ghC .ln{background:linear-gradient(90deg,#b98cf5,#f06ad2,transparent)}.ghC .tag{border-color:#d7a8ff55;color:#e6d6ff}
 .tag{font-size:9px;font-weight:800;letter-spacing:.12em;padding:2px 6px;border-radius:999px;border:1px solid #ffffff2a;color:#c9d1d9;white-space:nowrap;flex:none}
 /* ---------- record cards ---------- */
 .rc{position:relative;margin:0 0 10px;border-radius:18px}
@@ -670,14 +739,14 @@ function bars(groups,top=8){const L=Object.entries(groups).map(([k,v])=>[k,rec(v
  const one=([k,s])=>`<div class=br><span class=nm>${E(k).replace(/(\([^)]*\))/g,'<span class=nw>$1</span>')}</span><div class=bar>${s.w+s.l?`<i class=bw style="width:${100*s.w/(s.w+s.l)}%"></i><i class=bl style="width:${100*s.l/(s.w+s.l)}%"></i>`:''}</div><span class=wl>${fr(s)}</span><span class=uu>${fu(s.u)}</span></div>`;
  return `<div class=bars>${L.slice(0,top).map(one).join('')}${L.length>top?`<details class=more><summary>Show ${L.length-top} more ▾</summary>${L.slice(top).map(one).join('')}</details>`:''}</div>`}
 const grp=(a,f)=>{const M={};a.forEach(r=>{const k=f(r);(M[k]=M[k]||[]).push(r)});return M};
-function prow(r){return`<div class=pr><span class="rs r${r.res||'X'}">${lab[r.res]||'…'}</span><div class=n>${r.leg?'↳ ':''}${NE(INT(r.pick))}${r.alt?' <span class=alt>ALT</span>':''}${INT(r.sub)?`<small>${NE(INT(r.sub))}</small>`:''}<small>${E(r.date.slice(5).replace('-','/'))} · ${E(FX3S(r))} · ${NE(INT(FX3P(r)))}${INT(r.stat)&&r.stat!='—'&&String(r.stat).trim().toLowerCase()!=String(SPP(r.sport,r.prop)).trim().toLowerCase()?' · '+NE(INT(r.stat)):''}</small></div><span class=o>${E(r.odds)}${r.img?`<a href="${E(r.img)}" target=_blank rel=noopener>🧾 slip</a>`:''}</span></div>`}
+function prow(r){const cm=r.cat=='Cappers'?String(r.pick||'').match(/^(.*?)\s*\(([^()]*)\)\s*$/):null,pk=cm&&cm[1]?cm[1]:r.pick,cx=cm&&cm[1]?cm[2].split(';')[0].trim():'';return`<div class=pr><span class="rs r${r.res||'X'}">${lab[r.res]||'…'}</span><div class=n>${r.leg?'↳ ':''}${NE(INT(pk))}${r.alt?' <span class=alt>ALT</span>':''}${INT(r.sub)?`<small>${NE(INT(r.sub))}</small>`:''}<small>${E(r.date.slice(5).replace('-','/'))} · ${cx?NE(INT(cx))+' · ':''}${E(FX3S(r))} · ${NE(INT(r.cat=='Cappers'?SPP(r.sport,String(r.prop).split(' · ').slice(1).join(' · ')):FX3P(r)))}${INT(r.stat)&&r.stat!='—'&&String(r.stat).trim().toLowerCase()!=String(SPP(r.sport,r.prop)).trim().toLowerCase()?' · '+NE(INT(r.stat)):''}</small></div><span class=o>${E(r.odds)}${r.img?`<a href="${E(r.img)}" target=_blank rel=noopener>🧾 slip</a>`:''}</span></div>`}
 function plist(a,n=5,title='RECENT'){const s=a.slice().sort((x,y)=>x.date<y.date?1:x.date>y.date?-1:0);return`<div class=sec>${title}<i></i></div>${s.slice(0,n).map(prow).join('')}${s.length>n?`<details class=more><summary>Show all ${s.length} ▾</summary>${s.slice(n).map(prow).join('')}</details>`:''}`}
 function card(cls,emb,a,unit,body,extra=''){const s=rec(a);
  const sum=`<summary>${emb}<div class=st>${a.length?`<div class=r>${fr(s)}<span class=u><span class=usep> · </span>${fu(s.u)}</span></div><small><span class=nw>${pl(a.length,unit)}</span>${s.pe?' · <span class=nw>'+s.pe+' pending</span>':''}</small>${extra?`<small>${extra}</small>`:''}`:`<div class=r style="font-size:15px;font-style:normal">No picks yet</div><small>${F0=='All'?'Nothing tracked yet':'<span class=nw>'+E(F0)+'</span> · <span class=nw>0 tracked</span>'}</small>`}</div>${ovr(s)}<span class=chev>▸</span></summary>`;
  const inner=a.length?body():`<div class=empty>Nothing tracked here yet.</div>`;
  return`<div class="rc ${cls}">${cls=='p100'?bolts():''}<details class=wrap>${sum}<div class=body>${inner}</div></details></div>`}
 function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F);
- const O=base.filter(r=>r.grp=='O'),Ot=O.filter(r=>!r.leg),Ol=O.filter(r=>r.leg),Eg=base.filter(r=>r.grp=='E'),U=base.filter(r=>r.grp=='U'),Ut=U.filter(r=>!r.leg);
+ const O=base.filter(r=>r.grp=='O'),Ot=O.filter(r=>!r.leg),Ol=O.filter(r=>r.leg),Eg=base.filter(r=>r.grp=='E'),U=base.filter(r=>r.grp=='U'&&r.cat!='Cappers'),Ut=U.filter(r=>!r.leg),C=base.filter(r=>r.grp=='U'&&r.cat=='Cappers'&&!r.leg);
  const so=rec(Ot),sl=rec(Ol);
  // hero callouts (same math as Results v2)
  const srt=Ot.filter(r=>r.res=='W'||r.res=='L').sort((x,y)=>x.date<y.date?-1:x.date>y.date?1:0);let best=0,c=0;srt.forEach(r=>{c=r.res=='W'?c+1:0;best=Math.max(best,c)});
@@ -708,10 +777,14 @@ function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F);
  h+=`<div class="gh ghU"><span class=t>UNOFFICIAL</span><span class=ln></span><span class=tot>${fr(su)} ${fu(su.u)}</span></div>`;
  const SF=Ut.filter(r=>r.cat=='Safe +100'),SFl=U.filter(r=>r.cat=='Safe +100'&&r.leg);
  h+=card('safe','<div class=em><img src="altlines-logo.jpg" alt="Safe +100"></div>',SF,'ticket',()=>mini(SF)+plist(U.filter(r=>r.cat=='Safe +100'),8,'TICKETS + LEGS'),SFl.length?`legs ${fr(rec(SFl))} ${fu(rec(SFl).u)}`:'');
- const UC=[['Runners-up','runnersup-logo.png','Runners-up','pick',r=>r.fam,'u-ru'],['Alt lines','altlines-crystal-logo.png','Alt lines','pick',r=>r.fam,'u-alt'],['Home Field','homefield-logo.png','Home Field Advantage','pick',r=>r.prop||r.fam,'u-hf'],['Lotto','lotto-logo.png','Lotto Ticket','ticket',r=>r.fam,'u-lot'],['NRFI','nrfi-logo.png','NRFI calls','call',r=>r.pick.split(' · ')[0],'u-nr'],['Cappers','cappers-logo.png','Cappers','pick',r=>r.prop.split(' · ')[0],'u-cap']];
+ const UC=[['Runners-up','runnersup-logo.png','Runners-up','pick',r=>r.fam,'u-ru'],['Alt lines','altlines-crystal-logo.png','Alt lines','pick',r=>r.fam,'u-alt'],['Home Field','homefield-logo.png','Home Field Advantage','pick',r=>r.prop||r.fam,'u-hf'],['Lotto','lotto-logo.png','Lotto Ticket','ticket',r=>r.fam,'u-lot'],['NRFI','nrfi-logo.png','NRFI calls','call',r=>r.pick.split(' · ')[0],'u-nr']];
  UC.forEach(([k,img,name,unit,gf,uc])=>{const a=Ut.filter(r=>r.cat==k),lg=U.filter(r=>r.cat==k&&r.leg);
-  const by=k=='Cappers'?'BY CAPPER':k=='Home Field'?'BY SECTION':k=='NRFI'?'BY SIDE':'BY PROP FAMILY';
+  const by=k=='Home Field'?'BY SECTION':k=='NRFI'?'BY SIDE':'BY PROP FAMILY';
   h+=card('uf '+uc,`<div class=em><img src="${img}" alt="${name}"></div>`,a,unit,()=>mini(a)+(k=='Lotto'?`<div class=sec>LEGS · ${fr(rec(lg))}<i></i></div>`+bars(grp(lg,r=>r.sport))+plist(a.concat(lg),6,'TICKET + LEGS'):`<div class=sec>${by}<i></i></div>`+bars(grp(a,gf))+plist(a)),lg.length?`legs ${fr(rec(lg))} ${fu(rec(lg).u)}`:'')});
+ // CAPPERS (own group; every capper pick once, never in our record)
+ const sc=rec(C),ncp=new Set(C.map(r=>r.prop.split(' · ')[0])).size;
+ h+=`<div class="gh ghC"><span class=t>CAPPERS</span><span class=tag>IDEA SOURCES</span><span class=ln></span><span class=tot>${fr(sc)} ${fu(sc.u)}</span></div>`;
+ h+=card('uf u-cap','<div class=em><img src="cappers-logo.png" alt="Cappers"></div>',C,'pick',()=>mini(C)+`<div class=sec>BY CAPPER<i></i></div>`+bars(grp(C,r=>r.prop.split(' · ')[0]))+`<div class=sec>BY PROP FAMILY<i></i></div>`+bars(grp(C,r=>r.fam))+plist(C,6,'PICKS'),ncp?pl(ncp,'capper'):'');
  h+=`<details class=rules><summary><span>📜 Rules</span><span class=m>▾</span></summary>${RULES().map(([t,l])=>`<h4>${E(t.toUpperCase())}</h4><ul>${l.map(x=>`<li>${E(x)}</li>`).join('')}</ul>`).join('')}</details>`;
  return h}
 
