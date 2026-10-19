@@ -1,5 +1,5 @@
 {
- "generated": 1792387568.062975,
+ "generated": 1792389598.9735482,
  "today": {
   "title": "Oct 19 placed bets (Hard Rock)",
   "tickets": [
@@ -402,7 +402,10 @@
      }
     ],
     "sport": "NFL",
-    "source": "user-tickets"
+    "source": "user-tickets",
+    "images": [
+     "tickets/2026-10-18-nhl-2leg-blake-boldy.jpg"
+    ]
    },
    {
     "images": [
@@ -3912,17 +3915,11 @@
  ],
  "bankroll": {
   "start": 51.05,
-  "total": 46.54,
-  "available": 36.54,
-  "pending": 5.0,
-  "pct": -8.83,
-  "pending_bets": [
-   {
-    "bet": "10/18 NHL 2-leg -110: Jackson Blake o1.5 SOG -275 (CAR@CGY) + Matt Boldy o2.5 SOG -250 (CBJ@MIN)",
-    "stake": "$5.00",
-    "pays": "$9.55"
-   }
-  ],
+  "total": 46.09,
+  "available": 46.09,
+  "pending": 0.0,
+  "pct": -9.72,
+  "pending_bets": [],
   "ledger": [
    {
     "date": "2026-10-16 16:40 ET",
@@ -4042,7 +4039,23 @@
     "amount": "-$10.00 (lost $10.00 stake)",
     "available": 36.54,
     "pending": 5.0,
-    "total": 46.54
+    "total": 41.54
+   },
+   {
+    "date": "2026-10-18 17:45 ET",
+    "event": "Correction: Total on the Safe +100 row was mis-added ($46.54); $36.54 available + $5.00 pending = $41.54",
+    "amount": "$0.00",
+    "available": 36.54,
+    "pending": 5.0,
+    "total": 41.54
+   },
+   {
+    "date": "2026-10-19 01:59 ET",
+    "event": "NHL 2-leg -110 WON (Boldy 3+ SOG, Blake 2+ SOG; slip: Won $9.55)",
+    "amount": "+$9.55 (returned)",
+    "available": 46.09,
+    "pending": 0.0,
+    "total": 46.09
    }
   ]
  },
@@ -4485,7 +4498,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-19 01:26 AM ET",
+  "updated": "2026-10-19 01:59 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -13501,11 +13514,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 01:26 ET",
-  "generated_ts": 1792387577,
+  "generated": "2026-10-19 02:00 ET",
+  "generated_ts": 1792389609,
   "hr_fetched": "2026-10-19 01:16 ET",
   "hr_fetched_ts": 1792386960,
-  "hr_age_min": 10,
+  "hr_age_min": 44,
   "sports": {
    "NASCAR": {
     "games": [],
