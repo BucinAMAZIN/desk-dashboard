@@ -1,5 +1,5 @@
 {
- "generated": 1792423658.5972898,
+ "generated": 1792424586.014969,
  "today": {
   "title": "Oct 19 picks (Hard Rock prices · nothing placed yet)",
   "tickets": [
@@ -107,7 +107,7 @@
     "stat": "—",
     "lu_txt": "CLE ✗ TB ✗",
     "lu": "red",
-    "now": "-260"
+    "now": "-275"
    },
    {
     "pick": "Guardians Under 3.5 Team Runs",
@@ -120,8 +120,7 @@
     "status": "Pre-lock",
     "stat": "—",
     "lu_txt": "CLE ✗ TB ✗",
-    "lu": "red",
-    "now": "-175"
+    "lu": "red"
    }
   ],
   "ncaaf": [],
@@ -162,7 +161,7 @@
        "why_not": "Cleveland won Game 1 by 4.",
        "lu_txt": "CLE ✗ TB ✗",
        "lu": "red",
-       "now": "-260"
+       "now": "-275"
       },
       {
        "pick": "Pavel Dorofeyev o1.5 SOG",
@@ -204,7 +203,8 @@
        "why": "Tampa is the -150 home favorite, so this loses only if Cleveland wins by 2 or more. Series margins: CLE by 4, TB by 2, CLE by 1, TB by 4 and TB by 2, so it covered 4 of 5. Freddy Peralta threw six scoreless innings against Cleveland in Game 2 and has a 0.79 ERA over 11.1 postseason innings (3.25 ERA, 1.01 WHIP in 10 starts since the trade). Pinnacle's fair price is -235, close to Hard Rock's -260.",
        "why_not": "Peralta threw 9 pitches in relief on Saturday, and Cleveland won Game 1 by 4 runs once Tampa's bullpen took over.",
        "lu_txt": "CLE ✗ TB ✗",
-       "lu": "red"
+       "lu": "red",
+       "now": "-275"
       },
       {
        "pick": "Guardians Under 4.5 Team Runs",
@@ -303,7 +303,8 @@
       "rank": 6,
       "why_not": "A two-run Cleveland win, like the late bullpen meltdown in Game 1, loses it.",
       "lu_txt": "CLE ✗ TB ✗",
-      "lu": "red"
+      "lu": "red",
+      "now": "-275"
      },
      {
       "pick": "(Quality) Guardians Under 4.5 Team Runs",
@@ -5018,7 +5019,7 @@
   "deduped": 20
  },
  "standings": {
-  "updated": "2026-10-19 11:27 AM ET",
+  "updated": "2026-10-19 11:43 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -9636,11 +9637,11 @@
     {
      "pick": "Chase DeLauter 1+ hits",
      "game": "Guardians @ Rays 10/19 08:08 PM ET",
-     "odds": "-185",
+     "odds": "-190",
      "grade": "B+",
      "reason": "DeLauter 1.1 hits/gm this season (133 gms), 1.1 last 10; hit 1+ in 8 of last 10, 87 of 133 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 1,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -9651,12 +9652,25 @@
      "grade": "B+",
      "reason": "Walls 0.7 hits/gm this season (124 gms), 0.6 last 10; hit 1+ in 6 of last 10, 66 of 124 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 2,
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
     }
    ],
    "alt": [
+    {
+     "pick": "Freddy Peralta 4+ Ks",
+     "game": "Guardians @ Rays 10/19 08:08 PM ET",
+     "odds": "-200",
+     "grade": "B+",
+     "reason": "Last 5 starts: 4, 6, 4, 3, 6 Ks (4.6 avg); cleared 3.5 in 6 of last 8 starts. 21.4% strikeout rate this season; opponent strikes out 20.6% vs righties (league ~22%). Recent depth: 5.0, 5.2, 5.1, 4.2, 6.0 innings on 86, 97, 93, 66, 99 pitches.",
+     "live": false,
+     "updated": "2026-10-19 11:40",
+     "rank": 1,
+     "group": "Safe",
+     "why_not": "Postseason urgency: managers pull starters before a third time through the order at the first sign of trouble. Opponent rarely strikes out vs righties (20.6%).",
+     "k_gate": "kept: 6/8 vs 67% implied"
+    },
     {
      "pick": "Guardians @ Rays Over 4.5",
      "game": "Guardians @ Rays 10/19 08:08 PM ET",
@@ -9664,20 +9678,20 @@
      "grade": "C+",
      "live": false,
      "reason": "2-pt cushion vs the main total 6.5; Hard Rock's prices make it about 73% to cash.",
-     "updated": "2026-10-19 11:04",
-     "rank": 1,
+     "updated": "2026-10-19 11:40",
+     "rank": 2,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     },
     {
      "pick": "Guardians +2.5",
      "game": "Guardians @ Rays 10/19 08:08 PM ET",
-     "odds": "-350",
+     "odds": "-325",
      "grade": "C+",
      "live": false,
-     "reason": "1-pt cushion vs the main line (Guardians +1.5); Hard Rock's prices make it about 72% to cash.",
-     "updated": "2026-10-19 11:04",
-     "rank": 3,
+     "reason": "1-pt cushion vs the main line (Guardians +1.5); Hard Rock's prices make it about 71% to cash.",
+     "updated": "2026-10-19 11:40",
+     "rank": 4,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it."
     },
@@ -9688,10 +9702,22 @@
      "grade": "B+",
      "reason": "Walls 0.7 hits/gm this season (124 gms), 0.6 last 10; hit 1+ in 6 of last 10, 66 of 124 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 1,
      "group": "Wild",
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
+    },
+    {
+     "pick": "Jose Ramirez 2+ total bases",
+     "game": "Guardians @ Rays 10/19 08:08 PM ET",
+     "odds": "+170",
+     "grade": "B+",
+     "reason": "Ramirez 1.4 total bases/gm this season (125 gms), 2.1 last 10; hit 2+ in 5 of last 10, 44 of 125 this season.",
+     "live": false,
+     "updated": "2026-10-19 11:40",
+     "rank": 2,
+     "group": "Wild",
+     "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "Yandy Diaz 2+ total bases",
@@ -9700,32 +9726,8 @@
      "grade": "B+",
      "reason": "Diaz 1.8 total bases/gm this season (154 gms), 2.2 last 10; hit 2+ in 5 of last 10, 71 of 154 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 2,
-     "group": "Wild",
-     "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
-    },
-    {
-     "pick": "Jose Ramirez 2+ total bases",
-     "game": "Guardians @ Rays 10/19 08:08 PM ET",
-     "odds": "+165",
-     "grade": "B+",
-     "reason": "Ramirez 1.4 total bases/gm this season (125 gms), 2.1 last 10; hit 2+ in 5 of last 10, 44 of 125 this season.",
-     "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 3,
-     "group": "Wild",
-     "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
-    },
-    {
-     "pick": "Jonathan Aranda 2+ total bases",
-     "game": "Guardians @ Rays 10/19 08:08 PM ET",
-     "odds": "+145",
-     "grade": "B",
-     "reason": "Aranda 1.6 total bases/gm this season (155 gms), 1.4 last 10; hit 2+ in 5 of last 10, 63 of 155 this season.",
-     "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 4,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
     }
@@ -9739,24 +9741,13 @@
     {
      "pick": "Jack Roslovic 2+ SOG",
      "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
-     "odds": "-210",
+     "odds": "-220",
      "grade": "A",
      "reason": "Roslovic 3.3 SOG/gm this season (9 gms), 3.1 last 10; hit 2+ in 9 of last 10, 9 of 9 this season; 17 min TOI; Sharks allow 27.5 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 1,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
-    },
-    {
-     "pick": "Easton Cowan 2+ SOG",
-     "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
-     "odds": "-150",
-     "grade": "A-",
-     "reason": "Cowan 2.1 SOG/gm this season (9 gms), 2.1 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 16 min TOI; Sharks allow 27.5 shots/gm (lg 27.1).",
-     "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 2,
-     "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "Nazem Kadri 3+ SOG",
@@ -9765,8 +9756,8 @@
      "grade": "A-",
      "reason": "Kadri 3.0 SOG/gm this season (8 gms), 2.7 last 10; hit 3+ in 6 of last 10, 5 of 8 this season; 20 min TOI; Flyers allow 32.9 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 3,
+     "updated": "2026-10-19 11:40",
+     "rank": 2,
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
     },
     {
@@ -9776,9 +9767,20 @@
      "grade": "A-",
      "reason": "Sergachev 2.6 SOG/gm this season (9 gms), 2.5 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 22 min TOI; Penguins allow 27.7 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 4,
+     "updated": "2026-10-19 11:40",
+     "rank": 3,
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
+    },
+    {
+     "pick": "Easton Cowan 2+ SOG",
+     "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
+     "odds": "-165",
+     "grade": "A-",
+     "reason": "Cowan 2.1 SOG/gm this season (9 gms), 2.1 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 16 min TOI; Sharks allow 27.5 shots/gm (lg 27.1).",
+     "live": false,
+     "updated": "2026-10-19 11:40",
+     "rank": 4,
+     "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "T.J. Hughes 2+ SOG",
@@ -9787,7 +9789,7 @@
      "grade": "A-",
      "reason": "Hughes 2.1 SOG/gm this season (8 gms), 2.1 last 8; hit 2+ in 5 of last 8, 5 of 8 this season; 14 min TOI; Flyers allow 32.9 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 5,
      "why_not": "It missed in 3 of the last 8 games, so one quiet game sinks it."
     },
@@ -9798,7 +9800,7 @@
      "grade": "A-",
      "reason": "Cuylle 2.4 SOG/gm this season (10 gms), 2.4 last 10; hit 2+ in 8 of last 10, 8 of 10 this season; 16 min TOI; Ducks allow 26.3 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 6,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -9809,7 +9811,7 @@
      "grade": "B+",
      "reason": "Malkin 2.2 SOG/gm this season (9 gms), 2.3 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 18 min TOI; Mammoth allow 22.9 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 7,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -9820,7 +9822,7 @@
      "grade": "B+",
      "reason": "Gauthier 3.5 SOG/gm this season (6 gms), 3.3 last 10; hit 4+ in 6 of last 10, 4 of 6 this season; 17 min TOI; Rangers allow 25.2 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 8,
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
     }
@@ -9833,7 +9835,7 @@
      "grade": "A",
      "reason": "Kadri 3.0 SOG/gm this season (8 gms), 2.7 last 10; hit 2+ in 9 of last 10, 8 of 8 this season; 20 min TOI; Flyers allow 32.9 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 1,
      "group": "Safe",
      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
@@ -9845,22 +9847,10 @@
      "grade": "A-",
      "reason": "Makar 2.4 SOG/gm this season (7 gms), 2.4 last 10; hit 2+ in 8 of last 10, 6 of 7 this season; 23 min TOI; Flyers allow 32.9 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 2,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
-    },
-    {
-     "pick": "Kirill Marchenko 2+ SOG",
-     "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
-     "odds": "-400",
-     "grade": "B+",
-     "reason": "Marchenko 2.8 SOG/gm this season (9 gms), 2.9 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 19 min TOI; Sharks allow 27.5 shots/gm (lg 27.1).",
-     "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 3,
-     "group": "Safe",
-     "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "Nick Schmaltz 2+ SOG",
@@ -9869,8 +9859,8 @@
      "grade": "B+",
      "reason": "Schmaltz 3.2 SOG/gm this season (9 gms), 2.9 last 10; hit 2+ in 8 of last 10, 8 of 9 this season; 19 min TOI; Penguins allow 27.7 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 4,
+     "updated": "2026-10-19 11:40",
+     "rank": 3,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
@@ -9881,22 +9871,34 @@
      "grade": "B",
      "reason": "Crosby 2.3 SOG/gm this season (9 gms), 2.6 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 20 min TOI; Mammoth allow 22.9 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 5,
+     "updated": "2026-10-19 11:40",
+     "rank": 4,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "Macklin Celebrini 3+ SOG",
      "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
-     "odds": "-240",
+     "odds": "-230",
      "grade": "B",
      "reason": "Celebrini 4.3 SOG/gm this season (6 gms), 3.9 last 10; hit 3+ in 7 of last 10, 4 of 6 this season; 21 min TOI; Maple Leafs allow 29.3 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 6,
+     "updated": "2026-10-19 11:40",
+     "rank": 5,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
+    },
+    {
+     "pick": "Darren Raddysh 2+ SOG",
+     "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
+     "odds": "-400",
+     "grade": "B-",
+     "reason": "Raddysh 2.3 SOG/gm this season (9 gms), 2.3 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 24 min TOI; Sharks allow 27.5 shots/gm (lg 27.1).",
+     "live": false,
+     "updated": "2026-10-19 11:40",
+     "rank": 6,
+     "group": "Safe",
+     "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
     {
      "pick": "Cutter Gauthier 3+ SOG",
@@ -9905,7 +9907,7 @@
      "grade": "C+",
      "reason": "Gauthier 3.5 SOG/gm this season (6 gms), 3.3 last 10; hit 3+ in 6 of last 10, 4 of 6 this season; 17 min TOI; Rangers allow 25.2 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 7,
      "group": "Safe",
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
@@ -9917,7 +9919,7 @@
      "grade": "C",
      "reason": "Sennecke 2.6 SOG/gm this season (7 gms), 2.9 last 10; hit 2+ in 7 of last 10, 4 of 7 this season; 21 min TOI; Rangers allow 25.2 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 8,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -9929,7 +9931,7 @@
      "grade": "A-",
      "reason": "Necas 2.2 SOG/gm this season (8 gms), 2.0 last 10; hit 2+ in 7 of last 10, 6 of 8 this season; 21 min TOI; Flyers allow 32.9 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 9,
      "group": "Safe",
      "why_not": "It missed in 3 of the last 10 games, so one quiet game sinks it."
@@ -9941,7 +9943,7 @@
      "grade": "B",
      "reason": "Keller 2.4 SOG/gm this season (9 gms), 2.9 last 10; hit 2+ in 8 of last 10, 7 of 9 this season; 18 min TOI; Penguins allow 27.7 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 10,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -9953,7 +9955,7 @@
      "grade": "A",
      "reason": "Toffoli 2.5 SOG/gm this season (8 gms), 2.1 last 10; hit 3+ in 5 of last 10, 5 of 8 this season; 13 min TOI; Maple Leafs allow 29.3 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 1,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -9965,7 +9967,7 @@
      "grade": "A-",
      "reason": "MacKinnon 4.8 SOG/gm this season (8 gms), 4.5 last 10; hit 5+ in 4 of last 10, 3 of 8 this season; 21 min TOI; Flyers allow 32.9 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 2,
      "group": "Wild",
      "why_not": "It missed in 6 of the last 10 games, so one quiet game sinks it."
@@ -9977,20 +9979,8 @@
      "grade": "A-",
      "reason": "Cuylle 2.4 SOG/gm this season (10 gms), 2.4 last 10; hit 3+ in 5 of last 10, 5 of 10 this season; 16 min TOI; Ducks allow 26.3 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 3,
-     "group": "Wild",
-     "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
-    },
-    {
-     "pick": "Jack Roslovic 3+ SOG",
-     "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
-     "odds": "+135",
-     "grade": "B+",
-     "reason": "Roslovic 3.3 SOG/gm this season (9 gms), 3.1 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Sharks allow 27.5 shots/gm (lg 27.1).",
-     "live": false,
-     "updated": "2026-10-19 11:04",
-     "rank": 4,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
     },
@@ -10001,7 +9991,19 @@
      "grade": "B+",
      "reason": "Sergachev 2.6 SOG/gm this season (9 gms), 2.5 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 22 min TOI; Penguins allow 27.7 shots/gm (lg 27.1).",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
+     "rank": 4,
+     "group": "Wild",
+     "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
+    },
+    {
+     "pick": "Jack Roslovic 3+ SOG",
+     "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
+     "odds": "+130",
+     "grade": "B+",
+     "reason": "Roslovic 3.3 SOG/gm this season (9 gms), 3.1 last 10; hit 3+ in 5 of last 10, 5 of 9 this season; 17 min TOI; Sharks allow 27.5 shots/gm (lg 27.1).",
+     "live": false,
+     "updated": "2026-10-19 11:40",
      "rank": 5,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -10020,18 +10022,18 @@
      "grade": "A",
      "reason": "Purdy 25.6 rush yds/gm this season (5 gms), 24.9 last 10; hit 19+ in 8 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 1,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     },
     {
-     "pick": "Terry McLaurin 49+ rec yds",
+     "pick": "Terry McLaurin 50+ rec yds",
      "game": "Commanders @ 49ers 10/19 08:15 PM ET",
      "odds": "-115",
      "grade": "A-",
-     "reason": "McLaurin 50.8 rec yds/gm this season (4 gms), 58.2 last 10; hit 49+ in 8 of last 10, 3 of 4 this season.",
+     "reason": "McLaurin 50.8 rec yds/gm this season (4 gms), 58.2 last 10; hit 50+ in 8 of last 10, 3 of 4 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 2,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
     }
@@ -10044,7 +10046,7 @@
      "grade": "A-",
      "reason": "Williams 3.0 rec/gm this season (5 gms), 3.0 last 5; hit 2+ in 5 of last 5, 5 of 5 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 1,
      "group": "Safe",
      "why_not": "It hit in all of the last 5 games, but streaks end, and one quiet game sinks it."
@@ -10056,7 +10058,7 @@
      "grade": "B+",
      "reason": "Diggs 42.5 rec yds/gm this season (4 gms), 42.4 last 10; hit 25+ in 8 of last 10, 4 of 4 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 2,
      "group": "Safe",
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
@@ -10068,7 +10070,7 @@
      "grade": "A",
      "reason": "Purdy 25.6 rush yds/gm this season (5 gms), 24.9 last 10; hit 25+ in 6 of last 10, 4 of 5 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 1,
      "group": "Wild",
      "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it."
@@ -10080,7 +10082,7 @@
      "grade": "A-",
      "reason": "Williams 3.0 rec/gm this season (5 gms), 3.0 last 5; hit 3+ in 4 of last 5, 4 of 5 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 2,
      "group": "Wild",
      "why_not": "It missed in 1 of the last 5 games, so one quiet game sinks it."
@@ -10092,7 +10094,7 @@
      "grade": "A-",
      "reason": "Daniels 67.7 rush yds/gm this season (3 gms), 48.1 last 10; hit 50+ in 5 of last 10, 2 of 3 this season.",
      "live": false,
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 5,
      "group": "Wild",
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it."
@@ -10126,7 +10128,7 @@
      "grade": "C+",
      "live": false,
      "reason": "6-pt cushion vs the main total 152.5; Hard Rock's prices make it about 64% to cash.",
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 2,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
@@ -10138,7 +10140,7 @@
      "grade": "C+",
      "live": false,
      "reason": "4-pt cushion vs the main line (Atlanta Dream +2.5); Hard Rock's prices make it about 66% to cash.",
-     "updated": "2026-10-19 11:04",
+     "updated": "2026-10-19 11:40",
      "rank": 4,
      "group": "Safe",
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it."
@@ -10833,7 +10835,7 @@
    "team": "Rays",
    "game": "Guardians @ Rays Mon 8:08 PM ET",
    "start_iso": "2026-10-19T20:08-04:00",
-   "built_at": "2026-10-19 11:04 ET",
+   "built_at": "2026-10-19 11:40 ET",
    "locked": false,
    "locked_at": null,
    "late_lock": false,
@@ -10847,7 +10849,7 @@
      "rank": 1,
      "section": "props",
      "pick": "Brayan Rocchio under 0.5 hits",
-     "odds": "-110",
+     "odds": "-115",
      "grade": "B",
      "reason": "Rocchio 0.9 hits/gm this season (153 gms), 0.4 last 10; stayed under 0.5 in 7 of last 10, 59 of 153 this season.",
      "status": null,
@@ -10880,9 +10882,9 @@
      "rank": 1,
      "section": "ev",
      "pick": "Jose Ramirez 2+ total bases",
-     "odds": "+165",
+     "odds": "+170",
      "grade": "B+",
-     "reason": "Ramirez 1.4 total bases/gm this season (125 gms), 2.1 last 10; hit 2+ in 5 of last 10, 44 of 125 this season. Edge: we make it 41% to hit; +165 implies 38%, so +8.9% expected value per bet.",
+     "reason": "Ramirez 1.4 total bases/gm this season (125 gms), 2.1 last 10; hit 2+ in 5 of last 10, 44 of 125 this season. Edge: we make it 41% to hit; +170 implies 37%, so +10.2% expected value per bet.",
      "status": null,
      "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it.",
      "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
@@ -10912,17 +10914,6 @@
     {
      "rank": 4,
      "section": "ev",
-     "pick": "Jonathan Aranda 2+ total bases",
-     "odds": "+145",
-     "grade": "B",
-     "reason": "Aranda 1.6 total bases/gm this season (155 gms), 1.4 last 10; hit 2+ in 5 of last 10, 63 of 155 this season. Edge: we make it 44% to hit; +145 implies 41%, so +7.3% expected value per bet.",
-     "status": null,
-     "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it.",
-     "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
-    },
-    {
-     "rank": 5,
-     "section": "ev",
      "pick": "Nathaniel Lowe 2+ total bases",
      "odds": "+200",
      "grade": "B",
@@ -10932,18 +10923,41 @@
      "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
     },
     {
+     "rank": 5,
+     "section": "ev",
+     "pick": "Jonathan Aranda 2+ total bases",
+     "odds": "+140",
+     "grade": "B",
+     "reason": "Aranda 1.6 total bases/gm this season (155 gms), 1.4 last 10; hit 2+ in 5 of last 10, 63 of 155 this season. Edge: we make it 44% to hit; +140 implies 42%, so +5.9% expected value per bet.",
+     "status": null,
+     "why_not": "It missed in 5 of the last 10 games, so one quiet game sinks it.",
+     "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
+    },
+    {
      "rank": 7,
      "section": "ev",
-     "pick": "Junior Caminero 2+ total bases",
-     "odds": "+135",
+     "pick": "Chandler Simpson under 0.5 hits",
+     "odds": "+185",
      "grade": "B",
-     "reason": "Caminero 2.0 total bases/gm this season (162 gms), 1.5 last 10; hit 2+ in 4 of last 10, 77 of 162 this season. Edge: we make it 43% to hit; +135 implies 43%, so +1.2% expected value per bet.",
+     "reason": "Simpson 1.2 hits/gm this season (151 gms), 0.7 last 10; stayed under 0.5 in 4 of last 10, 44 of 151 this season. Edge: we make it 35% to hit; +185 implies 35%, so +0.0% expected value per bet.",
      "status": null,
-     "why_not": "It missed in 6 of the last 10 games, so one quiet game sinks it.",
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
     },
     {
      "rank": 1,
+     "section": "alt",
+     "pick": "Freddy Peralta 4+ Ks",
+     "odds": "-200",
+     "grade": "B+",
+     "reason": "Last 5 starts: 4, 6, 4, 3, 6 Ks (4.6 avg); cleared 3.5 in 6 of last 8 starts. 21.4% strikeout rate this season; opponent strikes out 20.6% vs righties (league ~22%). Recent depth: 5.0, 5.2, 5.1, 4.2, 6.0 innings on 86, 97, 93, 66, 99 pitches.",
+     "status": null,
+     "why_not": "Postseason urgency: managers pull starters before a third time through the order at the first sign of trouble. Opponent rarely strikes out vs righties (20.6%).",
+     "_game": "Guardians @ Rays Mon 8:08 PM ET Rays",
+     "k_gate": "kept: 6/8 vs 67% implied"
+    },
+    {
+     "rank": 2,
      "section": "alt",
      "pick": "Steven Kwan 1+ hits",
      "odds": "-210",
@@ -10954,7 +10968,7 @@
      "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
     },
     {
-     "rank": 2,
+     "rank": 3,
      "section": "alt",
      "pick": "Junior Caminero 1+ hits",
      "odds": "-200",
@@ -10965,7 +10979,7 @@
      "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
     },
     {
-     "rank": 3,
+     "rank": 4,
      "section": "alt",
      "pick": "Yandy Diaz 1+ hits",
      "odds": "-250",
@@ -10973,17 +10987,6 @@
      "reason": "Diaz 1.2 hits/gm this season (154 gms), 1.4 last 10; hit 1+ in 8 of last 10, 106 of 154 this season. Hit rates from game logs (LineMate not script-readable).",
      "status": null,
      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it.",
-     "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
-    },
-    {
-     "rank": 4,
-     "section": "alt",
-     "pick": "Chandler Simpson 1+ hits",
-     "odds": "-250",
-     "grade": "B-",
-     "reason": "Simpson 1.2 hits/gm this season (151 gms), 0.7 last 10; hit 1+ in 6 of last 10, 107 of 151 this season. Hit rates from game logs (LineMate not script-readable).",
-     "status": null,
-     "why_not": "It missed in 4 of the last 10 games, so one quiet game sinks it.",
      "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
     },
     {
@@ -11012,9 +11015,9 @@
      "rank": 7,
      "section": "alt",
      "pick": "Guardians +2.5",
-     "odds": "-350",
+     "odds": "-325",
      "grade": "C+",
-     "reason": "1-pt cushion vs the main line (Guardians +1.5); Hard Rock's prices make it about 72% to cash.",
+     "reason": "1-pt cushion vs the main line (Guardians +1.5); Hard Rock's prices make it about 71% to cash.",
      "status": null,
      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
      "_game": "Guardians @ Rays Mon 8:08 PM ET Rays"
@@ -11447,7 +11450,7 @@
     "edge": 0.1073863968242188,
     "result": "Pending",
     "picked_et": "11:02 AM ET",
-    "now": "+1400"
+    "now": "+1300"
    }
   ]
  },
@@ -13465,11 +13468,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 11:27 ET",
-  "generated_ts": 1792423665,
-  "hr_fetched": "2026-10-19 11:23 ET",
-  "hr_fetched_ts": 1792423380,
-  "hr_age_min": 5,
+  "generated": "2026-10-19 11:43 ET",
+  "generated_ts": 1792424599,
+  "hr_fetched": "2026-10-19 11:40 ET",
+  "hr_fetched_ts": 1792424400,
+  "hr_age_min": 3,
   "sports": {
    "NASCAR": {
     "games": [],
