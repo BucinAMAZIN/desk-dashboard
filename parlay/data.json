@@ -1,5 +1,5 @@
 {
- "generated": 1792444785.930788,
+ "generated": 1792444989.033461,
  "today": {
   "title": "Oct 19 placed bets (Hard Rock)",
   "tickets": [
@@ -2427,7 +2427,7 @@
     "p": 2,
     "pct": 57
    },
-   "pending": 72
+   "pending": 74
   },
   "props": [
    {
@@ -3096,6 +3096,20 @@
     "odds": "+210",
     "result": "L",
     "detail": "Loss (BUF 33-30 LV)"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NHL · Leg: Martin Necas o1.5 · 10/19 NHL +100 2-leg +104 $5",
+    "odds": "-260",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NHL · Leg: Jack Roslovic o1.5 · 10/19 NHL +100 2-leg +104 $5",
+    "odds": "-210",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-10-19",
@@ -4941,8 +4955,8 @@
  "bankroll": {
   "start": 51.05,
   "total": 46.09,
-  "available": 35.0,
-  "pending": 11.09,
+  "available": 30.0,
+  "pending": 16.09,
   "pct": -9.72,
   "pending_bets": [
    {
@@ -4959,6 +4973,11 @@
     "bet": "NFL user SGP 4-leg +399 (McCaffrey/McLaurin/Purdy/o52, 15% boost)",
     "stake": "$2.50",
     "pays": "$13.98"
+   },
+   {
+    "bet": "NHL Parlay +100 2-leg +104 (Roslovic/Necas o1.5 SOG)",
+    "stake": "$5.00",
+    "pays": "$10.22"
    }
   ],
   "ledger": [
@@ -5104,6 +5123,14 @@
     "amount": "-$11.09 (placed)",
     "available": 35.0,
     "pending": 11.09,
+    "total": 46.09
+   },
+   {
+    "date": "2026-10-19 17:22 ET",
+    "event": "Placed NHL 2-leg +104 $5 (Roslovic o1.5 SOG + Necas o1.5 SOG = our NHL +100)",
+    "amount": "-$5.00 (placed)",
+    "available": 30.0,
+    "pending": 16.09,
     "total": 46.09
    }
   ]
@@ -5534,7 +5561,7 @@
   "deduped": 13
  },
  "standings": {
-  "updated": "2026-10-19 05:19 PM ET",
+  "updated": "2026-10-19 05:23 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -15056,6 +15083,26 @@
    "stat": "—"
   },
   {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Leg",
+   "prop": "NHL SOG",
+   "pick": "Jack Roslovic o1.5 · 10/19 NHL +100 2-leg +104 $5",
+   "odds": "-210",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Leg",
+   "prop": "NHL SOG",
+   "pick": "Martin Necas o1.5 · 10/19 NHL +100 2-leg +104 $5",
+   "odds": "-260",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
    "date": "2026-10-18",
    "sport": "NFL",
    "type": "Edge",
@@ -16554,16 +16601,16 @@
   "headline": 82
  },
  "inning_record": {
-  "w": 13,
-  "l": 6,
-  "pct": 68
+  "w": 0,
+  "l": 0,
+  "pct": null
  },
  "ingame_lines": {
-  "generated": "2026-10-19 17:19 ET",
-  "generated_ts": 1792444791,
+  "generated": "2026-10-19 17:23 ET",
+  "generated_ts": 1792444996,
   "hr_fetched": "2026-10-19 17:15 ET",
   "hr_fetched_ts": 1792444500,
-  "hr_age_min": 5,
+  "hr_age_min": 8,
   "sports": {
    "NASCAR": {
     "games": [],
@@ -16676,7 +16723,7 @@
  },
  "alt_lines": {
   "date": "2026-10-19",
-  "built": "2026-10-19 17:19",
+  "built": "2026-10-19 17:23",
   "max": 10,
   "per_game": 4,
   "sports": {
@@ -18638,7 +18685,9 @@
     "leg": false,
     "img": null,
     "alt": false,
-    "fam": "Parlay"
+    "fam": "Parlay",
+    "placed": true,
+    "stake": "$5"
    },
    {
     "date": "2026-10-19",
@@ -18945,6 +18994,38 @@
     "sub": "",
     "alt": false,
     "fam": "Total"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Jack Roslovic o1.5 · 10/19 NHL +100 2-leg +104 $5",
+    "odds": "-210",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Martin Necas o1.5 · 10/19 NHL +100 2-leg +104 $5",
+    "odds": "-260",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
    },
    {
     "date": "2026-10-18",
@@ -26311,7 +26392,7 @@
      "w": 29,
      "l": 23,
      "p": 1,
-     "pending": 10,
+     "pending": 12,
      "units": 6
     }
    },
