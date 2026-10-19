@@ -1,5 +1,5 @@
 {
- "generated": 1792405036.9732661,
+ "generated": 1792405502.90889,
  "today": {
   "title": "Oct 19 placed bets (Hard Rock)",
   "tickets": [
@@ -37,9 +37,11 @@
       "pick": "Guardians F5 Under 2.5 Team Runs",
       "odds": "-325",
       "game": "CLE @ TB 8:08 PM ET",
-      "status": "Pending",
+      "status": "Pre-lock",
       "why": "Cleveland scored 0, 0, 3, 1 and 0 runs through five innings in the five ALCS games, so this cashed in 4 of 5. Freddy Peralta threw six scoreless innings against them in Game 2. He has a 0.79 postseason ERA over 11.1 innings and a 3.25 ERA with a 1.01 WHIP since joining Tampa (MLB StatsAPI). MLB.com notes a 0.99 ERA in his five home starts since late August. Savant batter-vs-pitcher for current Guardians against Peralta: Kwan 2-for-13, Ramírez 3-for-9 with 4 walks, Rocchio 0-for-4, Adell 0-for-3, Lowe 0-for-3, DeLauter 0-for-2, Bazzana 1-for-3, and no home runs. Cleveland ranked 24th of 30 in runs this season (.696 OPS, .706 against righties). Tropicana Field is a dome, so weather isn't a factor. Peralta's start is confirmed (Tampa Bay Times via RotoWire). Lineups aren't posted yet. MLB F5 team totals are 4-0 in our records.",
-      "why_not": "Peralta threw 9 relief pitches in Game 4 on Saturday, so his early command could be off, and Ramírez has walked 4 times against him."
+      "why_not": "Peralta threw 9 relief pitches in Game 4 on Saturday, so his early command could be off, and Ramírez has walked 4 times against him.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
      },
      {
       "pick": "Dylan Guenther o1.5 SOG",
@@ -97,8 +99,10 @@
     "grade": "B+",
     "rank": 4,
     "why_not": "Cleveland won Game 1 7-3, and Tampa's own bullpen still has to cover the late innings.",
-    "status": "Pending",
-    "stat": "—"
+    "status": "Pre-lock",
+    "stat": "—",
+    "lu_txt": "CLE ✗ TB ✗",
+    "lu": "red"
    },
    {
     "pick": "Guardians Under 3.5 Team Runs",
@@ -108,8 +112,10 @@
     "grade": "B",
     "rank": 5,
     "why_not": "Cleveland scored 7 in Game 1, and the late innings against Tampa's bullpen count here too.",
-    "status": "Pending",
-    "stat": "—"
+    "status": "Pre-lock",
+    "stat": "—",
+    "lu_txt": "CLE ✗ TB ✗",
+    "lu": "red"
    }
   ],
   "ncaaf": [],
@@ -144,9 +150,11 @@
        "pick": "Tampa Bay Rays +1.5",
        "odds": "-250",
        "game": "CLE @ TB 8:08 PM ET",
-       "status": "Pending",
+       "status": "Pre-lock",
        "why": "Loses only on a Cleveland win by 2 or more. It covered 4 of 5 series games, and Peralta (0.79 postseason ERA) faces a Cleveland bullpen game. Dome.",
-       "why_not": "Cleveland won Game 1 by 4."
+       "why_not": "Cleveland won Game 1 by 4.",
+       "lu_txt": "CLE ✗ TB ✗",
+       "lu": "red"
       },
       {
        "pick": "Dylan Guenther o1.5 SOG",
@@ -159,6 +167,440 @@
      ],
      "why_not": "All three legs must hit, and two of them (49ers team total and Rays +1.5) depend on a lead holding up late."
     }
+   },
+   "MLB": {
+    "potd": {
+     "pick": "Junior Caminero o1.5 Hits+Runs+RBI",
+     "odds": "-110",
+     "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+     "status": "Pre-lock",
+     "why": "ALCS Game 6 at Tropicana Field (dome, so no weather), Tampa Bay up 3-2 and the only MLB game today. Caminero cleared 1.5 hits+runs+RBI in 94 of 162 regular-season games (58%) and 4 of 8 this postseason, with a hit in 7 of his last 10 (MLB StatsAPI game logs). Hard Rock -110 implies 52.4%. Cleveland has no rested starter: Gavin Williams is unavailable and Parker Messick lasted only 2 innings in Game 5, so the bullpen is taxed. RotoWire's expected starter is Tanner Bibee (4.36 ERA, gave up 5+ earned runs in 3 of his last 5 regular-season starts, 2 runs in 1/3 of an inning this postseason). Caminero is 4-for-13 with a homer (.923 OPS) against Bibee; CBS expects lefty Joey Cantillo (3.62 ERA, 1.42 WHIP) to pitch bulk, and Caminero bats right-handed. Posted at the 6 AM ET run. Lineups aren't out yet, so this card stays Pre-lock until both lineups post. Caminero played all 162 regular-season games and 8 playoff games. Prices are from the 6:09 AM ET Hard Rock pull. Pinnacle doesn't price this prop, so there's no fair-price check.",
+     "desc": "Junior Caminero o1.5 Hits+Runs+RBI -110 (CLE @ TB 8:08 PM ET · Provisional until lineup lock)",
+     "why_not": "He's 1-for-4 against Cantillo, and he's gone under this line in 4 of his 8 playoff games. If Cleveland's bullpen keeps him quiet, one hit with no run or RBI isn't enough.",
+     "lu_txt": "CLE ✗ TB ✗",
+     "lu": "red"
+    },
+    "parlay": {
+     "pick": "3-leg",
+     "odds": "+117",
+     "game": "CLE @ TB",
+     "status": "Pre-lock",
+     "why": "It's a one-game slate, so the ticket is a same-game parlay built before the game, priced by multiplying the three Hard Rock leg prices (1.385 x 1.308 x 1.200 = 2.173, +117). Hard Rock's own same-game price may be lower because the legs are correlated.",
+     "desc": "3-leg +117 · Same-game parlay (CLE @ TB) (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "Tampa Bay Rays +1.5",
+       "odds": "-260",
+       "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+       "status": "Pre-lock",
+       "why": "Tampa is the -150 home favorite, so this loses only if Cleveland wins by 2 or more. Series margins: CLE by 4, TB by 2, CLE by 1, TB by 4 and TB by 2, so it covered 4 of 5. Freddy Peralta threw six scoreless innings against Cleveland in Game 2 and has a 0.79 ERA over 11.1 postseason innings (3.25 ERA, 1.01 WHIP in 10 starts since the trade). Pinnacle's fair price is -235, close to Hard Rock's -260.",
+       "why_not": "Peralta threw 9 pitches in relief on Saturday, and Cleveland won Game 1 by 4 runs once Tampa's bullpen took over.",
+       "lu_txt": "CLE ✗ TB ✗",
+       "lu": "red"
+      },
+      {
+       "pick": "Guardians Under 4.5 Team Runs",
+       "odds": "-325",
+       "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+       "status": "Pre-lock",
+       "why": "Cleveland scored 7, 1, 3, 3 and 1 in the series (4 or fewer in 4 of 5) and ranked 24th in MLB in runs this season. Savant batter-vs-pitcher has the current Guardians with no homers off Peralta (Kwan 2-for-13, Rocchio 0-for-4, Adell 0-for-3, Lowe 0-for-3).",
+       "why_not": "José Ramírez has 4 walks in 13 plate appearances against Peralta, and a tired Tampa bullpen gave up 5 late runs in Game 1.",
+       "lu_txt": "CLE ✗ TB ✗",
+       "lu": "red"
+      },
+      {
+       "pick": "Rays Over 1.5 Team Runs",
+       "odds": "-500",
+       "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+       "status": "Pre-lock",
+       "why": "Tampa scored 2 or more in all 5 series games (3, 3, 2, 7, 3) and gets a Cleveland bullpen game after Messick's 2-inning start in Game 5. Against Bibee, Yandy Díaz is 6-for-17 with a homer, Jonathan Aranda 3-for-9 with a homer and Caminero 4-for-13 with a homer.",
+       "why_not": "Tampa scored only 2 in Game 3, and it hits for a .679 OPS against lefties if Cantillo pitches most of the game.",
+       "lu_txt": "CLE ✗ TB ✗",
+       "lu": "red"
+      }
+     ],
+     "why_not": "All three legs depend on one game. A Cleveland blowout like Game 1 (7-3) sinks the first two legs together.",
+     "lu_txt": "CLE ✗ TB ✗",
+     "lu": "red"
+    },
+    "runners_up": [
+     {
+      "pick": "(+EV) Jonathan Aranda o1.5 Hits+Runs+RBI",
+      "odds": "+110",
+      "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+      "status": "Pre-lock",
+      "why": "Best value on the board. Aranda cleared 1.5 in 82 of 155 regular-season games (53%) and 5 of 8 playoff games, against the 47.6% that +110 implies. He's 3-for-9 with a homer against Bibee and, as a lefty, has the platoon edge on a right-handed starter.",
+      "grade": "B+",
+      "rank": 1,
+      "why_not": "He had three straight hitless games before his last two, and if Cantillo (a lefty) pitches bulk innings, the platoon edge is gone.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
+     },
+     {
+      "pick": "Yandy Diaz o1.5 Hits+Runs+RBI",
+      "odds": "-120",
+      "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+      "status": "Pre-lock",
+      "why": "Díaz cleared 1.5 in 87 of 154 regular-season games (56.5%) and 5 of 8 this postseason, with a hit in 8 of his last 10. He leads off or bats near the top, so he gets the most plate appearances, and he's 6-for-17 with a homer against Bibee. -120 implies 54.5%.",
+      "grade": "B",
+      "rank": 2,
+      "why_not": "He's 1-for-5 against Cantillo, and the edge over the price is thin.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
+     },
+     {
+      "pick": "Tampa Bay Rays F5 -0.5",
+      "odds": "-105",
+      "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+      "status": "Pre-lock",
+      "why": "Tampa led after five innings in 3 of 5 series games (2-0, 3-0 and 3-0), and Peralta held Cleveland scoreless over six in Game 2 while Cleveland starts a bullpen game.",
+      "grade": "C+",
+      "rank": 3,
+      "why_not": "Pinnacle's fair price is +114 (46.8%), so -105 costs about 9% in value. A tie after five innings (like Game 4's 1-1) also loses.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
+     },
+     {
+      "pick": "(Quality) Rays +2.5",
+      "odds": "-450",
+      "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+      "status": "Pre-lock",
+      "why": "Loses only if Cleveland wins by 3 or more, which happened once in five series games (7-3 in Game 1). Tampa is the -150 favorite with Peralta on the mound.",
+      "grade": "B+",
+      "rank": 4,
+      "why_not": "At -450 it pays little, and a blowout like Game 1 still loses it.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
+     },
+     {
+      "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
+      "odds": "-325",
+      "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+      "status": "Pre-lock",
+      "why": "Cleveland scored 0, 0, 3, 1 and 0 through five innings in this series (under in 4 of 5) and was shut out for six innings by Peralta in Game 2. It's also a leg on today's main +100 ticket.",
+      "grade": "B+",
+      "rank": 5,
+      "why_not": "Cleveland scored 3 in the first five of Game 3, and Ramírez has walked 4 times against Peralta.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
+     },
+     {
+      "pick": "(Quality) Tampa Bay Rays +1.5",
+      "odds": "-260",
+      "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+      "status": "Pre-lock",
+      "why": "It covered in 4 of 5 series games, and Pinnacle's fair price is -235. It's also a leg on the MLB +100 ticket.",
+      "grade": "B+",
+      "rank": 6,
+      "why_not": "A two-run Cleveland win, like the late bullpen meltdown in Game 1, loses it.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
+     },
+     {
+      "pick": "(Quality) Guardians Under 4.5 Team Runs",
+      "odds": "-325",
+      "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+      "status": "Pre-lock",
+      "why": "Cleveland scored 4 or fewer in 4 of 5 series games and averaged 4.19 runs this season (24th in MLB). It's also a leg on the MLB +100 ticket.",
+      "grade": "B+",
+      "rank": 7,
+      "why_not": "Cleveland's Game 1 7-run outburst came on 14 hits, so its bats can come alive.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
+     },
+     {
+      "pick": "(Quality) Rays Over 1.5 Team Runs",
+      "odds": "-500",
+      "game": "CLE @ TB 8:08 PM ET · Provisional until lineup lock",
+      "status": "Pre-lock",
+      "why": "Tampa scored 2 or more in all 5 series games and faces a taxed Cleveland bullpen. It's also a leg on the MLB +100 ticket.",
+      "grade": "B+",
+      "rank": 8,
+      "why_not": "Tampa had just 3 hits in its Game 3 loss (2 runs), so a cold night can happen.",
+      "lu_txt": "CLE ✗ TB ✗",
+      "lu": "red"
+     }
+    ]
+   },
+   "NHL": {
+    "potd": {
+     "pick": "Kirill Marchenko o2.5 SOG",
+     "odds": "-125",
+     "game": "SJ @ TOR 7:30 PM ET · Provisional until noon lock",
+     "status": "Pending",
+     "why": "Marchenko averages 2.78 shots a game for Toronto this season and has 3 or more in 6 of 9 games (5, 3, 2, 0, 3, 3, 2, 3, 4, newest first) on 18.7 minutes a night. He hit 3+ in 42 of 76 games last season (55%). Toronto has Tavares, Domi, Joshua and Wood on IR, so his top-six and power-play minutes are safe. San Jose allows 27.5 shots a game. -125 implies 55.6%. Neither team has played since Friday (rested), and DailyFaceoff projects Nedeljkovic (.920) for San Jose and Stolarz (.875) for Toronto, neither confirmed. NHL SOG overs are our best prop type (NHL SOG 15-6 in sport picks). Posted at the 6 AM ET run from the 6:09 AM ET Hard Rock pull. The noon lock rechecks goalies, lines and scratches; only a scratch or postponement voids it.",
+     "desc": "Kirill Marchenko o2.5 SOG -125 (SJ @ TOR 7:30 PM ET · Provisional until noon lock)",
+     "why_not": "He had a 0-shot game four games ago and only 2 shots in 3 of his last 9. Toronto also plays in Columbus tomorrow, so its minutes could get managed."
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+109",
+     "game": "calc from Hard Rock leg prices",
+     "status": "Pending",
+     "why": "Two 2+ shot alt lines on high-volume players in different games: 1.476 x 1.417 = 2.091 (+109).",
+     "desc": "2-leg +109 (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "Jack Roslovic o1.5 SOG",
+       "odds": "-210",
+       "game": "SJ @ TOR 7:30 PM ET · Provisional until noon lock",
+       "status": "Pending",
+       "why": "Roslovic has 2+ shots in all 9 games this season (5, 5, 2, 5, 3, 4, 2, 2, 2, newest first; 3.33 average) on 16.8 minutes, and Toronto's four injured forwards keep him in the top six. San Jose allows 27.5 shots a game. This is Hard Rock's \"2+ shots\" alt; the main line is o2.5 at +140.",
+       "why_not": "Last season he hit 2+ in only 45 of 69 games (65%), and he plays under 17 minutes."
+      },
+      {
+       "pick": "Martin Necas o1.5 SOG",
+       "odds": "-240",
+       "game": "COL @ PHI 7:00 PM ET · Provisional until noon lock",
+       "status": "Pending",
+       "why": "Necas hit 2+ in 59 of 78 games last season (76%) and 6 of 8 this year, on 20.9 minutes. Philadelphia allows the most shots in the NHL (32.9 a game) and has Foerster, Couturier and Tippett day-to-day, so Colorado (30.8 shots a game) should have the puck a lot.",
+       "why_not": "He had 1 and 0 shots in his last two games, and Colorado may coast if it builds a big lead."
+      }
+     ],
+     "why_not": "Both legs must hit, and Necas had 1 and 0 shots in his last two games."
+    },
+    "runners_up": [
+     {
+      "pick": "(+EV) Will Cuylle 3+ SOG",
+      "odds": "+185",
+      "game": "ANA @ NYR 7:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Best value: Cuylle has 3+ shots in 5 of 10 games this season (2.4 average) and 29 of 82 last season (35%), against the 35% that +185 implies. Anaheim allows 26.3 shots a game.",
+      "grade": "B",
+      "rank": 1,
+      "why_not": "He plays only 15.6 minutes, and he had 0 and 1 shot in two of his last five games."
+     },
+     {
+      "pick": "Nazem Kadri o2.5 SOG",
+      "odds": "-105",
+      "game": "COL @ PHI 7:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "3+ shots in 5 of 8 games this season (3.0 average) on 20.1 minutes and 40 of 77 last season (52%). Philadelphia allows the most shots in the league (32.9) and has three forwards day-to-day. -105 implies 51.2%.",
+      "grade": "A-",
+      "rank": 2,
+      "why_not": "He had exactly 2 shots in 3 of his 8 games, and he hit 3+ in only half his games last season."
+     },
+     {
+      "pick": "Cutter Gauthier o3.5 SOG",
+      "odds": "-105",
+      "game": "ANA @ NYR 7:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Gauthier averages 3.5 shots a game (6 games) with 4+ in 4 of 6, and he hit 4+ in 38 of 76 last season (50%) on 17.5 minutes. -105 implies 51.2%.",
+      "grade": "B+",
+      "rank": 3,
+      "why_not": "The Rangers allow only 25.2 shots a game, and he had 0 and 1 shots in two of his last five."
+     },
+     {
+      "pick": "Ducks @ Rangers Under 6.5",
+      "odds": "-120",
+      "game": "ANA @ NYR 7:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Rangers games have had 6 or fewer goals in 7 of 10 and Ducks games in 5 of 7 (12 of 17 combined, 71%). New York allows 2.20 goals a game with a 93.5% penalty kill, and Dylan Garand (.927) is projected with Shesterkin on IR. Pinnacle's fair price is -110.",
+      "grade": "B",
+      "rank": 4,
+      "why_not": "Anaheim's power play is at 26.9%, and the Ducks' goalie Dostal (.881) has been leaky."
+     },
+     {
+      "pick": "Avalanche @ Flyers Under 6.5",
+      "odds": "-130",
+      "game": "COL @ PHI 7:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Philadelphia games have had 6 or fewer goals in 9 of 10 (Philly scores an NHL-low 1.40 a game). Pinnacle's fair price is -119.",
+      "grade": "B-",
+      "rank": 5,
+      "why_not": "Colorado games went over 6 in 5 of 8 (4.50 goals a game), and both projected goalies are around .890."
+     },
+     {
+      "pick": "(Quality) Nazem Kadri o1.5 SOG",
+      "odds": "-300",
+      "game": "COL @ PHI 7:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Kadri has 2+ shots in all 8 games this season and 62 of 77 last season (81%), and Philadelphia allows a league-high 32.9 shots. It's also a leg on today's main +100 ticket.",
+      "grade": "A",
+      "rank": 6,
+      "why_not": "He has 0 goals on 24 shots, so a line change could cut his minutes."
+     },
+     {
+      "pick": "(Quality) Cale Makar o1.5 SOG",
+      "odds": "-350",
+      "game": "COL @ PHI 7:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Makar has 2+ shots in 6 of 7 games this season and 59 of 75 last season (79%) on 21.8 minutes, against the league's most generous shot defense.",
+      "grade": "A-",
+      "rank": 7,
+      "why_not": "He had a 1-shot game this season, and at -350 there's little payout."
+     },
+     {
+      "pick": "(Quality) Mikhail Sergachev o1.5 SOG",
+      "odds": "-260",
+      "game": "PIT @ UTA 9:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "2+ shots in 8 of 9 games this season on 22.4 minutes, and 47 of 78 last season (60%). Pittsburgh allows 27.7 shots a game.",
+      "grade": "B+",
+      "rank": 8,
+      "why_not": "He had a 0-shot game this season, and last season's 60% rate is below the 72% that -260 implies."
+     },
+     {
+      "pick": "(Quality) Evgeni Malkin o1.5 SOG",
+      "odds": "-155",
+      "game": "PIT @ UTA 9:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "2+ shots in 7 of 9 games this season and 40 of 56 last season (71%) on 17.5 minutes. -155 implies 60.8%.",
+      "grade": "B+",
+      "rank": 9,
+      "why_not": "Utah allows the fewest shots in the NHL (22.9 a game)."
+     },
+     {
+      "pick": "(Quality) Easton Cowan o1.5 SOG",
+      "odds": "-140",
+      "game": "SJ @ TOR 7:30 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "2+ shots in 7 of 9 games this season (2.11 average). Toronto's injuries keep his role, and San Jose allows 27.5 shots a game.",
+      "grade": "B",
+      "rank": 10,
+      "why_not": "He hit 2+ in only 28 of 66 games last season (42%) and plays about 15 minutes."
+     }
+    ]
+   },
+   "WNBA": {
+    "potd": {
+     "pick": "Angel Reese 25+ pts+reb",
+     "odds": "-125",
+     "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+     "status": "Pending",
+     "why": "WNBA Finals Game 2. Reese reached 25+ points plus rebounds in 32 of 44 regular-season games (73%), 4 of 6 playoff games and 7 of her last 10, and she had 26 (14 points, 12 rebounds) in Golden State's 68-64 Game 1 win. She's playing 34-39 minutes a night in the playoffs. -125 implies 55.6%. Game 1 was a brick-fest (Atlanta shot 33% from the field, Golden State 32%, with 41 and 35 rebounds), which means extra rebounds to grab. ESPN's injury report has only Brionna Jones and Matilde Villa out for Atlanta and Iliana Rupert for Golden State, all long-term. Hard Rock \"25+ points + rebounds\" alt from the 6:09 AM ET pull. Posted at the 6 AM ET run; the noon lock rechecks injuries. Only a scratch or postponement voids it.",
+     "desc": "Angel Reese 25+ pts+reb -125 (ATL @ GS 8:00 PM ET · Provisional until noon lock)",
+     "why_not": "She cleared by only 1.5 in Game 1 and went 24 and 22 in two of her last five, so a cold shooting night can leave her short."
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+134",
+     "game": "ATL @ GS",
+     "status": "Pending",
+     "why": "It's a one-game slate, so the ticket is a same-game parlay built before the game, priced by multiplying the two Hard Rock leg prices (1.385 x 1.690 = 2.340, +134). Hard Rock's own same-game price may differ.",
+     "desc": "2-leg +134 · Same-game parlay (ATL @ GS) (calc from Hard Rock leg prices)",
+     "legs": [
+      {
+       "pick": "Jordin Canada 15+ pts+ast",
+       "odds": "-260",
+       "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+       "status": "Pending",
+       "why": "Canada reached 15+ points plus assists in 33 of 43 regular-season games (77%), all 6 playoff games and 9 of her last 10, on 35-39 minutes. She had 15 (8 points, 7 assists) in Game 1.",
+       "why_not": "Game 1 landed exactly on 15, and she cleared 11+ points in only 2 of 6 games against Golden State this season."
+      },
+      {
+       "pick": "Allisha Gray 20+ PRA",
+       "odds": "-145",
+       "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+       "status": "Pending",
+       "why": "Gray reached 20+ points, rebounds and assists in 35 of 45 regular-season games (78%) and had 27 (19 points, 6 rebounds, 2 assists) in Game 1 on 33 minutes.",
+       "why_not": "She had an 8 in an 11-minute playoff game earlier this postseason, and she's 3 of 7 against Golden State on her 21+ line."
+      }
+     ],
+     "why_not": "Both legs are Atlanta guards in one game, so a bad Atlanta offensive night sinks both."
+    },
+    "runners_up": [
+     {
+      "pick": "(+EV) Rhyne Howard o3.5 ast",
+      "odds": "+120",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Best value: Howard had 4+ assists in 21 of 44 regular-season games (48%), 4 of 6 playoff games and 7 of her last 10, against the 45.5% that +120 implies. She had 4 in Game 1 on 38 minutes.",
+      "grade": "B",
+      "rank": 1,
+      "why_not": "She went 0 assists in one of her last five games, and Atlanta's poor shooting (16% from three in Game 1) caps assists."
+     },
+     {
+      "pick": "Jordin Canada o6.5 ast",
+      "odds": "-130",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "7+ assists in 24 of 43 regular-season games and 5 of 6 playoff games (last five: 7, 11, 8, 4, 11), with 7 in Game 1. -130 implies 56.5%.",
+      "grade": "B+",
+      "rank": 2,
+      "why_not": "She had 4 in one of her last five, and Golden State held her to 6.0 assists a game in the regular season."
+     },
+     {
+      "pick": "Dream @ Valkyries Under 153.5",
+      "odds": "-120",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Game 1 finished 68-64 (132 points), with both teams shooting about 32% and making 16-21% of their threes. This alt total gives 21 points of room over Game 1. Pinnacle's fair price is -111.",
+      "grade": "B-",
+      "rank": 3,
+      "why_not": "Game 1's shooting was historically cold and will likely bounce back. Hard Rock's main total is 152.5, so the market expects about 20 more points."
+     },
+     {
+      "pick": "Naz Hillmon o3.5 reb",
+      "odds": "-120",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "4+ rebounds in 29 of 43 regular-season games (67%) on 30-44 minutes in the playoffs, against the 54.5% that -120 implies.",
+      "grade": "B-",
+      "rank": 4,
+      "why_not": "She had only 2 rebounds in Game 1 and 3 of 6 in the playoffs."
+     },
+     {
+      "pick": "Kiah Stokes u4.5 pts",
+      "odds": "-130",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "Stokes scored 4 or fewer in 28 of 43 regular-season games (65%) and 4 of 7 playoff games. She's a rebounding center who rarely shoots.",
+      "grade": "C+",
+      "rank": 5,
+      "why_not": "She scored 9 in Game 1 and 11 two games before, so she's trending over this line."
+     },
+     {
+      "pick": "(Quality) Angel Reese 20+ pts+reb",
+      "odds": "-400",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "20+ points plus rebounds in 39 of 44 regular-season games (89%), all 6 playoff games and 9 of her last 10. She had 26 in Game 1.",
+      "grade": "A-",
+      "rank": 6,
+      "why_not": "It's the same player as the WNBA POTD, so one bad night hurts both, and -400 pays little."
+     },
+     {
+      "pick": "(Quality) Veronica Burton 6+ reb+ast",
+      "odds": "-475",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "6+ rebounds plus assists in 39 of 44 regular-season games (89%), 5 of 7 playoff games and 8 of her last 10. She had 7 in Game 1.",
+      "grade": "B+",
+      "rank": 7,
+      "why_not": "She had 4 in two of her last five games, and -475 leaves almost no payout."
+     },
+     {
+      "pick": "(Quality) Kaila Charles 4+ reb",
+      "odds": "-165",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "4+ rebounds in 29 of 44 regular-season games, 5 of 7 playoff games and 8 of her last 10. She had 10 in Game 1.",
+      "grade": "B+",
+      "rank": 8,
+      "why_not": "She played only 17-18 minutes in three of her last five games."
+     },
+     {
+      "pick": "(Quality) Tiffany Hayes u1.5 3PM",
+      "odds": "-250",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "1 or fewer threes in 40 of 49 games this season (82%) and 5 of 7 playoff games, on about 20 minutes a night. -250 implies 71.4%.",
+      "grade": "B",
+      "rank": 9,
+      "why_not": "She made 2 threes in one of her last five, and she averaged 1.14 threes a game against Atlanta this season."
+     },
+     {
+      "pick": "(Quality) Rhyne Howard 6+ reb+ast",
+      "odds": "-350",
+      "game": "ATL @ GS 8:00 PM ET · Provisional until noon lock",
+      "status": "Pending",
+      "why": "6+ rebounds plus assists in 34 of 44 regular-season games (77%) and 4 of 6 playoff games, with 11 in Game 1 on 38 minutes.",
+      "grade": "B-",
+      "rank": 10,
+      "why_not": "The 77% hit rate roughly matches the 77.8% that -350 implies, and she had just 2 in one of her last five."
+     }
+    ]
    }
   },
   "date": "2026-10-19"
@@ -1941,7 +2383,7 @@
     "p": 2,
     "pct": 57
    },
-   "pending": 6
+   "pending": 12
   },
   "props": [
    {
@@ -2272,6 +2714,48 @@
     "date": "2026-10-19",
     "pick": "NHL · Leg: Nazem Kadri o1.5 · 10/19 +100 3-leg +105 $2.30 (rec)",
     "odds": "-300 rec",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "WNBA · Parlay: 2-leg",
+    "odds": "+134",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "WNBA · POTD: Angel Reese 25+ pts+reb",
+    "odds": "-125",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NHL · Parlay: 2-leg",
+    "odds": "+109",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NHL · POTD: Kirill Marchenko o2.5 SOG",
+    "odds": "-125",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "MLB · Parlay: 3-leg",
+    "odds": "+117",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "MLB · POTD: Junior Caminero o1.5 Hits+Runs+RBI",
+    "odds": "-110",
     "result": "Pending",
     "detail": "—"
    },
@@ -4168,158 +4652,158 @@
     "stat": "—"
    },
    {
-    "date": "2026-10-18",
-    "rank": "9",
-    "sport": "NFL",
-    "prop": "NFL moneyline",
-    "pick": "(Quality) Jacksonville Jaguars ML",
-    "odds": "-145",
-    "grade": "B+",
-    "status": "L",
-    "stat": "HOU 34-31 JAX"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "8",
-    "sport": "NFL",
-    "prop": "NFL moneyline",
-    "pick": "(Quality) New England Patriots ML",
-    "odds": "-375",
-    "grade": "B+",
-    "status": "W",
-    "stat": "NYJ 19-26 NE"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "7",
-    "sport": "NFL",
-    "prop": "NFL moneyline",
-    "pick": "(Quality) Indianapolis Colts ML",
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA reb+ast",
+    "pick": "(Quality) Rhyne Howard 6+ reb+ast",
     "odds": "-350",
-    "grade": "A-",
-    "status": "L",
-    "stat": "TEN 26-20 IND"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "6",
-    "sport": "NFL",
-    "prop": "NFL moneyline",
-    "pick": "(Quality) Kansas City Chiefs ML",
-    "odds": "-425",
-    "grade": "A",
-    "status": "W",
-    "stat": "LAC 6-22 KC"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "5",
-    "sport": "NHL",
-    "prop": "NHL game total",
-    "pick": "Blue Jackets @ Wild Under 6.5",
-    "odds": "-120",
     "grade": "B-",
-    "status": "W",
-    "stat": "total 3"
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-18",
-    "rank": "5",
-    "sport": "NFL",
-    "prop": "NFL game total",
-    "pick": "Ravens @ Browns Over 39.5",
-    "odds": "-115",
-    "grade": "C+",
-    "status": "L",
-    "stat": "total 23"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "4",
-    "sport": "NHL",
-    "prop": "NHL ML",
-    "pick": "Carolina Hurricanes ML",
-    "odds": "-200",
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA player 3PM",
+    "pick": "(Quality) Tiffany Hayes u1.5 3PM",
+    "odds": "-250",
     "grade": "B",
-    "status": "L",
-    "stat": "CAR 2-3 CGY"
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-18",
-    "rank": "4",
-    "sport": "NFL",
-    "prop": "NFL spread",
-    "pick": "Indianapolis Colts -7",
-    "odds": "-105",
-    "grade": "B-",
-    "status": "L",
-    "stat": "TEN 26-20 IND"
-   },
-   {
-    "date": "2026-10-18",
-    "rank": "3",
-    "sport": "NHL",
-    "prop": "NHL ML",
-    "pick": "Minnesota Wild ML",
-    "odds": "-185",
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA player rebounds",
+    "pick": "(Quality) Kaila Charles 4+ reb",
+    "odds": "-165",
     "grade": "B+",
-    "status": "W",
-    "stat": "CBJ 1-2 MIN"
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-18",
-    "rank": "3",
-    "sport": "NFL",
-    "prop": "NFL game total",
-    "pick": "Steelers @ Buccaneers Under 38.5",
-    "odds": "-105",
-    "grade": "B",
-    "status": "L",
-    "stat": "total 45"
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA reb+ast",
+    "pick": "(Quality) Veronica Burton 6+ reb+ast",
+    "odds": "-475",
+    "grade": "B+",
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-18",
-    "rank": "2",
-    "sport": "NHL",
-    "prop": "NHL SOG",
-    "pick": "Joel Eriksson Ek o1.5 SOG",
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA pts+reb",
+    "pick": "(Quality) Angel Reese 20+ pts+reb",
     "odds": "-400",
     "grade": "A-",
-    "status": "W",
-    "stat": "2 SOG"
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-18",
-    "rank": "2",
-    "sport": "NFL",
-    "prop": "NFL game total",
-    "pick": "Chargers @ Chiefs Under 41",
-    "odds": "-105",
-    "grade": "B",
-    "status": "W",
-    "stat": "total 28"
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA player points",
+    "pick": "Kiah Stokes u4.5 pts",
+    "odds": "-130",
+    "grade": "C+",
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-18",
-    "rank": "1",
-    "sport": "MLB",
-    "prop": "MLB run line (alt)",
-    "pick": "Tampa Bay Rays +1.5",
-    "odds": "-325",
-    "grade": "A-",
-    "status": "W",
-    "stat": "TB 3-1 CLE"
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA player rebounds",
+    "pick": "Naz Hillmon o3.5 reb",
+    "odds": "-120",
+    "grade": "B-",
+    "status": "Pending",
+    "stat": "—"
    },
    {
-    "date": "2026-10-18",
-    "rank": "1",
-    "sport": "NFL",
-    "prop": "NFL spread",
-    "pick": "(+EV) Kansas City Chiefs -7.5",
-    "odds": "-105",
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA game total (alt)",
+    "pick": "Dream @ Valkyries Under 153.5",
+    "odds": "-120",
+    "grade": "B-",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA player assists",
+    "pick": "Jordin Canada o6.5 ast",
+    "odds": "-130",
     "grade": "B+",
-    "status": "W",
-    "stat": "LAC 6-22 KC"
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA player assists",
+    "pick": "(+EV) Rhyne Howard o3.5 ast",
+    "odds": "+120",
+    "grade": "B",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Easton Cowan o1.5 SOG",
+    "odds": "-140",
+    "grade": "B",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Evgeni Malkin o1.5 SOG",
+    "odds": "-155",
+    "grade": "B+",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Mikhail Sergachev o1.5 SOG",
+    "odds": "-260",
+    "grade": "B+",
+    "status": "Pending",
+    "stat": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "NHL",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Cale Makar o1.5 SOG",
+    "odds": "-350",
+    "grade": "A-",
+    "status": "Pending",
+    "stat": "—"
    }
   ],
   "grades": [
@@ -4382,7 +4866,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-19 06:17 AM ET",
+  "updated": "2026-10-19 06:25 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -8882,6 +9366,7 @@
    ]
   ]
  },
+ "prelock_note": "MLB picks pending — awaiting official lineups",
  "nascar_proj": {
   "title": "Top 10 projected finish · Freeway Insurance 500 (Phoenix, Sun 3:00 PM ET)",
   "note": "LOCKED off the live Hard Rock lines seen Sat Oct 17, 9:31 PM ET (Top 10 / Top 5 / Winner), with the confirmed qualifying lineup (Blaney pole; Larson P22). Rankings use Hard Rock Top-10 odds, Phoenix Next Gen history, recent form and starting position. No recent-form metric for Michael McDowell, Chris Buescher, Corey Heim, Connor Zilisch, Daniel Suárez, Todd Gilliland: neutral median used. Not graded.",
@@ -11123,7 +11608,89 @@
   },
   "by_sport": {}
  },
- "safe100": {},
+ "safe100": {
+  "date": "2026-10-19",
+  "sports": {
+   "NFL": {
+    "sport": "NFL",
+    "odds": "-106",
+    "posted": "6:24 AM ET",
+    "locked": true,
+    "closest": true,
+    "label": "Closest to +100",
+    "sgp": true,
+    "price_note": "straight multiply (Hard Rock SGP price not available to us)",
+    "legs": [
+     {
+      "pick": "Stefon Diggs 25+ rec yds",
+      "game": "Commanders @ 49ers 10/19 08:15 PM ET",
+      "odds": "-350",
+      "grade": "A-",
+      "reason": "Diggs 42.5 rec yds/gm this season (4 gms), 52.4 last 10; hit 25+ in 9 of last 10, 4 of 4 this season.",
+      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
+     },
+     {
+      "pick": "Terry McLaurin 25+ rec yds",
+      "game": "Commanders @ 49ers 10/19 08:15 PM ET",
+      "odds": "-425",
+      "grade": "B",
+      "reason": "McLaurin 50.8 rec yds/gm this season (4 gms), 58.2 last 10; hit 25+ in 9 of last 10, 3 of 4 this season.",
+      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
+     },
+     {
+      "pick": "Christian McCaffrey 40+ rush yds",
+      "game": "Commanders @ 49ers 10/19 08:15 PM ET",
+      "odds": "-450",
+      "grade": "B-",
+      "reason": "McCaffrey 57.2 rush yds/gm this season (5 gms), 69.2 last 10; hit 40+ in 8 of last 10, 4 of 5 this season.",
+      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
+     }
+    ]
+   },
+   "NHL": {
+    "sport": "NHL",
+    "odds": "+121",
+    "posted": "6:24 AM ET",
+    "locked": true,
+    "closest": false,
+    "label": null,
+    "sgp": false,
+    "price_note": null,
+    "legs": [
+     {
+      "pick": "Nazem Kadri 2+ SOG",
+      "game": "Avalanche @ Flyers 10/19 07:00 PM ET",
+      "odds": "-300",
+      "grade": "A",
+      "reason": "Kadri 3.0 SOG/gm this season (8 gms), 2.7 last 10; hit 2+ in 9 of last 10, 8 of 8 this season; 19 min TOI; Flyers allow 32.9 shots/gm (lg 27.1).",
+      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
+     },
+     {
+      "pick": "Kirill Marchenko 2+ SOG",
+      "game": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
+      "odds": "-375",
+      "grade": "B+",
+      "reason": "Marchenko 2.8 SOG/gm this season (9 gms), 2.9 last 10; hit 2+ in 9 of last 10, 8 of 9 this season; 19 min TOI; Sharks allow 27.5 shots/gm (lg 27.1).",
+      "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it."
+     },
+     {
+      "pick": "Nick Schmaltz 2+ SOG",
+      "game": "Penguins @ Mammoth 10/19 09:00 PM ET",
+      "odds": "-325",
+      "grade": "B+",
+      "reason": "Schmaltz 3.2 SOG/gm this season (9 gms), 3.0 last 10; hit 2+ in 8 of last 10, 8 of 9 this season; 18 min TOI; Penguins allow 27.7 shots/gm (lg 27.1).",
+      "why_not": "It missed in 2 of the last 10 games, so one quiet game sinks it."
+     }
+    ]
+   }
+  },
+  "notes": {
+   "NCAA F": "No Safe +100 for NCAA F today: only 0 real Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100.",
+   "NBA": "No Safe +100 for NBA today: only 0 real Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100.",
+   "MLB": "No Safe +100 for MLB today: only 0 real Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100.",
+   "WNBA": "No Safe +100 for WNBA today: only 0 real Hard Rock legs met the bar (-300 to -460, 7+ of last 10, grade B- or better), not enough for +100."
+  }
+ },
  "edge": {
   "date": "2026-10-19",
   "picks": []
@@ -12549,6 +13116,66 @@
   },
   {
    "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "POTD",
+   "prop": "MLB hits+runs+RBI",
+   "pick": "Junior Caminero o1.5 Hits+Runs+RBI",
+   "odds": "-110",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Parlay",
+   "prop": "MLB parlay",
+   "pick": "3-leg",
+   "odds": "+117",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL SOG",
+   "pick": "Kirill Marchenko o2.5 SOG",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Parlay",
+   "prop": "NHL parlay",
+   "pick": "2-leg",
+   "odds": "+109",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "POTD",
+   "prop": "WNBA pts+reb",
+   "pick": "Angel Reese 25+ pts+reb",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Parlay",
+   "prop": "WNBA parlay",
+   "pick": "2-leg",
+   "odds": "+134",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
    "sport": "NHL",
    "type": "Leg",
    "prop": "NHL SOG",
@@ -13146,6 +13773,314 @@
    "grade": "B-"
   },
   {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB hits+runs+RBI",
+   "pick": "(+EV) Jonathan Aranda o1.5 Hits+Runs+RBI",
+   "odds": "+110",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB hits+runs+RBI",
+   "pick": "Yandy Diaz o1.5 Hits+Runs+RBI",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 spread (alt)",
+   "pick": "Tampa Bay Rays F5 -0.5",
+   "odds": "-105",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "C+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB run line (alt)",
+   "pick": "(Quality) Rays +2.5",
+   "odds": "-450",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB F5 team total",
+   "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
+   "odds": "-325",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB run line (alt)",
+   "pick": "(Quality) Tampa Bay Rays +1.5",
+   "odds": "-260",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB team total",
+   "pick": "(Quality) Guardians Under 4.5 Team Runs",
+   "odds": "-325",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "MLB",
+   "type": "Runner-up",
+   "prop": "MLB team total",
+   "pick": "(Quality) Rays Over 1.5 Team Runs",
+   "odds": "-500",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(+EV) Will Cuylle 3+ SOG",
+   "odds": "+185",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "Nazem Kadri o2.5 SOG",
+   "odds": "-105",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "A-"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "Cutter Gauthier o3.5 SOG",
+   "odds": "-105",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL game total",
+   "pick": "Ducks @ Rangers Under 6.5",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL game total",
+   "pick": "Avalanche @ Flyers Under 6.5",
+   "odds": "-130",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B-"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(Quality) Nazem Kadri o1.5 SOG",
+   "odds": "-300",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "A"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(Quality) Cale Makar o1.5 SOG",
+   "odds": "-350",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "A-"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(Quality) Mikhail Sergachev o1.5 SOG",
+   "odds": "-260",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(Quality) Evgeni Malkin o1.5 SOG",
+   "odds": "-155",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Runner-up",
+   "prop": "NHL SOG",
+   "pick": "(Quality) Easton Cowan o1.5 SOG",
+   "odds": "-140",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA player assists",
+   "pick": "(+EV) Rhyne Howard o3.5 ast",
+   "odds": "+120",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA player assists",
+   "pick": "Jordin Canada o6.5 ast",
+   "odds": "-130",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA game total (alt)",
+   "pick": "Dream @ Valkyries Under 153.5",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B-"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA player rebounds",
+   "pick": "Naz Hillmon o3.5 reb",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B-"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA player points",
+   "pick": "Kiah Stokes u4.5 pts",
+   "odds": "-130",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "C+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA pts+reb",
+   "pick": "(Quality) Angel Reese 20+ pts+reb",
+   "odds": "-400",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "A-"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA reb+ast",
+   "pick": "(Quality) Veronica Burton 6+ reb+ast",
+   "odds": "-475",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA player rebounds",
+   "pick": "(Quality) Kaila Charles 4+ reb",
+   "odds": "-165",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B+"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA player 3PM",
+   "pick": "(Quality) Tiffany Hayes u1.5 3PM",
+   "odds": "-250",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "WNBA",
+   "type": "Runner-up",
+   "prop": "WNBA reb+ast",
+   "pick": "(Quality) Rhyne Howard 6+ reb+ast",
+   "odds": "-350",
+   "res": "Pending",
+   "stat": "—",
+   "grade": "B-"
+  },
+  {
    "date": "2026-10-17",
    "sport": "NHL",
    "type": "Runner-up",
@@ -13312,17 +14247,6 @@
   },
   {
    "date": "2026-10-19",
-   "sport": "NHL",
-   "type": "Runner-up",
-   "prop": "NHL SOG",
-   "pick": "Nazem Kadri o2.5 SOG",
-   "odds": "-105",
-   "res": "Pending",
-   "stat": "—",
-   "grade": "—"
-  },
-  {
-   "date": "2026-10-19",
    "sport": "NFL",
    "type": "Runner-up",
    "prop": "NFL team total",
@@ -13339,17 +14263,6 @@
    "prop": "NHL SOG",
    "pick": "Jack Roslovic o1.5 SOG",
    "odds": "-210",
-   "res": "Pending",
-   "stat": "—",
-   "grade": "—"
-  },
-  {
-   "date": "2026-10-19",
-   "sport": "MLB",
-   "type": "Runner-up",
-   "prop": "MLB run line (alt)",
-   "pick": "Tampa Bay Rays +1.5",
-   "odds": "-250",
    "res": "Pending",
    "stat": "—",
    "grade": "—"
@@ -13395,11 +14308,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 06:17 ET",
-  "generated_ts": 1792405051,
+  "generated": "2026-10-19 06:25 ET",
+  "generated_ts": 1792405520,
   "hr_fetched": "2026-10-19 06:09 ET",
   "hr_fetched_ts": 1792404540,
-  "hr_age_min": 9,
+  "hr_age_min": 16,
   "sports": {
    "NASCAR": {
     "games": [],
@@ -14785,6 +15698,102 @@
    },
    {
     "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "MLB hits+runs+RBI",
+    "pick": "Junior Caminero o1.5 Hits+Runs+RBI",
+    "odds": "-110",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Hits/TB/HR/RBI"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "MLB parlay",
+    "pick": "3-leg",
+    "odds": "+117",
+    "res": "",
+    "stat": "—",
+    "sub": "Tampa Bay Rays +1.5 + Guardians Under 4.5 Team Runs + Rays Over 1.5 Team Runs",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NHL SOG",
+    "pick": "Kirill Marchenko o2.5 SOG",
+    "odds": "-125",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NHL parlay",
+    "pick": "2-leg",
+    "odds": "+109",
+    "res": "",
+    "stat": "—",
+    "sub": "Jack Roslovic o1.5 SOG + Martin Necas o1.5 SOG",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "WNBA pts+reb",
+    "pick": "Angel Reese 25+ pts+reb",
+    "odds": "-125",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": true,
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "WNBA parlay",
+    "pick": "2-leg",
+    "odds": "+134",
+    "res": "",
+    "stat": "—",
+    "sub": "Jordin Canada 15+ pts+ast + Allisha Gray 20+ PRA",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-19",
     "sport": "NHL",
     "grp": "O",
     "cat": "Parlay +100",
@@ -15289,6 +16298,134 @@
     "stat": "3 rec",
     "alt": true,
     "fam": "Receptions",
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Safe +100",
+    "prop": "Safe +100",
+    "fam": "Parlay",
+    "pick": "Safe +100 3-leg",
+    "odds": "-106",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Safe +100",
+    "leg": true,
+    "prop": "NFL alt Stefon Diggs 25+ rec yds",
+    "pick": "Stefon Diggs 25+ rec yds",
+    "odds": "-350",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Receiving yds",
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Safe +100",
+    "leg": true,
+    "prop": "NFL alt Terry McLaurin 25+ rec yds",
+    "pick": "Terry McLaurin 25+ rec yds",
+    "odds": "-425",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Receiving yds",
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "U",
+    "cat": "Safe +100",
+    "leg": true,
+    "prop": "NFL alt Christian McCaffrey 40+ rush yds",
+    "pick": "Christian McCaffrey 40+ rush yds",
+    "odds": "-450",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Rushing yds",
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Safe +100",
+    "prop": "Safe +100",
+    "fam": "Parlay",
+    "pick": "Safe +100 3-leg",
+    "odds": "+121",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Safe +100",
+    "leg": true,
+    "prop": "NHL alt Nazem Kadri 2+ SOG",
+    "pick": "Nazem Kadri 2+ SOG",
+    "odds": "-300",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "SOG",
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Safe +100",
+    "leg": true,
+    "prop": "NHL alt Kirill Marchenko 2+ SOG",
+    "pick": "Kirill Marchenko 2+ SOG",
+    "odds": "-375",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "SOG",
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Safe +100",
+    "leg": true,
+    "prop": "NHL alt Nick Schmaltz 2+ SOG",
+    "pick": "Nick Schmaltz 2+ SOG",
+    "odds": "-325",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "SOG",
     "img": null,
     "sub": ""
    },
@@ -16029,6 +17166,454 @@
     "fam": "SOG"
    },
    {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "MLB hits+runs+RBI",
+    "pick": "(+EV) Jonathan Aranda o1.5 Hits+Runs+RBI",
+    "odds": "+110",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Hits/TB/HR/RBI"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "MLB hits+runs+RBI",
+    "pick": "Yandy Diaz o1.5 Hits+Runs+RBI",
+    "odds": "-120",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Hits/TB/HR/RBI"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "MLB F5 spread (alt)",
+    "pick": "Tampa Bay Rays F5 -0.5",
+    "odds": "-105",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Spread"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "MLB run line (alt)",
+    "pick": "(Quality) Rays +2.5",
+    "odds": "-450",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Spread"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "MLB F5 team total",
+    "pick": "(Quality) Guardians F5 Under 2.5 Team Runs",
+    "odds": "-325",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Team total"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "MLB run line (alt)",
+    "pick": "(Quality) Tampa Bay Rays +1.5",
+    "odds": "-260",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Spread"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "MLB team total",
+    "pick": "(Quality) Guardians Under 4.5 Team Runs",
+    "odds": "-325",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Team total"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "MLB team total",
+    "pick": "(Quality) Rays Over 1.5 Team Runs",
+    "odds": "-500",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Team total"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "NHL SOG",
+    "pick": "(+EV) Will Cuylle 3+ SOG",
+    "odds": "+185",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL SOG",
+    "pick": "Nazem Kadri o2.5 SOG",
+    "odds": "-105",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL SOG",
+    "pick": "Cutter Gauthier o3.5 SOG",
+    "odds": "-105",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL game total",
+    "pick": "Ducks @ Rangers Under 6.5",
+    "odds": "-120",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Total"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL game total",
+    "pick": "Avalanche @ Flyers Under 6.5",
+    "odds": "-130",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Total"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Nazem Kadri o1.5 SOG",
+    "odds": "-300",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Cale Makar o1.5 SOG",
+    "odds": "-350",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Mikhail Sergachev o1.5 SOG",
+    "odds": "-260",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Evgeni Malkin o1.5 SOG",
+    "odds": "-155",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "NHL SOG",
+    "pick": "(Quality) Easton Cowan o1.5 SOG",
+    "odds": "-140",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "WNBA player assists",
+    "pick": "(+EV) Rhyne Howard o3.5 ast",
+    "odds": "+120",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "WNBA player assists",
+    "pick": "Jordin Canada o6.5 ast",
+    "odds": "-130",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "WNBA game total (alt)",
+    "pick": "Dream @ Valkyries Under 153.5",
+    "odds": "-120",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Total"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "WNBA player rebounds",
+    "pick": "Naz Hillmon o3.5 reb",
+    "odds": "-120",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "WNBA player points",
+    "pick": "Kiah Stokes u4.5 pts",
+    "odds": "-130",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "WNBA pts+reb",
+    "pick": "(Quality) Angel Reese 20+ pts+reb",
+    "odds": "-400",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "WNBA reb+ast",
+    "pick": "(Quality) Veronica Burton 6+ reb+ast",
+    "odds": "-475",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "WNBA player rebounds",
+    "pick": "(Quality) Kaila Charles 4+ reb",
+    "odds": "-165",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Runners-up",
+    "prop": "WNBA player 3PM",
+    "pick": "(Quality) Tiffany Hayes u1.5 3PM",
+    "odds": "-250",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "U",
+    "cat": "Alt lines",
+    "prop": "WNBA reb+ast",
+    "pick": "(Quality) Rhyne Howard 6+ reb+ast",
+    "odds": "-350",
+    "res": "",
+    "stat": "—",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other"
+   },
+   {
     "date": "2026-10-17",
     "sport": "NHL",
     "grp": "U",
@@ -16270,22 +17855,6 @@
    },
    {
     "date": "2026-10-19",
-    "sport": "NHL",
-    "grp": "U",
-    "cat": "Runners-up",
-    "prop": "NHL SOG",
-    "pick": "Nazem Kadri o2.5 SOG",
-    "odds": "-105",
-    "res": "",
-    "stat": "—",
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "alt": false,
-    "fam": "SOG"
-   },
-   {
-    "date": "2026-10-19",
     "sport": "NFL",
     "grp": "U",
     "cat": "Runners-up",
@@ -16315,22 +17884,6 @@
     "sub": "",
     "alt": false,
     "fam": "SOG"
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "MLB",
-    "grp": "U",
-    "cat": "Alt lines",
-    "prop": "MLB run line (alt)",
-    "pick": "Tampa Bay Rays +1.5",
-    "odds": "-250",
-    "res": "",
-    "stat": "—",
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "alt": true,
-    "fam": "Spread"
    },
    {
     "date": "2026-10-19",
@@ -20419,7 +21972,7 @@
      "w": 13,
      "l": 23,
      "p": 1,
-     "pending": 3,
+     "pending": 9,
      "units": -10
     },
     "legs": {
@@ -20451,14 +22004,14 @@
      "w": 153,
      "l": 139,
      "p": 2,
-     "pending": 29,
+     "pending": 57,
      "units": 14
     },
     "legs": {
      "w": 7,
      "l": 10,
      "p": 0,
-     "pending": 0,
+     "pending": 6,
      "units": -3
     }
    }
