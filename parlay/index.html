@@ -88,7 +88,7 @@ svg{width:100%;height:140px}.chip{display:inline-block;min-width:22px;text-align
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792367918';
+const UI_BUILD='1792368075';
 let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers','bankroll'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\bTicket B\b|\+100 ticket/gi,'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,'Lotto Ticket').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -744,7 +744,7 @@ const go=()=>{const v=document.getElementById('v');if(!v)return setTimeout(go,30
 <script>/*RULES-DD*/(function(){
 const T=(el)=>{const c=el.className||'',t=(el.textContent||'').trim().slice(0,80);
  if(/\bpv8o\b/.test(c))return['potd','Play of the Day'];if(/\bpw\b/.test(c)||(/^(Parlay \+100|No parlay)/.test(t)&&/card/.test(c)))return['parlay100','Parlay +100'];
- if(/\bs1w\b/.test(c))return['safe100','Safe +100'];if(/\bedgebox\b/.test(c))return['edge','Edge'];if(/\bltl\b/.test(c))return['alt','Live top lines / Alt lines'];
+ if(/\bs1w\b/.test(c))return['safe100','Safe +100'];if(/\bedgebox\b/.test(c))return['edge','Edge'];if(/\bltl\b/.test(c))return['live_lines','Live top lines'];
  if(!/card/.test(c))return null;
  if(/^Runners-up/.test(t))return['runnersup','Runners-up'];if(/Home Field/.test(t))return['homefield','Home Field'];if(/NRFI/.test(t))return['nrfi','NRFI / innings'];
  if(/Lotto/i.test(t))return['lotto','Lotto Ticket'];if(/^Live (POTD|Parlay)/.test(t))return['live','Live POTD/Parlay'];
