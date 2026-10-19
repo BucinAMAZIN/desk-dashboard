@@ -1,5 +1,5 @@
 {
- "generated": 1792410316.073053,
+ "generated": 1792410424.8975277,
  "today": {
   "title": "Oct 19 placed bets (Hard Rock)",
   "tickets": [
@@ -608,6 +608,44 @@
       "why_not": "The 77% hit rate roughly matches the 77.8% that -350 implies, and she had just 2 in one of her last five."
      }
     ]
+   },
+   "NFL": {
+    "potd": {
+     "pick": "Jayden Daniels Under 207.5 pass yds",
+     "odds": "-115",
+     "game": "WSH @ SF 8:15 PM ET",
+     "status": "Pending",
+     "why": "Daniels has stayed under 207.5 passing yards in each of his last 6 games (199, 96, 164, 78, 153, 156, newest first; 138 a game over the last 5) and in 7 of his last 10. In his Oct 11 return from a dislocated left elbow he threw for 199 and did his damage on the ground (9 carries, 103 yards). He practiced fully all week and has no injury designation. Hard Rock has San Francisco -7.5 and Washington's team total at 21.5, and Washington is without RB Jacory Croskey-Merritt (out, groin). Hard Rock -115 (Over 207.5 also -115) implies 53.5%. Stake $2.30, pays $4.30.",
+     "desc": "Jayden Daniels Under 207.5 pass yds -115 (WSH @ SF 8:15 PM ET)",
+     "why_not": "As a 7.5-point underdog, Washington may have to throw late to catch up, and Stefon Diggs (questionable, hamstring) could return. San Francisco is also without Nick Bosa, so Daniels may get more time to throw. He went over this line in 3 of his last 10 (211, 231 and 233, all in 2025)."
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+106",
+     "game": "WSH @ SF",
+     "status": "Pending",
+     "why": "It's a one-game NFL slate, so the ticket is a same-game parlay built before the game, priced by multiplying the two Hard Rock leg prices (1.435 x 1.435 = 2.059, +106). Hard Rock's own same-game price may differ because the legs share one game.",
+     "desc": "2-leg +106 · Same-game parlay (WSH @ SF) (calc from Hard Rock leg prices), stake $2.30, pays $4.73",
+     "legs": [
+      {
+       "pick": "Antonio Williams 2+ rec",
+       "odds": "-230",
+       "game": "WSH @ SF 8:15 PM ET",
+       "status": "Pending",
+       "why": "Williams has 2+ catches in all 5 games of his career (3, 3, 2, 3, 4, newest first; 3.0 a game) on 3 to 8 targets. Washington is without Croskey-Merritt, and Diggs is questionable, which keeps Williams in the short-pass rotation, and a 7.5-point underdog usually throws plenty. This is Hard Rock's \"2+ receptions\" alt; the main line is 2.5 (Over +125).",
+       "why_not": "He drew only 3 targets in two of his five games, so a quiet night or a Diggs return could leave him at 1 catch."
+      },
+      {
+       "pick": "Christian McCaffrey 50+ rush yds",
+       "odds": "-230",
+       "game": "WSH @ SF 8:15 PM ET",
+       "status": "Pending",
+       "why": "McCaffrey has 50+ rushing yards in 4 of 5 games this season (68, 52, 75, 23, 68, newest first; 57.2 a game) and 8 of his last 10, on 10 to 15 carries. San Francisco is a 7.5-point home favorite (Hard Rock), and Washington's defense is missing Charles Omenihu and Javontae Jean-Baptiste. This is Hard Rock's \"50+ rushing yards\" alt; the main line is 60.5 (-115).",
+       "why_not": "He was held to 23 yards on 10 carries on Sept 20, and his carries have topped out at 15 this season, so a pass-heavy plan could leave him short."
+      }
+     ],
+     "why_not": "Both legs ride one game script. A San Francisco blowout helps Williams' catches but could cut McCaffrey's late carries, and a Washington lead would do the opposite."
+    }
    }
   },
   "date": "2026-10-19"
@@ -2390,7 +2428,7 @@
     "p": 2,
     "pct": 57
    },
-   "pending": 12
+   "pending": 14
   },
   "props": [
    {
@@ -2721,6 +2759,20 @@
     "date": "2026-10-19",
     "pick": "NHL · Leg: Nazem Kadri o1.5 · 10/19 +100 3-leg +109 $2.30 (rec)",
     "odds": "-300 rec",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NFL · Parlay: 2-leg",
+    "odds": "+106",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NFL · POTD: Jayden Daniels Under 207.5 pass yds",
+    "odds": "-115",
     "result": "Pending",
     "detail": "—"
    },
@@ -4873,7 +4925,7 @@
   ]
  },
  "standings": {
-  "updated": "2026-10-19 07:45 AM ET",
+  "updated": "2026-10-19 07:47 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12821,6 +12873,26 @@
   },
   {
    "date": "2026-10-19",
+   "sport": "NFL",
+   "type": "POTD",
+   "prop": "NFL pass yds",
+   "pick": "Jayden Daniels Under 207.5 pass yds",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NFL",
+   "type": "Parlay",
+   "prop": "NFL parlay",
+   "pick": "2-leg",
+   "odds": "+106",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
    "sport": "NHL",
    "type": "Leg",
    "prop": "NHL SOG",
@@ -13953,11 +14025,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 07:45 ET",
-  "generated_ts": 1792410323,
+  "generated": "2026-10-19 07:47 ET",
+  "generated_ts": 1792410431,
   "hr_fetched": "2026-10-19 07:43 ET",
   "hr_fetched_ts": 1792410180,
-  "hr_age_min": 2,
+  "hr_age_min": 4,
   "sports": {
    "NASCAR": {
     "games": [],
@@ -15434,6 +15506,38 @@
     "res": "",
     "stat": "—",
     "sub": "Jordin Canada 15+ pts+ast + Allisha Gray 20+ PRA",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NFL pass yds",
+    "pick": "Jayden Daniels Under 207.5 pass yds",
+    "odds": "-115",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Pass yds"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NFL parlay",
+    "pick": "2-leg",
+    "odds": "+106",
+    "res": "",
+    "stat": "—",
+    "sub": "Antonio Williams 2+ rec + Christian McCaffrey 50+ rush yds",
     "leg": false,
     "img": null,
     "alt": false,
@@ -20979,7 +21083,7 @@
      "w": 13,
      "l": 23,
      "p": 1,
-     "pending": 9,
+     "pending": 11,
      "units": -10
     },
     "legs": {
