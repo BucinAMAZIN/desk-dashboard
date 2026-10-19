@@ -1,7 +1,7 @@
 {
- "generated": 1792444656.507484,
+ "generated": 1792444785.930788,
  "today": {
-  "title": "Oct 19 picks (Hard Rock prices · nothing placed yet)",
+  "title": "Oct 19 placed bets (Hard Rock)",
   "tickets": [
    {
     "name": "POTD",
@@ -625,23 +625,13 @@
       "why_not": "SF WR Deebo Samuel is OUT (hamstring; 4.0 targets/gm across all 5 games), so his targets shift to Evans/Kittle/Cooks/CMC; Christian Kirk may come off IR. Pinnacle disagrees: -3.8% EV at HR price (fair -115). Hard Rock moved this from -130 to -125."
      },
      {
-      "pick": "Rachaad White under 14.5 rec yds",
-      "odds": "-120",
-      "game": "WSH @ SF 8:15 PM ET · LINE PULLED: at 5:15 PM ET Hard Rock moved his receiving yards line from 14.5 to 13.5, Under 13.5 now -110; 14.5 no longer listed",
-      "status": "Pending",
-      "why": "Cleared under 14.5 rec yds in 6 of the last 10 games (12.3 avg) and 3 of 4 this season; last 5: 2.0, 6.0, 40.0, 5.0, 18.0.",
-      "grade": "B+",
-      "rank": 3,
-      "why_not": "Near miss: L10 6/10 below 7/10. Washington is a 7.5-point underdog on a cross-country trip."
-     },
-     {
       "pick": "(Quality) Christian McCaffrey 4+ rec",
       "odds": "-325",
       "game": "WSH @ SF 8:15 PM ET",
       "status": "Pending",
       "why": "Cleared 4+ rec in 8 of the last 10 games (4.6 avg) and 3 of 5 this season; last 5: 3.0, 3.0, 4.0, 4.0, 5.0.",
       "grade": "B-",
-      "rank": 4,
+      "rank": 3,
       "why_not": "SF WR Deebo Samuel is OUT (hamstring; 4.0 targets/gm across all 5 games), so his targets shift to Evans/Kittle/Cooks/CMC; Christian Kirk may come off IR. Trending down: L5 3/5 vs L10 8/10. Hard Rock moved this from -260 to -325."
      },
      {
@@ -651,7 +641,7 @@
       "status": "Pending",
       "why": "Cleared 2+ pass TDs in 8 of the last 10 games (2.3 avg) and 5 of 5 this season; last 5: 2.0, 2.0, 4.0, 2.0, 3.0.",
       "grade": "B+",
-      "rank": 5,
+      "rank": 4,
       "why_not": "Hard Rock moved this from -300 to -325. Washington is a 7.5-point underdog on a cross-country trip. Near miss: it falls short of the usual bar (one per player / hit-rate floor), so it only fills an open slot."
      }
     ]
@@ -2437,7 +2427,7 @@
     "p": 2,
     "pct": 57
    },
-   "pending": 65
+   "pending": 72
   },
   "props": [
    {
@@ -3106,6 +3096,55 @@
     "odds": "+210",
     "result": "L",
     "detail": "Loss (BUF 33-30 LV)"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NFL · Leg: WSH@SF game total o52 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+    "odds": "n/a",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NFL · Leg: Brock Purdy o14.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+    "odds": "n/a",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NFL · Leg: Terry McLaurin o39.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+    "odds": "n/a",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NFL · Leg: Christian McCaffrey o49.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+    "odds": "n/a",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NHL · Leg: Nick Schmaltz o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+    "odds": "-325",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NHL · Leg: Ivan Marchenko o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+    "odds": "-350",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "pick": "NHL · Leg: Nazem Kadri o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+    "odds": "-400",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-10-19",
@@ -4902,10 +4941,26 @@
  "bankroll": {
   "start": 51.05,
   "total": 46.09,
-  "available": 46.09,
-  "pending": 0.0,
+  "available": 35.0,
+  "pending": 11.09,
   "pct": -9.72,
-  "pending_bets": [],
+  "pending_bets": [
+   {
+    "bet": "NHL Safe +100 3-leg +110 (Kadri/Marchenko/Schmaltz o1.5 SOG)",
+    "stake": "$6.09",
+    "pays": "$12.80"
+   },
+   {
+    "bet": "NHL POTD Granlund o0.5 pts -125",
+    "stake": "$2.50",
+    "pays": "$4.50"
+   },
+   {
+    "bet": "NFL user SGP 4-leg +399 (McCaffrey/McLaurin/Purdy/o52, 15% boost)",
+    "stake": "$2.50",
+    "pays": "$13.98"
+   }
+  ],
   "ledger": [
    {
     "date": "2026-10-16 16:40 ET",
@@ -5041,6 +5096,14 @@
     "amount": "+$9.55 (returned)",
     "available": 46.09,
     "pending": 0.0,
+    "total": 46.09
+   },
+   {
+    "date": "2026-10-19 17:17 ET",
+    "event": "Placed 3 bets: NHL Safe +100 3-leg +110 $6.09, NHL POTD Granlund single $2.50, NFL user SGP +399 $2.50",
+    "amount": "-$11.09 (placed)",
+    "available": 35.0,
+    "pending": 11.09,
     "total": 46.09
    }
   ]
@@ -5259,17 +5322,6 @@
     "date": "2026-10-19",
     "rank": "",
     "sport": "NFL",
-    "prop": "NFL rec yds under",
-    "pick": "Rachaad White under 14.5 rec yds",
-    "odds": "-120",
-    "grade": "B+",
-    "status": "Pending",
-    "stat": "—"
-   },
-   {
-    "date": "2026-10-19",
-    "rank": "",
-    "sport": "NFL",
     "prop": "NFL receptions under",
     "pick": "George Kittle under 5.5 rec",
     "odds": "-125",
@@ -5408,6 +5460,17 @@
     "grade": "B+",
     "status": "Pending",
     "stat": "—"
+   },
+   {
+    "date": "2026-10-19",
+    "rank": "",
+    "sport": "WNBA",
+    "prop": "WNBA PRA",
+    "pick": "(Quality) Angel Reese 25+ PRA",
+    "odds": "-225",
+    "grade": "A-",
+    "status": "Pending",
+    "stat": "—"
    }
   ],
   "grades": [
@@ -5471,7 +5534,7 @@
   "deduped": 13
  },
  "standings": {
-  "updated": "2026-10-19 05:17 PM ET",
+  "updated": "2026-10-19 05:19 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -14923,6 +14986,76 @@
    "stat": "—"
   },
   {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Leg",
+   "prop": "NHL SOG",
+   "pick": "Nazem Kadri o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+   "odds": "-400",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Leg",
+   "prop": "NHL SOG",
+   "pick": "Ivan Marchenko o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+   "odds": "-350",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NHL",
+   "type": "Leg",
+   "prop": "NHL SOG",
+   "pick": "Nick Schmaltz o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+   "odds": "-325",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NFL",
+   "type": "Leg",
+   "prop": "NFL rush yds",
+   "pick": "Christian McCaffrey o49.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+   "odds": "n/a",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NFL",
+   "type": "Leg",
+   "prop": "NFL rec yds",
+   "pick": "Terry McLaurin o39.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+   "odds": "n/a",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NFL",
+   "type": "Leg",
+   "prop": "NFL rush yds",
+   "pick": "Brock Purdy o14.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+   "odds": "n/a",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-19",
+   "sport": "NFL",
+   "type": "Leg",
+   "prop": "NFL total",
+   "pick": "WSH@SF game total o52 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+   "odds": "n/a",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
    "date": "2026-10-18",
    "sport": "NFL",
    "type": "Edge",
@@ -16246,17 +16379,6 @@
    "date": "2026-10-19",
    "sport": "NFL",
    "type": "Runner-up",
-   "prop": "NFL rec yds under",
-   "pick": "Rachaad White under 14.5 rec yds",
-   "odds": "-120",
-   "res": "Pending",
-   "stat": "—",
-   "grade": "B+"
-  },
-  {
-   "date": "2026-10-19",
-   "sport": "NFL",
-   "type": "Runner-up",
    "prop": "NFL receptions",
    "pick": "(Quality) Christian McCaffrey 4+ rec",
    "odds": "-325",
@@ -16437,11 +16559,11 @@
   "pct": 68
  },
  "ingame_lines": {
-  "generated": "2026-10-19 17:17 ET",
-  "generated_ts": 1792444666,
+  "generated": "2026-10-19 17:19 ET",
+  "generated_ts": 1792444791,
   "hr_fetched": "2026-10-19 17:15 ET",
   "hr_fetched_ts": 1792444500,
-  "hr_age_min": 3,
+  "hr_age_min": 5,
   "sports": {
    "NASCAR": {
     "games": [],
@@ -16554,7 +16676,7 @@
  },
  "alt_lines": {
   "date": "2026-10-19",
-  "built": "2026-10-19 17:17",
+  "built": "2026-10-19 17:19",
   "max": 10,
   "per_game": 4,
   "sports": {
@@ -18580,7 +18702,9 @@
     "leg": false,
     "img": null,
     "alt": false,
-    "fam": "Player points"
+    "fam": "Player points",
+    "placed": true,
+    "stake": "$2.50"
    },
    {
     "date": "2026-10-19",
@@ -18709,6 +18833,118 @@
     "sub": "",
     "alt": false,
     "fam": "Other"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Nazem Kadri o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+    "odds": "-400",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Ivan Marchenko o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+    "odds": "-350",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Nick Schmaltz o1.5 · 10/19 NHL Safe100 3-leg +110 $6.09",
+    "odds": "-325",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NFL rush yds",
+    "pick": "Christian McCaffrey o49.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+    "odds": "n/a",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Rushing yds"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NFL rec yds",
+    "pick": "Terry McLaurin o39.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+    "odds": "n/a",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Receiving yds"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NFL rush yds",
+    "pick": "Brock Purdy o14.5 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+    "odds": "n/a",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Rushing yds"
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "leg": true,
+    "prop": "NFL total",
+    "pick": "WSH@SF game total o52 · 10/19 NFL SGP 4-leg +399 $2.50 (user, unofficial)",
+    "odds": "n/a",
+    "res": "",
+    "stat": "—",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Total"
    },
    {
     "date": "2026-10-18",
@@ -19862,6 +20098,40 @@
     "alt": false
    },
    {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "prop": "placed ticket",
+    "fam": "Parlay",
+    "pick": "Safe +100 3-leg",
+    "sub": "Nazem Kadri o1.5 SOG + Ivan Marchenko o1.5 SOG + Nick Schmaltz o1.5 SOG",
+    "odds": "+110",
+    "res": "",
+    "stat": "$6.09 placed",
+    "img": null,
+    "placed": true,
+    "leg": false,
+    "alt": false
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Placed tickets",
+    "prop": "placed ticket",
+    "fam": "Parlay",
+    "pick": "User SGP 4-leg (15% profit boost)",
+    "sub": "Christian McCaffrey o49.5 rush yds + Terry McLaurin o39.5 rec yds + Brock Purdy o14.5 rush yds + WSH@SF o52",
+    "odds": "+399",
+    "res": "",
+    "stat": "$2.50 placed",
+    "img": null,
+    "placed": true,
+    "leg": false,
+    "alt": false
+   },
+   {
     "date": "2026-10-18",
     "sport": "NHL",
     "grp": "U",
@@ -19986,70 +20256,6 @@
     "stat": "3 rec",
     "alt": true,
     "fam": "Receptions",
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "NHL",
-    "grp": "U",
-    "cat": "Safe +100",
-    "prop": "Safe +100",
-    "fam": "Parlay",
-    "pick": "Safe +100 3-leg",
-    "odds": "+121",
-    "res": "",
-    "stat": "—",
-    "alt": true,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "NHL",
-    "grp": "U",
-    "cat": "Safe +100",
-    "leg": true,
-    "prop": "NHL alt Nazem Kadri 2+ SOG",
-    "pick": "Nazem Kadri 2+ SOG",
-    "odds": "-300",
-    "res": "",
-    "stat": "—",
-    "alt": true,
-    "fam": "SOG",
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "NHL",
-    "grp": "U",
-    "cat": "Safe +100",
-    "leg": true,
-    "prop": "NHL alt Kirill Marchenko 2+ SOG",
-    "pick": "Kirill Marchenko 2+ SOG",
-    "odds": "-375",
-    "res": "",
-    "stat": "—",
-    "alt": true,
-    "fam": "SOG",
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "NHL",
-    "grp": "U",
-    "cat": "Safe +100",
-    "leg": true,
-    "prop": "NHL alt Nick Schmaltz 2+ SOG",
-    "pick": "Nick Schmaltz 2+ SOG",
-    "odds": "-325",
-    "res": "",
-    "stat": "—",
-    "alt": true,
-    "fam": "SOG",
     "img": null,
     "sub": ""
    },
@@ -21273,22 +21479,6 @@
     "date": "2026-10-19",
     "sport": "NFL",
     "grp": "U",
-    "cat": "Runners-up",
-    "prop": "NFL rec yds under",
-    "pick": "Rachaad White under 14.5 rec yds",
-    "odds": "-120",
-    "res": "",
-    "stat": "—",
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "alt": false,
-    "fam": "Receiving yds"
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "NFL",
-    "grp": "U",
     "cat": "Alt lines",
     "prop": "NFL receptions",
     "pick": "(Quality) Christian McCaffrey 4+ rec",
@@ -21547,23 +21737,6 @@
     "sport": "NFL",
     "grp": "U",
     "cat": "Alt lines",
-    "prop": "NFL alt rung",
-    "pick": "Christian McCaffrey 50+ rush yds",
-    "odds": "-260",
-    "res": "",
-    "stat": "",
-    "sub": "Safe · Commanders @ 49ers",
-    "alt": true,
-    "big4": false,
-    "fam": "Rushing yds",
-    "leg": false,
-    "img": null
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "NFL",
-    "grp": "U",
-    "cat": "Alt lines",
     "prop": "NFL alt spread",
     "pick": "Commanders +15",
     "odds": "-275",
@@ -21667,23 +21840,6 @@
     "grp": "U",
     "cat": "Alt lines",
     "prop": "NHL alt rung",
-    "pick": "Nazem Kadri 2+ SOG",
-    "odds": "-400",
-    "res": "",
-    "stat": "",
-    "sub": "Safe · Big 4 · Avalanche @ Flyers",
-    "alt": true,
-    "big4": true,
-    "fam": "SOG",
-    "leg": false,
-    "img": null
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "NHL",
-    "grp": "U",
-    "cat": "Alt lines",
-    "prop": "NHL alt rung",
     "pick": "Cale Makar 2+ SOG",
     "odds": "-350",
     "res": "",
@@ -21706,23 +21862,6 @@
     "res": "",
     "stat": "",
     "sub": "Safe · Sharks @ Maple Leafs",
-    "alt": true,
-    "big4": false,
-    "fam": "SOG",
-    "leg": false,
-    "img": null
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "NHL",
-    "grp": "U",
-    "cat": "Alt lines",
-    "prop": "NHL alt rung",
-    "pick": "Nick Schmaltz 2+ SOG",
-    "odds": "-325",
-    "res": "",
-    "stat": "",
-    "sub": "Safe · Penguins @ Mammoth",
     "alt": true,
     "big4": false,
     "fam": "SOG",
@@ -26165,14 +26304,14 @@
      "w": 13,
      "l": 24,
      "p": 1,
-     "pending": 11,
+     "pending": 13,
      "units": -11
     },
     "legs": {
      "w": 29,
      "l": 23,
      "p": 1,
-     "pending": 3,
+     "pending": 10,
      "units": 6
     }
    },
@@ -26197,14 +26336,14 @@
      "w": 143,
      "l": 136,
      "p": 3,
-     "pending": 95,
+     "pending": 90,
      "units": 7
     },
     "legs": {
      "w": 2,
      "l": 4,
      "p": 0,
-     "pending": 9,
+     "pending": 6,
      "units": -2
     }
    }
@@ -26215,7 +26354,7 @@
    "2026-10-18 +100 2-leg (Jackson Blake o1.5 SOG + Matt Boldy o2.5 SOG) is marked dup in user-tickets.md but matches no posted ticket; counted once as a placed ticket",
    "cappers: 30 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 21 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
-   "runners-up: 18 rows dropped from Unofficial (same play as an Official pick that day): 2026-10-17 (Quality) Tampa Bay Rays +1.5 F5 -375; 2026-10-17 Ben Kindel o1.5 SOG -115; 2026-10-17 (Quality) Tampa Bay Lightning ML -375; 2026-10-18 (Quality) Denny Hamlin Top 10 -275; 2026-10-18 (Quality) Joel Eriksson Ek o1.5 SOG -400; 2026-10-18 (Quality) Jackson Blake o1.5 SOG -225; 2026-10-18 (Quality) Matt Boldy o2.5 SOG -250; 2026-10-17 Charlie McAvoy o1.5 SOG -115; 2026-10-17 Will Cuylle o1.5 SOG -130; 2026-10-17 Seattle Kraken Over 2.5 Team Total -125; 2026-10-17 Tampa Bay Rays F5 ML -125; 2026-10-18 Minnesota Wild ML -185; 2026-10-18 Carolina Hurricanes ML -200; 2026-10-19 Antonio Williams 2+ rec -250; 2026-10-19 Terry McLaurin 40+ rec yds -200; 2026-10-19 Jack Roslovic 2+ SOG -210; 2026-10-19 Martin Necas 2+ SOG -260; 2026-10-19 Steven Kwan 1+ hits -210"
+   "runners-up: 21 rows dropped from Unofficial (same play as an Official pick that day): 2026-10-17 (Quality) Tampa Bay Rays +1.5 F5 -375; 2026-10-17 Ben Kindel o1.5 SOG -115; 2026-10-17 (Quality) Tampa Bay Lightning ML -375; 2026-10-18 (Quality) Denny Hamlin Top 10 -275; 2026-10-18 (Quality) Joel Eriksson Ek o1.5 SOG -400; 2026-10-18 (Quality) Jackson Blake o1.5 SOG -225; 2026-10-18 (Quality) Matt Boldy o2.5 SOG -250; 2026-10-17 Charlie McAvoy o1.5 SOG -115; 2026-10-17 Will Cuylle o1.5 SOG -130; 2026-10-17 Seattle Kraken Over 2.5 Team Total -125; 2026-10-17 Tampa Bay Rays F5 ML -125; 2026-10-18 Minnesota Wild ML -185; 2026-10-18 Carolina Hurricanes ML -200; 2026-10-19 Antonio Williams 2+ rec -250; 2026-10-19 Terry McLaurin 40+ rec yds -200; 2026-10-19 Christian McCaffrey 50+ rush yds -260; 2026-10-19 Jack Roslovic 2+ SOG -210; 2026-10-19 Nazem Kadri 2+ SOG -400; 2026-10-19 Martin Necas 2+ SOG -260; 2026-10-19 Nick Schmaltz 2+ SOG -325; 2026-10-19 Steven Kwan 1+ hits -210"
   ],
   "ru_dropped": [
    [
@@ -26280,11 +26419,23 @@
    ],
    [
     "2026-10-19",
+    "Christian McCaffrey 50+ rush yds"
+   ],
+   [
+    "2026-10-19",
     "Jack Roslovic 2+ SOG"
    ],
    [
     "2026-10-19",
+    "Nazem Kadri 2+ SOG"
+   ],
+   [
+    "2026-10-19",
     "Martin Necas 2+ SOG"
+   ],
+   [
+    "2026-10-19",
+    "Nick Schmaltz 2+ SOG"
    ],
    [
     "2026-10-19",
