@@ -1,5 +1,5 @@
 {
- "generated": 1792939118.35569,
+ "generated": 1792944352.156614,
  "today": {
   "title": "Oct 25 picks (Hard Rock)",
   "tickets": [
@@ -5738,6 +5738,27 @@
      "pick": "Bijan Robinson o29.5 rec yds (Falcons vs 49ers; NFL Play of the Day)",
      "odds": "—",
      "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Jaylin Noel o27.5 rec yds (Texans; NFL Play #4, card lists 26.5)",
+     "odds": "—",
+     "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rush yds (under)",
+     "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day)",
+     "odds": "—",
+     "status": "Pending"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "John Metchie o12.5 rec yds (NFL Play #5)",
+     "odds": "—",
+     "status": "Pending"
     }
    ]
   },
@@ -6122,7 +6143,7 @@
  "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-25 10:38 AM ET",
+  "updated": "2026-10-25 12:05 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6651,7 +6672,7 @@
      {
       "a": "PIT",
       "h": "NO",
-      "st": "3:36 - 2nd",
+      "st": "7:04 - 4th",
       "div": false,
       "stake": "PIT 4-2: 2nd AFC North, AFC #6 seed (in playoff spot) · NO 2-4: 3rd NFC South (1.5 GB), NFC #10 seed (outside playoffs)"
      },
@@ -17349,6 +17370,7 @@
    "All Sports parlay: safest 2-4 legs, about +100 to +115. Official."
   ],
   "safe100": [
+   "BOTH TIERS [2026-10-25 10:30 AM user]: when a sport (or the Today/Big 4 bubble) has a qualifying 4%-tier combo AND a different qualifying 2%-tier combo, post BOTH as Official tickets, each with its own chip, own record rows and own grading. A 4%-tier combo has every leg at least 4%; a 2%-tier combo has every leg at least 2% and at least one leg under 4% (so it never repeats the 4% tier). The 2% ticket must differ from the 4% ticket by at least one leg, ideally every leg (player-disjoint tried first); the best such 2% combo by ticket EV posts. Max one ticket per tier per bubble. Otherwise the 9:44 AM rule stands: 4% first, 2% only as fallback. Locked tickets are never touched; a bubble whose ticket predates the tier rule may add a 4% ticket next to it. Players still never repeat across Safe tickets or POTDs. Data: the first ticket stays in the bot \"sports\"; the second-tier ticket goes in the \"extra\" list (extra:true, edge_tier, rec_tag). Record: its Parlay row Pick ends \"(Edge 4%+)\" or \"(Edge 2%+)\" and its Leg rows Prop \"<SP> alt (Edge X%+)\" / \"Today alt (Edge X%+)\"; rows without \"(Edge\" belong to the first ticket. Code: the bot (shared tier/sibling search) used by the bot (add_extras) and the bot (#n+1 skips tiers an open extra holds; a 4% #n+1 adds a distinct 2% sibling); the bot and the bot settle/price extras; index.html renders every ticket of the bubble.",
    "Bans: MLB pitcher K props, MLB hitter unders, soccer, fantasy. One leg per player, one per game when possible. Never reuse a player from today's Safe tickets or any POTD.",
    "One-game slate / one game left: same-game ticket allowed, built pregame. Priced by straight multiply (noted on card) unless a Hard Rock same-game parlay price exists.",
    "Lock: locks on build. Re-runs never change a locked ticket.",
@@ -25008,6 +25030,54 @@
    {
     "date": "2026-10-25",
     "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Jaylin Noel o27.5 rec yds (Texans; NFL Play #4, card lists 26.5)",
+    "odds": "n/a",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rush yds (under)",
+    "fam": "Rushing yds",
+    "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day)",
+    "odds": "n/a",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "John Metchie o12.5 rec yds (NFL Play #5)",
+    "odds": "n/a",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
     "grp": "O",
     "cat": "LEG DAY",
     "prop": "Ollie Gordon II Under 7.5 Receiving Yards",
@@ -25329,7 +25399,7 @@
      "w": 76,
      "l": 56,
      "p": 0,
-     "pending": 19,
+     "pending": 22,
      "units": 20
     },
     "legs": {
@@ -25353,7 +25423,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 19 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 22 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 276 archived rows skipped (retired tier + placed tickets; see archive/)"
   ],
@@ -25486,7 +25556,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 10:38",
+    "priced": "2026-10-25 12:05",
     "dk": {
      "ladder": [
       [
@@ -25587,7 +25657,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 10:38",
+    "priced": "2026-10-25 12:05",
     "dk": {
      "odds": null,
      "na": true,
