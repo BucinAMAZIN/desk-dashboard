@@ -1,5 +1,5 @@
 {
- "generated": 1792895860.5633795,
+ "generated": 1792896537.8091192,
  "today": {
   "title": "Oct 24 picks (Hard Rock)",
   "tickets": [
@@ -1489,10 +1489,28 @@
     "date": "2026-10-20",
     "sport": "NHL",
     "type": "Leg",
+    "pick": "Elias Pettersson (C) under 0.5 ast",
+    "odds": "-220",
+    "result": "L",
+    "stat": "1 AST"
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NHL",
+    "type": "Leg",
     "pick": "Conor Garland under 0.5 pts",
     "odds": "-175",
     "result": "W",
     "stat": "0 PTS"
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NHL",
+    "type": "Parlay",
+    "pick": "2-leg",
+    "odds": "+129",
+    "result": "L",
+    "stat": "legs W/L (Pettersson C 1 A; ESPN 401892548 final)"
    },
    {
     "date": "2026-10-20",
@@ -1709,24 +1727,6 @@
     "odds": "-250",
     "result": "W",
     "stat": "0 3PM"
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "WNBA",
-    "type": "Runner-up",
-    "pick": "Naz Hillmon o3.5 reb",
-    "odds": "-120",
-    "result": "W",
-    "stat": "4 REB"
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "WNBA",
-    "type": "Runner-up",
-    "pick": "Jordin Canada o6.5 ast",
-    "odds": "-130",
-    "result": "W",
-    "stat": "10 AST"
    }
   ]
  },
@@ -1734,9 +1734,9 @@
   "overall": {
    "official": {
     "w": 117,
-    "l": 171,
+    "l": 172,
     "p": 2,
-    "pct": 41
+    "pct": 40
    },
    "potd": {
     "w": 8,
@@ -1752,11 +1752,11 @@
    },
    "parlay": {
     "w": 7,
-    "l": 14,
+    "l": 15,
     "p": 0,
-    "pct": 33
+    "pct": 32
    },
-   "pending": 10
+   "pending": 9
   },
   "props": [
    {
@@ -1795,18 +1795,18 @@
     "pct": 45
    },
    {
+    "prop": "NHL parlay",
+    "w": 1,
+    "l": 6,
+    "p": 0,
+    "pct": 14
+   },
+   {
     "prop": "Big 4 parlay",
     "w": 4,
     "l": 3,
     "p": 0,
     "pct": 57
-   },
-   {
-    "prop": "NHL parlay",
-    "w": 1,
-    "l": 5,
-    "p": 0,
-    "pct": 17
    },
    {
     "prop": "NHL team total",
@@ -3620,8 +3620,8 @@
     "date": "2026-10-20",
     "pick": "NHL · Parlay: 2-leg",
     "odds": "+129",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "legs W/L (Pettersson C 1 A; ESPN 401892548 final)"
    },
    {
     "date": "2026-10-20",
@@ -4991,27 +4991,11 @@
    ],
    [
     "10/20",
-    -24
-   ],
-   [
-    "10/20",
-    -25
-   ],
-   [
-    "10/20",
-    -24
-   ],
-   [
-    "10/20",
-    -25
-   ],
-   [
-    "10/20",
     -26
    ],
    [
     "10/20",
-    -27
+    -25
    ],
    [
     "10/20",
@@ -5035,6 +5019,94 @@
    ],
    [
     "10/20",
+    -27
+   ],
+   [
+    "10/20",
+    -26
+   ],
+   [
+    "10/20",
+    -27
+   ],
+   [
+    "10/20",
+    -28
+   ],
+   [
+    "10/20",
+    -29
+   ],
+   [
+    "10/20",
+    -30
+   ],
+   [
+    "10/20",
+    -29
+   ],
+   [
+    "10/20",
+    -30
+   ],
+   [
+    "10/20",
+    -29
+   ],
+   [
+    "10/20",
+    -30
+   ],
+   [
+    "10/20",
+    -29
+   ],
+   [
+    "10/20",
+    -28
+   ],
+   [
+    "10/20",
+    -29
+   ],
+   [
+    "10/20",
+    -30
+   ],
+   [
+    "10/20",
+    -31
+   ],
+   [
+    "10/20",
+    -32
+   ],
+   [
+    "10/20",
+    -31
+   ],
+   [
+    "10/20",
+    -32
+   ],
+   [
+    "10/20",
+    -33
+   ],
+   [
+    "10/20",
+    -32
+   ],
+   [
+    "10/20",
+    -31
+   ],
+   [
+    "10/20",
+    -30
+   ],
+   [
+    "10/20",
     -29
    ],
    [
@@ -5056,6 +5128,38 @@
    [
     "10/20",
     -28
+   ],
+   [
+    "10/20",
+    -27
+   ],
+   [
+    "10/20",
+    -26
+   ],
+   [
+    "10/20",
+    -27
+   ],
+   [
+    "10/20",
+    -28
+   ],
+   [
+    "10/20",
+    -29
+   ],
+   [
+    "10/20",
+    -28
+   ],
+   [
+    "10/20",
+    -27
+   ],
+   [
+    "10/20",
+    -26
    ],
    [
     "10/20",
@@ -5088,110 +5192,6 @@
    [
     "10/20",
     -32
-   ],
-   [
-    "10/20",
-    -31
-   ],
-   [
-    "10/20",
-    -30
-   ],
-   [
-    "10/20",
-    -29
-   ],
-   [
-    "10/20",
-    -28
-   ],
-   [
-    "10/20",
-    -27
-   ],
-   [
-    "10/20",
-    -28
-   ],
-   [
-    "10/20",
-    -27
-   ],
-   [
-    "10/20",
-    -28
-   ],
-   [
-    "10/20",
-    -27
-   ],
-   [
-    "10/20",
-    -26
-   ],
-   [
-    "10/20",
-    -25
-   ],
-   [
-    "10/20",
-    -26
-   ],
-   [
-    "10/20",
-    -27
-   ],
-   [
-    "10/20",
-    -28
-   ],
-   [
-    "10/20",
-    -27
-   ],
-   [
-    "10/20",
-    -26
-   ],
-   [
-    "10/20",
-    -25
-   ],
-   [
-    "10/20",
-    -26
-   ],
-   [
-    "10/20",
-    -27
-   ],
-   [
-    "10/20",
-    -28
-   ],
-   [
-    "10/20",
-    -29
-   ],
-   [
-    "10/20",
-    -30
-   ],
-   [
-    "10/20",
-    -29
-   ],
-   [
-    "10/20",
-    -30
-   ],
-   [
-    "10/20",
-    -31
-   ],
-   [
-    "10/20",
-    -30
    ],
    [
     "10/20",
@@ -5215,7 +5215,7 @@
    ],
    [
     "10/20",
-    -34
+    -36
    ],
    [
     "10/20",
@@ -5243,39 +5243,7 @@
    ],
    [
     "10/20",
-    -39
-   ],
-   [
-    "10/20",
-    -40
-   ],
-   [
-    "10/20",
-    -39
-   ],
-   [
-    "10/20",
-    -40
-   ],
-   [
-    "10/20",
     -41
-   ],
-   [
-    "10/20",
-    -40
-   ],
-   [
-    "10/20",
-    -41
-   ],
-   [
-    "10/20",
-    -40
-   ],
-   [
-    "10/20",
-    -39
    ],
    [
     "10/20",
@@ -5303,11 +5271,43 @@
    ],
    [
     "10/20",
+    -42
+   ],
+   [
+    "10/20",
+    -41
+   ],
+   [
+    "10/20",
     -40
    ],
    [
     "10/20",
-    -39
+    -41
+   ],
+   [
+    "10/20",
+    -42
+   ],
+   [
+    "10/20",
+    -41
+   ],
+   [
+    "10/20",
+    -42
+   ],
+   [
+    "10/20",
+    -43
+   ],
+   [
+    "10/20",
+    -42
+   ],
+   [
+    "10/20",
+    -41
    ],
    [
     "10/20",
@@ -5367,7 +5367,7 @@
    ],
    [
     "10/20",
-    -52
+    -54
    ],
    [
     "10/20",
@@ -5376,6 +5376,54 @@
    [
     "10/20",
     -54
+   ],
+   [
+    "10/20",
+    -55
+   ],
+   [
+    "10/20",
+    -54
+   ],
+   [
+    "10/20",
+    -55
+   ],
+   [
+    "10/20",
+    -54
+   ],
+   [
+    "10/20",
+    -55
+   ],
+   [
+    "10/20",
+    -56
+   ],
+   [
+    "10/20",
+    -55
+   ],
+   [
+    "10/20",
+    -54
+   ],
+   [
+    "10/20",
+    -53
+   ],
+   [
+    "10/20",
+    -54
+   ],
+   [
+    "10/20",
+    -53
+   ],
+   [
+    "10/20",
+    -52
    ],
    [
     "10/20",
@@ -5399,51 +5447,27 @@
    ],
    [
     "10/20",
-    -54
+    -56
    ],
    [
     "10/20",
-    -53
+    -57
    ],
    [
     "10/20",
-    -52
+    -58
    ],
    [
     "10/20",
-    -53
+    -59
    ],
    [
     "10/20",
-    -52
+    -58
    ],
    [
     "10/20",
-    -51
-   ],
-   [
-    "10/20",
-    -52
-   ],
-   [
-    "10/20",
-    -53
-   ],
-   [
-    "10/20",
-    -52
-   ],
-   [
-    "10/20",
-    -53
-   ],
-   [
-    "10/20",
-    -54
-   ],
-   [
-    "10/20",
-    -55
+    -57
    ],
    [
     "10/20",
@@ -5484,26 +5508,6 @@
    [
     "10/20",
     -55
-   ],
-   [
-    "10/20",
-    -54
-   ],
-   [
-    "10/20",
-    -55
-   ],
-   [
-    "10/20",
-    -56
-   ],
-   [
-    "10/20",
-    -55
-   ],
-   [
-    "10/20",
-    -54
    ]
   ]
  },
@@ -5862,7 +5866,7 @@
  "capper_today_date": "2026-10-24",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-24 10:37 PM ET",
+  "updated": "2026-10-24 10:48 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6437,7 +6441,7 @@
         "strk": "W1",
         "diff": "-4",
         "div": "1-0",
-        "seed": "6"
+        "seed": "7"
        },
        {
         "t": "New York Knicks",
@@ -6502,7 +6506,7 @@
         "strk": "W1",
         "diff": "-4",
         "div": "0-0",
-        "seed": "6"
+        "seed": "7"
        },
        {
         "t": "Indiana Pacers",
@@ -6517,20 +6521,20 @@
         "strk": "L1",
         "diff": "-13",
         "div": "0-0",
-        "seed": "6"
+        "seed": "7"
        },
        {
         "t": "Chicago Bulls",
         "ab": "CHI",
         "rec": "",
-        "pct": ".500",
-        "gb": "1",
+        "pct": ".333",
+        "gb": "1.5",
         "pts": null,
-        "home": "0-0",
+        "home": "0-1",
         "road": "1-1",
-        "l10": "1-1",
-        "strk": "W1",
-        "diff": "-36",
+        "l10": "1-2",
+        "strk": "L1",
+        "diff": "-40",
         "div": "1-0",
         "seed": "10"
        },
@@ -6588,16 +6592,16 @@
         "t": "Washington Wizards",
         "ab": "WSH",
         "rec": "",
-        "pct": ".500",
-        "gb": "1",
+        "pct": ".667",
+        "gb": "0.5",
         "pts": null,
         "home": "1-1",
-        "road": "0-0",
-        "l10": "1-1",
-        "strk": "L1",
-        "diff": "+2",
+        "road": "1-0",
+        "l10": "2-1",
+        "strk": "W1",
+        "diff": "+6",
         "div": "0-0",
-        "seed": "7"
+        "seed": "6"
        },
        {
         "t": "Orlando Magic",
@@ -6885,7 +6889,7 @@
       "h": "CLE",
       "st": "Final",
       "div": false,
-      "stake": "BKN : 5th Atlantic (2.5 GB), East #12 seed (outside playoffs) · CLE : 2nd Central (1 GB), East #6 seed (in playoff spot)"
+      "stake": "BKN : 5th Atlantic (2.5 GB), East #12 seed (outside playoffs) · CLE : 2nd Central (1 GB), East #7 seed (in playoff spot)"
      },
      {
       "a": "MIL",
@@ -6897,9 +6901,9 @@
      {
       "a": "WSH",
       "h": "CHI",
-      "st": "23.3 - 4th",
+      "st": "Final",
       "div": false,
-      "stake": "WSH : 3rd Southeast (1 GB), East #7 seed (in playoff spot) · CHI : 4th Central (1 GB), East #10 seed (in playoff spot)"
+      "stake": "WSH : 3rd Southeast (0.5 GB), East #6 seed (in playoff spot) · CHI : 4th Central (1.5 GB), East #10 seed (in playoff spot)"
      },
      {
       "a": "SA",
@@ -6911,21 +6915,21 @@
      {
       "a": "HOU",
       "h": "ATL",
-      "st": "7:15 - 4th",
+      "st": "3:29 - 4th",
       "div": false,
       "stake": "HOU : 2nd Southwest, West #6 seed (in playoff spot) · ATL : 1st Southeast, East #2 seed (in playoff spot)"
      },
      {
       "a": "NO",
       "h": "DEN",
-      "st": "6:27 - 3rd",
+      "st": "2:06 - 3rd",
       "div": false,
       "stake": "NO : 5th Southwest (2 GB), West #13 seed (outside playoffs) · DEN : 5th Northwest (1.5 GB), West #11 seed (outside playoffs)"
      },
      {
       "a": "GS",
       "h": "PHX",
-      "st": "1:40 - 1st",
+      "st": "9:10 - 2nd",
       "div": true,
       "stake": "GS : 4th Pacific (2 GB), West #14 seed (outside playoffs) · PHX : 3rd Pacific (1.5 GB), West #12 seed (outside playoffs)"
      }
@@ -7501,21 +7505,21 @@
      {
       "a": "TB",
       "h": "UTA",
-      "st": "7:27 - 2nd",
+      "st": "2:00 - 2nd",
       "div": false,
       "stake": "TB 7-3-0: 4th Atlantic Division (5 pts back), East #6 seed (in playoff spot) · UTA 7-4-0: 1st Central Division, West #4 seed (in playoff spot)"
      },
      {
       "a": "DET",
       "h": "CGY",
-      "st": "4:51 - 1st",
+      "st": "End of 1st",
       "div": false,
       "stake": "DET 4-3-3: 7th Atlantic Division (8 pts back), East #12 seed (outside playoffs) · CGY 3-6-0: 6th Pacific Division (11 pts back), West #13 seed (outside playoffs)"
      },
      {
       "a": "MIN",
       "h": "SEA",
-      "st": "6:11 - 1st",
+      "st": "End of 1st",
       "div": false,
       "stake": "MIN 6-3-2: 2nd Central Division, West #5 seed (in playoff spot) · SEA 7-3-1: 3rd Pacific Division (2 pts back), West #3 seed (in playoff spot)"
      }
@@ -8008,7 +8012,7 @@
      {
       "a": "TB",
       "h": "MIL",
-      "st": "End 6th",
+      "st": "Top 7th",
       "div": false,
       "stake": "TB 98-64: 1st American League East, AL #1 seed (in playoff spot) · MIL 103-59: 1st National League Central, NL #1 seed (in playoff spot)"
      }
@@ -8620,7 +8624,7 @@
    }
   }
  },
- "ui_build": "1792895860",
+ "ui_build": "1792896537",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -8739,7 +8743,7 @@
   {
    "sport": "NHL",
    "w": 80,
-   "l": 120,
+   "l": 121,
    "p": 1,
    "pct": 40,
    "active": true,
@@ -9235,7 +9239,7 @@
   {
    "sport": "NHL",
    "w": 80,
-   "l": 120,
+   "l": 121,
    "p": 1,
    "pct": 40,
    "props": [
@@ -9270,9 +9274,9 @@
     {
      "prop": "NHL parlay",
      "w": 1,
-     "l": 5,
+     "l": 6,
      "p": 0,
-     "pct": 17
+     "pct": 14
     },
     {
      "prop": "NHL team total",
@@ -9368,7 +9372,7 @@
    ],
    "official": {
     "w": 80,
-    "l": 120,
+    "l": 121,
     "p": 1,
     "pct": 40,
     "props": [
@@ -9403,9 +9407,9 @@
      {
       "prop": "NHL parlay",
       "w": 1,
-      "l": 5,
+      "l": 6,
       "p": 0,
-      "pct": 17
+      "pct": 14
      },
      {
       "prop": "NHL team total",
@@ -9502,9 +9506,9 @@
    },
    "tracked": {
     "w": 54,
-    "l": 38,
+    "l": 39,
     "p": 0,
-    "pct": 59,
+    "pct": 58,
     "props": [
      {
       "prop": "NHL SOG",
@@ -9521,18 +9525,18 @@
       "pct": 45
      },
      {
+      "prop": "NHL parlay",
+      "w": 1,
+      "l": 6,
+      "p": 0,
+      "pct": 14
+     },
+     {
       "prop": "NHL SOG under",
       "w": 5,
       "l": 2,
       "p": 0,
       "pct": 71
-     },
-     {
-      "prop": "NHL parlay",
-      "w": 1,
-      "l": 5,
-      "p": 0,
-      "pct": 17
      },
      {
       "prop": "NHL points under",
@@ -13067,8 +13071,8 @@
    "prop": "NHL parlay",
    "pick": "2-leg",
    "odds": "+129",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "legs W/L (Pettersson C 1 A; ESPN 401892548 final)"
   },
   {
    "date": "2026-10-20",
@@ -15041,8 +15045,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 290,
-  "headline": 290
+  "tiles_sum": 291,
+  "headline": 291
  },
  "inning_record": {},
  "ingame_lines": {
@@ -15154,11 +15158,11 @@
    "Cappers: at most one leg each from @alexcaruso, @panpotd, @austinsprops, @showtimepicks2, @bigmikepickz and @habibtings. Never @tonestakes, @doctorprofit or @salbets_.",
    "Leg source: the capper's labeled top play (POTD / top play) that day, otherwise their first straight pick. Capper parlays, anytime TD, pick'em and picks with no odds are skipped. If the labeled top play has no alt rung, that capper is skipped (strict: no fallback to another pick).",
    "Buy-down: the real Hard Rock alt rung on the same player and market nearest -300..-400 that is shorter than the capper's price, never outside -150..-700. Prices come from fresh Hard Rock game rows (36h max). If a market is pulled after it was seen, the last real price seen stays.",
-   "Ticket: max 5 legs, one per game, at least 2 legs. With fewer the card reads \"Not enough bought-down legs yet\". Before the first build of the day it reads \"Builds after the 9 AM capper check\".",
+   "Ticket: max 5 legs, one per game, at least 2 legs. With no ticket yet (before the first build, or fewer than 2 bought-down legs) the card is a minimal empty card: header, Stake 1u and this Rules dropdown, with no timing text.",
    "Build and lock: rebuilt at the 9 AM, 12 PM, 3 PM and 6 PM ET capper checks. A leg locks when its game starts and never changes after. The ticket is final after the 6 PM check (frozen at 6:45 PM ET).",
-   "Odds and stake: American total of the bought-down legs, with \"Original combined\" (the capper prices multiplied) in the footer. Stake $1.50. Mixed-sport tickets file under Big 4.",
+   "Odds and stake: American total of the bought-down legs,. Stake 1u ($1.50). Mixed-sport tickets file under Big 4.",
    "Grading: the bot nightly, logged to the bot, shown under Official as \"The Heist\" on Results and Record. The ticket is L as soon as any leg loses. A void or DNP leg stays Pending until settled by hand (strict).",
-   "Display: THE HEIST card (pill \"▼ BOUGHT DOWN · CAPPERS\", mockup design-ideas/cappers-parlay-v1, no tracker bar) at the top of Cappers and on Today right after the official tickets."
+   "Display: THE HEIST card (pill \"▼ BOUGHT DOWN · CAPPERS\", mockup design-ideas/cappers-parlay-v1, no tracker bar) at the top of Cappers and on Today right after the official tickets. Card body: each leg shows only player, prop, odds and status, plus the leg W/L tracker (no live bar); no date line, timing or meta text on the card. Build timing (rebuilt each capper check: 9a/12p/3p/6p ET, freezes after 6 PM, graded nightly) lives in this Rules dropdown."
   ],
   "allofficial": [
    "User order 2026-10-24 8:48 PM ET (with steering at 8:50 and 8:51 PM ET), live from the Oct 25 2026 slate: every pick we post is Official. This section is the final wording. It supersedes the \"ALL PICKS OFFICIAL\", \"ARCHIVE OLD\" and placed-ticket bullets written into §2, §5, §7, §8 and §13 earlier the same evening, and it closes C9, C11 and C16.",
@@ -16574,8 +16578,8 @@
     "prop": "NHL parlay",
     "pick": "2-leg",
     "odds": "+129",
-    "res": "",
-    "stat": "—",
+    "res": "L",
+    "stat": "legs W/L (Pettersson C 1 A; ESPN 401892548 final)",
     "sub": "Conor Garland under 0.5 pts + Elias Pettersson (C) under 0.5 ast",
     "leg": false,
     "img": null,
@@ -21829,23 +21833,788 @@
     "leg": false,
     "img": null,
     "sub": ""
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Will Cuylle o1.5 SOG",
+    "odds": "-130",
+    "res": "W",
+    "stat": "2 SOG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "SOG",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NHL team total",
+    "pick": "Seattle Kraken Over 2.5 Team Total",
+    "odds": "-120",
+    "res": "W",
+    "stat": "SEA 3",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Team total",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NHL ML",
+    "pick": "Tampa Bay Lightning ML",
+    "odds": "-375",
+    "res": "W",
+    "stat": "TB 4-2",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "ML",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "MLB F5 spread (alt)",
+    "pick": "Tampa Bay Rays +1.5 F5",
+    "odds": "-375",
+    "res": "W",
+    "stat": "TB 1-1 CLE",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Spread",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NFL spread",
+    "pick": "New York Giants +1",
+    "odds": "-115",
+    "res": "L",
+    "stat": "NO 34-27 NYG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Spread",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NFL moneyline",
+    "pick": "Los Angeles Rams ML",
+    "odds": "-900",
+    "res": "L",
+    "stat": "ARI 18-16 LAR",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "ML",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NASCAR",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NASCAR top 5",
+    "pick": "Ryan Blaney Top 5",
+    "odds": "-165",
+    "res": "W",
+    "stat": "P2",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "NASCAR finish",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NASCAR",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NASCAR top 10",
+    "pick": "Denny Hamlin Top 10",
+    "odds": "-275",
+    "res": "L",
+    "stat": "P28",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "NASCAR finish",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "MLB run line (alt)",
+    "pick": "Tampa Bay Rays +2.5",
+    "odds": "-600",
+    "res": "W",
+    "stat": "TB 3-1 CLE",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Spread",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NHL ML",
+    "pick": "Minnesota Wild ML",
+    "odds": "-185",
+    "res": "W",
+    "stat": "CBJ 1-2 MIN",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "ML",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NHL ML",
+    "pick": "Carolina Hurricanes ML",
+    "odds": "-200",
+    "res": "L",
+    "stat": "CAR 2-3 CGY",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "ML",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NFL prop",
+    "pick": "Javonte Williams 13+ rec yds",
+    "odds": "-120",
+    "res": "L",
+    "stat": "9 rec yds",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NFL prop",
+    "pick": "CeeDee Lamb 5+ rec",
+    "odds": "-425",
+    "res": "W",
+    "stat": "9 rec",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NHL points under",
+    "pick": "Jamie Drysdale u0.5 Points",
+    "odds": "-275",
+    "res": "W",
+    "stat": "0 PTS",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Player points",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "WNBA player rebounds",
+    "pick": "Kaila Charles 4+ Rebounds",
+    "odds": "-200",
+    "res": "L",
+    "stat": "3 REB",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "MLB walks under",
+    "pick": "Yandy Diaz u0.5 Walks",
+    "odds": "-210",
+    "res": "W",
+    "stat": "0 BB",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "MLB runs under",
+    "pick": "Nathaniel Lowe u0.5 Runs",
+    "odds": "-275",
+    "res": "L",
+    "stat": "1 R",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "WNBA pts+ast",
+    "pick": "Jordin Canada 15+ pts+ast",
+    "odds": "-260",
+    "res": "W",
+    "stat": "23 P+A",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Player points",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "WNBA PRA",
+    "pick": "Allisha Gray 20+ PRA",
+    "odds": "-145",
+    "res": "W",
+    "stat": "24 PRA",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NFL receptions",
+    "pick": "Antonio Williams 2+ rec",
+    "odds": "-250",
+    "res": "W",
+    "stat": "3 rec",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Receptions",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NHL points under",
+    "pick": "Conor Garland under 0.5 pts",
+    "odds": "-175",
+    "res": "W",
+    "stat": "0 PTS",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Player points",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NHL assists under",
+    "pick": "Elias Pettersson (C) under 0.5 ast",
+    "odds": "-220",
+    "res": "L",
+    "stat": "1 AST",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NBA assists",
+    "pick": "De'Aaron Fox 5+ ast",
+    "odds": "-155",
+    "res": "W",
+    "stat": "7 AST",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "leg": true,
+    "prop": "NBA rebounds",
+    "pick": "Jalen Brunson 3+ reb",
+    "odds": "-185",
+    "res": "W",
+    "stat": "5 REB",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "fam": "Other",
+    "ldc": true
+   },
+   {
+    "date": "2026-10-15",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Owen Power u1.5 SOG (backfill)",
+    "odds": "-120",
+    "res": "L",
+    "stat": "2 SOG",
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-16",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "David Pastrnak o3.5 SOG (backfill)",
+    "odds": "-120",
+    "res": "W",
+    "stat": "4 SOG",
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NCAAF",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NCAAF team total",
+    "pick": "Colorado Under 17.5 Team Total",
+    "odds": "-130",
+    "res": "L",
+    "stat": "COLO 24",
+    "fam": "Team total",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "MLB F5 ML",
+    "pick": "Tampa Bay Rays F5 ML",
+    "odds": "-125",
+    "res": "P",
+    "stat": "TB 1-1 CLE (tie push)",
+    "fam": "ML",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Charlie McAvoy o1.5 SOG",
+    "odds": "-110",
+    "res": "W",
+    "stat": "2 SOG",
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-17",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "WNBA 1Q total",
+    "pick": "1st Quarter Total Under 37.5",
+    "odds": "-115",
+    "res": "W",
+    "stat": "total 36",
+    "fam": "Total",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NFL spread",
+    "pick": "Jacksonville Jaguars -2.5",
+    "odds": "-120",
+    "res": "L",
+    "stat": "HOU 34, JAX 31 (JAX lost by 3)",
+    "fam": "Spread",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NFL spread",
+    "pick": "Kansas City Chiefs -7",
+    "odds": "-125",
+    "res": "W",
+    "stat": "LAC 6-22 KC",
+    "fam": "Spread",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NASCAR",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NASCAR top 10",
+    "pick": "William Byron Top 10",
+    "odds": "-130",
+    "res": "L",
+    "stat": "P21",
+    "fam": "NASCAR finish",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "MLB ML",
+    "pick": "Tampa Bay Rays ML",
+    "odds": "-130",
+    "res": "W",
+    "stat": "TB 3-1 CLE",
+    "fam": "ML",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Charlie Coyle u1.5 SOG",
+    "odds": "-105",
+    "res": "L",
+    "stat": "2 SOG",
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-18",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NFL prop",
+    "pick": "Dak Prescott 275+ pass yds",
+    "odds": "-120",
+    "res": "L",
+    "stat": "258 pass yds",
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "alt": true,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Ben Kindel o1.5 SOG",
+    "odds": "-120",
+    "res": "L",
+    "stat": "1 SOG",
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "MLB",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "MLB singles",
+    "pick": "Steven Kwan o0.5 Singles",
+    "odds": "-130",
+    "res": "W",
+    "stat": "1 1B",
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL points",
+    "pick": "Mikael Granlund o0.5 Points",
+    "odds": "-125",
+    "res": "L",
+    "stat": "0 PTS",
+    "fam": "Player points",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "WNBA player 3PM under",
+    "pick": "Rhyne Howard u2.5 Threes Made",
+    "odds": "-120",
+    "res": "W",
+    "stat": "1 3PM",
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-19",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NFL carries",
+    "pick": "Jayden Daniels o6.5 Rush Attempts",
+    "odds": "-130",
+    "res": "L",
+    "stat": "4 carries",
+    "fam": "Rush attempts",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL SOG",
+    "pick": "Brandon Hagel o2.5 SOG",
+    "odds": "-125",
+    "res": "W",
+    "stat": "3 SOG",
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL assists under",
+    "pick": "Artemi Panarin under 0.5 ast",
+    "odds": "-105",
+    "res": "L",
+    "stat": "2 AST",
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-20",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NBA pts+ast under",
+    "pick": "Jalen Duren under 19.5 pts+ast",
+    "odds": "-125",
+    "res": "L",
+    "stat": "23 P+A",
+    "fam": "Player points",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
+   },
+   {
+    "date": "2026-10-24",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "leg": true,
+    "prop": "NHL SOG under",
+    "pick": "Anthony Cirelli under 1.5 SOG",
+    "odds": "-120",
+    "res": "",
+    "stat": "—",
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "ldc": true
    }
   ],
   "summary": {
    "O": {
     "tickets": {
      "w": 16,
-     "l": 33,
+     "l": 34,
      "p": 1,
-     "pending": 3,
-     "units": -17
+     "pending": 2,
+     "units": -18
     },
     "legs": {
-     "w": 48,
-     "l": 38,
-     "p": 1,
-     "pending": 6,
-     "units": 10
+     "w": 72,
+     "l": 57,
+     "p": 2,
+     "pending": 7,
+     "units": 15
     }
    },
    "E": {
@@ -21900,7 +22669,24 @@
    "leg day: 2026-10-19 Nazem Kadri o1.5 · 10/19 NHL Safe100 3-l counted once in Safe +100 (Alt Parlay)",
    "leg day: 2026-10-19 Kirill Marchenko o1.5 · 10/19 NHL Safe10 counted once in Safe +100 (Alt Parlay)",
    "leg day: 2026-10-19 Nick Schmaltz o1.5 · 10/19 NHL Safe100 3 counted once in Safe +100 (Alt Parlay)",
-   "all-official: 274 archived rows skipped (retired tier + placed tickets; see archive/)"
+   "all-official: 274 archived rows skipped (retired tier + placed tickets; see archive/)",
+   "leg day: 2026-10-14 Nazem Kadri o1.5 SOG already a leg (counted once)",
+   "leg day: 2026-10-14 Robert Gasser o0.5 Walks already a leg (counted once)",
+   "leg day: 2026-10-15 Jaxon Smith-Njigba o64.5 Rec Yds already a leg (counted once)",
+   "leg day: 2026-10-15 Matthew Schaefer o2.5 SOG already a leg (counted once)",
+   "leg day: 2026-10-16 Leo Carlsson u2.5 SOG already a leg (counted once)",
+   "leg day: 2026-10-16 Yandy Díaz u0.5 RBI already a leg (counted once)",
+   "leg day: 2026-10-17 BYU Under 17.5 Team Total already a leg (counted once)",
+   "leg day: 2026-10-17 Penn State @ Michigan Under 43.5 already a leg (counted once)",
+   "leg day: 2026-10-17 St. Louis Blues +1.5 already a leg (counted once)",
+   "leg day: 2026-10-18 Joel Eriksson Ek o1.5 SOG already a leg (counted once)",
+   "leg day: 2026-10-18 Jackson Blake o1.5 SOG already a leg (counted once)",
+   "leg day: 2026-10-19 Noah Cates u0.5 Points already a leg (counted once)",
+   "leg day: 2026-10-19 Taylor Walls u0.5 Walks already a leg (counted once)",
+   "leg day: 2026-10-19 MacKenzie Weegar u0.5 Assists already a leg (counted once)",
+   "leg day: 2026-10-19 Jack Roslovic o1.5 SOG already a leg (counted once)",
+   "leg day: 2026-10-19 Martin Necas o1.5 SOG already a leg (counted once)",
+   "leg day: 2026-10-19 Terry McLaurin 40+ rec yds already a leg (counted once)"
   ],
   "ru_dropped": [
    [

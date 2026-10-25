@@ -56,6 +56,7 @@ html.lg #heist{--k:1.2}
 #heist .h-pill{max-width:100%;white-space:normal;line-height:1.25}
 #heist .h-meta{flex-wrap:wrap;justify-content:center;gap:4px 12px}
 #heist .h-res{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:999px;font-size:calc(var(--k)*11px);font-weight:900;letter-spacing:1px}
+#heist .h-trk{display:inline-flex;gap:4px}#heist .h-trk i{width:calc(var(--k)*10px);height:calc(var(--k)*10px);border-radius:50%;background:#ffffff26;border:1px solid #ffffff40}#heist .h-trk i.h{background:#2fe0b0}#heist .h-trk i.x{background:#ff5c6c}#heist .h-foot{justify-content:center}
 #heist .h-empty{padding:16px 14px;text-align:center;color:#cfe;font-weight:700;font-size:calc(var(--k)*13px)}
 #heist .h-foot{flex-wrap:wrap;gap:4px 12px}
 #heist .h-rulesd{padding:0 14px 10px;background:#04100c;font-size:calc(var(--k)*12px);color:#bfe}
@@ -354,7 +355,7 @@ html.lg #slipv .svb{font-size:max(17px,1.1rem)}
 function uiSync(){const h=document.documentElement,d=h.classList.contains('day'),l=h.classList.contains('lg');const a=document.getElementById('tDay'),b=document.getElementById('tLg');if(a){a.textContent=d?'☀️ Day':'🌙 Night';a.classList.toggle('on',d)}if(b)b.classList.toggle('on',l);const m=document.querySelector('meta[name=theme-color]');if(m)m.content=d?'#f2eee8':'#0d1117'}
 document.getElementById('tDay').onclick=()=>{const v=document.documentElement.classList.toggle('day');try{localStorage.setItem('ui:day',v?'1':'0')}catch(e){}uiSync()};
 document.getElementById('tLg').onclick=()=>{const v=document.documentElement.classList.toggle('lg');try{localStorage.setItem('ui:lg',v?'1':'0')}catch(e){}uiSync()};uiSync();
-const UI_BUILD='1792895860';
+const UI_BUILD='1792896537';
 const U$=x=>{const v=Math.round(+String(x).replace(/,/g,'')/1.5*100)/100;return v+'u'};let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\b0(\d:\d\d\s?[AP]M)/g,'$1').replace(/(\bParlay\s+)?(\bTicket B\b|\+100 ticket)/gi,(m,p,t)=>p&&/^\+/.test(t)?m:'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,(m,o,x)=>/Lotto Ticket \($/.test(x.slice(Math.max(0,o-14),o))?m:'Lotto Ticket').replace(/\$\s?(\d[\d,]*(?:\.\d+)?)/g,(m,x)=>U$(x)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -673,17 +674,18 @@ function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m
 
 function recordV0(){return ''}
 /* THE HEIST (RULEBOOK §14): daily Official Cappers Parlay. Data D.heist from heist.py (build_data). Display only. */
-function HEIST(){const H=D.heist||{status:'waiting',msg:'Builds after the 9 AM capper check',legs:[]},L=H.legs||[],live=H.status=='live';
+function HEIST(){const H=D.heist||{status:'waiting',legs:[]},L=H.legs||[],live=H.status=='live';
  /* THE HEIST card art: design-ideas/heist-v1 (scoped to #heist), wired to D.heist */
  const am=v=>{if(v==null||v==='')return'—';const n=+String(v).replace('+','');return isNaN(n)?E(v):(n>0?'+':'')+n.toLocaleString('en-US')};
  const ST=l=>{const r=String(l.res||'').toUpperCase();return r=='W'?['s-w','W']:r=='L'?['s-l','L']:(r=='V'||r=='P')?['s-v',r=='P'?'PUSH':'VOID']:l.locked?['s-k','🔒']:['s-p','•••']};
  const SPL=pk=>{pk=String(pk||'').trim();const m=pk.match(/^(.*?)\s+((?:[ou]\d|[+-]\d|\d|ML\b|ATD\b|anytime\b|Over\b|Under\b|\().*)$/i);return m&&m[1]?[m[1],m[2]]:[pk,'']};
  const badge=`<svg class="h-badge" viewBox="0 0 74 84" aria-hidden="true"><defs><linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e9fff9"/><stop offset=".45" stop-color="#2fe0b0"/><stop offset=".7" stop-color="#138a6d"/><stop offset="1" stop-color="#06281a"/></linearGradient><linearGradient id="hg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c4"/><stop offset=".6" stop-color="#f5c542"/><stop offset="1" stop-color="#8a6508"/></linearGradient></defs><path d="M37 2 70 14v30c0 20-15 32-33 38C19 76 4 64 4 44V14Z" fill="url(#hg1)" stroke="#000" stroke-width="3"/><path d="M37 2 70 14v30c0 20-15 32-33 38Z" fill="#ffffff22"/><path d="M37 10 62 19v24c0 15-11 25-25 30C23 68 12 58 12 43V19Z" fill="none" stroke="#b6fff0" stroke-opacity=".6"/><path d="M20 26h34l-7 9H27Z" fill="url(#hg2)" stroke="#000" stroke-width="1.5"/><path d="M24 39h26l-6 8H30Z" fill="url(#hg2)" stroke="#000" stroke-width="1.5"/><path d="M37 49 49 52 37 70 25 52Z" fill="url(#hg2)" stroke="#000" stroke-width="1.5"/></svg>`;
  const R=String(H.res||'').toUpperCase(),rc=R=='W'?'<span class="h-res s-w">WON</span>':R=='L'?'<span class="h-res s-l">LOST</span>':R=='P'?'<span class="h-res s-v">PUSH</span>':'';
- const meta=live?`<div class="h-meta"><span>${L.length} legs · ${L.length} cappers${H.final?' · 🔒 Final':''}</span><span>Total <b>${am(H.odds)}</b>${rc}</span></div>`:`<div class="h-meta"><span>${E(H.date||'')}</span><span>${H.final?'🔒 Final':'Rebuilt each capper check'}</span></div>`;
- const legs=live?'<div class="h-legs">'+L.map(l=>{const [c,t]=ST(l),[pl,ln]=SPL(l.pick);return`<div class="h-leg"><div class="h-st ${c}">${t}</div><div class="h-l1"><span class="h-hd">${E(l.capper)}</span><span class="h-pl">${E(pl)}</span></div><div class="h-odds">${am(l.odds)}</div><div class="h-bd"><span>${E(String(l.orig||'').startsWith(pl+' ')?String(l.orig).slice(pl.length+1):l.orig)} ${am(l.orig_odds)}</span><span class="h-ar">➜</span><span class="h-alt">${E(ln||l.pick)}</span></div></div>`}).join('')+'</div>':`<div class="h-empty">${E(H.msg||'Builds after the 9 AM capper check')}</div>`;
- const RL=((D.rules||{}).heist||[]);
- const foot=`<div class="h-foot"><span>Original combined <b>${live?am(H.orig):'—'}</b></span><span>Stake <b>${E(H.stake||'$1.50')}</b></span></div>`+(RL.length?`<details class="h-rulesd"><summary class="h-rules">Rules ▾</summary><ul>${RL.map(x=>`<li>${E(x)}</li>`).join('')}</ul></details>`:'');
+ const trk=L.map(l=>{const r=String(l.res||'').toUpperCase();return`<i class="${r=='W'?'h':r=='L'?'x':''}"></i>`}).join('');
+ const meta=live?`<div class="h-meta"><span class="h-trk">${trk}</span><span>Total <b>${am(H.odds)}</b>${rc}</span></div>`:'';   /* 10:46 PM order: no date / timing / meta text */
+ const legs=live?'<div class="h-legs">'+L.map(l=>{const [c,t]=ST(l),[pl,ln]=SPL(l.pick);return`<div class="h-leg"><div class="h-st ${c}">${t}</div><div class="h-l1"><span class="h-pl">${E(pl)}</span></div><div class="h-odds">${am(l.odds)}</div><div class="h-bd"><span class="h-alt">${E(ln||l.pick)}</span></div></div>`}).join('')+'</div>':'';
+ const RL=['Timing: rebuilt at each capper check (9 AM, 12 PM, 3 PM and 6 PM ET), frozen after the 6 PM check, graded nightly.'].concat((D.rules||{}).heist||[]);
+ const foot=`<div class="h-foot"><span>Stake <b>1u</b></span></div><details class="h-rulesd"><summary class="h-rules">Rules ▾</summary><ul>${RL.map(x=>`<li>${E(x)}</li>`).join('')}</ul></details>`;
  return `<div id="heist"><span class="h-ring" aria-hidden="true"></span><div class="h-in"><div class="h-hdr" style="padding:0 0 10px;background:linear-gradient(180deg,#000,#0a0a12)"><div class="xa"><img src="heist-header.webp" alt="THE HEIST · Bought down · Cappers" width="780" height="451" decoding="async"><span class="gem"></span><span class="holo"></span><span class="glint"></span><span class="star"></span><span class="sp"></span><span class="sp2"></span></div><div style="padding:0 12px">${meta}</div></div>${legs}${foot}</div></div>`}
 
 function cappers(){const n=v=>typeof v=='number'?v:-1,cs=[...(D.cappers||[])].sort((a,b)=>n(b.pct)-n(a.pct)||n(b.w)-n(a.w)||n(a.l)-n(b.l)),td=D.capper_today_date||'';
@@ -1017,7 +1019,7 @@ function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F||(F=='Big 
  const so=rec(Ot),sl=rec(Ol);
  // hero callouts (same math as Results v2)
  const srt=Ot.filter(r=>r.res=='W'||r.res=='L').sort((x,y)=>x.date<y.date?-1:x.date>y.date?1:0);let best=0,c=0;srt.forEach(r=>{c=r.res=='W'?c+1:0;best=Math.max(best,c)});
- const fm=grp(O.filter(r=>r.leg||r.cat=='POTD'),r=>r.fam);const fl=Object.entries(fm).map(([k,v])=>[k,rec(v)]).filter(([k,s])=>s.w+s.l>=3&&k!='Parlay'&&k!='Other').sort((x,y)=>y[1].pct-x[1].pct||(y[1].w+y[1].l)-(x[1].w+x[1].l));
+ const fm=grp(O.filter(r=>(r.leg&&!r.ldc)||r.cat=='POTD'),r=>r.fam);const fl=Object.entries(fm).map(([k,v])=>[k,rec(v)]).filter(([k,s])=>s.w+s.l>=3&&k!='Parlay'&&k!='Other').sort((x,y)=>y[1].pct-x[1].pct||(y[1].w+y[1].l)-(x[1].w+x[1].l));
  const hot=fl[0],cold=fl.length>1?fl[fl.length-1]:null,wk=rec(Ot.filter(x=>x.date>=WK)),td=rec(Ot.filter(x=>x.date==TD));
  let h=`<div class="holo hero"><div class=in><div class=foil></div>
   <div class=kick>⭐ OFFICIAL RECORD · ${F=='All'?'ALL SPORTS':E(FL)}<i></i></div>
