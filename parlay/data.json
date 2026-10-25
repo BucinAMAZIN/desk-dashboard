@@ -1,5 +1,5 @@
 {
- "generated": 1792944352.156614,
+ "generated": 1792944669.7864282,
  "today": {
   "title": "Oct 25 picks (Hard Rock)",
   "tickets": [
@@ -6143,7 +6143,7 @@
  "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-25 12:05 PM ET",
+  "updated": "2026-10-25 12:11 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -25543,6 +25543,84 @@
   "stake": "1u",
   "legs": [
    {
+    "capper": "@alexcaruso",
+    "sport": "NFL",
+    "orig": "Bijan Robinson o29.5 rec yds",
+    "orig_odds": -115,
+    "pick": "Bijan Robinson 19+ rec yds",
+    "odds": -325,
+    "src": "LineMate HR alt",
+    "game": "SF @ ATL",
+    "gkey": "NFL:401873017",
+    "start": "2026-10-25 13:00",
+    "locked": false,
+    "res": "",
+    "stat": "",
+    "priced": "2026-10-25 12:11",
+    "orig_note": "book price; capper posted no odds",
+    "dk": {
+     "ladder": [
+      [
+       "10+",
+       "-600"
+      ],
+      [
+       "15+",
+       "-348"
+      ],
+      [
+       "20+",
+       "-225"
+      ],
+      [
+       "25+",
+       "-155"
+      ],
+      [
+       "30+",
+       "-113"
+      ],
+      [
+       "40+",
+       "+162"
+      ],
+      [
+       "50+",
+       "+274"
+      ],
+      [
+       "60+",
+       "+445"
+      ],
+      [
+       "70+",
+       "+710"
+      ],
+      [
+       "80+",
+       "+1120"
+      ],
+      [
+       "90+",
+       "+1700"
+      ],
+      [
+       "100+",
+       "+2500"
+      ],
+      [
+       "110+",
+       "+3300"
+      ]
+     ],
+     "odds": "-348",
+     "pick": "Bijan Robinson 15+ rec yds",
+     "moved": true,
+     "na": false,
+     "orig_odds": "-113"
+    }
+   },
+   {
     "capper": "@panpotd",
     "sport": "NFL",
     "orig": "Denzel Boston o48.5 rec yds",
@@ -25556,7 +25634,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 12:05",
+    "priced": "2026-10-25 12:11",
     "dk": {
      "ladder": [
       [
@@ -25657,7 +25735,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 12:05",
+    "priced": "2026-10-25 12:11",
     "dk": {
      "odds": null,
      "na": true,
@@ -25691,11 +25769,6 @@
   ],
   "skipped": [
    {
-    "capper": "@alexcaruso",
-    "why": "no odds",
-    "pick": "Bijan Robinson o29.5 rec yds (Falcons vs 49ers; NFL Play of the Day)"
-   },
-   {
     "capper": "@showtimepicks2",
     "why": "same game as @panpotd",
     "pick": "Tennessee Titans ML"
@@ -25713,8 +25786,8 @@
   ],
   "status": "live",
   "msg": "",
-  "odds": 150,
-  "orig": 258,
+  "odds": 226,
+  "orig": 570,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
@@ -25734,8 +25807,8 @@
   "fetched": "2026-10-25 10:11 ET",
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 41,
-   "priced": 34,
+   "legs": 42,
+   "priced": 35,
    "na": [
     "HEIST Woody Marks o13.5 longest rush",
     "Edge Q1 Over 10.5",
