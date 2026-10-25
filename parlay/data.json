@@ -1,5 +1,5 @@
 {
- "generated": 1792945685.3113186,
+ "generated": 1792946151.7696545,
  "today": {
   "title": "Oct 25 picks (Hard Rock)",
   "tickets": [
@@ -5908,7 +5908,7 @@
      "sport": "NFL",
      "prop": "NFL receptions (over)",
      "pick": "Tucker Kraft o4.5 receptions (Week 7 full card)",
-     "odds": "-115",
+     "odds": "-120",
      "status": "Pending"
     },
     {
@@ -6143,7 +6143,7 @@
  "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-25 12:28 PM ET",
+  "updated": "2026-10-25 12:35 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6216,11 +6216,26 @@
       "name": "AFC North",
       "rows": [
        {
+        "t": "Pittsburgh Steelers",
+        "ab": "PIT",
+        "rec": "5-2",
+        "pct": ".714",
+        "gb": "-",
+        "pts": null,
+        "home": "3-0",
+        "road": "2-2",
+        "l10": null,
+        "strk": "W3",
+        "diff": "+15",
+        "div": "1-1",
+        "seed": "3"
+       },
+       {
         "t": "Cleveland Browns",
         "ab": "CLE",
         "rec": "4-2",
         "pct": ".667",
-        "gb": "-",
+        "gb": "0.5",
         "pts": null,
         "home": "3-0",
         "road": "1-2",
@@ -6228,21 +6243,6 @@
         "strk": "W1",
         "diff": "-16",
         "div": "2-0",
-        "seed": "4"
-       },
-       {
-        "t": "Pittsburgh Steelers",
-        "ab": "PIT",
-        "rec": "4-2",
-        "pct": ".667",
-        "gb": "-",
-        "pts": null,
-        "home": "3-0",
-        "road": "1-2",
-        "l10": null,
-        "strk": "W2",
-        "diff": "+9",
-        "div": "1-1",
         "seed": "6"
        },
        {
@@ -6250,7 +6250,7 @@
         "ab": "BAL",
         "rec": "4-2",
         "pct": ".667",
-        "gb": "-",
+        "gb": "0.5",
         "pts": null,
         "home": "1-1",
         "road": "3-1",
@@ -6265,7 +6265,7 @@
         "ab": "CIN",
         "rec": "3-2",
         "pct": ".600",
-        "gb": "0.5",
+        "gb": "1",
         "pts": null,
         "home": "1-1",
         "road": "2-1",
@@ -6293,7 +6293,7 @@
         "strk": "L1",
         "diff": "+50",
         "div": "0-1",
-        "seed": "3"
+        "seed": "4"
        },
        {
         "t": "Indianapolis Colts",
@@ -6438,7 +6438,7 @@
         "strk": "L4",
         "diff": "-31",
         "div": "1-0",
-        "seed": "11"
+        "seed": "10"
        },
        {
         "t": "Dallas Cowboys",
@@ -6453,7 +6453,7 @@
         "strk": "L2",
         "diff": "-8",
         "div": "1-1",
-        "seed": "12"
+        "seed": "11"
        },
        {
         "t": "Washington Commanders",
@@ -6573,17 +6573,17 @@
        {
         "t": "New Orleans Saints",
         "ab": "NO",
-        "rec": "2-4",
-        "pct": ".333",
-        "gb": "1.5",
+        "rec": "2-5",
+        "pct": ".286",
+        "gb": "2",
         "pts": null,
-        "home": "0-3",
+        "home": "0-4",
         "road": "2-1",
         "l10": null,
-        "strk": "W1",
-        "diff": "-26",
+        "strk": "L1",
+        "diff": "-32",
         "div": "0-1",
-        "seed": "10"
+        "seed": "14"
        },
        {
         "t": "Tampa Bay Buccaneers",
@@ -6648,7 +6648,7 @@
         "strk": "W1",
         "diff": "-52",
         "div": "1-2",
-        "seed": "13"
+        "seed": "12"
        },
        {
         "t": "Los Angeles Rams",
@@ -6663,7 +6663,7 @@
         "strk": "L2",
         "diff": "-3",
         "div": "0-2",
-        "seed": "14"
+        "seed": "13"
        }
       ]
      }
@@ -6672,9 +6672,9 @@
      {
       "a": "PIT",
       "h": "NO",
-      "st": "2:00 - 4th",
+      "st": "Final",
       "div": false,
-      "stake": "PIT 4-2: 2nd AFC North, AFC #6 seed (in playoff spot) · NO 2-4: 3rd NFC South (1.5 GB), NFC #10 seed (outside playoffs)"
+      "stake": "PIT 5-2: 1st AFC North, AFC #3 seed (in playoff spot) · NO 2-5: 3rd NFC South (2 GB), NFC #14 seed (outside playoffs)"
      },
      {
       "a": "SF",
@@ -6688,7 +6688,7 @@
       "h": "TEN",
       "st": "10/25 - 1:00 PM EDT",
       "div": false,
-      "stake": "CLE 4-2: 1st AFC North, AFC #4 seed (in playoff spot) · TEN 1-5: 4th AFC South (3 GB), AFC #14 seed (outside playoffs)"
+      "stake": "CLE 4-2: 2nd AFC North (0.5 GB), AFC #6 seed (in playoff spot) · TEN 1-5: 4th AFC South (3 GB), AFC #14 seed (outside playoffs)"
      },
      {
       "a": "IND",
@@ -6716,7 +6716,7 @@
       "h": "BAL",
       "st": "10/25 - 1:00 PM EDT",
       "div": true,
-      "stake": "CIN 3-2: 4th AFC North (0.5 GB), AFC #8 seed (outside playoffs) · BAL 4-2: 3rd AFC North, AFC #7 seed (in playoff spot)"
+      "stake": "CIN 3-2: 4th AFC North (1 GB), AFC #8 seed (outside playoffs) · BAL 4-2: 3rd AFC North (0.5 GB), AFC #7 seed (in playoff spot)"
      },
      {
       "a": "NYG",
@@ -6730,7 +6730,7 @@
       "h": "ARI",
       "st": "10/25 - 4:05 PM EDT",
       "div": false,
-      "stake": "DEN 4-2: 2nd AFC West (1.5 GB), AFC #5 seed (in playoff spot) · ARI 2-4: 3rd NFC West (4 GB), NFC #13 seed (outside playoffs)"
+      "stake": "DEN 4-2: 2nd AFC West (1.5 GB), AFC #5 seed (in playoff spot) · ARI 2-4: 3rd NFC West (4 GB), NFC #12 seed (outside playoffs)"
      },
      {
       "a": "GB",
@@ -6744,7 +6744,7 @@
       "h": "LV",
       "st": "10/25 - 4:25 PM EDT",
       "div": false,
-      "stake": "LAR 2-4: 4th NFC West (4 GB), NFC #14 seed (outside playoffs) · LV 3-3: 3rd AFC West (2.5 GB), AFC #10 seed (outside playoffs)"
+      "stake": "LAR 2-4: 4th NFC West (4 GB), NFC #13 seed (outside playoffs) · LV 3-3: 3rd AFC West (2.5 GB), AFC #10 seed (outside playoffs)"
      },
      {
       "a": "KC",
@@ -17407,7 +17407,8 @@
    "Cappers: at most one leg each from @alexcaruso, @panpotd, @austinsprops, @showtimepicks2, @bigmikepickz and @habibtings. Never @tonestakes, @doctorprofit or @salbets_.",
    "Ticket: max 5 legs, one per game, at least 2 legs. With no ticket yet (before the first build, or fewer than 2 bought-down legs) the card is a minimal empty card: header, Stake 1u and this Rules dropdown, with no timing text.",
    "Odds and stake: American total of the bought-down legs. Stake 1u. Mixed-sport tickets file under Big 4.",
-   "Grading: nightly, shown under Official as \"The Heist\" on Results and Record. The ticket is L as soon as any leg loses. A void or DNP leg stays Pending until settled by hand (strict)."
+   "Grading: nightly, shown under Official as \"The Heist\" on Results and Record. The ticket is L as soon as any leg loses. A void or DNP leg stays Pending until settled by hand (strict).",
+   "CAPPER SELF-AUDIT. The bot runs automatically, zero LLM, in every capper pull path: the 7 AM pull and every the bot run (7am, 10am, 1230pm, 4pm), after the bot and before build_data/push. It does four things."
   ],
   "allofficial": [
    "Exactly three groups: Official, Edge, and Cappers (capper picks, tracking only). No other group, tier or label exists anywhere on the dashboard.",
@@ -24964,7 +24965,7 @@
     "prop": "@austinsprops · NFL receptions (over)",
     "fam": "Receptions",
     "pick": "Tucker Kraft o4.5 receptions (Week 7 full card)",
-    "odds": "-115",
+    "odds": "-120",
     "res": "",
     "stat": "",
     "alt": false,
@@ -25517,7 +25518,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 12:28",
+    "priced": "2026-10-25 12:35",
     "orig_note": "book price; capper posted no odds",
     "dk": {
      "ladder": [
@@ -25603,7 +25604,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 12:28",
+    "priced": "2026-10-25 12:35",
     "dk": {
      "ladder": [
       [
@@ -25704,7 +25705,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 12:28",
+    "priced": "2026-10-25 12:35",
     "dk": {
      "odds": null,
      "na": true,
