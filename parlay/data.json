@@ -1,5 +1,5 @@
 {
- "generated": 1792926717.8380296,
+ "generated": 1792927378.8050504,
  "today": {
   "title": "Oct 25 picks (Hard Rock)",
   "tickets": [
@@ -5973,7 +5973,7 @@
  "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-25 07:11 AM ET",
+  "updated": "2026-10-25 07:22 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -15558,7 +15558,6 @@
    "No lineup/injury rules: The Heist is strictly the cappers' plays converted down. Lineup and injury rules do not apply to it: no injury, inactive, matchup or lineup swaps on Heist legs, and \"Questionable = out\", Swaps, projected lineups, projected starters and replacements do not apply. A leg whose player does not play is settled under Grading below (void or DNP stays Pending until settled by hand).",
    "Exempt from the official standards: no 4% Pinnacle edge, no 2-leg cap and no -130..-250 leg range. Everything else still applies: real Hard Rock prices only, never invent a price, locks, grading.",
    "Cappers: at most one leg each from @alexcaruso, @panpotd, @austinsprops, @showtimepicks2, @bigmikepickz and @habibtings. Never @tonestakes, @doctorprofit or @salbets_.",
-   "Leg source: the capper's labeled top play (POTD / top play) that day, otherwise their first straight pick. Capper parlays, anytime TD, pick'em and picks with no odds are skipped. If the labeled top play has no alt rung, that capper is skipped (strict: no fallback to another pick).",
    "Ticket: max 5 legs, one per game, at least 2 legs. With no ticket yet (before the first build, or fewer than 2 bought-down legs) the card is a minimal empty card: header, Stake 1u and this Rules dropdown, with no timing text.",
    "Odds and stake: American total of the bought-down legs. Stake 1u. Mixed-sport tickets file under Big 4.",
    "Grading: nightly, shown under Official as \"The Heist\" on Results and Record. The ticket is L as soon as any leg loses. A void or DNP leg stays Pending until settled by hand (strict).",
@@ -22584,7 +22583,23 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 07:12"
+    "priced": "2026-10-25 07:23"
+   },
+   {
+    "capper": "@austinsprops",
+    "sport": "NFL",
+    "orig": "Woody Marks o13.5 longest rush",
+    "orig_odds": -110,
+    "pick": "Woody Marks o13.5 longest rush",
+    "odds": -110,
+    "src": "Capper original line",
+    "game": "Texans vs Giants; NFL Play of the Week",
+    "gkey": "NFL:401873016",
+    "start": "2026-10-25 13:00",
+    "locked": false,
+    "res": "",
+    "stat": "",
+    "priced": "2026-10-25 07:23"
    }
   ],
   "skipped": [
@@ -22592,11 +22607,6 @@
     "capper": "@alexcaruso",
     "why": "no picks today",
     "pick": ""
-   },
-   {
-    "capper": "@austinsprops",
-    "why": "no real Hard Rock buy-down rung",
-    "pick": "Woody Marks o13.5 longest rush (Texans vs Giants; NFL Play of the Week)"
    },
    {
     "capper": "@showtimepicks2",
@@ -22614,10 +22624,10 @@
     "pick": ""
    }
   ],
-  "status": "thin",
-  "msg": "Not enough bought-down legs yet",
-  "odds": null,
-  "orig": null,
+  "status": "live",
+  "msg": "",
+  "odds": 145,
+  "orig": 258,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
