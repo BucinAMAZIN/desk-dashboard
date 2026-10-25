@@ -1,5 +1,5 @@
 {
- "generated": 1792937524.8661284,
+ "generated": 1792939118.35569,
  "today": {
   "title": "Oct 25 picks (Hard Rock)",
   "tickets": [
@@ -6122,7 +6122,7 @@
  "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-25 10:12 AM ET",
+  "updated": "2026-10-25 10:38 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6651,7 +6651,7 @@
      {
       "a": "PIT",
       "h": "NO",
-      "st": "12:42 - 2nd",
+      "st": "3:36 - 2nd",
       "div": false,
       "stake": "PIT 4-2: 2nd AFC North, AFC #6 seed (in playoff spot) · NO 2-4: 3rd NFC South (1.5 GB), NFC #10 seed (outside playoffs)"
      },
@@ -12385,7 +12385,118 @@
     "dk_odds": "+182"
    }
   },
-  "notes": {}
+  "notes": {},
+  "extra": [
+   {
+    "sport": "TODAY",
+    "odds": "+114",
+    "posted": "10:38 AM ET",
+    "edge_tier": "4%",
+    "extra": true,
+    "rec_tag": "(Edge 4%+)",
+    "locked": true,
+    "closest": false,
+    "label": null,
+    "sgp": false,
+    "price_note": null,
+    "legs": [
+     {
+      "pick": "Chase Brown 9+ Rush Attempts",
+      "game": "Ravens vs Bengals 10/25 01:00 PM ET",
+      "odds": "-240",
+      "grade": "B",
+      "reason": "Edge +8.7% vs Pinnacle no-vig fair -330 (derived from Pinnacle 11.5 (no-vig over 46%), DERIVED). Hit in 10 of last 10 (L10 avg 14.3).",
+      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it.",
+      "edge": "+8.7%",
+      "fair": "-330",
+      "edge_src": "derived",
+      "derived": true,
+      "sport": "NFL",
+      "dk": {
+       "ladder": [
+        [
+         "6+",
+         "-3100"
+        ],
+        [
+         "8+",
+         "-620"
+        ],
+        [
+         "10+",
+         "-225"
+        ],
+        [
+         "12+",
+         "+103"
+        ],
+        [
+         "14+",
+         "+226"
+        ],
+        [
+         "16+",
+         "+494"
+        ],
+        [
+         "18+",
+         "+1080"
+        ]
+       ],
+       "odds": "-225",
+       "pick": "Chase Brown 10+ Rush Attempts",
+       "moved": true,
+       "na": false
+      }
+     },
+     {
+      "pick": "Cole Perfetti 2+ Shots On Goal",
+      "game": "Jets vs. Canadiens 10/25 07:00 PM ET",
+      "odds": "-195",
+      "grade": "B",
+      "reason": "Edge +4.8% vs Pinnacle no-vig fair -225 (derived from Pinnacle 2.5 (no-vig over 45%), DERIVED). Hit in 9 of last 10 (L10 avg 2.8).",
+      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 3; one bad break loses it.",
+      "edge": "+4.8%",
+      "fair": "-225",
+      "edge_src": "derived",
+      "derived": true,
+      "sport": "NHL",
+      "dk": {
+       "ladder": [
+        [
+         "1+",
+         "-1000"
+        ],
+        [
+         "2+",
+         "-210"
+        ],
+        [
+         "3+",
+         "+140"
+        ],
+        [
+         "4+",
+         "+340"
+        ],
+        [
+         "5+",
+         "+800"
+        ],
+        [
+         "6+",
+         "+1900"
+        ]
+       ],
+       "odds": "-210",
+       "pick": "Cole Perfetti 2+ Shots On Goal",
+       "na": false
+      }
+     }
+    ],
+    "dk_odds": "+113"
+   }
+  ]
  },
  "edge": {
   "date": "2026-10-25",
@@ -12408,7 +12519,7 @@
     "grade_why": "Edge +11.2% vs Pinnacle; game line, so the grade rests on price.",
     "big4": true,
     "big4_only": null,
-    "now": "+400",
+    "now": "+425",
     "dk": {
      "odds": "+366",
      "na": false,
@@ -17243,7 +17354,7 @@
    "Lock: locks on build. Re-runs never change a locked ticket.",
    "Re-post: a lost ticket closes to Record and #n+1 builds from UNSTARTED same-day games only (kickoff > now+10 min), with the same leg rules. 2+ games are required unless only one unstarted game is left (then same-game is OK). Never the next day's slate.",
    "Record: its own row, shown under Official as \"Safe +100 (Alt Parlay)\" on Results and Record. History restored from archive into Official. Each ticket counts once: a Safe +100 the user also placed is counted here only, at our posted price.",
-   "One per bubble: every sport tab has exactly one Safe +100 (alt) ticket, and the Today tab (Big 4) has exactly ONE Safe +100 ticket of its own, never a stack of every sport's ticket. Sport tabs show only their own ticket.",
+   "One per bubble: every sport tab has exactly one Safe +100 (alt) ticket, and the Today tab (Big 4) has exactly ONE Safe +100 ticket of its own, never a stack of every sport's ticket. EXCEPTION: a bubble may show two, one 4% edge version and one 2% edge version (EDGE FLOOR above), never more. Sport tabs show only their own ticket.",
    "Today ticket: built from the Big 4 slate (NFL, NBA, NHL, MLB), unstarted games only, with the same leg rules as a sport ticket. It shows in both the Big 4 and All sports views, has its own record row filed under Big 4, and locks and re-posts like a sport ticket."
   ],
   "edge": [
@@ -22127,6 +22238,54 @@
     "sub": ""
    },
    {
+    "date": "2026-10-25",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "prop": "Safe +100",
+    "fam": "Parlay",
+    "pick": "Safe +100 2-leg (Edge 4%+)",
+    "odds": "+114",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt (Edge 4%+) Chase Brown 9+ Rush Attempts",
+    "pick": "Chase Brown 9+ Rush Attempts",
+    "odds": "-240",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Rush attempts",
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt (Edge 4%+) Cole Perfetti 2+ Shots On Goal",
+    "pick": "Cole Perfetti 2+ Shots On Goal",
+    "odds": "-195",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Other",
+    "img": null,
+    "sub": ""
+   },
+   {
     "date": "2026-10-18",
     "sport": "NFL",
     "grp": "O",
@@ -25138,14 +25297,14 @@
      "w": 16,
      "l": 35,
      "p": 1,
-     "pending": 20,
+     "pending": 21,
      "units": -19
     },
     "legs": {
      "w": 27,
      "l": 22,
      "p": 0,
-     "pending": 17,
+     "pending": 19,
      "units": 5
     }
    },
@@ -25327,7 +25486,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 10:12",
+    "priced": "2026-10-25 10:38",
     "dk": {
      "ladder": [
       [
@@ -25428,7 +25587,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 10:12",
+    "priced": "2026-10-25 10:38",
     "dk": {
      "odds": null,
      "na": true,
@@ -25505,8 +25664,8 @@
   "fetched": "2026-10-25 10:11 ET",
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 39,
-   "priced": 32,
+   "legs": 41,
+   "priced": 34,
    "na": [
     "HEIST Woody Marks o13.5 longest rush",
     "Edge Q1 Over 10.5",
