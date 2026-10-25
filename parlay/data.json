@@ -1,5 +1,5 @@
 {
- "generated": 1792896537.8091192,
+ "generated": 1792906764.9100993,
  "today": {
   "title": "Oct 24 picks (Hard Rock)",
   "tickets": [
@@ -38,7 +38,7 @@
      "pick": "Anthony Cirelli under 1.5 SOG",
      "odds": "-120",
      "game": "TB @ UTA 9:00 PM ET",
-     "status": "Pending",
+     "status": "Lost",
      "why": "NHL. Same play as the official POTD. Hard Rock -120 vs Pinnacle fair -139 (+6.78% edge). Under in 7 of his last 10 on 17.0 min TOI; LineMate agrees 5 of 6. Graded A.",
      "desc": "Anthony Cirelli under 1.5 SOG -120 (TB @ UTA 9:00 PM ET)",
      "why_not": "Hedman is day-to-day (power-play shifts)."
@@ -1189,6 +1189,15 @@
   ],
   "sport_picks": [
    {
+    "date": "2026-10-24",
+    "sport": "NHL",
+    "type": "POTD",
+    "pick": "Anthony Cirelli under 1.5 SOG",
+    "odds": "-120",
+    "result": "L",
+    "stat": "2 SOG"
+   },
+   {
     "date": "2026-10-20",
     "sport": "NCAA F",
     "type": "Runner-up",
@@ -1718,31 +1727,22 @@
     "odds": "+100",
     "result": "W",
     "stat": "11 P+R"
-   },
-   {
-    "date": "2026-10-19",
-    "sport": "WNBA",
-    "type": "Runner-up",
-    "pick": "(Quality) Tiffany Hayes u1.5 3PM",
-    "odds": "-250",
-    "result": "W",
-    "stat": "0 3PM"
    }
   ]
  },
  "record": {
   "overall": {
    "official": {
-    "w": 117,
-    "l": 172,
+    "w": 119,
+    "l": 179,
     "p": 2,
     "pct": 40
    },
    "potd": {
     "w": 8,
-    "l": 11,
+    "l": 12,
     "p": 1,
-    "pct": 42
+    "pct": 40
    },
    "legs": {
     "w": 36,
@@ -1756,15 +1756,15 @@
     "p": 0,
     "pct": 32
    },
-   "pending": 9
+   "pending": 0
   },
   "props": [
    {
     "prop": "NHL SOG",
-    "w": 42,
+    "w": 43,
     "l": 33,
     "p": 0,
-    "pct": 56
+    "pct": 57
    },
    {
     "prop": "NHL assists",
@@ -1776,16 +1776,16 @@
    {
     "prop": "NHL points",
     "w": 12,
-    "l": 19,
+    "l": 22,
     "p": 0,
-    "pct": 39
+    "pct": 35
    },
    {
     "prop": "NHL goals",
     "w": 7,
-    "l": 12,
+    "l": 14,
     "p": 0,
-    "pct": 37
+    "pct": 33
    },
    {
     "prop": "NFL anytime TD",
@@ -1821,6 +1821,13 @@
     "l": 4,
     "p": 0,
     "pct": 0
+   },
+   {
+    "prop": "NHL saves",
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "pct": 50
    },
    {
     "prop": "NCAAF spread",
@@ -1863,13 +1870,6 @@
     "l": 3,
     "p": 0,
     "pct": 0
-   },
-   {
-    "prop": "NHL saves",
-    "w": 1,
-    "l": 2,
-    "p": 0,
-    "pct": 33
    },
    {
     "prop": "NHL game total",
@@ -2166,6 +2166,13 @@
     "pct": 100
    },
    {
+    "prop": "NHL SOG under",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
+   },
+   {
     "prop": "NFL ML",
     "w": 0,
     "l": 1,
@@ -2241,6 +2248,13 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "prop": "NBA ML",
+    "w": 0,
+    "l": 1,
+    "p": 0,
+    "pct": 0
    }
   ],
   "potd": [
@@ -2248,57 +2262,57 @@
     "date": "2026-10-24",
     "pick": "NHL · Edge: Jesper Wallstedt Over 22.5 Saves",
     "odds": "-105",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (23 saves)"
    },
    {
     "date": "2026-10-24",
     "pick": "NHL · Edge: Emmitt Finnie Over 0.5 Goals",
     "odds": "+325",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (0 G)"
    },
    {
     "date": "2026-10-24",
     "pick": "NHL · Edge: Ryan Hartman Under 1.5 Shots On Goal",
     "odds": "+120",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (1 SOG)"
    },
    {
     "date": "2026-10-24",
     "pick": "NHL · Edge: Vince Dunn Over 0.5 Points",
     "odds": "+120",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (0 PTS)"
    },
    {
     "date": "2026-10-24",
     "pick": "NBA · Edge: Pelicans ML",
     "odds": "+400",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (NO 135-141 DEN)"
    },
    {
     "date": "2026-10-24",
     "pick": "NHL · Edge: Jordan Eberle Over 0.5 Goals",
     "odds": "+300",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (0 G)"
    },
    {
     "date": "2026-10-24",
     "pick": "NHL · Edge: Joel Eriksson Ek Under 0.5 Points",
     "odds": "+145",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (2 PTS)"
    },
    {
     "date": "2026-10-24",
     "pick": "NHL · Edge: Michael Brandsegg-Nygård Over 0.5 Points",
     "odds": "+155",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (0 PTS)"
    },
    {
     "date": "2026-10-20",
@@ -3578,8 +3592,8 @@
     "date": "2026-10-24",
     "pick": "NHL · POTD: Anthony Cirelli under 1.5 SOG",
     "odds": "-120",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "2 SOG"
    },
    {
     "date": "2026-10-20",
@@ -5508,6 +5522,42 @@
    [
     "10/20",
     -55
+   ],
+   [
+    "10/24",
+    -56
+   ],
+   [
+    "10/24",
+    -57
+   ],
+   [
+    "10/24",
+    -58
+   ],
+   [
+    "10/24",
+    -59
+   ],
+   [
+    "10/24",
+    -60
+   ],
+   [
+    "10/24",
+    -61
+   ],
+   [
+    "10/24",
+    -60
+   ],
+   [
+    "10/24",
+    -61
+   ],
+   [
+    "10/24",
+    -60
    ]
   ]
  },
@@ -5863,10 +5913,10 @@
   "@panpotd: \"Flex Friday Slip\" post was link-only with no legs in text or image; not logged.",
   "@bigmikepickz: No posts in the Oct 16 ET window."
  ],
- "capper_today_date": "2026-10-24",
+ "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-24 10:48 PM ET",
+  "updated": "2026-10-25 01:39 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6391,7 +6441,92 @@
       ]
      }
     ],
-    "games": []
+    "games": [
+     {
+      "a": "PIT",
+      "h": "NO",
+      "st": "10/25 - 9:30 AM EDT",
+      "div": false,
+      "stake": "PIT 4-2: 2nd AFC North, AFC #6 seed (in playoff spot) · NO 2-4: 3rd NFC South (1.5 GB), NFC #10 seed (outside playoffs)"
+     },
+     {
+      "a": "SF",
+      "h": "ATL",
+      "st": "10/25 - 1:00 PM EDT",
+      "div": false,
+      "stake": "SF 6-0: 1st NFC West, NFC #1 seed (in playoff spot) · ATL 2-4: 2nd NFC South (1.5 GB), NFC #9 seed (outside playoffs)"
+     },
+     {
+      "a": "CLE",
+      "h": "TEN",
+      "st": "10/25 - 1:00 PM EDT",
+      "div": false,
+      "stake": "CLE 4-2: 1st AFC North, AFC #4 seed (in playoff spot) · TEN 1-5: 4th AFC South (3 GB), AFC #14 seed (outside playoffs)"
+     },
+     {
+      "a": "IND",
+      "h": "MIN",
+      "st": "10/25 - 1:00 PM EDT",
+      "div": false,
+      "stake": "IND 2-4: 2nd AFC South (2 GB), AFC #12 seed (outside playoffs) · MIN 5-0: 1st NFC North, NFC #2 seed (in playoff spot)"
+     },
+     {
+      "a": "MIA",
+      "h": "NYJ",
+      "st": "10/25 - 1:00 PM EDT",
+      "div": true,
+      "stake": "MIA 0-5: 4th AFC East (4.5 GB), AFC #15 seed (outside playoffs) · NYJ 2-4: 3rd AFC East (3 GB), AFC #11 seed (outside playoffs)"
+     },
+     {
+      "a": "TB",
+      "h": "CAR",
+      "st": "10/25 - 1:00 PM EDT",
+      "div": true,
+      "stake": "TB 1-5: 4th NFC South (2.5 GB), NFC #16 seed (outside playoffs) · CAR 3-2: 1st NFC South, NFC #3 seed (in playoff spot)"
+     },
+     {
+      "a": "CIN",
+      "h": "BAL",
+      "st": "10/25 - 1:00 PM EDT",
+      "div": true,
+      "stake": "CIN 3-2: 4th AFC North (0.5 GB), AFC #8 seed (outside playoffs) · BAL 4-2: 3rd AFC North, AFC #7 seed (in playoff spot)"
+     },
+     {
+      "a": "NYG",
+      "h": "HOU",
+      "st": "10/25 - 1:00 PM EDT",
+      "div": false,
+      "stake": "NYG 3-2-1: 1st NFC East, NFC #4 seed (in playoff spot) · HOU 2-4: 3rd AFC South (2 GB), AFC #13 seed (outside playoffs)"
+     },
+     {
+      "a": "DEN",
+      "h": "ARI",
+      "st": "10/25 - 4:05 PM EDT",
+      "div": false,
+      "stake": "DEN 4-2: 2nd AFC West (1.5 GB), AFC #5 seed (in playoff spot) · ARI 2-4: 3rd NFC West (4 GB), NFC #13 seed (outside playoffs)"
+     },
+     {
+      "a": "GB",
+      "h": "DET",
+      "st": "10/25 - 4:25 PM EDT",
+      "div": true,
+      "stake": "GB 4-2: 3rd NFC North (1.5 GB), NFC #6 seed (in playoff spot) · DET 3-2: 4th NFC North (2 GB), NFC #7 seed (in playoff spot)"
+     },
+     {
+      "a": "LAR",
+      "h": "LV",
+      "st": "10/25 - 4:25 PM EDT",
+      "div": false,
+      "stake": "LAR 2-4: 4th NFC West (4 GB), NFC #14 seed (outside playoffs) · LV 3-3: 3rd AFC West (2.5 GB), AFC #10 seed (outside playoffs)"
+     },
+     {
+      "a": "KC",
+      "h": "SEA",
+      "st": "10/25 - 8:20 PM EDT",
+      "div": false,
+      "stake": "KC 5-0: 1st AFC West, AFC #1 seed (in playoff spot) · SEA 3-3: 2nd NFC West (3 GB), NFC #8 seed (outside playoffs)"
+     }
+    ]
    },
    "NBA": {
     "groups": [
@@ -6426,7 +6561,7 @@
         "strk": "W2",
         "diff": "+53",
         "div": "0-0",
-        "seed": "4"
+        "seed": "3"
        },
        {
         "t": "Boston Celtics",
@@ -6491,22 +6626,7 @@
         "strk": "W2",
         "diff": "+25",
         "div": "0-0",
-        "seed": "3"
-       },
-       {
-        "t": "Cleveland Cavaliers",
-        "ab": "CLE",
-        "rec": "",
-        "pct": ".500",
-        "gb": "1",
-        "pts": null,
-        "home": "1-0",
-        "road": "0-1",
-        "l10": "1-1",
-        "strk": "W1",
-        "diff": "-4",
-        "div": "0-0",
-        "seed": "7"
+        "seed": "2"
        },
        {
         "t": "Indiana Pacers",
@@ -6521,7 +6641,22 @@
         "strk": "L1",
         "diff": "-13",
         "div": "0-0",
-        "seed": "7"
+        "seed": "8"
+       },
+       {
+        "t": "Cleveland Cavaliers",
+        "ab": "CLE",
+        "rec": "",
+        "pct": ".500",
+        "gb": "1",
+        "pts": null,
+        "home": "1-0",
+        "road": "0-1",
+        "l10": "1-1",
+        "strk": "W1",
+        "diff": "-4",
+        "div": "0-0",
+        "seed": "9"
        },
        {
         "t": "Chicago Bulls",
@@ -6562,23 +6697,23 @@
         "t": "Atlanta Hawks",
         "ab": "ATL",
         "rec": "",
-        "pct": "1.000",
+        "pct": ".667",
         "gb": "-",
         "pts": null,
-        "home": "0-0",
+        "home": "0-1",
         "road": "2-0",
-        "l10": "2-0",
-        "strk": "W2",
-        "diff": "+54",
+        "l10": "2-1",
+        "strk": "L1",
+        "diff": "+47",
         "div": "2-0",
-        "seed": "2"
+        "seed": "4"
        },
        {
         "t": "Charlotte Hornets",
         "ab": "CHA",
         "rec": "",
         "pct": ".667",
-        "gb": "0.5",
+        "gb": "-",
         "pts": null,
         "home": "1-1",
         "road": "1-0",
@@ -6593,7 +6728,7 @@
         "ab": "WSH",
         "rec": "",
         "pct": ".667",
-        "gb": "0.5",
+        "gb": "-",
         "pts": null,
         "home": "1-1",
         "road": "1-0",
@@ -6608,7 +6743,7 @@
         "ab": "ORL",
         "rec": "",
         "pct": ".000",
-        "gb": "2",
+        "gb": "1.5",
         "pts": null,
         "home": "0-2",
         "road": "0-0",
@@ -6623,7 +6758,7 @@
         "ab": "MIA",
         "rec": "",
         "pct": ".000",
-        "gb": "2.5",
+        "gb": "2",
         "pts": null,
         "home": "0-2",
         "road": "0-1",
@@ -6651,7 +6786,7 @@
         "strk": "W2",
         "diff": "+47",
         "div": "0-0",
-        "seed": "1"
+        "seed": "2"
        },
        {
         "t": "Portland Trail Blazers",
@@ -6666,7 +6801,7 @@
         "strk": "W2",
         "diff": "+49",
         "div": "0-0",
-        "seed": "2"
+        "seed": "3"
        },
        {
         "t": "Oklahoma City Thunder",
@@ -6681,7 +6816,22 @@
         "strk": "W2",
         "diff": "+24",
         "div": "1-0",
-        "seed": "4"
+        "seed": "5"
+       },
+       {
+        "t": "Denver Nuggets",
+        "ab": "DEN",
+        "rec": "",
+        "pct": ".500",
+        "gb": "1",
+        "pts": null,
+        "home": "1-0",
+        "road": "0-1",
+        "l10": "1-1",
+        "strk": "W1",
+        "diff": "-6",
+        "div": "0-1",
+        "seed": "8"
        },
        {
         "t": "Utah Jazz",
@@ -6696,22 +6846,7 @@
         "strk": "W1",
         "diff": "-19",
         "div": "0-0",
-        "seed": "8"
-       },
-       {
-        "t": "Denver Nuggets",
-        "ab": "DEN",
-        "rec": "",
-        "pct": ".000",
-        "gb": "1.5",
-        "pts": null,
-        "home": "0-0",
-        "road": "0-1",
-        "l10": "0-1",
-        "strk": "L1",
-        "diff": "-12",
-        "div": "0-1",
-        "seed": "11"
+        "seed": "9"
        }
       ]
      },
@@ -6731,7 +6866,7 @@
         "strk": "W2",
         "diff": "+30",
         "div": "2-0",
-        "seed": "3"
+        "seed": "4"
        },
        {
         "t": "LA Clippers",
@@ -6752,31 +6887,16 @@
         "t": "Phoenix Suns",
         "ab": "PHX",
         "rec": "",
-        "pct": ".000",
-        "gb": "1.5",
+        "pct": ".500",
+        "gb": "1",
         "pts": null,
-        "home": "0-0",
+        "home": "1-0",
         "road": "0-1",
-        "l10": "0-1",
-        "strk": "L1",
-        "diff": "-41",
-        "div": "0-0",
-        "seed": "12"
-       },
-       {
-        "t": "Golden State Warriors",
-        "ab": "GS",
-        "rec": "",
-        "pct": ".000",
-        "gb": "2",
-        "pts": null,
-        "home": "0-1",
-        "road": "0-1",
-        "l10": "0-2",
-        "strk": "L2",
-        "diff": "-25",
-        "div": "0-1",
-        "seed": "14"
+        "l10": "1-1",
+        "strk": "W1",
+        "diff": "-32",
+        "div": "1-0",
+        "seed": "10"
        },
        {
         "t": "Sacramento Kings",
@@ -6791,6 +6911,21 @@
         "strk": "L2",
         "diff": "-33",
         "div": "0-1",
+        "seed": "13"
+       },
+       {
+        "t": "Golden State Warriors",
+        "ab": "GS",
+        "rec": "",
+        "pct": ".000",
+        "gb": "2.5",
+        "pts": null,
+        "home": "0-1",
+        "road": "0-2",
+        "l10": "0-3",
+        "strk": "L3",
+        "diff": "-34",
+        "div": "0-2",
         "seed": "15"
        }
       ]
@@ -6799,21 +6934,6 @@
       "name": "Southwest",
       "rows": [
        {
-        "t": "Memphis Grizzlies",
-        "ab": "MEM",
-        "rec": "",
-        "pct": "1.000",
-        "gb": "-",
-        "pts": null,
-        "home": "1-0",
-        "road": "1-0",
-        "l10": "2-0",
-        "strk": "W2",
-        "diff": "+23",
-        "div": "0-0",
-        "seed": "5"
-       },
-       {
         "t": "Houston Rockets",
         "ab": "HOU",
         "rec": "",
@@ -6821,11 +6941,26 @@
         "gb": "-",
         "pts": null,
         "home": "1-0",
+        "road": "2-0",
+        "l10": "3-0",
+        "strk": "W3",
+        "diff": "+29",
+        "div": "2-0",
+        "seed": "1"
+       },
+       {
+        "t": "Memphis Grizzlies",
+        "ab": "MEM",
+        "rec": "",
+        "pct": "1.000",
+        "gb": "0.5",
+        "pts": null,
+        "home": "1-0",
         "road": "1-0",
         "l10": "2-0",
         "strk": "W2",
-        "diff": "+22",
-        "div": "2-0",
+        "diff": "+23",
+        "div": "0-0",
         "seed": "6"
        },
        {
@@ -6833,7 +6968,7 @@
         "ab": "SA",
         "rec": "",
         "pct": ".333",
-        "gb": "1.5",
+        "gb": "2",
         "pts": null,
         "home": "0-2",
         "road": "1-0",
@@ -6841,14 +6976,14 @@
         "strk": "W1",
         "diff": "0",
         "div": "1-1",
-        "seed": "9"
+        "seed": "11"
        },
        {
         "t": "Dallas Mavericks",
         "ab": "DAL",
         "rec": "",
         "pct": ".333",
-        "gb": "1.5",
+        "gb": "2",
         "pts": null,
         "home": "0-1",
         "road": "1-1",
@@ -6856,82 +6991,75 @@
         "strk": "L1",
         "diff": "-18",
         "div": "0-2",
-        "seed": "10"
+        "seed": "12"
        },
        {
         "t": "New Orleans Pelicans",
         "ab": "NO",
         "rec": "",
         "pct": ".000",
-        "gb": "2",
+        "gb": "3",
         "pts": null,
         "home": "0-1",
-        "road": "0-1",
-        "l10": "0-2",
-        "strk": "L2",
-        "diff": "-4",
+        "road": "0-2",
+        "l10": "0-3",
+        "strk": "L3",
+        "diff": "-10",
         "div": "0-0",
-        "seed": "13"
+        "seed": "14"
        }
       ]
      }
     ],
     "games": [
      {
-      "a": "MIA",
-      "h": "CHA",
-      "st": "Final",
-      "div": true,
-      "stake": "MIA : 5th Southeast (2.5 GB), East #15 seed (outside playoffs) · CHA : 2nd Southeast (0.5 GB), East #5 seed (in playoff spot)"
-     },
-     {
-      "a": "BKN",
-      "h": "CLE",
-      "st": "Final",
+      "a": "LAL",
+      "h": "UTAH",
+      "st": "10/25 - 5:00 PM EDT",
       "div": false,
-      "stake": "BKN : 5th Atlantic (2.5 GB), East #12 seed (outside playoffs) · CLE : 2nd Central (1 GB), East #7 seed (in playoff spot)"
+      "stake": "LAL : 1st Pacific, West #4 seed (in playoff spot) · UTAH : 5th Northwest (1 GB), West #9 seed (in playoff spot)"
      },
      {
-      "a": "MIL",
+      "a": "IND",
+      "h": "BKN",
+      "st": "10/25 - 6:00 PM EDT",
+      "div": false,
+      "stake": "IND : 2nd Central (1 GB), East #8 seed (in playoff spot) · BKN : 5th Atlantic (2.5 GB), East #12 seed (outside playoffs)"
+     },
+     {
+      "a": "ORL",
+      "h": "NY",
+      "st": "10/25 - 7:00 PM EDT",
+      "div": false,
+      "stake": "ORL : 4th Southeast (1.5 GB), East #13 seed (outside playoffs) · NY : 4th Atlantic (2.5 GB), East #11 seed (outside playoffs)"
+     },
+     {
+      "a": "TOR",
+      "h": "MIN",
+      "st": "10/25 - 7:00 PM EDT",
+      "div": false,
+      "stake": "TOR : 2nd Atlantic (0.5 GB), East #3 seed (in playoff spot) · MIN : 1st Northwest, West #2 seed (in playoff spot)"
+     },
+     {
+      "a": "LAC",
+      "h": "OKC",
+      "st": "10/25 - 7:00 PM EDT",
+      "div": false,
+      "stake": "LAC : 2nd Pacific (1 GB), West #7 seed (in playoff spot) · OKC : 3rd Northwest, West #5 seed (in playoff spot)"
+     },
+     {
+      "a": "DET",
       "h": "PHI",
-      "st": "Final",
+      "st": "10/25 - 7:30 PM EDT",
       "div": false,
-      "stake": "MIL : 5th Central (2.5 GB), East #14 seed (outside playoffs) · PHI : 1st Atlantic, East #1 seed (in playoff spot)"
+      "stake": "DET : 1st Central, East #2 seed (in playoff spot) · PHI : 1st Atlantic, East #1 seed (in playoff spot)"
      },
      {
-      "a": "WSH",
-      "h": "CHI",
-      "st": "Final",
+      "a": "MEM",
+      "h": "SAC",
+      "st": "10/25 - 9:00 PM EDT",
       "div": false,
-      "stake": "WSH : 3rd Southeast (0.5 GB), East #6 seed (in playoff spot) · CHI : 4th Central (1.5 GB), East #10 seed (in playoff spot)"
-     },
-     {
-      "a": "SA",
-      "h": "DAL",
-      "st": "Final",
-      "div": true,
-      "stake": "SA : 3rd Southwest (1.5 GB), West #9 seed (in playoff spot) · DAL : 4th Southwest (1.5 GB), West #10 seed (in playoff spot)"
-     },
-     {
-      "a": "HOU",
-      "h": "ATL",
-      "st": "3:29 - 4th",
-      "div": false,
-      "stake": "HOU : 2nd Southwest, West #6 seed (in playoff spot) · ATL : 1st Southeast, East #2 seed (in playoff spot)"
-     },
-     {
-      "a": "NO",
-      "h": "DEN",
-      "st": "2:06 - 3rd",
-      "div": false,
-      "stake": "NO : 5th Southwest (2 GB), West #13 seed (outside playoffs) · DEN : 5th Northwest (1.5 GB), West #11 seed (outside playoffs)"
-     },
-     {
-      "a": "GS",
-      "h": "PHX",
-      "st": "9:10 - 2nd",
-      "div": true,
-      "stake": "GS : 4th Pacific (2 GB), West #14 seed (outside playoffs) · PHX : 3rd Pacific (1.5 GB), West #12 seed (outside playoffs)"
+      "stake": "MEM : 2nd Southwest (0.5 GB), West #6 seed (in playoff spot) · SAC : 4th Pacific (2 GB), West #13 seed (outside playoffs)"
      }
     ]
    },
@@ -6988,17 +7116,17 @@
        {
         "t": "Tampa Bay Lightning",
         "ab": "TB",
-        "rec": "7-3-0",
+        "rec": "7-3-1",
         "pct": null,
-        "gb": "5",
-        "pts": "14",
+        "gb": "4",
+        "pts": "15",
         "home": "5-0-0",
-        "road": "2-3-0",
-        "l10": "7-3-0",
-        "strk": "L1",
-        "diff": "+5",
+        "road": "2-3-1",
+        "l10": "7-2-1",
+        "strk": "L2",
+        "diff": "+4",
         "div": "0-0-0",
-        "seed": "6"
+        "seed": "5"
        },
        {
         "t": "Montreal Canadiens",
@@ -7033,15 +7161,15 @@
        {
         "t": "Detroit Red Wings",
         "ab": "DET",
-        "rec": "4-3-3",
+        "rec": "4-4-3",
         "pct": null,
         "gb": "8",
         "pts": "11",
         "home": "3-3-1",
-        "road": "1-0-2",
+        "road": "1-1-2",
         "l10": "4-3-3",
-        "strk": "W1",
-        "diff": "-2",
+        "strk": "L1",
+        "diff": "-5",
         "div": "1-0-1",
         "seed": "12"
        },
@@ -7093,7 +7221,7 @@
         "strk": "L2",
         "diff": "+5",
         "div": "1-2-1",
-        "seed": "5"
+        "seed": "6"
        },
        {
         "t": "New Jersey Devils",
@@ -7193,39 +7321,39 @@
        {
         "t": "Utah Mammoth",
         "ab": "UTA",
-        "rec": "7-4-0",
+        "rec": "8-4-0",
         "pct": null,
         "gb": "-",
-        "pts": "14",
-        "home": "3-1-0",
+        "pts": "16",
+        "home": "4-1-0",
         "road": "4-3-0",
         "l10": "6-4-0",
-        "strk": "L1",
-        "diff": "+5",
+        "strk": "W1",
+        "diff": "+6",
         "div": "1-0-0",
-        "seed": "4"
+        "seed": "3"
        },
        {
         "t": "Minnesota Wild",
         "ab": "MIN",
-        "rec": "6-3-2",
+        "rec": "7-3-2",
         "pct": null,
         "gb": "-",
-        "pts": "14",
+        "pts": "16",
         "home": "4-0-0",
-        "road": "2-3-2",
+        "road": "3-3-2",
         "l10": "5-3-2",
-        "strk": "L2",
-        "diff": "+5",
+        "strk": "W1",
+        "diff": "+9",
         "div": "2-1-0",
-        "seed": "5"
+        "seed": "4"
        },
        {
         "t": "Dallas Stars",
         "ab": "DAL",
         "rec": "6-3-1",
         "pct": null,
-        "gb": "1",
+        "gb": "3",
         "pts": "13",
         "home": "3-2-0",
         "road": "3-1-1",
@@ -7240,7 +7368,7 @@
         "ab": "COL",
         "rec": "6-4-1",
         "pct": null,
-        "gb": "1",
+        "gb": "3",
         "pts": "13",
         "home": "4-1-1",
         "road": "2-3-0",
@@ -7255,7 +7383,7 @@
         "ab": "WPG",
         "rec": "4-3-3",
         "pct": null,
-        "gb": "3",
+        "gb": "5",
         "pts": "11",
         "home": "2-2-1",
         "road": "2-1-2",
@@ -7270,7 +7398,7 @@
         "ab": "STL",
         "rec": "5-5-1",
         "pct": null,
-        "gb": "3",
+        "gb": "5",
         "pts": "11",
         "home": "3-1-1",
         "road": "2-4-0",
@@ -7285,7 +7413,7 @@
         "ab": "NSH",
         "rec": "3-3-4",
         "pct": null,
-        "gb": "4",
+        "gb": "6",
         "pts": "10",
         "home": "2-2-1",
         "road": "1-1-3",
@@ -7300,7 +7428,7 @@
         "ab": "CHI",
         "rec": "3-7-0",
         "pct": null,
-        "gb": "8",
+        "gb": "10",
         "pts": "6",
         "home": "3-3-0",
         "road": "0-4-0",
@@ -7348,17 +7476,17 @@
        {
         "t": "Seattle Kraken",
         "ab": "SEA",
-        "rec": "7-3-1",
+        "rec": "7-4-1",
         "pct": null,
         "gb": "2",
         "pts": "15",
-        "home": "3-1-0",
+        "home": "3-2-0",
         "road": "4-2-1",
         "l10": "6-3-1",
-        "strk": "W2",
-        "diff": "+7",
+        "strk": "L1",
+        "diff": "+3",
         "div": "2-2-0",
-        "seed": "3"
+        "seed": "5"
        },
        {
         "t": "San Jose Sharks",
@@ -7393,15 +7521,15 @@
        {
         "t": "Calgary Flames",
         "ab": "CGY",
-        "rec": "3-6-0",
+        "rec": "4-6-0",
         "pct": null,
-        "gb": "11",
-        "pts": "6",
-        "home": "2-3-0",
+        "gb": "9",
+        "pts": "8",
+        "home": "3-3-0",
         "road": "1-3-0",
-        "l10": "3-6-0",
-        "strk": "W2",
-        "diff": "-19",
+        "l10": "4-6-0",
+        "strk": "W3",
+        "diff": "-16",
         "div": "1-5-0",
         "seed": "13"
        },
@@ -7440,88 +7568,39 @@
     ],
     "games": [
      {
-      "a": "ANA",
-      "h": "PHI",
-      "st": "Final",
+      "a": "FLA",
+      "h": "CHI",
+      "st": "10/25 - 3:00 PM EDT",
       "div": false,
-      "stake": "ANA 5-6-0: 5th Pacific Division (7 pts back), West #12 seed (outside playoffs) · PHI 3-7-3: 7th Metropolitan Division (11 pts back), East #15 seed (outside playoffs)"
+      "stake": "FLA 5-4-2: 6th Atlantic Division (7 pts back), East #11 seed (outside playoffs) · CHI 3-7-0: 8th Central Division (10 pts back), West #15 seed (outside playoffs)"
      },
      {
-      "a": "LA",
-      "h": "NJ",
-      "st": "Final",
+      "a": "NYI",
+      "h": "DAL",
+      "st": "10/25 - 6:00 PM EDT",
       "div": false,
-      "stake": "LA 2-5-2: 7th Pacific Division (11 pts back), West #14 seed (outside playoffs) · NJ 7-4-0: 3rd Metropolitan Division (6 pts back), East #7 seed (in playoff spot)"
+      "stake": "NYI 5-3-2: 5th Metropolitan Division (8 pts back), East #9 seed (outside playoffs) · DAL 6-3-1: 3rd Central Division (3 pts back), West #6 seed (in playoff spot)"
      },
      {
-      "a": "SJ",
-      "h": "BOS",
-      "st": "Final",
+      "a": "MTL",
+      "h": "WPG",
+      "st": "10/25 - 7:00 PM EDT",
       "div": false,
-      "stake": "SJ 6-5-1: 4th Pacific Division (4 pts back), West #8 seed (in playoff spot) · BOS 9-2-1: 1st Atlantic Division, East #2 seed (in playoff spot)"
+      "stake": "MTL 5-3-2: 5th Atlantic Division (7 pts back), East #10 seed (outside playoffs) · WPG 4-3-3: 5th Central Division (5 pts back), West #9 seed (outside playoffs)"
      },
      {
-      "a": "NYR",
-      "h": "OTT",
-      "st": "Final",
-      "div": false,
-      "stake": "NYR 7-5-1: 2nd Metropolitan Division (5 pts back), East #5 seed (in playoff spot) · OTT 8-4-0: 2nd Atlantic Division (3 pts back), East #3 seed (in playoff spot)"
-     },
-     {
-      "a": "NSH",
-      "h": "PIT",
-      "st": "Final/OT",
-      "div": false,
-      "stake": "NSH 3-3-4: 7th Central Division (4 pts back), West #11 seed (outside playoffs) · PIT 5-6-1: 6th Metropolitan Division (9 pts back), East #14 seed (outside playoffs)"
-     },
-     {
-      "a": "BUF",
-      "h": "WSH",
-      "st": "Final/OT",
-      "div": false,
-      "stake": "BUF 4-4-3: 8th Atlantic Division (8 pts back), East #13 seed (outside playoffs) · WSH 6-4-0: 4th Metropolitan Division (8 pts back), East #8 seed (in playoff spot)"
-     },
-     {
-      "a": "VGK",
-      "h": "CBJ",
-      "st": "Final/OT",
-      "div": false,
-      "stake": "VGK 8-4-1: 2nd Pacific Division, West #2 seed (in playoff spot) · CBJ 4-5-0: 8th Metropolitan Division (12 pts back), East #16 seed (outside playoffs)"
-     },
-     {
-      "a": "CAR",
-      "h": "STL",
-      "st": "Final",
-      "div": false,
-      "stake": "CAR 9-2-2: 1st Metropolitan Division, East #1 seed (in playoff spot) · STL 5-5-1: 6th Central Division (3 pts back), West #10 seed (outside playoffs)"
-     },
-     {
-      "a": "TOR",
-      "h": "EDM",
-      "st": "Final",
-      "div": false,
-      "stake": "TOR 7-4-2: 3rd Atlantic Division (3 pts back), East #4 seed (in playoff spot) · EDM 8-2-1: 1st Pacific Division, West #1 seed (in playoff spot)"
-     },
-     {
-      "a": "TB",
-      "h": "UTA",
-      "st": "2:00 - 2nd",
-      "div": false,
-      "stake": "TB 7-3-0: 4th Atlantic Division (5 pts back), East #6 seed (in playoff spot) · UTA 7-4-0: 1st Central Division, West #4 seed (in playoff spot)"
-     },
-     {
-      "a": "DET",
-      "h": "CGY",
-      "st": "End of 1st",
-      "div": false,
-      "stake": "DET 4-3-3: 7th Atlantic Division (8 pts back), East #12 seed (outside playoffs) · CGY 3-6-0: 6th Pacific Division (11 pts back), West #13 seed (outside playoffs)"
+      "a": "COL",
+      "h": "NSH",
+      "st": "10/25 - 8:00 PM EDT",
+      "div": true,
+      "stake": "COL 6-4-1: 4th Central Division (3 pts back), West #7 seed (in playoff spot) · NSH 3-3-4: 7th Central Division (6 pts back), West #11 seed (outside playoffs)"
      },
      {
       "a": "MIN",
-      "h": "SEA",
-      "st": "End of 1st",
+      "h": "VAN",
+      "st": "10/25 - 10:00 PM EDT",
       "div": false,
-      "stake": "MIN 6-3-2: 2nd Central Division, West #5 seed (in playoff spot) · SEA 7-3-1: 3rd Pacific Division (2 pts back), West #3 seed (in playoff spot)"
+      "stake": "MIN 7-3-2: 2nd Central Division, West #4 seed (in playoff spot) · VAN 2-9-1: 8th Pacific Division (12 pts back), West #16 seed (outside playoffs)"
      }
     ]
    },
@@ -8008,15 +8087,7 @@
       ]
      }
     ],
-    "games": [
-     {
-      "a": "TB",
-      "h": "MIL",
-      "st": "Top 7th",
-      "div": false,
-      "stake": "TB 98-64: 1st American League East, AL #1 seed (in playoff spot) · MIL 103-59: 1st National League Central, NL #1 seed (in playoff spot)"
-     }
-    ],
+    "games": [],
     "note": "Regular season over — final standings (postseason in progress)"
    },
    "WNBA": {
@@ -8257,15 +8328,8 @@
       ]
      }
     ],
-    "games": [
-     {
-      "a": "GS",
-      "h": "ATL",
-      "st": "Final",
-      "div": false,
-      "stake": "GS 32-12: 2nd Western Conference (1 GB), W #2 seed · ATL 30-14: 1st Eastern Conference, E #1 seed"
-     }
-    ]
+    "games": [],
+    "note": "Season not active — final standings"
    },
    "NCAA F": {
     "groups": [
@@ -8405,16 +8469,16 @@
        {
         "t": "UTSA Roadrunners",
         "ab": "UTSA",
-        "rec": "6-1",
+        "rec": "7-1",
         "pct": null,
         "gb": "-",
         "pts": null,
         "home": "4-0",
-        "road": "2-1",
+        "road": "3-1",
         "l10": null,
-        "strk": "W4",
-        "diff": "+37",
-        "div": "3-0",
+        "strk": "W5",
+        "diff": "+60",
+        "div": "4-0",
         "seed": "1"
        },
        {
@@ -8422,7 +8486,7 @@
         "ab": "UNT",
         "rec": "5-2",
         "pct": null,
-        "gb": "1",
+        "gb": "1.5",
         "pts": null,
         "home": "3-0",
         "road": "2-2",
@@ -8437,7 +8501,7 @@
         "ab": "ARMY",
         "rec": "5-2",
         "pct": null,
-        "gb": "1",
+        "gb": "1.5",
         "pts": null,
         "home": "3-1",
         "road": "2-1",
@@ -8452,7 +8516,7 @@
         "ab": "MEM",
         "rec": "6-2",
         "pct": null,
-        "gb": "0.5",
+        "gb": "1",
         "pts": null,
         "home": "4-0",
         "road": "2-2",
@@ -8467,7 +8531,7 @@
         "ab": "FAU",
         "rec": "5-2",
         "pct": null,
-        "gb": "1",
+        "gb": "1.5",
         "pts": null,
         "home": "4-0",
         "road": "1-2",
@@ -8482,7 +8546,7 @@
         "ab": "UAB",
         "rec": "4-3",
         "pct": null,
-        "gb": "2",
+        "gb": "2.5",
         "pts": null,
         "home": "4-0",
         "road": "0-3",
@@ -8493,26 +8557,11 @@
         "seed": "6"
        },
        {
-        "t": "Tulane Green Wave",
-        "ab": "TULN",
-        "rec": "3-3",
-        "pct": null,
-        "gb": "2.5",
-        "pts": null,
-        "home": "3-0",
-        "road": "0-3",
-        "l10": null,
-        "strk": "W1",
-        "diff": "-7",
-        "div": "1-1",
-        "seed": "7"
-       },
-       {
         "t": "Charlotte 49ers",
         "ab": "CLT",
         "rec": "1-6",
         "pct": null,
-        "gb": "5",
+        "gb": "5.5",
         "pts": null,
         "home": "0-3",
         "road": "1-3",
@@ -8520,14 +8569,14 @@
         "strk": "W1",
         "diff": "-150",
         "div": "1-2",
-        "seed": "8"
+        "seed": "7"
        },
        {
         "t": "Temple Owls",
         "ab": "TEM",
         "rec": "2-5",
         "pct": null,
-        "gb": "4",
+        "gb": "4.5",
         "pts": null,
         "home": "1-4",
         "road": "1-1",
@@ -8535,14 +8584,14 @@
         "strk": "L2",
         "diff": "-16",
         "div": "1-2",
-        "seed": "9"
+        "seed": "8"
        },
        {
         "t": "South Florida Bulls",
         "ab": "USF",
         "rec": "5-2",
         "pct": null,
-        "gb": "1",
+        "gb": "1.5",
         "pts": null,
         "home": "3-1",
         "road": "2-1",
@@ -8550,20 +8599,35 @@
         "strk": "W1",
         "diff": "+80",
         "div": "1-2",
-        "seed": "10"
+        "seed": "9"
        },
        {
         "t": "East Carolina Pirates",
         "ab": "ECU",
         "rec": "3-4",
         "pct": null,
-        "gb": "3",
+        "gb": "3.5",
         "pts": null,
         "home": "2-1",
         "road": "1-3",
         "l10": null,
         "strk": "L2",
         "diff": "-9",
+        "div": "1-2",
+        "seed": "10"
+       },
+       {
+        "t": "Tulane Green Wave",
+        "ab": "TULN",
+        "rec": "3-4",
+        "pct": null,
+        "gb": "3.5",
+        "pts": null,
+        "home": "3-1",
+        "road": "0-3",
+        "l10": null,
+        "strk": "L1",
+        "diff": "-30",
         "div": "1-2",
         "seed": "11"
        },
@@ -8572,7 +8636,7 @@
         "ab": "TLSA",
         "rec": "4-4",
         "pct": null,
-        "gb": "2.5",
+        "gb": "3",
         "pts": null,
         "home": "2-2",
         "road": "2-2",
@@ -8587,7 +8651,7 @@
         "ab": "NAVY",
         "rec": "2-5",
         "pct": null,
-        "gb": "4",
+        "gb": "4.5",
         "pts": null,
         "home": "2-1",
         "road": "0-4",
@@ -8602,7 +8666,7 @@
         "ab": "RICE",
         "rec": "1-7",
         "pct": null,
-        "gb": "5.5",
+        "gb": "6",
         "pts": null,
         "home": "1-3",
         "road": "0-4",
@@ -8742,10 +8806,10 @@
   },
   {
    "sport": "NHL",
-   "w": 80,
-   "l": 121,
+   "w": 82,
+   "l": 127,
    "p": 1,
-   "pct": 40,
+   "pct": 39,
    "active": true,
    "ticket_legs": {
     "w": 17,
@@ -8771,9 +8835,9 @@
   {
    "sport": "NBA",
    "w": 6,
-   "l": 3,
+   "l": 4,
    "p": 0,
-   "pct": 67,
+   "pct": 60,
    "active": true,
    "ticket_legs": {
     "w": 0,
@@ -9238,17 +9302,17 @@
   },
   {
    "sport": "NHL",
-   "w": 80,
-   "l": 121,
+   "w": 82,
+   "l": 127,
    "p": 1,
-   "pct": 40,
+   "pct": 39,
    "props": [
     {
      "prop": "NHL SOG",
-     "w": 42,
+     "w": 43,
      "l": 33,
      "p": 0,
-     "pct": 56
+     "pct": 57
     },
     {
      "prop": "NHL assists",
@@ -9260,16 +9324,16 @@
     {
      "prop": "NHL points",
      "w": 12,
-     "l": 19,
+     "l": 22,
      "p": 0,
-     "pct": 39
+     "pct": 35
     },
     {
      "prop": "NHL goals",
      "w": 7,
-     "l": 12,
+     "l": 14,
      "p": 0,
-     "pct": 37
+     "pct": 33
     },
     {
      "prop": "NHL parlay",
@@ -9287,10 +9351,10 @@
     },
     {
      "prop": "NHL saves",
-     "w": 1,
+     "w": 2,
      "l": 2,
      "p": 0,
-     "pct": 33
+     "pct": 50
     },
     {
      "prop": "NHL game total",
@@ -9363,6 +9427,13 @@
      "pct": 0
     },
     {
+     "prop": "NHL SOG under",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
      "prop": "NHL to record 2+ shots",
      "w": 0,
      "l": 1,
@@ -9371,17 +9442,17 @@
     }
    ],
    "official": {
-    "w": 80,
-    "l": 121,
+    "w": 82,
+    "l": 127,
     "p": 1,
-    "pct": 40,
+    "pct": 39,
     "props": [
      {
       "prop": "NHL SOG",
-      "w": 42,
+      "w": 43,
       "l": 33,
       "p": 0,
-      "pct": 56
+      "pct": 57
      },
      {
       "prop": "NHL assists",
@@ -9393,16 +9464,16 @@
      {
       "prop": "NHL points",
       "w": 12,
-      "l": 19,
+      "l": 22,
       "p": 0,
-      "pct": 39
+      "pct": 35
      },
      {
       "prop": "NHL goals",
       "w": 7,
-      "l": 12,
+      "l": 14,
       "p": 0,
-      "pct": 37
+      "pct": 33
      },
      {
       "prop": "NHL parlay",
@@ -9420,10 +9491,10 @@
      },
      {
       "prop": "NHL saves",
-      "w": 1,
+      "w": 2,
       "l": 2,
       "p": 0,
-      "pct": 33
+      "pct": 50
      },
      {
       "prop": "NHL game total",
@@ -9496,6 +9567,13 @@
       "pct": 0
      },
      {
+      "prop": "NHL SOG under",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
+     },
+     {
       "prop": "NHL to record 2+ shots",
       "w": 0,
       "l": 1,
@@ -9506,9 +9584,9 @@
    },
    "tracked": {
     "w": 54,
-    "l": 39,
+    "l": 40,
     "p": 0,
-    "pct": 58,
+    "pct": 57,
     "props": [
      {
       "prop": "NHL SOG",
@@ -9525,18 +9603,18 @@
       "pct": 45
      },
      {
+      "prop": "NHL SOG under",
+      "w": 5,
+      "l": 3,
+      "p": 0,
+      "pct": 62
+     },
+     {
       "prop": "NHL parlay",
       "w": 1,
       "l": 6,
       "p": 0,
       "pct": 14
-     },
-     {
-      "prop": "NHL SOG under",
-      "w": 5,
-      "l": 2,
-      "p": 0,
-      "pct": 71
      },
      {
       "prop": "NHL points under",
@@ -9982,9 +10060,9 @@
   {
    "sport": "NBA",
    "w": 6,
-   "l": 3,
+   "l": 4,
    "p": 0,
-   "pct": 67,
+   "pct": 60,
    "props": [
     {
      "prop": "NBA threes made",
@@ -10034,13 +10112,20 @@
      "l": 0,
      "p": 0,
      "pct": 100
+    },
+    {
+     "prop": "NBA ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
    "official": {
     "w": 6,
-    "l": 3,
+    "l": 4,
     "p": 0,
-    "pct": 67,
+    "pct": 60,
     "props": [
      {
       "prop": "NBA threes made",
@@ -10090,6 +10175,13 @@
       "l": 0,
       "p": 0,
       "pct": 100
+     },
+     {
+      "prop": "NBA ML",
+      "w": 0,
+      "l": 1,
+      "p": 0,
+      "pct": 0
      }
     ]
    },
@@ -11284,309 +11376,11 @@
  "live_record": {},
  "safe100": {},
  "edge": {
-  "date": "2026-10-24",
-  "picks": [
-   {
-    "sport": "NHL",
-    "rank": 1,
-    "game": "Flames vs. Red Wings",
-    "start": "Sat 10/24 10:00 PM ET",
-    "pick": "Michael Brandsegg-Nygård Over 0.5 Points",
-    "hr": "+155",
-    "fair": "+126",
-    "fair_prob": 0.4424778761061947,
-    "edge": 0.1304,
-    "result": "Pending",
-    "picked_et": "8:05 PM ET",
-    "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +155 vs Pinnacle no-vig fair +126 → edge +13.04%, clears the 4% bar. He hit in 5 of his last 10. LineMate goes AGAINST this pick (under in 7 of 8 away games); kept on price over a small road sample. Graded A by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-    "why_not": "LineMate is against it (U 7 of 8 away). DET line combos were unconfirmed at scan time.",
-    "grade": "A",
-    "grade_why": "Prop Scout official scan 7:58 PM ET: edge +13.04% vs Pinnacle; grade A.",
-    "big4": true,
-    "big4_only": null,
-    "now": "+155"
-   },
-   {
-    "sport": "NHL",
-    "rank": 2,
-    "game": "Kraken vs. Wild",
-    "start": "Sat 10/24 10:00 PM ET",
-    "pick": "Joel Eriksson Ek Under 0.5 Points",
-    "hr": "+145",
-    "fair": "+131",
-    "fair_prob": 0.4329004329004329,
-    "edge": 0.062,
-    "result": "Pending",
-    "picked_et": "8:05 PM ET",
-    "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +145 vs Pinnacle no-vig fair +131 → edge +6.20%, clears the 4% bar. He 4 of his last 10 stayed under. LineMate goes AGAINST this pick (over in 3 of 4). Price-only play, the weakest of tonight's 8. Graded B+ by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-    "why_not": "LineMate is against it; one of 5 plays in MIN@SEA.",
-    "grade": "B+",
-    "grade_why": "Prop Scout official scan 7:58 PM ET: edge +6.20% vs Pinnacle; grade B+.",
-    "big4": true,
-    "big4_only": null,
-    "now": "+145"
-   },
-   {
-    "sport": "NHL",
-    "rank": 3,
-    "game": "Kraken vs. Wild",
-    "start": "Sat 10/24 10:00 PM ET",
-    "pick": "Jordan Eberle Over 0.5 Goals",
-    "hr": "+300",
-    "fair": "+277",
-    "fair_prob": 0.26525198938992045,
-    "edge": 0.0608,
-    "result": "Pending",
-    "picked_et": "8:05 PM ET",
-    "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +300 vs Pinnacle no-vig fair +277 → edge +6.08%, clears the 4% bar. He scored in 3 of his last 10. LineMate has no card for this market. Graded A by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-    "why_not": "Long shot with goal variance; one of 5 plays in MIN@SEA.",
-    "grade": "A",
-    "grade_why": "Prop Scout official scan 7:58 PM ET: edge +6.08% vs Pinnacle; grade A.",
-    "big4": true,
-    "big4_only": null,
-    "now": "+300"
-   },
-   {
-    "sport": "NBA",
-    "rank": 1,
-    "game": "Nuggets vs Pelicans",
-    "start": "Sat 10/24 09:00 PM ET",
-    "pick": "Pelicans ML",
-    "hr": "+400",
-    "fair": "+379",
-    "fair_prob": 0.20876826722338204,
-    "edge": 0.055999999999999994,
-    "result": "Pending",
-    "picked_et": "8:05 PM ET",
-    "why": "NBA. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +400 vs Pinnacle no-vig fair +379 → edge +5.60%, clears the 4% bar. No LineMate card for game lines. Graded B by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-    "why_not": "Big underdog. DEN is without C. Johnson, S. Jones and Strawther; NBA starters were unconfirmed at scan time.",
-    "grade": "B",
-    "grade_why": "Prop Scout official scan 7:58 PM ET: edge +5.60% vs Pinnacle; grade B.",
-    "big4": true,
-    "big4_only": null,
-    "now": "+400"
-   },
-   {
-    "sport": "NHL",
-    "rank": 4,
-    "game": "Kraken vs. Wild",
-    "start": "Sat 10/24 10:00 PM ET",
-    "pick": "Vince Dunn Over 0.5 Points",
-    "hr": "+120",
-    "fair": "+108",
-    "fair_prob": 0.4807692307692308,
-    "edge": 0.0553,
-    "result": "Pending",
-    "picked_et": "8:05 PM ET",
-    "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +120 vs Pinnacle no-vig fair +108 → edge +5.53%, clears the 4% bar. He hit in 5 of his last 10. LineMate goes AGAINST this pick (under in 4 of 5 vs MIN, only a 5-game head-to-head). Graded A- by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-    "why_not": "LineMate is against it; one of 5 plays in MIN@SEA.",
-    "grade": "A-",
-    "grade_why": "Prop Scout official scan 7:58 PM ET: edge +5.53% vs Pinnacle; grade A-.",
-    "big4": true,
-    "big4_only": null,
-    "now": "+120"
-   },
-   {
-    "sport": "NHL",
-    "rank": 5,
-    "game": "Kraken vs. Wild",
-    "start": "Sat 10/24 10:00 PM ET",
-    "pick": "Ryan Hartman Under 1.5 Shots On Goal",
-    "hr": "+120",
-    "fair": "+110",
-    "fair_prob": 0.47619047619047616,
-    "edge": 0.0489,
-    "result": "Pending",
-    "picked_et": "8:05 PM ET",
-    "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +120 vs Pinnacle no-vig fair +110 → edge +4.89%, clears the 4% bar. He stayed under in 7 of his last 10. LineMate agrees (4 of 5). Graded A by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-    "why_not": "A lineup promotion would raise his shot volume; one of 5 plays in MIN@SEA.",
-    "grade": "A",
-    "grade_why": "Prop Scout official scan 7:58 PM ET: edge +4.89% vs Pinnacle; grade A.",
-    "big4": true,
-    "big4_only": null,
-    "now": "+120"
-   },
-   {
-    "sport": "NHL",
-    "rank": 6,
-    "game": "Flames vs. Red Wings",
-    "start": "Sat 10/24 10:00 PM ET",
-    "pick": "Emmitt Finnie Over 0.5 Goals",
-    "hr": "+325",
-    "fair": "+306",
-    "fair_prob": 0.24630541871921183,
-    "edge": 0.0455,
-    "result": "Pending",
-    "picked_et": "8:05 PM ET",
-    "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +325 vs Pinnacle no-vig fair +306 → edge +4.55%, clears the 4% bar. He scored in 4 of his last 10. LineMate has no card for this market. Graded A by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-    "why_not": "Thin edge and goal variance.",
-    "grade": "A",
-    "grade_why": "Prop Scout official scan 7:58 PM ET: edge +4.55% vs Pinnacle; grade A.",
-    "big4": true,
-    "big4_only": null,
-    "now": "+325"
-   },
-   {
-    "sport": "NHL",
-    "rank": 7,
-    "game": "Kraken vs. Wild",
-    "start": "Sat 10/24 10:00 PM ET",
-    "pick": "Jesper Wallstedt Over 22.5 Saves",
-    "hr": "-105",
-    "fair": "-115",
-    "fair_prob": 0.5348837209302325,
-    "edge": 0.0438,
-    "result": "Pending",
-    "picked_et": "8:05 PM ET",
-    "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock -105 vs Pinnacle no-vig fair -115 → edge +4.38%, clears the 4% bar. He went over in 5 of his last 10 (avg 23.6 saves). LineMate agrees (2 of 2 vs SEA). Confirmed starter. Graded B by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-    "why_not": "Saves depend on SEA's shot volume; one of 5 plays in MIN@SEA.",
-    "grade": "B",
-    "grade_why": "Prop Scout official scan 7:58 PM ET: edge +4.38% vs Pinnacle; grade B.",
-    "big4": true,
-    "big4_only": null,
-    "now": "-105"
-   }
-  ],
+  "date": "2026-10-25",
+  "picks": [],
   "big4": {
-   "date": "2026-10-24",
-   "picks": [
-    {
-     "sport": "NHL",
-     "b4rank": 1,
-     "game": "Flames vs. Red Wings",
-     "start": "Sat 10/24 10:00 PM ET",
-     "pick": "Michael Brandsegg-Nygård Over 0.5 Points",
-     "hr": "+155",
-     "fair": "+126",
-     "fair_prob": 0.4424778761061947,
-     "edge": 0.1304,
-     "result": "Pending",
-     "picked_et": "8:05 PM ET",
-     "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +155 vs Pinnacle no-vig fair +126 → edge +13.04%, clears the 4% bar. He hit in 5 of his last 10. LineMate goes AGAINST this pick (under in 7 of 8 away games); kept on price over a small road sample. Graded A by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-     "why_not": "LineMate is against it (U 7 of 8 away). DET line combos were unconfirmed at scan time.",
-     "grade": "A",
-     "grade_why": "Prop Scout official scan 7:58 PM ET: edge +13.04% vs Pinnacle; grade A."
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 2,
-     "game": "Kraken vs. Wild",
-     "start": "Sat 10/24 10:00 PM ET",
-     "pick": "Joel Eriksson Ek Under 0.5 Points",
-     "hr": "+145",
-     "fair": "+131",
-     "fair_prob": 0.4329004329004329,
-     "edge": 0.062,
-     "result": "Pending",
-     "picked_et": "8:05 PM ET",
-     "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +145 vs Pinnacle no-vig fair +131 → edge +6.20%, clears the 4% bar. He 4 of his last 10 stayed under. LineMate goes AGAINST this pick (over in 3 of 4). Price-only play, the weakest of tonight's 8. Graded B+ by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-     "why_not": "LineMate is against it; one of 5 plays in MIN@SEA.",
-     "grade": "B+",
-     "grade_why": "Prop Scout official scan 7:58 PM ET: edge +6.20% vs Pinnacle; grade B+."
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 3,
-     "game": "Kraken vs. Wild",
-     "start": "Sat 10/24 10:00 PM ET",
-     "pick": "Jordan Eberle Over 0.5 Goals",
-     "hr": "+300",
-     "fair": "+277",
-     "fair_prob": 0.26525198938992045,
-     "edge": 0.0608,
-     "result": "Pending",
-     "picked_et": "8:05 PM ET",
-     "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +300 vs Pinnacle no-vig fair +277 → edge +6.08%, clears the 4% bar. He scored in 3 of his last 10. LineMate has no card for this market. Graded A by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-     "why_not": "Long shot with goal variance; one of 5 plays in MIN@SEA.",
-     "grade": "A",
-     "grade_why": "Prop Scout official scan 7:58 PM ET: edge +6.08% vs Pinnacle; grade A."
-    },
-    {
-     "sport": "NBA",
-     "b4rank": 4,
-     "game": "Nuggets vs Pelicans",
-     "start": "Sat 10/24 09:00 PM ET",
-     "pick": "Pelicans ML",
-     "hr": "+400",
-     "fair": "+379",
-     "fair_prob": 0.20876826722338204,
-     "edge": 0.055999999999999994,
-     "result": "Pending",
-     "picked_et": "8:05 PM ET",
-     "why": "NBA. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +400 vs Pinnacle no-vig fair +379 → edge +5.60%, clears the 4% bar. No LineMate card for game lines. Graded B by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-     "why_not": "Big underdog. DEN is without C. Johnson, S. Jones and Strawther; NBA starters were unconfirmed at scan time.",
-     "grade": "B",
-     "grade_why": "Prop Scout official scan 7:58 PM ET: edge +5.60% vs Pinnacle; grade B."
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 5,
-     "game": "Kraken vs. Wild",
-     "start": "Sat 10/24 10:00 PM ET",
-     "pick": "Vince Dunn Over 0.5 Points",
-     "hr": "+120",
-     "fair": "+108",
-     "fair_prob": 0.4807692307692308,
-     "edge": 0.0553,
-     "result": "Pending",
-     "picked_et": "8:05 PM ET",
-     "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +120 vs Pinnacle no-vig fair +108 → edge +5.53%, clears the 4% bar. He hit in 5 of his last 10. LineMate goes AGAINST this pick (under in 4 of 5 vs MIN, only a 5-game head-to-head). Graded A- by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-     "why_not": "LineMate is against it; one of 5 plays in MIN@SEA.",
-     "grade": "A-",
-     "grade_why": "Prop Scout official scan 7:58 PM ET: edge +5.53% vs Pinnacle; grade A-."
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 6,
-     "game": "Kraken vs. Wild",
-     "start": "Sat 10/24 10:00 PM ET",
-     "pick": "Ryan Hartman Under 1.5 Shots On Goal",
-     "hr": "+120",
-     "fair": "+110",
-     "fair_prob": 0.47619047619047616,
-     "edge": 0.0489,
-     "result": "Pending",
-     "picked_et": "8:05 PM ET",
-     "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +120 vs Pinnacle no-vig fair +110 → edge +4.89%, clears the 4% bar. He stayed under in 7 of his last 10. LineMate agrees (4 of 5). Graded A by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-     "why_not": "A lineup promotion would raise his shot volume; one of 5 plays in MIN@SEA.",
-     "grade": "A",
-     "grade_why": "Prop Scout official scan 7:58 PM ET: edge +4.89% vs Pinnacle; grade A."
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 7,
-     "game": "Flames vs. Red Wings",
-     "start": "Sat 10/24 10:00 PM ET",
-     "pick": "Emmitt Finnie Over 0.5 Goals",
-     "hr": "+325",
-     "fair": "+306",
-     "fair_prob": 0.24630541871921183,
-     "edge": 0.0455,
-     "result": "Pending",
-     "picked_et": "8:05 PM ET",
-     "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock +325 vs Pinnacle no-vig fair +306 → edge +4.55%, clears the 4% bar. He scored in 4 of his last 10. LineMate has no card for this market. Graded A by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-     "why_not": "Thin edge and goal variance.",
-     "grade": "A",
-     "grade_why": "Prop Scout official scan 7:58 PM ET: edge +4.55% vs Pinnacle; grade A."
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 8,
-     "game": "Kraken vs. Wild",
-     "start": "Sat 10/24 10:00 PM ET",
-     "pick": "Jesper Wallstedt Over 22.5 Saves",
-     "hr": "-105",
-     "fair": "-115",
-     "fair_prob": 0.5348837209302325,
-     "edge": 0.0438,
-     "result": "Pending",
-     "picked_et": "8:05 PM ET",
-     "why": "NHL. Official Edge play (RULEBOOK §1 OFFICIAL STANDARDS). Hard Rock -105 vs Pinnacle no-vig fair -115 → edge +4.38%, clears the 4% bar. He went over in 5 of his last 10 (avg 23.6 saves). LineMate agrees (2 of 2 vs SEA). Confirmed starter. Graded B by Prop Scout with fresh LineMate data (prices: Hard Rock 7:54-7:56 PM ET, Pinnacle 7:56 PM ET).",
-     "why_not": "Saves depend on SEA's shot volume; one of 5 plays in MIN@SEA.",
-     "grade": "B",
-     "grade_why": "Prop Scout official scan 7:58 PM ET: edge +4.38% vs Pinnacle; grade B."
-    }
-   ]
+   "date": "2026-10-25",
+   "picks": []
   }
  },
  "safe100_record": {
@@ -11699,43 +11493,43 @@
  "sport_status": {
   "MLB": {
    "active": true,
-   "games_today": 1,
+   "games_today": 0,
    "season": "Postseason"
   },
   "NHL": {
    "active": true,
-   "games_today": 12,
+   "games_today": 5,
    "season": "Regular Season"
   },
   "NFL": {
    "active": true,
-   "games_today": 0,
+   "games_today": 12,
    "season": "Regular Season"
   },
   "NBA": {
    "active": true,
-   "games_today": 8,
+   "games_today": 7,
    "season": "Regular Season"
   },
   "NCAA F": {
    "active": true,
-   "games_today": 44,
+   "games_today": 0,
    "season": "Regular Season"
   },
   "WNBA": {
    "active": true,
-   "games_today": 1,
+   "games_today": 0,
    "season": "Postseason"
   }
  },
  "edge_record": {
   "overall": {
-   "w": 66,
-   "l": 115,
+   "w": 68,
+   "l": 121,
    "p": 1,
    "pct": 36,
-   "units": -18.06,
-   "pending": 8
+   "units": -21.91,
+   "pending": 0
   },
   "by_sport": {
    "MLB": {
@@ -11748,11 +11542,11 @@
    },
    "NBA": {
     "w": 5,
-    "l": 2,
+    "l": 3,
     "p": 0,
-    "pct": 71,
-    "units": 3.4,
-    "pending": 1
+    "pct": 62,
+    "units": 2.4,
+    "pending": 0
    },
    "NCAA F": {
     "w": 2,
@@ -11771,12 +11565,12 @@
     "pending": 0
    },
    "NHL": {
-    "w": 56,
-    "l": 98,
+    "w": 58,
+    "l": 103,
     "p": 1,
     "pct": 36,
-    "units": -11.02,
-    "pending": 7
+    "units": -13.87,
+    "pending": 0
    },
    "WNBA": {
     "w": 0,
@@ -11806,11 +11600,11 @@
    },
    "NBA ML": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "p": 0,
-    "pct": null,
-    "units": 0.0,
-    "pending": 1
+    "pct": 0,
+    "units": -1.0,
+    "pending": 0
    },
    "NBA game total": {
     "w": 1,
@@ -11909,12 +11703,12 @@
     "pending": 0
    },
    "NHL SOG": {
-    "w": 23,
+    "w": 24,
     "l": 22,
     "p": 0,
-    "pct": 51,
-    "units": 2.59,
-    "pending": 1
+    "pct": 52,
+    "units": 3.79,
+    "pending": 0
    },
    "NHL assists": {
     "w": 12,
@@ -11934,27 +11728,27 @@
    },
    "NHL goals": {
     "w": 7,
-    "l": 12,
+    "l": 14,
     "p": 0,
-    "pct": 37,
-    "units": 9.55,
-    "pending": 2
+    "pct": 33,
+    "units": 7.55,
+    "pending": 0
    },
    "NHL points": {
     "w": 11,
-    "l": 17,
+    "l": 20,
     "p": 0,
-    "pct": 39,
-    "units": -2.21,
-    "pending": 3
+    "pct": 35,
+    "units": -5.21,
+    "pending": 0
    },
    "NHL saves": {
-    "w": 1,
+    "w": 2,
     "l": 2,
     "p": 0,
-    "pct": 33,
-    "units": -1.09,
-    "pending": 1
+    "pct": 50,
+    "units": -0.14,
+    "pending": 0
    },
    "NHL spread": {
     "w": 0,
@@ -13131,8 +12925,8 @@
    "prop": "NHL SOG under",
    "pick": "Anthony Cirelli under 1.5 SOG",
    "odds": "-120",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "2 SOG"
   },
   {
    "date": "2026-10-18",
@@ -14961,8 +14755,8 @@
    "prop": "NHL points",
    "pick": "Michael Brandsegg-Nygård Over 0.5 Points",
    "odds": "+155",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (0 PTS)"
   },
   {
    "date": "2026-10-24",
@@ -14971,8 +14765,8 @@
    "prop": "NHL points",
    "pick": "Joel Eriksson Ek Under 0.5 Points",
    "odds": "+145",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (2 PTS)"
   },
   {
    "date": "2026-10-24",
@@ -14981,8 +14775,8 @@
    "prop": "NHL goals",
    "pick": "Jordan Eberle Over 0.5 Goals",
    "odds": "+300",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (0 G)"
   },
   {
    "date": "2026-10-24",
@@ -14991,8 +14785,8 @@
    "prop": "NBA ML",
    "pick": "Pelicans ML",
    "odds": "+400",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (NO 135-141 DEN)"
   },
   {
    "date": "2026-10-24",
@@ -15001,8 +14795,8 @@
    "prop": "NHL points",
    "pick": "Vince Dunn Over 0.5 Points",
    "odds": "+120",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (0 PTS)"
   },
   {
    "date": "2026-10-24",
@@ -15011,8 +14805,8 @@
    "prop": "NHL SOG",
    "pick": "Ryan Hartman Under 1.5 Shots On Goal",
    "odds": "+120",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (1 SOG)"
   },
   {
    "date": "2026-10-24",
@@ -15021,8 +14815,8 @@
    "prop": "NHL goals",
    "pick": "Emmitt Finnie Over 0.5 Goals",
    "odds": "+325",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (0 G)"
   },
   {
    "date": "2026-10-24",
@@ -15031,8 +14825,8 @@
    "prop": "NHL saves",
    "pick": "Jesper Wallstedt Over 22.5 Saves",
    "odds": "-105",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (23 saves)"
   }
  ],
  "tracked_rows": [],
@@ -15045,8 +14839,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 291,
-  "headline": 291
+  "tiles_sum": 300,
+  "headline": 300
  },
  "inning_record": {},
  "ingame_lines": {
@@ -16674,8 +16468,8 @@
     "prop": "NHL SOG under",
     "pick": "Anthony Cirelli under 1.5 SOG",
     "odds": "-120",
-    "res": "",
-    "stat": "—",
+    "res": "L",
+    "stat": "2 SOG",
     "sub": "",
     "leg": false,
     "img": null,
@@ -19602,8 +19396,8 @@
     "prop": "NHL points",
     "pick": "Michael Brandsegg-Nygård Over 0.5 Points",
     "odds": "+155",
-    "res": "",
-    "stat": "Pending",
+    "res": "L",
+    "stat": "Loss (0 PTS)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -19618,8 +19412,8 @@
     "prop": "NHL points",
     "pick": "Joel Eriksson Ek Under 0.5 Points",
     "odds": "+145",
-    "res": "",
-    "stat": "Pending",
+    "res": "L",
+    "stat": "Loss (2 PTS)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -19634,8 +19428,8 @@
     "prop": "NHL goals",
     "pick": "Jordan Eberle Over 0.5 Goals",
     "odds": "+300",
-    "res": "",
-    "stat": "Pending",
+    "res": "L",
+    "stat": "Loss (0 G)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -19650,8 +19444,8 @@
     "prop": "NBA ML",
     "pick": "Pelicans ML",
     "odds": "+400",
-    "res": "",
-    "stat": "Pending",
+    "res": "L",
+    "stat": "Loss (NO 135-141 DEN)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -19666,8 +19460,8 @@
     "prop": "NHL points",
     "pick": "Vince Dunn Over 0.5 Points",
     "odds": "+120",
-    "res": "",
-    "stat": "Pending",
+    "res": "L",
+    "stat": "Loss (0 PTS)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -19682,8 +19476,8 @@
     "prop": "NHL SOG",
     "pick": "Ryan Hartman Under 1.5 Shots On Goal",
     "odds": "+120",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (1 SOG)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -19698,8 +19492,8 @@
     "prop": "NHL goals",
     "pick": "Emmitt Finnie Over 0.5 Goals",
     "odds": "+325",
-    "res": "",
-    "stat": "Pending",
+    "res": "L",
+    "stat": "Loss (0 G)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -19714,8 +19508,8 @@
     "prop": "NHL saves",
     "pick": "Jesper Wallstedt Over 22.5 Saves",
     "odds": "-105",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (23 saves)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -22591,8 +22385,8 @@
     "prop": "NHL SOG under",
     "pick": "Anthony Cirelli under 1.5 SOG",
     "odds": "-120",
-    "res": "",
-    "stat": "—",
+    "res": "L",
+    "stat": "2 SOG",
     "fam": "SOG",
     "img": null,
     "sub": "",
@@ -22604,26 +22398,26 @@
    "O": {
     "tickets": {
      "w": 16,
-     "l": 34,
+     "l": 35,
      "p": 1,
-     "pending": 2,
-     "units": -18
+     "pending": 1,
+     "units": -19
     },
     "legs": {
      "w": 72,
-     "l": 57,
+     "l": 58,
      "p": 2,
-     "pending": 7,
-     "units": 15
+     "pending": 6,
+     "units": 14
     }
    },
    "E": {
     "tickets": {
-     "w": 66,
-     "l": 115,
+     "w": 68,
+     "l": 121,
      "p": 1,
-     "pending": 8,
-     "units": -49
+     "pending": 0,
+     "units": -53
     },
     "legs": {
      "w": 0,
@@ -22806,12 +22600,43 @@
   ]
  },
  "heist": {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "title": "THE HEIST",
   "sub": "▼ BOUGHT DOWN · CAPPERS",
   "stake": "$1.50",
   "legs": [],
-  "skipped": [],
+  "skipped": [
+   {
+    "capper": "@alexcaruso",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@panpotd",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@austinsprops",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@showtimepicks2",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@bigmikepickz",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@habibtings",
+    "why": "no picks today",
+    "pick": ""
+   }
+  ],
   "status": "waiting",
   "msg": "Builds after the 9 AM capper check",
   "odds": null,
