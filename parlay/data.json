@@ -1,5 +1,5 @@
 {
- "generated": 1792964394.079922,
+ "generated": 1792970882.7301228,
  "today": {
   "title": "Oct 25 picks (Hard Rock)",
   "tickets": [
@@ -1719,8 +1719,8 @@
  "record": {
   "overall": {
    "official": {
-    "w": 119,
-    "l": 179,
+    "w": 121,
+    "l": 180,
     "p": 1,
     "pct": 40
    },
@@ -1742,7 +1742,7 @@
     "p": 0,
     "pct": 32
    },
-   "pending": 5
+   "pending": 2
   },
   "props": [
    {
@@ -1802,6 +1802,20 @@
     "pct": 0
    },
    {
+    "prop": "NFL game total",
+    "w": 2,
+    "l": 3,
+    "p": 0,
+    "pct": 40
+   },
+   {
+    "prop": "NFL spread",
+    "w": 2,
+    "l": 2,
+    "p": 0,
+    "pct": 50
+   },
+   {
     "prop": "MLB HR",
     "w": 0,
     "l": 4,
@@ -1830,13 +1844,6 @@
     "pct": 67
    },
    {
-    "prop": "NFL spread",
-    "w": 2,
-    "l": 1,
-    "p": 0,
-    "pct": 67
-   },
-   {
     "prop": "NFL parlay",
     "w": 0,
     "l": 3,
@@ -1849,13 +1856,6 @@
     "l": 1,
     "p": 0,
     "pct": 67
-   },
-   {
-    "prop": "NFL game total",
-    "w": 0,
-    "l": 3,
-    "p": 0,
-    "pct": 0
    },
    {
     "prop": "NHL game total",
@@ -2255,22 +2255,22 @@
     "date": "2026-10-25",
     "pick": "NFL · Edge: Q1 Over 10.5",
     "odds": "+160",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (total 49)"
    },
    {
     "date": "2026-10-25",
     "pick": "NFL · Edge: Q1 Over 10.5",
     "odds": "+175",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (total 48)"
    },
    {
     "date": "2026-10-25",
     "pick": "NFL · Edge: Colts -3.5",
     "odds": "+425",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (IND 10-16 MIN)"
    },
    {
     "date": "2026-10-24",
@@ -5572,16 +5572,28 @@
    [
     "10/24",
     -60
+   ],
+   [
+    "10/25",
+    -61
+   ],
+   [
+    "10/25",
+    -60
+   ],
+   [
+    "10/25",
+    -59
    ]
   ]
  },
  "cappers": [
   {
    "name": "@alexcaruso",
-   "w": 23,
-   "l": 19,
+   "w": 25,
+   "l": 21,
    "p": 0,
-   "pct": 55,
+   "pct": 54,
    "props": [
     {
      "prop": "MLB batter hits (under)",
@@ -5600,9 +5612,9 @@
     {
      "prop": "NFL rush yds (over)",
      "w": 3,
-     "l": 2,
+     "l": 3,
      "p": 0,
-     "pct": 60
+     "pct": 50
     },
     {
      "prop": "NFL rush/rec yds (over)",
@@ -5620,10 +5632,10 @@
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 2,
-     "l": 6,
+     "w": 3,
+     "l": 7,
      "p": 0,
-     "pct": 25
+     "pct": 30
     },
     {
      "prop": "NFL ML",
@@ -5683,7 +5695,7 @@
     },
     {
      "prop": "NFL rush yds (under)",
-     "w": 2,
+     "w": 3,
      "l": 0,
      "p": 0,
      "pct": 100
@@ -5730,7 +5742,7 @@
      "prop": "NFL rush yds (over)",
      "pick": "JK Dobbins o47.5 rush yds (Broncos vs Cardinals)",
      "odds": "none posted",
-     "status": "Pending",
+     "status": "L",
      "game": "DEN @ ARI",
      "kick": "4:05 PM ET",
      "started": true,
@@ -5741,7 +5753,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "Bijan Robinson o28.5 rec yds (Falcons vs 49ers; NFL Play of the Day)",
      "odds": "none posted",
-     "status": "Pending",
+     "status": "W",
      "game": "SF @ ATL",
      "kick": "1:00 PM ET",
      "started": true,
@@ -5752,7 +5764,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "Jaylin Noel o26.5 rec yds (Texans; NFL Play #4)",
      "odds": "none posted",
-     "status": "Pending",
+     "status": "L",
      "game": "NYG @ HOU",
      "kick": "1:00 PM ET",
      "started": true,
@@ -5763,7 +5775,7 @@
      "prop": "NFL rush yds (under)",
      "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day)",
      "odds": "none posted",
-     "status": "Pending",
+     "status": "W",
      "game": "TB @ CAR",
      "kick": "1:00 PM ET",
      "started": true,
@@ -5784,10 +5796,10 @@
   },
   {
    "name": "@austinsprops",
-   "w": 18,
-   "l": 11,
+   "w": 19,
+   "l": 12,
    "p": 0,
-   "pct": 62,
+   "pct": 61,
    "props": [
     {
      "prop": "MLB pitcher outs (over)",
@@ -5805,10 +5817,10 @@
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 3,
      "p": 0,
-     "pct": 60
+     "pct": 57
     },
     {
      "prop": "NFL receptions (over)",
@@ -5894,7 +5906,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play)",
      "odds": "-105 FD",
-     "status": "Pending",
+     "status": "W",
      "game": "CLE @ TEN",
      "kick": "1:00 PM ET",
      "started": true,
@@ -5978,7 +5990,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "Chris Olave o74.5 rec yds (Week 7 full card)",
      "odds": "none posted",
-     "status": "Pending",
+     "status": "L",
      "game": "PIT @ NO",
      "kick": "9:30 AM ET",
      "started": true,
@@ -6010,7 +6022,7 @@
      "status": "Pending",
      "game": "ORL @ NY",
      "kick": "7:00 PM ET",
-     "started": false,
+     "started": true,
      "final": false
     }
    ]
@@ -6018,9 +6030,9 @@
   {
    "name": "@panpotd",
    "w": 12,
-   "l": 14,
+   "l": 15,
    "p": 0,
-   "pct": 46,
+   "pct": 44,
    "props": [
     {
      "prop": "NFL receptions (over)",
@@ -6032,9 +6044,9 @@
     {
      "prop": "NFL rec yds (over)",
      "w": 1,
-     "l": 6,
+     "l": 7,
      "p": 0,
-     "pct": 14
+     "pct": 12
     },
     {
      "prop": "NFL rush yds (over)",
@@ -6103,7 +6115,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD)",
      "odds": "-114",
-     "status": "Pending",
+     "status": "L",
      "game": "CLE @ TEN",
      "kick": "1:00 PM ET",
      "started": true,
@@ -6114,9 +6126,9 @@
   {
    "name": "@showtimepicks2",
    "w": 14,
-   "l": 5,
+   "l": 6,
    "p": 0,
-   "pct": 74,
+   "pct": 70,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -6170,9 +6182,9 @@
     {
      "prop": "NFL ML",
      "w": 1,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100
+     "pct": 50
     },
     {
      "prop": "NBA ML",
@@ -6195,7 +6207,7 @@
      "prop": "NFL ML",
      "pick": "Tennessee Titans ML (first NFL free play)",
      "odds": "+114",
-     "status": "Pending",
+     "status": "L",
      "game": "CLE @ TEN",
      "kick": "1:00 PM ET",
      "started": true,
@@ -6250,7 +6262,7 @@
  "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-25 05:39 PM ET",
+  "updated": "2026-10-25 07:28 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6545,7 +6557,7 @@
         "strk": "L4",
         "diff": "-31",
         "div": "1-0",
-        "seed": "10"
+        "seed": "11"
        },
        {
         "t": "Dallas Cowboys",
@@ -6560,7 +6572,7 @@
         "strk": "L2",
         "diff": "-8",
         "div": "1-1",
-        "seed": "11"
+        "seed": "12"
        },
        {
         "t": "Washington Commanders",
@@ -6779,21 +6791,21 @@
      {
       "a": "DEN",
       "h": "ARI",
-      "st": "Halftime",
+      "st": "Final",
       "div": false,
       "stake": "DEN 4-2: 2nd AFC West (1.5 GB), AFC #6 seed (in playoff spot) · ARI 2-4: 3rd NFC West (3.5 GB), NFC #12 seed (outside playoffs)"
      },
      {
       "a": "GB",
       "h": "DET",
-      "st": "2:00 - 2nd",
+      "st": "1:09 - 4th",
       "div": true,
       "stake": "GB 4-2: 3rd NFC North (2 GB), NFC #6 seed (in playoff spot) · DET 3-2: 4th NFC North (2.5 GB), NFC #7 seed (in playoff spot)"
      },
      {
       "a": "LAR",
       "h": "LV",
-      "st": "2:00 - 2nd",
+      "st": "3:58 - 4th",
       "div": false,
       "stake": "LAR 2-4: 4th NFC West (3.5 GB), NFC #13 seed (outside playoffs) · LV 3-3: 3rd AFC West (2.5 GB), AFC #10 seed (outside playoffs)"
      },
@@ -7349,35 +7361,35 @@
      {
       "a": "LAL",
       "h": "UTAH",
-      "st": "1:43 - 1st",
+      "st": "3:15 - 4th",
       "div": false,
       "stake": "LAL : 1st Pacific, West #4 seed (in playoff spot) · UTAH : 5th Northwest (1 GB), West #9 seed (in playoff spot)"
      },
      {
       "a": "IND",
       "h": "BKN",
-      "st": "10/25 - 6:00 PM EDT",
+      "st": "Halftime",
       "div": false,
       "stake": "IND : 2nd Central (1 GB), East #8 seed (in playoff spot) · BKN : 5th Atlantic (2.5 GB), East #12 seed (outside playoffs)"
      },
      {
       "a": "ORL",
       "h": "NY",
-      "st": "10/25 - 7:00 PM EDT",
+      "st": "4:45 - 1st",
       "div": false,
       "stake": "ORL : 4th Southeast (1.5 GB), East #13 seed (outside playoffs) · NY : 4th Atlantic (2.5 GB), East #11 seed (outside playoffs)"
      },
      {
       "a": "TOR",
       "h": "MIN",
-      "st": "10/25 - 7:00 PM EDT",
+      "st": "4:39 - 1st",
       "div": false,
       "stake": "TOR : 2nd Atlantic (0.5 GB), East #3 seed (in playoff spot) · MIN : 1st Northwest, West #2 seed (in playoff spot)"
      },
      {
       "a": "LAC",
       "h": "OKC",
-      "st": "10/25 - 7:00 PM EDT",
+      "st": "3:52 - 1st",
       "div": false,
       "stake": "LAC : 2nd Pacific (1 GB), West #7 seed (in playoff spot) · OKC : 3rd Northwest, West #5 seed (in playoff spot)"
      },
@@ -7463,6 +7475,21 @@
         "seed": "5"
        },
        {
+        "t": "Florida Panthers",
+        "ab": "FLA",
+        "rec": "6-4-2",
+        "pct": null,
+        "gb": "5",
+        "pts": "14",
+        "home": "2-1-0",
+        "road": "4-3-2",
+        "l10": "5-4-1",
+        "strk": "W1",
+        "diff": "-2",
+        "div": "0-2-0",
+        "seed": "8"
+       },
+       {
         "t": "Montreal Canadiens",
         "ab": "MTL",
         "rec": "5-3-2",
@@ -7475,21 +7502,6 @@
         "strk": "W1",
         "diff": "-1",
         "div": "4-0-0",
-        "seed": "10"
-       },
-       {
-        "t": "Florida Panthers",
-        "ab": "FLA",
-        "rec": "5-4-2",
-        "pct": null,
-        "gb": "7",
-        "pts": "12",
-        "home": "2-1-0",
-        "road": "3-3-2",
-        "l10": "4-4-2",
-        "strk": "L2",
-        "diff": "-3",
-        "div": "0-2-0",
         "seed": "11"
        },
        {
@@ -7585,7 +7597,7 @@
         "strk": "W1",
         "diff": "+2",
         "div": "4-1-0",
-        "seed": "8"
+        "seed": "9"
        },
        {
         "t": "New York Islanders",
@@ -7600,7 +7612,7 @@
         "strk": "L1",
         "diff": "+6",
         "div": "1-1-0",
-        "seed": "9"
+        "seed": "10"
        },
        {
         "t": "Pittsburgh Penguins",
@@ -7760,15 +7772,15 @@
        {
         "t": "Chicago Blackhawks",
         "ab": "CHI",
-        "rec": "3-7-0",
+        "rec": "3-8-0",
         "pct": null,
         "gb": "10",
         "pts": "6",
-        "home": "3-3-0",
+        "home": "3-4-0",
         "road": "0-4-0",
         "l10": "3-7-0",
-        "strk": "L2",
-        "diff": "-18",
+        "strk": "L3",
+        "diff": "-19",
         "div": "2-2-0",
         "seed": "15"
        }
@@ -7904,23 +7916,23 @@
      {
       "a": "FLA",
       "h": "CHI",
-      "st": "5:42 - 3rd",
+      "st": "Final",
       "div": false,
-      "stake": "FLA 5-4-2: 6th Atlantic Division (7 pts back), East #11 seed (outside playoffs) · CHI 3-7-0: 8th Central Division (10 pts back), West #15 seed (outside playoffs)"
+      "stake": "FLA 6-4-2: 5th Atlantic Division (5 pts back), East #8 seed (in playoff spot) · CHI 3-8-0: 8th Central Division (10 pts back), West #15 seed (outside playoffs)"
      },
      {
       "a": "NYI",
       "h": "DAL",
-      "st": "10/25 - 6:00 PM EDT",
+      "st": "7:08 - 2nd",
       "div": false,
-      "stake": "NYI 5-3-2: 5th Metropolitan Division (8 pts back), East #9 seed (outside playoffs) · DAL 6-3-1: 3rd Central Division (3 pts back), West #6 seed (in playoff spot)"
+      "stake": "NYI 5-3-2: 5th Metropolitan Division (8 pts back), East #10 seed (outside playoffs) · DAL 6-3-1: 3rd Central Division (3 pts back), West #6 seed (in playoff spot)"
      },
      {
       "a": "MTL",
       "h": "WPG",
-      "st": "10/25 - 7:00 PM EDT",
+      "st": "16:12 - 1st",
       "div": false,
-      "stake": "MTL 5-3-2: 5th Atlantic Division (7 pts back), East #10 seed (outside playoffs) · WPG 4-3-3: 5th Central Division (5 pts back), West #9 seed (outside playoffs)"
+      "stake": "MTL 5-3-2: 6th Atlantic Division (7 pts back), East #11 seed (outside playoffs) · WPG 4-3-3: 5th Central Division (5 pts back), West #9 seed (outside playoffs)"
      },
      {
       "a": "COL",
@@ -9154,10 +9166,10 @@
   },
   {
    "sport": "NFL",
-   "w": 14,
-   "l": 21,
+   "w": 16,
+   "l": 22,
    "p": 0,
-   "pct": 40,
+   "pct": 42,
    "active": true,
    "ticket_legs": {
     "w": 9,
@@ -10025,10 +10037,10 @@
   },
   {
    "sport": "NFL",
-   "w": 14,
-   "l": 21,
+   "w": 16,
+   "l": 22,
    "p": 0,
-   "pct": 40,
+   "pct": 42,
    "props": [
     {
      "prop": "NFL anytime TD",
@@ -10038,11 +10050,18 @@
      "pct": 45
     },
     {
+     "prop": "NFL game total",
+     "w": 2,
+     "l": 3,
+     "p": 0,
+     "pct": 40
+    },
+    {
      "prop": "NFL spread",
      "w": 2,
-     "l": 1,
+     "l": 2,
      "p": 0,
-     "pct": 67
+     "pct": 50
     },
     {
      "prop": "NFL parlay",
@@ -10057,13 +10076,6 @@
      "l": 1,
      "p": 0,
      "pct": 67
-    },
-    {
-     "prop": "NFL game total",
-     "w": 0,
-     "l": 3,
-     "p": 0,
-     "pct": 0
     },
     {
      "prop": "NFL o1.5 rec",
@@ -10137,10 +10149,10 @@
     }
    ],
    "official": {
-    "w": 14,
-    "l": 21,
+    "w": 16,
+    "l": 22,
     "p": 0,
-    "pct": 40,
+    "pct": 42,
     "props": [
      {
       "prop": "NFL anytime TD",
@@ -10150,11 +10162,18 @@
       "pct": 45
      },
      {
+      "prop": "NFL game total",
+      "w": 2,
+      "l": 3,
+      "p": 0,
+      "pct": 40
+     },
+     {
       "prop": "NFL spread",
       "w": 2,
-      "l": 1,
+      "l": 2,
       "p": 0,
-      "pct": 67
+      "pct": 50
      },
      {
       "prop": "NFL parlay",
@@ -10169,13 +10188,6 @@
       "l": 1,
       "p": 0,
       "pct": 67
-     },
-     {
-      "prop": "NFL game total",
-      "w": 0,
-      "l": 3,
-      "p": 0,
-      "pct": 0
      },
      {
       "prop": "NFL o1.5 rec",
@@ -11876,6 +11888,8 @@
       "grade": "A-",
       "reason": "Vele 49.0 rec yds/gm this season (6 gms), 53.3 last 10; hit 25+ in 10 of last 10, 6 of 6 this season.",
       "why_not": "It hit in all of the last 10 games, but streaks end, and one quiet game sinks it.",
+      "status": "WON",
+      "result": "54 rec yds",
       "dk": {
        "na": true
       }
@@ -12125,6 +12139,8 @@
       "grade": "A-",
       "reason": "Reinhart 3.2 SOG/gm this season (11 gms), 3.3 last 10; hit 2+ in 9 of last 10, 10 of 11 this season; 20 min TOI; Blackhawks allow 30.3 shots/gm (lg 27.4).",
       "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it.",
+      "status": "WON",
+      "result": "2 SOG",
       "dk": {
        "na": true
       }
@@ -12150,6 +12166,8 @@
       "reason": "Taylor 20.3 carries/gm this season (6 gms), 19.8 last 10; hit 15+ in 9 of last 10, 6 of 6 this season.",
       "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it.",
       "sport": "NFL",
+      "status": "WON",
+      "result": "18 carries",
       "dk": {
        "na": true
       }
@@ -12162,6 +12180,8 @@
       "reason": "Judkins 14.6 carries/gm this season (5 gms), 14.6 last 10; hit 12+ in 9 of last 10, 5 of 5 this season.",
       "why_not": "It missed in 1 of the last 10 games, so one quiet game sinks it.",
       "sport": "NFL",
+      "status": "WON",
+      "result": "17 carries",
       "dk": {
        "na": true
       }
@@ -12365,6 +12385,8 @@
       "edge_src": "derived",
       "derived": true,
       "sport": "NFL",
+      "status": "WON",
+      "result": "11 carries",
       "dk": {
        "na": true
       }
@@ -12431,7 +12453,7 @@
     "fair": "+372",
     "fair_prob": 0.2118573320817302,
     "edge": 0.1122509934290834,
-    "result": "Pending",
+    "result": "Loss (IND 10-16 MIN)",
     "picked_et": "7:08 AM ET",
     "why": "Hard Rock +425 vs Pinnacle no-vig fair +372 (21.2%) → edge +11.23%. Clears the 4% Pinnacle edge floor at +11.23%. Price +425 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
@@ -12454,7 +12476,7 @@
     "fair": "+160",
     "fair_prob": 0.38453147158285156,
     "edge": 0.05746154685284188,
-    "result": "Pending",
+    "result": "Win (total 48)",
     "picked_et": "7:08 AM ET",
     "why": "Hard Rock +175 vs Pinnacle no-vig fair +160 (38.5%) → edge +5.75%. Clears the 4% Pinnacle edge floor at +5.75%. Price +175 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
@@ -12477,7 +12499,7 @@
     "fair": "+147",
     "fair_prob": 0.4049511002444987,
     "edge": 0.05287286063569674,
-    "result": "Pending",
+    "result": "Win (total 49)",
     "picked_et": "7:08 AM ET",
     "why": "Hard Rock +160 vs Pinnacle no-vig fair +147 (40.5%) → edge +5.29%. Clears the 4% Pinnacle edge floor at +5.29%. Price +160 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
@@ -12634,7 +12656,7 @@
      "fair": "+372",
      "fair_prob": 0.2118573320817302,
      "edge": 0.1122509934290834,
-     "result": "Pending",
+     "result": "Loss (IND 10-16 MIN)",
      "picked_et": "7:08 AM ET",
      "why": "Hard Rock +425 vs Pinnacle no-vig fair +372 (21.2%) → edge +11.23%. Clears the 4% Pinnacle edge floor at +11.23%. Price +425 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
@@ -12683,7 +12705,7 @@
      "fair": "+160",
      "fair_prob": 0.38453147158285156,
      "edge": 0.05746154685284188,
-     "result": "Pending",
+     "result": "Win (total 48)",
      "picked_et": "7:08 AM ET",
      "why": "Hard Rock +175 vs Pinnacle no-vig fair +160 (38.5%) → edge +5.75%. Clears the 4% Pinnacle edge floor at +5.75%. Price +175 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
@@ -12704,7 +12726,7 @@
      "fair": "+147",
      "fair_prob": 0.4049511002444987,
      "edge": 0.05287286063569674,
-     "result": "Pending",
+     "result": "Win (total 49)",
      "picked_et": "7:08 AM ET",
      "why": "Hard Rock +160 vs Pinnacle no-vig fair +147 (40.5%) → edge +5.29%. Clears the 4% Pinnacle edge floor at +5.29%. Price +160 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
@@ -13151,7 +13173,7 @@
     "odds": "+165",
     "book": "Hard Rock",
     "grade": "C",
-    "status": "Pending",
+    "status": "L",
     "why": "[C] Score 51.0/100. RZ touches 2.4/g L5; goal-line share 50% (i5 50%, i10 50%); opp allows 1.00 TD/g to RB; team total 23.5 (Hard Rock team total); L10 ATD 30% (nflverse game logs (10 g)).",
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
     "dk": {
@@ -13165,7 +13187,7 @@
     "odds": "+200",
     "book": "Hard Rock",
     "grade": "C",
-    "status": "Pending",
+    "status": "W",
     "why": "[C] Score 47.9/100. RZ touches 3.4/g L5; goal-line share 48% (i5 56%, i10 40%); opp allows 1.00 TD/g to RB; team total 16.5 (Hard Rock team total); L10 ATD 40% (nflverse game logs (10 g)).",
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
     "dk": {
@@ -13179,7 +13201,7 @@
     "odds": "+175",
     "book": "Hard Rock",
     "grade": "C",
-    "status": "Pending",
+    "status": "W",
     "why": "[C] Score 44.7/100. RZ touches 2.6/g L5; goal-line share 55% (i5 57%, i10 54%); opp allows 0.67 TD/g to RB; team total 19.5 (Hard Rock team total); L10 ATD 20% (nflverse game logs (10 g)).",
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
     "dk": {
@@ -13207,7 +13229,7 @@
     "odds": "+350",
     "book": "Hard Rock",
     "grade": "C",
-    "status": "Pending",
+    "status": "W",
     "why": "[C] Score 35.8/100. RZ touches 2.2/g L5; goal-line share 37% (i5 38%, i10 36%); opp allows 0.83 TD/g to RB; team total 15.5 (Hard Rock team total); L10 ATD 40% (nflverse game logs (10 g)).",
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
     "dk": {
@@ -13221,7 +13243,7 @@
     "odds": "+160",
     "book": "Hard Rock",
     "grade": "C",
-    "status": "Pending",
+    "status": "L",
     "why": "[C] Score 34.4/100. RZ touches 2.2/g L5; goal-line share 26% (i5 24%, i10 28%); opp allows 0.67 TD/g to RB; team total 20.5 (Hard Rock team total); L10 ATD 30% (nflverse game logs (10 g)).",
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
     "dk": {
@@ -13266,12 +13288,12 @@
  },
  "edge_record": {
   "overall": {
-   "w": 68,
-   "l": 121,
+   "w": 70,
+   "l": 122,
    "p": 1,
    "pct": 36,
-   "units": -21.91,
-   "pending": 5
+   "units": -19.56,
+   "pending": 2
   },
   "by_sport": {
    "MLB": {
@@ -13299,12 +13321,12 @@
     "pending": 0
    },
    "NFL": {
-    "w": 2,
-    "l": 4,
+    "w": 4,
+    "l": 5,
     "p": 0,
-    "pct": 33,
-    "units": -1.98,
-    "pending": 3
+    "pct": 44,
+    "units": 0.37,
+    "pending": 0
    },
    "NHL": {
     "w": 58,
@@ -13421,12 +13443,12 @@
     "pending": 0
    },
    "NFL game total": {
-    "w": 0,
+    "w": 2,
     "l": 3,
     "p": 0,
-    "pct": 0,
-    "units": -3.0,
-    "pending": 2
+    "pct": 40,
+    "units": 0.35,
+    "pending": 0
    },
    "NFL receptions": {
     "w": 1,
@@ -13438,11 +13460,11 @@
    },
    "NFL spread": {
     "w": 1,
-    "l": 0,
+    "l": 1,
     "p": 0,
-    "pct": 100,
-    "units": 0.87,
-    "pending": 1
+    "pct": 50,
+    "units": -0.13,
+    "pending": 0
    },
    "NHL SOG": {
     "w": 24,
@@ -16577,8 +16599,8 @@
    "prop": "NFL spread",
    "pick": "Colts -3.5",
    "odds": "+425",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (IND 10-16 MIN)"
   },
   {
    "date": "2026-10-25",
@@ -16587,8 +16609,8 @@
    "prop": "NFL game total",
    "pick": "Q1 Over 10.5",
    "odds": "+175",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (total 48)"
   },
   {
    "date": "2026-10-25",
@@ -16597,8 +16619,8 @@
    "prop": "NFL game total",
    "pick": "Q1 Over 10.5",
    "odds": "+160",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (total 49)"
   },
   {
    "date": "2026-10-25",
@@ -16631,8 +16653,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 299,
-  "headline": 299
+  "tiles_sum": 302,
+  "headline": 302
  },
  "inning_record": {},
  "ingame_lines": {
@@ -16825,9 +16847,9 @@
     "prop": "Over 9.5 Rush Attempts",
     "odds": "-125",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
+    "status": "final",
+    "res": "L",
+    "stat": "8 carries",
     "dk": {
      "odds": null,
      "na": true
@@ -16842,9 +16864,9 @@
     "prop": "Under 7.5 Receiving Yards",
     "odds": "-120",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
+    "status": "final",
+    "res": "W",
+    "stat": "0 rec yds",
     "dk": {
      "odds": null,
      "na": true
@@ -16859,9 +16881,9 @@
     "prop": "Over 29.5 Rushing Yards",
     "odds": "-110",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
+    "status": "final",
+    "res": "W",
+    "stat": "124 rush yds",
     "dk": {
      "odds": null,
      "na": true
@@ -16876,9 +16898,9 @@
     "prop": "Under 16.5 Rush Attempts",
     "odds": "-115",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
+    "status": "final",
+    "res": "L",
+    "stat": "19 carries",
     "dk": {
      "odds": null,
      "na": true
@@ -16893,9 +16915,9 @@
     "prop": "Under 10.5 Rush Attempts",
     "odds": "-105",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
+    "status": "final",
+    "res": "W",
+    "stat": "7 carries",
     "dk": {
      "odds": "-130",
      "na": false,
@@ -17213,7 +17235,7 @@
   "results": [
    "Exactly three groups, in this order: Official, Edge and Cappers. Each shows its record broken down by prop type. Leg-by-leg records are not shown. Picks from dropped boxes and placed tickets are archived and never listed.",
    "Edge = its own section, one result per Edge pick, broken down by prop type.",
-   "The Heist = the daily Cappers Parlay, its own card and record under Official, graded nightly.",
+   "The Heist = the daily Cappers buy-downs, its own card and record under Official, tallied as individual alt props and graded nightly.",
    "Safe +100 (Alt Parlay) = the Safe +100 / Alt Parlay ticket, its own card and record under Official.",
    "LEG DAY = the daily ranked props board: each board prop is one 1u Official result. Its own compact tile and record under Official, with a per-sport breakdown.",
    "Lotto Ticket (TD City) = the NFL anytime-TD Lotto Ticket, its own card and record under Official.",
@@ -17235,8 +17257,7 @@
    "Exempt from the official standards: no 4% Pinnacle edge, no 2-leg cap and no -130..-250 leg range. Everything else still applies: real Hard Rock prices only, never invent a price, locks, grading.",
    "Cappers: at most one leg each from @alexcaruso, @panpotd, @austinsprops, @showtimepicks2, @bigmikepickz and @habibtings. Never @tonestakes, @doctorprofit or @salbets_.",
    "Ticket: max 5 legs, one per game, at least 2 legs. With no ticket yet (before the first build, or fewer than 2 bought-down legs) the card is a minimal empty card: header, Stake 1u and this Rules dropdown, with no timing text.",
-   "Odds and stake: American total of the bought-down legs. Stake 1u. Mixed-sport tickets file under Big 4.",
-   "Grading: nightly, shown under Official as \"The Heist\" on Results and Record. The ticket is L as soon as any leg loses. A void or DNP leg stays Pending until settled by hand (strict).",
+   "TALLY = INDIVIDUAL ALT PROPS: every buy-down in the Buy-downs list is its own Official 1u single, graded at its converted Hard Rock alt line (the capper's original line when no rung was kept), priced at that Hard Rock alt price (kept line: the real Hard Rock exact-line price before kickoff, else the capper's posted price). Rows are written to the bot once the game starts (conversion frozen at kickoff) and graded nightly by the bot (W pays at the price, L = -1u, push/void 0; longest rush/rec from the ESPN box-score LONG column). Records shows THE HEIST group as per-prop W-L and units, by prop type and capper. Not graded (not a single prop with a gradable line): capper parlays, ML/side picks and ambiguous stats; the card lists each with its reason. The old parlay ticket record is archived in the bot (never deleted, never tallied). The card no longer shows a combined parlay price; it shows the day's alt-prop W-L and units. Every buy-down row and every leg shows the live prop tracker at the active book's converted line.",
    "Capper / heist separation:",
    "CAPPER SELF-AUDIT. The bot runs automatically, zero LLM, in every capper pull path: the 7 AM pull and every the bot run (7am, 10am, 1230pm, 4pm), in this order: the bot, then a pre-audit that fixes rows (result not gating), then the bot, then the bot, then the GATE audit against the freshly built the bot, then push. It does four things."
   ],
@@ -21211,8 +21232,8 @@
     "prop": "NFL spread",
     "pick": "Colts -3.5",
     "odds": "+425",
-    "res": "",
-    "stat": "Pending",
+    "res": "L",
+    "stat": "Loss (IND 10-16 MIN)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -21227,8 +21248,8 @@
     "prop": "NFL game total",
     "pick": "Q1 Over 10.5",
     "odds": "+175",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (total 48)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -21243,8 +21264,8 @@
     "prop": "NFL game total",
     "pick": "Q1 Over 10.5",
     "odds": "+160",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (total 49)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -21836,8 +21857,8 @@
     "prop": "NFL alt Devaughn Vele 25+ rec yds",
     "pick": "Devaughn Vele 25+ rec yds",
     "odds": "-400",
-    "res": "",
-    "stat": "—",
+    "res": "W",
+    "stat": "54 rec yds",
     "alt": true,
     "fam": "Receiving yds",
     "img": null,
@@ -21932,8 +21953,8 @@
     "prop": "NHL alt Sam Reinhart 2+ SOG",
     "pick": "Sam Reinhart 2+ SOG",
     "odds": "-325",
-    "res": "",
-    "stat": "—",
+    "res": "W",
+    "stat": "2 SOG",
     "alt": true,
     "fam": "SOG",
     "img": null,
@@ -21964,8 +21985,8 @@
     "prop": "Today alt Jonathan Taylor 15+ carries",
     "pick": "Jonathan Taylor 15+ carries",
     "odds": "-300",
-    "res": "",
-    "stat": "—",
+    "res": "W",
+    "stat": "18 carries",
     "alt": true,
     "fam": "Rush attempts",
     "img": null,
@@ -21980,8 +22001,8 @@
     "prop": "Today alt Quinshon Judkins 12+ carries",
     "pick": "Quinshon Judkins 12+ carries",
     "odds": "-325",
-    "res": "",
-    "stat": "—",
+    "res": "W",
+    "stat": "17 carries",
     "alt": true,
     "fam": "Rush attempts",
     "img": null,
@@ -22076,8 +22097,8 @@
     "prop": "Today alt (Edge 4%+) Chase Brown 9+ Rush Attempts",
     "pick": "Chase Brown 9+ Rush Attempts",
     "odds": "-240",
-    "res": "",
-    "stat": "—",
+    "res": "W",
+    "stat": "11 carries",
     "alt": true,
     "fam": "Rush attempts",
     "img": null,
@@ -22316,7 +22337,7 @@
     "prop": "Anytime TD",
     "pick": "Jordan Mason (RB) anytime TD",
     "odds": "+165",
-    "res": "",
+    "res": "L",
     "stat": "",
     "alt": false,
     "fam": "Anytime TD",
@@ -22332,7 +22353,7 @@
     "prop": "Anytime TD",
     "pick": "Ollie Gordon II (RB) anytime TD",
     "odds": "+200",
-    "res": "",
+    "res": "W",
     "stat": "",
     "alt": false,
     "fam": "Anytime TD",
@@ -22348,7 +22369,7 @@
     "prop": "Anytime TD",
     "pick": "Quinshon Judkins (RB) anytime TD",
     "odds": "+175",
-    "res": "",
+    "res": "W",
     "stat": "",
     "alt": false,
     "fam": "Anytime TD",
@@ -22380,7 +22401,7 @@
     "prop": "Anytime TD",
     "pick": "Cam Skattebo (RB) anytime TD",
     "odds": "+350",
-    "res": "",
+    "res": "W",
     "stat": "",
     "alt": false,
     "fam": "Anytime TD",
@@ -22396,7 +22417,7 @@
     "prop": "Anytime TD",
     "pick": "Kendre Miller (RB) anytime TD",
     "odds": "+160",
-    "res": "",
+    "res": "L",
     "stat": "",
     "alt": false,
     "fam": "Anytime TD",
@@ -24516,6 +24537,134 @@
     "sub": ""
    },
    {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play)",
+    "odds": "-105",
+    "res": "W",
+    "stat": "W (24 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD)",
+    "odds": "-114",
+    "res": "L",
+    "stat": "L (27 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "JK Dobbins o47.5 rush yds (Broncos vs Cardinals)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (23 rush yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Bijan Robinson o28.5 rec yds (Falcons vs 49ers; NFL Play of the Day)",
+    "odds": "none posted",
+    "res": "W",
+    "stat": "W (59 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NFL ML",
+    "fam": "ML",
+    "pick": "Tennessee Titans ML (first NFL free play)",
+    "odds": "+114",
+    "res": "L",
+    "stat": "L (CLE 27-24 TEN)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Chris Olave o74.5 rec yds (Week 7 full card)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (56 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Jaylin Noel o26.5 rec yds (Texans; NFL Play #4)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (-3 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rush yds (under)",
+    "fam": "Rushing yds",
+    "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day)",
+    "odds": "none posted",
+    "res": "W",
+    "stat": "W (33 rush yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -24650,38 +24799,6 @@
     "cat": "Cappers",
     "prop": "@austinsprops · NFL rec yds (over)",
     "fam": "Receiving yds",
-    "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play)",
-    "odds": "-105",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD)",
-    "odds": "-114",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL rec yds (over)",
-    "fam": "Receiving yds",
     "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers)",
     "odds": "-110",
     "res": "",
@@ -24728,70 +24845,6 @@
     "sport": "NFL",
     "grp": "C",
     "cat": "Cappers",
-    "prop": "@alexcaruso · NFL rush yds (over)",
-    "fam": "Rushing yds",
-    "pick": "JK Dobbins o47.5 rush yds (Broncos vs Cardinals)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "Bijan Robinson o28.5 rec yds (Falcons vs 49ers; NFL Play of the Day)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@showtimepicks2 · NFL ML",
-    "fam": "ML",
-    "pick": "Tennessee Titans ML (first NFL free play)",
-    "odds": "+114",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "Chris Olave o74.5 rec yds (Week 7 full card)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
     "prop": "@austinsprops · NFL receptions (over)",
     "fam": "Receptions",
     "pick": "Tucker Kraft o4.5 receptions (Week 7 full card)",
@@ -24811,38 +24864,6 @@
     "prop": "@austinsprops · NFL yds (over)",
     "fam": "Other",
     "pick": "Jonah Coleman o17.5 RY (posted as \"RY\"; Week 7 full card)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "Jaylin Noel o26.5 rec yds (Texans; NFL Play #4)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL rush yds (under)",
-    "fam": "Rushing yds",
-    "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day)",
     "odds": "none posted",
     "res": "",
     "stat": "",
@@ -24888,64 +24909,216 @@
     "sport": "NFL",
     "grp": "O",
     "cat": "The Heist",
-    "prop": "The Heist · 3-leg",
-    "fam": "Parlay",
-    "pick": "Bijan Robinson 19+ rec yds + Denzel Boston 31+ rec yds + Woody Marks o13.5 longest rush",
-    "odds": "+226",
-    "res": "",
-    "stat": "1u",
+    "prop": "@alexcaruso · Rush yds",
+    "fam": "Rush yds",
+    "pick": "JK Dobbins 33+ rush yds",
+    "odds": "-325",
+    "res": "L",
+    "stat": "23 rush yds",
     "alt": true,
     "leg": false,
     "img": null,
-    "sub": "Original combined —"
+    "sub": "from JK Dobbins o47.5 rush yds",
+    "uu": -1.0,
+    "game": "DEN @ ARI"
    },
    {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
     "cat": "The Heist",
-    "prop": "@alexcaruso · bought down",
-    "fam": "Other",
+    "prop": "@alexcaruso · Receiving yds",
+    "fam": "Receiving yds",
     "pick": "Bijan Robinson 19+ rec yds",
     "odds": "-325",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "59 rec yds",
     "alt": true,
-    "leg": true,
+    "leg": false,
     "img": null,
-    "sub": "from Bijan Robinson o28.5 rec yds —"
+    "sub": "from Bijan Robinson o28.5 rec yds",
+    "uu": 0.31,
+    "game": "SF @ ATL"
    },
    {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
     "cat": "The Heist",
-    "prop": "@panpotd · bought down",
-    "fam": "Other",
-    "pick": "Denzel Boston 31+ rec yds",
+    "prop": "@alexcaruso · Receiving yds",
+    "fam": "Receiving yds",
+    "pick": "Jaylin Noel 15+ rec yds",
+    "odds": "-300",
+    "res": "L",
+    "stat": "-3 rec yds",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jaylin Noel o26.5 rec yds",
+    "uu": -1.0,
+    "game": "NYG @ HOU"
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Rush yds",
+    "fam": "Rush yds",
+    "pick": "Chuba Hubbard u88.5 rush yds",
     "odds": "-325",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "33 rush yds",
     "alt": true,
-    "leg": true,
+    "leg": false,
     "img": null,
-    "sub": "from Denzel Boston o48.5 rec yds -114"
+    "sub": "from Chuba Hubbard u67.5 rush yds",
+    "uu": 0.31,
+    "game": "TB @ CAR"
    },
    {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
     "cat": "The Heist",
-    "prop": "@austinsprops · bought down",
-    "fam": "Other",
+    "prop": "@austinsprops · Receiving yds",
+    "fam": "Receiving yds",
+    "pick": "Gunnar Helm 7+ rec yds",
+    "odds": "-300",
+    "res": "W",
+    "stat": "24 rec yds",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Gunnar Helm o12.5 rec yds",
+    "uu": 0.33,
+    "game": "CLE @ TEN"
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Receiving yds",
+    "fam": "Receiving yds",
+    "pick": "Ted Hurst 21+ rec yds",
+    "odds": "-325",
+    "res": "L",
+    "stat": "0 rec yds",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Ted Hurst o36.5 rec yds",
+    "uu": -1.0,
+    "game": "TB @ CAR"
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Longest rush/rec",
+    "fam": "Longest rush/rec",
     "pick": "Woody Marks o13.5 longest rush",
     "odds": "-110",
+    "res": "L",
+    "stat": "11 long",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Woody Marks o13.5 longest rush",
+    "uu": -1.0,
+    "game": "NYG @ HOU"
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Receiving yds",
+    "fam": "Receiving yds",
+    "pick": "Chris Olave 52+ rec yds",
+    "odds": "-325",
+    "res": "W",
+    "stat": "56 rec yds",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Chris Olave o74.5 rec yds",
+    "uu": 0.31,
+    "game": "PIT @ NO"
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Receptions",
+    "fam": "Receptions",
+    "pick": "Tucker Kraft 4+ receptions",
+    "odds": "-275",
     "res": "",
     "stat": "",
     "alt": true,
-    "leg": true,
+    "leg": false,
     "img": null,
-    "sub": "from Woody Marks o13.5 longest rush -110"
+    "sub": "from Tucker Kraft o4.5 receptions",
+    "uu": 0.0,
+    "game": "GB @ DET"
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Pts + Ast",
+    "fam": "Pts + Ast",
+    "pick": "Franz Wagner o26.5 Pts+Ast",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Franz Wagner o26.5 Pts+Ast",
+    "uu": 0.0,
+    "game": "ORL @ NY"
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · Receiving yds",
+    "fam": "Receiving yds",
+    "pick": "Jordan Watkins 11+ rec yds",
+    "odds": "-325",
+    "res": "W",
+    "stat": "56 rec yds",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jordan Watkins o21.5 rec yds",
+    "uu": 0.31,
+    "game": "SF @ ATL"
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · Receiving yds",
+    "fam": "Receiving yds",
+    "pick": "Denzel Boston 31+ rec yds",
+    "odds": "-325",
+    "res": "L",
+    "stat": "27 rec yds",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Denzel Boston o48.5 rec yds",
+    "uu": -1.0,
+    "game": "CLE @ TEN"
    },
    {
     "date": "2026-10-25",
@@ -24955,11 +25128,11 @@
     "prop": "Ollie Gordon II Under 7.5 Receiving Yards",
     "pick": "#5 Ollie Gordon II Under 7.5 Receiving Yards",
     "odds": "-120",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "0 rec yds",
     "alt": false,
     "rank": 5,
-    "uu": 0.0,
+    "uu": 0.83,
     "game": "Jets vs Dolphins",
     "leg": false,
     "img": null,
@@ -25012,11 +25185,11 @@
     "prop": "Bam Knight Under 10.5 Rush Attempts",
     "pick": "#8 Bam Knight Under 10.5 Rush Attempts",
     "odds": "-105",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "7 carries",
     "alt": false,
     "rank": 8,
-    "uu": 0.0,
+    "uu": 0.95,
     "game": "Cardinals vs Broncos",
     "leg": false,
     "img": null,
@@ -25031,11 +25204,11 @@
     "prop": "Woody Marks Under 16.5 Rush Attempts",
     "pick": "#7 Woody Marks Under 16.5 Rush Attempts",
     "odds": "-115",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "19 carries",
     "alt": false,
     "rank": 7,
-    "uu": 0.0,
+    "uu": -1.0,
     "game": "Texans vs Giants",
     "leg": false,
     "img": null,
@@ -25145,11 +25318,11 @@
     "prop": "Aaron Jones Sr. Over 9.5 Rush Attempts",
     "pick": "#4 Aaron Jones Sr. Over 9.5 Rush Attempts",
     "odds": "-125",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "8 carries",
     "alt": false,
     "rank": 4,
-    "uu": 0.0,
+    "uu": -1.0,
     "game": "Vikings vs Colts",
     "leg": false,
     "img": null,
@@ -25164,11 +25337,11 @@
     "prop": "Cam Skattebo Over 29.5 Rushing Yards",
     "pick": "#6 Cam Skattebo Over 29.5 Rushing Yards",
     "odds": "-110",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "124 rush yds",
     "alt": false,
     "rank": 6,
-    "uu": 0.0,
+    "uu": 0.91,
     "game": "Texans vs Giants",
     "leg": false,
     "img": null,
@@ -25236,27 +25409,27 @@
   "summary": {
    "O": {
     "tickets": {
-     "w": 16,
-     "l": 35,
+     "w": 24,
+     "l": 42,
      "p": 1,
-     "pending": 22,
-     "units": -19
+     "pending": 18,
+     "units": -18
     },
     "legs": {
-     "w": 27,
-     "l": 22,
+     "w": 35,
+     "l": 24,
      "p": 0,
-     "pending": 22,
-     "units": 5
+     "pending": 9,
+     "units": 11
     }
    },
    "E": {
     "tickets": {
-     "w": 68,
-     "l": 121,
+     "w": 70,
+     "l": 122,
      "p": 1,
-     "pending": 5,
-     "units": -53
+     "pending": 2,
+     "units": -52
     },
     "legs": {
      "w": 0,
@@ -25268,11 +25441,11 @@
    },
    "C": {
     "tickets": {
-     "w": 76,
-     "l": 56,
+     "w": 79,
+     "l": 61,
      "p": 0,
-     "pending": 23,
-     "units": 20
+     "pending": 15,
+     "units": 18
     },
     "legs": {
      "w": 0,
@@ -25295,7 +25468,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 23 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 15 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 276 archived rows skipped (retired tier + placed tickets; see archive/)"
   ],
@@ -25426,8 +25599,8 @@
     "gkey": "NFL:401873017",
     "start": "2026-10-25 13:00",
     "locked": true,
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "59 rec yds",
     "priced": "2026-10-25 12:56",
     "orig_note": "book price; capper posted no odds",
     "dk": {
@@ -25447,8 +25620,8 @@
     "gkey": "NFL:401873013",
     "start": "2026-10-25 13:00",
     "locked": true,
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "27 rec yds",
     "priced": "2026-10-25 12:56",
     "dk": {
      "na": true,
@@ -25467,8 +25640,8 @@
     "gkey": "NFL:401873016",
     "start": "2026-10-25 13:00",
     "locked": true,
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "11 long",
     "priced": "2026-10-25 12:56",
     "dk": {
      "odds": null,
@@ -25505,6 +25678,7 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
+  "res": "L",
   "dk_odds": null,
   "dk_orig": null,
   "conv": [
@@ -25521,7 +25695,19 @@
     "hr": "33+ -325",
     "dk": "original line kept (no DK rung in -250..-375)",
     "hr_odds": -325,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": "2026-10-25 16:05",
+    "hr_pick": "JK Dobbins 33+ rush yds",
+    "dk_pick": "JK Dobbins o47.5 rush yds",
+    "trk": "JK Dobbins 33+ rush yds",
+    "grade_odds": -325,
+    "hr_x": null,
+    "excluded": null,
+    "res": "L",
+    "stat": "23 rush yds",
+    "uu": -1.0,
+    "graded_line": "JK Dobbins 33+ rush yds",
+    "graded_odds": "-325"
    },
    {
     "capper": "@alexcaruso",
@@ -25536,7 +25722,19 @@
     "hr": "19+ -325",
     "dk": "20+ -256",
     "hr_odds": -325,
-    "dk_odds": -256
+    "dk_odds": -256,
+    "start": "2026-10-25 13:00",
+    "hr_pick": "Bijan Robinson 19+ rec yds",
+    "dk_pick": "Bijan Robinson 20+ rec yds",
+    "trk": "Bijan Robinson 19+ rec yds",
+    "grade_odds": -325,
+    "hr_x": null,
+    "excluded": null,
+    "res": "W",
+    "stat": "59 rec yds",
+    "uu": 0.31,
+    "graded_line": "Bijan Robinson 19+ rec yds",
+    "graded_odds": "-325"
    },
    {
     "capper": "@alexcaruso",
@@ -25551,7 +25749,19 @@
     "hr": "15+ -300",
     "dk": "15+ -294",
     "hr_odds": -300,
-    "dk_odds": -294
+    "dk_odds": -294,
+    "start": "2026-10-25 13:00",
+    "hr_pick": "Jaylin Noel 15+ rec yds",
+    "dk_pick": "Jaylin Noel 15+ rec yds",
+    "trk": "Jaylin Noel 15+ rec yds",
+    "grade_odds": -300,
+    "hr_x": null,
+    "excluded": null,
+    "res": "L",
+    "stat": "-3 rec yds",
+    "uu": -1.0,
+    "graded_line": "Jaylin Noel 15+ rec yds",
+    "graded_odds": "-300"
    },
    {
     "capper": "@alexcaruso",
@@ -25566,7 +25776,19 @@
     "hr": "u88.5 -325",
     "dk": "original line kept (no DK rung in -250..-375)",
     "hr_odds": -325,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": "2026-10-25 13:00",
+    "hr_pick": "Chuba Hubbard u88.5 rush yds",
+    "dk_pick": "Chuba Hubbard u67.5 rush yds",
+    "trk": "Chuba Hubbard u88.5 rush yds",
+    "grade_odds": -325,
+    "hr_x": null,
+    "excluded": null,
+    "res": "W",
+    "stat": "33 rush yds",
+    "uu": 0.31,
+    "graded_line": "Chuba Hubbard u88.5 rush yds",
+    "graded_odds": "-325"
    },
    {
     "capper": "@alexcaruso",
@@ -25581,7 +25803,14 @@
     "hr": "original line kept (no HR rung in -250..-375)",
     "dk": "original line kept (no DK rung in -250..-375)",
     "hr_odds": null,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": "2026-10-25 13:00",
+    "hr_pick": null,
+    "dk_pick": "John Metchie o12.5 rec yds",
+    "trk": "John Metchie o12.5 rec yds",
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
    },
    {
     "capper": "@austinsprops",
@@ -25596,7 +25825,19 @@
     "hr": "7+ -300",
     "dk": "original line kept (no DK rung in -250..-375)",
     "hr_odds": -300,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": "2026-10-25 13:00",
+    "hr_pick": "Gunnar Helm 7+ rec yds",
+    "dk_pick": "Gunnar Helm o12.5 rec yds",
+    "trk": "Gunnar Helm 7+ rec yds",
+    "grade_odds": -300,
+    "hr_x": null,
+    "excluded": null,
+    "res": "W",
+    "stat": "24 rec yds",
+    "uu": 0.33,
+    "graded_line": "Gunnar Helm 7+ rec yds",
+    "graded_odds": "-300"
    },
    {
     "capper": "@austinsprops",
@@ -25611,7 +25852,19 @@
     "hr": "21+ -325",
     "dk": "25+ -263",
     "hr_odds": -325,
-    "dk_odds": -263
+    "dk_odds": -263,
+    "start": "2026-10-25 13:00",
+    "hr_pick": "Ted Hurst 21+ rec yds",
+    "dk_pick": "Ted Hurst 25+ rec yds",
+    "trk": "Ted Hurst 21+ rec yds",
+    "grade_odds": -325,
+    "hr_x": null,
+    "excluded": null,
+    "res": "L",
+    "stat": "0 rec yds",
+    "uu": -1.0,
+    "graded_line": "Ted Hurst 21+ rec yds",
+    "graded_odds": "-325"
    },
    {
     "capper": "@austinsprops",
@@ -25626,7 +25879,19 @@
     "hr": "original line kept (longest rush/rec never bought down)",
     "dk": "original line kept",
     "hr_odds": null,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": "2026-10-25 13:00",
+    "hr_pick": "Woody Marks o13.5 longest rush",
+    "dk_pick": "Woody Marks o13.5 longest rush",
+    "trk": "Woody Marks o13.5 longest rush",
+    "grade_odds": -110,
+    "hr_x": null,
+    "excluded": null,
+    "res": "L",
+    "stat": "11 long",
+    "uu": -1.0,
+    "graded_line": "Woody Marks o13.5 longest rush",
+    "graded_odds": "-110"
    },
    {
     "capper": "@austinsprops",
@@ -25641,7 +25906,14 @@
     "hr": "not convertible (parlay/TD/ML: original kept)",
     "dk": "—",
     "hr_odds": null,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": null,
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "parlay (not a single prop)"
    },
    {
     "capper": "@austinsprops",
@@ -25656,7 +25928,19 @@
     "hr": "52+ -325",
     "dk": "original line kept (no DK rung in -250..-375)",
     "hr_odds": -325,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": "2026-10-25 09:30",
+    "hr_pick": "Chris Olave 52+ rec yds",
+    "dk_pick": "Chris Olave o74.5 rec yds",
+    "trk": "Chris Olave 52+ rec yds",
+    "grade_odds": -325,
+    "hr_x": null,
+    "excluded": null,
+    "res": "W",
+    "stat": "56 rec yds",
+    "uu": 0.31,
+    "graded_line": "Chris Olave 52+ rec yds",
+    "graded_odds": "-325"
    },
    {
     "capper": "@austinsprops",
@@ -25671,7 +25955,19 @@
     "hr": "4+ -275",
     "dk": "4+ -259",
     "hr_odds": -275,
-    "dk_odds": -259
+    "dk_odds": -259,
+    "start": "2026-10-25 16:25",
+    "hr_pick": "Tucker Kraft 4+ receptions",
+    "dk_pick": "Tucker Kraft 4+ receptions",
+    "trk": "Tucker Kraft 4+ receptions",
+    "grade_odds": -275,
+    "hr_x": null,
+    "excluded": null,
+    "res": "",
+    "stat": "",
+    "uu": null,
+    "graded_line": "Tucker Kraft 4+ receptions",
+    "graded_odds": "-275"
    },
    {
     "capper": "@austinsprops",
@@ -25686,7 +25982,14 @@
     "hr": "not convertible (parlay/TD/ML: original kept)",
     "dk": "—",
     "hr_odds": null,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": null,
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"RY\")"
    },
    {
     "capper": "@austinsprops",
@@ -25695,13 +25998,25 @@
     "odds": "-125 FD",
     "game": "ORL @ NY",
     "kick": "7:00 PM ET",
-    "started": false,
+    "started": true,
     "final": false,
-    "frozen": false,
+    "frozen": true,
     "hr": "original line kept (no HR rung in -250..-375)",
     "dk": "original line kept (no DK rung in -250..-375)",
     "hr_odds": null,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": "2026-10-25 19:00",
+    "hr_pick": "Franz Wagner o26.5 Pts+Ast",
+    "dk_pick": "Franz Wagner o26.5 Pts+Ast",
+    "trk": "Franz Wagner o26.5 Pts+Ast",
+    "grade_odds": -125,
+    "hr_x": -125,
+    "excluded": null,
+    "res": "",
+    "stat": "",
+    "uu": null,
+    "graded_line": "Franz Wagner o26.5 Pts+Ast",
+    "graded_odds": "-125"
    },
    {
     "capper": "@panpotd",
@@ -25716,7 +26031,19 @@
     "hr": "11+ -325",
     "dk": "10+ -300",
     "hr_odds": -325,
-    "dk_odds": -300
+    "dk_odds": -300,
+    "start": "2026-10-25 13:00",
+    "hr_pick": "Jordan Watkins 11+ rec yds",
+    "dk_pick": "Jordan Watkins 10+ rec yds",
+    "trk": "Jordan Watkins 11+ rec yds",
+    "grade_odds": -325,
+    "hr_x": null,
+    "excluded": null,
+    "res": "W",
+    "stat": "56 rec yds",
+    "uu": 0.31,
+    "graded_line": "Jordan Watkins 11+ rec yds",
+    "graded_odds": "-325"
    },
    {
     "capper": "@panpotd",
@@ -25731,7 +26058,19 @@
     "hr": "31+ -325",
     "dk": "30+ -310",
     "hr_odds": -325,
-    "dk_odds": -310
+    "dk_odds": -310,
+    "start": "2026-10-25 13:00",
+    "hr_pick": "Denzel Boston 31+ rec yds",
+    "dk_pick": "Denzel Boston 30+ rec yds",
+    "trk": "Denzel Boston 31+ rec yds",
+    "grade_odds": -325,
+    "hr_x": null,
+    "excluded": null,
+    "res": "L",
+    "stat": "27 rec yds",
+    "uu": -1.0,
+    "graded_line": "Denzel Boston 31+ rec yds",
+    "graded_odds": "-325"
    },
    {
     "capper": "@showtimepicks2",
@@ -25746,9 +26085,24 @@
     "hr": "not convertible (parlay/TD/ML: original kept)",
     "dk": "—",
     "hr_odds": null,
-    "dk_odds": null
+    "dk_odds": null,
+    "start": "2026-10-25 13:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ML (not a prop)"
    }
-  ]
+  ],
+  "props": {
+   "n": 12,
+   "w": 5,
+   "l": 5,
+   "p": 0,
+   "pending": 2,
+   "units": -3.43
+  }
  },
  "big4_games": 24,
  "big4_games_by_sport": {
