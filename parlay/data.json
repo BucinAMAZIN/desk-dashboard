@@ -5728,7 +5728,7 @@
     {
      "sport": "NFL",
      "prop": "NFL rush yds (over)",
-     "pick": "JK Dobbins o47.5 rush yds (Broncos vs Cardinals) → HR orig kept, DK 40+ -370",
+     "pick": "JK Dobbins o47.5 rush yds (Broncos vs Cardinals) → HR 33+ -325, DK orig kept",
      "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
      "status": "Pending",
      "game": "DEN @ ARI",
@@ -5736,16 +5736,16 @@
      "started": true,
      "final": false,
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "40+ -370",
-      "hr_odds": null,
-      "dk_odds": -370
+      "hr": "33+ -325",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": -325,
+      "dk_odds": null
      }
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Bijan Robinson o28.5 rec yds (Falcons vs 49ers; NFL Play of the Day; 11:49 AM card line, single post said 29.5) → HR orig kept, DK orig kept",
+     "pick": "Bijan Robinson o28.5 rec yds (Falcons vs 49ers; NFL Play of the Day; 11:49 AM card line, single post said 29.5) → HR 19+ -325, DK 20+ -256",
      "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
      "status": "Pending",
      "game": "SF @ ATL",
@@ -5753,16 +5753,16 @@
      "started": true,
      "final": true,
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
+      "hr": "19+ -325",
+      "dk": "20+ -256",
+      "hr_odds": -325,
+      "dk_odds": -256
      }
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Jaylin Noel o26.5 rec yds (Texans; NFL Play #4; 11:49 AM card line, single post said 27.5) → HR orig kept, DK orig kept",
+     "pick": "Jaylin Noel o26.5 rec yds (Texans; NFL Play #4; 11:49 AM card line, single post said 27.5) → HR 15+ -300, DK 15+ -294",
      "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
      "status": "Pending",
      "game": "NYG @ HOU",
@@ -5770,16 +5770,16 @@
      "started": true,
      "final": false,
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
+      "hr": "15+ -300",
+      "dk": "15+ -294",
+      "hr_odds": -300,
+      "dk_odds": -294
      }
     },
     {
      "sport": "NFL",
      "prop": "NFL rush yds (under)",
-     "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day) → HR orig kept, DK orig kept",
+     "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day) → HR u88.5 -325, DK orig kept",
      "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
      "status": "Pending",
      "game": "TB @ CAR",
@@ -5787,9 +5787,9 @@
      "started": true,
      "final": true,
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
+      "hr": "u88.5 -325",
       "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
+      "hr_odds": -325,
       "dk_odds": null
      }
     },
@@ -5804,7 +5804,11 @@
       "dk": "original line kept (no DK rung in -250..-375)",
       "hr_odds": null,
       "dk_odds": null
-     }
+     },
+     "game": "TB @ CAR",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true
     }
    ]
   },
@@ -5918,7 +5922,7 @@
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play) → HR orig kept, DK orig kept",
+     "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play) → HR 7+ -300, DK orig kept",
      "odds": "-105",
      "status": "Pending",
      "game": "CLE @ TEN",
@@ -5926,16 +5930,16 @@
      "started": true,
      "final": true,
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
+      "hr": "7+ -300",
       "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
+      "hr_odds": -300,
       "dk_odds": null
      }
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers) → HR orig kept, DK orig kept",
+     "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers) → HR 21+ -325, DK 25+ -263",
      "odds": "-110",
      "status": "Pending",
      "game": "TB @ CAR",
@@ -5943,10 +5947,10 @@
      "started": true,
      "final": true,
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
+      "hr": "21+ -325",
+      "dk": "25+ -263",
+      "hr_odds": -325,
+      "dk_odds": -263
      }
     },
     {
@@ -5973,20 +5977,68 @@
      "conv": {
       "hr": "not convertible (parlay/TD/ML: original kept)",
       "dk": "—"
-     }
+     },
+     "legs": [
+      {
+       "leg": "Ted Hurst anytime TD",
+       "player": "Ted Hurst",
+       "game": "TB @ CAR",
+       "kick": "1:00 PM ET",
+       "started": true,
+       "final": true
+      },
+      {
+       "leg": "George Kittle anytime TD",
+       "player": "George Kittle",
+       "game": "SF @ ATL",
+       "kick": "1:00 PM ET",
+       "started": true,
+       "final": true
+      },
+      {
+       "leg": "Woody Marks anytime TD",
+       "player": "Woody Marks",
+       "game": "NYG @ HOU",
+       "kick": "1:00 PM ET",
+       "started": true,
+       "final": false
+      },
+      {
+       "leg": "George Pickens anytime TD",
+       "player": "George Pickens",
+       "game": "DAL @ PHI",
+       "kick": "Mon 8:15 PM ET",
+       "started": false,
+       "final": false
+      },
+      {
+       "leg": "Tucker Kraft anytime TD",
+       "player": "Tucker Kraft",
+       "game": "GB @ DET",
+       "kick": "4:25 PM ET",
+       "started": false,
+       "final": false
+      }
+     ],
+     "game": "Multi-game",
+     "multi": true
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Chris Olave o74.5 rec yds (Week 7 full card) → HR orig kept, DK orig kept",
-     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full ladders scanned 4:14 PM ET)",
+     "pick": "Chris Olave o74.5 rec yds (Week 7 full card) → HR 52+ -325, DK orig kept",
+     "odds": "-125",
      "status": "Pending",
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
+      "hr": "52+ -325",
       "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
+      "hr_odds": -325,
       "dk_odds": null
-     }
+     },
+     "game": "PIT @ NO",
+     "kick": "9:30 AM ET",
+     "started": true,
+     "final": true
     },
     {
      "sport": "NFL",
@@ -6110,7 +6162,7 @@
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Jordan Watkins o21.5 rec yds (49ers; first NFL Sunday prop) → HR orig kept, DK orig kept",
+     "pick": "Jordan Watkins o21.5 rec yds (49ers; first NFL Sunday prop) → HR 11+ -325, DK 10+ -300",
      "odds": "-112",
      "status": "Pending",
      "game": "SF @ ATL",
@@ -6118,16 +6170,16 @@
      "started": true,
      "final": true,
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
+      "hr": "11+ -325",
+      "dk": "10+ -300",
+      "hr_odds": -325,
+      "dk_odds": -300
      }
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD) → HR orig kept, DK orig kept",
+     "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD) → HR 31+ -325, DK 30+ -310",
      "odds": "-114",
      "status": "Pending",
      "game": "CLE @ TEN",
@@ -6135,10 +6187,10 @@
      "started": true,
      "final": true,
      "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
+      "hr": "31+ -325",
+      "dk": "30+ -310",
+      "hr_odds": -325,
+      "dk_odds": -310
      }
     }
    ]
