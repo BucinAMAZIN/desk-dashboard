@@ -1,5 +1,5 @@
 {
- "generated": 1792992840.3237016,
+ "generated": 1792992912.3268561,
  "today": {
   "title": "Oct 26 picks (Hard Rock)",
   "tickets": [],
@@ -5571,10 +5571,10 @@
  "cappers": [
   {
    "name": "@alexcaruso",
-   "w": 25,
+   "w": 26,
    "l": 21,
    "p": 0,
-   "pct": 54,
+   "pct": 55,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -5626,10 +5626,10 @@
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 3,
+     "w": 4,
      "l": 7,
      "p": 0,
-     "pct": 30,
+     "pct": 36,
      "fam": "Receiving yds"
     },
     {
@@ -5742,9 +5742,9 @@
   {
    "name": "@austinsprops",
    "w": 20,
-   "l": 13,
+   "l": 16,
    "p": 0,
-   "pct": 61,
+   "pct": 56,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -5757,9 +5757,9 @@
     {
      "prop": "NFL rec yds (over)",
      "w": 4,
-     "l": 3,
+     "l": 4,
      "p": 0,
-     "pct": 57,
+     "pct": 50,
      "fam": "Receiving yds"
     },
     {
@@ -5773,9 +5773,9 @@
     {
      "prop": "NFL longest rush (over)",
      "w": 1,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100,
+     "pct": 50,
      "fam": "Longest rush"
     },
     {
@@ -5861,9 +5861,9 @@
     {
      "prop": "NFL parlay",
      "w": 1,
-     "l": 2,
+     "l": 3,
      "p": 0,
-     "pct": 33,
+     "pct": 25,
      "fam": "Parlay"
     }
    ],
@@ -5871,10 +5871,10 @@
   },
   {
    "name": "@panpotd",
-   "w": 12,
+   "w": 13,
    "l": 15,
    "p": 0,
-   "pct": 44,
+   "pct": 46,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -5894,10 +5894,10 @@
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 1,
+     "w": 2,
      "l": 7,
      "p": 0,
-     "pct": 12,
+     "pct": 22,
      "fam": "Receiving yds"
     },
     {
@@ -6139,7 +6139,7 @@
  "capper_today_date": "2026-10-26",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-26 01:34 AM ET",
+  "updated": "2026-10-26 01:35 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -22681,6 +22681,86 @@
     "sub": ""
    },
    {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Jordan Watkins o21.5 rec yds (49ers; first NFL Sunday prop)",
+    "odds": "-112",
+    "res": "W",
+    "stat": "W (56 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers)",
+    "odds": "-110",
+    "res": "L",
+    "stat": "L (0 rec yds, 1 tgt)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL longest rush (over)",
+    "fam": "Longest rush",
+    "pick": "Woody Marks o13.5 longest rush (Texans vs Giants; NFL Play of the Week)",
+    "odds": "-110",
+    "res": "L",
+    "stat": "L (long 11)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL parlay",
+    "fam": "Parlay",
+    "pick": "NFL 5-leg parlay: Ted Hurst anytime TD + George Kittle anytime TD + Woody Marks anytime TD + George Pickens anytime TD + Tucker Kraft anytime TD (Week 7 TD scorers)",
+    "odds": "+10718",
+    "res": "L",
+    "stat": "L (legs: Hurst no TD, Kittle no TD)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "John Metchie o12.5 rec yds (NFL Play #5)",
+    "odds": "none posted",
+    "res": "W",
+    "stat": "W (20 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -22797,89 +22877,9 @@
     "sport": "NFL",
     "grp": "C",
     "cat": "Cappers",
-    "prop": "@panpotd · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "Jordan Watkins o21.5 rec yds (49ers; first NFL Sunday prop)",
-    "odds": "-112",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers)",
-    "odds": "-110",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL longest rush (over)",
-    "fam": "Longest rush",
-    "pick": "Woody Marks o13.5 longest rush (Texans vs Giants; NFL Play of the Week)",
-    "odds": "-110",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL parlay",
-    "fam": "Parlay",
-    "pick": "NFL 5-leg parlay: Ted Hurst anytime TD + George Kittle anytime TD + Woody Marks anytime TD + George Pickens anytime TD + Tucker Kraft anytime TD (Week 7 TD scorers)",
-    "odds": "+10718",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
     "prop": "@austinsprops · NFL yds (over)",
     "fam": "Rushing yds",
     "pick": "Jonah Coleman o17.5 RY (posted as \"RY\"; Week 7 full card)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "John Metchie o12.5 rec yds (NFL Play #5)",
     "odds": "none posted",
     "res": "",
     "stat": "",
@@ -23425,11 +23425,11 @@
    },
    "C": {
     "tickets": {
-     "w": 80,
-     "l": 62,
+     "w": 82,
+     "l": 65,
      "p": 0,
-     "pending": 13,
-     "units": 18
+     "pending": 8,
+     "units": 17
     },
     "legs": {
      "w": 0,
@@ -23452,7 +23452,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 13 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 8 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 276 archived rows skipped (retired tier + placed tickets; see archive/)"
   ],
@@ -23612,6 +23612,7 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
+  "conv": [],
   "props": {
    "n": 0,
    "w": 0,
@@ -23619,8 +23620,7 @@
    "p": 0,
    "pending": 0,
    "units": 0.0
-  },
-  "conv": []
+  }
  },
  "big4_games": 14,
  "big4_games_by_sport": {
