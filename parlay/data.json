@@ -1,5 +1,5 @@
 {
- "generated": 1793055675.6900089,
+ "generated": 1793056706.6796618,
  "today": {
   "title": "Oct 26 picks (Hard Rock)",
   "tickets": [
@@ -47,7 +47,40 @@
   "ncaaf": [],
   "sports": {
    "NHL": {
-    "potd": null,
+    "potd": {
+     "pick": "Leon Draisaitl over 1.5 pts",
+     "odds": "-115",
+     "game": "DET @ EDM 9:30 PM ET",
+     "status": "Pending",
+     "why": "Volume pick. Hard Rock -115. Over 1.5 hit in 7 of last 10 and 4 of last 5 (L10 avg 2.2). Volume: TOI L5 21,24,24,19,23, PP pts L10 7. Not on the ESPN injury list. Grade B.",
+     "desc": "Leon Draisaitl over 1.5 pts -115 — Pending",
+     "why_not": "Only 7 of the last 10 cleared, the rule minimum.",
+     "basis": "Volume",
+     "sport": "NHL",
+     "dk": {
+      "odds": "-105",
+      "na": false,
+      "ladder": [
+       [
+        "1+",
+        "-475"
+       ],
+       [
+        "2+",
+        "-105"
+       ],
+       [
+        "3+",
+        "+300"
+       ],
+       [
+        "4+",
+        "+850"
+       ]
+      ]
+     },
+     "dk_odds": "-105"
+    },
     "parlay": {
      "pick": "2-leg",
      "odds": "+198",
@@ -97,6 +130,75 @@
      "sport": "NHL",
      "dk_odds": "+164"
     }
+   },
+   "NBA": {
+    "potd": {
+     "pick": "Brandin Podziemski under 25.5 PRA",
+     "odds": "-125",
+     "game": "GSW @ DEN 10:00 PM ET",
+     "status": "Pending",
+     "why": "Volume pick. Hard Rock -125. Under 25.5 hit in 8 of last 10 and 4 of last 5 (L10 avg 21.2). Volume: min L5 33,39,33,39,33. Not on the ESPN injury list. Grade B+.",
+     "desc": "Brandin Podziemski under 25.5 PRA -125 — Pending",
+     "why_not": "2 of the last 10 missed this line.",
+     "basis": "Volume",
+     "sport": "NBA",
+     "dk": {
+      "odds": "-126",
+      "na": false,
+      "ladder": [
+       [
+        "u25.5",
+        "-126"
+       ]
+      ]
+     },
+     "dk_odds": "-126"
+    },
+    "parlay": null
+   },
+   "NFL": {
+    "potd": {
+     "pick": "Javonte Williams under 65.5 rush yds",
+     "odds": "-115",
+     "game": "DAL @ PHI 8:15 PM ET",
+     "status": "Pending",
+     "why": "Volume pick. Hard Rock -115. Under 65.5 hit in 7 of last 10 and 4 of last 5 (L10 avg 56.3). Volume: touches/g L3 17.0. Not on the ESPN injury list. Grade B.",
+     "desc": "Javonte Williams under 65.5 rush yds -115 — Pending",
+     "why_not": "Only 7 of the last 10 cleared, the rule minimum.",
+     "basis": "Volume",
+     "sport": "NFL",
+     "dk": {
+      "odds": null,
+      "na": true,
+      "ladder": [
+       [
+        "u64.5",
+        "-111"
+       ]
+      ]
+     },
+     "dk_odds": null
+    },
+    "parlay": null
+   },
+   "WNBA": {
+    "potd": {
+     "pick": "Rhyne Howard under 2.5 3PM",
+     "odds": "-125",
+     "game": "ATL @ GSV 8:00 PM ET",
+     "status": "Pending",
+     "why": "Volume pick. Hard Rock -125. Under 2.5 hit in 9 of last 10 and 4 of last 5 (L10 avg 1.7). Volume: min L5 37,27,27,38,38, 3PA avg 6.3. Not on the ESPN injury list. Grade A-.",
+     "desc": "Rhyne Howard under 2.5 3PM -125 — Pending",
+     "why_not": "2 of the last 10 missed this line.",
+     "basis": "Volume",
+     "sport": "WNBA",
+     "dk": {
+      "odds": null,
+      "na": true
+     },
+     "dk_odds": null
+    },
+    "parlay": null
    },
    "ALL": {
     "potd": {
@@ -1827,7 +1929,7 @@
     "p": 0,
     "pct": 32
    },
-   "pending": 3
+   "pending": 7
   },
   "props": [
    {
@@ -3693,6 +3795,34 @@
     "odds": "+210",
     "result": "L",
     "detail": "Loss (BUF 33-30 LV)"
+   },
+   {
+    "date": "2026-10-26",
+    "pick": "WNBA · POTD: Rhyne Howard under 2.5 3PM",
+    "odds": "-125",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-26",
+    "pick": "NHL · POTD: Leon Draisaitl over 1.5 pts",
+    "odds": "-115",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-26",
+    "pick": "NFL · POTD: Javonte Williams under 65.5 rush yds",
+    "odds": "-115",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-26",
+    "pick": "NBA · POTD: Brandin Podziemski under 25.5 PRA",
+    "odds": "-125",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-10-26",
@@ -6404,7 +6534,7 @@
  "capper_today_date": "2026-10-26",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-26 07:01 PM ET",
+  "updated": "2026-10-26 07:18 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -7426,14 +7556,14 @@
      {
       "a": "WSH",
       "h": "CHA",
-      "st": "10/26 - 7:00 PM EDT",
+      "st": "6:59 - 1st",
       "div": true,
       "stake": "WSH : 3rd Southeast, East #7 seed (in playoff spot) · CHA : 2nd Southeast, East #6 seed (in playoff spot)"
      },
      {
       "a": "MIN",
       "h": "CLE",
-      "st": "10/26 - 7:00 PM EDT",
+      "st": "7:37 - 1st",
       "div": false,
       "stake": "MIN : 1st Northwest, West #1 seed (in playoff spot) · CLE : 3rd Central (1.5 GB), East #8 seed (in playoff spot)"
      },
@@ -7995,7 +8125,7 @@
      {
       "a": "LA",
       "h": "NYR",
-      "st": "10/26 - 7:00 PM EDT",
+      "st": "15:08 - 1st",
       "div": false,
       "stake": "LA 2-5-2: 7th Pacific Division (11 pts back), West #14 seed (outside playoffs) · NYR 7-5-1: 2nd Metropolitan Division (5 pts back), East #6 seed (in playoff spot)"
      },
@@ -13974,6 +14104,46 @@
    "stat": "—"
   },
   {
+   "date": "2026-10-26",
+   "sport": "NBA",
+   "type": "POTD",
+   "prop": "NBA PRA under",
+   "pick": "Brandin Podziemski under 25.5 PRA",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "sport": "NFL",
+   "type": "POTD",
+   "prop": "NFL rush yds under",
+   "pick": "Javonte Williams under 65.5 rush yds",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL points",
+   "pick": "Leon Draisaitl over 1.5 pts",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "sport": "WNBA",
+   "type": "POTD",
+   "prop": "WNBA 3PM under",
+   "pick": "Rhyne Howard under 2.5 3PM",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
    "date": "2026-10-18",
    "sport": "NFL",
    "type": "Edge",
@@ -16691,15 +16861,12 @@
  },
  "rules": {
   "potd": [
-   "The official standards apply to every POTD and POTD #n: Pinnacle no-vig price with at least 4% edge, locked only from the morning prop scan, no near-miss or filler, and no POTD at all on a day LineMate data is missing or signed out.",
-   "Price bands at selection: MLB/NHL -105 to -130. Other sports -115 to -130. Today/Big 4 POTD: -105 to -130 normally. -131 to -140 only if graded A or better. Never beyond -140.",
+   "The official standards apply to every POTD and POTD #n: locked only from the morning prop scan, no near-miss or filler, and no POTD at all on a day LineMate data is missing or signed out.",
    "Price drift: a POTD only has to be in band at selection. Later moves of any size never void it. Void only for inactive player or postponed/cancelled game.",
    "A provisional pick that is out of band before lock with no in-band replacement is marked \"On hold\" and re-checked at lock. It still never voids for drift.",
-   "Today POTD = single best, most-favored play across all sports on the slate.",
    "POTD auto-chain: when a sport's POTD settles, staged pick posts as \"POTD #n\" (official, locked). Candidates are B or better, pregame, ≥10 min to start, not a game already used by the chain, in band, final live Hard Rock check. Nothing qualifies → nothing posts. All Sports POTD does NOT chain. The newest chain pick shows alone in the card."
   ],
   "parlay100": [
-   "Official parlays: maximum 2 legs. Each leg priced -130 to -250. No legs at -300 or shorter on official parlays. The official standards also apply (Pinnacle 4% edge, the morning prop scan only, no fillers).",
    "Chain: a parlay that settles (L as soon as any leg loses) is followed by \"Parlay +100 #n\" at total +100..+125, using no game from an earlier parlay that day. The All Sports (Big 4) parlay chains too.",
    "Same-game rule: legs normally come from different games. When only ONE game is on the slate or left, the ticket is built as a same-game parlay PREGAME.",
    "All Sports parlay: safest 2-4 legs, about +100 to +115. Official."
@@ -16777,7 +16944,7 @@
   ],
   "allofficial": [
    "Exactly three groups: Official, Edge, and Cappers (capper picks, tracking only). No other group, tier or label exists anywhere on the dashboard.",
-   "The official standards stay in force for every Official pick: Pinnacle no-vig price with at least 4% edge per leg, the morning prop scan only, parlays max 2 legs at -130..-250, NHL shot-over minimums, no fill. Exemptions: The Heist, Lotto Ticket / TD City and Safe +100 / Alt Parlay, each with its own rules in its section.",
+   "The official standards stay in force for every Official pick: Pinnacle no-vig price with at least 4% edge per leg, the morning prop scan only, parlays max 2 legs at -130..-250, NHL shot-over minimums, no fill. From 2026-10-26 7:12 PM ET the 4% edge applies only to Edge and LEG DAY; POTD and Parlay +100 qualify on volume/role + recent hit rate instead. Exemptions: The Heist, Lotto Ticket / TD City and Safe +100 / Alt Parlay, each with its own rules in its section.",
    "A former box that cannot meet the official standards is DROPPED, not converted: Runners-up, ALT LINES (sport and Big 4 cards), Home Field, NRFI and inning calls, Live POTD / Live Parlay, Live top lines, in-game lines and the NASCAR extra list. Their scripts no longer run from the bot.",
    "Official history from before this order (POTD, Parlay +100, our recommended legs, Edge) is unchanged. No backfill, except the Lotto Ticket / TD City and Safe +100 / Alt Parlay history restored.",
    "Strict readings: near-misses, fillers and model-only edges are not posted at all; Edge counts as Official, so Pinnacle 4% and NO FILL apply to Edge too; capper picks are idea sources tracked in Cappers only, never in the Official headline; live plays stay untracked; the NCAA F section keeps its separate record."
@@ -17729,6 +17896,70 @@
     "img": null,
     "alt": false,
     "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NBA PRA under",
+    "pick": "Brandin Podziemski under 25.5 PRA",
+    "odds": "-125",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "PRA"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NFL rush yds under",
+    "pick": "Javonte Williams under 65.5 rush yds",
+    "odds": "-115",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Rushing yds"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NHL points",
+    "pick": "Leon Draisaitl over 1.5 pts",
+    "odds": "-115",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "WNBA 3PM under",
+    "pick": "Rhyne Howard under 2.5 3PM",
+    "odds": "-125",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "3PM"
    },
    {
     "date": "2026-10-18",
@@ -25783,7 +26014,7 @@
      "w": 36,
      "l": 48,
      "p": 2,
-     "pending": 22,
+     "pending": 26,
      "units": -12
     },
     "legs": {
@@ -26453,8 +26684,8 @@
   "pregame_games": 100,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 31,
-   "priced": 23,
+   "legs": 35,
+   "priced": 25,
    "na": [
     "HEIST CeeDee Lamb o23.5 Longest Reception",
     "LEG DAY Ayo Dosunmu Over 6.5 Reb + Ast",
@@ -26463,6 +26694,8 @@
     "LEG DAY Mats Zuccarello Under 1.5 Shots On Goal",
     "LEG DAY Jordin Canada Over 14.5 Pts + Reb",
     "LEG DAY Naz Hillmon Over 9.5 Pts + Reb",
+    "Javonte Williams under 65.5 rush yds",
+    "Rhyne Howard under 2.5 3PM",
     "Ryan Shea under 1.5 SOG"
    ]
   }
