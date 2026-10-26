@@ -1,5 +1,5 @@
 {
- "generated": 1793045834.2652173,
+ "generated": 1793054427.9071367,
  "today": {
   "title": "Oct 26 picks (Hard Rock)",
   "tickets": [
@@ -45,6 +45,78 @@
   ],
   "runners_up": [],
   "ncaaf": [],
+  "sports": {
+   "NHL": {
+    "potd": null,
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+198",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +198 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "Ryan Shea under 1.5 SOG",
+       "odds": "-140",
+       "game": "DET @ EDM 9:30 PM ET",
+       "status": "Pending",
+       "why": "Hard Rock -140 vs Pinnacle no-vig -170 (exact line) = +7.85% edge, graded A. Under 1.5 SOG in 8 of his last 10 (1.0 SOG a game) on 23.7 min TOI; LineMate agrees (9 of 11). Not on the injury list.",
+       "why_not": "A defenseman playing 23.7 minutes can still put 2 pucks on net.",
+       "dk": {
+        "odds": "-160",
+        "na": false,
+        "ladder": [
+         [
+          "u1.5",
+          "-160"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "Joel Farabee under 2.5 SOG",
+       "odds": "-135",
+       "game": "TOR @ CGY 8:30 PM ET",
+       "status": "Pending",
+       "why": "Hard Rock -135 vs Pinnacle no-vig -149 (exact line) = +4.22% edge, graded B+. 2.4 SOG a game over his last 10 on 18.5 min TOI; LineMate agrees. Not on the injury list.",
+       "why_not": "Only 6 of his last 10 went under 2.5, and his average sits right at the line.",
+       "dk": {
+        "odds": "-160",
+        "na": false,
+        "ladder": [
+         [
+          "u2.5",
+          "-160"
+         ]
+        ]
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NHL",
+     "dk_odds": "+164"
+    }
+   },
+   "ALL": {
+    "potd": {
+     "pick": "Ryan Shea under 1.5 SOG",
+     "odds": "-140",
+     "game": "DET @ EDM 9:30 PM ET",
+     "status": "Pending",
+     "why": "NHL. Evening re-grade. Hard Rock -140 vs Pinnacle no-vig -170 (exact line, both sides) = +7.85% edge. Graded A, so the -131 to -140 Today POTD band applies. Under 1.5 SOG in 8 of his last 10 (1.0 SOG a game) on 23.7 min TOI; LineMate agrees (6 of 7, 9 of 11). Not on the ESPN injury list.",
+     "desc": "Ryan Shea under 1.5 SOG -140",
+     "why_not": "-140 is at the edge of the band, and a 23.7-minute defenseman can still put 2 pucks on net.",
+     "sport": null,
+     "dk": {
+      "odds": null,
+      "na": true
+     },
+     "dk_odds": null
+    },
+    "parlay": null
+   }
+  },
   "date": "2026-10-26"
  },
  "results": {
@@ -1755,7 +1827,7 @@
     "p": 0,
     "pct": 32
    },
-   "pending": 1
+   "pending": 3
   },
   "props": [
    {
@@ -3621,6 +3693,20 @@
     "odds": "+210",
     "result": "L",
     "detail": "Loss (BUF 33-30 LV)"
+   },
+   {
+    "date": "2026-10-26",
+    "pick": "NHL · Parlay: 2-leg",
+    "odds": "+198",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-26",
+    "pick": "NHL · POTD: Ryan Shea under 1.5 SOG",
+    "odds": "-140",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-10-24",
@@ -5799,11 +5885,7 @@
      "pick": "Tanner McKee o198.5 pass yds (vs Cowboys, MNF)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Pass yds",
-     "game": "DAL @ PHI",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Pass yds"
     },
     {
      "sport": "NFL",
@@ -5811,11 +5893,7 @@
      "pick": "Dak Prescott u0.5 interceptions (Cowboys vs Eagles, MNF; Surgical Bet of the Day)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Pass other",
-     "game": "DAL @ PHI",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Pass other"
     },
     {
      "sport": "NFL",
@@ -5823,11 +5901,7 @@
      "pick": "Makai Lemon o37.5 rec yds (vs Cowboys, MNF; NFL Play #4)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Receiving yds",
-     "game": "DAL @ PHI",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Receiving yds"
     },
     {
      "sport": "NFL",
@@ -5835,11 +5909,7 @@
      "pick": "Jake Ferguson o2.5 receptions (Cowboys vs Eagles, MNF; NFL Play of the Day)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Receptions",
-     "game": "DAL @ PHI",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Receptions"
     },
     {
      "sport": "NBA",
@@ -5847,11 +5917,7 @@
      "pick": "Anthony Davis o21.5 Points (vs Hornets)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Player points",
-     "game": "WSH @ CHA",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Player points"
     },
     {
      "sport": "NBA",
@@ -5859,11 +5925,7 @@
      "pick": "Brandon Podziemski 15+ Points (NBA Play of the Day)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Player points",
-     "game": "GS @ DEN",
-     "kick": "10:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Player points"
     },
     {
      "sport": "NBA",
@@ -5871,11 +5933,7 @@
      "pick": "Cameron Boozer o8.5 Rebounds",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Rebounds",
-     "game": "MEM @ UTAH",
-     "kick": "9:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Rebounds"
     },
     {
      "sport": "NBA",
@@ -5883,11 +5941,7 @@
      "pick": "Jaime Jaquez o5.5 Rebounds (vs Pacers)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Rebounds",
-     "game": "IND @ MIL",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Rebounds"
     },
     {
      "sport": "NBA",
@@ -5895,11 +5949,7 @@
      "pick": "Jalen Johnson o7.5 Assists (vs Rockets)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Assists",
-     "game": "ATL @ HOU",
-     "kick": "8:30 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Assists"
     }
    ]
   },
@@ -6038,11 +6088,7 @@
      "pick": "CeeDee Lamb o23.5 Longest Reception (Eagles vs Cowboys, MNF; MNF Play Of The Day)",
      "odds": "-120 Bovada",
      "status": "Pending",
-     "fam": "Longest reception",
-     "game": "DAL @ PHI",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Longest reception"
     },
     {
      "sport": "NBA",
@@ -6050,11 +6096,7 @@
      "pick": "Darryn Peterson o11.5 Pts (Grizzlies vs Jazz; first NBA winner)",
      "odds": "-115 MGM",
      "status": "Pending",
-     "fam": "Player points",
-     "game": "MEM @ UTAH",
-     "kick": "9:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Player points"
     },
     {
      "sport": "NBA",
@@ -6062,11 +6104,7 @@
      "pick": "Andrew Nembhard o20.5 PA (Pacers vs Bucks; NBA Play Of The Day)",
      "odds": "-125 FD",
      "status": "Pending",
-     "fam": "Pts+Ast",
-     "game": "IND @ MIL",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Pts+Ast"
     },
     {
      "sport": "NBA",
@@ -6074,11 +6112,7 @@
      "pick": "Jalen Smith o1.5 3PM (Bulls vs Celtics)",
      "odds": "+125 B365 (0.75u)",
      "status": "Pending",
-     "fam": "3PM",
-     "game": "CHI @ BOS",
-     "kick": "7:30 PM ET",
-     "started": false,
-     "final": false
+     "fam": "3PM"
     }
    ]
   },
@@ -6169,11 +6203,7 @@
      "pick": "Brandon Miller o23.5 Points (Hornets vs Wizards)",
      "odds": "-115",
      "status": "Pending",
-     "fam": "Player points",
-     "game": "WSH @ CHA",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Player points"
     },
     {
      "sport": "NBA",
@@ -6181,11 +6211,7 @@
      "pick": "Kasparas Jakucionis o10.5 PA (Bucks vs Pacers)",
      "odds": "-125",
      "status": "Pending",
-     "fam": "Pts+Ast",
-     "game": "IND @ MIL",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Pts+Ast"
     }
    ]
   },
@@ -6378,7 +6404,7 @@
  "capper_today_date": "2026-10-26",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-26 04:17 PM ET",
+  "updated": "2026-10-26 06:40 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -11945,7 +11971,7 @@
     "grade_why": "Edge +4.9% vs Pinnacle; hit in 2 of last 10, 11 of 145 this season (L10 avg 0.2).",
     "big4": true,
     "big4_only": null,
-    "now": "+1000",
+    "now": "+850",
     "dk": {
      "odds": "+176",
      "na": false,
@@ -13484,6 +13510,26 @@
    "odds": "-120",
    "res": "L",
    "stat": "2 SOG"
+  },
+  {
+   "date": "2026-10-26",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL SOG under",
+   "pick": "Ryan Shea under 1.5 SOG",
+   "odds": "-140",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "sport": "NHL",
+   "type": "Parlay",
+   "prop": "NHL parlay",
+   "pick": "2-leg",
+   "odds": "+198",
+   "res": "Pending",
+   "stat": "—"
   },
   {
    "date": "2026-10-18",
@@ -17218,6 +17264,38 @@
     "img": null,
     "alt": false,
     "fam": "SOG"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NHL SOG under",
+    "pick": "Ryan Shea under 1.5 SOG",
+    "odds": "-140",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NHL parlay",
+    "pick": "2-leg",
+    "odds": "+198",
+    "res": "",
+    "stat": "—",
+    "sub": "Ryan Shea under 1.5 SOG + Joel Farabee under 2.5 SOG",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
    },
    {
     "date": "2026-10-18",
@@ -25144,7 +25222,7 @@
      "w": 36,
      "l": 48,
      "p": 2,
-     "pending": 18,
+     "pending": 20,
      "units": -12
     },
     "legs": {
@@ -25330,10 +25408,10 @@
     "game": "Hornets vs Wizards",
     "gkey": "NBA:401909868",
     "start": "2026-10-26 19:00",
-    "locked": false,
+    "locked": true,
     "res": "",
     "stat": "",
-    "priced": "2026-10-26 16:17",
+    "priced": "2026-10-26 18:40",
     "dk": {
      "ladder": [
       [
@@ -25387,10 +25465,10 @@
     "game": "Eagles vs Cowboys, MNF; MNF Play Of The Day",
     "gkey": "NFL:401873009",
     "start": "2026-10-26 20:15",
-    "locked": false,
+    "locked": true,
     "res": "",
     "stat": "",
-    "priced": "2026-10-26 16:17",
+    "priced": "2026-10-26 18:40",
     "dk": {
      "odds": null,
      "na": true,
@@ -25452,7 +25530,7 @@
   "msg": "",
   "odds": 243,
   "orig": 243,
-  "final": false,
+  "final": true,
   "sources": [
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
@@ -25682,7 +25760,7 @@
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Darryn Peterson o11.5 Pts (Grizzlies vs Jazz; first NBA winner)",
-    "odds": "-115 MGM",
+    "odds": "-115",
     "game": "MEM @ UTAH",
     "kick": "9:00 PM ET",
     "started": false,
@@ -25704,7 +25782,7 @@
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Andrew Nembhard o20.5 PA (Pacers vs Bucks; NBA Play Of The Day)",
-    "odds": "-125 FD",
+    "odds": "-125",
     "game": "IND @ MIL",
     "kick": "8:00 PM ET",
     "started": false,
@@ -25813,8 +25891,8 @@
   "pregame_games": 100,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 22,
-   "priced": 15,
+   "legs": 25,
+   "priced": 17,
    "na": [
     "HEIST CeeDee Lamb o23.5 Longest Reception",
     "LEG DAY Ayo Dosunmu Over 6.5 Reb + Ast",
@@ -25822,7 +25900,8 @@
     "LEG DAY Brevyn Spann-Ford Over 8.5 Receiving Yards",
     "LEG DAY Mats Zuccarello Under 1.5 Shots On Goal",
     "LEG DAY Jordin Canada Over 14.5 Pts + Reb",
-    "LEG DAY Naz Hillmon Over 9.5 Pts + Reb"
+    "LEG DAY Naz Hillmon Over 9.5 Pts + Reb",
+    "Ryan Shea under 1.5 SOG"
    ]
   }
  }
