@@ -1,5 +1,5 @@
 {
- "generated": 1793013403.3323362,
+ "generated": 1793013633.091948,
  "today": {
   "title": "Oct 26 picks (Hard Rock)",
   "tickets": [
@@ -5618,666 +5618,496 @@
  "cappers": [
   {
    "name": "@alexcaruso",
-   "w": 23,
-   "l": 19,
+   "w": 26,
+   "l": 24,
    "p": 0,
-   "pct": 55,
+   "pct": 52,
    "props": [
-    {
-     "prop": "MLB batter hits (under)",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "MLB pitcher ER (under)",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "NFL rush yds (over)",
-     "w": 3,
-     "l": 2,
-     "p": 0,
-     "pct": 60
-    },
-    {
-     "prop": "NFL rush/rec yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL receptions (under)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL rec yds (over)",
-     "w": 2,
-     "l": 6,
-     "p": 0,
-     "pct": 25
-    },
-    {
-     "prop": "NFL ML",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "MLB ML",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "UFC ML",
-     "w": 0,
-     "l": 2,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "UFC method (KO/TKO)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "UFC method (finish)",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
     {
      "prop": "NFL pass yds (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Pass yds"
     },
     {
      "prop": "NFL pass TDs (over)",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "NFL rush attempts (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL rush yds (under)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100
+     "pct": 0,
+     "fam": "Pass TDs"
     },
     {
      "prop": "NFL pass TDs (under)",
      "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 50
+     "pct": 50,
+     "fam": "Pass TDs"
     },
     {
-     "prop": "NBA pts+reb (over)",
+     "prop": "NFL rush yds (over)",
+     "w": 3,
+     "l": 4,
+     "p": 0,
+     "pct": 43,
+     "fam": "Rushing yds"
+    },
+    {
+     "prop": "NFL rush yds (under)",
+     "w": 3,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Rushing yds"
+    },
+    {
+     "prop": "NFL rush attempts (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Rush attempts"
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 4,
+     "l": 7,
+     "p": 0,
+     "pct": 36,
+     "fam": "Receiving yds"
+    },
+    {
+     "prop": "NFL rec yds (under)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Receiving yds"
+    },
+    {
+     "prop": "NFL rush/rec yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Rush+Rec yds"
+    },
+    {
+     "prop": "NFL receptions (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Receptions"
     },
     {
      "prop": "NBA points (over)",
      "w": 3,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Player points"
     },
     {
      "prop": "NBA assists (over)",
      "w": 2,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Assists"
+    },
+    {
+     "prop": "NBA pts+reb (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Pts+Reb"
     },
     {
      "prop": "NBA PRA (over)",
      "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 33
-    }
-   ],
-   "today": [
-    {
-     "sport": "NFL",
-     "prop": "NFL rush yds (over)",
-     "pick": "JK Dobbins o47.5 rush yds (Broncos vs Cardinals) → HR orig kept, DK 40+ -370",
-     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
-     "status": "Pending",
-     "game": "DEN @ ARI",
-     "kick": "4:05 PM ET",
-     "started": true,
-     "final": false,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "40+ -370",
-      "hr_odds": null,
-      "dk_odds": -370
-     }
+     "pct": 33,
+     "fam": "PRA"
     },
     {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Bijan Robinson o28.5 rec yds (Falcons vs 49ers; NFL Play of the Day; 11:49 AM card line, single post said 29.5) → HR orig kept, DK orig kept",
-     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
-     "status": "Pending",
-     "game": "SF @ ATL",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": true,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Jaylin Noel o26.5 rec yds (Texans; NFL Play #4; 11:49 AM card line, single post said 27.5) → HR orig kept, DK orig kept",
-     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
-     "status": "Pending",
-     "game": "NYG @ HOU",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": false,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rush yds (under)",
-     "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day) → HR orig kept, DK orig kept",
-     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
-     "status": "Pending",
-     "game": "TB @ CAR",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": true,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "John Metchie o12.5 rec yds (NFL Play #5) → HR orig kept, DK orig kept",
-     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full ladders scanned 12:54 PM ET)",
-     "status": "Pending",
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    }
-   ]
-  },
-  {
-   "name": "@austinsprops",
-   "w": 18,
-   "l": 11,
-   "p": 0,
-   "pct": 62,
-   "props": [
-    {
-     "prop": "MLB pitcher outs (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "MLB pitcher walks (over)",
+     "prop": "MLB pitcher ER (under)",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Pitcher other"
+    },
+    {
+     "prop": "MLB batter hits (under)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "Hits/TB/HR/RBI"
+    },
+    {
+     "prop": "UFC method (finish)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Fight method"
+    },
+    {
+     "prop": "UFC method (KO/TKO)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Fight method"
+    },
+    {
+     "prop": "MLB ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
+    },
+    {
+     "prop": "NFL ML",
+     "w": 1,
+     "l": 2,
+     "p": 0,
+     "pct": 33,
+     "fam": "ML"
+    },
+    {
+     "prop": "UFC ML",
+     "w": 0,
+     "l": 2,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
+    }
+   ],
+   "today": []
+  },
+  {
+   "name": "@austinsprops",
+   "w": 22,
+   "l": 16,
+   "p": 0,
+   "pct": 58,
+   "props": [
+    {
+     "prop": "NFL rush yds (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Rushing yds"
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 3,
-     "l": 2,
+     "w": 4,
+     "l": 4,
      "p": 0,
-     "pct": 60
+     "pct": 50,
+     "fam": "Receiving yds"
     },
     {
      "prop": "NFL receptions (over)",
      "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "NFL rush yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL parlay",
-     "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 33
+     "pct": 33,
+     "fam": "Receptions"
+    },
+    {
+     "prop": "NFL longest rush (over)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "Longest rush"
     },
     {
      "prop": "NFL longest rec (over)",
      "w": 2,
      "l": 1,
      "p": 0,
-     "pct": 67
+     "pct": 67,
+     "fam": "Longest reception"
     },
     {
-     "prop": "NFL longest rush (over)",
+     "prop": "NBA points (over)",
      "w": 1,
+     "l": 2,
+     "p": 0,
+     "pct": 33,
+     "fam": "Player points"
+    },
+    {
+     "prop": "NBA rebounds (over)",
+     "w": 3,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Rebounds"
+    },
+    {
+     "prop": "NBA assists (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Assists"
     },
     {
      "prop": "NBA pts+reb (over)",
      "w": 0,
      "l": 2,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Pts+Reb"
     },
     {
-     "prop": "NBA assists (over)",
-     "w": 2,
+     "prop": "NBA pts+ast (over)",
+     "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Pts+Ast"
     },
     {
-     "prop": "NBA points (over)",
+     "prop": "NBA reb+ast (over)",
      "w": 1,
-     "l": 2,
+     "l": 0,
      "p": 0,
-     "pct": 33
+     "pct": 100,
+     "fam": "Reb+Ast"
     },
     {
      "prop": "NBA 3PM (over)",
      "w": 2,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "3PM"
     },
     {
-     "prop": "NBA rebounds (over)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NBA reb+ast (over)",
+     "prop": "MLB pitcher outs (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Pitcher outs"
+    },
+    {
+     "prop": "MLB pitcher walks (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Pitcher other"
+    },
+    {
+     "prop": "NFL parlay",
+     "w": 1,
+     "l": 3,
+     "p": 0,
+     "pct": 25,
+     "fam": "Parlay"
     }
    ],
-   "today": [
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play) → HR orig kept, DK orig kept",
-     "odds": "-105",
-     "status": "Pending",
-     "game": "CLE @ TEN",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": true,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers) → HR orig kept, DK orig kept",
-     "odds": "-110",
-     "status": "Pending",
-     "game": "TB @ CAR",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": true,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL longest rush (over)",
-     "pick": "Woody Marks o13.5 longest rush (Texans vs Giants; NFL Play of the Week) → HR orig kept, DK orig kept",
-     "odds": "-110",
-     "status": "Pending",
-     "game": "NYG @ HOU",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": false,
-     "conv": {
-      "hr": "original line kept (longest rush/rec never bought down)",
-      "dk": "original line kept"
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL parlay",
-     "pick": "NFL 5-leg parlay: Ted Hurst anytime TD + George Kittle anytime TD + Woody Marks anytime TD + George Pickens anytime TD + Tucker Kraft anytime TD (Week 7 TD scorers)",
-     "odds": "+10718",
-     "status": "Pending",
-     "conv": {
-      "hr": "not convertible (parlay/TD/ML: original kept)",
-      "dk": "—"
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Chris Olave o74.5 rec yds (Week 7 full card) → HR orig kept, DK orig kept",
-     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full ladders scanned 4:14 PM ET)",
-     "status": "Pending",
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL receptions (over)",
-     "pick": "Tucker Kraft o4.5 receptions (Week 7 full card) → HR 4+ -275, DK 4+ -259",
-     "odds": "-125",
-     "status": "Pending",
-     "game": "GB @ DET",
-     "kick": "4:25 PM ET",
-     "started": false,
-     "final": false,
-     "conv": {
-      "hr": "4+ -275",
-      "dk": "4+ -259",
-      "hr_odds": -275,
-      "dk_odds": -259
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL yds (over)",
-     "pick": "Jonah Coleman o17.5 RY (posted as \"RY\"; Week 7 full card)",
-     "odds": "n/a HR / n/a DK (book price; capper posted no odds; neither book has o17.5 — DK rush main 18.5, no rec line)",
-     "status": "Pending",
-     "conv": {
-      "hr": "not convertible (parlay/TD/ML: original kept)",
-      "dk": "—"
-     }
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA pts+ast (over)",
-     "pick": "Franz Wagner o26.5 Pts+Ast (Magic vs Knicks; first NBA winner) → HR orig kept, DK orig kept",
-     "odds": "-125",
-     "status": "Pending",
-     "game": "ORL @ NY",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    }
-   ]
+   "today": []
   },
   {
    "name": "@panpotd",
-   "w": 12,
-   "l": 14,
+   "w": 13,
+   "l": 15,
    "p": 0,
    "pct": 46,
    "props": [
     {
-     "prop": "NFL receptions (over)",
-     "w": 3,
-     "l": 1,
-     "p": 0,
-     "pct": 75
-    },
-    {
-     "prop": "NFL rec yds (over)",
+     "prop": "NFL pass yds (over)",
      "w": 1,
-     "l": 6,
+     "l": 0,
      "p": 0,
-     "pct": 14
+     "pct": 100,
+     "fam": "Pass yds"
     },
     {
      "prop": "NFL rush yds (over)",
      "w": 0,
      "l": 2,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Rushing yds"
     },
     {
-     "prop": "NFL pass yds (over)",
-     "w": 1,
-     "l": 0,
+     "prop": "NFL rec yds (over)",
+     "w": 2,
+     "l": 7,
      "p": 0,
-     "pct": 100
+     "pct": 22,
+     "fam": "Receiving yds"
+    },
+    {
+     "prop": "NFL receptions (over)",
+     "w": 3,
+     "l": 1,
+     "p": 0,
+     "pct": 75,
+     "fam": "Receptions"
     },
     {
      "prop": "NFL anytime TD",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Anytime TD"
     },
     {
      "prop": "NBA points (over)",
      "w": 3,
      "l": 3,
      "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "NBA PRA (over)",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
+     "pct": 50,
+     "fam": "Player points"
     },
     {
      "prop": "NBA assists (over)",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Assists"
     },
     {
      "prop": "NBA reb+ast (over)",
      "w": 2,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Reb+Ast"
+    },
+    {
+     "prop": "NBA PRA (over)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "PRA"
     }
    ],
    "today": [
     {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Jordan Watkins o21.5 rec yds (49ers; first NFL Sunday prop) → HR orig kept, DK orig kept",
-     "odds": "-112",
+     "sport": "NBA",
+     "prop": "NBA points (over)",
+     "pick": "Brandon Miller o23.5 Points (Hornets vs Wizards)",
+     "odds": "-115",
      "status": "Pending",
-     "game": "SF @ ATL",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": true,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD) → HR orig kept, DK orig kept",
-     "odds": "-114",
-     "status": "Pending",
-     "game": "CLE @ TEN",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": true,
-     "conv": {
-      "hr": "original line kept (no HR rung in -250..-375)",
-      "dk": "original line kept (no DK rung in -250..-375)",
-      "hr_odds": null,
-      "dk_odds": null
-     }
+     "fam": "Player points",
+     "game": "WSH @ CHA",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
   {
    "name": "@showtimepicks2",
-   "w": 14,
-   "l": 5,
+   "w": 15,
+   "l": 6,
    "p": 0,
-   "pct": 74,
+   "pct": 71,
    "props": [
     {
-     "prop": "NCAAF ML",
+     "prop": "NCAAF pass yds (over)",
      "w": 1,
-     "l": 1,
+     "l": 0,
      "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "NCAAF spread",
-     "w": 5,
-     "l": 1,
-     "p": 0,
-     "pct": 83
+     "pct": 100,
+     "fam": "Pass yds"
     },
     {
      "prop": "NCAAF rush yds (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NCAAF pass yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL spread",
-     "w": 4,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NCAAF total (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NCAAF parlay",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "NFL ML",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Rushing yds"
     },
     {
      "prop": "NBA ML",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "ML"
+    },
+    {
+     "prop": "NCAAF ML",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "ML"
+    },
+    {
+     "prop": "NFL ML",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "ML"
     },
     {
      "prop": "NBA spread",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Spread"
+    },
+    {
+     "prop": "NCAAF spread",
+     "w": 5,
+     "l": 1,
+     "p": 0,
+     "pct": 83,
+     "fam": "Spread"
+    },
+    {
+     "prop": "NFL spread",
+     "w": 5,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Spread"
+    },
+    {
+     "prop": "NCAAF total (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Total"
+    },
+    {
+     "prop": "NCAAF parlay",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Parlay"
     }
    ],
-   "today": [
-    {
-     "sport": "NFL",
-     "prop": "NFL ML",
-     "pick": "Tennessee Titans ML (first NFL free play)",
-     "odds": "+114",
-     "status": "Pending",
-     "game": "CLE @ TEN",
-     "kick": "1:00 PM ET",
-     "started": true,
-     "final": true,
-     "conv": {
-      "hr": "not convertible (parlay/TD/ML: original kept)",
-      "dk": "—"
-     }
-    }
-   ]
+   "today": []
   },
   {
    "name": "@bigmikepickz",
@@ -6291,30 +6121,43 @@
      "w": 3,
      "l": 1,
      "p": 0,
-     "pct": 75
+     "pct": 75,
+     "fam": "ML"
     },
     {
      "prop": "NCAAF spread",
      "w": 5,
      "l": 2,
      "p": 0,
-     "pct": 71
+     "pct": 71,
+     "fam": "Spread"
     },
     {
      "prop": "NCAAF total (under)",
      "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 33
+     "pct": 33,
+     "fam": "Total"
     },
     {
      "prop": "NCAAF parlay",
      "w": 0,
      "l": 2,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Parlay"
     }
    ],
+   "today": []
+  },
+  {
+   "name": "@habibtings",
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pct": null,
+   "props": [],
    "today": []
   }
  ],
@@ -6361,10 +6204,10 @@
   "Parlay",
   "Other"
  ],
- "capper_today_date": "2026-10-25",
+ "capper_today_date": "2026-10-26",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-26 07:16 AM ET",
+  "updated": "2026-10-26 07:20 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -23823,9 +23666,89 @@
     "prop": "@alexcaruso · NFL rec yds (over)",
     "fam": "Receiving yds",
     "pick": "John Metchie o12.5 rec yds (NFL Play #5)",
-    "odds": "none posted",
+    "odds": "-113 Fanduel (Best Line)",
     "res": "W",
     "stat": "W (20 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NFL spread",
+    "fam": "Spread",
+    "pick": "Seattle Seahawks -2.5 (Sunday Night Football)",
+    "odds": "-122",
+    "res": "W",
+    "stat": "W (KC 3-20 SEA)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rec yds (under)",
+    "fam": "Receiving yds",
+    "pick": "Jaxson Smith-Njigba u92.5 rec yds (Sunday Night Football betting card)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (150 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "Kenneth Walker o79.5 rush yds (Sunday Night Football betting card)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (36 rush yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "Cam Boozer o8.5 Rebs (Grizzlies vs Kings; NBA Play Of The Day)",
+    "odds": "-125",
+    "res": "W",
+    "stat": "W (11 REB)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL ML",
+    "fam": "ML",
+    "pick": "Kansas City Chiefs to win (Sunday Night Football; Kalshi)",
+    "odds": "42% Kalshi",
+    "res": "L",
+    "stat": "L (KC 3-20 SEA)",
     "alt": false,
     "leg": false,
     "img": null,
@@ -23936,86 +23859,6 @@
     "fam": "Assists",
     "pick": "Shaedon Sharpe o2.5 Assists",
     "odds": "n/a",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA rebounds (over)",
-    "fam": "Rebounds",
-    "pick": "Cam Boozer o8.5 Rebs (Grizzlies vs Kings; NBA Play Of The Day)",
-    "odds": "-125",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@showtimepicks2 · NFL spread",
-    "fam": "Spread",
-    "pick": "Seattle Seahawks -2.5 (Sunday Night Football)",
-    "odds": "-122",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL rush yds (over)",
-    "fam": "Rushing yds",
-    "pick": "Kenneth Walker o79.5 rush yds (Sunday Night Football betting card)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL rec yds (under)",
-    "fam": "Receiving yds",
-    "pick": "Jaxon Smith-Njigba u92.5 rec yds (Sunday Night Football betting card)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL ML",
-    "fam": "ML",
-    "pick": "Kansas City Chiefs to win (Sunday Night Football; Kalshi)",
-    "odds": "42% Kalshi",
     "res": "",
     "stat": "",
     "alt": false,
@@ -24937,11 +24780,11 @@
    },
    "C": {
     "tickets": {
-     "w": 83,
-     "l": 65,
+     "w": 85,
+     "l": 68,
      "p": 0,
-     "pending": 13,
-     "units": 18
+     "pending": 8,
+     "units": 17
     },
     "legs": {
      "w": 0,
@@ -24964,7 +24807,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 13 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 8 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 276 archived rows skipped (retired tier + placed tickets; see archive/)"
   ],
@@ -25078,81 +24921,84 @@
   ]
  },
  "heist": {
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "title": "THE HEIST",
   "sub": "▼ BOUGHT DOWN · CAPPERS",
   "stake": "1u",
   "legs": [
    {
-    "capper": "@alexcaruso",
-    "sport": "NFL",
-    "orig": "Bijan Robinson o28.5 rec yds",
-    "orig_odds": null,
-    "pick": "Bijan Robinson 19+ rec yds",
-    "odds": -325,
-    "src": "LineMate HR alt",
-    "game": "SF @ ATL",
-    "gkey": "NFL:401873017",
-    "start": "2026-10-25 13:00",
-    "locked": true,
-    "res": "",
-    "stat": "",
-    "priced": "2026-10-25 12:56",
-    "orig_note": "book price; capper posted no odds",
-    "dk": {
-     "na": true,
-     "orig_odds": null
-    }
-   },
-   {
     "capper": "@panpotd",
-    "sport": "NFL",
-    "orig": "Denzel Boston o48.5 rec yds",
-    "orig_odds": -114,
-    "pick": "Denzel Boston 31+ rec yds",
-    "odds": -325,
+    "sport": "NBA",
+    "orig": "Brandon Miller o23.5 Points",
+    "orig_odds": -115,
+    "pick": "Brandon Miller 19+ pts",
+    "odds": -375,
     "src": "LineMate HR alt",
-    "game": "CLE @ TEN",
-    "gkey": "NFL:401873013",
-    "start": "2026-10-25 13:00",
-    "locked": true,
+    "game": "WAS @ CHA",
+    "gkey": "NBA:401909868",
+    "start": "2026-10-26 19:00",
+    "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-25 12:56",
+    "priced": "2026-10-26 07:20",
     "dk": {
-     "na": true,
-     "orig_odds": null
-    }
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NFL",
-    "orig": "Woody Marks o13.5 longest rush",
-    "orig_odds": -110,
-    "pick": "Woody Marks o13.5 longest rush",
-    "odds": -110,
-    "src": "Capper original line",
-    "game": "Texans vs Giants; NFL Play of the Week",
-    "gkey": "NFL:401873016",
-    "start": "2026-10-25 13:00",
-    "locked": true,
-    "res": "",
-    "stat": "",
-    "priced": "2026-10-25 12:56",
-    "dk": {
-     "odds": null,
-     "na": true,
-     "pick": "Woody Marks o13.5 longest rush",
-     "src": "original line",
+     "ladder": [
+      [
+       "15+",
+       "-890"
+      ],
+      [
+       "18+",
+       "-427"
+      ],
+      [
+       "20+",
+       "-280"
+      ],
+      [
+       "25+",
+       "-105"
+      ],
+      [
+       "30+",
+       "+230"
+      ],
+      [
+       "35+",
+       "+559"
+      ],
+      [
+       "40+",
+       "+1300"
+      ],
+      [
+       "45+",
+       "+2600"
+      ]
+     ],
+     "odds": "-280",
+     "pick": "Brandon Miller 20+ pts",
+     "moved": true,
+     "na": false,
      "orig_odds": null
     }
    }
   ],
   "skipped": [
    {
+    "capper": "@alexcaruso",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@austinsprops",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
     "capper": "@showtimepicks2",
-    "why": "same game as @panpotd",
-    "pick": "Tennessee Titans ML"
+    "why": "no picks today",
+    "pick": ""
    },
    {
     "capper": "@bigmikepickz",
@@ -25165,16 +25011,48 @@
     "pick": ""
    }
   ],
-  "status": "live",
-  "msg": "",
-  "odds": 226,
+  "status": "thin",
+  "msg": "Not enough bought-down legs yet",
+  "odds": null,
   "orig": null,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
-  "dk_odds": null,
+  "conv": [
+   {
+    "capper": "@panpotd",
+    "sport": "NBA",
+    "pick": "Brandon Miller o23.5 Points (Hornets vs Wizards)",
+    "odds": "-115",
+    "game": "WSH @ CHA",
+    "kick": "7:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "20+ -300",
+    "dk": "20+ -280",
+    "hr_odds": -300,
+    "dk_odds": -280,
+    "start": "2026-10-26 19:00",
+    "hr_pick": "Brandon Miller 20+ Points",
+    "dk_pick": "Brandon Miller 20+ Points",
+    "trk": "Brandon Miller 20+ Points",
+    "grade_odds": -300,
+    "hr_x": null,
+    "excluded": null
+   }
+  ],
+  "props": {
+   "n": 0,
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "pending": 0,
+   "units": 0.0
+  },
+  "dk_odds": "-280",
   "dk_orig": null
  },
  "big4_games": 14,
@@ -25198,6 +25076,5 @@
     "LEG DAY Naz Hillmon Over 9.5 Pts + Reb"
    ]
   }
- },
- "capper_audit_hold": "Capper/HEIST data held at 2026-10-25 16:16 ET (self-audit failed; see logs/capper_audit_2026-10-26.txt)"
+ }
 }
