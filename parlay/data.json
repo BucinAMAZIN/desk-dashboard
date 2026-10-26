@@ -1,8 +1,48 @@
 {
- "generated": 1793009313.901674,
+ "generated": 1793013403.3323362,
  "today": {
   "title": "Oct 26 picks (Hard Rock)",
-  "tickets": [],
+  "tickets": [
+   {
+    "name": "POTD",
+    "desc": "Nothing met the official standards, so no ticket posts (no filler).",
+    "odds": "—",
+    "stake": "—",
+    "payout": "—",
+    "status": "None",
+    "game": "",
+    "legs": [],
+    "why": null,
+    "pick": "No qualifying ticket today",
+    "none": true
+   },
+   {
+    "name": "+100 ticket",
+    "desc": "Nothing met the official standards, so no ticket posts (no filler).",
+    "odds": "—",
+    "stake": "—",
+    "payout": "—",
+    "status": "None",
+    "game": "",
+    "legs": [],
+    "why": null,
+    "pick": "No qualifying ticket today",
+    "none": true
+   },
+   {
+    "name": "Safe +100 / Alt Parlay",
+    "desc": "Nothing met the official standards, so no ticket posts (no filler).",
+    "odds": "—",
+    "stake": "—",
+    "payout": "—",
+    "status": "None",
+    "game": "",
+    "legs": [],
+    "why": null,
+    "pick": "No qualifying ticket today",
+    "none": true
+   }
+  ],
   "runners_up": [],
   "ncaaf": [],
   "date": "2026-10-26"
@@ -1715,7 +1755,7 @@
     "p": 0,
     "pct": 32
    },
-   "pending": 0
+   "pending": 1
   },
   "props": [
    {
@@ -2210,6 +2250,13 @@
    }
   ],
   "potd": [
+   {
+    "date": "2026-10-26",
+    "pick": "MLB · Edge: Garrett Mitchell Over 0.5 Home Runs",
+    "odds": "+1000",
+    "result": "Pending",
+    "detail": "Pending"
+   },
    {
     "date": "2026-10-25",
     "pick": "NHL · Edge: Miro Heiskanen Under 1.5 Shots On Goal",
@@ -5571,475 +5618,666 @@
  "cappers": [
   {
    "name": "@alexcaruso",
-   "w": 26,
-   "l": 21,
+   "w": 23,
+   "l": 19,
    "p": 0,
    "pct": 55,
    "props": [
     {
-     "prop": "NFL pass yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Pass yds"
-    },
-    {
-     "prop": "NFL pass TDs (over)",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0,
-     "fam": "Pass TDs"
-    },
-    {
-     "prop": "NFL pass TDs (under)",
+     "prop": "MLB batter hits (under)",
      "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 50,
-     "fam": "Pass TDs"
-    },
-    {
-     "prop": "NFL rush yds (over)",
-     "w": 3,
-     "l": 3,
-     "p": 0,
-     "pct": 50,
-     "fam": "Rushing yds"
-    },
-    {
-     "prop": "NFL rush yds (under)",
-     "w": 3,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Rushing yds"
-    },
-    {
-     "prop": "NFL rush attempts (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Rush attempts"
-    },
-    {
-     "prop": "NFL rec yds (over)",
-     "w": 4,
-     "l": 7,
-     "p": 0,
-     "pct": 36,
-     "fam": "Receiving yds"
-    },
-    {
-     "prop": "NFL rush/rec yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Rush+Rec yds"
-    },
-    {
-     "prop": "NFL receptions (under)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Receptions"
-    },
-    {
-     "prop": "NBA points (over)",
-     "w": 3,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Player points"
-    },
-    {
-     "prop": "NBA assists (over)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Assists"
-    },
-    {
-     "prop": "NBA pts+reb (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Pts+Reb"
-    },
-    {
-     "prop": "NBA PRA (over)",
-     "w": 1,
-     "l": 2,
-     "p": 0,
-     "pct": 33,
-     "fam": "PRA"
+     "pct": 50
     },
     {
      "prop": "MLB pitcher ER (under)",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0,
-     "fam": "Pitcher other"
+     "pct": 0
     },
     {
-     "prop": "MLB batter hits (under)",
+     "prop": "NFL rush yds (over)",
+     "w": 3,
+     "l": 2,
+     "p": 0,
+     "pct": 60
+    },
+    {
+     "prop": "NFL rush/rec yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL receptions (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 2,
+     "l": 6,
+     "p": 0,
+     "pct": 25
+    },
+    {
+     "prop": "NFL ML",
      "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 50,
-     "fam": "Hits/TB/HR/RBI"
-    },
-    {
-     "prop": "UFC method (finish)",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0,
-     "fam": "Fight method"
-    },
-    {
-     "prop": "UFC method (KO/TKO)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Fight method"
+     "pct": 50
     },
     {
      "prop": "MLB ML",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0,
-     "fam": "ML"
-    },
-    {
-     "prop": "NFL ML",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50,
-     "fam": "ML"
+     "pct": 0
     },
     {
      "prop": "UFC ML",
      "w": 0,
      "l": 2,
      "p": 0,
-     "pct": 0,
-     "fam": "ML"
-    }
-   ],
-   "today": []
-  },
-  {
-   "name": "@austinsprops",
-   "w": 21,
-   "l": 16,
-   "p": 0,
-   "pct": 57,
-   "props": [
+     "pct": 0
+    },
     {
-     "prop": "NFL rush yds (over)",
+     "prop": "UFC method (KO/TKO)",
      "w": 2,
      "l": 0,
      "p": 0,
-     "pct": 100,
-     "fam": "Rushing yds"
+     "pct": 100
     },
     {
-     "prop": "NFL rec yds (over)",
-     "w": 4,
-     "l": 4,
-     "p": 0,
-     "pct": 50,
-     "fam": "Receiving yds"
-    },
-    {
-     "prop": "NFL receptions (over)",
-     "w": 1,
-     "l": 2,
-     "p": 0,
-     "pct": 33,
-     "fam": "Receptions"
-    },
-    {
-     "prop": "NFL longest rush (over)",
-     "w": 1,
+     "prop": "UFC method (finish)",
+     "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 50,
-     "fam": "Longest rush"
+     "pct": 0
     },
     {
-     "prop": "NFL longest rec (over)",
+     "prop": "NFL pass yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL pass TDs (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NFL rush attempts (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL rush yds (under)",
      "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NFL pass TDs (under)",
+     "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 67,
-     "fam": "Longest reception"
+     "pct": 50
+    },
+    {
+     "prop": "NBA pts+reb (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     },
     {
      "prop": "NBA points (over)",
-     "w": 1,
-     "l": 2,
-     "p": 0,
-     "pct": 33,
-     "fam": "Player points"
-    },
-    {
-     "prop": "NBA rebounds (over)",
-     "w": 2,
+     "w": 3,
      "l": 0,
      "p": 0,
-     "pct": 100,
-     "fam": "Rebounds"
+     "pct": 100
     },
     {
      "prop": "NBA assists (over)",
      "w": 2,
      "l": 0,
      "p": 0,
-     "pct": 100,
-     "fam": "Assists"
+     "pct": 100
     },
     {
-     "prop": "NBA pts+reb (over)",
-     "w": 0,
+     "prop": "NBA PRA (over)",
+     "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 0,
-     "fam": "Pts+Reb"
+     "pct": 33
+    }
+   ],
+   "today": [
+    {
+     "sport": "NFL",
+     "prop": "NFL rush yds (over)",
+     "pick": "JK Dobbins o47.5 rush yds (Broncos vs Cardinals) → HR orig kept, DK 40+ -370",
+     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
+     "status": "Pending",
+     "game": "DEN @ ARI",
+     "kick": "4:05 PM ET",
+     "started": true,
+     "final": false,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "40+ -370",
+      "hr_odds": null,
+      "dk_odds": -370
+     }
     },
     {
-     "prop": "NBA pts+ast (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Pts+Ast"
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Bijan Robinson o28.5 rec yds (Falcons vs 49ers; NFL Play of the Day; 11:49 AM card line, single post said 29.5) → HR orig kept, DK orig kept",
+     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
+     "status": "Pending",
+     "game": "SF @ ATL",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
     },
     {
-     "prop": "NBA reb+ast (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Reb+Ast"
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Jaylin Noel o26.5 rec yds (Texans; NFL Play #4; 11:49 AM card line, single post said 27.5) → HR orig kept, DK orig kept",
+     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
+     "status": "Pending",
+     "game": "NYG @ HOU",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": false,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
     },
     {
-     "prop": "NBA 3PM (over)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "3PM"
+     "sport": "NFL",
+     "prop": "NFL rush yds (under)",
+     "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day) → HR orig kept, DK orig kept",
+     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full alt ladders scanned 12:21 PM)",
+     "status": "Pending",
+     "game": "TB @ CAR",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
     },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "John Metchie o12.5 rec yds (NFL Play #5) → HR orig kept, DK orig kept",
+     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full ladders scanned 12:54 PM ET)",
+     "status": "Pending",
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
+    }
+   ]
+  },
+  {
+   "name": "@austinsprops",
+   "w": 18,
+   "l": 11,
+   "p": 0,
+   "pct": 62,
+   "props": [
     {
      "prop": "MLB pitcher outs (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100,
-     "fam": "Pitcher outs"
+     "pct": 100
     },
     {
      "prop": "MLB pitcher walks (over)",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0,
-     "fam": "Pitcher other"
+     "pct": 0
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 3,
+     "l": 2,
+     "p": 0,
+     "pct": 60
+    },
+    {
+     "prop": "NFL receptions (over)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50
+    },
+    {
+     "prop": "NFL rush yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     },
     {
      "prop": "NFL parlay",
      "w": 1,
-     "l": 3,
+     "l": 2,
      "p": 0,
-     "pct": 25,
-     "fam": "Parlay"
+     "pct": 33
+    },
+    {
+     "prop": "NFL longest rec (over)",
+     "w": 2,
+     "l": 1,
+     "p": 0,
+     "pct": 67
+    },
+    {
+     "prop": "NFL longest rush (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NBA pts+reb (over)",
+     "w": 0,
+     "l": 2,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NBA assists (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NBA points (over)",
+     "w": 1,
+     "l": 2,
+     "p": 0,
+     "pct": 33
+    },
+    {
+     "prop": "NBA 3PM (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NBA rebounds (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NBA reb+ast (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play) → HR orig kept, DK orig kept",
+     "odds": "-105",
+     "status": "Pending",
+     "game": "CLE @ TEN",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers) → HR orig kept, DK orig kept",
+     "odds": "-110",
+     "status": "Pending",
+     "game": "TB @ CAR",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL longest rush (over)",
+     "pick": "Woody Marks o13.5 longest rush (Texans vs Giants; NFL Play of the Week) → HR orig kept, DK orig kept",
+     "odds": "-110",
+     "status": "Pending",
+     "game": "NYG @ HOU",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": false,
+     "conv": {
+      "hr": "original line kept (longest rush/rec never bought down)",
+      "dk": "original line kept"
+     }
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL parlay",
+     "pick": "NFL 5-leg parlay: Ted Hurst anytime TD + George Kittle anytime TD + Woody Marks anytime TD + George Pickens anytime TD + Tucker Kraft anytime TD (Week 7 TD scorers)",
+     "odds": "+10718",
+     "status": "Pending",
+     "conv": {
+      "hr": "not convertible (parlay/TD/ML: original kept)",
+      "dk": "—"
+     }
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Chris Olave o74.5 rec yds (Week 7 full card) → HR orig kept, DK orig kept",
+     "odds": "n/a HR / n/a DK (book price; capper posted no odds; exact line not offered at either book, full ladders scanned 4:14 PM ET)",
+     "status": "Pending",
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL receptions (over)",
+     "pick": "Tucker Kraft o4.5 receptions (Week 7 full card) → HR 4+ -275, DK 4+ -259",
+     "odds": "-125",
+     "status": "Pending",
+     "game": "GB @ DET",
+     "kick": "4:25 PM ET",
+     "started": false,
+     "final": false,
+     "conv": {
+      "hr": "4+ -275",
+      "dk": "4+ -259",
+      "hr_odds": -275,
+      "dk_odds": -259
+     }
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL yds (over)",
+     "pick": "Jonah Coleman o17.5 RY (posted as \"RY\"; Week 7 full card)",
+     "odds": "n/a HR / n/a DK (book price; capper posted no odds; neither book has o17.5 — DK rush main 18.5, no rec line)",
+     "status": "Pending",
+     "conv": {
+      "hr": "not convertible (parlay/TD/ML: original kept)",
+      "dk": "—"
+     }
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA pts+ast (over)",
+     "pick": "Franz Wagner o26.5 Pts+Ast (Magic vs Knicks; first NBA winner) → HR orig kept, DK orig kept",
+     "odds": "-125",
+     "status": "Pending",
+     "game": "ORL @ NY",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
+    }
+   ]
   },
   {
    "name": "@panpotd",
-   "w": 13,
-   "l": 15,
+   "w": 12,
+   "l": 14,
    "p": 0,
    "pct": 46,
    "props": [
     {
-     "prop": "NFL pass yds (over)",
-     "w": 1,
-     "l": 0,
+     "prop": "NFL receptions (over)",
+     "w": 3,
+     "l": 1,
      "p": 0,
-     "pct": 100,
-     "fam": "Pass yds"
+     "pct": 75
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 1,
+     "l": 6,
+     "p": 0,
+     "pct": 14
     },
     {
      "prop": "NFL rush yds (over)",
      "w": 0,
      "l": 2,
      "p": 0,
-     "pct": 0,
-     "fam": "Rushing yds"
+     "pct": 0
     },
     {
-     "prop": "NFL rec yds (over)",
-     "w": 2,
-     "l": 7,
+     "prop": "NFL pass yds (over)",
+     "w": 1,
+     "l": 0,
      "p": 0,
-     "pct": 22,
-     "fam": "Receiving yds"
-    },
-    {
-     "prop": "NFL receptions (over)",
-     "w": 3,
-     "l": 1,
-     "p": 0,
-     "pct": 75,
-     "fam": "Receptions"
+     "pct": 100
     },
     {
      "prop": "NFL anytime TD",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100,
-     "fam": "Anytime TD"
+     "pct": 100
     },
     {
      "prop": "NBA points (over)",
      "w": 3,
      "l": 3,
      "p": 0,
-     "pct": 50,
-     "fam": "Player points"
-    },
-    {
-     "prop": "NBA assists (over)",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0,
-     "fam": "Assists"
-    },
-    {
-     "prop": "NBA reb+ast (over)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Reb+Ast"
+     "pct": 50
     },
     {
      "prop": "NBA PRA (over)",
      "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 50,
-     "fam": "PRA"
+     "pct": 50
+    },
+    {
+     "prop": "NBA assists (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NBA reb+ast (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Jordan Watkins o21.5 rec yds (49ers; first NFL Sunday prop) → HR orig kept, DK orig kept",
+     "odds": "-112",
+     "status": "Pending",
+     "game": "SF @ ATL",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD) → HR orig kept, DK orig kept",
+     "odds": "-114",
+     "status": "Pending",
+     "game": "CLE @ TEN",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true,
+     "conv": {
+      "hr": "original line kept (no HR rung in -250..-375)",
+      "dk": "original line kept (no DK rung in -250..-375)",
+      "hr_odds": null,
+      "dk_odds": null
+     }
+    }
+   ]
   },
   {
    "name": "@showtimepicks2",
    "w": 14,
-   "l": 6,
+   "l": 5,
    "p": 0,
-   "pct": 70,
+   "pct": 74,
    "props": [
-    {
-     "prop": "NCAAF pass yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Pass yds"
-    },
-    {
-     "prop": "NCAAF rush yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100,
-     "fam": "Rushing yds"
-    },
-    {
-     "prop": "NBA ML",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0,
-     "fam": "ML"
-    },
     {
      "prop": "NCAAF ML",
      "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 50,
-     "fam": "ML"
-    },
-    {
-     "prop": "NFL ML",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50,
-     "fam": "ML"
-    },
-    {
-     "prop": "NBA spread",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0,
-     "fam": "Spread"
+     "pct": 50
     },
     {
      "prop": "NCAAF spread",
      "w": 5,
      "l": 1,
      "p": 0,
-     "pct": 83,
-     "fam": "Spread"
+     "pct": 83
+    },
+    {
+     "prop": "NCAAF rush yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NCAAF pass yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     },
     {
      "prop": "NFL spread",
      "w": 4,
      "l": 0,
      "p": 0,
-     "pct": 100,
-     "fam": "Spread"
+     "pct": 100
     },
     {
      "prop": "NCAAF total (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100,
-     "fam": "Total"
+     "pct": 100
     },
     {
      "prop": "NCAAF parlay",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0,
-     "fam": "Parlay"
+     "pct": 0
+    },
+    {
+     "prop": "NFL ML",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
+    },
+    {
+     "prop": "NBA ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
+    },
+    {
+     "prop": "NBA spread",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NFL",
+     "prop": "NFL ML",
+     "pick": "Tennessee Titans ML (first NFL free play)",
+     "odds": "+114",
+     "status": "Pending",
+     "game": "CLE @ TEN",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true,
+     "conv": {
+      "hr": "not convertible (parlay/TD/ML: original kept)",
+      "dk": "—"
+     }
+    }
+   ]
   },
   {
    "name": "@bigmikepickz",
@@ -6053,43 +6291,30 @@
      "w": 3,
      "l": 1,
      "p": 0,
-     "pct": 75,
-     "fam": "ML"
+     "pct": 75
     },
     {
      "prop": "NCAAF spread",
      "w": 5,
      "l": 2,
      "p": 0,
-     "pct": 71,
-     "fam": "Spread"
+     "pct": 71
     },
     {
      "prop": "NCAAF total (under)",
      "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 33,
-     "fam": "Total"
+     "pct": 33
     },
     {
      "prop": "NCAAF parlay",
      "w": 0,
      "l": 2,
      "p": 0,
-     "pct": 0,
-     "fam": "Parlay"
+     "pct": 0
     }
    ],
-   "today": []
-  },
-  {
-   "name": "@habibtings",
-   "w": 0,
-   "l": 0,
-   "p": 0,
-   "pct": null,
-   "props": [],
    "today": []
   }
  ],
@@ -6136,10 +6361,10 @@
   "Parlay",
   "Other"
  ],
- "capper_today_date": "2026-10-26",
+ "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-26 06:08 AM ET",
+  "updated": "2026-10-26 07:16 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -11687,10 +11912,79 @@
  "safe100": {},
  "edge": {
   "date": "2026-10-26",
-  "picks": [],
+  "picks": [
+   {
+    "sport": "MLB",
+    "rank": 1,
+    "game": "Rays vs Brewers",
+    "start": "Mon 10/26 08:00 PM ET",
+    "pick": "Garrett Mitchell Over 0.5 Home Runs",
+    "hr": "+1000",
+    "fair": "+949",
+    "fair_prob": 0.09536102527067171,
+    "edge": 0.04897127797738876,
+    "result": "Pending",
+    "picked_et": "7:12 AM ET",
+    "why": "Hard Rock +1000 vs Pinnacle no-vig fair +949 (9.5%) → edge +4.90%. Clears the 4% Pinnacle edge floor at +4.90%. Price +1000 is inside the preferred band (about -130 or better, or plus money).",
+    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
+    "grade": "A",
+    "grade_why": "Edge +4.9% vs Pinnacle; hit in 2 of last 10, 11 of 145 this season (L10 avg 0.2).",
+    "big4": true,
+    "big4_only": null,
+    "now": "+1000",
+    "dk": {
+     "odds": "+176",
+     "na": false,
+     "ladder": [
+      [
+       "1+",
+       "+176"
+      ],
+      [
+       "2+",
+       "+10000"
+      ]
+     ],
+     "edge": -0.7368035702529461
+    }
+   }
+  ],
   "big4": {
    "date": "2026-10-26",
-   "picks": []
+   "picks": [
+    {
+     "sport": "MLB",
+     "b4rank": 1,
+     "game": "Rays vs Brewers",
+     "start": "Mon 10/26 08:00 PM ET",
+     "pick": "Garrett Mitchell Over 0.5 Home Runs",
+     "hr": "+1000",
+     "fair": "+949",
+     "fair_prob": 0.09536102527067171,
+     "edge": 0.04897127797738876,
+     "result": "Pending",
+     "picked_et": "7:12 AM ET",
+     "why": "Hard Rock +1000 vs Pinnacle no-vig fair +949 (9.5%) → edge +4.90%. Clears the 4% Pinnacle edge floor at +4.90%. Price +1000 is inside the preferred band (about -130 or better, or plus money).",
+     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
+     "grade": "A",
+     "grade_why": "Edge +4.9% vs Pinnacle; hit in 2 of last 10, 11 of 145 this season (L10 avg 0.2).",
+     "dk": {
+      "odds": "+176",
+      "na": false,
+      "ladder": [
+       [
+        "1+",
+        "+176"
+       ],
+       [
+        "2+",
+        "+10000"
+       ]
+      ],
+      "edge": -0.7368035702529461
+     }
+    }
+   ]
   }
  },
  "safe100_record": {
@@ -11778,7 +12072,7 @@
    "p": 1,
    "pct": 37,
    "units": -19.06,
-   "pending": 0
+   "pending": 1
   },
   "by_sport": {
    "MLB": {
@@ -11787,7 +12081,7 @@
     "p": 0,
     "pct": 20,
     "units": -3.17,
-    "pending": 0
+    "pending": 1
    },
    "NBA": {
     "w": 5,
@@ -11837,7 +12131,7 @@
     "p": 0,
     "pct": 0,
     "units": -4.0,
-    "pending": 0
+    "pending": 1
    },
    "MLB spread": {
     "w": 1,
@@ -15126,6 +15420,16 @@
    "odds": "+130",
    "res": "L",
    "stat": "Loss (4)"
+  },
+  {
+   "date": "2026-10-26",
+   "sport": "MLB",
+   "type": "Edge",
+   "prop": "MLB HR",
+   "pick": "Garrett Mitchell Over 0.5 Home Runs",
+   "odds": "+1000",
+   "res": "Pending",
+   "stat": "Pending"
   }
  ],
  "tracked_rows": [],
@@ -15147,8 +15451,743 @@
  },
  "legday": {
   "date": "2026-10-26",
-  "posted": {},
-  "board": []
+  "posted": {
+   "NFL": {
+    "at": "7:15 AM ET",
+    "n": 2,
+    "source": "2026-10-26.json",
+    "held": []
+   },
+   "NBA": {
+    "at": "7:15 AM ET",
+    "n": 10,
+    "source": "2026-10-26.json",
+    "held": []
+   },
+   "WNBA": {
+    "at": "7:15 AM ET",
+    "n": 2,
+    "source": "2026-10-26.json",
+    "held": []
+   },
+   "NHL": {
+    "at": "7:15 AM ET",
+    "n": 5,
+    "source": "2026-10-26.json",
+    "held": []
+   }
+  },
+  "board": [
+   {
+    "sport": "NBA",
+    "rank": 1,
+    "game": "Cavaliers vs Timberwolves",
+    "start_et": "Mon 10/26 07:00 PM ET",
+    "player": "Ayo Dosunmu",
+    "prop": "Over 6.5 Reb + Ast",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-131",
+     "na": false,
+     "ladder": [
+      [
+       "5+",
+       "-475"
+      ],
+      [
+       "7+",
+       "-131"
+      ],
+      [
+       "8+",
+       "+130"
+      ],
+      [
+       "10+",
+       "+350"
+      ],
+      [
+       "12+",
+       "+850"
+      ],
+      [
+       "15+",
+       "+2200"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 2,
+    "game": "Celtics vs Bulls",
+    "start_et": "Mon 10/26 07:30 PM ET",
+    "player": "Jalen Smith",
+    "prop": "Over 10.5 Points",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-125",
+     "na": false,
+     "ladder": [
+      [
+       "6+",
+       "-650"
+      ],
+      [
+       "8+",
+       "-313"
+      ],
+      [
+       "10+",
+       "-168"
+      ],
+      [
+       "11+",
+       "-125"
+      ],
+      [
+       "12+",
+       "+106"
+      ],
+      [
+       "15+",
+       "+224"
+      ],
+      [
+       "18+",
+       "+455"
+      ],
+      [
+       "20+",
+       "+730"
+      ],
+      [
+       "25+",
+       "+2000"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 3,
+    "game": "Hornets vs Wizards",
+    "start_et": "Mon 10/26 07:00 PM ET",
+    "player": "Justin Champagnie",
+    "prop": "Over 5.5 Rebounds",
+    "odds": "-135",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-154",
+     "na": false,
+     "ladder": [
+      [
+       "3+",
+       "-1540"
+      ],
+      [
+       "4+",
+       "-582"
+      ],
+      [
+       "5+",
+       "-279"
+      ],
+      [
+       "6+",
+       "-154"
+      ],
+      [
+       "7+",
+       "+111"
+      ],
+      [
+       "8+",
+       "+186"
+      ],
+      [
+       "9+",
+       "+306"
+      ],
+      [
+       "10+",
+       "+487"
+      ],
+      [
+       "11+",
+       "+760"
+      ],
+      [
+       "12+",
+       "+1220"
+      ],
+      [
+       "13+",
+       "+1760"
+      ],
+      [
+       "14+",
+       "+2400"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 4,
+    "game": "Bucks vs Pacers",
+    "start_et": "Mon 10/26 08:00 PM ET",
+    "player": "Kyle Kuzma",
+    "prop": "Over 5.5 Rebounds",
+    "odds": "-115",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-121",
+     "na": false,
+     "ladder": [
+      [
+       "3+",
+       "-1220"
+      ],
+      [
+       "4+",
+       "-462"
+      ],
+      [
+       "5+",
+       "-221"
+      ],
+      [
+       "6+",
+       "-121"
+      ],
+      [
+       "7+",
+       "+150"
+      ],
+      [
+       "8+",
+       "+260"
+      ],
+      [
+       "9+",
+       "+445"
+      ],
+      [
+       "10+",
+       "+720"
+      ],
+      [
+       "11+",
+       "+1180"
+      ],
+      [
+       "12+",
+       "+1820"
+      ],
+      [
+       "13+",
+       "+2600"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 5,
+    "game": "Heat vs Mavericks",
+    "start_et": "Mon 10/26 07:30 PM ET",
+    "player": "Davion Mitchell",
+    "prop": "Over 10.5 Points",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-121",
+     "na": false,
+     "ladder": [
+      [
+       "6+",
+       "-620"
+      ],
+      [
+       "8+",
+       "-295"
+      ],
+      [
+       "10+",
+       "-158"
+      ],
+      [
+       "11+",
+       "-121"
+      ],
+      [
+       "12+",
+       "+110"
+      ],
+      [
+       "15+",
+       "+238"
+      ],
+      [
+       "18+",
+       "+489"
+      ],
+      [
+       "20+",
+       "+810"
+      ],
+      [
+       "25+",
+       "+2200"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 6,
+    "game": "Celtics vs Bulls",
+    "start_et": "Mon 10/26 07:30 PM ET",
+    "player": "Josh Giddey",
+    "prop": "Under 11.5 Points",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-122",
+     "na": false,
+     "ladder": [
+      [
+       "u11.5",
+       "-122"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 7,
+    "game": "Jazz vs Grizzlies",
+    "start_et": "Mon 10/26 09:00 PM ET",
+    "player": "Jaylen Wells",
+    "prop": "Over 4.5 Reb + Ast",
+    "odds": "-120",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-126",
+     "na": false,
+     "ladder": [
+      [
+       "5+",
+       "-126"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 8,
+    "game": "Rockets vs Hawks",
+    "start_et": "Mon 10/26 08:30 PM ET",
+    "player": "Aaron Wiggins",
+    "prop": "Over 14.5 Pts + Reb",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-122",
+     "na": false,
+     "ladder": [
+      [
+       "10+",
+       "-498"
+      ],
+      [
+       "15+",
+       "-122"
+      ],
+      [
+       "20+",
+       "+256"
+      ],
+      [
+       "25+",
+       "+740"
+      ],
+      [
+       "30+",
+       "+1780"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 9,
+    "game": "Heat vs Mavericks",
+    "start_et": "Mon 10/26 07:30 PM ET",
+    "player": "Giannis Antetokounmpo",
+    "prop": "Under 17.5 Reb + Ast",
+    "odds": "-120",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-102",
+     "na": false,
+     "ladder": [
+      [
+       "u17.5",
+       "-102"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 10,
+    "game": "Rockets vs Hawks",
+    "start_et": "Mon 10/26 08:30 PM ET",
+    "player": "Nickeil Alexander-Walker",
+    "prop": "Over 2.5 Threes Made",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-128",
+     "na": false,
+     "ladder": [
+      [
+       "1+",
+       "-2200"
+      ],
+      [
+       "2+",
+       "-377"
+      ],
+      [
+       "3+",
+       "-128"
+      ],
+      [
+       "4+",
+       "+184"
+      ],
+      [
+       "5+",
+       "+399"
+      ],
+      [
+       "6+",
+       "+850"
+      ],
+      [
+       "7+",
+       "+1700"
+      ],
+      [
+       "8+",
+       "+2800"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NFL",
+    "rank": 1,
+    "game": "Eagles vs Cowboys",
+    "start_et": "Mon 10/26 08:15 PM ET",
+    "player": "Makai Lemon",
+    "prop": "Under 38.5 Receiving Yards",
+    "odds": "-115",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": null,
+     "na": true,
+     "ladder": [
+      [
+       "u37.5",
+       "-113"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NFL",
+    "rank": 2,
+    "game": "Eagles vs Cowboys",
+    "start_et": "Mon 10/26 08:15 PM ET",
+    "player": "Brevyn Spann-Ford",
+    "prop": "Over 8.5 Receiving Yards",
+    "odds": "-120",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-110",
+     "na": false,
+     "ladder": [
+      [
+       "9+",
+       "-110"
+      ],
+      [
+       "10+",
+       "+103"
+      ],
+      [
+       "15+",
+       "+165"
+      ],
+      [
+       "20+",
+       "+243"
+      ],
+      [
+       "25+",
+       "+342"
+      ],
+      [
+       "30+",
+       "+477"
+      ],
+      [
+       "40+",
+       "+880"
+      ],
+      [
+       "50+",
+       "+1560"
+      ],
+      [
+       "60+",
+       "+2400"
+      ],
+      [
+       "70+",
+       "+3600"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 1,
+    "game": "Oilers vs. Red Wings",
+    "start_et": "Mon 10/26 09:30 PM ET",
+    "player": "Leon Draisaitl",
+    "prop": "Over 1.5 Points",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "+105",
+     "na": false,
+     "ladder": [
+      [
+       "1+",
+       "-425"
+      ],
+      [
+       "2+",
+       "+105"
+      ],
+      [
+       "3+",
+       "+330"
+      ],
+      [
+       "4+",
+       "+1000"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 2,
+    "game": "Rangers vs. Kings",
+    "start_et": "Mon 10/26 07:00 PM ET",
+    "player": "Mats Zuccarello",
+    "prop": "Under 1.5 Shots On Goal",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-135",
+     "na": false,
+     "ladder": [
+      [
+       "u1.5",
+       "-135"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 3,
+    "game": "Flames vs. Maple Leafs",
+    "start_et": "Mon 10/26 08:30 PM ET",
+    "player": "Nick Paul",
+    "prop": "Under 1.5 Shots On Goal",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-160",
+     "na": false,
+     "ladder": [
+      [
+       "u1.5",
+       "-160"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 4,
+    "game": "Oilers vs. Red Wings",
+    "start_et": "Mon 10/26 09:30 PM ET",
+    "player": "Lucas Raymond",
+    "prop": "Over 2.5 Shots On Goal",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-130",
+     "na": false,
+     "ladder": [
+      [
+       "1+",
+       "-1800"
+      ],
+      [
+       "2+",
+       "-360"
+      ],
+      [
+       "3+",
+       "-130"
+      ],
+      [
+       "4+",
+       "+180"
+      ],
+      [
+       "5+",
+       "+400"
+      ],
+      [
+       "6+",
+       "+850"
+      ],
+      [
+       "7+",
+       "+1900"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 5,
+    "game": "Flames vs. Maple Leafs",
+    "start_et": "Mon 10/26 08:30 PM ET",
+    "player": "Auston Matthews",
+    "prop": "Under 3.5 Shots On Goal",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": "-130",
+     "na": false,
+     "ladder": [
+      [
+       "u3.5",
+       "-130"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "WNBA",
+    "rank": 1,
+    "game": "Golden State Valkyries vs. Atlanta Dream",
+    "start_et": "Mon 10/26 08:00 PM ET",
+    "player": "Jordin Canada",
+    "prop": "Over 14.5 Pts + Reb",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": null,
+     "na": true
+    }
+   },
+   {
+    "sport": "WNBA",
+    "rank": 2,
+    "game": "Golden State Valkyries vs. Atlanta Dream",
+    "start_et": "Mon 10/26 08:00 PM ET",
+    "player": "Naz Hillmon",
+    "prop": "Over 9.5 Pts + Reb",
+    "odds": "-110",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "dk": {
+     "odds": null,
+     "na": true
+    }
+   }
+  ]
  },
  "rules": {
   "potd": [
@@ -19289,6 +20328,22 @@
     "fam": "SOG"
    },
    {
+    "date": "2026-10-26",
+    "sport": "MLB",
+    "grp": "E",
+    "cat": "Edge",
+    "prop": "MLB HR",
+    "pick": "Garrett Mitchell Over 0.5 Home Runs",
+    "odds": "+1000",
+    "res": "",
+    "stat": "Pending",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "Hits/TB/HR/RBI"
+   },
+   {
     "date": "2026-10-18",
     "sport": "NFL",
     "grp": "O",
@@ -22890,6 +23945,102 @@
    },
    {
     "date": "2026-10-25",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "Cam Boozer o8.5 Rebs (Grizzlies vs Kings; NBA Play Of The Day)",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NFL spread",
+    "fam": "Spread",
+    "pick": "Seattle Seahawks -2.5 (Sunday Night Football)",
+    "odds": "-122",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "Kenneth Walker o79.5 rush yds (Sunday Night Football betting card)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rec yds (under)",
+    "fam": "Receiving yds",
+    "pick": "Jaxon Smith-Njigba u92.5 rec yds (Sunday Night Football betting card)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL ML",
+    "fam": "ML",
+    "pick": "Kansas City Chiefs to win (Sunday Night Football; Kalshi)",
+    "odds": "42% Kalshi",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Brandon Miller o23.5 Points (Hornets vs Wizards)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
     "cat": "The Heist",
@@ -23388,6 +24539,367 @@
     "img": null,
     "sub": "",
     "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Makai Lemon Under 38.5 Receiving Yards",
+    "pick": "#1 Makai Lemon Under 38.5 Receiving Yards",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 1,
+    "uu": 0.0,
+    "game": "Eagles vs Cowboys",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Brevyn Spann-Ford Over 8.5 Receiving Yards",
+    "pick": "#2 Brevyn Spann-Ford Over 8.5 Receiving Yards",
+    "odds": "-120",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 2,
+    "uu": 0.0,
+    "game": "Eagles vs Cowboys",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Ayo Dosunmu Over 6.5 Reb + Ast",
+    "pick": "#1 Ayo Dosunmu Over 6.5 Reb + Ast",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 1,
+    "uu": 0.0,
+    "game": "Cavaliers vs Timberwolves",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Jalen Smith Over 10.5 Points",
+    "pick": "#2 Jalen Smith Over 10.5 Points",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 2,
+    "uu": 0.0,
+    "game": "Celtics vs Bulls",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Justin Champagnie Over 5.5 Rebounds",
+    "pick": "#3 Justin Champagnie Over 5.5 Rebounds",
+    "odds": "-135",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 3,
+    "uu": 0.0,
+    "game": "Hornets vs Wizards",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Kyle Kuzma Over 5.5 Rebounds",
+    "pick": "#4 Kyle Kuzma Over 5.5 Rebounds",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 4,
+    "uu": 0.0,
+    "game": "Bucks vs Pacers",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Davion Mitchell Over 10.5 Points",
+    "pick": "#5 Davion Mitchell Over 10.5 Points",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 5,
+    "uu": 0.0,
+    "game": "Heat vs Mavericks",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Josh Giddey Under 11.5 Points",
+    "pick": "#6 Josh Giddey Under 11.5 Points",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 6,
+    "uu": 0.0,
+    "game": "Celtics vs Bulls",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Jaylen Wells Over 4.5 Reb + Ast",
+    "pick": "#7 Jaylen Wells Over 4.5 Reb + Ast",
+    "odds": "-120",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 7,
+    "uu": 0.0,
+    "game": "Jazz vs Grizzlies",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Aaron Wiggins Over 14.5 Pts + Reb",
+    "pick": "#8 Aaron Wiggins Over 14.5 Pts + Reb",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 8,
+    "uu": 0.0,
+    "game": "Rockets vs Hawks",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Giannis Antetokounmpo Under 17.5 Reb + Ast",
+    "pick": "#9 Giannis Antetokounmpo Under 17.5 Reb + Ast",
+    "odds": "-120",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 9,
+    "uu": 0.0,
+    "game": "Heat vs Mavericks",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Nickeil Alexander-Walker Over 2.5 Threes Made",
+    "pick": "#10 Nickeil Alexander-Walker Over 2.5 Threes Made",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 10,
+    "uu": 0.0,
+    "game": "Rockets vs Hawks",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Jordin Canada Over 14.5 Pts + Reb",
+    "pick": "#1 Jordin Canada Over 14.5 Pts + Reb",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 1,
+    "uu": 0.0,
+    "game": "Golden State Valkyries vs. Atlanta Dream",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "WNBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Naz Hillmon Over 9.5 Pts + Reb",
+    "pick": "#2 Naz Hillmon Over 9.5 Pts + Reb",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 2,
+    "uu": 0.0,
+    "game": "Golden State Valkyries vs. Atlanta Dream",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Leon Draisaitl Over 1.5 Points",
+    "pick": "#1 Leon Draisaitl Over 1.5 Points",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 1,
+    "uu": 0.0,
+    "game": "Oilers vs. Red Wings",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Mats Zuccarello Under 1.5 Shots On Goal",
+    "pick": "#2 Mats Zuccarello Under 1.5 Shots On Goal",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 2,
+    "uu": 0.0,
+    "game": "Rangers vs. Kings",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Nick Paul Under 1.5 Shots On Goal",
+    "pick": "#3 Nick Paul Under 1.5 Shots On Goal",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 3,
+    "uu": 0.0,
+    "game": "Flames vs. Maple Leafs",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Lucas Raymond Over 2.5 Shots On Goal",
+    "pick": "#4 Lucas Raymond Over 2.5 Shots On Goal",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 4,
+    "uu": 0.0,
+    "game": "Oilers vs. Red Wings",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Auston Matthews Under 3.5 Shots On Goal",
+    "pick": "#5 Auston Matthews Under 3.5 Shots On Goal",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 5,
+    "uu": 0.0,
+    "game": "Flames vs. Maple Leafs",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Other"
    }
   ],
   "summary": {
@@ -23396,7 +24908,7 @@
      "w": 36,
      "l": 48,
      "p": 1,
-     "pending": 0,
+     "pending": 19,
      "units": -12
     },
     "legs": {
@@ -23412,7 +24924,7 @@
      "w": 71,
      "l": 123,
      "p": 1,
-     "pending": 0,
+     "pending": 1,
      "units": -52
     },
     "legs": {
@@ -23428,7 +24940,7 @@
      "w": 83,
      "l": 65,
      "p": 0,
-     "pending": 7,
+     "pending": 13,
      "units": 18
     },
     "legs": {
@@ -23452,7 +24964,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 7 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 13 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 276 archived rows skipped (retired tier + placed tickets; see archive/)"
   ],
@@ -23566,31 +25078,81 @@
   ]
  },
  "heist": {
-  "date": "2026-10-26",
+  "date": "2026-10-25",
   "title": "THE HEIST",
   "sub": "▼ BOUGHT DOWN · CAPPERS",
   "stake": "1u",
-  "legs": [],
-  "skipped": [
+  "legs": [
    {
     "capper": "@alexcaruso",
-    "why": "no picks today",
-    "pick": ""
+    "sport": "NFL",
+    "orig": "Bijan Robinson o28.5 rec yds",
+    "orig_odds": null,
+    "pick": "Bijan Robinson 19+ rec yds",
+    "odds": -325,
+    "src": "LineMate HR alt",
+    "game": "SF @ ATL",
+    "gkey": "NFL:401873017",
+    "start": "2026-10-25 13:00",
+    "locked": true,
+    "res": "",
+    "stat": "",
+    "priced": "2026-10-25 12:56",
+    "orig_note": "book price; capper posted no odds",
+    "dk": {
+     "na": true,
+     "orig_odds": null
+    }
    },
    {
     "capper": "@panpotd",
-    "why": "no picks today",
-    "pick": ""
+    "sport": "NFL",
+    "orig": "Denzel Boston o48.5 rec yds",
+    "orig_odds": -114,
+    "pick": "Denzel Boston 31+ rec yds",
+    "odds": -325,
+    "src": "LineMate HR alt",
+    "game": "CLE @ TEN",
+    "gkey": "NFL:401873013",
+    "start": "2026-10-25 13:00",
+    "locked": true,
+    "res": "",
+    "stat": "",
+    "priced": "2026-10-25 12:56",
+    "dk": {
+     "na": true,
+     "orig_odds": null
+    }
    },
    {
     "capper": "@austinsprops",
-    "why": "no picks today",
-    "pick": ""
-   },
+    "sport": "NFL",
+    "orig": "Woody Marks o13.5 longest rush",
+    "orig_odds": -110,
+    "pick": "Woody Marks o13.5 longest rush",
+    "odds": -110,
+    "src": "Capper original line",
+    "game": "Texans vs Giants; NFL Play of the Week",
+    "gkey": "NFL:401873016",
+    "start": "2026-10-25 13:00",
+    "locked": true,
+    "res": "",
+    "stat": "",
+    "priced": "2026-10-25 12:56",
+    "dk": {
+     "odds": null,
+     "na": true,
+     "pick": "Woody Marks o13.5 longest rush",
+     "src": "original line",
+     "orig_odds": null
+    }
+   }
+  ],
+  "skipped": [
    {
     "capper": "@showtimepicks2",
-    "why": "no picks today",
-    "pick": ""
+    "why": "same game as @panpotd",
+    "pick": "Tennessee Titans ML"
    },
    {
     "capper": "@bigmikepickz",
@@ -23603,24 +25165,17 @@
     "pick": ""
    }
   ],
-  "status": "waiting",
-  "msg": "Builds after the morning capper pull",
-  "odds": null,
+  "status": "live",
+  "msg": "",
+  "odds": 226,
   "orig": null,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
-  "conv": [],
-  "props": {
-   "n": 0,
-   "w": 0,
-   "l": 0,
-   "p": 0,
-   "pending": 0,
-   "units": 0.0
-  }
+  "dk_odds": null,
+  "dk_orig": null
  },
  "big4_games": 14,
  "big4_games_by_sport": {
@@ -23630,14 +25185,19 @@
   "MLB": 1
  },
  "dk": {
-  "fetched": "2026-10-25 16:15 ET",
+  "fetched": "2026-10-26 07:16 ET",
   "snapshots": 1,
-  "pregame_games": 80,
+  "pregame_games": 88,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 0,
-   "priced": 0,
-   "na": []
+   "legs": 21,
+   "priced": 18,
+   "na": [
+    "LEG DAY Makai Lemon Under 38.5 Receiving Yards",
+    "LEG DAY Jordin Canada Over 14.5 Pts + Reb",
+    "LEG DAY Naz Hillmon Over 9.5 Pts + Reb"
+   ]
   }
- }
+ },
+ "capper_audit_hold": "Capper/HEIST data held at 2026-10-25 16:16 ET (self-audit failed; see logs/capper_audit_2026-10-26.txt)"
 }
