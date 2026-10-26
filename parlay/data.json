@@ -1,5 +1,5 @@
 {
- "generated": 1792992912.3268561,
+ "generated": 1793009313.901674,
  "today": {
   "title": "Oct 26 picks (Hard Rock)",
   "tickets": [],
@@ -5741,14 +5741,14 @@
   },
   {
    "name": "@austinsprops",
-   "w": 20,
+   "w": 21,
    "l": 16,
    "p": 0,
-   "pct": 56,
+   "pct": 57,
    "props": [
     {
      "prop": "NFL rush yds (over)",
-     "w": 1,
+     "w": 2,
      "l": 0,
      "p": 0,
      "pct": 100,
@@ -6139,7 +6139,7 @@
  "capper_today_date": "2026-10-26",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-26 01:35 AM ET",
+  "updated": "2026-10-26 06:08 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -22608,7 +22608,7 @@
     "prop": "@austinsprops · NFL rec yds (over)",
     "fam": "Receiving yds",
     "pick": "Chris Olave o74.5 rec yds (Week 7 full card)",
-    "odds": "none posted",
+    "odds": "-110",
     "res": "L",
     "stat": "L (56 rec yds)",
     "alt": false,
@@ -22656,7 +22656,7 @@
     "prop": "@austinsprops · NFL receptions (over)",
     "fam": "Receptions",
     "pick": "Tucker Kraft o4.5 receptions (Week 7 full card)",
-    "odds": "none posted",
+    "odds": "+100",
     "res": "L",
     "stat": "L (4 rec)",
     "alt": false,
@@ -22723,6 +22723,22 @@
     "odds": "-110",
     "res": "L",
     "stat": "L (long 11)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-25",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "Jonah Coleman o17.5 rush yds (Week 7 full card)",
+    "odds": "-109",
+    "res": "W",
+    "stat": "W (54 rush yds)",
     "alt": false,
     "leg": false,
     "img": null,
@@ -22865,22 +22881,6 @@
     "fam": "Assists",
     "pick": "Shaedon Sharpe o2.5 Assists",
     "odds": "n/a",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-25",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL yds (over)",
-    "fam": "Rushing yds",
-    "pick": "Jonah Coleman o17.5 RY (posted as \"RY\"; Week 7 full card)",
-    "odds": "none posted",
     "res": "",
     "stat": "",
     "alt": false,
@@ -23425,11 +23425,11 @@
    },
    "C": {
     "tickets": {
-     "w": 82,
+     "w": 83,
      "l": 65,
      "p": 0,
-     "pending": 8,
-     "units": 17
+     "pending": 7,
+     "units": 18
     },
     "legs": {
      "w": 0,
@@ -23452,7 +23452,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 8 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 7 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 276 archived rows skipped (retired tier + placed tickets; see archive/)"
   ],
