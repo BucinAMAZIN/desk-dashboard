@@ -474,7 +474,8 @@ function PCSPL(pk){pk=pkS(String(pk||'')).replace(/\s+/g,' ').trim();const m=pk.
 function PCCAP(s){s=String(s||'');return /^[a-z][a-z]/.test(s)?s[0].toUpperCase()+s.slice(1):s}
 function PCTM(s){s=String(s||'');let m=s.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);if(m)return(+m[1]%12||12)+':'+m[2]+' '+m[3].toUpperCase()+' ET';m=s.match(/(?:^|\s|T)(\d{1,2}):(\d{2})(?::\d\d)?\b/);if(m){const h=+m[1];return(h%12||12)+':'+m[2]+(h>=12?' PM':' AM')+' ET'}return''}
 function PCGM(g,st){g=String(g||'').split(';')[0];const t=PCTM(g)||PCTM(st);g=g.replace(/\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\b\.?/g,'').replace(/\b\d{1,2}\/\d{1,2}(\/\d{2,4})?\b/g,'').replace(/\d{1,2}:\d{2}\s*(AM|PM)?/gi,'').replace(/\bET\b/g,'').replace(/\s{2,}/g,' ').replace(/[\s·,]+$/,'').trim();return[g,t]}
-function PCST(l,hx){const r=String((l&&(l.res||l.status||l.result))||'').trim();if(r==='Pre-lock')return['p','⏳ PENDING'];return /^(w|won|win|hit|cashed)\b/i.test(r)?['w','WON']:/^(l|lost|loss|miss)\b/i.test(r)?['l','LOST']:hx&&/^(p|push)$/i.test(r)?['v','PUSH']:/^(v|void|p|push|cancel)/i.test(r)?['v','VOID']:['p','PENDING']}
+/* VOID-FIX-1025: VOID only on an explicit void/push grade (exact match); empty, pending, live or final-but-ungraded stays ⏳ PENDING */
+function PCST(l,hx){const r=String((l&&(l.res||l.status||l.result))||'').trim();return /^(w|won|win|hit|cashed)\b/i.test(r)?['w','WON']:/^(l|lost|loss|miss)\b/i.test(r)?['l','LOST']:hx&&/^(p|push)$/i.test(r)?['v','PUSH']:/^(v|void|voided|p|push|cancel|cancelled|canceled)$/i.test(r)?['v','VOID']:['p','⏳ PENDING']}
 function PCBKS(hr,dk){const a=BK()=='draftkings'?'dk':'hr',im=(k,n)=>`<i class="pcbt pcb-${k}${a==k?' on':''}" title="${n} offers this line"><img src="${PCIMG[k]}" width="14" height="14" alt="${n}"></i>`;
  return hr||dk?`<span class="pcb" aria-label="Offered at ${[hr?'Hard Rock':'',dk?'DraftKings':''].filter(Boolean).join(' and ')}">${hr?im('hr','Hard Rock Bet'):''}${dk?im('dk','DraftKings'):''}</span>`:'<span class="pcb pcb0" aria-label="Neither book offers this line">—</span>'}
 /* o: {k full pick, pl, pr, hr, dk, game, start, st:[c,t], sp, why, plc, prc} */
@@ -538,7 +539,7 @@ g.addEventListener('keydown',function(e){if(e.key!=='ArrowLeft'&&e.key!=='ArrowR
 g.addEventListener('animationend',function(){g.classList.remove('glint')});
 apply(cur())})();
 
-const UI_BUILD='1792982125';
+const UI_BUILD='1792983104';
 const U$=x=>{const v=Math.round(+String(x).replace(/,/g,'')/1.5*100)/100;return v+'u'};let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\b0(\d:\d\d\s?[AP]M)/g,'$1').replace(/(\bParlay\s+)?(\bTicket B\b|\+100 ticket)/gi,(m,p,t)=>p&&/^\+/.test(t)?m:'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,(m,o,x)=>/Lotto Ticket \($/.test(x.slice(Math.max(0,o-14),o))?m:'Lotto Ticket').replace(/\$\s?(\d[\d,]*(?:\.\d+)?)/g,(m,x)=>U$(x)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
