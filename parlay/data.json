@@ -1,5 +1,5 @@
 {
- "generated": 1793056706.6796618,
+ "generated": 1793058034.72636,
  "today": {
   "title": "Oct 26 picks (Hard Rock)",
   "tickets": [
@@ -18,16 +18,54 @@
    },
    {
     "name": "+100 ticket",
-    "desc": "Nothing met the official standards, so no ticket posts (no filler).",
-    "odds": "—",
+    "desc": "3-leg +108 (1u)",
+    "odds": "+108",
     "stake": "—",
     "payout": "—",
-    "status": "None",
+    "status": "Pending",
     "game": "",
-    "legs": [],
+    "legs": [
+     {
+      "pick": "Eagles vs Cowboys under 54.5 total",
+      "odds": "-475",
+      "game": "DAL @ PHI 8:15 PM ET",
+      "status": "Pending",
+      "why": "Game line. Hard Rock -475. Game hit this line in 10 of last 10 (5 of last 5) (totals use the team's own last 10 games). Grade A.",
+      "why_not": "Team results can swing on pace and garbage time; heavy price adds little payout.",
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     },
+     {
+      "pick": "Warriors team total under 124.5",
+      "odds": "-500",
+      "game": "GSW @ DEN 10:00 PM ET",
+      "status": "Pending",
+      "why": "Game line. Hard Rock -500. Warriors hit this line in 10 of last 10 (5 of last 5). Grade A.",
+      "why_not": "Team results can swing on pace and garbage time; heavy price adds little payout.",
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     },
+     {
+      "pick": "Brewers +1.5",
+      "odds": "-230",
+      "game": "MIL @ TB 8:08 PM ET",
+      "status": "Pending",
+      "why": "Game line. Hard Rock -230. Brewers hit this line in 10 of last 10 (5 of last 5). Grade A.",
+      "why_not": "Team results can swing on pace and garbage time; heavy price adds little payout.",
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     }
+    ],
     "why": null,
-    "pick": "No qualifying ticket today",
-    "none": true
+    "pick": "3-leg +108 (1u)",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+    "dk_odds": null
    },
    {
     "name": "Safe +100 / Alt Parlay",
@@ -154,7 +192,85 @@
      },
      "dk_odds": "-126"
     },
-    "parlay": null
+    "parlay": {
+     "pick": "3-leg",
+     "odds": "+108",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "3-leg +108 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "Fred VanVleet over 1.5 3PM",
+       "odds": "-275",
+       "game": "ATL @ HOU 8:30 PM ET",
+       "status": "Pending",
+       "why": "Volume pick. Hard Rock -275. Over 1.5 hit in 9 of last 10 and 5 of last 5 (L10 avg 3.5). Volume: min L5 32,30,44,40,33, 3PA avg 8.4. Not on the ESPN injury list. Grade A-.",
+       "why_not": "1 of the last 10 missed this line.",
+       "dk": {
+        "odds": "-279",
+        "na": false,
+        "ladder": [
+         [
+          "1+",
+          "-1460"
+         ],
+         [
+          "2+",
+          "-279"
+         ],
+         [
+          "3+",
+          "+100"
+         ],
+         [
+          "4+",
+          "+239"
+         ],
+         [
+          "5+",
+          "+538"
+         ],
+         [
+          "6+",
+          "+1120"
+         ],
+         [
+          "7+",
+          "+2100"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "Grizzlies team total under 128.5",
+       "odds": "-450",
+       "game": "MEM @ UTA 9:00 PM ET",
+       "status": "Pending",
+       "why": "Game line. Hard Rock -450. Grizzlies hit this line in 10 of last 10 (5 of last 5). Grade A.",
+       "why_not": "Team results can swing on pace and garbage time; heavy price adds little payout.",
+       "dk": {
+        "odds": null,
+        "na": true
+       }
+      },
+      {
+       "pick": "Warriors team total under 123.5",
+       "odds": "-400",
+       "game": "GSW @ DEN 10:00 PM ET",
+       "status": "Pending",
+       "why": "Game line. Hard Rock -400. Warriors hit this line in 10 of last 10 (5 of last 5). Grade A.",
+       "why_not": "Team results can swing on pace and garbage time; heavy price adds little payout.",
+       "dk": {
+        "odds": null,
+        "na": true
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NBA",
+     "dk_odds": null
+    }
    },
    "NFL": {
     "potd": {
@@ -1929,7 +2045,7 @@
     "p": 0,
     "pct": 32
    },
-   "pending": 7
+   "pending": 9
   },
   "props": [
    {
@@ -3795,6 +3911,20 @@
     "odds": "+210",
     "result": "L",
     "detail": "Loss (BUF 33-30 LV)"
+   },
+   {
+    "date": "2026-10-26",
+    "pick": "BIG 4 · Parlay: 3-leg",
+    "odds": "+108",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-10-26",
+    "pick": "NBA · Parlay: 3-leg",
+    "odds": "+108",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-10-26",
@@ -6534,7 +6664,7 @@
  "capper_today_date": "2026-10-26",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-26 07:18 PM ET",
+  "updated": "2026-10-26 07:40 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -7556,14 +7686,14 @@
      {
       "a": "WSH",
       "h": "CHA",
-      "st": "6:59 - 1st",
+      "st": "End of 1st",
       "div": true,
       "stake": "WSH : 3rd Southeast, East #7 seed (in playoff spot) · CHA : 2nd Southeast, East #6 seed (in playoff spot)"
      },
      {
       "a": "MIN",
       "h": "CLE",
-      "st": "7:37 - 1st",
+      "st": "10:51 - 2nd",
       "div": false,
       "stake": "MIN : 1st Northwest, West #1 seed (in playoff spot) · CLE : 3rd Central (1.5 GB), East #8 seed (in playoff spot)"
      },
@@ -8125,7 +8255,7 @@
      {
       "a": "LA",
       "h": "NYR",
-      "st": "15:08 - 1st",
+      "st": "2:28 - 1st",
       "div": false,
       "stake": "LA 2-5-2: 7th Pacific Division (11 pts back), West #14 seed (outside playoffs) · NYR 7-5-1: 2nd Metropolitan Division (5 pts back), East #6 seed (in playoff spot)"
      },
@@ -14144,6 +14274,26 @@
    "stat": "—"
   },
   {
+   "date": "2026-10-26",
+   "sport": "NBA",
+   "type": "Parlay",
+   "prop": "NBA parlay",
+   "pick": "3-leg",
+   "odds": "+108",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-10-26",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "Big 4 parlay",
+   "pick": "3-leg",
+   "odds": "+108",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
    "date": "2026-10-18",
    "sport": "NFL",
    "type": "Edge",
@@ -16861,15 +17011,23 @@
  },
  "rules": {
   "potd": [
-   "The official standards apply to every POTD and POTD #n: locked only from the morning prop scan, no near-miss or filler, and no POTD at all on a day LineMate data is missing or signed out.",
+   "Volume potd: one POTD per sport bubble when that sport has games. Hard Rock price -105 to -135 at selection. No edge requirement (POTD and POTD #n).",
+   "Filters: the Alt Line Parlay volume filter and eligible-player rules and bans, plus hit rate at that exact line of at least 7 of last 10, with 8+ of last 10 preferred (the only hit-rate test).",
+   "The card carries a \"Volume\" stamp. The Majors/Today POTD is the best of the Big 4 sport POTDs (NFL, NBA, NHL, MLB).",
+   "The official standards still applies: locked only from the morning prop scan, no near-miss or filler, and no POTD at all on a day LineMate data is missing or signed out.",
    "Price drift: a POTD only has to be in band at selection. Later moves of any size never void it. Void only for inactive player or postponed/cancelled game.",
    "A provisional pick that is out of band before lock with no in-band replacement is marked \"On hold\" and re-checked at lock. It still never voids for drift.",
-   "POTD auto-chain: when a sport's POTD settles, staged pick posts as \"POTD #n\" (official, locked). Candidates are B or better, pregame, ≥10 min to start, not a game already used by the chain, in band, final live Hard Rock check. Nothing qualifies → nothing posts. All Sports POTD does NOT chain. The newest chain pick shows alone in the card."
+   "POTD auto-chain: when a sport's POTD settles, a staged pick posts as \"POTD #n\" (official, locked). Candidates meet the same filters, are pregame with at least 10 min to start, use no game already used by the chain, are in band, and pass a final live Hard Rock check. Nothing qualifies, nothing posts. All Sports POTD does NOT chain. The newest chain pick shows alone in the card.",
+   "Every POTD locks when posted at the 7 AM ET publish. A POTD player ruled out before his game is swapped or voided per."
   ],
   "parlay100": [
-   "Chain: a parlay that settles (L as soon as any leg loses) is followed by \"Parlay +100 #n\" at total +100..+125, using no game from an earlier parlay that day. The All Sports (Big 4) parlay chains too.",
+   "Volume parlay: 2-3 legs. Legs may be ANY real Hard Rock line: a player prop OR a game line (spread, total, moneyline, team total), main or alt, at any price (no per-leg range). No edge requirement. The eligible-prop list does not limit Parlay +100 legs.",
+   "Filters: player-prop legs pass the volume/role filter and bans (no TDs, longest-play, blocks/steals, pitcher Ks, hitter unders, questionable players) and hit that exact line in 7+ of the player's last 10. Game-line legs need the team/game to have hit that line in 7+ of its last 10. 7+ of last 10 is the only hit-rate test.",
+   "Ticket: combined +100 to +140. One leg per game and per player, never both sides, never the bubble's POTD player. One per sport bubble plus one on Today when games exist. NO FILLER: if nothing qualifies, no ticket posts. The official standards scout-file-only still applies.",
+   "Chain: a parlay that settles (L as soon as any leg loses) is followed by \"Parlay +100 #n\" built to the same rules, combined +100 to +140, using no game from an earlier parlay that day. The All Sports (Big 4) parlay chains too.",
    "Same-game rule: legs normally come from different games. When only ONE game is on the slate or left, the ticket is built as a same-game parlay PREGAME.",
-   "All Sports parlay: safest 2-4 legs, about +100 to +115. Official."
+   "All Sports parlay: safest 2-4 legs, about +100 to +115. Official.",
+   "Code note: the bot and the bot still carry old Parlay +100 price-range checks (-500..+120 and the PRICE RANGE ERROR); they must match this section."
   ],
   "safe100": [],
   "edge": [
@@ -16882,7 +17040,7 @@
   "alt": [],
   "live_lines": [],
   "lotto": [
-   "Official. Exempt from the official standards, same as The Heist: no 4% Pinnacle edge, no 2-leg cap and no -130..-250 leg range. Everything else still applies: real Hard Rock prices only (else a real price from another book, labeled Hard Rock unverified), never invent a price, locks, grading.",
+   "Official. Exempt from the official standards's edge rule (no Pinnacle edge requirement) and from the parlay shape, same as The Heist. Everything else still applies: real Hard Rock prices only (else a real price from another book, labeled Hard Rock unverified), never invent a price, locks, grading.",
    "Required td city process:",
    "Scope: this formula and these selection rules apply ONLY to the TD City / Lotto Ticket (the NFL anytime-TD lotto parlay). They do not apply to POTD, Parlay +100, the All Sports parlay, Edge, The Heist, Alt Parlay / Safe +100, Cappers or any other ticket or pick, and they are not to be extended to other tickets by analogy.",
    "Score each candidate and take the top 4-6 legs, preferring different games:",
@@ -16935,7 +17093,7 @@
   "heist": [
    "The Heist is a daily Official parlay built from the cappers' own picks, each bought down to a shorter real Hard Rock alt rung.",
    "No lineup/injury rules: The Heist is strictly the cappers' plays converted down. Lineup and injury rules do not apply to it: no injury, inactive, matchup or lineup swaps on Heist legs, and \"Questionable = out\", Swaps, projected lineups, projected starters and replacements do not apply. A leg whose player does not play is settled under Grading below (void or DNP stays Pending until settled by hand).",
-   "Exempt from the official standards: no 4% Pinnacle edge, no 2-leg cap and no -130..-250 leg range. Everything else still applies: real Hard Rock prices only, never invent a price, locks, grading.",
+   "Exempt from the official standards's edge rule (no Pinnacle edge requirement) and from the parlay shape. Everything else still applies: real Hard Rock prices only, never invent a price, locks, grading.",
    "Cappers: at most one leg each from @alexcaruso, @panpotd, @austinsprops, @showtimepicks2, @bigmikepickz and @habibtings. Never @tonestakes, @doctorprofit or @salbets_.",
    "Ticket: max 5 legs, one per game, at least 2 legs. With no ticket yet (before the first build, or fewer than 2 bought-down legs) the card is a minimal empty card: header, Stake 1u and this Rules dropdown, with no timing text.",
    "TALLY = INDIVIDUAL ALT PROPS: every buy-down in the Buy-downs list is its own Official 1u single, graded at its converted Hard Rock alt line (the capper's original line when no rung was kept), priced at that Hard Rock alt price (kept line: the real Hard Rock exact-line price before kickoff, else the capper's posted price). Rows are written to the bot once the game starts (conversion frozen at kickoff) and graded nightly by the bot (W pays at the price, L = -1u, push/void 0; longest rush/rec from the ESPN box-score LONG column). Records shows THE HEIST group as per-prop W-L and units, by prop type and capper. Not graded (not a single prop with a gradable line): capper parlays, ML/side picks and ambiguous stats; the card lists each with its reason. The old parlay ticket record is archived in the bot (never deleted, never tallied). The card no longer shows a combined parlay price; it shows the day's alt-prop W-L and units. Every buy-down row and every leg shows the live prop tracker at the active book's converted line.",
@@ -16944,7 +17102,7 @@
   ],
   "allofficial": [
    "Exactly three groups: Official, Edge, and Cappers (capper picks, tracking only). No other group, tier or label exists anywhere on the dashboard.",
-   "The official standards stay in force for every Official pick: Pinnacle no-vig price with at least 4% edge per leg, the morning prop scan only, parlays max 2 legs at -130..-250, NHL shot-over minimums, no fill. From 2026-10-26 7:12 PM ET the 4% edge applies only to Edge and LEG DAY; POTD and Parlay +100 qualify on volume/role + recent hit rate instead. Exemptions: The Heist, Lotto Ticket / TD City and Safe +100 / Alt Parlay, each with its own rules in its section.",
+   "The official standards stay in force for every Official pick: the morning prop scan only, NHL shot-over minimums, no fill. The 4% Pinnacle edge applies only to Edge and LEG DAY. POTD and Parlay +100 have no edge requirement and qualify on volume/role and recent hit rate instead. Exemptions: The Heist, Lotto Ticket / TD City and Safe +100 / Alt Parlay, each with its own rules in its section.",
    "A former box that cannot meet the official standards is DROPPED, not converted: Runners-up, ALT LINES (sport and Big 4 cards), Home Field, NRFI and inning calls, Live POTD / Live Parlay, Live top lines, in-game lines and the NASCAR extra list. Their scripts no longer run from the bot.",
    "Official history from before this order (POTD, Parlay +100, our recommended legs, Edge) is unchanged. No backfill, except the Lotto Ticket / TD City and Safe +100 / Alt Parlay history restored.",
    "Strict readings: near-misses, fillers and model-only edges are not posted at all; Edge counts as Official, so Pinnacle 4% and NO FILL apply to Edge too; capper picks are idea sources tracked in Cappers only, never in the Official headline; live plays stay untracked; the NCAA F section keeps its separate record."
@@ -17960,6 +18118,38 @@
     "img": null,
     "alt": false,
     "fam": "3PM"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NBA parlay",
+    "pick": "3-leg",
+    "odds": "+108",
+    "res": "",
+    "stat": "—",
+    "sub": "Fred VanVleet over 1.5 3PM + Grizzlies team total under 128.5 + Warriors team total under 123.5",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "Big 4 parlay",
+    "pick": "3-leg",
+    "odds": "+108",
+    "res": "",
+    "stat": "—",
+    "sub": "Eagles vs Cowboys under 54.5 total + Warriors team total under 124.5 + Brewers +1.5",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
    },
    {
     "date": "2026-10-18",
@@ -26014,7 +26204,7 @@
      "w": 36,
      "l": 48,
      "p": 2,
-     "pending": 26,
+     "pending": 28,
      "units": -12
     },
     "legs": {
@@ -26073,7 +26263,7 @@
    "cappers: 22 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 276 archived rows skipped (retired tier + placed tickets; see archive/)",
-   "possible duplicate ticket rows: [('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
+   "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
   ],
   "ru_dropped": [
    [
@@ -26684,8 +26874,8 @@
   "pregame_games": 100,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 35,
-   "priced": 25,
+   "legs": 41,
+   "priced": 26,
    "na": [
     "HEIST CeeDee Lamb o23.5 Longest Reception",
     "LEG DAY Ayo Dosunmu Over 6.5 Reb + Ast",
@@ -26696,7 +26886,12 @@
     "LEG DAY Naz Hillmon Over 9.5 Pts + Reb",
     "Javonte Williams under 65.5 rush yds",
     "Rhyne Howard under 2.5 3PM",
-    "Ryan Shea under 1.5 SOG"
+    "Ryan Shea under 1.5 SOG",
+    "Grizzlies team total under 128.5",
+    "Warriors team total under 123.5",
+    "Eagles vs Cowboys under 54.5 total",
+    "Warriors team total under 124.5",
+    "Brewers +1.5"
    ]
   }
  }
