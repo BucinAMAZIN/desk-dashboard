@@ -1,5 +1,5 @@
 {
- "generated": 1793024703.778952,
+ "generated": 1793033408.5749085,
  "today": {
   "title": "Oct 26 picks (Hard Rock)",
   "tickets": [
@@ -5795,15 +5795,43 @@
    "today": [
     {
      "sport": "NBA",
+     "prop": "NBA points (over)",
+     "pick": "Anthony Davis o21.5 Points (vs Hornets)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Player points"
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA points (over)",
+     "pick": "Brandon Podziemski 15+ Points (NBA Play of the Day)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Player points"
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA rebounds (over)",
+     "pick": "Cameron Boozer o8.5 Rebounds",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Rebounds"
+    },
+    {
+     "sport": "NBA",
      "prop": "NBA rebounds (over)",
      "pick": "Jaime Jaquez o5.5 Rebounds (vs Pacers)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Rebounds",
-     "game": "IND @ MIL",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Rebounds"
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA assists (over)",
+     "pick": "Jalen Johnson o7.5 Assists (vs Rockets)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Assists"
     }
    ]
   },
@@ -5935,7 +5963,16 @@
      "fam": "Parlay"
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NFL",
+     "prop": "NFL longest rec (over)",
+     "pick": "CeeDee Lamb o23.5 Longest Reception (Eagles vs Cowboys, MNF; MNF Play Of The Day)",
+     "odds": "-120 Bovada",
+     "status": "Pending",
+     "fam": "Longest reception"
+    }
+   ]
   },
   {
    "name": "@panpotd",
@@ -6024,11 +6061,15 @@
      "pick": "Brandon Miller o23.5 Points (Hornets vs Wizards)",
      "odds": "-115",
      "status": "Pending",
-     "fam": "Player points",
-     "game": "WSH @ CHA",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Player points"
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA pts+ast (over)",
+     "pick": "Kasparas Jakucionis o10.5 PA (Bucks vs Pacers)",
+     "odds": "-125",
+     "status": "Pending",
+     "fam": "Pts+Ast"
     }
    ]
   },
@@ -6221,7 +6262,7 @@
  "capper_today_date": "2026-10-26",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-26 10:25 AM ET",
+  "updated": "2026-10-26 12:50 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -15329,7 +15370,7 @@
    },
    "NHL": {
     "at": "7:15 AM ET",
-    "n": 5,
+    "n": 4,
     "source": "2026-10-26.json",
     "held": []
    }
@@ -15903,9 +15944,9 @@
     "prop": "Under 1.5 Shots On Goal",
     "odds": "-125",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
+    "status": "final",
+    "res": "V",
+    "stat": "void: Out (ESPN injury report)",
     "dk": {
      "odds": "-120",
      "na": false,
@@ -23913,6 +23954,102 @@
     "sub": ""
    },
    {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL longest rec (over)",
+    "fam": "Longest reception",
+    "pick": "CeeDee Lamb o23.5 Longest Reception (Eagles vs Cowboys, MNF; MNF Play Of The Day)",
+    "odds": "-120 Bovada",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Brandon Podziemski 15+ Points (NBA Play of the Day)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Anthony Davis o21.5 Points (vs Hornets)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "Cameron Boozer o8.5 Rebounds",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA assists (over)",
+    "fam": "Assists",
+    "pick": "Jalen Johnson o7.5 Assists (vs Rockets)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA pts+ast (over)",
+    "fam": "Pts+Ast",
+    "pick": "Kasparas Jakucionis o10.5 PA (Bucks vs Pacers)",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
@@ -24706,8 +24843,8 @@
     "prop": "Mats Zuccarello Under 1.5 Shots On Goal",
     "pick": "#2 Mats Zuccarello Under 1.5 Shots On Goal",
     "odds": "-125",
-    "res": "",
-    "stat": "",
+    "res": "V",
+    "stat": "void: Out (ESPN injury report)",
     "alt": false,
     "rank": 2,
     "uu": 0.0,
@@ -24780,8 +24917,8 @@
     "tickets": {
      "w": 36,
      "l": 48,
-     "p": 1,
-     "pending": 19,
+     "p": 2,
+     "pending": 18,
      "units": -12
     },
     "legs": {
@@ -24813,7 +24950,7 @@
      "w": 85,
      "l": 68,
      "p": 0,
-     "pending": 9,
+     "pending": 15,
      "units": 17
     },
     "legs": {
@@ -24837,7 +24974,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 9 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 15 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 276 archived rows skipped (retired tier + placed tickets; see archive/)"
   ],
@@ -24961,16 +25098,16 @@
     "sport": "NBA",
     "orig": "Brandon Miller o23.5 Points",
     "orig_odds": -115,
-    "pick": "Brandon Miller 19+ pts",
-    "odds": -375,
-    "src": "LineMate HR alt",
-    "game": "WAS @ CHA",
+    "pick": "Brandon Miller o23.5 Points",
+    "odds": -115,
+    "src": "Capper original line",
+    "game": "Hornets vs Wizards",
     "gkey": "NBA:401909868",
     "start": "2026-10-26 19:00",
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-26 10:25",
+    "priced": "2026-10-26 12:50",
     "dk": {
      "ladder": [
       [
@@ -25007,10 +25144,59 @@
       ]
      ],
      "odds": "-280",
-     "pick": "Brandon Miller 20+ pts",
+     "pick": "Brandon Miller Over 19.5 Points",
      "moved": true,
      "na": false,
      "orig_odds": null
+    }
+   },
+   {
+    "capper": "@austinsprops",
+    "sport": "NFL",
+    "orig": "CeeDee Lamb o23.5 Longest Reception",
+    "orig_odds": -120,
+    "pick": "CeeDee Lamb o23.5 Longest Reception",
+    "odds": -120,
+    "src": "Capper original line",
+    "game": "Eagles vs Cowboys, MNF; MNF Play Of The Day",
+    "gkey": "NFL:401873009",
+    "start": "2026-10-26 20:15",
+    "locked": false,
+    "res": "",
+    "stat": "",
+    "priced": "2026-10-26 12:50",
+    "dk": {
+     "odds": "-122",
+     "na": false,
+     "ladder": [
+      [
+       "20+",
+       "-257"
+      ],
+      [
+       "24+",
+       "-122"
+      ],
+      [
+       "25+",
+       "-108"
+      ],
+      [
+       "30+",
+       "+164"
+      ],
+      [
+       "35+",
+       "+271"
+      ],
+      [
+       "40+",
+       "+435"
+      ]
+     ],
+     "pick": "CeeDee Lamb o23.5 Longest Reception",
+     "src": "original line",
+     "orig_odds": "-122"
     }
    }
   ],
@@ -25018,12 +25204,7 @@
    {
     "capper": "@alexcaruso",
     "why": "n/a at Hard Rock (exact line, no buy-down rung)",
-    "pick": "Jaime Jaquez o5.5 Rebounds (vs Pacers)"
-   },
-   {
-    "capper": "@austinsprops",
-    "why": "no picks today",
-    "pick": ""
+    "pick": "Brandon Podziemski 15+ Points (NBA Play of the Day)"
    },
    {
     "capper": "@showtimepicks2",
@@ -25041,10 +25222,10 @@
     "pick": ""
    }
   ],
-  "status": "thin",
-  "msg": "Not enough bought-down legs yet",
-  "odds": null,
-  "orig": null,
+  "status": "live",
+  "msg": "",
+  "odds": 243,
+  "orig": 243,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
@@ -25104,7 +25285,7 @@
    "pending": 0,
    "units": 0.0
   },
-  "dk_odds": "-280",
+  "dk_odds": "+147",
   "dk_orig": null
  },
  "big4_games": 14,
@@ -25120,8 +25301,8 @@
   "pregame_games": 88,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 21,
-   "priced": 18,
+   "legs": 22,
+   "priced": 19,
    "na": [
     "LEG DAY Makai Lemon Under 38.5 Receiving Yards",
     "LEG DAY Jordin Canada Over 14.5 Pts + Reb",
