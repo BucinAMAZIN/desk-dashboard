@@ -539,7 +539,7 @@ g.addEventListener('keydown',function(e){if(e.key!=='ArrowLeft'&&e.key!=='ArrowR
 g.addEventListener('animationend',function(){g.classList.remove('glint')});
 apply(cur())})();
 
-const UI_BUILD='1792983104';
+const UI_BUILD='1793018134';
 const U$=x=>{const v=Math.round(+String(x).replace(/,/g,'')/1.5*100)/100;return v+'u'};let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\b0(\d:\d\d\s?[AP]M)/g,'$1').replace(/(\bParlay\s+)?(\bTicket B\b|\+100 ticket)/gi,(m,p,t)=>p&&/^\+/.test(t)?m:'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,(m,o,x)=>/Lotto Ticket \($/.test(x.slice(Math.max(0,o-14),o))?m:'Lotto Ticket').replace(/\$\s?(\d[\d,]*(?:\.\d+)?)/g,(m,x)=>U$(x)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -808,6 +808,8 @@ function r2set(k,v){R2S[k]=v;if(k=='g'&&v!='C'&&R2S.v=='cap')R2S.v='days';if(K==
 const R4FAM=[['Receiving yds',/rec yds/],['Receptions',/\brec\b|receptions/],['Rushing yds',/rush yds/],['Rush attempts',/rush att|carries/],['Pass yds',/pass|completions/],['Anytime TD',/anytime td|\batd\b/],['SOG',/sog/],['Saves',/save/],['Pitcher Ks',/pitcher k\b/],['Pitcher other',/pitcher/],['Hits/TB/HR/RBI',/hits|\btb\b|\bhr\b|rbi|home run/],['Player points',/points|\bpts\b/],['ML',/\bml\b|moneyline|ht\/ft/],['Spread',/spread|run line|puck line/],['Team total',/team total|team runs/],['Total',/total/],['NASCAR finish',/nascar top/],['NRFI/inning',/nrfi|yrfi/],['Parlay',/parlay|safe100/]];
 /* pt1007u 2026-10-25 10:32 PM ET: every capper prop sorted by ONE fixed prop-type order (data.json capper_fam_order, from capfam.py); within a type newest date first, then player */
 const CFO0=['Pass yds','Pass TDs','Pass other','Rushing yds','Rush attempts','Receiving yds','Rush+Rec yds','Receptions','Longest rush','Longest reception','Anytime TD','Player points','Rebounds','Assists','Pts+Reb','Pts+Ast','Reb+Ast','PRA','3PM','Steals/Blocks','SOG','Saves','Goals','Pitcher Ks','Pitcher outs','Pitcher other','Hits/TB/HR/RBI','NRFI/inning','Fight method','NASCAR finish','ML','Spread','Team total','Total','Parlay','Other'];
+/* pt1022u: Hottest = best family with 3+ graded (>=50%), Coldest = worst, never the same family */
+function HCOLD(fl){const h=fl.length&&fl[0][1].pct>=50?fl[0]:null,c=fl.length>1?fl[fl.length-1]:(fl.length==1&&!h?fl[0]:null);return [h,c&&c!==h?c:null]}
 function CFR(f){const o=(typeof D!='undefined'&&D&&D.capper_fam_order)||CFO0,i=o.indexOf(f);return i<0?o.length:i}
 function CSORT(a,b){return CFR(a.fam)-CFR(b.fam)||(a.date<b.date?1:a.date>b.date?-1:0)||String(a.pick||'').toLowerCase().localeCompare(String(b.pick||'').toLowerCase())}
 function R4F(p){p=String(p||'').toLowerCase();for(const [n,rx] of R4FAM)if(rx.test(p))return n;return'Other'}
@@ -844,7 +846,7 @@ function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m
  {const srt=t0.filter(r=>r.res=='W'||r.res=='L').sort((x,y)=>x.date<y.date?-1:x.date>y.date?1:0);let b=0,c=0;srt.forEach(r=>{c=r.res=='W'?c+1:0;b=Math.max(b,c)});
   const fm={};propSrc(base).forEach(r=>(fm[r.fam]=fm[r.fam]||[]).push(r));
   const fl=Object.entries(fm).map(([k,v])=>[k,rec(v)]).filter(([k,s])=>s.w+s.l>=3&&k!='Parlay'&&k!='Other').sort((x,y)=>y[1].pct-x[1].pct||(y[1].w+y[1].l)-(x[1].w+x[1].l));
-  const hot=fl[0],cold=fl.length>1?fl[fl.length-1]:null,na='<span class=r4na>Needs 3+ results</span>';
+  const [hot,cold]=HCOLD(fl),na='<span class=r4na>Needs 3+ results</span>';
   h+=`<div class="r2co r4co"><div>🔥 Best streak<b>${b} W</b></div><div>📈 Hottest${hot?`<b>${E(hot[0])}</b><em>${hot[1].pct}%</em>`:na}</div><div>🧊 Coldest${cold?`<b>${E(cold[0])}</b><em>${cold[1].pct}%</em>`:na}</div></div>`}
  h+='<div class=r2sp>'+(X.sports||['All']).map(x=>`<button class="${S==x?'on':''}" onclick="r2set('s','${x}')">${x}</button>`).join('')+'</div>';
  h+='<div class=r2tabs>'+[['days','By day'],['props','By prop']].concat(G=='C'?[['cap','By capper']]:[]).map(([k,n])=>`<button class="${V==k?'on':''}" onclick="r2set('v','${k}')">${n}</button>`).join('')+'</div>';
@@ -867,7 +869,7 @@ function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m
   h+=`<details class=r2d><summary><span class=r2t>🏆 Capper leaderboard<span class=r2s>${NW2(FX2PL(L.length,'cappers'))} · ${NW2(fr(rec(t0)))} · ${NW2('by units')}</span></span></summary><div class=r2b><table class=r2tb><tr><th>Capper</th><th class=r>W-L</th><th class=r>%</th><th class=r>Units</th></tr>${L.map(tr).join('')}</table></div></details>`;
   h+=L.map(([k,s,v])=>capCard(k,v.slice().sort((x,y)=>x.date<y.date?1:-1))).join('')}
  else{const a=propSrc(base);const ps={};a.forEach(r=>(ps[r.fam]=ps[r.fam]||[]).push(r));
-  const L=Object.entries(ps).map(([k,v])=>[k,rec(v),v]).sort((x,y)=>G=='C'?CFR(x[0])-CFR(y[0]):y[2].length-x[2].length);
+  const L=Object.entries(ps).map(([k,v])=>[k,rec(v),v]).sort((x,y)=>CFR(x[0])-CFR(y[0])||y[2].length-x[2].length);
   const tr=([k,s])=>`<tr><td>${E(k)}<div class=r2bar><i style="width:${s.pct||0}%"></i></div></td><td class=r>${fr(s)}</td><td class=r>${s.pct??'–'}</td><td class=r>${fu(s.u)}</td></tr>`;
   const top=L.slice(0,8),rest=L.slice(8),th='<tr><th>Prop</th><th class=r>W-L</th><th class=r>%</th><th class=r>Units</th></tr>';
   h+=`<details class=r2d><summary><span class=r2t>${G=='E'?'⚡ Edge by prop':G=='C'?'🎙️ Cappers by prop':'By prop family'}<span class=r2s>${NW2(FX2PL(L.length,'families').replace(/familie$/,'family'))} · ${NW2(fr(rec(a)))}${G=='O'?' · '+NW2('POTD + legs'):''}</span></span></summary><div class=r2b><table class=r2tb>${th}${top.map(tr).join('')}</table>${rest.length?`<details class=r2more><summary>Show ${rest.length} more ▾</summary><table class=r2tb>${rest.map(tr).join('')}</table></details>`:''}</div></details>`;
@@ -1248,7 +1250,7 @@ function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F||(F=='Big 
  // hero callouts (same math as Results v2)
  const srt=Ot.filter(r=>r.res=='W'||r.res=='L').sort((x,y)=>x.date<y.date?-1:x.date>y.date?1:0);let best=0,c=0;srt.forEach(r=>{c=r.res=='W'?c+1:0;best=Math.max(best,c)});
  const fm=grp(O.filter(r=>!r.leg&&(r.cat=='POTD'||r.cat=='LEG DAY')),r=>r.fam);const fl=Object.entries(fm).map(([k,v])=>[k,rec(v)]).filter(([k,s])=>s.w+s.l>=3&&k!='Parlay'&&k!='Other').sort((x,y)=>y[1].pct-x[1].pct||(y[1].w+y[1].l)-(x[1].w+x[1].l));
- const hot=fl[0],cold=fl.length>1?fl[fl.length-1]:null,wk=rec(Ot.filter(x=>x.date>=WK)),td=rec(Ot.filter(x=>x.date==TD));
+ const [hot,cold]=HCOLD(fl),wk=rec(Ot.filter(x=>x.date>=WK)),td=rec(Ot.filter(x=>x.date==TD));
  let h=`<div class="holo hero"><div class=in><div class=foil></div>
   <div class=kick>⭐ OFFICIAL RECORD · ${F=='All'?'ALL SPORTS':E(FL)}<i></i></div>
   <div class=big><div class=bigrec>${fr(so)}</div><div class=bigside><span class=upill>${fu(so.u)}</span><span class=m style="font-size:11px">${pl(Ot.length,'ticket')}${so.pe?'<br>'+so.pe+' pending':''}</span></div><div style="margin-left:auto;transform:scale(1.15);transform-origin:right bottom">${ovr(so)}</div></div>
@@ -1266,7 +1268,7 @@ function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F||(F=='Big 
  const LDX=Ot.filter(r=>r.cat=='LEG DAY'),ldT=rec(LDX.filter(r=>(r.rank||99)<=3)),ldB=rec(LDX.filter(r=>(r.rank||99)>3));
  h+=card('ldt','<div class=em><img src="legday-logo.webp" alt="LEG DAY"></div>',LDX,'pick',()=>LDTBODY(LDX),`<span class=nw>ranks 1-3 ${fr(ldT)}</span> · <span class=nw>4-10 ${fr(ldB)}</span>`,true);
  const HZ=Ot.filter(r=>r.cat=='The Heist');
- h+=card('uf u-hz','<div class=em><div class="tem hz">THE HEIST<small>BOUGHT DOWN · CAPPERS</small></div></div>',HZ,'prop',()=>HZ.length?mini(HZ)+`<div class=sec>BY PROP TYPE<i></i></div>`+bars(grp(HZ,r=>r.fam))+`<div class=sec>BY CAPPER<i></i></div>`+bars(grp(HZ,r=>r.prop.split(' · ')[0]))+plist(HZ,8,'ALT PROPS'):'<div class=empty>No Heist props graded yet.</div>','',true);   /* pt994u: individual alt props, 1u each */
+ h+=card('uf u-hz','<div class=em><div class="tem hz">THE HEIST<small>BOUGHT DOWN · CAPPERS</small></div></div>',HZ,'prop',()=>HZ.length?mini(HZ)+`<div class=sec>BY PROP TYPE<i></i></div>`+bars(grp(HZ,r=>r.fam),99,(x,y)=>CFR(x[0])-CFR(y[0]))+`<div class=sec>BY CAPPER<i></i></div>`+bars(grp(HZ,r=>r.prop.split(' · ')[0]))+plist(HZ,8,'ALT PROPS'):'<div class=empty>No Heist props graded yet.</div>','',true);   /* pt994u: individual alt props, 1u each */
  const SC='Safe +100 (Alt Parlay)',SF=Ot.filter(r=>r.cat==SC);
  h+=card('safe','<div class=em><img src="altlines-logo.jpg" alt="Safe +100 (Alt Parlay)"></div>',SF,'ticket',()=>mini(SF)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(SF,r=>r.sport))+plist(O.filter(r=>r.cat==SC),8,'TICKETS + LEGS'));
  const LC='Lotto Ticket (TD City)',LT=Ot.filter(r=>r.cat==LC),LTl=O.filter(r=>r.cat==LC&&r.leg);
@@ -1274,7 +1276,7 @@ function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F||(F=='Big 
  // EDGE
  const se=rec(Eg);
  h+=`<div class="gh ghE"><span class=t>EDGE</span><span class=tag>OFFICIAL · OWN SECTION</span><span class=ln></span><span class=tot>${fr(se)} ${fu(se.u)}</span></div>`;
- h+=card('edge','<div class=em><img src="edge-logo-crop.jpg" alt="Edge"></div>',Eg,'pick',()=>mini(Eg)+`<div class=sec>BY PROP TYPE<i></i></div>`+bars(grp(Eg,r=>r.fam))+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(Eg,r=>r.sport))+plist(Eg,6,'PICKS'));
+ h+=card('edge','<div class=em><img src="edge-logo-crop.jpg" alt="Edge"></div>',Eg,'pick',()=>mini(Eg)+`<div class=sec>BY PROP TYPE<i></i></div>`+bars(grp(Eg,r=>r.fam),99,(x,y)=>CFR(x[0])-CFR(y[0]))+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(Eg,r=>r.sport))+plist(Eg,6,'PICKS'));
  // CAPPERS (own group; every capper pick once, never in our record)
  const sc=rec(C),ncp=new Set(C.map(r=>r.prop.split(' · ')[0])).size;
  h+=`<div class="gh ghC"><span class=t>CAPPERS</span><span class=tag>IDEA SOURCES</span><span class=ln></span><span class=tot>${fr(sc)} ${fu(sc.u)}</span></div>`;
