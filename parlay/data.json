@@ -1,5 +1,5 @@
 {
- "generated": 1792979923.9593563,
+ "generated": 1792982542.1996925,
  "today": {
   "title": "Oct 25 picks (Hard Rock)",
   "tickets": [
@@ -1719,7 +1719,7 @@
  "record": {
   "overall": {
    "official": {
-    "w": 121,
+    "w": 122,
     "l": 181,
     "p": 1,
     "pct": 40
@@ -1742,7 +1742,7 @@
     "p": 0,
     "pct": 32
    },
-   "pending": 1
+   "pending": 0
   },
   "props": [
    {
@@ -1872,6 +1872,13 @@
     "pct": 67
    },
    {
+    "prop": "NHL to record 3+ shots",
+    "w": 1,
+    "l": 2,
+    "p": 0,
+    "pct": 33
+   },
+   {
     "prop": "NFL o1.5 rec",
     "w": 2,
     "l": 0,
@@ -1911,13 +1918,6 @@
     "w": 0,
     "l": 1,
     "p": 1,
-    "pct": 0
-   },
-   {
-    "prop": "NHL to record 3+ shots",
-    "w": 0,
-    "l": 2,
-    "p": 0,
     "pct": 0
    },
    {
@@ -2248,8 +2248,8 @@
     "date": "2026-10-25",
     "pick": "NHL · Edge: Cole Perfetti Over 2.5 Shots On Goal",
     "odds": "+150",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (4)"
    },
    {
     "date": "2026-10-25",
@@ -5587,7 +5587,11 @@
    ],
    [
     "10/25",
-    -60
+    -58
+   ],
+   [
+    "10/25",
+    -59
    ]
   ]
  },
@@ -5600,181 +5604,206 @@
    "pct": 54,
    "props": [
     {
-     "prop": "MLB batter hits (under)",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "MLB pitcher ER (under)",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "NFL rush yds (over)",
-     "w": 3,
-     "l": 3,
-     "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "NFL rush/rec yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL receptions (under)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL rec yds (over)",
-     "w": 3,
-     "l": 7,
-     "p": 0,
-     "pct": 30
-    },
-    {
-     "prop": "NFL ML",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "MLB ML",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "UFC ML",
-     "w": 0,
-     "l": 2,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "UFC method (KO/TKO)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "UFC method (finish)",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
      "prop": "NFL pass yds (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Pass yds"
     },
     {
      "prop": "NFL pass TDs (over)",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "NFL rush attempts (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL rush yds (under)",
-     "w": 3,
-     "l": 0,
-     "p": 0,
-     "pct": 100
+     "pct": 0,
+     "fam": "Pass TDs"
     },
     {
      "prop": "NFL pass TDs (under)",
      "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 50
+     "pct": 50,
+     "fam": "Pass TDs"
     },
     {
-     "prop": "NBA pts+reb (over)",
+     "prop": "NFL rush yds (over)",
+     "w": 3,
+     "l": 3,
+     "p": 0,
+     "pct": 50,
+     "fam": "Rushing yds"
+    },
+    {
+     "prop": "NFL rush yds (under)",
+     "w": 3,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Rushing yds"
+    },
+    {
+     "prop": "NFL rush attempts (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Rush attempts"
+    },
+    {
+     "prop": "NFL rec yds (over)",
+     "w": 3,
+     "l": 7,
+     "p": 0,
+     "pct": 30,
+     "fam": "Receiving yds"
+    },
+    {
+     "prop": "NFL rush/rec yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Rush+Rec yds"
+    },
+    {
+     "prop": "NFL receptions (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Receptions"
     },
     {
      "prop": "NBA points (over)",
      "w": 3,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Player points"
     },
     {
      "prop": "NBA assists (over)",
      "w": 2,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Assists"
+    },
+    {
+     "prop": "NBA pts+reb (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Pts+Reb"
     },
     {
      "prop": "NBA PRA (over)",
      "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 33
+     "pct": 33,
+     "fam": "PRA"
+    },
+    {
+     "prop": "MLB pitcher ER (under)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Pitcher other"
+    },
+    {
+     "prop": "MLB batter hits (under)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "Hits/TB/HR/RBI"
+    },
+    {
+     "prop": "UFC method (finish)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Fight method"
+    },
+    {
+     "prop": "UFC method (KO/TKO)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Fight method"
+    },
+    {
+     "prop": "MLB ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
+    },
+    {
+     "prop": "NFL ML",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "ML"
+    },
+    {
+     "prop": "UFC ML",
+     "w": 0,
+     "l": 2,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
     }
    ],
    "today": [
     {
      "sport": "NFL",
+     "prop": "NFL rush yds (under)",
+     "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day)",
+     "odds": "none posted",
+     "status": "W",
+     "fam": "Rushing yds"
+    },
+    {
+     "sport": "NFL",
      "prop": "NFL rush yds (over)",
      "pick": "JK Dobbins o47.5 rush yds (Broncos vs Cardinals)",
      "odds": "none posted",
-     "status": "L"
+     "status": "L",
+     "fam": "Rushing yds"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Bijan Robinson o28.5 rec yds (Falcons vs 49ers; NFL Play of the Day)",
      "odds": "none posted",
-     "status": "W"
+     "status": "W",
+     "fam": "Receiving yds"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Jaylin Noel o26.5 rec yds (Texans; NFL Play #4)",
      "odds": "none posted",
-     "status": "L"
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rush yds (under)",
-     "pick": "Chuba Hubbard u67.5 rush yds (Panthers vs Buccaneers; Fade of the Day)",
-     "odds": "none posted",
-     "status": "W"
+     "status": "L",
+     "fam": "Receiving yds"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "John Metchie o12.5 rec yds (NFL Play #5)",
      "odds": "none posted",
-     "status": "Pending"
+     "status": "Pending",
+     "fam": "Receiving yds"
     }
    ]
   },
@@ -5786,160 +5815,182 @@
    "pct": 61,
    "props": [
     {
-     "prop": "MLB pitcher outs (over)",
+     "prop": "NFL rush yds (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "MLB pitcher walks (over)",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
+     "pct": 100,
+     "fam": "Rushing yds"
     },
     {
      "prop": "NFL rec yds (over)",
      "w": 4,
      "l": 3,
      "p": 0,
-     "pct": 57
+     "pct": 57,
+     "fam": "Receiving yds"
     },
     {
      "prop": "NFL receptions (over)",
      "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 50
+     "pct": 50,
+     "fam": "Receptions"
     },
     {
-     "prop": "NFL rush yds (over)",
+     "prop": "NFL longest rush (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL parlay",
-     "w": 1,
-     "l": 2,
-     "p": 0,
-     "pct": 33
+     "pct": 100,
+     "fam": "Longest rush"
     },
     {
      "prop": "NFL longest rec (over)",
      "w": 2,
      "l": 1,
      "p": 0,
-     "pct": 67
-    },
-    {
-     "prop": "NFL longest rush (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NBA pts+reb (over)",
-     "w": 0,
-     "l": 2,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "NBA assists (over)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100
+     "pct": 67,
+     "fam": "Longest reception"
     },
     {
      "prop": "NBA points (over)",
      "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 33
-    },
-    {
-     "prop": "NBA 3PM (over)",
-     "w": 2,
-     "l": 0,
-     "p": 0,
-     "pct": 100
+     "pct": 33,
+     "fam": "Player points"
     },
     {
      "prop": "NBA rebounds (over)",
      "w": 2,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Rebounds"
+    },
+    {
+     "prop": "NBA assists (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Assists"
+    },
+    {
+     "prop": "NBA pts+reb (over)",
+     "w": 0,
+     "l": 2,
+     "p": 0,
+     "pct": 0,
+     "fam": "Pts+Reb"
     },
     {
      "prop": "NBA reb+ast (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Reb+Ast"
+    },
+    {
+     "prop": "NBA 3PM (over)",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "3PM"
+    },
+    {
+     "prop": "MLB pitcher outs (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Pitcher outs"
+    },
+    {
+     "prop": "MLB pitcher walks (over)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Pitcher other"
+    },
+    {
+     "prop": "NFL parlay",
+     "w": 1,
+     "l": 2,
+     "p": 0,
+     "pct": 33,
+     "fam": "Parlay"
     }
    ],
    "today": [
     {
      "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play)",
-     "odds": "-105 FD",
-     "status": "W"
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers)",
-     "odds": "-110 DK",
-     "status": "Pending"
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL longest rush (over)",
-     "pick": "Woody Marks o13.5 longest rush (Texans vs Giants; NFL Play of the Week)",
-     "odds": "-110 DK",
-     "status": "Pending"
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL parlay",
-     "pick": "NFL 5-leg parlay: Ted Hurst anytime TD + George Kittle anytime TD + Woody Marks anytime TD + George Pickens anytime TD + Tucker Kraft anytime TD (Week 7 TD scorers)",
-     "odds": "+10718",
-     "status": "Pending"
+     "prop": "NFL yds (over)",
+     "pick": "Jonah Coleman o17.5 RY (posted as \"RY\"; Week 7 full card)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Rushing yds"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
      "pick": "Chris Olave o74.5 rec yds (Week 7 full card)",
      "odds": "none posted",
-     "status": "L"
+     "status": "L",
+     "fam": "Receiving yds"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Gunnar Helm o12.5 rec yds (Titans vs Browns; second NFL Sunday play)",
+     "odds": "-105 FD",
+     "status": "W",
+     "fam": "Receiving yds"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Ted Hurst o36.5 rec yds (Buccaneers vs Panthers)",
+     "odds": "-110 DK",
+     "status": "Pending",
+     "fam": "Receiving yds"
     },
     {
      "sport": "NFL",
      "prop": "NFL receptions (over)",
      "pick": "Tucker Kraft o4.5 receptions (Week 7 full card)",
      "odds": "none posted",
-     "status": "Pending"
+     "status": "Pending",
+     "fam": "Receptions"
     },
     {
      "sport": "NFL",
-     "prop": "NFL yds (over)",
-     "pick": "Jonah Coleman o17.5 RY (posted as \"RY\"; Week 7 full card)",
-     "odds": "none posted",
-     "status": "Pending"
+     "prop": "NFL longest rush (over)",
+     "pick": "Woody Marks o13.5 longest rush (Texans vs Giants; NFL Play of the Week)",
+     "odds": "-110 DK",
+     "status": "Pending",
+     "fam": "Longest rush"
     },
     {
      "sport": "NBA",
      "prop": "NBA pts+ast (over)",
      "pick": "Franz Wagner o26.5 Pts+Ast (Magic vs Knicks; first NBA winner)",
      "odds": "-125 FD",
-     "status": "Pending"
+     "status": "Pending",
+     "fam": "Pts+Ast"
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL parlay",
+     "pick": "NFL 5-leg parlay: Ted Hurst anytime TD + George Kittle anytime TD + Woody Marks anytime TD + George Pickens anytime TD + Tucker Kraft anytime TD (Week 7 TD scorers)",
+     "odds": "+10718",
+     "status": "Pending",
+     "fam": "Parlay"
     }
    ]
   },
@@ -5951,83 +6002,94 @@
    "pct": 44,
    "props": [
     {
-     "prop": "NFL receptions (over)",
-     "w": 3,
-     "l": 1,
-     "p": 0,
-     "pct": 75
-    },
-    {
-     "prop": "NFL rec yds (over)",
+     "prop": "NFL pass yds (over)",
      "w": 1,
-     "l": 7,
+     "l": 0,
      "p": 0,
-     "pct": 12
+     "pct": 100,
+     "fam": "Pass yds"
     },
     {
      "prop": "NFL rush yds (over)",
      "w": 0,
      "l": 2,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Rushing yds"
     },
     {
-     "prop": "NFL pass yds (over)",
+     "prop": "NFL rec yds (over)",
      "w": 1,
-     "l": 0,
+     "l": 7,
      "p": 0,
-     "pct": 100
+     "pct": 12,
+     "fam": "Receiving yds"
+    },
+    {
+     "prop": "NFL receptions (over)",
+     "w": 3,
+     "l": 1,
+     "p": 0,
+     "pct": 75,
+     "fam": "Receptions"
     },
     {
      "prop": "NFL anytime TD",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Anytime TD"
     },
     {
      "prop": "NBA points (over)",
      "w": 3,
      "l": 3,
      "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "NBA PRA (over)",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
+     "pct": 50,
+     "fam": "Player points"
     },
     {
      "prop": "NBA assists (over)",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Assists"
     },
     {
      "prop": "NBA reb+ast (over)",
      "w": 2,
      "l": 0,
      "p": 0,
-     "pct": 100
+     "pct": 100,
+     "fam": "Reb+Ast"
+    },
+    {
+     "prop": "NBA PRA (over)",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "PRA"
     }
    ],
    "today": [
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Jordan Watkins o21.5 rec yds (49ers; first NFL Sunday prop)",
-     "odds": "-112",
-     "status": "Pending"
+     "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD)",
+     "odds": "-114",
+     "status": "L",
+     "fam": "Receiving yds"
     },
     {
      "sport": "NFL",
      "prop": "NFL rec yds (over)",
-     "pick": "Denzel Boston o48.5 rec yds (Browns vs Titans; NFL Sunday POTD)",
-     "odds": "-114",
-     "status": "L"
+     "pick": "Jordan Watkins o21.5 rec yds (49ers; first NFL Sunday prop)",
+     "odds": "-112",
+     "status": "Pending",
+     "fam": "Receiving yds"
     }
    ]
   },
@@ -6039,74 +6101,84 @@
    "pct": 70,
    "props": [
     {
-     "prop": "NCAAF ML",
+     "prop": "NCAAF pass yds (over)",
      "w": 1,
-     "l": 1,
+     "l": 0,
      "p": 0,
-     "pct": 50
-    },
-    {
-     "prop": "NCAAF spread",
-     "w": 5,
-     "l": 1,
-     "p": 0,
-     "pct": 83
+     "pct": 100,
+     "fam": "Pass yds"
     },
     {
      "prop": "NCAAF rush yds (over)",
      "w": 1,
      "l": 0,
      "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NCAAF pass yds (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NFL spread",
-     "w": 4,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NCAAF total (over)",
-     "w": 1,
-     "l": 0,
-     "p": 0,
-     "pct": 100
-    },
-    {
-     "prop": "NCAAF parlay",
-     "w": 0,
-     "l": 1,
-     "p": 0,
-     "pct": 0
-    },
-    {
-     "prop": "NFL ML",
-     "w": 1,
-     "l": 1,
-     "p": 0,
-     "pct": 50
+     "pct": 100,
+     "fam": "Rushing yds"
     },
     {
      "prop": "NBA ML",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "ML"
+    },
+    {
+     "prop": "NCAAF ML",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "ML"
+    },
+    {
+     "prop": "NFL ML",
+     "w": 1,
+     "l": 1,
+     "p": 0,
+     "pct": 50,
+     "fam": "ML"
     },
     {
      "prop": "NBA spread",
      "w": 0,
      "l": 1,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Spread"
+    },
+    {
+     "prop": "NCAAF spread",
+     "w": 5,
+     "l": 1,
+     "p": 0,
+     "pct": 83,
+     "fam": "Spread"
+    },
+    {
+     "prop": "NFL spread",
+     "w": 4,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Spread"
+    },
+    {
+     "prop": "NCAAF total (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Total"
+    },
+    {
+     "prop": "NCAAF parlay",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Parlay"
     }
    ],
    "today": [
@@ -6115,7 +6187,8 @@
      "prop": "NFL ML",
      "pick": "Tennessee Titans ML (first NFL free play)",
      "odds": "+114",
-     "status": "L"
+     "status": "L",
+     "fam": "ML"
     }
    ]
   },
@@ -6131,28 +6204,32 @@
      "w": 3,
      "l": 1,
      "p": 0,
-     "pct": 75
+     "pct": 75,
+     "fam": "ML"
     },
     {
      "prop": "NCAAF spread",
      "w": 5,
      "l": 2,
      "p": 0,
-     "pct": 71
+     "pct": 71,
+     "fam": "Spread"
     },
     {
      "prop": "NCAAF total (under)",
      "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 33
+     "pct": 33,
+     "fam": "Total"
     },
     {
      "prop": "NCAAF parlay",
      "w": 0,
      "l": 2,
      "p": 0,
-     "pct": 0
+     "pct": 0,
+     "fam": "Parlay"
     }
    ],
    "today": []
@@ -6163,10 +6240,48 @@
   "@panpotd: \"Flex Friday Slip\" post was link-only with no legs in text or image; not logged.",
   "@bigmikepickz: No posts in the Oct 16 ET window."
  ],
+ "capper_fam_order": [
+  "Pass yds",
+  "Pass TDs",
+  "Pass other",
+  "Rushing yds",
+  "Rush attempts",
+  "Receiving yds",
+  "Rush+Rec yds",
+  "Receptions",
+  "Longest rush",
+  "Longest reception",
+  "Anytime TD",
+  "Player points",
+  "Rebounds",
+  "Assists",
+  "Pts+Reb",
+  "Pts+Ast",
+  "Reb+Ast",
+  "PRA",
+  "3PM",
+  "Steals/Blocks",
+  "SOG",
+  "Saves",
+  "Goals",
+  "Pitcher Ks",
+  "Pitcher outs",
+  "Pitcher other",
+  "Hits/TB/HR/RBI",
+  "NRFI/inning",
+  "Fight method",
+  "NASCAR finish",
+  "ML",
+  "Spread",
+  "Team total",
+  "Total",
+  "Parlay",
+  "Other"
+ ],
  "capper_today_date": "2026-10-25",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-25 09:58 PM ET",
+  "updated": "2026-10-25 10:42 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -6695,7 +6810,7 @@
      {
       "a": "KC",
       "h": "SEA",
-      "st": "Halftime",
+      "st": "13:11 - 4th",
       "div": false,
       "stake": "KC 5-0: 1st AFC West, AFC #1 seed (in playoff spot) · SEA 3-3: 2nd NFC West (2.5 GB), NFC #8 seed (outside playoffs)"
      },
@@ -6787,23 +6902,23 @@
         "t": "Philadelphia 76ers",
         "ab": "PHI",
         "rec": "",
-        "pct": "1.000",
+        "pct": ".750",
         "gb": "-",
         "pts": null,
-        "home": "2-0",
+        "home": "2-1",
         "road": "1-0",
-        "l10": "3-0",
-        "strk": "W3",
-        "diff": "+25",
+        "l10": "3-1",
+        "strk": "L1",
+        "diff": "+12",
         "div": "1-0",
-        "seed": "1"
+        "seed": "2"
        },
        {
         "t": "Toronto Raptors",
         "ab": "TOR",
         "rec": "",
         "pct": ".667",
-        "gb": "1",
+        "gb": "0.5",
         "pts": null,
         "home": "1-0",
         "road": "1-1",
@@ -6818,7 +6933,7 @@
         "ab": "BOS",
         "rec": "",
         "pct": ".500",
-        "gb": "1.5",
+        "gb": "1",
         "pts": null,
         "home": "1-0",
         "road": "0-1",
@@ -6833,7 +6948,7 @@
         "ab": "NY",
         "rec": "",
         "pct": ".000",
-        "gb": "3",
+        "gb": "2.5",
         "pts": null,
         "home": "0-2",
         "road": "0-1",
@@ -6848,7 +6963,7 @@
         "ab": "BKN",
         "rec": "",
         "pct": ".000",
-        "gb": "3",
+        "gb": "2.5",
         "pts": null,
         "home": "0-2",
         "road": "0-1",
@@ -6871,19 +6986,19 @@
         "gb": "-",
         "pts": null,
         "home": "1-0",
-        "road": "1-0",
-        "l10": "2-0",
-        "strk": "W2",
-        "diff": "+25",
+        "road": "2-0",
+        "l10": "3-0",
+        "strk": "W3",
+        "diff": "+38",
         "div": "0-0",
-        "seed": "2"
+        "seed": "1"
        },
        {
         "t": "Indiana Pacers",
         "ab": "IND",
         "rec": "",
         "pct": ".667",
-        "gb": "0.5",
+        "gb": "1",
         "pts": null,
         "home": "0-1",
         "road": "2-0",
@@ -6898,7 +7013,7 @@
         "ab": "CLE",
         "rec": "",
         "pct": ".500",
-        "gb": "1",
+        "gb": "1.5",
         "pts": null,
         "home": "1-0",
         "road": "0-1",
@@ -6913,7 +7028,7 @@
         "ab": "CHI",
         "rec": "",
         "pct": ".333",
-        "gb": "1.5",
+        "gb": "2",
         "pts": null,
         "home": "0-1",
         "road": "1-1",
@@ -6928,7 +7043,7 @@
         "ab": "MIL",
         "rec": "",
         "pct": ".000",
-        "gb": "2.5",
+        "gb": "3",
         "pts": null,
         "home": "0-1",
         "road": "0-2",
@@ -7274,21 +7389,21 @@
       "h": "BKN",
       "st": "Final",
       "div": false,
-      "stake": "IND : 2nd Central (0.5 GB), East #5 seed (in playoff spot) · BKN : 5th Atlantic (3 GB), East #14 seed (outside playoffs)"
+      "stake": "IND : 2nd Central (1 GB), East #5 seed (in playoff spot) · BKN : 5th Atlantic (2.5 GB), East #14 seed (outside playoffs)"
      },
      {
       "a": "ORL",
       "h": "NY",
       "st": "Final",
       "div": false,
-      "stake": "ORL : 4th Southeast (1 GB), East #10 seed (in playoff spot) · NY : 4th Atlantic (3 GB), East #12 seed (outside playoffs)"
+      "stake": "ORL : 4th Southeast (1 GB), East #10 seed (in playoff spot) · NY : 4th Atlantic (2.5 GB), East #12 seed (outside playoffs)"
      },
      {
       "a": "TOR",
       "h": "MIN",
       "st": "Final",
       "div": false,
-      "stake": "TOR : 2nd Atlantic (1 GB), East #4 seed (in playoff spot) · MIN : 2nd Northwest, West #4 seed (in playoff spot)"
+      "stake": "TOR : 2nd Atlantic (0.5 GB), East #4 seed (in playoff spot) · MIN : 2nd Northwest, West #4 seed (in playoff spot)"
      },
      {
       "a": "LAC",
@@ -7300,14 +7415,14 @@
      {
       "a": "DET",
       "h": "PHI",
-      "st": "4:36 - 4th",
+      "st": "Final",
       "div": false,
-      "stake": "DET : 1st Central, East #2 seed (in playoff spot) · PHI : 1st Atlantic, East #1 seed (in playoff spot)"
+      "stake": "DET : 1st Central, East #1 seed (in playoff spot) · PHI : 1st Atlantic, East #2 seed (in playoff spot)"
      },
      {
       "a": "MEM",
       "h": "SAC",
-      "st": "3:53 - 2nd",
+      "st": "4:51 - 3rd",
       "div": false,
       "stake": "MEM : 2nd Southwest (0.5 GB), West #6 seed (in playoff spot) · SAC : 4th Pacific (2.5 GB), West #13 seed (outside playoffs)"
      }
@@ -7379,6 +7494,21 @@
         "seed": "5"
        },
        {
+        "t": "Montreal Canadiens",
+        "ab": "MTL",
+        "rec": "6-3-2",
+        "pct": null,
+        "gb": "5",
+        "pts": "14",
+        "home": "3-2-1",
+        "road": "3-1-1",
+        "l10": "5-3-2",
+        "strk": "W2",
+        "diff": "0",
+        "div": "4-0-0",
+        "seed": "8"
+       },
+       {
         "t": "Florida Panthers",
         "ab": "FLA",
         "rec": "6-4-2",
@@ -7391,22 +7521,7 @@
         "strk": "W1",
         "diff": "-2",
         "div": "0-2-0",
-        "seed": "8"
-       },
-       {
-        "t": "Montreal Canadiens",
-        "ab": "MTL",
-        "rec": "5-3-2",
-        "pct": null,
-        "gb": "7",
-        "pts": "12",
-        "home": "3-2-1",
-        "road": "2-1-1",
-        "l10": "5-3-2",
-        "strk": "W1",
-        "diff": "-1",
-        "div": "4-0-0",
-        "seed": "10"
+        "seed": "9"
        },
        {
         "t": "Detroit Red Wings",
@@ -7501,7 +7616,7 @@
         "strk": "W1",
         "diff": "+2",
         "div": "4-1-0",
-        "seed": "9"
+        "seed": "10"
        },
        {
         "t": "New York Islanders",
@@ -7629,21 +7744,6 @@
         "seed": "7"
        },
        {
-        "t": "Winnipeg Jets",
-        "ab": "WPG",
-        "rec": "4-3-3",
-        "pct": null,
-        "gb": "5",
-        "pts": "11",
-        "home": "2-2-1",
-        "road": "2-1-2",
-        "l10": "4-3-3",
-        "strk": "L4",
-        "diff": "-3",
-        "div": "2-1-2",
-        "seed": "9"
-       },
-       {
         "t": "St. Louis Blues",
         "ab": "STL",
         "rec": "5-5-1",
@@ -7656,6 +7756,21 @@
         "strk": "L1",
         "diff": "0",
         "div": "2-4-0",
+        "seed": "9"
+       },
+       {
+        "t": "Winnipeg Jets",
+        "ab": "WPG",
+        "rec": "4-4-3",
+        "pct": null,
+        "gb": "5",
+        "pts": "11",
+        "home": "2-3-1",
+        "road": "2-1-2",
+        "l10": "4-4-2",
+        "strk": "L5",
+        "diff": "-4",
+        "div": "2-1-2",
         "seed": "10"
        },
        {
@@ -7822,7 +7937,7 @@
       "h": "CHI",
       "st": "Final",
       "div": false,
-      "stake": "FLA 6-4-2: 5th Atlantic Division (5 pts back), East #8 seed (in playoff spot) · CHI 3-8-0: 8th Central Division (10 pts back), West #15 seed (outside playoffs)"
+      "stake": "FLA 6-4-2: 6th Atlantic Division (5 pts back), East #9 seed (outside playoffs) · CHI 3-8-0: 8th Central Division (10 pts back), West #15 seed (outside playoffs)"
      },
      {
       "a": "NYI",
@@ -7834,21 +7949,21 @@
      {
       "a": "MTL",
       "h": "WPG",
-      "st": "1:04 - 3rd",
+      "st": "Final",
       "div": false,
-      "stake": "MTL 5-3-2: 6th Atlantic Division (7 pts back), East #10 seed (outside playoffs) · WPG 4-3-3: 5th Central Division (5 pts back), West #9 seed (outside playoffs)"
+      "stake": "MTL 6-3-2: 5th Atlantic Division (5 pts back), East #8 seed (in playoff spot) · WPG 4-4-3: 6th Central Division (5 pts back), West #10 seed (outside playoffs)"
      },
      {
       "a": "COL",
       "h": "NSH",
-      "st": "End of 2nd",
+      "st": "Final",
       "div": true,
       "stake": "COL 6-4-1: 4th Central Division (3 pts back), West #7 seed (in playoff spot) · NSH 3-3-4: 7th Central Division (6 pts back), West #11 seed (outside playoffs)"
      },
      {
       "a": "MIN",
       "h": "VAN",
-      "st": "10/25 - 10:00 PM EDT",
+      "st": "1:56 - 1st",
       "div": false,
       "stake": "MIN 7-3-2: 2nd Central Division, West #4 seed (in playoff spot) · VAN 2-9-1: 8th Pacific Division (12 pts back), West #16 seed (outside playoffs)"
      }
@@ -8938,7 +9053,7 @@
    }
   }
  },
- "ui_build": "1792979791",
+ "ui_build": "1792982125",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -9056,7 +9171,7 @@
   },
   {
    "sport": "NHL",
-   "w": 82,
+   "w": 83,
    "l": 128,
    "p": 1,
    "pct": 39,
@@ -9538,7 +9653,7 @@
   },
   {
    "sport": "NHL",
-   "w": 82,
+   "w": 83,
    "l": 128,
    "p": 1,
    "pct": 39,
@@ -9607,6 +9722,13 @@
      "pct": 67
     },
     {
+     "prop": "NHL to record 3+ shots",
+     "w": 1,
+     "l": 2,
+     "p": 0,
+     "pct": 33
+    },
+    {
      "prop": "NHL assists under",
      "w": 1,
      "l": 1,
@@ -9618,13 +9740,6 @@
      "w": 0,
      "l": 1,
      "p": 1,
-     "pct": 0
-    },
-    {
-     "prop": "NHL to record 3+ shots",
-     "w": 0,
-     "l": 2,
-     "p": 0,
      "pct": 0
     },
     {
@@ -9678,7 +9793,7 @@
     }
    ],
    "official": {
-    "w": 82,
+    "w": 83,
     "l": 128,
     "p": 1,
     "pct": 39,
@@ -9747,6 +9862,13 @@
       "pct": 67
      },
      {
+      "prop": "NHL to record 3+ shots",
+      "w": 1,
+      "l": 2,
+      "p": 0,
+      "pct": 33
+     },
+     {
       "prop": "NHL assists under",
       "w": 1,
       "l": 1,
@@ -9758,13 +9880,6 @@
       "w": 0,
       "l": 1,
       "p": 1,
-      "pct": 0
-     },
-     {
-      "prop": "NHL to record 3+ shots",
-      "w": 0,
-      "l": 2,
-      "p": 0,
       "pct": 0
      },
      {
@@ -12637,7 +12752,7 @@
     "fair": "+123",
     "fair_prob": 0.4489255225198705,
     "edge": 0.12231380629967625,
-    "result": "Pending",
+    "result": "Win (4)",
     "picked_et": "7:08 AM ET",
     "why": "Hard Rock +150 vs Pinnacle no-vig fair +123 (44.9%) → edge +12.23%. Clears the 4% Pinnacle edge floor at +12.23%. Price +150 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
@@ -12723,7 +12838,7 @@
      "fair": "+123",
      "fair_prob": 0.4489255225198705,
      "edge": 0.12231380629967625,
-     "result": "Pending",
+     "result": "Win (4)",
      "picked_et": "7:08 AM ET",
      "why": "Hard Rock +150 vs Pinnacle no-vig fair +123 (44.9%) → edge +12.23%. Clears the 4% Pinnacle edge floor at +12.23%. Price +150 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
@@ -13404,12 +13519,12 @@
  },
  "edge_record": {
   "overall": {
-   "w": 70,
+   "w": 71,
    "l": 123,
    "p": 1,
-   "pct": 36,
-   "units": -20.56,
-   "pending": 1
+   "pct": 37,
+   "units": -19.06,
+   "pending": 0
   },
   "by_sport": {
    "MLB": {
@@ -13445,12 +13560,12 @@
     "pending": 0
    },
    "NHL": {
-    "w": 58,
+    "w": 59,
     "l": 104,
     "p": 1,
     "pct": 36,
-    "units": -14.87,
-    "pending": 1
+    "units": -13.37,
+    "pending": 0
    },
    "WNBA": {
     "w": 0,
@@ -13655,12 +13770,12 @@
     "pending": 0
    },
    "NHL to record 3+ shots": {
-    "w": 0,
+    "w": 1,
     "l": 2,
     "p": 0,
-    "pct": 0,
-    "units": -2.0,
-    "pending": 1
+    "pct": 33,
+    "units": -0.5,
+    "pending": 0
    },
    "NHL to record 4+ shots": {
     "w": 2,
@@ -16745,8 +16860,8 @@
    "prop": "NHL to record 3+ shots",
    "pick": "Cole Perfetti Over 2.5 Shots On Goal",
    "odds": "+150",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (4)"
   },
   {
    "date": "2026-10-25",
@@ -16769,8 +16884,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 303,
-  "headline": 303
+  "tiles_sum": 304,
+  "headline": 304
  },
  "inning_record": {},
  "ingame_lines": {
@@ -21504,8 +21619,8 @@
     "prop": "NHL to record 3+ shots",
     "pick": "Cole Perfetti Over 2.5 Shots On Goal",
     "odds": "+150",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (4)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -22686,7 +22801,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · MLB pitcher outs (over)",
-    "fam": "Pitcher other",
+    "fam": "Pitcher outs",
     "pick": "Robert Gasser o11.5 outs (MIL@LAD)",
     "odds": "-127",
     "res": "W",
@@ -22750,7 +22865,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NFL rush/rec yds (over)",
-    "fam": "Receiving yds",
+    "fam": "Rush+Rec yds",
     "pick": "RJ Harvey o39.5 rush/rec yds",
     "odds": "n/a",
     "res": "W",
@@ -23182,7 +23297,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · UFC method (KO/TKO)",
-    "fam": "Other",
+    "fam": "Fight method",
     "pick": "Christian Perez by KO/TKO (UFC Fight Night)",
     "odds": "n/a",
     "res": "W",
@@ -23214,7 +23329,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · UFC method (finish)",
-    "fam": "Other",
+    "fam": "Fight method",
     "pick": "Kyle Daukas by finish (KO/Sub) (UFC Fight Night)",
     "odds": "n/a",
     "res": "L",
@@ -23230,7 +23345,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · UFC method (KO/TKO)",
-    "fam": "Other",
+    "fam": "Fight method",
     "pick": "Mandela Nallo by KO/TKO (UFC Fight Night)",
     "odds": "n/a",
     "res": "W",
@@ -23518,7 +23633,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NFL pass TDs (over)",
-    "fam": "Pass yds",
+    "fam": "Pass TDs",
     "pick": "Dak Prescott o1.5 pass TDs",
     "odds": "n/a",
     "res": "L",
@@ -23614,7 +23729,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NFL longest rec (over)",
-    "fam": "Receptions",
+    "fam": "Longest reception",
     "pick": "Dalton Kincaid o19.5 longest rec (BUF vs LV)",
     "odds": "-105",
     "res": "L",
@@ -23630,7 +23745,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NFL longest rush (over)",
-    "fam": "Other",
+    "fam": "Longest rush",
     "pick": "Bijan Robinson o19.5 longest rush (ATL vs CHI)",
     "odds": "-105",
     "res": "W",
@@ -23646,7 +23761,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NFL longest rec (over)",
-    "fam": "Receptions",
+    "fam": "Longest reception",
     "pick": "Nico Collins o23.5 longest rec (JAX vs HOU)",
     "odds": "-114",
     "res": "W",
@@ -23662,7 +23777,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NFL longest rec (over)",
-    "fam": "Receptions",
+    "fam": "Longest reception",
     "pick": "Rome Odunze o20.5 longest rec (CHI vs ATL; NFL Play of the Week)",
     "odds": "-105",
     "res": "W",
@@ -23774,7 +23889,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NFL pass TDs (under)",
-    "fam": "Pass yds",
+    "fam": "Pass TDs",
     "pick": "Brock Purdy u2.5 pass TDs",
     "odds": "-163",
     "res": "W",
@@ -23790,7 +23905,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NFL pass TDs (under)",
-    "fam": "Pass yds",
+    "fam": "Pass TDs",
     "pick": "Jayden Daniels u1.5 pass TDs",
     "odds": "-145",
     "res": "L",
@@ -23886,7 +24001,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@panpotd · NBA PRA (over)",
-    "fam": "Other",
+    "fam": "PRA",
     "pick": "Jalen Williams o26.5 PRA",
     "odds": "-105",
     "res": "L",
@@ -23918,7 +24033,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA pts+reb (over)",
-    "fam": "Player points",
+    "fam": "Pts+Reb",
     "pick": "Devin Vassell o15.5 Pts+Reb",
     "odds": "-120 CZR",
     "res": "L",
@@ -23934,7 +24049,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NBA pts+reb (over)",
-    "fam": "Player points",
+    "fam": "Pts+Reb",
     "pick": "Anthony Davis o31.5 Pts+Reb (NBA Play of the Day)",
     "odds": "n/a",
     "res": "W",
@@ -23966,7 +24081,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NBA assists (over)",
-    "fam": "Other",
+    "fam": "Assists",
     "pick": "Fred VanVleet o5.5 Assists",
     "odds": "n/a",
     "res": "W",
@@ -23982,7 +24097,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NBA assists (over)",
-    "fam": "Other",
+    "fam": "Assists",
     "pick": "Julius Randle o4.5 Assists",
     "odds": "n/a",
     "res": "W",
@@ -23998,7 +24113,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NBA PRA (over)",
-    "fam": "Other",
+    "fam": "PRA",
     "pick": "Zaccharie Risacher o13.5 PRA",
     "odds": "n/a",
     "res": "L",
@@ -24014,7 +24129,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@panpotd · NBA assists (over)",
-    "fam": "Other",
+    "fam": "Assists",
     "pick": "Giannis Antetokounmpo o6.5 Assists (POTD)",
     "odds": "-120",
     "res": "L",
@@ -24046,7 +24161,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA pts+reb (over)",
-    "fam": "Player points",
+    "fam": "Pts+Reb",
     "pick": "Day'Ron Sharpe o18.5 Pts+Reb (NBA POTD)",
     "odds": "-110 HR",
     "res": "L",
@@ -24062,7 +24177,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA assists (over)",
-    "fam": "Other",
+    "fam": "Assists",
     "pick": "Davion Mitchell o5.5 Assists",
     "odds": "-130 Bovada",
     "res": "W",
@@ -24094,7 +24209,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA 3PM (over)",
-    "fam": "Other",
+    "fam": "3PM",
     "pick": "Deni Avdija o1.5 3PM",
     "odds": "-125",
     "res": "W",
@@ -24222,7 +24337,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@panpotd · NBA PRA (over)",
-    "fam": "Other",
+    "fam": "PRA",
     "pick": "Aaron Gordon o22.5 PRA",
     "odds": "-115",
     "res": "W",
@@ -24254,7 +24369,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA rebounds (over)",
-    "fam": "Other",
+    "fam": "Rebounds",
     "pick": "Aaron Gordon o5.5 Rebounds (NBA POTD)",
     "odds": "-124",
     "res": "W",
@@ -24334,7 +24449,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NBA PRA (over)",
-    "fam": "Other",
+    "fam": "PRA",
     "pick": "Dennis Schroder o22.5 PRA",
     "odds": "n/a",
     "res": "L",
@@ -24366,7 +24481,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@panpotd · NBA reb+ast (over)",
-    "fam": "Other",
+    "fam": "Reb+Ast",
     "pick": "Domantas Sabonis o18.5 Reb+Ast (POTD)",
     "odds": "-125",
     "res": "W",
@@ -24398,7 +24513,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@panpotd · NBA reb+ast (over)",
-    "fam": "Other",
+    "fam": "Reb+Ast",
     "pick": "Jayson Tatum o14.5 Reb+Ast",
     "odds": "-115",
     "res": "W",
@@ -24430,7 +24545,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA reb+ast (over)",
-    "fam": "Other",
+    "fam": "Reb+Ast",
     "pick": "Jayson Tatum o14.5 Reb+Ast (NBA POTD)",
     "odds": "-120",
     "res": "W",
@@ -24446,7 +24561,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA assists (over)",
-    "fam": "Other",
+    "fam": "Assists",
     "pick": "Josh Giddey o8.5 Assists",
     "odds": "-128",
     "res": "W",
@@ -24462,7 +24577,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA 3PM (over)",
-    "fam": "Other",
+    "fam": "3PM",
     "pick": "Grayson Allen o2.5 3PM",
     "odds": "-110",
     "res": "W",
@@ -24622,7 +24737,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NBA PRA (over)",
-    "fam": "Other",
+    "fam": "PRA",
     "pick": "Jaime Jaquez Jr. o22.5 PRA (Play of the Day)",
     "odds": "n/a",
     "res": "W",
@@ -24654,7 +24769,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA rebounds (over)",
-    "fam": "Other",
+    "fam": "Rebounds",
     "pick": "Khaman Maluach o8.5 Rebounds (NBA POTD)",
     "odds": "-115",
     "res": "W",
@@ -24894,7 +25009,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA pts+reb (over)",
-    "fam": "Player points",
+    "fam": "Pts+Reb",
     "pick": "Jalen Smith o18.5 Pts+Reb",
     "odds": "-104",
     "res": "",
@@ -24926,7 +25041,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NBA pts+ast (over)",
-    "fam": "Player points",
+    "fam": "Pts+Ast",
     "pick": "Jamal Murray o23.5 Pts+Ast",
     "odds": "n/a",
     "res": "",
@@ -24958,7 +25073,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@panpotd · NBA pts+reb (over)",
-    "fam": "Player points",
+    "fam": "Pts+Reb",
     "pick": "Yaxel Lendeborg o24.5 PR (\"My Only NBA Prop Today\")",
     "odds": "-110",
     "res": "",
@@ -24990,7 +25105,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@alexcaruso · NBA assists (over)",
-    "fam": "Other",
+    "fam": "Assists",
     "pick": "Shaedon Sharpe o2.5 Assists",
     "odds": "n/a",
     "res": "",
@@ -25038,7 +25153,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NFL longest rush (over)",
-    "fam": "Other",
+    "fam": "Longest rush",
     "pick": "Woody Marks o13.5 longest rush (Texans vs Giants; NFL Play of the Week)",
     "odds": "-110",
     "res": "",
@@ -25086,7 +25201,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NFL yds (over)",
-    "fam": "Other",
+    "fam": "Rushing yds",
     "pick": "Jonah Coleman o17.5 RY (posted as \"RY\"; Week 7 full card)",
     "odds": "none posted",
     "res": "",
@@ -25118,7 +25233,7 @@
     "grp": "C",
     "cat": "Cappers",
     "prop": "@austinsprops · NBA pts+ast (over)",
-    "fam": "Player points",
+    "fam": "Pts+Ast",
     "pick": "Franz Wagner o26.5 Pts+Ast (Magic vs Knicks; first NBA winner)",
     "odds": "-125",
     "res": "",
@@ -25649,11 +25764,11 @@
    },
    "E": {
     "tickets": {
-     "w": 70,
+     "w": 71,
      "l": 123,
      "p": 1,
-     "pending": 1,
-     "units": -53
+     "pending": 0,
+     "units": -52
     },
     "legs": {
      "w": 0,
