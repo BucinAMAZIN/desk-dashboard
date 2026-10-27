@@ -1,5 +1,5 @@
 {
- "generated": 1793079344.1130543,
+ "generated": 1793079400.5459948,
  "today": {
   "title": "Oct 27 picks (Hard Rock)",
   "tickets": [],
@@ -5893,10 +5893,10 @@
   },
   {
    "name": "@austinsprops",
-   "w": 24,
+   "w": 25,
    "l": 16,
    "p": 0,
-   "pct": 60,
+   "pct": 61,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -5932,10 +5932,10 @@
     },
     {
      "prop": "NFL longest rec (over)",
-     "w": 2,
+     "w": 3,
      "l": 1,
      "p": 0,
-     "pct": 67,
+     "pct": 75,
      "fam": "Longest reception"
     },
     {
@@ -6023,10 +6023,10 @@
   },
   {
    "name": "@panpotd",
-   "w": 14,
+   "w": 15,
    "l": 15,
    "p": 0,
-   "pct": 48,
+   "pct": 50,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -6083,6 +6083,14 @@
      "p": 0,
      "pct": 0,
      "fam": "Assists"
+    },
+    {
+     "prop": "NBA pts+ast (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Pts+Ast"
     },
     {
      "prop": "NBA reb+ast (over)",
@@ -6292,7 +6300,7 @@
  "capper_today_date": "2026-10-27",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-27 01:35 AM ET",
+  "updated": "2026-10-27 01:36 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -23629,6 +23637,54 @@
     "sub": ""
    },
    {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL longest rec (over)",
+    "fam": "Longest reception",
+    "pick": "CeeDee Lamb o23.5 Longest Reception (Eagles vs Cowboys, MNF; MNF Play Of The Day)",
+    "odds": "-120 Bovada",
+    "res": "W",
+    "stat": "W (long 30)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA pts+ast (over)",
+    "fam": "Pts+Ast",
+    "pick": "Kasparas Jakucionis o10.5 PA (Bucks vs Pacers)",
+    "odds": "-125",
+    "res": "W",
+    "stat": "W (12 PA: 7 pts + 5 ast)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA pts+ast (over)",
+    "fam": "Pts+Ast",
+    "pick": "Andrew Nembhard o20.5 PA (Pacers vs Bucks; NBA Play Of The Day)",
+    "odds": "-125",
+    "res": "V",
+    "stat": "Void (DNP, no box-score stats)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -23733,54 +23789,6 @@
     "fam": "Assists",
     "pick": "Shaedon Sharpe o2.5 Assists",
     "odds": "n/a",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-26",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL longest rec (over)",
-    "fam": "Longest reception",
-    "pick": "CeeDee Lamb o23.5 Longest Reception (Eagles vs Cowboys, MNF; MNF Play Of The Day)",
-    "odds": "-120 Bovada",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-26",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NBA pts+ast (over)",
-    "fam": "Pts+Ast",
-    "pick": "Kasparas Jakucionis o10.5 PA (Bucks vs Pacers)",
-    "odds": "-125",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-26",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA pts+ast (over)",
-    "fam": "Pts+Ast",
-    "pick": "Andrew Nembhard o20.5 PA (Pacers vs Bucks; NBA Play Of The Day)",
-    "odds": "-125",
     "res": "",
     "stat": "",
     "alt": false,
@@ -24686,11 +24694,11 @@
    },
    "C": {
     "tickets": {
-     "w": 94,
+     "w": 96,
      "l": 71,
-     "p": 0,
-     "pending": 10,
-     "units": 23
+     "p": 1,
+     "pending": 7,
+     "units": 25
     },
     "legs": {
      "w": 0,
@@ -24713,7 +24721,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 10 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 7 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -24874,6 +24882,7 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
+  "conv": [],
   "props": {
    "n": 0,
    "w": 0,
@@ -24881,8 +24890,7 @@
    "p": 0,
    "pending": 0,
    "units": 0.0
-  },
-  "conv": []
+  }
  },
  "big4_games": 16,
  "big4_games_by_sport": {
