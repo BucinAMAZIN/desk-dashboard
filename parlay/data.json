@@ -1,5 +1,5 @@
 {
- "generated": 1793119787.4056609,
+ "generated": 1793132672.996752,
  "today": {
   "title": "Oct 27 picks (Hard Rock)",
   "tickets": [
@@ -1013,7 +1013,7 @@
      ],
      "sport": "NHL",
      "dk": {
-      "odds": "-115",
+      "odds": "-125",
       "na": false,
       "ladder": [
        [
@@ -1022,27 +1022,31 @@
        ],
        [
         "2+",
-        "-330"
+        "-360"
        ],
        [
         "3+",
-        "-115"
+        "-125"
        ],
        [
         "4+",
-        "+205"
+        "+190"
        ],
        [
         "5+",
-        "+475"
+        "+400"
        ],
        [
         "6+",
-        "+1000"
+        "+900"
+       ],
+       [
+        "7+",
+        "+2000"
        ]
       ]
      },
-     "dk_odds": "-115"
+     "dk_odds": "-125"
     },
     "parlay": {
      "pick": "2-leg",
@@ -1278,7 +1282,7 @@
         "Risk: LAK on a back-to-back"
        ],
        "dk": {
-        "odds": "-115",
+        "odds": "-120",
         "na": false,
         "ladder": [
          [
@@ -1287,15 +1291,15 @@
          ],
          [
           "2+",
-          "-320"
+          "-340"
          ],
          [
           "3+",
-          "-115"
+          "-120"
          ],
          [
           "4+",
-          "+205"
+          "+195"
          ],
          [
           "5+",
@@ -1303,7 +1307,7 @@
          ],
          [
           "6+",
-          "+950"
+          "+1000"
          ],
          [
           "7+",
@@ -1551,7 +1555,7 @@
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-270",
+        "odds": "-280",
         "na": false,
         "ladder": [
          [
@@ -1560,23 +1564,23 @@
          ],
          [
           "2+",
-          "-270"
+          "-280"
          ],
          [
           "3+",
-          "+105"
+          "+100"
          ],
          [
           "4+",
-          "+255"
+          "+235"
          ],
          [
           "5+",
-          "+550"
+          "+500"
          ],
          [
           "6+",
-          "+1400"
+          "+1200"
          ]
         ]
        }
@@ -1584,7 +1588,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NHL",
-     "dk_odds": "+156"
+     "dk_odds": "+149"
     }
    },
    "NBA": {
@@ -1826,36 +1830,36 @@
         "Risk: Early-season sample: most of the last 10 come from 2025-26"
        ],
        "dk": {
-        "odds": "-213",
+        "odds": "-220",
         "na": false,
         "ladder": [
          [
           "8+",
-          "-1600"
+          "-1660"
          ],
          [
           "10+",
-          "-810"
+          "-830"
          ],
          [
           "12+",
-          "-454"
+          "-462"
          ],
          [
           "15+",
-          "-213"
+          "-220"
          ],
          [
           "18+",
-          "-110"
+          "-112"
          ],
          [
           "20+",
-          "+140"
+          "+136"
          ],
          [
           "25+",
-          "+390"
+          "+375"
          ],
          [
           "30+",
@@ -2097,24 +2101,24 @@
         "Risk: Early-season sample: most of the last 10 come from 2025-26"
        ],
        "dk": {
-        "odds": "-153",
+        "odds": "-152",
         "na": false,
         "ladder": [
          [
           "8+",
-          "-1320"
+          "-1280"
          ],
          [
           "10+",
-          "-610"
+          "-600"
          ],
          [
           "12+",
-          "-330"
+          "-328"
          ],
          [
           "15+",
-          "-153"
+          "-152"
          ],
          [
           "16+",
@@ -2122,7 +2126,7 @@
          ],
          [
           "18+",
-          "+131"
+          "+133"
          ],
          [
           "20+",
@@ -2130,11 +2134,11 @@
          ],
          [
           "25+",
-          "+596"
+          "+610"
          ],
          [
           "30+",
-          "+1580"
+          "+1620"
          ]
         ]
        }
@@ -2142,7 +2146,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NBA",
-     "dk_odds": "+143"
+     "dk_odds": "+141"
     }
    },
    "MLB": {
@@ -8771,7 +8775,32 @@
      "fam": "Parlay"
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NBA",
+     "prop": "NBA 3PM (over)",
+     "pick": "Deni Avdija o1.5 3PM (Trail Blazers vs Lakers; NBA Play of the Day)",
+     "odds": "+101 DK",
+     "status": "Pending",
+     "fam": "3PM",
+     "game": "POR @ LAL",
+     "kick": "11:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA 3PM (over)",
+     "pick": "Noah Clowney o1.5 3PM (Nets vs Celtics)",
+     "odds": "+165 DK (0.5u)",
+     "status": "Pending",
+     "fam": "3PM",
+     "game": "BKN @ BOS",
+     "kick": "7:30 PM ET",
+     "started": false,
+     "final": false
+    }
+   ]
   },
   {
    "name": "@panpotd",
@@ -8862,6 +8891,18 @@
     }
    ],
    "today": [
+    {
+     "sport": "NBA",
+     "prop": "NBA points (over)",
+     "pick": "Jalen Brunson 25+ Points (Knicks vs Pistons)",
+     "odds": "-125",
+     "status": "Pending",
+     "fam": "Player points",
+     "game": "DET @ NY",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
+    },
     {
      "sport": "NBA",
      "prop": "NBA PRA (over)",
@@ -9065,7 +9106,7 @@
  "capper_today_date": "2026-10-27",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-27 12:49 PM ET",
+  "updated": "2026-10-27 04:24 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -14776,30 +14817,30 @@
        "ladder": [
         [
          "1+",
-         "-1400"
+         "-1600"
         ],
         [
          "2+",
-         "-300"
+         "-330"
         ],
         [
          "3+",
-         "-105"
+         "-115"
         ],
         [
          "4+",
-         "+235"
+         "+210"
         ],
         [
          "5+",
-         "+550"
+         "+475"
         ],
         [
          "6+",
-         "+1200"
+         "+1100"
         ]
        ],
-       "odds": "-300",
+       "odds": "-330",
        "pick": "Jack Quinn 2+ SOG",
        "na": false
       }
@@ -14898,26 +14939,26 @@
         ],
         [
          "2+",
-         "-270"
+         "-280"
         ],
         [
          "3+",
-         "+105"
+         "+100"
         ],
         [
          "4+",
-         "+255"
+         "+235"
         ],
         [
          "5+",
-         "+550"
+         "+500"
         ],
         [
          "6+",
-         "+1400"
+         "+1200"
         ]
        ],
-       "odds": "-270",
+       "odds": "-280",
        "pick": "Adam Fantilli 2+ SOG",
        "na": false
       }
@@ -14998,7 +15039,7 @@
        "ladder": [
         [
          "1+",
-         "-3000"
+         "-3500"
         ],
         [
          "2+",
@@ -15010,11 +15051,11 @@
         ],
         [
          "4+",
-         "+120"
+         "+125"
         ],
         [
          "5+",
-         "+260"
+         "+270"
         ],
         [
          "6+",
@@ -15031,7 +15072,7 @@
       }
      }
     ],
-    "dk_odds": "+176"
+    "dk_odds": "+168"
    },
    "NBA": {
     "sport": "NBA",
@@ -15114,34 +15155,34 @@
        "ladder": [
         [
          "3+",
-         "-265"
+         "-235"
         ],
         [
          "4+",
-         "-110"
+         "+100"
         ],
         [
          "5+",
-         "+188"
+         "+209"
         ],
         [
          "6+",
-         "+383"
+         "+425"
         ],
         [
          "7+",
-         "+770"
+         "+830"
         ],
         [
          "8+",
-         "+1420"
+         "+1540"
         ],
         [
          "9+",
-         "+2300"
+         "+2500"
         ]
        ],
-       "odds": "-265",
+       "odds": "-235",
        "pick": "De'Aaron Fox 3+ reb",
        "na": false
       }
@@ -15216,50 +15257,50 @@
        "ladder": [
         [
          "3+",
-         "-760"
+         "-700"
         ],
         [
          "4+",
-         "-317"
+         "-295"
         ],
         [
          "5+",
-         "-164"
+         "-148"
         ],
         [
          "6+",
-         "+105"
+         "+120"
         ],
         [
          "7+",
-         "+188"
+         "+208"
         ],
         [
          "8+",
-         "+316"
+         "+354"
         ],
         [
          "9+",
-         "+524"
+         "+572"
         ],
         [
          "10+",
-         "+850"
+         "+890"
         ],
         [
          "11+",
-         "+1320"
+         "+1380"
         ],
         [
          "12+",
-         "+1940"
+         "+2000"
         ],
         [
          "13+",
-         "+2600"
+         "+2800"
         ]
        ],
-       "odds": "-317",
+       "odds": "-295",
        "pick": "Cade Cunningham 4+ reb",
        "na": false
       }
@@ -15333,64 +15374,60 @@
        "ladder": [
         [
          "4+",
-         "-1640"
+         "-1520"
         ],
         [
          "5+",
-         "-720"
+         "-680"
         ],
         [
          "6+",
-         "-368"
+         "-355"
         ],
         [
          "7+",
-         "-201"
+         "-197"
         ],
         [
          "8+",
-         "-119"
+         "-118"
         ],
         [
          "9+",
-         "+141"
+         "+142"
         ],
         [
          "10+",
-         "+232"
+         "+231"
         ],
         [
          "11+",
-         "+368"
+         "+364"
         ],
         [
          "12+",
-         "+584"
+         "+591"
         ],
         [
          "13+",
-         "+920"
+         "+930"
         ],
         [
          "14+",
-         "+1440"
+         "+1420"
         ],
         [
          "15+",
-         "+2100"
-        ],
-        [
-         "16+",
-         "+2900"
+         "+2200"
         ]
        ],
-       "odds": "-368",
+       "odds": "-355",
        "pick": "Luka Doncic 6+ reb",
        "na": false
       }
      }
     ],
-    "dk_odds": "+130"
+    "dk_odds": "+145"
    },
    "TODAY": {
     "sport": "TODAY",
@@ -15474,7 +15511,7 @@
        "ladder": [
         [
          "3+",
-         "-1980"
+         "-2000"
         ],
         [
          "4+",
@@ -15482,11 +15519,11 @@
         ],
         [
          "5+",
-         "-349"
+         "-354"
         ],
         [
          "6+",
-         "-182"
+         "-188"
         ],
         [
          "7+",
@@ -15494,30 +15531,34 @@
         ],
         [
          "8+",
-         "+172"
+         "+167"
         ],
         [
          "9+",
-         "+293"
+         "+289"
         ],
         [
          "10+",
-         "+505"
+         "+492"
         ],
         [
          "11+",
-         "+840"
+         "+820"
         ],
         [
          "12+",
-         "+1360"
+         "+1340"
         ],
         [
          "13+",
          "+2100"
+        ],
+        [
+         "14+",
+         "+2900"
         ]
        ],
-       "odds": "-349",
+       "odds": "-354",
        "pick": "Stephon Castle 5+ ast",
        "na": false
       }
@@ -15582,63 +15623,55 @@
       "dk": {
        "ladder": [
         [
-         "4+",
-         "-3600"
-        ],
-        [
          "5+",
-         "-1200"
+         "-1320"
         ],
         [
          "6+",
-         "-544"
+         "-583"
         ],
         [
          "7+",
-         "-288"
+         "-299"
         ],
         [
          "8+",
-         "-163"
+         "-167"
         ],
         [
          "9+",
-         "+102"
+         "+104"
         ],
         [
          "10+",
-         "+167"
+         "+166"
         ],
         [
          "11+",
-         "+267"
+         "+269"
         ],
         [
          "12+",
-         "+421"
+         "+430"
         ],
         [
          "13+",
-         "+640"
+         "+660"
         ],
         [
          "14+",
-         "+990"
+         "+1040"
         ],
         [
          "15+",
-         "+1520"
+         "+1580"
         ],
         [
          "16+",
-         "+2100"
-        ],
-        [
-         "17+",
-         "+2700"
+         "+2200"
         ]
        ],
-       "odds": "-288",
+       "odds": "-299",
        "pick": "Jayson Tatum 7+ reb",
        "na": false
       }
@@ -15727,36 +15760,36 @@
        "ladder": [
         [
          "1+",
-         "-1100"
+         "-1200"
         ],
         [
          "2+",
-         "-245"
+         "-260"
         ],
         [
          "3+",
-         "+115"
+         "+105"
         ],
         [
          "4+",
-         "+275"
+         "+255"
         ],
         [
          "5+",
-         "+600"
+         "+550"
         ],
         [
          "6+",
-         "+1500"
+         "+1200"
         ]
        ],
-       "odds": "-245",
+       "odds": "-260",
        "pick": "Wyatt Johnston 2+ SOG",
        "na": false
       }
      }
     ],
-    "dk_odds": "+144"
+    "dk_odds": "+137"
    }
   },
   "notes": {
@@ -15817,9 +15850,9 @@
      "Risk: No threshold miss; normal single-game variance and closing-line risk"
     ],
     "dk": {
-     "odds": "-610",
+     "odds": "-570",
      "na": false,
-     "edge": -0.3502311957393156
+     "edge": -0.3438089688625112
     }
    },
    {
@@ -16067,19 +16100,19 @@
      "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
     ],
     "dk": {
-     "odds": "+215",
+     "odds": "+220",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+215"
+       "+220"
       ],
       [
        "2+",
-       "+1500"
+       "+1400"
       ]
      ],
-     "edge": 0.04422848076160246
+     "edge": 0.060803536011786674
     }
    },
    {
@@ -16566,19 +16599,19 @@
      "Risk: matchup 29/32 outside preference (≤20)"
     ],
     "dk": {
-     "odds": "+180",
+     "odds": "+175",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+180"
+       "+175"
       ],
       [
        "2+",
-       "+1100"
+       "+950"
       ]
      ],
-     "edge": -0.03795811518324621
+     "edge": -0.055137434554973885
     }
    },
    {
@@ -17078,7 +17111,7 @@
      "ladder": [
       [
        "2+",
-       "+2200"
+       "+2500"
       ]
      ]
     }
@@ -17329,19 +17362,19 @@
      "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
     ],
     "dk": {
-     "odds": "+190",
+     "odds": "+155",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+190"
+       "+155"
       ],
       [
        "2+",
-       "+1200"
+       "+900"
       ]
      ],
-     "edge": 0.11108215179316083
+     "edge": -0.023013969974979287
     }
    },
    {
@@ -17590,19 +17623,19 @@
      "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
     ],
     "dk": {
-     "odds": "+195",
+     "odds": "+170",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+195"
+       "+170"
       ],
       [
        "2+",
-       "+1300"
+       "+1100"
       ]
      ],
-     "edge": 0.03634429857544963
+     "edge": -0.05148148943941899
     }
    },
    {
@@ -18071,7 +18104,7 @@
      "ladder": [
       [
        "2+",
-       "+2200"
+       "+1800"
       ]
      ]
     }
@@ -18553,19 +18586,19 @@
      "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
     ],
     "dk": {
-     "odds": "+170",
+     "odds": "+160",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+170"
+       "+160"
       ],
       [
        "2+",
        "+1000"
       ]
      ],
-     "edge": -0.02207657813038988
+     "edge": -0.058295964125560595
     }
    },
    {
@@ -19302,7 +19335,7 @@
      "ladder": [
       [
        "2+",
-       "+1400"
+       "+1300"
       ],
       [
        "3+",
@@ -19797,19 +19830,19 @@
      "Risk: matchup 27/32 outside preference (≤20)"
     ],
     "dk": {
-     "odds": "+105",
+     "odds": "+110",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+105"
+       "+110"
       ],
       [
        "2+",
-       "+550"
+       "+600"
       ]
      ],
-     "edge": -0.010105568538963716
+     "edge": 0.014038198082037212
     }
    },
    {
@@ -20039,19 +20072,23 @@
      "Risk: matchup 29/32 outside preference (≤20)"
     ],
     "dk": {
-     "odds": "-115",
+     "odds": "-110",
      "na": false,
      "ladder": [
       [
        "1+",
-       "-115"
+       "-110"
       ],
       [
        "2+",
-       "+450"
+       "+425"
+      ],
+      [
+       "3+",
+       "+1600"
       ]
      ],
-     "edge": -0.03698645965734215
+     "edge": -0.016626765358342954
     }
    },
    {
@@ -20156,7 +20193,7 @@
       ],
       [
        "2+",
-       "+950"
+       "+900"
       ]
      ],
      "edge": -0.023013969974979287
@@ -20408,19 +20445,19 @@
      "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
     ],
     "dk": {
-     "odds": "+150",
+     "odds": "+130",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+150"
+       "+130"
       ],
       [
        "2+",
-       "+900"
+       "+750"
       ]
      ],
-     "edge": 0.05223570079697848
+     "edge": -0.03194315526677982
     }
    },
    {
@@ -20644,19 +20681,19 @@
      "Risk: matchup 31/32 outside preference (≤20)"
     ],
     "dk": {
-     "odds": "+125",
+     "odds": "+120",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+125"
+       "+120"
       ],
       [
        "2+",
-       "+700"
+       "+650"
       ]
      ],
-     "edge": -0.05298786928271937
+     "edge": -0.07403258329865892
     }
    },
    {
@@ -20905,19 +20942,19 @@
      "Risk: Thin 0.5 line; one-event outcome"
     ],
     "dk": {
-     "odds": "+135",
+     "odds": "+125",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+135"
+       "+125"
       ],
       [
        "2+",
-       "+750"
+       "+700"
       ]
      ],
-     "edge": 0.052187316500293734
+     "edge": 0.007413388138579169
     }
    },
    {
@@ -21494,15 +21531,15 @@
      "Risk: Thin 0.5 line; one-event outcome"
     ],
     "dk": {
-     "odds": "-110",
+     "odds": "-115",
      "na": false,
      "ladder": [
       [
        "u0.5",
-       "-110"
+       "-115"
       ]
      ],
-     "edge": -0.0011162599416900676
+     "edge": -0.02179708271722458
     }
    },
    {
@@ -21757,7 +21794,7 @@
      "ladder": [
       [
        "2+",
-       "+2500"
+       "+2200"
       ]
      ]
     }
@@ -21988,19 +22025,19 @@
      "Risk: matchup 28/32 outside preference (≤20)"
     ],
     "dk": {
-     "odds": "+130",
+     "odds": "+120",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+130"
+       "+120"
       ],
       [
        "2+",
-       "+700"
+       "+650"
       ]
      ],
-     "edge": 0.0013821700069107656
+     "edge": -0.042156185210780794
     }
    },
    {
@@ -22125,9 +22162,9 @@
      "Risk: Kings +1100 vs Spurs: a ~10% outcome by Pinnacle fair; huge variance"
     ],
     "dk": {
-     "odds": "+950",
+     "odds": "+1000",
      "na": false,
-     "edge": 0.08430298799258629
+     "edge": 0.13593646361128098
     }
    },
    {
@@ -22148,7 +22185,7 @@
     "grade_why": "+5.3% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+425",
+    "now": "+475",
     "why_src": "Hard Rock +425 vs Pinnacle no-vig fair +398 (20.1%) → edge +5.34%. Clears the 4% Pinnacle edge floor at +5.34%. Price +425 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Celtics vs Nets",
@@ -22187,9 +22224,9 @@
      "Risk: No threshold miss; normal single-game variance and closing-line risk"
     ],
     "dk": {
-     "odds": "+425",
+     "odds": "+455",
      "na": false,
-     "edge": 0.05343980343980359
+     "edge": 0.11363636363636376
     }
    }
   ],
@@ -22315,9 +22352,9 @@
       "Risk: Kings +1100 vs Spurs: a ~10% outcome by Pinnacle fair; huge variance"
      ],
      "dk": {
-      "odds": "+950",
+      "odds": "+1000",
       "na": false,
-      "edge": 0.08430298799258629
+      "edge": 0.13593646361128098
      }
     },
     {
@@ -22562,19 +22599,19 @@
       "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
      ],
      "dk": {
-      "odds": "+215",
+      "odds": "+220",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+215"
+        "+220"
        ],
        [
         "2+",
-        "+1500"
+        "+1400"
        ]
       ],
-      "edge": 0.04422848076160246
+      "edge": 0.060803536011786674
      }
     },
     {
@@ -23055,19 +23092,19 @@
       "Risk: matchup 29/32 outside preference (≤20)"
      ],
      "dk": {
-      "odds": "+180",
+      "odds": "+175",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+180"
+        "+175"
        ],
        [
         "2+",
-        "+1100"
+        "+950"
        ]
       ],
-      "edge": -0.03795811518324621
+      "edge": -0.055137434554973885
      }
     },
     {
@@ -23561,7 +23598,7 @@
       "ladder": [
        [
         "2+",
-        "+2200"
+        "+2500"
        ]
       ]
      }
@@ -23809,19 +23846,19 @@
       "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
      ],
      "dk": {
-      "odds": "+190",
+      "odds": "+155",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+190"
+        "+155"
        ],
        [
         "2+",
-        "+1200"
+        "+900"
        ]
       ],
-      "edge": 0.11108215179316083
+      "edge": -0.023013969974979287
      }
     },
     {
@@ -24067,19 +24104,19 @@
       "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
      ],
      "dk": {
-      "odds": "+195",
+      "odds": "+170",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+195"
+        "+170"
        ],
        [
         "2+",
-        "+1300"
+        "+1100"
        ]
       ],
-      "edge": 0.03634429857544963
+      "edge": -0.05148148943941899
      }
     },
     {
@@ -24542,7 +24579,7 @@
       "ladder": [
        [
         "2+",
-        "+2200"
+        "+1800"
        ]
       ]
      }
@@ -25018,19 +25055,19 @@
       "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
      ],
      "dk": {
-      "odds": "+170",
+      "odds": "+160",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+170"
+        "+160"
        ],
        [
         "2+",
         "+1000"
        ]
       ],
-      "edge": -0.02207657813038988
+      "edge": -0.058295964125560595
      }
     },
     {
@@ -25758,7 +25795,7 @@
       "ladder": [
        [
         "2+",
-        "+1400"
+        "+1300"
        ],
        [
         "3+",
@@ -26247,19 +26284,19 @@
       "Risk: matchup 27/32 outside preference (≤20)"
      ],
      "dk": {
-      "odds": "+105",
+      "odds": "+110",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+105"
+        "+110"
        ],
        [
         "2+",
-        "+550"
+        "+600"
        ]
       ],
-      "edge": -0.010105568538963716
+      "edge": 0.014038198082037212
      }
     },
     {
@@ -26486,19 +26523,23 @@
       "Risk: matchup 29/32 outside preference (≤20)"
      ],
      "dk": {
-      "odds": "-115",
+      "odds": "-110",
       "na": false,
       "ladder": [
        [
         "1+",
-        "-115"
+        "-110"
        ],
        [
         "2+",
-        "+450"
+        "+425"
+       ],
+       [
+        "3+",
+        "+1600"
        ]
       ],
-      "edge": -0.03698645965734215
+      "edge": -0.016626765358342954
      }
     },
     {
@@ -26600,7 +26641,7 @@
        ],
        [
         "2+",
-        "+950"
+        "+900"
        ]
       ],
       "edge": -0.023013969974979287
@@ -26660,9 +26701,9 @@
       "Risk: No threshold miss; normal single-game variance and closing-line risk"
      ],
      "dk": {
-      "odds": "+425",
+      "odds": "+455",
       "na": false,
-      "edge": 0.05343980343980359
+      "edge": 0.11363636363636376
      }
     },
     {
@@ -26908,19 +26949,19 @@
       "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
      ],
      "dk": {
-      "odds": "+150",
+      "odds": "+130",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+150"
+        "+130"
        ],
        [
         "2+",
-        "+900"
+        "+750"
        ]
       ],
-      "edge": 0.05223570079697848
+      "edge": -0.03194315526677982
      }
     },
     {
@@ -27141,19 +27182,19 @@
       "Risk: matchup 31/32 outside preference (≤20)"
      ],
      "dk": {
-      "odds": "+125",
+      "odds": "+120",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+125"
+        "+120"
        ],
        [
         "2+",
-        "+700"
+        "+650"
        ]
       ],
-      "edge": -0.05298786928271937
+      "edge": -0.07403258329865892
      }
     },
     {
@@ -27399,19 +27440,19 @@
       "Risk: Thin 0.5 line; one-event outcome"
      ],
      "dk": {
-      "odds": "+135",
+      "odds": "+125",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+135"
+        "+125"
        ],
        [
         "2+",
-        "+750"
+        "+700"
        ]
       ],
-      "edge": 0.052187316500293734
+      "edge": 0.007413388138579169
      }
     },
     {
@@ -27979,15 +28020,15 @@
       "Risk: Thin 0.5 line; one-event outcome"
      ],
      "dk": {
-      "odds": "-110",
+      "odds": "-115",
       "na": false,
       "ladder": [
        [
         "u0.5",
-        "-110"
+        "-115"
        ]
       ],
-      "edge": -0.0011162599416900676
+      "edge": -0.02179708271722458
      }
     },
     {
@@ -28239,7 +28280,7 @@
       "ladder": [
        [
         "2+",
-        "+2500"
+        "+2200"
        ]
       ]
      }
@@ -28467,19 +28508,19 @@
       "Risk: matchup 28/32 outside preference (≤20)"
      ],
      "dk": {
-      "odds": "+130",
+      "odds": "+120",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+130"
+        "+120"
        ],
        [
         "2+",
-        "+700"
+        "+650"
        ]
       ],
-      "edge": 0.0013821700069107656
+      "edge": -0.042156185210780794
      }
     }
    ]
@@ -32580,36 +32621,36 @@
      "Risk: 17.5-point spread: blowout could cut his minutes"
     ],
     "dk": {
-     "odds": "-110",
+     "odds": "+100",
      "na": false,
      "ladder": [
       [
        "3+",
-       "-265"
+       "-235"
       ],
       [
        "4+",
-       "-110"
+       "+100"
       ],
       [
        "5+",
-       "+188"
+       "+209"
       ],
       [
        "6+",
-       "+383"
+       "+425"
       ],
       [
        "7+",
-       "+770"
+       "+830"
       ],
       [
        "8+",
-       "+1420"
+       "+1540"
       ],
       [
        "9+",
-       "+2300"
+       "+2500"
       ]
      ]
     }
@@ -33078,44 +33119,40 @@
      "Risk: NBA 2nd night of back-to-back"
     ],
     "dk": {
-     "odds": "-109",
+     "odds": "+105",
      "na": false,
      "ladder": [
       [
        "3+",
-       "-581"
+       "-490"
       ],
       [
        "4+",
-       "-231"
+       "-199"
       ],
       [
        "5+",
-       "-109"
+       "+105"
       ],
       [
        "6+",
-       "+177"
+       "+207"
       ],
       [
        "7+",
-       "+331"
+       "+391"
       ],
       [
        "8+",
-       "+610"
+       "+720"
       ],
       [
        "9+",
-       "+1100"
+       "+1280"
       ],
       [
        "10+",
-       "+1800"
-      ],
-      [
-       "11+",
-       "+2600"
+       "+2100"
       ]
      ]
     }
@@ -33349,12 +33386,12 @@
      "Risk: NBA 2nd night of back-to-back"
     ],
     "dk": {
-     "odds": "+100",
+     "odds": "-136",
      "na": false,
      "ladder": [
       [
        "u7.5",
-       "+100"
+       "-136"
       ]
      ]
     }
@@ -33611,32 +33648,32 @@
      "Risk: matchup 30/30 outside preference (≤22)"
     ],
     "dk": {
-     "odds": "-126",
-     "na": false,
+     "odds": null,
+     "na": true,
      "ladder": [
       [
        "5+",
-       "-2200"
+       "-2300"
       ],
       [
        "10+",
-       "-224"
+       "-241"
       ],
       [
-       "12+",
-       "-126"
+       "13+",
+       "+100"
       ],
       [
        "15+",
-       "+180"
+       "+167"
       ],
       [
        "20+",
-       "+600"
+       "+549"
       ],
       [
        "25+",
-       "+1660"
+       "+1560"
       ]
      ]
     }
@@ -34147,7 +34184,7 @@
      "Risk: possible in-game exit (not verifiable, not excluded): 2026-10-12 9.1"
     ],
     "dk": {
-     "odds": "-115",
+     "odds": "-125",
      "na": false,
      "ladder": [
       [
@@ -34156,23 +34193,27 @@
       ],
       [
        "2+",
-       "-330"
+       "-360"
       ],
       [
        "3+",
-       "-115"
+       "-125"
       ],
       [
        "4+",
-       "+205"
+       "+190"
       ],
       [
        "5+",
-       "+475"
+       "+400"
       ],
       [
        "6+",
-       "+1000"
+       "+900"
+      ],
+      [
+       "7+",
+       "+2000"
       ]
      ]
     }
@@ -34409,7 +34450,7 @@
      "Risk: LAK on a back-to-back"
     ],
     "dk": {
-     "odds": "-115",
+     "odds": "-120",
      "na": false,
      "ladder": [
       [
@@ -34422,19 +34463,19 @@
       ],
       [
        "3+",
-       "-115"
+       "-120"
       ],
       [
        "4+",
-       "+200"
+       "+205"
       ],
       [
        "5+",
-       "+450"
+       "+475"
       ],
       [
        "6+",
-       "+1000"
+       "+1100"
       ]
      ]
     }
@@ -34658,7 +34699,7 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "+105",
+     "odds": "+110",
      "na": false,
      "ladder": [
       [
@@ -34667,15 +34708,15 @@
       ],
       [
        "2+",
-       "-225"
+       "-215"
       ],
       [
        "3+",
-       "+105"
+       "+110"
       ],
       [
        "4+",
-       "+240"
+       "+250"
       ],
       [
        "5+",
@@ -34924,7 +34965,7 @@
      "Risk: LAK on a back-to-back"
     ],
     "dk": {
-     "odds": "-115",
+     "odds": "-120",
      "na": false,
      "ladder": [
       [
@@ -34933,15 +34974,15 @@
       ],
       [
        "2+",
-       "-320"
+       "-340"
       ],
       [
        "3+",
-       "-115"
+       "-120"
       ],
       [
        "4+",
-       "+205"
+       "+195"
       ],
       [
        "5+",
@@ -34949,7 +34990,7 @@
       ],
       [
        "6+",
-       "+950"
+       "+1000"
       ],
       [
        "7+",
@@ -35184,12 +35225,12 @@
      "Risk: matchup 32/32 outside preference (≤22)"
     ],
     "dk": {
-     "odds": "-125",
+     "odds": "-120",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-125"
+       "-120"
       ]
      ]
     }
@@ -35438,12 +35479,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-130",
+     "odds": "-120",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-130"
+       "-120"
       ]
      ]
     }
@@ -35701,20 +35742,20 @@
      "Risk: Thin 0.5 line; one-event outcome"
     ],
     "dk": {
-     "odds": "-135",
+     "odds": "-150",
      "na": false,
      "ladder": [
       [
        "1+",
-       "-135"
+       "-150"
       ],
       [
        "2+",
-       "+360"
+       "+320"
       ],
       [
        "3+",
-       "+1500"
+       "+1200"
       ]
      ]
     }
@@ -35958,12 +35999,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-120",
+     "odds": "-115",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-120"
+       "-115"
       ]
      ]
     }
@@ -36217,7 +36258,7 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "+105",
+     "odds": "+100",
      "na": false,
      "ladder": [
       [
@@ -36226,23 +36267,23 @@
       ],
       [
        "2+",
-       "-270"
+       "-280"
       ],
       [
        "3+",
-       "+105"
+       "+100"
       ],
       [
        "4+",
-       "+255"
+       "+235"
       ],
       [
        "5+",
-       "+550"
+       "+500"
       ],
       [
        "6+",
-       "+1400"
+       "+1200"
       ]
      ]
     }
@@ -45493,6 +45534,54 @@
     "sub": ""
    },
    {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA 3PM (over)",
+    "fam": "3PM",
+    "pick": "Deni Avdija o1.5 3PM (Trail Blazers vs Lakers; NBA Play of the Day)",
+    "odds": "+101",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Jalen Brunson 25+ Points (Knicks vs Pistons)",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA 3PM (over)",
+    "fam": "3PM",
+    "pick": "Noah Clowney o1.5 3PM (Nets vs Celtics)",
+    "odds": "+165",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
@@ -46697,7 +46786,7 @@
      "w": 96,
      "l": 71,
      "p": 1,
-     "pending": 19,
+     "pending": 22,
      "units": 25
     },
     "legs": {
@@ -46721,7 +46810,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 19 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 22 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -46855,43 +46944,46 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-27 12:49",
+    "priced": "2026-10-27 16:24",
     "dk": {
      "ladder": [
       [
-       "15+",
-       "-4700"
-      ],
-      [
        "20+",
-       "-720"
+       "-860"
       ],
       [
        "25+",
-       "-231"
+       "-264"
       ],
       [
        "29+",
-       "-107"
+       "-122"
       ],
       [
        "30+",
-       "+115"
+       "+100"
       ],
       [
        "35+",
-       "+285"
+       "+243"
       ],
       [
        "40+",
-       "+680"
+       "+581"
       ],
       [
        "45+",
-       "+1460"
+       "+1280"
+      ],
+      [
+       "50+",
+       "+2300"
       ]
      ],
-     "na": true,
+     "odds": "-264",
+     "pick": "Damian Lillard Over 24.5 PRA",
+     "moved": true,
+     "na": false,
      "orig_odds": null
     }
    }
@@ -46904,8 +46996,8 @@
    },
    {
     "capper": "@austinsprops",
-    "why": "no picks today",
-    "pick": ""
+    "why": "stat not mapped (3PM)",
+    "pick": "Deni Avdija o1.5 3PM (Trail Blazers vs Lakers; NBA Play of the Day)"
    },
    {
     "capper": "@showtimepicks2",
@@ -46943,15 +47035,15 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "6+ -260",
-    "dk": "6+ -273",
-    "hr_odds": -260,
-    "dk_odds": -273,
+    "hr": "6+ -275",
+    "dk": "original line kept (no DK rung in -250..-375)",
+    "hr_odds": -275,
+    "dk_odds": null,
     "start": "2026-10-27 20:00",
     "hr_pick": "John Collins 6+ Rebounds",
-    "dk_pick": "John Collins 6+ Rebounds",
+    "dk_pick": "John Collins o6.5 Rebounds",
     "trk": "John Collins 6+ Rebounds",
-    "grade_odds": -260,
+    "grade_odds": -275,
     "hr_x": null,
     "excluded": null
    },
@@ -46973,8 +47065,8 @@
     "hr_pick": "Dylan Harper o3.5 Assists",
     "dk_pick": "Dylan Harper o3.5 Assists",
     "trk": "Dylan Harper o3.5 Assists",
-    "grade_odds": -165,
-    "hr_x": -165,
+    "grade_odds": -180,
+    "hr_x": -180,
     "excluded": null
    },
    {
@@ -46995,8 +47087,8 @@
     "hr_pick": "Karl-Anthony Towns u3.5 Assists",
     "dk_pick": "Karl-Anthony Towns u3.5 Assists",
     "trk": "Karl-Anthony Towns u3.5 Assists",
-    "grade_odds": -135,
-    "hr_x": -135,
+    "grade_odds": -130,
+    "hr_x": -130,
     "excluded": null
    },
    {
@@ -47032,16 +47124,82 @@
     "final": false,
     "frozen": false,
     "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
+    "dk": "25+ -264",
     "hr_odds": null,
-    "dk_odds": null,
+    "dk_odds": -264,
     "start": "2026-10-27 23:00",
     "hr_pick": "Damian Lillard o28.5 PRA",
-    "dk_pick": "Damian Lillard o28.5 PRA",
+    "dk_pick": "Damian Lillard 25+ PRA",
     "trk": "Damian Lillard o28.5 PRA",
     "grade_odds": -120,
     "hr_x": -120,
     "excluded": null
+   },
+   {
+    "capper": "@austinsprops",
+    "sport": "NBA",
+    "pick": "Deni Avdija o1.5 3PM (Trail Blazers vs Lakers; NBA Play of the Day)",
+    "odds": "+101 DK",
+    "game": "POR @ LAL",
+    "kick": "11:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-10-27 23:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"?\")"
+   },
+   {
+    "capper": "@austinsprops",
+    "sport": "NBA",
+    "pick": "Noah Clowney o1.5 3PM (Nets vs Celtics)",
+    "odds": "+165 DK (0.5u)",
+    "game": "BKN @ BOS",
+    "kick": "7:30 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-10-27 19:30",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"?\")"
+   },
+   {
+    "capper": "@panpotd",
+    "sport": "NBA",
+    "pick": "Jalen Brunson 25+ Points (Knicks vs Pistons)",
+    "odds": "-125",
+    "game": "DET @ NY",
+    "kick": "8:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept (no HR rung in -250..-375)",
+    "dk": "20+ -361",
+    "hr_odds": null,
+    "dk_odds": -361,
+    "start": "2026-10-27 20:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": -135,
+    "excluded": "no gradable line"
    },
    {
     "capper": "@panpotd",
@@ -47054,12 +47212,12 @@
     "final": false,
     "frozen": false,
     "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
+    "dk": "25+ -264",
     "hr_odds": null,
-    "dk_odds": null,
+    "dk_odds": -264,
     "start": "2026-10-27 23:00",
     "hr_pick": "Damian Lillard o27.5 PRA",
-    "dk_pick": "Damian Lillard o27.5 PRA",
+    "dk_pick": "Damian Lillard 25+ PRA",
     "trk": "Damian Lillard o27.5 PRA",
     "grade_odds": -115,
     "hr_x": null,
@@ -47074,7 +47232,7 @@
    "pending": 0,
    "units": 0.0
   },
-  "dk_odds": null,
+  "dk_odds": "-264",
   "dk_orig": null
  },
  "big4_games": 16,
@@ -47086,7 +47244,7 @@
  },
  "gameday": {
   "date": "2026-10-27",
-  "built": "2026-10-27 12:49 ET",
+  "built": "2026-10-27 16:24 ET",
   "picks": 91,
   "vetoes": [],
   "gaps": [
@@ -47094,15 +47252,14 @@
   ]
  },
  "dk": {
-  "fetched": "2026-10-27 12:49 ET",
-  "snapshots": 3,
-  "pregame_games": 95,
+  "fetched": "2026-10-27 16:24 ET",
+  "snapshots": 5,
+  "pregame_games": 110,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
    "legs": 67,
    "priced": 50,
    "na": [
-    "HEIST Damian Lillard o27.5 PRA",
     "Edge Josh Norris Over 0.5 Goals",
     "Edge Matthew Schaefer Over 0.5 Goals",
     "Edge Danila Yurov Over 0.5 Goals",
@@ -47112,6 +47269,7 @@
     "Edge Jake Neighbours Over 0.5 Goals",
     "LEG DAY De'Andre Hunter Under 8.5 Points",
     "LEG DAY Matisse Thybulle Over 1.5 Steals",
+    "LEG DAY Ziaire Williams Over 11.5 Pts + Reb",
     "No qualifying ticket today",
     "No qualifying ticket today",
     "No qualifying ticket today",
