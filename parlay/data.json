@@ -1,5 +1,5 @@
 {
- "generated": 1793165475.4762053,
+ "generated": 1793165557.309242,
  "today": {
   "title": "Oct 28 picks (Hard Rock)",
   "tickets": [],
@@ -6054,10 +6054,10 @@
  "cappers": [
   {
    "name": "@alexcaruso",
-   "w": 36,
+   "w": 37,
    "l": 27,
    "p": 0,
-   "pct": 57,
+   "pct": 58,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -6149,7 +6149,7 @@
     },
     {
      "prop": "NFL receptions (under)",
-     "w": 1,
+     "w": 2,
      "l": 0,
      "p": 0,
      "pct": 100,
@@ -6265,9 +6265,9 @@
   {
    "name": "@austinsprops",
    "w": 26,
-   "l": 17,
+   "l": 18,
    "p": 0,
-   "pct": 60,
+   "pct": 59,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -6328,9 +6328,9 @@
     {
      "prop": "NBA assists (over)",
      "w": 2,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100,
+     "pct": 67,
      "fam": "Assists"
     },
     {
@@ -6679,7 +6679,7 @@
  "capper_today_date": "2026-10-28",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-28 01:31 AM ET",
+  "updated": "2026-10-28 01:32 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -25293,6 +25293,38 @@
     "sub": ""
    },
    {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL receptions (under)",
+    "fam": "Receptions",
+    "pick": "Javonte Williams u2.5 Receptions (Cowboys vs Eagles, MNF)",
+    "odds": "-140",
+    "res": "W",
+    "stat": "W (0 rec, 25 car 155 rush yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA assists (over)",
+    "fam": "Assists",
+    "pick": "Fred VanVleet o5.5 Asts",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (5 AST)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -25397,38 +25429,6 @@
     "fam": "Assists",
     "pick": "Shaedon Sharpe o2.5 Assists",
     "odds": "n/a",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-26",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL receptions (under)",
-    "fam": "Receptions",
-    "pick": "Javonte Williams u2.5 Receptions (Cowboys vs Eagles, MNF)",
-    "odds": "-140",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": ""
-   },
-   {
-    "date": "2026-10-26",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA assists (over)",
-    "fam": "Assists",
-    "pick": "Fred VanVleet o5.5 Asts",
-    "odds": "none posted",
     "res": "",
     "stat": "",
     "alt": false,
@@ -26686,10 +26686,10 @@
    },
    "C": {
     "tickets": {
-     "w": 103,
-     "l": 74,
+     "w": 104,
+     "l": 75,
      "p": 1,
-     "pending": 12,
+     "pending": 10,
      "units": 29
     },
     "legs": {
@@ -26713,7 +26713,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 12 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 10 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 278 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -26874,6 +26874,7 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
+  "conv": [],
   "props": {
    "n": 0,
    "w": 0,
@@ -26881,8 +26882,7 @@
    "p": 0,
    "pending": 0,
    "units": 0.0
-  },
-  "conv": []
+  }
  },
  "big4_games": 17,
  "big4_games_by_sport": {
@@ -26893,7 +26893,7 @@
  },
  "gameday": {
   "date": "2026-10-28",
-  "built": "2026-10-28 01:31 ET",
+  "built": "2026-10-28 01:32 ET",
   "picks": 0,
   "vetoes": [],
   "gaps": [
