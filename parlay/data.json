@@ -1,5 +1,5 @@
 {
- "generated": 1793186474.7503874,
+ "generated": 1793188317.591056,
  "today": {
   "title": "Oct 28 picks (Hard Rock)",
   "tickets": [
@@ -9174,7 +9174,7 @@
  "capper_today_date": "2026-10-28",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-28 07:21 AM ET",
+  "updated": "2026-10-28 07:51 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -27801,7 +27801,7 @@
    "The Heist = the daily Cappers buy-downs, its own card and record under Official, tallied as individual alt props and graded nightly.",
    "LEG DAY = the daily ranked props board: each board prop is one 1u Official result. Its own compact tile and record under Official, with a per-sport breakdown.",
    "Lotto Ticket (TD City) = the NFL anytime-TD Lotto Ticket, its own card and record under Official.",
-   "Cappers = every capper pick (idea sources), one result each, tracking only: never in the Official headline. Two different picks on the same player both count, and a ladder counts once.",
+   "Cappers = every capper pick (idea sources), one result each, tracking only: never in the Official headline. Tracked as 1u singles at the posted odds and shown in the list format. Two different picks on the same player both count, and a ladder counts once.",
    "Record tab: the same groups in the same order (Official, Edge, Cappers), built from the same rows as Results, so both pages always agree.",
    "Live plays (Live POTD, Live Parlay +100, in-game and live calls) are never tracked on Results or Record.",
    "Count every ticket once. A leg that is the same play as that day's POTD counts once.",
@@ -27810,6 +27810,16 @@
    "By prop: rare prop types merge into families (Receiving yds, Rushing yds, Receptions, Pass yds, Anytime TD, SOG, Saves, Pitcher Ks, Hits/TB, ML, Spread, Total, Team total, NASCAR finish...), sorted by volume. The top 8 show, the rest sit behind \"Show more\".",
    "Alt parlay bubble views: the Alt Parlay / Safe +100 bubble supports the same By day / By prop views as Official, so Safe +100 Alt Parlay results are tracked like the rest (by day or by prop type). By prop uses the logged leg results; the ticket still counts once.",
    "Streak dots: Alt Parlay results show the same red/green streak bubbles as Official.",
+   "Alt parlay tracking:",
+   "Ticket remains the only 1u result.",
+   "Each individual alt leg is logged and displayed as hit/miss in a clean list format (player, prop, locked odds, status) inside the Alt Parlay bubble, same visual style as Edge.",
+   "Legs do not carry their own units.",
+   "Void/push legs: Void or push Alt Parlay legs show on the hit/miss list as VOID (or PUSH) and are excluded from the hit-rate percentage. They still appear in the list. The parent ticket continues to be re-priced on the remaining legs.",
+   "Capper original picks tracking:",
+   "Tracked as 1u singles at the odds the capper posted.",
+   "Displayed in the same list format under the Cappers bubble (player, prop, posted odds, W/L).",
+   "Separate from Heist conversions. Stays out of the Official total.",
+   "None posted: Capper picks marked “none posted” count in the W-L record, but do not award units on a win. Win = 1-0 / 0u, Loss = 0-1 / –1u, Push/void = 0u.",
    "Summary strip: Today / This week / All-time record and units, plus Best streak, Hottest prop and Coldest prop callouts (a prop needs 3+ decisions).",
    "Money bag on hits, color-coded result chips, voided picks read \"VOID\".",
    "Collapse standard: days and props load collapsed to a one-line summary. A collapsed Rules dropdown sits at the bottom.",
@@ -32927,7 +32937,9 @@
     "img": null,
     "sub": "",
     "tk": "NFL",
-    "tid": "2026-10-18|NFL|8:04 AM ET|3-leg"
+    "tid": "2026-10-18|NFL|8:04 AM ET|3-leg",
+    "gm": "Ravens @ Browns 10/18 01:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-18",
@@ -32945,7 +32957,9 @@
     "img": null,
     "sub": "",
     "tk": "NFL",
-    "tid": "2026-10-18|NFL|8:04 AM ET|3-leg"
+    "tid": "2026-10-18|NFL|8:04 AM ET|3-leg",
+    "gm": "Texans @ Jaguars 10/18 09:30 AM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-18",
@@ -32963,7 +32977,9 @@
     "img": null,
     "sub": "",
     "tk": "NFL",
-    "tid": "2026-10-18|NFL|8:04 AM ET|3-leg"
+    "tid": "2026-10-18|NFL|8:04 AM ET|3-leg",
+    "gm": "Bears @ Falcons 10/18 01:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-18",
@@ -32999,7 +33015,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-18|NHL|8:04 AM ET|4-leg"
+    "tid": "2026-10-18|NHL|8:04 AM ET|4-leg",
+    "gm": "Blue Jackets @ Wild 10/18 06:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-18",
@@ -33017,7 +33035,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-18|NHL|8:04 AM ET|4-leg"
+    "tid": "2026-10-18|NHL|8:04 AM ET|4-leg",
+    "gm": "Hurricanes @ Flames 10/18 08:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-18",
@@ -33035,7 +33055,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-18|NHL|8:04 AM ET|4-leg"
+    "tid": "2026-10-18|NHL|8:04 AM ET|4-leg",
+    "gm": "Blue Jackets @ Wild 10/18 06:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-18",
@@ -33053,7 +33075,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-18|NHL|8:04 AM ET|4-leg"
+    "tid": "2026-10-18|NHL|8:04 AM ET|4-leg",
+    "gm": "Blue Jackets @ Wild 10/18 06:00 PM ET",
+    "grade": "B"
    },
    {
     "date": "2026-10-18",
@@ -33089,7 +33113,9 @@
     "img": null,
     "sub": "",
     "tk": "NFL",
-    "tid": "2026-10-18|NFL|7:52 PM ET|2-leg #2 (Closest to +100)"
+    "tid": "2026-10-18|NFL|7:52 PM ET|2-leg #2 (Closest to +100)",
+    "gm": "Cowboys @ Packers 10/18 08:20 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-18",
@@ -33107,7 +33133,9 @@
     "img": null,
     "sub": "",
     "tk": "NFL",
-    "tid": "2026-10-18|NFL|7:52 PM ET|2-leg #2 (Closest to +100)"
+    "tid": "2026-10-18|NFL|7:52 PM ET|2-leg #2 (Closest to +100)",
+    "gm": "Cowboys @ Packers 10/18 08:20 PM ET",
+    "grade": "B-"
    },
    {
     "date": "2026-10-19",
@@ -33143,7 +33171,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-19|NHL|6:24 AM ET|3-leg"
+    "tid": "2026-10-19|NHL|6:24 AM ET|3-leg",
+    "gm": "Avalanche @ Flyers 10/19 07:00 PM ET",
+    "grade": "A"
    },
    {
     "date": "2026-10-19",
@@ -33161,7 +33191,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-19|NHL|6:24 AM ET|3-leg"
+    "tid": "2026-10-19|NHL|6:24 AM ET|3-leg",
+    "gm": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-19",
@@ -33179,7 +33211,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-19|NHL|6:24 AM ET|3-leg"
+    "tid": "2026-10-19|NHL|6:24 AM ET|3-leg",
+    "gm": "Penguins @ Mammoth 10/19 09:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-19",
@@ -33215,7 +33249,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-19|Today|9:02 AM ET|3-leg"
+    "tid": "2026-10-19|Today|9:02 AM ET|3-leg",
+    "gm": "Avalanche @ Flyers 10/19 07:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-19",
@@ -33233,7 +33269,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-19|Today|9:02 AM ET|3-leg"
+    "tid": "2026-10-19|Today|9:02 AM ET|3-leg",
+    "gm": "Penguins @ Mammoth 10/19 09:00 PM ET",
+    "grade": "B"
    },
    {
     "date": "2026-10-19",
@@ -33251,7 +33289,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-19|Today|9:02 AM ET|3-leg"
+    "tid": "2026-10-19|Today|9:02 AM ET|3-leg",
+    "gm": "Sharks @ Maple Leafs 10/19 07:30 PM ET",
+    "grade": "B"
    },
    {
     "date": "2026-10-19",
@@ -33287,7 +33327,9 @@
     "img": null,
     "sub": "",
     "tk": "WNBA",
-    "tid": "2026-10-19|WNBA|4:45 PM ET|3-leg"
+    "tid": "2026-10-19|WNBA|4:45 PM ET|3-leg",
+    "gm": "Dream @ Valkyries 10/19 08:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-19",
@@ -33305,7 +33347,9 @@
     "img": null,
     "sub": "",
     "tk": "WNBA",
-    "tid": "2026-10-19|WNBA|4:45 PM ET|3-leg"
+    "tid": "2026-10-19|WNBA|4:45 PM ET|3-leg",
+    "gm": "Dream @ Valkyries 10/19 08:00 PM ET",
+    "grade": "B"
    },
    {
     "date": "2026-10-19",
@@ -33323,7 +33367,9 @@
     "img": null,
     "sub": "",
     "tk": "WNBA",
-    "tid": "2026-10-19|WNBA|4:45 PM ET|3-leg"
+    "tid": "2026-10-19|WNBA|4:45 PM ET|3-leg",
+    "gm": "Dream @ Valkyries 10/19 08:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-20",
@@ -33359,7 +33405,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-20|NHL|10:38 AM ET|4-leg"
+    "tid": "2026-10-20|NHL|10:38 AM ET|4-leg",
+    "gm": "Red Wings @ Kraken 10/20 09:40 PM ET",
+    "grade": "A"
    },
    {
     "date": "2026-10-20",
@@ -33377,7 +33425,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-20|NHL|10:38 AM ET|4-leg"
+    "tid": "2026-10-20|NHL|10:38 AM ET|4-leg",
+    "gm": "Hurricanes @ Canucks 10/20 10:00 PM ET",
+    "grade": "A"
    },
    {
     "date": "2026-10-20",
@@ -33395,7 +33445,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-20|NHL|10:38 AM ET|4-leg"
+    "tid": "2026-10-20|NHL|10:38 AM ET|4-leg",
+    "gm": "Avalanche @ Devils 10/20 07:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-20",
@@ -33413,7 +33465,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-20|NHL|10:38 AM ET|4-leg"
+    "tid": "2026-10-20|NHL|10:38 AM ET|4-leg",
+    "gm": "Maple Leafs @ Blue Jackets 10/20 07:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-20",
@@ -33449,7 +33503,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-20|Today|10:38 AM ET|3-leg"
+    "tid": "2026-10-20|Today|10:38 AM ET|3-leg",
+    "gm": "Sharks @ Canadiens 10/20 07:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-20",
@@ -33467,7 +33523,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-20|Today|10:38 AM ET|3-leg"
+    "tid": "2026-10-20|Today|10:38 AM ET|3-leg",
+    "gm": "Red Wings @ Kraken 10/20 09:40 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-20",
@@ -33485,7 +33543,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-20|Today|10:38 AM ET|3-leg"
+    "tid": "2026-10-20|Today|10:38 AM ET|3-leg",
+    "gm": "Bruins @ Stars 10/20 08:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-25",
@@ -33521,7 +33581,9 @@
     "img": null,
     "sub": "",
     "tk": "NFL",
-    "tid": "2026-10-25|NFL|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|NFL|7:08 AM ET|3-leg",
+    "gm": "Steelers @ Saints 10/25 09:30 AM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33539,7 +33601,9 @@
     "img": null,
     "sub": "",
     "tk": "NFL",
-    "tid": "2026-10-25|NFL|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|NFL|7:08 AM ET|3-leg",
+    "gm": "Chiefs @ Seahawks 10/25 08:20 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33557,7 +33621,9 @@
     "img": null,
     "sub": "",
     "tk": "NFL",
-    "tid": "2026-10-25|NFL|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|NFL|7:08 AM ET|3-leg",
+    "gm": "Rams @ Raiders 10/25 04:25 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33593,7 +33659,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-25|NHL|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|NHL|7:08 AM ET|3-leg",
+    "gm": "Islanders @ Stars 10/25 06:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33611,7 +33679,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-25|NHL|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|NHL|7:08 AM ET|3-leg",
+    "gm": "Wild @ Canucks 10/25 10:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33629,7 +33699,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-25|NHL|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|NHL|7:08 AM ET|3-leg",
+    "gm": "Panthers @ Blackhawks 10/25 03:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33665,7 +33737,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-25|Today|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|Today|7:08 AM ET|3-leg",
+    "gm": "Colts @ Vikings 10/25 01:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33683,7 +33757,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-25|Today|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|Today|7:08 AM ET|3-leg",
+    "gm": "Browns @ Titans 10/25 01:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33701,7 +33777,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-25|Today|7:08 AM ET|3-leg"
+    "tid": "2026-10-25|Today|7:08 AM ET|3-leg",
+    "gm": "Avalanche @ Predators 10/25 08:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-25",
@@ -33737,7 +33815,9 @@
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-25|NBA|9:38 AM ET|2-leg"
+    "tid": "2026-10-25|NBA|9:38 AM ET|2-leg",
+    "gm": "Knicks vs Magic 10/25 07:00 PM ET",
+    "grade": "B"
    },
    {
     "date": "2026-10-25",
@@ -33755,7 +33835,9 @@
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-25|NBA|9:38 AM ET|2-leg"
+    "tid": "2026-10-25|NBA|9:38 AM ET|2-leg",
+    "gm": "Timberwolves vs Raptors 10/25 07:00 PM ET",
+    "grade": "B"
    },
    {
     "date": "2026-10-25",
@@ -33791,7 +33873,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-25|Today|10:38 AM ET|2-leg (Edge 4%+)"
+    "tid": "2026-10-25|Today|10:38 AM ET|2-leg (Edge 4%+)",
+    "gm": "Ravens vs Bengals 10/25 01:00 PM ET",
+    "grade": "B"
    },
    {
     "date": "2026-10-25",
@@ -33809,7 +33893,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-25|Today|10:38 AM ET|2-leg (Edge 4%+)"
+    "tid": "2026-10-25|Today|10:38 AM ET|2-leg (Edge 4%+)",
+    "gm": "Jets vs. Canadiens 10/25 07:00 PM ET",
+    "grade": "B"
    },
    {
     "date": "2026-10-26",
@@ -33845,7 +33931,9 @@
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-26|NBA|6:49 PM ET|3-leg"
+    "tid": "2026-10-26|NBA|6:49 PM ET|3-leg",
+    "gm": "Celtics vs Bulls 10/26 07:30 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-26",
@@ -33863,7 +33951,9 @@
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-26|NBA|6:49 PM ET|3-leg"
+    "tid": "2026-10-26|NBA|6:49 PM ET|3-leg",
+    "gm": "Rockets vs Hawks 10/26 08:30 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-26",
@@ -33881,7 +33971,9 @@
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-26|NBA|6:49 PM ET|3-leg"
+    "tid": "2026-10-26|NBA|6:49 PM ET|3-leg",
+    "gm": "Nuggets vs Warriors 10/26 10:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-26",
@@ -33917,7 +34009,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-26|Today|6:49 PM ET|3-leg"
+    "tid": "2026-10-26|Today|6:49 PM ET|3-leg",
+    "gm": "Thunder vs Suns 10/26 08:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-26",
@@ -33935,7 +34029,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-26|Today|6:49 PM ET|3-leg"
+    "tid": "2026-10-26|Today|6:49 PM ET|3-leg",
+    "gm": "Rockets vs Hawks 10/26 08:30 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-26",
@@ -33953,7 +34049,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-26|Today|6:49 PM ET|3-leg"
+    "tid": "2026-10-26|Today|6:49 PM ET|3-leg",
+    "gm": "Eagles vs Cowboys 10/26 08:15 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-27",
@@ -33989,7 +34087,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-27|NHL|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|NHL|10:20 AM ET|3-leg",
+    "gm": "Sharks vs. Sabres 10/27 10:30 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-27",
@@ -34007,7 +34107,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-27|NHL|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|NHL|10:20 AM ET|3-leg",
+    "gm": "Flyers vs. Blue Jackets 10/27 07:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-27",
@@ -34025,7 +34127,9 @@
     "img": null,
     "sub": "",
     "tk": "NHL",
-    "tid": "2026-10-27|NHL|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|NHL|10:20 AM ET|3-leg",
+    "gm": "Mammoth vs. Wild 10/27 09:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-27",
@@ -34061,7 +34165,9 @@
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-27|NBA|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|NBA|10:20 AM ET|3-leg",
+    "gm": "Spurs vs Kings 10/27 08:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-27",
@@ -34079,7 +34185,9 @@
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-27|NBA|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|NBA|10:20 AM ET|3-leg",
+    "gm": "Knicks vs Pistons 10/27 08:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-27",
@@ -34097,7 +34205,9 @@
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-27|NBA|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|NBA|10:20 AM ET|3-leg",
+    "gm": "Lakers vs Trail Blazers 10/27 11:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-27",
@@ -34133,7 +34243,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-27|Today|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|Today|10:20 AM ET|3-leg",
+    "gm": "Spurs vs Kings 10/27 08:00 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-27",
@@ -34151,7 +34263,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-27|Today|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|Today|10:20 AM ET|3-leg",
+    "gm": "Celtics vs Nets 10/27 07:30 PM ET",
+    "grade": "A-"
    },
    {
     "date": "2026-10-27",
@@ -34169,7 +34283,9 @@
     "img": null,
     "sub": "",
     "tk": "Today",
-    "tid": "2026-10-27|Today|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|Today|10:20 AM ET|3-leg",
+    "gm": "Stars vs. Devils 10/27 08:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-18",
@@ -34489,7 +34605,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-14",
@@ -34505,7 +34623,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 1.2
    },
    {
     "date": "2026-10-14",
@@ -34521,7 +34641,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.79
    },
    {
     "date": "2026-10-14",
@@ -34537,7 +34659,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-14",
@@ -34553,7 +34677,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.89
    },
    {
     "date": "2026-10-15",
@@ -34569,7 +34695,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-15",
@@ -34585,7 +34713,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-15",
@@ -34601,7 +34731,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-15",
@@ -34617,7 +34749,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-15",
@@ -34633,7 +34767,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-15",
@@ -34649,7 +34785,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-15",
@@ -34665,7 +34803,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-15",
@@ -34681,7 +34821,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.88
    },
    {
     "date": "2026-10-15",
@@ -34697,7 +34839,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-15",
@@ -34713,7 +34857,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-15",
@@ -34729,7 +34875,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.83
    },
    {
     "date": "2026-10-15",
@@ -34745,7 +34893,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-15",
@@ -34761,7 +34911,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-15",
@@ -34777,7 +34929,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.93
    },
    {
     "date": "2026-10-15",
@@ -34793,7 +34947,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-15",
@@ -34809,7 +34965,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-15",
@@ -34825,7 +34983,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-15",
@@ -34841,7 +35001,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-16",
@@ -34857,7 +35019,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-17",
@@ -34873,7 +35037,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-17",
@@ -34889,7 +35055,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-17",
@@ -34905,7 +35073,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.8
    },
    {
     "date": "2026-10-17",
@@ -34921,7 +35091,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.83
    },
    {
     "date": "2026-10-17",
@@ -34937,7 +35109,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.83
    },
    {
     "date": "2026-10-17",
@@ -34953,7 +35127,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-17",
@@ -34969,7 +35145,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-17",
@@ -34985,7 +35163,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-17",
@@ -35001,7 +35181,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-17",
@@ -35017,7 +35199,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-17",
@@ -35033,7 +35217,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-17",
@@ -35049,7 +35235,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-17",
@@ -35065,7 +35253,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-18",
@@ -35081,7 +35271,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 1.0
    },
    {
     "date": "2026-10-18",
@@ -35097,7 +35289,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-18",
@@ -35113,7 +35307,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-18",
@@ -35129,7 +35325,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-18",
@@ -35145,7 +35343,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35161,7 +35361,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-18",
@@ -35177,7 +35379,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-18",
@@ -35193,7 +35397,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-18",
@@ -35209,7 +35415,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35225,7 +35433,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-18",
@@ -35241,7 +35451,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35257,7 +35469,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35273,7 +35487,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.88
    },
    {
     "date": "2026-10-18",
@@ -35289,7 +35505,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35305,7 +35523,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35321,7 +35541,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 6.57
    },
    {
     "date": "2026-10-18",
@@ -35337,7 +35559,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.93
    },
    {
     "date": "2026-10-18",
@@ -35353,7 +35577,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35369,7 +35595,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35385,7 +35613,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-18",
@@ -35401,7 +35631,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35417,7 +35649,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35433,7 +35667,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-18",
@@ -35449,7 +35685,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35465,7 +35703,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.95
    },
    {
     "date": "2026-10-18",
@@ -35481,7 +35721,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.88
    },
    {
     "date": "2026-10-18",
@@ -35497,7 +35739,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.95
    },
    {
     "date": "2026-10-18",
@@ -35513,7 +35757,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-18",
@@ -35529,7 +35775,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-19",
@@ -35545,7 +35793,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-19",
@@ -35561,7 +35811,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-19",
@@ -35577,7 +35829,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-19",
@@ -35593,7 +35847,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.89
    },
    {
     "date": "2026-10-19",
@@ -35609,7 +35865,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.61
    },
    {
     "date": "2026-10-19",
@@ -35625,7 +35883,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-19",
@@ -35641,7 +35901,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-19",
@@ -35657,7 +35919,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-19",
@@ -35673,7 +35937,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-19",
@@ -35689,7 +35955,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-20",
@@ -35705,7 +35973,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-20",
@@ -35721,7 +35991,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-20",
@@ -35737,7 +36009,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-20",
@@ -35753,7 +36027,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-21",
@@ -35769,7 +36045,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-21",
@@ -35785,7 +36063,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-21",
@@ -35801,7 +36081,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-21",
@@ -35817,7 +36099,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-21",
@@ -35833,7 +36117,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-21",
@@ -35849,7 +36135,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-21",
@@ -35865,7 +36153,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-21",
@@ -35881,7 +36171,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-21",
@@ -35897,7 +36189,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.77
    },
    {
     "date": "2026-10-21",
@@ -35913,7 +36207,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-21",
@@ -35929,7 +36225,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.8
    },
    {
     "date": "2026-10-21",
@@ -35945,7 +36243,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-22",
@@ -35961,7 +36261,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-22",
@@ -35977,7 +36279,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-22",
@@ -35993,7 +36297,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-22",
@@ -36009,7 +36315,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-22",
@@ -36025,7 +36333,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-22",
@@ -36041,7 +36351,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.89
    },
    {
     "date": "2026-10-22",
@@ -36057,7 +36369,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-22",
@@ -36073,7 +36387,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-22",
@@ -36089,7 +36405,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.81
    },
    {
     "date": "2026-10-22",
@@ -36105,7 +36423,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-22",
@@ -36121,7 +36441,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-22",
@@ -36137,7 +36459,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-22",
@@ -36153,7 +36477,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-23",
@@ -36169,7 +36495,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-23",
@@ -36185,7 +36513,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-23",
@@ -36201,7 +36531,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.8
    },
    {
     "date": "2026-10-23",
@@ -36217,7 +36549,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-23",
@@ -36233,7 +36567,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-23",
@@ -36249,7 +36585,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.95
    },
    {
     "date": "2026-10-23",
@@ -36265,7 +36603,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.83
    },
    {
     "date": "2026-10-23",
@@ -36281,7 +36621,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.78
    },
    {
     "date": "2026-10-23",
@@ -36297,7 +36639,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-23",
@@ -36313,7 +36657,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-23",
@@ -36329,7 +36675,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-23",
@@ -36345,7 +36693,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.93
    },
    {
     "date": "2026-10-23",
@@ -36361,7 +36711,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-23",
@@ -36377,7 +36729,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-23",
@@ -36393,7 +36747,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-24",
@@ -36409,7 +36765,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-24",
@@ -36425,7 +36783,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.8
    },
    {
     "date": "2026-10-24",
@@ -36441,7 +36801,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-24",
@@ -36457,7 +36819,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-24",
@@ -36473,7 +36837,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-24",
@@ -36489,7 +36855,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-24",
@@ -36505,7 +36873,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.88
    },
    {
     "date": "2026-10-24",
@@ -36521,7 +36891,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-24",
@@ -36537,7 +36909,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.74
    },
    {
     "date": "2026-10-24",
@@ -36553,7 +36927,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
    },
    {
     "date": "2026-10-24",
@@ -36569,7 +36945,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-24",
@@ -36585,7 +36963,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36601,7 +36981,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.95
    },
    {
     "date": "2026-10-25",
@@ -36617,7 +36999,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36633,7 +37017,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36649,7 +37035,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-25",
@@ -36665,7 +37053,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36681,7 +37071,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36697,7 +37089,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36713,7 +37107,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-25",
@@ -36729,7 +37125,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36745,7 +37143,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.8
    },
    {
     "date": "2026-10-25",
@@ -36761,7 +37161,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.89
    },
    {
     "date": "2026-10-25",
@@ -36777,7 +37179,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36793,7 +37197,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36809,7 +37215,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.92
    },
    {
     "date": "2026-10-25",
@@ -36825,7 +37233,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36841,7 +37251,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.88
    },
    {
     "date": "2026-10-25",
@@ -36857,7 +37269,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.82
    },
    {
     "date": "2026-10-25",
@@ -36873,7 +37287,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36889,7 +37305,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-25",
@@ -36905,7 +37323,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.8
    },
    {
     "date": "2026-10-25",
@@ -36921,7 +37341,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-26",
@@ -36937,7 +37359,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-26",
@@ -36953,7 +37377,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -36969,7 +37395,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -36985,7 +37413,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -37001,7 +37431,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-26",
@@ -37017,7 +37449,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-26",
@@ -37033,7 +37467,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
    },
    {
     "date": "2026-10-26",
@@ -37049,7 +37485,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -37065,7 +37503,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-26",
@@ -37081,7 +37521,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 1.25
    },
    {
     "date": "2026-10-26",
@@ -37097,7 +37539,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -37113,7 +37557,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -37129,7 +37575,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.83
    },
    {
     "date": "2026-10-26",
@@ -37145,7 +37593,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.8
    },
    {
     "date": "2026-10-26",
@@ -37161,7 +37611,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -37177,7 +37629,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -37193,7 +37647,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -37209,7 +37665,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-26",
@@ -37225,7 +37683,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-27",
@@ -37241,7 +37701,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-27",
@@ -37257,7 +37719,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-27",
@@ -37273,7 +37737,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-27",
@@ -37289,7 +37755,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-10-27",
@@ -37305,7 +37773,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-27",
@@ -37321,7 +37791,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-26",
@@ -37337,7 +37809,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false,
+    "uu": 0.71
    },
    {
     "date": "2026-10-26",
@@ -37353,7 +37827,9 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-10-21",
@@ -37369,7 +37845,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-23",
@@ -37385,7 +37862,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true
    },
    {
     "date": "2026-10-23",
@@ -37401,7 +37879,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true
    },
    {
     "date": "2026-10-24",
@@ -37417,7 +37896,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true
    },
    {
     "date": "2026-10-24",
@@ -37433,7 +37913,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-24",
@@ -37449,7 +37930,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-24",
@@ -37465,7 +37947,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true
    },
    {
     "date": "2026-10-27",
@@ -37481,7 +37964,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true
    },
    {
     "date": "2026-10-27",
@@ -37497,7 +37981,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-27",
@@ -37513,7 +37998,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-27",
@@ -37529,7 +38015,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-27",
@@ -37545,7 +38032,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": true
    },
    {
     "date": "2026-10-27",
@@ -37561,7 +38049,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-27",
@@ -37577,7 +38066,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-28",
@@ -37593,7 +38083,8 @@
     "alt": false,
     "leg": false,
     "img": null,
-    "sub": ""
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-25",
@@ -39010,7 +39501,8 @@
      "l": 75,
      "p": 1,
      "pending": 15,
-     "units": 29
+     "units": -14.07,
+     "no_odds": 78
     },
     "legs": {
      "w": 0,
@@ -39167,7 +39659,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-28 07:21",
+    "priced": "2026-10-28 07:52",
     "dk": {
      "odds": null,
      "pick": "Nikoloz Basilashvili ML",
@@ -39256,7 +39748,7 @@
  },
  "gameday": {
   "date": "2026-10-28",
-  "built": "2026-10-28 07:21 ET",
+  "built": "2026-10-28 07:52 ET",
   "picks": 54,
   "vetoes": [],
   "gaps": []
