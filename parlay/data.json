@@ -1,5 +1,5 @@
 {
- "generated": 1793252427.3547533,
+ "generated": 1793252507.7542114,
  "today": {
   "title": "Oct 29 picks (Hard Rock)",
   "tickets": [],
@@ -6514,9 +6514,9 @@
   {
    "name": "@austinsprops",
    "w": 27,
-   "l": 20,
+   "l": 22,
    "p": 0,
-   "pct": 57,
+   "pct": 55,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -6593,17 +6593,17 @@
     {
      "prop": "NBA pts+ast (over)",
      "w": 1,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100,
+     "pct": 50,
      "fam": "Pts+Ast"
     },
     {
      "prop": "NBA reb+ast (over)",
      "w": 1,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100,
+     "pct": 50,
      "fam": "Reb+Ast"
     },
     {
@@ -6643,10 +6643,10 @@
   },
   {
    "name": "@panpotd",
-   "w": 17,
+   "w": 18,
    "l": 16,
    "p": 0,
-   "pct": 52,
+   "pct": 53,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -6714,7 +6714,7 @@
     },
     {
      "prop": "NBA reb+ast (over)",
-     "w": 2,
+     "w": 3,
      "l": 0,
      "p": 0,
      "pct": 100,
@@ -6741,10 +6741,10 @@
   },
   {
    "name": "@showtimepicks2",
-   "w": 15,
+   "w": 17,
    "l": 7,
    "p": 0,
-   "pct": 68,
+   "pct": 71,
    "props": [
     {
      "prop": "NCAAF pass yds (over)",
@@ -6784,6 +6784,14 @@
      "l": 1,
      "p": 0,
      "pct": 50,
+     "fam": "ML"
+    },
+    {
+     "prop": "Tennis ML",
+     "w": 2,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
      "fam": "ML"
     },
     {
@@ -6937,7 +6945,7 @@
  "capper_today_date": "2026-10-29",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-29 01:40 AM ET",
+  "updated": "2026-10-29 01:41 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -27169,6 +27177,96 @@
     "uu": 0.0
    },
    {
+    "date": "2026-10-28",
+    "sport": "Tennis",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · Tennis ML",
+    "fam": "ML",
+    "pick": "Nikoloz Basilashvili ML (tennis free play)",
+    "odds": "-136",
+    "res": "W",
+    "stat": "W (beat Rodionov; graded manually)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.74
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA reb+ast (over)",
+    "fam": "Reb+Ast",
+    "pick": "Josh Hart o12.5 RA (Knicks vs Bulls; first NBA winner)",
+    "odds": "-105",
+    "res": "L",
+    "stat": "L (11 R+A; graded manually)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA reb+ast (over)",
+    "fam": "Reb+Ast",
+    "pick": "LeBron James o12.5 RA (first NBA winner)",
+    "odds": "-110",
+    "res": "W",
+    "stat": "W (15 R+A; graded manually)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA pts+ast (over)",
+    "fam": "Pts+Ast",
+    "pick": "Anthony Black o18.5 PA (Magic vs Raptors)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (9 P+A; graded manually)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "Tennis",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · Tennis ML",
+    "fam": "ML",
+    "pick": "Alex De Minaur ML (tennis free play)",
+    "odds": "-112",
+    "res": "W",
+    "stat": "W (beat Machac/Tien; graded manually)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.89
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -27398,91 +27496,6 @@
     "fam": "ML",
     "pick": "Western Kentucky ML (vs Delaware; CFB free play)",
     "odds": "-122",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-28",
-    "sport": "Tennis",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@showtimepicks2 · Tennis ML",
-    "fam": "ML",
-    "pick": "Nikoloz Basilashvili ML (tennis free play)",
-    "odds": "-136",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-28",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA reb+ast (over)",
-    "fam": "Reb+Ast",
-    "pick": "Josh Hart o12.5 RA (Knicks vs Bulls; first NBA winner)",
-    "odds": "-105",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-28",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NBA reb+ast (over)",
-    "fam": "Reb+Ast",
-    "pick": "LeBron James o12.5 RA (first NBA winner)",
-    "odds": "-110",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-28",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA pts+ast (over)",
-    "fam": "Pts+Ast",
-    "pick": "Anthony Black o18.5 PA (Magic vs Raptors)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
-   },
-   {
-    "date": "2026-10-28",
-    "sport": "Tennis",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@showtimepicks2 · Tennis ML",
-    "fam": "ML",
-    "pick": "Alex De Minaur ML (tennis free play)",
-    "odds": "-112",
     "res": "",
     "stat": "",
     "alt": false,
@@ -28940,11 +28953,11 @@
    },
    "C": {
     "tickets": {
-     "w": 108,
-     "l": 79,
+     "w": 111,
+     "l": 81,
      "p": 1,
-     "pending": 19,
-     "units": -16.13,
+     "pending": 14,
+     "units": -15.59,
      "no_odds": 80
     },
     "legs": {
@@ -28968,7 +28981,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 19 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 14 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 279 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-28', 'Parlay +100', '2-leg', '+121', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -29129,6 +29142,7 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
+  "conv": [],
   "props": {
    "n": 0,
    "w": 0,
@@ -29136,8 +29150,7 @@
    "p": 0,
    "pending": 0,
    "units": 0.0
-  },
-  "conv": []
+  }
  },
  "big4_games": 15,
  "big4_games_by_sport": {
@@ -29148,7 +29161,7 @@
  },
  "gameday": {
   "date": "2026-10-29",
-  "built": "2026-10-29 01:40 ET",
+  "built": "2026-10-29 01:41 ET",
   "picks": 0,
   "vetoes": [],
   "gaps": [
