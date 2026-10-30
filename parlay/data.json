@@ -1,5 +1,5 @@
 {
- "generated": 1793366650.2869854,
+ "generated": 1793367059.3128338,
  "today": {
   "title": "Oct 30 picks (Hard Rock)",
   "tickets": [
@@ -1812,7 +1812,7 @@
     "sport": "NHL",
     "type": "Leg",
     "pick": "Brandon Hagel over 2.5 Shots On Goal",
-    "odds": "-210",
+    "odds": "-220",
     "result": "W",
     "stat": "5 SOG"
    },
@@ -1830,7 +1830,7 @@
     "sport": "NHL",
     "type": "Parlay",
     "pick": "2-leg",
-    "odds": "+112",
+    "odds": "+109",
     "result": "W",
     "stat": null
    },
@@ -2407,11 +2407,11 @@
     "pct": 34
    },
    {
-    "prop": "NHL parlay",
+    "prop": "Big 4 parlay",
     "w": 5,
-    "l": 7,
+    "l": 9,
     "p": 0,
-    "pct": 42
+    "pct": 36
    },
    {
     "prop": "NFL anytime TD",
@@ -2421,7 +2421,7 @@
     "pct": 45
    },
    {
-    "prop": "Big 4 parlay",
+    "prop": "NHL parlay",
     "w": 4,
     "l": 4,
     "p": 0,
@@ -2437,9 +2437,9 @@
    {
     "prop": "NBA parlay",
     "w": 1,
-    "l": 6,
+    "l": 4,
     "p": 0,
-    "pct": 14
+    "pct": 20
    },
    {
     "prop": "NHL team total",
@@ -4742,7 +4742,7 @@
    {
     "date": "2026-10-29",
     "pick": "NHL · Parlay: 2-leg",
-    "odds": "+112",
+    "odds": "+109",
     "result": "W",
     "detail": ""
    },
@@ -4762,7 +4762,7 @@
    },
    {
     "date": "2026-10-29",
-    "pick": "NHL · Parlay: 2-leg",
+    "pick": "BIG 4 · Parlay: 2-leg",
     "odds": "+125",
     "result": "W",
     "detail": ""
@@ -4832,7 +4832,7 @@
    },
    {
     "date": "2026-10-28",
-    "pick": "NBA · Parlay: 2-leg",
+    "pick": "BIG 4 · Parlay: 2-leg",
     "odds": "+121",
     "result": "L",
     "detail": ""
@@ -4860,7 +4860,7 @@
    },
    {
     "date": "2026-10-27",
-    "pick": "NBA · Parlay: 2-leg",
+    "pick": "BIG 4 · Parlay: 2-leg",
     "odds": "+140",
     "result": "L",
     "detail": ""
@@ -4986,14 +4986,14 @@
    },
    {
     "date": "2026-10-20",
-    "pick": "NHL · Parlay: 2-leg",
+    "pick": "BIG 4 · Parlay: 2-leg",
     "odds": "+110",
     "result": "L",
     "detail": ""
    },
    {
     "date": "2026-10-20",
-    "pick": "NHL · Parlay: 3-leg",
+    "pick": "BIG 4 · Parlay: 3-leg",
     "odds": "+101",
     "result": "L",
     "detail": ""
@@ -5637,7 +5637,7 @@
    },
    {
     "date": "2026-10-13",
-    "pick": "NHL · Parlay: 2-leg",
+    "pick": "BIG 4 · Parlay: 2-leg",
     "odds": "+115",
     "result": "L",
     "detail": ""
@@ -7792,9 +7792,9 @@
   {
    "name": "@showtimepicks2",
    "w": 18,
-   "l": 9,
+   "l": 10,
    "p": 0,
-   "pct": 67,
+   "pct": 64,
    "props": [
     {
      "prop": "NCAAF pass yds (over)",
@@ -7878,6 +7878,14 @@
     },
     {
      "prop": "NCAAF parlay",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "Parlay"
+    },
+    {
+     "prop": "Tennis parlay",
      "w": 0,
      "l": 1,
      "p": 0,
@@ -7977,7 +7985,7 @@
  "capper_today_date": "2026-10-30",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-30 09:24 AM ET",
+  "updated": "2026-10-30 09:30 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -10789,8 +10797,8 @@
   },
   {
    "sport": "NHL",
-   "w": 108,
-   "l": 164,
+   "w": 107,
+   "l": 161,
    "p": 1,
    "pct": 40,
    "active": true,
@@ -10818,9 +10826,9 @@
   {
    "sport": "NBA",
    "w": 6,
-   "l": 14,
+   "l": 12,
    "p": 0,
-   "pct": 30,
+   "pct": 33,
    "active": true,
    "ticket_legs": {
     "w": 0,
@@ -10887,10 +10895,10 @@
   },
   {
    "sport": "BIG 4",
-   "w": 4,
-   "l": 4,
+   "w": 5,
+   "l": 9,
    "p": 0,
-   "pct": 50,
+   "pct": 36,
    "label": "Big 4",
    "ticket_legs": {
     "w": 0,
@@ -11271,8 +11279,8 @@
   },
   {
    "sport": "NHL",
-   "w": 108,
-   "l": 164,
+   "w": 107,
+   "l": 161,
    "p": 1,
    "pct": 40,
    "props": [
@@ -11306,10 +11314,10 @@
     },
     {
      "prop": "NHL parlay",
-     "w": 5,
-     "l": 7,
+     "w": 4,
+     "l": 4,
      "p": 0,
-     "pct": 42
+     "pct": 50
     },
     {
      "prop": "NHL team total",
@@ -11418,8 +11426,8 @@
     }
    ],
    "official": {
-    "w": 108,
-    "l": 164,
+    "w": 107,
+    "l": 161,
     "p": 1,
     "pct": 40,
     "props": [
@@ -11453,10 +11461,10 @@
      },
      {
       "prop": "NHL parlay",
-      "w": 5,
-      "l": 7,
+      "w": 4,
+      "l": 4,
       "p": 0,
-      "pct": 42
+      "pct": 50
      },
      {
       "prop": "NHL team total",
@@ -11566,10 +11574,10 @@
     ]
    },
    "tracked": {
-    "w": 60,
-    "l": 44,
+    "w": 59,
+    "l": 41,
     "p": 0,
-    "pct": 58,
+    "pct": 59,
     "props": [
      {
       "prop": "NHL SOG",
@@ -11577,13 +11585,6 @@
       "l": 17,
       "p": 0,
       "pct": 67
-     },
-     {
-      "prop": "NHL parlay",
-      "w": 5,
-      "l": 7,
-      "p": 0,
-      "pct": 42
      },
      {
       "prop": "NHL points",
@@ -11598,6 +11599,13 @@
       "l": 3,
       "p": 0,
       "pct": 67
+     },
+     {
+      "prop": "NHL parlay",
+      "w": 4,
+      "l": 4,
+      "p": 0,
+      "pct": 50
      },
      {
       "prop": "NHL points under",
@@ -12092,16 +12100,16 @@
   {
    "sport": "NBA",
    "w": 6,
-   "l": 14,
+   "l": 12,
    "p": 0,
-   "pct": 30,
+   "pct": 33,
    "props": [
     {
      "prop": "NBA parlay",
      "w": 1,
-     "l": 6,
+     "l": 4,
      "p": 0,
-     "pct": 14
+     "pct": 20
     },
     {
      "prop": "NBA ML",
@@ -12169,16 +12177,16 @@
    ],
    "official": {
     "w": 6,
-    "l": 14,
+    "l": 12,
     "p": 0,
-    "pct": 30,
+    "pct": 33,
     "props": [
      {
       "prop": "NBA parlay",
       "w": 1,
-      "l": 6,
+      "l": 4,
       "p": 0,
-      "pct": 14
+      "pct": 20
      },
      {
       "prop": "NBA ML",
@@ -12247,16 +12255,16 @@
    },
    "tracked": {
     "w": 4,
-    "l": 16,
+    "l": 14,
     "p": 0,
-    "pct": 20,
+    "pct": 22,
     "props": [
      {
       "prop": "NBA parlay",
       "w": 1,
-      "l": 6,
+      "l": 4,
       "p": 0,
-      "pct": 14
+      "pct": 20
      },
      {
       "prop": "NBA pts+ast under",
@@ -12822,46 +12830,46 @@
   },
   {
    "sport": "Big 4",
-   "w": 4,
-   "l": 4,
+   "w": 5,
+   "l": 9,
    "p": 0,
-   "pct": 50,
+   "pct": 36,
    "props": [
     {
      "prop": "Big 4 parlay",
-     "w": 4,
-     "l": 4,
+     "w": 5,
+     "l": 9,
      "p": 0,
-     "pct": 50
+     "pct": 36
     }
    ],
    "official": {
-    "w": 4,
-    "l": 4,
+    "w": 5,
+    "l": 9,
     "p": 0,
-    "pct": 50,
+    "pct": 36,
     "props": [
      {
       "prop": "Big 4 parlay",
-      "w": 4,
-      "l": 4,
+      "w": 5,
+      "l": 9,
       "p": 0,
-      "pct": 50
+      "pct": 36
      }
     ]
    },
    "tracked": {
-    "w": 4,
-    "l": 4,
+    "w": 5,
+    "l": 9,
     "p": 0,
-    "pct": 50,
+    "pct": 36,
     "props": [
      {
       "prop": "Big 4 parlay",
-      "w": 4,
-      "l": 4,
+      "w": 5,
+      "l": 9,
       "p": 0,
-      "pct": 50
+      "pct": 36
      }
     ]
    }
@@ -15296,9 +15304,9 @@
   },
   {
    "date": "2026-10-13",
-   "sport": "NHL",
+   "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "NHL parlay",
+   "prop": "Big 4 parlay",
    "pick": "2-leg",
    "odds": "+115",
    "res": "L",
@@ -16216,9 +16224,9 @@
   },
   {
    "date": "2026-10-20",
-   "sport": "NHL",
+   "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "NHL parlay",
+   "prop": "Big 4 parlay",
    "pick": "3-leg",
    "odds": "+101",
    "res": "L",
@@ -16226,9 +16234,9 @@
   },
   {
    "date": "2026-10-20",
-   "sport": "NHL",
+   "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "NHL parlay",
+   "prop": "Big 4 parlay",
    "pick": "2-leg",
    "odds": "+110",
    "res": "L",
@@ -16406,9 +16414,9 @@
   },
   {
    "date": "2026-10-27",
-   "sport": "NBA",
+   "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "NBA parlay",
+   "prop": "Big 4 parlay",
    "pick": "2-leg",
    "odds": "+140",
    "res": "L",
@@ -16446,9 +16454,9 @@
   },
   {
    "date": "2026-10-28",
-   "sport": "NBA",
+   "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "NBA parlay",
+   "prop": "Big 4 parlay",
    "pick": "2-leg",
    "odds": "+121",
    "res": "L",
@@ -16546,9 +16554,9 @@
   },
   {
    "date": "2026-10-29",
-   "sport": "NHL",
+   "sport": "BIG 4",
    "type": "Parlay",
-   "prop": "NHL parlay",
+   "prop": "Big 4 parlay",
    "pick": "2-leg",
    "odds": "+125",
    "res": "W",
@@ -16580,7 +16588,7 @@
    "type": "Parlay",
    "prop": "NHL parlay",
    "pick": "2-leg",
-   "odds": "+112",
+   "odds": "+109",
    "res": "W",
    "stat": ""
   },
@@ -23080,15 +23088,15 @@
   "rows": [
    {
     "date": "2026-10-13",
-    "sport": "NHL",
+    "sport": "Big 4",
     "grp": "O",
     "cat": "Parlay +100",
-    "prop": "NHL parlay",
+    "prop": "Big 4 parlay",
     "pick": "2-leg",
     "odds": "+115",
     "res": "L",
     "stat": "",
-    "sub": "",
+    "sub": "Alex DeBrincat u1.5 Points + Mikael Granlund o0.5 Points",
     "leg": false,
     "img": null,
     "alt": false,
@@ -23816,15 +23824,15 @@
    },
    {
     "date": "2026-10-20",
-    "sport": "NHL",
+    "sport": "Big 4",
     "grp": "O",
     "cat": "Parlay +100",
-    "prop": "NHL parlay",
+    "prop": "Big 4 parlay",
     "pick": "3-leg",
     "odds": "+101",
     "res": "L",
     "stat": "",
-    "sub": "",
+    "sub": "David Pastrnak 2+ SOG + Jackson Blake 2+ SOG + Andrew Copp 1+ SOG",
     "leg": false,
     "img": null,
     "alt": false,
@@ -23832,15 +23840,15 @@
    },
    {
     "date": "2026-10-20",
-    "sport": "NHL",
+    "sport": "Big 4",
     "grp": "O",
     "cat": "Parlay +100",
-    "prop": "NHL parlay",
+    "prop": "Big 4 parlay",
     "pick": "2-leg",
     "odds": "+110",
     "res": "L",
     "stat": "",
-    "sub": "",
+    "sub": "Ryan Leonard 2+ SOG + Mason McTavish 2+ SOG",
     "leg": false,
     "img": null,
     "alt": false,
@@ -24120,10 +24128,10 @@
    },
    {
     "date": "2026-10-27",
-    "sport": "NBA",
+    "sport": "Big 4",
     "grp": "O",
     "cat": "Parlay +100",
-    "prop": "NBA parlay",
+    "prop": "Big 4 parlay",
     "pick": "2-leg",
     "odds": "+140",
     "res": "L",
@@ -24184,10 +24192,10 @@
    },
    {
     "date": "2026-10-28",
-    "sport": "NBA",
+    "sport": "Big 4",
     "grp": "O",
     "cat": "Parlay +100",
-    "prop": "NBA parlay",
+    "prop": "Big 4 parlay",
     "pick": "2-leg",
     "odds": "+121",
     "res": "L",
@@ -24344,15 +24352,15 @@
    },
    {
     "date": "2026-10-29",
-    "sport": "NHL",
+    "sport": "Big 4",
     "grp": "O",
     "cat": "Parlay +100",
-    "prop": "NHL parlay",
+    "prop": "Big 4 parlay",
     "pick": "2-leg",
     "odds": "+125",
     "res": "W",
     "stat": "",
-    "sub": "",
+    "sub": "Rasmus Dahlin over 2.5 Shots On Goal + Quinn Hughes over 1.5 Shots On Goal",
     "leg": false,
     "img": null,
     "alt": false,
@@ -24397,7 +24405,7 @@
     "cat": "Parlay +100",
     "prop": "NHL parlay",
     "pick": "2-leg",
-    "odds": "+112",
+    "odds": "+109",
     "res": "W",
     "stat": "",
     "sub": "Kirill Kaprizov over 2.5 Shots On Goal + Brandon Hagel over 2.5 Shots On Goal",
@@ -34648,9 +34656,9 @@
     "prop": "@tonestakes · NHL team total (over)",
     "fam": "Team total",
     "pick": "DAL o3.5 (MTL @ DAL 8:00pm; 1u)",
-    "odds": "+108 BR",
+    "odds": "+108",
     "res": "L",
-    "stat": "L (DAL 2 goals)",
+    "stat": "L (DAL 2 goals; raw odds cell \"+108 BR\" as posted)",
     "alt": false,
     "leg": false,
     "img": null,
@@ -34711,6 +34719,24 @@
     "sub": "",
     "nu": false,
     "uu": 0.95
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "Tennis",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · Tennis parlay",
+    "fam": "Parlay",
+    "pick": "Tennis 2-leg parlay: Jodar ML + Musetti ML (tennis free play)",
+    "odds": "-124",
+    "res": "L",
+    "stat": "L (Jodar lost to Vacherot 6-7(4) 6-2 6-7(5), Basel R16; Musetti lost to Fery 4-6 7-5 4-6, Vienna R16; ATP Tour results + EFE/tennis.com)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-10-21",
@@ -34976,23 +35002,6 @@
     "fam": "Team total",
     "pick": "COL o3.5 (NJ @ COL 9:00pm; 1u)",
     "odds": "+108",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "Tennis",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@showtimepicks2 · Tennis parlay",
-    "fam": "Parlay",
-    "pick": "Tennis 2-leg parlay: Jodar ML + Musetti ML (tennis free play)",
-    "odds": "-124",
     "res": "",
     "stat": "",
     "alt": false,
@@ -35386,6 +35395,636 @@
     "sub": "from Denzel Boston o48.5 rec yds",
     "uu": -1.0,
     "game": "CLE @ TEN"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Receiving yds",
+    "fam": "Receiving yds",
+    "pick": "Makai Lemon 25+ rec yds",
+    "odds": "-325",
+    "res": "W",
+    "stat": "67 rec yds",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Makai Lemon o37.5 rec yds",
+    "uu": 0.31,
+    "game": "DAL @ PHI"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Receptions",
+    "fam": "Receptions",
+    "pick": "Jake Ferguson o2.5 receptions",
+    "odds": "-125",
+    "res": "L",
+    "stat": "0 rec",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jake Ferguson o2.5 receptions",
+    "uu": -1.0,
+    "game": "DAL @ PHI"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Player points",
+    "fam": "Player points",
+    "pick": "Anthony Davis o21.5 Points",
+    "odds": "-120",
+    "res": "W",
+    "stat": "29 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Anthony Davis o21.5 Points",
+    "uu": 0.83,
+    "game": "WSH @ CHA"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Rebounds",
+    "fam": "Rebounds",
+    "pick": "Cameron Boozer o8.5 Rebounds",
+    "odds": "-145",
+    "res": "L",
+    "stat": "7 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Cameron Boozer o8.5 Rebounds",
+    "uu": -1.0,
+    "game": "MEM @ UTAH"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Rebounds",
+    "fam": "Rebounds",
+    "pick": "Jaime Jaquez 5+ Rebounds",
+    "odds": "-250",
+    "res": "W",
+    "stat": "6 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jaime Jaquez o5.5 Rebounds",
+    "uu": 0.4,
+    "game": "IND @ MIL"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Assists",
+    "fam": "Assists",
+    "pick": "Jalen Johnson 6+ Assists",
+    "odds": "-300",
+    "res": "L",
+    "stat": "3 AST",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jalen Johnson o7.5 Assists",
+    "uu": -1.0,
+    "game": "ATL @ HOU"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Longest reception",
+    "fam": "Longest reception",
+    "pick": "CeeDee Lamb o23.5 Longest Reception",
+    "odds": "-120",
+    "res": "W",
+    "stat": "30 long",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from CeeDee Lamb o23.5 Longest Reception",
+    "uu": 0.83,
+    "game": "DAL @ PHI"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Player points",
+    "fam": "Player points",
+    "pick": "Darryn Peterson o11.5 Pts",
+    "odds": "-115",
+    "res": "W",
+    "stat": "14 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Darryn Peterson o11.5 Pts",
+    "uu": 0.87,
+    "game": "MEM @ UTAH"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Other",
+    "fam": "Other",
+    "pick": "Andrew Nembhard o20.5 PA",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Andrew Nembhard o20.5 PA",
+    "uu": 0.0,
+    "game": "IND @ MIL"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · Player points",
+    "fam": "Player points",
+    "pick": "Brandon Miller 20+ Points",
+    "odds": "-300",
+    "res": "W",
+    "stat": "39 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Brandon Miller o23.5 Points",
+    "uu": 0.33,
+    "game": "WSH @ CHA"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · Other",
+    "fam": "Other",
+    "pick": "Kasparas Jakucionis o10.5 PA",
+    "odds": "-125",
+    "res": "W",
+    "stat": "12 P+A",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Kasparas Jakucionis o10.5 PA",
+    "uu": 0.8,
+    "game": "IND @ MIL"
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Rebounds",
+    "fam": "Rebounds",
+    "pick": "John Collins 6+ Rebounds",
+    "odds": "-275",
+    "res": "W",
+    "stat": "9 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from John Collins o6.5 Rebounds",
+    "uu": 0.36,
+    "game": "DET @ NY"
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Assists",
+    "fam": "Assists",
+    "pick": "Dylan Harper o3.5 Assists",
+    "odds": "-180",
+    "res": "W",
+    "stat": "6 AST",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Dylan Harper o3.5 Assists",
+    "uu": 0.56,
+    "game": "SAC @ SA"
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Assists",
+    "fam": "Assists",
+    "pick": "Karl-Anthony Towns u3.5 Assists",
+    "odds": "-130",
+    "res": "W",
+    "stat": "3 AST",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Karl-Anthony Towns u3.5 Assists",
+    "uu": 0.77,
+    "game": "DET @ NY"
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · PRA",
+    "fam": "PRA",
+    "pick": "Damian Lillard o28.5 PRA",
+    "odds": "-120",
+    "res": "W",
+    "stat": "30 PRA",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Damian Lillard o28.5 PRA",
+    "uu": 0.83,
+    "game": "POR @ LAL"
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · PRA",
+    "fam": "PRA",
+    "pick": "Damian Lillard o27.5 PRA",
+    "odds": "-115",
+    "res": "W",
+    "stat": "30 PRA",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Damian Lillard o27.5 PRA",
+    "uu": 0.87,
+    "game": "POR @ LAL"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Player points",
+    "fam": "Player points",
+    "pick": "Jakob Poeltl o7.5 Points",
+    "odds": "-135",
+    "res": "L",
+    "stat": "2 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jakob Poeltl o7.5 Points",
+    "uu": -1.0,
+    "game": "ORL @ TOR"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Rebounds",
+    "fam": "Rebounds",
+    "pick": "Jabari Smith 6+ Rebounds",
+    "odds": "-275",
+    "res": "L",
+    "stat": "2 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jabari Smith o6.5 Rebounds",
+    "uu": -1.0,
+    "game": "HOU @ MIL"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Rebounds",
+    "fam": "Rebounds",
+    "pick": "Jarrett Allen 7+ Rebounds",
+    "odds": "-300",
+    "res": "W",
+    "stat": "12 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jarrett Allen o7.5 Rebounds",
+    "uu": 0.33,
+    "game": "WSH @ CLE"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Rebounds",
+    "fam": "Rebounds",
+    "pick": "Jaylen Brown 5+ Rebounds",
+    "odds": "-325",
+    "res": "W",
+    "stat": "10 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jaylen Brown o5.5 Rebounds",
+    "uu": 0.31,
+    "game": "PHI @ IND"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Assists",
+    "fam": "Assists",
+    "pick": "Jaime Jaquez u3.5 Assists",
+    "odds": "-160",
+    "res": "W",
+    "stat": "2 AST",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jaime Jaquez u3.5 Assists",
+    "uu": 0.62,
+    "game": "HOU @ MIL"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Player points",
+    "fam": "Player points",
+    "pick": "Ace Bailey 10+ Pts",
+    "odds": "-325",
+    "res": "W",
+    "stat": "19 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Ace Bailey o12.5 Pts",
+    "uu": 0.31,
+    "game": "SA @ UTAH"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Other",
+    "fam": "Other",
+    "pick": "Christian Braun 4+ Rebs",
+    "odds": "-260",
+    "res": "L",
+    "stat": "0 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Christian Braun o4.5 Rebs",
+    "uu": -1.0,
+    "game": "DEN @ NO"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Other",
+    "fam": "Other",
+    "pick": "Kevin Durant o5.5 Rebs",
+    "odds": "-120",
+    "res": "L",
+    "stat": "5 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Kevin Durant o5.5 Rebs",
+    "uu": -1.0,
+    "game": "HOU @ MIL"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Other",
+    "fam": "Other",
+    "pick": "Anthony Black o18.5 PA",
+    "odds": "-115",
+    "res": "L",
+    "stat": "9 P+A",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Anthony Black o18.5 PA",
+    "uu": -1.0,
+    "game": "ORL @ TOR"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Other",
+    "fam": "Other",
+    "pick": "Josh Hart o12.5 RA",
+    "odds": "-120",
+    "res": "L",
+    "stat": "11 R+A",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Josh Hart o12.5 RA",
+    "uu": -1.0,
+    "game": "NY @ CHI"
+   },
+   {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · Other",
+    "fam": "Other",
+    "pick": "LeBron James o12.5 RA",
+    "odds": "-140",
+    "res": "W",
+    "stat": "15 R+A",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from LeBron James o12.5 RA",
+    "uu": 0.71,
+    "game": "PHI @ IND"
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Player points",
+    "fam": "Player points",
+    "pick": "Darius Acuff o22.5 Points",
+    "odds": "-115",
+    "res": "W",
+    "stat": "34 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Darius Acuff o22.5 Points",
+    "uu": 0.87,
+    "game": "SAC @ NO"
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Rebounds",
+    "fam": "Rebounds",
+    "pick": "Zion Williamson 4+ Rebounds",
+    "odds": "-325",
+    "res": "W",
+    "stat": "6 REB",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Zion Williamson o4.5 Rebounds",
+    "uu": 0.31,
+    "game": "SAC @ NO"
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Assists",
+    "fam": "Assists",
+    "pick": "Damian Lillard u4.5 Assists",
+    "odds": "-160",
+    "res": "W",
+    "stat": "2 AST",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Damian Lillard u4.5 Assists",
+    "uu": 0.62,
+    "game": "MEM @ POR"
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · 3PM",
+    "fam": "3PM",
+    "pick": "Nick Alexander-Walker o2.5 Threes",
+    "odds": "-160",
+    "res": "W",
+    "stat": "4 3PM",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Nick Alexander-Walker o2.5 Threes",
+    "uu": 0.62,
+    "game": "CLE @ ATL"
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Rushing yds",
+    "fam": "Rushing yds",
+    "pick": "Josh Jacobs o58.5 rush yds",
+    "odds": "-113",
+    "res": "L",
+    "stat": "39 rush yds",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Josh Jacobs o58.5 rush yds",
+    "uu": -1.0,
+    "game": "CAR @ GB"
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · Other",
+    "fam": "Other",
+    "pick": "Robert Williams o13.5 PR",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Robert Williams o13.5 PR",
+    "uu": 0.0,
+    "game": "MEM @ POR"
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · Player points",
+    "fam": "Player points",
+    "pick": "Ty Jerome 20+ Points",
+    "odds": "-300",
+    "res": "L",
+    "stat": "10 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Ty Jerome o23.5 Points",
+    "uu": -1.0,
+    "game": "MEM @ POR"
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · Other",
+    "fam": "Other",
+    "pick": "Evan Mobley o12.5 RA",
+    "odds": "-120",
+    "res": "L",
+    "stat": "11 R+A",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Evan Mobley o12.5 RA",
+    "uu": -1.0,
+    "game": "CLE @ ATL"
    },
    {
     "date": "2026-10-25",
@@ -37082,11 +37721,11 @@
   "summary": {
    "O": {
     "tickets": {
-     "w": 74,
-     "l": 101,
+     "w": 95,
+     "l": 113,
      "p": 3,
-     "pending": 19,
-     "units": -27
+     "pending": 21,
+     "units": -18
     },
     "legs": {
      "w": 57,
@@ -37115,10 +37754,10 @@
    "C": {
     "tickets": {
      "w": 120,
-     "l": 95,
+     "l": 96,
      "p": 3,
-     "pending": 27,
-     "units": -25.99,
+     "pending": 26,
+     "units": -26.99,
      "no_odds": 91
     },
     "legs": {
@@ -37158,9 +37797,9 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 27 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 26 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
-   "all-official: 279 archived rows skipped (retired tier + placed tickets; see archive/)",
+   "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-28', 'Parlay +100', '2-leg', '+121', False), ('O', '2026-10-29', 'Parlay +100', '2-leg', '+125', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
   ],
   "ru_dropped": [
@@ -37254,6 +37893,14 @@
    ],
    [
     "2026-10-20",
+    "Mason McTavish 2+ SOG"
+   ],
+   [
+    "2026-10-20",
+    "Ryan Leonard 2+ SOG"
+   ],
+   [
+    "2026-10-20",
     "Jackson Blake 2+ SOG"
    ],
    [
@@ -37338,7 +37985,7 @@
  },
  "gameday": {
   "date": "2026-10-30",
-  "built": "2026-10-30 09:24 ET",
+  "built": "2026-10-30 09:31 ET",
   "picks": 33,
   "vetoes": [],
   "gaps": [
