@@ -1,5 +1,5 @@
 {
- "generated": 1793359061.993972,
+ "generated": 1793366650.2869854,
  "today": {
   "title": "Oct 30 picks (Hard Rock)",
   "tickets": [
@@ -7321,11 +7321,7 @@
      "pick": "Tail Wpg (WPG @ FLA 7:00pm; #TonesB2BNHLSystem)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "ML",
-     "game": "WPG @ FLA",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "ML"
     }
    ]
   },
@@ -7981,7 +7977,7 @@
  "capper_today_date": "2026-10-30",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-30 07:17 AM ET",
+  "updated": "2026-10-30 09:24 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -19208,8 +19204,3734 @@
  },
  "legday": {
   "date": "2026-10-30",
-  "posted": {},
-  "board": []
+  "posted": {
+   "NBA": {
+    "at": "9:17 AM ET",
+    "n": 10,
+    "source": "2026-10-30.json",
+    "held": []
+   },
+   "NHL": {
+    "at": "9:17 AM ET",
+    "n": 5,
+    "source": "2026-10-30.json",
+    "held": []
+   }
+  },
+  "board": [
+   {
+    "sport": "NBA",
+    "rank": 1,
+    "game": "Celtics vs Bulls",
+    "start_et": "Fri 10/30 07:30 PM ET",
+    "player": "Paul George",
+    "prop": "Over 1.5 Steals",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why": "Volume: L5 min 36/25/34/31/30 (L3 31.7 vs L10 34.8 min) | Hit: 8/10 at O1.5, 4/5. Matchup: Opp 3/30 vs Steals (TR). Context: BOS -14.5 / O/U 234.5 | opp pace 107.0 (1st) | Home. Injuries: Devin Carter out | Opp out: Patrick Williams, Nic Claxton. Weather: neutral. Risk: 15.5-point spread: blowout could cut his minutes.",
+    "ctx": {
+     "game": "Celtics vs Bulls",
+     "team": "BOS",
+     "opp": "CHI",
+     "stat": "stl",
+     "opp_rank": {
+      "rank": 16,
+      "of": 30,
+      "pg": 9.0,
+      "gp": 5,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "BOS",
+     "spread": -15.5,
+     "total": 233.5,
+     "team_totals": {
+      "CHI": 109.5,
+      "BOS": 124.5
+     },
+     "home": "BOS",
+     "away": "CHI",
+     "rest": {
+      "BOS": 2,
+      "CHI": 1
+     },
+     "record": {
+      "BOS": "3-1",
+      "CHI": "1-4"
+     },
+     "start_et": "Fri 10/30 07:30 PM ET",
+     "out": {
+      "BOS": [],
+      "CHI": [
+       {
+        "name": "Jalen Smith",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-10-29",
+        "role": "23.4 min"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Celtics vs Bulls",
+      "role": "LEG DAY",
+      "team": "BOS",
+      "opponent": "CHI",
+      "home_away": "home",
+      "l5_minutes": [
+       36.0,
+       25.0,
+       34.0,
+       31.0,
+       30.0
+      ],
+      "l10": {
+       "hits": 8,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 3,
+       "season_n": 4
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-26",
+         "opp": "CHI",
+         "v": 25.0,
+         "excluded_for": "blowout (margin 35)"
+        },
+        {
+         "date": "2025-02-25",
+         "opp": "CHI",
+         "v": 30.0,
+         "excluded_for": "blowout (margin 32)"
+        },
+        {
+         "date": "2025-02-21",
+         "opp": "BOS",
+         "v": 29.0,
+         "excluded_for": "blowout (margin 20)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        34.0,
+        31.0,
+        30.0
+       ],
+       "l3_avg": 31.7,
+       "l10_avg": 34.8,
+       "l10_n": 10,
+       "drop_pct": 9.0,
+       "last_game": {
+        "date": "2026-10-23",
+        "opp": "NY",
+        "v": 34.0,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 28,
+       "raw_meaning": "teamrankings: opponent's own turnovers/gm (more turnovers = more steal chances); raw re-ranked ascending (1 = lowest = toughest for an over); source rank 26 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 3,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "stl",
+       "linemate": null,
+       "linemate_null_reason": "no LineMate card for this player/stat/side",
+       "fallback": {
+        "value": 18.0,
+        "raw": 28,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 26,
+        "source_team": "Chicago",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent's own turnovers/gm (more turnovers = more steal chances)",
+        "url": "https://www.teamrankings.com/nba/stat/turnovers-per-game",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 26,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 3,
+      "spread": "BOS -14.5",
+      "total": 234.5,
+      "team_totals": {
+       "Bulls": 109.5,
+       "Celtics": 125.5
+      },
+      "pace": {
+       "home": {
+        "pace": 98.9,
+        "rank": 24,
+        "of": 30
+       },
+       "away": {
+        "pace": 107.0,
+        "rank": 1,
+        "of": 30
+       }
+      },
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 2,
+      "b2b": false,
+      "venue": "TD Garden",
+      "indoor": true,
+      "teammates_out": [
+       "Devin Carter"
+      ],
+      "opp_out": [
+       "Patrick Williams",
+       "Nic Claxton"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [],
+      "matchup_rank": 3,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 36/25/34/31/30 (L3 31.7 vs L10 34.8 min) | Hit: 8/10 at O1.5, 4/5",
+     "Matchup: Opp 3/30 vs Steals (TR)",
+     "Context: BOS -14.5 / O/U 234.5 | opp pace 107.0 (1st) | Home",
+     "Injuries: Devin Carter out | Opp out: Patrick Williams, Nic Claxton",
+     "Weather: neutral",
+     "Risk: 15.5-point spread: blowout could cut his minutes"
+    ],
+    "dk": {
+     "odds": null,
+     "na": true
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 2,
+    "game": "Timberwolves vs Clippers",
+    "start_et": "Fri 10/30 08:00 PM ET",
+    "player": "LaMelo Ball",
+    "prop": "Under 4.5 Rebounds",
+    "odds": "-125",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why": "Volume: L5 min 28/31/17/23/29 (L3 30.3 vs L10 31.1 min) | Hit: 8/10 at U4.5, 4/5. Matchup: Opp 5/30 vs Rebounds (TR). Context: MIN -7.5 / O/U 222.5 | pace n/a | Home. Injuries: Anthony Edwards, Donte DiVincenzo out | Opp out: Yanic Konan Niederhauser, Max Strus. Weather: neutral. Risk: Normal single-game variance.",
+    "ctx": {
+     "game": "Timberwolves vs Clippers",
+     "team": "MIN",
+     "opp": "LAC",
+     "stat": "reb",
+     "opp_rank": {
+      "rank": 10,
+      "of": 30,
+      "pg": 43.2,
+      "gp": 4,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "MIN",
+     "spread": -7.5,
+     "total": 221.5,
+     "team_totals": {
+      "LAC": 107.5,
+      "MIN": 114.5
+     },
+     "home": "MIN",
+     "away": "LAC",
+     "rest": {
+      "MIN": 1,
+      "LAC": 1
+     },
+     "record": {
+      "MIN": "3-2",
+      "LAC": "1-3"
+     },
+     "start_et": "Fri 10/30 08:00 PM ET",
+     "out": {
+      "MIN": [
+       {
+        "name": "Anthony Edwards",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "33.8 min"
+       }
+      ],
+      "LAC": [
+       {
+        "name": "Rui Hachimura",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-10-29",
+        "role": "31.3 min"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Timberwolves vs Clippers",
+      "role": "LEG DAY",
+      "team": "MIN",
+      "opponent": "LAC",
+      "home_away": "home",
+      "l5_minutes": [
+       28.0,
+       31.0,
+       17.0,
+       23.0,
+       29.0
+      ],
+      "l10": {
+       "hits": 8,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 4,
+       "season_n": 5
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-26",
+         "opp": "CLE",
+         "v": 31.0,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-25",
+         "opp": "TOR",
+         "v": 17.0,
+         "excluded_for": "blowout (margin 23)"
+        },
+        {
+         "date": "2026-10-23",
+         "opp": "ORL",
+         "v": 23.0,
+         "excluded_for": "blowout (margin 22)"
+        },
+        {
+         "date": "2026-10-21",
+         "opp": "MIA",
+         "v": 29.0,
+         "excluded_for": "blowout (margin 25)"
+        },
+        {
+         "date": "2025-03-16",
+         "opp": "LAC",
+         "v": 31.0,
+         "excluded_for": "blowout (margin 35)"
+        },
+        {
+         "date": "2025-02-25",
+         "opp": "SAC",
+         "v": 29.0,
+         "excluded_for": "blowout (margin 42)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        29.0,
+        34.0,
+        28.0
+       ],
+       "l3_avg": 30.3,
+       "l10_avg": 31.1,
+       "l10_n": 10,
+       "drop_pct": 2.5,
+       "last_game": {
+        "date": "2025-03-25",
+        "opp": "ORL",
+        "v": 29.0,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 5,
+       "raw_meaning": "teamrankings: opponent total rebounds per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 5 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 5,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "reb",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent LAC + stat 'Rebounds' + side Under; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 50.5,
+        "raw": 5,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 5,
+        "source_team": "LA Clippers",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent total rebounds per game",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-total-rebounds-per-game",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 5,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 5,
+      "spread": "MIN -7.5",
+      "total": 222.5,
+      "team_totals": {
+       "Clippers": 107.5,
+       "Timberwolves": 115.5
+      },
+      "pace": {
+       "home": {
+        "pace": 102.1,
+        "rank": 12,
+        "of": 30
+       },
+       "away": "n/a"
+      },
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Target Center",
+      "indoor": true,
+      "teammates_out": [
+       "Anthony Edwards",
+       "Donte DiVincenzo"
+      ],
+      "opp_out": [
+       "Yanic Konan Niederhauser",
+       "Max Strus",
+       "Brandon Ingram",
+       "Bradley Beal",
+       "Jordan Miller"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [],
+      "matchup_rank": 5,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 28/31/17/23/29 (L3 30.3 vs L10 31.1 min) | Hit: 8/10 at U4.5, 4/5",
+     "Matchup: Opp 5/30 vs Rebounds (TR)",
+     "Context: MIN -7.5 / O/U 222.5 | pace n/a | Home",
+     "Injuries: Anthony Edwards, Donte DiVincenzo out | Opp out: Yanic Konan Niederhauser, Max Strus",
+     "Weather: neutral",
+     "Risk: Normal single-game variance"
+    ],
+    "dk": {
+     "odds": "-125",
+     "na": false,
+     "ladder": [
+      [
+       "u4.5",
+       "-125"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 3,
+    "game": "Warriors vs Lakers",
+    "start_et": "Fri 10/30 10:00 PM ET",
+    "player": "Draymond Green",
+    "prop": "Under 6.5 Points",
+    "odds": "-110",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why": "Volume: L5 min 32/27/31/21/36 (L3 33 vs L10 32.3 min) | Hit: 5/10 at U6.5, 4/5. Matchup: Opp 14/30 vs Points (TR). Context: GS +2.5 / O/U 234.5 | opp pace 99.9 (18th) | Home · Div · Prime. Injuries: Kristaps Porzingis, Moses Moody out | Opp out: Cameron Carr, Adou Thiero. Weather: neutral. Risk: Normal single-game variance.",
+    "ctx": {
+     "game": "Warriors vs Lakers",
+     "team": "GSW",
+     "opp": "LAL",
+     "stat": "pts",
+     "opp_rank": {
+      "rank": 14,
+      "of": 30,
+      "pg": 113.6,
+      "gp": 5,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "LAL",
+     "spread": -1.5,
+     "total": 234.5,
+     "team_totals": {
+      "LAL": 117.5,
+      "GSW": 116.5
+     },
+     "home": "GSW",
+     "away": "LAL",
+     "rest": {
+      "GSW": 1,
+      "LAL": 1
+     },
+     "record": {
+      "GSW": "2-3",
+      "LAL": "4-1"
+     },
+     "start_et": "Fri 10/30 10:00 PM ET",
+     "out": {
+      "GSW": [
+       {
+        "name": "Gui Santos",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-10-30",
+        "role": "24.0 min"
+       }
+      ],
+      "LAL": [
+       {
+        "name": "Ziaire Williams",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-10-30",
+        "role": "28.5 min"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Warriors vs Lakers",
+      "role": "LEG DAY",
+      "team": "GS",
+      "opponent": "LAL",
+      "home_away": "home",
+      "l5_minutes": [
+       32.0,
+       27.0,
+       31.0,
+       21.0,
+       36.0
+      ],
+      "l10": {
+       "hits": 5,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 4,
+       "season_n": 4
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-27",
+         "opp": "DEN",
+         "v": 27.0,
+         "excluded_for": "blowout (margin 20)"
+        },
+        {
+         "date": "2026-10-22",
+         "opp": "LAL",
+         "v": 21.0,
+         "excluded_for": "blowout (margin 22)"
+        },
+        {
+         "date": "2025-05-09",
+         "opp": "MIN",
+         "v": 29.0,
+         "excluded_for": "blowout (margin 24)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        32.0,
+        31.0,
+        36.0
+       ],
+       "l3_avg": 33.0,
+       "l10_avg": 32.3,
+       "l10_n": 10,
+       "drop_pct": -2.2,
+       "last_game": {
+        "date": "2026-10-29",
+        "opp": "MIN",
+        "v": 32.0,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 14,
+       "raw_meaning": "teamrankings: opponent points per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 14 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 14,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "pts",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent LAL + stat 'Points' + side Under; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 113.6,
+        "raw": 14,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 14,
+        "source_team": "LA Lakers",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent points per game",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-points-per-game",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 14,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 14,
+      "spread": "GS +2.5",
+      "total": 234.5,
+      "team_totals": {
+       "Lakers": 118.5,
+       "Warriors": 116.5
+      },
+      "pace": {
+       "home": {
+        "pace": 98.0,
+        "rank": 26,
+        "of": 30
+       },
+       "away": {
+        "pace": 99.9,
+        "rank": 18,
+        "of": 30
+       }
+      },
+      "division_game": true,
+      "national_tv": [
+       "Prime Video"
+      ],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Chase Center",
+      "indoor": true,
+      "teammates_out": [
+       "Kristaps Porzingis",
+       "Moses Moody",
+       "Jimmy Butler III"
+      ],
+      "opp_out": [
+       "Cameron Carr",
+       "Adou Thiero"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [],
+      "matchup_rank": 14,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 32/27/31/21/36 (L3 33 vs L10 32.3 min) | Hit: 5/10 at U6.5, 4/5",
+     "Matchup: Opp 14/30 vs Points (TR)",
+     "Context: GS +2.5 / O/U 234.5 | opp pace 99.9 (18th) | Home · Div · Prime",
+     "Injuries: Kristaps Porzingis, Moses Moody out | Opp out: Cameron Carr, Adou Thiero",
+     "Weather: neutral",
+     "Risk: Normal single-game variance"
+    ],
+    "dk": {
+     "odds": "+100",
+     "na": false,
+     "ladder": [
+      [
+       "u6.5",
+       "+100"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 4,
+    "game": "Warriors vs Lakers",
+    "start_et": "Fri 10/30 10:00 PM ET",
+    "player": "Quentin Grimes",
+    "prop": "Over 9.5 Pts + Ast",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why": "Volume: L5 min 38/19/20/31/27 (L3 25.7 vs L10 31.9 min) | Hit: 8/10 at O9.5, 3/5. Matchup: Opp 8/30 vs Pts + Ast (TR). Context: LAL -2.5 / O/U 234.5 | opp pace 98.0 (26th) | Away · Div · Prime. Injuries: Cameron Carr, Adou Thiero out | Opp out: Kristaps Porzingis, Moses Moody. Weather: neutral. Risk: Normal single-game variance.",
+    "ctx": {
+     "game": "Warriors vs Lakers",
+     "team": "LAL",
+     "opp": "GSW",
+     "stat": "pa",
+     "opp_rank": {
+      "rank": 23,
+      "of": 30,
+      "pg": 149.4,
+      "gp": 5,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "LAL",
+     "spread": -1.5,
+     "total": 234.5,
+     "team_totals": {
+      "LAL": 117.5,
+      "GSW": 116.5
+     },
+     "home": "GSW",
+     "away": "LAL",
+     "rest": {
+      "GSW": 1,
+      "LAL": 1
+     },
+     "record": {
+      "GSW": "2-3",
+      "LAL": "4-1"
+     },
+     "start_et": "Fri 10/30 10:00 PM ET",
+     "out": {
+      "GSW": [
+       {
+        "name": "Gui Santos",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-10-30",
+        "role": "24.0 min"
+       }
+      ],
+      "LAL": [
+       {
+        "name": "Ziaire Williams",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-10-30",
+        "role": "28.5 min"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Warriors vs Lakers",
+      "role": "LEG DAY",
+      "team": "LAL",
+      "opponent": "GS",
+      "home_away": "away",
+      "l5_minutes": [
+       38.0,
+       19.0,
+       20.0,
+       31.0,
+       27.0
+      ],
+      "l10": {
+       "hits": 8,
+       "n": 10,
+       "l5_hits": 3,
+       "l5_n": 5,
+       "season_hits": 3,
+       "season_n": 5
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-22",
+         "opp": "GS",
+         "v": 27.0,
+         "excluded_for": "blowout (margin 22)"
+        },
+        {
+         "date": "2025-04-13",
+         "opp": "CHI",
+         "v": 35.0,
+         "excluded_for": "blowout (margin 20)"
+        },
+        {
+         "date": "2025-03-29",
+         "opp": "MIA",
+         "v": 30.0,
+         "excluded_for": "blowout (margin 23)"
+        },
+        {
+         "date": "2025-03-20",
+         "opp": "OKC",
+         "v": 32.0,
+         "excluded_for": "blowout (margin 33)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        38.0,
+        19.0,
+        20.0
+       ],
+       "l3_avg": 25.7,
+       "l10_avg": 31.9,
+       "l10_n": 10,
+       "drop_pct": 19.5,
+       "last_game": {
+        "date": "2026-10-29",
+        "opp": "LAC",
+        "v": 38.0,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 23,
+       "raw_meaning": "teamrankings: opponent points plus assists per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 23 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 8,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "pa",
+       "linemate": null,
+       "linemate_null_reason": "no LineMate card for this player/stat/side",
+       "fallback": {
+        "value": 149.4,
+        "raw": 23,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 23,
+        "source_team": "Golden State",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent points plus assists per game",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-points-plus-assists-per-game",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 23,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 8,
+      "spread": "LAL -2.5",
+      "total": 234.5,
+      "team_totals": {
+       "Lakers": 118.5,
+       "Warriors": 116.5
+      },
+      "pace": {
+       "home": {
+        "pace": 98.0,
+        "rank": 26,
+        "of": 30
+       },
+       "away": {
+        "pace": 99.9,
+        "rank": 18,
+        "of": 30
+       }
+      },
+      "division_game": true,
+      "national_tv": [
+       "Prime Video"
+      ],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Chase Center",
+      "indoor": true,
+      "teammates_out": [
+       "Cameron Carr",
+       "Adou Thiero"
+      ],
+      "opp_out": [
+       "Kristaps Porzingis",
+       "Moses Moody",
+       "Jimmy Butler III"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [],
+      "matchup_rank": 8,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 38/19/20/31/27 (L3 25.7 vs L10 31.9 min) | Hit: 8/10 at O9.5, 3/5",
+     "Matchup: Opp 8/30 vs Pts + Ast (TR)",
+     "Context: LAL -2.5 / O/U 234.5 | opp pace 98.0 (26th) | Away · Div · Prime",
+     "Injuries: Cameron Carr, Adou Thiero out | Opp out: Kristaps Porzingis, Moses Moody",
+     "Weather: neutral",
+     "Risk: Normal single-game variance"
+    ],
+    "dk": {
+     "odds": "-132",
+     "na": false,
+     "ladder": [
+      [
+       "5+",
+       "-940"
+      ],
+      [
+       "10+",
+       "-132"
+      ],
+      [
+       "15+",
+       "+288"
+      ],
+      [
+       "20+",
+       "+940"
+      ],
+      [
+       "25+",
+       "+2200"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 5,
+    "game": "76ers vs Knicks",
+    "start_et": "Fri 10/30 07:30 PM ET",
+    "player": "Mikal Bridges",
+    "prop": "Under 15.5 Pts + Reb + Ast",
+    "odds": "-110",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why": "Volume: L5 min 13/32/35/22/33 (L3 29.7 vs L10 34.8 min) | Hit: 4/10 at U15.5, 4/5. Matchup: Opp 13/30 vs Pts + Reb + Ast (TR). Context: NY -1.5 / O/U 227.5 | opp pace 103.7 (5th) | Away · Div · Prime. Injuries: Jose Alvarado out | Opp out: Jabari Walker, Tacko Fall. Weather: neutral. Risk: Normal single-game variance.",
+    "ctx": {
+     "game": "76ers vs Knicks",
+     "team": "NYK",
+     "opp": "PHI",
+     "stat": "pra",
+     "opp_rank": {
+      "rank": 15,
+      "of": 30,
+      "pg": 182.6,
+      "gp": 5,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "NYK",
+     "spread": -1.5,
+     "total": 229.5,
+     "team_totals": {
+      "PHI": 114.5,
+      "NYK": 115.5
+     },
+     "home": "PHI",
+     "away": "NYK",
+     "rest": {
+      "PHI": 1,
+      "NYK": 1
+     },
+     "record": {
+      "PHI": "4-1",
+      "NYK": "2-3"
+     },
+     "start_et": "Fri 10/30 07:30 PM ET",
+     "out": {
+      "PHI": [
+       {
+        "name": "Jaylen Brown",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "36.4 min"
+       }
+      ],
+      "NYK": []
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "76ers vs Knicks",
+      "role": "LEG DAY",
+      "team": "NY",
+      "opponent": "PHI",
+      "home_away": "away",
+      "l5_minutes": [
+       13.0,
+       32.0,
+       35.0,
+       22.0,
+       33.0
+      ],
+      "l10": {
+       "hits": 4,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 4,
+       "season_n": 5
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2025-05-22",
+         "opp": "IND",
+         "v": 46.0,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2025-05-17",
+         "opp": "BOS",
+         "v": 30.0,
+         "excluded_for": "blowout (margin 38)"
+        },
+        {
+         "date": "2025-05-14",
+         "opp": "BOS",
+         "v": 40.0,
+         "excluded_for": "blowout (margin 25)"
+        },
+        {
+         "date": "2025-05-10",
+         "opp": "BOS",
+         "v": 38.0,
+         "excluded_for": "blowout (margin 22)"
+        },
+        {
+         "date": "2025-05-05",
+         "opp": "BOS",
+         "v": 51.0,
+         "excluded_for": "OT/extra innings"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        32.0,
+        35.0,
+        22.0
+       ],
+       "l3_avg": 29.7,
+       "l10_avg": 34.8,
+       "l10_n": 10,
+       "drop_pct": 14.8,
+       "last_game": {
+        "date": "2026-10-28",
+        "opp": "DET",
+        "v": 32.0,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 13,
+       "raw_meaning": "teamrankings: opponent points plus rebounds plus assists per gam; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 13 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 13,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "pra",
+       "linemate": null,
+       "linemate_null_reason": "no LineMate card for this player/stat/side",
+       "fallback": {
+        "value": 191.8,
+        "raw": 13,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 13,
+        "source_team": "Philadelphia",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent points plus rebounds plus assists per gam",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-points-plus-rebounds-plus-assists-per-gam",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 13,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 13,
+      "spread": "NY -1.5",
+      "total": 227.5,
+      "team_totals": {
+       "76ers": 113.5,
+       "Knicks": 114.5
+      },
+      "pace": {
+       "home": {
+        "pace": 103.7,
+        "rank": 5,
+        "of": 30
+       },
+       "away": {
+        "pace": 99.6,
+        "rank": 22,
+        "of": 30
+       }
+      },
+      "division_game": true,
+      "national_tv": [
+       "Prime Video"
+      ],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Xfinity Mobile Arena",
+      "indoor": true,
+      "teammates_out": [
+       "Jose Alvarado"
+      ],
+      "opp_out": [
+       "Jabari Walker",
+       "Tacko Fall",
+       "Dominick Barlow",
+       "Ariel Hukporti"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [],
+      "matchup_rank": 13,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 13/32/35/22/33 (L3 29.7 vs L10 34.8 min) | Hit: 4/10 at U15.5, 4/5",
+     "Matchup: Opp 13/30 vs Pts + Reb + Ast (TR)",
+     "Context: NY -1.5 / O/U 227.5 | opp pace 103.7 (5th) | Away · Div · Prime",
+     "Injuries: Jose Alvarado out | Opp out: Jabari Walker, Tacko Fall",
+     "Weather: neutral",
+     "Risk: Normal single-game variance"
+    ],
+    "dk": {
+     "odds": "-112",
+     "na": false,
+     "ladder": [
+      [
+       "u15.5",
+       "-112"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 6,
+    "game": "Wizards vs Hornets",
+    "start_et": "Fri 10/30 07:00 PM ET",
+    "player": "Kyshawn George",
+    "prop": "Under 1.5 Threes Made",
+    "odds": "-120",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "possible in-game exit (not verifiable, not excluded): 2025-03-24 2.0",
+    "why": "Volume: L5 min 38/29/36/26/29 (L3 34.3 vs L10 25.1 min) | Hit: 7/10 at U1.5, 4/5. Matchup: Opp 19/30 vs Threes Made (TR). Context: WSH -1.5 / O/U 220.5 | opp pace 96.9 (29th) | Home · Div. Injuries: Justin Champagnie, Tristan Vukcevic out | Opp out: Kon Knueppel, Coby White. Weather: neutral. Risk: possible in-game exit (not verifiable, not excluded): 2025-03-24 2.0.",
+    "ctx": {
+     "game": "Wizards vs Hornets",
+     "team": "WAS",
+     "opp": "CHA",
+     "stat": "3pm",
+     "opp_rank": {
+      "rank": 19,
+      "of": 30,
+      "pg": 13.0,
+      "gp": 5,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "WAS",
+     "spread": -1.5,
+     "total": 222.5,
+     "team_totals": {
+      "CHA": 111.5,
+      "WAS": 112.5
+     },
+     "home": "WAS",
+     "away": "CHA",
+     "rest": {
+      "WAS": 1,
+      "CHA": 1
+     },
+     "record": {
+      "WAS": "2-3",
+      "CHA": "3-2"
+     },
+     "start_et": "Fri 10/30 07:00 PM ET",
+     "out": {
+      "WAS": [
+       {
+        "name": "Tre Johnson",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "22.8 min"
+       }
+      ],
+      "CHA": [
+       {
+        "name": "Dennis Schroder",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "32.6 min"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Wizards vs Hornets",
+      "role": "LEG DAY",
+      "team": "WSH",
+      "opponent": "CHA",
+      "home_away": "home",
+      "l5_minutes": [
+       38.0,
+       29.0,
+       36.0,
+       26.0,
+       29.0
+      ],
+      "l10": {
+       "hits": 7,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 4,
+       "season_n": 5
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2025-04-12",
+         "opp": "CHI",
+         "v": 24.0,
+         "excluded_for": "blowout (margin 30)"
+        },
+        {
+         "date": "2025-03-11",
+         "opp": "DET",
+         "v": 31.0,
+         "excluded_for": "blowout (margin 20)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        38.0,
+        29.0,
+        36.0
+       ],
+       "l3_avg": 34.3,
+       "l10_avg": 25.1,
+       "l10_n": 10,
+       "drop_pct": -36.8,
+       "last_game": {
+        "date": "2026-10-28",
+        "opp": "CLE",
+        "v": 38.0,
+        "spot": null
+       },
+       "possible_exit_games": [
+        {
+         "date": "2025-03-24",
+         "v": 2.0
+        }
+       ],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 19,
+       "raw_meaning": "teamrankings: opponent three pointers made per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 17 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 19,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "3pm",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent CHA + stat '3PTM' + side Under; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 13.0,
+        "raw": 19,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 17,
+        "source_team": "Charlotte",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent three pointers made per game",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-three-pointers-made-per-game",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 17,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 19,
+      "spread": "WSH -1.5",
+      "total": 220.5,
+      "team_totals": {
+       "Hornets": 110.5,
+       "Wizards": 110.5
+      },
+      "pace": {
+       "home": {
+        "pace": 100.1,
+        "rank": 17,
+        "of": 30
+       },
+       "away": {
+        "pace": 96.9,
+        "rank": 29,
+        "of": 30
+       }
+      },
+      "division_game": true,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Capital One Arena",
+      "indoor": true,
+      "teammates_out": [
+       "Justin Champagnie",
+       "Tristan Vukcevic",
+       "Jamir Watkins"
+      ],
+      "opp_out": [
+       "Kon Knueppel",
+       "Coby White",
+       "Grant Williams",
+       "Kylan Boswell"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "possible in-game exit (not verifiable, not excluded): 2025-03-24 2.0"
+      ],
+      "matchup_rank": 19,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 38/29/36/26/29 (L3 34.3 vs L10 25.1 min) | Hit: 7/10 at U1.5, 4/5",
+     "Matchup: Opp 19/30 vs Threes Made (TR)",
+     "Context: WSH -1.5 / O/U 220.5 | opp pace 96.9 (29th) | Home · Div",
+     "Injuries: Justin Champagnie, Tristan Vukcevic out | Opp out: Kon Knueppel, Coby White",
+     "Weather: neutral",
+     "Risk: possible in-game exit (not verifiable, not excluded): 2025-03-24 2.0"
+    ],
+    "dk": {
+     "odds": "-116",
+     "na": false,
+     "ladder": [
+      [
+       "u1.5",
+       "-116"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 7,
+    "game": "Suns vs Nuggets",
+    "start_et": "Fri 10/30 10:00 PM ET",
+    "player": "Devin Booker",
+    "prop": "Under 1.5 Threes Made",
+    "odds": "-110",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why": "Volume: L5 min 34/36/29/28/40 (L3 32.7 vs L10 37.5 min) | Hit: 6/10 at U1.5, 4/5. Matchup: Opp 16/30 vs Threes Made (TR). Context: PHX +4.5 / O/U 231.5 | opp pace 97.5 (27th) | Home. Injuries: Mark Williams out | Opp out: Alpha Diallo, Cameron Johnson. Weather: neutral. Risk: Normal single-game variance.",
+    "ctx": {
+     "game": "Suns vs Nuggets",
+     "team": "PHX",
+     "opp": "DEN",
+     "stat": "3pm",
+     "opp_rank": {
+      "rank": 16,
+      "of": 30,
+      "pg": 12.8,
+      "gp": 4,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "DEN",
+     "spread": -4.5,
+     "total": 231.5,
+     "team_totals": {
+      "PHX": 114.5,
+      "DEN": 117.5
+     },
+     "home": "PHX",
+     "away": "DEN",
+     "rest": {
+      "PHX": 3,
+      "DEN": 1
+     },
+     "record": {
+      "PHX": "1-2",
+      "DEN": "2-2"
+     },
+     "start_et": "Fri 10/30 10:00 PM ET",
+     "out": {
+      "PHX": [],
+      "DEN": [
+       {
+        "name": "Alpha Diallo",
+        "status": "Out",
+        "pos": "F",
+        "date": "2026-10-29",
+        "role": "22.0 min"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Suns vs Nuggets",
+      "role": "LEG DAY backup",
+      "team": "PHX",
+      "opponent": "DEN",
+      "home_away": "home",
+      "l5_minutes": [
+       34.0,
+       36.0,
+       29.0,
+       28.0,
+       40.0
+      ],
+      "l10": {
+       "hits": 6,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 2,
+       "season_n": 3
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-22",
+         "opp": "POR",
+         "v": 29.0,
+         "excluded_for": "blowout (margin 41)"
+        },
+        {
+         "date": "2025-04-09",
+         "opp": "GS",
+         "v": 30.0,
+         "excluded_for": "blowout (margin 38)"
+        },
+        {
+         "date": "2025-04-04",
+         "opp": "BOS",
+         "v": 38.0,
+         "excluded_for": "blowout (margin 20)"
+        },
+        {
+         "date": "2025-03-31",
+         "opp": "HOU",
+         "v": 31.0,
+         "excluded_for": "blowout (margin 39)"
+        },
+        {
+         "date": "2025-03-27",
+         "opp": "BOS",
+         "v": 34.0,
+         "excluded_for": "blowout (margin 30)"
+        },
+        {
+         "date": "2025-03-18",
+         "opp": "TOR",
+         "v": 32.0,
+         "excluded_for": "blowout (margin 40)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        34.0,
+        36.0,
+        28.0
+       ],
+       "l3_avg": 32.7,
+       "l10_avg": 37.5,
+       "l10_n": 10,
+       "drop_pct": 12.9,
+       "last_game": {
+        "date": "2026-10-27",
+        "opp": "OKC",
+        "v": 34.0,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 16,
+       "raw_meaning": "teamrankings: opponent three pointers made per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 16 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 16,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "3pm",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent DEN + stat '3PTM' + side Under; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 12.75,
+        "raw": 16,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 16,
+        "source_team": "Denver",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent three pointers made per game",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-three-pointers-made-per-game",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 16,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 16,
+      "spread": "PHX +4.5",
+      "total": 231.5,
+      "team_totals": {
+       "Suns": 113.5,
+       "Nuggets": 117.5
+      },
+      "pace": {
+       "home": {
+        "pace": 95.7,
+        "rank": 30,
+        "of": 30
+       },
+       "away": {
+        "pace": 97.5,
+        "rank": 27,
+        "of": 30
+       }
+      },
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 3,
+      "b2b": false,
+      "venue": "Mortgage Matchup Center",
+      "indoor": true,
+      "teammates_out": [
+       "Mark Williams"
+      ],
+      "opp_out": [
+       "Alpha Diallo",
+       "Cameron Johnson",
+       "Spencer Jones",
+       "Julian Strawther"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [],
+      "matchup_rank": 16,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 34/36/29/28/40 (L3 32.7 vs L10 37.5 min) | Hit: 6/10 at U1.5, 4/5",
+     "Matchup: Opp 16/30 vs Threes Made (TR)",
+     "Context: PHX +4.5 / O/U 231.5 | opp pace 97.5 (27th) | Home",
+     "Injuries: Mark Williams out | Opp out: Alpha Diallo, Cameron Johnson",
+     "Weather: neutral",
+     "Risk: Normal single-game variance"
+    ],
+    "dk": {
+     "odds": "-107",
+     "na": false,
+     "ladder": [
+      [
+       "u1.5",
+       "-107"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 8,
+    "game": "Nets vs Pistons",
+    "start_et": "Fri 10/30 07:30 PM ET",
+    "player": "Paul Reed",
+    "prop": "Under 1.5 Blocks",
+    "odds": "-135",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)",
+    "why": "Volume: L5 min 38/26/23/26/17 (L3 29 vs L10 18.4 min) | Hit: 9/10 at U1.5, 4/5. Matchup: Opp n/a/30 vs Blocks. Context: DET -7.5 / O/U 222.5 | opp pace 102.3 (11th) | Away. Injuries: Jalen Duren out | Opp out: Egor Demin, Tyler Bilodeau. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+    "ctx": {
+     "game": "Nets vs Pistons",
+     "team": "DET",
+     "opp": "BKN",
+     "stat": "blk",
+     "opp_rank": {
+      "rank": 14,
+      "of": 30,
+      "pg": 5.0,
+      "gp": 4,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "DET",
+     "spread": -7.5,
+     "total": 221.5,
+     "team_totals": {
+      "BKN": 107.5
+     },
+     "home": "BKN",
+     "away": "DET",
+     "rest": {
+      "BKN": 2,
+      "DET": 1
+     },
+     "record": {
+      "BKN": "0-4",
+      "DET": "4-1"
+     },
+     "start_et": "Fri 10/30 07:30 PM ET",
+     "out": {
+      "BKN": [
+       {
+        "name": "Egor Demin",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "21.8 min"
+       }
+      ],
+      "DET": []
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Nets vs Pistons",
+      "role": "LEG DAY",
+      "team": "DET",
+      "opponent": "BKN",
+      "home_away": "away",
+      "l5_minutes": [
+       38.0,
+       26.0,
+       23.0,
+       26.0,
+       17.0
+      ],
+      "l10": {
+       "hits": 9,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 4,
+       "season_n": 5
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2025-04-13",
+         "opp": "MIL",
+         "v": 22.0,
+         "excluded_for": "OT/extra innings"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        38.0,
+        26.0,
+        23.0
+       ],
+       "l3_avg": 29.0,
+       "l10_avg": 18.4,
+       "l10_n": 10,
+       "drop_pct": -57.6,
+       "last_game": {
+        "date": "2026-10-28",
+        "opp": "CHA",
+        "v": 38.0,
+        "spot": null
+       },
+       "possible_exit_games": [
+        {
+         "date": "2025-05-01",
+         "v": 8.0
+        },
+        {
+         "date": "2025-04-27",
+         "v": 8.0
+        }
+       ],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "normalized": "n/a",
+       "linemate_null_reason": "no LineMate card for this player/stat/side",
+       "reason": "no fallback table for blk in /workspace/scout/ranks/NBA-2026-10-30.json"
+      },
+      "matchup_rank": "n/a",
+      "spread": "DET -7.5",
+      "total": 222.5,
+      "team_totals": {
+       "Pistons": 115.5,
+       "Nets": 107.5
+      },
+      "pace": {
+       "home": {
+        "pace": 102.3,
+        "rank": 11,
+        "of": 30
+       },
+       "away": {
+        "pace": 97.3,
+        "rank": 28,
+        "of": 30
+       }
+      },
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Barclays Center",
+      "indoor": true,
+      "teammates_out": [
+       "Jalen Duren"
+      ],
+      "opp_out": [
+       "Egor Demin",
+       "Tyler Bilodeau"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "rank n/a"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)",
+       "possible in-game exit (not verifiable, not excluded): 2025-05-01 8.0, 2025-04-27 8.0"
+      ],
+      "matchup_rank": "n/a",
+      "matchup_tier": "rank n/a",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 38/26/23/26/17 (L3 29 vs L10 18.4 min) | Hit: 9/10 at U1.5, 4/5",
+     "Matchup: Opp n/a/30 vs Blocks",
+     "Context: DET -7.5 / O/U 222.5 | opp pace 102.3 (11th) | Away",
+     "Injuries: Jalen Duren out | Opp out: Egor Demin, Tyler Bilodeau",
+     "Weather: neutral",
+     "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
+    ],
+    "dk": {
+     "odds": null,
+     "na": true
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 9,
+    "game": "76ers vs Knicks",
+    "start_et": "Fri 10/30 07:30 PM ET",
+    "player": "Landry Shamet",
+    "prop": "Over 1.5 Threes Made",
+    "odds": "-115",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "matchup 28/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
+    "why": "Volume: L5 min 32/28/22/21/25 (L3 27.3 vs L10 18.1 min) | Hit: 5/10 at O1.5, 4/5. Matchup: Opp 28/30 vs Threes Made (TR). Context: NY -1.5 / O/U 227.5 | opp pace 103.7 (5th) | Away · Div · Prime. Injuries: Jose Alvarado out | Opp out: Jabari Walker, Tacko Fall. Weather: neutral. Risk: matchup 28/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "ctx": {
+     "game": "76ers vs Knicks",
+     "team": "NYK",
+     "opp": "PHI",
+     "stat": "3pm",
+     "opp_rank": {
+      "rank": 3,
+      "of": 30,
+      "pg": 10.4,
+      "gp": 5,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "NYK",
+     "spread": -1.5,
+     "total": 229.5,
+     "team_totals": {
+      "PHI": 114.5,
+      "NYK": 115.5
+     },
+     "home": "PHI",
+     "away": "NYK",
+     "rest": {
+      "PHI": 1,
+      "NYK": 1
+     },
+     "record": {
+      "PHI": "4-1",
+      "NYK": "2-3"
+     },
+     "start_et": "Fri 10/30 07:30 PM ET",
+     "out": {
+      "PHI": [
+       {
+        "name": "Jaylen Brown",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "36.4 min"
+       }
+      ],
+      "NYK": []
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "76ers vs Knicks",
+      "role": "LEG DAY",
+      "team": "NY",
+      "opponent": "PHI",
+      "home_away": "away",
+      "l5_minutes": [
+       32.0,
+       28.0,
+       22.0,
+       21.0,
+       25.0
+      ],
+      "l10": {
+       "hits": 5,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 4,
+       "season_n": 5
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2025-05-17",
+         "opp": "BOS",
+         "v": 5.0,
+         "excluded_for": "blowout (margin 38)"
+        },
+        {
+         "date": "2025-05-14",
+         "opp": "BOS",
+         "v": 3.0,
+         "excluded_for": "blowout (margin 25)"
+        },
+        {
+         "date": "2025-05-10",
+         "opp": "BOS",
+         "v": 3.0,
+         "excluded_for": "blowout (margin 22)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        32.0,
+        28.0,
+        22.0
+       ],
+       "l3_avg": 27.3,
+       "l10_avg": 18.1,
+       "l10_n": 10,
+       "drop_pct": -51.0,
+       "last_game": {
+        "date": "2026-10-29",
+        "opp": "CHI",
+        "v": 32.0,
+        "spot": null
+       },
+       "possible_exit_games": [
+        {
+         "date": "2025-04-27",
+         "v": 1.0
+        }
+       ],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 3,
+       "raw_meaning": "teamrankings: opponent three pointers made per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 3 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 28,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "3pm",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent PHI + stat '3PTM' + side Over; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 10.4,
+        "raw": 3,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 3,
+        "source_team": "Philadelphia",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent three pointers made per game",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-three-pointers-made-per-game",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 3,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 28,
+      "spread": "NY -1.5",
+      "total": 227.5,
+      "team_totals": {
+       "76ers": 113.5,
+       "Knicks": 114.5
+      },
+      "pace": {
+       "home": {
+        "pace": 103.7,
+        "rank": 5,
+        "of": 30
+       },
+       "away": {
+        "pace": 99.6,
+        "rank": 22,
+        "of": 30
+       }
+      },
+      "division_game": true,
+      "national_tv": [
+       "Prime Video"
+      ],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Xfinity Mobile Arena",
+      "indoor": true,
+      "teammates_out": [
+       "Jose Alvarado"
+      ],
+      "opp_out": [
+       "Jabari Walker",
+       "Tacko Fall",
+       "Dominick Barlow",
+       "Ariel Hukporti"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "demoted"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup 28/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
+       "possible in-game exit (not verifiable, not excluded): 2025-04-27 1.0"
+      ],
+      "matchup_rank": 28,
+      "matchup_tier": "demoted",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 32/28/22/21/25 (L3 27.3 vs L10 18.1 min) | Hit: 5/10 at O1.5, 4/5",
+     "Matchup: Opp 28/30 vs Threes Made (TR)",
+     "Context: NY -1.5 / O/U 227.5 | opp pace 103.7 (5th) | Away · Div · Prime",
+     "Injuries: Jose Alvarado out | Opp out: Jabari Walker, Tacko Fall",
+     "Weather: neutral",
+     "Risk: matchup 28/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+    ],
+    "dk": {
+     "odds": "-109",
+     "na": false,
+     "ladder": [
+      [
+       "1+",
+       "-481"
+      ],
+      [
+       "2+",
+       "-109"
+      ],
+      [
+       "3+",
+       "+262"
+      ],
+      [
+       "4+",
+       "+670"
+      ],
+      [
+       "5+",
+       "+1500"
+      ],
+      [
+       "6+",
+       "+2800"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 10,
+    "game": "Mavericks vs Rockets",
+    "start_et": "Fri 10/30 08:00 PM ET",
+    "player": "P.J. Washington",
+    "prop": "Over 1.5 Threes Made",
+    "odds": "-115",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "matchup 23/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
+    "why": "Volume: L5 min 27/41/36/33/31 (L3 36.7 vs L10 33.2 min) | Hit: 6/10 at O1.5, 4/5. Matchup: Opp 23/30 vs Threes Made (TR). Context: DAL +6.5 / O/U 226.5 | opp pace 99.6 (21st) | Home · Div. Injuries: Tarik Biberovic, Santi Aldama out | Opp out: Reed Sheppard, Marcus Smart. Weather: neutral. Risk: matchup 23/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "ctx": {
+     "game": "Mavericks vs Rockets",
+     "team": "DAL",
+     "opp": "HOU",
+     "stat": "3pm",
+     "opp_rank": {
+      "rank": 8,
+      "of": 30,
+      "pg": 11.8,
+      "gp": 5,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "HOU",
+     "spread": -5.5,
+     "total": 227.5,
+     "team_totals": {
+      "HOU": 116.5,
+      "DAL": 111.5
+     },
+     "home": "DAL",
+     "away": "HOU",
+     "rest": {
+      "DAL": 1,
+      "HOU": 1
+     },
+     "record": {
+      "DAL": "3-2",
+      "HOU": "5-0"
+     },
+     "start_et": "Fri 10/30 08:00 PM ET",
+     "out": {
+      "DAL": [
+       {
+        "name": "Naji Marshall",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-10-29",
+        "role": "27.7 min"
+       }
+      ],
+      "HOU": [
+       {
+        "name": "Reed Sheppard",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "23.2 min"
+       },
+       {
+        "name": "Marcus Smart",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "23.5 min"
+       },
+       {
+        "name": "Alperen Sengun",
+        "status": "Day-To-Day",
+        "pos": "C",
+        "date": "2026-10-29",
+        "role": "34.0 min"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Mavericks vs Rockets",
+      "role": "LEG DAY backup",
+      "team": "DAL",
+      "opponent": "HOU",
+      "home_away": "home",
+      "l5_minutes": [
+       27.0,
+       41.0,
+       36.0,
+       33.0,
+       31.0
+      ],
+      "l10": {
+       "hits": 6,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 4,
+       "season_n": 5
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-29",
+         "opp": "OKC",
+         "v": 27.0,
+         "excluded_for": "blowout (margin 24)"
+        },
+        {
+         "date": "2025-04-12",
+         "opp": "TOR",
+         "v": 27.0,
+         "excluded_for": "blowout (margin 22)"
+        },
+        {
+         "date": "2025-04-06",
+         "opp": "LAC",
+         "v": 30.0,
+         "excluded_for": "blowout (margin 31)"
+        },
+        {
+         "date": "2025-04-05",
+         "opp": "LAC",
+         "v": 28.0,
+         "excluded_for": "blowout (margin 23)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        41.0,
+        36.0,
+        33.0
+       ],
+       "l3_avg": 36.7,
+       "l10_avg": 33.2,
+       "l10_n": 10,
+       "drop_pct": -10.4,
+       "last_game": {
+        "date": "2026-10-26",
+        "opp": "MIA",
+        "v": 41.0,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 8,
+       "raw_meaning": "teamrankings: opponent three pointers made per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 8 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 23,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "3pm",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent HOU + stat '3PTM' + side Over; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 11.8,
+        "raw": 8,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 8,
+        "source_team": "Houston",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent three pointers made per game",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-three-pointers-made-per-game",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-10-30.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 8,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 23,
+      "spread": "DAL +6.5",
+      "total": 226.5,
+      "team_totals": {
+       "Rockets": 116.5,
+       "Mavericks": 110.5
+      },
+      "pace": {
+       "home": {
+        "pace": 100.3,
+        "rank": 16,
+        "of": 30
+       },
+       "away": {
+        "pace": 99.6,
+        "rank": 21,
+        "of": 30
+       }
+      },
+      "division_game": true,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "American Airlines Center",
+      "indoor": true,
+      "teammates_out": [
+       "Tarik Biberovic",
+       "Santi Aldama",
+       "Sergio de Larrea",
+       "Dereck Lively II"
+      ],
+      "opp_out": [
+       "Reed Sheppard",
+       "Marcus Smart",
+       "Steven Adams"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [
+       {
+        "hits": 5,
+        "n": 6,
+        "teammate": "Dereck Lively"
+       }
+      ],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "demoted"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup 23/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+      ],
+      "matchup_rank": 23,
+      "matchup_tier": "demoted",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 27/41/36/33/31 (L3 36.7 vs L10 33.2 min) | Hit: 6/10 at O1.5, 4/5",
+     "Matchup: Opp 23/30 vs Threes Made (TR)",
+     "Context: DAL +6.5 / O/U 226.5 | opp pace 99.6 (21st) | Home · Div",
+     "Injuries: Tarik Biberovic, Santi Aldama out | Opp out: Reed Sheppard, Marcus Smart",
+     "Weather: neutral",
+     "Risk: matchup 23/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+    ],
+    "dk": {
+     "odds": "-121",
+     "na": false,
+     "ladder": [
+      [
+       "1+",
+       "-567"
+      ],
+      [
+       "2+",
+       "-121"
+      ],
+      [
+       "3+",
+       "+239"
+      ],
+      [
+       "4+",
+       "+640"
+      ],
+      [
+       "5+",
+       "+1480"
+      ],
+      [
+       "6+",
+       "+2700"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 1,
+    "game": "Panthers vs. Jets",
+    "start_et": "Fri 10/30 07:00 PM ET",
+    "player": "Sam Reinhart",
+    "prop": "Over 2.5 Shots On Goal",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why": "Volume: L5 TOI 18.5 avg (L3 20.3 vs L10 20.3 TOI) | Hit: 5/10 at O2.5, 2/5. Matchup: Opp 9/32 vs Shots On Goal (NHL API). Context: FLA -1.5 / O/U 6.5 | - | Home. Injuries: Brad Marchand, Aleksander Barkov out | Opp out: Vladislav Namestnikov, Nick Bjugstad. Weather: neutral. Risk: Normal single-game variance.",
+    "ctx": {
+     "game": "Panthers vs. Jets",
+     "team": "FLA",
+     "opp": "WPG",
+     "stat": "sog",
+     "opp_rank": {
+      "rank": 24,
+      "of": 32,
+      "pg": 28.9,
+      "gp": 13,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "FLA",
+     "spread": -1.5,
+     "total": 6.5,
+     "team_totals": {
+      "WPG": 2.5,
+      "FLA": 3.5
+     },
+     "home": "FLA",
+     "away": "WPG",
+     "rest": {
+      "FLA": 2,
+      "WPG": 0
+     },
+     "record": {
+      "FLA": "7-4-2",
+      "WPG": "4-6-3"
+     },
+     "start_et": "Fri 10/30 07:00 PM ET",
+     "out": {
+      "FLA": [
+       {
+        "name": "Jacob Markstrom",
+        "status": "Injured Reserve",
+        "pos": "G",
+        "date": "2026-10-20"
+       }
+      ],
+      "WPG": [
+       {
+        "name": "Josh Morrissey",
+        "status": "Injured Reserve",
+        "pos": "D",
+        "date": "2026-10-19",
+        "role": "20.1 TOI"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NHL",
+      "game": "Panthers vs. Jets",
+      "role": "LEG DAY",
+      "team": "FLA",
+      "opponent": "WPG",
+      "home_away": "home",
+      "l5_toi": 18.5,
+      "l10": {
+       "hits": 5,
+       "n": 10,
+       "l5_hits": 2,
+       "l5_n": 5,
+       "season_hits": 6,
+       "season_n": 13
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "TOI",
+       "blowout_margin": 4,
+       "blowout_source": "user default (4+ goals)",
+       "floor": [
+        "TOI",
+        17
+       ],
+       "floor_source": "§16: 17+ TOI",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-27",
+         "opp": "WPG",
+         "v": 18.6,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-22",
+         "opp": "PIT",
+         "v": 20.5,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-21",
+         "opp": "OTT",
+         "v": 15.9,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-17",
+         "opp": "SEA",
+         "v": 17.4,
+         "excluded_for": "blowout (margin 5)"
+        },
+        {
+         "date": "2026-10-15",
+         "opp": "VAN",
+         "v": 22.3,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-13",
+         "opp": "CBJ",
+         "v": 19.4,
+         "excluded_for": "blowout (margin 4)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        20.1,
+        20.4,
+        20.2
+       ],
+       "l3_avg": 20.3,
+       "l10_avg": 20.3,
+       "l10_n": 6,
+       "drop_pct": 0.3,
+       "last_game": {
+        "date": "2026-10-25",
+        "opp": "CHI",
+        "v": 20.1,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 24,
+       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 9,
+       "of": 32,
+       "source": "nhl-api",
+       "stat": "sog",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent WPJ + stat 'Shots on Goal' + side Over; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 28.92307,
+        "raw": 24,
+        "of": 32,
+        "source": "nhl-api",
+        "source_rank": null,
+        "source_team": "Winnipeg Jets",
+        "source_rank_direction": "api gives values only; ranked here",
+        "mapping": "shots against/gm",
+        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NHL-2026-10-30.json",
+        "source": "nhl-api",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": null,
+        "fantasyteamadvice": null
+       },
+       "source_rank": null,
+       "source_rank_direction": "api gives values only; ranked here"
+      },
+      "matchup_rank": 9,
+      "spread": "FLA -1.5",
+      "total": 6.5,
+      "team_totals": {
+       "Jets": 2.5,
+       "Panthers": 3.5
+      },
+      "pace": "-",
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 2,
+      "b2b": false,
+      "venue": "Amerant Bank Arena",
+      "indoor": true,
+      "teammates_out": [
+       "Brad Marchand",
+       "Aleksander Barkov",
+       "Jacob Markstrom",
+       "Jonah Gadjovich"
+      ],
+      "opp_out": [
+       "Vladislav Namestnikov",
+       "Nick Bjugstad",
+       "Josh Morrissey",
+       "Garrett Brown"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [],
+      "matchup_rank": 9,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 TOI 18.5 avg (L3 20.3 vs L10 20.3 TOI) | Hit: 5/10 at O2.5, 2/5",
+     "Matchup: Opp 9/32 vs Shots On Goal (NHL API)",
+     "Context: FLA -1.5 / O/U 6.5 | - | Home",
+     "Injuries: Brad Marchand, Aleksander Barkov out | Opp out: Vladislav Namestnikov, Nick Bjugstad",
+     "Weather: neutral",
+     "Risk: Normal single-game variance"
+    ],
+    "dk": {
+     "odds": "-125",
+     "na": false,
+     "ladder": [
+      [
+       "1+",
+       "-1800"
+      ],
+      [
+       "2+",
+       "-360"
+      ],
+      [
+       "3+",
+       "-125"
+      ],
+      [
+       "4+",
+       "+190"
+      ],
+      [
+       "5+",
+       "+425"
+      ],
+      [
+       "6+",
+       "+950"
+      ],
+      [
+       "7+",
+       "+2000"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 2,
+    "game": "Golden Knights vs. Devils",
+    "start_et": "Fri 10/30 06:00 PM ET",
+    "player": "Ivan Barbashev",
+    "prop": "Under 1.5 Shots On Goal",
+    "odds": "-115",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why": "Volume: L5 TOI 16.6 avg (L3 17.4 vs L10 14.8 TOI) | Hit: 7/10 at U1.5, 4/5. Matchup: Opp 6/32 vs Shots On Goal (NHL API). Context: VGK -1.5 / O/U 6.5 | - | Home. Injuries: Parker Wotherspoon out | Opp out: Seamus Casey. Weather: neutral. Risk: Normal single-game variance.",
+    "ctx": {
+     "game": "Golden Knights vs. Devils",
+     "team": "VGK",
+     "opp": "NJD",
+     "stat": "sog",
+     "opp_rank": {
+      "rank": 6,
+      "of": 32,
+      "pg": 25.1,
+      "gp": 13,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "VGK",
+     "spread": -1.5,
+     "total": 6.5,
+     "team_totals": {
+      "NJD": 2.5,
+      "VGK": 3.5
+     },
+     "home": "VGK",
+     "away": "NJD",
+     "rest": {
+      "VGK": 2,
+      "NJD": 1
+     },
+     "record": {
+      "VGK": "9-4-1",
+      "NJD": "8-5-0"
+     },
+     "start_et": "Fri 10/30 06:00 PM ET",
+     "out": {
+      "VGK": [
+       {
+        "name": "Carter Hart",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-10-28"
+       },
+       {
+        "name": "Parker Wotherspoon",
+        "status": "Injured Reserve",
+        "pos": "D",
+        "date": "2026-10-21",
+        "role": "18.3 TOI"
+       }
+      ],
+      "NJD": []
+     },
+     "game_day": {
+      "sport": "NHL",
+      "game": "Golden Knights vs. Devils",
+      "role": "LEG DAY",
+      "team": "VGK",
+      "opponent": "NJ",
+      "home_away": "home",
+      "l5_toi": 16.64,
+      "l10": {
+       "hits": 7,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 10,
+       "season_n": 14
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "TOI",
+       "blowout_margin": 4,
+       "blowout_source": "user default (4+ goals)",
+       "floor": [
+        "TOI",
+        17
+       ],
+       "floor_source": "§16: 17+ TOI",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-24",
+         "opp": "CBJ",
+         "v": 15.4,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-22",
+         "opp": "STL",
+         "v": 18.9,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-20",
+         "opp": "TBL",
+         "v": 16.1,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-17",
+         "opp": "PIT",
+         "v": 14.2,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-15",
+         "opp": "CGY",
+         "v": 15.4,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-10",
+         "opp": "LAK",
+         "v": 19.1,
+         "excluded_for": "OT/extra innings"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        18.7,
+        16.2,
+        17.3
+       ],
+       "l3_avg": 17.4,
+       "l10_avg": 14.8,
+       "l10_n": 8,
+       "drop_pct": -17.2,
+       "last_game": {
+        "date": "2026-10-27",
+        "opp": "OTT",
+        "v": 18.7,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 6,
+       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 6,
+       "of": 32,
+       "source": "nhl-api",
+       "stat": "sog",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent NJD + stat 'Shots on Goal' + side Under; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 25.07692,
+        "raw": 6,
+        "of": 32,
+        "source": "nhl-api",
+        "source_rank": null,
+        "source_team": "New Jersey Devils",
+        "source_rank_direction": "api gives values only; ranked here",
+        "mapping": "shots against/gm",
+        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NHL-2026-10-30.json",
+        "source": "nhl-api",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": null,
+        "fantasyteamadvice": null
+       },
+       "source_rank": null,
+       "source_rank_direction": "api gives values only; ranked here"
+      },
+      "matchup_rank": 6,
+      "spread": "VGK -1.5",
+      "total": 6.5,
+      "team_totals": {
+       "Devils": 2.5,
+       "Golden Knights": 3.5
+      },
+      "pace": "-",
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 2,
+      "b2b": false,
+      "venue": "T-Mobile Arena",
+      "indoor": true,
+      "teammates_out": [
+       "Parker Wotherspoon"
+      ],
+      "opp_out": [
+       "Seamus Casey"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [],
+      "matchup_rank": 6,
+      "matchup_tier": "preferred",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 TOI 16.6 avg (L3 17.4 vs L10 14.8 TOI) | Hit: 7/10 at U1.5, 4/5",
+     "Matchup: Opp 6/32 vs Shots On Goal (NHL API)",
+     "Context: VGK -1.5 / O/U 6.5 | - | Home",
+     "Injuries: Parker Wotherspoon out | Opp out: Seamus Casey",
+     "Weather: neutral",
+     "Risk: Normal single-game variance"
+    ],
+    "dk": {
+     "odds": "-115",
+     "na": false,
+     "ladder": [
+      [
+       "u1.5",
+       "-115"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 3,
+    "game": "Flames vs. Kraken",
+    "start_et": "Fri 10/30 08:00 PM ET",
+    "player": "Brandon Montour",
+    "prop": "Under 2.5 Shots On Goal",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
+    "why": "Volume: L5 TOI 23.3 avg (L3 25.8 vs L10 23.5 TOI) | Hit: 7/10 at U2.5, 4/5. Matchup: Opp 29/32 vs Shots On Goal (NHL API). Context: SEA -1.5 / O/U 6.5 | - | Away · Div. Injuries: Jared McCann, Jacob Melanson out | Opp out: Jonathan Huberdeau, Samuel Honzek. Weather: neutral. Risk: matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "ctx": {
+     "game": "Flames vs. Kraken",
+     "team": "SEA",
+     "opp": "CGY",
+     "stat": "sog",
+     "opp_rank": {
+      "rank": 29,
+      "of": 32,
+      "pg": 30.5,
+      "gp": 12,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "SEA",
+     "spread": -1.5,
+     "total": 6.5,
+     "team_totals": {
+      "SEA": 3.5,
+      "CGY": 3.5
+     },
+     "home": "CGY",
+     "away": "SEA",
+     "rest": {
+      "CGY": 1,
+      "SEA": 1
+     },
+     "record": {
+      "CGY": "5-7-0",
+      "SEA": "8-4-1"
+     },
+     "start_et": "Fri 10/30 08:00 PM ET",
+     "out": {
+      "CGY": [
+       {
+        "name": "Devin Cooley",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-10-29"
+       },
+       {
+        "name": "Samuel Honzek",
+        "status": "Injured Reserve",
+        "pos": "LW",
+        "date": "2026-10-20",
+        "role": "15.6 TOI"
+       }
+      ],
+      "SEA": [
+       {
+        "name": "Jared McCann",
+        "status": "Injured Reserve",
+        "pos": "LW",
+        "date": "2026-10-25",
+        "role": "16.1 TOI"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NHL",
+      "game": "Flames vs. Kraken",
+      "role": "LEG DAY",
+      "team": "SEA",
+      "opponent": "CGY",
+      "home_away": "away",
+      "l5_toi": 23.26,
+      "l10": {
+       "hits": 7,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 8,
+       "season_n": 12
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "TOI",
+       "blowout_margin": 4,
+       "blowout_source": "user default (4+ goals)",
+       "floor": [
+        "TOI",
+        17
+       ],
+       "floor_source": "§16: 17+ TOI",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-24",
+         "opp": "MIN",
+         "v": 23.7,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-20",
+         "opp": "DET",
+         "v": 30.7,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-15",
+         "opp": "TBL",
+         "v": 8.1,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-13",
+         "opp": "PHI",
+         "v": 30.1,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-06",
+         "opp": "VGK",
+         "v": 20.1,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-04",
+         "opp": "CGY",
+         "v": 23.2,
+         "excluded_for": "blowout (margin 5)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        26.6,
+        24.6,
+        26.1
+       ],
+       "l3_avg": 25.8,
+       "l10_avg": 23.5,
+       "l10_n": 8,
+       "drop_pct": -9.6,
+       "last_game": {
+        "date": "2026-10-22",
+        "opp": "UTA",
+        "v": 26.6,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 29,
+       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 29,
+       "of": 32,
+       "source": "nhl-api",
+       "stat": "sog",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent CGY + stat 'Shots on Goal' + side Under; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 30.5,
+        "raw": 29,
+        "of": 32,
+        "source": "nhl-api",
+        "source_rank": null,
+        "source_team": "Calgary Flames",
+        "source_rank_direction": "api gives values only; ranked here",
+        "mapping": "shots against/gm",
+        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NHL-2026-10-30.json",
+        "source": "nhl-api",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": null,
+        "fantasyteamadvice": null
+       },
+       "source_rank": null,
+       "source_rank_direction": "api gives values only; ranked here"
+      },
+      "matchup_rank": 29,
+      "spread": "SEA -1.5",
+      "total": 6.5,
+      "team_totals": {
+       "Kraken": 3.5,
+       "Flames": 3.5
+      },
+      "pace": "-",
+      "division_game": true,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Scotiabank Saddledome",
+      "indoor": true,
+      "teammates_out": [
+       "Jared McCann",
+       "Jacob Melanson",
+       "Ryan Lindgren",
+       "Jake O'Brien"
+      ],
+      "opp_out": [
+       "Jonathan Huberdeau",
+       "Samuel Honzek"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "demoted"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+      ],
+      "matchup_rank": 29,
+      "matchup_tier": "demoted",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 TOI 23.3 avg (L3 25.8 vs L10 23.5 TOI) | Hit: 7/10 at U2.5, 4/5",
+     "Matchup: Opp 29/32 vs Shots On Goal (NHL API)",
+     "Context: SEA -1.5 / O/U 6.5 | - | Away · Div",
+     "Injuries: Jared McCann, Jacob Melanson out | Opp out: Jonathan Huberdeau, Samuel Honzek",
+     "Weather: neutral",
+     "Risk: matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+    ],
+    "dk": {
+     "odds": "-160",
+     "na": false,
+     "ladder": [
+      [
+       "u2.5",
+       "-160"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 4,
+    "game": "Flames vs. Kraken",
+    "start_et": "Fri 10/30 08:00 PM ET",
+    "player": "Matty Beniers",
+    "prop": "Under 1.5 Shots On Goal",
+    "odds": "-120",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
+    "why": "Volume: L5 TOI 19.0 avg (L3 18.5 vs L10 17.3 TOI) | Hit: 6/10 at U1.5, 4/5. Matchup: Opp 29/32 vs Shots On Goal (NHL API). Context: SEA -1.5 / O/U 6.5 | - | Away · Div. Injuries: Jared McCann, Jacob Melanson out | Opp out: Jonathan Huberdeau, Samuel Honzek. Weather: neutral. Risk: matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "ctx": {
+     "game": "Flames vs. Kraken",
+     "team": "SEA",
+     "opp": "CGY",
+     "stat": "sog",
+     "opp_rank": {
+      "rank": 29,
+      "of": 32,
+      "pg": 30.5,
+      "gp": 12,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "SEA",
+     "spread": -1.5,
+     "total": 6.5,
+     "team_totals": {
+      "SEA": 3.5,
+      "CGY": 3.5
+     },
+     "home": "CGY",
+     "away": "SEA",
+     "rest": {
+      "CGY": 1,
+      "SEA": 1
+     },
+     "record": {
+      "CGY": "5-7-0",
+      "SEA": "8-4-1"
+     },
+     "start_et": "Fri 10/30 08:00 PM ET",
+     "out": {
+      "CGY": [
+       {
+        "name": "Devin Cooley",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-10-29"
+       },
+       {
+        "name": "Samuel Honzek",
+        "status": "Injured Reserve",
+        "pos": "LW",
+        "date": "2026-10-20",
+        "role": "15.6 TOI"
+       }
+      ],
+      "SEA": [
+       {
+        "name": "Jared McCann",
+        "status": "Injured Reserve",
+        "pos": "LW",
+        "date": "2026-10-25",
+        "role": "16.1 TOI"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NHL",
+      "game": "Flames vs. Kraken",
+      "role": "LEG DAY",
+      "team": "SEA",
+      "opponent": "CGY",
+      "home_away": "away",
+      "l5_toi": 19.04,
+      "l10": {
+       "hits": 6,
+       "n": 10,
+       "l5_hits": 4,
+       "l5_n": 5,
+       "season_hits": 9,
+       "season_n": 13
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "TOI",
+       "blowout_margin": 4,
+       "blowout_source": "user default (4+ goals)",
+       "floor": [
+        "TOI",
+        17
+       ],
+       "floor_source": "§16: 17+ TOI",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-24",
+         "opp": "MIN",
+         "v": 19.7,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-20",
+         "opp": "DET",
+         "v": 17.6,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-17",
+         "opp": "FLA",
+         "v": 18.7,
+         "excluded_for": "blowout (margin 5)"
+        },
+        {
+         "date": "2026-10-15",
+         "opp": "TBL",
+         "v": 16.9,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-13",
+         "opp": "PHI",
+         "v": 20.5,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-06",
+         "opp": "VGK",
+         "v": 16.4,
+         "excluded_for": "blowout (margin 4)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        20.4,
+        18.7,
+        16.3
+       ],
+       "l3_avg": 18.5,
+       "l10_avg": 17.3,
+       "l10_n": 8,
+       "drop_pct": -6.9,
+       "last_game": {
+        "date": "2026-10-28",
+        "opp": "TOR",
+        "v": 20.4,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 29,
+       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 29,
+       "of": 32,
+       "source": "nhl-api",
+       "stat": "sog",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent CGY + stat 'Shots on Goal' + side Under; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 30.5,
+        "raw": 29,
+        "of": 32,
+        "source": "nhl-api",
+        "source_rank": null,
+        "source_team": "Calgary Flames",
+        "source_rank_direction": "api gives values only; ranked here",
+        "mapping": "shots against/gm",
+        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NHL-2026-10-30.json",
+        "source": "nhl-api",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": null,
+        "fantasyteamadvice": null
+       },
+       "source_rank": null,
+       "source_rank_direction": "api gives values only; ranked here"
+      },
+      "matchup_rank": 29,
+      "spread": "SEA -1.5",
+      "total": 6.5,
+      "team_totals": {
+       "Kraken": 3.5,
+       "Flames": 3.5
+      },
+      "pace": "-",
+      "division_game": true,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Scotiabank Saddledome",
+      "indoor": true,
+      "teammates_out": [
+       "Jared McCann",
+       "Jacob Melanson",
+       "Ryan Lindgren",
+       "Jake O'Brien"
+      ],
+      "opp_out": [
+       "Jonathan Huberdeau",
+       "Samuel Honzek"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "demoted"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+      ],
+      "matchup_rank": 29,
+      "matchup_tier": "demoted",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 TOI 19.0 avg (L3 18.5 vs L10 17.3 TOI) | Hit: 6/10 at U1.5, 4/5",
+     "Matchup: Opp 29/32 vs Shots On Goal (NHL API)",
+     "Context: SEA -1.5 / O/U 6.5 | - | Away · Div",
+     "Injuries: Jared McCann, Jacob Melanson out | Opp out: Jonathan Huberdeau, Samuel Honzek",
+     "Weather: neutral",
+     "Risk: matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+    ],
+    "dk": {
+     "odds": "+110",
+     "na": false,
+     "ladder": [
+      [
+       "u1.5",
+       "+110"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 5,
+    "game": "Panthers vs. Jets",
+    "start_et": "Fri 10/30 07:00 PM ET",
+    "player": "Matthew Tkachuk",
+    "prop": "Under 2.5 Shots On Goal",
+    "odds": "-110",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
+    "why": "Volume: L5 TOI 16.8 avg (L3 18.5 vs L10 19.6 TOI) | Hit: 6/10 at U2.5, 2/5. Matchup: Opp 24/32 vs Shots On Goal (NHL API). Context: FLA -1.5 / O/U 6.5 | - | Home. Injuries: Brad Marchand, Aleksander Barkov out | Opp out: Vladislav Namestnikov, Nick Bjugstad. Weather: neutral. Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "ctx": {
+     "game": "Panthers vs. Jets",
+     "team": "FLA",
+     "opp": "WPG",
+     "stat": "sog",
+     "opp_rank": {
+      "rank": 24,
+      "of": 32,
+      "pg": 28.9,
+      "gp": 13,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "FLA",
+     "spread": -1.5,
+     "total": 6.5,
+     "team_totals": {
+      "WPG": 2.5,
+      "FLA": 3.5
+     },
+     "home": "FLA",
+     "away": "WPG",
+     "rest": {
+      "FLA": 2,
+      "WPG": 0
+     },
+     "record": {
+      "FLA": "7-4-2",
+      "WPG": "4-6-3"
+     },
+     "start_et": "Fri 10/30 07:00 PM ET",
+     "out": {
+      "FLA": [
+       {
+        "name": "Jacob Markstrom",
+        "status": "Injured Reserve",
+        "pos": "G",
+        "date": "2026-10-20"
+       }
+      ],
+      "WPG": [
+       {
+        "name": "Josh Morrissey",
+        "status": "Injured Reserve",
+        "pos": "D",
+        "date": "2026-10-19",
+        "role": "20.1 TOI"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NHL",
+      "game": "Panthers vs. Jets",
+      "role": "LEG DAY backup",
+      "team": "FLA",
+      "opponent": "WPG",
+      "home_away": "home",
+      "l5_toi": 16.77,
+      "l10": {
+       "hits": 6,
+       "n": 10,
+       "l5_hits": 2,
+       "l5_n": 5,
+       "season_hits": 9,
+       "season_n": 13
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "TOI",
+       "blowout_margin": 4,
+       "blowout_source": "user default (4+ goals)",
+       "floor": [
+        "TOI",
+        17
+       ],
+       "floor_source": "§16: 17+ TOI",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-27",
+         "opp": "WPG",
+         "v": 16.8,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-22",
+         "opp": "PIT",
+         "v": 18.3,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-21",
+         "opp": "OTT",
+         "v": 17.5,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-17",
+         "opp": "SEA",
+         "v": 12.9,
+         "excluded_for": "blowout (margin 5)"
+        },
+        {
+         "date": "2026-10-15",
+         "opp": "VAN",
+         "v": 22.0,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-13",
+         "opp": "CBJ",
+         "v": 17.3,
+         "excluded_for": "blowout (margin 4)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        18.4,
+        18.4,
+        18.6
+       ],
+       "l3_avg": 18.5,
+       "l10_avg": 19.6,
+       "l10_n": 5,
+       "drop_pct": 5.7,
+       "last_game": {
+        "date": "2026-10-25",
+        "opp": "CHI",
+        "v": 18.4,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 24,
+       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 24,
+       "of": 32,
+       "source": "nhl-api",
+       "stat": "sog",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent WPJ + stat 'Shots on Goal' + side Under; opponent-defensive-rank table has 0 rows",
+       "fallback": {
+        "value": 28.92307,
+        "raw": 24,
+        "of": 32,
+        "source": "nhl-api",
+        "source_rank": null,
+        "source_team": "Winnipeg Jets",
+        "source_rank_direction": "api gives values only; ranked here",
+        "mapping": "shots against/gm",
+        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+        "fetched_at": "2026-10-30 05:55 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NHL-2026-10-30.json",
+        "source": "nhl-api",
+        "fetched_at": "2026-10-30 05:55 AM ET",
+        "failures": {},
+        "myspariedge": null,
+        "fantasyteamadvice": null
+       },
+       "source_rank": null,
+       "source_rank_direction": "api gives values only; ranked here"
+      },
+      "matchup_rank": 24,
+      "spread": "FLA -1.5",
+      "total": 6.5,
+      "team_totals": {
+       "Jets": 2.5,
+       "Panthers": 3.5
+      },
+      "pace": "-",
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 2,
+      "b2b": false,
+      "venue": "Amerant Bank Arena",
+      "indoor": true,
+      "teammates_out": [
+       "Brad Marchand",
+       "Aleksander Barkov",
+       "Jacob Markstrom",
+       "Jonah Gadjovich"
+      ],
+      "opp_out": [
+       "Vladislav Namestnikov",
+       "Nick Bjugstad",
+       "Josh Morrissey",
+       "Garrett Brown"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "demoted"
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+      ],
+      "matchup_rank": 24,
+      "matchup_tier": "demoted",
+      "preference_limit": 20,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-10-30 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 TOI 16.8 avg (L3 18.5 vs L10 19.6 TOI) | Hit: 6/10 at U2.5, 2/5",
+     "Matchup: Opp 24/32 vs Shots On Goal (NHL API)",
+     "Context: FLA -1.5 / O/U 6.5 | - | Home",
+     "Injuries: Brad Marchand, Aleksander Barkov out | Opp out: Vladislav Namestnikov, Nick Bjugstad",
+     "Weather: neutral",
+     "Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
+    ],
+    "dk": {
+     "odds": "-115",
+     "na": false,
+     "ladder": [
+      [
+       "u2.5",
+       "-115"
+      ]
+     ]
+    }
+   }
+  ]
  },
  "rules": {
   "potd": [
@@ -33070,6 +36792,291 @@
     "img": null,
     "sub": "",
     "fam": "SOG"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Paul George Over 1.5 Steals",
+    "pick": "#1 Paul George Over 1.5 Steals",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 1,
+    "uu": 0.0,
+    "game": "Celtics vs Bulls",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Steals/Blocks"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "LaMelo Ball Under 4.5 Rebounds",
+    "pick": "#2 LaMelo Ball Under 4.5 Rebounds",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 2,
+    "uu": 0.0,
+    "game": "Timberwolves vs Clippers",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Rebounds"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Draymond Green Under 6.5 Points",
+    "pick": "#3 Draymond Green Under 6.5 Points",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 3,
+    "uu": 0.0,
+    "game": "Warriors vs Lakers",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Quentin Grimes Over 9.5 Pts + Ast",
+    "pick": "#4 Quentin Grimes Over 9.5 Pts + Ast",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 4,
+    "uu": 0.0,
+    "game": "Warriors vs Lakers",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Pts+Ast"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Mikal Bridges Under 15.5 Pts + Reb + Ast",
+    "pick": "#5 Mikal Bridges Under 15.5 Pts + Reb + Ast",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 5,
+    "uu": 0.0,
+    "game": "76ers vs Knicks",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "PRA"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Kyshawn George Under 1.5 Threes Made",
+    "pick": "#6 Kyshawn George Under 1.5 Threes Made",
+    "odds": "-120",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 6,
+    "uu": 0.0,
+    "game": "Wizards vs Hornets",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "3PM"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Devin Booker Under 1.5 Threes Made",
+    "pick": "#7 Devin Booker Under 1.5 Threes Made",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 7,
+    "uu": 0.0,
+    "game": "Suns vs Nuggets",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "3PM"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Paul Reed Under 1.5 Blocks",
+    "pick": "#8 Paul Reed Under 1.5 Blocks",
+    "odds": "-135",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 8,
+    "uu": 0.0,
+    "game": "Nets vs Pistons",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Steals/Blocks"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Landry Shamet Over 1.5 Threes Made",
+    "pick": "#9 Landry Shamet Over 1.5 Threes Made",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 9,
+    "uu": 0.0,
+    "game": "76ers vs Knicks",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "3PM"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "P.J. Washington Over 1.5 Threes Made",
+    "pick": "#10 P.J. Washington Over 1.5 Threes Made",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 10,
+    "uu": 0.0,
+    "game": "Mavericks vs Rockets",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "3PM"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Sam Reinhart Over 2.5 Shots On Goal",
+    "pick": "#1 Sam Reinhart Over 2.5 Shots On Goal",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 1,
+    "uu": 0.0,
+    "game": "Panthers vs. Jets",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Ivan Barbashev Under 1.5 Shots On Goal",
+    "pick": "#2 Ivan Barbashev Under 1.5 Shots On Goal",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 2,
+    "uu": 0.0,
+    "game": "Golden Knights vs. Devils",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Brandon Montour Under 2.5 Shots On Goal",
+    "pick": "#3 Brandon Montour Under 2.5 Shots On Goal",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 3,
+    "uu": 0.0,
+    "game": "Flames vs. Kraken",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Matty Beniers Under 1.5 Shots On Goal",
+    "pick": "#4 Matty Beniers Under 1.5 Shots On Goal",
+    "odds": "-120",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 4,
+    "uu": 0.0,
+    "game": "Flames vs. Kraken",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "SOG"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Matthew Tkachuk Under 2.5 Shots On Goal",
+    "pick": "#5 Matthew Tkachuk Under 2.5 Shots On Goal",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 5,
+    "uu": 0.0,
+    "game": "Panthers vs. Jets",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "SOG"
    }
   ],
   "summary": {
@@ -33078,7 +37085,7 @@
      "w": 74,
      "l": 101,
      "p": 3,
-     "pending": 4,
+     "pending": 19,
      "units": -27
     },
     "legs": {
@@ -33331,8 +37338,8 @@
  },
  "gameday": {
   "date": "2026-10-30",
-  "built": "2026-10-30 07:17 ET",
-  "picks": 18,
+  "built": "2026-10-30 09:24 ET",
+  "picks": 33,
   "vetoes": [],
   "gaps": [
    "POTD Tyrese Maxey Over 31.5 Pts + Reb + Ast: AttributeError 'NoneType' object has no attribute 'get'",
@@ -33351,8 +37358,8 @@
   "pregame_games": 108,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 19,
-   "priced": 6,
+   "legs": 34,
+   "priced": 19,
    "na": [
     "MarShawn Lloyd (RB) anytime TD",
     "Blake Corum (RB) anytime TD",
@@ -33365,6 +37372,8 @@
     "Edge 1H Sacramento State ML (tie refunds)",
     "Edge Q1 Sacramento State ML (tie refunds)",
     "Edge Q1 Tulane Team Total Under 6.5",
+    "LEG DAY Paul George Over 1.5 Steals",
+    "LEG DAY Paul Reed Under 1.5 Blocks",
     "Davion Mitchell Over 21.5 Pts + Reb + Ast",
     "No qualifying ticket today"
    ]
