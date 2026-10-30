@@ -1,5 +1,5 @@
 {
- "generated": 1793370409.7505357,
+ "generated": 1793379316.770018,
  "today": {
   "title": "Oct 30 picks (Hard Rock)",
   "tickets": [
@@ -145,44 +145,44 @@
      ],
      "sport": "NBA",
      "dk": {
-      "odds": "-124",
-      "na": false,
+      "odds": null,
+      "na": true,
       "ladder": [
        [
         "10+",
-        "-4300"
+        "-4700"
        ],
        [
         "15+",
-        "-630"
+        "-680"
        ],
        [
         "20+",
-        "-185"
+        "-199"
        ],
        [
-        "22+",
-        "-124"
+        "23+",
+        "-104"
        ],
        [
         "25+",
-        "+154"
+        "+145"
        ],
        [
         "30+",
-        "+419"
+        "+388"
        ],
        [
         "35+",
-        "+1100"
+        "+1040"
        ],
        [
         "40+",
-        "+2300"
+        "+2100"
        ]
       ]
      },
-     "dk_odds": "-124"
+     "dk_odds": null
     },
     "parlay": {
      "pick": "2-leg",
@@ -252,16 +252,16 @@
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-239",
+        "odds": "-237",
         "na": false,
         "ladder": [
          [
           "3+",
-          "-620"
+          "-573"
          ],
          [
           "4+",
-          "-239"
+          "-237"
          ],
          [
           "5+",
@@ -269,27 +269,27 @@
          ],
          [
           "6+",
-          "+174"
+          "+177"
          ],
          [
           "7+",
-          "+336"
+          "+341"
          ],
          [
           "8+",
-          "+620"
+          "+640"
          ],
          [
           "9+",
-          "+1140"
+          "+1160"
          ],
          [
           "10+",
-          "+1900"
+          "+1960"
          ],
          [
           "11+",
-          "+2800"
+          "+2900"
          ]
         ]
        }
@@ -375,44 +375,44 @@
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-244",
+        "odds": "-264",
         "na": false,
         "ladder": [
          [
           "6+",
-          "-1040"
+          "-1160"
          ],
          [
           "8+",
-          "-457"
+          "-501"
          ],
          [
           "10+",
-          "-244"
+          "-264"
          ],
          [
           "12+",
-          "-139"
+          "-151"
          ],
          [
           "13+",
-          "-109"
+          "-116"
          ],
          [
           "15+",
-          "+152"
+          "+141"
          ],
          [
           "18+",
-          "+310"
+          "+294"
          ],
          [
           "20+",
-          "+496"
+          "+463"
          ],
          [
           "25+",
-          "+1440"
+          "+1420"
          ]
         ]
        }
@@ -420,7 +420,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NBA",
-     "dk_odds": "-100"
+     "dk_odds": "-104"
     }
    },
    "NHL": {
@@ -516,36 +516,36 @@
         "Risk: WPG on a back-to-back"
        ],
        "dk": {
-        "odds": "-170",
+        "odds": "-195",
         "na": false,
         "ladder": [
          [
           "1+",
-          "-3000"
+          "-3500"
          ],
          [
           "2+",
-          "-500"
+          "-575"
          ],
          [
           "3+",
-          "-170"
+          "-195"
          ],
          [
           "4+",
-          "+140"
+          "+125"
          ],
          [
           "5+",
-          "+300"
+          "+265"
          ],
          [
           "6+",
-          "+650"
+          "+550"
          ],
          [
           "7+",
-          "+1300"
+          "+1200"
          ]
         ]
        }
@@ -624,32 +624,32 @@
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-255",
+        "odds": "-205",
         "na": false,
         "ladder": [
          [
           "1+",
-          "-1200"
+          "-900"
          ],
          [
           "2+",
-          "-255"
+          "-205"
          ],
          [
           "3+",
-          "+110"
+          "+140"
          ],
          [
           "4+",
-          "+270"
+          "+340"
          ],
          [
           "5+",
-          "+650"
+          "+850"
          ],
          [
           "6+",
-          "+1500"
+          "+2000"
          ]
         ]
        }
@@ -657,7 +657,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NHL",
-     "dk_odds": "+121"
+     "dk_odds": "+125"
     }
    }
   },
@@ -7313,11 +7313,51 @@
    "today": [
     {
      "sport": "NHL",
+     "prop": "NHL shots on goal (over)",
+     "pick": "Brandon Montour Over 2.5 SOG (SEA @ CGY 8:00pm; Best Bet)",
+     "odds": "+115",
+     "status": "Pending",
+     "fam": "SOG",
+     "game": "SEA @ CGY",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NHL",
      "prop": "NHL ML (tail)",
      "pick": "Tail Wpg (WPG @ FLA 7:00pm; #TonesB2BNHLSystem)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "ML"
+     "fam": "ML",
+     "game": "WPG @ FLA",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NHL",
+     "prop": "NHL team total (over)",
+     "pick": "Seattle Kraken Team Total Over 3.5 (SEA @ CGY 8:00pm; Best Bet)",
+     "odds": "+125",
+     "status": "Pending",
+     "fam": "Team total",
+     "game": "SEA @ CGY",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NHL",
+     "prop": "NHL game total (over)",
+     "pick": "NJ/VGK Over 5.5 (NJ @ VGK 6:00pm; Best Bet)",
+     "odds": "-127",
+     "status": "Pending",
+     "fam": "Total",
+     "game": "NJ @ VGK",
+     "kick": "6:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -7559,10 +7599,62 @@
     {
      "sport": "NBA",
      "prop": "NBA points (over)",
+     "pick": "Jakob Poeltl o6.5 Points (ORL @ TOR; Surgical Bet of the Day)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Player points",
+     "game": "ORL @ TOR",
+     "kick": "7:30 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA points (over)",
      "pick": "Jalen Green o14.5 Points (Suns)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "DEN @ PHX",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA rebounds (over)",
+     "pick": "Jaylen Brown o5.5 Rebounds (CHI @ BOS; Play of the Day)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Rebounds",
+     "game": "CHI @ BOS",
+     "kick": "7:30 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA rebounds (over)",
+     "pick": "John Collins o6.5 Rebounds (LAC @ MIN)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Rebounds",
+     "game": "LAC @ MIN",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA rebounds (over)",
+     "pick": "Rui Hachimura o4.5 Rebounds (LAL @ GS)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Rebounds",
+     "game": "LAL @ GS",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -7701,7 +7793,11 @@
      "pick": "Walker Kessler o13.5 Pts (#DubNation Vs #LakeShow; first NBA winner, NBA Play Of The Day)",
      "odds": "-120 DK",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "LAL @ GS",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -7801,7 +7897,20 @@
      "fam": "PRA"
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NBA",
+     "prop": "NBA PRA (over)",
+     "pick": "Terrance Shannon o19.5 PRA (LAC @ MIN; First NBA LOCK)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "PRA",
+     "game": "LAC @ MIN",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
+    }
+   ]
   },
   {
    "name": "@showtimepicks2",
@@ -7999,7 +8108,7 @@
  "capper_today_date": "2026-10-30",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-30 10:26 AM ET",
+  "updated": "2026-10-30 12:55 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -13755,7 +13864,7 @@
        "ladder": [
         [
          "3+",
-         "-1160"
+         "-1200"
         ],
         [
          "4+",
@@ -13767,31 +13876,31 @@
         ],
         [
          "6+",
-         "-105"
+         "-106"
         ],
         [
          "7+",
-         "+177"
+         "+176"
         ],
         [
          "8+",
-         "+313"
+         "+316"
         ],
         [
          "9+",
-         "+537"
+         "+554"
         ],
         [
          "10+",
-         "+930"
+         "+940"
         ],
         [
          "11+",
-         "+1520"
+         "+1560"
         ],
         [
          "12+",
-         "+2200"
+         "+2400"
         ]
        ],
        "odds": "-430",
@@ -13880,23 +13989,23 @@
        "ladder": [
         [
          "6+",
-         "-1420"
+         "-1520"
         ],
         [
          "7+",
-         "-650"
+         "-680"
         ],
         [
          "8+",
-         "-345"
+         "-352"
         ],
         [
          "9+",
-         "-195"
+         "-197"
         ],
         [
          "10+",
-         "-116"
+         "-115"
         ],
         [
          "11+",
@@ -13904,15 +14013,15 @@
         ],
         [
          "12+",
-         "+233"
+         "+232"
         ],
         [
          "13+",
-         "+379"
+         "+367"
         ],
         [
          "14+",
-         "+600"
+         "+581"
         ],
         [
          "15+",
@@ -13928,10 +14037,10 @@
         ],
         [
          "18+",
-         "+2900"
+         "+2800"
         ]
        ],
-       "odds": "-345",
+       "odds": "-352",
        "pick": "Trae Young 8+ ast",
        "na": false
       }
@@ -14034,7 +14143,7 @@
       }
      }
     ],
-    "dk_odds": "+108"
+    "dk_odds": "+107"
    }
   },
   "notes": {
@@ -14105,9 +14214,9 @@
      "Risk: No threshold miss; normal single-game variance and closing-line risk"
     ],
     "dk": {
-     "odds": "-290",
+     "odds": "-278",
      "na": false,
-     "edge": -0.016082370487502384
+     "edge": -0.005192302645637525
     }
    },
    {
@@ -20481,12 +20590,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-127",
+     "odds": "-128",
      "na": false,
      "ladder": [
       [
        "u6.5",
-       "-127"
+       "-128"
       ]
      ]
     }
@@ -20728,24 +20837,20 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-136",
+     "odds": "-131",
      "na": false,
      "ladder": [
       [
        "5+",
-       "-1000"
+       "-950"
       ],
       [
        "10+",
-       "-136"
-      ],
-      [
-       "11+",
-       "-101"
+       "-131"
       ],
       [
        "15+",
-       "+294"
+       "+296"
       ],
       [
        "20+",
@@ -20753,7 +20858,7 @@
       ],
       [
        "25+",
-       "+2200"
+       "+2300"
       ]
      ]
     }
@@ -20993,12 +21098,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-116",
+     "odds": "-110",
      "na": false,
      "ladder": [
       [
        "u15.5",
-       "-116"
+       "-110"
       ]
      ]
     }
@@ -21236,12 +21341,12 @@
      "Risk: possible in-game exit (not verifiable, not excluded): 2025-03-24 2.0"
     ],
     "dk": {
-     "odds": "-118",
+     "odds": "-114",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-118"
+       "-114"
       ]
      ]
     }
@@ -21922,32 +22027,32 @@
      "Risk: matchup 28/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "-110",
+     "odds": "-122",
      "na": false,
      "ladder": [
       [
        "1+",
-       "-472"
+       "-511"
       ],
       [
        "2+",
-       "-110"
+       "-122"
       ],
       [
        "3+",
-       "+264"
+       "+233"
       ],
       [
        "4+",
-       "+670"
+       "+591"
       ],
       [
        "5+",
-       "+1600"
+       "+1360"
       ],
       [
        "6+",
-       "+2900"
+       "+2700"
       ]
      ]
     }
@@ -22217,7 +22322,7 @@
      "ladder": [
       [
        "1+",
-       "-530"
+       "-528"
       ],
       [
        "2+",
@@ -22225,7 +22330,7 @@
       ],
       [
        "3+",
-       "+250"
+       "+257"
       ],
       [
        "4+",
@@ -22233,11 +22338,11 @@
       ],
       [
        "5+",
-       "+1580"
+       "+1520"
       ],
       [
        "6+",
-       "+2900"
+       "+2800"
       ]
      ]
     }
@@ -22483,7 +22588,7 @@
       ],
       [
        "2+",
-       "-310"
+       "-320"
       ],
       [
        "3+",
@@ -22491,15 +22596,15 @@
       ],
       [
        "4+",
-       "+225"
+       "+220"
       ],
       [
        "5+",
-       "+500"
+       "+475"
       ],
       [
        "6+",
-       "+1100"
+       "+1000"
       ]
      ]
     }
@@ -22729,12 +22834,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-135",
+     "odds": "-130",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-135"
+       "-130"
       ]
      ]
     }
@@ -22979,12 +23084,12 @@
      "Risk: matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "-160",
+     "odds": "-135",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-160"
+       "-135"
       ]
      ]
     }
@@ -23229,12 +23334,12 @@
      "Risk: matchup 29/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "+110",
+     "odds": "+105",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "+110"
+       "+105"
       ]
      ]
     }
@@ -23474,12 +23579,12 @@
      "Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "-115",
+     "odds": "-105",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-115"
+       "-105"
       ]
      ]
     }
@@ -35981,6 +36086,142 @@
     "nu": true
    },
    {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "Jaylen Brown o5.5 Rebounds (CHI @ BOS; Play of the Day)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA PRA (over)",
+    "fam": "PRA",
+    "pick": "Terrance Shannon o19.5 PRA (LAC @ MIN; First NBA LOCK)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "John Collins o6.5 Rebounds (LAC @ MIN)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "Rui Hachimura o4.5 Rebounds (LAL @ GS)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Jakob Poeltl o6.5 Points (ORL @ TOR; Surgical Bet of the Day)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL game total (over)",
+    "fam": "Total",
+    "pick": "NJ/VGK Over 5.5 (NJ @ VGK 6:00pm; Best Bet)",
+    "odds": "-127",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL team total (over)",
+    "fam": "Team total",
+    "pick": "Seattle Kraken Team Total Over 3.5 (SEA @ CGY 8:00pm; Best Bet)",
+    "odds": "+125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL shots on goal (over)",
+    "fam": "SOG",
+    "pick": "Brandon Montour Over 2.5 SOG (SEA @ CGY 8:00pm; Best Bet)",
+    "odds": "+115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
@@ -38664,9 +38905,9 @@
      "w": 120,
      "l": 96,
      "p": 3,
-     "pending": 28,
+     "pending": 36,
      "units": -26.99,
-     "no_odds": 92
+     "no_odds": 97
     },
     "legs": {
      "w": 0,
@@ -38705,7 +38946,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 28 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 36 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-28', 'Parlay +100', '2-leg', '+121', False), ('O', '2026-10-29', 'Parlay +100', '2-leg', '+125', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -38849,23 +39090,24 @@
     "stat": "",
     "priced": "2026-10-30 10:26",
     "orig_note": "book price; capper posted no odds",
+    "stale": true,
     "dk": {
      "ladder": [
       [
        "8+",
-       "-1320"
+       "-1280"
       ],
       [
        "10+",
-       "-599"
+       "-572"
       ],
       [
        "12+",
-       "-317"
+       "-306"
       ],
       [
        "15+",
-       "-141"
+       "-140"
       ],
       [
        "16+",
@@ -38873,7 +39115,7 @@
       ],
       [
        "18+",
-       "+143"
+       "+144"
       ],
       [
        "20+",
@@ -38881,18 +39123,18 @@
       ],
       [
        "25+",
-       "+660"
+       "+670"
       ],
       [
        "30+",
-       "+1720"
+       "+1780"
       ]
      ],
-     "odds": "-317",
+     "odds": "-306",
      "pick": "Jalen Green Over 11.5 Points",
      "moved": true,
      "na": false,
-     "orig_odds": "-141"
+     "orig_odds": "-140"
     }
    },
    {
@@ -38909,20 +39151,20 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-30 10:26",
+    "priced": "2026-10-30 12:55",
     "dk": {
      "ladder": [
       [
        "8+",
-       "-830"
+       "-860"
       ],
       [
        "10+",
-       "-419"
+       "-420"
       ],
       [
        "12+",
-       "-231"
+       "-233"
       ],
       [
        "15+",
@@ -38930,11 +39172,11 @@
       ],
       [
        "18+",
-       "+187"
+       "+186"
       ],
       [
        "20+",
-       "+291"
+       "+294"
       ],
       [
        "25+",
@@ -38953,8 +39195,8 @@
   "skipped": [
    {
     "capper": "@panpotd",
-    "why": "no picks today",
-    "pick": ""
+    "why": "n/a at Hard Rock (exact line, no buy-down rung)",
+    "pick": "Terrance Shannon o19.5 PRA (LAC @ MIN; First NBA LOCK)"
    },
    {
     "capper": "@showtimepicks2",
@@ -38985,6 +39227,28 @@
    {
     "capper": "@alexcaruso",
     "sport": "NBA",
+    "pick": "Jakob Poeltl o6.5 Points (ORL @ TOR; Surgical Bet of the Day)",
+    "odds": "none posted",
+    "game": "ORL @ TOR",
+    "kick": "7:30 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "5+ -260",
+    "dk": "original line kept (no DK rung in -250..-375)",
+    "hr_odds": -260,
+    "dk_odds": null,
+    "start": "2026-10-30 19:30",
+    "hr_pick": "Jakob Poeltl 5+ Points",
+    "dk_pick": "Jakob Poeltl o6.5 Points",
+    "trk": "Jakob Poeltl 5+ Points",
+    "grade_odds": -260,
+    "hr_x": null,
+    "excluded": null
+   },
+   {
+    "capper": "@alexcaruso",
+    "sport": "NBA",
     "pick": "Jalen Green o14.5 Points (Suns)",
     "odds": "none posted",
     "game": "DEN @ PHX",
@@ -38993,38 +39257,126 @@
     "final": false,
     "frozen": false,
     "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "12+ -317",
+    "dk": "12+ -306",
     "hr_odds": null,
-    "dk_odds": -317,
+    "dk_odds": -306,
     "start": "2026-10-30 22:00",
     "hr_pick": "Jalen Green o14.5 Points",
     "dk_pick": "Jalen Green 12+ Points",
     "trk": "Jalen Green o14.5 Points",
-    "grade_odds": -130,
-    "hr_x": -130,
+    "grade_odds": -135,
+    "hr_x": -135,
+    "excluded": null
+   },
+   {
+    "capper": "@alexcaruso",
+    "sport": "NBA",
+    "pick": "Jaylen Brown o5.5 Rebounds (CHI @ BOS; Play of the Day)",
+    "odds": "none posted",
+    "game": "CHI @ BOS",
+    "kick": "7:30 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "5+ -275",
+    "dk": "5+ -285",
+    "hr_odds": -275,
+    "dk_odds": -285,
+    "start": "2026-10-30 19:30",
+    "hr_pick": "Jaylen Brown 5+ Rebounds",
+    "dk_pick": "Jaylen Brown 5+ Rebounds",
+    "trk": "Jaylen Brown 5+ Rebounds",
+    "grade_odds": -275,
+    "hr_x": null,
+    "excluded": null
+   },
+   {
+    "capper": "@alexcaruso",
+    "sport": "NBA",
+    "pick": "John Collins o6.5 Rebounds (LAC @ MIN)",
+    "odds": "none posted",
+    "game": "LAC @ MIN",
+    "kick": "8:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "6+ -260",
+    "dk": "6+ -270",
+    "hr_odds": -260,
+    "dk_odds": -270,
+    "start": "2026-10-30 20:00",
+    "hr_pick": "John Collins 6+ Rebounds",
+    "dk_pick": "John Collins 6+ Rebounds",
+    "trk": "John Collins 6+ Rebounds",
+    "grade_odds": -260,
+    "hr_x": null,
+    "excluded": null
+   },
+   {
+    "capper": "@alexcaruso",
+    "sport": "NBA",
+    "pick": "Rui Hachimura o4.5 Rebounds (LAL @ GS)",
+    "odds": "none posted",
+    "game": "LAL @ GS",
+    "kick": "10:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "4+ -275",
+    "dk": "4+ -320",
+    "hr_odds": -275,
+    "dk_odds": -320,
+    "start": "2026-10-30 22:00",
+    "hr_pick": "Rui Hachimura 4+ Rebounds",
+    "dk_pick": "Rui Hachimura 4+ Rebounds",
+    "trk": "Rui Hachimura 4+ Rebounds",
+    "grade_odds": -275,
+    "hr_x": null,
     "excluded": null
    },
    {
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Walker Kessler o13.5 Pts (#DubNation Vs #LakeShow; first NBA winner, NBA Play Of The Day)",
-    "odds": "-120",
+    "odds": "-120 DK",
     "game": "LAL @ GS",
     "kick": "10:00 PM ET",
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "10+ -375",
+    "hr": "original line kept (no HR rung in -250..-375)",
     "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": -375,
+    "hr_odds": null,
     "dk_odds": null,
     "start": "2026-10-30 22:00",
-    "hr_pick": "Walker Kessler 10+ Pts",
+    "hr_pick": "Walker Kessler o13.5 Pts",
     "dk_pick": "Walker Kessler o13.5 Pts",
-    "trk": "Walker Kessler 10+ Pts",
-    "grade_odds": -375,
+    "trk": "Walker Kessler o13.5 Pts",
+    "grade_odds": -120,
     "hr_x": null,
     "excluded": null
+   },
+   {
+    "capper": "@panpotd",
+    "sport": "NBA",
+    "pick": "Terrance Shannon o19.5 PRA (LAC @ MIN; First NBA LOCK)",
+    "odds": "none posted",
+    "game": "LAC @ MIN",
+    "kick": "8:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept (no HR rung in -250..-375)",
+    "dk": "original line kept (no DK rung in -250..-375)",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-10-30 20:00",
+    "hr_pick": null,
+    "dk_pick": "Terrance Shannon o19.5 PRA",
+    "trk": "Terrance Shannon o19.5 PRA",
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
    }
   ],
   "props": {
@@ -39047,7 +39399,7 @@
  },
  "gameday": {
   "date": "2026-10-30",
-  "built": "2026-10-30 10:26 ET",
+  "built": "2026-10-30 12:55 ET",
   "picks": 36,
   "vetoes": [],
   "gaps": [
@@ -39062,13 +39414,13 @@
   ]
  },
  "dk": {
-  "fetched": "2026-10-30 10:18 ET",
-  "snapshots": 3,
-  "pregame_games": 108,
+  "fetched": "2026-10-30 12:54 ET",
+  "snapshots": 5,
+  "pregame_games": 118,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
    "legs": 39,
-   "priced": 24,
+   "priced": 23,
    "na": [
     "MarShawn Lloyd (RB) anytime TD",
     "Blake Corum (RB) anytime TD",
@@ -39084,6 +39436,7 @@
     "Edge Q1 Tulane Team Total Under 6.5",
     "LEG DAY Paul George Over 1.5 Steals",
     "LEG DAY Paul Reed Under 1.5 Blocks",
+    "Davion Mitchell Over 21.5 Pts + Reb + Ast",
     "No qualifying ticket today"
    ]
   }
