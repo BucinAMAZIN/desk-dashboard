@@ -550,7 +550,7 @@ g.addEventListener('keydown',function(e){if(e.key!=='ArrowLeft'&&e.key!=='ArrowR
 g.addEventListener('animationend',function(){g.classList.remove('glint')});
 apply(cur())})();
 
-const UI_BUILD='1793331116';
+const UI_BUILD='1793341416';
 const U$=x=>{const v=Math.round(+String(x).replace(/,/g,'')/1.5*100)/100;return v+'u'};let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\b0(\d:\d\d\s?[AP]M)/g,'$1').replace(/(\bParlay\s+)?(\bTicket B\b|\+100 ticket)/gi,(m,p,t)=>p&&/^\+/.test(t)?m:'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,(m,o,x)=>/Lotto Ticket \($/.test(x.slice(Math.max(0,o-14),o))?m:'Lotto Ticket').replace(/\$\s?(\d[\d,]*(?:\.\d+)?)/g,(m,x)=>U$(x)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -1502,6 +1502,12 @@ function igTrack(o,p,sum){p=String(p).replace(/^(.+?\s+(?:(?:[Oo]ver|[Uu]nder|OV
   const k=MAP[m[4].toLowerCase()];const nm=m[1].toLowerCase().replace(/\b(jr|sr|ii|iii)\.?$/,'').trim(),last=nm.split(' ').pop();let v=null;
   for(const t of ((sum.boxscore||{}).players||[]))for(const gq of t.statistics||[]){if(gq.name!==k[0])continue;const i=(gq.keys||[]).indexOf(k[1]);if(i<0)continue;for(const a of gq.athletes||[]){const dw=lvN(a.athlete.displayName).replace(/\s(jr|sr|ii|iii|iv|v)$/,'').split(' '),nw=lvN(nm).replace(/\s(jr|sr|ii|iii|iv|v)$/,'').split(' ');if(dw[dw.length-1]==nw[nw.length-1]&&(dw[0]==nw[0]||(nw[0].length<=2&&dw[0][0]==nw[0][0]))){let x=String(a.stats[i]);if(k[2]!=null)x=x.split('/')[k[2]];v=+x}}}
   if(v==null)v=0;const lab={receivingYards:'REC YDS',rushingYards:'RUSH YDS',rushingAttempts:'CAR',passingYards:'PASS YDS',receptions:'REC'}[k[1]]||(k[2]?'ATT':'CMP');return mk(v,+m[3],/^u/i.test(m[2]),lab)}
+ /* POTD-COLOR-1029: single-stat NBA/WNBA/NHL props (Points, Rebounds, Assists, Threes, Shots On Goal...) use the same clock-pace colour + emoji as every other exact-stat tracker; before this they fell to lvTrack, which stays grey (no emoji) until the prop is half-way or the 4th quarter */
+ let m1=sum&&/^(nba|wnba|nhl|mens-college-basketball|womens-college-basketball)$/.test(lg)&&p.match(/^(.+?)\s+(Over|Under|o|u)\s*(\d+(?:\.\d+)?)\s+(points|pts|rebounds|reb|assists|ast|steals|stl|blocks|blk|threes(?:\s+made)?|3-?pointers(?:\s+made)?|3pm|made threes|shots on goal|sog|goals|saves|hits|blocked shots)\b/i);
+ if(m1){const ty=m1[4].toLowerCase(),H=lg=='nhl',L=+m1[3],u=/^u/i.test(m1[2]);let ks,lab;
+  if(/^(points|pts)$/.test(ty)){ks=H?['goals','assists']:['points'];lab='PTS'}else if(/^(rebounds|reb)$/.test(ty)){ks=['rebounds'];lab='REB'}else if(/^(assists|ast)$/.test(ty)){ks=['assists'];lab='AST'}else if(/^(steals|stl)$/.test(ty)){ks=['steals'];lab='STL'}else if(/^blocked shots$/.test(ty)||(H&&/^(blocks|blk)$/.test(ty))){ks=['blockedShots'];lab='BLK'}else if(/^(blocks|blk)$/.test(ty)){ks=['blocks'];lab='BLK'}
+  else if(/three|3-?pointer|3pm/.test(ty)){ks=['threePointFieldGoalsMade-threePointFieldGoalsAttempted'];lab='3PM'}else if(/^(shots on goal|sog)$/.test(ty)){ks=['shotsTotal'];lab='SOG'}else if(ty=='goals'){ks=['goals'];lab='G'}else if(ty=='saves'){ks=['saves'];lab='SV'}else if(ty=='hits'){ks=['hits'];lab='HITS'}
+  if(ks){let v=null;for(const k of ks){const x=igV(m1[1],null,k);if(x!=null)v=(v||0)+x}if(v!=null)return mk(v,L,u,lab)}}
  m=p.match(/^(.+?)\s+(Over|Under)\s+(\d+(?:\.\d+)?)(\s+total)?\s*$/i);
  if(m&&o.A&&o.H){const L=+m[3],u=/^u/i.test(m[2]);if(/@/.test(m[1])||m[4])return mk((+o.A.score||0)+(+o.H.score||0),L,u,'TOTAL');
   const w=m[1].toLowerCase().split(' ').pop();const T=[o.A,o.H].find(t=>[t.team.displayName,t.team.shortDisplayName,t.team.name,t.team.abbreviation].some(n=>String(n||'').toLowerCase().includes(w)));if(T)return mk(+T.score||0,L,u,(T.team.abbreviation||'')+' PTS')}
