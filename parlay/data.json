@@ -1,5 +1,5 @@
 {
- "generated": 1793338254.2184126,
+ "generated": 1793338352.1798277,
  "today": {
   "title": "Oct 30 picks (Hard Rock)",
   "tickets": [],
@@ -1692,7 +1692,7 @@
  "record": {
   "overall": {
    "official": {
-    "w": 151,
+    "w": 152,
     "l": 237,
     "p": 1,
     "pct": 39
@@ -1715,7 +1715,7 @@
     "p": 0,
     "pct": 35
    },
-   "pending": 2
+   "pending": 1
   },
   "props": [
    {
@@ -1768,18 +1768,18 @@
     "pct": 50
    },
    {
+    "prop": "NCAAF spread",
+    "w": 1,
+    "l": 7,
+    "p": 0,
+    "pct": 12
+   },
+   {
     "prop": "NBA parlay",
     "w": 1,
     "l": 6,
     "p": 0,
     "pct": 14
-   },
-   {
-    "prop": "NCAAF spread",
-    "w": 0,
-    "l": 7,
-    "p": 0,
-    "pct": 0
    },
    {
     "prop": "NHL team total",
@@ -2333,8 +2333,8 @@
     "date": "2026-10-29",
     "pick": "NCAA F · Edge: Q1 Florida Atlantic ML (tie refunds)",
     "odds": "+220",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (3-10)"
    },
    {
     "date": "2026-10-29",
@@ -6530,6 +6530,14 @@
    ],
    [
     "10/29",
+    -82
+   ],
+   [
+    "10/29",
+    -83
+   ],
+   [
+    "10/29",
     -84
    ],
    [
@@ -6542,15 +6550,7 @@
    ],
    [
     "10/29",
-    -87
-   ],
-   [
-    "10/29",
-    -86
-   ],
-   [
-    "10/29",
-    -87
+    -85
    ],
    [
     "10/29",
@@ -6562,15 +6562,19 @@
    ],
    [
     "10/29",
-    -86
+    -84
+   ],
+   [
+    "10/29",
+    -85
    ]
   ]
  },
  "cappers": [
   {
    "name": "@tonestakes",
-   "w": 1,
-   "l": 4,
+   "w": 2,
+   "l": 8,
    "p": 0,
    "pct": 20,
    "props": [
@@ -6589,6 +6593,22 @@
      "p": 0,
      "pct": 0,
      "fam": "Saves"
+    },
+    {
+     "prop": "NHL ML (fade)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
+    },
+    {
+     "prop": "NHL team total (over)",
+     "w": 1,
+     "l": 3,
+     "p": 0,
+     "pct": 25,
+     "fam": "Team total"
     },
     {
      "prop": "NHL game total (over)",
@@ -6970,9 +6990,9 @@
   {
    "name": "@panpotd",
    "w": 19,
-   "l": 18,
+   "l": 19,
    "p": 0,
-   "pct": 51,
+   "pct": 50,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -7041,9 +7061,9 @@
     {
      "prop": "NBA reb+ast (over)",
      "w": 3,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100,
+     "pct": 75,
      "fam": "Reb+Ast"
     },
     {
@@ -7253,7 +7273,7 @@
  "capper_today_date": "2026-10-30",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-30 01:30 AM ET",
+  "updated": "2026-10-30 01:32 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -10107,10 +10127,10 @@
   },
   {
    "sport": "NCAA F",
-   "w": 4,
+   "w": 5,
    "l": 11,
    "p": 0,
-   "pct": 27,
+   "pct": 31,
    "active": true,
    "ticket_legs": {
     "w": 1,
@@ -11602,17 +11622,17 @@
   },
   {
    "sport": "NCAA F",
-   "w": 4,
+   "w": 5,
    "l": 11,
    "p": 0,
-   "pct": 27,
+   "pct": 31,
    "props": [
     {
      "prop": "NCAAF spread",
-     "w": 0,
+     "w": 1,
      "l": 7,
      "p": 0,
-     "pct": 0
+     "pct": 12
     },
     {
      "prop": "NCAAF team total",
@@ -11651,17 +11671,17 @@
     }
    ],
    "official": {
-    "w": 4,
+    "w": 5,
     "l": 11,
     "p": 0,
-    "pct": 27,
+    "pct": 31,
     "props": [
      {
       "prop": "NCAAF spread",
-      "w": 0,
+      "w": 1,
       "l": 7,
       "p": 0,
-      "pct": 0
+      "pct": 12
      },
      {
       "prop": "NCAAF team total",
@@ -13751,12 +13771,12 @@
  },
  "edge_record": {
   "overall": {
-   "w": 91,
+   "w": 92,
    "l": 162,
    "p": 1,
    "pct": 36,
-   "units": -21.36,
-   "pending": 1
+   "units": -19.16,
+   "pending": 0
   },
   "by_sport": {
    "MLB": {
@@ -13776,12 +13796,12 @@
     "pending": 0
    },
    "NCAA F": {
-    "w": 3,
+    "w": 4,
     "l": 8,
     "p": 0,
-    "pct": 27,
-    "units": -4.8,
-    "pending": 1
+    "pct": 33,
+    "units": -2.6,
+    "pending": 0
    },
    "NFL": {
     "w": 4,
@@ -13882,12 +13902,12 @@
     "pending": 0
    },
    "NCAAF spread": {
-    "w": 0,
+    "w": 1,
     "l": 7,
     "p": 0,
-    "pct": 0,
-    "units": -7.0,
-    "pending": 1
+    "pct": 12,
+    "units": -4.8,
+    "pending": 0
    },
    "NCAAF team total": {
     "w": 2,
@@ -17872,8 +17892,8 @@
    "prop": "NCAAF spread",
    "pick": "Q1 Florida Atlantic ML (tie refunds)",
    "odds": "+220",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (3-10)"
   },
   {
    "date": "2026-10-29",
@@ -17986,8 +18006,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 389,
-  "headline": 389
+  "tiles_sum": 390,
+  "headline": 390
  },
  "inning_record": {},
  "ingame_lines": {
@@ -23383,8 +23403,8 @@
     "prop": "NCAAF spread",
     "pick": "Q1 Florida Atlantic ML (tie refunds)",
     "odds": "+220",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (3-10)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -29554,6 +29574,150 @@
     "uu": -1.0
    },
    {
+    "date": "2026-10-29",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL ML (fade)",
+    "fam": "ML",
+    "pick": "Fade Wsh tonight (WSH @ NSH; #TonesB2BNHLSystem)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (WSH 4-3 NSH, WSH won)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (under)",
+    "fam": "Rebounds",
+    "pick": "Robert Williams u7.5 Rebounds (vs Grizzlies; NBA Play of the Day)",
+    "odds": "none posted",
+    "res": "V",
+    "stat": "Void (DNP, not in POR box score)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA reb+ast (over)",
+    "fam": "Reb+Ast",
+    "pick": "Evan Mobley o12.5 RA (Cavaliers vs Hawks; favorite NBA prop, top play)",
+    "odds": "-120",
+    "res": "L",
+    "stat": "L (4 REB + 7 AST = 11)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA pts+reb (over)",
+    "fam": "Pts+Reb",
+    "pick": "Robert Williams o13.5 PR (Grizzlies vs Trail Blazers; first NBA winner, NBA Play of the Day)",
+    "odds": "-114",
+    "res": "V",
+    "stat": "Void (DNP, not in POR box score)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.0
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL team total (over)",
+    "fam": "Team total",
+    "pick": "DAL o3.5 (MTL @ DAL 8:00pm; 1u)",
+    "odds": "+108 BR",
+    "res": "L",
+    "stat": "L (DAL 2 goals)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL team total (over)",
+    "fam": "Team total",
+    "pick": "NSH o3.5 (WSH @ NSH 8:00pm; #TonesB2BNHLSystem; 1u)",
+    "odds": "+135",
+    "res": "L",
+    "stat": "L (NSH 3 goals)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL team total (over)",
+    "fam": "Team total",
+    "pick": "SJ o3.5 (VAN @ SJ 10:00pm; 1.29u)",
+    "odds": "-129",
+    "res": "L",
+    "stat": "L (SJ 3 goals)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-29",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL team total (over)",
+    "fam": "Team total",
+    "pick": "LA o3 (OTT @ LA 10:00pm; 1.05u)",
+    "odds": "-105",
+    "res": "W",
+    "stat": "W (LA 6 goals)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.95
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -29834,142 +29998,6 @@
     "fam": "Parlay",
     "pick": "Tennis 2-leg parlay: Jodar ML + Musetti ML (tennis free play)",
     "odds": "-124",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL ML (fade)",
-    "fam": "ML",
-    "pick": "Fade Wsh tonight (WSH @ NSH; #TonesB2BNHLSystem)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NBA rebounds (under)",
-    "fam": "Rebounds",
-    "pick": "Robert Williams u7.5 Rebounds (vs Grizzlies; NBA Play of the Day)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NBA reb+ast (over)",
-    "fam": "Reb+Ast",
-    "pick": "Evan Mobley o12.5 RA (Cavaliers vs Hawks; favorite NBA prop, top play)",
-    "odds": "-120",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA pts+reb (over)",
-    "fam": "Pts+Reb",
-    "pick": "Robert Williams o13.5 PR (Grizzlies vs Trail Blazers; first NBA winner, NBA Play of the Day)",
-    "odds": "-114",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL team total (over)",
-    "fam": "Team total",
-    "pick": "DAL o3.5 (MTL @ DAL 8:00pm; 1u)",
-    "odds": "+108 BR",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL team total (over)",
-    "fam": "Team total",
-    "pick": "NSH o3.5 (WSH @ NSH 8:00pm; #TonesB2BNHLSystem; 1u)",
-    "odds": "+135",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL team total (over)",
-    "fam": "Team total",
-    "pick": "SJ o3.5 (VAN @ SJ 10:00pm; 1.29u)",
-    "odds": "-129",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-29",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL team total (over)",
-    "fam": "Team total",
-    "pick": "LA o3 (OTT @ LA 10:00pm; 1.05u)",
-    "odds": "-105",
     "res": "",
     "stat": "",
     "alt": false,
@@ -31620,11 +31648,11 @@
    },
    "E": {
     "tickets": {
-     "w": 91,
+     "w": 92,
      "l": 162,
      "p": 1,
-     "pending": 1,
-     "units": -71
+     "pending": 0,
+     "units": -70
     },
     "legs": {
      "w": 0,
@@ -31636,11 +31664,11 @@
    },
    "C": {
     "tickets": {
-     "w": 119,
-     "l": 90,
-     "p": 1,
-     "pending": 25,
-     "units": -21.94,
+     "w": 120,
+     "l": 95,
+     "p": 3,
+     "pending": 17,
+     "units": -25.99,
      "no_odds": 88
     },
     "legs": {
@@ -31680,7 +31708,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 25 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 17 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 279 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-28', 'Parlay +100', '2-leg', '+121', False), ('O', '2026-10-29', 'Parlay +100', '2-leg', '+125', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -31841,6 +31869,7 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
+  "conv": [],
   "props": {
    "n": 0,
    "w": 0,
@@ -31848,8 +31877,7 @@
    "p": 0,
    "pending": 0,
    "units": 0.0
-  },
-  "conv": []
+  }
  },
  "big4_games": 13,
  "big4_games_by_sport": {
@@ -31860,7 +31888,7 @@
  },
  "gameday": {
   "date": "2026-10-30",
-  "built": "2026-10-30 01:31 ET",
+  "built": "2026-10-30 01:32 ET",
   "picks": 7,
   "vetoes": [],
   "gaps": [
