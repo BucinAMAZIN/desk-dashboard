@@ -1,5 +1,5 @@
 {
- "generated": 1793369944.973515,
+ "generated": 1793370409.7505357,
  "today": {
   "title": "Oct 30 picks (Hard Rock)",
   "tickets": [
@@ -7317,11 +7317,7 @@
      "pick": "Tail Wpg (WPG @ FLA 7:00pm; #TonesB2BNHLSystem)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "ML",
-     "game": "WPG @ FLA",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "ML"
     }
    ]
   },
@@ -7566,11 +7562,7 @@
      "pick": "Jalen Green o14.5 Points (Suns)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Player points",
-     "game": "DEN @ PHX",
-     "kick": "10:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Player points"
     }
    ]
   },
@@ -7709,11 +7701,7 @@
      "pick": "Walker Kessler o13.5 Pts (#DubNation Vs #LakeShow; first NBA winner, NBA Play Of The Day)",
      "odds": "-120 DK",
      "status": "Pending",
-     "fam": "Player points",
-     "game": "LAL @ GS",
-     "kick": "10:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Player points"
     }
    ]
   },
@@ -8011,7 +7999,7 @@
  "capper_today_date": "2026-10-30",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-30 10:19 AM ET",
+  "updated": "2026-10-30 10:26 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -23613,6 +23601,7 @@
    "Exempt from the official standards's edge rule (no Pinnacle edge requirement) and from the parlay shape. Everything else still applies: real Hard Rock prices only, never invent a price, locks, grading.",
    "Ticket: max 5 legs, one per game, at least 2 legs. With no ticket yet (before the first build, or fewer than 2 bought-down legs) the card is a minimal empty card: header, Stake 1u and this Rules dropdown, with no timing text.",
    "TALLY = INDIVIDUAL ALT PROPS: every buy-down in the Buy-downs list is its own Official 1u single, graded at its converted Hard Rock alt line (the capper's original line when no rung was kept), priced at that Hard Rock alt price (kept line: the real Hard Rock exact-line price before kickoff, else the capper's posted price). Rows are written to the bot once the game starts (conversion frozen at kickoff) and graded nightly by the bot (W pays at the price, L = -1u, push/void 0; longest rush/rec from the ESPN box-score LONG column). Records shows THE HEIST group as per-prop W-L and units, by prop type and capper. Not graded (not a single prop with a gradable line): capper parlays, ML/side picks and ambiguous stats; the card lists each with its reason. The old parlay ticket record is archived in the bot (never deleted, never tallied). The card no longer shows a combined parlay price; it shows the day's alt-prop W-L and units. Every buy-down row and every leg shows the live prop tracker at the active book's converted line.",
+   "PROPKEY GRADER, AUTO-VOID, UNREADABLE REPORT: The bot grades the bot with the same stat reader as the Official tickets, mapped to ESPN box-score columns by propkey.box_cols (longest rush/rec on the LONG column). If the game is final and the player is not in the box score (or is listed DNP), the same ESPN roster + gamelog check TD City uses (td_dnp) confirms no appearance -> the prop is VOID (0u, out of the hit rate); unclear cases stay Pending with a note in logs/grade_finals.log. Any Heist leg the reader cannot parse, or whose stat has no box-score column (e.g. total bases, longest pass), and any buy-down skipped for an unreadable stat is listed under 'HEIST unreadable' in the nightly grading log/report with the leg and the reason, never left Pending silently. 'Pts + Reb' style combos and 3PM / interceptions now convert (no longer 'capper parlay' / 'ambiguous stat'). Backfilled 2026-10-30: 6 earlier skipped conversions (Prescott, Podziemski, J. Smith, Avdija, Clowney, Brunson); voided Nembhard o20.5 PA (10/26) and Robert Williams o13.5 PR (10/29) as DNP.",
    "Capper / heist separation:",
    "CAPPER SELF-AUDIT. The bot runs automatically, zero LLM, in every capper pull path: the 7 AM pull and every the bot run (7am, 10am, 1230pm, 4pm), in this order: the bot, then a pre-audit that fixes rows (result not gating), then the bot, then the bot, then the GATE audit against the freshly built the bot, then push. It does four things."
   ],
@@ -36360,8 +36349,8 @@
     "fam": "Other",
     "pick": "Andrew Nembhard o20.5 PA",
     "odds": "-125",
-    "res": "",
-    "stat": "",
+    "res": "V",
+    "stat": "DNP (void)",
     "alt": true,
     "leg": false,
     "img": null,
@@ -36792,8 +36781,8 @@
     "fam": "Other",
     "pick": "Robert Williams o13.5 PR",
     "odds": "-114",
-    "res": "",
-    "stat": "",
+    "res": "V",
+    "stat": "DNP (void)",
     "alt": true,
     "leg": false,
     "img": null,
@@ -36836,6 +36825,114 @@
     "sub": "from Evan Mobley o12.5 RA",
     "uu": -1.0,
     "game": "CLE @ ATL"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Pass other",
+    "fam": "Pass other",
+    "pick": "Dak Prescott u0.5 interceptions",
+    "odds": "+105",
+    "res": "W",
+    "stat": "0 INT",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Dak Prescott u0.5 interceptions",
+    "uu": 1.05,
+    "game": "DAL @ PHI"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@alexcaruso · Player points",
+    "fam": "Player points",
+    "pick": "Brandon Podziemski o14.5 Points",
+    "odds": "-160",
+    "res": "W",
+    "stat": "18 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Brandon Podziemski 15+ Points",
+    "uu": 0.62,
+    "game": "GS @ DEN"
+   },
+   {
+    "date": "2026-10-26",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · 3PM",
+    "fam": "3PM",
+    "pick": "Jalen Smith 1+ 3PM",
+    "odds": "-375",
+    "res": "W",
+    "stat": "2 3PM",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jalen Smith o1.5 3PM",
+    "uu": 0.27,
+    "game": "CHI @ BOS"
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · 3PM",
+    "fam": "3PM",
+    "pick": "Deni Avdija o1.5 3PM",
+    "odds": "-115",
+    "res": "W",
+    "stat": "4 3PM",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Deni Avdija o1.5 3PM",
+    "uu": 0.87,
+    "game": "POR @ LAL"
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@austinsprops · 3PM",
+    "fam": "3PM",
+    "pick": "Noah Clowney 1+ 3PM",
+    "odds": "-260",
+    "res": "W",
+    "stat": "1 3PM",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Noah Clowney o1.5 3PM",
+    "uu": 0.38,
+    "game": "BKN @ BOS"
+   },
+   {
+    "date": "2026-10-27",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "The Heist",
+    "prop": "@panpotd · Player points",
+    "fam": "Player points",
+    "pick": "Jalen Brunson o24.5 Points",
+    "odds": "-135",
+    "res": "L",
+    "stat": "23 PTS",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "from Jalen Brunson 25+ Points",
+    "uu": -1.0,
+    "game": "DET @ NY"
    },
    {
     "date": "2026-10-25",
@@ -38532,11 +38629,11 @@
   "summary": {
    "O": {
     "tickets": {
-     "w": 95,
-     "l": 113,
-     "p": 3,
-     "pending": 22,
-     "units": -18
+     "w": 100,
+     "l": 114,
+     "p": 5,
+     "pending": 20,
+     "units": -14
     },
     "legs": {
      "w": 57,
@@ -38750,7 +38847,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-30 10:19",
+    "priced": "2026-10-30 10:26",
     "orig_note": "book price; capper posted no odds",
     "dk": {
      "ladder": [
@@ -38812,7 +38909,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-30 10:19",
+    "priced": "2026-10-30 10:26",
     "dk": {
      "ladder": [
       [
@@ -38911,7 +39008,7 @@
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Walker Kessler o13.5 Pts (#DubNation Vs #LakeShow; first NBA winner, NBA Play Of The Day)",
-    "odds": "-120 DK",
+    "odds": "-120",
     "game": "LAL @ GS",
     "kick": "10:00 PM ET",
     "started": false,
@@ -38950,7 +39047,7 @@
  },
  "gameday": {
   "date": "2026-10-30",
-  "built": "2026-10-30 10:19 ET",
+  "built": "2026-10-30 10:26 ET",
   "picks": 36,
   "vetoes": [],
   "gaps": [
