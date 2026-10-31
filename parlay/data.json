@@ -1,5 +1,5 @@
 {
- "generated": 1793477717.982938,
+ "generated": 1793478206.910734,
  "today": {
   "title": "Oct 31 picks (Hard Rock)",
   "tickets": [
@@ -221,7 +221,7 @@
        ],
        [
         "4+",
-        "-312"
+        "-306"
        ],
        [
         "5+",
@@ -233,15 +233,15 @@
        ],
        [
         "7+",
-        "+234"
+        "+226"
        ],
        [
         "8+",
-        "+414"
+        "+402"
        ],
        [
         "9+",
-        "+720"
+        "+710"
        ],
        [
         "10+",
@@ -249,11 +249,11 @@
        ],
        [
         "11+",
-        "+1920"
+        "+2000"
        ],
        [
         "12+",
-        "+2700"
+        "+2800"
        ]
       ]
      },
@@ -291,44 +291,44 @@
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-179",
+        "odds": "-164",
         "na": false,
         "ladder": [
          [
           "12+",
-          "-1340"
+          "-1160"
          ],
          [
           "15+",
-          "-549"
+          "-494"
          ],
          [
           "18+",
-          "-276"
+          "-251"
          ],
          [
           "20+",
-          "-179"
+          "-164"
          ],
          [
           "22+",
-          "-118"
+          "-110"
          ],
          [
           "25+",
-          "+150"
+          "+162"
          ],
          [
           "30+",
-          "+382"
+          "+409"
          ],
          [
           "35+",
-          "+970"
+          "+1020"
          ],
          [
           "40+",
-          "+2100"
+          "+2200"
          ]
         ]
        }
@@ -362,7 +362,7 @@
         "ladder": [
          [
           "3+",
-          "-730"
+          "-740"
          ],
          [
           "4+",
@@ -370,31 +370,31 @@
          ],
          [
           "5+",
-          "-138"
+          "-136"
          ],
          [
           "6+",
-          "+144"
+          "+143"
          ],
          [
           "7+",
-          "+270"
+          "+265"
          ],
          [
           "8+",
-          "+499"
+          "+486"
          ],
          [
           "9+",
-          "+840"
+          "+870"
          ],
          [
           "10+",
-          "+1420"
+          "+1520"
          ],
          [
           "11+",
-          "+2200"
+          "+2300"
          ]
         ]
        }
@@ -402,7 +402,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NBA",
-     "dk_odds": "+110"
+     "dk_odds": "+117"
     }
    },
    "NHL": {
@@ -7963,7 +7963,11 @@
      "pick": "G. McKenna o0.5 Ast (TOR @ VAN 7:00pm)",
      "odds": "+132",
      "status": "Pending",
-     "fam": "Assists"
+     "fam": "Assists",
+     "game": "TOR @ VAN",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -7971,7 +7975,11 @@
      "pick": "Cole Caufield o3.5 SOG (PIT @ MTL 7:00pm)",
      "odds": "+140",
      "status": "Pending",
-     "fam": "SOG"
+     "fam": "SOG",
+     "game": "PIT @ MTL",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -7979,7 +7987,11 @@
      "pick": "F. Minten 3+ SOG (CHI @ BOS 1:00pm)",
      "odds": "+205 FD",
      "status": "L",
-     "fam": "SOG"
+     "fam": "SOG",
+     "game": "CHI @ BOS",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true
     },
     {
      "sport": "NHL",
@@ -7987,7 +7999,11 @@
      "pick": "J. Hagens 3+ SOG (CHI @ BOS 1:00pm)",
      "odds": "+210 FD",
      "status": "L",
-     "fam": "SOG"
+     "fam": "SOG",
+     "game": "CHI @ BOS",
+     "kick": "1:00 PM ET",
+     "started": true,
+     "final": true
     },
     {
      "sport": "NHL",
@@ -7995,7 +8011,11 @@
      "pick": "Rickard Rakell o2.5 SOG (PIT @ MTL 7:00pm)",
      "odds": "+115",
      "status": "Pending",
-     "fam": "SOG"
+     "fam": "SOG",
+     "game": "PIT @ MTL",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -8003,7 +8023,11 @@
      "pick": "Roman Josi o2.5 SOG (TB @ NSH 2:00pm)",
      "odds": "+126",
      "status": "Pending",
-     "fam": "SOG"
+     "fam": "SOG",
+     "game": "TB @ NSH",
+     "kick": "2:00 PM ET",
+     "started": true,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -8011,7 +8035,11 @@
      "pick": "TJ Hughes 3+ SOG (CGY @ COL 10:00pm; 6th NHL take)",
      "odds": "+205 FD",
      "status": "Pending",
-     "fam": "SOG"
+     "fam": "SOG",
+     "game": "CGY @ COL",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -8019,7 +8047,11 @@
      "pick": "Fade Cgy (CGY @ COL 10:00pm; #TonesB2BNHLSystem)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "ML"
+     "fam": "ML",
+     "game": "CGY @ COL",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -8027,7 +8059,11 @@
      "pick": "Montreal Canadiens Team Total Over 3.5 (PIT @ MTL 7:00pm)",
      "odds": "+106",
      "status": "Pending",
-     "fam": "Team total"
+     "fam": "Team total",
+     "game": "PIT @ MTL",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -8035,7 +8071,11 @@
      "pick": "San Jose Sharks Team Total Over 3 (OTT @ SJ 4:00pm; Best Bet)",
      "odds": "-110",
      "status": "Pending",
-     "fam": "Team total"
+     "fam": "Team total",
+     "game": "OTT @ SJ",
+     "kick": "4:00 PM ET",
+     "started": true,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -8043,7 +8083,11 @@
      "pick": "Toronto Maple Leafs Team Total Over 3.5 (TOR @ VAN 7:00pm; Best Bet)",
      "odds": "-122",
      "status": "Pending",
-     "fam": "Team total"
+     "fam": "Team total",
+     "game": "TOR @ VAN",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -8051,7 +8095,11 @@
      "pick": "TB/NSH Over 6 (TB @ NSH 2:00pm; 1.15u)",
      "odds": "-115",
      "status": "Pending",
-     "fam": "Total"
+     "fam": "Total",
+     "game": "TB @ NSH",
+     "kick": "2:00 PM ET",
+     "started": true,
+     "final": false
     }
    ]
   },
@@ -8296,7 +8344,11 @@
      "pick": "Ayo Dosunmu 15+ Points (MIN; NBA Play #4)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "MIN @ SA",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -8304,7 +8356,11 @@
      "pick": "Darius Acuff o22.5 Points (SAC @ MEM)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "SAC @ MEM",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -8312,7 +8368,11 @@
      "pick": "Darryn Peterson o14.5 Points (vs Blazers; NBA Play #3)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "POR @ UTAH",
+     "kick": "3:00 PM ET",
+     "started": true,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -8320,7 +8380,11 @@
      "pick": "Saddiq Bey o11.5 Points (Play of the Day)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "ATL @ NO",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -8328,7 +8392,11 @@
      "pick": "Keyonte George u6.5 Assists (Fade of the Day)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "Assists"
+     "fam": "Assists",
+     "game": "POR @ UTAH",
+     "kick": "3:00 PM ET",
+     "started": true,
+     "final": false
     }
    ]
   },
@@ -8463,11 +8531,27 @@
    "today": [
     {
      "sport": "NBA",
+     "prop": "NBA pts+reb (over)",
+     "pick": "Cameron Boozer o24.5 PR (#GrindCity Vs #LightTheBeam; NBA Play Of The Day)",
+     "odds": "-108 FD",
+     "status": "Pending",
+     "fam": "Pts+Reb",
+     "game": "SAC @ MEM",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
      "prop": "NBA PRA (over)",
      "pick": "Jrue Holiday o23.5 PRA (#RipCity Vs #TakeNote; NBA Play Of The Day)",
      "odds": "-120 DK",
      "status": "Pending",
-     "fam": "PRA"
+     "fam": "PRA",
+     "game": "POR @ UTAH",
+     "kick": "3:00 PM ET",
+     "started": true,
+     "final": false
     }
    ]
   },
@@ -8567,7 +8651,20 @@
      "fam": "PRA"
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NBA",
+     "prop": "NBA points (over)",
+     "pick": "Ajay Mitchell o18.5 Points (OKC vs HOU; The Only Saturday NBA Prop You Need)",
+     "odds": "-110",
+     "status": "Pending",
+     "fam": "Player points",
+     "game": "OKC @ HOU",
+     "kick": "8:30 PM ET",
+     "started": false,
+     "final": false
+    }
+   ]
   },
   {
    "name": "@showtimepicks2",
@@ -8680,7 +8777,19 @@
      "pick": "Iowa Hawkeyes ML (CFB first play of the day)",
      "odds": "-124",
      "status": "W",
-     "fam": "ML"
+     "fam": "ML",
+     "game": "WIS @ IOWA",
+     "kick": "12:00 PM ET",
+     "started": true,
+     "final": true
+    },
+    {
+     "sport": "NCAAF",
+     "prop": "NCAAF spread",
+     "pick": "Georgia Bulldogs -11.5 (CFB free play)",
+     "odds": "-110",
+     "status": "Pending",
+     "fam": "Spread"
     }
    ]
   },
@@ -8731,7 +8840,47 @@
      "pick": "Iowa ML (CFB Week 9 Early Games; 1.22u to win 1u)",
      "odds": "-122",
      "status": "W",
-     "fam": "ML"
+     "fam": "ML",
+     "game": "WIS @ IOWA",
+     "kick": "12:00 PM ET",
+     "started": true,
+     "final": true
+    },
+    {
+     "sport": "NCAAF",
+     "prop": "NCAAF spread",
+     "pick": "Indiana -20.5 (CFB Week 9 Afternoon Games; 1.12u to win 1u)",
+     "odds": "-112",
+     "status": "Pending",
+     "fam": "Spread",
+     "game": "MINN @ IU",
+     "kick": "3:30 PM ET",
+     "started": true,
+     "final": false
+    },
+    {
+     "sport": "NCAAF",
+     "prop": "NCAAF spread",
+     "pick": "Northwestern +3.5 (CFB Week 9 Afternoon Games; 1.02u to win 1u)",
+     "odds": "-102",
+     "status": "Pending",
+     "fam": "Spread",
+     "game": "NU @ ORE",
+     "kick": "3:30 PM ET",
+     "started": true,
+     "final": false
+    },
+    {
+     "sport": "NCAAF",
+     "prop": "NCAAF spread",
+     "pick": "South Carolina +4.5 (CFB Week 9 Afternoon Games; 1.2u to win 1u)",
+     "odds": "-120",
+     "status": "Pending",
+     "fam": "Spread",
+     "game": "SC @ OU",
+     "kick": "4:15 PM ET",
+     "started": true,
+     "final": false
     },
     {
      "sport": "NCAAF",
@@ -8739,7 +8888,23 @@
      "pick": "Syracuse +10.5 (CFB Week 9 Early Games; 1.35u to win 1u)",
      "odds": "-135",
      "status": "W",
-     "fam": "Spread"
+     "fam": "Spread",
+     "game": "SMU @ SYR",
+     "kick": "12:00 PM ET",
+     "started": true,
+     "final": true
+    },
+    {
+     "sport": "NCAAF",
+     "prop": "NCAAF spread",
+     "pick": "Wake Forest -13.5 (CFB Week 9 Afternoon Games; 1.1u to win 1u)",
+     "odds": "-110",
+     "status": "Pending",
+     "fam": "Spread",
+     "game": "UVA @ WAKE",
+     "kick": "3:45 PM ET",
+     "started": true,
+     "final": false
     },
     {
      "sport": "NCAAF",
@@ -8747,7 +8912,11 @@
      "pick": "Arizona/Texas Tech Under 54.5 (CFB Week 9 Early Games; 1.05u to win 1u)",
      "odds": "-105",
      "status": "Pending",
-     "fam": "Total"
+     "fam": "Total",
+     "game": "ARIZ @ TTU",
+     "kick": "12:00 PM ET",
+     "started": true,
+     "final": true
     },
     {
      "sport": "NCAAF",
@@ -8755,7 +8924,27 @@
      "pick": "NCAAF 2-leg parlay: Duke ML + NC State ML (CFB Week 9 Early Games; 1.25u to win 1u)",
      "odds": "-125",
      "status": "W",
-     "fam": "Parlay"
+     "fam": "Parlay",
+     "legs": [
+      {
+       "leg": "Duke ML",
+       "player": "Duke ML",
+       "game": "BC @ DUKE",
+       "kick": "12:00 PM ET",
+       "started": true,
+       "final": true
+      },
+      {
+       "leg": "NC State ML",
+       "player": "NC State ML",
+       "game": "CAL @ NCSU",
+       "kick": "12:00 PM ET",
+       "started": true,
+       "final": true
+      }
+     ],
+     "game": "Multi-game",
+     "multi": true
     }
    ]
   }
@@ -8807,7 +8996,7 @@
  "capper_today_date": "2026-10-31",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-31 04:15 PM ET",
+  "updated": "2026-10-31 04:23 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -10390,28 +10579,28 @@
      {
       "a": "TB",
       "h": "NSH",
-      "st": "9:27 - 3rd",
+      "st": "5:52 - 3rd",
       "div": false,
       "stake": "TB 8-3-1: 4th Atlantic Division (4 pts back), East #6 seed (in playoff spot) · NSH 4-4-5: 6th Central Division (8 pts back), West #10 seed (outside playoffs)"
      },
      {
       "a": "EDM",
       "h": "NYI",
-      "st": "10:20 - 3rd",
+      "st": "5:03 - 3rd",
       "div": false,
       "stake": "EDM 9-2-2: 1st Pacific Division, West #2 seed (in playoff spot) · NYI 7-4-2: 4th Metropolitan Division (8 pts back), East #9 seed (outside playoffs)"
      },
      {
       "a": "BUF",
       "h": "LA",
-      "st": "15:51 - 1st",
+      "st": "10:01 - 1st",
       "div": false,
       "stake": "BUF 6-4-3: 7th Atlantic Division (6 pts back), East #11 seed (outside playoffs) · LA 4-6-2: 7th Pacific Division (10 pts back), West #14 seed (outside playoffs)"
      },
      {
       "a": "OTT",
       "h": "SJ",
-      "st": "15:26 - 1st",
+      "st": "9:44 - 1st",
       "div": false,
       "stake": "OTT 8-5-1: 5th Atlantic Division (4 pts back), East #7 seed (in playoff spot) · SJ 7-6-1: 4th Pacific Division (5 pts back), West #9 seed (outside playoffs)"
      },
@@ -14598,23 +14787,23 @@
        "ladder": [
         [
          "3+",
-         "-119"
+         "-111"
         ],
         [
          "4+",
-         "+202"
+         "+223"
         ],
         [
          "5+",
-         "+447"
+         "+513"
         ],
         [
          "6+",
-         "+930"
+         "+1120"
         ],
         [
          "7+",
-         "+1820"
+         "+2100"
         ]
        ],
        "na": true
@@ -14657,7 +14846,7 @@
        "ladder": [
         [
          "6+",
-         "-4000"
+         "-3900"
         ],
         [
          "7+",
@@ -14665,58 +14854,58 @@
         ],
         [
          "8+",
-         "-1300"
+         "-1280"
         ],
         [
          "9+",
-         "-810"
+         "-820"
         ],
         [
          "10+",
-         "-541"
+         "-560"
         ],
         [
          "11+",
-         "-367"
+         "-391"
         ],
         [
          "12+",
-         "-258"
+         "-274"
         ],
         [
          "13+",
-         "-183"
+         "-195"
         ],
         [
          "14+",
-         "-130"
+         "-141"
         ],
         [
          "15+",
-         "+104"
+         "-103"
         ],
         [
          "16+",
-         "+143"
+         "+133"
         ],
         [
          "17+",
-         "+196"
+         "+183"
         ],
         [
          "18+",
-         "+270"
+         "+248"
         ],
         [
          "19+",
-         "+372"
+         "+343"
         ],
         [
          "20+",
-         "+510"
+         "+472"
         ]
        ],
-       "odds": "-367",
+       "odds": "-391",
        "pick": "Domantas Sabonis 11+ reb",
        "moved": true,
        "na": false
@@ -14759,46 +14948,42 @@
        "ladder": [
         [
          "3+",
-         "-960"
+         "-910"
         ],
         [
          "4+",
-         "-346"
+         "-337"
         ],
         [
          "5+",
-         "-160"
+         "-156"
         ],
         [
          "6+",
-         "+120"
+         "+124"
         ],
         [
          "7+",
-         "+220"
+         "+228"
         ],
         [
          "8+",
-         "+394"
+         "+412"
         ],
         [
          "9+",
-         "+680"
+         "+740"
         ],
         [
          "10+",
-         "+1140"
+         "+1300"
         ],
         [
          "11+",
-         "+1860"
-        ],
-        [
-         "12+",
-         "+2800"
+         "+2100"
         ]
        ],
-       "odds": "-346",
+       "odds": "-337",
        "pick": "Kevin Durant 4+ reb",
        "na": false
       }
@@ -15014,7 +15199,7 @@
         ],
         [
          "3+",
-         "-195"
+         "-200"
         ],
         [
          "4+",
@@ -15022,7 +15207,7 @@
         ],
         [
          "5+",
-         "+250"
+         "+240"
         ],
         [
          "6+",
@@ -15031,9 +15216,13 @@
         [
          "7+",
          "+1000"
+        ],
+        [
+         "8+",
+         "+2000"
         ]
        ],
-       "odds": "-195",
+       "odds": "-200",
        "pick": "Jason Robertson 3+ SOG",
        "na": false
       }
@@ -15156,11 +15345,11 @@
         ],
         [
          "4+",
-         "+160"
+         "+155"
         ],
         [
          "5+",
-         "+340"
+         "+330"
         ],
         [
          "6+",
@@ -15177,7 +15366,7 @@
       }
      }
     ],
-    "dk_odds": "+143"
+    "dk_odds": "+141"
    },
    "TODAY": {
     "sport": "TODAY",
@@ -15228,50 +15417,50 @@
        "ladder": [
         [
          "3+",
-         "-920"
+         "-1040"
         ],
         [
          "4+",
-         "-369"
+         "-418"
         ],
         [
          "5+",
-         "-182"
+         "-204"
         ],
         [
          "6+",
-         "+100"
+         "-111"
         ],
         [
          "7+",
-         "+175"
+         "+159"
         ],
         [
          "8+",
-         "+304"
+         "+271"
         ],
         [
          "9+",
-         "+510"
+         "+448"
         ],
         [
          "10+",
-         "+850"
+         "+740"
         ],
         [
          "11+",
-         "+1380"
+         "+1180"
         ],
         [
          "12+",
-         "+2100"
+         "+1800"
         ],
         [
          "13+",
-         "+2800"
+         "+2600"
         ]
        ],
-       "odds": "-369",
+       "odds": "-418",
        "pick": "Jaden McDaniels 4+ reb",
        "na": false
       }
@@ -15503,7 +15692,7 @@
         ],
         [
          "2+",
-         "-280"
+         "-275"
         ],
         [
          "3+",
@@ -15522,13 +15711,13 @@
          "+1200"
         ]
        ],
-       "odds": "-280",
+       "odds": "-275",
        "pick": "Rickard Rakell 2+ SOG",
        "na": false
       }
      }
     ],
-    "dk_odds": "+128"
+    "dk_odds": "+123"
    }
   },
   "notes": {},
@@ -15625,7 +15814,6 @@
     "grade_why": "Edge +27.5% vs Pinnacle; hit in 2 of last 10, 2 of 13 this season (L10 avg 0.2).",
     "big4": true,
     "big4_only": null,
-    "now": "+450",
     "dk": {
      "odds": null,
      "na": true,
@@ -15655,7 +15843,6 @@
     "grade_why": "+23.8% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+275",
     "why_src": "Hard Rock +300 vs Pinnacle no-vig fair +223 (30.9%) → edge +23.78%. Clears the 4% Pinnacle edge floor at +23.78%. Price +300 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Kings vs. Sabres",
@@ -15917,7 +16104,7 @@
     "grade_why": "+15.5% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+195",
+    "now": "+200",
     "why_src": "Hard Rock +200 vs Pinnacle no-vig fair +160 (38.5%) → edge +15.48%. Clears the 4% Pinnacle edge floor at +15.48%. Price +200 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Stars vs. Blue Jackets",
@@ -16138,7 +16325,7 @@
       ],
       [
        "2+",
-       "+1200"
+       "+1100"
       ]
      ],
      "edge": 0.058584686774941996
@@ -16162,7 +16349,7 @@
     "grade_why": "+15.0% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+190",
+    "now": "+200",
     "why_src": "Hard Rock +210 vs Pinnacle no-vig fair +170 (37.1%) → edge +14.97%. Clears the 4% Pinnacle edge floor at +14.97%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Stars vs. Blue Jackets",
@@ -16374,19 +16561,19 @@
      "Risk: matchup 32/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "+185",
+     "odds": "+190",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+185"
+       "+190"
       ],
       [
        "2+",
-       "+1100"
+       "+1200"
       ]
      ],
-     "edge": 0.056937172774869094
+     "edge": 0.07547993019197219
     }
    },
    {
@@ -16407,7 +16594,7 @@
     "grade_why": "+12.4% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+195",
+    "now": "+200",
     "why_src": "Hard Rock +180 vs Pinnacle no-vig fair +149 (40.1%) → edge +12.37%. Clears the 4% Pinnacle edge floor at +12.37%. Price +180 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Canadiens vs. Penguins",
@@ -16666,7 +16853,7 @@
       ],
       [
        "2+",
-       "+1000"
+       "+950"
       ]
      ],
      "edge": 0.06345815168750168
@@ -16690,7 +16877,6 @@
     "grade_why": "+12.3% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+200",
     "why_src": "Hard Rock +210 vs Pinnacle no-vig fair +176 (36.2%) → edge +12.28%. Clears the 4% Pinnacle edge floor at +12.28%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Kings vs. Sabres",
@@ -16954,7 +17140,6 @@
     "grade_why": "+11.1% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+130",
     "why_src": "Hard Rock +125 vs Pinnacle no-vig fair +102 (49.4%) → edge +11.13%. Clears the 4% Pinnacle edge floor at +11.13%. Price +125 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sharks vs. Senators",
@@ -17208,7 +17393,6 @@
     "grade_why": "Edge +8.3% vs Pinnacle; hit in 6 of last 10, 6 of 13 this season (L10 avg 0.7).",
     "big4": true,
     "big4_only": null,
-    "now": "+145",
     "dk": {
      "odds": "+100",
      "na": false,
@@ -17243,7 +17427,7 @@
     "grade_why": "+8.2% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+105",
+    "now": "-105",
     "why_src": "Hard Rock +150 vs Pinnacle no-vig fair +131 (43.3%) → edge +8.24%. Clears the 4% Pinnacle edge floor at +8.24%. Price +150 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Canadiens vs. Penguins",
@@ -17504,7 +17688,7 @@
       ],
       [
        "2+",
-       "+700"
+       "+750"
       ]
      ],
      "edge": -0.004159279967271501
@@ -17528,7 +17712,6 @@
     "grade_why": "Edge +7.4% vs Pinnacle; hit in 3 of last 10, 3 of 13 this season (L10 avg 0.3).",
     "big4": true,
     "big4_only": null,
-    "now": "+275",
     "dk": {
      "odds": "+190",
      "na": false,
@@ -17563,7 +17746,7 @@
     "grade_why": "+6.5% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+185",
+    "now": "+190",
     "why_src": "Hard Rock +200 vs Pinnacle no-vig fair +182 (35.5%) → edge +6.54%. Clears the 4% Pinnacle edge floor at +6.54%. Price +200 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Canadiens vs. Penguins",
@@ -17815,19 +17998,19 @@
      "Risk: matchup 23/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "+150",
+     "odds": "+155",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+150"
+       "+155"
       ],
       [
        "2+",
        "+900"
       ]
      ],
-     "edge": -0.1121397706406887
+     "edge": -0.09438256605350248
     }
    },
    {
@@ -17848,7 +18031,6 @@
     "grade_why": "Edge +5.7% vs Pinnacle; hit in 4 of last 10, 5 of 12 this season (L10 avg 0.4).",
     "big4": true,
     "big4_only": null,
-    "now": "+160",
     "dk": {
      "odds": "+135",
      "na": false,
@@ -18135,15 +18317,15 @@
      "Risk: matchup 21/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "-110",
+     "odds": "-130",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-110"
+       "-130"
       ]
      ],
-     "edge": -0.041541672101212845
+     "edge": -0.11175839941980537
     }
    },
    {
@@ -18164,7 +18346,6 @@
     "grade_why": "+4.7% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+240",
     "why_src": "Hard Rock +225 vs Pinnacle no-vig fair +210 (32.2%) → edge +4.73%. Clears the 4% Pinnacle edge floor at +4.73%. Price +225 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sharks vs. Senators",
@@ -18422,7 +18603,6 @@
     "grade_why": "Edge +4.6% vs Pinnacle; hit in 1 of last 10, 1 of 14 this season (L10 avg 0.1).",
     "big4": true,
     "big4_only": null,
-    "now": "+200",
     "dk": {
      "odds": null,
      "na": true,
@@ -18456,7 +18636,6 @@
     "grade_why": "Edge +4.4% vs Pinnacle; hit in 5 of last 10, 6 of 13 this season (L10 avg 0.6).",
     "big4": true,
     "big4_only": null,
-    "now": "+120",
     "dk": {
      "odds": "-105",
      "na": false,
@@ -18744,15 +18923,15 @@
      "Risk: matchup 21/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "+110",
+     "odds": "-105",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "+110"
+       "-105"
       ]
      ],
-     "edge": 0.041505198009789135
+     "edge": -0.031707185523778825
     }
    },
    {
@@ -18773,7 +18952,6 @@
     "grade_why": "+4.0% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+160",
     "why_src": "Hard Rock +155 vs Pinnacle no-vig fair +145 (40.8%) → edge +4.03%. Clears the 4% Pinnacle edge floor at +4.03%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Islanders vs. Oilers",
@@ -19667,7 +19845,7 @@
        ],
        [
         "2+",
-        "+1200"
+        "+1100"
        ]
       ],
       "edge": 0.058584686774941996
@@ -19900,19 +20078,19 @@
       "Risk: matchup 32/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
      ],
      "dk": {
-      "odds": "+185",
+      "odds": "+190",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+185"
+        "+190"
        ],
        [
         "2+",
-        "+1100"
+        "+1200"
        ]
       ],
-      "edge": 0.056937172774869094
+      "edge": 0.07547993019197219
      }
     },
     {
@@ -20189,7 +20367,7 @@
        ],
        [
         "2+",
-        "+1000"
+        "+950"
        ]
       ],
       "edge": 0.06345815168750168
@@ -21015,7 +21193,7 @@
        ],
        [
         "2+",
-        "+700"
+        "+750"
        ]
       ],
       "edge": -0.004159279967271501
@@ -21320,19 +21498,19 @@
       "Risk: matchup 23/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
      ],
      "dk": {
-      "odds": "+150",
+      "odds": "+155",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+150"
+        "+155"
        ],
        [
         "2+",
         "+900"
        ]
       ],
-      "edge": -0.1121397706406887
+      "edge": -0.09438256605350248
      }
     },
     {
@@ -21634,15 +21812,15 @@
       "Risk: matchup 21/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
      ],
      "dk": {
-      "odds": "-110",
+      "odds": "-130",
       "na": false,
       "ladder": [
        [
         "u1.5",
-        "-110"
+        "-130"
        ]
       ],
-      "edge": -0.041541672101212845
+      "edge": -0.11175839941980537
      }
     },
     {
@@ -22328,15 +22506,15 @@
       "Risk: matchup 21/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
      ],
      "dk": {
-      "odds": "+110",
+      "odds": "-105",
       "na": false,
       "ladder": [
        [
         "u1.5",
-        "+110"
+        "-105"
        ]
       ],
-      "edge": 0.041505198009789135
+      "edge": -0.031707185523778825
      }
     },
     {
@@ -22895,7 +23073,7 @@
      "Formula: [C] Score 37.9/100 (rank 32 of the week).⁠ RZ touches 1.7/g L5; goal-line share 14% (i5 14%, i10 14%); opp allows 1.83 TD/g to WR; team total 25.5 (Hard Rock team total); L10 ATD 0% (nflverse game logs (3 g))"
     ],
     "dk": {
-     "odds": "+295",
+     "odds": "+280",
      "na": false
     }
    },
@@ -23274,7 +23452,7 @@
      "Formula: [C] Score 34.6/100 (rank 42 of the week).⁠ RZ touches 1.8/g L5; goal-line share 10% (i5 7%, i10 14%); opp allows 0.86 TD/g to RB; team total 29.5 (Hard Rock team total); L10 ATD 40% (nflverse game logs (10 g))"
     ],
     "dk": {
-     "odds": "+220",
+     "odds": "+225",
      "na": false
     }
    },
@@ -28342,12 +28520,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-110",
+     "odds": "-103",
      "na": false,
      "ladder": [
       [
        "u5.5",
-       "-110"
+       "-103"
       ]
      ]
     }
@@ -28564,36 +28742,36 @@
      "Risk: NBA 2nd night of back-to-back"
     ],
     "dk": {
-     "odds": "-152",
+     "odds": "-151",
      "na": false,
      "ladder": [
       [
        "3+",
-       "-152"
+       "-151"
       ],
       [
        "4+",
-       "+137"
+       "+141"
       ],
       [
        "5+",
-       "+276"
+       "+278"
       ],
       [
        "6+",
-       "+536"
+       "+510"
       ],
       [
        "7+",
-       "+970"
+       "+940"
       ],
       [
        "8+",
-       "+1680"
+       "+1620"
       ],
       [
        "9+",
-       "+2600"
+       "+2500"
       ]
      ]
     }
@@ -28759,12 +28937,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-112",
+     "odds": "-117",
      "na": false,
      "ladder": [
       [
        "u7.5",
-       "-112"
+       "-117"
       ]
      ]
     }
@@ -28979,7 +29157,7 @@
      "ladder": [
       [
        "u23.5",
-       "-107"
+       "-108"
       ]
      ]
     }
@@ -28997,14 +29175,8 @@
     "res": "V",
     "stat": "void: Day-To-Day (ESPN injury report)",
     "dk": {
-     "odds": "-161",
-     "na": false,
-     "ladder": [
-      [
-       "u1.5",
-       "-161"
-      ]
-     ]
+     "odds": null,
+     "na": true
     }
    },
    {
@@ -29224,24 +29396,24 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-151",
+     "odds": "-150",
      "na": false,
      "ladder": [
       [
        "6+",
-       "-1320"
+       "-1260"
       ],
       [
        "8+",
-       "-544"
+       "-532"
       ],
       [
        "10+",
-       "-278"
+       "-272"
       ],
       [
        "12+",
-       "-151"
+       "-150"
       ],
       [
        "13+",
@@ -29253,15 +29425,15 @@
       ],
       [
        "18+",
-       "+309"
+       "+310"
       ],
       [
        "20+",
-       "+500"
+       "+503"
       ],
       [
        "25+",
-       "+1600"
+       "+1480"
       ]
      ]
     }
@@ -29469,12 +29641,12 @@
      "Risk: matchup 25/30 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "+109",
+     "odds": "+113",
      "na": false,
      "ladder": [
       [
        "u4.5",
-       "+109"
+       "+113"
       ]
      ]
     }
@@ -30033,28 +30205,32 @@
      "Risk: hit rate drops without Elmer Soderblom (6/7)"
     ],
     "dk": {
-     "odds": "-180",
+     "odds": "-195",
      "na": false,
      "ladder": [
       [
        "1+",
-       "-800"
+       "-900"
       ],
       [
        "2+",
-       "-180"
+       "-195"
       ],
       [
        "3+",
-       "+155"
+       "+145"
       ],
       [
        "4+",
-       "+390"
+       "+360"
       ],
       [
        "5+",
-       "+950"
+       "+850"
+      ],
+      [
+       "6+",
+       "+2000"
       ]
      ]
     }
@@ -30875,12 +31051,12 @@
      "Risk: matchup 27/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "-110",
+     "odds": "-115",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-110"
+       "-115"
       ]
      ]
     }
@@ -45883,6 +46059,618 @@
     "nu": false
    },
    {
+    "date": "2026-10-31",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA pts+reb (over)",
+    "fam": "Pts+Reb",
+    "pick": "Cameron Boozer o24.5 PR (#GrindCity Vs #LightTheBeam; NBA Play Of The Day)",
+    "odds": "-108",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Ajay Mitchell o18.5 Points (OKC vs HOU; The Only Saturday NBA Prop You Need)",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NCAAF spread",
+    "fam": "Spread",
+    "pick": "Georgia Bulldogs -11.5 (CFB free play)",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@bigmikepickz · NCAAF spread",
+    "fam": "Spread",
+    "pick": "South Carolina +4.5 (CFB Week 9 Afternoon Games; 1.2u to win 1u)",
+    "odds": "-120",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@bigmikepickz · NCAAF spread",
+    "fam": "Spread",
+    "pick": "Indiana -20.5 (CFB Week 9 Afternoon Games; 1.12u to win 1u)",
+    "odds": "-112",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@bigmikepickz · NCAAF spread",
+    "fam": "Spread",
+    "pick": "Northwestern +3.5 (CFB Week 9 Afternoon Games; 1.02u to win 1u)",
+    "odds": "-102",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@bigmikepickz · NCAAF spread",
+    "fam": "Spread",
+    "pick": "Wake Forest -13.5 (CFB Week 9 Afternoon Games; 1.1u to win 1u)",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "G.Wilson o55.5 Rec Yds (LV @ NYJ 1:00pm; Sun #NFL card)",
+    "odds": "-118",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "R.Flournoy o35.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "K.Bourne o34.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "B.Robinson o30.5 Rec Yds (ATL @ TB 1:00pm; Sun #NFL card)",
+    "odds": "-117",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "E.Egbuka o49.5 Rec Yds (ATL @ TB 1:00pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "C.Rodriguez o31.5 Rush Yds (IND @ JAC 1:00pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "B.Tuten o13.5 Rec Yds (IND @ JAC 1:00pm; Sun #NFL card)",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL game total (over)",
+    "fam": "Total",
+    "pick": "BAL/BUF Over 54.5 (BAL @ BUF 1:00pm; Sun #NFL card)",
+    "odds": "-105",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "J.Hill o10.5 Rec Yds (BAL @ BUF 1:00pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "J.Cuevas o9.5 Rec Yds (BAL @ BUF 1:00pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "K.Coleman o28.5 Rec Yds (BAL @ BUF 1:00pm; Sun #NFL card)",
+    "odds": "-113",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL anytime TD",
+    "fam": "Anytime TD",
+    "pick": "T.Hockenson Anytime TD Scorer Yes (MIN @ DET 1:00pm; Sun #NFL card)",
+    "odds": "+270",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "T.Hockenson o39.5 Rec Yds (MIN @ DET 1:00pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "G.Helm o21.5 Rec Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
+    "odds": "-108",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "C.Brown o57.5 Rush Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "J.Herbert o23.5 Rush Yds (LAC @ LA 4:05pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "O.Hampton o5.5 Rec Yds (LAC @ LA 4:05pm; Sun #NFL card)",
+    "odds": "-109",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "K.Vidal o7.5 Rec Yds (LAC @ LA 4:05pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "H.Henry o44.5 Rec Yds (NE @ MIA 4:25pm; Sun #NFL card)",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "R.Stevenson o20.5 Rec Yds (NE @ MIA 4:25pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "P.Mahomes o12.5 Rush Yds (KC @ DEN 4:25pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "T.Kelce o43.5 Rec Yds (KC @ DEN 4:25pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL game total (over)",
+    "fam": "Total",
+    "pick": "PHI/WAS Over 40 (PHI @ WAS 8:20pm; Sun #NFL card)",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "C.Okonkwo o31.5 Rec Yds (PHI @ WAS 8:20pm; Sun #NFL card)",
+    "odds": "-111",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "D.Goedert o43.5 Rec Yds (PHI @ WAS 8:20pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL anytime TD",
+    "fam": "Anytime TD",
+    "pick": "D.Goedert Anytime TD Scorer Yes (PHI @ WAS 8:20pm; Sun #NFL card)",
+    "odds": "+270",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "T.Burks o21.5 Rec Yds (PHI @ WAS 8:20pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "M.Lemon o41.5 Rec Yds (PHI @ WAS 8:20pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL anytime TD",
+    "fam": "Anytime TD",
+    "pick": "M.Lemon Anytime TD Scorer Yes (PHI @ WAS 8:20pm; Sun #NFL card)",
+    "odds": "+350",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
@@ -49070,7 +49858,7 @@
      "w": 134,
      "l": 106,
      "p": 3,
-     "pending": 44,
+     "pending": 80,
      "units": -30.69,
      "no_odds": 107
     },
@@ -49111,7 +49899,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 44 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 80 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-28', 'Parlay +100', '2-leg', '+121', False), ('O', '2026-10-29', 'Parlay +100', '2-leg', '+125', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -49240,6 +50028,67 @@
   "stake": "1u",
   "legs": [
    {
+    "capper": "@panpotd",
+    "sport": "NBA",
+    "orig": "Ajay Mitchell o18.5 Points",
+    "orig_odds": -110,
+    "pick": "Ajay Mitchell o18.5 Points",
+    "odds": -110,
+    "src": "Capper original line",
+    "game": "OKC vs HOU; The Only Saturday NBA Prop You Need",
+    "gkey": "NBA:401909902",
+    "start": "2026-10-31 20:30",
+    "locked": false,
+    "res": "",
+    "stat": "",
+    "priced": "2026-10-31 16:23",
+    "dk": {
+     "ladder": [
+      [
+       "10+",
+       "-1480"
+      ],
+      [
+       "12+",
+       "-680"
+      ],
+      [
+       "15+",
+       "-292"
+      ],
+      [
+       "18+",
+       "-139"
+      ],
+      [
+       "19+",
+       "-111"
+      ],
+      [
+       "20+",
+       "+114"
+      ],
+      [
+       "25+",
+       "+334"
+      ],
+      [
+       "30+",
+       "+930"
+      ],
+      [
+       "35+",
+       "+2300"
+      ]
+     ],
+     "odds": "-292",
+     "pick": "Ajay Mitchell Over 14.5 Points",
+     "moved": true,
+     "na": false,
+     "orig_odds": "-111"
+    }
+   },
+   {
     "capper": "@austinsprops",
     "sport": "NBA",
     "orig": "Jrue Holiday o23.5 PRA",
@@ -49253,7 +50102,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-31 16:15",
+    "priced": "2026-10-31 16:23",
     "dk": {
      "ladder": [
       [
@@ -49340,11 +50189,6 @@
     "pick": "Saddiq Bey o11.5 Points (Play of the Day)"
    },
    {
-    "capper": "@panpotd",
-    "why": "no picks today",
-    "pick": ""
-   },
-   {
     "capper": "@habibtings",
     "why": "no picks today",
     "pick": ""
@@ -49352,8 +50196,8 @@
   ],
   "status": "live",
   "msg": "",
-  "odds": 547,
-  "orig": 547,
+  "odds": 1134,
+  "orig": 1134,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
@@ -49371,9 +50215,9 @@
     "final": false,
     "frozen": false,
     "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "12+ -285",
+    "dk": "12+ -305",
     "hr_odds": null,
-    "dk_odds": -285,
+    "dk_odds": -305,
     "start": "2026-10-31 20:00",
     "hr_pick": "Ayo Dosunmu o14.5 Points",
     "dk_pick": "Ayo Dosunmu 12+ Points",
@@ -49393,16 +50237,16 @@
     "final": false,
     "frozen": false,
     "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "18+ -328",
+    "dk": "18+ -331",
     "hr_odds": null,
-    "dk_odds": -328,
+    "dk_odds": -331,
     "start": "2026-10-31 20:00",
-    "hr_pick": "Darius Acuff o22.5 Points",
+    "hr_pick": null,
     "dk_pick": "Darius Acuff 18+ Points",
     "trk": "Darius Acuff o22.5 Points",
-    "grade_odds": -125,
-    "hr_x": -125,
-    "excluded": null
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
    },
    {
     "capper": "@alexcaruso",
@@ -49411,9 +50255,9 @@
     "odds": "none posted",
     "game": "POR @ UTAH",
     "kick": "3:00 PM ET",
-    "started": false,
+    "started": true,
     "final": false,
-    "frozen": false,
+    "frozen": true,
     "hr": "original line kept (no HR rung in -250..-375)",
     "dk": "original line kept (no DK rung in -250..-375)",
     "hr_odds": null,
@@ -49441,15 +50285,15 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "10+ -250",
-    "dk": "10+ -300",
-    "hr_odds": -250,
-    "dk_odds": -300,
+    "hr": "10+ -260",
+    "dk": "10+ -253",
+    "hr_odds": -260,
+    "dk_odds": -253,
     "start": "2026-10-31 19:00",
     "hr_pick": "Saddiq Bey 10+ Points",
     "dk_pick": "Saddiq Bey 10+ Points",
     "trk": "Saddiq Bey 10+ Points",
-    "grade_odds": -250,
+    "grade_odds": -260,
     "hr_x": null,
     "excluded": null
    },
@@ -49460,9 +50304,9 @@
     "odds": "none posted",
     "game": "POR @ UTAH",
     "kick": "3:00 PM ET",
-    "started": false,
+    "started": true,
     "final": false,
-    "frozen": false,
+    "frozen": true,
     "hr": "original line kept (no HR rung in -250..-375)",
     "dk": "original line kept (no DK rung in -250..-375)",
     "hr_odds": null,
@@ -49483,13 +50327,35 @@
    {
     "capper": "@austinsprops",
     "sport": "NBA",
-    "pick": "Jrue Holiday o23.5 PRA (#RipCity Vs #TakeNote; NBA Play Of The Day)",
-    "odds": "-120",
-    "game": "POR @ UTAH",
-    "kick": "3:00 PM ET",
+    "pick": "Cameron Boozer o24.5 PR (#GrindCity Vs #LightTheBeam; NBA Play Of The Day)",
+    "odds": "-108 FD",
+    "game": "SAC @ MEM",
+    "kick": "8:00 PM ET",
     "started": false,
     "final": false,
     "frozen": false,
+    "hr": "original line kept (no HR rung in -250..-375)",
+    "dk": "20+ -336",
+    "hr_odds": null,
+    "dk_odds": -336,
+    "start": "2026-10-31 20:00",
+    "hr_pick": "Cameron Boozer o24.5 PR",
+    "dk_pick": "Cameron Boozer 20+ PR",
+    "trk": "Cameron Boozer o24.5 PR",
+    "grade_odds": -120,
+    "hr_x": -120,
+    "excluded": null
+   },
+   {
+    "capper": "@austinsprops",
+    "sport": "NBA",
+    "pick": "Jrue Holiday o23.5 PRA (#RipCity Vs #TakeNote; NBA Play Of The Day)",
+    "odds": "-120 DK",
+    "game": "POR @ UTAH",
+    "kick": "3:00 PM ET",
+    "started": true,
+    "final": false,
+    "frozen": true,
     "hr": "original line kept (no HR rung in -250..-375)",
     "dk": "20+ -337",
     "hr_odds": null,
@@ -49508,6 +50374,28 @@
     "graded_odds": "-120"
    },
    {
+    "capper": "@panpotd",
+    "sport": "NBA",
+    "pick": "Ajay Mitchell o18.5 Points (OKC vs HOU; The Only Saturday NBA Prop You Need)",
+    "odds": "-110",
+    "game": "OKC @ HOU",
+    "kick": "8:30 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "15+ -300",
+    "dk": "15+ -292",
+    "hr_odds": -300,
+    "dk_odds": -292,
+    "start": "2026-10-31 20:30",
+    "hr_pick": "Ajay Mitchell 15+ Points",
+    "dk_pick": "Ajay Mitchell 15+ Points",
+    "trk": "Ajay Mitchell 15+ Points",
+    "grade_odds": -300,
+    "hr_x": null,
+    "excluded": null
+   },
+   {
     "capper": "@showtimepicks2",
     "sport": "NCAAF",
     "pick": "Iowa Hawkeyes ML (CFB first play of the day)",
@@ -49515,7 +50403,7 @@
     "game": "WIS @ IOWA",
     "kick": "12:00 PM ET",
     "started": true,
-    "final": false,
+    "final": true,
     "frozen": false,
     "hr": "not convertible (parlay/TD/ML: original kept)",
     "dk": "—",
@@ -49528,6 +50416,28 @@
     "grade_odds": null,
     "hr_x": null,
     "excluded": "ML (not a prop)"
+   },
+   {
+    "capper": "@showtimepicks2",
+    "sport": "NCAAF",
+    "pick": "Georgia Bulldogs -11.5 (CFB free play)",
+    "odds": "-110",
+    "game": null,
+    "kick": null,
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": null,
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "no gradable line"
    },
    {
     "capper": "@bigmikepickz",
@@ -49537,7 +50447,7 @@
     "game": "WIS @ IOWA",
     "kick": "12:00 PM ET",
     "started": true,
-    "final": false,
+    "final": true,
     "frozen": false,
     "hr": "not convertible (parlay/TD/ML: original kept)",
     "dk": "—",
@@ -49554,12 +50464,78 @@
    {
     "capper": "@bigmikepickz",
     "sport": "NCAAF",
+    "pick": "Indiana -20.5 (CFB Week 9 Afternoon Games; 1.12u to win 1u)",
+    "odds": "-112",
+    "game": "MINN @ IU",
+    "kick": "3:30 PM ET",
+    "started": true,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-10-31 15:30",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "no gradable line"
+   },
+   {
+    "capper": "@bigmikepickz",
+    "sport": "NCAAF",
+    "pick": "Northwestern +3.5 (CFB Week 9 Afternoon Games; 1.02u to win 1u)",
+    "odds": "-102",
+    "game": "NU @ ORE",
+    "kick": "3:30 PM ET",
+    "started": true,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-10-31 15:30",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "no gradable line"
+   },
+   {
+    "capper": "@bigmikepickz",
+    "sport": "NCAAF",
+    "pick": "South Carolina +4.5 (CFB Week 9 Afternoon Games; 1.2u to win 1u)",
+    "odds": "-120",
+    "game": "SC @ OU",
+    "kick": "4:15 PM ET",
+    "started": true,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-10-31 16:15",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "no gradable line"
+   },
+   {
+    "capper": "@bigmikepickz",
+    "sport": "NCAAF",
     "pick": "Syracuse +10.5 (CFB Week 9 Early Games; 1.35u to win 1u)",
     "odds": "-135",
     "game": "SMU @ SYR",
     "kick": "12:00 PM ET",
     "started": true,
-    "final": false,
+    "final": true,
     "frozen": false,
     "hr": "not convertible (parlay/TD/ML: original kept)",
     "dk": "—",
@@ -49576,12 +50552,34 @@
    {
     "capper": "@bigmikepickz",
     "sport": "NCAAF",
+    "pick": "Wake Forest -13.5 (CFB Week 9 Afternoon Games; 1.1u to win 1u)",
+    "odds": "-110",
+    "game": "UVA @ WAKE",
+    "kick": "3:45 PM ET",
+    "started": true,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-10-31 15:45",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "no gradable line"
+   },
+   {
+    "capper": "@bigmikepickz",
+    "sport": "NCAAF",
     "pick": "Arizona/Texas Tech Under 54.5 (CFB Week 9 Early Games; 1.05u to win 1u)",
     "odds": "-105",
     "game": "ARIZ @ TTU",
     "kick": "12:00 PM ET",
     "started": true,
-    "final": false,
+    "final": true,
     "frozen": false,
     "hr": "not convertible (parlay/TD/ML: original kept)",
     "dk": "—",
@@ -49638,7 +50636,7 @@
  },
  "gameday": {
   "date": "2026-10-31",
-  "built": "2026-10-31 16:15 ET",
+  "built": "2026-10-31 16:23 ET",
   "picks": 71,
   "vetoes": [],
   "gaps": [
@@ -49653,12 +50651,12 @@
   ]
  },
  "dk": {
-  "fetched": "2026-10-31 12:52 ET",
-  "snapshots": 4,
+  "fetched": "2026-10-31 16:21 ET",
+  "snapshots": 6,
   "pregame_games": 117,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 72,
+   "legs": 73,
    "priced": 55,
    "na": [
     "Zion Williamson 2+ ast",
@@ -49670,6 +50668,7 @@
     "Edge Andrew Copp Over 0.5 Goals",
     "Edge Morgan Geekie Over 0.5 Goals",
     "LEG DAY LaMelo Ball Under 24.5 Pts + Reb",
+    "LEG DAY LeBron James Under 1.5 Threes Made",
     "LEG DAY Tiffany Hayes Over 14.5 Pts + Reb",
     "LEG DAY Gabby Williams Over 19.5 Pts + Ast",
     "Jordin Canada Over 9.5 Points",
