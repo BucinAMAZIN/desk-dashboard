@@ -1,5 +1,5 @@
 {
- "generated": 1793424965.6725564,
+ "generated": 1793425074.1984532,
  "today": {
   "title": "Oct 31 picks (Hard Rock)",
   "tickets": [],
@@ -6616,10 +6616,10 @@
  "cappers": [
   {
    "name": "@tonestakes",
-   "w": 2,
-   "l": 10,
+   "w": 3,
+   "l": 11,
    "p": 0,
-   "pct": 17,
+   "pct": 21,
    "props": [
     {
      "prop": "NHL shots on goal (over)",
@@ -6646,6 +6646,14 @@
      "fam": "ML"
     },
     {
+     "prop": "NHL ML (tail)",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
+    },
+    {
      "prop": "NHL team total (over)",
      "w": 1,
      "l": 4,
@@ -6655,10 +6663,10 @@
     },
     {
      "prop": "NHL game total (over)",
-     "w": 1,
+     "w": 2,
      "l": 1,
      "p": 0,
-     "pct": 50,
+     "pct": 67,
      "fam": "Total"
     }
    ],
@@ -6684,10 +6692,10 @@
   },
   {
    "name": "@alexcaruso",
-   "w": 45,
+   "w": 47,
    "l": 30,
    "p": 0,
-   "pct": 60,
+   "pct": 61,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -6795,10 +6803,10 @@
     },
     {
      "prop": "NBA rebounds (over)",
-     "w": 5,
+     "w": 7,
      "l": 2,
      "p": 0,
-     "pct": 71,
+     "pct": 78,
      "fam": "Rebounds"
     },
     {
@@ -6903,9 +6911,9 @@
   {
    "name": "@austinsprops",
    "w": 28,
-   "l": 23,
+   "l": 24,
    "p": 0,
-   "pct": 55,
+   "pct": 54,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -6950,9 +6958,9 @@
     {
      "prop": "NBA points (over)",
      "w": 3,
-     "l": 2,
+     "l": 3,
      "p": 0,
-     "pct": 60,
+     "pct": 50,
      "fam": "Player points"
     },
     {
@@ -7324,7 +7332,7 @@
  "capper_today_date": "2026-10-31",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-31 01:36 AM ET",
+  "updated": "2026-10-31 01:37 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -30241,6 +30249,96 @@
     "uu": 0.83
    },
    {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL ML (tail)",
+    "fam": "ML",
+    "pick": "Tail Wpg (WPG @ FLA 7:00pm; #TonesB2BNHLSystem)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (FLA 5 WPG 2)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Walker Kessler o13.5 Pts (#DubNation Vs #LakeShow; first NBA winner, NBA Play Of The Day)",
+    "odds": "-120",
+    "res": "L",
+    "stat": "L (10 PTS)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "John Collins o6.5 Rebounds (LAC @ MIN)",
+    "odds": "none posted",
+    "res": "W",
+    "stat": "W (9 REB, played DET @ BKN)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "Rui Hachimura o4.5 Rebounds (LAL @ GS)",
+    "odds": "none posted",
+    "res": "W",
+    "stat": "W (5 REB, played LAC @ MIN)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL game total (over)",
+    "fam": "Total",
+    "pick": "NJ/VGK Over 5.5 (NJ @ VGK 6:00pm; Best Bet)",
+    "odds": "-127",
+    "res": "W",
+    "stat": "W (total 7)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.79
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -30667,40 +30765,6 @@
    },
    {
     "date": "2026-10-30",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL ML (tail)",
-    "fam": "ML",
-    "pick": "Tail Wpg (WPG @ FLA 7:00pm; #TonesB2BNHLSystem)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
-   },
-   {
-    "date": "2026-10-30",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA points (over)",
-    "fam": "Player points",
-    "pick": "Walker Kessler o13.5 Pts (#DubNation Vs #LakeShow; first NBA winner, NBA Play Of The Day)",
-    "odds": "-120",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-30",
     "sport": "NBA",
     "grp": "C",
     "cat": "Cappers",
@@ -30715,57 +30779,6 @@
     "img": null,
     "sub": "",
     "nu": true
-   },
-   {
-    "date": "2026-10-30",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NBA rebounds (over)",
-    "fam": "Rebounds",
-    "pick": "John Collins o6.5 Rebounds (LAC @ MIN)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
-   },
-   {
-    "date": "2026-10-30",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NBA rebounds (over)",
-    "fam": "Rebounds",
-    "pick": "Rui Hachimura o4.5 Rebounds (LAL @ GS)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
-   },
-   {
-    "date": "2026-10-30",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL game total (over)",
-    "fam": "Total",
-    "pick": "NJ/VGK Over 5.5 (NJ @ VGK 6:00pm; Best Bet)",
-    "odds": "-127",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
    },
    {
     "date": "2026-10-25",
@@ -31766,13 +31779,13 @@
     "fam": "Rebounds",
     "pick": "John Collins 6+ Rebounds",
     "odds": "-260",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "9 REB (played DET @ BKN)",
     "alt": true,
     "leg": false,
     "img": null,
     "sub": "from John Collins o6.5 Rebounds",
-    "uu": 0.0,
+    "uu": 0.38,
     "game": "LAC @ MIN"
    },
    {
@@ -31784,13 +31797,13 @@
     "fam": "Rebounds",
     "pick": "Rui Hachimura 4+ Rebounds",
     "odds": "-300",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "5 REB (played LAC @ MIN)",
     "alt": true,
     "leg": false,
     "img": null,
     "sub": "from Rui Hachimura o4.5 Rebounds",
-    "uu": 0.0,
+    "uu": 0.33,
     "game": "LAL @ GS"
    },
    {
@@ -33243,11 +33256,11 @@
     "prop": "Paul George Over 1.5 Steals",
     "pick": "#1 Paul George Over 1.5 Steals",
     "odds": "-125",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "3 STL",
     "alt": false,
     "rank": 1,
-    "uu": 0.0,
+    "uu": 0.8,
     "game": "Celtics vs Bulls",
     "leg": false,
     "img": null,
@@ -33376,11 +33389,11 @@
     "prop": "Paul Reed Under 1.5 Blocks",
     "pick": "#8 Paul Reed Under 1.5 Blocks",
     "odds": "-135",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "0 BLK",
     "alt": false,
     "rank": 8,
-    "uu": 0.0,
+    "uu": 0.74,
     "game": "Nets vs Pistons",
     "leg": false,
     "img": null,
@@ -33524,11 +33537,11 @@
   "summary": {
    "O": {
     "tickets": {
-     "w": 109,
+     "w": 113,
      "l": 123,
      "p": 5,
-     "pending": 8,
-     "units": -14
+     "pending": 4,
+     "units": -10
     },
     "legs": {
      "w": 60,
@@ -33556,11 +33569,11 @@
    },
    "C": {
     "tickets": {
-     "w": 122,
-     "l": 100,
+     "w": 125,
+     "l": 102,
      "p": 3,
-     "pending": 31,
-     "units": -30.16,
+     "pending": 26,
+     "units": -31.37,
      "no_odds": 97
     },
     "legs": {
@@ -33600,7 +33613,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 31 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 26 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-28', 'Parlay +100', '2-leg', '+121', False), ('O', '2026-10-29', 'Parlay +100', '2-leg', '+125', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -33769,6 +33782,7 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
+  "conv": [],
   "props": {
    "n": 0,
    "w": 0,
@@ -33776,8 +33790,7 @@
    "p": 0,
    "pending": 0,
    "units": 0.0
-  },
-  "conv": []
+  }
  },
  "big4_games": 17,
  "big4_games_by_sport": {
@@ -33788,7 +33801,7 @@
  },
  "gameday": {
   "date": "2026-10-31",
-  "built": "2026-10-31 01:36 ET",
+  "built": "2026-10-31 01:37 ET",
   "picks": 7,
   "vetoes": [],
   "gaps": [
