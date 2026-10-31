@@ -1,5 +1,5 @@
 {
- "generated": 1793445214.0284536,
+ "generated": 1793455382.6526532,
  "today": {
   "title": "Oct 31 picks (Hard Rock)",
   "tickets": [
@@ -7938,11 +7938,7 @@
      "pick": "Fade Cgy (CGY @ COL 10:00pm; #TonesB2BNHLSystem)",
      "odds": "none posted",
      "status": "Pending",
-     "fam": "ML",
-     "game": "CGY @ COL",
-     "kick": "10:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "ML"
     }
    ]
   },
@@ -8606,7 +8602,7 @@
  "capper_today_date": "2026-10-31",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-31 07:13 AM ET",
+  "updated": "2026-10-31 10:03 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -19404,7 +19400,6 @@
     "grade_why": "+5.3% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+450",
     "why_src": "Hard Rock +450 vs Pinnacle no-vig fair +422 (19.2%) → edge +5.35%. Clears the 4% Pinnacle edge floor at +5.35%. Price +450 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": null,
@@ -24996,9 +24991,106 @@
   "dk_odds": null
  },
  "first_blood": {
-  "date": "2026-10-30",
-  "legs": [],
-  "rolled_off": "First Blood · NBA Fri Oct 30 · Locked Fri Oct 30, 10:08 AM ET, final settled (L) and moved to Results"
+  "name": "First Blood",
+  "date": "2026-10-31",
+  "title": "First Blood · NBA Sat Oct 31 · Locked Sat Oct 31, 10:03 AM ET, final",
+  "sport": "NBA",
+  "thin_slate": false,
+  "label": null,
+  "stake_u": 1.0,
+  "locked_at": "Sat Oct 31, 10:03 AM ET",
+  "final": true,
+  "no_swap": true,
+  "full_locked": true,
+  "lock_note": "Locked 10:00 AM ET run; final, no swaps (RULEBOOK §22).",
+  "status": "Pending",
+  "odds": "~+153,462",
+  "odds_note": "Estimated from single-leg Hard Rock prices; confirm the slip price.",
+  "why": "Locked Sat Oct 31, 10:03 AM ET, final. No swaps. Rules (RULEBOOK §22, First Blood): score = 35% L10 first-scorer rate, 25% usage/minutes role, 20% matchup (opp PPG allowed), 10% team implied total, 10% recent form (L5 PPG); each normalized 0-1 across the slate; +5 primary ball-handler. Real Hard Rock First Player To Score prices +400..+1500 only; projected starters with >=1 first score in L10 or a top-2 first-unit shot role; no Questionable/Day-To-Day/Doubtful/Out (ESPN at lock). One leg per game; 4 preferred, max 8 (legs 5-8 within 8 points of leg 4). Isolated: does not count against the one-prop-type rule. Locked 10:00 AM ET, final, no swaps. Settlement (Hard Rock): a leg is void if the player does not start or enters after the first point; FTs count as the first point. 1u, units only. Sources: Hard Rock 2026-10-31 10:02 ET, ESPN box scores + play-by-play (L10), ESPN injuries at run. Estimated parlay = product of single prices (Hard Rock SGP pricing may differ). Ranking: 1. ✔ Deni Avdija POR +550: 67.3 | 2. ✔ Evan Mobley CLE +425: 67.3 | 3. ✔ Zach Edey MEM +500: 66.9 | 4. · James Harden CLE +750: 66.9 | 5. · Ty Jerome MEM +425: 66.1 (ESPN Day-To-Day) | 6. ✔ Jalen Johnson ATL +650: 64.6 | 7. · Zach LaVine SAC +1000: 61.9 | 8. · Zion Williamson NO +550: 61.5 | 9. · Domantas Sabonis SAC +850: 59.3 | 10. · Peyton Watson CLE +900: 54.8 | 11. · Jrue Holiday POR +650: 54.3 (not a projected starter) | 12. · Dyson Daniels ATL +1000: 54.3 | 13. · Tyrese Maxey PHI +475: 53.8 | 14. · Donovan Mitchell CLE +575: 52.9 | 15. · Jarrett Allen CLE +450: 52.9 | 16. · Donovan Clingan POR +800: 52.7 | 17. · Tyler Herro MIL +750: 51.6 | 18. · Cameron Boozer MEM +575: 51.1 (0 first-scorer L10 and not a top-2 first-unit shot taker) | 19. · Brandon Miller CHA +500: 50.0 | 20. · Darius Acuff Jr. SAC +800: 49.9 | 21. · Damian Lillard POR +600: 49.5 | 22. · Nickeil Alexander-Walker ATL +650: 49.3 | 23. · Cedric Coward MEM +650: 48.8 | 24. · Jeremiah Fears NO +650: 47.1 | 25. · Trey Murphy III NO +650: 46.6",
+  "settlement": "Hard Rock: void if the player does not start or comes on after the first point; first point = first made FG or FT.",
+  "legs": [
+   {
+    "pick": "Deni Avdija first point scorer",
+    "player": "Deni Avdija",
+    "athlete_id": "4683021",
+    "team": "POR",
+    "opp": "UTAH",
+    "game": "POR @ UTAH 3:00 PM ET",
+    "espn_event": "401909896",
+    "tip_iso": "2026-10-31T15:00-04:00",
+    "odds": "+550",
+    "book": "Hard Rock",
+    "market": "First Player To Score",
+    "grade": "B",
+    "score": 67.3,
+    "status": "Pending",
+    "result": null,
+    "why": "Volume: L10 33.4 min, 16.0 FGA/g, 22.7 PPG, started 10/10 | First scorer 1/10 L10 (team scored first 4/10)\nMatchup: UTAH allows 127.5 PPG L10 (rank 1/14 on tonight's slate, 1 = allows most)\nContext: POR -8.5 / O/U 231.5 (TT 120.5) | Away · tip 3:00 PM ET\nInjuries: none | Team out: Robert Williams III, Chris Youngblood, Ja Morant | Opp out: Lauri Markkanen, Jaren Jackson Jr., Trey Alexander\nWeather: Indoor (neutral)\nRisk: long price +550: one possession decides it\nFormula: [B] Score 67.3/100 (rank 1 of 58). L10 first-scorer 1/10 (10%); role 33.4 min, usage 22.5/g; opp allows 127.5 PPG; team total 120.5 (Hard Rock team total); L5 22.6 PPG. Bonus +5 (primary ball-handler).",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+   },
+   {
+    "pick": "Evan Mobley first point scorer",
+    "player": "Evan Mobley",
+    "athlete_id": "4432158",
+    "team": "CLE",
+    "opp": "MIL",
+    "game": "CLE @ MIL 8:00 PM ET",
+    "espn_event": "401909900",
+    "tip_iso": "2026-10-31T20:00-04:00",
+    "odds": "+425",
+    "book": "Hard Rock",
+    "market": "First Player To Score",
+    "grade": "B",
+    "score": 67.3,
+    "status": "Pending",
+    "result": null,
+    "why": "Volume: L10 35.4 min, 12.1 FGA/g, 17.4 PPG, started 10/10 | First scorer 3/10 L10 (team scored first 8/10)\nMatchup: MIL allows 120.3 PPG L10 (rank 5/14 on tonight's slate, 1 = allows most)\nContext: CLE -9.5 / O/U 235.5 (TT 122.5) | Away · tip 8:00 PM ET\nInjuries: none | Team out: Jaylon Tyson, Meleek Thomas | Opp out: none\nWeather: Indoor (neutral)\nRisk: long price +425: one possession decides it\nFormula: [B] Score 67.3/100 (rank 2 of 58). L10 first-scorer 3/10 (30%); role 35.4 min, usage 16.2/g; opp allows 120.3 PPG; team total 122.5 (Hard Rock team total); L5 18.2 PPG.",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+   },
+   {
+    "pick": "Zach Edey first point scorer",
+    "player": "Zach Edey",
+    "athlete_id": "4600663",
+    "team": "MEM",
+    "opp": "SAC",
+    "game": "SAC @ MEM 8:00 PM ET",
+    "espn_event": "401909899",
+    "tip_iso": "2026-10-31T20:00-04:00",
+    "odds": "+500",
+    "book": "Hard Rock",
+    "market": "First Player To Score",
+    "grade": "B",
+    "score": 66.9,
+    "status": "Pending",
+    "result": null,
+    "why": "Volume: L10 20.8 min, 5.2 FGA/g, 7.8 PPG, started 4/4 | First scorer 2/4 L10 (team scored first 6/10)\nMatchup: SAC allows 123.5 PPG L10 (rank 3/14 on tonight's slate, 1 = allows most)\nContext: MEM -9.5 / O/U 232.5 (TT 120.5) | Home · tip 8:00 PM ET\nInjuries: none | Team out: Scotty Pippen Jr., Ty Jerome, Quinten Post | Opp out: Dylan Cardwell, Maxime Raynaud, Keegan Murray\nWeather: Indoor (neutral)\nRisk: long price +500: one possession decides it; small sample (4 games)\nFormula: [B] Score 66.9/100 (rank 3 of 58). L10 first-scorer 2/4 (50%); role 20.8 min, usage 6.5/g; opp allows 123.5 PPG; team total 120.5 (Hard Rock team total); L5 7.8 PPG.",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+   },
+   {
+    "pick": "Jalen Johnson first point scorer",
+    "player": "Jalen Johnson",
+    "athlete_id": "4701230",
+    "team": "ATL",
+    "opp": "NO",
+    "game": "ATL @ NO 7:00 PM ET",
+    "espn_event": "401909898",
+    "tip_iso": "2026-10-31T19:00-04:00",
+    "odds": "+650",
+    "book": "Hard Rock",
+    "market": "First Player To Score",
+    "grade": "B-",
+    "score": 64.6,
+    "status": "Pending",
+    "result": null,
+    "why": "Volume: L10 34.1 min, 15.7 FGA/g, 19.2 PPG, started 10/10 | First scorer 1/10 L10 (team scored first 3/10)\nMatchup: NO allows 125.0 PPG L10 (rank 2/14 on tonight's slate, 1 = allows most)\nContext: ATL -4.5 / O/U 240.5 (TT 122.5) | Away · tip 7:00 PM ET\nInjuries: none | Team out: Mouhamed Gueye, Henri Veesaar | Opp out: Yves Missi, Jordan Poole\nWeather: Indoor (neutral)\nRisk: long price +650: one possession decides it\nFormula: [B-] Score 64.6/100 (rank 6 of 58). L10 first-scorer 1/10 (10%); role 34.1 min, usage 21.0/g; opp allows 125.0 PPG; team total 122.5 (Hard Rock team total); L5 19.0 PPG. Bonus +5 (primary ball-handler).",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+   }
+  ],
+  "mode": "lock",
+  "built_at": "Sat Oct 31, 10:03 AM ET",
+  "hr_file": "/workspace/hr-lines/hr-markets-20261031-1002.json",
+  "games": 7,
+  "isolated": true
  },
  "sport_status": {
   "MLB": {
@@ -42634,6 +42726,94 @@
     "grade": "C"
    },
    {
+    "date": "2026-10-31",
+    "sport": "NBA",
+    "grp": "F",
+    "cat": "First Blood",
+    "prop": "First Blood",
+    "fam": "Other",
+    "pick": "First Blood 4-leg",
+    "odds": "~+153462",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NBA",
+    "grp": "F",
+    "cat": "First Blood",
+    "leg": true,
+    "prop": "First Point Scorer",
+    "pick": "Deni Avdija first point scorer",
+    "odds": "+550",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "gm": "POR @ UTAH 3:00 PM ET",
+    "grade": "B"
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NBA",
+    "grp": "F",
+    "cat": "First Blood",
+    "leg": true,
+    "prop": "First Point Scorer",
+    "pick": "Evan Mobley first point scorer",
+    "odds": "+425",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "gm": "CLE @ MIL 8:00 PM ET",
+    "grade": "B"
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NBA",
+    "grp": "F",
+    "cat": "First Blood",
+    "leg": true,
+    "prop": "First Point Scorer",
+    "pick": "Zach Edey first point scorer",
+    "odds": "+500",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "gm": "SAC @ MEM 8:00 PM ET",
+    "grade": "B"
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NBA",
+    "grp": "F",
+    "cat": "First Blood",
+    "leg": true,
+    "prop": "First Point Scorer",
+    "pick": "Jalen Johnson first point scorer",
+    "odds": "+650",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "gm": "ATL @ NO 7:00 PM ET",
+    "grade": "B-"
+   },
+   {
     "date": "2026-10-14",
     "sport": "MLB",
     "grp": "C",
@@ -50503,14 +50683,14 @@
      "w": 0,
      "l": 1,
      "p": 0,
-     "pending": 0,
+     "pending": 1,
      "units": -1
     },
     "legs": {
      "w": 0,
      "l": 7,
      "p": 0,
-     "pending": 0,
+     "pending": 4,
      "units": -7
     }
    }
@@ -50715,7 +50895,7 @@
  },
  "gameday": {
   "date": "2026-10-31",
-  "built": "2026-10-31 07:13 ET",
+  "built": "2026-10-31 10:03 ET",
   "picks": 80,
   "vetoes": [],
   "gaps": [
