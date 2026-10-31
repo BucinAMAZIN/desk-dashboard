@@ -1,5 +1,5 @@
 {
- "generated": 1793474564.5270095,
+ "generated": 1793477717.982938,
  "today": {
   "title": "Oct 31 picks (Hard Rock)",
   "tickets": [
@@ -2673,10 +2673,10 @@
  "record": {
   "overall": {
    "official": {
-    "w": 156,
-    "l": 244,
-    "p": 1,
-    "pct": 39
+    "w": 161,
+    "l": 245,
+    "p": 2,
+    "pct": 40
    },
    "potd": {
     "w": 13,
@@ -2696,7 +2696,7 @@
     "p": 0,
     "pct": 36
    },
-   "pending": 28
+   "pending": 21
   },
   "props": [
    {
@@ -2708,17 +2708,17 @@
    },
    {
     "prop": "NHL assists",
-    "w": 27,
+    "w": 30,
     "l": 50,
     "p": 0,
-    "pct": 35
+    "pct": 38
    },
    {
     "prop": "NHL goals",
-    "w": 10,
-    "l": 28,
+    "w": 11,
+    "l": 29,
     "p": 0,
-    "pct": 26
+    "pct": 28
    },
    {
     "prop": "NHL points",
@@ -2735,18 +2735,18 @@
     "pct": 36
    },
    {
+    "prop": "NCAAF spread",
+    "w": 1,
+    "l": 10,
+    "p": 1,
+    "pct": 9
+   },
+   {
     "prop": "NFL anytime TD",
     "w": 5,
     "l": 6,
     "p": 0,
     "pct": 45
-   },
-   {
-    "prop": "NCAAF spread",
-    "w": 1,
-    "l": 10,
-    "p": 0,
-    "pct": 9
    },
    {
     "prop": "NHL parlay",
@@ -2756,18 +2756,18 @@
     "pct": 44
    },
    {
+    "prop": "NCAAF team total",
+    "w": 3,
+    "l": 3,
+    "p": 0,
+    "pct": 50
+   },
+   {
     "prop": "NBA parlay",
     "w": 2,
     "l": 4,
     "p": 0,
     "pct": 33
-   },
-   {
-    "prop": "NCAAF team total",
-    "w": 2,
-    "l": 3,
-    "p": 0,
-    "pct": 40
    },
    {
     "prop": "NHL team total",
@@ -3279,15 +3279,15 @@
     "date": "2026-10-31",
     "pick": "NHL · Edge: Moritz Seider Over 0.5 Assists",
     "odds": "+120",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (1 AST)"
    },
    {
     "date": "2026-10-31",
     "pick": "NHL · Edge: Morgan Geekie Over 0.5 Goals",
     "odds": "+210",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (1 G)"
    },
    {
     "date": "2026-10-31",
@@ -3314,8 +3314,8 @@
     "date": "2026-10-31",
     "pick": "NHL · Edge: Tyler Bertuzzi Over 0.5 Assists",
     "odds": "+240",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (1 AST)"
    },
    {
     "date": "2026-10-31",
@@ -3328,8 +3328,8 @@
     "date": "2026-10-31",
     "pick": "NHL · Edge: Patrick Kane Over 0.5 Assists",
     "odds": "+155",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (1 AST)"
    },
    {
     "date": "2026-10-31",
@@ -3377,15 +3377,15 @@
     "date": "2026-10-31",
     "pick": "NHL · Edge: Andrew Copp Over 0.5 Goals",
     "odds": "+500",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "L",
+    "detail": "Loss (0 G)"
    },
    {
     "date": "2026-10-31",
     "pick": "NCAA F · Edge: Q1 Bowling Green ML (tie refunds)",
     "odds": "+250",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "P",
+    "detail": "Push (7-7)"
    },
    {
     "date": "2026-10-31",
@@ -3398,8 +3398,8 @@
     "date": "2026-10-31",
     "pick": "NCAA F · Edge: Q1 SMU Team Total Over 7.5",
     "odds": "+155",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (SMU 27)"
    },
    {
     "date": "2026-10-30",
@@ -7871,7 +7871,31 @@
    ],
    [
     "10/31",
+    -86
+   ],
+   [
+    "10/31",
+    -87
+   ],
+   [
+    "10/31",
     -88
+   ],
+   [
+    "10/31",
+    -87
+   ],
+   [
+    "10/31",
+    -86
+   ],
+   [
+    "10/31",
+    -85
+   ],
+   [
+    "10/31",
+    -84
    ]
   ]
  },
@@ -7879,14 +7903,14 @@
   {
    "name": "@tonestakes",
    "w": 3,
-   "l": 11,
+   "l": 13,
    "p": 0,
-   "pct": 21,
+   "pct": 19,
    "props": [
     {
      "prop": "NHL shots on goal (over)",
      "w": 0,
-     "l": 3,
+     "l": 5,
      "p": 0,
      "pct": 0,
      "fam": "SOG"
@@ -7954,7 +7978,7 @@
      "prop": "NHL shots on goal (over)",
      "pick": "F. Minten 3+ SOG (CHI @ BOS 1:00pm)",
      "odds": "+205 FD",
-     "status": "Pending",
+     "status": "L",
      "fam": "SOG"
     },
     {
@@ -7962,7 +7986,7 @@
      "prop": "NHL shots on goal (over)",
      "pick": "J. Hagens 3+ SOG (CHI @ BOS 1:00pm)",
      "odds": "+210 FD",
-     "status": "Pending",
+     "status": "L",
      "fam": "SOG"
     },
     {
@@ -8662,10 +8686,10 @@
   },
   {
    "name": "@bigmikepickz",
-   "w": 11,
+   "w": 13,
    "l": 7,
    "p": 0,
-   "pct": 61,
+   "pct": 65,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -8677,10 +8701,10 @@
     },
     {
      "prop": "NCAAF spread",
-     "w": 5,
+     "w": 6,
      "l": 2,
      "p": 0,
-     "pct": 71,
+     "pct": 75,
      "fam": "Spread"
     },
     {
@@ -8693,10 +8717,10 @@
     },
     {
      "prop": "NCAAF parlay",
-     "w": 0,
+     "w": 1,
      "l": 2,
      "p": 0,
-     "pct": 0,
+     "pct": 33,
      "fam": "Parlay"
     }
    ],
@@ -8714,7 +8738,7 @@
      "prop": "NCAAF spread",
      "pick": "Syracuse +10.5 (CFB Week 9 Early Games; 1.35u to win 1u)",
      "odds": "-135",
-     "status": "Pending",
+     "status": "W",
      "fam": "Spread"
     },
     {
@@ -8730,7 +8754,7 @@
      "prop": "NCAAF parlay",
      "pick": "NCAAF 2-leg parlay: Duke ML + NC State ML (CFB Week 9 Early Games; 1.25u to win 1u)",
      "odds": "-125",
-     "status": "Pending",
+     "status": "W",
      "fam": "Parlay"
     }
    ]
@@ -8783,7 +8807,7 @@
  "capper_today_date": "2026-10-31",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-31 03:22 PM ET",
+  "updated": "2026-10-31 04:15 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -9797,7 +9821,7 @@
      {
       "a": "POR",
       "h": "UTAH",
-      "st": "6:42 - 1st",
+      "st": "Halftime",
       "div": true,
       "stake": "POR : 2nd Northwest (0.5 GB), West #4 seed (in playoff spot) · UTAH : 5th Northwest (3 GB), West #12 seed (outside playoffs)"
      },
@@ -9853,15 +9877,15 @@
        {
         "t": "Boston Bruins",
         "ab": "BOS",
-        "rec": "9-4-1",
+        "rec": "10-4-1",
         "pct": null,
         "gb": "-",
-        "pts": "19",
-        "home": "5-1-0",
+        "pts": "21",
+        "home": "6-1-0",
         "road": "4-3-1",
         "l10": "7-2-1",
-        "strk": "L2",
-        "diff": "+18",
+        "strk": "W1",
+        "diff": "+19",
         "div": "0-1-0",
         "seed": "2"
        },
@@ -9870,7 +9894,7 @@
         "ab": "MTL",
         "rec": "8-3-2",
         "pct": null,
-        "gb": "1",
+        "gb": "3",
         "pts": "18",
         "home": "3-2-1",
         "road": "5-1-1",
@@ -9885,7 +9909,7 @@
         "ab": "FLA",
         "rec": "8-4-2",
         "pct": null,
-        "gb": "1",
+        "gb": "3",
         "pts": "18",
         "home": "3-1-0",
         "road": "5-3-2",
@@ -9900,7 +9924,7 @@
         "ab": "TB",
         "rec": "8-3-1",
         "pct": null,
-        "gb": "2",
+        "gb": "4",
         "pts": "17",
         "home": "6-0-0",
         "road": "2-3-1",
@@ -9915,7 +9939,7 @@
         "ab": "OTT",
         "rec": "8-5-1",
         "pct": null,
-        "gb": "2",
+        "gb": "4",
         "pts": "17",
         "home": "5-2-0",
         "road": "3-3-1",
@@ -9930,7 +9954,7 @@
         "ab": "TOR",
         "rec": "7-6-2",
         "pct": null,
-        "gb": "3",
+        "gb": "5",
         "pts": "16",
         "home": "4-3-1",
         "road": "3-3-1",
@@ -9945,7 +9969,7 @@
         "ab": "BUF",
         "rec": "6-4-3",
         "pct": null,
-        "gb": "4",
+        "gb": "6",
         "pts": "15",
         "home": "3-3-0",
         "road": "3-1-3",
@@ -9958,17 +9982,17 @@
        {
         "t": "Detroit Red Wings",
         "ab": "DET",
-        "rec": "6-4-3",
+        "rec": "6-5-3",
         "pct": null,
-        "gb": "4",
+        "gb": "6",
         "pts": "15",
-        "home": "4-3-1",
+        "home": "4-4-1",
         "road": "2-1-2",
         "l10": "5-2-3",
-        "strk": "W2",
-        "diff": "-1",
+        "strk": "L1",
+        "diff": "-2",
         "div": "1-0-1",
-        "seed": "12"
+        "seed": "13"
        }
       ]
      },
@@ -10048,7 +10072,7 @@
         "strk": "L3",
         "diff": "+2",
         "div": "1-2-1",
-        "seed": "13"
+        "seed": "12"
        },
        {
         "t": "Pittsburgh Penguins",
@@ -10163,17 +10187,17 @@
        {
         "t": "St. Louis Blues",
         "ab": "STL",
-        "rec": "6-6-1",
+        "rec": "7-6-1",
         "pct": null,
-        "gb": "8",
-        "pts": "13",
+        "gb": "6",
+        "pts": "15",
         "home": "4-2-1",
-        "road": "2-4-0",
-        "l10": "5-4-1",
-        "strk": "W1",
-        "diff": "+1",
+        "road": "3-4-0",
+        "l10": "6-4-0",
+        "strk": "W2",
+        "diff": "+2",
         "div": "2-4-0",
-        "seed": "9"
+        "seed": "8"
        },
        {
         "t": "Nashville Predators",
@@ -10208,15 +10232,15 @@
        {
         "t": "Chicago Blackhawks",
         "ab": "CHI",
-        "rec": "4-9-0",
+        "rec": "4-9-1",
         "pct": null,
-        "gb": "13",
-        "pts": "8",
+        "gb": "12",
+        "pts": "9",
         "home": "4-4-0",
-        "road": "0-5-0",
-        "l10": "4-6-0",
-        "strk": "L1",
-        "diff": "-21",
+        "road": "0-5-1",
+        "l10": "3-6-1",
+        "strk": "L2",
+        "diff": "-22",
         "div": "2-2-0",
         "seed": "15"
        }
@@ -10283,7 +10307,7 @@
         "strk": "W1",
         "diff": "-7",
         "div": "2-1-0",
-        "seed": "8"
+        "seed": "9"
        },
        {
         "t": "Calgary Flames",
@@ -10352,58 +10376,58 @@
      {
       "a": "CHI",
       "h": "BOS",
-      "st": "9:22 - 3rd",
+      "st": "Final/OT",
       "div": false,
-      "stake": "CHI 4-9-0: 8th Central Division (13 pts back), West #15 seed (outside playoffs) · BOS 9-4-1: 1st Atlantic Division, East #2 seed (in playoff spot)"
+      "stake": "CHI 4-9-1: 8th Central Division (12 pts back), West #15 seed (outside playoffs) · BOS 10-4-1: 1st Atlantic Division, East #2 seed (in playoff spot)"
      },
      {
       "a": "STL",
       "h": "DET",
-      "st": "6:05 - 3rd",
+      "st": "Final",
       "div": false,
-      "stake": "STL 6-6-1: 5th Central Division (8 pts back), West #9 seed (outside playoffs) · DET 6-4-3: 8th Atlantic Division (4 pts back), East #12 seed (outside playoffs)"
+      "stake": "STL 7-6-1: 5th Central Division (6 pts back), West #8 seed (in playoff spot) · DET 6-5-3: 8th Atlantic Division (6 pts back), East #13 seed (outside playoffs)"
      },
      {
       "a": "TB",
       "h": "NSH",
-      "st": "9:33 - 2nd",
+      "st": "9:27 - 3rd",
       "div": false,
-      "stake": "TB 8-3-1: 4th Atlantic Division (2 pts back), East #6 seed (in playoff spot) · NSH 4-4-5: 6th Central Division (8 pts back), West #10 seed (outside playoffs)"
+      "stake": "TB 8-3-1: 4th Atlantic Division (4 pts back), East #6 seed (in playoff spot) · NSH 4-4-5: 6th Central Division (8 pts back), West #10 seed (outside playoffs)"
      },
      {
       "a": "EDM",
       "h": "NYI",
-      "st": "8:48 - 2nd",
+      "st": "10:20 - 3rd",
       "div": false,
       "stake": "EDM 9-2-2: 1st Pacific Division, West #2 seed (in playoff spot) · NYI 7-4-2: 4th Metropolitan Division (8 pts back), East #9 seed (outside playoffs)"
      },
      {
       "a": "BUF",
       "h": "LA",
-      "st": "10/31 - 4:00 PM EDT",
+      "st": "15:51 - 1st",
       "div": false,
-      "stake": "BUF 6-4-3: 7th Atlantic Division (4 pts back), East #11 seed (outside playoffs) · LA 4-6-2: 7th Pacific Division (10 pts back), West #14 seed (outside playoffs)"
+      "stake": "BUF 6-4-3: 7th Atlantic Division (6 pts back), East #11 seed (outside playoffs) · LA 4-6-2: 7th Pacific Division (10 pts back), West #14 seed (outside playoffs)"
      },
      {
       "a": "OTT",
       "h": "SJ",
-      "st": "10/31 - 4:00 PM EDT",
+      "st": "15:26 - 1st",
       "div": false,
-      "stake": "OTT 8-5-1: 5th Atlantic Division (2 pts back), East #7 seed (in playoff spot) · SJ 7-6-1: 4th Pacific Division (5 pts back), West #8 seed (in playoff spot)"
+      "stake": "OTT 8-5-1: 5th Atlantic Division (4 pts back), East #7 seed (in playoff spot) · SJ 7-6-1: 4th Pacific Division (5 pts back), West #9 seed (outside playoffs)"
      },
      {
       "a": "PIT",
       "h": "MTL",
       "st": "10/31 - 7:00 PM EDT",
       "div": false,
-      "stake": "PIT 5-6-2: 6th Metropolitan Division (12 pts back), East #14 seed (outside playoffs) · MTL 8-3-2: 2nd Atlantic Division (1 pts back), East #3 seed (in playoff spot)"
+      "stake": "PIT 5-6-2: 6th Metropolitan Division (12 pts back), East #14 seed (outside playoffs) · MTL 8-3-2: 2nd Atlantic Division (3 pts back), East #3 seed (in playoff spot)"
      },
      {
       "a": "TOR",
       "h": "VAN",
       "st": "10/31 - 7:00 PM EDT",
       "div": false,
-      "stake": "TOR 7-6-2: 6th Atlantic Division (3 pts back), East #10 seed (outside playoffs) · VAN 3-11-1: 8th Pacific Division (13 pts back), West #16 seed (outside playoffs)"
+      "stake": "TOR 7-6-2: 6th Atlantic Division (5 pts back), East #10 seed (outside playoffs) · VAN 3-11-1: 8th Pacific Division (13 pts back), West #16 seed (outside playoffs)"
      },
      {
       "a": "CBJ",
@@ -11351,18 +11375,18 @@
         "seed": "4"
        },
        {
-        "t": "UAB Blazers",
-        "ab": "UAB",
-        "rec": "4-3",
+        "t": "South Florida Bulls",
+        "ab": "USF",
+        "rec": "6-2",
         "pct": null,
-        "gb": "2.5",
+        "gb": "1",
         "pts": null,
-        "home": "4-0",
-        "road": "0-3",
+        "home": "4-1",
+        "road": "2-1",
         "l10": null,
-        "strk": "W1",
-        "diff": "-9",
-        "div": "2-1",
+        "strk": "W2",
+        "diff": "+100",
+        "div": "2-2",
         "seed": "5"
        },
        {
@@ -11396,34 +11420,19 @@
         "seed": "7"
        },
        {
-        "t": "Temple Owls",
-        "ab": "TEM",
-        "rec": "2-5",
+        "t": "UAB Blazers",
+        "ab": "UAB",
+        "rec": "4-4",
         "pct": null,
-        "gb": "4.5",
+        "gb": "3",
         "pts": null,
-        "home": "1-4",
-        "road": "1-1",
+        "home": "4-0",
+        "road": "0-4",
         "l10": null,
-        "strk": "L2",
-        "diff": "-16",
-        "div": "1-2",
+        "strk": "L1",
+        "diff": "-29",
+        "div": "2-2",
         "seed": "8"
-       },
-       {
-        "t": "South Florida Bulls",
-        "ab": "USF",
-        "rec": "5-2",
-        "pct": null,
-        "gb": "1.5",
-        "pts": null,
-        "home": "3-1",
-        "road": "2-1",
-        "l10": null,
-        "strk": "W1",
-        "diff": "+80",
-        "div": "1-2",
-        "seed": "9"
        },
        {
         "t": "East Carolina Pirates",
@@ -11437,6 +11446,21 @@
         "l10": null,
         "strk": "L2",
         "diff": "-9",
+        "div": "1-2",
+        "seed": "9"
+       },
+       {
+        "t": "Temple Owls",
+        "ab": "TEM",
+        "rec": "2-5",
+        "pct": null,
+        "gb": "4.5",
+        "pts": null,
+        "home": "1-4",
+        "road": "1-1",
+        "l10": null,
+        "strk": "L2",
+        "diff": "-16",
         "div": "1-2",
         "seed": "10"
        },
@@ -11630,10 +11654,10 @@
   },
   {
    "sport": "NHL",
-   "w": 107,
-   "l": 162,
+   "w": 111,
+   "l": 163,
    "p": 1,
-   "pct": 40,
+   "pct": 41,
    "active": true,
    "ticket_legs": {
     "w": 17,
@@ -11672,10 +11696,10 @@
   },
   {
    "sport": "NCAA F",
-   "w": 6,
+   "w": 7,
    "l": 16,
-   "p": 0,
-   "pct": 27,
+   "p": 1,
+   "pct": 30,
    "active": true,
    "ticket_legs": {
     "w": 1,
@@ -12112,10 +12136,10 @@
   },
   {
    "sport": "NHL",
-   "w": 107,
-   "l": 162,
+   "w": 111,
+   "l": 163,
    "p": 1,
-   "pct": 40,
+   "pct": 41,
    "props": [
     {
      "prop": "NHL SOG",
@@ -12126,17 +12150,17 @@
     },
     {
      "prop": "NHL assists",
-     "w": 27,
+     "w": 30,
      "l": 50,
      "p": 0,
-     "pct": 35
+     "pct": 38
     },
     {
      "prop": "NHL goals",
-     "w": 10,
-     "l": 28,
+     "w": 11,
+     "l": 29,
      "p": 0,
-     "pct": 26
+     "pct": 28
     },
     {
      "prop": "NHL points",
@@ -12259,10 +12283,10 @@
     }
    ],
    "official": {
-    "w": 107,
-    "l": 162,
+    "w": 111,
+    "l": 163,
     "p": 1,
-    "pct": 40,
+    "pct": 41,
     "props": [
      {
       "prop": "NHL SOG",
@@ -12273,17 +12297,17 @@
      },
      {
       "prop": "NHL assists",
-      "w": 27,
+      "w": 30,
       "l": 50,
       "p": 0,
-      "pct": 35
+      "pct": 38
      },
      {
       "prop": "NHL goals",
-      "w": 10,
-      "l": 28,
+      "w": 11,
+      "l": 29,
       "p": 0,
-      "pct": 26
+      "pct": 28
      },
      {
       "prop": "NHL points",
@@ -13188,24 +13212,24 @@
   },
   {
    "sport": "NCAA F",
-   "w": 6,
+   "w": 7,
    "l": 16,
-   "p": 0,
-   "pct": 27,
+   "p": 1,
+   "pct": 30,
    "props": [
     {
      "prop": "NCAAF spread",
      "w": 1,
      "l": 10,
-     "p": 0,
+     "p": 1,
      "pct": 9
     },
     {
      "prop": "NCAAF team total",
-     "w": 2,
+     "w": 3,
      "l": 3,
      "p": 0,
-     "pct": 40
+     "pct": 50
     },
     {
      "prop": "NCAAF game total",
@@ -13244,24 +13268,24 @@
     }
    ],
    "official": {
-    "w": 6,
+    "w": 7,
     "l": 16,
-    "p": 0,
-    "pct": 27,
+    "p": 1,
+    "pct": 30,
     "props": [
      {
       "prop": "NCAAF spread",
       "w": 1,
       "l": 10,
-      "p": 0,
+      "p": 1,
       "pct": 9
      },
      {
       "prop": "NCAAF team total",
-      "w": 2,
+      "w": 3,
       "l": 3,
       "p": 0,
-      "pct": 40
+      "pct": 50
      },
      {
       "prop": "NCAAF game total",
@@ -15523,92 +15547,14 @@
     "fair": "+129",
     "fair_prob": 0.4365299334811531,
     "edge": 0.11315133037694025,
-    "result": "Pending",
+    "result": "Win (SMU 27)",
     "picked_et": "7:09 AM ET",
-    "why": "Volume: game line | Hit: n/a. Matchup: n/a. Context: n/a / O/U 58.5 | - | n/a · Prime. Injuries: none | none. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+    "why": "Hard Rock +155 vs Pinnacle no-vig fair +129 (43.7%) → edge +11.32%. Clears the 4% Pinnacle edge floor at +11.32%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "B",
-    "grade_why": "+11.3% vs Pinnacle",
+    "grade_why": "Edge +11.3% vs Pinnacle; game line, so the grade rests on price. Capped at B: thinner market.",
     "big4": null,
     "big4_only": null,
-    "why_src": "Hard Rock +155 vs Pinnacle no-vig fair +129 (43.7%) → edge +11.32%. Clears the 4% Pinnacle edge floor at +11.32%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
-    "ctx": {
-     "game": "Syracuse vs SMU",
-     "team": null,
-     "opp": null,
-     "stat": null,
-     "fav": "SMU",
-     "spread": -10.5,
-     "total": 57.5,
-     "team_totals": {
-      "SYR": 22.5,
-      "SMU": 35.5
-     },
-     "home": "SYR",
-     "away": "SMU",
-     "rest": null,
-     "record": {
-      "SYR": "3-4",
-      "SMU": "6-1"
-     },
-     "start_et": "Sat 10/31 12:00 PM ET",
-     "out": {
-      "SYR": [],
-      "SMU": []
-     },
-     "game_day": {
-      "sport": "NCAAF",
-      "game": "Syracuse vs SMU",
-      "role": "Edge",
-      "team": "n/a",
-      "opponent": "n/a",
-      "home_away": "n/a",
-      "l10": "n/a",
-      "matchup_rank": "n/a",
-      "spread": "n/a",
-      "total": 58.5,
-      "team_totals": {
-       "Syracuse": 23.5,
-       "SMU": 33.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [
-       "ESPN2"
-      ],
-      "rest_days": null,
-      "b2b": null,
-      "venue": "JMA Wireless Dome",
-      "indoor": true,
-      "teammates_out": [],
-      "opp_out": [],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "rank n/a"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
-      ],
-      "matchup_rank": "n/a",
-      "matchup_tier": "rank n/a",
-      "preference_limit": 20,
-      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: game line | Hit: n/a",
-     "Matchup: n/a",
-     "Context: n/a / O/U 58.5 | - | n/a · Prime",
-     "Injuries: none | none",
-     "Weather: neutral",
-     "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
-    ],
     "dk": {
      "odds": null,
      "na": true
@@ -15648,83 +15594,14 @@
     "fair": "+235",
     "fair_prob": 0.2984605717876218,
     "edge": 0.044612001256676415,
-    "result": "Pending",
+    "result": "Push (7-7)",
     "picked_et": "7:09 AM ET",
-    "why": "Volume: game line | Hit: n/a. Matchup: n/a. Context: BGSU +13.5 / O/U 45.5 | - | Away · Prime. Injuries: none | none. Weather: wind 10 mph (gust 20), 55F, precip 2%. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+    "why": "Hard Rock +250 vs Pinnacle no-vig fair +235 (29.8%) → edge +4.46%. Clears the 4% Pinnacle edge floor at +4.46%. Price +250 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "B",
-    "grade_why": "+4.5% vs Pinnacle",
+    "grade_why": "Edge +4.5% vs Pinnacle; game line, so the grade rests on price. Capped at B: thinner market.",
     "big4": null,
     "big4_only": null,
-    "why_src": "Hard Rock +250 vs Pinnacle no-vig fair +235 (29.8%) → edge +4.46%. Clears the 4% Pinnacle edge floor at +4.46%. Price +250 is inside the preferred band (about -130 or better, or plus money).",
-    "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
-     "stat": null,
-     "out": null,
-     "game_day": {
-      "sport": "NCAAF",
-      "game": "Western Michigan vs Bowling Green",
-      "role": "Edge",
-      "team": "BGSU",
-      "opponent": "WMU",
-      "home_away": "away",
-      "l10": "n/a",
-      "matchup_rank": "n/a",
-      "spread": "BGSU +13.5",
-      "total": 45.5,
-      "team_totals": {
-       "Western Michigan": 29.5,
-       "Bowling Green": 15.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [
-       "CBSSN"
-      ],
-      "rest_days": "5+",
-      "b2b": false,
-      "venue": "Waldo Stadium",
-      "indoor": false,
-      "teammates_out": [],
-      "opp_out": [],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": {
-       "temp_f": 54.9,
-       "wind_mph": 10.3,
-       "gust_mph": 19.7,
-       "precip_pct": 2,
-       "wind_dir_deg": 147,
-       "at": "2026-10-31T12:00",
-       "place": "Kalamazoo, Michigan",
-       "source": "Open-Meteo"
-      },
-      "matchup_tier": "rank n/a"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
-      ],
-      "matchup_rank": "n/a",
-      "matchup_tier": "rank n/a",
-      "preference_limit": 20,
-      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: game line | Hit: n/a",
-     "Matchup: n/a",
-     "Context: BGSU +13.5 / O/U 45.5 | - | Away · Prime",
-     "Injuries: none | none",
-     "Weather: wind 10 mph (gust 20), 55F, precip 2%",
-     "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
-    ],
     "dk": {
      "odds": null,
      "na": true
@@ -15740,245 +15617,15 @@
     "fair": "+371",
     "fair_prob": 0.21244563399130145,
     "edge": 0.2746738039478087,
-    "result": "Pending",
+    "result": "Loss (0 G)",
     "picked_et": "7:09 AM ET",
-    "why": "Volume: L5 TOI 16.3 avg (L3 16.1 vs L10 18.2 TOI) | Hit: 2/10 at O0.5, 1/5. Matchup: Opp 24/32 vs Goals (NHL API). Context: DET +1.5 / O/U 5.5 | - | Home. Injuries: Mason Appleton, Marco Kasper out | Opp out: Ross Johnston, Torey Krug. Weather: neutral. Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "why": "Hard Rock +500 vs Pinnacle no-vig fair +371 (21.2%) → edge +27.47%. Clears the 4% Pinnacle edge floor at +27.47%. Price +500 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "A",
-    "grade_why": "+27.5% vs Pinnacle",
+    "grade_why": "Edge +27.5% vs Pinnacle; hit in 2 of last 10, 2 of 13 this season (L10 avg 0.2).",
     "big4": true,
     "big4_only": null,
     "now": "+450",
-    "why_src": "Hard Rock +500 vs Pinnacle no-vig fair +371 (21.2%) → edge +27.47%. Clears the 4% Pinnacle edge floor at +27.47%. Price +500 is inside the preferred band (about -130 or better, or plus money).",
-    "ctx": {
-     "game": "Red Wings vs. Blues",
-     "team": "DET",
-     "opp": "STL",
-     "stat": "ga",
-     "opp_rank": {
-      "rank": 10,
-      "of": 32,
-      "pg": 2.9,
-      "gp": 13,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "STL",
-     "spread": -1.5,
-     "total": 5.5,
-     "team_totals": {
-      "STL": 2.5,
-      "DET": 2.5
-     },
-     "home": "DET",
-     "away": "STL",
-     "rest": {
-      "DET": 1,
-      "STL": 1
-     },
-     "record": {
-      "DET": "6-4-3",
-      "STL": "6-6-1"
-     },
-     "start_et": "Sat 10/31 01:00 PM ET",
-     "out": {
-      "DET": [
-       {
-        "name": "Albert Johansson",
-        "status": "Out",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "15.7 TOI"
-       },
-       {
-        "name": "Dylan Larkin",
-        "status": "Injured Reserve",
-        "pos": "C",
-        "date": "2026-10-29",
-        "role": "21.7 TOI"
-       }
-      ],
-      "STL": [
-       {
-        "name": "Colton Parayko",
-        "status": "Day-To-Day",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "20.8 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Red Wings vs. Blues",
-      "role": "Edge",
-      "team": "DET",
-      "opponent": "STL",
-      "home_away": "home",
-      "l5_toi": 16.3,
-      "l10": {
-       "hits": 2,
-       "n": 10,
-       "l5_hits": 1,
-       "l5_n": 5,
-       "season_hits": 2,
-       "season_n": 13
-      },
-      "volume_collapse": {
-       "status": "ok",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-26",
-         "opp": "EDM",
-         "v": 17.8,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-20",
-         "opp": "SEA",
-         "v": 15.4,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-17",
-         "opp": "SJS",
-         "v": 20.9,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-13",
-         "opp": "NJD",
-         "v": 18.2,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-10",
-         "opp": "MTL",
-         "v": 19.3,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-04-15",
-         "opp": "FLA",
-         "v": 15.2,
-         "excluded_for": "blowout (margin 7)"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        18.1,
-        14.6,
-        15.5
-       ],
-       "l3_avg": 16.1,
-       "l10_avg": 18.2,
-       "l10_n": 9,
-       "drop_pct": 11.5,
-       "last_game": {
-        "date": "2026-10-29",
-        "opp": "CHI",
-        "v": 18.1,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "no collapse"
-      },
-      "matchup": {
-       "raw_opp_rank": 9,
-       "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 24,
-       "of": 32,
-       "source": "nhl-api",
-       "stat": "goals",
-       "linemate": null,
-       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent STL + stat 'Goals' + side Over; opponent-defensive-rank table has 0 rows",
-       "fallback": {
-        "value": 2.92307,
-        "raw": 9,
-        "of": 32,
-        "source": "nhl-api",
-        "source_rank": null,
-        "source_team": "St. Louis Blues",
-        "source_rank_direction": "api gives values only; ranked here",
-        "mapping": "goals against/gm",
-        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-        "fetched_at": "2026-10-31 06:01 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-        "source": "nhl-api",
-        "fetched_at": "2026-10-31 06:01 AM ET",
-        "failures": {},
-        "myspariedge": null,
-        "fantasyteamadvice": null
-       },
-       "source_rank": null,
-       "source_rank_direction": "api gives values only; ranked here"
-      },
-      "matchup_rank": 24,
-      "spread": "DET +1.5",
-      "total": 5.5,
-      "team_totals": {
-       "Blues": 2.5,
-       "Red Wings": 2.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 1,
-      "b2b": false,
-      "venue": "Little Caesars Arena",
-      "indoor": true,
-      "teammates_out": [
-       "Mason Appleton",
-       "Marco Kasper",
-       "Albert Johansson",
-       "Dylan Larkin",
-       "Simon Edvinsson"
-      ],
-      "opp_out": [
-       "Ross Johnston",
-       "Torey Krug",
-       "Dillon Dube",
-       "Tyler Tucker",
-       "Logan Mailloux"
-      ],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "demoted"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-      ],
-      "matchup_rank": 24,
-      "matchup_tier": "demoted",
-      "preference_limit": 20,
-      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 TOI 16.3 avg (L3 16.1 vs L10 18.2 TOI) | Hit: 2/10 at O0.5, 1/5",
-     "Matchup: Opp 24/32 vs Goals (NHL API)",
-     "Context: DET +1.5 / O/U 5.5 | - | Home",
-     "Injuries: Mason Appleton, Marco Kasper out | Opp out: Ross Johnston, Torey Krug",
-     "Weather: neutral",
-     "Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-    ],
     "dk": {
      "odds": null,
      "na": true,
@@ -17553,223 +17200,15 @@
     "fair": "+135",
     "fair_prob": 0.4248366013071895,
     "edge": 0.08333333333333304,
-    "result": "Pending",
+    "result": "Win (1 AST)",
     "picked_et": "7:09 AM ET",
-    "why": "Volume: L5 TOI 17.9 avg (L3 16.4 vs L10 18.8 TOI) | Hit: 6/10 at O0.5, 3/5. Matchup: Opp 31/32 vs Assists (NHL API). Context: CHI +1.5 / O/U 6.5 | - | Away. Injuries: none | none. Weather: neutral. Risk: matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "why": "Hard Rock +155 vs Pinnacle no-vig fair +135 (42.5%) → edge +8.33%. Clears the 4% Pinnacle edge floor at +8.33%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "A",
-    "grade_why": "+8.3% vs Pinnacle",
+    "grade_why": "Edge +8.3% vs Pinnacle; hit in 6 of last 10, 6 of 13 this season (L10 avg 0.7).",
     "big4": true,
     "big4_only": null,
     "now": "+145",
-    "why_src": "Hard Rock +155 vs Pinnacle no-vig fair +135 (42.5%) → edge +8.33%. Clears the 4% Pinnacle edge floor at +8.33%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
-    "ctx": {
-     "game": "Bruins vs. Blackhawks",
-     "team": "CHI",
-     "opp": "BOS",
-     "stat": "ga",
-     "opp_rank": {
-      "rank": 2,
-      "of": 32,
-      "pg": 2.3,
-      "gp": 14,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "BOS",
-     "spread": -1.5,
-     "total": 6.5,
-     "team_totals": {
-      "CHI": 2.5,
-      "BOS": 3.5
-     },
-     "home": "BOS",
-     "away": "CHI",
-     "rest": {
-      "BOS": 1,
-      "CHI": 1
-     },
-     "record": {
-      "BOS": "9-4-1",
-      "CHI": "4-9-0"
-     },
-     "start_et": "Sat 10/31 01:00 PM ET",
-     "out": {
-      "BOS": [],
-      "CHI": [
-       {
-        "name": "Bowen Byram",
-        "status": "Day-To-Day",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "24.7 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Bruins vs. Blackhawks",
-      "role": "Edge",
-      "team": "CHI",
-      "opponent": "BOS",
-      "home_away": "away",
-      "l5_toi": 17.89,
-      "l10": {
-       "hits": 6,
-       "n": 10,
-       "l5_hits": 3,
-       "l5_n": 5,
-       "season_hits": 6,
-       "season_n": 13
-      },
-      "volume_collapse": {
-       "status": "collapsed",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-17",
-         "opp": "DAL",
-         "v": 19.4,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-15",
-         "opp": "WPG",
-         "v": 18.3,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-01",
-         "opp": "UTA",
-         "v": 19.3,
-         "excluded_for": "blowout (margin 6)"
-        },
-        {
-         "date": "2026-04-15",
-         "opp": "FLA",
-         "v": 18.1,
-         "excluded_for": "blowout (margin 7)"
-        },
-        {
-         "date": "2026-04-13",
-         "opp": "TBL",
-         "v": 17.4,
-         "excluded_for": "OT/extra innings"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        14.4,
-        14.4,
-        20.4
-       ],
-       "l3_avg": 16.4,
-       "l10_avg": 18.8,
-       "l10_n": 10,
-       "drop_pct": 12.9,
-       "last_game": {
-        "date": "2026-10-29",
-        "opp": "DET",
-        "v": 14.4,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "last game 14.4 TOI < 17 floor"
-      },
-      "matchup": {
-       "raw_opp_rank": 2,
-       "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 31,
-       "of": 32,
-       "source": "nhl-api",
-       "stat": "ast",
-       "linemate": null,
-       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent BOS + stat 'Assists' + side Over; opponent-defensive-rank table has 0 rows",
-       "fallback": {
-        "value": 2.28571,
-        "raw": 2,
-        "of": 32,
-        "source": "nhl-api",
-        "source_rank": null,
-        "source_team": "Boston Bruins",
-        "source_rank_direction": "api gives values only; ranked here",
-        "mapping": "goals against/gm",
-        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-        "fetched_at": "2026-10-31 06:01 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-        "source": "nhl-api",
-        "fetched_at": "2026-10-31 06:01 AM ET",
-        "failures": {},
-        "myspariedge": null,
-        "fantasyteamadvice": null
-       },
-       "source_rank": null,
-       "source_rank_direction": "api gives values only; ranked here"
-      },
-      "matchup_rank": 31,
-      "spread": "CHI +1.5",
-      "total": 6.5,
-      "team_totals": {
-       "Blackhawks": 2.5,
-       "Bruins": 3.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 1,
-      "b2b": false,
-      "venue": "TD Garden",
-      "indoor": true,
-      "teammates_out": [],
-      "opp_out": [],
-      "player_injury_status": "not listed",
-      "lm_without": [
-       {
-        "hits": 3,
-        "n": 4,
-        "teammate": "Bowen Byram"
-       }
-      ],
-      "lm_vs_opp": {
-       "hits": 4,
-       "n": 5,
-       "opp": "BOS"
-      },
-      "weather": "indoor",
-      "matchup_tier": "demoted"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
-       "volume collapse: last game 14.4 TOI < 17 floor (flag only)"
-      ],
-      "matchup_rank": 31,
-      "matchup_tier": "demoted",
-      "preference_limit": 20,
-      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 TOI 17.9 avg (L3 16.4 vs L10 18.8 TOI) | Hit: 6/10 at O0.5, 3/5",
-     "Matchup: Opp 31/32 vs Assists (NHL API)",
-     "Context: CHI +1.5 / O/U 6.5 | - | Away",
-     "Injuries: none | none",
-     "Weather: neutral",
-     "Risk: matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-    ],
     "dk": {
      "odds": "+100",
      "na": false,
@@ -18081,207 +17520,15 @@
     "fair": "+217",
     "fair_prob": 0.31581264605276527,
     "edge": 0.07376299657940177,
-    "result": "Pending",
+    "result": "Win (1 AST)",
     "picked_et": "7:09 AM ET",
-    "why": "Volume: L5 TOI 17.2 avg (L3 17.3 vs L10 17.4 TOI) | Hit: 3/10 at O0.5, 0/5. Matchup: Opp 31/32 vs Assists (NHL API). Context: CHI +1.5 / O/U 6.5 | - | Away. Injuries: none | none. Weather: neutral. Risk: matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "why": "Hard Rock +240 vs Pinnacle no-vig fair +217 (31.6%) → edge +7.38%. Clears the 4% Pinnacle edge floor at +7.38%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "B",
-    "grade_why": "+7.4% vs Pinnacle",
+    "grade_why": "Edge +7.4% vs Pinnacle; hit in 3 of last 10, 3 of 13 this season (L10 avg 0.3).",
     "big4": true,
     "big4_only": null,
     "now": "+275",
-    "why_src": "Hard Rock +240 vs Pinnacle no-vig fair +217 (31.6%) → edge +7.38%. Clears the 4% Pinnacle edge floor at +7.38%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
-    "ctx": {
-     "game": "Bruins vs. Blackhawks",
-     "team": "CHI",
-     "opp": "BOS",
-     "stat": "ga",
-     "opp_rank": {
-      "rank": 2,
-      "of": 32,
-      "pg": 2.3,
-      "gp": 14,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "BOS",
-     "spread": -1.5,
-     "total": 6.5,
-     "team_totals": {
-      "CHI": 2.5,
-      "BOS": 3.5
-     },
-     "home": "BOS",
-     "away": "CHI",
-     "rest": {
-      "BOS": 1,
-      "CHI": 1
-     },
-     "record": {
-      "BOS": "9-4-1",
-      "CHI": "4-9-0"
-     },
-     "start_et": "Sat 10/31 01:00 PM ET",
-     "out": {
-      "BOS": [],
-      "CHI": [
-       {
-        "name": "Bowen Byram",
-        "status": "Day-To-Day",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "24.7 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Bruins vs. Blackhawks",
-      "role": "Edge",
-      "team": "CHI",
-      "opponent": "BOS",
-      "home_away": "away",
-      "l5_toi": 17.24,
-      "l10": {
-       "hits": 3,
-       "n": 10,
-       "l5_hits": 0,
-       "l5_n": 5,
-       "season_hits": 3,
-       "season_n": 13
-      },
-      "volume_collapse": {
-       "status": "collapsed",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-17",
-         "opp": "DAL",
-         "v": 17.4,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-15",
-         "opp": "WPG",
-         "v": 16.5,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-01",
-         "opp": "UTA",
-         "v": 18.2,
-         "excluded_for": "blowout (margin 6)"
-        },
-        {
-         "date": "2026-04-13",
-         "opp": "BUF",
-         "v": 18.7,
-         "excluded_for": "blowout (margin 4)"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        14.0,
-        15.7,
-        22.4
-       ],
-       "l3_avg": 17.3,
-       "l10_avg": 17.4,
-       "l10_n": 10,
-       "drop_pct": 0.2,
-       "last_game": {
-        "date": "2026-10-29",
-        "opp": "DET",
-        "v": 14.0,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "last game 14.0 TOI < 17 floor"
-      },
-      "matchup": {
-       "raw_opp_rank": 2,
-       "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 31,
-       "of": 32,
-       "source": "nhl-api",
-       "stat": "ast",
-       "linemate": null,
-       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent BOS + stat 'Assists' + side Over; opponent-defensive-rank table has 0 rows",
-       "fallback": {
-        "value": 2.28571,
-        "raw": 2,
-        "of": 32,
-        "source": "nhl-api",
-        "source_rank": null,
-        "source_team": "Boston Bruins",
-        "source_rank_direction": "api gives values only; ranked here",
-        "mapping": "goals against/gm",
-        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-        "fetched_at": "2026-10-31 06:01 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-        "source": "nhl-api",
-        "fetched_at": "2026-10-31 06:01 AM ET",
-        "failures": {},
-        "myspariedge": null,
-        "fantasyteamadvice": null
-       },
-       "source_rank": null,
-       "source_rank_direction": "api gives values only; ranked here"
-      },
-      "matchup_rank": 31,
-      "spread": "CHI +1.5",
-      "total": 6.5,
-      "team_totals": {
-       "Blackhawks": 2.5,
-       "Bruins": 3.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 1,
-      "b2b": false,
-      "venue": "TD Garden",
-      "indoor": true,
-      "teammates_out": [],
-      "opp_out": [],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "demoted"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
-       "volume collapse: last game 14.0 TOI < 17 floor (flag only)"
-      ],
-      "matchup_rank": 31,
-      "matchup_tier": "demoted",
-      "preference_limit": 20,
-      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 TOI 17.2 avg (L3 17.3 vs L10 17.4 TOI) | Hit: 3/10 at O0.5, 0/5",
-     "Matchup: Opp 31/32 vs Assists (NHL API)",
-     "Context: CHI +1.5 / O/U 6.5 | - | Away",
-     "Injuries: none | none",
-     "Weather: neutral",
-     "Risk: matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-    ],
     "dk": {
      "odds": "+190",
      "na": false,
@@ -19167,218 +18414,15 @@
     "fair": "+196",
     "fair_prob": 0.3373493975903614,
     "edge": 0.04578313253012034,
-    "result": "Pending",
+    "result": "Win (1 G)",
     "picked_et": "7:09 AM ET",
-    "why": "Volume: L5 TOI 15.9 avg (L3 15.9 vs L10 17.8 TOI) | Hit: 1/10 at O0.5, 0/5. Matchup: Opp 4/32 vs Goals (NHL API). Context: BOS -1.5 / O/U 6.5 | - | Home. Injuries: none | none. Weather: neutral. Risk: volume collapse: last game 15.3 TOI < 17 floor (flag only).",
+    "why": "Hard Rock +210 vs Pinnacle no-vig fair +196 (33.7%) → edge +4.58%. Clears the 4% Pinnacle edge floor at +4.58%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "C",
-    "grade_why": "+4.6% vs Pinnacle",
+    "grade_why": "Edge +4.6% vs Pinnacle; hit in 1 of last 10, 1 of 14 this season (L10 avg 0.1).",
     "big4": true,
     "big4_only": null,
     "now": "+200",
-    "why_src": "Hard Rock +210 vs Pinnacle no-vig fair +196 (33.7%) → edge +4.58%. Clears the 4% Pinnacle edge floor at +4.58%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
-    "ctx": {
-     "game": "Bruins vs. Blackhawks",
-     "team": "BOS",
-     "opp": "CHI",
-     "stat": "ga",
-     "opp_rank": {
-      "rank": 29,
-      "of": 32,
-      "pg": 3.7,
-      "gp": 13,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "BOS",
-     "spread": -1.5,
-     "total": 6.5,
-     "team_totals": {
-      "CHI": 2.5,
-      "BOS": 3.5
-     },
-     "home": "BOS",
-     "away": "CHI",
-     "rest": {
-      "BOS": 1,
-      "CHI": 1
-     },
-     "record": {
-      "BOS": "9-4-1",
-      "CHI": "4-9-0"
-     },
-     "start_et": "Sat 10/31 01:00 PM ET",
-     "out": {
-      "BOS": [],
-      "CHI": [
-       {
-        "name": "Bowen Byram",
-        "status": "Day-To-Day",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "24.7 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Bruins vs. Blackhawks",
-      "role": "Edge",
-      "team": "BOS",
-      "opponent": "CHI",
-      "home_away": "home",
-      "l5_toi": 15.87,
-      "l10": {
-       "hits": 1,
-       "n": 10,
-       "l5_hits": 0,
-       "l5_n": 5,
-       "season_hits": 1,
-       "season_n": 14
-      },
-      "volume_collapse": {
-       "status": "collapsed",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-22",
-         "opp": "NSH",
-         "v": 14.6,
-         "excluded_for": "blowout (margin 6)"
-        },
-        {
-         "date": "2026-10-20",
-         "opp": "DAL",
-         "v": 17.0,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-10",
-         "opp": "PHI",
-         "v": 16.7,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-08",
-         "opp": "UTA",
-         "v": 12.8,
-         "excluded_for": "blowout (margin 5)"
-        },
-        {
-         "date": "2026-10-02",
-         "opp": "WPG",
-         "v": 18.9,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-04-28",
-         "opp": "BUF",
-         "v": 18.8,
-         "excluded_for": "OT/extra innings"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        15.3,
-        16.8,
-        15.6
-       ],
-       "l3_avg": 15.9,
-       "l10_avg": 17.8,
-       "l10_n": 10,
-       "drop_pct": 10.7,
-       "last_game": {
-        "date": "2026-10-29",
-        "opp": "STL",
-        "v": 15.3,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "last game 15.3 TOI < 17 floor"
-      },
-      "matchup": {
-       "raw_opp_rank": 29,
-       "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 4,
-       "of": 32,
-       "source": "nhl-api",
-       "stat": "goals",
-       "linemate": null,
-       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent CHI + stat 'Goals' + side Over; opponent-defensive-rank table has 0 rows; other players' cards have a rank for this opponent+stat+side (see opponent_rank_other_players)",
-       "fallback": {
-        "value": 3.6923,
-        "raw": 29,
-        "of": 32,
-        "source": "nhl-api",
-        "source_rank": null,
-        "source_team": "Chicago Blackhawks",
-        "source_rank_direction": "api gives values only; ranked here",
-        "mapping": "goals against/gm",
-        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-        "fetched_at": "2026-10-31 06:01 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-        "source": "nhl-api",
-        "fetched_at": "2026-10-31 06:01 AM ET",
-        "failures": {},
-        "myspariedge": null,
-        "fantasyteamadvice": null
-       },
-       "source_rank": null,
-       "source_rank_direction": "api gives values only; ranked here"
-      },
-      "matchup_rank": 4,
-      "spread": "BOS -1.5",
-      "total": 6.5,
-      "team_totals": {
-       "Blackhawks": 2.5,
-       "Bruins": 3.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 1,
-      "b2b": false,
-      "venue": "TD Garden",
-      "indoor": true,
-      "teammates_out": [],
-      "opp_out": [],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "preferred"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "volume collapse: last game 15.3 TOI < 17 floor (flag only)"
-      ],
-      "matchup_rank": 4,
-      "matchup_tier": "preferred",
-      "preference_limit": 20,
-      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 TOI 15.9 avg (L3 15.9 vs L10 17.8 TOI) | Hit: 1/10 at O0.5, 0/5",
-     "Matchup: Opp 4/32 vs Goals (NHL API)",
-     "Context: BOS -1.5 / O/U 6.5 | - | Home",
-     "Injuries: none | none",
-     "Weather: neutral",
-     "Risk: volume collapse: last game 15.3 TOI < 17 floor (flag only)"
-    ],
     "dk": {
      "odds": null,
      "na": true,
@@ -19404,245 +18448,15 @@
     "fair": "+111",
     "fair_prob": 0.4747311393223902,
     "edge": 0.04440850650925854,
-    "result": "Pending",
+    "result": "Win (1 AST)",
     "picked_et": "7:09 AM ET",
-    "why": "Volume: L5 TOI 26.2 avg (L3 24.1 vs L10 24.7 TOI) | Hit: 5/10 at O0.5, 2/5. Matchup: Opp 24/32 vs Assists (NHL API). Context: DET +1.5 / O/U 5.5 | - | Home. Injuries: Mason Appleton, Marco Kasper out | Opp out: Ross Johnston, Torey Krug. Weather: neutral. Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+    "why": "Hard Rock +120 vs Pinnacle no-vig fair +111 (47.5%) → edge +4.44%. Clears the 4% Pinnacle edge floor at +4.44%. Price +120 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "B+",
-    "grade_why": "+4.4% vs Pinnacle",
+    "grade_why": "Edge +4.4% vs Pinnacle; hit in 5 of last 10, 6 of 13 this season (L10 avg 0.6).",
     "big4": true,
     "big4_only": null,
     "now": "+120",
-    "why_src": "Hard Rock +120 vs Pinnacle no-vig fair +111 (47.5%) → edge +4.44%. Clears the 4% Pinnacle edge floor at +4.44%. Price +120 is inside the preferred band (about -130 or better, or plus money).",
-    "ctx": {
-     "game": "Red Wings vs. Blues",
-     "team": "DET",
-     "opp": "STL",
-     "stat": "ga",
-     "opp_rank": {
-      "rank": 10,
-      "of": 32,
-      "pg": 2.9,
-      "gp": 13,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "STL",
-     "spread": -1.5,
-     "total": 5.5,
-     "team_totals": {
-      "STL": 2.5,
-      "DET": 2.5
-     },
-     "home": "DET",
-     "away": "STL",
-     "rest": {
-      "DET": 1,
-      "STL": 1
-     },
-     "record": {
-      "DET": "6-4-3",
-      "STL": "6-6-1"
-     },
-     "start_et": "Sat 10/31 01:00 PM ET",
-     "out": {
-      "DET": [
-       {
-        "name": "Albert Johansson",
-        "status": "Out",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "15.7 TOI"
-       },
-       {
-        "name": "Dylan Larkin",
-        "status": "Injured Reserve",
-        "pos": "C",
-        "date": "2026-10-29",
-        "role": "21.7 TOI"
-       }
-      ],
-      "STL": [
-       {
-        "name": "Colton Parayko",
-        "status": "Day-To-Day",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "20.8 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Red Wings vs. Blues",
-      "role": "Edge",
-      "team": "DET",
-      "opponent": "STL",
-      "home_away": "home",
-      "l5_toi": 26.19,
-      "l10": {
-       "hits": 5,
-       "n": 10,
-       "l5_hits": 2,
-       "l5_n": 5,
-       "season_hits": 6,
-       "season_n": 13
-      },
-      "volume_collapse": {
-       "status": "ok",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-26",
-         "opp": "EDM",
-         "v": 30.1,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-20",
-         "opp": "SEA",
-         "v": 28.5,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-17",
-         "opp": "SJS",
-         "v": 29.8,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-13",
-         "opp": "NJD",
-         "v": 23.4,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-10",
-         "opp": "MTL",
-         "v": 29.6,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-04-15",
-         "opp": "FLA",
-         "v": 16.9,
-         "excluded_for": "blowout (margin 7)"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        24.3,
-        24.7,
-        23.4
-       ],
-       "l3_avg": 24.1,
-       "l10_avg": 24.7,
-       "l10_n": 9,
-       "drop_pct": 2.3,
-       "last_game": {
-        "date": "2026-10-29",
-        "opp": "CHI",
-        "v": 24.3,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "no collapse"
-      },
-      "matchup": {
-       "raw_opp_rank": 9,
-       "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 24,
-       "of": 32,
-       "source": "nhl-api",
-       "stat": "ast",
-       "linemate": null,
-       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent STL + stat 'Assists' + side Over; opponent-defensive-rank table has 0 rows",
-       "fallback": {
-        "value": 2.92307,
-        "raw": 9,
-        "of": 32,
-        "source": "nhl-api",
-        "source_rank": null,
-        "source_team": "St. Louis Blues",
-        "source_rank_direction": "api gives values only; ranked here",
-        "mapping": "goals against/gm",
-        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-        "fetched_at": "2026-10-31 06:01 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-        "source": "nhl-api",
-        "fetched_at": "2026-10-31 06:01 AM ET",
-        "failures": {},
-        "myspariedge": null,
-        "fantasyteamadvice": null
-       },
-       "source_rank": null,
-       "source_rank_direction": "api gives values only; ranked here"
-      },
-      "matchup_rank": 24,
-      "spread": "DET +1.5",
-      "total": 5.5,
-      "team_totals": {
-       "Blues": 2.5,
-       "Red Wings": 2.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 1,
-      "b2b": false,
-      "venue": "Little Caesars Arena",
-      "indoor": true,
-      "teammates_out": [
-       "Mason Appleton",
-       "Marco Kasper",
-       "Albert Johansson",
-       "Dylan Larkin",
-       "Simon Edvinsson"
-      ],
-      "opp_out": [
-       "Ross Johnston",
-       "Torey Krug",
-       "Dillon Dube",
-       "Tyler Tucker",
-       "Logan Mailloux"
-      ],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "demoted"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-      ],
-      "matchup_rank": 24,
-      "matchup_tier": "demoted",
-      "preference_limit": 20,
-      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 TOI 26.2 avg (L3 24.1 vs L10 24.7 TOI) | Hit: 5/10 at O0.5, 2/5",
-     "Matchup: Opp 24/32 vs Assists (NHL API)",
-     "Context: DET +1.5 / O/U 5.5 | - | Home",
-     "Injuries: Mason Appleton, Marco Kasper out | Opp out: Ross Johnston, Torey Krug",
-     "Weather: neutral",
-     "Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-    ],
     "dk": {
      "odds": "-105",
      "na": false,
@@ -20341,242 +19155,12 @@
      "fair": "+371",
      "fair_prob": 0.21244563399130145,
      "edge": 0.2746738039478087,
-     "result": "Pending",
+     "result": "Loss (0 G)",
      "picked_et": "7:09 AM ET",
-     "why": "Volume: L5 TOI 16.3 avg (L3 16.1 vs L10 18.2 TOI) | Hit: 2/10 at O0.5, 1/5. Matchup: Opp 24/32 vs Goals (NHL API). Context: DET +1.5 / O/U 5.5 | - | Home. Injuries: Mason Appleton, Marco Kasper out | Opp out: Ross Johnston, Torey Krug. Weather: neutral. Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+     "why": "Hard Rock +500 vs Pinnacle no-vig fair +371 (21.2%) → edge +27.47%. Clears the 4% Pinnacle edge floor at +27.47%. Price +500 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "A",
-     "grade_why": "+27.5% vs Pinnacle",
-     "why_src": "Hard Rock +500 vs Pinnacle no-vig fair +371 (21.2%) → edge +27.47%. Clears the 4% Pinnacle edge floor at +27.47%. Price +500 is inside the preferred band (about -130 or better, or plus money).",
-     "ctx": {
-      "game": "Red Wings vs. Blues",
-      "team": "DET",
-      "opp": "STL",
-      "stat": "ga",
-      "opp_rank": {
-       "rank": 10,
-       "of": 32,
-       "pg": 2.9,
-       "gp": 13,
-       "scale": "N/of, higher = more allowed (LineMate order)"
-      },
-      "fav": "STL",
-      "spread": -1.5,
-      "total": 5.5,
-      "team_totals": {
-       "STL": 2.5,
-       "DET": 2.5
-      },
-      "home": "DET",
-      "away": "STL",
-      "rest": {
-       "DET": 1,
-       "STL": 1
-      },
-      "record": {
-       "DET": "6-4-3",
-       "STL": "6-6-1"
-      },
-      "start_et": "Sat 10/31 01:00 PM ET",
-      "out": {
-       "DET": [
-        {
-         "name": "Albert Johansson",
-         "status": "Out",
-         "pos": "D",
-         "date": "2026-10-30",
-         "role": "15.7 TOI"
-        },
-        {
-         "name": "Dylan Larkin",
-         "status": "Injured Reserve",
-         "pos": "C",
-         "date": "2026-10-29",
-         "role": "21.7 TOI"
-        }
-       ],
-       "STL": [
-        {
-         "name": "Colton Parayko",
-         "status": "Day-To-Day",
-         "pos": "D",
-         "date": "2026-10-30",
-         "role": "20.8 TOI"
-        }
-       ]
-      },
-      "game_day": {
-       "sport": "NHL",
-       "game": "Red Wings vs. Blues",
-       "role": "Edge",
-       "team": "DET",
-       "opponent": "STL",
-       "home_away": "home",
-       "l5_toi": 16.3,
-       "l10": {
-        "hits": 2,
-        "n": 10,
-        "l5_hits": 1,
-        "l5_n": 5,
-        "season_hits": 2,
-        "season_n": 13
-       },
-       "volume_collapse": {
-        "status": "ok",
-        "volume_stat": "TOI",
-        "blowout_margin": 4,
-        "blowout_source": "user default (4+ goals)",
-        "floor": [
-         "TOI",
-         17
-        ],
-        "floor_source": "§16: 17+ TOI",
-        "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-        "excluded_games": [
-         {
-          "date": "2026-10-26",
-          "opp": "EDM",
-          "v": 17.8,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-20",
-          "opp": "SEA",
-          "v": 15.4,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-17",
-          "opp": "SJS",
-          "v": 20.9,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-13",
-          "opp": "NJD",
-          "v": 18.2,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-10",
-          "opp": "MTL",
-          "v": 19.3,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-04-15",
-          "opp": "FLA",
-          "v": 15.2,
-          "excluded_for": "blowout (margin 7)"
-         }
-        ],
-        "unknown_margin_or_ot": 0,
-        "l3": [
-         18.1,
-         14.6,
-         15.5
-        ],
-        "l3_avg": 16.1,
-        "l10_avg": 18.2,
-        "l10_n": 9,
-        "drop_pct": 11.5,
-        "last_game": {
-         "date": "2026-10-29",
-         "opp": "CHI",
-         "v": 18.1,
-         "spot": null
-        },
-        "possible_exit_games": [],
-        "reason": "no collapse"
-       },
-       "matchup": {
-        "raw_opp_rank": 9,
-        "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-        "direction": "normalized 1 = best for the side taken",
-        "normalized": 24,
-        "of": 32,
-        "source": "nhl-api",
-        "stat": "goals",
-        "linemate": null,
-        "linemate_null_reason": "no Trends card for this player carries a rank line for opponent STL + stat 'Goals' + side Over; opponent-defensive-rank table has 0 rows",
-        "fallback": {
-         "value": 2.92307,
-         "raw": 9,
-         "of": 32,
-         "source": "nhl-api",
-         "source_rank": null,
-         "source_team": "St. Louis Blues",
-         "source_rank_direction": "api gives values only; ranked here",
-         "mapping": "goals against/gm",
-         "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-         "fetched_at": "2026-10-31 06:01 AM ET"
-        },
-        "fallback_source": {
-         "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-         "source": "nhl-api",
-         "fetched_at": "2026-10-31 06:01 AM ET",
-         "failures": {},
-         "myspariedge": null,
-         "fantasyteamadvice": null
-        },
-        "source_rank": null,
-        "source_rank_direction": "api gives values only; ranked here"
-       },
-       "matchup_rank": 24,
-       "spread": "DET +1.5",
-       "total": 5.5,
-       "team_totals": {
-        "Blues": 2.5,
-        "Red Wings": 2.5
-       },
-       "pace": "-",
-       "division_game": false,
-       "national_tv": [],
-       "rest_days": 1,
-       "b2b": false,
-       "venue": "Little Caesars Arena",
-       "indoor": true,
-       "teammates_out": [
-        "Mason Appleton",
-        "Marco Kasper",
-        "Albert Johansson",
-        "Dylan Larkin",
-        "Simon Edvinsson"
-       ],
-       "opp_out": [
-        "Ross Johnston",
-        "Torey Krug",
-        "Dillon Dube",
-        "Tyler Tucker",
-        "Logan Mailloux"
-       ],
-       "player_injury_status": "not listed",
-       "lm_without": [],
-       "lm_vs_opp": "n/a",
-       "weather": "indoor",
-       "matchup_tier": "demoted"
-      },
-      "filters_applied": {
-       "vetoes": [],
-       "flags": [
-        "matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-       ],
-       "matchup_rank": 24,
-       "matchup_tier": "demoted",
-       "preference_limit": 20,
-       "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-       "applied_at": "2026-10-31 06:04 AM ET"
-      },
-      "why_from": "scout"
-     },
-     "gameday": [
-      "Volume: L5 TOI 16.3 avg (L3 16.1 vs L10 18.2 TOI) | Hit: 2/10 at O0.5, 1/5",
-      "Matchup: Opp 24/32 vs Goals (NHL API)",
-      "Context: DET +1.5 / O/U 5.5 | - | Home",
-      "Injuries: Mason Appleton, Marco Kasper out | Opp out: Ross Johnston, Torey Krug",
-      "Weather: neutral",
-      "Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-     ],
+     "grade_why": "Edge +27.5% vs Pinnacle; hit in 2 of last 10, 2 of 13 this season (L10 avg 0.2).",
      "dk": {
       "odds": null,
       "na": true,
@@ -22133,220 +20717,12 @@
      "fair": "+135",
      "fair_prob": 0.4248366013071895,
      "edge": 0.08333333333333304,
-     "result": "Pending",
+     "result": "Win (1 AST)",
      "picked_et": "7:09 AM ET",
-     "why": "Volume: L5 TOI 17.9 avg (L3 16.4 vs L10 18.8 TOI) | Hit: 6/10 at O0.5, 3/5. Matchup: Opp 31/32 vs Assists (NHL API). Context: CHI +1.5 / O/U 6.5 | - | Away. Injuries: none | none. Weather: neutral. Risk: matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+     "why": "Hard Rock +155 vs Pinnacle no-vig fair +135 (42.5%) → edge +8.33%. Clears the 4% Pinnacle edge floor at +8.33%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "A",
-     "grade_why": "+8.3% vs Pinnacle",
-     "why_src": "Hard Rock +155 vs Pinnacle no-vig fair +135 (42.5%) → edge +8.33%. Clears the 4% Pinnacle edge floor at +8.33%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
-     "ctx": {
-      "game": "Bruins vs. Blackhawks",
-      "team": "CHI",
-      "opp": "BOS",
-      "stat": "ga",
-      "opp_rank": {
-       "rank": 2,
-       "of": 32,
-       "pg": 2.3,
-       "gp": 14,
-       "scale": "N/of, higher = more allowed (LineMate order)"
-      },
-      "fav": "BOS",
-      "spread": -1.5,
-      "total": 6.5,
-      "team_totals": {
-       "CHI": 2.5,
-       "BOS": 3.5
-      },
-      "home": "BOS",
-      "away": "CHI",
-      "rest": {
-       "BOS": 1,
-       "CHI": 1
-      },
-      "record": {
-       "BOS": "9-4-1",
-       "CHI": "4-9-0"
-      },
-      "start_et": "Sat 10/31 01:00 PM ET",
-      "out": {
-       "BOS": [],
-       "CHI": [
-        {
-         "name": "Bowen Byram",
-         "status": "Day-To-Day",
-         "pos": "D",
-         "date": "2026-10-30",
-         "role": "24.7 TOI"
-        }
-       ]
-      },
-      "game_day": {
-       "sport": "NHL",
-       "game": "Bruins vs. Blackhawks",
-       "role": "Edge",
-       "team": "CHI",
-       "opponent": "BOS",
-       "home_away": "away",
-       "l5_toi": 17.89,
-       "l10": {
-        "hits": 6,
-        "n": 10,
-        "l5_hits": 3,
-        "l5_n": 5,
-        "season_hits": 6,
-        "season_n": 13
-       },
-       "volume_collapse": {
-        "status": "collapsed",
-        "volume_stat": "TOI",
-        "blowout_margin": 4,
-        "blowout_source": "user default (4+ goals)",
-        "floor": [
-         "TOI",
-         17
-        ],
-        "floor_source": "§16: 17+ TOI",
-        "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-        "excluded_games": [
-         {
-          "date": "2026-10-17",
-          "opp": "DAL",
-          "v": 19.4,
-          "excluded_for": "blowout (margin 4)"
-         },
-         {
-          "date": "2026-10-15",
-          "opp": "WPG",
-          "v": 18.3,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-01",
-          "opp": "UTA",
-          "v": 19.3,
-          "excluded_for": "blowout (margin 6)"
-         },
-         {
-          "date": "2026-04-15",
-          "opp": "FLA",
-          "v": 18.1,
-          "excluded_for": "blowout (margin 7)"
-         },
-         {
-          "date": "2026-04-13",
-          "opp": "TBL",
-          "v": 17.4,
-          "excluded_for": "OT/extra innings"
-         }
-        ],
-        "unknown_margin_or_ot": 0,
-        "l3": [
-         14.4,
-         14.4,
-         20.4
-        ],
-        "l3_avg": 16.4,
-        "l10_avg": 18.8,
-        "l10_n": 10,
-        "drop_pct": 12.9,
-        "last_game": {
-         "date": "2026-10-29",
-         "opp": "DET",
-         "v": 14.4,
-         "spot": null
-        },
-        "possible_exit_games": [],
-        "reason": "last game 14.4 TOI < 17 floor"
-       },
-       "matchup": {
-        "raw_opp_rank": 2,
-        "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-        "direction": "normalized 1 = best for the side taken",
-        "normalized": 31,
-        "of": 32,
-        "source": "nhl-api",
-        "stat": "ast",
-        "linemate": null,
-        "linemate_null_reason": "no Trends card for this player carries a rank line for opponent BOS + stat 'Assists' + side Over; opponent-defensive-rank table has 0 rows",
-        "fallback": {
-         "value": 2.28571,
-         "raw": 2,
-         "of": 32,
-         "source": "nhl-api",
-         "source_rank": null,
-         "source_team": "Boston Bruins",
-         "source_rank_direction": "api gives values only; ranked here",
-         "mapping": "goals against/gm",
-         "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-         "fetched_at": "2026-10-31 06:01 AM ET"
-        },
-        "fallback_source": {
-         "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-         "source": "nhl-api",
-         "fetched_at": "2026-10-31 06:01 AM ET",
-         "failures": {},
-         "myspariedge": null,
-         "fantasyteamadvice": null
-        },
-        "source_rank": null,
-        "source_rank_direction": "api gives values only; ranked here"
-       },
-       "matchup_rank": 31,
-       "spread": "CHI +1.5",
-       "total": 6.5,
-       "team_totals": {
-        "Blackhawks": 2.5,
-        "Bruins": 3.5
-       },
-       "pace": "-",
-       "division_game": false,
-       "national_tv": [],
-       "rest_days": 1,
-       "b2b": false,
-       "venue": "TD Garden",
-       "indoor": true,
-       "teammates_out": [],
-       "opp_out": [],
-       "player_injury_status": "not listed",
-       "lm_without": [
-        {
-         "hits": 3,
-         "n": 4,
-         "teammate": "Bowen Byram"
-        }
-       ],
-       "lm_vs_opp": {
-        "hits": 4,
-        "n": 5,
-        "opp": "BOS"
-       },
-       "weather": "indoor",
-       "matchup_tier": "demoted"
-      },
-      "filters_applied": {
-       "vetoes": [],
-       "flags": [
-        "matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
-        "volume collapse: last game 14.4 TOI < 17 floor (flag only)"
-       ],
-       "matchup_rank": 31,
-       "matchup_tier": "demoted",
-       "preference_limit": 20,
-       "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-       "applied_at": "2026-10-31 06:04 AM ET"
-      },
-      "why_from": "scout"
-     },
-     "gameday": [
-      "Volume: L5 TOI 17.9 avg (L3 16.4 vs L10 18.8 TOI) | Hit: 6/10 at O0.5, 3/5",
-      "Matchup: Opp 31/32 vs Assists (NHL API)",
-      "Context: CHI +1.5 / O/U 6.5 | - | Away",
-      "Injuries: none | none",
-      "Weather: neutral",
-      "Risk: matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-     ],
+     "grade_why": "Edge +8.3% vs Pinnacle; hit in 6 of last 10, 6 of 13 this season (L10 avg 0.7).",
      "dk": {
       "odds": "+100",
       "na": false,
@@ -22655,204 +21031,12 @@
      "fair": "+217",
      "fair_prob": 0.31581264605276527,
      "edge": 0.07376299657940177,
-     "result": "Pending",
+     "result": "Win (1 AST)",
      "picked_et": "7:09 AM ET",
-     "why": "Volume: L5 TOI 17.2 avg (L3 17.3 vs L10 17.4 TOI) | Hit: 3/10 at O0.5, 0/5. Matchup: Opp 31/32 vs Assists (NHL API). Context: CHI +1.5 / O/U 6.5 | - | Away. Injuries: none | none. Weather: neutral. Risk: matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+     "why": "Hard Rock +240 vs Pinnacle no-vig fair +217 (31.6%) → edge +7.38%. Clears the 4% Pinnacle edge floor at +7.38%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "B",
-     "grade_why": "+7.4% vs Pinnacle",
-     "why_src": "Hard Rock +240 vs Pinnacle no-vig fair +217 (31.6%) → edge +7.38%. Clears the 4% Pinnacle edge floor at +7.38%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
-     "ctx": {
-      "game": "Bruins vs. Blackhawks",
-      "team": "CHI",
-      "opp": "BOS",
-      "stat": "ga",
-      "opp_rank": {
-       "rank": 2,
-       "of": 32,
-       "pg": 2.3,
-       "gp": 14,
-       "scale": "N/of, higher = more allowed (LineMate order)"
-      },
-      "fav": "BOS",
-      "spread": -1.5,
-      "total": 6.5,
-      "team_totals": {
-       "CHI": 2.5,
-       "BOS": 3.5
-      },
-      "home": "BOS",
-      "away": "CHI",
-      "rest": {
-       "BOS": 1,
-       "CHI": 1
-      },
-      "record": {
-       "BOS": "9-4-1",
-       "CHI": "4-9-0"
-      },
-      "start_et": "Sat 10/31 01:00 PM ET",
-      "out": {
-       "BOS": [],
-       "CHI": [
-        {
-         "name": "Bowen Byram",
-         "status": "Day-To-Day",
-         "pos": "D",
-         "date": "2026-10-30",
-         "role": "24.7 TOI"
-        }
-       ]
-      },
-      "game_day": {
-       "sport": "NHL",
-       "game": "Bruins vs. Blackhawks",
-       "role": "Edge",
-       "team": "CHI",
-       "opponent": "BOS",
-       "home_away": "away",
-       "l5_toi": 17.24,
-       "l10": {
-        "hits": 3,
-        "n": 10,
-        "l5_hits": 0,
-        "l5_n": 5,
-        "season_hits": 3,
-        "season_n": 13
-       },
-       "volume_collapse": {
-        "status": "collapsed",
-        "volume_stat": "TOI",
-        "blowout_margin": 4,
-        "blowout_source": "user default (4+ goals)",
-        "floor": [
-         "TOI",
-         17
-        ],
-        "floor_source": "§16: 17+ TOI",
-        "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-        "excluded_games": [
-         {
-          "date": "2026-10-17",
-          "opp": "DAL",
-          "v": 17.4,
-          "excluded_for": "blowout (margin 4)"
-         },
-         {
-          "date": "2026-10-15",
-          "opp": "WPG",
-          "v": 16.5,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-01",
-          "opp": "UTA",
-          "v": 18.2,
-          "excluded_for": "blowout (margin 6)"
-         },
-         {
-          "date": "2026-04-13",
-          "opp": "BUF",
-          "v": 18.7,
-          "excluded_for": "blowout (margin 4)"
-         }
-        ],
-        "unknown_margin_or_ot": 0,
-        "l3": [
-         14.0,
-         15.7,
-         22.4
-        ],
-        "l3_avg": 17.3,
-        "l10_avg": 17.4,
-        "l10_n": 10,
-        "drop_pct": 0.2,
-        "last_game": {
-         "date": "2026-10-29",
-         "opp": "DET",
-         "v": 14.0,
-         "spot": null
-        },
-        "possible_exit_games": [],
-        "reason": "last game 14.0 TOI < 17 floor"
-       },
-       "matchup": {
-        "raw_opp_rank": 2,
-        "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-        "direction": "normalized 1 = best for the side taken",
-        "normalized": 31,
-        "of": 32,
-        "source": "nhl-api",
-        "stat": "ast",
-        "linemate": null,
-        "linemate_null_reason": "no Trends card for this player carries a rank line for opponent BOS + stat 'Assists' + side Over; opponent-defensive-rank table has 0 rows",
-        "fallback": {
-         "value": 2.28571,
-         "raw": 2,
-         "of": 32,
-         "source": "nhl-api",
-         "source_rank": null,
-         "source_team": "Boston Bruins",
-         "source_rank_direction": "api gives values only; ranked here",
-         "mapping": "goals against/gm",
-         "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-         "fetched_at": "2026-10-31 06:01 AM ET"
-        },
-        "fallback_source": {
-         "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-         "source": "nhl-api",
-         "fetched_at": "2026-10-31 06:01 AM ET",
-         "failures": {},
-         "myspariedge": null,
-         "fantasyteamadvice": null
-        },
-        "source_rank": null,
-        "source_rank_direction": "api gives values only; ranked here"
-       },
-       "matchup_rank": 31,
-       "spread": "CHI +1.5",
-       "total": 6.5,
-       "team_totals": {
-        "Blackhawks": 2.5,
-        "Bruins": 3.5
-       },
-       "pace": "-",
-       "division_game": false,
-       "national_tv": [],
-       "rest_days": 1,
-       "b2b": false,
-       "venue": "TD Garden",
-       "indoor": true,
-       "teammates_out": [],
-       "opp_out": [],
-       "player_injury_status": "not listed",
-       "lm_without": [],
-       "lm_vs_opp": "n/a",
-       "weather": "indoor",
-       "matchup_tier": "demoted"
-      },
-      "filters_applied": {
-       "vetoes": [],
-       "flags": [
-        "matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
-        "volume collapse: last game 14.0 TOI < 17 floor (flag only)"
-       ],
-       "matchup_rank": 31,
-       "matchup_tier": "demoted",
-       "preference_limit": 20,
-       "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-       "applied_at": "2026-10-31 06:04 AM ET"
-      },
-      "why_from": "scout"
-     },
-     "gameday": [
-      "Volume: L5 TOI 17.2 avg (L3 17.3 vs L10 17.4 TOI) | Hit: 3/10 at O0.5, 0/5",
-      "Matchup: Opp 31/32 vs Assists (NHL API)",
-      "Context: CHI +1.5 / O/U 6.5 | - | Away",
-      "Injuries: none | none",
-      "Weather: neutral",
-      "Risk: matchup 31/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-     ],
+     "grade_why": "Edge +7.4% vs Pinnacle; hit in 3 of last 10, 3 of 13 this season (L10 avg 0.3).",
      "dk": {
       "odds": "+190",
       "na": false,
@@ -23823,215 +22007,12 @@
      "fair": "+196",
      "fair_prob": 0.3373493975903614,
      "edge": 0.04578313253012034,
-     "result": "Pending",
+     "result": "Win (1 G)",
      "picked_et": "7:09 AM ET",
-     "why": "Volume: L5 TOI 15.9 avg (L3 15.9 vs L10 17.8 TOI) | Hit: 1/10 at O0.5, 0/5. Matchup: Opp 4/32 vs Goals (NHL API). Context: BOS -1.5 / O/U 6.5 | - | Home. Injuries: none | none. Weather: neutral. Risk: volume collapse: last game 15.3 TOI < 17 floor (flag only).",
+     "why": "Hard Rock +210 vs Pinnacle no-vig fair +196 (33.7%) → edge +4.58%. Clears the 4% Pinnacle edge floor at +4.58%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "C",
-     "grade_why": "+4.6% vs Pinnacle",
-     "why_src": "Hard Rock +210 vs Pinnacle no-vig fair +196 (33.7%) → edge +4.58%. Clears the 4% Pinnacle edge floor at +4.58%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
-     "ctx": {
-      "game": "Bruins vs. Blackhawks",
-      "team": "BOS",
-      "opp": "CHI",
-      "stat": "ga",
-      "opp_rank": {
-       "rank": 29,
-       "of": 32,
-       "pg": 3.7,
-       "gp": 13,
-       "scale": "N/of, higher = more allowed (LineMate order)"
-      },
-      "fav": "BOS",
-      "spread": -1.5,
-      "total": 6.5,
-      "team_totals": {
-       "CHI": 2.5,
-       "BOS": 3.5
-      },
-      "home": "BOS",
-      "away": "CHI",
-      "rest": {
-       "BOS": 1,
-       "CHI": 1
-      },
-      "record": {
-       "BOS": "9-4-1",
-       "CHI": "4-9-0"
-      },
-      "start_et": "Sat 10/31 01:00 PM ET",
-      "out": {
-       "BOS": [],
-       "CHI": [
-        {
-         "name": "Bowen Byram",
-         "status": "Day-To-Day",
-         "pos": "D",
-         "date": "2026-10-30",
-         "role": "24.7 TOI"
-        }
-       ]
-      },
-      "game_day": {
-       "sport": "NHL",
-       "game": "Bruins vs. Blackhawks",
-       "role": "Edge",
-       "team": "BOS",
-       "opponent": "CHI",
-       "home_away": "home",
-       "l5_toi": 15.87,
-       "l10": {
-        "hits": 1,
-        "n": 10,
-        "l5_hits": 0,
-        "l5_n": 5,
-        "season_hits": 1,
-        "season_n": 14
-       },
-       "volume_collapse": {
-        "status": "collapsed",
-        "volume_stat": "TOI",
-        "blowout_margin": 4,
-        "blowout_source": "user default (4+ goals)",
-        "floor": [
-         "TOI",
-         17
-        ],
-        "floor_source": "§16: 17+ TOI",
-        "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-        "excluded_games": [
-         {
-          "date": "2026-10-22",
-          "opp": "NSH",
-          "v": 14.6,
-          "excluded_for": "blowout (margin 6)"
-         },
-         {
-          "date": "2026-10-20",
-          "opp": "DAL",
-          "v": 17.0,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-10",
-          "opp": "PHI",
-          "v": 16.7,
-          "excluded_for": "blowout (margin 4)"
-         },
-         {
-          "date": "2026-10-08",
-          "opp": "UTA",
-          "v": 12.8,
-          "excluded_for": "blowout (margin 5)"
-         },
-         {
-          "date": "2026-10-02",
-          "opp": "WPG",
-          "v": 18.9,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-04-28",
-          "opp": "BUF",
-          "v": 18.8,
-          "excluded_for": "OT/extra innings"
-         }
-        ],
-        "unknown_margin_or_ot": 0,
-        "l3": [
-         15.3,
-         16.8,
-         15.6
-        ],
-        "l3_avg": 15.9,
-        "l10_avg": 17.8,
-        "l10_n": 10,
-        "drop_pct": 10.7,
-        "last_game": {
-         "date": "2026-10-29",
-         "opp": "STL",
-         "v": 15.3,
-         "spot": null
-        },
-        "possible_exit_games": [],
-        "reason": "last game 15.3 TOI < 17 floor"
-       },
-       "matchup": {
-        "raw_opp_rank": 29,
-        "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-        "direction": "normalized 1 = best for the side taken",
-        "normalized": 4,
-        "of": 32,
-        "source": "nhl-api",
-        "stat": "goals",
-        "linemate": null,
-        "linemate_null_reason": "no Trends card for this player carries a rank line for opponent CHI + stat 'Goals' + side Over; opponent-defensive-rank table has 0 rows; other players' cards have a rank for this opponent+stat+side (see opponent_rank_other_players)",
-        "fallback": {
-         "value": 3.6923,
-         "raw": 29,
-         "of": 32,
-         "source": "nhl-api",
-         "source_rank": null,
-         "source_team": "Chicago Blackhawks",
-         "source_rank_direction": "api gives values only; ranked here",
-         "mapping": "goals against/gm",
-         "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-         "fetched_at": "2026-10-31 06:01 AM ET"
-        },
-        "fallback_source": {
-         "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-         "source": "nhl-api",
-         "fetched_at": "2026-10-31 06:01 AM ET",
-         "failures": {},
-         "myspariedge": null,
-         "fantasyteamadvice": null
-        },
-        "source_rank": null,
-        "source_rank_direction": "api gives values only; ranked here"
-       },
-       "matchup_rank": 4,
-       "spread": "BOS -1.5",
-       "total": 6.5,
-       "team_totals": {
-        "Blackhawks": 2.5,
-        "Bruins": 3.5
-       },
-       "pace": "-",
-       "division_game": false,
-       "national_tv": [],
-       "rest_days": 1,
-       "b2b": false,
-       "venue": "TD Garden",
-       "indoor": true,
-       "teammates_out": [],
-       "opp_out": [],
-       "player_injury_status": "not listed",
-       "lm_without": [],
-       "lm_vs_opp": "n/a",
-       "weather": "indoor",
-       "matchup_tier": "preferred"
-      },
-      "filters_applied": {
-       "vetoes": [],
-       "flags": [
-        "volume collapse: last game 15.3 TOI < 17 floor (flag only)"
-       ],
-       "matchup_rank": 4,
-       "matchup_tier": "preferred",
-       "preference_limit": 20,
-       "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-       "applied_at": "2026-10-31 06:04 AM ET"
-      },
-      "why_from": "scout"
-     },
-     "gameday": [
-      "Volume: L5 TOI 15.9 avg (L3 15.9 vs L10 17.8 TOI) | Hit: 1/10 at O0.5, 0/5",
-      "Matchup: Opp 4/32 vs Goals (NHL API)",
-      "Context: BOS -1.5 / O/U 6.5 | - | Home",
-      "Injuries: none | none",
-      "Weather: neutral",
-      "Risk: volume collapse: last game 15.3 TOI < 17 floor (flag only)"
-     ],
+     "grade_why": "Edge +4.6% vs Pinnacle; hit in 1 of last 10, 1 of 14 this season (L10 avg 0.1).",
      "dk": {
       "odds": null,
       "na": true,
@@ -24057,242 +22038,12 @@
      "fair": "+111",
      "fair_prob": 0.4747311393223902,
      "edge": 0.04440850650925854,
-     "result": "Pending",
+     "result": "Win (1 AST)",
      "picked_et": "7:09 AM ET",
-     "why": "Volume: L5 TOI 26.2 avg (L3 24.1 vs L10 24.7 TOI) | Hit: 5/10 at O0.5, 2/5. Matchup: Opp 24/32 vs Assists (NHL API). Context: DET +1.5 / O/U 5.5 | - | Home. Injuries: Mason Appleton, Marco Kasper out | Opp out: Ross Johnston, Torey Krug. Weather: neutral. Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
+     "why": "Hard Rock +120 vs Pinnacle no-vig fair +111 (47.5%) → edge +4.44%. Clears the 4% Pinnacle edge floor at +4.44%. Price +120 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "B+",
-     "grade_why": "+4.4% vs Pinnacle",
-     "why_src": "Hard Rock +120 vs Pinnacle no-vig fair +111 (47.5%) → edge +4.44%. Clears the 4% Pinnacle edge floor at +4.44%. Price +120 is inside the preferred band (about -130 or better, or plus money).",
-     "ctx": {
-      "game": "Red Wings vs. Blues",
-      "team": "DET",
-      "opp": "STL",
-      "stat": "ga",
-      "opp_rank": {
-       "rank": 10,
-       "of": 32,
-       "pg": 2.9,
-       "gp": 13,
-       "scale": "N/of, higher = more allowed (LineMate order)"
-      },
-      "fav": "STL",
-      "spread": -1.5,
-      "total": 5.5,
-      "team_totals": {
-       "STL": 2.5,
-       "DET": 2.5
-      },
-      "home": "DET",
-      "away": "STL",
-      "rest": {
-       "DET": 1,
-       "STL": 1
-      },
-      "record": {
-       "DET": "6-4-3",
-       "STL": "6-6-1"
-      },
-      "start_et": "Sat 10/31 01:00 PM ET",
-      "out": {
-       "DET": [
-        {
-         "name": "Albert Johansson",
-         "status": "Out",
-         "pos": "D",
-         "date": "2026-10-30",
-         "role": "15.7 TOI"
-        },
-        {
-         "name": "Dylan Larkin",
-         "status": "Injured Reserve",
-         "pos": "C",
-         "date": "2026-10-29",
-         "role": "21.7 TOI"
-        }
-       ],
-       "STL": [
-        {
-         "name": "Colton Parayko",
-         "status": "Day-To-Day",
-         "pos": "D",
-         "date": "2026-10-30",
-         "role": "20.8 TOI"
-        }
-       ]
-      },
-      "game_day": {
-       "sport": "NHL",
-       "game": "Red Wings vs. Blues",
-       "role": "Edge",
-       "team": "DET",
-       "opponent": "STL",
-       "home_away": "home",
-       "l5_toi": 26.19,
-       "l10": {
-        "hits": 5,
-        "n": 10,
-        "l5_hits": 2,
-        "l5_n": 5,
-        "season_hits": 6,
-        "season_n": 13
-       },
-       "volume_collapse": {
-        "status": "ok",
-        "volume_stat": "TOI",
-        "blowout_margin": 4,
-        "blowout_source": "user default (4+ goals)",
-        "floor": [
-         "TOI",
-         17
-        ],
-        "floor_source": "§16: 17+ TOI",
-        "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-        "excluded_games": [
-         {
-          "date": "2026-10-26",
-          "opp": "EDM",
-          "v": 30.1,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-20",
-          "opp": "SEA",
-          "v": 28.5,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-17",
-          "opp": "SJS",
-          "v": 29.8,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-13",
-          "opp": "NJD",
-          "v": 23.4,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-10-10",
-          "opp": "MTL",
-          "v": 29.6,
-          "excluded_for": "OT/extra innings"
-         },
-         {
-          "date": "2026-04-15",
-          "opp": "FLA",
-          "v": 16.9,
-          "excluded_for": "blowout (margin 7)"
-         }
-        ],
-        "unknown_margin_or_ot": 0,
-        "l3": [
-         24.3,
-         24.7,
-         23.4
-        ],
-        "l3_avg": 24.1,
-        "l10_avg": 24.7,
-        "l10_n": 9,
-        "drop_pct": 2.3,
-        "last_game": {
-         "date": "2026-10-29",
-         "opp": "CHI",
-         "v": 24.3,
-         "spot": null
-        },
-        "possible_exit_games": [],
-        "reason": "no collapse"
-       },
-       "matchup": {
-        "raw_opp_rank": 9,
-        "raw_meaning": "nhl-api: goals against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-        "direction": "normalized 1 = best for the side taken",
-        "normalized": 24,
-        "of": 32,
-        "source": "nhl-api",
-        "stat": "ast",
-        "linemate": null,
-        "linemate_null_reason": "no Trends card for this player carries a rank line for opponent STL + stat 'Assists' + side Over; opponent-defensive-rank table has 0 rows",
-        "fallback": {
-         "value": 2.92307,
-         "raw": 9,
-         "of": 32,
-         "source": "nhl-api",
-         "source_rank": null,
-         "source_team": "St. Louis Blues",
-         "source_rank_direction": "api gives values only; ranked here",
-         "mapping": "goals against/gm",
-         "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-         "fetched_at": "2026-10-31 06:01 AM ET"
-        },
-        "fallback_source": {
-         "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-         "source": "nhl-api",
-         "fetched_at": "2026-10-31 06:01 AM ET",
-         "failures": {},
-         "myspariedge": null,
-         "fantasyteamadvice": null
-        },
-        "source_rank": null,
-        "source_rank_direction": "api gives values only; ranked here"
-       },
-       "matchup_rank": 24,
-       "spread": "DET +1.5",
-       "total": 5.5,
-       "team_totals": {
-        "Blues": 2.5,
-        "Red Wings": 2.5
-       },
-       "pace": "-",
-       "division_game": false,
-       "national_tv": [],
-       "rest_days": 1,
-       "b2b": false,
-       "venue": "Little Caesars Arena",
-       "indoor": true,
-       "teammates_out": [
-        "Mason Appleton",
-        "Marco Kasper",
-        "Albert Johansson",
-        "Dylan Larkin",
-        "Simon Edvinsson"
-       ],
-       "opp_out": [
-        "Ross Johnston",
-        "Torey Krug",
-        "Dillon Dube",
-        "Tyler Tucker",
-        "Logan Mailloux"
-       ],
-       "player_injury_status": "not listed",
-       "lm_without": [],
-       "lm_vs_opp": "n/a",
-       "weather": "indoor",
-       "matchup_tier": "demoted"
-      },
-      "filters_applied": {
-       "vetoes": [],
-       "flags": [
-        "matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-       ],
-       "matchup_rank": 24,
-       "matchup_tier": "demoted",
-       "preference_limit": 20,
-       "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-       "applied_at": "2026-10-31 06:04 AM ET"
-      },
-      "why_from": "scout"
-     },
-     "gameday": [
-      "Volume: L5 TOI 26.2 avg (L3 24.1 vs L10 24.7 TOI) | Hit: 5/10 at O0.5, 2/5",
-      "Matchup: Opp 24/32 vs Assists (NHL API)",
-      "Context: DET +1.5 / O/U 5.5 | - | Home",
-      "Injuries: Mason Appleton, Marco Kasper out | Opp out: Ross Johnston, Torey Krug",
-      "Weather: neutral",
-      "Risk: matchup 24/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-     ],
+     "grade_why": "Edge +4.4% vs Pinnacle; hit in 5 of last 10, 6 of 13 this season (L10 avg 0.6).",
      "dk": {
       "odds": "-105",
       "na": false,
@@ -25743,12 +23494,12 @@
  },
  "edge_record": {
   "overall": {
-   "w": 93,
-   "l": 167,
-   "p": 1,
-   "pct": 36,
-   "units": -21.56,
-   "pending": 20
+   "w": 98,
+   "l": 168,
+   "p": 2,
+   "pct": 37,
+   "units": -13.76,
+   "pending": 13
   },
   "by_sport": {
    "MLB": {
@@ -25768,12 +23519,12 @@
     "pending": 1
    },
    "NCAA F": {
-    "w": 5,
+    "w": 6,
     "l": 13,
-    "p": 0,
-    "pct": 28,
-    "units": -5.0,
-    "pending": 2
+    "p": 1,
+    "pct": 32,
+    "units": -3.45,
+    "pending": 0
    },
    "NFL": {
     "w": 4,
@@ -25784,12 +23535,12 @@
     "pending": 0
    },
    "NHL": {
-    "w": 78,
-    "l": 136,
+    "w": 82,
+    "l": 137,
     "p": 1,
-    "pct": 36,
-    "units": -10.17,
-    "pending": 17
+    "pct": 37,
+    "units": -3.92,
+    "pending": 12
    },
    "WNBA": {
     "w": 0,
@@ -25884,18 +23635,18 @@
    "NCAAF spread": {
     "w": 1,
     "l": 10,
-    "p": 0,
+    "p": 1,
     "pct": 9,
     "units": -7.8,
-    "pending": 1
+    "pending": 0
    },
    "NCAAF team total": {
-    "w": 2,
+    "w": 3,
     "l": 2,
     "p": 0,
-    "pct": 50,
-    "units": 0.33,
-    "pending": 1
+    "pct": 60,
+    "units": 1.88,
+    "pending": 0
    },
    "NFL ML": {
     "w": 0,
@@ -25938,12 +23689,12 @@
     "pending": 2
    },
    "NHL assists": {
-    "w": 27,
+    "w": 30,
     "l": 50,
     "p": 0,
-    "pct": 35,
-    "units": -2.95,
-    "pending": 13
+    "pct": 38,
+    "units": 2.2,
+    "pending": 10
    },
    "NHL game total": {
     "w": 0,
@@ -25954,12 +23705,12 @@
     "pending": 0
    },
    "NHL goals": {
-    "w": 10,
-    "l": 28,
+    "w": 11,
+    "l": 29,
     "p": 0,
-    "pct": 26,
-    "units": 3.4,
-    "pending": 2
+    "pct": 28,
+    "units": 4.5,
+    "pending": 0
    },
    "NHL points": {
     "w": 11,
@@ -30152,8 +27903,8 @@
    "prop": "NCAAF team total",
    "pick": "Q1 SMU Team Total Over 7.5",
    "odds": "+155",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (SMU 27)"
   },
   {
    "date": "2026-10-31",
@@ -30172,8 +27923,8 @@
    "prop": "NCAAF spread",
    "pick": "Q1 Bowling Green ML (tie refunds)",
    "odds": "+250",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "P",
+   "stat": "Push (7-7)"
   },
   {
    "date": "2026-10-31",
@@ -30182,8 +27933,8 @@
    "prop": "NHL goals",
    "pick": "Andrew Copp Over 0.5 Goals",
    "odds": "+500",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "L",
+   "stat": "Loss (0 G)"
   },
   {
    "date": "2026-10-31",
@@ -30252,8 +28003,8 @@
    "prop": "NHL assists",
    "pick": "Patrick Kane Over 0.5 Assists",
    "odds": "+155",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (1 AST)"
   },
   {
    "date": "2026-10-31",
@@ -30272,8 +28023,8 @@
    "prop": "NHL assists",
    "pick": "Tyler Bertuzzi Over 0.5 Assists",
    "odds": "+240",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (1 AST)"
   },
   {
    "date": "2026-10-31",
@@ -30312,8 +28063,8 @@
    "prop": "NHL goals",
    "pick": "Morgan Geekie Over 0.5 Goals",
    "odds": "+210",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (1 G)"
   },
   {
    "date": "2026-10-31",
@@ -30322,8 +28073,8 @@
    "prop": "NHL assists",
    "pick": "Moritz Seider Over 0.5 Assists",
    "odds": "+120",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (1 AST)"
   },
   {
    "date": "2026-10-31",
@@ -30366,8 +28117,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 401,
-  "headline": 401
+  "tiles_sum": 408,
+  "headline": 408
  },
  "inning_record": {},
  "ingame_lines": {
@@ -31737,241 +29488,9 @@
     "prop": "Under 1.5 Shots On Goal",
     "odds": "-130",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
-    "why_src": null,
-    "why_not": "volume collapse: last game 15.3 TOI < 17 floor",
-    "why": "Volume: L5 TOI 15.1 avg (L3 15.6 vs L10 16.5 TOI) | Hit: 7/10 at U1.5, 3/5. Matchup: Opp 8/32 vs Shots On Goal (NHL API). Context: STL -1.5 / O/U 5.5 | - | Away. Injuries: Ross Johnston, Torey Krug out | Opp out: Mason Appleton, Marco Kasper. Weather: neutral. Risk: volume collapse: last game 15.3 TOI < 17 floor.",
-    "ctx": {
-     "game": "Red Wings vs. Blues",
-     "team": "STL",
-     "opp": "DET",
-     "stat": "sog",
-     "opp_rank": {
-      "rank": 8,
-      "of": 32,
-      "pg": 25.2,
-      "gp": 13,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "STL",
-     "spread": -1.5,
-     "total": 5.5,
-     "team_totals": {
-      "STL": 2.5,
-      "DET": 2.5
-     },
-     "home": "DET",
-     "away": "STL",
-     "rest": {
-      "DET": 1,
-      "STL": 1
-     },
-     "record": {
-      "DET": "6-4-3",
-      "STL": "6-6-1"
-     },
-     "start_et": "Sat 10/31 01:00 PM ET",
-     "out": {
-      "DET": [
-       {
-        "name": "Albert Johansson",
-        "status": "Out",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "15.7 TOI"
-       },
-       {
-        "name": "Dylan Larkin",
-        "status": "Injured Reserve",
-        "pos": "C",
-        "date": "2026-10-29",
-        "role": "21.7 TOI"
-       }
-      ],
-      "STL": [
-       {
-        "name": "Colton Parayko",
-        "status": "Day-To-Day",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "20.8 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Red Wings vs. Blues",
-      "role": "LEG DAY backup",
-      "team": "STL",
-      "opponent": "DET",
-      "home_away": "away",
-      "l5_toi": 15.1,
-      "l10": {
-       "hits": 7,
-       "n": 10,
-       "l5_hits": 3,
-       "l5_n": 5,
-       "season_hits": 8,
-       "season_n": 13
-      },
-      "volume_collapse": {
-       "status": "collapsed",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-24",
-         "opp": "CAR",
-         "v": 15.3,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-22",
-         "opp": "VGK",
-         "v": 13.2,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-13",
-         "opp": "OTT",
-         "v": 14.4,
-         "excluded_for": "blowout (margin 5)"
-        },
-        {
-         "date": "2026-10-08",
-         "opp": "SJS",
-         "v": 16.1,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-03",
-         "opp": "COL",
-         "v": 15.3,
-         "excluded_for": "blowout (margin 5)"
-        },
-        {
-         "date": "2026-10-02",
-         "opp": "DAL",
-         "v": 13.1,
-         "excluded_for": "blowout (margin 4)"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        15.3,
-        17.0,
-        14.6
-       ],
-       "l3_avg": 15.6,
-       "l10_avg": 16.5,
-       "l10_n": 10,
-       "drop_pct": 5.3,
-       "last_game": {
-        "date": "2026-10-29",
-        "opp": "BOS",
-        "v": 15.3,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "last game 15.3 TOI < 17 floor"
-      },
-      "matchup": {
-       "raw_opp_rank": 8,
-       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 8,
-       "of": 32,
-       "source": "nhl-api",
-       "stat": "sog",
-       "linemate": null,
-       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent DET + stat 'Shots on Goal' + side Under; opponent-defensive-rank table has 0 rows; other players' cards have a rank for this opponent+stat+side (see opponent_rank_other_players)",
-       "fallback": {
-        "value": 25.15384,
-        "raw": 8,
-        "of": 32,
-        "source": "nhl-api",
-        "source_rank": null,
-        "source_team": "Detroit Red Wings",
-        "source_rank_direction": "api gives values only; ranked here",
-        "mapping": "shots against/gm",
-        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-        "fetched_at": "2026-10-31 06:01 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-        "source": "nhl-api",
-        "fetched_at": "2026-10-31 06:01 AM ET",
-        "failures": {},
-        "myspariedge": null,
-        "fantasyteamadvice": null
-       },
-       "source_rank": null,
-       "source_rank_direction": "api gives values only; ranked here"
-      },
-      "matchup_rank": 8,
-      "spread": "STL -1.5",
-      "total": 5.5,
-      "team_totals": {
-       "Blues": 2.5,
-       "Red Wings": 2.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 1,
-      "b2b": false,
-      "venue": "Little Caesars Arena",
-      "indoor": true,
-      "teammates_out": [
-       "Ross Johnston",
-       "Torey Krug",
-       "Dillon Dube",
-       "Tyler Tucker",
-       "Logan Mailloux"
-      ],
-      "opp_out": [
-       "Mason Appleton",
-       "Marco Kasper",
-       "Albert Johansson",
-       "Dylan Larkin",
-       "Simon Edvinsson"
-      ],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "preferred"
-     },
-     "filters_applied": {
-      "vetoes": [
-       "volume collapse: last game 15.3 TOI < 17 floor"
-      ],
-      "flags": [],
-      "matchup_rank": 8,
-      "matchup_tier": "preferred",
-      "preference_limit": 20,
-      "hard_vetoes_apply": true,
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 TOI 15.1 avg (L3 15.6 vs L10 16.5 TOI) | Hit: 7/10 at U1.5, 3/5",
-     "Matchup: Opp 8/32 vs Shots On Goal (NHL API)",
-     "Context: STL -1.5 / O/U 5.5 | - | Away",
-     "Injuries: Ross Johnston, Torey Krug out | Opp out: Mason Appleton, Marco Kasper",
-     "Weather: neutral",
-     "Risk: volume collapse: last game 15.3 TOI < 17 floor"
-    ],
+    "status": "final",
+    "res": "W",
+    "stat": "1 SOG",
     "dk": {
      "odds": "-130",
      "na": false,
@@ -32549,238 +30068,9 @@
     "prop": "Under 1.5 Shots On Goal",
     "odds": "-125",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
-    "why_src": null,
-    "why": "Volume: L5 TOI 19.6 avg (L3 20.1 vs L10 19.8 TOI) | Hit: 6/10 at U1.5, 3/5. Matchup: Opp 8/32 vs Shots On Goal (NHL API). Context: STL -1.5 / O/U 5.5 | - | Away. Injuries: Ross Johnston, Torey Krug out | Opp out: Mason Appleton, Marco Kasper. Weather: neutral. Risk: Normal single-game variance.",
-    "ctx": {
-     "game": "Red Wings vs. Blues",
-     "team": "STL",
-     "opp": "DET",
-     "stat": "sog",
-     "opp_rank": {
-      "rank": 8,
-      "of": 32,
-      "pg": 25.2,
-      "gp": 13,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "STL",
-     "spread": -1.5,
-     "total": 5.5,
-     "team_totals": {
-      "STL": 2.5,
-      "DET": 2.5
-     },
-     "home": "DET",
-     "away": "STL",
-     "rest": {
-      "DET": 1,
-      "STL": 1
-     },
-     "record": {
-      "DET": "6-4-3",
-      "STL": "6-6-1"
-     },
-     "start_et": "Sat 10/31 01:00 PM ET",
-     "out": {
-      "DET": [
-       {
-        "name": "Albert Johansson",
-        "status": "Out",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "15.7 TOI"
-       },
-       {
-        "name": "Dylan Larkin",
-        "status": "Injured Reserve",
-        "pos": "C",
-        "date": "2026-10-29",
-        "role": "21.7 TOI"
-       }
-      ],
-      "STL": [
-       {
-        "name": "Colton Parayko",
-        "status": "Day-To-Day",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "20.8 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Red Wings vs. Blues",
-      "role": "LEG DAY",
-      "team": "STL",
-      "opponent": "DET",
-      "home_away": "away",
-      "l5_toi": 19.61,
-      "l10": {
-       "hits": 6,
-       "n": 10,
-       "l5_hits": 3,
-       "l5_n": 5,
-       "season_hits": 8,
-       "season_n": 13
-      },
-      "volume_collapse": {
-       "status": "ok",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-24",
-         "opp": "CAR",
-         "v": 18.2,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-22",
-         "opp": "VGK",
-         "v": 19.4,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-13",
-         "opp": "OTT",
-         "v": 17.9,
-         "excluded_for": "blowout (margin 5)"
-        },
-        {
-         "date": "2026-10-08",
-         "opp": "SJS",
-         "v": 20.6,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-03",
-         "opp": "COL",
-         "v": 16.5,
-         "excluded_for": "blowout (margin 5)"
-        },
-        {
-         "date": "2026-10-02",
-         "opp": "DAL",
-         "v": 23.0,
-         "excluded_for": "blowout (margin 4)"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        18.7,
-        20.8,
-        20.9
-       ],
-       "l3_avg": 20.1,
-       "l10_avg": 19.8,
-       "l10_n": 10,
-       "drop_pct": -1.5,
-       "last_game": {
-        "date": "2026-10-29",
-        "opp": "BOS",
-        "v": 18.7,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "no collapse"
-      },
-      "matchup": {
-       "raw_opp_rank": 8,
-       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 8,
-       "of": 32,
-       "source": "nhl-api",
-       "stat": "sog",
-       "linemate": null,
-       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent DET + stat 'Shots on Goal' + side Under; opponent-defensive-rank table has 0 rows; other players' cards have a rank for this opponent+stat+side (see opponent_rank_other_players)",
-       "fallback": {
-        "value": 25.15384,
-        "raw": 8,
-        "of": 32,
-        "source": "nhl-api",
-        "source_rank": null,
-        "source_team": "Detroit Red Wings",
-        "source_rank_direction": "api gives values only; ranked here",
-        "mapping": "shots against/gm",
-        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-        "fetched_at": "2026-10-31 06:01 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-        "source": "nhl-api",
-        "fetched_at": "2026-10-31 06:01 AM ET",
-        "failures": {},
-        "myspariedge": null,
-        "fantasyteamadvice": null
-       },
-       "source_rank": null,
-       "source_rank_direction": "api gives values only; ranked here"
-      },
-      "matchup_rank": 8,
-      "spread": "STL -1.5",
-      "total": 5.5,
-      "team_totals": {
-       "Blues": 2.5,
-       "Red Wings": 2.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 1,
-      "b2b": false,
-      "venue": "Little Caesars Arena",
-      "indoor": true,
-      "teammates_out": [
-       "Ross Johnston",
-       "Torey Krug",
-       "Dillon Dube",
-       "Tyler Tucker",
-       "Logan Mailloux"
-      ],
-      "opp_out": [
-       "Mason Appleton",
-       "Marco Kasper",
-       "Albert Johansson",
-       "Dylan Larkin",
-       "Simon Edvinsson"
-      ],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "preferred"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [],
-      "matchup_rank": 8,
-      "matchup_tier": "preferred",
-      "preference_limit": 20,
-      "hard_vetoes_apply": true,
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 TOI 19.6 avg (L3 20.1 vs L10 19.8 TOI) | Hit: 6/10 at U1.5, 3/5",
-     "Matchup: Opp 8/32 vs Shots On Goal (NHL API)",
-     "Context: STL -1.5 / O/U 5.5 | - | Away",
-     "Injuries: Ross Johnston, Torey Krug out | Opp out: Mason Appleton, Marco Kasper",
-     "Weather: neutral",
-     "Risk: Normal single-game variance"
-    ],
+    "status": "final",
+    "res": "L",
+    "stat": "2 SOG",
     "dk": {
      "odds": "-125",
      "na": false,
@@ -34543,6 +31833,7 @@
  },
  "rules": {
   "potd": [
+   "No steals / blocks: see the official standards and rule 4. No POTD (or POTD backup / Today POTD) whose stat includes steals or blocks, pure or combo.",
    "GAME DAY PROCESS applies: Game Day Why block, matchup rank (≤20 preferred) and the hard vetoes.",
    "Volume potd: one POTD per sport bubble when that sport has games. Hard Rock price -105 to -135 at selection. No edge requirement (POTD and POTD #n).",
    "Filters: the Alt Line Parlay volume filter and eligible-player rules and bans, plus hit rate at that exact line of at least 7 of last 10, with 8+ of last 10 preferred (the only hit-rate test).",
@@ -34564,6 +31855,7 @@
   ],
   "safe100": [],
   "edge": [
+   "No steals / blocks: see the official standards and rule 4. The bot never builds a steals/blocks prop (pure or combo); any that slips through is dropped, NO FILL.",
    "Hard Rock price vs Pinnacle no-vig fair. Edge % = EV% at Hard Rock price. Ranked by edge %. Each pick is locked once posted.",
    "ONE PASS, NO FILLER: Edge runs one pass and posts only plays that qualify. Nothing is filled. This supersedes COUNT's \"at least 3\" and ALWAYS FILL below.",
    "Qualifying threshold: positive EV at the Hard Rock price, about -130 or better, Pinnacle prices both sides of the same line.",
@@ -34668,6 +31960,7 @@
    "Strict readings: near-misses, fillers and model-only edges are not posted at all; Edge counts as Official, so Pinnacle 4% and NO FILL apply to Edge too; capper picks are idea sources tracked in Cappers only, never in the Official headline; live plays stay untracked; the NCAA F section keeps its separate record."
   ],
   "legday": [
+   "No steals / blocks: see the official standards and rule 4. the bot qualify rejects any prop whose stat includes steals or blocks (main board, backups, swaps). Earlier boards (e.g. 10/30 Paul George O1.5 Steals, Paul Reed U1.5 Blocks) are grandfathered as graded.",
    "What: a daily ranked Official board of up to 10 player props per sport at real Hard Rock prices -105 to -135, main or alt line. It replaces the old leg-by-leg Legs tracker.",
    "Gates (every prop): at least 4% edge against the Pinnacle no-vig fair price. When Pinnacle has no price, the projection must be at least 8% past the line (LEG DAY only; it does not extend to any other ticket).",
    "Game day process applies: Game Day Why block, matchup rank (≤22 preferred for LEG DAY) and the hard vetoes.",
@@ -40375,8 +37668,8 @@
     "prop": "NCAAF team total",
     "pick": "Q1 SMU Team Total Over 7.5",
     "odds": "+155",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (SMU 27)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -40407,8 +37700,8 @@
     "prop": "NCAAF spread",
     "pick": "Q1 Bowling Green ML (tie refunds)",
     "odds": "+250",
-    "res": "",
-    "stat": "Pending",
+    "res": "P",
+    "stat": "Push (7-7)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -40423,8 +37716,8 @@
     "prop": "NHL goals",
     "pick": "Andrew Copp Over 0.5 Goals",
     "odds": "+500",
-    "res": "",
-    "stat": "Pending",
+    "res": "L",
+    "stat": "Loss (0 G)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -40535,8 +37828,8 @@
     "prop": "NHL assists",
     "pick": "Patrick Kane Over 0.5 Assists",
     "odds": "+155",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (1 AST)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -40567,8 +37860,8 @@
     "prop": "NHL assists",
     "pick": "Tyler Bertuzzi Over 0.5 Assists",
     "odds": "+240",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (1 AST)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -40631,8 +37924,8 @@
     "prop": "NHL goals",
     "pick": "Morgan Geekie Over 0.5 Goals",
     "odds": "+210",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (1 G)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -40647,8 +37940,8 @@
     "prop": "NHL assists",
     "pick": "Moritz Seider Over 0.5 Assists",
     "odds": "+120",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (1 AST)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -47770,6 +45063,78 @@
     "uu": 0.81
    },
    {
+    "date": "2026-10-31",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL shots on goal (over)",
+    "fam": "SOG",
+    "pick": "J. Hagens 3+ SOG (CHI @ BOS 1:00pm)",
+    "odds": "+210",
+    "res": "L",
+    "stat": "L (0 SOG)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL shots on goal (over)",
+    "fam": "SOG",
+    "pick": "F. Minten 3+ SOG (CHI @ BOS 1:00pm)",
+    "odds": "+205",
+    "res": "L",
+    "stat": "L (0 SOG)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@bigmikepickz · NCAAF spread",
+    "fam": "Spread",
+    "pick": "Syracuse +10.5 (CFB Week 9 Early Games; 1.35u to win 1u)",
+    "odds": "-135",
+    "res": "W",
+    "stat": "W (SMU 27-30 SYR)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.74
+   },
+   {
+    "date": "2026-10-31",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@bigmikepickz · NCAAF parlay",
+    "fam": "Parlay",
+    "pick": "NCAAF 2-leg parlay: Duke ML + NC State ML (CFB Week 9 Early Games; 1.25u to win 1u)",
+    "odds": "-125",
+    "res": "W",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.8
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -48335,40 +45700,6 @@
     "sport": "NHL",
     "grp": "C",
     "cat": "Cappers",
-    "prop": "@tonestakes · NHL shots on goal (over)",
-    "fam": "SOG",
-    "pick": "J. Hagens 3+ SOG (CHI @ BOS 1:00pm)",
-    "odds": "+210",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-31",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL shots on goal (over)",
-    "fam": "SOG",
-    "pick": "F. Minten 3+ SOG (CHI @ BOS 1:00pm)",
-    "odds": "+205",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-31",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
     "prop": "@tonestakes · NHL game total (over)",
     "fam": "Total",
     "pick": "TB/NSH Over 6 (TB @ NSH 2:00pm; 1.15u)",
@@ -48526,40 +45857,6 @@
     "fam": "Total",
     "pick": "Arizona/Texas Tech Under 54.5 (CFB Week 9 Early Games; 1.05u to win 1u)",
     "odds": "-105",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-31",
-    "sport": "NCAAF",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@bigmikepickz · NCAAF spread",
-    "fam": "Spread",
-    "pick": "Syracuse +10.5 (CFB Week 9 Early Games; 1.35u to win 1u)",
-    "odds": "-135",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-31",
-    "sport": "NCAAF",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@bigmikepickz · NCAAF parlay",
-    "fam": "Parlay",
-    "pick": "NCAAF 2-leg parlay: Duke ML + NC State ML (CFB Week 9 Early Games; 1.25u to win 1u)",
-    "odds": "-125",
     "res": "",
     "stat": "",
     "alt": false,
@@ -51571,11 +48868,11 @@
     "prop": "Connor McMichael Under 1.5 Shots On Goal",
     "pick": "#1 Connor McMichael Under 1.5 Shots On Goal",
     "odds": "-130",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "1 SOG",
     "alt": false,
     "rank": 1,
-    "uu": 0.0,
+    "uu": 0.77,
     "game": "Red Wings vs. Blues",
     "leg": false,
     "img": null,
@@ -51628,11 +48925,11 @@
     "prop": "Robert Thomas Under 1.5 Shots On Goal",
     "pick": "#4 Robert Thomas Under 1.5 Shots On Goal",
     "odds": "-125",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "2 SOG",
     "alt": false,
     "rank": 4,
-    "uu": 0.0,
+    "uu": -1.0,
     "game": "Red Wings vs. Blues",
     "leg": false,
     "img": null,
@@ -51738,10 +49035,10 @@
   "summary": {
    "O": {
     "tickets": {
-     "w": 116,
-     "l": 125,
+     "w": 117,
+     "l": 126,
      "p": 6,
-     "pending": 34,
+     "pending": 32,
      "units": -9
     },
     "legs": {
@@ -51754,11 +49051,11 @@
    },
    "E": {
     "tickets": {
-     "w": 93,
-     "l": 167,
-     "p": 1,
-     "pending": 20,
-     "units": -74
+     "w": 98,
+     "l": 168,
+     "p": 2,
+     "pending": 13,
+     "units": -70
     },
     "legs": {
      "w": 0,
@@ -51770,11 +49067,11 @@
    },
    "C": {
     "tickets": {
-     "w": 132,
-     "l": 104,
+     "w": 134,
+     "l": 106,
      "p": 3,
-     "pending": 48,
-     "units": -30.23,
+     "pending": 44,
+     "units": -30.69,
      "no_odds": 107
     },
     "legs": {
@@ -51814,7 +49111,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 48 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 44 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-28', 'Parlay +100', '2-leg', '+121', False), ('O', '2026-10-29', 'Parlay +100', '2-leg', '+125', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -51943,73 +49240,6 @@
   "stake": "1u",
   "legs": [
    {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "orig": "Darius Acuff o22.5 Points",
-    "orig_odds": -115,
-    "pick": "Darius Acuff o22.5 Points",
-    "odds": -115,
-    "src": "Capper original line",
-    "game": "SAC @ MEM",
-    "gkey": "NBA:401909899",
-    "start": "2026-10-31 20:00",
-    "locked": false,
-    "res": "",
-    "stat": "",
-    "priced": "2026-10-31 10:15",
-    "orig_note": "book price; capper posted no odds",
-    "stale": true,
-    "dk": {
-     "ladder": [
-      [
-       "12+",
-       "-1540"
-      ],
-      [
-       "15+",
-       "-650"
-      ],
-      [
-       "18+",
-       "-328"
-      ],
-      [
-       "20+",
-       "-218"
-      ],
-      [
-       "24+",
-       "-105"
-      ],
-      [
-       "25+",
-       "+115"
-      ],
-      [
-       "30+",
-       "+270"
-      ],
-      [
-       "35+",
-       "+630"
-      ],
-      [
-       "40+",
-       "+1440"
-      ],
-      [
-       "45+",
-       "+2700"
-      ]
-     ],
-     "odds": "-328",
-     "pick": "Darius Acuff Over 17.5 Points",
-     "moved": true,
-     "na": false,
-     "orig_odds": null
-    }
-   },
-   {
     "capper": "@austinsprops",
     "sport": "NBA",
     "orig": "Jrue Holiday o23.5 PRA",
@@ -52023,7 +49253,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-10-31 15:22",
+    "priced": "2026-10-31 16:15",
     "dk": {
      "ladder": [
       [
@@ -52105,6 +49335,11 @@
   ],
   "skipped": [
    {
+    "capper": "@alexcaruso",
+    "why": "n/a at Hard Rock (exact line, no buy-down rung)",
+    "pick": "Saddiq Bey o11.5 Points (Play of the Day)"
+   },
+   {
     "capper": "@panpotd",
     "why": "no picks today",
     "pick": ""
@@ -52117,8 +49352,8 @@
   ],
   "status": "live",
   "msg": "",
-  "odds": 1109,
-  "orig": 1109,
+  "odds": 547,
+  "orig": 547,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
@@ -52403,8 +49638,8 @@
  },
  "gameday": {
   "date": "2026-10-31",
-  "built": "2026-10-31 15:22 ET",
-  "picks": 85,
+  "built": "2026-10-31 16:15 ET",
+  "picks": 71,
   "vetoes": [],
   "gaps": [
    "NCAAF New Haven vs Duquesne: no ESPN event match",
@@ -52423,8 +49658,8 @@
   "pregame_games": 117,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 73,
-   "priced": 56,
+   "legs": 72,
+   "priced": 55,
    "na": [
     "Zion Williamson 2+ ast",
     "MarShawn Lloyd (RB) anytime TD",
