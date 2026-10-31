@@ -1,5 +1,5 @@
 {
- "generated": 1793425074.1984532,
+ "generated": 1793441399.1306496,
  "today": {
   "title": "Oct 31 picks (Hard Rock)",
   "tickets": [],
@@ -1148,6 +1148,69 @@
   ],
   "sport_picks": [
    {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "type": "Leg",
+    "pick": "Joel Farabee Over 1.5 Shots On Goal",
+    "odds": "-240",
+    "result": "L",
+    "stat": "1 SOG"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "type": "Leg",
+    "pick": "Kyle Connor Over 2.5 Shots On Goal",
+    "odds": "-180",
+    "result": "L",
+    "stat": "2 SOG"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "type": "Parlay",
+    "pick": "2-leg",
+    "odds": "+120",
+    "result": "L",
+    "stat": null
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "type": "Leg",
+    "pick": "Davion Mitchell Over 9.5 Points",
+    "odds": "-240",
+    "result": "W",
+    "stat": "15 PTS"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "type": "Leg",
+    "pick": "Tyrese Maxey Over 3.5 Assists",
+    "odds": "-210",
+    "result": "W",
+    "stat": "4 AST"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "type": "Parlay",
+    "pick": "2-leg",
+    "odds": "+109",
+    "result": "W",
+    "stat": null
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "type": "POTD",
+    "pick": "Davion Mitchell Over 21.5 Pts + Reb + Ast",
+    "odds": "-120",
+    "result": "W",
+    "stat": "32 PRA"
+   },
+   {
     "date": "2026-10-29",
     "sport": "NHL",
     "type": "Leg",
@@ -1623,85 +1686,22 @@
     "odds": "-105",
     "result": "W",
     "stat": "total 99"
-   },
-   {
-    "date": "2026-10-20",
-    "sport": "NBA",
-    "type": "Runner-up",
-    "pick": "(Quality) Jaylen Brown 20+ pts",
-    "odds": "-160",
-    "result": "L",
-    "stat": "19 PTS"
-   },
-   {
-    "date": "2026-10-20",
-    "sport": "NBA",
-    "type": "Runner-up",
-    "pick": "(Quality) John Collins 17+ pts+reb",
-    "odds": "-125",
-    "result": "L",
-    "stat": "11 P+R"
-   },
-   {
-    "date": "2026-10-20",
-    "sport": "NBA",
-    "type": "Runner-up",
-    "pick": "(Quality) Tyrese Maxey 26+ pts+ast",
-    "odds": "-120",
-    "result": "W",
-    "stat": "33 P+A"
-   },
-   {
-    "date": "2026-10-20",
-    "sport": "NBA",
-    "type": "Runner-up",
-    "pick": "(Quality) Mikal Bridges 17+ pts+ast",
-    "odds": "-115",
-    "result": "L",
-    "stat": "5 P+A"
-   },
-   {
-    "date": "2026-10-20",
-    "sport": "NBA",
-    "type": "Runner-up",
-    "pick": "(Quality) Dylan Harper under 4.5 ast",
-    "odds": "-165",
-    "result": "L",
-    "stat": "5 AST"
-   },
-   {
-    "date": "2026-10-20",
-    "sport": "NBA",
-    "type": "Runner-up",
-    "pick": "Derrick White under 15.5 pts",
-    "odds": "-115",
-    "result": "L",
-    "stat": "17 PTS"
-   },
-   {
-    "date": "2026-10-20",
-    "sport": "NBA",
-    "type": "Runner-up",
-    "pick": "VJ Edgecombe 8+ reb+ast",
-    "odds": "-130",
-    "result": "L",
-    "stat": "5 R+A"
    }
   ]
  },
  "record": {
   "overall": {
    "official": {
-    "w": 152,
-    "l": 239,
+    "w": 156,
+    "l": 241,
     "p": 1,
     "pct": 39
    },
    "potd": {
-    "w": 11,
-    "l": 20,
+    "w": 13,
+    "l": 21,
     "p": 0,
-    "pct": 35
+    "pct": 38
    },
    "legs": {
     "w": 36,
@@ -1710,12 +1710,12 @@
     "pct": 54
    },
    "parlay": {
-    "w": 13,
-    "l": 24,
+    "w": 14,
+    "l": 25,
     "p": 0,
-    "pct": 35
+    "pct": 36
    },
-   "pending": 4
+   "pending": 2
   },
   "props": [
    {
@@ -1763,9 +1763,9 @@
    {
     "prop": "NHL parlay",
     "w": 4,
-    "l": 4,
+    "l": 5,
     "p": 0,
-    "pct": 50
+    "pct": 44
    },
    {
     "prop": "NCAAF spread",
@@ -1775,18 +1775,18 @@
     "pct": 12
    },
    {
+    "prop": "NBA parlay",
+    "w": 2,
+    "l": 4,
+    "p": 0,
+    "pct": 33
+   },
+   {
     "prop": "NCAAF team total",
     "w": 2,
     "l": 3,
     "p": 0,
     "pct": 40
-   },
-   {
-    "prop": "NBA parlay",
-    "w": 1,
-    "l": 4,
-    "p": 0,
-    "pct": 20
    },
    {
     "prop": "NHL team total",
@@ -1839,6 +1839,13 @@
    },
    {
     "prop": "NFL rush yds",
+    "w": 2,
+    "l": 1,
+    "p": 0,
+    "pct": 67
+   },
+   {
+    "prop": "NBA PRA",
     "w": 2,
     "l": 1,
     "p": 0,
@@ -2256,6 +2263,13 @@
     "l": 0,
     "p": 0,
     "pct": 100
+   },
+   {
+    "prop": "NCAAF ML",
+    "w": 1,
+    "l": 0,
+    "p": 0,
+    "pct": 100
    }
   ],
   "potd": [
@@ -2291,8 +2305,8 @@
     "date": "2026-10-30",
     "pick": "NCAA F · Edge: Sacramento State ML",
     "odds": "+260",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "W",
+    "detail": "Win (KENT 10-31 SAC)"
    },
    {
     "date": "2026-10-29",
@@ -4080,6 +4094,34 @@
     "detail": "Loss (BUF 33-30 LV)"
    },
    {
+    "date": "2026-10-30",
+    "pick": "NHL · Parlay: 2-leg",
+    "odds": "+120",
+    "result": "L",
+    "detail": ""
+   },
+   {
+    "date": "2026-10-30",
+    "pick": "NBA · Parlay: 2-leg",
+    "odds": "+109",
+    "result": "W",
+    "detail": ""
+   },
+   {
+    "date": "2026-10-30",
+    "pick": "NBA · POTD: Davion Mitchell Over 21.5 Pts + Reb + Ast",
+    "odds": "-120",
+    "result": "W",
+    "detail": "32 PRA"
+   },
+   {
+    "date": "2026-10-30",
+    "pick": "NBA · POTD: Tyrese Maxey Over 31.5 Pts + Reb + Ast",
+    "odds": "-115",
+    "result": "W",
+    "detail": "35 PRA"
+   },
+   {
     "date": "2026-10-29",
     "pick": "NHL · Parlay: 2-leg",
     "odds": "+109",
@@ -4181,8 +4223,8 @@
     "date": "2026-10-28",
     "pick": "NBA · POTD: Davion Mitchell over 21.5 PRA",
     "odds": "-115",
-    "result": "Pending",
-    "detail": "—"
+    "result": "L",
+    "detail": "21 PRA"
    },
    {
     "date": "2026-10-27",
@@ -6441,19 +6483,11 @@
    ],
    [
     "10/28",
-    -79
-   ],
-   [
-    "10/28",
-    -80
-   ],
-   [
-    "10/28",
     -81
    ],
    [
     "10/28",
-    -82
+    -80
    ],
    [
     "10/28",
@@ -6481,19 +6515,11 @@
    ],
    [
     "10/28",
-    -85
+    -83
    ],
    [
     "10/28",
-    -86
-   ],
-   [
-    "10/28",
-    -87
-   ],
-   [
-    "10/28",
-    -86
+    -84
    ],
    [
     "10/28",
@@ -6514,10 +6540,34 @@
    [
     "10/28",
     -87
+   ],
+   [
+    "10/28",
+    -86
+   ],
+   [
+    "10/28",
+    -87
+   ],
+   [
+    "10/28",
+    -88
+   ],
+   [
+    "10/28",
+    -89
+   ],
+   [
+    "10/28",
+    -88
    ],
    [
     "10/29",
-    -88
+    -89
+   ],
+   [
+    "10/29",
+    -90
    ],
    [
     "10/29",
@@ -6541,6 +6591,14 @@
    ],
    [
     "10/29",
+    -86
+   ],
+   [
+    "10/29",
+    -85
+   ],
+   [
+    "10/29",
     -84
    ],
    [
@@ -6561,22 +6619,6 @@
    ],
    [
     "10/29",
-    -83
-   ],
-   [
-    "10/29",
-    -82
-   ],
-   [
-    "10/29",
-    -83
-   ],
-   [
-    "10/29",
-    -84
-   ],
-   [
-    "10/29",
     -85
    ],
    [
@@ -6585,31 +6627,55 @@
    ],
    [
     "10/29",
-    -85
-   ],
-   [
-    "10/29",
-    -86
-   ],
-   [
-    "10/29",
-    -85
-   ],
-   [
-    "10/29",
-    -84
-   ],
-   [
-    "10/29",
-    -85
-   ],
-   [
-    "10/30",
-    -86
-   ],
-   [
-    "10/30",
     -87
+   ],
+   [
+    "10/29",
+    -86
+   ],
+   [
+    "10/29",
+    -87
+   ],
+   [
+    "10/29",
+    -86
+   ],
+   [
+    "10/29",
+    -85
+   ],
+   [
+    "10/29",
+    -86
+   ],
+   [
+    "10/30",
+    -85
+   ],
+   [
+    "10/30",
+    -84
+   ],
+   [
+    "10/30",
+    -83
+   ],
+   [
+    "10/30",
+    -84
+   ],
+   [
+    "10/30",
+    -83
+   ],
+   [
+    "10/30",
+    -84
+   ],
+   [
+    "10/30",
+    -85
    ]
   ]
  },
@@ -7040,10 +7106,10 @@
   },
   {
    "name": "@panpotd",
-   "w": 19,
+   "w": 20,
    "l": 20,
    "p": 0,
-   "pct": 49,
+   "pct": 50,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -7111,10 +7177,10 @@
     },
     {
      "prop": "NBA reb+ast (over)",
-     "w": 3,
+     "w": 4,
      "l": 1,
      "p": 0,
-     "pct": 75,
+     "pct": 80,
      "fam": "Reb+Ast"
     },
     {
@@ -7332,7 +7398,7 @@
  "capper_today_date": "2026-10-31",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-31 01:37 AM ET",
+  "updated": "2026-10-31 06:09 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -10180,7 +10246,7 @@
   {
    "sport": "NHL",
    "w": 107,
-   "l": 161,
+   "l": 162,
    "p": 1,
    "pct": 40,
    "active": true,
@@ -10207,10 +10273,10 @@
   },
   {
    "sport": "NBA",
-   "w": 6,
-   "l": 12,
+   "w": 9,
+   "l": 13,
    "p": 0,
-   "pct": 33,
+   "pct": 41,
    "active": true,
    "ticket_legs": {
     "w": 0,
@@ -10221,10 +10287,10 @@
   },
   {
    "sport": "NCAA F",
-   "w": 5,
+   "w": 6,
    "l": 13,
    "p": 0,
-   "pct": 28,
+   "pct": 32,
    "active": true,
    "ticket_legs": {
     "w": 1,
@@ -10662,7 +10728,7 @@
   {
    "sport": "NHL",
    "w": 107,
-   "l": 161,
+   "l": 162,
    "p": 1,
    "pct": 40,
    "props": [
@@ -10697,9 +10763,9 @@
     {
      "prop": "NHL parlay",
      "w": 4,
-     "l": 4,
+     "l": 5,
      "p": 0,
-     "pct": 50
+     "pct": 44
     },
     {
      "prop": "NHL team total",
@@ -10809,7 +10875,7 @@
    ],
    "official": {
     "w": 107,
-    "l": 161,
+    "l": 162,
     "p": 1,
     "pct": 40,
     "props": [
@@ -10844,9 +10910,9 @@
      {
       "prop": "NHL parlay",
       "w": 4,
-      "l": 4,
+      "l": 5,
       "p": 0,
-      "pct": 50
+      "pct": 44
      },
      {
       "prop": "NHL team total",
@@ -10957,9 +11023,9 @@
    },
    "tracked": {
     "w": 59,
-    "l": 41,
+    "l": 42,
     "p": 0,
-    "pct": 59,
+    "pct": 58,
     "props": [
      {
       "prop": "NHL SOG",
@@ -10976,18 +11042,18 @@
       "pct": 42
      },
      {
+      "prop": "NHL parlay",
+      "w": 4,
+      "l": 5,
+      "p": 0,
+      "pct": 44
+     },
+     {
       "prop": "NHL SOG under",
       "w": 6,
       "l": 3,
       "p": 0,
       "pct": 67
-     },
-     {
-      "prop": "NHL parlay",
-      "w": 4,
-      "l": 4,
-      "p": 0,
-      "pct": 50
      },
      {
       "prop": "NHL points under",
@@ -11481,17 +11547,24 @@
   },
   {
    "sport": "NBA",
-   "w": 6,
-   "l": 12,
+   "w": 9,
+   "l": 13,
    "p": 0,
-   "pct": 33,
+   "pct": 41,
    "props": [
     {
      "prop": "NBA parlay",
-     "w": 1,
+     "w": 2,
      "l": 4,
      "p": 0,
-     "pct": 20
+     "pct": 33
+    },
+    {
+     "prop": "NBA PRA",
+     "w": 2,
+     "l": 1,
+     "p": 0,
+     "pct": 67
     },
     {
      "prop": "NBA ML",
@@ -11558,17 +11631,24 @@
     }
    ],
    "official": {
-    "w": 6,
-    "l": 12,
+    "w": 9,
+    "l": 13,
     "p": 0,
-    "pct": 33,
+    "pct": 41,
     "props": [
      {
       "prop": "NBA parlay",
-      "w": 1,
+      "w": 2,
       "l": 4,
       "p": 0,
-      "pct": 20
+      "pct": 33
+     },
+     {
+      "prop": "NBA PRA",
+      "w": 2,
+      "l": 1,
+      "p": 0,
+      "pct": 67
      },
      {
       "prop": "NBA ML",
@@ -11636,20 +11716,27 @@
     ]
    },
    "tracked": {
-    "w": 4,
-    "l": 14,
+    "w": 7,
+    "l": 15,
     "p": 0,
-    "pct": 22,
+    "pct": 32,
     "props": [
      {
       "prop": "NBA parlay",
-      "w": 1,
+      "w": 2,
       "l": 4,
       "p": 0,
-      "pct": 20
+      "pct": 33
      },
      {
       "prop": "NBA pts+ast under",
+      "w": 2,
+      "l": 1,
+      "p": 0,
+      "pct": 67
+     },
+     {
+      "prop": "NBA PRA",
       "w": 2,
       "l": 1,
       "p": 0,
@@ -11716,10 +11803,10 @@
   },
   {
    "sport": "NCAA F",
-   "w": 5,
+   "w": 6,
    "l": 13,
    "p": 0,
-   "pct": 28,
+   "pct": 32,
    "props": [
     {
      "prop": "NCAAF spread",
@@ -11762,13 +11849,20 @@
      "l": 1,
      "p": 0,
      "pct": 0
+    },
+    {
+     "prop": "NCAAF ML",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100
     }
    ],
    "official": {
-    "w": 5,
+    "w": 6,
     "l": 13,
     "p": 0,
-    "pct": 28,
+    "pct": 32,
     "props": [
      {
       "prop": "NCAAF spread",
@@ -11811,6 +11905,13 @@
       "l": 1,
       "p": 0,
       "pct": 0
+     },
+     {
+      "prop": "NCAAF ML",
+      "w": 1,
+      "l": 0,
+      "p": 0,
+      "pct": 100
      }
     ]
    },
@@ -13514,8 +13615,8 @@
      "Formula: [C] Score 35.0/100 (rank 40 of the week).⁠ RZ touches 1.0/g L5; goal-line share 19% (i5 22%, i10 16%); opp allows 1.43 TD/g to WR; team total 22.5 (Hard Rock team total); L10 ATD 40% (nflverse game logs (10 g))"
     ],
     "dk": {
-     "odds": null,
-     "na": true
+     "odds": "+200",
+     "na": false
     }
    },
    {
@@ -13817,12 +13918,12 @@
  },
  "edge_record": {
   "overall": {
-   "w": 92,
+   "w": 93,
    "l": 164,
    "p": 1,
    "pct": 36,
-   "units": -21.16,
-   "pending": 3
+   "units": -18.56,
+   "pending": 2
   },
   "by_sport": {
    "MLB": {
@@ -13842,12 +13943,12 @@
     "pending": 0
    },
    "NCAA F": {
-    "w": 4,
+    "w": 5,
     "l": 10,
     "p": 0,
-    "pct": 29,
-    "units": -4.6,
-    "pending": 3
+    "pct": 33,
+    "units": -2.0,
+    "pending": 2
    },
    "NFL": {
     "w": 4,
@@ -13940,12 +14041,12 @@
     "pending": 0
    },
    "NCAAF ML": {
-    "w": 0,
+    "w": 1,
     "l": 0,
     "p": 0,
-    "pct": null,
-    "units": 0.0,
-    "pending": 1
+    "pct": 100,
+    "units": 2.6,
+    "pending": 0
    },
    "NCAAF game total": {
     "w": 1,
@@ -15356,8 +15457,8 @@
    "prop": "NBA PRA",
    "pick": "Davion Mitchell over 21.5 PRA",
    "odds": "-115",
-   "res": "Pending",
-   "stat": "—"
+   "res": "L",
+   "stat": "21 PRA"
   },
   {
    "date": "2026-10-28",
@@ -15497,6 +15598,46 @@
    "pick": "2-leg",
    "odds": "+109",
    "res": "W",
+   "stat": ""
+  },
+  {
+   "date": "2026-10-30",
+   "sport": "NBA",
+   "type": "POTD",
+   "prop": "NBA PRA",
+   "pick": "Tyrese Maxey Over 31.5 Pts + Reb + Ast",
+   "odds": "-115",
+   "res": "W",
+   "stat": "35 PRA"
+  },
+  {
+   "date": "2026-10-30",
+   "sport": "NBA",
+   "type": "POTD",
+   "prop": "NBA PRA",
+   "pick": "Davion Mitchell Over 21.5 Pts + Reb + Ast",
+   "odds": "-120",
+   "res": "W",
+   "stat": "32 PRA"
+  },
+  {
+   "date": "2026-10-30",
+   "sport": "NBA",
+   "type": "Parlay",
+   "prop": "NBA parlay",
+   "pick": "2-leg",
+   "odds": "+109",
+   "res": "W",
+   "stat": ""
+  },
+  {
+   "date": "2026-10-30",
+   "sport": "NHL",
+   "type": "Parlay",
+   "prop": "NHL parlay",
+   "pick": "2-leg",
+   "odds": "+120",
+   "res": "L",
    "stat": ""
   },
   {
@@ -18056,8 +18197,8 @@
    "prop": "NCAAF ML",
    "pick": "Sacramento State ML",
    "odds": "+260",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "W",
+   "stat": "Win (KENT 10-31 SAC)"
   },
   {
    "date": "2026-10-30",
@@ -18110,8 +18251,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 392,
-  "headline": 392
+  "tiles_sum": 398,
+  "headline": 398
  },
  "inning_record": {},
  "ingame_lines": {
@@ -19364,8 +19505,8 @@
     "prop": "NBA PRA",
     "pick": "Davion Mitchell over 21.5 PRA",
     "odds": "-115",
-    "res": "",
-    "stat": "—",
+    "res": "L",
+    "stat": "21 PRA",
     "sub": "",
     "leg": false,
     "img": null,
@@ -19591,6 +19732,70 @@
     "res": "W",
     "stat": "",
     "sub": "Kirill Kaprizov over 2.5 Shots On Goal + Brandon Hagel over 2.5 Shots On Goal",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NBA PRA",
+    "pick": "Tyrese Maxey Over 31.5 Pts + Reb + Ast",
+    "odds": "-115",
+    "res": "W",
+    "stat": "35 PRA",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "PRA"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NBA PRA",
+    "pick": "Davion Mitchell Over 21.5 Pts + Reb + Ast",
+    "odds": "-120",
+    "res": "W",
+    "stat": "32 PRA",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "PRA"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NBA parlay",
+    "pick": "2-leg",
+    "odds": "+109",
+    "res": "W",
+    "stat": "",
+    "sub": "Tyrese Maxey Over 3.5 Assists + Davion Mitchell Over 9.5 Points",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-10-30",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NHL parlay",
+    "pick": "2-leg",
+    "odds": "+120",
+    "res": "L",
+    "stat": "",
+    "sub": "Kyle Connor Over 2.5 Shots On Goal + Joel Farabee Over 1.5 Shots On Goal",
     "leg": false,
     "img": null,
     "alt": false,
@@ -23684,8 +23889,8 @@
     "prop": "NCAAF ML",
     "pick": "Sacramento State ML",
     "odds": "+260",
-    "res": "",
-    "stat": "Pending",
+    "res": "W",
+    "stat": "Win (KENT 10-31 SAC)",
     "leg": false,
     "img": null,
     "sub": "",
@@ -30339,6 +30544,24 @@
     "uu": 0.79
    },
    {
+    "date": "2026-10-28",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA reb+ast (over)",
+    "fam": "Reb+Ast",
+    "pick": "Isaiah Hartenstein o12.5 RA",
+    "odds": "none posted",
+    "res": "W",
+    "stat": "W (17 R+A)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -30575,23 +30798,6 @@
     "img": null,
     "sub": "",
     "nu": false
-   },
-   {
-    "date": "2026-10-28",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NBA reb+ast (over)",
-    "fam": "Reb+Ast",
-    "pick": "Isaiah Hartenstein o12.5 RA",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
    },
    {
     "date": "2026-10-28",
@@ -33537,11 +33743,11 @@
   "summary": {
    "O": {
     "tickets": {
-     "w": 113,
-     "l": 123,
+     "w": 116,
+     "l": 125,
      "p": 5,
-     "pending": 4,
-     "units": -10
+     "pending": 3,
+     "units": -9
     },
     "legs": {
      "w": 60,
@@ -33553,11 +33759,11 @@
    },
    "E": {
     "tickets": {
-     "w": 92,
+     "w": 93,
      "l": 164,
      "p": 1,
-     "pending": 3,
-     "units": -72
+     "pending": 2,
+     "units": -71
     },
     "legs": {
      "w": 0,
@@ -33569,10 +33775,10 @@
    },
    "C": {
     "tickets": {
-     "w": 125,
+     "w": 126,
      "l": 102,
      "p": 3,
-     "pending": 26,
+     "pending": 25,
      "units": -31.37,
      "no_odds": 97
     },
@@ -33613,7 +33819,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 26 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 25 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-10-26', 'Parlay +100', '3-leg', '+108', False), ('O', '2026-10-27', 'Parlay +100', '2-leg', '+140', False), ('O', '2026-10-28', 'Parlay +100', '2-leg', '+121', False), ('O', '2026-10-29', 'Parlay +100', '2-leg', '+125', False), ('O', '2026-10-26', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False), ('O', '2026-10-27', 'Safe +100 (Alt Parlay)', 'Safe +100 3-leg', '+129', False)]"
@@ -33801,11 +34007,10 @@
  },
  "gameday": {
   "date": "2026-10-31",
-  "built": "2026-10-31 01:37 ET",
+  "built": "2026-10-31 06:10 ET",
   "picks": 7,
   "vetoes": [],
   "gaps": [
-   "scout file: [Errno 2] No such file or directory: '/workspace/scout/2026-10-31.json'",
    "NCAAF New Haven vs Duquesne: no ESPN event match",
    "NCAAF Central Connecticut vs Robert Morris: no ESPN event match",
    "NCAAF Rhode Island vs Maine: no ESPN event match",
@@ -33823,10 +34028,9 @@
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
    "legs": 8,
-   "priced": 6,
+   "priced": 7,
    "na": [
-    "MarShawn Lloyd (RB) anytime TD",
-    "Stefon Diggs (WR) anytime TD"
+    "MarShawn Lloyd (RB) anytime TD"
    ]
   }
  }
