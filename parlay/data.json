@@ -1,5 +1,5 @@
 {
- "generated": 1793549309.9733872,
+ "generated": 1793550256.4197645,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -18,8 +18,8 @@
    },
    {
     "name": "+100 ticket",
-    "desc": "2-leg +136 (1u)",
-    "odds": "+136",
+    "desc": "2-leg +140 (1u)",
+    "odds": "+140",
     "stake": "—",
     "payout": "—",
     "status": "Pending",
@@ -27,7 +27,7 @@
     "legs": [
      {
       "pick": "Connor McDavid Over 0.5 Assists",
-      "odds": "-230",
+      "odds": "-210",
       "game": "Rangers vs. Oilers 06:00 PM ET",
       "status": "Pending",
       "why": "Volume: TOI 23.5 season avg | Hit: 10/10 at line, 5/5. Matchup: NYR 11/32 vs goals (3.0/g allowed, neutral). Context: NYR -1.5 / O/U 6.5 (EDM TT 3.5) | Away · EDM B2B. Injuries: EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve) | NYR: Braden Schneider (Day-To-Day), Sean Durzi (Day-To-Day), Igor Shesterkin (Injured Reserve). Weather: indoor, neutral. Risk: EDM on a back-to-back.",
@@ -130,7 +130,7 @@
      },
      {
       "pick": "Joel Eriksson Ek Over 2.5 Shots On Goal",
-      "odds": "-155",
+      "odds": "-160",
       "game": "Capitals vs. Wild 03:30 PM ET",
       "status": "Pending",
       "why": "Volume: TOI 20.1 season avg | Hit: 8/10 at line, 4/5. Matchup: WSH 21/32 vs SOG (28.1/g allowed, neutral). Context: WSH -1.5 / O/U 6.5 (MIN TT 2.5) | Away. Injuries: MIN: Jared Spurgeon (Injured Reserve), Filip Gustavsson (Injured Reserve) | WSH: Vincent Desharnais (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
@@ -208,7 +208,7 @@
      }
     ],
     "why": null,
-    "pick": "2-leg +136 (1u)",
+    "pick": "2-leg +140 (1u)",
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
     "dk_odds": null
    },
@@ -246,118 +246,115 @@
   "sports": {
    "NFL": {
     "potd": {
-     "pick": "Aaron Jones Sr. Over 29.5 Rushing Yards",
-     "odds": "-115",
-     "game": "Lions vs Vikings 01:00 PM ET",
+     "pick": "Tre Tucker Over 3.5 Receptions",
+     "odds": "-120",
+     "game": "Jets vs Raiders 01:00 PM ET",
      "status": "Pending",
-     "why": "Volume: n/a | Hit: 9/10 at line, 4/5. Matchup: DET 12/32 vs rush yds (99.2/g allowed, neutral). Context: DET -3.5 / O/U 45.5 (MIN TT 21.5) | Away. Injuries: MIN: none | DET: none. Weather: indoor, neutral. Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 9.0.",
-     "desc": "Aaron Jones Sr. Over 29.5 Rushing Yards -115 — Pending",
-     "why_not": null,
-     "why_src": "Grade A. Volume: n/a (L3 21.7 vs L10 19.8 touches+targets) | Hit: 9/10 at O29.5, 4/5 | Matchup: Opp 21/32 vs Rushing Yards (TR) | Context: MIN +3 / O/U 45.5 | - | Away · Div · Prime | Injuries: none | Opp out: Kerby Joseph, Isiah Pacheco | Weather: neutral | Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 9.0",
+     "why": "Volume: n/a | Hit: 8/10 at line, 5/5. Matchup: NYJ 5/32 vs pass yds (187.7/g allowed, unfavorable). Context: NYJ -1.5 / O/U 46 (LV TT 22.5) | Away. Injuries: LV: none | NYJ: Breece Hall (Questionable). Weather: 60°F, Mostly sunny, wind 3 mph. Risk: Tough matchup: NYJ 5/32 vs pass yds.",
+     "desc": "Tre Tucker Over 3.5 Receptions -120 — Pending",
+     "why_not": "matchup 27/32 demoted (22+; soft, still eligible, ranked below preferred)",
+     "why_src": "Volume: n/a (L3 9 vs L10 6.4 touches+targets) | Hit: 8/10 at O3.5, 5/5 | Matchup: Opp 27/32 vs Receptions (TR) | Context: LV +1.5 / O/U 46.5 | - | Away · Prime | Injuries: Patrick Johnson, Carter Runyon out (w/o Carter Runyon: 6/6) | Opp out: T'Vondre Sweat, Max Mitchell | Weather: neutral (60F, wind 4 mph) | Risk: matchup 27/32 demoted (22+; soft, still eligible, ranked below preferred)",
      "ctx": {
-      "game": "Lions vs Vikings",
-      "team": "MIN",
-      "opp": "DET",
-      "stat": "rush_yds",
+      "game": "Jets vs Raiders",
+      "team": "LV",
+      "opp": "NYJ",
+      "stat": "pass_yds",
       "opp_rank": {
-       "rank": 12,
+       "rank": 5,
        "of": 32,
-       "pg": 99.2,
-       "gp": 6,
+       "pg": 187.7,
+       "gp": 7,
        "scale": "N/of, higher = more allowed (LineMate order)"
       },
-      "fav": "DET",
-      "spread": -3.5,
-      "total": 45.5,
+      "fav": "NYJ",
+      "spread": -1.5,
+      "total": 46.0,
       "team_totals": {
-       "DET": 24.5,
-       "MIN": 21.5
+       "NYJ": 23.5,
+       "LV": 22.5
       },
-      "home": "DET",
-      "away": "MIN",
+      "home": "NYJ",
+      "away": "LV",
       "rest": null,
       "record": {
-       "DET": "4-2",
-       "MIN": "6-0"
+       "NYJ": "2-5",
+       "LV": "3-4"
       },
       "start_et": "Sun 11/01 01:00 PM ET",
       "out": {
-       "DET": [],
-       "MIN": []
+       "NYJ": [
+        {
+         "name": "Breece Hall",
+         "status": "Questionable",
+         "pos": "RB",
+         "date": "2026-10-30"
+        }
+       ],
+       "LV": []
+      },
+      "weather": {
+       "text": "Mostly sunny",
+       "temp": 60,
+       "wind_mph": 3,
+       "wind_dir": 309
       }
      },
      "gameday": [
-      "Volume: n/a | Hit: 9/10 at line, 4/5",
-      "Matchup: DET 12/32 vs rush yds (99.2/g allowed, neutral)",
-      "Context: DET -3.5 / O/U 45.5 (MIN TT 21.5) | Away",
-      "Injuries: MIN: none | DET: none",
-      "Weather: indoor, neutral",
-      "Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 9.0"
+      "Volume: n/a | Hit: 8/10 at line, 5/5",
+      "Matchup: NYJ 5/32 vs pass yds (187.7/g allowed, unfavorable)",
+      "Context: NYJ -1.5 / O/U 46 (LV TT 22.5) | Away",
+      "Injuries: LV: none | NYJ: Breece Hall (Questionable)",
+      "Weather: 60°F, Mostly sunny, wind 3 mph",
+      "Risk: Tough matchup: NYJ 5/32 vs pass yds"
      ],
      "sport": "NFL",
      "dk": {
-      "odds": "-114",
+      "odds": "-122",
       "na": false,
       "ladder": [
        [
-        "10+",
-        "-1360"
+        "2+",
+        "-1060"
        ],
        [
-        "15+",
-        "-560"
+        "3+",
+        "-311"
        ],
        [
-        "20+",
-        "-291"
+        "4+",
+        "-122"
        ],
        [
-        "25+",
-        "-173"
+        "5+",
+        "+173"
        ],
        [
-        "30+",
-        "-114"
+        "6+",
+        "+353"
        ],
        [
-        "40+",
-        "+190"
+        "7+",
+        "+690"
        ],
        [
-        "50+",
-        "+362"
+        "8+",
+        "+1300"
        ],
        [
-        "60+",
-        "+640"
-       ],
-       [
-        "70+",
-        "+1080"
-       ],
-       [
-        "80+",
-        "+1640"
-       ],
-       [
-        "90+",
-        "+2500"
-       ],
-       [
-        "100+",
-        "+3600"
+        "9+",
+        "+2200"
        ]
       ]
      },
-     "dk_odds": "-114"
+     "dk_odds": "-122"
     },
     "parlay": {
      "pick": "2-leg",
-     "odds": "+130",
+     "odds": "+121",
      "game": "1u",
      "status": "Pending",
      "why": null,
-     "desc": "2-leg +130 (1u) — Pending",
+     "desc": "2-leg +121 (1u) — Pending",
      "legs": [
       {
        "pick": "Trey McBride Over 6.5 Receptions",
@@ -494,7 +491,7 @@
       },
       {
        "pick": "J.K. Dobbins Over 24.5 Rushing Yards",
-       "odds": "-165",
+       "odds": "-185",
        "game": "Broncos vs Chiefs 04:25 PM ET",
        "status": "Pending",
        "why": "Volume: n/a | Hit: 9/10 at line, 4/5. Matchup: KC 13/32 vs rush yds (99.5/g allowed, neutral). Context: KC -1 / O/U 40.5 (DEN TT 20.5) | Home. Injuries: DEN: Jaylen Waddle (Questionable) | KC: none. Weather: 62°F, Intermittent clouds, wind 7 mph. Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 6.0.",
@@ -694,11 +691,11 @@
     },
     "parlay": {
      "pick": "2-leg",
-     "odds": "+113",
+     "odds": "+125",
      "game": "1u",
      "status": "Pending",
      "why": null,
-     "desc": "2-leg +113 (1u) — Pending",
+     "desc": "2-leg +125 (1u) — Pending",
      "legs": [
       {
        "pick": "Franz Wagner Over 4.5 Rebounds",
@@ -776,7 +773,7 @@
       },
       {
        "pick": "Andrew Nembhard Over 8.5 Assists",
-       "odds": "-185",
+       "odds": "-160",
        "game": "Pacers vs Nets 05:00 PM ET",
        "status": "Pending",
        "why": "Volume: n/a, game line | Hit: 7/10 at line, 3/5. Matchup: assists rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
@@ -865,11 +862,11 @@
    "NHL": {
     "potd": {
      "pick": "Trevor Zegras Over 0.5 Points",
-     "odds": "-120",
+     "odds": "-115",
      "game": "Flyers vs. Mammoth 04:00 PM ET",
      "status": "Pending",
      "why": "Volume: TOI 18.7 season avg | Hit: 7/10 at line, 5/5. Matchup: UTA 21/32 vs goals (3.3/g allowed, neutral). Context: UTA -1.5 / O/U 6.5 (PHI TT 2.5) | Home. Injuries: PHI: Rasmus Ristolainen (Injured Reserve), Owen Tippett (Injured Reserve), Travis Konecny (Injured Reserve) | UTA: John Marino (Out). Weather: indoor, neutral. Risk: Normal variance at this line.",
-     "desc": "Trevor Zegras Over 0.5 Points -120 — Pending",
+     "desc": "Trevor Zegras Over 0.5 Points -115 — Pending",
      "why_not": null,
      "why_src": "Grade B. Volume: L5 TOI 19.1 avg (L3 19.1 vs L10 18.5 TOI) | Hit: 7/10 at O0.5, 5/5 | Matchup: Opp 12/32 vs Points (NHL API) | Context: PHI +1.5 / O/U 5.5 | - | Home | Injuries: Rasmus Ristolainen, Owen Tippett out (w/o Owen Tippett: 8/8) | Opp out: John Marino, Michael Carcone | Weather: neutral | Risk: Normal variance at this line.",
      "ctx": {
@@ -964,11 +961,11 @@
     },
     "parlay": {
      "pick": "2-leg",
-     "odds": "+136",
+     "odds": "+135",
      "game": "1u",
      "status": "Pending",
      "why": null,
-     "desc": "2-leg +136 (1u) — Pending",
+     "desc": "2-leg +135 (1u) — Pending",
      "legs": [
       {
        "pick": "Alexis Lafreniere Over 0.5 Points",
@@ -1089,7 +1086,7 @@
       },
       {
        "pick": "Kirill Kaprizov Over 2.5 Shots On Goal",
-       "odds": "-220",
+       "odds": "-225",
        "game": "Capitals vs. Wild 03:30 PM ET",
        "status": "Pending",
        "why": "Volume: TOI 21.7 season avg | Hit: 9/10 at line, 4/5. Matchup: WSH 21/32 vs SOG (28.1/g allowed, neutral). Context: WSH -1.5 / O/U 6.5 (MIN TT 2.5) | Away. Injuries: MIN: Jared Spurgeon (Injured Reserve), Filip Gustavsson (Injured Reserve) | WSH: Vincent Desharnais (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
@@ -1218,17 +1215,64 @@
     "parlay": null
    },
    "NASCAR": {
-    "potd": null,
-    "parlay": null
+    "potd": {
+     "pick": "Daniel Suárez to beat Connor Zilisch",
+     "odds": "-115",
+     "game": "NASCAR Cup · Xfinity 500, Martinsville, Sun 11/01 02:09 PM ET",
+     "status": "Pending",
+     "why": "Volume: n/a, game line | Hit: 9/10 at line, 5/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Wrecks, pit-road penalties and late cautions swing NASCAR finishes; one incident decides it.",
+     "desc": "Daniel Suárez to beat Connor Zilisch -115 — Pending",
+     "why_not": null,
+     "why_src": "Grade A. Hit: 9/10 (races Suárez finished ahead of Zilisch, last 10 Cup points races both ran), L5 5/5 | Model: Suárez qual P24, practice P21, Martinsville Next Gen avg 23.5, short-track avg 22.0, last-5 avg 13.2 -> E 19.91 vs Zilisch E 22.71 (agrees, margin 2.8) | Price: Hard Rock -115",
+     "ctx": {
+      "game": null,
+      "team": null,
+      "opp": null,
+      "stat": null,
+      "out": null
+     },
+     "gameday": [
+      "Volume: n/a, game line | Hit: 9/10 at line, 5/5",
+      "Matchup: n/a",
+      "Context: game lines n/a",
+      "Injuries: n/a",
+      "Weather: n/a",
+      "Risk: Wrecks, pit-road penalties and late cautions swing NASCAR finishes; one incident decides it"
+     ],
+     "sport": "NASCAR",
+     "dk": {
+      "odds": null,
+      "na": true
+     },
+     "dk_odds": null
+    },
+    "parlay": {
+     "pick": "No qualifying ticket today",
+     "odds": "—",
+     "game": "",
+     "status": "None",
+     "why": null,
+     "why_not": null,
+     "none": true,
+     "note": "Nothing met the official standards, so no ticket posts (no filler).",
+     "desc": "none — no 2-3 leg H2H combo lands in +100..+140 (all H2H -110..-180; any 2 legs > +200).",
+     "legs": [],
+     "sport": "NASCAR",
+     "dk": {
+      "odds": null,
+      "na": true
+     },
+     "dk_odds": null
+    }
    },
    "ALL": {
     "potd": {
      "pick": "Jayson Tatum Over 6.5 Assists",
-     "odds": "-135",
+     "odds": "-125",
      "game": "Magic vs Celtics",
      "status": "Pending",
      "why": "Volume: n/a, game line | Hit: 7/10 at line, 4/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: n/a.",
-     "desc": "Jayson Tatum Over 6.5 Assists -135 (Magic vs Celtics) — Pending",
+     "desc": "Jayson Tatum Over 6.5 Assists -125 (Magic vs Celtics) — Pending",
      "why_not": null,
      "why_src": "Volume: L5 min 35/42/28/37/38 (L3 36.7 vs L10 37.4 min) | Hit: 7/10 at O6.5, 4/5 | Matchup: Opp 1/30 vs Assists | Context: BOS -7.5 / O/U 222.5 | opp pace 100.3 (14th) | Away | Injuries: Devin Carter out | Opp out: Jonathan Isaac, Jalen Suggs | Weather: neutral | Risk: n/a",
      "ctx": {
@@ -2971,7 +3015,7 @@
     "p": 0,
     "pct": 37
    },
-   "pending": 22
+   "pending": 23
   },
   "props": [
    {
@@ -5582,29 +5626,36 @@
    },
    {
     "date": "2026-11-01",
+    "pick": "NASCAR · POTD: Daniel Suárez to beat Connor Zilisch",
+    "odds": "-115",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-01",
     "pick": "NBA · POTD: Jayson Tatum Over 6.5 Assists",
-    "odds": "-135",
+    "odds": "-125",
     "result": "Pending",
     "detail": "—"
    },
    {
     "date": "2026-11-01",
     "pick": "NHL · Parlay: 2-leg",
-    "odds": "+136",
+    "odds": "+135",
     "result": "Pending",
     "detail": "—"
    },
    {
     "date": "2026-11-01",
     "pick": "NHL · POTD: Trevor Zegras Over 0.5 Points",
-    "odds": "-120",
+    "odds": "-115",
     "result": "Pending",
     "detail": "—"
    },
    {
     "date": "2026-11-01",
     "pick": "NBA · Parlay: 2-leg",
-    "odds": "+113",
+    "odds": "+125",
     "result": "Pending",
     "detail": "—"
    },
@@ -5618,21 +5669,21 @@
    {
     "date": "2026-11-01",
     "pick": "NFL · Parlay: 2-leg",
-    "odds": "+130",
+    "odds": "+121",
     "result": "Pending",
     "detail": "—"
    },
    {
     "date": "2026-11-01",
-    "pick": "NFL · POTD: Aaron Jones Sr. Over 29.5 Rushing Yards",
-    "odds": "-115",
+    "pick": "NFL · POTD: Tre Tucker Over 3.5 Receptions",
+    "odds": "-120",
     "result": "Pending",
     "detail": "—"
    },
    {
     "date": "2026-11-01",
     "pick": "BIG 4 · Parlay: 2-leg",
-    "odds": "+136",
+    "odds": "+140",
     "result": "Pending",
     "detail": "—"
    },
@@ -9516,7 +9567,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 11:08 AM ET",
+  "updated": "2026-11-01 11:24 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12519,7 +12570,7 @@
     "w": 0,
     "l": 2,
     "p": 0,
-    "pending": 0,
+    "pending": 1,
     "units": -2.0
    }
   },
@@ -24006,7 +24057,7 @@
    "type": "Parlay",
    "prop": "Big 4 parlay",
    "pick": "2-leg",
-   "odds": "+136",
+   "odds": "+140",
    "res": "Pending",
    "stat": "—"
   },
@@ -24014,9 +24065,9 @@
    "date": "2026-11-01",
    "sport": "NFL",
    "type": "POTD",
-   "prop": "NFL rushing yards",
-   "pick": "Aaron Jones Sr. Over 29.5 Rushing Yards",
-   "odds": "-115",
+   "prop": "NFL receptions",
+   "pick": "Tre Tucker Over 3.5 Receptions",
+   "odds": "-120",
    "res": "Pending",
    "stat": "—"
   },
@@ -24026,7 +24077,7 @@
    "type": "Parlay",
    "prop": "NFL parlay",
    "pick": "2-leg",
-   "odds": "+130",
+   "odds": "+121",
    "res": "Pending",
    "stat": "—"
   },
@@ -24046,7 +24097,7 @@
    "type": "Parlay",
    "prop": "NBA parlay",
    "pick": "2-leg",
-   "odds": "+113",
+   "odds": "+125",
    "res": "Pending",
    "stat": "—"
   },
@@ -24056,7 +24107,7 @@
    "type": "POTD",
    "prop": "NHL points",
    "pick": "Trevor Zegras Over 0.5 Points",
-   "odds": "-120",
+   "odds": "-115",
    "res": "Pending",
    "stat": "—"
   },
@@ -24066,7 +24117,7 @@
    "type": "Parlay",
    "prop": "NHL parlay",
    "pick": "2-leg",
-   "odds": "+136",
+   "odds": "+135",
    "res": "Pending",
    "stat": "—"
   },
@@ -24076,7 +24127,17 @@
    "type": "POTD",
    "prop": "NBA assists",
    "pick": "Jayson Tatum Over 6.5 Assists",
-   "odds": "-135",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-01",
+   "sport": "NASCAR",
+   "type": "POTD",
+   "prop": "NASCAR h2h",
+   "pick": "Daniel Suárez to beat Connor Zilisch",
+   "odds": "-115",
    "res": "Pending",
    "stat": "—"
   },
@@ -33064,7 +33125,7 @@
     "cat": "Parlay +100",
     "prop": "Big 4 parlay",
     "pick": "2-leg",
-    "odds": "+136",
+    "odds": "+140",
     "res": "",
     "stat": "—",
     "sub": "Connor McDavid Over 0.5 Assists + Joel Eriksson Ek Over 2.5 Shots On Goal",
@@ -33090,16 +33151,16 @@
     "sport": "NFL",
     "grp": "O",
     "cat": "POTD",
-    "prop": "NFL rushing yards",
-    "pick": "Aaron Jones Sr. Over 29.5 Rushing Yards",
-    "odds": "-115",
+    "prop": "NFL receptions",
+    "pick": "Tre Tucker Over 3.5 Receptions",
+    "odds": "-120",
     "res": "",
     "stat": "—",
     "sub": "",
     "leg": false,
     "img": null,
     "alt": false,
-    "fam": "Rushing yds"
+    "fam": "Receptions"
    },
    {
     "date": "2026-11-01",
@@ -33108,7 +33169,7 @@
     "cat": "Parlay +100",
     "prop": "NFL parlay",
     "pick": "2-leg",
-    "odds": "+130",
+    "odds": "+121",
     "res": "",
     "stat": "—",
     "sub": "Trey McBride Over 6.5 Receptions + J.K. Dobbins Over 24.5 Rushing Yards",
@@ -33152,7 +33213,7 @@
     "cat": "Parlay +100",
     "prop": "NBA parlay",
     "pick": "2-leg",
-    "odds": "+113",
+    "odds": "+125",
     "res": "",
     "stat": "—",
     "sub": "Franz Wagner Over 4.5 Rebounds + Andrew Nembhard Over 8.5 Assists",
@@ -33180,7 +33241,7 @@
     "cat": "POTD",
     "prop": "NHL points",
     "pick": "Trevor Zegras Over 0.5 Points",
-    "odds": "-120",
+    "odds": "-115",
     "res": "",
     "stat": "—",
     "sub": "",
@@ -33196,7 +33257,7 @@
     "cat": "Parlay +100",
     "prop": "NHL parlay",
     "pick": "2-leg",
-    "odds": "+136",
+    "odds": "+135",
     "res": "",
     "stat": "—",
     "sub": "Alexis Lafreniere Over 0.5 Points + Kirill Kaprizov Over 2.5 Shots On Goal",
@@ -33224,7 +33285,7 @@
     "cat": "POTD",
     "prop": "NBA assists",
     "pick": "Jayson Tatum Over 6.5 Assists",
-    "odds": "-135",
+    "odds": "-125",
     "res": "",
     "stat": "—",
     "sub": "",
@@ -33232,6 +33293,22 @@
     "img": null,
     "alt": false,
     "fam": "Assists"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NASCAR",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NASCAR h2h",
+    "pick": "Daniel Suárez to beat Connor Zilisch",
+    "odds": "-115",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "NASCAR finish"
    },
    {
     "date": "2026-10-18",
@@ -50736,7 +50813,7 @@
      "w": 129,
      "l": 120,
      "p": 6,
-     "pending": 24,
+     "pending": 25,
      "units": -16.1
     },
     "legs": {
@@ -50997,7 +51074,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 11:08",
+    "priced": "2026-11-01 11:24",
     "dk": {
      "ladder": [
       [
@@ -51050,7 +51127,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 11:08",
+    "priced": "2026-11-01 11:24",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -51261,8 +51338,8 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 11:08 ET",
-  "picks": 60,
+  "built": "2026-11-01 11:24 ET",
+  "picks": 61,
   "vetoes": [],
   "gaps": [
    "POTD Kirill Kaprizov Over 0.5 Assists: AttributeError 'NoneType' object has no attribute 'get'"
@@ -51274,7 +51351,7 @@
   "pregame_games": 68,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 50,
+   "legs": 52,
    "priced": 32,
    "na": [
     "MarShawn Lloyd (RB) anytime TD",
@@ -51292,6 +51369,8 @@
     "LEG DAY Rachaad White Under 11.5 Rush Attempts",
     "LEG DAY Michael Mayer Over 26.5 Receiving Yards",
     "LEG DAY Bucky Irving Under 16.5 Receiving Yards",
+    "Daniel Suárez to beat Connor Zilisch",
+    "No qualifying ticket today",
     "Jayson Tatum Over 6.5 Assists",
     "Connor McDavid Over 0.5 Assists",
     "Joel Eriksson Ek Over 2.5 Shots On Goal"
@@ -51684,6 +51763,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-01 11:08 AM ET"
+  "checked_et": "2026-11-01 11:24 AM ET"
  }
 }
