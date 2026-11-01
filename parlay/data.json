@@ -1,5 +1,5 @@
 {
- "generated": 1793546597.2195358,
+ "generated": 1793548729.2845287,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -9516,7 +9516,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 10:23 AM ET",
+  "updated": "2026-11-01 10:58 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12451,10 +12451,10 @@
    },
    "tickets": {
     "w": 58,
-    "l": 51,
+    "l": 52,
     "p": 4,
-    "pending": 7,
-    "units": -9.67
+    "pending": 6,
+    "units": -10.67
    }
   },
   {
@@ -16142,7 +16142,7 @@
     "grade_why": "+6.3% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+260",
+    "now": "+240",
     "why_src": "Hard Rock +275 vs Pinnacle no-vig fair +253 (28.3%) → edge +6.25%. Clears the 4% Pinnacle edge floor at +6.25%. Price +275 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Jets vs Raiders",
@@ -16982,6 +16982,7 @@
     "grade_why": "+17.2% vs Pinnacle",
     "big4": true,
     "big4_only": null,
+    "now": "+145",
     "why_src": "Hard Rock +220 vs Pinnacle no-vig fair +173 (36.6%) → edge +17.21%. Clears the 4% Pinnacle edge floor at +17.21%. Price +220 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Hurricanes vs. Jets",
@@ -17243,7 +17244,7 @@
     "grade_why": "+10.1% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+160",
+    "now": "+165",
     "why_src": "Hard Rock +165 vs Pinnacle no-vig fair +141 (41.5%) → edge +10.08%. Clears the 4% Pinnacle edge floor at +10.08%. Price +165 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Hurricanes vs. Jets",
@@ -17871,7 +17872,7 @@
     "grade_why": "+6.6% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+110",
+    "now": "+115",
     "why_src": "Hard Rock +115 vs Pinnacle no-vig fair +102 (49.6%) → edge +6.63%. Clears the 4% Pinnacle edge floor at +6.63%. Price +115 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Hurricanes vs. Jets",
@@ -18520,7 +18521,7 @@
     "grade_why": "+4.5% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+115",
+    "now": "+120",
     "why_src": "Hard Rock +115 vs Pinnacle no-vig fair +106 (48.6%) → edge +4.45%. Clears the 4% Pinnacle edge floor at +4.45%. Price +115 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Hurricanes vs. Jets",
@@ -21578,16 +21579,16 @@
  "safe100_record": {
   "overall": {
    "w": 6,
-   "l": 20,
+   "l": 21,
    "p": 0,
-   "pct": 23
+   "pct": 22
   },
   "by_sport": {
    "NBA": {
     "w": 1,
-    "l": 4,
+    "l": 5,
     "p": 0,
-    "pct": 20
+    "pct": 17
    },
    "NFL": {
     "w": 0,
@@ -31464,6 +31465,7 @@
    "Picks are graded once the game is final. Ambiguous stays Pending.",
    "Void = inactive/scratched player or postponed/cancelled game (no carry-over). Never void a POTD for price drift.",
    "Voided picks display \"VOID\", not \"PUSH\".",
+   "Safe pending alert: a Safe +100 ticket still Pending more than 24h after its last game is flagged in the bot and the nightly grade_finals report; grade_finals re-grades Pending Safe dates from the last 7 days.",
    "TD City and First Blood (FIRST BLOOD + TD CITY RECORD): ticket graded as 1u (W/L/VOID); legs graded hit/miss only, no units on legs; a leg whose player doesn't play auto-voids.",
    "Parlay is L as soon as any leg loses. Runners-up removed mid-game are dropped, not graded."
   ],
@@ -31505,7 +31507,6 @@
    "CAPPER SELF-AUDIT. The bot runs automatically, zero LLM, in every capper pull path: the 7 AM pull and every the bot run (7am, 10am, 1230pm, 4pm), in this order: the bot, then a pre-audit that fixes rows (result not gating), then the bot, then the bot, then the GATE audit against the freshly built the bot, then push. It does four things."
   ],
   "allofficial": [
-   "The official standards stay in force for every Official pick: the morning prop scan only, NHL shot-over minimums, no fill. The 4% Pinnacle edge applies only to Edge and LEG DAY. POTD and Parlay +100 have no edge requirement and qualify on volume/role and recent hit rate instead. Exemptions: The Heist, Lotto Ticket / TD City and Safe +100 / Alt Parlay, each with its own rules in its section.",
    "A former box that cannot meet the official standards is DROPPED, not converted: Runners-up, ALT LINES (sport and Big 4 cards), Home Field, NRFI and inning calls, Live POTD / Live Parlay, Live top lines, in-game lines and the NASCAR extra list. Their scripts no longer run from the bot.",
    "Official history from before this order (POTD, Parlay +100, our recommended legs, Edge) is unchanged. No backfill, except the Lotto Ticket / TD City and Safe +100 / Alt Parlay history restored.",
    "Strict readings: near-misses, fillers and model-only edges are not posted at all; Edge counts as Official, so Pinnacle 4% and NO FILL apply to Edge too; capper picks are idea sources tracked in Cappers only, never in the Official headline; live plays stay untracked; the NCAA F section keeps its separate record."
@@ -40142,14 +40143,15 @@
     "fam": "Parlay",
     "pick": "Safe +100 3-leg",
     "odds": "+129",
-    "res": "",
-    "stat": "—",
+    "res": "L",
+    "stat": "",
     "alt": true,
     "leg": false,
     "img": null,
     "sub": "",
     "tk": "NBA",
-    "tid": "2026-10-27|NBA|10:20 AM ET|3-leg"
+    "tid": "2026-10-27|NBA|10:20 AM ET|3-leg",
+    "uu": -1.0
    },
    {
     "date": "2026-10-27",
@@ -40200,8 +40202,8 @@
     "prop": "NBA alt · NBA reb Luka Doncic 6+ reb",
     "pick": "Luka Doncic 6+ reb",
     "odds": "-325",
-    "res": "",
-    "stat": "—",
+    "res": "L",
+    "stat": "5 REB",
     "alt": true,
     "fam": "Rebounds",
     "img": null,
@@ -51778,7 +51780,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 10:23",
+    "priced": "2026-11-01 10:58",
     "orig_note": "book price; capper posted no odds",
     "dk": {
      "ladder": [
@@ -51805,7 +51807,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 10:23",
+    "priced": "2026-11-01 10:58",
     "dk": {
      "ladder": [
       [
@@ -51858,7 +51860,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 10:23",
+    "priced": "2026-11-01 10:58",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -52069,7 +52071,7 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 10:23 ET",
+  "built": "2026-11-01 10:58 ET",
   "picks": 66,
   "vetoes": [],
   "gaps": [
@@ -52492,6 +52494,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-01 10:23 AM ET"
+  "checked_et": "2026-11-01 10:58 AM ET"
  }
 }
