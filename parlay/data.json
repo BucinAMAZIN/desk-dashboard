@@ -1,5 +1,5 @@
 {
- "generated": 1793555664.5239334,
+ "generated": 1793555744.1682096,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -717,20 +717,20 @@
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-285",
+        "odds": "-286",
         "na": false,
         "ladder": [
          [
           "3+",
-          "-1820"
+          "-1860"
          ],
          [
           "4+",
-          "-630"
+          "-640"
          ],
          [
           "5+",
-          "-285"
+          "-286"
          ],
          [
           "6+",
@@ -742,27 +742,27 @@
          ],
          [
           "8+",
-          "+216"
+          "+211"
          ],
          [
           "9+",
-          "+367"
+          "+354"
          ],
          [
           "10+",
-          "+630"
+          "+600"
          ],
          [
           "11+",
-          "+1020"
+          "+1000"
          ],
          [
           "12+",
-          "+1640"
+          "+1660"
          ],
          [
           "13+",
-          "+2300"
+          "+2400"
          ]
         ]
        }
@@ -9220,8 +9220,20 @@
    "today": [
     {
      "sport": "NFL",
+     "prop": "NFL interceptions (under)",
+     "pick": "Kirk Cousins u0.5 Interceptions (vs Jets; NFL play, 'hit in 24/25')",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Pass other",
+     "game": "LV @ NYJ",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
      "prop": "NFL rush yds (over)",
-     "pick": "Bhayshul Tuten o65.5 Rush Yards (Colts game; Play #1)",
+     "pick": "Bhayshul Tuten o55.5 Rush Yards (Colts game; Play #1)",
      "odds": "none posted",
      "status": "Pending",
      "fam": "Rushing yds",
@@ -9239,6 +9251,30 @@
      "fam": "Receiving yds",
      "game": "KC @ DEN",
      "kick": "4:25 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL receptions (over)",
+     "pick": "Bijan Robinson o3.5 Receptions (ATL vs TB; NFL Play #4)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Receptions",
+     "game": "ATL @ TB",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL receptions (under)",
+     "pick": "Jahmyr Gibbs u4.5 Receptions (DET vs MIN; Surgical Bet of the Day)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Receptions",
+     "game": "MIN @ DET",
+     "kick": "1:00 PM ET",
      "started": false,
      "final": false
     }
@@ -9381,6 +9417,18 @@
     }
    ],
    "today": [
+    {
+     "sport": "NBA",
+     "prop": "NBA points (over)",
+     "pick": "Rui Hachimura o14.5 Pts (post tags #ClipperNation vs #DubNation; My NBA Play Of The Day, POTD)",
+     "odds": "-115 FD",
+     "status": "Pending",
+     "fam": "Player points",
+     "game": "LAC @ GS",
+     "kick": "8:30 PM ET",
+     "started": false,
+     "final": false
+    },
     {
      "sport": "NBA",
      "prop": "NBA 3PM (over)",
@@ -9569,6 +9617,54 @@
      "kick": "1:00 PM ET",
      "started": false,
      "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Dallas Goedert o59.5 Rec Yards (PHI @ WAS 8:20 PM ET; NFL Sunday CB Lotto pick'em slip, 50% boost)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "PHI @ WSH",
+     "kick": "8:20 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "Zay Flowers o99.5 Rec Yards (BAL @ BUF; NFL Sunday CB Lotto pick'em slip, 50% boost)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "BAL @ BUF",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rush + rec yds (over)",
+     "pick": "Ashton Jeanty o99.5 Rush + Rec Yds (LV @ NYJ; NFL Sunday CB Lotto pick'em slip, 50% boost)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Rush+Rec yds",
+     "game": "LV @ NYJ",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL receptions (over)",
+     "pick": "Amon-Ra St. Brown o7.5 Rec (MIN @ DET; NFL Sunday CB Lotto pick'em slip, 50% boost)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Receptions",
+     "game": "MIN @ DET",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9678,6 +9774,18 @@
    ],
    "today": [
     {
+     "sport": "NFL",
+     "prop": "NFL spread",
+     "pick": "New York Jets -1.5 (LV @ NYJ; first NFL bet of the day)",
+     "odds": "-110",
+     "status": "Pending",
+     "fam": "Spread",
+     "game": "LV @ NYJ",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
      "sport": "NCAAB",
      "prop": "NCAAB game total (under)",
      "pick": "Villanova/ND u147.5 (first CBB play of the year)",
@@ -9777,7 +9885,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 12:54 PM ET",
+  "updated": "2026-11-01 12:55 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -15419,9 +15527,9 @@
  },
  "nascar_proj": {
   "title": "Top 10 projected finish · Xfinity 500 (Martinsville, Sun 2:00 PM ET)",
-  "note": "Built off Hard Rock lines fetched 2026-11-01 12:51 ET (Top 10 / Top 5 / Winner) and the official lineup (Denny Hamlin pole) via nascar_model.py. A ranking, not a pick. Not graded.",
+  "note": "Built off Hard Rock lines fetched 2026-11-01 12:55 ET (Top 10 / Top 5 / Winner) and the official lineup (Denny Hamlin pole) via nascar_model.py. A ranking, not a pick. Not graded.",
   "locked": true,
-  "locked_at": "2026-11-01 12:51 EST lines",
+  "locked_at": "2026-11-01 12:55 EST lines",
   "race_id": 5632,
   "rows": [
    {
@@ -15678,27 +15786,27 @@
        "ladder": [
         [
          "30+",
-         "-3500"
+         "-3400"
         ],
         [
          "40+",
-         "-1260"
+         "-1220"
         ],
         [
          "50+",
-         "-670"
+         "-660"
         ],
         [
          "60+",
-         "-398"
+         "-401"
         ],
         [
          "70+",
-         "-256"
+         "-262"
         ],
         [
          "80+",
-         "-181"
+         "-180"
         ],
         [
          "90+",
@@ -15710,7 +15818,7 @@
         ],
         [
          "100+",
-         "+117"
+         "+116"
         ],
         [
          "110+",
@@ -15718,42 +15826,42 @@
         ],
         [
          "120+",
-         "+213"
+         "+216"
         ],
         [
          "130+",
-         "+287"
+         "+289"
         ],
         [
          "140+",
-         "+383"
+         "+391"
         ],
         [
          "150+",
-         "+513"
+         "+516"
         ],
         [
          "160+",
-         "+690"
+         "+680"
         ],
         [
          "170+",
-         "+940"
+         "+890"
         ],
         [
          "180+",
-         "+1240"
+         "+1160"
         ],
         [
          "190+",
-         "+1640"
+         "+1540"
         ],
         [
          "200+",
-         "+1920"
+         "+1840"
         ]
        ],
-       "odds": "-398",
+       "odds": "-401",
        "pick": "Zay Flowers 60+ rec yds",
        "moved": true,
        "na": false
@@ -16088,7 +16196,7 @@
       }
      }
     ],
-    "dk_odds": "+105"
+    "dk_odds": "+104"
    },
    "TODAY": {
     "sport": "TODAY",
@@ -22506,7 +22614,7 @@
     "cf.nascar.com/cacher/2026/1/5632/qualification.json (official timing)",
     "cf.nascar.com weekend-feed.json (teams)"
    ],
-   "updated": "2026-11-01 12:51 ET",
+   "updated": "2026-11-01 12:55 ET",
    "confirmed": false
   }
  },
@@ -22765,7 +22873,7 @@
      "Formula: [C] Score 37.9/100 (rank 32 of the week).⁠ RZ touches 1.7/g L5; goal-line share 14% (i5 14%, i10 14%); opp allows 1.83 TD/g to WR; team total 25.5 (Hard Rock team total); L10 ATD 0% (nflverse game logs (3 g))"
     ],
     "dk": {
-     "odds": "+265",
+     "odds": "+270",
      "na": false
     }
    },
@@ -29857,39 +29965,39 @@
       ],
       [
        "15+",
-       "+131"
+       "+129"
       ],
       [
        "20+",
-       "+187"
+       "+181"
       ],
       [
        "25+",
-       "+259"
+       "+243"
       ],
       [
        "30+",
-       "+340"
+       "+321"
       ],
       [
        "40+",
-       "+566"
+       "+531"
       ],
       [
        "50+",
-       "+930"
+       "+870"
       ],
       [
        "60+",
-       "+1480"
+       "+1340"
       ],
       [
        "70+",
-       "+2200"
+       "+2000"
       ],
       [
        "80+",
-       "+3200"
+       "+3000"
       ]
      ]
     }
@@ -31439,7 +31547,7 @@
      "ladder": [
       [
        "u18.5",
-       "-113"
+       "-117"
       ]
      ]
     }
@@ -48475,7 +48583,7 @@
     "cat": "Cappers",
     "prop": "@alexcaruso · NFL rush yds (over)",
     "fam": "Rushing yds",
-    "pick": "Bhayshul Tuten o65.5 Rush Yards (Colts game; Play #1)",
+    "pick": "Bhayshul Tuten o55.5 Rush Yards (Colts game; Play #1)",
     "odds": "none posted",
     "res": "",
     "stat": "",
@@ -52501,13 +52609,14 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 10:19",
+    "priced": "2026-11-01 10:58",
     "orig_note": "book price; capper posted no odds",
+    "stale": true,
     "dk": {
      "ladder": [
       [
        "u50.5",
-       "-114"
+       "-113"
       ]
      ],
      "na": true,
@@ -52517,54 +52626,62 @@
    {
     "capper": "@austinsprops",
     "sport": "NBA",
-    "orig": "Ja'Kobe Walter o2.5 3PM",
-    "orig_odds": 130,
-    "pick": "Ja'Kobe Walter o2.5 3PM",
-    "odds": 130,
+    "orig": "Rui Hachimura o14.5 Pts",
+    "orig_odds": -115,
+    "pick": "Rui Hachimura o14.5 Pts",
+    "odds": -115,
     "src": "Capper original line",
-    "game": "Raptors vs Lakers; My First NBA Winner Today; 0.75u",
-    "gkey": "NBA:401909906",
-    "start": "2026-11-01 21:00",
+    "game": "post tags #ClipperNation vs #DubNation; My NBA Play Of The Day, POTD",
+    "gkey": "NBA:dubnation my nba play of the day potd|post tags clippernation",
+    "start": null,
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 10:19",
+    "priced": "2026-11-01 12:55",
     "dk": {
      "ladder": [
       [
-       "1+",
-       "-1360"
+       "8+",
+       "-1500"
       ],
       [
-       "2+",
-       "-269"
+       "10+",
+       "-670"
       ],
       [
-       "3+",
-       "+111"
+       "12+",
+       "-350"
       ],
       [
-       "4+",
-       "+255"
+       "15+",
+       "-152"
       ],
       [
-       "5+",
-       "+575"
+       "16+",
+       "-119"
       ],
       [
-       "6+",
-       "+1200"
+       "18+",
+       "+131"
       ],
       [
-       "7+",
-       "+2200"
+       "20+",
+       "+199"
+      ],
+      [
+       "25+",
+       "+599"
+      ],
+      [
+       "30+",
+       "+1620"
       ]
      ],
-     "odds": "-269",
-     "pick": "Ja'Kobe Walter Over 1.5 3PM",
+     "odds": "-350",
+     "pick": "Rui Hachimura Over 11.5 Pts",
      "moved": true,
      "na": false,
-     "orig_odds": "+111"
+     "orig_odds": "-152"
     }
    },
    {
@@ -52581,7 +52698,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 10:19",
+    "priced": "2026-11-01 12:55",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -52609,8 +52726,8 @@
   ],
   "status": "live",
   "msg": "",
-  "odds": 704,
-  "orig": 704,
+  "odds": 553,
+  "orig": 553,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
@@ -52620,22 +52737,44 @@
    {
     "capper": "@alexcaruso",
     "sport": "NFL",
-    "pick": "Bhayshul Tuten o65.5 Rush Yards (Colts game; Play #1)",
+    "pick": "Kirk Cousins u0.5 Interceptions (vs Jets; NFL play, 'hit in 24/25')",
+    "odds": "none posted",
+    "game": "LV @ NYJ",
+    "kick": "1:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept (no HR rung in -250..-375)",
+    "dk": "original line kept (no DK rung in -250..-375)",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 13:00",
+    "hr_pick": "Kirk Cousins u0.5 Interceptions",
+    "dk_pick": "Kirk Cousins u0.5 Interceptions",
+    "trk": "Kirk Cousins u0.5 Interceptions",
+    "grade_odds": -130,
+    "hr_x": -130,
+    "excluded": null
+   },
+   {
+    "capper": "@alexcaruso",
+    "sport": "NFL",
+    "pick": "Bhayshul Tuten o55.5 Rush Yards (Colts game; Play #1)",
     "odds": "none posted",
     "game": "IND @ JAX",
     "kick": "1:00 PM ET",
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "50+ -300",
-    "dk": "50+ -282",
-    "hr_odds": -300,
-    "dk_odds": -282,
+    "hr": "50+ -325",
+    "dk": "50+ -280",
+    "hr_odds": -325,
+    "dk_odds": -280,
     "start": "2026-11-01 13:00",
     "hr_pick": "Bhayshul Tuten 50+ Rush Yards",
     "dk_pick": "Bhayshul Tuten 50+ Rush Yards",
     "trk": "Bhayshul Tuten 50+ Rush Yards",
-    "grade_odds": -300,
+    "grade_odds": -325,
     "hr_x": null,
     "excluded": null
    },
@@ -52662,6 +52801,72 @@
     "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
    },
    {
+    "capper": "@alexcaruso",
+    "sport": "NFL",
+    "pick": "Bijan Robinson o3.5 Receptions (ATL vs TB; NFL Play #4)",
+    "odds": "none posted",
+    "game": "ATL @ TB",
+    "kick": "1:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept (no HR rung in -250..-375)",
+    "dk": "original line kept (no DK rung in -250..-375)",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 13:00",
+    "hr_pick": "Bijan Robinson o3.5 Receptions",
+    "dk_pick": "Bijan Robinson o3.5 Receptions",
+    "trk": "Bijan Robinson o3.5 Receptions",
+    "grade_odds": -175,
+    "hr_x": -175,
+    "excluded": null
+   },
+   {
+    "capper": "@alexcaruso",
+    "sport": "NFL",
+    "pick": "Jahmyr Gibbs u4.5 Receptions (DET vs MIN; Surgical Bet of the Day)",
+    "odds": "none posted",
+    "game": "MIN @ DET",
+    "kick": "1:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept (no HR rung in -250..-375)",
+    "dk": "original line kept (no DK rung in -250..-375)",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 13:00",
+    "hr_pick": "Jahmyr Gibbs u4.5 Receptions",
+    "dk_pick": "Jahmyr Gibbs u4.5 Receptions",
+    "trk": "Jahmyr Gibbs u4.5 Receptions",
+    "grade_odds": -160,
+    "hr_x": -160,
+    "excluded": null
+   },
+   {
+    "capper": "@austinsprops",
+    "sport": "NBA",
+    "pick": "Rui Hachimura o14.5 Pts (post tags #ClipperNation vs #DubNation; My NBA Play Of The Day, POTD)",
+    "odds": "-115 FD",
+    "game": "LAC @ GS",
+    "kick": "8:30 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept (no HR rung in -250..-375)",
+    "dk": "12+ -350",
+    "hr_odds": null,
+    "dk_odds": -350,
+    "start": "2026-11-01 20:30",
+    "hr_pick": "Rui Hachimura o14.5 Pts",
+    "dk_pick": "Rui Hachimura 12+ Pts",
+    "trk": "Rui Hachimura o14.5 Pts",
+    "grade_odds": -140,
+    "hr_x": -140,
+    "excluded": null
+   },
+   {
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Ja'Kobe Walter o2.5 3PM (Raptors vs Lakers; My First NBA Winner Today; 0.75u)",
@@ -52672,9 +52877,9 @@
     "final": false,
     "frozen": false,
     "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "2+ -269",
+    "dk": "2+ -277",
     "hr_odds": null,
-    "dk_odds": -269,
+    "dk_odds": -277,
     "start": "2026-11-01 21:00",
     "hr_pick": "Ja'Kobe Walter o2.5 3PM",
     "dk_pick": "Ja'Kobe Walter 2+ 3PM",
@@ -52737,17 +52942,127 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "40+ -375",
+    "hr": "original line kept (no HR rung in -250..-375)",
     "dk": "40+ -344",
-    "hr_odds": -375,
+    "hr_odds": null,
     "dk_odds": -344,
     "start": "2026-11-01 13:00",
-    "hr_pick": "Chase Brown 40+ Rush Yards",
+    "hr_pick": null,
     "dk_pick": "Chase Brown 40+ Rush Yards",
-    "trk": "Chase Brown 40+ Rush Yards",
-    "grade_odds": -375,
+    "trk": "Chase Brown o56.5 Rush Yards",
+    "grade_odds": null,
     "hr_x": null,
-    "excluded": null
+    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
+   },
+   {
+    "capper": "@panpotd",
+    "sport": "NFL",
+    "pick": "Dallas Goedert o59.5 Rec Yards (PHI @ WAS 8:20 PM ET; NFL Sunday CB Lotto pick'em slip, 50% boost)",
+    "odds": "none posted",
+    "game": "PHI @ WSH",
+    "kick": "8:20 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 20:20",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"Rec\")"
+   },
+   {
+    "capper": "@panpotd",
+    "sport": "NFL",
+    "pick": "Zay Flowers o99.5 Rec Yards (BAL @ BUF; NFL Sunday CB Lotto pick'em slip, 50% boost)",
+    "odds": "none posted",
+    "game": "BAL @ BUF",
+    "kick": "1:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 13:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"Rec\")"
+   },
+   {
+    "capper": "@panpotd",
+    "sport": "NFL",
+    "pick": "Ashton Jeanty o99.5 Rush + Rec Yds (LV @ NYJ; NFL Sunday CB Lotto pick'em slip, 50% boost)",
+    "odds": "none posted",
+    "game": "LV @ NYJ",
+    "kick": "1:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 13:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"Rush\")"
+   },
+   {
+    "capper": "@panpotd",
+    "sport": "NFL",
+    "pick": "Amon-Ra St. Brown o7.5 Rec (MIN @ DET; NFL Sunday CB Lotto pick'em slip, 50% boost)",
+    "odds": "none posted",
+    "game": "MIN @ DET",
+    "kick": "1:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 13:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"Rec\")"
+   },
+   {
+    "capper": "@showtimepicks2",
+    "sport": "NFL",
+    "pick": "New York Jets -1.5 (LV @ NYJ; first NFL bet of the day)",
+    "odds": "-110",
+    "game": "LV @ NYJ",
+    "kick": "1:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 13:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "no gradable line"
    },
    {
     "capper": "@showtimepicks2",
@@ -52792,7 +53107,7 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 12:54 ET",
+  "built": "2026-11-01 12:55 ET",
   "picks": 67,
   "vetoes": [],
   "gaps": [
@@ -52800,8 +53115,8 @@
   ]
  },
  "dk": {
-  "fetched": "2026-11-01 12:53 ET",
-  "snapshots": 7,
+  "fetched": "2026-11-01 12:54 ET",
+  "snapshots": 8,
   "pregame_games": 109,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
@@ -52833,7 +53148,7 @@
  },
  "late_injury": {
   "date": "2026-11-01",
-  "checked_et": "2026-11-01 12:51 PM ET",
+  "checked_et": "2026-11-01 12:54 PM ET",
   "stage": "1230pm",
   "flags": []
  },
@@ -53217,7 +53532,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-01 12:54 PM ET"
- },
- "capper_audit_hold": "Capper/HEIST data held at 2026-11-01 10:19 ET (self-audit failed; see logs/capper_audit_2026-11-01.txt)"
+  "checked_et": "2026-11-01 12:55 PM ET"
+ }
 }
