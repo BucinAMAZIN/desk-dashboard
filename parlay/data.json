@@ -1,5 +1,5 @@
 {
- "generated": 1793502648.959096,
+ "generated": 1793503256.4902296,
  "today": {
   "title": "Oct 31 picks (Hard Rock)",
   "tickets": [
@@ -8377,7 +8377,7 @@
  "capper_today_date": "2026-10-31",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-31 11:10 PM ET",
+  "updated": "2026-10-31 11:20 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -10009,7 +10009,7 @@
      {
       "a": "CGY",
       "h": "COL",
-      "st": "16:09 - 2nd",
+      "st": "10:53 - 2nd",
       "div": false,
       "stake": "CGY 6-7-0: 5th Pacific Division (10 pts back), West #11 seed (outside playoffs) · COL 7-5-1: 4th Central Division (6 pts back), West #7 seed (in playoff spot)"
      }
@@ -22266,12 +22266,11 @@
   ],
   "parlay100": [
    "Game day process applies to every leg: Game Day Why block, matchup rank (≤20 preferred) and the hard vetoes.",
-   "Volume parlay: 2-3 legs. Legs may be ANY real Hard Rock line: a player prop OR a game line (spread, total, moneyline, team total), main or alt, at any price (no per-leg range). No edge requirement. The eligible-prop list does not limit Parlay +100 legs.",
-   "Filters: player-prop legs pass the volume/role filter and bans (no TDs, longest-play, blocks/steals, pitcher Ks, hitter unders, questionable players) and hit that exact line in 7+ of the player's last 10. Game-line legs need the team/game to have hit that line in 7+ of its last 10. 7+ of last 10 is the only hit-rate test.",
+   "Volume parlay: 2-3 legs. Legs may be ANY real Hard Rock line: a player prop OR a game line (spread, total, moneyline, team total), main or alt, at any price (no per-leg range) down to the -500 code floor below. No edge requirement. The eligible-prop list does not limit Parlay +100 legs.",
+   "Filters: player-prop legs pass the volume/role filter and bans and hit that exact line in 7+ of the player's last 10. Game-line legs need the team/game to have hit that line in 7+ of its last 10. 7+ of last 10 is the only hit-rate test.",
    "Chain: a parlay that settles (L as soon as any leg loses) is followed by \"Parlay +100 #n\" built to the same rules, combined +100 to +140, using no game from an earlier parlay that day. The All Sports (Big 4) parlay chains too.",
    "Same-game rule: legs normally come from different games. When only ONE game is on the slate or left, the ticket is built as a same-game parlay PREGAME.",
-   "All Sports parlay: safest 2-4 legs, about +100 to +115. Official. Must use different legs and cannot be a pure copy of a sport parlay.",
-   "Code note: the bot and the bot still carry old Parlay +100 price-range checks (-500..+120 and the PRICE RANGE ERROR); they must match this section."
+   "All Sports parlay: safest 2-4 legs, about +100 to +115. Official. Must use different legs and cannot be a pure copy of a sport parlay."
   ],
   "safe100": [],
   "edge": [
@@ -22285,7 +22284,6 @@
   "alt": [],
   "live_lines": [],
   "lotto": [
-   "Official. Exempt from the official standards's edge rule (no Pinnacle edge requirement) and from the parlay shape, same as The Heist. Everything else still applies: real Hard Rock prices only (else a real price from another book, labeled Hard Rock unverified), never invent a price, locks, grading.",
    "Td city rules. Overrides any older wording below where they conflict:",
    "THURSDAY MORNING LOCK; TD City only; replaces the Thursday 6:30 PM pre-lock and the Sunday 11:00 AM main lock:",
    "The full weekly TD City ticket is built and locked Thursday morning, 10:00 AM ET (time as proposed in the relay), instead of Sunday 11:00 AM ET.",
@@ -22338,10 +22336,9 @@
    "LEG DAY = the daily ranked props board: each board prop is one 1u Official result. Its own compact tile and record under Official, with a per-sport breakdown.",
    "First Blood = the NBA 1st Point Scorer Lotto: its own bubble; the ticket counts in the Official W-L and units as one 1u result; legs listed hit/miss only, no units (FIRST BLOOD + TD CITY RECORD).",
    "Cappers = every capper pick (idea sources), one result each, tracking only: never in the Official headline. Tracked as 1u singles at the posted odds and shown in the list format. Two different picks on the same player both count, and a ladder counts once.",
-   "Record tab: the same groups in the same order (Official, Edge, Cappers), built from the same rows as Results, so both pages always agree.",
+   "Record tab: the same groups in the same order (Official, Edge, Cappers), built from the same rows as Results, so both pages always agree. First Blood and TD City / Lotto Ticket each count in Official as one 1u result per ticket at its real posted odds; legs are hit/miss only. TD City keeps its own Results bubble. The First Blood Results bubble is removed; its tickets show only inside Official.",
    "Live plays (Live POTD, Live Parlay +100, in-game and live calls) are never tracked on Results or Record.",
    "Count every ticket once. A leg that is the same play as that day's POTD counts once.",
-   "Units = 1u flat per pick: win +1, loss -1, push or void 0.",
    "Sport filter chips: All, NFL, NHL, MLB, NBA, WNBA, NCAAF, NASCAR. Mixed-sport (Big 4) tickets show under All.",
    "By prop: rare prop types merge into families (Receiving yds, Rushing yds, Receptions, Pass yds, Anytime TD, SOG, Saves, Pitcher Ks, Hits/TB, ML, Spread, Total, Team total, NASCAR finish...), sorted by volume. The top 8 show, the rest sit behind \"Show more\".",
    "Alt parlay bubble views: the Alt Parlay / Safe +100 bubble supports the same By day / By prop views as Official, so Safe +100 Alt Parlay results are tracked like the rest (by day or by prop type). By prop uses the logged leg results; the ticket still counts once.",
@@ -41385,7 +41382,7 @@
  },
  "gameday": {
   "date": "2026-10-31",
-  "built": "2026-10-31 23:10 ET",
+  "built": "2026-10-31 23:21 ET",
   "picks": 13,
   "vetoes": [],
   "gaps": [
