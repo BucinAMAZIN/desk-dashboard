@@ -1,10 +1,1253 @@
 {
- "generated": 1793535592.2644982,
+ "generated": 1793535705.3892207,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
-  "tickets": [],
+  "tickets": [
+   {
+    "name": "POTD",
+    "desc": "Kirill Kaprizov Over 0.5 Assists -115",
+    "odds": "-115",
+    "stake": "—",
+    "payout": "—",
+    "status": "Pending",
+    "game": "",
+    "legs": [],
+    "why": "Grade B. Volume: L5 TOI 22.2 avg (L3 23.8 vs L10 21.9 TOI) | Hit: 7/10 at O0.5, 4/5 | Matchup: Opp 17/32 vs Assists (NHL API) | Context: MIN +1.5 / O/U 6.5 | - | Away | Injuries: Jared Spurgeon, Brock Faber out (w/o Nick Foligno: 4/4) | Opp out: Vincent Desharnais, Rasmus Sandin | Weather: neutral | Risk: without-Nick Foligno split sample 4 (<5)",
+    "pick": "Kirill Kaprizov Over 0.5 Assists",
+    "why_not": "without-Nick Foligno split sample 4 (<5)"
+   },
+   {
+    "name": "+100 ticket",
+    "desc": "2-leg +136 (1u)",
+    "odds": "+136",
+    "stake": "—",
+    "payout": "—",
+    "status": "Pending",
+    "game": "",
+    "legs": [
+     {
+      "pick": "Connor McDavid Over 0.5 Assists",
+      "odds": "-230",
+      "game": "Rangers vs. Oilers 06:00 PM ET",
+      "status": "Pending",
+      "why": "Volume: TOI 23.5 season avg | Hit: 10/10 at line, 5/5. Matchup: NYR 11/32 vs goals (3.0/g allowed, neutral). Context: NYR -1.5 / O/U 6.5 (EDM TT 3.5) | Away · EDM B2B. Injuries: EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve) | NYR: Braden Schneider (Day-To-Day), Sean Durzi (Day-To-Day), Igor Shesterkin (Injured Reserve). Weather: indoor, neutral. Risk: EDM on a back-to-back.",
+      "why_not": "Normal variance at this line.",
+      "why_src": "Grade A. Volume: L5 TOI 23.2 avg (L3 23.8 vs L10 24.2 TOI) | Hit: 10/10 at O0.5, 5/5 | Matchup: Opp 20/32 vs Assists (NHL API) | Context: EDM +1.5 / O/U 6.5 | - | Away | Injuries: Isaac Howard, Zach Hyman out (w/o Mattias Janmark: 13/13) | Opp out: Igor Shesterkin, Joe Veleno | Weather: neutral | Risk: Normal variance at this line.",
+      "ctx": {
+       "game": "Rangers vs. Oilers",
+       "team": "EDM",
+       "opp": "NYR",
+       "stat": "ga",
+       "opp_rank": {
+        "rank": 11,
+        "of": 32,
+        "pg": 3.0,
+        "gp": 14,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "NYR",
+       "spread": -1.5,
+       "total": 6.5,
+       "team_totals": {
+        "EDM": 3.5,
+        "NYR": 3.5
+       },
+       "home": "NYR",
+       "away": "EDM",
+       "rest": {
+        "NYR": 4,
+        "EDM": 0
+       },
+       "record": {
+        "NYR": "7-6-1",
+        "EDM": "10-2-2"
+       },
+       "start_et": "Sun 11/01 06:00 PM ET",
+       "out": {
+        "NYR": [
+         {
+          "name": "Braden Schneider",
+          "status": "Day-To-Day",
+          "pos": "D",
+          "date": "2026-10-31",
+          "role": "17.5 TOI"
+         },
+         {
+          "name": "Sean Durzi",
+          "status": "Day-To-Day",
+          "pos": "D",
+          "date": "2026-10-31",
+          "role": "19.9 TOI"
+         },
+         {
+          "name": "Igor Shesterkin",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-11"
+         },
+         {
+          "name": "Joonas Korpisalo",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-10"
+         }
+        ],
+        "EDM": [
+         {
+          "name": "Zach Hyman",
+          "status": "Injured Reserve",
+          "pos": "LW",
+          "date": "2026-10-28",
+          "role": "17.9 TOI"
+         },
+         {
+          "name": "Devon Levi",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-24"
+         },
+         {
+          "name": "Frederik Andersen",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-09-29"
+         }
+        ]
+       }
+      },
+      "gameday": [
+       "Volume: TOI 23.5 season avg | Hit: 10/10 at line, 5/5",
+       "Matchup: NYR 11/32 vs goals (3.0/g allowed, neutral)",
+       "Context: NYR -1.5 / O/U 6.5 (EDM TT 3.5) | Away · EDM B2B",
+       "Injuries: EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve) | NYR: Braden Schneider (Day-To-Day), Sean Durzi (Day-To-Day), Igor Shesterkin (Injured Reserve)",
+       "Weather: indoor, neutral",
+       "Risk: EDM on a back-to-back"
+      ],
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     },
+     {
+      "pick": "Joel Eriksson Ek Over 2.5 Shots On Goal",
+      "odds": "-155",
+      "game": "Capitals vs. Wild 03:30 PM ET",
+      "status": "Pending",
+      "why": "Volume: TOI 20.1 season avg | Hit: 8/10 at line, 4/5. Matchup: WSH 21/32 vs SOG (28.1/g allowed, neutral). Context: WSH -1.5 / O/U 6.5 (MIN TT 2.5) | Away. Injuries: MIN: Jared Spurgeon (Injured Reserve), Filip Gustavsson (Injured Reserve) | WSH: Vincent Desharnais (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
+      "why_not": null,
+      "why_src": "Grade A-. Volume: L5 TOI 19.4 avg (L3 21.6 vs L10 20.6 TOI) | Hit: 8/10 at O2.5, 4/5 | Matchup: Opp 12/32 vs Shots On Goal (NHL API) | Context: MIN +1.5 / O/U 6.5 | - | Away | Injuries: Jared Spurgeon, Brock Faber out (w/o Marcus Foligno: 12/15) | Opp out: Vincent Desharnais, Rasmus Sandin | Weather: neutral | Risk: Normal variance at this line.",
+      "ctx": {
+       "game": "Capitals vs. Wild",
+       "team": "MIN",
+       "opp": "WSH",
+       "stat": "sog",
+       "opp_rank": {
+        "rank": 21,
+        "of": 32,
+        "pg": 28.1,
+        "gp": 12,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "WSH",
+       "spread": -1.5,
+       "total": 6.5,
+       "team_totals": {
+        "WSH": 3.5,
+        "MIN": 2.5
+       },
+       "home": "WSH",
+       "away": "MIN",
+       "rest": {
+        "WSH": 2,
+        "MIN": 2
+       },
+       "record": {
+        "WSH": "8-4-0",
+        "MIN": "9-3-3"
+       },
+       "start_et": "Sun 11/01 03:30 PM ET",
+       "out": {
+        "WSH": [
+         {
+          "name": "Vincent Desharnais",
+          "status": "Injured Reserve",
+          "pos": "D",
+          "date": "2026-10-23",
+          "role": "19.4 TOI"
+         }
+        ],
+        "MIN": [
+         {
+          "name": "Jared Spurgeon",
+          "status": "Injured Reserve",
+          "pos": "D",
+          "date": "2026-10-29",
+          "role": "20.5 TOI"
+         },
+         {
+          "name": "Filip Gustavsson",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-18"
+         }
+        ]
+       }
+      },
+      "gameday": [
+       "Volume: TOI 20.1 season avg | Hit: 8/10 at line, 4/5",
+       "Matchup: WSH 21/32 vs SOG (28.1/g allowed, neutral)",
+       "Context: WSH -1.5 / O/U 6.5 (MIN TT 2.5) | Away",
+       "Injuries: MIN: Jared Spurgeon (Injured Reserve), Filip Gustavsson (Injured Reserve) | WSH: Vincent Desharnais (Injured Reserve)",
+       "Weather: indoor, neutral",
+       "Risk: Normal variance at this line"
+      ],
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     }
+    ],
+    "why": null,
+    "pick": "2-leg +136 (1u)",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+    "dk_odds": null
+   },
+   {
+    "name": "Safe +100 / Alt Parlay",
+    "desc": "builds at the 10 AM window, not at 7 AM.",
+    "odds": "—",
+    "stake": "—",
+    "payout": "—",
+    "status": "—",
+    "game": "",
+    "legs": [],
+    "why": "Volume: n/a, game line | Hit: L10 n/a. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal single-game variance.",
+    "pick": "builds at the 10 AM window, not at 7 AM.",
+    "why_src": null,
+    "ctx": {
+     "game": null,
+     "team": null,
+     "opp": null,
+     "stat": null,
+     "out": null
+    },
+    "gameday": [
+     "Volume: n/a, game line | Hit: L10 n/a",
+     "Matchup: n/a",
+     "Context: game lines n/a",
+     "Injuries: n/a",
+     "Weather: n/a",
+     "Risk: Normal single-game variance"
+    ]
+   }
+  ],
   "runners_up": [],
   "ncaaf": [],
+  "sports": {
+   "NFL": {
+    "potd": {
+     "pick": "Aaron Jones Sr. Over 29.5 Rushing Yards",
+     "odds": "-115",
+     "game": "Lions vs Vikings 01:00 PM ET",
+     "status": "Pending",
+     "why": "Volume: n/a | Hit: 9/10 at line, 4/5. Matchup: DET 12/32 vs rush yds (99.2/g allowed, neutral). Context: DET -3.5 / O/U 45.5 (MIN TT 21.5) | Away. Injuries: MIN: none | DET: none. Weather: indoor, neutral. Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 9.0.",
+     "desc": "Aaron Jones Sr. Over 29.5 Rushing Yards -115 — Pending",
+     "why_not": null,
+     "why_src": "Grade A. Volume: n/a (L3 21.7 vs L10 19.8 touches+targets) | Hit: 9/10 at O29.5, 4/5 | Matchup: Opp 21/32 vs Rushing Yards (TR) | Context: MIN +3 / O/U 45.5 | - | Away · Div · Prime | Injuries: none | Opp out: Kerby Joseph, Isiah Pacheco | Weather: neutral | Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 9.0",
+     "ctx": {
+      "game": "Lions vs Vikings",
+      "team": "MIN",
+      "opp": "DET",
+      "stat": "rush_yds",
+      "opp_rank": {
+       "rank": 12,
+       "of": 32,
+       "pg": 99.2,
+       "gp": 6,
+       "scale": "N/of, higher = more allowed (LineMate order)"
+      },
+      "fav": "DET",
+      "spread": -3.5,
+      "total": 45.5,
+      "team_totals": {
+       "DET": 24.5,
+       "MIN": 21.5
+      },
+      "home": "DET",
+      "away": "MIN",
+      "rest": null,
+      "record": {
+       "DET": "4-2",
+       "MIN": "6-0"
+      },
+      "start_et": "Sun 11/01 01:00 PM ET",
+      "out": {
+       "DET": [],
+       "MIN": []
+      }
+     },
+     "gameday": [
+      "Volume: n/a | Hit: 9/10 at line, 4/5",
+      "Matchup: DET 12/32 vs rush yds (99.2/g allowed, neutral)",
+      "Context: DET -3.5 / O/U 45.5 (MIN TT 21.5) | Away",
+      "Injuries: MIN: none | DET: none",
+      "Weather: indoor, neutral",
+      "Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 9.0"
+     ],
+     "sport": "NFL",
+     "dk": {
+      "odds": "-114",
+      "na": false,
+      "ladder": [
+       [
+        "10+",
+        "-1360"
+       ],
+       [
+        "15+",
+        "-560"
+       ],
+       [
+        "20+",
+        "-291"
+       ],
+       [
+        "25+",
+        "-173"
+       ],
+       [
+        "30+",
+        "-114"
+       ],
+       [
+        "40+",
+        "+190"
+       ],
+       [
+        "50+",
+        "+362"
+       ],
+       [
+        "60+",
+        "+640"
+       ],
+       [
+        "70+",
+        "+1080"
+       ],
+       [
+        "80+",
+        "+1640"
+       ],
+       [
+        "90+",
+        "+2500"
+       ],
+       [
+        "100+",
+        "+3600"
+       ]
+      ]
+     },
+     "dk_odds": "-114"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+130",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +130 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "Trey McBride Over 6.5 Receptions",
+       "odds": "-230",
+       "game": "Cowboys vs Cardinals 01:00 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a | Hit: 9/10 at line, 5/5. Matchup: DAL 21/32 vs pass yds (228.0/g allowed, neutral). Context: DAL -7 / O/U 55 (ARI TT 23.5) | Away. Injuries: ARI: Tip Reiman (Out) | DAL: KaVontae Turpin (Out), George Pickens (Questionable), Luke Schoonmaker (Questionable). Weather: indoor, neutral. Risk: Normal variance at this line.",
+       "why_not": null,
+       "why_src": "Grade A. Volume: n/a (L3 11.3 vs L10 10.7 touches+targets) | Hit: 9/10 at O6.5, 5/5 | Matchup: Opp 20/32 vs Receptions (TR) | Context: ARI +7 / O/U 55 | - | Away · Prime | Injuries: Jon Gaines II, Walter Nolen III out | Opp out: Dee Winters, KaVontae Turpin | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": "Cowboys vs Cardinals",
+        "team": "ARI",
+        "opp": "DAL",
+        "stat": "pass_yds",
+        "opp_rank": {
+         "rank": 21,
+         "of": 32,
+         "pg": 228.0,
+         "gp": 7,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "DAL",
+        "spread": -7.0,
+        "total": 55.0,
+        "team_totals": {
+         "DAL": 31.5,
+         "ARI": 23.5
+        },
+        "home": "DAL",
+        "away": "ARI",
+        "rest": null,
+        "record": {
+         "DAL": "3-4",
+         "ARI": "2-5"
+        },
+        "start_et": "Sun 11/01 01:00 PM ET",
+        "out": {
+         "DAL": [
+          {
+           "name": "KaVontae Turpin",
+           "status": "Out",
+           "pos": "WR",
+           "date": "2026-10-31"
+          },
+          {
+           "name": "George Pickens",
+           "status": "Questionable",
+           "pos": "WR",
+           "date": "2026-10-30"
+          },
+          {
+           "name": "Luke Schoonmaker",
+           "status": "Questionable",
+           "pos": "TE",
+           "date": "2026-10-29"
+          }
+         ],
+         "ARI": [
+          {
+           "name": "Tip Reiman",
+           "status": "Out",
+           "pos": "TE",
+           "date": "2026-10-26"
+          }
+         ]
+        }
+       },
+       "gameday": [
+        "Volume: n/a | Hit: 9/10 at line, 5/5",
+        "Matchup: DAL 21/32 vs pass yds (228.0/g allowed, neutral)",
+        "Context: DAL -7 / O/U 55 (ARI TT 23.5) | Away",
+        "Injuries: ARI: Tip Reiman (Out) | DAL: KaVontae Turpin (Out), George Pickens (Questionable), Luke Schoonmaker (Questionable)",
+        "Weather: indoor, neutral",
+        "Risk: Normal variance at this line"
+       ],
+       "dk": {
+        "odds": "-225",
+        "na": false,
+        "ladder": [
+         [
+          "4+",
+          "-3300"
+         ],
+         [
+          "5+",
+          "-1020"
+         ],
+         [
+          "6+",
+          "-439"
+         ],
+         [
+          "7+",
+          "-225"
+         ],
+         [
+          "8+",
+          "-123"
+         ],
+         [
+          "9+",
+          "+135"
+         ],
+         [
+          "10+",
+          "+228"
+         ],
+         [
+          "11+",
+          "+376"
+         ],
+         [
+          "12+",
+          "+600"
+         ],
+         [
+          "13+",
+          "+960"
+         ],
+         [
+          "14+",
+          "+1500"
+         ],
+         [
+          "15+",
+          "+2100"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "J.K. Dobbins Over 24.5 Rushing Yards",
+       "odds": "-165",
+       "game": "Broncos vs Chiefs 04:25 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a | Hit: 9/10 at line, 4/5. Matchup: KC 13/32 vs rush yds (99.5/g allowed, neutral). Context: KC -1 / O/U 40.5 (DEN TT 20.5) | Home. Injuries: DEN: Jaylen Waddle (Questionable) | KC: none. Weather: 62°F, Intermittent clouds, wind 7 mph. Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 6.0.",
+       "why_not": null,
+       "why_src": "Grade A. Volume: n/a (L3 13 vs L10 15 touches+targets) | Hit: 9/10 at O24.5, 4/5 | Matchup: Opp 20/32 vs Rushing Yards (TR) | Context: DEN +1 / O/U 40.5 | - | Home · Div · Prime | Injuries: RJ Harvey, Talanoa Hufanga out | Opp out: Mansoor Delane, L'Jarius Sneed | Weather: neutral (61F, wind 7 mph) | Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 6.0",
+       "ctx": {
+        "game": "Broncos vs Chiefs",
+        "team": "DEN",
+        "opp": "KC",
+        "stat": "rush_yds",
+        "opp_rank": {
+         "rank": 13,
+         "of": 32,
+         "pg": 99.5,
+         "gp": 6,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "KC",
+        "spread": -1.0,
+        "total": 40.5,
+        "team_totals": {
+         "KC": 20.5,
+         "DEN": 20.5
+        },
+        "home": "DEN",
+        "away": "KC",
+        "rest": null,
+        "record": {
+         "DEN": "5-2",
+         "KC": "5-1"
+        },
+        "start_et": "Sun 11/01 04:25 PM ET",
+        "out": {
+         "DEN": [
+          {
+           "name": "Jaylen Waddle",
+           "status": "Questionable",
+           "pos": "WR",
+           "date": "2026-10-30"
+          }
+         ],
+         "KC": []
+        },
+        "weather": {
+         "text": "Intermittent clouds",
+         "temp": 62,
+         "wind_mph": 7,
+         "wind_dir": 13
+        }
+       },
+       "gameday": [
+        "Volume: n/a | Hit: 9/10 at line, 4/5",
+        "Matchup: KC 13/32 vs rush yds (99.5/g allowed, neutral)",
+        "Context: KC -1 / O/U 40.5 (DEN TT 20.5) | Home",
+        "Injuries: DEN: Jaylen Waddle (Questionable) | KC: none",
+        "Weather: 62°F, Intermittent clouds, wind 7 mph",
+        "Risk: possible in-game exit (not verifiable, not excluded): 2026-10-25 6.0"
+       ],
+       "dk": {
+        "odds": "-172",
+        "na": false,
+        "ladder": [
+         [
+          "10+",
+          "-990"
+         ],
+         [
+          "15+",
+          "-477"
+         ],
+         [
+          "20+",
+          "-274"
+         ],
+         [
+          "25+",
+          "-172"
+         ],
+         [
+          "30+",
+          "-116"
+         ],
+         [
+          "40+",
+          "+169"
+         ],
+         [
+          "50+",
+          "+300"
+         ],
+         [
+          "60+",
+          "+513"
+         ],
+         [
+          "70+",
+          "+800"
+         ],
+         [
+          "80+",
+          "+1220"
+         ],
+         [
+          "90+",
+          "+1760"
+         ],
+         [
+          "100+",
+          "+2400"
+         ],
+         [
+          "110+",
+          "+3500"
+         ]
+        ]
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NFL",
+     "dk_odds": "+128"
+    }
+   },
+   "NBA": {
+    "potd": {
+     "pick": "Brandin Podziemski Over 16.5 Points",
+     "odds": "-115",
+     "game": "Warriors vs Clippers 08:30 PM ET",
+     "status": "Pending",
+     "why": "Volume: n/a, game line | Hit: 8/10 at line, 4/5. Matchup: points rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Early-season sample: most of the last 10 come from 2025-26.",
+     "desc": "Brandin Podziemski Over 16.5 Points -115 — Pending",
+     "why_not": null,
+     "why_src": "Grade A-. Volume: L5 min 33/32/33/33/39 (L3 32.7 vs L10 32.2 min) | Hit: 8/10 at O16.5, 4/5 | Matchup: Opp 1/30 vs Points | Context: GS -2.5 / O/U 219.5 | pace n/a | Home · Div | Injuries: Draymond Green, Stephen Curry out (w/o Stephen Curry: 6/7) | Opp out: Yanic Konan Niederhauser, Max Strus | Weather: neutral | Risk: Early-season sample: most of the last 10 come from 2025-26.",
+     "ctx": {
+      "game": null,
+      "team": null,
+      "opp": null,
+      "stat": "pts",
+      "out": null
+     },
+     "gameday": [
+      "Volume: n/a, game line | Hit: 8/10 at line, 4/5",
+      "Matchup: points rank n/a",
+      "Context: game lines n/a",
+      "Injuries: n/a",
+      "Weather: n/a",
+      "Risk: Early-season sample: most of the last 10 come from 2025-26"
+     ],
+     "sport": "NBA",
+     "dk": {
+      "odds": "-102",
+      "na": false,
+      "ladder": [
+       [
+        "8+",
+        "-1700"
+       ],
+       [
+        "10+",
+        "-740"
+       ],
+       [
+        "12+",
+        "-377"
+       ],
+       [
+        "15+",
+        "-168"
+       ],
+       [
+        "17+",
+        "-102"
+       ],
+       [
+        "18+",
+        "+122"
+       ],
+       [
+        "20+",
+        "+190"
+       ],
+       [
+        "25+",
+        "+576"
+       ],
+       [
+        "30+",
+        "+1560"
+       ]
+      ]
+     },
+     "dk_odds": "-102"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+113",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +113 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "Franz Wagner Over 4.5 Rebounds",
+       "odds": "-260",
+       "game": "Magic vs Celtics 03:30 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a, game line | Hit: 9/10 at line, 4/5. Matchup: rebounds rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+       "why_not": null,
+       "why_src": "Grade A. Volume: L5 min 39/34/37/33/29 (L3 35 vs L10 30.4 min) | Hit: 9/10 at O4.5, 4/5 | Matchup: Opp 3/30 vs Rebounds | Context: ORL +7.5 / O/U 222.5 | opp pace 99.5 (19th) | Home | Injuries: Jonathan Isaac, Jalen Suggs out | Opp out: Devin Carter | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": null,
+        "team": null,
+        "opp": null,
+        "stat": "reb",
+        "out": null
+       },
+       "gameday": [
+        "Volume: n/a, game line | Hit: 9/10 at line, 4/5",
+        "Matchup: rebounds rank n/a",
+        "Context: game lines n/a",
+        "Injuries: n/a",
+        "Weather: n/a",
+        "Risk: Normal variance at this line"
+       ],
+       "dk": {
+        "odds": "-295",
+        "na": false,
+        "ladder": [
+         [
+          "3+",
+          "-1980"
+         ],
+         [
+          "4+",
+          "-670"
+         ],
+         [
+          "5+",
+          "-295"
+         ],
+         [
+          "6+",
+          "-152"
+         ],
+         [
+          "7+",
+          "+119"
+         ],
+         [
+          "8+",
+          "+207"
+         ],
+         [
+          "9+",
+          "+361"
+         ],
+         [
+          "10+",
+          "+610"
+         ],
+         [
+          "11+",
+          "+1020"
+         ],
+         [
+          "12+",
+          "+1660"
+         ],
+         [
+          "13+",
+          "+2400"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "Andrew Nembhard Over 8.5 Assists",
+       "odds": "-185",
+       "game": "Pacers vs Nets 05:00 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a, game line | Hit: 7/10 at line, 3/5. Matchup: assists rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+       "why_not": null,
+       "why_src": "Grade B. Volume: L5 min 30/35/30/32/34 (L3 33.7 vs L10 31.5 min) | Hit: 7/10 at O8.5, 3/5 | Matchup: Opp 3/30 vs Assists | Context: IND -3.5 / O/U 230.5 | opp pace 102.3 (7th) | Home | Injuries: Ivica Zubac, T.J. McConnell out | Opp out: Mikel Brown Jr., Egor Demin | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": null,
+        "team": null,
+        "opp": null,
+        "stat": "ast",
+        "out": null
+       },
+       "gameday": [
+        "Volume: n/a, game line | Hit: 7/10 at line, 3/5",
+        "Matchup: assists rank n/a",
+        "Context: game lines n/a",
+        "Injuries: n/a",
+        "Weather: n/a",
+        "Risk: Normal variance at this line"
+       ],
+       "dk": {
+        "odds": "-183",
+        "na": false,
+        "ladder": [
+         [
+          "5+",
+          "-2900"
+         ],
+         [
+          "6+",
+          "-1160"
+         ],
+         [
+          "7+",
+          "-572"
+         ],
+         [
+          "8+",
+          "-316"
+         ],
+         [
+          "9+",
+          "-183"
+         ],
+         [
+          "10+",
+          "-111"
+         ],
+         [
+          "11+",
+          "+147"
+         ],
+         [
+          "12+",
+          "+237"
+         ],
+         [
+          "13+",
+          "+381"
+         ],
+         [
+          "14+",
+          "+620"
+         ],
+         [
+          "15+",
+          "+970"
+         ],
+         [
+          "16+",
+          "+1520"
+         ],
+         [
+          "17+",
+          "+2200"
+         ],
+         [
+          "18+",
+          "+2900"
+         ]
+        ]
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NBA",
+     "dk_odds": "+107"
+    }
+   },
+   "NHL": {
+    "potd": {
+     "pick": "Trevor Zegras Over 0.5 Points",
+     "odds": "-120",
+     "game": "Flyers vs. Mammoth 04:00 PM ET",
+     "status": "Pending",
+     "why": "Volume: TOI 18.7 season avg | Hit: 7/10 at line, 5/5. Matchup: UTA 21/32 vs goals (3.3/g allowed, neutral). Context: UTA -1.5 / O/U 6.5 (PHI TT 2.5) | Home. Injuries: PHI: Rasmus Ristolainen (Injured Reserve), Owen Tippett (Injured Reserve), Travis Konecny (Injured Reserve) | UTA: John Marino (Out). Weather: indoor, neutral. Risk: Normal variance at this line.",
+     "desc": "Trevor Zegras Over 0.5 Points -120 — Pending",
+     "why_not": null,
+     "why_src": "Grade B. Volume: L5 TOI 19.1 avg (L3 19.1 vs L10 18.5 TOI) | Hit: 7/10 at O0.5, 5/5 | Matchup: Opp 12/32 vs Points (NHL API) | Context: PHI +1.5 / O/U 5.5 | - | Home | Injuries: Rasmus Ristolainen, Owen Tippett out (w/o Owen Tippett: 8/8) | Opp out: John Marino, Michael Carcone | Weather: neutral | Risk: Normal variance at this line.",
+     "ctx": {
+      "game": "Flyers vs. Mammoth",
+      "team": "PHI",
+      "opp": "UTA",
+      "stat": "ga",
+      "opp_rank": {
+       "rank": 21,
+       "of": 32,
+       "pg": 3.3,
+       "gp": 14,
+       "scale": "N/of, higher = more allowed (LineMate order)"
+      },
+      "fav": "UTA",
+      "spread": -1.5,
+      "total": 6.5,
+      "team_totals": {
+       "UTA": 3.5,
+       "PHI": 2.5
+      },
+      "home": "PHI",
+      "away": "UTA",
+      "rest": {
+       "PHI": 3,
+       "UTA": 2
+      },
+      "record": {
+       "PHI": "3-8-4",
+       "UTA": "9-5-0"
+      },
+      "start_et": "Sun 11/01 04:00 PM ET",
+      "out": {
+       "PHI": [
+        {
+         "name": "Rasmus Ristolainen",
+         "status": "Injured Reserve",
+         "pos": "D",
+         "date": "2026-10-27",
+         "role": "17.4 TOI"
+        },
+        {
+         "name": "Owen Tippett",
+         "status": "Injured Reserve",
+         "pos": "RW",
+         "date": "2026-10-19",
+         "role": "16.4 TOI"
+        },
+        {
+         "name": "Travis Konecny",
+         "status": "Injured Reserve",
+         "pos": "RW",
+         "date": "2026-10-11",
+         "role": "16.8 TOI"
+        }
+       ],
+       "UTA": [
+        {
+         "name": "John Marino",
+         "status": "Out",
+         "pos": "D",
+         "date": "2026-10-24",
+         "role": "20.4 TOI"
+        }
+       ]
+      }
+     },
+     "gameday": [
+      "Volume: TOI 18.7 season avg | Hit: 7/10 at line, 5/5",
+      "Matchup: UTA 21/32 vs goals (3.3/g allowed, neutral)",
+      "Context: UTA -1.5 / O/U 6.5 (PHI TT 2.5) | Home",
+      "Injuries: PHI: Rasmus Ristolainen (Injured Reserve), Owen Tippett (Injured Reserve), Travis Konecny (Injured Reserve) | UTA: John Marino (Out)",
+      "Weather: indoor, neutral",
+      "Risk: Normal variance at this line"
+     ],
+     "sport": "NHL",
+     "dk": {
+      "odds": "-115",
+      "na": false,
+      "ladder": [
+       [
+        "1+",
+        "-115"
+       ],
+       [
+        "2+",
+        "+425"
+       ]
+      ]
+     },
+     "dk_odds": "-115"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+136",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +136 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "Alexis Lafreniere Over 0.5 Points",
+       "odds": "-160",
+       "game": "Rangers vs. Oilers 06:00 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a | Hit: 9/10 at line, 4/5. Matchup: EDM 10/32 vs goals (3.0/g allowed, unfavorable). Context: NYR -1.5 / O/U 6.5 (NYR TT 3.5) | Home. Injuries: NYR: Braden Schneider (Day-To-Day), Sean Durzi (Day-To-Day), Igor Shesterkin (Injured Reserve) | EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve). Weather: indoor, neutral. Risk: Tough matchup: EDM 10/32 vs goals.",
+       "why_not": "without-Joe Veleno split sample 4 (<5)",
+       "why_src": "Grade A. Volume: L5 TOI 19.5 avg (L3 19.2 vs L10 19.3 TOI) | Hit: 9/10 at O0.5, 4/5 | Matchup: Opp 19/32 vs Points (NHL API) | Context: NYR -1.5 / O/U 6.5 | - | Home | Injuries: Igor Shesterkin, Joe Veleno out (w/o Joe Veleno: 4/4) | Opp out: Isaac Howard, Zach Hyman | Weather: neutral | Risk: without-Joe Veleno split sample 4 (<5)",
+       "ctx": {
+        "game": "Rangers vs. Oilers",
+        "team": "NYR",
+        "opp": "EDM",
+        "stat": "ga",
+        "opp_rank": {
+         "rank": 10,
+         "of": 32,
+         "pg": 3.0,
+         "gp": 14,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "NYR",
+        "spread": -1.5,
+        "total": 6.5,
+        "team_totals": {
+         "EDM": 3.5,
+         "NYR": 3.5
+        },
+        "home": "NYR",
+        "away": "EDM",
+        "rest": {
+         "NYR": 4,
+         "EDM": 0
+        },
+        "record": {
+         "NYR": "7-6-1",
+         "EDM": "10-2-2"
+        },
+        "start_et": "Sun 11/01 06:00 PM ET",
+        "out": {
+         "NYR": [
+          {
+           "name": "Braden Schneider",
+           "status": "Day-To-Day",
+           "pos": "D",
+           "date": "2026-10-31",
+           "role": "17.5 TOI"
+          },
+          {
+           "name": "Sean Durzi",
+           "status": "Day-To-Day",
+           "pos": "D",
+           "date": "2026-10-31",
+           "role": "19.9 TOI"
+          },
+          {
+           "name": "Igor Shesterkin",
+           "status": "Injured Reserve",
+           "pos": "G",
+           "date": "2026-10-11"
+          },
+          {
+           "name": "Joonas Korpisalo",
+           "status": "Injured Reserve",
+           "pos": "G",
+           "date": "2026-10-10"
+          }
+         ],
+         "EDM": [
+          {
+           "name": "Zach Hyman",
+           "status": "Injured Reserve",
+           "pos": "LW",
+           "date": "2026-10-28",
+           "role": "17.9 TOI"
+          },
+          {
+           "name": "Devon Levi",
+           "status": "Injured Reserve",
+           "pos": "G",
+           "date": "2026-10-24"
+          },
+          {
+           "name": "Frederik Andersen",
+           "status": "Injured Reserve",
+           "pos": "G",
+           "date": "2026-09-29"
+          }
+         ]
+        }
+       },
+       "gameday": [
+        "Volume: n/a | Hit: 9/10 at line, 4/5",
+        "Matchup: EDM 10/32 vs goals (3.0/g allowed, unfavorable)",
+        "Context: NYR -1.5 / O/U 6.5 (NYR TT 3.5) | Home",
+        "Injuries: NYR: Braden Schneider (Day-To-Day), Sean Durzi (Day-To-Day), Igor Shesterkin (Injured Reserve) | EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve)",
+        "Weather: indoor, neutral",
+        "Risk: Tough matchup: EDM 10/32 vs goals"
+       ],
+       "dk": {
+        "odds": "-160",
+        "na": false,
+        "ladder": [
+         [
+          "1+",
+          "-160"
+         ],
+         [
+          "2+",
+          "+295"
+         ],
+         [
+          "3+",
+          "+1100"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "Kirill Kaprizov Over 2.5 Shots On Goal",
+       "odds": "-220",
+       "game": "Capitals vs. Wild 03:30 PM ET",
+       "status": "Pending",
+       "why": "Volume: TOI 21.7 season avg | Hit: 9/10 at line, 4/5. Matchup: WSH 21/32 vs SOG (28.1/g allowed, neutral). Context: WSH -1.5 / O/U 6.5 (MIN TT 2.5) | Away. Injuries: MIN: Jared Spurgeon (Injured Reserve), Filip Gustavsson (Injured Reserve) | WSH: Vincent Desharnais (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
+       "why_not": null,
+       "why_src": "Grade A. Volume: L5 TOI 22.2 avg (L3 23.8 vs L10 21.9 TOI) | Hit: 9/10 at O2.5, 4/5 | Matchup: Opp 12/32 vs Shots On Goal (NHL API) | Context: MIN +1.5 / O/U 6.5 | - | Away | Injuries: Jared Spurgeon, Brock Faber out | Opp out: Vincent Desharnais, Rasmus Sandin | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": "Capitals vs. Wild",
+        "team": "MIN",
+        "opp": "WSH",
+        "stat": "sog",
+        "opp_rank": {
+         "rank": 21,
+         "of": 32,
+         "pg": 28.1,
+         "gp": 12,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "WSH",
+        "spread": -1.5,
+        "total": 6.5,
+        "team_totals": {
+         "WSH": 3.5,
+         "MIN": 2.5
+        },
+        "home": "WSH",
+        "away": "MIN",
+        "rest": {
+         "WSH": 2,
+         "MIN": 2
+        },
+        "record": {
+         "WSH": "8-4-0",
+         "MIN": "9-3-3"
+        },
+        "start_et": "Sun 11/01 03:30 PM ET",
+        "out": {
+         "WSH": [
+          {
+           "name": "Vincent Desharnais",
+           "status": "Injured Reserve",
+           "pos": "D",
+           "date": "2026-10-23",
+           "role": "19.4 TOI"
+          }
+         ],
+         "MIN": [
+          {
+           "name": "Jared Spurgeon",
+           "status": "Injured Reserve",
+           "pos": "D",
+           "date": "2026-10-29",
+           "role": "20.5 TOI"
+          },
+          {
+           "name": "Filip Gustavsson",
+           "status": "Injured Reserve",
+           "pos": "G",
+           "date": "2026-10-18"
+          }
+         ]
+        }
+       },
+       "gameday": [
+        "Volume: TOI 21.7 season avg | Hit: 9/10 at line, 4/5",
+        "Matchup: WSH 21/32 vs SOG (28.1/g allowed, neutral)",
+        "Context: WSH -1.5 / O/U 6.5 (MIN TT 2.5) | Away",
+        "Injuries: MIN: Jared Spurgeon (Injured Reserve), Filip Gustavsson (Injured Reserve) | WSH: Vincent Desharnais (Injured Reserve)",
+        "Weather: indoor, neutral",
+        "Risk: Normal variance at this line"
+       ],
+       "dk": {
+        "odds": "-210",
+        "na": false,
+        "ladder": [
+         [
+          "1+",
+          "-4000"
+         ],
+         [
+          "2+",
+          "-650"
+         ],
+         [
+          "3+",
+          "-210"
+         ],
+         [
+          "4+",
+          "+115"
+         ],
+         [
+          "5+",
+          "+240"
+         ],
+         [
+          "6+",
+          "+500"
+         ],
+         [
+          "7+",
+          "+1000"
+         ]
+        ]
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NHL",
+     "dk_odds": "+140"
+    }
+   },
+   "WNBA": {
+    "potd": null,
+    "parlay": null
+   },
+   "MLB": {
+    "potd": null,
+    "parlay": null
+   },
+   "NCAA F": {
+    "potd": null,
+    "parlay": null
+   },
+   "NASCAR": {
+    "potd": null,
+    "parlay": null
+   },
+   "ALL": {
+    "potd": {
+     "pick": "Jayson Tatum Over 6.5 Assists",
+     "odds": "-135",
+     "game": "Magic vs Celtics",
+     "status": "Pending",
+     "why": "Volume: n/a, game line | Hit: 7/10 at line, 4/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: n/a.",
+     "desc": "Jayson Tatum Over 6.5 Assists -135 (Magic vs Celtics) — Pending",
+     "why_not": null,
+     "why_src": "Volume: L5 min 35/42/28/37/38 (L3 36.7 vs L10 37.4 min) | Hit: 7/10 at O6.5, 4/5 | Matchup: Opp 1/30 vs Assists | Context: BOS -7.5 / O/U 222.5 | opp pace 100.3 (14th) | Away | Injuries: Devin Carter out | Opp out: Jonathan Isaac, Jalen Suggs | Weather: neutral | Risk: n/a",
+     "ctx": {
+      "game": null,
+      "team": null,
+      "opp": null,
+      "stat": null,
+      "out": null
+     },
+     "gameday": [
+      "Volume: n/a, game line | Hit: 7/10 at line, 4/5",
+      "Matchup: n/a",
+      "Context: game lines n/a",
+      "Injuries: n/a",
+      "Weather: n/a",
+      "Risk: n/a"
+     ],
+     "sport": null,
+     "dk": {
+      "odds": null,
+      "na": true
+     },
+     "dk_odds": null
+    },
+    "parlay": null
+   }
+  },
   "date": "2026-11-01"
  },
  "results": {
@@ -1720,7 +2963,7 @@
     "p": 0,
     "pct": 37
    },
-   "pending": 13
+   "pending": 21
   },
   "props": [
    {
@@ -4321,6 +5564,62 @@
     "odds": "+210",
     "result": "L",
     "detail": "Loss (BUF 33-30 LV)"
+   },
+   {
+    "date": "2026-11-01",
+    "pick": "NHL · Parlay: 2-leg",
+    "odds": "+136",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-01",
+    "pick": "NHL · POTD: Trevor Zegras Over 0.5 Points",
+    "odds": "-120",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-01",
+    "pick": "NBA · Parlay: 2-leg",
+    "odds": "+113",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-01",
+    "pick": "NBA · POTD: Brandin Podziemski Over 16.5 Points",
+    "odds": "-115",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-01",
+    "pick": "NFL · Parlay: 2-leg",
+    "odds": "+130",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-01",
+    "pick": "NFL · POTD: Aaron Jones Sr. Over 29.5 Rushing Yards",
+    "odds": "-115",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-01",
+    "pick": "BIG 4 · Parlay: 2-leg",
+    "odds": "+136",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-01",
+    "pick": "NHL · POTD: Kirill Kaprizov Over 0.5 Assists",
+    "odds": "-115",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-10-31",
@@ -8202,7 +9501,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 07:19 AM ET",
+  "updated": "2026-11-01 07:21 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -11095,7 +12394,7 @@
     "w": 36,
     "l": 41,
     "p": 1,
-    "pending": 2,
+    "pending": 5,
     "units": -6.62
    }
   },
@@ -11117,7 +12416,7 @@
     "w": 21,
     "l": 24,
     "p": 0,
-    "pending": 11,
+    "pending": 13,
     "units": -9.09
    }
   },
@@ -11139,7 +12438,7 @@
     "w": 58,
     "l": 53,
     "p": 4,
-    "pending": 4,
+    "pending": 6,
     "units": -11.67
    }
   },
@@ -11249,7 +12548,7 @@
     "w": 7,
     "l": 17,
     "p": 0,
-    "pending": 0,
+    "pending": 1,
     "units": -9.09
    }
   }
@@ -22041,6 +23340,86 @@
    "stat": ""
   },
   {
+   "date": "2026-11-01",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL assists",
+   "pick": "Kirill Kaprizov Over 0.5 Assists",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-01",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "Big 4 parlay",
+   "pick": "2-leg",
+   "odds": "+136",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-01",
+   "sport": "NFL",
+   "type": "POTD",
+   "prop": "NFL rushing yards",
+   "pick": "Aaron Jones Sr. Over 29.5 Rushing Yards",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-01",
+   "sport": "NFL",
+   "type": "Parlay",
+   "prop": "NFL parlay",
+   "pick": "2-leg",
+   "odds": "+130",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-01",
+   "sport": "NBA",
+   "type": "POTD",
+   "prop": "NBA points",
+   "pick": "Brandin Podziemski Over 16.5 Points",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-01",
+   "sport": "NBA",
+   "type": "Parlay",
+   "prop": "NBA parlay",
+   "pick": "2-leg",
+   "odds": "+113",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-01",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL points",
+   "pick": "Trevor Zegras Over 0.5 Points",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-01",
+   "sport": "NHL",
+   "type": "Parlay",
+   "prop": "NHL parlay",
+   "pick": "2-leg",
+   "odds": "+136",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
    "date": "2026-10-18",
    "sport": "NFL",
    "type": "Edge",
@@ -30432,6 +31811,134 @@
     "alt": false,
     "fam": "Parlay",
     "uu": 1.23
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NHL assists",
+    "pick": "Kirill Kaprizov Over 0.5 Assists",
+    "odds": "-115",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Assists"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "Big 4 parlay",
+    "pick": "2-leg",
+    "odds": "+136",
+    "res": "",
+    "stat": "—",
+    "sub": "Connor McDavid Over 0.5 Assists + Joel Eriksson Ek Over 2.5 Shots On Goal",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NFL rushing yards",
+    "pick": "Aaron Jones Sr. Over 29.5 Rushing Yards",
+    "odds": "-115",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Rushing yds"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NFL parlay",
+    "pick": "2-leg",
+    "odds": "+130",
+    "res": "",
+    "stat": "—",
+    "sub": "Trey McBride Over 6.5 Receptions + J.K. Dobbins Over 24.5 Rushing Yards",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NBA points",
+    "pick": "Brandin Podziemski Over 16.5 Points",
+    "odds": "-115",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NBA parlay",
+    "pick": "2-leg",
+    "odds": "+113",
+    "res": "",
+    "stat": "—",
+    "sub": "Franz Wagner Over 4.5 Rebounds + Andrew Nembhard Over 8.5 Assists",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NHL points",
+    "pick": "Trevor Zegras Over 0.5 Points",
+    "odds": "-120",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NHL parlay",
+    "pick": "2-leg",
+    "odds": "+136",
+    "res": "",
+    "stat": "—",
+    "sub": "Alexis Lafreniere Over 0.5 Points + Kirill Kaprizov Over 2.5 Shots On Goal",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay"
    },
    {
     "date": "2026-10-18",
@@ -47515,7 +49022,7 @@
      "w": 129,
      "l": 123,
      "p": 6,
-     "pending": 16,
+     "pending": 24,
      "units": -19.1
     },
     "legs": {
@@ -47730,7 +49237,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 07:19",
+    "priced": "2026-11-01 07:21",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -47863,19 +49370,21 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 07:20 ET",
-  "picks": 47,
+  "built": "2026-11-01 07:21 ET",
+  "picks": 60,
   "vetoes": [],
-  "gaps": []
+  "gaps": [
+   "POTD Kirill Kaprizov Over 0.5 Assists: AttributeError 'NoneType' object has no attribute 'get'"
+  ]
  },
  "dk": {
-  "fetched": "2026-11-01 07:19 ET",
-  "snapshots": 1,
+  "fetched": "2026-11-01 07:21 ET",
+  "snapshots": 2,
   "pregame_games": 67,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 36,
-   "priced": 22,
+   "legs": 48,
+   "priced": 31,
    "na": [
     "MarShawn Lloyd (RB) anytime TD",
     "HEIST Villanova/ND u147.5",
@@ -47890,7 +49399,10 @@
     "LEG DAY Tony Pollard Under 13.5 Receiving Yards",
     "LEG DAY Rachaad White Under 11.5 Rush Attempts",
     "LEG DAY Michael Mayer Over 26.5 Receiving Yards",
-    "LEG DAY Bucky Irving Under 16.5 Receiving Yards"
+    "LEG DAY Bucky Irving Under 16.5 Receiving Yards",
+    "Jayson Tatum Over 6.5 Assists",
+    "Connor McDavid Over 0.5 Assists",
+    "Joel Eriksson Ek Over 2.5 Shots On Goal"
    ]
   }
  }
