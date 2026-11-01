@@ -1,5 +1,5 @@
 {
- "generated": 1793538108.3165073,
+ "generated": 1793539447.6837296,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -9377,7 +9377,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 08:01 AM ET",
+  "updated": "2026-11-01 08:24 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12128,7 +12128,7 @@
    }
   }
  },
- "ui_build": "1793502538",
+ "ui_build": "1793538881",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -15018,113 +15018,113 @@
   ]
  },
  "nascar_proj": {
-  "title": "Last race · pre-race Top 10 projection · YellaWood 500 (Talladega, Sun Oct 25, 2:00 PM ET)",
-  "note": "This race ran Sun Oct 25. The list below is the pre-race projection, kept for reference; the next race's projection posts once Hard Rock lists its lines. Built off Hard Rock lines seen 2026-10-25 09:05 ET (Top 10 / Top 5 / Winner) and the official qualifying lineup (Briscoe pole). Talladega is pack racing; finishes are close to random, so treat this as a ranking, not a pick. No practice was held. Not graded.",
+  "title": "Top 10 projected finish · Xfinity 500 (Martinsville, Sun 2:00 PM ET)",
+  "note": "Built off Hard Rock lines fetched 2026-11-01 08:15 ET (Top 10 / Top 5 / Winner) and the official lineup (Denny Hamlin pole) via nascar_model.py. A ranking, not a pick. Not graded.",
   "locked": true,
-  "locked_at": "2026-10-25 09:07 EDT lines",
+  "locked_at": "2026-11-01 08:17 EST lines",
+  "race_id": 5632,
   "rows": [
    {
     "rank": 1,
-    "driver": "Chase Briscoe",
+    "driver": "Denny Hamlin",
     "score": 97,
-    "top10_odds": "-105",
-    "top5_odds": "+260",
+    "top10_odds": "-1000",
+    "top5_odds": "-300",
     "start": 1,
-    "why": "Hard Rock Top 10 -105 (no-vig 39%), Top 5 +260, win +1200. Talladega Next Gen (9 starts): 1 wins, 2 top-5s, 3 top-10s, avg finish 16.8; last 3: 29 (2026-04), 1 (2025-11), 15 (2025-04). Starts P1 (186.065 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
+    "why": "Hard Rock Top 10 -1000 (no-vig 69%), Top 5 -300, win +225. Model expected finish 8.38 (model rank 1): qualified P1, practice P6, Martinsville Next Gen avg finish 11.1 (8 starts), short-track avg 9.7, last 5 avg 12.0. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 2,
-    "driver": "Christopher Bell",
-    "score": 87,
-    "top10_odds": "+115",
-    "top5_odds": "+300",
-    "start": 6,
-    "why": "Hard Rock Top 10 +115 (no-vig 36%), Top 5 +300, win +1400. Talladega Next Gen (9 starts): 0 wins, 0 top-5s, 3 top-10s, avg finish 18.3; last 3: 17 (2026-04), 8 (2025-11), 35 (2025-04). Starts P6 (185.549 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "driver": "Ryan Blaney",
+    "score": 86,
+    "top10_odds": "-350",
+    "top5_odds": "-125",
+    "start": 13,
+    "why": "Hard Rock Top 10 -350 (no-vig 59%), Top 5 -125, win +550. Model expected finish 9.77 (model rank 2): qualified P13, practice P12, Martinsville Next Gen avg finish 4.6 (8 starts), short-track avg 8.5, last 5 avg 10.6. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 3,
-    "driver": "Ryan Blaney",
-    "score": 87,
-    "top10_odds": "-125",
-    "top5_odds": "+220",
-    "start": 27,
-    "why": "Hard Rock Top 10 -125 (no-vig 43%), Top 5 +220, win +1000. Talladega Next Gen (9 starts): 1 wins, 3 top-5s, 3 top-10s, avg finish 19.1; last 3: 37 (2026-04), 23 (2025-11), 37 (2025-04). Starts P27 (184.026 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
+    "driver": "Joey Logano",
+    "score": 80,
+    "top10_odds": "-230",
+    "top5_odds": "+125",
+    "start": 5,
+    "why": "Hard Rock Top 10 -230 (no-vig 53%), Top 5 +125, win +850. Model expected finish 10.06 (model rank 3): qualified P5, practice P13, Martinsville Next Gen avg finish 5.5 (8 starts), short-track avg 8.5, last 5 avg 15.8. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 4,
-    "driver": "William Byron",
-    "score": 86,
-    "top10_odds": "+130",
-    "top5_odds": "+325",
-    "start": 17,
-    "why": "Hard Rock Top 10 +130 (no-vig 33%), Top 5 +325, win +1600. Talladega Next Gen (9 starts): 0 wins, 3 top-5s, 5 top-10s, avg finish 12.1; last 3: 35 (2026-04), 25 (2025-11), 3 (2025-04). Starts P17 (184.683 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "driver": "Kyle Larson",
+    "score": 79,
+    "top10_odds": "-230",
+    "top5_odds": "+125",
+    "start": 3,
+    "why": "Hard Rock Top 10 -230 (no-vig 53%), Top 5 +125, win +850. Model expected finish 10.38 (model rank 4): qualified P3, practice P29, Martinsville Next Gen avg finish 6.2 (8 starts), short-track avg 10.3, last 5 avg 8.8. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 5,
-    "driver": "Chase Elliott",
-    "score": 84,
-    "top10_odds": "+130",
-    "top5_odds": "+325",
-    "start": 18,
-    "why": "Hard Rock Top 10 +130 (no-vig 33%), Top 5 +325, win +1600. Talladega Next Gen (9 starts): 1 wins, 3 top-5s, 5 top-10s, avg finish 13.3; last 3: 4 (2026-04), 40 (2025-11), 5 (2025-04). Starts P18 (184.644 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "driver": "Ty Gibbs",
+    "score": 75,
+    "top10_odds": "-210",
+    "top5_odds": "+130",
+    "start": 2,
+    "why": "Hard Rock Top 10 -210 (no-vig 52%), Top 5 +130, win +1000. Model expected finish 11.75 (model rank 7): qualified P2, practice P4, Martinsville Next Gen avg finish 16.6 (7 starts), short-track avg 11.5, last 5 avg 19.0. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 6,
-    "driver": "Denny Hamlin",
-    "score": 84,
-    "top10_odds": "+130",
-    "top5_odds": "+325",
+    "driver": "Chase Elliott",
+    "score": 74,
+    "top10_odds": "-160",
+    "top5_odds": "+190",
     "start": 9,
-    "why": "Hard Rock Top 10 +130 (no-vig 33%), Top 5 +325, win +1200. Talladega Next Gen (9 starts): 0 wins, 2 top-5s, 3 top-10s, avg finish 16.7; last 3: 15 (2026-04), 24 (2025-11), 21 (2025-04). Starts P9 (185.101 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "why": "Hard Rock Top 10 -160 (no-vig 47%), Top 5 +190, win +1400. Model expected finish 10.42 (model rank 5): qualified P9, practice P8, Martinsville Next Gen avg finish 6.2 (8 starts), short-track avg 14.8, last 5 avg 13.2. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 7,
-    "driver": "Carson Hocevar",
-    "score": 80,
-    "top10_odds": "+130",
-    "top5_odds": "+325",
-    "start": 26,
-    "why": "Hard Rock Top 10 +130 (no-vig 33%), Top 5 +325, win +1600. Talladega Next Gen (6 starts): 1 wins, 1 top-5s, 3 top-10s, avg finish 13.2; last 3: 1 (2026-04), 6 (2025-11), 6 (2025-04). Starts P26 (184.211 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "driver": "Christopher Bell",
+    "score": 70,
+    "top10_odds": "-185",
+    "top5_odds": "+180",
+    "start": 14,
+    "why": "Hard Rock Top 10 -185 (no-vig 50%), Top 5 +180, win +1200. Model expected finish 12.78 (model rank 10): qualified P14, practice P10, Martinsville Next Gen avg finish 14.5 (8 starts), short-track avg 9.2, last 5 avg 14.0. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 8,
-    "driver": "Chris Buescher",
-    "score": 80,
-    "top10_odds": "+130",
-    "top5_odds": "+325",
-    "start": 5,
-    "why": "Hard Rock Top 10 +130 (no-vig 33%), Top 5 +325, win +1600. Talladega Next Gen (9 starts): 0 wins, 2 top-5s, 2 top-10s, avg finish 21.4; last 3: 2 (2026-04), 30 (2025-11), 34 (2025-04). Starts P5 (185.607 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "driver": "Ryan Preece",
+    "score": 69,
+    "top10_odds": "-120",
+    "top5_odds": "+275",
+    "start": 6,
+    "why": "Hard Rock Top 10 -120 (no-vig 42%), Top 5 +275, win +2250. Model expected finish 10.9 (model rank 6): qualified P6, practice P1, Martinsville Next Gen avg finish 11.9 (7 starts), short-track avg 14.2, last 5 avg 16.8. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 9,
-    "driver": "Kyle Larson",
-    "score": 80,
-    "top10_odds": "+140",
-    "top5_odds": "+350",
-    "start": 10,
-    "why": "Hard Rock Top 10 +140 (no-vig 32%), Top 5 +350, win +1750. Talladega Next Gen (9 starts): 0 wins, 3 top-5s, 3 top-10s, avg finish 18.1; last 3: 40 (2026-04), 26 (2025-11), 2 (2025-04). Starts P10 (184.822 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "driver": "Chase Briscoe",
+    "score": 67,
+    "top10_odds": "-145",
+    "top5_odds": "+210",
+    "start": 11,
+    "why": "Hard Rock Top 10 -145 (no-vig 45%), Top 5 +210, win +1600. Model expected finish 12.6 (model rank 8): qualified P11, practice P19, Martinsville Next Gen avg finish 12.9 (8 starts), short-track avg 14.3, last 5 avg 9.4. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    },
    {
     "rank": 10,
-    "driver": "Joey Logano",
-    "score": 76,
-    "top10_odds": "-110",
-    "top5_odds": "+240",
-    "start": 16,
-    "why": "Hard Rock Top 10 -110 (no-vig 40%), Top 5 +240, win +1100. Talladega Next Gen (9 starts): 0 wins, 0 top-5s, 0 top-10s, avg finish 28.8; last 3: 39 (2026-04), 16 (2025-11), 39 (2025-04). Starts P16 (184.694 mph, official qualifying). Score = 60% market Top-10 probability, 25% Talladega history, 15% starting spot, scaled so the top driver is 97.",
-    "why_not": "Hard Rock prices this close to a coin flip, so it can easily miss."
+    "driver": "William Byron",
+    "score": 66,
+    "top10_odds": "-145",
+    "top5_odds": "+210",
+    "start": 8,
+    "why": "Hard Rock Top 10 -145 (no-vig 45%), Top 5 +210, win +1600. Model expected finish 13.15 (model rank 11): qualified P8, practice P22, Martinsville Next Gen avg finish 9.0 (8 starts), short-track avg 13.0, last 5 avg 15.0. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
+    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
    }
-  ],
-  "stale": true
+  ]
  },
  "live_top_lines": {},
  "home_field": [],
@@ -21017,6 +21017,32 @@
    "updated": "2026-11-01 08:01 ET",
    "confirmed": false
   }
+ },
+ "nascar_scout": {
+  "generated_at_et": "2026-11-01 08:17 AM ET",
+  "race": {
+   "race_id": 5632,
+   "name": "Xfinity 500",
+   "track": "Martinsville Speedway",
+   "track_type": "short",
+   "race_date": "2026-11-01T14:00:00"
+  },
+  "qual_run": "Xfinity 500 Busch Pole Qualifying",
+  "practice_run": "NCS Final Practice",
+  "hard_rock_fetched": "2026-11-01 08:15 ET",
+  "model": "nascar_model.py: E = qual 20% / practice 15% / Next Gen track avg 20% / track-type avg (2 seasons) 15% / last-5 avg 30%",
+  "potd": "Daniel Suárez to beat Connor Zilisch",
+  "potd_null_reason": null,
+  "parlay_null_reason": "3 NASCAR legs pass 7+/10 with the model agreeing; no 2-3 leg combo of different drivers prices +100..+140",
+  "safe_null_reason": "No NASCAR Safe +100: the §16 Safe stat list has no NASCAR market yet (pending Rules Keeper review)",
+  "edge_null_reason": "Pinnacle has no NASCAR market today (Motorsport 0 matchups), so no Edge (Edge needs 4%+ vs Pinnacle no-vig)",
+  "candidates": 127,
+  "passing_legs": [
+   "Daniel Suárez to beat Connor Zilisch -115 (9/10)",
+   "Tyler Reddick to beat Alex Bowman -160 (8/10)",
+   "Ryan Preece to beat Austin Cindric -110 (7/10)",
+   "Chase Briscoe to beat William Byron -115 (7/10)"
+  ]
  },
  "td_city": {
   "date": "2026-11-01",
@@ -49461,7 +49487,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 08:01",
+    "priced": "2026-11-01 08:24",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -49594,7 +49620,7 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 08:01 ET",
+  "built": "2026-11-01 08:24 ET",
   "picks": 60,
   "vetoes": [],
   "gaps": [
