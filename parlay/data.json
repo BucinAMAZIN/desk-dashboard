@@ -1,414 +1,11 @@
 {
- "generated": 1793503256.4902296,
+ "generated": 1793511038.181511,
  "today": {
-  "title": "Oct 31 picks (Hard Rock)",
-  "tickets": [
-   {
-    "name": "POTD",
-    "desc": "Evan Mobley Over 17.5 Points -120",
-    "odds": "-120",
-    "stake": "—",
-    "payout": "—",
-    "status": "Pending",
-    "game": "",
-    "legs": [],
-    "why": "Volume: n/a, game line | Hit: 7/10 at line, 4/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
-    "pick": "Evan Mobley Over 17.5 Points",
-    "why_not": null,
-    "why_src": "Grade B. Volume: L5 min 33/32/38/35/34 (L3 33.3 vs L10 34.3 min) | Hit: 7/10 at O17.5, 4/5 | Matchup: Opp 3/30 vs Points | Context: CLE -8.5 / O/U 237.5 | opp pace 103.3 (4th) | Away · Div | Injuries: Jaylon Tyson out | none | Weather: neutral | Risk: Normal variance at this line.",
-    "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
-     "stat": null,
-     "out": null
-    },
-    "gameday": [
-     "Volume: n/a, game line | Hit: 7/10 at line, 4/5",
-     "Matchup: n/a",
-     "Context: game lines n/a",
-     "Injuries: n/a",
-     "Weather: n/a",
-     "Risk: Normal variance at this line"
-    ]
-   },
-   {
-    "name": "+100 ticket",
-    "desc": "2-leg +140 (1u)",
-    "odds": "+140",
-    "stake": "—",
-    "payout": "—",
-    "status": "Pending",
-    "game": "",
-    "legs": [
-     {
-      "pick": "Donovan Mitchell Over 19.5 Points",
-      "odds": "-325",
-      "game": "Bucks vs Cavaliers 08:00 PM ET",
-      "status": "Pending",
-      "why": "Volume: n/a, game line | Hit: 8/10 at line, 4/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
-      "why_not": null,
-      "why_src": "Grade A-. Volume: L5 min 33/31/38/35/35 (L3 33 vs L10 34.5 min) | Hit: 8/10 at O19.5, 4/5 | Matchup: Opp 3/30 vs Points | Context: CLE -8.5 / O/U 237.5 | opp pace 103.3 (4th) | Away · Div | Injuries: Jaylon Tyson out | none | Weather: neutral | Risk: Normal variance at this line.",
-      "ctx": {
-       "game": null,
-       "team": null,
-       "opp": null,
-       "stat": null,
-       "out": null
-      },
-      "gameday": [
-       "Volume: n/a, game line | Hit: 8/10 at line, 4/5",
-       "Matchup: n/a",
-       "Context: game lines n/a",
-       "Injuries: n/a",
-       "Weather: n/a",
-       "Risk: Normal variance at this line"
-      ],
-      "dk": {
-       "odds": null,
-       "na": true
-      }
-     },
-     {
-      "pick": "Olen Zellweger Over 1.5 Shots On Goal",
-      "odds": "-120",
-      "game": "Kings vs. Sabres 04:00 PM ET",
-      "status": "Pending",
-      "why": "Volume: TOI 19.8 season avg | Hit: 7/10 at line, 4/5. Matchup: LAK 22/32 vs SOG (28.1/g allowed, favorable). Context: BUF -1.5 / O/U 5.5 (BUF TT 3.5) | Away. Injuries: BUF: Alex Lyon (Injured Reserve) | LAK: Brandt Clarke (Day-To-Day), Mats Zuccarello (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
-      "why_not": null,
-      "why_src": "Grade B. Volume: L5 TOI 20.1 avg (L3 19.5 vs L10 17.8 TOI) | Hit: 7/10 at O1.5, 4/5 | Matchup: Opp 10/32 vs Shots On Goal (NHL API) | Context: BUF -1.5 / O/U 5.5 | - | Away | Injuries: Justin Danforth, Konsta Helenius out (w/o Justin Danforth: 4/5) | Opp out: Mats Zuccarello, Kevin Fiala | Weather: neutral | Risk: Normal variance at this line.",
-      "ctx": {
-       "game": "Kings vs. Sabres",
-       "team": "BUF",
-       "opp": "LAK",
-       "stat": "sog",
-       "opp_rank": {
-        "rank": 22,
-        "of": 32,
-        "pg": 28.1,
-        "gp": 12,
-        "scale": "N/of, higher = more allowed (LineMate order)"
-       },
-       "fav": "BUF",
-       "spread": -1.5,
-       "total": 5.5,
-       "team_totals": {
-        "BUF": 3.5,
-        "LAK": 2.5
-       },
-       "home": "LAK",
-       "away": "BUF",
-       "rest": {
-        "LAK": 1,
-        "BUF": 1
-       },
-       "record": {
-        "LAK": "4-6-2",
-        "BUF": "6-4-3"
-       },
-       "start_et": "Sat 10/31 04:00 PM ET",
-       "out": {
-        "LAK": [
-         {
-          "name": "Brandt Clarke",
-          "status": "Day-To-Day",
-          "pos": "D",
-          "date": "2026-10-30",
-          "role": "19.2 TOI"
-         },
-         {
-          "name": "Mats Zuccarello",
-          "status": "Injured Reserve",
-          "pos": "RW",
-          "date": "2026-10-29",
-          "role": "16.4 TOI"
-         }
-        ],
-        "BUF": [
-         {
-          "name": "Alex Lyon",
-          "status": "Injured Reserve",
-          "pos": "G",
-          "date": "2026-10-15"
-         }
-        ]
-       }
-      },
-      "gameday": [
-       "Volume: TOI 19.8 season avg | Hit: 7/10 at line, 4/5",
-       "Matchup: LAK 22/32 vs SOG (28.1/g allowed, favorable)",
-       "Context: BUF -1.5 / O/U 5.5 (BUF TT 3.5) | Away",
-       "Injuries: BUF: Alex Lyon (Injured Reserve) | LAK: Brandt Clarke (Day-To-Day), Mats Zuccarello (Injured Reserve)",
-       "Weather: indoor, neutral",
-       "Risk: Normal variance at this line"
-      ],
-      "dk": {
-       "odds": null,
-       "na": true
-      }
-     }
-    ],
-    "why": null,
-    "pick": "2-leg +140 (1u)",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
-    "dk_odds": null
-   },
-   {
-    "name": "Safe +100 / Alt Parlay",
-    "desc": "builds at the 10 AM window, not at 7 AM.",
-    "odds": "—",
-    "stake": "—",
-    "payout": "—",
-    "status": "—",
-    "game": "",
-    "legs": [],
-    "why": "Volume: n/a, game line | Hit: L10 n/a. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal single-game variance.",
-    "pick": "builds at the 10 AM window, not at 7 AM.",
-    "why_src": null,
-    "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
-     "stat": null,
-     "out": null
-    },
-    "gameday": [
-     "Volume: n/a, game line | Hit: L10 n/a",
-     "Matchup: n/a",
-     "Context: game lines n/a",
-     "Injuries: n/a",
-     "Weather: n/a",
-     "Risk: Normal single-game variance"
-    ]
-   }
-  ],
+  "title": "Nov 1 picks (Hard Rock)",
+  "tickets": [],
   "runners_up": [],
   "ncaaf": [],
-  "sports": {
-   "NBA": {
-    "potd": {
-     "pick": "Donovan Mitchell Over 4.5 Rebounds",
-     "odds": "-135",
-     "game": "Bucks vs Cavaliers 08:00 PM ET",
-     "status": "Lost",
-     "why": "Grade A-. Volume: L5 min 33/31/38/35/35 (L3 33 vs L10 34.5 min) | Hit: 8/10 at O4.5, 4/5 | Matchup: Opp 16/30 vs Rebounds (TR) | Context: CLE -8.5 / O/U 237.5 | opp pace 103.3 (4th) | Away · Div | Injuries: Jaylon Tyson out (w/o Jaylon Tyson: 4/4) | none | Weather: neutral | Risk: without-Jaylon Tyson split sample 4 (<5)",
-     "desc": "Donovan Mitchell Over 4.5 Rebounds -135 — Pending",
-     "why_not": "without-Jaylon Tyson split sample 4 (<5)",
-     "sport": "NBA",
-     "dk": {
-      "odds": "-149",
-      "na": false,
-      "ladder": [
-       [
-        "3+",
-        "-760"
-       ],
-       [
-        "4+",
-        "-306"
-       ],
-       [
-        "5+",
-        "-149"
-       ],
-       [
-        "6+",
-        "+126"
-       ],
-       [
-        "7+",
-        "+226"
-       ],
-       [
-        "8+",
-        "+402"
-       ],
-       [
-        "9+",
-        "+710"
-       ],
-       [
-        "10+",
-        "+1220"
-       ],
-       [
-        "11+",
-        "+2000"
-       ],
-       [
-        "12+",
-        "+2800"
-       ]
-      ]
-     },
-     "dk_odds": "-149"
-    },
-    "parlay": null,
-    "parlay_done": {
-     "n": 1,
-     "status": "Lost",
-     "odds": "+112",
-     "note": "Parlay +100 Lost (+112) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-3 legs, any line and price, each 7+ of last 10 at that line, combined +100 to +140; one leg per game, or a same-game parlay when only one unstarted game is left)."
-    }
-   },
-   "NHL": {
-    "potd": {
-     "pick": "Rasmus Dahlin Over 2.5 Shots On Goal",
-     "odds": "-125",
-     "game": "Kings vs. Sabres 04:00 PM ET",
-     "status": "Lost",
-     "why": "Grade A-. Volume: L5 TOI 23.0 avg (L3 26.3 vs L10 23.5 TOI) | Hit: 8/10 at O2.5, 4/5 | Matchup: Opp 10/32 vs Shots On Goal (NHL API) | Context: BUF -1.5 / O/U 5.5 | - | Away | Injuries: Justin Danforth, Konsta Helenius out (w/o Konsta Helenius: 8/8) | Opp out: Mats Zuccarello, Kevin Fiala | Weather: neutral | Risk: possible in-game exit (not verifiable, not excluded): 2026-10-12 9.1",
-     "desc": "Rasmus Dahlin Over 2.5 Shots On Goal -125 — Pending",
-     "why_not": "possible in-game exit (not verifiable, not excluded): 2026-10-12 9.1",
-     "sport": "NHL",
-     "dk": {
-      "odds": "-125",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "-2000"
-       ],
-       [
-        "2+",
-        "-360"
-       ],
-       [
-        "3+",
-        "-125"
-       ],
-       [
-        "4+",
-        "+190"
-       ],
-       [
-        "5+",
-        "+425"
-       ],
-       [
-        "6+",
-        "+900"
-       ],
-       [
-        "7+",
-        "+2000"
-       ]
-      ]
-     },
-     "dk_odds": "-125"
-    },
-    "parlay": null,
-    "parlay_done": {
-     "n": 1,
-     "status": "Won",
-     "odds": "+137",
-     "note": "Parlay +100 Won (+137) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-3 legs, any line and price, each 7+ of last 10 at that line, combined +100 to +140; one leg per game, or a same-game parlay when only one unstarted game is left)."
-    }
-   },
-   "WNBA": {
-    "potd": {
-     "pick": "Jordin Canada Over 9.5 Points",
-     "odds": "-130",
-     "game": "Golden State Valkyries vs. Atlanta Dream 08:00 PM ET",
-     "status": "Won",
-     "why": "Grade A. Volume: L5 min 34/31/36/33/36 (L3 33.7 vs L10 34.2 min) | Hit: 9/10 at O9.5, 5/5 | Matchup: Opp 15/15 vs Points (TR) | Context: ATL +1.5 / O/U 142.5 | pace n/a | Away | Injuries: Matilde Villa, Brionna Jones out | Opp out: Iliana Rupert | Weather: neutral | Risk: Normal variance at this line.",
-     "desc": "Jordin Canada Over 9.5 Points -130 — Pending",
-     "why_not": "Normal variance at this line.",
-     "sport": "WNBA",
-     "dk": {
-      "odds": null,
-      "na": true
-     },
-     "dk_odds": null
-    },
-    "parlay": null,
-    "parlay_done": {
-     "n": 1,
-     "status": "Won",
-     "odds": "+123",
-     "note": "Parlay +100 Won (+123) and moved to Record. No more parlays today: no qualifying +100 parlay left from games that haven't started (2-3 legs, any line and price, each 7+ of last 10 at that line, combined +100 to +140; one leg per game, or a same-game parlay when only one unstarted game is left)."
-    }
-   },
-   "NFL": {
-    "potd": null,
-    "parlay": null
-   },
-   "MLB": {
-    "potd": null,
-    "parlay": null
-   },
-   "NCAA F": {
-    "potd": null,
-    "parlay": null
-   },
-   "NASCAR": {
-    "potd": null,
-    "parlay": null
-   },
-   "ALL": {
-    "potd": {
-     "pick": "Rhyne Howard Over 14.5 Points",
-     "odds": "-125",
-     "game": "Golden State Valkyries vs. Atlanta Dream 08:00 PM ET",
-     "status": "Pending",
-     "why": "Volume: min L5 38,39,37,27,27 | Hit: 8/10 at line, 4/5 · vs GSV 4/4. Matchup: GSV 1/15 vs points (73.2/g allowed, unfavorable). Context: GSV -1.5 / O/U 142.5 (ATL TT 71.5) | Pace GSV 1/15, ATL 3/15 | Away. Injuries: ATL: none | GSV: none. Weather: indoor, neutral. Risk: Tough matchup: GSV 1/15 vs points.",
-     "desc": "Rhyne Howard Over 14.5 Points -125 — Pending",
-     "why_not": "n/a",
-     "why_src": "Grade A- (8/10 at the line). Volume: L5 min 38/39/37/27/27 (L3 38 vs L10 36 min) | Hit: 8/10 at O14.5, 4/5 | Matchup: Opp 15/15 vs Points (TR) | Context: ATL +1.5 / O/U 142.5 | pace n/a | Away | Injuries: Matilde Villa, Brionna Jones out | Opp out: Iliana Rupert | Weather: neutral | Risk: n/a",
-     "ctx": {
-      "game": "Golden State Valkyries vs. Atlanta Dream",
-      "team": "ATL",
-      "opp": "GSV",
-      "stat": "pts",
-      "opp_rank": {
-       "rank": 1,
-       "of": 15,
-       "pg": 73.2,
-       "gp": 23,
-       "scale": "N/of, higher = more allowed (LineMate order)"
-      },
-      "fav": "GSV",
-      "spread": -1.5,
-      "total": 142.5,
-      "team_totals": {
-       "GSV": 71.5,
-       "ATL": 71.5
-      },
-      "home": "GSV",
-      "away": "ATL",
-      "rest": {
-       "GSV": 1,
-       "ATL": 1
-      },
-      "record": {
-       "GSV": "32-12",
-       "ATL": "30-14"
-      },
-      "start_et": "Sat 10/31 08:00 PM ET",
-      "out": {
-       "GSV": [],
-       "ATL": []
-      }
-     },
-     "gameday": [
-      "Volume: min L5 38,39,37,27,27 | Hit: 8/10 at line, 4/5 · vs GSV 4/4",
-      "Matchup: GSV 1/15 vs points (73.2/g allowed, unfavorable)",
-      "Context: GSV -1.5 / O/U 142.5 (ATL TT 71.5) | Pace GSV 1/15, ATL 3/15 | Away",
-      "Injuries: ATL: none | GSV: none",
-      "Weather: indoor, neutral",
-      "Risk: Tough matchup: GSV 1/15 vs points"
-     ],
-     "sport": null,
-     "dk": {
-      "odds": null,
-      "na": true
-     },
-     "dk_odds": null
-    },
-    "parlay": null
-   }
-  },
-  "date": "2026-10-31"
+  "date": "2026-11-01"
  },
  "results": {
   "tickets": [
@@ -7400,9 +6997,9 @@
   {
    "name": "@tonestakes",
    "w": 6,
-   "l": 17,
+   "l": 18,
    "p": 0,
-   "pct": 26,
+   "pct": 25,
    "props": [
     {
      "prop": "NHL assists (over)",
@@ -7415,9 +7012,9 @@
     {
      "prop": "NHL shots on goal (over)",
      "w": 1,
-     "l": 7,
+     "l": 8,
      "p": 0,
-     "pct": 12,
+     "pct": 11,
      "fam": "SOG"
     },
     {
@@ -7463,100 +7060,352 @@
    ],
    "today": [
     {
-     "sport": "NHL",
-     "prop": "NHL assists (over)",
-     "pick": "G. McKenna o0.5 Ast (TOR @ VAN 7:00pm)",
-     "odds": "+132",
-     "status": "L",
-     "fam": "Assists"
-    },
-    {
-     "sport": "NHL",
-     "prop": "NHL shots on goal (over)",
-     "pick": "Cole Caufield o3.5 SOG (PIT @ MTL 7:00pm)",
-     "odds": "+140",
-     "status": "L",
-     "fam": "SOG"
-    },
-    {
-     "sport": "NHL",
-     "prop": "NHL shots on goal (over)",
-     "pick": "F. Minten 3+ SOG (CHI @ BOS 1:00pm)",
-     "odds": "+205 FD",
-     "status": "L",
-     "fam": "SOG"
-    },
-    {
-     "sport": "NHL",
-     "prop": "NHL shots on goal (over)",
-     "pick": "J. Hagens 3+ SOG (CHI @ BOS 1:00pm)",
-     "odds": "+210 FD",
-     "status": "L",
-     "fam": "SOG"
-    },
-    {
-     "sport": "NHL",
-     "prop": "NHL shots on goal (over)",
-     "pick": "Rickard Rakell o2.5 SOG (PIT @ MTL 7:00pm)",
-     "odds": "+115",
-     "status": "L",
-     "fam": "SOG"
-    },
-    {
-     "sport": "NHL",
-     "prop": "NHL shots on goal (over)",
-     "pick": "Roman Josi o2.5 SOG (TB @ NSH 2:00pm)",
-     "odds": "+126",
-     "status": "W",
-     "fam": "SOG"
-    },
-    {
-     "sport": "NHL",
-     "prop": "NHL shots on goal (over)",
-     "pick": "TJ Hughes 3+ SOG (CGY @ COL 10:00pm; 6th NHL take)",
-     "odds": "+205 FD",
+     "sport": "NFL",
+     "prop": "NFL rush yds (over)",
+     "pick": "C.Brown o57.5 Rush Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
+     "odds": "-114",
      "status": "Pending",
-     "fam": "SOG"
+     "fam": "Rushing yds",
+     "game": "TEN @ CIN",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
-     "sport": "NHL",
-     "prop": "NHL ML (fade)",
-     "pick": "Fade Cgy (CGY @ COL 10:00pm; #TonesB2BNHLSystem)",
-     "odds": "none posted",
+     "sport": "NFL",
+     "prop": "NFL rush yds (over)",
+     "pick": "C.Rodriguez o31.5 Rush Yds (IND @ JAC 1:00pm; Sun #NFL card)",
+     "odds": "-114",
      "status": "Pending",
-     "fam": "ML"
+     "fam": "Rushing yds",
+     "game": "IND @ JAX",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
-     "sport": "NHL",
-     "prop": "NHL team total (over)",
-     "pick": "Montreal Canadiens Team Total Over 3.5 (PIT @ MTL 7:00pm)",
-     "odds": "+106",
-     "status": "W",
-     "fam": "Team total"
+     "sport": "NFL",
+     "prop": "NFL rush yds (over)",
+     "pick": "J.Herbert o23.5 Rush Yds (LAC @ LA 4:05pm; Sun #NFL card)",
+     "odds": "-114",
+     "status": "Pending",
+     "fam": "Rushing yds",
+     "game": "LAC @ LAR",
+     "kick": "4:05 PM ET",
+     "started": false,
+     "final": false
     },
     {
-     "sport": "NHL",
-     "prop": "NHL team total (over)",
-     "pick": "San Jose Sharks Team Total Over 3 (OTT @ SJ 4:00pm; Best Bet)",
-     "odds": "-110",
-     "status": "L",
-     "fam": "Team total"
-    },
-    {
-     "sport": "NHL",
-     "prop": "NHL team total (over)",
-     "pick": "Toronto Maple Leafs Team Total Over 3.5 (TOR @ VAN 7:00pm; Best Bet)",
-     "odds": "-122",
-     "status": "W",
-     "fam": "Team total"
-    },
-    {
-     "sport": "NHL",
-     "prop": "NHL game total (over)",
-     "pick": "TB/NSH Over 6 (TB @ NSH 2:00pm; 1.15u)",
+     "sport": "NFL",
+     "prop": "NFL rush yds (over)",
+     "pick": "P.Mahomes o12.5 Rush Yds (KC @ DEN 4:25pm; Sun #NFL card)",
      "odds": "-115",
      "status": "Pending",
-     "fam": "Total"
+     "fam": "Rushing yds",
+     "game": "KC @ DEN",
+     "kick": "4:25 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "B.Robinson o30.5 Rec Yds (ATL @ TB 1:00pm; Sun #NFL card)",
+     "odds": "-117",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "ATL @ TB",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "B.Tuten o13.5 Rec Yds (IND @ JAC 1:00pm; Sun #NFL card)",
+     "odds": "-110",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "IND @ JAX",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "C.Okonkwo o31.5 Rec Yds (PHI @ WAS 8:20pm; Sun #NFL card)",
+     "odds": "-111",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "PHI @ WSH",
+     "kick": "8:20 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "D.Goedert o43.5 Rec Yds (PHI @ WAS 8:20pm; Sun #NFL card)",
+     "odds": "-115",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "PHI @ WSH",
+     "kick": "8:20 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "E.Egbuka o49.5 Rec Yds (ATL @ TB 1:00pm; Sun #NFL card)",
+     "odds": "-114",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "ATL @ TB",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "G.Helm o21.5 Rec Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
+     "odds": "-108",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "TEN @ CIN",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "G.Wilson o55.5 Rec Yds (LV @ NYJ 1:00pm; Sun #NFL card)",
+     "odds": "-118",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "LV @ NYJ",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "H.Henry o44.5 Rec Yds (NE @ MIA 4:25pm; Sun #NFL card)",
+     "odds": "-110",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "NE @ MIA",
+     "kick": "4:25 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "J.Cuevas o9.5 Rec Yds (BAL @ BUF 1:00pm; Sun #NFL card)",
+     "odds": "-114",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "BAL @ BUF",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "J.Hill o10.5 Rec Yds (BAL @ BUF 1:00pm; Sun #NFL card)",
+     "odds": "-114",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "BAL @ BUF",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "K.Bourne o34.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
+     "odds": "-115",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "ARI @ DAL",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "K.Coleman o28.5 Rec Yds (BAL @ BUF 1:00pm; Sun #NFL card)",
+     "odds": "-113",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "BAL @ BUF",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "K.Vidal o7.5 Rec Yds (LAC @ LA 4:05pm; Sun #NFL card)",
+     "odds": "-114",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "LAC @ LAR",
+     "kick": "4:05 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "M.Lemon o41.5 Rec Yds (PHI @ WAS 8:20pm; Sun #NFL card)",
+     "odds": "-115",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "PHI @ WSH",
+     "kick": "8:20 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "O.Hampton o5.5 Rec Yds (LAC @ LA 4:05pm; Sun #NFL card)",
+     "odds": "-109",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "LAC @ LAR",
+     "kick": "4:05 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "R.Flournoy o35.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
+     "odds": "-115",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "ARI @ DAL",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "R.Stevenson o20.5 Rec Yds (NE @ MIA 4:25pm; Sun #NFL card)",
+     "odds": "-115",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "NE @ MIA",
+     "kick": "4:25 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "T.Burks o21.5 Rec Yds (PHI @ WAS 8:20pm; Sun #NFL card)",
+     "odds": "-114",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "PHI @ WSH",
+     "kick": "8:20 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "T.Hockenson o39.5 Rec Yds (MIN @ DET 1:00pm; Sun #NFL card)",
+     "odds": "-114",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "MIN @ DET",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL rec yds (over)",
+     "pick": "T.Kelce o43.5 Rec Yds (KC @ DEN 4:25pm; Sun #NFL card)",
+     "odds": "-115",
+     "status": "Pending",
+     "fam": "Receiving yds",
+     "game": "KC @ DEN",
+     "kick": "4:25 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL anytime TD",
+     "pick": "D.Goedert Anytime TD Scorer Yes (PHI @ WAS 8:20pm; Sun #NFL card)",
+     "odds": "+270",
+     "status": "Pending",
+     "fam": "Anytime TD",
+     "game": "PHI @ WSH",
+     "kick": "8:20 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL anytime TD",
+     "pick": "M.Lemon Anytime TD Scorer Yes (PHI @ WAS 8:20pm; Sun #NFL card)",
+     "odds": "+350",
+     "status": "Pending",
+     "fam": "Anytime TD",
+     "game": "PHI @ WSH",
+     "kick": "8:20 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL anytime TD",
+     "pick": "T.Hockenson Anytime TD Scorer Yes (MIN @ DET 1:00pm; Sun #NFL card)",
+     "odds": "+270",
+     "status": "Pending",
+     "fam": "Anytime TD",
+     "game": "MIN @ DET",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL game total (over)",
+     "pick": "BAL/BUF Over 54.5 (BAL @ BUF 1:00pm; Sun #NFL card)",
+     "odds": "-105",
+     "status": "Pending",
+     "fam": "Total",
+     "game": "BAL @ BUF",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NFL",
+     "prop": "NFL game total (over)",
+     "pick": "PHI/WAS Over 40 (PHI @ WAS 8:20pm; Sun #NFL card)",
+     "odds": "-110",
+     "status": "Pending",
+     "fam": "Total",
+     "game": "PHI @ WSH",
+     "kick": "8:20 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -7794,48 +7643,7 @@
      "fam": "ML"
     }
    ],
-   "today": [
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Ayo Dosunmu 15+ Points (MIN; NBA Play #4)",
-     "odds": "none posted",
-     "status": "W",
-     "fam": "Player points"
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Darius Acuff o22.5 Points (SAC @ MEM)",
-     "odds": "none posted",
-     "status": "W",
-     "fam": "Player points"
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Darryn Peterson o14.5 Points (vs Blazers; NBA Play #3)",
-     "odds": "none posted",
-     "status": "W",
-     "fam": "Player points"
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Saddiq Bey o11.5 Points (Play of the Day)",
-     "odds": "none posted",
-     "status": "W",
-     "fam": "Player points"
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA assists (under)",
-     "pick": "Keyonte George u6.5 Assists (Fade of the Day)",
-     "odds": "none posted",
-     "status": "W",
-     "fam": "Assists"
-    }
-   ]
+   "today": []
   },
   {
    "name": "@austinsprops",
@@ -7973,24 +7781,7 @@
      "fam": "Parlay"
     }
    ],
-   "today": [
-    {
-     "sport": "NBA",
-     "prop": "NBA pts+reb (over)",
-     "pick": "Cameron Boozer o24.5 PR (#GrindCity Vs #LightTheBeam; NBA Play Of The Day)",
-     "odds": "-108 FD",
-     "status": "W",
-     "fam": "Pts+Reb"
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA PRA (over)",
-     "pick": "Jrue Holiday o23.5 PRA (#RipCity Vs #TakeNote; NBA Play Of The Day)",
-     "odds": "-120 DK",
-     "status": "L",
-     "fam": "PRA"
-    }
-   ]
+   "today": []
   },
   {
    "name": "@panpotd",
@@ -8090,12 +7881,16 @@
    ],
    "today": [
     {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Ajay Mitchell o18.5 Points (OKC vs HOU; The Only Saturday NBA Prop You Need)",
-     "odds": "-110",
-     "status": "L",
-     "fam": "Player points"
+     "sport": "NFL",
+     "prop": "NFL rush yds (over)",
+     "pick": "Bhayshul Tuten o60+ Rush Yards (IND game; NFL Sunday Prop #1)",
+     "odds": "-130",
+     "status": "Pending",
+     "fam": "Rushing yds",
+     "game": "IND @ JAX",
+     "kick": "1:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -8203,24 +7998,7 @@
      "fam": "Parlay"
     }
    ],
-   "today": [
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF ML",
-     "pick": "Iowa Hawkeyes ML (CFB first play of the day)",
-     "odds": "-124",
-     "status": "W",
-     "fam": "ML"
-    },
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF spread",
-     "pick": "Georgia Bulldogs -11.5 (CFB free play)",
-     "odds": "-110",
-     "status": "W",
-     "fam": "Spread"
-    }
-   ]
+   "today": []
   },
   {
    "name": "@bigmikepickz",
@@ -8262,72 +8040,7 @@
      "fam": "Parlay"
     }
    ],
-   "today": [
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF ML",
-     "pick": "Iowa ML (CFB Week 9 Early Games; 1.22u to win 1u)",
-     "odds": "-122",
-     "status": "W",
-     "fam": "ML"
-    },
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF spread",
-     "pick": "Indiana -20.5 (CFB Week 9 Afternoon Games; 1.12u to win 1u)",
-     "odds": "-112",
-     "status": "L",
-     "fam": "Spread"
-    },
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF spread",
-     "pick": "Northwestern +3.5 (CFB Week 9 Afternoon Games; 1.02u to win 1u)",
-     "odds": "-102",
-     "status": "L",
-     "fam": "Spread"
-    },
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF spread",
-     "pick": "South Carolina +4.5 (CFB Week 9 Afternoon Games; 1.2u to win 1u)",
-     "odds": "-120",
-     "status": "W",
-     "fam": "Spread"
-    },
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF spread",
-     "pick": "Syracuse +10.5 (CFB Week 9 Early Games; 1.35u to win 1u)",
-     "odds": "-135",
-     "status": "W",
-     "fam": "Spread"
-    },
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF spread",
-     "pick": "Wake Forest -13.5 (CFB Week 9 Afternoon Games; 1.1u to win 1u)",
-     "odds": "-110",
-     "status": "W",
-     "fam": "Spread"
-    },
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF game total (under)",
-     "pick": "Arizona/Texas Tech Under 54.5 (CFB Week 9 Early Games; 1.05u to win 1u)",
-     "odds": "-105",
-     "status": "Pending",
-     "fam": "Total"
-    },
-    {
-     "sport": "NCAAF",
-     "prop": "NCAAF parlay",
-     "pick": "NCAAF 2-leg parlay: Duke ML + NC State ML (CFB Week 9 Early Games; 1.25u to win 1u)",
-     "odds": "-125",
-     "status": "W",
-     "fam": "Parlay"
-    }
-   ]
+   "today": []
   }
  ],
  "capper_notes": [
@@ -8374,10 +8087,10 @@
   "Parlay",
   "Other"
  ],
- "capper_today_date": "2026-10-31",
+ "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-10-31 11:20 PM ET",
+  "updated": "2026-11-01 01:30 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -8902,7 +8615,92 @@
       ]
      }
     ],
-    "games": []
+    "games": [
+     {
+      "a": "BAL",
+      "h": "BUF",
+      "st": "11/1 - 1:00 PM EST",
+      "div": false,
+      "stake": "BAL 4-3: 4th AFC North (1 GB), AFC #9 seed (outside playoffs) · BUF 5-1: 1st AFC East, AFC #2 seed (in playoff spot)"
+     },
+     {
+      "a": "TEN",
+      "h": "CIN",
+      "st": "11/1 - 1:00 PM EST",
+      "div": false,
+      "stake": "TEN 1-6: 4th AFC South (3.5 GB), AFC #15 seed (outside playoffs) · CIN 4-2: 3rd AFC North (0.5 GB), AFC #7 seed (in playoff spot)"
+     },
+     {
+      "a": "ARI",
+      "h": "DAL",
+      "st": "11/1 - 1:00 PM EST",
+      "div": false,
+      "stake": "ARI 2-5: 4th NFC West (4 GB), NFC #14 seed (outside playoffs) · DAL 3-4: 2nd NFC East (1.5 GB), NFC #11 seed (outside playoffs)"
+     },
+     {
+      "a": "MIN",
+      "h": "DET",
+      "st": "11/1 - 1:00 PM EST",
+      "div": true,
+      "stake": "MIN 6-0: 1st NFC North, NFC #1 seed (in playoff spot) · DET 4-2: 3rd NFC North (2 GB), NFC #6 seed (in playoff spot)"
+     },
+     {
+      "a": "LV",
+      "h": "NYJ",
+      "st": "11/1 - 1:00 PM EST",
+      "div": false,
+      "stake": "LV 3-4: 3rd AFC West (2.5 GB), AFC #10 seed (outside playoffs) · NYJ 2-5: 3rd AFC East (3.5 GB), AFC #11 seed (outside playoffs)"
+     },
+     {
+      "a": "CLE",
+      "h": "PIT",
+      "st": "11/1 - 1:00 PM EST",
+      "div": true,
+      "stake": "CLE 5-2: 1st AFC North, AFC #3 seed (in playoff spot) · PIT 5-2: 2nd AFC North, AFC #6 seed (in playoff spot)"
+     },
+     {
+      "a": "ATL",
+      "h": "TB",
+      "st": "11/1 - 1:00 PM EST",
+      "div": true,
+      "stake": "ATL 3-4: 2nd NFC South, NFC #9 seed (outside playoffs) · TB 2-5: 3rd NFC South (1 GB), NFC #12 seed (outside playoffs)"
+     },
+     {
+      "a": "IND",
+      "h": "JAX",
+      "st": "11/1 - 1:00 PM EST",
+      "div": true,
+      "stake": "IND 2-5: 2nd AFC South (2.5 GB), AFC #12 seed (outside playoffs) · JAX 4-2: 1st AFC South, AFC #4 seed (in playoff spot)"
+     },
+     {
+      "a": "LAC",
+      "h": "LAR",
+      "st": "11/1 - 4:05 PM EST",
+      "div": false,
+      "stake": "LAC 0-6: 4th AFC West (5 GB), AFC #16 seed (outside playoffs) · LAR 3-4: 3rd NFC West (3 GB), NFC #10 seed (outside playoffs)"
+     },
+     {
+      "a": "KC",
+      "h": "DEN",
+      "st": "11/1 - 4:25 PM EST",
+      "div": true,
+      "stake": "KC 5-1: 1st AFC West, AFC #1 seed (in playoff spot) · DEN 5-2: 2nd AFC West (0.5 GB), AFC #5 seed (in playoff spot)"
+     },
+     {
+      "a": "NE",
+      "h": "MIA",
+      "st": "11/1 - 4:25 PM EST",
+      "div": true,
+      "stake": "NE 4-3: 2nd AFC East (1.5 GB), AFC #8 seed (outside playoffs) · MIA 1-5: 4th AFC East (4 GB), AFC #14 seed (outside playoffs)"
+     },
+     {
+      "a": "PHI",
+      "h": "WSH",
+      "st": "11/1 - 8:20 PM EST",
+      "div": true,
+      "stake": "PHI 2-5: 3rd NFC East (2.5 GB), NFC #15 seed (outside playoffs) · WSH 1-4-1: 4th NFC East (2.5 GB), NFC #16 seed (outside playoffs)"
+     }
+    ]
    },
    "NBA": {
     "groups": [
@@ -9389,53 +9187,32 @@
     ],
     "games": [
      {
-      "a": "POR",
-      "h": "UTAH",
-      "st": "Final",
+      "a": "BOS",
+      "h": "ORL",
+      "st": "11/1 - 3:30 PM EST",
+      "div": false,
+      "stake": "BOS : 2nd Atlantic (1 GB), East #3 seed (in playoff spot) · ORL : 4th Southeast (0.5 GB), East #9 seed (in playoff spot)"
+     },
+     {
+      "a": "BKN",
+      "h": "IND",
+      "st": "11/1 - 5:00 PM EST",
+      "div": false,
+      "stake": "BKN : 5th Atlantic (5 GB), East #15 seed (outside playoffs) · IND : 3rd Central (3 GB), East #12 seed (outside playoffs)"
+     },
+     {
+      "a": "LAC",
+      "h": "GS",
+      "st": "11/1 - 8:30 PM EST",
       "div": true,
-      "stake": "POR : 1st Northwest, West #3 seed (in playoff spot) · UTAH : 5th Northwest (3.5 GB), West #14 seed (outside playoffs)"
+      "stake": "LAC : 4th Pacific (2.5 GB), West #13 seed (outside playoffs) · GS : 2nd Pacific (1 GB), West #10 seed (in playoff spot)"
      },
      {
-      "a": "PHI",
-      "h": "CHA",
-      "st": "Final",
+      "a": "TOR",
+      "h": "LAL",
+      "st": "11/1 - 9:00 PM EST",
       "div": false,
-      "stake": "PHI : 1st Atlantic, East #1 seed (in playoff spot) · CHA : 3rd Southeast (0.5 GB), East #8 seed (in playoff spot)"
-     },
-     {
-      "a": "ATL",
-      "h": "NO",
-      "st": "Final",
-      "div": false,
-      "stake": "ATL : 2nd Southeast (0.5 GB), East #7 seed (in playoff spot) · NO : 5th Southwest (4 GB), West #11 seed (outside playoffs)"
-     },
-     {
-      "a": "SAC",
-      "h": "MEM",
-      "st": "Final",
-      "div": false,
-      "stake": "SAC : 5th Pacific (4 GB), West #15 seed (outside playoffs) · MEM : 1st Southwest, West #1 seed (in playoff spot)"
-     },
-     {
-      "a": "CLE",
-      "h": "MIL",
-      "st": "Final",
-      "div": true,
-      "stake": "CLE : 2nd Central (1 GB), East #4 seed (in playoff spot) · MIL : 5th Central (4 GB), East #14 seed (outside playoffs)"
-     },
-     {
-      "a": "MIN",
-      "h": "SA",
-      "st": "Final",
-      "div": false,
-      "stake": "MIN : 4th Northwest (1 GB), West #9 seed (in playoff spot) · SA : 3rd Southwest (2 GB), West #6 seed (in playoff spot)"
-     },
-     {
-      "a": "OKC",
-      "h": "HOU",
-      "st": "Final",
-      "div": false,
-      "stake": "OKC : 2nd Northwest (0.5 GB), West #5 seed (in playoff spot) · HOU : 2nd Southwest (0.5 GB), West #2 seed (in playoff spot)"
+      "stake": "TOR : 3rd Atlantic (2 GB), East #5 seed (in playoff spot) · LAL : 1st Pacific, West #4 seed (in playoff spot)"
      }
     ]
    },
@@ -9725,6 +9502,21 @@
         "seed": "4"
        },
        {
+        "t": "Colorado Avalanche",
+        "ab": "COL",
+        "rec": "8-5-1",
+        "pct": null,
+        "gb": "4",
+        "pts": "17",
+        "home": "6-1-1",
+        "road": "2-4-0",
+        "l10": "5-4-1",
+        "strk": "W2",
+        "diff": "+15",
+        "div": "2-2-1",
+        "seed": "5"
+       },
+       {
         "t": "Dallas Stars",
         "ab": "DAL",
         "rec": "8-5-1",
@@ -9737,21 +9529,6 @@
         "strk": "W1",
         "diff": "+7",
         "div": "3-3-0",
-        "seed": "6"
-       },
-       {
-        "t": "Colorado Avalanche",
-        "ab": "COL",
-        "rec": "7-5-1",
-        "pct": null,
-        "gb": "6",
-        "pts": "15",
-        "home": "5-1-1",
-        "road": "2-4-0",
-        "l10": "5-4-1",
-        "strk": "W1",
-        "diff": "+12",
-        "div": "2-2-1",
         "seed": "7"
        },
        {
@@ -9862,7 +9639,7 @@
         "strk": "L1",
         "diff": "0",
         "div": "2-3-0",
-        "seed": "5"
+        "seed": "6"
        },
        {
         "t": "San Jose Sharks",
@@ -9882,15 +9659,15 @@
        {
         "t": "Calgary Flames",
         "ab": "CGY",
-        "rec": "6-7-0",
+        "rec": "6-8-0",
         "pct": null,
         "gb": "10",
         "pts": "12",
         "home": "5-3-0",
-        "road": "1-4-0",
+        "road": "1-5-0",
         "l10": "6-4-0",
-        "strk": "W1",
-        "diff": "-13",
+        "strk": "L1",
+        "diff": "-16",
         "div": "2-6-0",
         "seed": "11"
        },
@@ -9944,74 +9721,39 @@
     ],
     "games": [
      {
-      "a": "CHI",
-      "h": "BOS",
-      "st": "Final/OT",
+      "a": "WPG",
+      "h": "CAR",
+      "st": "11/1 - 1:00 PM EST",
       "div": false,
-      "stake": "CHI 4-9-1: 8th Central Division (12 pts back), West #15 seed (outside playoffs) · BOS 10-4-1: 1st Atlantic Division, East #2 seed (in playoff spot)"
+      "stake": "WPG 4-7-3: 7th Central Division (10 pts back), West #13 seed (outside playoffs) · CAR 11-2-2: 1st Metropolitan Division, East #1 seed (in playoff spot)"
      },
      {
-      "a": "STL",
-      "h": "DET",
-      "st": "Final",
+      "a": "MIN",
+      "h": "WSH",
+      "st": "11/1 - 3:30 PM EST",
       "div": false,
-      "stake": "STL 7-6-1: 5th Central Division (6 pts back), West #8 seed (in playoff spot) · DET 6-5-3: 8th Atlantic Division (6 pts back), East #13 seed (outside playoffs)"
+      "stake": "MIN 9-3-3: 1st Central Division, West #2 seed (in playoff spot) · WSH 8-4-0: 3rd Metropolitan Division (8 pts back), East #10 seed (outside playoffs)"
      },
      {
-      "a": "TB",
-      "h": "NSH",
-      "st": "Final/SO",
+      "a": "UTA",
+      "h": "PHI",
+      "st": "11/1 - 4:00 PM EST",
       "div": false,
-      "stake": "TB 8-3-2: 4th Atlantic Division (3 pts back), East #5 seed (in playoff spot) · NSH 5-4-5: 6th Central Division (6 pts back), West #9 seed (outside playoffs)"
+      "stake": "UTA 9-5-0: 2nd Central Division (3 pts back), West #4 seed (in playoff spot) · PHI 3-8-4: 8th Metropolitan Division (14 pts back), East #16 seed (outside playoffs)"
      },
      {
       "a": "EDM",
-      "h": "NYI",
-      "st": "Final",
+      "h": "NYR",
+      "st": "11/1 - 6:00 PM EST",
       "div": false,
-      "stake": "EDM 10-2-2: 1st Pacific Division, West #1 seed (in playoff spot) · NYI 7-5-2: 4th Metropolitan Division (8 pts back), East #11 seed (outside playoffs)"
-     },
-     {
-      "a": "BUF",
-      "h": "LA",
-      "st": "Final",
-      "div": false,
-      "stake": "BUF 7-4-3: 7th Atlantic Division (4 pts back), East #9 seed (outside playoffs) · LA 4-7-2: 7th Pacific Division (12 pts back), West #14 seed (outside playoffs)"
+      "stake": "EDM 10-2-2: 1st Pacific Division, West #1 seed (in playoff spot) · NYR 7-6-1: 5th Metropolitan Division (9 pts back), East #12 seed (outside playoffs)"
      },
      {
       "a": "OTT",
-      "h": "SJ",
-      "st": "Final",
+      "h": "ANA",
+      "st": "11/1 - 8:00 PM EST",
       "div": false,
-      "stake": "OTT 9-5-1: 3rd Atlantic Division (2 pts back), East #4 seed (in playoff spot) · SJ 7-7-1: 4th Pacific Division (7 pts back), West #10 seed (outside playoffs)"
-     },
-     {
-      "a": "PIT",
-      "h": "MTL",
-      "st": "Final",
-      "div": false,
-      "stake": "PIT 5-7-2: 6th Metropolitan Division (12 pts back), East #14 seed (outside playoffs) · MTL 9-3-2: 2nd Atlantic Division (1 pts back), East #3 seed (in playoff spot)"
-     },
-     {
-      "a": "TOR",
-      "h": "VAN",
-      "st": "Final",
-      "div": false,
-      "stake": "TOR 8-6-2: 6th Atlantic Division (3 pts back), East #8 seed (in playoff spot) · VAN 3-12-1: 8th Pacific Division (15 pts back), West #16 seed (outside playoffs)"
-     },
-     {
-      "a": "CBJ",
-      "h": "DAL",
-      "st": "Final",
-      "div": false,
-      "stake": "CBJ 5-7-0: 7th Metropolitan Division (14 pts back), East #15 seed (outside playoffs) · DAL 8-5-1: 3rd Central Division (4 pts back), West #6 seed (in playoff spot)"
-     },
-     {
-      "a": "CGY",
-      "h": "COL",
-      "st": "10:53 - 2nd",
-      "div": false,
-      "stake": "CGY 6-7-0: 5th Pacific Division (10 pts back), West #11 seed (outside playoffs) · COL 7-5-1: 4th Central Division (6 pts back), West #7 seed (in playoff spot)"
+      "stake": "OTT 9-5-1: 3rd Atlantic Division (2 pts back), East #4 seed (in playoff spot) · ANA 5-7-1: 6th Pacific Division (11 pts back), West #12 seed (outside playoffs)"
      }
     ]
    },
@@ -10739,15 +10481,8 @@
       ]
      }
     ],
-    "games": [
-     {
-      "a": "ATL",
-      "h": "GS",
-      "st": "Final",
-      "div": false,
-      "stake": "ATL 30-14: 1st Eastern Conference, E #1 seed · GS 32-12: 2nd Western Conference (1 GB), W #2 seed"
-     }
-    ]
+    "games": [],
+    "note": "Season not active — final standings"
    },
    "NCAA F": {
     "groups": [
@@ -10915,33 +10650,33 @@
         "seed": "2"
        },
        {
-        "t": "Army Black Knights",
-        "ab": "ARMY",
-        "rec": "5-2",
+        "t": "Memphis Tigers",
+        "ab": "MEM",
+        "rec": "7-2",
         "pct": null,
-        "gb": "1.5",
+        "gb": "0.5",
         "pts": null,
-        "home": "3-1",
-        "road": "2-1",
+        "home": "5-0",
+        "road": "2-2",
         "l10": null,
-        "strk": "W3",
-        "diff": "+92",
+        "strk": "W2",
+        "diff": "+126",
         "div": "4-1",
         "seed": "3"
        },
        {
-        "t": "Memphis Tigers",
-        "ab": "MEM",
-        "rec": "6-2",
+        "t": "Army Black Knights",
+        "ab": "ARMY",
+        "rec": "5-3",
         "pct": null,
-        "gb": "1",
+        "gb": "2",
         "pts": null,
-        "home": "4-0",
+        "home": "3-1",
         "road": "2-2",
         "l10": null,
-        "strk": "W1",
-        "diff": "+99",
-        "div": "3-1",
+        "strk": "L1",
+        "diff": "+65",
+        "div": "4-2",
         "seed": "4"
        },
        {
@@ -11245,11 +10980,11 @@
     "pct": 65
    },
    "tickets": {
-    "w": 35,
+    "w": 36,
     "l": 41,
     "p": 1,
-    "pending": 1,
-    "units": -7.57
+    "pending": 0,
+    "units": -6.62
    }
   },
   {
@@ -14153,1871 +13888,13 @@
  "nascar_extra": {},
  "live_picks": {},
  "live_record": {},
- "safe100": {
-  "date": "2026-10-31",
-  "sports": {
-   "NBA": {
-    "sport": "NBA",
-    "odds": "+124",
-    "posted": "10:13 AM ET",
-    "edge_tier": null,
-    "rule": "2026-10-26",
-    "locked": true,
-    "closest": false,
-    "label": null,
-    "sgp": false,
-    "price_note": null,
-    "legs": [
-     {
-      "pick": "Zion Williamson 2+ ast",
-      "game": "Pelicans vs Hawks 10/31 07:00 PM ET",
-      "odds": "-325",
-      "grade": "A",
-      "reason": "Hit 2+ in 10 of last 10 and 5 of last 5 (L10 avg 4.2); season 5/5 (under 10 games, check n/a). Volume: min L5 31,32,33,33,32. Highest Hard Rock alt rung priced -250 to -425 that passes.",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
-      "sport": "NBA",
-      "rule": "2026-10-26",
-      "prop_type": "NBA ast",
-      "hit10": "10/10",
-      "hit5": "5/5",
-      "season": "5/5",
-      "volume": "min L5 31,32,33,33,32",
-      "matchup_rank": 4,
-      "matchup_of": 30,
-      "matchup_tier": "preferred",
-      "status": "WON",
-      "result": "4 AST",
-      "dk": {
-       "ladder": [
-        [
-         "3+",
-         "-111"
-        ],
-        [
-         "4+",
-         "+223"
-        ],
-        [
-         "5+",
-         "+513"
-        ],
-        [
-         "6+",
-         "+1120"
-        ],
-        [
-         "7+",
-         "+2100"
-        ]
-       ],
-       "na": true
-      }
-     },
-     {
-      "pick": "Domantas Sabonis 12+ reb",
-      "game": "Grizzlies vs Kings 10/31 08:00 PM ET",
-      "odds": "-325",
-      "grade": "A",
-      "reason": "Hit 12+ in 10 of last 10 and 5 of last 5 (L10 avg 14.9); season 5/5 (under 10 games, check n/a). Volume: min L5 40,37,35,39,34. Highest Hard Rock alt rung priced -250 to -425 that passes.",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
-      "sport": "NBA",
-      "rule": "2026-10-26",
-      "prop_type": "NBA reb",
-      "hit10": "10/10",
-      "hit5": "5/5",
-      "season": "5/5",
-      "volume": "min L5 40,37,35,39,34",
-      "matchup_rank": 20,
-      "matchup_of": 30,
-      "matchup_tier": "preferred",
-      "status": "WON",
-      "result": "14 REB",
-      "dk": {
-       "ladder": [
-        [
-         "6+",
-         "-3900"
-        ],
-        [
-         "7+",
-         "-2100"
-        ],
-        [
-         "8+",
-         "-1280"
-        ],
-        [
-         "9+",
-         "-820"
-        ],
-        [
-         "10+",
-         "-560"
-        ],
-        [
-         "11+",
-         "-391"
-        ],
-        [
-         "12+",
-         "-274"
-        ],
-        [
-         "13+",
-         "-195"
-        ],
-        [
-         "14+",
-         "-141"
-        ],
-        [
-         "15+",
-         "-103"
-        ],
-        [
-         "16+",
-         "+133"
-        ],
-        [
-         "17+",
-         "+183"
-        ],
-        [
-         "18+",
-         "+248"
-        ],
-        [
-         "19+",
-         "+343"
-        ],
-        [
-         "20+",
-         "+472"
-        ]
-       ],
-       "odds": "-391",
-       "pick": "Domantas Sabonis 11+ reb",
-       "moved": true,
-       "na": false
-      }
-     },
-     {
-      "pick": "Kevin Durant 4+ reb",
-      "game": "Rockets vs Thunder 10/31 08:30 PM ET",
-      "odds": "-325",
-      "grade": "A",
-      "reason": "Hit 4+ in 9 of last 10 and 5 of last 5 (L10 avg 5.8); season 6/6 (under 10 games, check n/a). Volume: min L5 37,31,30,37,37. Highest Hard Rock alt rung priced -250 to -425 that passes.",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
-      "sport": "NBA",
-      "rule": "2026-10-26",
-      "prop_type": "NBA reb",
-      "hit10": "9/10",
-      "hit5": "5/5",
-      "season": "6/6",
-      "volume": "min L5 37,31,30,37,37",
-      "matchup_rank": 12,
-      "matchup_of": 30,
-      "matchup_tier": "preferred",
-      "status": "LOST",
-      "result": "3 REB",
-      "dk": {
-       "ladder": [
-        [
-         "3+",
-         "-910"
-        ],
-        [
-         "4+",
-         "-337"
-        ],
-        [
-         "5+",
-         "-156"
-        ],
-        [
-         "6+",
-         "+124"
-        ],
-        [
-         "7+",
-         "+228"
-        ],
-        [
-         "8+",
-         "+412"
-        ],
-        [
-         "9+",
-         "+740"
-        ],
-        [
-         "10+",
-         "+1300"
-        ],
-        [
-         "11+",
-         "+2100"
-        ]
-       ],
-       "odds": "-337",
-       "pick": "Kevin Durant 4+ reb",
-       "na": false
-      }
-     }
-    ],
-    "status": "LOST",
-    "dk_odds": null
-   },
-   "NHL": {
-    "sport": "NHL",
-    "odds": "+122",
-    "posted": "10:13 AM ET",
-    "edge_tier": null,
-    "rule": "2026-10-26",
-    "locked": true,
-    "closest": false,
-    "label": null,
-    "sgp": false,
-    "price_note": null,
-    "legs": [
-     {
-      "pick": "Alex Laferriere 2+ SOG",
-      "game": "Kings vs. Sabres 10/31 04:00 PM ET",
-      "odds": "-375",
-      "grade": "A",
-      "reason": "Hit 2+ in 9 of last 10 and 4 of last 5 (L10 avg 2.8); scout file leg (safe).",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
-      "sport": "NHL",
-      "rule": "2026-10-26",
-      "prop_type": "NHL SOG",
-      "hit10": "9/10",
-      "hit5": "4/5",
-      "season": "10/12",
-      "volume": "",
-      "matchup_rank": 20,
-      "matchup_of": 32,
-      "matchup_tier": "preferred",
-      "status": "WON",
-      "result": "3 SOG",
-      "dk": {
-       "ladder": [
-        [
-         "1+",
-         "-1600"
-        ],
-        [
-         "2+",
-         "-320"
-        ],
-        [
-         "3+",
-         "-115"
-        ],
-        [
-         "4+",
-         "+210"
-        ],
-        [
-         "5+",
-         "+475"
-        ],
-        [
-         "6+",
-         "+1000"
-        ]
-       ],
-       "odds": "-320",
-       "pick": "Alex Laferriere 2+ SOG",
-       "na": false
-      }
-     },
-     {
-      "pick": "Jason Robertson 3+ SOG",
-      "game": "Stars vs. Blue Jackets 10/31 08:00 PM ET",
-      "odds": "-275",
-      "grade": "A",
-      "reason": "Hit 3+ in 9 of last 10 and 5 of last 5 (L10 avg 3.6); scout file leg (safe).",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
-      "sport": "NHL",
-      "rule": "2026-10-26",
-      "prop_type": "NHL SOG",
-      "hit10": "9/10",
-      "hit5": "5/5",
-      "season": "10/13",
-      "volume": "",
-      "matchup_rank": 14,
-      "matchup_of": 32,
-      "matchup_tier": "preferred",
-      "status": "LOST",
-      "result": "1 SOG",
-      "dk": {
-       "ladder": [
-        [
-         "1+",
-         "-3500"
-        ],
-        [
-         "2+",
-         "-575"
-        ],
-        [
-         "3+",
-         "-200"
-        ],
-        [
-         "4+",
-         "+115"
-        ],
-        [
-         "5+",
-         "+240"
-        ],
-        [
-         "6+",
-         "+500"
-        ],
-        [
-         "7+",
-         "+1000"
-        ],
-        [
-         "8+",
-         "+2000"
-        ]
-       ],
-       "odds": "-200",
-       "pick": "Jason Robertson 3+ SOG",
-       "na": false
-      }
-     },
-     {
-      "pick": "William Nylander 2+ SOG",
-      "game": "Canucks vs. Maple Leafs 10/31 07:00 PM ET",
-      "odds": "-350",
-      "grade": "A-",
-      "reason": "Hit 2+ in 8 of last 10 and 4 of last 5 (L10 avg 3.0); scout file leg (safe).",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
-      "sport": "NHL",
-      "rule": "2026-10-26",
-      "prop_type": "NHL SOG",
-      "hit10": "8/10",
-      "hit5": "4/5",
-      "season": "11/15",
-      "volume": "",
-      "matchup_rank": 1,
-      "matchup_of": 32,
-      "matchup_tier": "preferred",
-      "status": "WON",
-      "result": "2 SOG",
-      "dk": {
-       "ladder": [
-        [
-         "1+",
-         "-2500"
-        ],
-        [
-         "2+",
-         "-450"
-        ],
-        [
-         "3+",
-         "-150"
-        ],
-        [
-         "4+",
-         "+155"
-        ],
-        [
-         "5+",
-         "+330"
-        ],
-        [
-         "6+",
-         "+700"
-        ],
-        [
-         "7+",
-         "+1500"
-        ]
-       ],
-       "odds": "-450",
-       "pick": "William Nylander 2+ SOG",
-       "na": false
-      }
-     }
-    ],
-    "status": "LOST",
-    "dk_odds": "+141"
-   },
-   "TODAY": {
-    "sport": "TODAY",
-    "odds": "+128",
-    "posted": "10:13 AM ET",
-    "edge_tier": null,
-    "rule": "2026-10-26",
-    "locked": true,
-    "closest": false,
-    "label": null,
-    "sgp": false,
-    "price_note": null,
-    "legs": [
-     {
-      "pick": "Jaden McDaniels 4+ reb",
-      "game": "Spurs vs Timberwolves 10/31 08:00 PM ET",
-      "odds": "-375",
-      "grade": "B",
-      "reason": "Hit 4+ in 9 of last 10 and 5 of last 5 (L10 avg 5.6); scout file leg (safe backup).",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
-      "sport": "NBA",
-      "rule": "2026-10-26",
-      "prop_type": "NBA reb",
-      "hit10": "9/10",
-      "hit5": "5/5",
-      "season": "6/6",
-      "volume": "",
-      "matchup_rank": 17,
-      "matchup_of": 30,
-      "matchup_tier": "preferred",
-      "status": "LOST",
-      "result": "3 REB",
-      "dk": {
-       "ladder": [
-        [
-         "3+",
-         "-1040"
-        ],
-        [
-         "4+",
-         "-418"
-        ],
-        [
-         "5+",
-         "-204"
-        ],
-        [
-         "6+",
-         "-111"
-        ],
-        [
-         "7+",
-         "+159"
-        ],
-        [
-         "8+",
-         "+271"
-        ],
-        [
-         "9+",
-         "+448"
-        ],
-        [
-         "10+",
-         "+740"
-        ],
-        [
-         "11+",
-         "+1180"
-        ],
-        [
-         "12+",
-         "+1800"
-        ],
-        [
-         "13+",
-         "+2600"
-        ]
-       ],
-       "odds": "-418",
-       "pick": "Jaden McDaniels 4+ reb",
-       "na": false
-      }
-     },
-     {
-      "pick": "Jack Quinn 2+ SOG",
-      "game": "Kings vs. Sabres 10/31 04:00 PM ET",
-      "odds": "-350",
-      "grade": "A-",
-      "reason": "Hit 2+ in 8 of last 10 and 5 of last 5 (L10 avg 2.7); scout file leg (safe).",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
-      "sport": "NHL",
-      "rule": "2026-10-26",
-      "prop_type": "NHL SOG",
-      "hit10": "8/10",
-      "hit5": "5/5",
-      "season": "11/13",
-      "volume": "",
-      "matchup_rank": 10,
-      "matchup_of": 32,
-      "matchup_tier": "preferred",
-      "status": "WON",
-      "result": "2 SOG",
-      "dk": {
-       "ladder": [
-        [
-         "1+",
-         "-1600"
-        ],
-        [
-         "2+",
-         "-310"
-        ],
-        [
-         "3+",
-         "-115"
-        ],
-        [
-         "4+",
-         "+210"
-        ],
-        [
-         "5+",
-         "+475"
-        ],
-        [
-         "6+",
-         "+1100"
-        ]
-       ],
-       "odds": "-310",
-       "pick": "Jack Quinn 2+ SOG",
-       "na": false
-      }
-     },
-     {
-      "pick": "Rickard Rakell 2+ SOG",
-      "game": "Canadiens vs. Penguins 10/31 07:00 PM ET",
-      "odds": "-250",
-      "grade": "A-",
-      "reason": "Hit 2+ in 8 of last 10 and 5 of last 5 (L10 avg 2.7); scout file leg (safe).",
-      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
-      "sport": "NHL",
-      "rule": "2026-10-26",
-      "prop_type": "NHL SOG",
-      "hit10": "8/10",
-      "hit5": "5/5",
-      "season": "11/13",
-      "volume": "",
-      "matchup_rank": 17,
-      "matchup_of": 32,
-      "matchup_tier": "preferred",
-      "status": "WON",
-      "result": "2 SOG",
-      "dk": {
-       "ladder": [
-        [
-         "1+",
-         "-1400"
-        ],
-        [
-         "2+",
-         "-275"
-        ],
-        [
-         "3+",
-         "+100"
-        ],
-        [
-         "4+",
-         "+240"
-        ],
-        [
-         "5+",
-         "+550"
-        ],
-        [
-         "6+",
-         "+1200"
-        ]
-       ],
-       "odds": "-275",
-       "pick": "Rickard Rakell 2+ SOG",
-       "na": false
-      }
-     }
-    ],
-    "status": "LOST",
-    "dk_odds": "+123"
-   }
-  },
-  "notes": {},
-  "extra": []
- },
+ "safe100": {},
  "edge": {
-  "date": "2026-10-31",
-  "picks": [
-   {
-    "sport": "NCAA F",
-    "rank": 1,
-    "game": "Syracuse vs SMU",
-    "start": "Sat 10/31 12:00 PM ET",
-    "pick": "Q1 SMU Team Total Over 7.5",
-    "hr": "+155",
-    "fair": "+129",
-    "fair_prob": 0.4365299334811531,
-    "edge": 0.11315133037694025,
-    "result": "Win (SMU 27)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +155 vs Pinnacle no-vig fair +129 (43.7%) → edge +11.32%. Clears the 4% Pinnacle edge floor at +11.32%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B",
-    "grade_why": "Edge +11.3% vs Pinnacle; game line, so the grade rests on price. Capped at B: thinner market.",
-    "big4": null,
-    "big4_only": null,
-    "dk": {
-     "odds": null,
-     "na": true
-    }
-   },
-   {
-    "sport": "NCAA F",
-    "rank": 2,
-    "game": "Navy vs Notre Dame",
-    "start": "Sat 10/31 12:00 PM ET",
-    "pick": "1H Notre Dame -17.5",
-    "hr": "+100",
-    "fair": "-112",
-    "fair_prob": 0.5293093080639476,
-    "edge": 0.05861861612789521,
-    "result": "Loss (ND 14-13 NAVY)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +100 vs Pinnacle no-vig fair -112 (52.9%) → edge +5.86%. Clears the 4% Pinnacle edge floor at +5.86%. Price +100 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B",
-    "grade_why": "Edge +5.9% vs Pinnacle; game line, so the grade rests on price. Capped at B: thinner market.",
-    "big4": null,
-    "big4_only": null,
-    "dk": {
-     "odds": "-524",
-     "na": false,
-     "edge": -0.3696774652062914
-    }
-   },
-   {
-    "sport": "NCAA F",
-    "rank": 3,
-    "game": "Western Michigan vs Bowling Green",
-    "start": "Sat 10/31 12:00 PM ET",
-    "pick": "Q1 Bowling Green ML (tie refunds)",
-    "hr": "+250",
-    "fair": "+235",
-    "fair_prob": 0.2984605717876218,
-    "edge": 0.044612001256676415,
-    "result": "Push (7-7)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +250 vs Pinnacle no-vig fair +235 (29.8%) → edge +4.46%. Clears the 4% Pinnacle edge floor at +4.46%. Price +250 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B",
-    "grade_why": "Edge +4.5% vs Pinnacle; game line, so the grade rests on price. Capped at B: thinner market.",
-    "big4": null,
-    "big4_only": null,
-    "dk": {
-     "odds": null,
-     "na": true
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 1,
-    "game": "Red Wings vs. Blues",
-    "start": "Sat 10/31 01:00 PM ET",
-    "pick": "Andrew Copp Over 0.5 Goals",
-    "hr": "+500",
-    "fair": "+371",
-    "fair_prob": 0.21244563399130145,
-    "edge": 0.2746738039478087,
-    "result": "Loss (0 G)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +500 vs Pinnacle no-vig fair +371 (21.2%) → edge +27.47%. Clears the 4% Pinnacle edge floor at +27.47%. Price +500 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "A",
-    "grade_why": "Edge +27.5% vs Pinnacle; hit in 2 of last 10, 2 of 13 this season (L10 avg 0.2).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": null,
-     "na": true,
-     "ladder": [
-      [
-       "2+",
-       "+4000"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 2,
-    "game": "Kings vs. Sabres",
-    "start": "Sat 10/31 04:00 PM ET",
-    "pick": "Josh Doan Over 0.5 Assists",
-    "hr": "+300",
-    "fair": "+223",
-    "fair_prob": 0.30945493915938144,
-    "edge": 0.23781975663752575,
-    "result": "Loss (0 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +300 vs Pinnacle no-vig fair +223 (30.9%) → edge +23.78%. Clears the 4% Pinnacle edge floor at +23.78%. Price +300 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C+",
-    "grade_why": "Edge +23.8% vs Pinnacle; hit in 1 of last 10, 1 of 13 this season (L10 avg 0.1).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "+255",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+255"
-      ]
-     ],
-     "edge": 0.09856503401580397
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 3,
-    "game": "Stars vs. Blue Jackets",
-    "start": "Sat 10/31 08:00 PM ET",
-    "pick": "Adam Fantilli Over 0.5 Assists",
-    "hr": "+200",
-    "fair": "+160",
-    "fair_prob": 0.3849398860999789,
-    "edge": 0.15481965829993682,
-    "result": "Loss (0 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +200 vs Pinnacle no-vig fair +160 (38.5%) → edge +15.48%. Clears the 4% Pinnacle edge floor at +15.48%. Price +200 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C+",
-    "grade_why": "Edge +15.5% vs Pinnacle; hit in 2 of last 10, 2 of 11 this season (L10 avg 0.2).",
-    "big4": true,
-    "big4_only": null,
-    "now": "+200",
-    "dk": {
-     "odds": "+175",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+175"
-      ],
-      [
-       "2+",
-       "+1100"
-      ]
-     ],
-     "edge": 0.058584686774941996
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 4,
-    "game": "Stars vs. Blue Jackets",
-    "start": "Sat 10/31 08:00 PM ET",
-    "pick": "Matthew Knies Over 0.5 Assists",
-    "hr": "+210",
-    "fair": "+170",
-    "fair_prob": 0.37085514834205935,
-    "edge": 0.1496509598603839,
-    "result": "Loss (0 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +210 vs Pinnacle no-vig fair +170 (37.1%) → edge +14.97%. Clears the 4% Pinnacle edge floor at +14.97%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B",
-    "grade_why": "Edge +15.0% vs Pinnacle; hit in 2 of last 10, 3 of 11 this season (L10 avg 0.2).",
-    "big4": true,
-    "big4_only": null,
-    "now": "+200",
-    "dk": {
-     "odds": "+190",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+190"
-      ],
-      [
-       "2+",
-       "+1200"
-      ]
-     ],
-     "edge": 0.07547993019197219
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 5,
-    "game": "Canadiens vs. Penguins",
-    "start": "Sat 10/31 07:00 PM ET",
-    "pick": "Noah Dobson Over 0.5 Assists",
-    "hr": "+180",
-    "fair": "+149",
-    "fair_prob": 0.4013049629009441,
-    "edge": 0.12365389612264344,
-    "result": "Loss (0 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +180 vs Pinnacle no-vig fair +149 (40.1%) → edge +12.37%. Clears the 4% Pinnacle edge floor at +12.37%. Price +180 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B+",
-    "grade_why": "Edge +12.4% vs Pinnacle; hit in 3 of last 10, 4 of 13 this season (L10 avg 0.4).",
-    "big4": true,
-    "big4_only": null,
-    "now": "+200",
-    "dk": {
-     "odds": "+165",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+165"
-      ],
-      [
-       "2+",
-       "+950"
-      ]
-     ],
-     "edge": 0.06345815168750168
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 6,
-    "game": "Kings vs. Sabres",
-    "start": "Sat 10/31 04:00 PM ET",
-    "pick": "Owen Power Over 0.5 Assists",
-    "hr": "+210",
-    "fair": "+176",
-    "fair_prob": 0.36219385995170744,
-    "edge": 0.1228009658502931,
-    "result": "Loss (0 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +210 vs Pinnacle no-vig fair +176 (36.2%) → edge +12.28%. Clears the 4% Pinnacle edge floor at +12.28%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "A",
-    "grade_why": "Edge +12.3% vs Pinnacle; hit in 3 of last 10, 6 of 13 this season (L10 avg 0.5).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "+185",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+185"
-      ],
-      [
-       "2+",
-       "+1200"
-      ]
-     ],
-     "edge": 0.032252500862366196
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 7,
-    "game": "Sharks vs. Senators",
-    "start": "Sat 10/31 04:00 PM ET",
-    "pick": "Tim Stutzle Under 0.5 Assists",
-    "hr": "+125",
-    "fair": "+102",
-    "fair_prob": 0.4939310568053083,
-    "edge": 0.11134487781194369,
-    "result": "Loss (1 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +125 vs Pinnacle no-vig fair +102 (49.4%) → edge +11.13%. Clears the 4% Pinnacle edge floor at +11.13%. Price +125 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B+",
-    "grade_why": "Edge +11.1% vs Pinnacle; hit in 4 of last 10, 5 of 14 this season (L10 avg 0.8).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "+105",
-     "na": false,
-     "ladder": [
-      [
-       "u0.5",
-       "+105"
-      ]
-     ],
-     "edge": 0.012558666450881883
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 8,
-    "game": "Bruins vs. Blackhawks",
-    "start": "Sat 10/31 01:00 PM ET",
-    "pick": "Patrick Kane Over 0.5 Assists",
-    "hr": "+155",
-    "fair": "+135",
-    "fair_prob": 0.4248366013071895,
-    "edge": 0.08333333333333304,
-    "result": "Win (1 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +155 vs Pinnacle no-vig fair +135 (42.5%) → edge +8.33%. Clears the 4% Pinnacle edge floor at +8.33%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "A",
-    "grade_why": "Edge +8.3% vs Pinnacle; hit in 6 of last 10, 6 of 13 this season (L10 avg 0.7).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "+100",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+100"
-      ],
-      [
-       "2+",
-       "+550"
-      ]
-     ],
-     "edge": -0.15032679738562105
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 9,
-    "game": "Canadiens vs. Penguins",
-    "start": "Sat 10/31 07:00 PM ET",
-    "pick": "Sidney Crosby Over 0.5 Assists",
-    "hr": "+150",
-    "fair": "+131",
-    "fair_prob": 0.43297422610118635,
-    "edge": 0.0824355652529658,
-    "result": "Win (2 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +150 vs Pinnacle no-vig fair +131 (43.3%) → edge +8.24%. Clears the 4% Pinnacle edge floor at +8.24%. Price +150 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C",
-    "grade_why": "Edge +8.2% vs Pinnacle; hit in 2 of last 10, 4 of 13 this season (L10 avg 0.2).",
-    "big4": true,
-    "big4_only": null,
-    "now": "-105",
-    "dk": {
-     "odds": "+130",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+130"
-      ],
-      [
-       "2+",
-       "+750"
-      ]
-     ],
-     "edge": -0.004159279967271501
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 10,
-    "game": "Bruins vs. Blackhawks",
-    "start": "Sat 10/31 01:00 PM ET",
-    "pick": "Tyler Bertuzzi Over 0.5 Assists",
-    "hr": "+240",
-    "fair": "+217",
-    "fair_prob": 0.31581264605276527,
-    "edge": 0.07376299657940177,
-    "result": "Win (1 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +240 vs Pinnacle no-vig fair +217 (31.6%) → edge +7.38%. Clears the 4% Pinnacle edge floor at +7.38%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B",
-    "grade_why": "Edge +7.4% vs Pinnacle; hit in 3 of last 10, 3 of 13 this season (L10 avg 0.3).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "+190",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+190"
-      ],
-      [
-       "2+",
-       "+1200"
-      ]
-     ],
-     "edge": -0.08414332644698075
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 11,
-    "game": "Canadiens vs. Penguins",
-    "start": "Sat 10/31 07:00 PM ET",
-    "pick": "Rickard Rakell Over 0.5 Assists",
-    "hr": "+200",
-    "fair": "+182",
-    "fair_prob": 0.3551440917437245,
-    "edge": 0.06543227523117356,
-    "result": "Win (1 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +200 vs Pinnacle no-vig fair +182 (35.5%) → edge +6.54%. Clears the 4% Pinnacle edge floor at +6.54%. Price +200 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C",
-    "grade_why": "Edge +6.5% vs Pinnacle; hit in 1 of last 10, 3 of 13 this season (L10 avg 0.1).",
-    "big4": true,
-    "big4_only": null,
-    "now": "+190",
-    "dk": {
-     "odds": "+155",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+155"
-      ],
-      [
-       "2+",
-       "+900"
-      ]
-     ],
-     "edge": -0.09438256605350248
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 12,
-    "game": "Kings vs. Sabres",
-    "start": "Sat 10/31 04:00 PM ET",
-    "pick": "Adrian Kempe Over 0.5 Assists",
-    "hr": "+160",
-    "fair": "+146",
-    "fair_prob": 0.40640759418570166,
-    "edge": 0.056659744882824326,
-    "result": "Void",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +160 vs Pinnacle no-vig fair +146 (40.6%) → edge +5.67%. Clears the 4% Pinnacle edge floor at +5.67%. Price +160 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B+",
-    "grade_why": "Edge +5.7% vs Pinnacle; hit in 4 of last 10, 5 of 12 this season (L10 avg 0.4).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "+135",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+135"
-      ],
-      [
-       "2+",
-       "+750"
-      ]
-     ],
-     "edge": -0.0449421536636011
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 13,
-    "game": "Canadiens vs. Penguins",
-    "start": "Sat 10/31 07:00 PM ET",
-    "pick": "Lane Hutson Under 1.5 Shots On Goal",
-    "hr": "+110",
-    "fair": "-101",
-    "fair_prob": 0.5020496003279361,
-    "edge": 0.05430416068866584,
-    "result": "Win (1 SOG)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +110 vs Pinnacle no-vig fair -101 (50.2%) → edge +5.43%. Clears the 4% Pinnacle edge floor at +5.43%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C+",
-    "grade_why": "Edge +5.4% vs Pinnacle; hit in 4 of last 10, 5 of 13 this season (L10 avg 1.9).",
-    "big4": true,
-    "big4_only": null,
-    "now": "-110",
-    "dk": {
-     "odds": "-130",
-     "na": false,
-     "ladder": [
-      [
-       "u1.5",
-       "-130"
-      ]
-     ],
-     "edge": -0.11175839941980537
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 14,
-    "game": "Sharks vs. Senators",
-    "start": "Sat 10/31 04:00 PM ET",
-    "pick": "Shane Pinto Over 0.5 Assists",
-    "hr": "+225",
-    "fair": "+210",
-    "fair_prob": 0.3222379603399434,
-    "edge": 0.04727337110481611,
-    "result": "Win (1 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +225 vs Pinnacle no-vig fair +210 (32.2%) → edge +4.73%. Clears the 4% Pinnacle edge floor at +4.73%. Price +225 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C+",
-    "grade_why": "Edge +4.7% vs Pinnacle; hit in 2 of last 10, 5 of 14 this season (L10 avg 0.2).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "+215",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+215"
-      ],
-      [
-       "2+",
-       "+1500"
-      ]
-     ],
-     "edge": 0.015049575070821719
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 15,
-    "game": "Bruins vs. Blackhawks",
-    "start": "Sat 10/31 01:00 PM ET",
-    "pick": "Morgan Geekie Over 0.5 Goals",
-    "hr": "+210",
-    "fair": "+196",
-    "fair_prob": 0.3373493975903614,
-    "edge": 0.04578313253012034,
-    "result": "Win (1 G)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +210 vs Pinnacle no-vig fair +196 (33.7%) → edge +4.58%. Clears the 4% Pinnacle edge floor at +4.58%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C",
-    "grade_why": "Edge +4.6% vs Pinnacle; hit in 1 of last 10, 1 of 14 this season (L10 avg 0.1).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": null,
-     "na": true,
-     "ladder": [
-      [
-       "2+",
-       "+1200"
-      ],
-      [
-       "3+",
-       "+6500"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 16,
-    "game": "Red Wings vs. Blues",
-    "start": "Sat 10/31 01:00 PM ET",
-    "pick": "Moritz Seider Over 0.5 Assists",
-    "hr": "+120",
-    "fair": "+111",
-    "fair_prob": 0.4747311393223902,
-    "edge": 0.04440850650925854,
-    "result": "Win (1 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +120 vs Pinnacle no-vig fair +111 (47.5%) → edge +4.44%. Clears the 4% Pinnacle edge floor at +4.44%. Price +120 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B+",
-    "grade_why": "Edge +4.4% vs Pinnacle; hit in 5 of last 10, 6 of 13 this season (L10 avg 0.6).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "-105",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "-105"
-      ],
-      [
-       "2+",
-       "+500"
-      ]
-     ],
-     "edge": -0.07314396608485729
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 17,
-    "game": "Canadiens vs. Penguins",
-    "start": "Sat 10/31 07:00 PM ET",
-    "pick": "Josh Anderson Under 1.5 Shots On Goal",
-    "hr": "+110",
-    "fair": "+102",
-    "fair_prob": 0.4959548561951377,
-    "edge": 0.041505198009789135,
-    "result": "Loss (2 SOG)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +110 vs Pinnacle no-vig fair +102 (49.6%) → edge +4.15%. Clears the 4% Pinnacle edge floor at +4.15%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C",
-    "grade_why": "Edge +4.2% vs Pinnacle; hit in 2 of last 10, 3 of 13 this season (L10 avg 2.2).",
-    "big4": true,
-    "big4_only": null,
-    "now": "+100",
-    "dk": {
-     "odds": "-105",
-     "na": false,
-     "ladder": [
-      [
-       "u1.5",
-       "-105"
-      ]
-     ],
-     "edge": -0.031707185523778825
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 18,
-    "game": "Islanders vs. Oilers",
-    "start": "Sat 10/31 02:00 PM ET",
-    "pick": "Ryan Nugent-Hopkins Over 0.5 Assists",
-    "hr": "+155",
-    "fair": "+145",
-    "fair_prob": 0.40796807986012523,
-    "edge": 0.040318603643319184,
-    "result": "Loss (0 AST)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +155 vs Pinnacle no-vig fair +145 (40.8%) → edge +4.03%. Clears the 4% Pinnacle edge floor at +4.03%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "C",
-    "grade_why": "Edge +4.0% vs Pinnacle; hit in 2 of last 10, 2 of 13 this season (L10 avg 0.2).",
-    "big4": true,
-    "big4_only": null,
-    "dk": {
-     "odds": "+150",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "+150"
-      ],
-      [
-       "2+",
-       "+900"
-      ]
-     ],
-     "edge": 0.01992019965031311
-    }
-   },
-   {
-    "sport": "NBA",
-    "rank": 1,
-    "game": "Spurs vs Timberwolves",
-    "start": "Sat 10/31 08:00 PM ET",
-    "pick": "Timberwolves ML",
-    "hr": "+450",
-    "fair": "+422",
-    "fair_prob": 0.19153923854417473,
-    "edge": 0.053465811992960965,
-    "result": "Loss (MIN 111-121 SA)",
-    "picked_et": "7:09 AM ET",
-    "why": "Hard Rock +450 vs Pinnacle no-vig fair +422 (19.2%) → edge +5.35%. Clears the 4% Pinnacle edge floor at +5.35%. Price +450 is inside the preferred band (about -130 or better, or plus money).",
-    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-    "grade": "B+",
-    "grade_why": "Edge +5.3% vs Pinnacle; game line, so the grade rests on price.",
-    "big4": true,
-    "big4_only": null,
-    "now": "+450",
-    "dk": {
-     "odds": "+440",
-     "na": false,
-     "edge": 0.03431188813854358
-    }
-   }
-  ],
+  "date": "2026-11-01",
+  "picks": [],
   "big4": {
-   "date": "2026-10-31",
-   "picks": [
-    {
-     "sport": "NHL",
-     "b4rank": 1,
-     "game": "Red Wings vs. Blues",
-     "start": "Sat 10/31 01:00 PM ET",
-     "pick": "Andrew Copp Over 0.5 Goals",
-     "hr": "+500",
-     "fair": "+371",
-     "fair_prob": 0.21244563399130145,
-     "edge": 0.2746738039478087,
-     "result": "Loss (0 G)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +500 vs Pinnacle no-vig fair +371 (21.2%) → edge +27.47%. Clears the 4% Pinnacle edge floor at +27.47%. Price +500 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "A",
-     "grade_why": "Edge +27.5% vs Pinnacle; hit in 2 of last 10, 2 of 13 this season (L10 avg 0.2).",
-     "dk": {
-      "odds": null,
-      "na": true,
-      "ladder": [
-       [
-        "2+",
-        "+4000"
-       ]
-      ]
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 2,
-     "game": "Kings vs. Sabres",
-     "start": "Sat 10/31 04:00 PM ET",
-     "pick": "Josh Doan Over 0.5 Assists",
-     "hr": "+300",
-     "fair": "+223",
-     "fair_prob": 0.30945493915938144,
-     "edge": 0.23781975663752575,
-     "result": "Loss (0 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +300 vs Pinnacle no-vig fair +223 (30.9%) → edge +23.78%. Clears the 4% Pinnacle edge floor at +23.78%. Price +300 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C+",
-     "grade_why": "Edge +23.8% vs Pinnacle; hit in 1 of last 10, 1 of 13 this season (L10 avg 0.1).",
-     "dk": {
-      "odds": "+255",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+255"
-       ]
-      ],
-      "edge": 0.09856503401580397
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 3,
-     "game": "Stars vs. Blue Jackets",
-     "start": "Sat 10/31 08:00 PM ET",
-     "pick": "Adam Fantilli Over 0.5 Assists",
-     "hr": "+200",
-     "fair": "+160",
-     "fair_prob": 0.3849398860999789,
-     "edge": 0.15481965829993682,
-     "result": "Loss (0 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +200 vs Pinnacle no-vig fair +160 (38.5%) → edge +15.48%. Clears the 4% Pinnacle edge floor at +15.48%. Price +200 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C+",
-     "grade_why": "Edge +15.5% vs Pinnacle; hit in 2 of last 10, 2 of 11 this season (L10 avg 0.2).",
-     "dk": {
-      "odds": "+175",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+175"
-       ],
-       [
-        "2+",
-        "+1100"
-       ]
-      ],
-      "edge": 0.058584686774941996
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 4,
-     "game": "Stars vs. Blue Jackets",
-     "start": "Sat 10/31 08:00 PM ET",
-     "pick": "Matthew Knies Over 0.5 Assists",
-     "hr": "+210",
-     "fair": "+170",
-     "fair_prob": 0.37085514834205935,
-     "edge": 0.1496509598603839,
-     "result": "Loss (0 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +210 vs Pinnacle no-vig fair +170 (37.1%) → edge +14.97%. Clears the 4% Pinnacle edge floor at +14.97%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "B",
-     "grade_why": "Edge +15.0% vs Pinnacle; hit in 2 of last 10, 3 of 11 this season (L10 avg 0.2).",
-     "dk": {
-      "odds": "+190",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+190"
-       ],
-       [
-        "2+",
-        "+1200"
-       ]
-      ],
-      "edge": 0.07547993019197219
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 5,
-     "game": "Canadiens vs. Penguins",
-     "start": "Sat 10/31 07:00 PM ET",
-     "pick": "Noah Dobson Over 0.5 Assists",
-     "hr": "+180",
-     "fair": "+149",
-     "fair_prob": 0.4013049629009441,
-     "edge": 0.12365389612264344,
-     "result": "Loss (0 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +180 vs Pinnacle no-vig fair +149 (40.1%) → edge +12.37%. Clears the 4% Pinnacle edge floor at +12.37%. Price +180 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "B+",
-     "grade_why": "Edge +12.4% vs Pinnacle; hit in 3 of last 10, 4 of 13 this season (L10 avg 0.4).",
-     "dk": {
-      "odds": "+165",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+165"
-       ],
-       [
-        "2+",
-        "+950"
-       ]
-      ],
-      "edge": 0.06345815168750168
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 6,
-     "game": "Kings vs. Sabres",
-     "start": "Sat 10/31 04:00 PM ET",
-     "pick": "Owen Power Over 0.5 Assists",
-     "hr": "+210",
-     "fair": "+176",
-     "fair_prob": 0.36219385995170744,
-     "edge": 0.1228009658502931,
-     "result": "Loss (0 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +210 vs Pinnacle no-vig fair +176 (36.2%) → edge +12.28%. Clears the 4% Pinnacle edge floor at +12.28%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "A",
-     "grade_why": "Edge +12.3% vs Pinnacle; hit in 3 of last 10, 6 of 13 this season (L10 avg 0.5).",
-     "dk": {
-      "odds": "+185",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+185"
-       ],
-       [
-        "2+",
-        "+1200"
-       ]
-      ],
-      "edge": 0.032252500862366196
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 7,
-     "game": "Sharks vs. Senators",
-     "start": "Sat 10/31 04:00 PM ET",
-     "pick": "Tim Stutzle Under 0.5 Assists",
-     "hr": "+125",
-     "fair": "+102",
-     "fair_prob": 0.4939310568053083,
-     "edge": 0.11134487781194369,
-     "result": "Loss (1 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +125 vs Pinnacle no-vig fair +102 (49.4%) → edge +11.13%. Clears the 4% Pinnacle edge floor at +11.13%. Price +125 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "B+",
-     "grade_why": "Edge +11.1% vs Pinnacle; hit in 4 of last 10, 5 of 14 this season (L10 avg 0.8).",
-     "dk": {
-      "odds": "+105",
-      "na": false,
-      "ladder": [
-       [
-        "u0.5",
-        "+105"
-       ]
-      ],
-      "edge": 0.012558666450881883
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 8,
-     "game": "Bruins vs. Blackhawks",
-     "start": "Sat 10/31 01:00 PM ET",
-     "pick": "Patrick Kane Over 0.5 Assists",
-     "hr": "+155",
-     "fair": "+135",
-     "fair_prob": 0.4248366013071895,
-     "edge": 0.08333333333333304,
-     "result": "Win (1 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +155 vs Pinnacle no-vig fair +135 (42.5%) → edge +8.33%. Clears the 4% Pinnacle edge floor at +8.33%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "A",
-     "grade_why": "Edge +8.3% vs Pinnacle; hit in 6 of last 10, 6 of 13 this season (L10 avg 0.7).",
-     "dk": {
-      "odds": "+100",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+100"
-       ],
-       [
-        "2+",
-        "+550"
-       ]
-      ],
-      "edge": -0.15032679738562105
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 9,
-     "game": "Canadiens vs. Penguins",
-     "start": "Sat 10/31 07:00 PM ET",
-     "pick": "Sidney Crosby Over 0.5 Assists",
-     "hr": "+150",
-     "fair": "+131",
-     "fair_prob": 0.43297422610118635,
-     "edge": 0.0824355652529658,
-     "result": "Win (2 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +150 vs Pinnacle no-vig fair +131 (43.3%) → edge +8.24%. Clears the 4% Pinnacle edge floor at +8.24%. Price +150 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C",
-     "grade_why": "Edge +8.2% vs Pinnacle; hit in 2 of last 10, 4 of 13 this season (L10 avg 0.2).",
-     "dk": {
-      "odds": "+130",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+130"
-       ],
-       [
-        "2+",
-        "+750"
-       ]
-      ],
-      "edge": -0.004159279967271501
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 10,
-     "game": "Bruins vs. Blackhawks",
-     "start": "Sat 10/31 01:00 PM ET",
-     "pick": "Tyler Bertuzzi Over 0.5 Assists",
-     "hr": "+240",
-     "fair": "+217",
-     "fair_prob": 0.31581264605276527,
-     "edge": 0.07376299657940177,
-     "result": "Win (1 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +240 vs Pinnacle no-vig fair +217 (31.6%) → edge +7.38%. Clears the 4% Pinnacle edge floor at +7.38%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "B",
-     "grade_why": "Edge +7.4% vs Pinnacle; hit in 3 of last 10, 3 of 13 this season (L10 avg 0.3).",
-     "dk": {
-      "odds": "+190",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+190"
-       ],
-       [
-        "2+",
-        "+1200"
-       ]
-      ],
-      "edge": -0.08414332644698075
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 11,
-     "game": "Canadiens vs. Penguins",
-     "start": "Sat 10/31 07:00 PM ET",
-     "pick": "Rickard Rakell Over 0.5 Assists",
-     "hr": "+200",
-     "fair": "+182",
-     "fair_prob": 0.3551440917437245,
-     "edge": 0.06543227523117356,
-     "result": "Win (1 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +200 vs Pinnacle no-vig fair +182 (35.5%) → edge +6.54%. Clears the 4% Pinnacle edge floor at +6.54%. Price +200 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C",
-     "grade_why": "Edge +6.5% vs Pinnacle; hit in 1 of last 10, 3 of 13 this season (L10 avg 0.1).",
-     "dk": {
-      "odds": "+155",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+155"
-       ],
-       [
-        "2+",
-        "+900"
-       ]
-      ],
-      "edge": -0.09438256605350248
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 12,
-     "game": "Kings vs. Sabres",
-     "start": "Sat 10/31 04:00 PM ET",
-     "pick": "Adrian Kempe Over 0.5 Assists",
-     "hr": "+160",
-     "fair": "+146",
-     "fair_prob": 0.40640759418570166,
-     "edge": 0.056659744882824326,
-     "result": "Void",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +160 vs Pinnacle no-vig fair +146 (40.6%) → edge +5.67%. Clears the 4% Pinnacle edge floor at +5.67%. Price +160 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "B+",
-     "grade_why": "Edge +5.7% vs Pinnacle; hit in 4 of last 10, 5 of 12 this season (L10 avg 0.4).",
-     "dk": {
-      "odds": "+135",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+135"
-       ],
-       [
-        "2+",
-        "+750"
-       ]
-      ],
-      "edge": -0.0449421536636011
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 13,
-     "game": "Canadiens vs. Penguins",
-     "start": "Sat 10/31 07:00 PM ET",
-     "pick": "Lane Hutson Under 1.5 Shots On Goal",
-     "hr": "+110",
-     "fair": "-101",
-     "fair_prob": 0.5020496003279361,
-     "edge": 0.05430416068866584,
-     "result": "Win (1 SOG)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +110 vs Pinnacle no-vig fair -101 (50.2%) → edge +5.43%. Clears the 4% Pinnacle edge floor at +5.43%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C+",
-     "grade_why": "Edge +5.4% vs Pinnacle; hit in 4 of last 10, 5 of 13 this season (L10 avg 1.9).",
-     "dk": {
-      "odds": "-130",
-      "na": false,
-      "ladder": [
-       [
-        "u1.5",
-        "-130"
-       ]
-      ],
-      "edge": -0.11175839941980537
-     }
-    },
-    {
-     "sport": "NBA",
-     "b4rank": 14,
-     "game": "Spurs vs Timberwolves",
-     "start": "Sat 10/31 08:00 PM ET",
-     "pick": "Timberwolves ML",
-     "hr": "+450",
-     "fair": "+422",
-     "fair_prob": 0.19153923854417473,
-     "edge": 0.053465811992960965,
-     "result": "Loss (MIN 111-121 SA)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +450 vs Pinnacle no-vig fair +422 (19.2%) → edge +5.35%. Clears the 4% Pinnacle edge floor at +5.35%. Price +450 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "B+",
-     "grade_why": "Edge +5.3% vs Pinnacle; game line, so the grade rests on price.",
-     "dk": {
-      "odds": "+440",
-      "na": false,
-      "edge": 0.03431188813854358
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 15,
-     "game": "Sharks vs. Senators",
-     "start": "Sat 10/31 04:00 PM ET",
-     "pick": "Shane Pinto Over 0.5 Assists",
-     "hr": "+225",
-     "fair": "+210",
-     "fair_prob": 0.3222379603399434,
-     "edge": 0.04727337110481611,
-     "result": "Win (1 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +225 vs Pinnacle no-vig fair +210 (32.2%) → edge +4.73%. Clears the 4% Pinnacle edge floor at +4.73%. Price +225 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C+",
-     "grade_why": "Edge +4.7% vs Pinnacle; hit in 2 of last 10, 5 of 14 this season (L10 avg 0.2).",
-     "dk": {
-      "odds": "+215",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+215"
-       ],
-       [
-        "2+",
-        "+1500"
-       ]
-      ],
-      "edge": 0.015049575070821719
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 16,
-     "game": "Bruins vs. Blackhawks",
-     "start": "Sat 10/31 01:00 PM ET",
-     "pick": "Morgan Geekie Over 0.5 Goals",
-     "hr": "+210",
-     "fair": "+196",
-     "fair_prob": 0.3373493975903614,
-     "edge": 0.04578313253012034,
-     "result": "Win (1 G)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +210 vs Pinnacle no-vig fair +196 (33.7%) → edge +4.58%. Clears the 4% Pinnacle edge floor at +4.58%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C",
-     "grade_why": "Edge +4.6% vs Pinnacle; hit in 1 of last 10, 1 of 14 this season (L10 avg 0.1).",
-     "dk": {
-      "odds": null,
-      "na": true,
-      "ladder": [
-       [
-        "2+",
-        "+1200"
-       ],
-       [
-        "3+",
-        "+6500"
-       ]
-      ]
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 17,
-     "game": "Red Wings vs. Blues",
-     "start": "Sat 10/31 01:00 PM ET",
-     "pick": "Moritz Seider Over 0.5 Assists",
-     "hr": "+120",
-     "fair": "+111",
-     "fair_prob": 0.4747311393223902,
-     "edge": 0.04440850650925854,
-     "result": "Win (1 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +120 vs Pinnacle no-vig fair +111 (47.5%) → edge +4.44%. Clears the 4% Pinnacle edge floor at +4.44%. Price +120 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "B+",
-     "grade_why": "Edge +4.4% vs Pinnacle; hit in 5 of last 10, 6 of 13 this season (L10 avg 0.6).",
-     "dk": {
-      "odds": "-105",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "-105"
-       ],
-       [
-        "2+",
-        "+500"
-       ]
-      ],
-      "edge": -0.07314396608485729
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 18,
-     "game": "Canadiens vs. Penguins",
-     "start": "Sat 10/31 07:00 PM ET",
-     "pick": "Josh Anderson Under 1.5 Shots On Goal",
-     "hr": "+110",
-     "fair": "+102",
-     "fair_prob": 0.4959548561951377,
-     "edge": 0.041505198009789135,
-     "result": "Loss (2 SOG)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +110 vs Pinnacle no-vig fair +102 (49.6%) → edge +4.15%. Clears the 4% Pinnacle edge floor at +4.15%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C",
-     "grade_why": "Edge +4.2% vs Pinnacle; hit in 2 of last 10, 3 of 13 this season (L10 avg 2.2).",
-     "dk": {
-      "odds": "-105",
-      "na": false,
-      "ladder": [
-       [
-        "u1.5",
-        "-105"
-       ]
-      ],
-      "edge": -0.031707185523778825
-     }
-    },
-    {
-     "sport": "NHL",
-     "b4rank": 19,
-     "game": "Islanders vs. Oilers",
-     "start": "Sat 10/31 02:00 PM ET",
-     "pick": "Ryan Nugent-Hopkins Over 0.5 Assists",
-     "hr": "+155",
-     "fair": "+145",
-     "fair_prob": 0.40796807986012523,
-     "edge": 0.040318603643319184,
-     "result": "Loss (0 AST)",
-     "picked_et": "7:09 AM ET",
-     "why": "Hard Rock +155 vs Pinnacle no-vig fair +145 (40.8%) → edge +4.03%. Clears the 4% Pinnacle edge floor at +4.03%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
-     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
-     "grade": "C",
-     "grade_why": "Edge +4.0% vs Pinnacle; hit in 2 of last 10, 2 of 13 this season (L10 avg 0.2).",
-     "dk": {
-      "odds": "+150",
-      "na": false,
-      "ladder": [
-       [
-        "1+",
-        "+150"
-       ],
-       [
-        "2+",
-        "+900"
-       ]
-      ],
-      "edge": 0.01992019965031311
-     }
-    }
-   ]
+   "date": "2026-11-01",
+   "picks": []
   }
  },
  "safe100_record": {
@@ -16138,7 +14015,7 @@
       "scale": "N/of, higher = more allowed (LineMate order)"
      },
      "fav": "LAR",
-     "spread": -6.5,
+     "spread": -6.0,
      "total": 45.0,
      "team_totals": {
       "LAC": 19.5,
@@ -16177,10 +14054,10 @@
       ]
      },
      "weather": {
-      "text": "Partly sunny",
-      "temp": 73,
-      "wind_mph": 12,
-      "wind_dir": 248
+      "text": "Mostly sunny",
+      "temp": 72,
+      "wind_mph": 18,
+      "wind_dir": 267
      },
      "why_from": "scout"
     },
@@ -16274,9 +14151,9 @@
      },
      "weather": {
       "text": "Partly sunny",
-      "temp": 65,
+      "temp": 68,
       "wind_mph": 9,
-      "wind_dir": 209
+      "wind_dir": 207
      },
      "why_from": "scout"
     },
@@ -16348,12 +14225,6 @@
      "out": {
       "DEN": [
        {
-        "name": "RJ Harvey",
-        "status": "Out",
-        "pos": "RB",
-        "date": "2026-10-30"
-       },
-       {
         "name": "Jaylen Waddle",
         "status": "Questionable",
         "pos": "WR",
@@ -16364,9 +14235,9 @@
      },
      "weather": {
       "text": "Intermittent clouds",
-      "temp": 64,
-      "wind_mph": 9,
-      "wind_dir": 167
+      "temp": 62,
+      "wind_mph": 7,
+      "wind_dir": 13
      },
      "why_from": "scout"
     },
@@ -16421,7 +14292,7 @@
       "scale": "N/of, higher = more allowed (LineMate order)"
      },
      "fav": "WAS",
-     "spread": -6.0,
+     "spread": -5.5,
      "total": 40.0,
      "team_totals": {
       "PHI": 16.5,
@@ -16472,10 +14343,10 @@
       ]
      },
      "weather": {
-      "text": "Partly cloudy",
+      "text": "Mostly cloudy",
       "temp": 50,
       "wind_mph": 4,
-      "wind_dir": 140
+      "wind_dir": 129
      },
      "why_from": "scout"
     },
@@ -16557,9 +14428,9 @@
      },
      "weather": {
       "text": "Mostly sunny",
-      "temp": 62,
+      "temp": 60,
       "wind_mph": 3,
-      "wind_dir": 292
+      "wind_dir": 309
      },
      "why_from": "scout"
     },
@@ -16614,8 +14485,8 @@
       "scale": "N/of, higher = more allowed (LineMate order)"
      },
      "fav": "CIN",
-     "spread": -11.5,
-     "total": 47.0,
+     "spread": -12.5,
+     "total": 46.5,
      "team_totals": {
       "CIN": 29.5,
       "TEN": 16.5
@@ -16632,6 +14503,12 @@
       "CIN": [],
       "TEN": [
        {
+        "name": "Carnell Tate",
+        "status": "Out",
+        "pos": "WR",
+        "date": "2026-10-31"
+       },
+       {
         "name": "Calvin Ridley",
         "status": "Questionable",
         "pos": "WR",
@@ -16642,20 +14519,14 @@
         "status": "Out",
         "pos": "RB",
         "date": "2026-10-30"
-       },
-       {
-        "name": "Carnell Tate",
-        "status": "Out",
-        "pos": "WR",
-        "date": "2026-10-30"
        }
       ]
      },
      "weather": {
       "text": "Cloudy",
       "temp": 68,
-      "wind_mph": 2,
-      "wind_dir": 272
+      "wind_mph": 5,
+      "wind_dir": 209
      },
      "why_from": "scout"
     },
@@ -16711,7 +14582,7 @@
      },
      "fav": "DET",
      "spread": -3.5,
-     "total": 46.0,
+     "total": 45.5,
      "team_totals": {
       "DET": 24.5,
       "MIN": 21.5
@@ -16754,107 +14625,9 @@
   "dk_odds": null
  },
  "first_blood": {
-  "name": "First Blood",
   "date": "2026-10-31",
-  "title": "First Blood · NBA Sat Oct 31 · Locked Sat Oct 31, 10:03 AM ET, final",
-  "sport": "NBA",
-  "thin_slate": false,
-  "label": null,
-  "stake_u": 1.0,
-  "locked_at": "Sat Oct 31, 10:03 AM ET",
-  "final": true,
-  "no_swap": true,
-  "full_locked": true,
-  "lock_note": "Locked 10:00 AM ET run; final, no swaps (RULEBOOK §22).",
-  "status": "L",
-  "odds": "~+153,462",
-  "odds_note": "Estimated from single-leg Hard Rock prices; confirm the slip price.",
-  "why": "Locked Sat Oct 31, 10:03 AM ET, final. No swaps. Rules (RULEBOOK §22, First Blood): score = 35% L10 first-scorer rate, 25% usage/minutes role, 20% matchup (opp PPG allowed), 10% team implied total, 10% recent form (L5 PPG); each normalized 0-1 across the slate; +5 primary ball-handler. Real Hard Rock First Player To Score prices +400..+1500 only; projected starters with >=1 first score in L10 or a top-2 first-unit shot role; no Questionable/Day-To-Day/Doubtful/Out (ESPN at lock). One leg per game; 4 preferred, max 8 (legs 5-8 within 8 points of leg 4). Isolated: does not count against the one-prop-type rule. Locked 10:00 AM ET, final, no swaps. Settlement (Hard Rock): a leg is void if the player does not start or enters after the first point; FTs count as the first point. 1u, units only. Sources: Hard Rock 2026-10-31 10:02 ET, ESPN box scores + play-by-play (L10), ESPN injuries at run. Estimated parlay = product of single prices (Hard Rock SGP pricing may differ). Ranking: 1. ✔ Deni Avdija POR +550: 67.3 | 2. ✔ Evan Mobley CLE +425: 67.3 | 3. ✔ Zach Edey MEM +500: 66.9 | 4. · James Harden CLE +750: 66.9 | 5. · Ty Jerome MEM +425: 66.1 (ESPN Day-To-Day) | 6. ✔ Jalen Johnson ATL +650: 64.6 | 7. · Zach LaVine SAC +1000: 61.9 | 8. · Zion Williamson NO +550: 61.5 | 9. · Domantas Sabonis SAC +850: 59.3 | 10. · Peyton Watson CLE +900: 54.8 | 11. · Jrue Holiday POR +650: 54.3 (not a projected starter) | 12. · Dyson Daniels ATL +1000: 54.3 | 13. · Tyrese Maxey PHI +475: 53.8 | 14. · Donovan Mitchell CLE +575: 52.9 | 15. · Jarrett Allen CLE +450: 52.9 | 16. · Donovan Clingan POR +800: 52.7 | 17. · Tyler Herro MIL +750: 51.6 | 18. · Cameron Boozer MEM +575: 51.1 (0 first-scorer L10 and not a top-2 first-unit shot taker) | 19. · Brandon Miller CHA +500: 50.0 | 20. · Darius Acuff Jr. SAC +800: 49.9 | 21. · Damian Lillard POR +600: 49.5 | 22. · Nickeil Alexander-Walker ATL +650: 49.3 | 23. · Cedric Coward MEM +650: 48.8 | 24. · Jeremiah Fears NO +650: 47.1 | 25. · Trey Murphy III NO +650: 46.6",
-  "settlement": "Hard Rock: void if the player does not start or comes on after the first point; first point = first made FG or FT.",
-  "legs": [
-   {
-    "pick": "Deni Avdija first point scorer",
-    "player": "Deni Avdija",
-    "athlete_id": "4683021",
-    "team": "POR",
-    "opp": "UTAH",
-    "game": "POR @ UTAH 3:00 PM ET",
-    "espn_event": "401909896",
-    "tip_iso": "2026-10-31T15:00-04:00",
-    "odds": "+550",
-    "book": "Hard Rock",
-    "market": "First Player To Score",
-    "grade": "B",
-    "score": 67.3,
-    "status": "L",
-    "result": "First point: Damian Lillard (Damian Lillard makes 21-foot pullup jump shot)",
-    "why": "Volume: L10 33.4 min, 16.0 FGA/g, 22.7 PPG, started 10/10 | First scorer 1/10 L10 (team scored first 4/10)\nMatchup: UTAH allows 127.5 PPG L10 (rank 1/14 on tonight's slate, 1 = allows most)\nContext: POR -8.5 / O/U 231.5 (TT 120.5) | Away · tip 3:00 PM ET\nInjuries: none | Team out: Robert Williams III, Chris Youngblood, Ja Morant | Opp out: Lauri Markkanen, Jaren Jackson Jr., Trey Alexander\nWeather: Indoor (neutral)\nRisk: long price +550: one possession decides it\nFormula: [B] Score 67.3/100 (rank 1 of 58). L10 first-scorer 1/10 (10%); role 33.4 min, usage 22.5/g; opp allows 127.5 PPG; team total 120.5 (Hard Rock team total); L5 22.6 PPG. Bonus +5 (primary ball-handler).",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
-   },
-   {
-    "pick": "Evan Mobley first point scorer",
-    "player": "Evan Mobley",
-    "athlete_id": "4432158",
-    "team": "CLE",
-    "opp": "MIL",
-    "game": "CLE @ MIL 8:00 PM ET",
-    "espn_event": "401909900",
-    "tip_iso": "2026-10-31T20:00-04:00",
-    "odds": "+425",
-    "book": "Hard Rock",
-    "market": "First Player To Score",
-    "grade": "B",
-    "score": 67.3,
-    "status": "Pending",
-    "result": null,
-    "why": "Volume: L10 35.4 min, 12.1 FGA/g, 17.4 PPG, started 10/10 | First scorer 3/10 L10 (team scored first 8/10)\nMatchup: MIL allows 120.3 PPG L10 (rank 5/14 on tonight's slate, 1 = allows most)\nContext: CLE -9.5 / O/U 235.5 (TT 122.5) | Away · tip 8:00 PM ET\nInjuries: none | Team out: Jaylon Tyson, Meleek Thomas | Opp out: none\nWeather: Indoor (neutral)\nRisk: long price +425: one possession decides it\nFormula: [B] Score 67.3/100 (rank 2 of 58). L10 first-scorer 3/10 (30%); role 35.4 min, usage 16.2/g; opp allows 120.3 PPG; team total 122.5 (Hard Rock team total); L5 18.2 PPG.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
-   },
-   {
-    "pick": "Zach Edey first point scorer",
-    "player": "Zach Edey",
-    "athlete_id": "4600663",
-    "team": "MEM",
-    "opp": "SAC",
-    "game": "SAC @ MEM 8:00 PM ET",
-    "espn_event": "401909899",
-    "tip_iso": "2026-10-31T20:00-04:00",
-    "odds": "+500",
-    "book": "Hard Rock",
-    "market": "First Player To Score",
-    "grade": "B",
-    "score": 66.9,
-    "status": "Pending",
-    "result": null,
-    "why": "Volume: L10 20.8 min, 5.2 FGA/g, 7.8 PPG, started 4/4 | First scorer 2/4 L10 (team scored first 6/10)\nMatchup: SAC allows 123.5 PPG L10 (rank 3/14 on tonight's slate, 1 = allows most)\nContext: MEM -9.5 / O/U 232.5 (TT 120.5) | Home · tip 8:00 PM ET\nInjuries: none | Team out: Scotty Pippen Jr., Ty Jerome, Quinten Post | Opp out: Dylan Cardwell, Maxime Raynaud, Keegan Murray\nWeather: Indoor (neutral)\nRisk: long price +500: one possession decides it; small sample (4 games)\nFormula: [B] Score 66.9/100 (rank 3 of 58). L10 first-scorer 2/4 (50%); role 20.8 min, usage 6.5/g; opp allows 123.5 PPG; team total 120.5 (Hard Rock team total); L5 7.8 PPG.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
-   },
-   {
-    "pick": "Jalen Johnson first point scorer",
-    "player": "Jalen Johnson",
-    "athlete_id": "4701230",
-    "team": "ATL",
-    "opp": "NO",
-    "game": "ATL @ NO 7:00 PM ET",
-    "espn_event": "401909898",
-    "tip_iso": "2026-10-31T19:00-04:00",
-    "odds": "+650",
-    "book": "Hard Rock",
-    "market": "First Player To Score",
-    "grade": "B-",
-    "score": 64.6,
-    "status": "Pending",
-    "result": null,
-    "why": "Volume: L10 34.1 min, 15.7 FGA/g, 19.2 PPG, started 10/10 | First scorer 1/10 L10 (team scored first 3/10)\nMatchup: NO allows 125.0 PPG L10 (rank 2/14 on tonight's slate, 1 = allows most)\nContext: ATL -4.5 / O/U 240.5 (TT 122.5) | Away · tip 7:00 PM ET\nInjuries: none | Team out: Mouhamed Gueye, Henri Veesaar | Opp out: Yves Missi, Jordan Poole\nWeather: Indoor (neutral)\nRisk: long price +650: one possession decides it\nFormula: [B-] Score 64.6/100 (rank 6 of 58). L10 first-scorer 1/10 (10%); role 34.1 min, usage 21.0/g; opp allows 125.0 PPG; team total 122.5 (Hard Rock team total); L5 19.0 PPG. Bonus +5 (primary ball-handler).",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
-   }
-  ],
-  "mode": "lock",
-  "built_at": "Sat Oct 31, 10:03 AM ET",
-  "hr_file": "/workspace/hr-lines/hr-markets-20261031-1002.json",
-  "games": 7,
-  "isolated": true,
-  "units": -1.0
+  "legs": [],
+  "rolled_off": "First Blood · NBA Sat Oct 31 · Locked Sat Oct 31, 10:03 AM ET, final settled (L) and moved to Results"
  },
  "sport_status": {
   "MLB": {
@@ -16864,27 +14637,27 @@
   },
   "NHL": {
    "active": true,
-   "games_today": 10,
+   "games_today": 5,
    "season": "Regular Season"
   },
   "NFL": {
    "active": true,
-   "games_today": 0,
+   "games_today": 12,
    "season": "Regular Season"
   },
   "NBA": {
    "active": true,
-   "games_today": 7,
+   "games_today": 4,
    "season": "Regular Season"
   },
   "NCAA F": {
    "active": true,
-   "games_today": 47,
+   "games_today": 0,
    "season": "Regular Season"
   },
   "WNBA": {
    "active": true,
-   "games_today": 1,
+   "games_today": 0,
    "season": "Postseason"
   }
  },
@@ -21521,735 +19294,9 @@
   "sports": {}
  },
  "legday": {
-  "date": "2026-10-31",
-  "posted": {
-   "NBA": {
-    "at": "7:09 AM ET",
-    "n": 6,
-    "source": "2026-10-31.json",
-    "held": []
-   },
-   "WNBA": {
-    "at": "7:09 AM ET",
-    "n": 2,
-    "source": "2026-10-31.json",
-    "held": []
-   },
-   "NHL": {
-    "at": "7:09 AM ET",
-    "n": 9,
-    "source": "2026-10-31.json",
-    "held": []
-   }
-  },
-  "board": [
-   {
-    "sport": "NBA",
-    "rank": 1,
-    "game": "Rockets vs Thunder",
-    "start_et": "Sat 10/31 08:30 PM ET",
-    "player": "Shai Gilgeous-Alexander",
-    "prop": "Under 5.5 Assists",
-    "odds": "-115",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "3 AST",
-    "dk": {
-     "odds": "-103",
-     "na": false,
-     "ladder": [
-      [
-       "u5.5",
-       "-103"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NBA",
-    "rank": 2,
-    "game": "Spurs vs Timberwolves",
-    "start_et": "Sat 10/31 08:00 PM ET",
-    "player": "Jaden McDaniels",
-    "prop": "Over 2.5 Assists",
-    "odds": "-130",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "3 AST",
-    "dk": {
-     "odds": "-151",
-     "na": false,
-     "ladder": [
-      [
-       "3+",
-       "-151"
-      ],
-      [
-       "4+",
-       "+141"
-      ],
-      [
-       "5+",
-       "+278"
-      ],
-      [
-       "6+",
-       "+510"
-      ],
-      [
-       "7+",
-       "+940"
-      ],
-      [
-       "8+",
-       "+1620"
-      ],
-      [
-       "9+",
-       "+2500"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NBA",
-    "rank": 3,
-    "game": "Rockets vs Thunder",
-    "start_et": "Sat 10/31 08:30 PM ET",
-    "player": "Bennett Stirtz",
-    "prop": "Under 7.5 Points",
-    "odds": "-115",
-    "alt": false,
-    "status": "final",
-    "res": "L",
-    "stat": "11 PTS",
-    "dk": {
-     "odds": "-117",
-     "na": false,
-     "ladder": [
-      [
-       "u7.5",
-       "-117"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NBA",
-    "rank": 4,
-    "game": "Spurs vs Timberwolves",
-    "start_et": "Sat 10/31 08:00 PM ET",
-    "player": "LaMelo Ball",
-    "prop": "Under 24.5 Pts + Reb",
-    "odds": "-125",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "18 P+R",
-    "dk": {
-     "odds": null,
-     "na": true,
-     "ladder": [
-      [
-       "u23.5",
-       "-108"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NBA",
-    "rank": 5,
-    "game": "Hornets vs 76ers",
-    "start_et": "Sat 10/31 06:00 PM ET",
-    "player": "LeBron James",
-    "prop": "Under 1.5 Threes Made",
-    "odds": "-115",
-    "alt": false,
-    "status": "final",
-    "res": "V",
-    "stat": "void: Day-To-Day (ESPN injury report)",
-    "dk": {
-     "odds": null,
-     "na": true
-    }
-   },
-   {
-    "sport": "NBA",
-    "rank": 6,
-    "game": "Grizzlies vs Kings",
-    "start_et": "Sat 10/31 08:00 PM ET",
-    "player": "Jaylen Wells",
-    "prop": "Over 11.5 Points",
-    "odds": "-125",
-    "alt": false,
-    "status": "final",
-    "res": "L",
-    "stat": "4 PTS",
-    "dk": {
-     "odds": "-150",
-     "na": false,
-     "ladder": [
-      [
-       "6+",
-       "-1260"
-      ],
-      [
-       "8+",
-       "-532"
-      ],
-      [
-       "10+",
-       "-272"
-      ],
-      [
-       "12+",
-       "-150"
-      ],
-      [
-       "13+",
-       "-115"
-      ],
-      [
-       "15+",
-       "+147"
-      ],
-      [
-       "18+",
-       "+310"
-      ],
-      [
-       "20+",
-       "+503"
-      ],
-      [
-       "25+",
-       "+1480"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NBA",
-    "rank": 7,
-    "game": "Pelicans vs Hawks",
-    "start_et": "Sat 10/31 07:00 PM ET",
-    "player": "Karlo Matkovic",
-    "prop": "Under 4.5 Rebounds",
-    "odds": "-115",
-    "alt": false,
-    "status": "final",
-    "res": "L",
-    "stat": "10 REB",
-    "dk": {
-     "odds": "+113",
-     "na": false,
-     "ladder": [
-      [
-       "u4.5",
-       "+113"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 1,
-    "game": "Red Wings vs. Blues",
-    "start_et": "Sat 10/31 01:00 PM ET",
-    "player": "Connor McMichael",
-    "prop": "Under 1.5 Shots On Goal",
-    "odds": "-130",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "1 SOG",
-    "dk": {
-     "odds": "-130",
-     "na": false,
-     "ladder": [
-      [
-       "u1.5",
-       "-130"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 2,
-    "game": "Sharks vs. Senators",
-    "start_et": "Sat 10/31 04:00 PM ET",
-    "player": "Jacob Trouba",
-    "prop": "Under 1.5 Shots On Goal",
-    "odds": "-125",
-    "alt": false,
-    "status": "final",
-    "res": "L",
-    "stat": "4 SOG",
-    "dk": {
-     "odds": "-145",
-     "na": false,
-     "ladder": [
-      [
-       "u1.5",
-       "-145"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 3,
-    "game": "Canadiens vs. Penguins",
-    "start_et": "Sat 10/31 07:00 PM ET",
-    "player": "Ben Kindel",
-    "prop": "Over 1.5 Shots On Goal",
-    "odds": "-135",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "3 SOG",
-    "dk": {
-     "odds": "-195",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "-900"
-      ],
-      [
-       "2+",
-       "-195"
-      ],
-      [
-       "3+",
-       "+145"
-      ],
-      [
-       "4+",
-       "+360"
-      ],
-      [
-       "5+",
-       "+850"
-      ],
-      [
-       "6+",
-       "+2000"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 4,
-    "game": "Red Wings vs. Blues",
-    "start_et": "Sat 10/31 01:00 PM ET",
-    "player": "Robert Thomas",
-    "prop": "Under 1.5 Shots On Goal",
-    "odds": "-125",
-    "alt": false,
-    "status": "final",
-    "res": "L",
-    "stat": "2 SOG",
-    "dk": {
-     "odds": "-125",
-     "na": false,
-     "ladder": [
-      [
-       "u1.5",
-       "-125"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 5,
-    "game": "Canucks vs. Maple Leafs",
-    "start_et": "Sat 10/31 07:00 PM ET",
-    "player": "Darren Raddysh",
-    "prop": "Under 2.5 Shots On Goal",
-    "odds": "-110",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "2 SOG",
-    "dk": {
-     "odds": "-135",
-     "na": false,
-     "ladder": [
-      [
-       "u2.5",
-       "-135"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 6,
-    "game": "Islanders vs. Oilers",
-    "start_et": "Sat 10/31 02:00 PM ET",
-    "player": "Connor McDavid",
-    "prop": "Over 1.5 Points",
-    "odds": "-115",
-    "alt": false,
-    "status": "final",
-    "res": "L",
-    "stat": "1 PTS",
-    "dk": {
-     "odds": "+100",
-     "na": false,
-     "ladder": [
-      [
-       "1+",
-       "-425"
-      ],
-      [
-       "2+",
-       "+100"
-      ],
-      [
-       "3+",
-       "+310"
-      ],
-      [
-       "4+",
-       "+950"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 7,
-    "game": "Avalanche vs. Flames",
-    "start_et": "Sat 10/31 10:00 PM ET",
-    "player": "Martin Necas",
-    "prop": "Under 2.5 Shots On Goal",
-    "odds": "-105",
-    "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
-    "why_src": null,
-    "why_not": "matchup 27/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)",
-    "why": "Volume: L5 TOI 18.4 avg (L3 18.4 vs L10 20.3 TOI) | Hit: 8/10 at U2.5, 3/5. Matchup: Opp 27/32 vs Shots On Goal (NHL API). Context: COL -2.5 / O/U 6.5 | - | Home. Injuries: Josh Manson, Zachary L'Heureux out | Opp out: Connor Zary, Brennan Othmann. Weather: neutral. Risk: matchup 27/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a).",
-    "ctx": {
-     "game": "Avalanche vs. Flames",
-     "team": "COL",
-     "opp": "CGY",
-     "stat": "sog",
-     "opp_rank": {
-      "rank": 27,
-      "of": 32,
-      "pg": 29.8,
-      "gp": 13,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "COL",
-     "spread": -1.5,
-     "total": 6.5,
-     "team_totals": {
-      "CGY": 2.5,
-      "COL": 4.5
-     },
-     "home": "COL",
-     "away": "CGY",
-     "rest": {
-      "COL": 2,
-      "CGY": 0
-     },
-     "record": {
-      "COL": "7-5-1",
-      "CGY": "6-7-0"
-     },
-     "start_et": "Sat 10/31 10:00 PM ET",
-     "out": {
-      "COL": [
-       {
-        "name": "Josh Manson",
-        "status": "Out",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "15.0 TOI"
-       }
-      ],
-      "CGY": [
-       {
-        "name": "Devin Cooley",
-        "status": "Injured Reserve",
-        "pos": "G",
-        "date": "2026-10-30"
-       },
-       {
-        "name": "Samuel Honzek",
-        "status": "Injured Reserve",
-        "pos": "LW",
-        "date": "2026-10-20",
-        "role": "15.6 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Avalanche vs. Flames",
-      "role": "LEG DAY",
-      "team": "COL",
-      "opponent": "CGY",
-      "home_away": "home",
-      "l5_toi": 18.4,
-      "l10": {
-       "hits": 8,
-       "n": 10,
-       "l5_hits": 3,
-       "l5_n": 5,
-       "season_hits": 8,
-       "season_n": 13
-      },
-      "volume_collapse": {
-       "status": "ok",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-25",
-         "opp": "NSH",
-         "v": 19.1,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-14",
-         "opp": "DAL",
-         "v": 22.4,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-08",
-         "opp": "CGY",
-         "v": 17.3,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-03",
-         "opp": "STL",
-         "v": 19.4,
-         "excluded_for": "blowout (margin 5)"
-        },
-        {
-         "date": "2026-09-30",
-         "opp": "LAK",
-         "v": 19.2,
-         "excluded_for": "blowout (margin 4)"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        19.6,
-        16.5,
-        19.1
-       ],
-       "l3_avg": 18.4,
-       "l10_avg": 20.3,
-       "l10_n": 10,
-       "drop_pct": 9.5,
-       "last_game": {
-        "date": "2026-10-28",
-        "opp": "NJD",
-        "v": 19.6,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "no collapse"
-      },
-      "matchup": {
-       "raw_opp_rank": 27,
-       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 27,
-       "of": 32,
-       "source": "nhl-api",
-       "stat": "sog",
-       "linemate": null,
-       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent CGY + stat 'Shots on Goal' + side Under; opponent-defensive-rank table has 0 rows",
-       "fallback": {
-        "value": 29.84615,
-        "raw": 27,
-        "of": 32,
-        "source": "nhl-api",
-        "source_rank": null,
-        "source_team": "Calgary Flames",
-        "source_rank_direction": "api gives values only; ranked here",
-        "mapping": "shots against/gm",
-        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-        "fetched_at": "2026-10-31 06:01 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NHL-2026-10-31.json",
-        "source": "nhl-api",
-        "fetched_at": "2026-10-31 06:01 AM ET",
-        "failures": {},
-        "myspariedge": null,
-        "fantasyteamadvice": null
-       },
-       "source_rank": null,
-       "source_rank_direction": "api gives values only; ranked here"
-      },
-      "matchup_rank": 27,
-      "spread": "COL -2.5",
-      "total": 6.5,
-      "team_totals": {
-       "Flames": 2.5,
-       "Avalanche": 4.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 2,
-      "b2b": false,
-      "venue": "Ball Arena",
-      "indoor": true,
-      "teammates_out": [
-       "Josh Manson",
-       "Zachary L'Heureux"
-      ],
-      "opp_out": [
-       "Connor Zary",
-       "Brennan Othmann",
-       "Devin Cooley",
-       "Jonathan Huberdeau",
-       "Samuel Honzek"
-      ],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "demoted"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "matchup 27/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-      ],
-      "matchup_rank": 27,
-      "matchup_tier": "demoted",
-      "preference_limit": 20,
-      "hard_vetoes_apply": true,
-      "applied_at": "2026-10-31 06:04 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 TOI 18.4 avg (L3 18.4 vs L10 20.3 TOI) | Hit: 8/10 at U2.5, 3/5",
-     "Matchup: Opp 27/32 vs Shots On Goal (NHL API)",
-     "Context: COL -2.5 / O/U 6.5 | - | Home",
-     "Injuries: Josh Manson, Zachary L'Heureux out | Opp out: Connor Zary, Brennan Othmann",
-     "Weather: neutral",
-     "Risk: matchup 27/32 demoted (21+; soft, still eligible, ranked below preferred and rank n/a)"
-    ],
-    "dk": {
-     "odds": "-115",
-     "na": false,
-     "ladder": [
-      [
-       "u2.5",
-       "-115"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 8,
-    "game": "Canucks vs. Maple Leafs",
-    "start_et": "Sat 10/31 07:00 PM ET",
-    "player": "Auston Matthews",
-    "prop": "Under 3.5 Shots On Goal",
-    "odds": "-125",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "2 SOG",
-    "dk": {
-     "odds": "-115",
-     "na": false,
-     "ladder": [
-      [
-       "u3.5",
-       "-115"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "NHL",
-    "rank": 9,
-    "game": "Predators vs. Lightning",
-    "start_et": "Sat 10/31 02:00 PM ET",
-    "player": "Anthony Cirelli",
-    "prop": "Under 1.5 Shots On Goal",
-    "odds": "-110",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "0 SOG",
-    "dk": {
-     "odds": "-115",
-     "na": false,
-     "ladder": [
-      [
-       "u1.5",
-       "-115"
-      ]
-     ]
-    }
-   },
-   {
-    "sport": "WNBA",
-    "rank": 1,
-    "game": "Golden State Valkyries vs. Atlanta Dream",
-    "start_et": "Sat 10/31 08:00 PM ET",
-    "player": "Tiffany Hayes",
-    "prop": "Over 14.5 Pts + Reb",
-    "odds": "-135",
-    "alt": false,
-    "status": "final",
-    "res": "L",
-    "stat": "11 P+R",
-    "dk": {
-     "odds": null,
-     "na": true
-    }
-   },
-   {
-    "sport": "WNBA",
-    "rank": 2,
-    "game": "Golden State Valkyries vs. Atlanta Dream",
-    "start_et": "Sat 10/31 08:00 PM ET",
-    "player": "Gabby Williams",
-    "prop": "Over 19.5 Pts + Ast",
-    "odds": "-130",
-    "alt": false,
-    "status": "final",
-    "res": "W",
-    "stat": "32 P+A",
-    "dk": {
-     "odds": null,
-     "na": true
-    }
-   }
-  ]
+  "date": "2026-11-01",
+  "posted": {},
+  "board": []
  },
  "rules": {
   "potd": [
@@ -36304,6 +33351,24 @@
     "uu": 0.83
    },
    {
+    "date": "2026-10-31",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NHL shots on goal (over)",
+    "fam": "SOG",
+    "pick": "TJ Hughes 3+ SOG (CGY @ COL 10:00pm; 6th NHL take)",
+    "odds": "+205",
+    "res": "L",
+    "stat": "L (2 SOG)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -36771,23 +33836,6 @@
     "fam": "Total",
     "pick": "TB/NSH Over 6 (TB @ NSH 2:00pm; 1.15u)",
     "odds": "-115",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-10-31",
-    "sport": "NHL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NHL shots on goal (over)",
-    "fam": "SOG",
-    "pick": "TJ Hughes 3+ SOG (CGY @ COL 10:00pm; 6th NHL take)",
-    "odds": "+205",
     "res": "",
     "stat": "",
     "alt": false,
@@ -40495,11 +37543,11 @@
     "prop": "Martin Necas Under 2.5 Shots On Goal",
     "pick": "#7 Martin Necas Under 2.5 Shots On Goal",
     "odds": "-105",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "2 SOG",
     "alt": false,
     "rank": 7,
-    "uu": 0.0,
+    "uu": 0.95,
     "game": "Avalanche vs. Flames",
     "leg": false,
     "img": null,
@@ -40548,11 +37596,11 @@
   "summary": {
    "O": {
     "tickets": {
-     "w": 128,
+     "w": 129,
      "l": 123,
      "p": 6,
-     "pending": 3,
-     "units": -20.05
+     "pending": 2,
+     "units": -19.1
     },
     "legs": {
      "w": 15,
@@ -40581,10 +37629,10 @@
    "C": {
     "tickets": {
      "w": 146,
-     "l": 114,
+     "l": 115,
      "p": 3,
-     "pending": 60,
-     "units": -31.97,
+     "pending": 59,
+     "units": -32.97,
      "no_odds": 107
     },
     "legs": {
@@ -40624,7 +37672,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 60 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 59 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "Big 4 rows that copy a sport ticket (RULEBOOK §21, history kept): [('2026-10-27', 'Parlay +100', '+140', ['Big 4', 'NBA']), ('2026-10-28', 'Parlay +100', '+121', ['Big 4', 'NBA'])]"
@@ -40747,171 +37795,36 @@
   ]
  },
  "heist": {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "title": "THE HEIST",
   "sub": "▼ BOUGHT DOWN · CAPPERS",
   "stake": "1u",
-  "legs": [
-   {
-    "capper": "@panpotd",
-    "sport": "NBA",
-    "orig": "Ajay Mitchell o18.5 Points",
-    "orig_odds": -110,
-    "pick": "Ajay Mitchell o18.5 Points",
-    "odds": -110,
-    "src": "Capper original line",
-    "game": "OKC vs HOU; The Only Saturday NBA Prop You Need",
-    "gkey": "NBA:401909902",
-    "start": "2026-10-31 20:30",
-    "locked": true,
-    "res": "L",
-    "stat": "6 PTS",
-    "priced": "2026-10-31 18:11",
-    "dk": {
-     "ladder": [
-      [
-       "10+",
-       "-1480"
-      ],
-      [
-       "12+",
-       "-680"
-      ],
-      [
-       "15+",
-       "-292"
-      ],
-      [
-       "18+",
-       "-139"
-      ],
-      [
-       "19+",
-       "-111"
-      ],
-      [
-       "20+",
-       "+114"
-      ],
-      [
-       "25+",
-       "+334"
-      ],
-      [
-       "30+",
-       "+930"
-      ],
-      [
-       "35+",
-       "+2300"
-      ]
-     ],
-     "odds": "-292",
-     "pick": "Ajay Mitchell Over 14.5 Points",
-     "moved": true,
-     "na": false,
-     "orig_odds": "-111"
-    }
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NBA",
-    "orig": "Jrue Holiday o23.5 PRA",
-    "orig_odds": -120,
-    "pick": "Jrue Holiday o23.5 PRA",
-    "odds": -120,
-    "src": "Capper original line",
-    "game": "#RipCity Vs #TakeNote; NBA Play Of The Day",
-    "gkey": "NBA:ripcity vs takenote nba play of the day",
-    "start": null,
-    "locked": true,
-    "res": "L",
-    "stat": "21 PRA",
-    "priced": "2026-10-31 18:11",
-    "dk": {
-     "ladder": [
-      [
-       "15+",
-       "-1620"
-      ],
-      [
-       "20+",
-       "-337"
-      ],
-      [
-       "25+",
-       "-111"
-      ],
-      [
-       "30+",
-       "+246"
-      ],
-      [
-       "35+",
-       "+640"
-      ],
-      [
-       "40+",
-       "+1520"
-      ]
-     ],
-     "odds": "-337",
-     "pick": "Jrue Holiday Over 19.5 PRA",
-     "moved": true,
-     "na": false,
-     "orig_odds": null
-    }
-   },
-   {
-    "capper": "@showtimepicks2",
-    "sport": "NCAAF",
-    "orig": "Iowa Hawkeyes ML",
-    "orig_odds": -124,
-    "pick": "Iowa Hawkeyes ML",
-    "odds": -124,
-    "src": "Capper original line",
-    "game": "CFB first play of the day",
-    "gkey": "NCAAF:401858502",
-    "start": "2026-10-31 12:00",
-    "locked": true,
-    "res": "W",
-    "stat": "WIS 0-30 IOWA",
-    "priced": "2026-10-31 12:51",
-    "dk": {
-     "odds": null,
-     "pick": "Iowa Hawkeyes ML",
-     "na": true,
-     "orig_odds": null
-    }
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "orig": "Arizona/Texas Tech Under 54.5",
-    "orig_odds": -105,
-    "pick": "Arizona/Texas Tech Under 54.5",
-    "odds": -105,
-    "src": "Capper original line",
-    "game": "Arizona/Texas Tech CFB Week 9 Early Games; 1.05u to win 1u",
-    "gkey": "NCAAF:401856842",
-    "start": "2026-10-31 12:00",
-    "locked": true,
-    "res": "",
-    "stat": "",
-    "priced": "2026-10-31 12:51",
-    "dk": {
-     "odds": null,
-     "pick": "Arizona/Texas Tech Under 54.5",
-     "na": true,
-     "orig_odds": null
-    }
-   }
-  ],
+  "legs": [],
   "skipped": [
    {
     "capper": "@alexcaruso",
-    "why": "n/a at Hard Rock (exact line, no buy-down rung)",
-    "pick": "Saddiq Bey o11.5 Points (Play of the Day)"
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@panpotd",
+    "why": "no straight pick with odds",
+    "pick": "Bhayshul Tuten o60+ Rush Yards (IND game; NFL Sunday Prop #1)"
+   },
+   {
+    "capper": "@austinsprops",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@showtimepicks2",
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@bigmikepickz",
+    "why": "no picks today",
+    "pick": ""
    },
    {
     "capper": "@habibtings",
@@ -40919,508 +37832,74 @@
     "pick": ""
    }
   ],
-  "status": "live",
-  "msg": "",
-  "odds": 1134,
-  "orig": 1134,
-  "final": true,
+  "status": "thin",
+  "msg": "Not enough bought-down legs yet",
+  "odds": null,
+  "orig": null,
+  "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
-  "res": "L",
-  "conv": [
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Ayo Dosunmu 15+ Points (MIN; NBA Play #4)",
-    "odds": "none posted",
-    "game": "MIN @ SA",
-    "kick": "8:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "12+ -305",
-    "hr_odds": null,
-    "dk_odds": -305,
-    "start": "2026-10-31 20:00",
-    "hr_pick": "Ayo Dosunmu o14.5 Points",
-    "dk_pick": "Ayo Dosunmu 12+ Points",
-    "trk": "Ayo Dosunmu o14.5 Points",
-    "grade_odds": -130,
-    "hr_x": -130,
-    "excluded": null,
-    "res": "W",
-    "stat": "27 PTS",
-    "uu": 0.77,
-    "graded_line": "Ayo Dosunmu o14.5 Points",
-    "graded_odds": "-130"
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Darius Acuff o22.5 Points (SAC @ MEM)",
-    "odds": "none posted",
-    "game": "SAC @ MEM",
-    "kick": "8:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "18+ -331",
-    "hr_odds": null,
-    "dk_odds": -331,
-    "start": "2026-10-31 20:00",
-    "hr_pick": null,
-    "dk_pick": "Darius Acuff 18+ Points",
-    "trk": "Darius Acuff o22.5 Points",
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Darryn Peterson o14.5 Points (vs Blazers; NBA Play #3)",
-    "odds": "none posted",
-    "game": "POR @ UTAH",
-    "kick": "3:00 PM ET",
-    "started": true,
-    "final": false,
-    "frozen": true,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 15:00",
-    "hr_pick": "Darryn Peterson o14.5 Points",
-    "dk_pick": "Darryn Peterson o14.5 Points",
-    "trk": "Darryn Peterson o14.5 Points",
-    "grade_odds": -115,
-    "hr_x": -115,
-    "excluded": null,
-    "res": "W",
-    "stat": "16 PTS",
-    "uu": 0.87,
-    "graded_line": "Darryn Peterson o14.5 Points",
-    "graded_odds": "-115"
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Saddiq Bey o11.5 Points (Play of the Day)",
-    "odds": "none posted",
-    "game": "ATL @ NO",
-    "kick": "7:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "10+ -260",
-    "dk": "10+ -253",
-    "hr_odds": -260,
-    "dk_odds": -253,
-    "start": "2026-10-31 19:00",
-    "hr_pick": "Saddiq Bey 10+ Points",
-    "dk_pick": "Saddiq Bey 10+ Points",
-    "trk": "Saddiq Bey 10+ Points",
-    "grade_odds": -260,
-    "hr_x": null,
-    "excluded": null,
-    "res": "W",
-    "stat": "25 PTS",
-    "uu": 0.38,
-    "graded_line": "Saddiq Bey 10+ Points",
-    "graded_odds": "-260"
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Keyonte George u6.5 Assists (Fade of the Day)",
-    "odds": "none posted",
-    "game": "POR @ UTAH",
-    "kick": "3:00 PM ET",
-    "started": true,
-    "final": false,
-    "frozen": true,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 15:00",
-    "hr_pick": "Keyonte George u6.5 Assists",
-    "dk_pick": "Keyonte George u6.5 Assists",
-    "trk": "Keyonte George u6.5 Assists",
-    "grade_odds": -145,
-    "hr_x": -145,
-    "excluded": null,
-    "res": "W",
-    "stat": "4 AST",
-    "uu": 0.69,
-    "graded_line": "Keyonte George u6.5 Assists",
-    "graded_odds": "-145"
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NBA",
-    "pick": "Cameron Boozer o24.5 PR (#GrindCity Vs #LightTheBeam; NBA Play Of The Day)",
-    "odds": "-108",
-    "game": "SAC @ MEM",
-    "kick": "8:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "20+ -336",
-    "hr_odds": null,
-    "dk_odds": -336,
-    "start": "2026-10-31 20:00",
-    "hr_pick": "Cameron Boozer o24.5 PR",
-    "dk_pick": "Cameron Boozer 20+ PR",
-    "trk": "Cameron Boozer o24.5 PR",
-    "grade_odds": -120,
-    "hr_x": -120,
-    "excluded": null,
-    "res": "W",
-    "stat": "36 P+R",
-    "uu": 0.83,
-    "graded_line": "Cameron Boozer o24.5 PR",
-    "graded_odds": "-120"
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NBA",
-    "pick": "Jrue Holiday o23.5 PRA (#RipCity Vs #TakeNote; NBA Play Of The Day)",
-    "odds": "-120",
-    "game": "POR @ UTAH",
-    "kick": "3:00 PM ET",
-    "started": true,
-    "final": false,
-    "frozen": true,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "20+ -337",
-    "hr_odds": null,
-    "dk_odds": -337,
-    "start": "2026-10-31 15:00",
-    "hr_pick": "Jrue Holiday o23.5 PRA",
-    "dk_pick": "Jrue Holiday 20+ PRA",
-    "trk": "Jrue Holiday o23.5 PRA",
-    "grade_odds": -120,
-    "hr_x": null,
-    "excluded": null,
-    "res": "L",
-    "stat": "21 PRA",
-    "uu": -1.0,
-    "graded_line": "Jrue Holiday o23.5 PRA",
-    "graded_odds": "-120"
-   },
-   {
-    "capper": "@panpotd",
-    "sport": "NBA",
-    "pick": "Ajay Mitchell o18.5 Points (OKC vs HOU; The Only Saturday NBA Prop You Need)",
-    "odds": "-110",
-    "game": "OKC @ HOU",
-    "kick": "8:30 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "15+ -300",
-    "dk": "15+ -292",
-    "hr_odds": -300,
-    "dk_odds": -292,
-    "start": "2026-10-31 20:30",
-    "hr_pick": "Ajay Mitchell 15+ Points",
-    "dk_pick": "Ajay Mitchell 15+ Points",
-    "trk": "Ajay Mitchell 15+ Points",
-    "grade_odds": -300,
-    "hr_x": null,
-    "excluded": null,
-    "res": "L",
-    "stat": "6 PTS",
-    "uu": -1.0,
-    "graded_line": "Ajay Mitchell 15+ Points",
-    "graded_odds": "-300"
-   },
-   {
-    "capper": "@showtimepicks2",
-    "sport": "NCAAF",
-    "pick": "Iowa Hawkeyes ML (CFB first play of the day)",
-    "odds": "-124",
-    "game": "WIS @ IOWA",
-    "kick": "12:00 PM ET",
-    "started": true,
-    "final": true,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 12:00",
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "ML (not a prop)"
-   },
-   {
-    "capper": "@showtimepicks2",
-    "sport": "NCAAF",
-    "pick": "Georgia Bulldogs -11.5 (CFB free play)",
-    "odds": "-110",
-    "game": null,
-    "kick": null,
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": null,
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "no gradable line"
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "pick": "Iowa ML (CFB Week 9 Early Games; 1.22u to win 1u)",
-    "odds": "-122",
-    "game": "WIS @ IOWA",
-    "kick": "12:00 PM ET",
-    "started": true,
-    "final": true,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 12:00",
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "ML (not a prop)"
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "pick": "Indiana -20.5 (CFB Week 9 Afternoon Games; 1.12u to win 1u)",
-    "odds": "-112",
-    "game": "MINN @ IU",
-    "kick": "3:30 PM ET",
-    "started": true,
-    "final": false,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 15:30",
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "no gradable line"
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "pick": "Northwestern +3.5 (CFB Week 9 Afternoon Games; 1.02u to win 1u)",
-    "odds": "-102",
-    "game": "NU @ ORE",
-    "kick": "3:30 PM ET",
-    "started": true,
-    "final": false,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 15:30",
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "no gradable line"
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "pick": "South Carolina +4.5 (CFB Week 9 Afternoon Games; 1.2u to win 1u)",
-    "odds": "-120",
-    "game": "SC @ OU",
-    "kick": "4:15 PM ET",
-    "started": true,
-    "final": false,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 16:15",
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "no gradable line"
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "pick": "Syracuse +10.5 (CFB Week 9 Early Games; 1.35u to win 1u)",
-    "odds": "-135",
-    "game": "SMU @ SYR",
-    "kick": "12:00 PM ET",
-    "started": true,
-    "final": true,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 12:00",
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "no gradable line"
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "pick": "Wake Forest -13.5 (CFB Week 9 Afternoon Games; 1.1u to win 1u)",
-    "odds": "-110",
-    "game": "UVA @ WAKE",
-    "kick": "3:45 PM ET",
-    "started": true,
-    "final": false,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 15:45",
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "no gradable line"
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "pick": "Arizona/Texas Tech Under 54.5 (CFB Week 9 Early Games; 1.05u to win 1u)",
-    "odds": "-105",
-    "game": "ARIZ @ TTU",
-    "kick": "12:00 PM ET",
-    "started": true,
-    "final": true,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-10-31 12:00",
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "no gradable line"
-   },
-   {
-    "capper": "@bigmikepickz",
-    "sport": "NCAAF",
-    "pick": "NCAAF 2-leg parlay: Duke ML + NC State ML (CFB Week 9 Early Games; 1.25u to win 1u)",
-    "odds": "-125",
-    "game": "Multi-game",
-    "kick": null,
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": null,
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "parlay (not a single prop)"
-   }
-  ],
   "props": {
-   "n": 7,
-   "w": 5,
-   "l": 2,
+   "n": 0,
+   "w": 0,
+   "l": 0,
    "p": 0,
    "pending": 0,
-   "units": 1.54
+   "units": 0.0
   },
-  "dk_odds": null,
-  "dk_orig": null
+  "conv": [
+   {
+    "capper": "@panpotd",
+    "sport": "NFL",
+    "pick": "Bhayshul Tuten o60+ Rush Yards (IND game; NFL Sunday Prop #1)",
+    "odds": "-130",
+    "game": "IND @ JAX",
+    "kick": "1:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-01 13:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"?\")"
+   }
+  ]
  },
- "big4_games": 17,
+ "big4_games": 21,
  "big4_games_by_sport": {
-  "NFL": 0,
-  "NBA": 7,
-  "NHL": 10,
+  "NFL": 12,
+  "NBA": 4,
+  "NHL": 5,
   "MLB": 0
  },
  "gameday": {
-  "date": "2026-10-31",
-  "built": "2026-10-31 23:21 ET",
-  "picks": 13,
+  "date": "2026-11-01",
+  "built": "2026-11-01 01:31 ET",
+  "picks": 7,
   "vetoes": [],
   "gaps": [
-   "NCAAF New Haven vs Duquesne: no ESPN event match",
-   "NCAAF Central Connecticut vs Robert Morris: no ESPN event match",
-   "NCAAF Rhode Island vs Maine: no ESPN event match",
-   "NCAAF Princeton vs Cornell: no ESPN event match",
-   "NCAAF Stony Brook vs Sacred Heart: no ESPN event match",
-   "NCAAF Albany vs Campbell: no ESPN event match",
-   "NCAAF Brown vs Pennsylvania: no ESPN event match",
-   "NCAAF Lehigh vs Bucknell: no ESPN event match"
+   "scout file: [Errno 2] No such file or directory: '/workspace/scout/2026-11-01.json'"
   ]
  },
  "dk": {
   "fetched": "2026-10-31 16:21 ET",
-  "snapshots": 6,
-  "pregame_games": 117,
+  "snapshots": 1,
+  "pregame_games": 64,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 67,
-   "priced": 51,
+   "legs": 8,
+   "priced": 7,
    "na": [
-    "Zion Williamson 2+ ast",
-    "MarShawn Lloyd (RB) anytime TD",
-    "HEIST Iowa Hawkeyes ML",
-    "HEIST Arizona/Texas Tech Under 54.5",
-    "Edge Q1 SMU Team Total Over 7.5",
-    "Edge Q1 Bowling Green ML (tie refunds)",
-    "Edge Andrew Copp Over 0.5 Goals",
-    "Edge Morgan Geekie Over 0.5 Goals",
-    "LEG DAY LaMelo Ball Under 24.5 Pts + Reb",
-    "LEG DAY LeBron James Under 1.5 Threes Made",
-    "LEG DAY Tiffany Hayes Over 14.5 Pts + Reb",
-    "LEG DAY Gabby Williams Over 19.5 Pts + Ast",
-    "Jordin Canada Over 9.5 Points",
-    "Rhyne Howard Over 14.5 Points",
-    "Donovan Mitchell Over 19.5 Points",
-    "Olen Zellweger Over 1.5 Shots On Goal"
+    "MarShawn Lloyd (RB) anytime TD"
    ]
   }
  }
