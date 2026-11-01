@@ -366,6 +366,7 @@ html.day .s1stamp{filter:invert(1) hue-rotate(180deg)}
 /*NO-OFFICIAL-1025: OFFICIAL stamps removed from display (every play is official); .offb kept unused. RESTORE-1024 (RULEBOOK §15/§16): Official badge on the restored Safe +100 (Alt Parlay) and Lotto Ticket (TD City) cards*/
 .offb{display:inline-block;margin-left:2px;padding:1px 6px;border-radius:999px;font-size:9.5px;font-weight:900;letter-spacing:1px;line-height:1.4;color:#04140f;-webkit-text-fill-color:#04140f;background:linear-gradient(180deg,#fff3c4,#f5c542 60%,#b8860b);box-shadow:0 0 0 1px #000,0 0 6px #f5c54266;white-space:nowrap;vertical-align:1px;font-style:normal}
 .r2lotto{background:#06140c;border:2px solid #17a865;box-shadow:inset 0 0 0 2px #b57a1066}
+.r2heist{background:linear-gradient(180deg,#0b1a1f,#070d14);border:2px solid #2fe0b0;box-shadow:inset 0 0 0 2px #f5c54299,0 0 12px #2fe0b044}
 /* PERF-HZ360 */@media (max-width:380px){html.lg #heist .h-holo,html.lg #heist .h-sparks2,html.lg #heist .h-flare,html.lg #heist .xa .holo,html.lg #heist .xa .sp2,html.lg #heist .xa .star{display:none!important}}
 #heist .h-foot{flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px}#heist .h-foot .h-wait{flex:1 1 auto;min-width:0;text-align:left;margin-right:0}#heist .h-foot>span:last-child{flex:none;margin-left:auto;white-space:nowrap}#heist .h-foot>span:only-child{margin:0 auto}#heist .h-bd{display:block}#heist .h-bd .h-o{display:block;margin-bottom:3px}#heist .h-bd .h-a{display:block}#heist .h-tot{white-space:normal;text-align:center}
 /*BOOK-TOGGLE-v1*/
@@ -550,7 +551,7 @@ g.addEventListener('keydown',function(e){if(e.key!=='ArrowLeft'&&e.key!=='ArrowR
 g.addEventListener('animationend',function(){g.classList.remove('glint')});
 apply(cur())})();
 
-const UI_BUILD='1793538881';
+const UI_BUILD='1793540470';
 const U$=x=>{const v=Math.round(+String(x).replace(/,/g,'')/1.5*100)/100;return v+'u'};let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\b0(\d:\d\d\s?[AP]M)/g,'$1').replace(/(\bParlay\s+)?(\bTicket B\b|\+100 ticket)/gi,(m,p,t)=>p&&/^\+/.test(t)?m:'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,(m,o,x)=>/Lotto Ticket \($/.test(x.slice(Math.max(0,o-14),o))?m:'Lotto Ticket').replace(/\$\s?(\d[\d,]*(?:\.\d+)?)/g,(m,x)=>U$(x)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -848,7 +849,7 @@ function R4G(r){return r.cat=='Cappers'?'C':r.cat=='Safe +100 (Alt Parlay)'?'A':
 function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m">Results are rebuilding. Check back in a few minutes.</div>';
  if(!['O','A','E','C'].includes(R2S.g))R2S.g='O';const G=R2S.g,S=R2S.s,V=((R2S.v=='cap'&&G!='C')||(R2S.v=='cat'&&G!='A')||(R2S.v=='list'&&G!='A'&&G!='C'))?'days':R2S.v,ET=t=>new Date(t).toLocaleDateString('en-CA',{timeZone:'America/New_York'});
  const today=ET(Date.now()),wk=ET(Date.now()-6*864e5);
- const LOGO={'LEG DAY':'legday-logo.webp',POTD:'potd-logo-v6.jpg','Parlay +100':'parlay100-logo.png','Safe +100 (Alt Parlay)':'altlines-logo.jpg','Lotto Ticket (TD City)':'lotto-logo.png','First Blood':'first-blood-logo.png',Edge:'edge-logo-crop.jpg'};
+ const LOGO={'LEG DAY':'legday-logo.webp',POTD:'potd-logo-v6.jpg','Parlay +100':'parlay100-logo.png','Safe +100 (Alt Parlay)':'altlines-logo.jpg','Lotto Ticket (TD City)':'lotto-logo.png','First Blood':'first-blood-logo.png',Edge:'edge-logo-crop.jpg','The Heist':'heist-logo.webp'};/* HEISTLOGO-1101 (user 2026-11-01, pt1149u): The Heist by-day row gets logo (crop of heist-header.webp) + teal/gold border */
  const CLS={POTD:'r2potd','Parlay +100':'r2p100','The Heist':'r2heist','Safe +100 (Alt Parlay)':'r2safe','Lotto Ticket (TD City)':'r2lotto','First Blood':'r2fb','LEG DAY':'r2ldb',Edge:'r2edge'};
  const rec=a=>{let w=0,l=0,p=0,pe=0,u=0;a.forEach(r=>{if(r.res=='W')w++;else if(r.res=='L')l++;else if(r.res=='P'||r.res=='V')p++;else pe++;u+=r.uu!=null&&r.res?+r.uu:r.res=='W'?1:r.res=='L'?-1:0});return{w,l,p,pe,u:Math.round(u*100)/100,pct:w+l?Math.round(100*w/(w+l)):null}};
  const fu=u=>`<span class="${u>=0?'r2pos':'r2neg'}">${u>=0?'+':''}${u}u</span>`,fr=s=>`${s.w}-${s.l}${s.p?'-'+s.p:''}`;
