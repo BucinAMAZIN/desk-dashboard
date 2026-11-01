@@ -1,5 +1,5 @@
 {
- "generated": 1793568449.131731,
+ "generated": 1793569809.31848,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -306,76 +306,9 @@
        "pick": "Trey McBride Over 6.5 Receptions",
        "odds": "-230",
        "game": "Cowboys vs Cardinals 01:00 PM ET",
-       "status": "Pending",
-       "why": "Volume: n/a | Hit: 9/10 at line, 5/5. Matchup: DAL 21/32 vs pass yds (228.0/g allowed, neutral). Context: DAL -7 / O/U 55 (ARI TT 23.5) | Away. Injuries: ARI: Tip Reiman (Out) | DAL: KaVontae Turpin (Out), George Pickens (Questionable), Luke Schoonmaker (Questionable). Weather: indoor, neutral. Risk: Normal variance at this line.",
-       "why_not": null,
-       "why_src": "Grade A. Volume: n/a (L3 11.3 vs L10 10.7 touches+targets) | Hit: 9/10 at O6.5, 5/5 | Matchup: Opp 20/32 vs Receptions (TR) | Context: ARI +7 / O/U 55 | - | Away · Prime | Injuries: Jon Gaines II, Walter Nolen III out | Opp out: Dee Winters, KaVontae Turpin | Weather: neutral | Risk: Normal variance at this line.",
-       "ctx": {
-        "game": "Cowboys vs Cardinals",
-        "team": "ARI",
-        "opp": "DAL",
-        "stat": "pass_yds",
-        "opp_rank": {
-         "rank": 21,
-         "of": 32,
-         "pg": 228.0,
-         "gp": 7,
-         "scale": "N/of, higher = more allowed (LineMate order)"
-        },
-        "fav": "DAL",
-        "spread": -7.0,
-        "total": 55.0,
-        "team_totals": {
-         "DAL": 31.5,
-         "ARI": 23.5
-        },
-        "home": "DAL",
-        "away": "ARI",
-        "rest": null,
-        "record": {
-         "DAL": "3-4",
-         "ARI": "2-5"
-        },
-        "start_et": "Sun 11/01 01:00 PM ET",
-        "out": {
-         "DAL": [
-          {
-           "name": "KaVontae Turpin",
-           "status": "Out",
-           "pos": "WR",
-           "date": "2026-10-31"
-          },
-          {
-           "name": "George Pickens",
-           "status": "Questionable",
-           "pos": "WR",
-           "date": "2026-10-30"
-          },
-          {
-           "name": "Luke Schoonmaker",
-           "status": "Questionable",
-           "pos": "TE",
-           "date": "2026-10-29"
-          }
-         ],
-         "ARI": [
-          {
-           "name": "Tip Reiman",
-           "status": "Out",
-           "pos": "TE",
-           "date": "2026-10-26"
-          }
-         ]
-        }
-       },
-       "gameday": [
-        "Volume: n/a | Hit: 9/10 at line, 5/5",
-        "Matchup: DAL 21/32 vs pass yds (228.0/g allowed, neutral)",
-        "Context: DAL -7 / O/U 55 (ARI TT 23.5) | Away",
-        "Injuries: ARI: Tip Reiman (Out) | DAL: KaVontae Turpin (Out), George Pickens (Questionable), Luke Schoonmaker (Questionable)",
-        "Weather: indoor, neutral",
-        "Risk: Normal variance at this line"
-       ],
+       "status": "Won",
+       "why": "Grade A. Volume: n/a (L3 11.3 vs L10 10.7 touches+targets) | Hit: 9/10 at O6.5, 5/5 | Matchup: Opp 20/32 vs Receptions (TR) | Context: ARI +7 / O/U 55 | - | Away · Prime | Injuries: Jon Gaines II, Walter Nolen III out | Opp out: Dee Winters, KaVontae Turpin | Weather: neutral | Risk: Normal variance at this line.",
+       "why_not": "Normal variance at this line.",
        "dk": {
         "odds": "-233",
         "na": false,
@@ -2388,6 +2321,15 @@
    {
     "date": "2026-11-01",
     "sport": "NFL",
+    "type": "Leg",
+    "pick": "Trey McBride Over 6.5 Receptions",
+    "odds": "-230",
+    "result": "W",
+    "stat": "7 rec"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
     "type": "POTD",
     "pick": "Tre Tucker Over 3.5 Receptions",
     "odds": "-120",
@@ -2915,15 +2857,6 @@
     "odds": "-115",
     "result": "L",
     "stat": "155 rush yds"
-   },
-   {
-    "date": "2026-10-26",
-    "sport": "NBA",
-    "type": "POTD",
-    "pick": "Brandin Podziemski under 25.5 PRA",
-    "odds": "-125",
-    "result": "L",
-    "stat": "30 PRA"
    }
   ]
  },
@@ -2953,7 +2886,7 @@
     "p": 0,
     "pct": 37
    },
-   "pending": 14
+   "pending": 13
   },
   "props": [
    {
@@ -3585,8 +3518,8 @@
     "date": "2026-11-01",
     "pick": "NFL · Edge: Jake Ferguson Over 0.5 Touchdowns",
     "odds": "+240",
-    "result": "Pending",
-    "detail": "Pending"
+    "result": "Void",
+    "detail": "Void (did not play (not in ESPN box score and ESPN gamelog has no appearance in event 401873024 (teammate gamelogs current)))"
    },
    {
     "date": "2026-11-01",
@@ -8458,25 +8391,25 @@
  "cappers": [
   {
    "name": "@tonestakes",
-   "w": 15,
-   "l": 20,
+   "w": 17,
+   "l": 22,
    "p": 0,
-   "pct": 43,
+   "pct": 44,
    "props": [
     {
      "prop": "NFL rush yds (over)",
      "w": 1,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": 100,
+     "pct": 50,
      "fam": "Rushing yds"
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 5,
-     "l": 2,
+     "w": 7,
+     "l": 3,
      "p": 0,
-     "pct": 71,
+     "pct": 70,
      "fam": "Receiving yds"
     },
     {
@@ -8542,7 +8475,7 @@
      "prop": "NFL rush yds (over)",
      "pick": "C.Brown o57.5 Rush Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
      "odds": "-114",
-     "status": "Pending",
+     "status": "L",
      "fam": "Rushing yds"
     },
     {
@@ -8614,7 +8547,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "G.Helm o21.5 Rec Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
      "odds": "-108",
-     "status": "Pending",
+     "status": "W",
      "fam": "Receiving yds"
     },
     {
@@ -8654,7 +8587,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "K.Bourne o34.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
      "odds": "-115",
-     "status": "Pending",
+     "status": "L",
      "fam": "Receiving yds"
     },
     {
@@ -8694,7 +8627,7 @@
      "prop": "NFL rec yds (over)",
      "pick": "R.Flournoy o35.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
      "odds": "-115",
-     "status": "Pending",
+     "status": "W",
      "fam": "Receiving yds"
     },
     {
@@ -9310,9 +9243,9 @@
   {
    "name": "@panpotd",
    "w": 21,
-   "l": 24,
+   "l": 25,
    "p": 0,
-   "pct": 47,
+   "pct": 46,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -9325,7 +9258,7 @@
     {
      "prop": "NFL rush yds (over)",
      "w": 0,
-     "l": 2,
+     "l": 3,
      "p": 0,
      "pct": 0,
      "fam": "Rushing yds"
@@ -9425,7 +9358,7 @@
      "prop": "NFL rush yds (over)",
      "pick": "Chase Brown o 56.5 Rush Yards (TEN @ CIN; NFL Sunday Free Card)",
      "odds": "none posted",
-     "status": "Pending",
+     "status": "L",
      "fam": "Rushing yds"
     },
     {
@@ -9675,7 +9608,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 04:27 PM ET",
+  "updated": "2026-11-01 04:50 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -9765,15 +9698,15 @@
        {
         "t": "Cincinnati Bengals",
         "ab": "CIN",
-        "rec": "4-2",
-        "pct": ".667",
-        "gb": "1",
+        "rec": "5-2",
+        "pct": ".714",
+        "gb": "0.5",
         "pts": null,
-        "home": "1-1",
+        "home": "2-1",
         "road": "3-1",
         "l10": null,
-        "strk": "W2",
-        "diff": "+41",
+        "strk": "W3",
+        "diff": "+48",
         "div": "1-1",
         "seed": "6"
        },
@@ -9860,15 +9793,15 @@
        {
         "t": "Tennessee Titans",
         "ab": "TEN",
-        "rec": "1-6",
-        "pct": ".143",
-        "gb": "4",
+        "rec": "1-7",
+        "pct": ".125",
+        "gb": "4.5",
         "pts": null,
         "home": "0-4",
-        "road": "1-2",
+        "road": "1-3",
         "l10": null,
-        "strk": "L1",
-        "diff": "-48",
+        "strk": "L2",
+        "diff": "-55",
         "div": "1-1",
         "seed": "15"
        }
@@ -9960,17 +9893,17 @@
        {
         "t": "Dallas Cowboys",
         "ab": "DAL",
-        "rec": "3-4",
-        "pct": ".429",
-        "gb": "1.5",
+        "rec": "3-5",
+        "pct": ".375",
+        "gb": "2",
         "pts": null,
-        "home": "1-2",
+        "home": "1-3",
         "road": "2-2",
         "l10": null,
-        "strk": "W1",
-        "diff": "+9",
+        "strk": "L1",
+        "diff": "+6",
         "div": "2-1",
-        "seed": "10"
+        "seed": "13"
        },
        {
         "t": "Philadelphia Eagles",
@@ -10100,7 +10033,7 @@
         "strk": "W2",
         "diff": "+27",
         "div": "2-0",
-        "seed": "11"
+        "seed": "10"
        },
        {
         "t": "Atlanta Falcons",
@@ -10115,7 +10048,7 @@
         "strk": "L1",
         "diff": "-18",
         "div": "1-2",
-        "seed": "12"
+        "seed": "11"
        },
        {
         "t": "New Orleans Saints",
@@ -10130,7 +10063,7 @@
         "strk": "L1",
         "diff": "-32",
         "div": "0-1",
-        "seed": "13"
+        "seed": "14"
        }
       ]
      },
@@ -10185,49 +10118,63 @@
        {
         "t": "Arizona Cardinals",
         "ab": "ARI",
-        "rec": "2-5",
-        "pct": ".286",
-        "gb": "4",
+        "rec": "3-5",
+        "pct": ".375",
+        "gb": "3.5",
         "pts": null,
         "home": "0-3",
-        "road": "2-2",
+        "road": "3-2",
         "l10": null,
-        "strk": "L1",
-        "diff": "-66",
+        "strk": "W1",
+        "diff": "-63",
         "div": "1-2",
-        "seed": "14"
+        "seed": "12"
        }
       ]
      }
     ],
     "games": [
      {
+      "a": "TEN",
+      "h": "CIN",
+      "st": "Final/OT",
+      "div": false,
+      "stake": "TEN 1-7: 4th AFC South (4.5 GB), AFC #15 seed (outside playoffs) · CIN 5-2: 2nd AFC North (0.5 GB), AFC #6 seed (in playoff spot)"
+     },
+     {
+      "a": "ARI",
+      "h": "DAL",
+      "st": "Final/OT",
+      "div": false,
+      "stake": "ARI 3-5: 4th NFC West (3.5 GB), NFC #12 seed (outside playoffs) · DAL 3-5: 2nd NFC East (2 GB), NFC #13 seed (outside playoffs)"
+     },
+     {
+      "a": "LAC",
+      "h": "LAR",
+      "st": "13:19 - 2nd",
+      "div": false,
+      "stake": "LAC 0-6: 4th AFC West (5 GB), AFC #16 seed (outside playoffs) · LAR 3-4: 3rd NFC West (3 GB), NFC #9 seed (outside playoffs)"
+     },
+     {
+      "a": "KC",
+      "h": "DEN",
+      "st": "4:29 - 1st",
+      "div": true,
+      "stake": "KC 5-1: 1st AFC West, AFC #2 seed (in playoff spot) · DEN 5-2: 2nd AFC West (0.5 GB), AFC #5 seed (in playoff spot)"
+     },
+     {
+      "a": "NE",
+      "h": "MIA",
+      "st": "3:39 - 1st",
+      "div": true,
+      "stake": "NE 4-3: 2nd AFC East (2 GB), AFC #8 seed (outside playoffs) · MIA 1-5: 4th AFC East (4.5 GB), AFC #14 seed (outside playoffs)"
+     },
+     {
       "a": "BAL",
       "h": "BUF",
       "st": "Final",
       "div": false,
       "stake": "BAL 4-4: 4th AFC North (2 GB), AFC #10 seed (outside playoffs) · BUF 6-1: 1st AFC East, AFC #1 seed (in playoff spot)"
-     },
-     {
-      "a": "TEN",
-      "h": "CIN",
-      "st": "End of 4th",
-      "div": false,
-      "stake": "TEN 1-6: 4th AFC South (4 GB), AFC #15 seed (outside playoffs) · CIN 4-2: 2nd AFC North (1 GB), AFC #6 seed (in playoff spot)"
-     },
-     {
-      "a": "ARI",
-      "h": "DAL",
-      "st": "10:00 - OT",
-      "div": false,
-      "stake": "ARI 2-5: 4th NFC West (4 GB), NFC #14 seed (outside playoffs) · DAL 3-4: 2nd NFC East (1.5 GB), NFC #10 seed (outside playoffs)"
-     },
-     {
-      "a": "LAC",
-      "h": "LAR",
-      "st": "8:04 - 1st",
-      "div": false,
-      "stake": "LAC 0-6: 4th AFC West (5 GB), AFC #16 seed (outside playoffs) · LAR 3-4: 3rd NFC West (3 GB), NFC #9 seed (outside playoffs)"
      },
      {
       "a": "MIN",
@@ -10255,7 +10202,7 @@
       "h": "TB",
       "st": "Final",
       "div": true,
-      "stake": "ATL 3-5: 3rd NFC South (0.5 GB), NFC #12 seed (outside playoffs) · TB 3-5: 2nd NFC South (0.5 GB), NFC #11 seed (outside playoffs)"
+      "stake": "ATL 3-5: 3rd NFC South (0.5 GB), NFC #11 seed (outside playoffs) · TB 3-5: 2nd NFC South (0.5 GB), NFC #10 seed (outside playoffs)"
      },
      {
       "a": "IND",
@@ -10263,20 +10210,6 @@
       "st": "Final",
       "div": true,
       "stake": "IND 2-6: 3rd AFC South (3.5 GB), AFC #13 seed (outside playoffs) · JAX 5-2: 1st AFC South, AFC #4 seed (in playoff spot)"
-     },
-     {
-      "a": "KC",
-      "h": "DEN",
-      "st": "14:31 - 1st",
-      "div": true,
-      "stake": "KC 5-1: 1st AFC West, AFC #2 seed (in playoff spot) · DEN 5-2: 2nd AFC West (0.5 GB), AFC #5 seed (in playoff spot)"
-     },
-     {
-      "a": "NE",
-      "h": "MIA",
-      "st": "14:55 - 1st",
-      "div": true,
-      "stake": "NE 4-3: 2nd AFC East (2 GB), AFC #8 seed (outside playoffs) · MIA 1-5: 4th AFC East (4.5 GB), AFC #14 seed (outside playoffs)"
      },
      {
       "a": "PHI",
@@ -10774,7 +10707,7 @@
      {
       "a": "BOS",
       "h": "ORL",
-      "st": "3:59 - 2nd",
+      "st": "Halftime",
       "div": false,
       "stake": "BOS : 2nd Atlantic (1 GB), East #3 seed (in playoff spot) · ORL : 4th Southeast (0.5 GB), East #9 seed (in playoff spot)"
      },
@@ -11315,14 +11248,14 @@
      {
       "a": "MIN",
       "h": "WSH",
-      "st": "End of 1st",
+      "st": "10:18 - 2nd",
       "div": false,
       "stake": "MIN 9-3-3: 1st Central Division, West #2 seed (in playoff spot) · WSH 8-4-0: 3rd Metropolitan Division (10 pts back), East #10 seed (outside playoffs)"
      },
      {
       "a": "UTA",
       "h": "PHI",
-      "st": "10:39 - 1st",
+      "st": "End of 1st",
       "div": false,
       "stake": "UTA 9-5-0: 2nd Central Division (3 pts back), West #4 seed (in playoff spot) · PHI 3-8-4: 8th Metropolitan Division (16 pts back), East #16 seed (outside playoffs)"
      },
@@ -12426,7 +12359,7 @@
    }
   }
  },
- "ui_build": "1793566100",
+ "ui_build": "1793570000",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -12588,10 +12521,10 @@
    },
    "tickets": {
     "w": 26,
-    "l": 27,
+    "l": 29,
     "p": 0,
-    "pending": 7,
-    "units": -8.65
+    "pending": 5,
+    "units": -10.65
    }
   },
   {
@@ -15344,111 +15277,295 @@
   ]
  },
  "nascar_proj": {
-  "title": "Top 10 projected finish · Xfinity 500 (Martinsville, Sun 2:00 PM ET)",
-  "note": "Built off Hard Rock lines fetched 2026-11-01 12:55 ET (Top 10 / Top 5 / Winner) and the official lineup (Denny Hamlin pole) via nascar_model.py. A ranking, not a pick. Not graded.",
+  "title": "Top 10 projections · Xfinity 500 (Martinsville, Sun 2:00 PM ET)",
+  "note": "Sorted by the model only (odds are shown, never used to sort). Inputs: qualifying speed 15%, practice speed 10%, long-run pace 25%, track-type history 50%. Track-type history = short flat tracks, last 2 years. Top 10 % = logistic fit on 70 Cup races 2025-26 (2648 driver-races; model top 10 finished top 10 53% of the time). Odds: Hard Rock 12:55 PM ET (pre-race); DraftKings pre-race (DK column, PitByNumbers board; DK feed pulled props at green). No-vig = each book's Top 10 field scaled to 10 places. Value = model Top 10 % at least 5 pts above the best book's no-vig chance. Projections, not picks. Not graded.",
+  "kind": "projection_v2",
+  "value_pp": 0.05,
+  "weights": {
+   "qual": 0.15,
+   "practice": 0.1,
+   "longrun": 0.25,
+   "history": 0.5
+  },
+  "inputs_missing": [],
+  "track_subtype": "short_flat",
+  "odds_label": {
+   "hr": "Hard Rock 12:55 PM ET (pre-race)",
+   "dk": "DraftKings pre-race (DK column, PitByNumbers board; DK feed pulled props at green)"
+  },
   "locked": true,
-  "locked_at": "2026-11-01 12:55 EST lines",
+  "locked_at": "2026-11-01 16:50 ET",
   "race_id": 5632,
   "rows": [
    {
     "rank": 1,
     "driver": "Denny Hamlin",
-    "score": 97,
-    "top10_odds": "-1000",
-    "top5_odds": "-300",
+    "car": "11",
     "start": 1,
-    "why": "Hard Rock Top 10 -1000 (no-vig 69%), Top 5 -300, win +225. Model expected finish 8.38 (model rank 1): qualified P1, practice P6, Martinsville Next Gen avg finish 11.1 (8 starts), short-track avg 9.7, last 5 avg 12.0. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "E": 7.47,
+    "score": 63,
+    "p_top10": 0.634,
+    "hr_top10": "-1000",
+    "dk_top10": "-1000",
+    "hr_nv": 0.689,
+    "dk_nv": 0.711,
+    "best_book": "HR",
+    "value": false,
+    "edge_pp": -5.5,
+    "top10_odds": "-1000",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 1,
+     "practice": 6,
+     "longrun": 6,
+     "history": 10.45
+    },
+    "missing": [],
+    "why": "Projected P1 (expected finish 7.47): qualifying speed #1, practice speed #6, long-run pace #6, short flat avg finish 9.4 in 18 starts (2 yrs). Model Top 10 chance 63%. Best price HR -1000 (no-vig 69%).",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 2,
-    "driver": "Ryan Blaney",
-    "score": 86,
-    "top10_odds": "-350",
-    "top5_odds": "-125",
-    "start": 13,
-    "why": "Hard Rock Top 10 -350 (no-vig 59%), Top 5 -125, win +550. Model expected finish 9.77 (model rank 2): qualified P13, practice P12, Martinsville Next Gen avg finish 4.6 (8 starts), short-track avg 8.5, last 5 avg 10.6. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "driver": "Christopher Bell",
+    "car": "20",
+    "start": 14,
+    "E": 9.18,
+    "score": 61,
+    "p_top10": 0.611,
+    "hr_top10": "-185",
+    "dk_top10": "-200",
+    "hr_nv": 0.492,
+    "dk_nv": 0.522,
+    "best_book": "HR",
+    "value": true,
+    "edge_pp": 11.9,
+    "top10_odds": "-185",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 14,
+     "practice": 10,
+     "longrun": 4,
+     "history": 10.15
+    },
+    "missing": [],
+    "why": "Projected P2 (expected finish 9.18): qualifying speed #14, practice speed #10, long-run pace #4, short flat avg finish 9.1 in 18 starts (2 yrs). Model Top 10 chance 61%. Best price HR -185 (no-vig 49%); model is 12 pts above that: value flag.",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 3,
-    "driver": "Joey Logano",
-    "score": 80,
-    "top10_odds": "-230",
-    "top5_odds": "+125",
-    "start": 5,
-    "why": "Hard Rock Top 10 -230 (no-vig 53%), Top 5 +125, win +850. Model expected finish 10.06 (model rank 3): qualified P5, practice P13, Martinsville Next Gen avg finish 5.5 (8 starts), short-track avg 8.5, last 5 avg 15.8. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "driver": "Ty Gibbs",
+    "car": "54",
+    "start": 2,
+    "E": 10.17,
+    "score": 59,
+    "p_top10": 0.587,
+    "hr_top10": "-210",
+    "dk_top10": "-310",
+    "hr_nv": 0.514,
+    "dk_nv": 0.592,
+    "best_book": "HR",
+    "value": true,
+    "edge_pp": 7.3,
+    "top10_odds": "-210",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 2,
+     "practice": 4,
+     "longrun": 5,
+     "history": 16.45
+    },
+    "missing": [],
+    "why": "Projected P3 (expected finish 10.17): qualifying speed #2, practice speed #4, long-run pace #5, short flat avg finish 16.1 in 18 starts (2 yrs). Model Top 10 chance 59%. Best price HR -210 (no-vig 51%); model is 7 pts above that: value flag.",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 4,
-    "driver": "Kyle Larson",
-    "score": 79,
-    "top10_odds": "-230",
-    "top5_odds": "+125",
-    "start": 3,
-    "why": "Hard Rock Top 10 -230 (no-vig 53%), Top 5 +125, win +850. Model expected finish 10.38 (model rank 4): qualified P3, practice P29, Martinsville Next Gen avg finish 6.2 (8 starts), short-track avg 10.3, last 5 avg 8.8. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "driver": "Ryan Blaney",
+    "car": "12",
+    "start": 13,
+    "E": 10.28,
+    "score": 56,
+    "p_top10": 0.563,
+    "hr_top10": "-350",
+    "dk_top10": "-450",
+    "hr_nv": 0.59,
+    "dk_nv": 0.64,
+    "best_book": "HR",
+    "value": false,
+    "edge_pp": -2.7,
+    "top10_odds": "-350",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 13,
+     "practice": 11,
+     "longrun": 12,
+     "history": 8.45
+    },
+    "missing": [],
+    "why": "Projected P4 (expected finish 10.28): qualifying speed #13, practice speed #11, long-run pace #12, short flat avg finish 7.2 in 18 starts (2 yrs). Model Top 10 chance 56%. Best price HR -350 (no-vig 59%).",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 5,
     "driver": "Chase Elliott",
-    "score": 77,
-    "top10_odds": "-200",
-    "top5_odds": "+175",
+    "car": "9",
     "start": 9,
-    "why": "Hard Rock Top 10 -200 (no-vig 51%), Top 5 +175, win +1100. Model expected finish 10.42 (model rank 5): qualified P9, practice P8, Martinsville Next Gen avg finish 6.2 (8 starts), short-track avg 14.8, last 5 avg 13.2. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "E": 10.32,
+    "score": 54,
+    "p_top10": 0.538,
+    "hr_top10": "-200",
+    "dk_top10": "-200",
+    "hr_nv": 0.505,
+    "dk_nv": 0.522,
+    "best_book": "HR",
+    "value": false,
+    "edge_pp": 3.3,
+    "top10_odds": "-200",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 9,
+     "practice": 8,
+     "longrun": 7,
+     "history": 12.85
+    },
+    "missing": [],
+    "why": "Projected P5 (expected finish 10.32): qualifying speed #9, practice speed #8, long-run pace #7, short flat avg finish 12.1 in 18 starts (2 yrs). Model Top 10 chance 54%. Best price HR -200 (no-vig 51%).",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 6,
-    "driver": "Ty Gibbs",
-    "score": 75,
-    "top10_odds": "-210",
-    "top5_odds": "+130",
-    "start": 2,
-    "why": "Hard Rock Top 10 -210 (no-vig 51%), Top 5 +130, win +1000. Model expected finish 11.75 (model rank 7): qualified P2, practice P4, Martinsville Next Gen avg finish 16.6 (7 starts), short-track avg 11.5, last 5 avg 19.0. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "driver": "Ross Chastain",
+    "car": "1",
+    "start": 16,
+    "E": 11.0,
+    "score": 51,
+    "p_top10": 0.513,
+    "hr_top10": "+120",
+    "dk_top10": "+150",
+    "hr_nv": 0.345,
+    "dk_nv": 0.313,
+    "best_book": "DK",
+    "value": true,
+    "edge_pp": 20.0,
+    "top10_odds": "+120",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 16,
+     "practice": 5,
+     "longrun": 2,
+     "history": 15.2
+    },
+    "missing": [],
+    "why": "Projected P6 (expected finish 11.0): qualifying speed #16, practice speed #5, long-run pace #2, short flat avg finish 14.7 in 18 starts (2 yrs). Model Top 10 chance 51%. Best price DK +150 (no-vig 31%); model is 20 pts above that: value flag.",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 7,
-    "driver": "Christopher Bell",
-    "score": 70,
-    "top10_odds": "-185",
-    "top5_odds": "+180",
-    "start": 14,
-    "why": "Hard Rock Top 10 -185 (no-vig 49%), Top 5 +180, win +1200. Model expected finish 12.78 (model rank 10): qualified P14, practice P10, Martinsville Next Gen avg finish 14.5 (8 starts), short-track avg 9.2, last 5 avg 14.0. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "driver": "Ryan Preece",
+    "car": "60",
+    "start": 6,
+    "E": 11.28,
+    "score": 49,
+    "p_top10": 0.488,
+    "hr_top10": "-120",
+    "dk_top10": "-115",
+    "hr_nv": 0.413,
+    "dk_nv": 0.419,
+    "best_book": "DK",
+    "value": true,
+    "edge_pp": 6.9,
+    "top10_odds": "-120",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 6,
+     "practice": 1,
+     "longrun": 10,
+     "history": 15.55
+    },
+    "missing": [],
+    "why": "Projected P7 (expected finish 11.28): qualifying speed #6, practice speed #1, long-run pace #10, short flat avg finish 15.1 in 18 starts (2 yrs). Model Top 10 chance 49%. Best price DK -115 (no-vig 42%); model is 7 pts above that: value flag.",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 8,
-    "driver": "Ryan Preece",
-    "score": 69,
-    "top10_odds": "-120",
-    "top5_odds": "+275",
-    "start": 6,
-    "why": "Hard Rock Top 10 -120 (no-vig 41%), Top 5 +275, win +2250. Model expected finish 10.9 (model rank 6): qualified P6, practice P1, Martinsville Next Gen avg finish 11.9 (7 starts), short-track avg 14.2, last 5 avg 16.8. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "driver": "Joey Logano",
+    "car": "22",
+    "start": 5,
+    "E": 12.03,
+    "score": 46,
+    "p_top10": 0.463,
+    "hr_top10": "-230",
+    "dk_top10": "-200",
+    "hr_nv": 0.528,
+    "dk_nv": 0.522,
+    "best_book": "DK",
+    "value": false,
+    "edge_pp": -5.9,
+    "top10_odds": "-230",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 5,
+     "practice": 13,
+     "longrun": 22,
+     "history": 8.95
+    },
+    "missing": [],
+    "why": "Projected P8 (expected finish 12.03): qualifying speed #5, practice speed #13, long-run pace #22, short flat avg finish 7.7 in 18 starts (2 yrs). Model Top 10 chance 46%. Best price DK -200 (no-vig 52%).",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 9,
-    "driver": "Chase Briscoe",
-    "score": 67,
-    "top10_odds": "-145",
-    "top5_odds": "+210",
-    "start": 11,
-    "why": "Hard Rock Top 10 -145 (no-vig 45%), Top 5 +210, win +1600. Model expected finish 12.6 (model rank 8): qualified P11, practice P19, Martinsville Next Gen avg finish 12.9 (8 starts), short-track avg 14.3, last 5 avg 9.4. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "driver": "Josh Berry",
+    "car": "21",
+    "start": 10,
+    "E": 12.05,
+    "score": 44,
+    "p_top10": 0.439,
+    "hr_top10": "-120",
+    "dk_top10": "-115",
+    "hr_nv": 0.413,
+    "dk_nv": 0.419,
+    "best_book": "DK",
+    "value": false,
+    "edge_pp": 2.0,
+    "top10_odds": "-120",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 10,
+     "practice": 2,
+     "longrun": 9,
+     "history": 16.2
+    },
+    "missing": [],
+    "why": "Projected P9 (expected finish 12.05): qualifying speed #10, practice speed #2, long-run pace #9, short flat avg finish 15.8 in 18 starts (2 yrs). Model Top 10 chance 44%. Best price DK -115 (no-vig 42%).",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    },
    {
     "rank": 10,
     "driver": "William Byron",
-    "score": 67,
-    "top10_odds": "-160",
-    "top5_odds": "+200",
+    "car": "24",
     "start": 8,
-    "why": "Hard Rock Top 10 -160 (no-vig 47%), Top 5 +200, win +1400. Model expected finish 13.15 (model rank 11): qualified P8, practice P22, Martinsville Next Gen avg finish 9.0 (8 starts), short-track avg 13.0, last 5 avg 15.0. Score = 60% market Top-10 probability, 40% model, scaled so the top driver is 97.",
-    "why_not": "Short-track contact and pit-road penalties swing finishes; a single incident ends a Top 10 run."
+    "E": 12.28,
+    "score": 41,
+    "p_top10": 0.414,
+    "hr_top10": "-160",
+    "dk_top10": "-230",
+    "hr_nv": 0.466,
+    "dk_nv": 0.545,
+    "best_book": "HR",
+    "value": false,
+    "edge_pp": -5.2,
+    "top10_odds": "-160",
+    "top5_odds": "",
+    "inputs": {
+     "qual": 8,
+     "practice": 22,
+     "longrun": 12,
+     "history": 11.75
+    },
+    "missing": [],
+    "why": "Projected P10 (expected finish 12.28): qualifying speed #8, practice speed #22, long-run pace #12, short flat avg finish 10.8 in 18 starts (2 yrs). Model Top 10 chance 41%. Best price HR -160 (no-vig 47%).",
+    "why_not": "Short-track contact, pit-road penalties and late cautions swing finishes; one incident ends a Top 10 run."
    }
   ]
  },
@@ -15518,8 +15635,8 @@
       "game": "Bengals vs Titans 11/01 01:00 PM ET",
       "odds": "-275",
       "grade": "B",
-      "reason": "Volume: ESPN depth chart HB; targets/g L3 6.7; receptions avg season (6 g) 4.67 | Hit: 9/10 at line, 4/5 (avg 4.6). Matchup: TEN 24/32 vs pass yds (233.0/g allowed, favorable). Context: CIN -12.5 / O/U 46.5 (CIN TT 29.5) | Home. Injuries: CIN: none | TEN: Carnell Tate (Out), Calvin Ridley (Questionable), Tyjae Spears (Out). Weather: 68°F, Cloudy, wind 5 mph. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
-      "why_not": null,
+      "reason": "Hit 3+ in 9 of last 10 and 4 of last 5 (L10 avg 4.6); season 5/6 (under 10 games, check n/a). Volume: ESPN depth chart HB; targets/g L3 6.7; receptions avg season (6 g) 4.67. Highest Hard Rock alt rung priced -250 to -425 that passes. Matchup: defense 22/32 vs receptions (passes the 20th-or-worse gate).",
+      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
       "sport": "NFL",
       "rule": "2026-10-26",
       "prop_type": "NFL rec",
@@ -15534,72 +15651,8 @@
       "def_of": 32,
       "matchup_src": "Prop Scout game_day.matchup",
       "rule2": "safefinal 2026-11-01",
-      "why_src": "Hit 3+ in 9 of last 10 and 4 of last 5 (L10 avg 4.6); season 5/6 (under 10 games, check n/a). Volume: ESPN depth chart HB; targets/g L3 6.7; receptions avg season (6 g) 4.67. Highest Hard Rock alt rung priced -250 to -425 that passes. Matchup: defense 22/32 vs receptions (passes the 20th-or-worse gate).",
-      "ctx": {
-       "game": "Bengals vs Titans",
-       "team": "CIN",
-       "opp": "TEN",
-       "stat": "pass_yds",
-       "opp_rank": {
-        "rank": 24,
-        "of": 32,
-        "pg": 233.0,
-        "gp": 7,
-        "scale": "N/of, higher = more allowed (LineMate order)"
-       },
-       "fav": "CIN",
-       "spread": -12.5,
-       "total": 46.5,
-       "team_totals": {
-        "CIN": 29.5,
-        "TEN": 16.5
-       },
-       "home": "CIN",
-       "away": "TEN",
-       "rest": null,
-       "record": {
-        "CIN": "4-2",
-        "TEN": "1-6"
-       },
-       "start_et": "Sun 11/01 01:00 PM ET",
-       "out": {
-        "CIN": [],
-        "TEN": [
-         {
-          "name": "Carnell Tate",
-          "status": "Out",
-          "pos": "WR",
-          "date": "2026-10-31"
-         },
-         {
-          "name": "Calvin Ridley",
-          "status": "Questionable",
-          "pos": "WR",
-          "date": "2026-10-30"
-         },
-         {
-          "name": "Tyjae Spears",
-          "status": "Out",
-          "pos": "RB",
-          "date": "2026-10-30"
-         }
-        ]
-       },
-       "weather": {
-        "text": "Cloudy",
-        "temp": 68,
-        "wind_mph": 5,
-        "wind_dir": 209
-       }
-      },
-      "gameday": [
-       "Volume: ESPN depth chart HB; targets/g L3 6.7; receptions avg season (6 g) 4.67 | Hit: 9/10 at line, 4/5 (avg 4.6)",
-       "Matchup: TEN 24/32 vs pass yds (233.0/g allowed, favorable)",
-       "Context: CIN -12.5 / O/U 46.5 (CIN TT 29.5) | Home",
-       "Injuries: CIN: none | TEN: Carnell Tate (Out), Calvin Ridley (Questionable), Tyjae Spears (Out)",
-       "Weather: 68°F, Cloudy, wind 5 mph",
-       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it"
-      ],
+      "status": "WON",
+      "result": "8 rec",
       "dk": {
        "ladder": [
         [
@@ -16224,189 +16277,14 @@
     "fair": "+226",
     "fair_prob": 0.3063916242032999,
     "edge": 0.04173152229121957,
-    "result": "Pending",
+    "result": "Void",
     "picked_et": "7:16 AM ET",
-    "why": "Volume: n/a (L3 3.3 vs L10 3.3 touches+targets) | Hit: 3/10 at O0.5, 1/5. Matchup: Opp n/a/32 vs Touchdowns. Context: DAL -7 / O/U 55 | - | Home · Prime. Injuries: Dee Winters, KaVontae Turpin out | Opp out: Jon Gaines II, Walter Nolen III. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+    "why": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "B",
-    "grade_why": "+4.2% vs Pinnacle",
+    "grade_why": "Edge +4.2% vs Pinnacle; hit in 3 of last 10, 2 of 7 this season (L10 avg 0.4).",
     "big4": true,
     "big4_only": null,
-    "why_src": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
-    "ctx": {
-     "game": "Cowboys vs Cardinals",
-     "team": "DAL",
-     "opp": "ARI",
-     "stat": "pts",
-     "opp_rank": {
-      "rank": 32,
-      "of": 32,
-      "pg": 29.7,
-      "gp": 7,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "DAL",
-     "spread": -7.0,
-     "total": 55.0,
-     "team_totals": {
-      "DAL": 31.5,
-      "ARI": 23.5
-     },
-     "home": "DAL",
-     "away": "ARI",
-     "rest": null,
-     "record": {
-      "DAL": "3-4",
-      "ARI": "2-5"
-     },
-     "start_et": "Sun 11/01 01:00 PM ET",
-     "out": {
-      "DAL": [
-       {
-        "name": "KaVontae Turpin",
-        "status": "Out",
-        "pos": "WR",
-        "date": "2026-10-31"
-       },
-       {
-        "name": "George Pickens",
-        "status": "Questionable",
-        "pos": "WR",
-        "date": "2026-10-30"
-       },
-       {
-        "name": "Luke Schoonmaker",
-        "status": "Questionable",
-        "pos": "TE",
-        "date": "2026-10-29"
-       }
-      ],
-      "ARI": [
-       {
-        "name": "Tip Reiman",
-        "status": "Out",
-        "pos": "TE",
-        "date": "2026-10-26"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NFL",
-      "game": "Cowboys vs Cardinals",
-      "role": "Edge",
-      "team": "DAL",
-      "opponent": "ARI",
-      "home_away": "home",
-      "identity": {
-       "athlete_id": "4242355",
-       "team": "DAL",
-       "how": "game-team roster (id + team)",
-       "reason": null
-      },
-      "l10": {
-       "hits": 3,
-       "n": 10,
-       "l5_hits": 1,
-       "l5_n": 5,
-       "season_hits": 2,
-       "season_n": 7
-      },
-      "volume_collapse": {
-       "status": "ok",
-       "volume_stat": "touches+targets",
-       "blowout_margin": 21,
-       "blowout_source": "user default (21+)",
-       "floor": null,
-       "floor_source": "§16 lists touches/targets with no number: floor n/a",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        1.0,
-        3.0,
-        6.0
-       ],
-       "l3_avg": 3.3,
-       "l10_avg": 3.3,
-       "l10_n": 10,
-       "drop_pct": -1.0,
-       "last_game": {
-        "date": "2026-10-27",
-        "opp": "PHI",
-        "v": 1.0,
-        "spot": null
-       },
-       "possible_exit_games": [
-        {
-         "date": "2026-10-27",
-         "v": 1.0
-        }
-       ],
-       "reason": "no collapse"
-      },
-      "matchup": {
-       "normalized": "n/a",
-       "linemate_null_reason": "no LineMate card for this player/stat/side",
-       "reason": "no fallback table for touchdowns in /workspace/scout/ranks/NFL-2026-11-01.json"
-      },
-      "matchup_rank": "n/a",
-      "spread": "DAL -7",
-      "total": 55.0,
-      "team_totals": {
-       "Cowboys": 31.5,
-       "Cardinals": 23.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [
-       "Fox"
-      ],
-      "rest_days": "5+",
-      "b2b": false,
-      "venue": "AT&T Stadium",
-      "indoor": true,
-      "teammates_out": [
-       "Dee Winters",
-       "KaVontae Turpin",
-       "Jonathan Bullard",
-       "Marist Liufau"
-      ],
-      "opp_out": [
-       "Jon Gaines II",
-       "Walter Nolen III",
-       "Jalen Brooks",
-       "Tip Reiman",
-       "James Conner"
-      ],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "rank n/a",
-      "matchup_pref_limit": 21
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)",
-       "possible in-game exit (not verifiable, not excluded): 2026-10-27 1.0"
-      ],
-      "matchup_rank": "n/a",
-      "matchup_tier": "rank n/a",
-      "preference_limit": 21,
-      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-      "applied_at": "2026-11-01 05:55 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: n/a (L3 3.3 vs L10 3.3 touches+targets) | Hit: 3/10 at O0.5, 1/5",
-     "Matchup: Opp n/a/32 vs Touchdowns",
-     "Context: DAL -7 / O/U 55 | - | Home · Prime",
-     "Injuries: Dee Winters, KaVontae Turpin out | Opp out: Jon Gaines II, Walter Nolen III",
-     "Weather: neutral",
-     "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
-    ],
     "dk": {
      "odds": null,
      "na": true
@@ -18371,187 +18249,12 @@
      "fair": "+226",
      "fair_prob": 0.3063916242032999,
      "edge": 0.04173152229121957,
-     "result": "Pending",
+     "result": "Void",
      "picked_et": "7:16 AM ET",
-     "why": "Volume: n/a (L3 3.3 vs L10 3.3 touches+targets) | Hit: 3/10 at O0.5, 1/5. Matchup: Opp n/a/32 vs Touchdowns. Context: DAL -7 / O/U 55 | - | Home · Prime. Injuries: Dee Winters, KaVontae Turpin out | Opp out: Jon Gaines II, Walter Nolen III. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+     "why": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "B",
-     "grade_why": "+4.2% vs Pinnacle",
-     "why_src": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
-     "ctx": {
-      "game": "Cowboys vs Cardinals",
-      "team": "DAL",
-      "opp": "ARI",
-      "stat": "pts",
-      "opp_rank": {
-       "rank": 32,
-       "of": 32,
-       "pg": 29.7,
-       "gp": 7,
-       "scale": "N/of, higher = more allowed (LineMate order)"
-      },
-      "fav": "DAL",
-      "spread": -7.0,
-      "total": 55.0,
-      "team_totals": {
-       "DAL": 31.5,
-       "ARI": 23.5
-      },
-      "home": "DAL",
-      "away": "ARI",
-      "rest": null,
-      "record": {
-       "DAL": "3-4",
-       "ARI": "2-5"
-      },
-      "start_et": "Sun 11/01 01:00 PM ET",
-      "out": {
-       "DAL": [
-        {
-         "name": "KaVontae Turpin",
-         "status": "Out",
-         "pos": "WR",
-         "date": "2026-10-31"
-        },
-        {
-         "name": "George Pickens",
-         "status": "Questionable",
-         "pos": "WR",
-         "date": "2026-10-30"
-        },
-        {
-         "name": "Luke Schoonmaker",
-         "status": "Questionable",
-         "pos": "TE",
-         "date": "2026-10-29"
-        }
-       ],
-       "ARI": [
-        {
-         "name": "Tip Reiman",
-         "status": "Out",
-         "pos": "TE",
-         "date": "2026-10-26"
-        }
-       ]
-      },
-      "game_day": {
-       "sport": "NFL",
-       "game": "Cowboys vs Cardinals",
-       "role": "Edge",
-       "team": "DAL",
-       "opponent": "ARI",
-       "home_away": "home",
-       "identity": {
-        "athlete_id": "4242355",
-        "team": "DAL",
-        "how": "game-team roster (id + team)",
-        "reason": null
-       },
-       "l10": {
-        "hits": 3,
-        "n": 10,
-        "l5_hits": 1,
-        "l5_n": 5,
-        "season_hits": 2,
-        "season_n": 7
-       },
-       "volume_collapse": {
-        "status": "ok",
-        "volume_stat": "touches+targets",
-        "blowout_margin": 21,
-        "blowout_source": "user default (21+)",
-        "floor": null,
-        "floor_source": "§16 lists touches/targets with no number: floor n/a",
-        "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-        "excluded_games": [],
-        "unknown_margin_or_ot": 0,
-        "l3": [
-         1.0,
-         3.0,
-         6.0
-        ],
-        "l3_avg": 3.3,
-        "l10_avg": 3.3,
-        "l10_n": 10,
-        "drop_pct": -1.0,
-        "last_game": {
-         "date": "2026-10-27",
-         "opp": "PHI",
-         "v": 1.0,
-         "spot": null
-        },
-        "possible_exit_games": [
-         {
-          "date": "2026-10-27",
-          "v": 1.0
-         }
-        ],
-        "reason": "no collapse"
-       },
-       "matchup": {
-        "normalized": "n/a",
-        "linemate_null_reason": "no LineMate card for this player/stat/side",
-        "reason": "no fallback table for touchdowns in /workspace/scout/ranks/NFL-2026-11-01.json"
-       },
-       "matchup_rank": "n/a",
-       "spread": "DAL -7",
-       "total": 55.0,
-       "team_totals": {
-        "Cowboys": 31.5,
-        "Cardinals": 23.5
-       },
-       "pace": "-",
-       "division_game": false,
-       "national_tv": [
-        "Fox"
-       ],
-       "rest_days": "5+",
-       "b2b": false,
-       "venue": "AT&T Stadium",
-       "indoor": true,
-       "teammates_out": [
-        "Dee Winters",
-        "KaVontae Turpin",
-        "Jonathan Bullard",
-        "Marist Liufau"
-       ],
-       "opp_out": [
-        "Jon Gaines II",
-        "Walter Nolen III",
-        "Jalen Brooks",
-        "Tip Reiman",
-        "James Conner"
-       ],
-       "player_injury_status": "not listed",
-       "lm_without": [],
-       "lm_vs_opp": "n/a",
-       "weather": "indoor",
-       "matchup_tier": "rank n/a",
-       "matchup_pref_limit": 21
-      },
-      "filters_applied": {
-       "vetoes": [],
-       "flags": [
-        "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)",
-        "possible in-game exit (not verifiable, not excluded): 2026-10-27 1.0"
-       ],
-       "matchup_rank": "n/a",
-       "matchup_tier": "rank n/a",
-       "preference_limit": 21,
-       "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
-       "applied_at": "2026-11-01 05:55 AM ET"
-      },
-      "why_from": "scout"
-     },
-     "gameday": [
-      "Volume: n/a (L3 3.3 vs L10 3.3 touches+targets) | Hit: 3/10 at O0.5, 1/5",
-      "Matchup: Opp n/a/32 vs Touchdowns",
-      "Context: DAL -7 / O/U 55 | - | Home · Prime",
-      "Injuries: Dee Winters, KaVontae Turpin out | Opp out: Jon Gaines II, Walter Nolen III",
-      "Weather: neutral",
-      "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
-     ],
+     "grade_why": "Edge +4.2% vs Pinnacle; hit in 3 of last 10, 2 of 7 this season (L10 avg 0.4).",
      "dk": {
       "odds": null,
       "na": true
@@ -19377,8 +19080,8 @@
     "book": "Hard Rock",
     "grade": "C",
     "score": 34.6,
-    "status": "Pending",
-    "why": "Volume: L5 6.6 touches+targets/g, RZ 1.8/g, GL share 10% (L3 8.7 vs L10 8.3) | Hit: 4/10 ATD L10, 2/5 L5. Matchup: Opp 15/32 vs RB TDs (0.86/g allowed; nflverse 2026, 1 = allows most). Context: CIN -10.5 / O/U 47 (TT 29.5) | pace n/a (NFL) | Home · Sun. Injuries: none | none. Weather: neutral (wind 8 mph, 66F) [forecast]. Risk: thin goal-line role (10%); needs a red-zone target or a long TD. Formula: [C] Score 34.6/100 (rank 42 of the week).⁠ RZ touches 1.8/g L5; goal-line share 10% (i5 7%, i10 14%); opp allows 0.86 TD/g to RB; team total 29.5 (Hard Rock team total); L10 ATD 40% (nflverse game logs (10 g)).",
+    "status": "L",
+    "why": "Volume: L5 6.6 touches+targets/g, RZ 1.8/g, GL share 10% (L3 8.7 vs L10 8.3) | Hit: 4/10 ATD L10, 2/5 L5\nMatchup: Opp 15/32 vs RB TDs (0.86/g allowed; nflverse 2026, 1 = allows most)\nContext: CIN -10.5 / O/U 47 (TT 29.5) | pace n/a (NFL) | Home · Sun\nInjuries: none | none\nWeather: neutral (wind 8 mph, 66F) [forecast]\nRisk: thin goal-line role (10%); needs a red-zone target or a long TD\nFormula: [C] Score 34.6/100 (rank 42 of the week). RZ touches 1.8/g L5; goal-line share 10% (i5 7%, i10 14%); opp allows 0.86 TD/g to RB; team total 29.5 (Hard Rock team total); L10 ATD 40% (nflverse game logs (10 g)).",
     "game_day": {
      "opp_rank": "15/32",
      "volume_collapse": "ok: no collapse",
@@ -19387,74 +19090,6 @@
     },
     "locked_at": "Thu Oct 29, 7:36 PM ET",
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
-    "why_src": "Volume: L5 6.6 touches+targets/g, RZ 1.8/g, GL share 10% (L3 8.7 vs L10 8.3) | Hit: 4/10 ATD L10, 2/5 L5\nMatchup: Opp 15/32 vs RB TDs (0.86/g allowed; nflverse 2026, 1 = allows most)\nContext: CIN -10.5 / O/U 47 (TT 29.5) | pace n/a (NFL) | Home · Sun\nInjuries: none | none\nWeather: neutral (wind 8 mph, 66F) [forecast]\nRisk: thin goal-line role (10%); needs a red-zone target or a long TD\nFormula: [C] Score 34.6/100 (rank 42 of the week). RZ touches 1.8/g L5; goal-line share 10% (i5 7%, i10 14%); opp allows 0.86 TD/g to RB; team total 29.5 (Hard Rock team total); L10 ATD 40% (nflverse game logs (10 g)).",
-    "ctx": {
-     "game": "Bengals vs Titans",
-     "team": "CIN",
-     "opp": "TEN",
-     "stat": "pts",
-     "opp_rank": {
-      "rank": 15,
-      "of": 32,
-      "pg": 22.3,
-      "gp": 7,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "CIN",
-     "spread": -12.5,
-     "total": 46.5,
-     "team_totals": {
-      "CIN": 29.5,
-      "TEN": 16.5
-     },
-     "home": "CIN",
-     "away": "TEN",
-     "rest": null,
-     "record": {
-      "CIN": "4-2",
-      "TEN": "1-6"
-     },
-     "start_et": "Sun 11/01 01:00 PM ET",
-     "out": {
-      "CIN": [],
-      "TEN": [
-       {
-        "name": "Carnell Tate",
-        "status": "Out",
-        "pos": "WR",
-        "date": "2026-10-31"
-       },
-       {
-        "name": "Calvin Ridley",
-        "status": "Questionable",
-        "pos": "WR",
-        "date": "2026-10-30"
-       },
-       {
-        "name": "Tyjae Spears",
-        "status": "Out",
-        "pos": "RB",
-        "date": "2026-10-30"
-       }
-      ]
-     },
-     "weather": {
-      "text": "Cloudy",
-      "temp": 68,
-      "wind_mph": 5,
-      "wind_dir": 209
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L5 6.6 touches+targets/g, RZ 1.8/g, GL share 10% (L3 8.7 vs L10 8.3) | Hit: 4/10 ATD L10, 2/5 L5",
-     "Matchup: Opp 15/32 vs RB TDs (0.86/g allowed; nflverse 2026, 1 = allows most)",
-     "Context: CIN -10.5 / O/U 47 (TT 29.5) | pace n/a (NFL) | Home · Sun",
-     "Injuries: none | none",
-     "Weather: neutral (wind 8 mph, 66F) [forecast]",
-     "Risk: thin goal-line role (10%); needs a red-zone target or a long TD",
-     "Formula: [C] Score 34.6/100 (rank 42 of the week).⁠ RZ touches 1.8/g L5; goal-line share 10% (i5 7%, i10 14%); opp allows 0.86 TD/g to RB; team total 29.5 (Hard Rock team total); L10 ATD 40% (nflverse game logs (10 g))"
-    ],
     "dk": {
      "odds": "+210",
      "na": false
@@ -24410,8 +24045,8 @@
    "prop": "NFL anytime td",
    "pick": "Jake Ferguson Over 0.5 Touchdowns",
    "odds": "+240",
-   "res": "Pending",
-   "stat": "Pending"
+   "res": "Void",
+   "stat": "Void (did not play (not in ESPN box score and ESPN gamelog has no appearance in event 401873024 (teammate gamelogs current)))"
   },
   {
    "date": "2026-11-01",
@@ -25730,230 +25365,9 @@
     "prop": "Under 9.5 Receiving Yards",
     "odds": "-110",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
-    "why_src": null,
-    "why": "Volume: n/a (L3 1.7 vs L10 1.8 touches+targets) | Hit: 7/10 at U9.5, 4/5. Matchup: Opp 23/32 vs Receiving Yards (TR). Context: TEN +12.5 / O/U 46.5 | - | Away · Prime. Injuries: Dorian Mausi, Carnell Tate out | Opp out: Andrei Iosivas, Erick All Jr. Weather: neutral (74F, wind 5 mph). Risk: Tough matchup: CIN 23/32 vs pass yds.",
-    "ctx": {
-     "game": "Bengals vs Titans",
-     "team": "TEN",
-     "opp": "CIN",
-     "stat": "pass_yds",
-     "opp_rank": {
-      "rank": 23,
-      "of": 32,
-      "pg": 230.3,
-      "gp": 6,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "CIN",
-     "spread": -12.5,
-     "total": 46.5,
-     "team_totals": {
-      "CIN": 29.5,
-      "TEN": 16.5
-     },
-     "home": "CIN",
-     "away": "TEN",
-     "rest": null,
-     "record": {
-      "CIN": "4-2",
-      "TEN": "1-6"
-     },
-     "start_et": "Sun 11/01 01:00 PM ET",
-     "out": {
-      "CIN": [],
-      "TEN": [
-       {
-        "name": "Carnell Tate",
-        "status": "Out",
-        "pos": "WR",
-        "date": "2026-10-31"
-       },
-       {
-        "name": "Calvin Ridley",
-        "status": "Questionable",
-        "pos": "WR",
-        "date": "2026-10-30"
-       },
-       {
-        "name": "Tyjae Spears",
-        "status": "Out",
-        "pos": "RB",
-        "date": "2026-10-30"
-       }
-      ]
-     },
-     "weather": {
-      "text": "Cloudy",
-      "temp": 68,
-      "wind_mph": 5,
-      "wind_dir": 209
-     },
-     "game_day": {
-      "sport": "NFL",
-      "game": "Bengals vs Titans",
-      "role": "LEG DAY",
-      "team": "TEN",
-      "opponent": "CIN",
-      "home_away": "away",
-      "identity": {
-       "athlete_id": "4361516",
-       "team": "TEN",
-       "how": "game-team roster (id + team)",
-       "reason": null
-      },
-      "l10": {
-       "hits": 7,
-       "n": 10,
-       "l5_hits": 4,
-       "l5_n": 5,
-       "season_hits": 6,
-       "season_n": 7
-      },
-      "volume_collapse": {
-       "status": "ok",
-       "volume_stat": "touches+targets",
-       "blowout_margin": 21,
-       "blowout_source": "user default (21+)",
-       "floor": null,
-       "floor_source": "§16 lists touches/targets with no number: floor n/a",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-11",
-         "opp": "HOU",
-         "v": 2.0,
-         "excluded_for": "blowout (margin 23)"
-        },
-        {
-         "date": "2025-12-28",
-         "opp": "LV",
-         "v": 3.0,
-         "excluded_for": "blowout (margin 24)"
-        },
-        {
-         "date": "2025-11-23",
-         "opp": "DET",
-         "v": 2.0,
-         "excluded_for": "OT/extra innings"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        2.0,
-        2.0,
-        1.0
-       ],
-       "l3_avg": 1.7,
-       "l10_avg": 1.8,
-       "l10_n": 10,
-       "drop_pct": 7.4,
-       "last_game": {
-        "date": "2026-10-25",
-        "opp": "CLE",
-        "v": 2.0,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "no collapse"
-      },
-      "matchup": {
-       "raw_opp_rank": 23,
-       "raw_meaning": "teamrankings: team pass yds allowed (no WR/TE/RB split on TeamRankings); raw re-ranked ascending (1 = lowest = toughest for an over); source rank 23 (TeamRankings rank 1 = lowest value (ascending))",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 23,
-       "of": 32,
-       "source": "teamrankings",
-       "stat": "receiving yards",
-       "linemate": null,
-       "linemate_null_reason": "no LineMate card for this player/stat/side",
-       "fallback": {
-        "value": 230.333,
-        "raw": 23,
-        "of": 32,
-        "source": "teamrankings",
-        "source_rank": 23,
-        "source_team": "Cincinnati",
-        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
-        "mapping": "team pass yds allowed (no WR/TE/RB split on TeamRankings)",
-        "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-yards-per-game",
-        "fetched_at": "2026-11-01 05:55 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NFL-2026-11-01.json",
-        "source": "teamrankings",
-        "fetched_at": "2026-11-01 05:55 AM ET",
-        "failures": {},
-        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
-        "fantasyteamadvice": null
-       },
-       "source_rank": 23,
-       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
-      },
-      "matchup_rank": 23,
-      "spread": "TEN +12.5",
-      "total": 46.5,
-      "team_totals": {
-       "Bengals": 29.5,
-       "Titans": 16.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [
-       "CBS"
-      ],
-      "rest_days": "5+",
-      "b2b": false,
-      "venue": "Paycor Stadium",
-      "indoor": false,
-      "teammates_out": [
-       "Dorian Mausi",
-       "Carnell Tate",
-       "Tommy Townsend",
-       "Tyjae Spears"
-      ],
-      "opp_out": [
-       "Andrei Iosivas",
-       "Erick All Jr.",
-       "Kyle Dugger"
-      ],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": {
-       "temp_f": 73.8,
-       "wind_mph": 4.9,
-       "gust_mph": 7.2,
-       "precip_pct": 5,
-       "wind_dir_deg": 204,
-       "at": "2026-11-01T13:00",
-       "place": "Cincinnati, Ohio",
-       "source": "Open-Meteo"
-      },
-      "matchup_tier": "preferred",
-      "matchup_pref_limit": 23
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [],
-      "matchup_rank": 23,
-      "matchup_tier": "preferred",
-      "preference_limit": 23,
-      "hard_vetoes_apply": true,
-      "applied_at": "2026-11-01 05:55 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: n/a (L3 1.7 vs L10 1.8 touches+targets) | Hit: 7/10 at U9.5, 4/5",
-     "Matchup: Opp 23/32 vs Receiving Yards (TR)",
-     "Context: TEN +12.5 / O/U 46.5 | - | Away · Prime",
-     "Injuries: Dorian Mausi, Carnell Tate out | Opp out: Andrei Iosivas, Erick All Jr",
-     "Weather: neutral (74F, wind 5 mph)",
-     "Risk: Tough matchup: CIN 23/32 vs pass yds"
-    ],
+    "status": "final",
+    "res": "L",
+    "stat": "36 rec yds",
     "dk": {
      "odds": "-118",
      "na": false,
@@ -25974,238 +25388,9 @@
     "prop": "Under 13.5 Receiving Yards",
     "odds": "-110",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
-    "why_src": null,
-    "why_not": "possible in-game exit (not verifiable, not excluded): 2026-09-13 9.0",
-    "why": "Volume: n/a (L3 22.7 vs L10 19.5 touches+targets) | Hit: 7/10 at U13.5, 3/5. Matchup: Opp 23/32 vs Receiving Yards (TR). Context: TEN +12.5 / O/U 46.5 | - | Away · Prime. Injuries: Dorian Mausi, Carnell Tate out | Opp out: Andrei Iosivas, Erick All Jr. Weather: neutral (74F, wind 5 mph). Risk: possible in-game exit (not verifiable, not excluded): 2026-09-13 9.0.",
-    "ctx": {
-     "game": "Bengals vs Titans",
-     "team": "TEN",
-     "opp": "CIN",
-     "stat": "pass_yds",
-     "opp_rank": {
-      "rank": 23,
-      "of": 32,
-      "pg": 230.3,
-      "gp": 6,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "CIN",
-     "spread": -12.5,
-     "total": 46.5,
-     "team_totals": {
-      "CIN": 29.5,
-      "TEN": 16.5
-     },
-     "home": "CIN",
-     "away": "TEN",
-     "rest": null,
-     "record": {
-      "CIN": "4-2",
-      "TEN": "1-6"
-     },
-     "start_et": "Sun 11/01 01:00 PM ET",
-     "out": {
-      "CIN": [],
-      "TEN": [
-       {
-        "name": "Carnell Tate",
-        "status": "Out",
-        "pos": "WR",
-        "date": "2026-10-31"
-       },
-       {
-        "name": "Calvin Ridley",
-        "status": "Questionable",
-        "pos": "WR",
-        "date": "2026-10-30"
-       },
-       {
-        "name": "Tyjae Spears",
-        "status": "Out",
-        "pos": "RB",
-        "date": "2026-10-30"
-       }
-      ]
-     },
-     "weather": {
-      "text": "Cloudy",
-      "temp": 68,
-      "wind_mph": 5,
-      "wind_dir": 209
-     },
-     "game_day": {
-      "sport": "NFL",
-      "game": "Bengals vs Titans",
-      "role": "LEG DAY",
-      "team": "TEN",
-      "opponent": "CIN",
-      "home_away": "away",
-      "identity": {
-       "athlete_id": "3916148",
-       "team": "TEN",
-       "how": "game-team roster (id + team)",
-       "reason": null
-      },
-      "l10": {
-       "hits": 7,
-       "n": 10,
-       "l5_hits": 3,
-       "l5_n": 5,
-       "season_hits": 5,
-       "season_n": 7
-      },
-      "volume_collapse": {
-       "status": "ok",
-       "volume_stat": "touches+targets",
-       "blowout_margin": 21,
-       "blowout_source": "user default (21+)",
-       "floor": null,
-       "floor_source": "§16 lists touches/targets with no number: floor n/a",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-11",
-         "opp": "HOU",
-         "v": 15.0,
-         "excluded_for": "blowout (margin 23)"
-        },
-        {
-         "date": "2026-01-04",
-         "opp": "JAX",
-         "v": 17.0,
-         "excluded_for": "blowout (margin 34)"
-        },
-        {
-         "date": "2025-11-30",
-         "opp": "JAX",
-         "v": 12.0,
-         "excluded_for": "blowout (margin 22)"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        28.0,
-        20.0,
-        20.0
-       ],
-       "l3_avg": 22.7,
-       "l10_avg": 19.5,
-       "l10_n": 10,
-       "drop_pct": -16.2,
-       "last_game": {
-        "date": "2026-10-25",
-        "opp": "CLE",
-        "v": 28.0,
-        "spot": null
-       },
-       "possible_exit_games": [
-        {
-         "date": "2026-09-13",
-         "v": 9.0
-        }
-       ],
-       "reason": "no collapse"
-      },
-      "matchup": {
-       "raw_opp_rank": 23,
-       "raw_meaning": "teamrankings: team pass yds allowed (no WR/TE/RB split on TeamRankings); raw re-ranked ascending (1 = lowest = toughest for an over); source rank 23 (TeamRankings rank 1 = lowest value (ascending))",
-       "direction": "normalized 1 = best for the side taken",
-       "normalized": 23,
-       "of": 32,
-       "source": "teamrankings",
-       "stat": "receiving yards",
-       "linemate": null,
-       "linemate_null_reason": "no LineMate card for this player/stat/side",
-       "fallback": {
-        "value": 230.333,
-        "raw": 23,
-        "of": 32,
-        "source": "teamrankings",
-        "source_rank": 23,
-        "source_team": "Cincinnati",
-        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
-        "mapping": "team pass yds allowed (no WR/TE/RB split on TeamRankings)",
-        "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-yards-per-game",
-        "fetched_at": "2026-11-01 05:55 AM ET"
-       },
-       "fallback_source": {
-        "file": "/workspace/scout/ranks/NFL-2026-11-01.json",
-        "source": "teamrankings",
-        "fetched_at": "2026-11-01 05:55 AM ET",
-        "failures": {},
-        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
-        "fantasyteamadvice": null
-       },
-       "source_rank": 23,
-       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
-      },
-      "matchup_rank": 23,
-      "spread": "TEN +12.5",
-      "total": 46.5,
-      "team_totals": {
-       "Bengals": 29.5,
-       "Titans": 16.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [
-       "CBS"
-      ],
-      "rest_days": "5+",
-      "b2b": false,
-      "venue": "Paycor Stadium",
-      "indoor": false,
-      "teammates_out": [
-       "Dorian Mausi",
-       "Carnell Tate",
-       "Tommy Townsend",
-       "Tyjae Spears"
-      ],
-      "opp_out": [
-       "Andrei Iosivas",
-       "Erick All Jr.",
-       "Kyle Dugger"
-      ],
-      "player_injury_status": "not listed",
-      "lm_without": [],
-      "lm_vs_opp": "n/a",
-      "weather": {
-       "temp_f": 73.8,
-       "wind_mph": 4.9,
-       "gust_mph": 7.2,
-       "precip_pct": 5,
-       "wind_dir_deg": 204,
-       "at": "2026-11-01T13:00",
-       "place": "Cincinnati, Ohio",
-       "source": "Open-Meteo"
-      },
-      "matchup_tier": "preferred",
-      "matchup_pref_limit": 23
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "possible in-game exit (not verifiable, not excluded): 2026-09-13 9.0"
-      ],
-      "matchup_rank": 23,
-      "matchup_tier": "preferred",
-      "preference_limit": 23,
-      "hard_vetoes_apply": true,
-      "applied_at": "2026-11-01 05:55 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: n/a (L3 22.7 vs L10 19.5 touches+targets) | Hit: 7/10 at U13.5, 3/5",
-     "Matchup: Opp 23/32 vs Receiving Yards (TR)",
-     "Context: TEN +12.5 / O/U 46.5 | - | Away · Prime",
-     "Injuries: Dorian Mausi, Carnell Tate out | Opp out: Andrei Iosivas, Erick All Jr",
-     "Weather: neutral (74F, wind 5 mph)",
-     "Risk: possible in-game exit (not verifiable, not excluded): 2026-09-13 9.0"
-    ],
+    "status": "final",
+    "res": "L",
+    "stat": "20 rec yds",
     "dk": {
      "odds": null,
      "na": true,
@@ -29738,8 +28923,8 @@
     "legs": [
      {
       "pick": "Trey McBride Over 6.5 Receptions",
-      "result": null,
-      "stat": ""
+      "result": "W",
+      "stat": "7 rec"
      },
      {
       "pick": "J.K. Dobbins Over 24.5 Rushing Yards",
@@ -34704,13 +33889,14 @@
     "prop": "NFL anytime td",
     "pick": "Jake Ferguson Over 0.5 Touchdowns",
     "odds": "+240",
-    "res": "",
-    "stat": "Pending",
+    "res": "V",
+    "stat": "Void (did not play (not in ESPN box score and ESPN gamelog has no appearance in event 401873024 (teammate gamelogs current)))",
     "leg": false,
     "img": null,
     "sub": "",
     "alt": false,
-    "fam": "Anytime TD"
+    "fam": "Anytime TD",
+    "uu": 0.0
    },
    {
     "date": "2026-11-01",
@@ -37097,8 +36283,8 @@
     "prop": "Today alt · NFL rec Chase Brown 3+ rec",
     "pick": "Chase Brown 3+ rec",
     "odds": "-275",
-    "res": "",
-    "stat": "—",
+    "res": "W",
+    "stat": "8 rec",
     "alt": true,
     "fam": "Receptions",
     "img": null,
@@ -37628,7 +36814,7 @@
     "prop": "Anytime TD",
     "pick": "Samaje Perine (RB) anytime TD",
     "odds": "+220",
-    "res": "",
+    "res": "L",
     "stat": "",
     "alt": false,
     "fam": "Anytime TD",
@@ -43142,6 +42328,96 @@
     "uu": -1.0
    },
    {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "R.Flournoy o35.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "W",
+    "stat": "W (38 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.87
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "K.Bourne o34.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
+    "odds": "-115",
+    "res": "L",
+    "stat": "L (29 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rec yds (over)",
+    "fam": "Receiving yds",
+    "pick": "G.Helm o21.5 Rec Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
+    "odds": "-108",
+    "res": "W",
+    "stat": "W (76 rec yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.93
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "C.Brown o57.5 Rush Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
+    "odds": "-114",
+    "res": "L",
+    "stat": "L (55 rush yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "Chase Brown o 56.5 Rush Yards (TEN @ CIN; NFL Sunday Free Card)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (55 rush yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
+   },
+   {
     "date": "2026-10-21",
     "sport": "NBA",
     "grp": "C",
@@ -43607,40 +42883,6 @@
     "cat": "Cappers",
     "prop": "@tonestakes · NFL rec yds (over)",
     "fam": "Receiving yds",
-    "pick": "R.Flournoy o35.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
-    "odds": "-115",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-01",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "K.Bourne o34.5 Rec Yds (ARI @ DAL 1:00pm; Sun #NFL card)",
-    "odds": "-115",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-01",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NFL rec yds (over)",
-    "fam": "Receiving yds",
     "pick": "E.Egbuka o49.5 Rec Yds (ATL @ TB 1:00pm; Sun #NFL card)",
     "odds": "-114",
     "res": "",
@@ -43677,40 +42919,6 @@
     "fam": "Anytime TD",
     "pick": "T.Hockenson Anytime TD Scorer Yes (MIN @ DET 1:00pm; Sun #NFL card)",
     "odds": "+270",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-01",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NFL rec yds (over)",
-    "fam": "Receiving yds",
-    "pick": "G.Helm o21.5 Rec Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
-    "odds": "-108",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-01",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NFL rush yds (over)",
-    "fam": "Rushing yds",
-    "pick": "C.Brown o57.5 Rush Yds (TEN @ CIN 1:00pm; Sun #NFL card)",
-    "odds": "-114",
     "res": "",
     "stat": "",
     "alt": false,
@@ -43956,23 +43164,6 @@
     "img": null,
     "sub": "",
     "nu": false
-   },
-   {
-    "date": "2026-11-01",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NFL rush yds (over)",
-    "fam": "Rushing yds",
-    "pick": "Chase Brown o 56.5 Rush Yards (TEN @ CIN; NFL Sunday Free Card)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
    },
    {
     "date": "2026-11-01",
@@ -47640,11 +46831,11 @@
     "prop": "Daniel Bellinger Under 9.5 Receiving Yards",
     "pick": "#5 Daniel Bellinger Under 9.5 Receiving Yards",
     "odds": "-110",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "36 rec yds",
     "alt": false,
     "rank": 5,
-    "uu": 0.0,
+    "uu": -1.0,
     "game": "Bengals vs Titans",
     "leg": false,
     "img": null,
@@ -47659,11 +46850,11 @@
     "prop": "Tony Pollard Under 13.5 Receiving Yards",
     "pick": "#6 Tony Pollard Under 13.5 Receiving Yards",
     "odds": "-110",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "20 rec yds",
     "alt": false,
     "rank": 6,
-    "uu": 0.0,
+    "uu": -1.0,
     "game": "Bengals vs Titans",
     "leg": false,
     "img": null,
@@ -47827,10 +47018,10 @@
    "O": {
     "tickets": {
      "w": 134,
-     "l": 124,
+     "l": 126,
      "p": 6,
-     "pending": 20,
-     "units": -16.66
+     "pending": 18,
+     "units": -18.66
     },
     "legs": {
      "w": 7,
@@ -47844,8 +47035,8 @@
     "tickets": {
      "w": 103,
      "l": 184,
-     "p": 3,
-     "pending": 5,
+     "p": 4,
+     "pending": 4,
      "units": -22.34
     },
     "legs": {
@@ -47858,11 +47049,11 @@
    },
    "C": {
     "tickets": {
-     "w": 159,
-     "l": 123,
+     "w": 161,
+     "l": 126,
      "p": 3,
-     "pending": 66,
-     "units": -32.63,
+     "pending": 61,
+     "units": -33.83,
      "no_odds": 122
     },
     "legs": {
@@ -47900,10 +47091,10 @@
     },
     "legs": {
      "w": 9,
-     "l": 11,
+     "l": 12,
      "p": 1,
-     "pending": 4,
-     "units": -2
+     "pending": 3,
+     "units": -3
     },
     "unofficial": true
    }
@@ -47920,7 +47111,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 66 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 61 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "Big 4 rows that copy a sport ticket (RULEBOOK §21, history kept): [('2026-10-27', 'Parlay +100', '+140', ['Big 4', 'NBA']), ('2026-10-28', 'Parlay +100', '+121', ['Big 4', 'NBA'])]"
@@ -48087,10 +47278,10 @@
     "game": "post tags #ClipperNation vs #DubNation; My NBA Play Of The Day, POTD",
     "gkey": "NBA:dubnation my nba play of the day potd|post tags clippernation",
     "start": null,
-    "locked": false,
+    "locked": true,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 16:27",
+    "priced": "2026-11-01 16:49",
     "dk": {
      "ladder": [
       [
@@ -48148,10 +47339,10 @@
     "game": "Villanova/ND first CBB play of the year",
     "gkey": "NCAAB:villanovand first cbb play of the year",
     "start": null,
-    "locked": false,
+    "locked": true,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 16:27",
+    "priced": "2026-11-01 16:49",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -48181,7 +47372,7 @@
   "msg": "",
   "odds": 553,
   "orig": 553,
-  "final": false,
+  "final": true,
   "sources": [
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
@@ -48646,8 +47837,8 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 16:27 ET",
-  "picks": 40,
+  "built": "2026-11-01 16:50 ET",
+  "picks": 33,
   "vetoes": [],
   "gaps": [
    "POTD Kirill Kaprizov Over 0.5 Assists: AttributeError 'NoneType' object has no attribute 'get'"
@@ -49083,6 +48274,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-01 04:27 PM ET"
+  "checked_et": "2026-11-01 04:50 PM ET"
  }
 }
