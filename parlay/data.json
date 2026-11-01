@@ -1,5 +1,5 @@
 {
- "generated": 1793549030.8182702,
+ "generated": 1793549309.9733872,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -9516,7 +9516,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 11:03 AM ET",
+  "updated": "2026-11-01 11:08 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -30769,36 +30769,34 @@
   "alt": [],
   "live_lines": [],
   "lotto": [
+   "TDC-1101 OVERHAUL. TD City only. Overrides every older line below where they conflict:",
+   "Calibrated chance and edge: the score becomes a calibrated anytime-TD chance. Hard Rock's ATD market is one-sided, so the no-vig chance per game is each implied chance times k, where k = Hard Rock's expected number of different TD scorers divided by the sum of every player's implied chance in that game, capped at 1; no ladder = the median k (0.89). EDGE = calibrated chance minus no-vig chance.",
+   "Ranking (deterministic): from the Nov 5 week the SOFT MATCHUP tier first (preferred > n/a > demoted); then edge, high to low; then calibrated chance, high to low; then the mobile-QB / goal-line-RB flag; then player name A-Z. Same inputs always give the same ticket.",
+   "Unchanged: one player / same core stat across tickets; the ticket is an L as soon as any leg loses (SETTLING below); auto-void of non-playing legs; grading.",
+   "Lock timing and why: the full ticket locks THURSDAY 10:00 AM ET. It is Thursday because the first game of the NFL week is Thursday: the Thursday lock has to cover that early slate (TNF), and it locks Sunday and Monday legs at the same time. Sunday and Monday news (inactives, weather) is handled by the Sunday re-check, not by a later lock.",
+   "Sunday re-check: for every Pending leg of a Sunday or Monday game that has not started, it pulls ESPN injuries and the Game Day weather. A leg Questionable or worse on ESPN, or hit by the wind veto / TD City wind rule, is SWAPPED for the next-best eligible name from the Thursday candidate log, re-ranked by edge at the current Hard Rock price (same band, team, game, injury and wind rules; game not started). If none is left, the leg is VOIDED and the ticket plays the remaining legs. Every swap and void is logged. ESPN unavailable = no change. This replaces FINAL LOCK's \"no post-lock swaps\" for injury and weather ONLY; nothing else changes after the Thursday lock. First applies to tickets locked from 2026-11-05 (flag sunday_recheck); the locked Nov 1 2026 week ticket is not changed.",
+   "Backtest: the calibrated model beats the base rate (2026 out of sample log-loss 0.508 vs 0.538) but Hard Rock's own no-vig price is better than the model. Edge is a ranking tool, not proof of value.",
    "Td city rules. Overrides any older wording below where they conflict:",
    "THURSDAY MORNING LOCK; TD City only; replaces the Thursday 6:30 PM pre-lock and the Sunday 11:00 AM main lock:",
    "The full weekly TD City ticket is built and locked Thursday morning, 10:00 AM ET (time as proposed in the relay), instead of Sunday 11:00 AM ET.",
    "The Thursday Night Football leg is included at that lock.",
    "Sunday and Monday games remain eligible.",
-   "Final lock: The Thursday 10:00 AM ET pull locks the whole week. Once the ticket is played, nothing can be changed after that. No post-lock swaps. The Thursday 10:00 AM lock is final.",
-   "Implementation: python3 /the bot <Sunday> --full-lock at Thursday ~10:00 AM ET ranks and locks the whole ticket from every unstarted Thu-Mon game with Hard Rock anytime-TD prices, under all rules (band, no floor, top 4 / max 8, legs 5-8 within 8 of leg 4, 1 per team, no Questionable or worse, six-line Why, TD City wind rule on the forecast in the Game Day context at lock). It logs how many games had Hard Rock ATD prices (vs the week's schedule) and saves the ranked candidate log for AUDIT ONLY. The ticket is marked final / no_swap; --swap refuses. No inactive checks run for TD City. A locked player who does not play settles the way Hard Rock settles it (non-participant leg = Void). The card subtitle reads \"Locked Thu <time> ET, final\". \"Thin slate\" counts the survivors in the pool (distinct teams after rules and vetoes), never the number of locked legs.",
    "Transition: the old flow finishes: MarShawn Lloyd stays pre-locked and the Sun Nov 1 11:00 AM ET run (--lock) fills the rest around him from unstarted games. That lock is also final, no later swaps. From the Nov 5-9 week the Thursday 6:30 PM pre-lock and the Sunday 11:00 AM lock no longer run (--lock on a fully locked week exits with a note).",
    "No-minimum rule:",
    "No minimum score.",
-   "Take the best available legs up to 8.",
-   "5th–8th legs only if they score within 8 points of the 4th.",
    "Label the ticket “thin slate” only when fewer than 4 players are available after vetoes (informational only).",
    "All other TD City rules stay the same (scoring, eligibility, Game Day Why, hard vetoes) [AMENDED 2026-10-29 7:23 PM ET: timing and the Thursday pre-lock replaced by THURSDAY MORNING LOCK; AMENDED 7:26 PM ET: \"one swap\" removed, see FINAL LOCK].",
    "WIND VETO, \"PASSING-HEAVY\" DEFINED: “Passing-heavy” for the wind veto: WR, TE, and QB candidates with fewer than 1.5 red-zone rushes per game over the last 5. Pure goal-line RBs are not vetoed by wind. (Wind veto = 15+ mph at an outdoor stadium.)",
-   "SOFT MATCHUP replaces the top-5 defense hard veto for TD City. Same as the of 2026-10-28 for other categories: opponent rank (formula input: nflverse TDs allowed per game to the position, 32 teams, rank 1 = allows the most) 20 or better = preferred; rank n/a = flagged in the Why, kept, ranked between; rank 21+ (21-32, including the old top-5 defenses) = demoted: still eligible, flagged in the Why/Risk, ranked below. Matchup is never a veto. The builder fills legs tier-first (preferred > n/a > demoted), then by composite score; the 1-per-team, band, top-4 / max-8 and legs 5-8 within 8 points of leg 4 rules are unchanged. The injury hard veto (Questionable or worse), the TD City wind veto, and the other vetoes (volume collapse) are unchanged. Implemented in /the bot.",
    "Isolation: these changes affect only TD City. No other category's rules are modified.",
    "Required td city process:",
    "Scope: this formula and these selection rules apply ONLY to the TD City / Lotto Ticket (the NFL anytime-TD lotto parlay). They do not apply to POTD, Parlay +100, the All Sports parlay, Edge, The Heist, Alt Parlay / Safe +100, Cappers or any other ticket or pick, and they are not to be extended to other tickets by analogy.",
-   "Score each candidate and take the top 4 legs, preferring different games:",
    "Red-zone touches/targets (L5): 40%",
    "Goal-line share (inside 5/10): 25%",
    "Opponent allows TDs to position: 15%",
-   "Team total ≥ 24: 10%",
+   "Team total ≥ 24: 10% (step: all or nothing; TDC-1101 code matches)",
    "L10 anytime TD hit rate: 10%",
-   "Prefer ≥2.5 RZ touches/game or a clear goal-line role.",
-   "Target real Hard Rock prices of about +150 to +450.",
    "One per game (a 2nd only to reach 4), max 1 per team.",
    "Skip any player with no red-zone usage in the last 5 games, regardless of name value.",
-   "Favor mobile QBs and goal-line RBs in high-total games.",
    "Drop anyone listed questionable or worse at lock."
   ],
   "homefield": [],
@@ -50999,7 +50997,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 11:03",
+    "priced": "2026-11-01 11:08",
     "dk": {
      "ladder": [
       [
@@ -51052,7 +51050,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 11:03",
+    "priced": "2026-11-01 11:08",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -51263,7 +51261,7 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 11:03 ET",
+  "built": "2026-11-01 11:08 ET",
   "picks": 60,
   "vetoes": [],
   "gaps": [
@@ -51686,6 +51684,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-01 11:03 AM ET"
+  "checked_et": "2026-11-01 11:08 AM ET"
  }
 }
