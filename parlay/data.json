@@ -1,5 +1,5 @@
 {
- "generated": 1793537618.4272697,
+ "generated": 1793538108.3165073,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -9377,7 +9377,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 07:53 AM ET",
+  "updated": "2026-11-01 08:01 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -15131,46 +15131,43 @@
  "home_field_record": {},
  "nrfi_record": {},
  "nascar_cars": {
-  "Chase Briscoe": "19",
-  "Austin Hill": "33",
-  "Connor Zilisch": "88",
-  "Shane Van Gisbergen": "97",
-  "Chris Buescher": "17",
-  "Christopher Bell": "20",
-  "Alex Bowman": "48",
-  "Ty Gibbs": "54",
   "Denny Hamlin": "11",
+  "Ty Gibbs": "54",
   "Kyle Larson": "5",
-  "Cody Ware": "51",
-  "Austin Dillon": "3",
-  "Daniel Suárez": "7",
-  "Riley Herbst": "35",
-  "Ross Chastain": "1",
+  "Austin Cindric": "2",
   "Joey Logano": "22",
+  "Ryan Preece": "60",
+  "Alex Bowman": "48",
   "William Byron": "24",
   "Chase Elliott": "9",
-  "Ryan Preece": "60",
-  "Cole Custer": "41",
   "Josh Berry": "21",
-  "Brad Keselowski": "6",
-  "Michael McDowell": "71",
-  "Ricky Stenhouse Jr": "47",
-  "Bubba Wallace": "23",
-  "Carson Hocevar": "77",
-  "Ryan Blaney": "12",
-  "Austin Cindric": "2",
-  "Erik Jones": "43",
-  "Ty Dillon": "10",
-  "Zane Smith": "38",
-  "John H. Nemechek": "42",
+  "Chase Briscoe": "19",
   "Tyler Reddick": "45",
-  "Casey Mears": "62",
+  "Ryan Blaney": "12",
+  "Christopher Bell": "20",
+  "Bubba Wallace": "23",
+  "Ross Chastain": "1",
+  "Austin Hill": "33",
+  "Chris Buescher": "17",
+  "Connor Zilisch": "88",
+  "Austin Dillon": "3",
+  "Cole Custer": "41",
   "Todd Gilliland": "34",
-  "Daniel Dye": "78",
-  "AJ Allmendinger": "16",
-  "Joey Gase": "44",
+  "Brad Keselowski": "6",
+  "Daniel Suárez": "7",
+  "Carson Hocevar": "77",
+  "Michael McDowell": "71",
+  "Riley Herbst": "35",
+  "Ty Dillon": "10",
+  "Shane Van Gisbergen": "97",
+  "Erik Jones": "43",
   "Noah Gragson": "4",
-  "Gray Gaulding": "66"
+  "AJ Allmendinger": "16",
+  "Zane Smith": "38",
+  "Ricky Stenhouse Jr": "47",
+  "John H. Nemechek": "42",
+  "Josh Bilicki": "66",
+  "Cody Ware": "51"
  },
  "nascar_extra": {},
  "live_picks": {},
@@ -20671,7 +20668,356 @@
    }
   }
  },
- "nascar_qualifying": {},
+ "nascar_qualifying": {
+  "2026-5632": {
+   "race": "Xfinity 500",
+   "track": "Martinsville Speedway",
+   "race_date": "2026-11-01",
+   "series": "Cup",
+   "session": "Xfinity 500 Busch Pole Qualifying",
+   "rows": [
+    {
+     "pos": 1,
+     "car": "11",
+     "driver": "Denny Hamlin",
+     "team": "Joe Gibbs Racing",
+     "make": "Toyota",
+     "time": 19.226,
+     "speed": 98.492
+    },
+    {
+     "pos": 2,
+     "car": "54",
+     "driver": "Ty Gibbs",
+     "team": "Joe Gibbs Racing",
+     "make": "Toyota",
+     "time": 19.275,
+     "speed": 98.241
+    },
+    {
+     "pos": 3,
+     "car": "5",
+     "driver": "Kyle Larson",
+     "team": "Hendrick Motorsports",
+     "make": "Chevrolet",
+     "time": 19.3,
+     "speed": 98.114
+    },
+    {
+     "pos": 4,
+     "car": "2",
+     "driver": "Austin Cindric",
+     "team": "Team Penske",
+     "make": "Ford",
+     "time": 19.325,
+     "speed": 97.987
+    },
+    {
+     "pos": 5,
+     "car": "22",
+     "driver": "Joey Logano",
+     "team": "Team Penske",
+     "make": "Ford",
+     "time": 19.33,
+     "speed": 97.962
+    },
+    {
+     "pos": 6,
+     "car": "60",
+     "driver": "Ryan Preece",
+     "team": "RFK Racing",
+     "make": "Ford",
+     "time": 19.343,
+     "speed": 97.896
+    },
+    {
+     "pos": 7,
+     "car": "48",
+     "driver": "Alex Bowman",
+     "team": "Hendrick Motorsports",
+     "make": "Chevrolet",
+     "time": 19.354,
+     "speed": 97.84
+    },
+    {
+     "pos": 8,
+     "car": "24",
+     "driver": "William Byron",
+     "team": "Hendrick Motorsports",
+     "make": "Chevrolet",
+     "time": 19.368,
+     "speed": 97.77
+    },
+    {
+     "pos": 9,
+     "car": "9",
+     "driver": "Chase Elliott",
+     "team": "Hendrick Motorsports",
+     "make": "Chevrolet",
+     "time": 19.379,
+     "speed": 97.714
+    },
+    {
+     "pos": 10,
+     "car": "21",
+     "driver": "Josh Berry",
+     "team": "Wood Brothers Racing",
+     "make": "Ford",
+     "time": 19.38,
+     "speed": 97.709
+    },
+    {
+     "pos": 11,
+     "car": "19",
+     "driver": "Chase Briscoe",
+     "team": "Joe Gibbs Racing",
+     "make": "Toyota",
+     "time": 19.382,
+     "speed": 97.699
+    },
+    {
+     "pos": 12,
+     "car": "45",
+     "driver": "Tyler Reddick",
+     "team": "23XI Racing",
+     "make": "Toyota",
+     "time": 19.394,
+     "speed": 97.638
+    },
+    {
+     "pos": 13,
+     "car": "12",
+     "driver": "Ryan Blaney",
+     "team": "Team Penske",
+     "make": "Ford",
+     "time": 19.414,
+     "speed": 97.538
+    },
+    {
+     "pos": 14,
+     "car": "20",
+     "driver": "Christopher Bell",
+     "team": "Joe Gibbs Racing",
+     "make": "Toyota",
+     "time": 19.416,
+     "speed": 97.528
+    },
+    {
+     "pos": 15,
+     "car": "23",
+     "driver": "Bubba Wallace",
+     "team": "23XI Racing",
+     "make": "Toyota",
+     "time": 19.433,
+     "speed": 97.442
+    },
+    {
+     "pos": 16,
+     "car": "1",
+     "driver": "Ross Chastain",
+     "team": "Trackhouse Racing",
+     "make": "Chevrolet",
+     "time": 19.443,
+     "speed": 97.392
+    },
+    {
+     "pos": 17,
+     "car": "33",
+     "driver": "Austin Hill",
+     "team": "Richard Childress Racing",
+     "make": "Chevrolet",
+     "time": 19.449,
+     "speed": 97.362
+    },
+    {
+     "pos": 18,
+     "car": "17",
+     "driver": "Chris Buescher",
+     "team": "RFK Racing",
+     "make": "Ford",
+     "time": 19.457,
+     "speed": 97.322
+    },
+    {
+     "pos": 19,
+     "car": "88",
+     "driver": "Connor Zilisch",
+     "team": "Trackhouse Racing",
+     "make": "Chevrolet",
+     "time": 19.49,
+     "speed": 97.158
+    },
+    {
+     "pos": 20,
+     "car": "3",
+     "driver": "Austin Dillon",
+     "team": "Richard Childress Racing",
+     "make": "Chevrolet",
+     "time": 19.495,
+     "speed": 97.133
+    },
+    {
+     "pos": 21,
+     "car": "41",
+     "driver": "Cole Custer",
+     "team": "Haas Factory Team",
+     "make": "Chevrolet",
+     "time": 19.506,
+     "speed": 97.078
+    },
+    {
+     "pos": 22,
+     "car": "34",
+     "driver": "Todd Gilliland",
+     "team": "Front Row Motorsports",
+     "make": "Ford",
+     "time": 19.508,
+     "speed": 97.068
+    },
+    {
+     "pos": 23,
+     "car": "6",
+     "driver": "Brad Keselowski",
+     "team": "RFK Racing",
+     "make": "Ford",
+     "time": 19.523,
+     "speed": 96.993
+    },
+    {
+     "pos": 24,
+     "car": "7",
+     "driver": "Daniel Suárez",
+     "team": "Spire Motorsports",
+     "make": "Chevrolet",
+     "time": 19.537,
+     "speed": 96.924
+    },
+    {
+     "pos": 25,
+     "car": "77",
+     "driver": "Carson Hocevar",
+     "team": "Spire Motorsports",
+     "make": "Chevrolet",
+     "time": 19.54,
+     "speed": 96.909
+    },
+    {
+     "pos": 26,
+     "car": "71",
+     "driver": "Michael McDowell",
+     "team": "Spire Motorsports",
+     "make": "Chevrolet",
+     "time": 19.552,
+     "speed": 96.849
+    },
+    {
+     "pos": 27,
+     "car": "35",
+     "driver": "Riley Herbst",
+     "team": "23XI Racing",
+     "make": "Toyota",
+     "time": 19.555,
+     "speed": 96.835
+    },
+    {
+     "pos": 28,
+     "car": "10",
+     "driver": "Ty Dillon",
+     "team": "Kaulig Racing",
+     "make": "Chevrolet",
+     "time": 19.559,
+     "speed": 96.815
+    },
+    {
+     "pos": 29,
+     "car": "97",
+     "driver": "Shane Van Gisbergen",
+     "team": "Trackhouse Racing",
+     "make": "Chevrolet",
+     "time": 19.584,
+     "speed": 96.691
+    },
+    {
+     "pos": 30,
+     "car": "43",
+     "driver": "Erik Jones",
+     "team": "Legacy Motor Club",
+     "make": "Toyota",
+     "time": 19.588,
+     "speed": 96.671
+    },
+    {
+     "pos": 31,
+     "car": "4",
+     "driver": "Noah Gragson",
+     "team": "Front Row Motorsports",
+     "make": "Ford",
+     "time": 19.62,
+     "speed": 96.514
+    },
+    {
+     "pos": 32,
+     "car": "16",
+     "driver": "AJ Allmendinger",
+     "team": "Kaulig Racing",
+     "make": "Chevrolet",
+     "time": 19.624,
+     "speed": 96.494
+    },
+    {
+     "pos": 33,
+     "car": "38",
+     "driver": "Zane Smith",
+     "team": "Front Row Motorsports",
+     "make": "Ford",
+     "time": 19.643,
+     "speed": 96.401
+    },
+    {
+     "pos": 34,
+     "car": "47",
+     "driver": "Ricky Stenhouse Jr",
+     "team": "HYAK Motorsports",
+     "make": "Chevrolet",
+     "time": 19.703,
+     "speed": 96.107
+    },
+    {
+     "pos": 35,
+     "car": "42",
+     "driver": "John H. Nemechek",
+     "team": "Legacy Motor Club",
+     "make": "Toyota",
+     "time": 19.726,
+     "speed": 95.995
+    },
+    {
+     "pos": 36,
+     "car": "66",
+     "driver": "Josh Bilicki",
+     "team": "Garage 66",
+     "make": "Ford",
+     "time": 20.004,
+     "speed": 94.661
+    },
+    {
+     "pos": 37,
+     "car": "51",
+     "driver": "Cody Ware",
+     "team": "Rick Ware Racing",
+     "make": "Chevrolet",
+     "time": 0,
+     "speed": 0
+    }
+   ],
+   "sources": [
+    "cf.nascar.com/cacher/2026/1/5632/qualification.json (official timing)",
+    "cf.nascar.com weekend-feed.json (teams)"
+   ],
+   "updated": "2026-11-01 08:01 ET",
+   "confirmed": false
+  }
+ },
  "td_city": {
   "date": "2026-11-01",
   "title": "Lotto Ticket · NFL Week Oct 29–Nov 2 · Locked Thu 7:36 PM ET, final",
@@ -49115,7 +49461,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 07:53",
+    "priced": "2026-11-01 08:01",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -49248,7 +49594,7 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 07:53 ET",
+  "built": "2026-11-01 08:01 ET",
   "picks": 60,
   "vetoes": [],
   "gaps": [
