@@ -550,7 +550,7 @@ g.addEventListener('keydown',function(e){if(e.key!=='ArrowLeft'&&e.key!=='ArrowR
 g.addEventListener('animationend',function(){g.classList.remove('glint')});
 apply(cur())})();
 
-const UI_BUILD='1793502538';
+const UI_BUILD='1793538881';
 const U$=x=>{const v=Math.round(+String(x).replace(/,/g,'')/1.5*100)/100;return v+'u'};let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\b0(\d:\d\d\s?[AP]M)/g,'$1').replace(/(\bParlay\s+)?(\bTicket B\b|\+100 ticket)/gi,(m,p,t)=>p&&/^\+/.test(t)?m:'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,(m,o,x)=>/Lotto Ticket \($/.test(x.slice(Math.max(0,o-14),o))?m:'Lotto Ticket').replace(/\$\s?(\d[\d,]*(?:\.\d+)?)/g,(m,x)=>U$(x)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
@@ -623,7 +623,7 @@ function nlState(){const F=NLF;if(!F||!F.vehicles||!F.vehicles.length)return{k:'
 function nlSum(){const F=NLF,s=nlState();if(s.k=='live'){const f=nlFlag(F.flag_state);return `Live race · Lap ${F.lap_number}/${F.laps_in_race} · ${f[1]}`}
  if(s.k=='final'){const w=[...F.vehicles].sort((a,b)=>a.running_position-b.running_position)[0];return `🏁 Final · ${E(nlNm(w.driver.full_name).split(' ').slice(-1)[0])} won`}
  if(NLN)return `Next: ${E(NLN)}`;return s.k=='pre'?'Pre-race':'No race live'}
-function nlBody(){const F=NLF;if(!F||!F.vehicles)return'<div class=m style="margin-top:6px">Live feed not reachable right now.</div>';const s=nlState(),V=[...F.vehicles].sort((a,b)=>a.running_position-b.running_position),f=nlFlag(F.flag_state),st=F.stage||{},lead=V[0];
+function nlBody(){const F=NLF;if(F&&F.cupless)return'<div class=m style="margin-top:6px">No Cup race live right now.</div>';if(!F||!F.vehicles)return'<div class=m style="margin-top:6px">Live feed not reachable right now.</div>';const s=nlState(),V=[...F.vehicles].sort((a,b)=>a.running_position-b.running_position),f=nlFlag(F.flag_state),st=F.stage||{},lead=V[0];
  const P=nlPicks().map(x=>({x,r:nlParse(x.p,V)})).filter(o=>o.r),our=new Set(P.map(o=>o.r.num));const done=s.done;
  return `<div class="row" style="margin-top:8px"><div><b>${E(F.run_name)}</b><div class=m>${E(F.track_name)}</div></div><span class="chip" style="color:${f[2]};border:1px solid ${f[2]}88;background:none">${done?'🏁 FINAL':E(f[0])}</span></div>
  <div class="row" style="margin-top:8px"><span>Lap <b>${F.lap_number}</b> of ${F.laps_in_race}</span><span class=m>Stage ${E(st.stage_num||'—')} · ends lap ${E(st.finish_at_lap||'—')}</span></div>
@@ -634,10 +634,16 @@ function nlBody(){const F=NLF;if(!F||!F.vehicles)return'<div class=m style="marg
  <div class=m style="margin-top:8px;font-size:11px">NASCAR live feed · refreshes every 10s${s.k=='old'?' · last race shown':''}</div>`}
 function nlHTML(){return `<div class="row nlh" style="cursor:pointer;align-items:center"><b>🏁 Live race</b><span class=m style="flex:1;text-align:right;margin-right:6px">${nlSum()}</span><span class=m>${NLO?'▴':'▾'}</span></div>${NLO?nlBody():''}`}
 function nlPaint(){const el=document.getElementById('nlive');if(el)el.innerHTML=nlHTML()}
-async function nlFetch(){if(SP!='NASCAR'||document.hidden)return;try{NLF=await(await fetch('https://cf.nascar.com/live/feeds/live-feed.json?t='+Date.now(),{cache:'no-store'})).json()}catch(e){}
+/* 2026-11-01 Cup filter: the live feed carries whichever series ran last (Xfinity/Truck too); a non-Cup feed = no Cup race live */
+function nlCup(F){if(!F)return F;if(F.series_id!=null&&+F.series_id!==1)return{cupless:1,series_id:F.series_id,run_name:F.run_name};return F}
+async function nlFetch(){if(SP!='NASCAR'||document.hidden)return;try{NLF=nlCup(await(await fetch('https://cf.nascar.com/live/feeds/live-feed.json?t='+Date.now(),{cache:'no-store'})).json())}catch(e){}
  if(!NLN){try{const L=await(await fetch('https://cf.nascar.com/cacher/'+new Date().getFullYear()+'/race_list_basic.json')).json();const now=new Date().toLocaleString('sv-SE',{timeZone:'America/New_York'}).replace(' ','T');const r=(L.series_1||[]).filter(x=>x.date_scheduled>now).sort((a,b)=>a.date_scheduled.localeCompare(b.date_scheduled))[0];
   if(r){const [d,t]=r.date_scheduled.split('T'),[y,mo,da]=d.split('-'),[h,mi]=t.split(':'),dw=new Date(+y,mo-1,+da).toLocaleDateString('en-US',{weekday:'short'});NLN=`${String(r.track_name||'').split(' ')[0]} ${dw} ${+mo}/${+da} ${(+h%12)||12}:${mi} ${+h>=12?'PM':'AM'} ET`}}catch(e){}}
  nlPaint()}
+/* 2026-11-01: the real reason NASCAR has no Official picks (data.json nascar_scout from official-v3/nascar_scout.py) */
+function nsWhy(){const N=D.nascar_scout||{},r=[];if(N.none_reason)r.push(N.none_reason);else{if(N.potd)r.push('Scout POTD candidate: '+N.potd+' (posts only through the Official gates)');else if(N.potd_null_reason)r.push('POTD: '+N.potd_null_reason);
+ if(N.parlay_null_reason)r.push('Parlay +100: '+N.parlay_null_reason);if(N.safe_null_reason)r.push('Safe +100: '+String(N.safe_null_reason).replace(/^No NASCAR Safe \+100: /,''));if(N.edge_null_reason)r.push('Edge: '+N.edge_null_reason)}
+ return r.length?'<div class="nswhy" style="font-size:12px;margin-top:6px;line-height:1.4">'+r.map(x=>'<div>'+E(x)+'</div>').join('')+'</div>':''}
 function nlBox(){if(SP!='NASCAR')return'';if(!NLT){NLT=setInterval(nlFetch,10000);setTimeout(nlFetch,50)}return `<div class="card" id="nlive" style="margin-top:12px">${nlHTML()}</div>`}
 document.addEventListener('click',e=>{const h=e.target.closest&&e.target.closest('.nlh');if(!h)return;NLO=!NLO;nlPaint()});
 
@@ -794,7 +800,7 @@ function NW2(t){return `<span style="white-space:nowrap">${t}</span>`}
 /* LEG DAY BOARD host (RULEBOOK §17, 2026-10-25): the board mounts in a shadow root (ldSportMount) on Today and sport views */
 function LDHOST(){return'<div id="ldsph" style="margin:10px 0"></div>'}
 function sport(){const S=((D.today||{}).sports||{})[SP];const SR=(D.sport_records||[]).find(x=>x.sport==SP)||{},SU=SR.runners_up||{w:0,l:0,p:0,pct:null};let h=qualBox()+nlBox()+`<div class="card" style="padding:8px 12px"><div class="row">${(()=>{const v=sbV2(SP);return `<span class=m style="min-width:0">${E(SP)} official record</span><span style="white-space:nowrap;flex:none;margin-left:8px"><b>${v.w}-${v.l}${v.p?'-'+v.p:''}</b> <span class="${v.u>0?'sbp':v.u<0?'sbn':'sbz'}" style="font-size:12px">${v.u>0?'+':''}${v.u}u</span>${v.pe?` <span class=m>· ${v.pe} pending</span>`:''}</span>`})()}</div></div><h2>${E(SP)} picks today</h2>${SP=='MLB'?'':'<div class="m" style="margin-bottom:6px">Official · tap a pick for the reasoning</div>'}`;
- if(!S||(!S.potd&&!S.parlay&&!(S.runners_up||[]).length)){h+=`<div class="m esnote">${SP=='GOLF'?'No PGA Tour event this week':'No official picks posted today'}</div>`+PV8E('Play of the Day',SP)+P100E(SP,S&&S.parlay_done)+edgeBox()+s100(SP)+tdBox()+fbBox()+LDHOST()+proj();return h+fld()}
+ if(!S||(!S.potd&&!S.parlay&&!(S.runners_up||[]).length)){h+=`<div class="m esnote">${SP=='GOLF'?'No PGA Tour event this week':'No official picks posted today'}${SP=='NASCAR'?nsWhy():''}</div>`+PV8E('Play of the Day',SP)+P100E(SP,S&&S.parlay_done)+edgeBox()+s100(SP)+tdBox()+fbBox()+LDHOST()+proj();return h+fld()}
  const lg=l=>PCLEG(l,why(l.why,l.why_not));
  h+=S.potd?PV8(`Play of the Day${S.potd.chain?` #${E(S.potd.chain)}`:''}`,S.potd):PV8E('Play of the Day',SP);h+=(S.potd_more||[]).map(q=>PV8(`Play of the Day #${E(q.n)} · posted after POTD #${E(q.n-1)} settled`,q)).join('');
  h+=S.parlay?P100(`<div class="card"><div class="m">Parlay +100${S.parlay.chain?` #${E(S.parlay.chain)}`:''}${/same-game/i.test(S.parlay.desc||'')?' <span class="chip" style="font-size:10px;background:#1f6feb22;color:#58a6ff;border:1px solid #1f6feb66">Same-game parlay</span>':''}</div><div class="big" style="font-size:30px">${E(S.parlay.odds)}</div>${chip(S.parlay.status)}${S.parlay.why?WHYC(S.parlay.why,S.parlay.why_not):''}<div style="margin-top:8px">${(S.parlay.legs||[]).map(lg).join('')}</div></div>`,S.parlay,SP):P100E(SP,S.parlay_done);h+=edgeBox();
