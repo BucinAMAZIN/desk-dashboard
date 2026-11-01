@@ -1,5 +1,5 @@
 {
- "generated": 1793550256.4197645,
+ "generated": 1793551976.9214342,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -9567,7 +9567,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 11:24 AM ET",
+  "updated": "2026-11-01 11:52 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12482,7 +12482,7 @@
     "w": 21,
     "l": 22,
     "p": 0,
-    "pending": 12,
+    "pending": 13,
     "units": -7.09
    }
   },
@@ -12614,7 +12614,7 @@
     "w": 7,
     "l": 17,
     "p": 0,
-    "pending": 1,
+    "pending": 2,
     "units": -9.09
    }
   }
@@ -15364,12 +15364,947 @@
  "live_record": {},
  "safe100": {
   "date": "2026-11-01",
-  "sports": {},
+  "sports": {
+   "NFL": {
+    "sport": "NFL",
+    "odds": "+111",
+    "posted": "11:52 AM ET",
+    "edge_tier": null,
+    "rule": "2026-10-26",
+    "locked": true,
+    "closest": false,
+    "label": null,
+    "sgp": false,
+    "price_note": null,
+    "legs": [
+     {
+      "pick": "Zay Flowers 65+ rec yds",
+      "game": "Bills vs Ravens 11/01 01:00 PM ET",
+      "odds": "-300",
+      "grade": "B+",
+      "reason": "Volume: ESPN depth chart WR1; targets/g L3 10.3; receiving yards avg season (6 g) 101.33 | Hit: 8/10 at line, 4/5 (avg 92.8). Matchup: BUF 31/32 vs pass yds (285.8/g allowed, favorable). Context: BUF -3 / O/U 54.5 (BAL TT 25.5) | Away. Injuries: BAL: none | BUF: Dalton Kincaid (Questionable), DJ Moore (Questionable), Tyrell Shavers (Out). Weather: 68°F, Partly sunny, wind 9 mph. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "why_not": null,
+      "sport": "NFL",
+      "rule": "2026-10-26",
+      "prop_type": "NFL rec yds",
+      "hit10": "8/10",
+      "hit5": "4/5",
+      "season": "5/6",
+      "volume": "ESPN depth chart WR1; targets/g L3 10.3; receiving yards avg season (6 g) 101.33",
+      "intake": "Hard Rock pool",
+      "matchup_rank": 2,
+      "matchup_of": 32,
+      "def_rank": 31,
+      "def_of": 32,
+      "matchup_src": "Prop Scout rank table (team pass yds allowed (no WR/TE/RB split on TeamRankings), teamrankings)",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 65+ in 8 of last 10 and 4 of last 5 (L10 avg 92.8); season 5/6 (under 10 games, check n/a). Volume: ESPN depth chart WR1; targets/g L3 10.3; receiving yards avg season (6 g) 101.33. Highest Hard Rock alt rung priced -250 to -425 that passes. Matchup: defense 31/32 vs receiving yards (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Bills vs Ravens",
+       "team": "BAL",
+       "opp": "BUF",
+       "stat": "pass_yds",
+       "opp_rank": {
+        "rank": 31,
+        "of": 32,
+        "pg": 285.8,
+        "gp": 6,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "BUF",
+       "spread": -3.0,
+       "total": 54.5,
+       "team_totals": {
+        "BUF": 28.5,
+        "BAL": 25.5
+       },
+       "home": "BUF",
+       "away": "BAL",
+       "rest": null,
+       "record": {
+        "BUF": "5-1",
+        "BAL": "4-3"
+       },
+       "start_et": "Sun 11/01 01:00 PM ET",
+       "out": {
+        "BUF": [
+         {
+          "name": "Dalton Kincaid",
+          "status": "Questionable",
+          "pos": "TE",
+          "date": "2026-10-30"
+         },
+         {
+          "name": "DJ Moore",
+          "status": "Questionable",
+          "pos": "WR",
+          "date": "2026-10-30"
+         },
+         {
+          "name": "Tyrell Shavers",
+          "status": "Out",
+          "pos": "WR",
+          "date": "2026-10-28"
+         }
+        ],
+        "BAL": []
+       },
+       "weather": {
+        "text": "Partly sunny",
+        "temp": 68,
+        "wind_mph": 9,
+        "wind_dir": 207
+       }
+      },
+      "gameday": [
+       "Volume: ESPN depth chart WR1; targets/g L3 10.3; receiving yards avg season (6 g) 101.33 | Hit: 8/10 at line, 4/5 (avg 92.8)",
+       "Matchup: BUF 31/32 vs pass yds (285.8/g allowed, favorable)",
+       "Context: BUF -3 / O/U 54.5 (BAL TT 25.5) | Away",
+       "Injuries: BAL: none | BUF: Dalton Kincaid (Questionable), DJ Moore (Questionable), Tyrell Shavers (Out)",
+       "Weather: 68°F, Partly sunny, wind 9 mph",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "30+",
+         "-2300"
+        ],
+        [
+         "40+",
+         "-1040"
+        ],
+        [
+         "50+",
+         "-561"
+        ],
+        [
+         "60+",
+         "-346"
+        ],
+        [
+         "70+",
+         "-223"
+        ],
+        [
+         "80+",
+         "-152"
+        ],
+        [
+         "88+",
+         "-113"
+        ],
+        [
+         "90+",
+         "-106"
+        ],
+        [
+         "100+",
+         "+133"
+        ],
+        [
+         "110+",
+         "+184"
+        ],
+        [
+         "120+",
+         "+256"
+        ],
+        [
+         "130+",
+         "+350"
+        ],
+        [
+         "140+",
+         "+476"
+        ],
+        [
+         "150+",
+         "+650"
+        ],
+        [
+         "160+",
+         "+870"
+        ],
+        [
+         "170+",
+         "+1220"
+        ],
+        [
+         "180+",
+         "+1620"
+        ],
+        [
+         "190+",
+         "+2200"
+        ],
+        [
+         "200+",
+         "+2800"
+        ]
+       ],
+       "odds": "-346",
+       "pick": "Zay Flowers 60+ rec yds",
+       "moved": true,
+       "na": false
+      }
+     },
+     {
+      "pick": "Kenneth Walker III 65+ rush yds",
+      "game": "Broncos vs Chiefs 11/01 04:25 PM ET",
+      "odds": "-375",
+      "grade": "B+",
+      "reason": "Volume: ESPN depth chart HB; touches/g L3 20.7; rushing yards avg season (6 g) 116.83 | Hit: 8/10 at line, 4/5 (avg 111.1). Matchup: DEN 28/32 vs rush yds (133.3/g allowed, favorable). Context: KC -1 / O/U 40.5 (KC TT 20.5) | Away. Injuries: KC: none | DEN: Jaylen Waddle (Questionable). Weather: 62°F, Intermittent clouds, wind 7 mph. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
+      "why_not": null,
+      "sport": "NFL",
+      "rule": "2026-10-26",
+      "prop_type": "NFL rush yds",
+      "hit10": "8/10",
+      "hit5": "4/5",
+      "season": "5/6",
+      "volume": "ESPN depth chart HB; touches/g L3 20.7; rushing yards avg season (6 g) 116.83",
+      "intake": "Hard Rock pool",
+      "matchup_rank": 5,
+      "matchup_of": 32,
+      "def_rank": 28,
+      "def_of": 32,
+      "matchup_src": "Prop Scout rank table (opponent rushing yards per game, teamrankings)",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 65+ in 8 of last 10 and 4 of last 5 (L10 avg 111.1); season 5/6 (under 10 games, check n/a). Volume: ESPN depth chart HB; touches/g L3 20.7; rushing yards avg season (6 g) 116.83. Highest Hard Rock alt rung priced -250 to -425 that passes. Matchup: defense 28/32 vs rushing yards (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Broncos vs Chiefs",
+       "team": "KC",
+       "opp": "DEN",
+       "stat": "rush_yds",
+       "opp_rank": {
+        "rank": 28,
+        "of": 32,
+        "pg": 133.3,
+        "gp": 7,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "KC",
+       "spread": -1.0,
+       "total": 40.5,
+       "team_totals": {
+        "KC": 20.5,
+        "DEN": 20.5
+       },
+       "home": "DEN",
+       "away": "KC",
+       "rest": null,
+       "record": {
+        "DEN": "5-2",
+        "KC": "5-1"
+       },
+       "start_et": "Sun 11/01 04:25 PM ET",
+       "out": {
+        "DEN": [
+         {
+          "name": "Jaylen Waddle",
+          "status": "Questionable",
+          "pos": "WR",
+          "date": "2026-10-30"
+         }
+        ],
+        "KC": []
+       },
+       "weather": {
+        "text": "Intermittent clouds",
+        "temp": 62,
+        "wind_mph": 7,
+        "wind_dir": 13
+       }
+      },
+      "gameday": [
+       "Volume: ESPN depth chart HB; touches/g L3 20.7; rushing yards avg season (6 g) 116.83 | Hit: 8/10 at line, 4/5 (avg 111.1)",
+       "Matchup: DEN 28/32 vs rush yds (133.3/g allowed, favorable)",
+       "Context: KC -1 / O/U 40.5 (KC TT 20.5) | Away",
+       "Injuries: KC: none | DEN: Jaylen Waddle (Questionable)",
+       "Weather: 62°F, Intermittent clouds, wind 7 mph",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "40+",
+         "-1840"
+        ],
+        [
+         "50+",
+         "-790"
+        ],
+        [
+         "60+",
+         "-426"
+        ],
+        [
+         "70+",
+         "-256"
+        ],
+        [
+         "80+",
+         "-165"
+        ],
+        [
+         "90+",
+         "-110"
+        ],
+        [
+         "100+",
+         "+134"
+        ],
+        [
+         "110+",
+         "+192"
+        ],
+        [
+         "120+",
+         "+273"
+        ],
+        [
+         "130+",
+         "+385"
+        ],
+        [
+         "140+",
+         "+534"
+        ],
+        [
+         "150+",
+         "+740"
+        ],
+        [
+         "160+",
+         "+1000"
+        ],
+        [
+         "170+",
+         "+1440"
+        ],
+        [
+         "180+",
+         "+2000"
+        ],
+        [
+         "190+",
+         "+2700"
+        ],
+        [
+         "200+",
+         "+3500"
+        ]
+       ],
+       "odds": "-426",
+       "pick": "Kenneth Walker III 60+ rush yds",
+       "moved": true,
+       "na": false
+      }
+     },
+     {
+      "pick": "Stefon Diggs 25+ rec yds",
+      "game": "Commanders vs Eagles 11/01 08:20 PM ET",
+      "odds": "-400",
+      "grade": "B+",
+      "reason": "Volume: ESPN depth chart WR1; targets/g L3 7.7; receiving yards avg season (5 g) 42.80 | Hit: 8/10 at line, 5/5 (avg 36.7). Matchup: PHI 26/32 vs pass yds (239.9/g allowed, favorable). Context: WAS -5.5 / O/U 40 (WAS TT 1.5) | Home · Prime. Injuries: WAS: John Bates (Questionable), Treylon Burks (Questionable) | PHI: Britain Covey (Out), Dontayvion Wicks (Out), DeVonta Smith (Out). Weather: 50°F, Mostly cloudy, wind 4 mph. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
+      "why_not": null,
+      "sport": "NFL",
+      "rule": "2026-10-26",
+      "prop_type": "NFL rec yds",
+      "hit10": "8/10",
+      "hit5": "5/5",
+      "season": "5/5",
+      "volume": "ESPN depth chart WR1; targets/g L3 7.7; receiving yards avg season (5 g) 42.80",
+      "intake": "Hard Rock pool",
+      "matchup_rank": 7,
+      "matchup_of": 32,
+      "def_rank": 26,
+      "def_of": 32,
+      "matchup_src": "Prop Scout rank table (team pass yds allowed (no WR/TE/RB split on TeamRankings), teamrankings)",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 25+ in 8 of last 10 and 5 of last 5 (L10 avg 36.7); season 5/5 (under 10 games, check n/a). Volume: ESPN depth chart WR1; targets/g L3 7.7; receiving yards avg season (5 g) 42.80. Highest Hard Rock alt rung priced -250 to -425 that passes. Matchup: defense 26/32 vs receiving yards (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Commanders vs Eagles",
+       "team": "WAS",
+       "opp": "PHI",
+       "stat": "pass_yds",
+       "opp_rank": {
+        "rank": 26,
+        "of": 32,
+        "pg": 239.9,
+        "gp": 7,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "WAS",
+       "spread": -5.5,
+       "total": 40.0,
+       "team_totals": {
+        "PHI": 16.5,
+        "WAS": 1.5
+       },
+       "home": "WAS",
+       "away": "PHI",
+       "rest": null,
+       "record": {
+        "WAS": "1-4-1",
+        "PHI": "2-5"
+       },
+       "start_et": "Sun 11/01 08:20 PM ET",
+       "out": {
+        "WAS": [
+         {
+          "name": "John Bates",
+          "status": "Questionable",
+          "pos": "TE",
+          "date": "2026-10-30"
+         },
+         {
+          "name": "Treylon Burks",
+          "status": "Questionable",
+          "pos": "WR",
+          "date": "2026-10-30"
+         }
+        ],
+        "PHI": [
+         {
+          "name": "Britain Covey",
+          "status": "Out",
+          "pos": "WR",
+          "date": "2026-10-31"
+         },
+         {
+          "name": "Dontayvion Wicks",
+          "status": "Out",
+          "pos": "WR",
+          "date": "2026-10-30"
+         },
+         {
+          "name": "DeVonta Smith",
+          "status": "Out",
+          "pos": "WR",
+          "date": "2026-10-30"
+         }
+        ]
+       },
+       "weather": {
+        "text": "Mostly cloudy",
+        "temp": 50,
+        "wind_mph": 4,
+        "wind_dir": 129
+       }
+      },
+      "gameday": [
+       "Volume: ESPN depth chart WR1; targets/g L3 7.7; receiving yards avg season (5 g) 42.80 | Hit: 8/10 at line, 5/5 (avg 36.7)",
+       "Matchup: PHI 26/32 vs pass yds (239.9/g allowed, favorable)",
+       "Context: WAS -5.5 / O/U 40 (WAS TT 1.5) | Home · Prime",
+       "Injuries: WAS: John Bates (Questionable), Treylon Burks (Questionable) | PHI: Britain Covey (Out), Dontayvion Wicks (Out), DeVonta Smith (Out)",
+       "Weather: 50°F, Mostly cloudy, wind 4 mph",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "10+",
+         "-1380"
+        ],
+        [
+         "15+",
+         "-770"
+        ],
+        [
+         "20+",
+         "-480"
+        ],
+        [
+         "25+",
+         "-321"
+        ],
+        [
+         "30+",
+         "-228"
+        ],
+        [
+         "40+",
+         "-129"
+        ],
+        [
+         "43+",
+         "-111"
+        ],
+        [
+         "50+",
+         "+131"
+        ],
+        [
+         "60+",
+         "+210"
+        ],
+        [
+         "70+",
+         "+324"
+        ],
+        [
+         "80+",
+         "+493"
+        ],
+        [
+         "90+",
+         "+740"
+        ],
+        [
+         "100+",
+         "+1080"
+        ],
+        [
+         "110+",
+         "+1580"
+        ],
+        [
+         "120+",
+         "+2200"
+        ],
+        [
+         "130+",
+         "+3100"
+        ]
+       ],
+       "odds": "-321",
+       "pick": "Stefon Diggs 25+ rec yds",
+       "na": false
+      }
+     }
+    ],
+    "dk_odds": "+109"
+   },
+   "TODAY": {
+    "sport": "TODAY",
+    "odds": "+127",
+    "posted": "11:52 AM ET",
+    "edge_tier": null,
+    "rule": "2026-10-26",
+    "locked": true,
+    "closest": false,
+    "label": null,
+    "sgp": false,
+    "price_note": null,
+    "legs": [
+     {
+      "pick": "Chase Brown 3+ rec",
+      "game": "Bengals vs Titans 11/01 01:00 PM ET",
+      "odds": "-275",
+      "grade": "B",
+      "reason": "Volume: ESPN depth chart HB; targets/g L3 6.7; receptions avg season (6 g) 4.67 | Hit: 9/10 at line, 4/5 (avg 4.6). Matchup: TEN 24/32 vs pass yds (233.0/g allowed, favorable). Context: CIN -12.5 / O/U 46.5 (CIN TT 29.5) | Home. Injuries: CIN: none | TEN: Carnell Tate (Out), Calvin Ridley (Questionable), Tyjae Spears (Out). Weather: 68°F, Cloudy, wind 5 mph. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "why_not": null,
+      "sport": "NFL",
+      "rule": "2026-10-26",
+      "prop_type": "NFL rec",
+      "hit10": "9/10",
+      "hit5": "4/5",
+      "season": "5/6",
+      "volume": "ESPN depth chart HB; targets/g L3 6.7; receptions avg season (6 g) 4.67",
+      "intake": "Prop Scout",
+      "matchup_rank": 11,
+      "matchup_of": 32,
+      "def_rank": 22,
+      "def_of": 32,
+      "matchup_src": "Prop Scout game_day.matchup",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 3+ in 9 of last 10 and 4 of last 5 (L10 avg 4.6); season 5/6 (under 10 games, check n/a). Volume: ESPN depth chart HB; targets/g L3 6.7; receptions avg season (6 g) 4.67. Highest Hard Rock alt rung priced -250 to -425 that passes. Matchup: defense 22/32 vs receptions (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Bengals vs Titans",
+       "team": "CIN",
+       "opp": "TEN",
+       "stat": "pass_yds",
+       "opp_rank": {
+        "rank": 24,
+        "of": 32,
+        "pg": 233.0,
+        "gp": 7,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "CIN",
+       "spread": -12.5,
+       "total": 46.5,
+       "team_totals": {
+        "CIN": 29.5,
+        "TEN": 16.5
+       },
+       "home": "CIN",
+       "away": "TEN",
+       "rest": null,
+       "record": {
+        "CIN": "4-2",
+        "TEN": "1-6"
+       },
+       "start_et": "Sun 11/01 01:00 PM ET",
+       "out": {
+        "CIN": [],
+        "TEN": [
+         {
+          "name": "Carnell Tate",
+          "status": "Out",
+          "pos": "WR",
+          "date": "2026-10-31"
+         },
+         {
+          "name": "Calvin Ridley",
+          "status": "Questionable",
+          "pos": "WR",
+          "date": "2026-10-30"
+         },
+         {
+          "name": "Tyjae Spears",
+          "status": "Out",
+          "pos": "RB",
+          "date": "2026-10-30"
+         }
+        ]
+       },
+       "weather": {
+        "text": "Cloudy",
+        "temp": 68,
+        "wind_mph": 5,
+        "wind_dir": 209
+       }
+      },
+      "gameday": [
+       "Volume: ESPN depth chart HB; targets/g L3 6.7; receptions avg season (6 g) 4.67 | Hit: 9/10 at line, 4/5 (avg 4.6)",
+       "Matchup: TEN 24/32 vs pass yds (233.0/g allowed, favorable)",
+       "Context: CIN -12.5 / O/U 46.5 (CIN TT 29.5) | Home",
+       "Injuries: CIN: none | TEN: Carnell Tate (Out), Calvin Ridley (Questionable), Tyjae Spears (Out)",
+       "Weather: 68°F, Cloudy, wind 5 mph",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "2+",
+         "-910"
+        ],
+        [
+         "3+",
+         "-261"
+        ],
+        [
+         "4+",
+         "-102"
+        ],
+        [
+         "5+",
+         "+214"
+        ],
+        [
+         "6+",
+         "+454"
+        ],
+        [
+         "7+",
+         "+910"
+        ],
+        [
+         "8+",
+         "+1700"
+        ],
+        [
+         "9+",
+         "+2800"
+        ]
+       ],
+       "odds": "-261",
+       "pick": "Chase Brown 3+ rec",
+       "na": false
+      }
+     },
+     {
+      "pick": "Kyren Williams 40+ rush yds",
+      "game": "Rams vs Chargers 11/01 04:05 PM ET",
+      "odds": "-400",
+      "grade": "B",
+      "reason": "Volume: ESPN depth chart HB; touches/g L3 17.7; rushing yards avg season (7 g) 70.29 | Hit: 9/10 at line, 5/5 (avg 67.5). Matchup: LAC 21/32 vs rush yds (123.8/g allowed, neutral). Context: LAR -6 / O/U 45 (LAR TT 26.5) | Home. Injuries: LAR: Jordan Whittington (Questionable), Colby Parkinson (Questionable) | LAC: Brenen Thompson (Out). Weather: 72°F, Mostly sunny, wind 18 mph. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
+      "why_not": null,
+      "sport": "NFL",
+      "rule": "2026-10-26",
+      "prop_type": "NFL rush yds",
+      "hit10": "9/10",
+      "hit5": "5/5",
+      "season": "7/7",
+      "volume": "ESPN depth chart HB; touches/g L3 17.7; rushing yards avg season (7 g) 70.29",
+      "intake": "Prop Scout",
+      "matchup_rank": 12,
+      "matchup_of": 32,
+      "def_rank": 21,
+      "def_of": 32,
+      "matchup_src": "Prop Scout game_day.matchup",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 40+ in 9 of last 10 and 5 of last 5 (L10 avg 67.5); season 7/7 (under 10 games, check n/a). Volume: ESPN depth chart HB; touches/g L3 17.7; rushing yards avg season (7 g) 70.29. Highest Hard Rock alt rung priced -250 to -425 that passes. Matchup: defense 21/32 vs rushing yards (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Rams vs Chargers",
+       "team": "LAR",
+       "opp": "LAC",
+       "stat": "rush_yds",
+       "opp_rank": {
+        "rank": 21,
+        "of": 32,
+        "pg": 123.8,
+        "gp": 6,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "LAR",
+       "spread": -6.0,
+       "total": 45.0,
+       "team_totals": {
+        "LAC": 19.5,
+        "LAR": 26.5
+       },
+       "home": "LAR",
+       "away": "LAC",
+       "rest": null,
+       "record": {
+        "LAR": "3-4",
+        "LAC": "0-6"
+       },
+       "start_et": "Sun 11/01 04:05 PM ET",
+       "out": {
+        "LAR": [
+         {
+          "name": "Jordan Whittington",
+          "status": "Questionable",
+          "pos": "WR",
+          "date": "2026-10-30"
+         },
+         {
+          "name": "Colby Parkinson",
+          "status": "Questionable",
+          "pos": "TE",
+          "date": "2026-10-30"
+         }
+        ],
+        "LAC": [
+         {
+          "name": "Brenen Thompson",
+          "status": "Out",
+          "pos": "WR",
+          "date": "2026-10-31"
+         }
+        ]
+       },
+       "weather": {
+        "text": "Mostly sunny",
+        "temp": 72,
+        "wind_mph": 18,
+        "wind_dir": 267
+       }
+      },
+      "gameday": [
+       "Volume: ESPN depth chart HB; touches/g L3 17.7; rushing yards avg season (7 g) 70.29 | Hit: 9/10 at line, 5/5 (avg 67.5)",
+       "Matchup: LAC 21/32 vs rush yds (123.8/g allowed, neutral)",
+       "Context: LAR -6 / O/U 45 (LAR TT 26.5) | Home",
+       "Injuries: LAR: Jordan Whittington (Questionable), Colby Parkinson (Questionable) | LAC: Brenen Thompson (Out)",
+       "Weather: 72°F, Mostly sunny, wind 18 mph",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "25+",
+         "-2100"
+        ],
+        [
+         "30+",
+         "-1080"
+        ],
+        [
+         "40+",
+         "-425"
+        ],
+        [
+         "50+",
+         "-210"
+        ],
+        [
+         "60+",
+         "-115"
+        ],
+        [
+         "61+",
+         "-109"
+        ],
+        [
+         "70+",
+         "+144"
+        ],
+        [
+         "80+",
+         "+231"
+        ],
+        [
+         "90+",
+         "+359"
+        ],
+        [
+         "100+",
+         "+549"
+        ],
+        [
+         "110+",
+         "+830"
+        ],
+        [
+         "120+",
+         "+1240"
+        ],
+        [
+         "130+",
+         "+1840"
+        ],
+        [
+         "140+",
+         "+2600"
+        ],
+        [
+         "150+",
+         "+3600"
+        ]
+       ],
+       "odds": "-425",
+       "pick": "Kyren Williams 40+ rush yds",
+       "na": false
+      }
+     },
+     {
+      "pick": "Matt Boldy 3+ SOG",
+      "game": "Capitals vs. Wild 11/01 03:30 PM ET",
+      "odds": "-300",
+      "grade": "A-",
+      "reason": "Volume: TOI L10 avg 21.9, shots/g L10 4.2 | Hit: 8/10 at line, 4/5 (avg 4.2). Matchup: WSH 21/32 vs SOG (28.1/g allowed, neutral). Context: WSH -1.5 / O/U 6.5 (MIN TT 2.5) | Away. Injuries: MIN: Jared Spurgeon (Injured Reserve), Filip Gustavsson (Injured Reserve) | WSH: Vincent Desharnais (Injured Reserve). Weather: indoor, neutral. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "why_not": null,
+      "sport": "NHL",
+      "rule": "2026-10-26",
+      "prop_type": "NHL SOG",
+      "hit10": "8/10",
+      "hit5": "4/5",
+      "season": "13/15",
+      "volume": "TOI L10 avg 21.9, shots/g L10 4.2",
+      "intake": "Prop Scout",
+      "matchup_rank": 12,
+      "matchup_of": 32,
+      "def_rank": 21,
+      "def_of": 32,
+      "matchup_src": "Prop Scout game_day.matchup",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 3+ in 8 of last 10 and 4 of last 5 (L10 avg 4.2); season 13/15 (87%). Volume: TOI L10 avg 21.9, shots/g L10 4.2. Highest Hard Rock alt rung priced -250 to -425 that passes. Matchup: defense 21/32 vs shots on goal (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Capitals vs. Wild",
+       "team": "MIN",
+       "opp": "WSH",
+       "stat": "sog",
+       "opp_rank": {
+        "rank": 21,
+        "of": 32,
+        "pg": 28.1,
+        "gp": 12,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "WSH",
+       "spread": -1.5,
+       "total": 6.5,
+       "team_totals": {
+        "WSH": 3.5,
+        "MIN": 2.5
+       },
+       "home": "WSH",
+       "away": "MIN",
+       "rest": {
+        "WSH": 2,
+        "MIN": 2
+       },
+       "record": {
+        "WSH": "8-4-0",
+        "MIN": "9-3-3"
+       },
+       "start_et": "Sun 11/01 03:30 PM ET",
+       "out": {
+        "WSH": [
+         {
+          "name": "Vincent Desharnais",
+          "status": "Injured Reserve",
+          "pos": "D",
+          "date": "2026-10-23",
+          "role": "19.4 TOI"
+         }
+        ],
+        "MIN": [
+         {
+          "name": "Jared Spurgeon",
+          "status": "Injured Reserve",
+          "pos": "D",
+          "date": "2026-10-29",
+          "role": "20.5 TOI"
+         },
+         {
+          "name": "Filip Gustavsson",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-18"
+         }
+        ]
+       }
+      },
+      "gameday": [
+       "Volume: TOI L10 avg 21.9, shots/g L10 4.2 | Hit: 8/10 at line, 4/5 (avg 4.2)",
+       "Matchup: WSH 21/32 vs SOG (28.1/g allowed, neutral)",
+       "Context: WSH -1.5 / O/U 6.5 (MIN TT 2.5) | Away",
+       "Injuries: MIN: Jared Spurgeon (Injured Reserve), Filip Gustavsson (Injured Reserve) | WSH: Vincent Desharnais (Injured Reserve)",
+       "Weather: indoor, neutral",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "1+",
+         "-6000"
+        ],
+        [
+         "2+",
+         "-900"
+        ],
+        [
+         "3+",
+         "-280"
+        ],
+        [
+         "4+",
+         "-120"
+        ],
+        [
+         "5+",
+         "+175"
+        ],
+        [
+         "6+",
+         "+350"
+        ],
+        [
+         "7+",
+         "+700"
+        ],
+        [
+         "8+",
+         "+1400"
+        ]
+       ],
+       "odds": "-280",
+       "pick": "Matt Boldy 3+ SOG",
+       "na": false
+      }
+     }
+    ],
+    "dk_odds": "+132"
+   }
+  },
   "notes": {
-   "NBA": "No qualifying Alt Parlay today (NBA): 1 unstarted Hard Rock alt legs passed (volume filter, rung -250 to -425, 8+/10 and 4+/5, season 70%+), no 2-4 leg combo at +100 to +130.",
-   "NHL": "No qualifying Alt Parlay today (NHL): 1 unstarted Hard Rock alt legs passed (volume filter, rung -250 to -425, 8+/10 and 4+/5, season 70%+), no 2-4 leg combo at +100 to +130.",
-   "NFL": "No qualifying Alt Parlay today (NFL): +127 ticket pulled: failed new Safe rules (user decision); no-fill.",
-   "TODAY": "No qualifying Alt Parlay today (Today): +126 ticket pulled: failed new Safe rules (user decision); no-fill."
+   "NBA": "No qualifying Alt Parlay today (NBA): 0 unstarted alt legs passed the leg checks (ESPN active, position, volume, rung -250 to -425, 8+/10 and 4+/5, season 70%+, overs only, defense 20th or worse vs the stat), no 2-4 leg combo at +100 to +130.",
+   "NHL": "No qualifying Alt Parlay today (NHL): 2 unstarted alt legs passed the leg checks (ESPN active, position, volume, rung -250 to -425, 8+/10 and 4+/5, season 70%+, overs only, defense 20th or worse vs the stat), no 2-4 leg combo at +100 to +130."
   },
   "extra": [],
   "pulled": [
@@ -15443,7 +16378,8 @@
     "status": "PULLED",
     "pulled_at": "11:01 AM ET",
     "pulled_by": "user decision 2026-11-01 11:01 AM ET",
-    "pulled_why": "no-fill under safefix1101: Tee Higgins fails #2 (ESPN WR2); every leg fails #3 (5pp no-vig filter)"
+    "pulled_why": "no-fill under safefix1101: Tee Higgins fails #2 (ESPN WR2); every leg fails #3 (5pp no-vig filter)",
+    "reopened": "safefinal1101 (user-approved 2026-11-01 11:37 AM ET, relayed by Parlay Bot): sport rescanned under the SAFE FINAL RULE + floors; this pulled ticket stays off every record"
    },
    {
     "sport": "TODAY",
@@ -15515,7 +16451,8 @@
     "status": "PULLED",
     "pulled_at": "11:01 AM ET",
     "pulled_by": "user decision 2026-11-01 11:01 AM ET",
-    "pulled_why": "no-fill under safefix1101: every leg fails #3 (5pp no-vig filter)"
+    "pulled_why": "no-fill under safefix1101: every leg fails #3 (5pp no-vig filter)",
+    "reopened": "safefinal1101 (user-approved 2026-11-01 11:37 AM ET, relayed by Parlay Bot): sport rescanned under the SAFE FINAL RULE + floors; this pulled ticket stays off every record"
    }
   ]
  },
@@ -15919,7 +16856,7 @@
     "grade_why": "+4.2% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+230",
+    "now": "+225",
     "why_src": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Cowboys vs Cardinals",
@@ -16380,7 +17317,7 @@
     "grade_why": "+17.2% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+145",
+    "now": "+155",
     "why_src": "Hard Rock +220 vs Pinnacle no-vig fair +173 (36.6%) → edge +17.21%. Clears the 4% Pinnacle edge floor at +17.21%. Price +220 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Hurricanes vs. Jets",
@@ -17919,7 +18856,7 @@
     "grade_why": "+4.5% vs Pinnacle",
     "big4": true,
     "big4_only": null,
-    "now": "+120",
+    "now": "+115",
     "why_src": "Hard Rock +115 vs Pinnacle no-vig fair +106 (48.6%) → edge +4.45%. Clears the 4% Pinnacle edge floor at +4.45%. Price +115 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Hurricanes vs. Jets",
@@ -40426,6 +41363,162 @@
     "grade": "A-"
    },
    {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "prop": "Safe +100",
+    "fam": "Parlay",
+    "pick": "Safe +100 3-leg",
+    "odds": "+111",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "tk": "NFL",
+    "tid": "2026-11-01|NFL|11:52 AM ET|3-leg"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "NFL alt · NFL rec yds Zay Flowers 65+ rec yds",
+    "pick": "Zay Flowers 65+ rec yds",
+    "odds": "-300",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Receiving yds",
+    "img": null,
+    "sub": "",
+    "tk": "NFL",
+    "tid": "2026-11-01|NFL|11:52 AM ET|3-leg",
+    "gm": "Bills vs Ravens 11/01 01:00 PM ET",
+    "grade": "B+"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "NFL alt · NFL rush yds Kenneth Walker III 65+ rush yds",
+    "pick": "Kenneth Walker III 65+ rush yds",
+    "odds": "-375",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Rushing yds",
+    "img": null,
+    "sub": "",
+    "tk": "NFL",
+    "tid": "2026-11-01|NFL|11:52 AM ET|3-leg",
+    "gm": "Broncos vs Chiefs 11/01 04:25 PM ET",
+    "grade": "B+"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "NFL alt · NFL rec yds Stefon Diggs 25+ rec yds",
+    "pick": "Stefon Diggs 25+ rec yds",
+    "odds": "-400",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Receiving yds",
+    "img": null,
+    "sub": "",
+    "tk": "NFL",
+    "tid": "2026-11-01|NFL|11:52 AM ET|3-leg",
+    "gm": "Commanders vs Eagles 11/01 08:20 PM ET",
+    "grade": "B+"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "prop": "Safe +100",
+    "fam": "Parlay",
+    "pick": "Safe +100 3-leg",
+    "odds": "+127",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-01|Today|11:52 AM ET|3-leg"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NFL rec Chase Brown 3+ rec",
+    "pick": "Chase Brown 3+ rec",
+    "odds": "-275",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Receptions",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-01|Today|11:52 AM ET|3-leg",
+    "gm": "Bengals vs Titans 11/01 01:00 PM ET",
+    "grade": "B"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NFL rush yds Kyren Williams 40+ rush yds",
+    "pick": "Kyren Williams 40+ rush yds",
+    "odds": "-400",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Rushing yds",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-01|Today|11:52 AM ET|3-leg",
+    "gm": "Rams vs Chargers 11/01 04:05 PM ET",
+    "grade": "B"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NHL SOG Matt Boldy 3+ SOG",
+    "pick": "Matt Boldy 3+ SOG",
+    "odds": "-300",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-01|Today|11:52 AM ET|3-leg",
+    "gm": "Capitals vs. Wild 11/01 03:30 PM ET",
+    "grade": "A-"
+   },
+   {
     "date": "2026-10-18",
     "sport": "NFL",
     "grp": "F",
@@ -51074,7 +52167,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 11:24",
+    "priced": "2026-11-01 11:53",
     "dk": {
      "ladder": [
       [
@@ -51127,7 +52220,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 11:24",
+    "priced": "2026-11-01 11:53",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -51338,8 +52431,8 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 11:24 ET",
-  "picks": 61,
+  "built": "2026-11-01 11:53 ET",
+  "picks": 67,
   "vetoes": [],
   "gaps": [
    "POTD Kirill Kaprizov Over 0.5 Assists: AttributeError 'NoneType' object has no attribute 'get'"
@@ -51351,8 +52444,8 @@
   "pregame_games": 68,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 52,
-   "priced": 32,
+   "legs": 58,
+   "priced": 38,
    "na": [
     "MarShawn Lloyd (RB) anytime TD",
     "HEIST Rashee Rice u51.5 Rec Yards",
@@ -51763,6 +52856,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-01 11:24 AM ET"
+  "checked_et": "2026-11-01 11:53 AM ET"
  }
 }
