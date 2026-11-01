@@ -1,5 +1,5 @@
 {
- "generated": 1793568277.014461,
+ "generated": 1793568449.131731,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -1208,10 +1208,26 @@
      "pick": "Jayson Tatum Over 6.5 Assists",
      "odds": "-125",
      "game": "Magic vs Celtics",
-     "status": "Void",
-     "why": "Volume: L5 min 35/42/28/37/38 (L3 36.7 vs L10 37.4 min) | Hit: 7/10 at O6.5, 4/5 | Matchup: Opp 1/30 vs Assists | Context: BOS -7.5 / O/U 222.5 | opp pace 100.3 (14th) | Away | Injuries: Devin Carter out | Opp out: Jonathan Isaac, Jalen Suggs | Weather: neutral | Risk: n/a",
-     "desc": "Jayson Tatum Over 6.5 Assists -125 (Magic vs Celtics) — Void (late injury veto: listed Day-To-Day on the ESPN injury report before the game: Jayson Tatum)",
-     "why_not": "n/a",
+     "status": "Pending",
+     "why": "Volume: n/a, game line | Hit: 7/10 at line, 4/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: n/a.",
+     "desc": "Jayson Tatum Over 6.5 Assists -125 (Magic vs Celtics) — Pending",
+     "why_not": null,
+     "why_src": "Volume: L5 min 35/42/28/37/38 (L3 36.7 vs L10 37.4 min) | Hit: 7/10 at O6.5, 4/5 | Matchup: Opp 1/30 vs Assists | Context: BOS -7.5 / O/U 222.5 | opp pace 100.3 (14th) | Away | Injuries: Devin Carter out | Opp out: Jonathan Isaac, Jalen Suggs | Weather: neutral | Risk: n/a",
+     "ctx": {
+      "game": null,
+      "team": null,
+      "opp": null,
+      "stat": null,
+      "out": null
+     },
+     "gameday": [
+      "Volume: n/a, game line | Hit: 7/10 at line, 4/5",
+      "Matchup: n/a",
+      "Context: game lines n/a",
+      "Injuries: n/a",
+      "Weather: n/a",
+      "Risk: n/a"
+     ],
      "sport": null,
      "dk": {
       "odds": null,
@@ -2937,7 +2953,7 @@
     "p": 0,
     "pct": 37
    },
-   "pending": 13
+   "pending": 14
   },
   "props": [
    {
@@ -3569,8 +3585,8 @@
     "date": "2026-11-01",
     "pick": "NFL · Edge: Jake Ferguson Over 0.5 Touchdowns",
     "odds": "+240",
-    "result": "Void",
-    "detail": "Void (ruled out before the game: late injury veto: listed Out on the ESPN injury report before the game)"
+    "result": "Pending",
+    "detail": "Pending"
    },
    {
     "date": "2026-11-01",
@@ -9659,7 +9675,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 04:24 PM ET",
+  "updated": "2026-11-01 04:27 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -10195,21 +10211,21 @@
      {
       "a": "TEN",
       "h": "CIN",
-      "st": "0:27 - 4th",
+      "st": "End of 4th",
       "div": false,
       "stake": "TEN 1-6: 4th AFC South (4 GB), AFC #15 seed (outside playoffs) · CIN 4-2: 2nd AFC North (1 GB), AFC #6 seed (in playoff spot)"
      },
      {
       "a": "ARI",
       "h": "DAL",
-      "st": "End of 4th",
+      "st": "10:00 - OT",
       "div": false,
       "stake": "ARI 2-5: 4th NFC West (4 GB), NFC #14 seed (outside playoffs) · DAL 3-4: 2nd NFC East (1.5 GB), NFC #10 seed (outside playoffs)"
      },
      {
       "a": "LAC",
       "h": "LAR",
-      "st": "8:39 - 1st",
+      "st": "8:04 - 1st",
       "div": false,
       "stake": "LAC 0-6: 4th AFC West (5 GB), AFC #16 seed (outside playoffs) · LAR 3-4: 3rd NFC West (3 GB), NFC #9 seed (outside playoffs)"
      },
@@ -10251,14 +10267,14 @@
      {
       "a": "KC",
       "h": "DEN",
-      "st": "11/1 - 4:25 PM EST",
+      "st": "14:31 - 1st",
       "div": true,
       "stake": "KC 5-1: 1st AFC West, AFC #2 seed (in playoff spot) · DEN 5-2: 2nd AFC West (0.5 GB), AFC #5 seed (in playoff spot)"
      },
      {
       "a": "NE",
       "h": "MIA",
-      "st": "11/1 - 4:25 PM EST",
+      "st": "14:55 - 1st",
       "div": true,
       "stake": "NE 4-3: 2nd AFC East (2 GB), AFC #8 seed (outside playoffs) · MIA 1-5: 4th AFC East (4.5 GB), AFC #14 seed (outside playoffs)"
      },
@@ -10758,7 +10774,7 @@
      {
       "a": "BOS",
       "h": "ORL",
-      "st": "4:39 - 2nd",
+      "st": "3:59 - 2nd",
       "div": false,
       "stake": "BOS : 2nd Atlantic (1 GB), East #3 seed (in playoff spot) · ORL : 4th Southeast (0.5 GB), East #9 seed (in playoff spot)"
      },
@@ -11306,7 +11322,7 @@
      {
       "a": "UTA",
       "h": "PHI",
-      "st": "11:57 - 1st",
+      "st": "10:39 - 1st",
       "div": false,
       "stake": "UTA 9-5-0: 2nd Central Division (3 pts back), West #4 seed (in playoff spot) · PHI 3-8-4: 8th Metropolitan Division (16 pts back), East #16 seed (outside playoffs)"
      },
@@ -16208,14 +16224,189 @@
     "fair": "+226",
     "fair_prob": 0.3063916242032999,
     "edge": 0.04173152229121957,
-    "result": "Void",
+    "result": "Pending",
     "picked_et": "7:16 AM ET",
-    "why": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
+    "why": "Volume: n/a (L3 3.3 vs L10 3.3 touches+targets) | Hit: 3/10 at O0.5, 1/5. Matchup: Opp n/a/32 vs Touchdowns. Context: DAL -7 / O/U 55 | - | Home · Prime. Injuries: Dee Winters, KaVontae Turpin out | Opp out: Jon Gaines II, Walter Nolen III. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "B",
-    "grade_why": "Edge +4.2% vs Pinnacle; hit in 3 of last 10, 2 of 7 this season (L10 avg 0.4).",
+    "grade_why": "+4.2% vs Pinnacle",
     "big4": true,
     "big4_only": null,
+    "why_src": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
+    "ctx": {
+     "game": "Cowboys vs Cardinals",
+     "team": "DAL",
+     "opp": "ARI",
+     "stat": "pts",
+     "opp_rank": {
+      "rank": 32,
+      "of": 32,
+      "pg": 29.7,
+      "gp": 7,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "DAL",
+     "spread": -7.0,
+     "total": 55.0,
+     "team_totals": {
+      "DAL": 31.5,
+      "ARI": 23.5
+     },
+     "home": "DAL",
+     "away": "ARI",
+     "rest": null,
+     "record": {
+      "DAL": "3-4",
+      "ARI": "2-5"
+     },
+     "start_et": "Sun 11/01 01:00 PM ET",
+     "out": {
+      "DAL": [
+       {
+        "name": "KaVontae Turpin",
+        "status": "Out",
+        "pos": "WR",
+        "date": "2026-10-31"
+       },
+       {
+        "name": "George Pickens",
+        "status": "Questionable",
+        "pos": "WR",
+        "date": "2026-10-30"
+       },
+       {
+        "name": "Luke Schoonmaker",
+        "status": "Questionable",
+        "pos": "TE",
+        "date": "2026-10-29"
+       }
+      ],
+      "ARI": [
+       {
+        "name": "Tip Reiman",
+        "status": "Out",
+        "pos": "TE",
+        "date": "2026-10-26"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NFL",
+      "game": "Cowboys vs Cardinals",
+      "role": "Edge",
+      "team": "DAL",
+      "opponent": "ARI",
+      "home_away": "home",
+      "identity": {
+       "athlete_id": "4242355",
+       "team": "DAL",
+       "how": "game-team roster (id + team)",
+       "reason": null
+      },
+      "l10": {
+       "hits": 3,
+       "n": 10,
+       "l5_hits": 1,
+       "l5_n": 5,
+       "season_hits": 2,
+       "season_n": 7
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "touches+targets",
+       "blowout_margin": 21,
+       "blowout_source": "user default (21+)",
+       "floor": null,
+       "floor_source": "§16 lists touches/targets with no number: floor n/a",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        1.0,
+        3.0,
+        6.0
+       ],
+       "l3_avg": 3.3,
+       "l10_avg": 3.3,
+       "l10_n": 10,
+       "drop_pct": -1.0,
+       "last_game": {
+        "date": "2026-10-27",
+        "opp": "PHI",
+        "v": 1.0,
+        "spot": null
+       },
+       "possible_exit_games": [
+        {
+         "date": "2026-10-27",
+         "v": 1.0
+        }
+       ],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "normalized": "n/a",
+       "linemate_null_reason": "no LineMate card for this player/stat/side",
+       "reason": "no fallback table for touchdowns in /workspace/scout/ranks/NFL-2026-11-01.json"
+      },
+      "matchup_rank": "n/a",
+      "spread": "DAL -7",
+      "total": 55.0,
+      "team_totals": {
+       "Cowboys": 31.5,
+       "Cardinals": 23.5
+      },
+      "pace": "-",
+      "division_game": false,
+      "national_tv": [
+       "Fox"
+      ],
+      "rest_days": "5+",
+      "b2b": false,
+      "venue": "AT&T Stadium",
+      "indoor": true,
+      "teammates_out": [
+       "Dee Winters",
+       "KaVontae Turpin",
+       "Jonathan Bullard",
+       "Marist Liufau"
+      ],
+      "opp_out": [
+       "Jon Gaines II",
+       "Walter Nolen III",
+       "Jalen Brooks",
+       "Tip Reiman",
+       "James Conner"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "rank n/a",
+      "matchup_pref_limit": 21
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)",
+       "possible in-game exit (not verifiable, not excluded): 2026-10-27 1.0"
+      ],
+      "matchup_rank": "n/a",
+      "matchup_tier": "rank n/a",
+      "preference_limit": 21,
+      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
+      "applied_at": "2026-11-01 05:55 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: n/a (L3 3.3 vs L10 3.3 touches+targets) | Hit: 3/10 at O0.5, 1/5",
+     "Matchup: Opp n/a/32 vs Touchdowns",
+     "Context: DAL -7 / O/U 55 | - | Home · Prime",
+     "Injuries: Dee Winters, KaVontae Turpin out | Opp out: Jon Gaines II, Walter Nolen III",
+     "Weather: neutral",
+     "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
+    ],
     "dk": {
      "odds": null,
      "na": true
@@ -18180,12 +18371,187 @@
      "fair": "+226",
      "fair_prob": 0.3063916242032999,
      "edge": 0.04173152229121957,
-     "result": "Void",
+     "result": "Pending",
      "picked_et": "7:16 AM ET",
-     "why": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
+     "why": "Volume: n/a (L3 3.3 vs L10 3.3 touches+targets) | Hit: 3/10 at O0.5, 1/5. Matchup: Opp n/a/32 vs Touchdowns. Context: DAL -7 / O/U 55 | - | Home · Prime. Injuries: Dee Winters, KaVontae Turpin out | Opp out: Jon Gaines II, Walter Nolen III. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "B",
-     "grade_why": "Edge +4.2% vs Pinnacle; hit in 3 of last 10, 2 of 7 this season (L10 avg 0.4).",
+     "grade_why": "+4.2% vs Pinnacle",
+     "why_src": "Hard Rock +240 vs Pinnacle no-vig fair +226 (30.6%) → edge +4.17%. Clears the 4% Pinnacle edge floor at +4.17%. Price +240 is inside the preferred band (about -130 or better, or plus money).",
+     "ctx": {
+      "game": "Cowboys vs Cardinals",
+      "team": "DAL",
+      "opp": "ARI",
+      "stat": "pts",
+      "opp_rank": {
+       "rank": 32,
+       "of": 32,
+       "pg": 29.7,
+       "gp": 7,
+       "scale": "N/of, higher = more allowed (LineMate order)"
+      },
+      "fav": "DAL",
+      "spread": -7.0,
+      "total": 55.0,
+      "team_totals": {
+       "DAL": 31.5,
+       "ARI": 23.5
+      },
+      "home": "DAL",
+      "away": "ARI",
+      "rest": null,
+      "record": {
+       "DAL": "3-4",
+       "ARI": "2-5"
+      },
+      "start_et": "Sun 11/01 01:00 PM ET",
+      "out": {
+       "DAL": [
+        {
+         "name": "KaVontae Turpin",
+         "status": "Out",
+         "pos": "WR",
+         "date": "2026-10-31"
+        },
+        {
+         "name": "George Pickens",
+         "status": "Questionable",
+         "pos": "WR",
+         "date": "2026-10-30"
+        },
+        {
+         "name": "Luke Schoonmaker",
+         "status": "Questionable",
+         "pos": "TE",
+         "date": "2026-10-29"
+        }
+       ],
+       "ARI": [
+        {
+         "name": "Tip Reiman",
+         "status": "Out",
+         "pos": "TE",
+         "date": "2026-10-26"
+        }
+       ]
+      },
+      "game_day": {
+       "sport": "NFL",
+       "game": "Cowboys vs Cardinals",
+       "role": "Edge",
+       "team": "DAL",
+       "opponent": "ARI",
+       "home_away": "home",
+       "identity": {
+        "athlete_id": "4242355",
+        "team": "DAL",
+        "how": "game-team roster (id + team)",
+        "reason": null
+       },
+       "l10": {
+        "hits": 3,
+        "n": 10,
+        "l5_hits": 1,
+        "l5_n": 5,
+        "season_hits": 2,
+        "season_n": 7
+       },
+       "volume_collapse": {
+        "status": "ok",
+        "volume_stat": "touches+targets",
+        "blowout_margin": 21,
+        "blowout_source": "user default (21+)",
+        "floor": null,
+        "floor_source": "§16 lists touches/targets with no number: floor n/a",
+        "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+        "excluded_games": [],
+        "unknown_margin_or_ot": 0,
+        "l3": [
+         1.0,
+         3.0,
+         6.0
+        ],
+        "l3_avg": 3.3,
+        "l10_avg": 3.3,
+        "l10_n": 10,
+        "drop_pct": -1.0,
+        "last_game": {
+         "date": "2026-10-27",
+         "opp": "PHI",
+         "v": 1.0,
+         "spot": null
+        },
+        "possible_exit_games": [
+         {
+          "date": "2026-10-27",
+          "v": 1.0
+         }
+        ],
+        "reason": "no collapse"
+       },
+       "matchup": {
+        "normalized": "n/a",
+        "linemate_null_reason": "no LineMate card for this player/stat/side",
+        "reason": "no fallback table for touchdowns in /workspace/scout/ranks/NFL-2026-11-01.json"
+       },
+       "matchup_rank": "n/a",
+       "spread": "DAL -7",
+       "total": 55.0,
+       "team_totals": {
+        "Cowboys": 31.5,
+        "Cardinals": 23.5
+       },
+       "pace": "-",
+       "division_game": false,
+       "national_tv": [
+        "Fox"
+       ],
+       "rest_days": "5+",
+       "b2b": false,
+       "venue": "AT&T Stadium",
+       "indoor": true,
+       "teammates_out": [
+        "Dee Winters",
+        "KaVontae Turpin",
+        "Jonathan Bullard",
+        "Marist Liufau"
+       ],
+       "opp_out": [
+        "Jon Gaines II",
+        "Walter Nolen III",
+        "Jalen Brooks",
+        "Tip Reiman",
+        "James Conner"
+       ],
+       "player_injury_status": "not listed",
+       "lm_without": [],
+       "lm_vs_opp": "n/a",
+       "weather": "indoor",
+       "matchup_tier": "rank n/a",
+       "matchup_pref_limit": 21
+      },
+      "filters_applied": {
+       "vetoes": [],
+       "flags": [
+        "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)",
+        "possible in-game exit (not verifiable, not excluded): 2026-10-27 1.0"
+       ],
+       "matchup_rank": "n/a",
+       "matchup_tier": "rank n/a",
+       "preference_limit": 21,
+       "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
+       "applied_at": "2026-11-01 05:55 AM ET"
+      },
+      "why_from": "scout"
+     },
+     "gameday": [
+      "Volume: n/a (L3 3.3 vs L10 3.3 touches+targets) | Hit: 3/10 at O0.5, 1/5",
+      "Matchup: Opp n/a/32 vs Touchdowns",
+      "Context: DAL -7 / O/U 55 | - | Home · Prime",
+      "Injuries: Dee Winters, KaVontae Turpin out | Opp out: Jon Gaines II, Walter Nolen III",
+      "Weather: neutral",
+      "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
+     ],
      "dk": {
       "odds": null,
       "na": true
@@ -24044,8 +24410,8 @@
    "prop": "NFL anytime td",
    "pick": "Jake Ferguson Over 0.5 Touchdowns",
    "odds": "+240",
-   "res": "Void",
-   "stat": "Void (ruled out before the game: late injury veto: listed Out on the ESPN injury report before the game)"
+   "res": "Pending",
+   "stat": "Pending"
   },
   {
    "date": "2026-11-01",
@@ -34338,14 +34704,13 @@
     "prop": "NFL anytime td",
     "pick": "Jake Ferguson Over 0.5 Touchdowns",
     "odds": "+240",
-    "res": "V",
-    "stat": "Void (ruled out before the game: late injury veto: listed Out on the ESPN injury report before the game)",
+    "res": "",
+    "stat": "Pending",
     "leg": false,
     "img": null,
     "sub": "",
     "alt": false,
-    "fam": "Anytime TD",
-    "uu": 0.0
+    "fam": "Anytime TD"
    },
    {
     "date": "2026-11-01",
@@ -47479,8 +47844,8 @@
     "tickets": {
      "w": 103,
      "l": 184,
-     "p": 4,
-     "pending": 4,
+     "p": 3,
+     "pending": 5,
      "units": -22.34
     },
     "legs": {
@@ -47694,7 +48059,7 @@
     "game": "KC @ DEN; Play of the Day",
     "gkey": "NFL:401873033",
     "start": "2026-11-01 16:25",
-    "locked": false,
+    "locked": true,
     "res": "",
     "stat": "",
     "priced": "2026-11-01 10:58",
@@ -47725,7 +48090,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 16:24",
+    "priced": "2026-11-01 16:27",
     "dk": {
      "ladder": [
       [
@@ -47786,7 +48151,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 16:24",
+    "priced": "2026-11-01 16:27",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -48281,8 +48646,8 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 16:24 ET",
-  "picks": 37,
+  "built": "2026-11-01 16:27 ET",
+  "picks": 40,
   "vetoes": [],
   "gaps": [
    "POTD Kirill Kaprizov Over 0.5 Assists: AttributeError 'NoneType' object has no attribute 'get'"
@@ -48324,26 +48689,17 @@
   "date": "2026-11-01",
   "checked_et": "2026-11-01 04:19 PM ET",
   "stage": "4pm",
-  "flags": [
+  "flags": [],
+  "reverted": [
    {
-    "date": "2026-11-01",
-    "stage": "4pm",
-    "cat": "Edge",
-    "sport": "NFL",
-    "player": "Jake Ferguson",
-    "status": "Out",
-    "game": "Cowboys vs Cardinals",
-    "action": "void (Edge is no fill)"
+    "player": "Jayson Tatum",
+    "cat": "POTD",
+    "why": "game already started (BOS @ ORL tip 3:30 PM ET) -- lateinj1101 restore"
    },
    {
-    "date": "2026-11-01",
-    "stage": "4pm",
-    "cat": "POTD",
-    "sport": "NBA",
-    "player": "Jayson Tatum",
-    "status": "Day-To-Day",
-    "game": "",
-    "action": "POTD void (no fill)"
+    "player": "Jake Ferguson",
+    "cat": "Edge",
+    "why": "game already started (ARI @ DAL kick 1:00 PM ET) -- lateinj1101 restore"
    }
   ]
  },
@@ -48727,6 +49083,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-01 04:24 PM ET"
+  "checked_et": "2026-11-01 04:27 PM ET"
  }
 }
