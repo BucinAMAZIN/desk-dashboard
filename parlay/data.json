@@ -1,5 +1,5 @@
 {
- "generated": 1793539447.6837296,
+ "generated": 1793542132.1613998,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -9377,7 +9377,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 08:24 AM ET",
+  "updated": "2026-11-01 09:08 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12128,7 +12128,7 @@
    }
   }
  },
- "ui_build": "1793540470",
+ "ui_build": "1793541770",
  "ncaaf_record": {
   "overall": {
    "w": 3,
@@ -30319,7 +30319,7 @@
    "No steals / blocks: see the official standards and rule 4. No POTD (or POTD backup / Today POTD) whose stat includes steals or blocks, pure or combo. [AMENDED 2026-10-31 4:46 PM ET: the steals/blocks ban applies ONLY to basketball (NBA, WNBA, NCAAB, any basketball league), pure or combo. NHL blocked shots and every non-basketball sport are ALLOWED.]",
    "GAME DAY PROCESS applies: Game Day Why block, matchup rank (≤20 preferred) and the hard vetoes.",
    "Volume potd: one POTD per sport bubble when that sport has games. Hard Rock price -105 to -135 at selection. No edge requirement (POTD and POTD #n).",
-   "Filters: the Alt Line Parlay volume filter and eligible-player rules and bans, plus hit rate at that exact line of at least 7 of last 10, with 8+ of last 10 preferred (the only hit-rate test).",
+   "Filters: the Alt Line Parlay volume filter and eligible-player rules and bans, plus hit rate at that exact line of at least 7 of last 10, with 8+ of last 10 preferred (the only hit-rate test). NASCAR (Q-NAS4,): the model must also agree (H2H: lower expected finish; Top N: expected finish <= N), a required filter on top of 7+/10; markets and hit-rate definitions in.",
    "The card carries a \"Volume\" stamp. The Majors/Today POTD is the best of the Big 4 sport POTDs (NFL, NBA, NHL, MLB).",
    "The official standards still applies: locked only from the morning prop scan, no near-miss or filler, and no POTD at all on a day LineMate data is missing or signed out.",
    "Price drift: a POTD only has to be in band at selection. Later moves of any size never void it. Void only for inactive player or postponed/cancelled game.",
@@ -30330,7 +30330,7 @@
   "parlay100": [
    "Game day process applies to every leg: Game Day Why block, matchup rank (≤20 preferred) and the hard vetoes.",
    "Volume parlay: 2-3 legs. Legs may be ANY real Hard Rock line: a player prop OR a game line (spread, total, moneyline, team total), main or alt, at any price (no per-leg range) down to the -500 code floor below. No edge requirement. The eligible-prop list does not limit Parlay +100 legs.",
-   "Filters: player-prop legs pass the volume/role filter and bans and hit that exact line in 7+ of the player's last 10. Game-line legs need the team/game to have hit that line in 7+ of its last 10. 7+ of last 10 is the only hit-rate test.",
+   "Filters: player-prop legs pass the volume/role filter and bans and hit that exact line in 7+ of the player's last 10. Game-line legs need the team/game to have hit that line in 7+ of its last 10. 7+ of last 10 is the only hit-rate test. NASCAR (Q-NAS4,): legs also need the model to agree, a required filter on top of 7+/10.",
    "Chain: a parlay that settles (L as soon as any leg loses) is followed by \"Parlay +100 #n\" built to the same rules, combined +100 to +140, using no game from an earlier parlay that day. The All Sports (Big 4) parlay chains too.",
    "Same-game rule: legs normally come from different games. When only ONE game is on the slate or left, the ticket is built as a same-game parlay PREGAME.",
    "All Sports parlay: safest 2-4 legs, about +100 to +115. Official. Must use different legs and cannot be a pure copy of a sport parlay."
@@ -30450,7 +30450,6 @@
    "NFL: snap, target and rush share plus red-zone role. Healthy players post at the 7 AM ET publish; a player ruled inactive before kickoff is swapped.",
    "NBA and WNBA: minutes and usage; usage bumps from injuries count positive; rest, back-to-backs and blowout risk count negative.",
    "NCAAF: the NFL factors, stable depth charts only.",
-   "NASCAR: H2H or top-10/top-20 finish, using practice, qualifying and track history.",
    "Holds: LEG DAY uses individual player holds only (a held prop holds alone; the board is not held as a whole).",
    "Replacements: any replacement meets the same standard as the original pick.",
    "Grading: nightly, each prop as a 1u single at its locked price; only final games are graded, never guessed."
@@ -30474,7 +30473,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Alex DeBrincat u1.5 Points",
+      "result": "L",
+      "stat": "2G 1A"
+     },
+     {
+      "pick": "Mikael Granlund o0.5 Points",
+      "result": "W",
+      "stat": "1A"
+     }
+    ]
    },
    {
     "date": "2026-10-13",
@@ -30539,7 +30550,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.0
+    "uu": 1.0,
+    "legs": [
+     {
+      "pick": "Nazem Kadri o1.5 SOG",
+      "result": "W",
+      "stat": "2 SOG"
+     },
+     {
+      "pick": "Robert Gasser o0.5 Walks",
+      "result": "W",
+      "stat": "1 BB"
+     }
+    ]
    },
    {
     "date": "2026-10-14",
@@ -30605,7 +30628,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.08
+    "uu": 1.08,
+    "legs": [
+     {
+      "pick": "Jaxon Smith-Njigba o64.5 Rec Yds",
+      "result": "W",
+      "stat": "134 yds"
+     },
+     {
+      "pick": "Matthew Schaefer o2.5 SOG",
+      "result": "W",
+      "stat": "3 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-16",
@@ -30639,7 +30674,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.14
+    "uu": 1.14,
+    "legs": [
+     {
+      "pick": "Leo Carlsson u2.5 SOG",
+      "result": "W",
+      "stat": "1 SOG"
+     },
+     {
+      "pick": "Yandy Díaz u0.5 RBI",
+      "result": null,
+      "stat": "PPD"
+     }
+    ]
    },
    {
     "date": "2026-10-17",
@@ -30673,7 +30720,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "BYU Under 17.5 Team Total",
+      "result": "L",
+      "stat": "BYU 28"
+     },
+     {
+      "pick": "Penn State @ Michigan Under 43.5",
+      "result": "W",
+      "stat": "total 39"
+     }
+    ]
    },
    {
     "date": "2026-10-17",
@@ -30724,7 +30783,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 2.24
+    "uu": 2.24,
+    "legs": [
+     {
+      "pick": "Will Cuylle o1.5 SOG",
+      "result": "W",
+      "stat": "2 SOG"
+     },
+     {
+      "pick": "Seattle Kraken Over 2.5 Team Total",
+      "result": "W",
+      "stat": "SEA 3"
+     }
+    ]
    },
    {
     "date": "2026-10-17",
@@ -30758,7 +30829,24 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Tampa Bay Lightning ML",
+      "result": null,
+      "stat": "TB 4-2"
+     },
+     {
+      "pick": "Tampa Bay Rays +1.5 F5",
+      "result": "W",
+      "stat": "TB 1-1 CLE"
+     },
+     {
+      "pick": "St. Louis Blues +1.5",
+      "result": "L",
+      "stat": "STL 2-5 NSH"
+     }
+    ]
    },
    {
     "date": "2026-10-18",
@@ -30809,7 +30897,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "New York Giants +1",
+      "result": "L",
+      "stat": "NO 34-27 NYG"
+     },
+     {
+      "pick": "Los Angeles Rams ML",
+      "result": "L",
+      "stat": "ARI 18-16 LAR"
+     }
+    ]
    },
    {
     "date": "2026-10-18",
@@ -30843,7 +30943,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Ryan Blaney Top 5",
+      "result": "W",
+      "stat": "P2"
+     },
+     {
+      "pick": "Denny Hamlin Top 10",
+      "result": "L",
+      "stat": "P28"
+     }
+    ]
    },
    {
     "date": "2026-10-18",
@@ -30860,7 +30972,24 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.11
+    "uu": 1.11,
+    "legs": [
+     {
+      "pick": "Tampa Bay Rays +2.5",
+      "result": "W",
+      "stat": "TB 3-1 CLE"
+     },
+     {
+      "pick": "Joel Eriksson Ek o1.5 SOG",
+      "result": "W",
+      "stat": "2 SOG"
+     },
+     {
+      "pick": "Jackson Blake o1.5 SOG",
+      "result": "W",
+      "stat": "2 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-18",
@@ -30911,7 +31040,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Minnesota Wild ML",
+      "result": "W",
+      "stat": "CBJ 1-2 MIN"
+     },
+     {
+      "pick": "Carolina Hurricanes ML",
+      "result": "L",
+      "stat": "CAR 2-3 CGY"
+     }
+    ]
    },
    {
     "date": "2026-10-18",
@@ -30928,7 +31069,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Javonte Williams 13+ rec yds",
+      "result": "L",
+      "stat": "9 rec yds"
+     },
+     {
+      "pick": "CeeDee Lamb 5+ rec",
+      "result": "W",
+      "stat": "9 rec"
+     }
+    ]
    },
    {
     "date": "2026-10-18",
@@ -31011,7 +31164,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Jamie Drysdale u0.5 Points",
+      "result": "W",
+      "stat": "0 PTS"
+     },
+     {
+      "pick": "Kaila Charles 4+ Rebounds",
+      "result": "L",
+      "stat": "3 REB"
+     }
+    ]
    },
    {
     "date": "2026-10-19",
@@ -31028,7 +31193,24 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Noah Cates u0.5 Points",
+      "result": "L",
+      "stat": "1 PTS"
+     },
+     {
+      "pick": "Taylor Walls u0.5 Walks",
+      "result": "L",
+      "stat": "3 BB"
+     },
+     {
+      "pick": "MacKenzie Weegar u0.5 Assists",
+      "result": "W",
+      "stat": "0 AST"
+     }
+    ]
    },
    {
     "date": "2026-10-19",
@@ -31062,7 +31244,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Yandy Diaz u0.5 Walks",
+      "result": "W",
+      "stat": "0 BB"
+     },
+     {
+      "pick": "Nathaniel Lowe u0.5 Runs",
+      "result": "L",
+      "stat": "1 R"
+     }
+    ]
    },
    {
     "date": "2026-10-19",
@@ -31096,7 +31290,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Jack Roslovic o1.5 SOG",
+      "result": "L",
+      "stat": "0 SOG"
+     },
+     {
+      "pick": "Martin Necas o1.5 SOG",
+      "result": "W",
+      "stat": "2 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-19",
@@ -31130,7 +31336,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.34
+    "uu": 1.34,
+    "legs": [
+     {
+      "pick": "Jordin Canada 15+ pts+ast",
+      "result": "W",
+      "stat": "23 P+A"
+     },
+     {
+      "pick": "Allisha Gray 20+ PRA",
+      "result": "W",
+      "stat": "24 PRA"
+     }
+    ]
    },
    {
     "date": "2026-10-19",
@@ -31164,7 +31382,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Antonio Williams 2+ rec",
+      "result": "W",
+      "stat": "3 rec"
+     },
+     {
+      "pick": "Terry McLaurin 40+ rec yds",
+      "result": "L",
+      "stat": "27 rec yds"
+     }
+    ]
    },
    {
     "date": "2026-10-19",
@@ -31246,7 +31476,24 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "David Pastrnak 2+ SOG",
+      "result": "L",
+      "stat": "0 SOG"
+     },
+     {
+      "pick": "Jackson Blake 2+ SOG",
+      "result": "W",
+      "stat": "5 SOG"
+     },
+     {
+      "pick": "Andrew Copp 1+ SOG",
+      "result": "L",
+      "stat": "0 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-20",
@@ -31263,7 +31510,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Ryan Leonard 2+ SOG",
+      "result": "W",
+      "stat": "2 SOG"
+     },
+     {
+      "pick": "Mason McTavish 2+ SOG",
+      "result": "L",
+      "stat": "0 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-20",
@@ -31297,7 +31556,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Conor Garland under 0.5 pts",
+      "result": "W",
+      "stat": "0 PTS"
+     },
+     {
+      "pick": "Elias Pettersson (C) under 0.5 ast",
+      "result": "L",
+      "stat": "1 AST"
+     }
+    ]
    },
    {
     "date": "2026-10-20",
@@ -31331,7 +31602,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.53
+    "uu": 1.53,
+    "legs": [
+     {
+      "pick": "De'Aaron Fox 5+ ast",
+      "result": "W",
+      "stat": "7 AST"
+     },
+     {
+      "pick": "Jalen Brunson 3+ reb",
+      "result": "W",
+      "stat": "5 REB"
+     }
+    ]
    },
    {
     "date": "2026-10-20",
@@ -31430,7 +31713,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.98
+    "uu": 1.98,
+    "legs": [
+     {
+      "pick": "Ryan Shea under 1.5 SOG",
+      "result": "W",
+      "stat": "0 SOG"
+     },
+     {
+      "pick": "Joel Farabee under 2.5 SOG",
+      "result": "W",
+      "stat": "2 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-26",
@@ -31515,7 +31810,24 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Fred VanVleet over 1.5 3PM",
+      "result": "L",
+      "stat": "0 3PM"
+     },
+     {
+      "pick": "Grizzlies team total under 128.5",
+      "result": "W",
+      "stat": "MEM 110"
+     },
+     {
+      "pick": "Warriors team total under 123.5",
+      "result": "L",
+      "stat": "GS 134"
+     }
+    ]
    },
    {
     "date": "2026-10-26",
@@ -31532,7 +31844,24 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Eagles vs Cowboys under 54.5 total",
+      "result": "L",
+      "stat": "total 59"
+     },
+     {
+      "pick": "Warriors team total under 124.5",
+      "result": "L",
+      "stat": "GS 134"
+     },
+     {
+      "pick": "Brewers +1.5",
+      "result": "W",
+      "stat": "MIL 10-1 TB"
+     }
+    ]
    },
    {
     "date": "2026-10-27",
@@ -31566,7 +31895,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Stephon Castle over 14.5 pts",
+      "result": "W",
+      "stat": "15 PTS"
+     },
+     {
+      "pick": "OG Anunoby over 14.5 pts",
+      "result": "L",
+      "stat": "13 PTS"
+     }
+    ]
    },
    {
     "date": "2026-10-27",
@@ -31583,7 +31924,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Stephon Castle over 14.5 pts",
+      "result": "W",
+      "stat": "15 PTS"
+     },
+     {
+      "pick": "OG Anunoby over 14.5 pts",
+      "result": "L",
+      "stat": "13 PTS"
+     }
+    ]
    },
    {
     "date": "2026-10-27",
@@ -31600,7 +31953,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Artemi Panarin over 2.5 SOG",
+      "result": "L",
+      "stat": "0 SOG"
+     },
+     {
+      "pick": "Adam Fantilli over 1.5 SOG",
+      "result": "W",
+      "stat": "2 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-28",
@@ -31634,7 +31999,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Trae Young over 19.5 pts",
+      "result": "L",
+      "stat": "14 PTS"
+     },
+     {
+      "pick": "Zion Williamson over 14.5 pts",
+      "result": "W",
+      "stat": "25 PTS"
+     }
+    ]
    },
    {
     "date": "2026-10-28",
@@ -31651,7 +32028,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Trae Young over 19.5 pts",
+      "result": "L",
+      "stat": "14 PTS"
+     },
+     {
+      "pick": "Zion Williamson over 14.5 pts",
+      "result": "W",
+      "stat": "25 PTS"
+     }
+    ]
    },
    {
     "date": "2026-10-28",
@@ -31685,7 +32074,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.14
+    "uu": 1.14,
+    "legs": [
+     {
+      "pick": "Alex Tuch over 1.5 SOG",
+      "result": "W",
+      "stat": "5 SOG"
+     },
+     {
+      "pick": "Joel Farabee over 1.5 SOG",
+      "result": "W",
+      "stat": "3 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-28",
@@ -31702,7 +32103,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "William Contreras over 0.5 hits",
+      "result": "W",
+      "stat": "1 H"
+     },
+     {
+      "pick": "Jake Bauers over 0.5 hits",
+      "result": "L",
+      "stat": "0 H"
+     }
+    ]
    },
    {
     "date": "2026-10-29",
@@ -31787,7 +32200,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.28
+    "uu": 1.28,
+    "legs": [
+     {
+      "pick": "Jordin Canada over 9.5 Points",
+      "result": "W",
+      "stat": "10 PTS"
+     },
+     {
+      "pick": "Gabby Williams over 14.5 Points",
+      "result": "W",
+      "stat": "26 PTS"
+     }
+    ]
    },
    {
     "date": "2026-10-29",
@@ -31804,7 +32229,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.25
+    "uu": 1.25,
+    "legs": [
+     {
+      "pick": "Rasmus Dahlin over 2.5 Shots On Goal",
+      "result": "W",
+      "stat": "4 SOG"
+     },
+     {
+      "pick": "Quinn Hughes over 1.5 Shots On Goal",
+      "result": "W",
+      "stat": "4 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-29",
@@ -31821,7 +32258,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.34
+    "uu": 1.34,
+    "legs": [
+     {
+      "pick": "Tetairoa McMillan over 3.5 Receptions",
+      "result": "W",
+      "stat": "6 rec"
+     },
+     {
+      "pick": "Jordan Love over 262.5 Passing Yards",
+      "result": "W",
+      "stat": "288 pass yds"
+     }
+    ]
    },
    {
     "date": "2026-10-29",
@@ -31838,7 +32287,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Evan Mobley over 14.5 Points",
+      "result": "L",
+      "stat": "11 PTS"
+     },
+     {
+      "pick": "Domantas Sabonis over 12.5 Rebounds",
+      "result": "W",
+      "stat": "15 REB"
+     }
+    ]
    },
    {
     "date": "2026-10-29",
@@ -31855,7 +32316,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.09
+    "uu": 1.09,
+    "legs": [
+     {
+      "pick": "Kirill Kaprizov over 2.5 Shots On Goal",
+      "result": "W",
+      "stat": "3 SOG"
+     },
+     {
+      "pick": "Brandon Hagel over 2.5 Shots On Goal",
+      "result": "W",
+      "stat": "5 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-30",
@@ -31906,7 +32379,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.09
+    "uu": 1.09,
+    "legs": [
+     {
+      "pick": "Tyrese Maxey Over 3.5 Assists",
+      "result": "W",
+      "stat": "4 AST"
+     },
+     {
+      "pick": "Davion Mitchell Over 9.5 Points",
+      "result": "W",
+      "stat": "15 PTS"
+     }
+    ]
    },
    {
     "date": "2026-10-30",
@@ -31923,7 +32408,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Kyle Connor Over 2.5 Shots On Goal",
+      "result": "L",
+      "stat": "2 SOG"
+     },
+     {
+      "pick": "Joel Farabee Over 1.5 Shots On Goal",
+      "result": "L",
+      "stat": "1 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-31",
@@ -31957,7 +32454,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Donovan Mitchell Over 19.5 Points",
+      "result": "L",
+      "stat": "15 PTS"
+     },
+     {
+      "pick": "Olen Zellweger Over 1.5 Shots On Goal",
+      "result": "L",
+      "stat": "1 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-31",
@@ -31991,7 +32500,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": -1.0
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Zion Williamson Over 19.5 Points",
+      "result": "L",
+      "stat": "15 PTS"
+     },
+     {
+      "pick": "James Harden Over 3.5 Rebounds",
+      "result": "W",
+      "stat": "6 REB"
+     }
+    ]
    },
    {
     "date": "2026-10-31",
@@ -32025,7 +32546,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.37
+    "uu": 1.37,
+    "legs": [
+     {
+      "pick": "Artemi Panarin Over 2.5 Shots On Goal",
+      "result": "W",
+      "stat": "3 SOG"
+     },
+     {
+      "pick": "Jake Guentzel Over 1.5 Shots On Goal",
+      "result": "W",
+      "stat": "3 SOG"
+     }
+    ]
    },
    {
     "date": "2026-10-31",
@@ -32059,7 +32592,19 @@
     "img": null,
     "alt": false,
     "fam": "Parlay",
-    "uu": 1.23
+    "uu": 1.23,
+    "legs": [
+     {
+      "pick": "Gabby Williams Over 14.5 Points",
+      "result": "W",
+      "stat": "30 PTS"
+     },
+     {
+      "pick": "Rhyne Howard Over 3.5 Rebounds",
+      "result": "W",
+      "stat": "6 REB"
+     }
+    ]
    },
    {
     "date": "2026-11-01",
@@ -32091,7 +32636,19 @@
     "leg": false,
     "img": null,
     "alt": false,
-    "fam": "Parlay"
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Connor McDavid Over 0.5 Assists",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Joel Eriksson Ek Over 2.5 Shots On Goal",
+      "result": null,
+      "stat": ""
+     }
+    ]
    },
    {
     "date": "2026-11-01",
@@ -32123,7 +32680,19 @@
     "leg": false,
     "img": null,
     "alt": false,
-    "fam": "Parlay"
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Trey McBride Over 6.5 Receptions",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "J.K. Dobbins Over 24.5 Rushing Yards",
+      "result": null,
+      "stat": ""
+     }
+    ]
    },
    {
     "date": "2026-11-01",
@@ -32155,7 +32724,19 @@
     "leg": false,
     "img": null,
     "alt": false,
-    "fam": "Parlay"
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Franz Wagner Over 4.5 Rebounds",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Andrew Nembhard Over 8.5 Assists",
+      "result": null,
+      "stat": ""
+     }
+    ]
    },
    {
     "date": "2026-11-01",
@@ -32187,7 +32768,19 @@
     "leg": false,
     "img": null,
     "alt": false,
-    "fam": "Parlay"
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Alexis Lafreniere Over 0.5 Points",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Kirill Kaprizov Over 2.5 Shots On Goal",
+      "result": null,
+      "stat": ""
+     }
+    ]
    },
    {
     "date": "2026-10-18",
@@ -49487,7 +50080,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 08:24",
+    "priced": "2026-11-01 09:08",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -49620,7 +50213,7 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 08:24 ET",
+  "built": "2026-11-01 09:08 ET",
   "picks": 60,
   "vetoes": [],
   "gaps": [
