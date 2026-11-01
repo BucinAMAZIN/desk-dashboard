@@ -1,5 +1,5 @@
 {
- "generated": 1793545424.3960013,
+ "generated": 1793545500.9540656,
  "today": {
   "title": "Nov 1 picks (Hard Rock)",
   "tickets": [
@@ -9402,7 +9402,7 @@
  "capper_today_date": "2026-11-01",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-01 10:03 AM ET",
+  "updated": "2026-11-01 10:05 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12339,7 +12339,7 @@
     "w": 58,
     "l": 53,
     "p": 4,
-    "pending": 7,
+    "pending": 8,
     "units": -11.67
    }
   },
@@ -21757,9 +21757,106 @@
   "dk_odds": null
  },
  "first_blood": {
-  "date": "2026-10-31",
-  "legs": [],
-  "rolled_off": "First Blood · NBA Sat Oct 31 · Locked Sat Oct 31, 10:03 AM ET, final settled (L) and moved to Results"
+  "name": "First Blood",
+  "date": "2026-11-01",
+  "title": "First Blood · NBA Sun Nov 1 · Locked Sun Nov 1, 10:04 AM ET, final",
+  "sport": "NBA",
+  "thin_slate": false,
+  "label": null,
+  "stake_u": 1.0,
+  "locked_at": "Sun Nov 1, 10:04 AM ET",
+  "final": true,
+  "no_swap": true,
+  "full_locked": true,
+  "lock_note": "Locked 10:00 AM ET run; final, no swaps (RULEBOOK §22).",
+  "status": "Pending",
+  "odds": "~+137,712",
+  "odds_note": "Estimated from single-leg Hard Rock prices; confirm the slip price.",
+  "why": "Locked Sun Nov 1, 10:04 AM ET, final. No swaps. Rules (RULEBOOK §22, First Blood): score = 35% L10 first-scorer rate, 25% usage/minutes role, 20% matchup (opp PPG allowed), 10% team implied total, 10% recent form (L5 PPG); each normalized 0-1 across the slate; +5 primary ball-handler. Real Hard Rock First Player To Score prices +400..+1500 only; projected starters with >=1 first score in L10 or a top-2 first-unit shot role; no Questionable/Day-To-Day/Doubtful/Out (ESPN at lock). One leg per game; 4 preferred, max 8 (legs 5-8 within 8 points of leg 4). Isolated: does not count against the one-prop-type rule. Locked 10:00 AM ET, final, no swaps. Settlement (Hard Rock): a leg is void if the player does not start or enters after the first point; FTs count as the first point. 1u, units only. Sources: Hard Rock 2026-11-01 10:04 ET, ESPN box scores + play-by-play (L10), ESPN injuries at run. Estimated parlay = product of single prices (Hard Rock SGP pricing may differ). Ranking: 1. ✔ Pascal Siakam IND +500: 79.0 | 2. ✔ Scottie Barnes TOR +600: 77.6 | 3. ✔ Jayson Tatum BOS +425: 72.9 | 4. · RJ Barrett TOR +700: 70.4 | 5. · Paul George BOS +500: 69.5 | 6. · Julius Randle BKN +650: 68.8 | 7. · Andrew Nembhard IND +550: 67.1 | 8. · Luka Doncic LAL +425: 63.9 | 9. ✔ Brandin Podziemski GS +525: 61.6 | 10. · Michael Porter Jr. BKN +525: 61.0 | 11. · Aaron Nesmith IND +700: 56.8 (ESPN Day-To-Day) | 12. · Darius Garland LAC +600: 51.9 | 13. · Austin Reaves LAL +600: 51.2 | 14. · Jay Huff IND +800: 44.7 | 15. · Nolan Traore BKN +1000: 40.2 | 16. · Kelly Oubre Jr. IND +700: 39.8 (0 first-scorer L10 and not a top-2 first-unit shot taker) | 17. · Walker Kessler LAL +575: 36.1 | 18. · Wendell Carter Jr. ORL +700: 35.9 | 19. · Derrick Jones Jr. LAC +750: 35.5 | 20. · Immanuel Quickley TOR +850: 35.0 (0 first-scorer L10 and not a top-2 first-unit shot taker) | 21. · Yaxel Lendeborg GS +550: 34.8 | 22. · Isaiah Jackson LAC +800: 34.8 | 23. · Ja'Kobe Walter TOR +1100: 33.6 (0 first-scorer L10 and not a top-2 first-unit shot taker) | 24. · Desmond Bane ORL +600: 32.0 | 25. · Rui Hachimura LAC +750: 31.4 (0 first-scorer L10 and not a top-2 first-unit shot taker)",
+  "settlement": "Hard Rock: void if the player does not start or comes on after the first point; first point = first made FG or FT.",
+  "legs": [
+   {
+    "pick": "Pascal Siakam first point scorer",
+    "player": "Pascal Siakam",
+    "athlete_id": "3149673",
+    "team": "IND",
+    "opp": "BKN",
+    "game": "BKN @ IND 5:00 PM ET",
+    "espn_event": "401909904",
+    "tip_iso": "2026-11-01T17:00-05:00",
+    "odds": "+500",
+    "book": "Hard Rock",
+    "market": "First Player To Score",
+    "grade": "A-",
+    "score": 79.0,
+    "status": "Pending",
+    "result": null,
+    "why": "Volume: L10 31.0 min, 18.2 FGA/g, 22.9 PPG, started 10/10 | First scorer 3/10 L10 (team scored first 5/10)\nMatchup: BKN allows 119.5 PPG L10 (rank 1/8 on tonight's slate, 1 = allows most)\nContext: IND -3.5 / O/U 230.5 (TT 117.5) | Home · tip 5:00 PM ET\nInjuries: none | Team out: Ivica Zubac, Aaron Nesmith, Obi Toppin | Opp out: Mikel Brown Jr., Egor Demin, Tyler Bilodeau\nWeather: Indoor (neutral)\nRisk: long price +500: one possession decides it\nFormula: [A-] Score 79.0/100 (rank 1 of 38). L10 first-scorer 3/10 (30%); role 31.0 min, usage 23.3/g; opp allows 119.5 PPG; team total 117.5 (Hard Rock team total); L5 20.6 PPG.",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+   },
+   {
+    "pick": "Scottie Barnes first point scorer",
+    "player": "Scottie Barnes",
+    "athlete_id": "4433134",
+    "team": "TOR",
+    "opp": "LAL",
+    "game": "TOR @ LAL 9:00 PM ET",
+    "espn_event": "401909906",
+    "tip_iso": "2026-11-01T21:00-05:00",
+    "odds": "+600",
+    "book": "Hard Rock",
+    "market": "First Player To Score",
+    "grade": "A-",
+    "score": 77.6,
+    "status": "Pending",
+    "result": null,
+    "why": "Volume: L10 36.2 min, 19.1 FGA/g, 24.2 PPG, started 10/10 | First scorer 3/10 L10 (team scored first 6/10)\nMatchup: LAL allows 115.9 PPG L10 (rank 3/8 on tonight's slate, 1 = allows most)\nContext: TOR +2.5 / O/U 226.5 (TT 112.5) | Away · tip 9:00 PM ET\nInjuries: none | Team out: Kawhi Leonard, Nate Bittle | Opp out: Ziaire Williams, Adou Thiero\nWeather: Indoor (neutral)\nRisk: long price +600: one possession decides it\nFormula: [A-] Score 77.6/100 (rank 2 of 38). L10 first-scorer 3/10 (30%); role 36.2 min, usage 25.0/g; opp allows 115.9 PPG; team total 112.5 (Hard Rock team total); L5 24.0 PPG. Bonus +5 (primary ball-handler).",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+   },
+   {
+    "pick": "Jayson Tatum first point scorer",
+    "player": "Jayson Tatum",
+    "athlete_id": "4065648",
+    "team": "BOS",
+    "opp": "ORL",
+    "game": "BOS @ ORL 3:30 PM ET",
+    "espn_event": "401909903",
+    "tip_iso": "2026-11-01T15:30-05:00",
+    "odds": "+425",
+    "book": "Hard Rock",
+    "market": "First Player To Score",
+    "grade": "B+",
+    "score": 72.9,
+    "status": "Pending",
+    "result": null,
+    "why": "Volume: L10 36.6 min, 19.0 FGA/g, 25.3 PPG, started 10/10 | First scorer 3/10 L10 (team scored first 6/10)\nMatchup: ORL allows 111.0 PPG L10 (rank 6/8 on tonight's slate, 1 = allows most)\nContext: BOS -7.5 / O/U 222.5 (TT 114.5) | Away · tip 3:30 PM ET\nInjuries: none | Team out: Mitchell Robinson, Devin Carter | Opp out: Jonathan Isaac, Jalen Suggs, Paolo Banchero\nWeather: Indoor (neutral)\nRisk: long price +425: one possession decides it\nFormula: [B+] Score 72.9/100 (rank 3 of 38). L10 first-scorer 3/10 (30%); role 36.6 min, usage 24.8/g; opp allows 111.0 PPG; team total 114.5 (Hard Rock team total); L5 27.6 PPG. Bonus +5 (primary ball-handler).",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+   },
+   {
+    "pick": "Brandin Podziemski first point scorer",
+    "player": "Brandin Podziemski",
+    "athlete_id": "4709138",
+    "team": "GS",
+    "opp": "LAC",
+    "game": "LAC @ GS 8:30 PM ET",
+    "espn_event": "401909905",
+    "tip_iso": "2026-11-01T20:30-05:00",
+    "odds": "+525",
+    "book": "Hard Rock",
+    "market": "First Player To Score",
+    "grade": "B-",
+    "score": 61.6,
+    "status": "Pending",
+    "result": null,
+    "why": "Volume: L10 31.0 min, 12.8 FGA/g, 18.5 PPG, started 10/10 | First scorer 3/10 L10 (team scored first 4/10)\nMatchup: LAC allows 112.5 PPG L10 (rank 5/8 on tonight's slate, 1 = allows most)\nContext: GS -2.5 / O/U 220.5 (TT 111.5) | Home · tip 8:30 PM ET\nInjuries: none | Team out: Gui Santos, Draymond Green, Stephen Curry | Opp out: Yanic Konan Niederhauser, Max Strus, Brandon Ingram\nWeather: Indoor (neutral)\nRisk: long price +525: one possession decides it\nFormula: [B-] Score 61.6/100 (rank 9 of 38). L10 first-scorer 3/10 (30%); role 31.0 min, usage 16.2/g; opp allows 112.5 PPG; team total 111.5 (Hard Rock team total); L5 15.0 PPG. Bonus +5 (primary ball-handler).",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+   }
+  ],
+  "mode": "lock",
+  "built_at": "Sun Nov 1, 10:04 AM ET",
+  "hr_file": "/workspace/hr-lines/hr-markets-20261101-1004.json",
+  "games": 4,
+  "isolated": true
  },
  "sport_status": {
   "MLB": {
@@ -40668,6 +40765,94 @@
     "grade": "B-"
    },
    {
+    "date": "2026-11-01",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "First Blood",
+    "prop": "First Blood",
+    "fam": "Other",
+    "pick": "First Blood 4-leg",
+    "odds": "~+137712",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": ""
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "First Blood",
+    "leg": true,
+    "prop": "First Point Scorer",
+    "pick": "Pascal Siakam first point scorer",
+    "odds": "+500",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "gm": "BKN @ IND 5:00 PM ET",
+    "grade": "A-"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "First Blood",
+    "leg": true,
+    "prop": "First Point Scorer",
+    "pick": "Scottie Barnes first point scorer",
+    "odds": "+600",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "gm": "TOR @ LAL 9:00 PM ET",
+    "grade": "A-"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "First Blood",
+    "leg": true,
+    "prop": "First Point Scorer",
+    "pick": "Jayson Tatum first point scorer",
+    "odds": "+425",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "gm": "BOS @ ORL 3:30 PM ET",
+    "grade": "B+"
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "First Blood",
+    "leg": true,
+    "prop": "First Point Scorer",
+    "pick": "Brandin Podziemski first point scorer",
+    "odds": "+525",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "fam": "Other",
+    "img": null,
+    "sub": "",
+    "gm": "LAC @ GS 8:30 PM ET",
+    "grade": "B-"
+   },
+   {
     "date": "2026-10-14",
     "sport": "MLB",
     "grp": "C",
@@ -49971,14 +50156,14 @@
      "w": 129,
      "l": 125,
      "p": 6,
-     "pending": 24,
+     "pending": 25,
      "units": -21.1
     },
     "legs": {
      "w": 15,
      "l": 27,
      "p": 0,
-     "pending": 7,
+     "pending": 11,
      "units": -12
     }
    },
@@ -50020,14 +50205,14 @@
      "w": 0,
      "l": 2,
      "p": 0,
-     "pending": 0,
+     "pending": 1,
      "units": -2.0
     },
     "legs": {
      "w": 0,
      "l": 11,
      "p": 0,
-     "pending": 0,
+     "pending": 4,
      "units": -11
     }
    }
@@ -50186,7 +50371,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-01 10:03",
+    "priced": "2026-11-01 10:05",
     "dk": {
      "odds": null,
      "pick": "Villanova/ND u147.5",
@@ -50319,7 +50504,7 @@
  },
  "gameday": {
   "date": "2026-11-01",
-  "built": "2026-11-01 10:03 ET",
+  "built": "2026-11-01 10:05 ET",
   "picks": 60,
   "vetoes": [],
   "gaps": [
@@ -50366,7 +50551,7 @@
    "w": 0,
    "l": 11,
    "void": 0,
-   "pending": 0,
+   "pending": 4,
    "hit_pct": 0.0
   },
   "by_source": {
@@ -50374,7 +50559,7 @@
     "w": 0,
     "l": 11,
     "void": 0,
-    "pending": 0,
+    "pending": 4,
     "hit_pct": 0.0
    }
   },
@@ -50385,6 +50570,13 @@
     "void": 0,
     "pending": 0,
     "hit_pct": 0.0
+   },
+   "Brandin Podziemski": {
+    "w": 0,
+    "l": 0,
+    "void": 0,
+    "pending": 1,
+    "hit_pct": null
    },
    "Deni Avdija": {
     "w": 0,
@@ -50414,6 +50606,13 @@
     "pending": 0,
     "hit_pct": 0.0
    },
+   "Jayson Tatum": {
+    "w": 0,
+    "l": 0,
+    "void": 0,
+    "pending": 1,
+    "hit_pct": null
+   },
    "John Collins": {
     "w": 0,
     "l": 1,
@@ -50439,7 +50638,7 @@
     "w": 0,
     "l": 1,
     "void": 0,
-    "pending": 0,
+    "pending": 1,
     "hit_pct": 0.0
    },
    "Paul George": {
@@ -50448,6 +50647,13 @@
     "void": 0,
     "pending": 0,
     "hit_pct": 0.0
+   },
+   "Scottie Barnes": {
+    "w": 0,
+    "l": 0,
+    "void": 0,
+    "pending": 1,
+    "hit_pct": null
    },
    "Zach Edey": {
     "w": 0,
@@ -50644,6 +50850,74 @@
     "note": "played, first point: Nickeil Alexander-Walker",
     "ticket": "2026-10-31 4-leg First Blood",
     "ticket_result": "L"
+   },
+   {
+    "date": "2026-11-01",
+    "player": "Pascal Siakam",
+    "team": "IND",
+    "game": "BKN @ IND 5:00 PM ET",
+    "odds": "+500",
+    "book": "Hard Rock",
+    "grade": "A-",
+    "source": "First Blood model (build_fps.py)",
+    "capper": "",
+    "hit": "Pending",
+    "settled": "Pending",
+    "first_scorer": "",
+    "note": "",
+    "ticket": "2026-11-01 4-leg First Blood",
+    "ticket_result": "Pending"
+   },
+   {
+    "date": "2026-11-01",
+    "player": "Scottie Barnes",
+    "team": "TOR",
+    "game": "TOR @ LAL 9:00 PM ET",
+    "odds": "+600",
+    "book": "Hard Rock",
+    "grade": "A-",
+    "source": "First Blood model (build_fps.py)",
+    "capper": "",
+    "hit": "Pending",
+    "settled": "Pending",
+    "first_scorer": "",
+    "note": "",
+    "ticket": "2026-11-01 4-leg First Blood",
+    "ticket_result": "Pending"
+   },
+   {
+    "date": "2026-11-01",
+    "player": "Jayson Tatum",
+    "team": "BOS",
+    "game": "BOS @ ORL 3:30 PM ET",
+    "odds": "+425",
+    "book": "Hard Rock",
+    "grade": "B+",
+    "source": "First Blood model (build_fps.py)",
+    "capper": "",
+    "hit": "Pending",
+    "settled": "Pending",
+    "first_scorer": "",
+    "note": "",
+    "ticket": "2026-11-01 4-leg First Blood",
+    "ticket_result": "Pending"
+   },
+   {
+    "date": "2026-11-01",
+    "player": "Brandin Podziemski",
+    "team": "GS",
+    "game": "LAC @ GS 8:30 PM ET",
+    "odds": "+525",
+    "book": "Hard Rock",
+    "grade": "B-",
+    "source": "First Blood model (build_fps.py)",
+    "capper": "",
+    "hit": "Pending",
+    "settled": "Pending",
+    "first_scorer": "",
+    "note": "",
+    "ticket": "2026-11-01 4-leg First Blood",
+    "ticket_result": "Pending"
    }
   ]
  },
@@ -50651,6 +50925,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-01 10:03 AM ET"
+  "checked_et": "2026-11-01 10:05 AM ET"
  }
 }
