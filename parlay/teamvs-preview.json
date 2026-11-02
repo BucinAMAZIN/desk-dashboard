@@ -1,0 +1,1429 @@
+{
+ "date": "2026-11-02",
+ "built": "2026-11-02 07:26 AM ET",
+ "preview": true,
+ "sports": {
+  "NFL": {
+   "games": [
+    {
+     "name": "CHI @ SEA",
+     "start": "2026-11-03T01:15Z",
+     "status": "11/2 - 8:15 PM EST",
+     "teams": [
+      {
+       "ab": "CHI",
+       "name": "Chicago Bears",
+       "ha": "away",
+       "rec": "5-2",
+       "v": {
+        "pts_o": {
+         "val": 25.7143,
+         "rank": 8,
+         "n": 32
+        },
+        "yds_o": {
+         "val": 390.714,
+         "rank": 3,
+         "n": 32
+        },
+        "pts_d": {
+         "val": 20.4286,
+         "rank": 9,
+         "n": 32
+        },
+        "yds_d": {
+         "val": 313.429,
+         "rank": 9,
+         "n": 32
+        }
+       }
+      },
+      {
+       "ab": "SEA",
+       "name": "Seattle Seahawks",
+       "ha": "home",
+       "rec": "4-3",
+       "v": {
+        "pts_o": {
+         "val": 24.0,
+         "rank": 11,
+         "n": 32
+        },
+        "yds_o": {
+         "val": 343.286,
+         "rank": 12,
+         "n": 32
+        },
+        "pts_d": {
+         "val": 17.8571,
+         "rank": 3,
+         "n": 32
+        },
+        "yds_d": {
+         "val": 233.857,
+         "rank": 1,
+         "n": 32
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "stats": [
+    {
+     "key": "pts_o",
+     "label": "Points/gm",
+     "side": "off",
+     "src": "TeamRankings",
+     "url": "https://www.teamrankings.com/nfl/stat/points-per-game",
+     "as_of": "2026-11-02 07:26 AM ET",
+     "n": 32,
+     "engine": false
+    },
+    {
+     "key": "yds_o",
+     "label": "Yards/gm",
+     "side": "off",
+     "src": "TeamRankings",
+     "url": "https://www.teamrankings.com/nfl/stat/yards-per-game",
+     "as_of": "2026-11-02 07:26 AM ET",
+     "n": 32,
+     "engine": false
+    },
+    {
+     "key": "pts_d",
+     "label": "Points allowed/gm",
+     "side": "def",
+     "src": "TeamRankings",
+     "url": "https://www.teamrankings.com/nfl/stat/opponent-points-per-game",
+     "as_of": "2026-11-02 07:26 AM ET",
+     "n": 32,
+     "engine": false
+    },
+    {
+     "key": "yds_d",
+     "label": "Yards allowed/gm",
+     "side": "def",
+     "src": "TeamRankings",
+     "url": "https://www.teamrankings.com/nfl/stat/opponent-yards-per-game",
+     "as_of": "2026-11-02 05:56 AM ET",
+     "n": 32,
+     "engine": true
+    }
+   ],
+   "gaps": [],
+   "games_src": "ESPN scoreboard 2026-11-02, fetched 2026-11-02 07:26 AM ET"
+  },
+  "NCAA F": {
+   "games": [],
+   "stats": [],
+   "gaps": [],
+   "games_src": "ESPN scoreboard 2026-11-02, fetched 2026-11-02 07:26 AM ET",
+   "none": "No NCAA F games today (ESPN scoreboard 2026-11-02)."
+  },
+  "NBA": {
+   "games": [
+    {
+     "name": "OKC @ CLE",
+     "start": "2026-11-03T00:00Z",
+     "status": "11/2 - 7:00 PM EST",
+     "teams": [
+      {
+       "ab": "OKC",
+       "name": "Oklahoma City Thunder",
+       "ha": "away",
+       "rec": "4-2",
+       "v": {
+        "ortg": {
+         "val": 1.0463,
+         "rank": 24,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0512,
+         "rank": 9,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 106.5,
+         "rank": 28,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 107.0,
+         "rank": 5,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "CLE",
+       "name": "Cleveland Cavaliers",
+       "ha": "home",
+       "rec": "4-2",
+       "v": {
+        "ortg": {
+         "val": 1.1315,
+         "rank": 7,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0848,
+         "rank": 16,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 121.0,
+         "rank": 2,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 116.0,
+         "rank": 20,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "DET @ CHA",
+     "start": "2026-11-03T00:30Z",
+     "status": "11/2 - 7:30 PM EST",
+     "teams": [
+      {
+       "ab": "DET",
+       "name": "Detroit Pistons",
+       "ha": "away",
+       "rec": "5-1",
+       "v": {
+        "ortg": {
+         "val": 1.0797,
+         "rank": 18,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0011,
+         "rank": 1,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 109.833,
+         "rank": 21,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 101.833,
+         "rank": 1,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "CHA",
+       "name": "Charlotte Hornets",
+       "ha": "home",
+       "rec": "3-4",
+       "v": {
+        "ortg": {
+         "val": 0.9917,
+         "rank": 30,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0739,
+         "rank": 13,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 98.2857,
+         "rank": 30,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 106.429,
+         "rank": 4,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "ATL @ IND",
+     "start": "2026-11-03T00:30Z",
+     "status": "11/2 - 7:30 PM EST",
+     "teams": [
+      {
+       "ab": "ATL",
+       "name": "Atlanta Hawks",
+       "ha": "away",
+       "rec": "3-4",
+       "v": {
+        "ortg": {
+         "val": 1.0931,
+         "rank": 16,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0851,
+         "rank": 17,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 116.286,
+         "rank": 13,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 115.429,
+         "rank": 19,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "IND",
+       "name": "Indiana Pacers",
+       "ha": "home",
+       "rec": "2-5",
+       "v": {
+        "ortg": {
+         "val": 1.0845,
+         "rank": 17,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1216,
+         "rank": 22,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 112.857,
+         "rank": 18,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 116.714,
+         "rank": 23,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "BKN @ NY",
+     "start": "2026-11-03T00:30Z",
+     "status": "11/2 - 7:30 PM EST",
+     "teams": [
+      {
+       "ab": "BKN",
+       "name": "Brooklyn Nets",
+       "ha": "away",
+       "rec": "1-5",
+       "v": {
+        "ortg": {
+         "val": 1.0204,
+         "rank": 29,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0943,
+         "rank": 18,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 108.167,
+         "rank": 25,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 116.0,
+         "rank": 21,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "NY",
+       "name": "New York Knicks",
+       "ha": "home",
+       "rec": "2-4",
+       "v": {
+        "ortg": {
+         "val": 1.0513,
+         "rank": 22,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0579,
+         "rank": 11,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 107.0,
+         "rank": 27,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 107.667,
+         "rank": 6,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "WSH @ ORL",
+     "start": "2026-11-03T00:30Z",
+     "status": "11/2 - 7:30 PM EST",
+     "teams": [
+      {
+       "ab": "WSH",
+       "name": "Washington Wizards",
+       "ha": "away",
+       "rec": "3-3",
+       "v": {
+        "ortg": {
+         "val": 1.0706,
+         "rank": 19,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0625,
+         "rank": 12,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 110.5,
+         "rank": 20,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 109.667,
+         "rank": 11,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "ORL",
+       "name": "Orlando Magic",
+       "ha": "home",
+       "rec": "2-4",
+       "v": {
+        "ortg": {
+         "val": 1.047,
+         "rank": 23,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1345,
+         "rank": 26,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 107.667,
+         "rank": 26,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 116.667,
+         "rank": 22,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "CHI @ PHI",
+     "start": "2026-11-03T00:30Z",
+     "status": "11/2 - 7:30 PM EST",
+     "teams": [
+      {
+       "ab": "CHI",
+       "name": "Chicago Bulls",
+       "ha": "away",
+       "rec": "1-5",
+       "v": {
+        "ortg": {
+         "val": 1.0229,
+         "rank": 27,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1655,
+         "rank": 27,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 113.5,
+         "rank": 16,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 129.333,
+         "rank": 30,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "PHI",
+       "name": "Philadelphia 76ers",
+       "ha": "home",
+       "rec": "6-1",
+       "v": {
+        "ortg": {
+         "val": 1.0531,
+         "rank": 21,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0157,
+         "rank": 3,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 108.714,
+         "rank": 23,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 104.857,
+         "rank": 2,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "SAC @ DAL",
+     "start": "2026-11-03T01:00Z",
+     "status": "11/2 - 8:00 PM EST",
+     "teams": [
+      {
+       "ab": "SAC",
+       "name": "Sacramento Kings",
+       "ha": "away",
+       "rec": "0-6",
+       "v": {
+        "ortg": {
+         "val": 1.0224,
+         "rank": 28,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.2,
+         "rank": 29,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 109.333,
+         "rank": 22,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 128.333,
+         "rank": 29,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "DAL",
+       "name": "Dallas Mavericks",
+       "ha": "home",
+       "rec": "4-2",
+       "v": {
+        "ortg": {
+         "val": 1.1038,
+         "rank": 13,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0797,
+         "rank": 14,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 114.333,
+         "rank": 14,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 111.833,
+         "rank": 14,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "NO @ MEM",
+     "start": "2026-11-03T01:00Z",
+     "status": "11/2 - 8:00 PM EST",
+     "teams": [
+      {
+       "ab": "NO",
+       "name": "New Orleans Pelicans",
+       "ha": "away",
+       "rec": "2-4",
+       "v": {
+        "ortg": {
+         "val": 1.0976,
+         "rank": 14,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0808,
+         "rank": 15,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 119.667,
+         "rank": 7,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 117.833,
+         "rank": 24,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "MEM",
+       "name": "Memphis Grizzlies",
+       "ha": "home",
+       "rec": "6-0",
+       "v": {
+        "ortg": {
+         "val": 1.1609,
+         "rank": 2,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0156,
+         "rank": 2,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 121.167,
+         "rank": 1,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 106.0,
+         "rank": 3,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "MIL @ MIN",
+     "start": "2026-11-03T01:00Z",
+     "status": "11/2 - 8:00 PM EST",
+     "teams": [
+      {
+       "ab": "MIL",
+       "name": "Milwaukee Bucks",
+       "ha": "away",
+       "rec": "1-5",
+       "v": {
+        "ortg": {
+         "val": 1.0553,
+         "rank": 20,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1782,
+         "rank": 28,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 113.0,
+         "rank": 17,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 126.167,
+         "rank": 28,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "MIN",
+       "name": "Minnesota Timberwolves",
+       "ha": "home",
+       "rec": "4-3",
+       "v": {
+        "ortg": {
+         "val": 1.1288,
+         "rank": 8,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0227,
+         "rank": 4,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 120.0,
+         "rank": 6,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 108.714,
+         "rank": 8,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "BOS @ HOU",
+     "start": "2026-11-03T01:30Z",
+     "status": "11/2 - 8:30 PM EST",
+     "teams": [
+      {
+       "ab": "BOS",
+       "name": "Boston Celtics",
+       "ha": "away",
+       "rec": "5-1",
+       "v": {
+        "ortg": {
+         "val": 1.1409,
+         "rank": 6,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0496,
+         "rank": 8,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 118.667,
+         "rank": 8,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 109.167,
+         "rank": 9,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "HOU",
+       "name": "Houston Rockets",
+       "ha": "home",
+       "rec": "6-1",
+       "v": {
+        "ortg": {
+         "val": 1.1782,
+         "rank": 1,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0569,
+         "rank": 10,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 120.714,
+         "rank": 3,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 108.286,
+         "rank": 7,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "UTAH @ SA",
+     "start": "2026-11-03T01:30Z",
+     "status": "11/2 - 8:30 PM EST",
+     "teams": [
+      {
+       "ab": "UTAH",
+       "name": "Utah Jazz",
+       "ha": "away",
+       "rec": "1-5",
+       "v": {
+        "ortg": {
+         "val": 1.0353,
+         "rank": 26,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1322,
+         "rank": 24,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 108.667,
+         "rank": 24,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 118.833,
+         "rank": 25,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "SA",
+       "name": "San Antonio Spurs",
+       "ha": "home",
+       "rec": "4-2",
+       "v": {
+        "ortg": {
+         "val": 1.1178,
+         "rank": 9,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0495,
+         "rank": 7,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 117.333,
+         "rank": 12,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 110.167,
+         "rank": 12,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "POR @ DEN",
+     "start": "2026-11-03T02:00Z",
+     "status": "11/2 - 9:00 PM EST",
+     "teams": [
+      {
+       "ab": "POR",
+       "name": "Portland Trail Blazers",
+       "ha": "away",
+       "rec": "4-1",
+       "v": {
+        "ortg": {
+         "val": 1.1545,
+         "rank": 4,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0454,
+         "rank": 6,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 120.6,
+         "rank": 4,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 109.2,
+         "rank": 10,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "DEN",
+       "name": "Denver Nuggets",
+       "ha": "home",
+       "rec": "3-2",
+       "v": {
+        "ortg": {
+         "val": 1.1082,
+         "rank": 11,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1198,
+         "rank": 21,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 114.0,
+         "rank": 15,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 115.2,
+         "rank": 18,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "PHX @ GS",
+     "start": "2026-11-03T03:00Z",
+     "status": "11/2 - 10:00 PM EST",
+     "teams": [
+      {
+       "ab": "PHX",
+       "name": "Phoenix Suns",
+       "ha": "away",
+       "rec": "1-3",
+       "v": {
+        "ortg": {
+         "val": 1.0964,
+         "rank": 15,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.2187,
+         "rank": 30,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 112.0,
+         "rank": 19,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 124.5,
+         "rank": 27,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "GS",
+       "name": "Golden State Warriors",
+       "ha": "home",
+       "rec": "4-3",
+       "v": {
+        "ortg": {
+         "val": 1.1501,
+         "rank": 5,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1221,
+         "rank": 23,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 117.714,
+         "rank": 11,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 114.857,
+         "rank": 16,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "TOR @ LAC",
+     "start": "2026-11-03T03:00Z",
+     "status": "11/2 - 10:00 PM EST",
+     "teams": [
+      {
+       "ab": "TOR",
+       "name": "Toronto Raptors",
+       "ha": "away",
+       "rec": "3-3",
+       "v": {
+        "ortg": {
+         "val": 1.1095,
+         "rank": 10,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.0359,
+         "rank": 5,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 118.167,
+         "rank": 10,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 110.333,
+         "rank": 13,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "LAC",
+       "name": "LA Clippers",
+       "ha": "home",
+       "rec": "1-5",
+       "v": {
+        "ortg": {
+         "val": 1.04,
+         "rank": 25,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1116,
+         "rank": 20,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 106.5,
+         "rank": 29,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 113.833,
+         "rank": 15,
+         "n": 30
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "MIA @ LAL",
+     "start": "2026-11-03T03:00Z",
+     "status": "11/2 - 10:00 PM EST",
+     "teams": [
+      {
+       "ab": "MIA",
+       "name": "Miami Heat",
+       "ha": "away",
+       "rec": "2-4",
+       "v": {
+        "ortg": {
+         "val": 1.1046,
+         "rank": 12,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1342,
+         "rank": 25,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 118.333,
+         "rank": 9,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 121.5,
+         "rank": 26,
+         "n": 30
+        }
+       }
+      },
+      {
+       "ab": "LAL",
+       "name": "Los Angeles Lakers",
+       "ha": "home",
+       "rec": "5-2",
+       "v": {
+        "ortg": {
+         "val": 1.1574,
+         "rank": 3,
+         "n": 30
+        },
+        "drtg": {
+         "val": 1.1065,
+         "rank": 19,
+         "n": 30
+        },
+        "pts_o": {
+         "val": 120.286,
+         "rank": 5,
+         "n": 30
+        },
+        "pts_d": {
+         "val": 115.0,
+         "rank": 17,
+         "n": 30
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "stats": [
+    {
+     "key": "ortg",
+     "label": "Off. rating (pts/100 poss)",
+     "side": "off",
+     "src": "TeamRankings",
+     "url": "https://www.teamrankings.com/nba/stat/offensive-efficiency",
+     "as_of": "2026-11-02 07:26 AM ET",
+     "n": 30,
+     "engine": false
+    },
+    {
+     "key": "drtg",
+     "label": "Def. rating (pts allowed/100 poss)",
+     "side": "def",
+     "src": "TeamRankings",
+     "url": "https://www.teamrankings.com/nba/stat/defensive-efficiency",
+     "as_of": "2026-11-02 07:26 AM ET",
+     "n": 30,
+     "engine": false
+    },
+    {
+     "key": "pts_o",
+     "label": "Points/gm",
+     "side": "off",
+     "src": "TeamRankings",
+     "url": "https://www.teamrankings.com/nba/stat/points-per-game",
+     "as_of": "2026-11-02 07:26 AM ET",
+     "n": 30,
+     "engine": false
+    },
+    {
+     "key": "pts_d",
+     "label": "Points allowed/gm",
+     "side": "def",
+     "src": "TeamRankings",
+     "url": "https://www.teamrankings.com/nba/stat/opponent-points-per-game",
+     "as_of": "2026-11-02 05:56 AM ET",
+     "n": 30,
+     "engine": true
+    }
+   ],
+   "gaps": [],
+   "games_src": "ESPN scoreboard 2026-11-02, fetched 2026-11-02 07:26 AM ET"
+  },
+  "NHL": {
+   "games": [
+    {
+     "name": "VGK @ BOS",
+     "start": "2026-11-03T00:00Z",
+     "status": "11/2 - 7:00 PM EST",
+     "teams": [
+      {
+       "ab": "VGK",
+       "name": "Vegas Golden Knights",
+       "ha": "away",
+       "rec": "9-5-1",
+       "v": {
+        "gf": {
+         "val": 3.46666,
+         "rank": 10,
+         "n": 32
+        },
+        "ga": {
+         "val": 2.93333,
+         "rank": 10,
+         "n": 32
+        },
+        "sf": {
+         "val": 29.13333,
+         "rank": 8,
+         "n": 32
+        },
+        "sa": {
+         "val": 25.6,
+         "rank": 9,
+         "n": 32
+        }
+       }
+      },
+      {
+       "ab": "BOS",
+       "name": "Boston Bruins",
+       "ha": "home",
+       "rec": "10-4-1",
+       "v": {
+        "gf": {
+         "val": 3.66666,
+         "rank": 6,
+         "n": 32
+        },
+        "ga": {
+         "val": 2.4,
+         "rank": 4,
+         "n": 32
+        },
+        "sf": {
+         "val": 26.26666,
+         "rank": 21,
+         "n": 32
+        },
+        "sa": {
+         "val": 28.26666,
+         "rank": 22,
+         "n": 32
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "DET @ FLA",
+     "start": "2026-11-03T00:00Z",
+     "status": "11/2 - 7:00 PM EST",
+     "teams": [
+      {
+       "ab": "DET",
+       "name": "Detroit Red Wings",
+       "ha": "away",
+       "rec": "6-5-3",
+       "v": {
+        "gf": {
+         "val": 2.78571,
+         "rank": 23,
+         "n": 32
+        },
+        "ga": {
+         "val": 2.92857,
+         "rank": 9,
+         "n": 32
+        },
+        "sf": {
+         "val": 29.71428,
+         "rank": 7,
+         "n": 32
+        },
+        "sa": {
+         "val": 24.42857,
+         "rank": 4,
+         "n": 32
+        }
+       }
+      },
+      {
+       "ab": "FLA",
+       "name": "Florida Panthers",
+       "ha": "home",
+       "rec": "8-4-2",
+       "v": {
+        "gf": {
+         "val": 3.14285,
+         "rank": 17,
+         "n": 32
+        },
+        "ga": {
+         "val": 2.78571,
+         "rank": 6,
+         "n": 32
+        },
+        "sf": {
+         "val": 28.92857,
+         "rank": 9,
+         "n": 32
+        },
+        "sa": {
+         "val": 24.14285,
+         "rank": 3,
+         "n": 32
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "COL @ CHI",
+     "start": "2026-11-03T01:00Z",
+     "status": "11/2 - 8:00 PM EST",
+     "teams": [
+      {
+       "ab": "COL",
+       "name": "Colorado Avalanche",
+       "ha": "away",
+       "rec": "8-5-1",
+       "v": {
+        "gf": {
+         "val": 4.21428,
+         "rank": 1,
+         "n": 32
+        },
+        "ga": {
+         "val": 3.07142,
+         "rank": 14,
+         "n": 32
+        },
+        "sf": {
+         "val": 30.64285,
+         "rank": 4,
+         "n": 32
+        },
+        "sa": {
+         "val": 27.92857,
+         "rank": 18,
+         "n": 32
+        }
+       }
+      },
+      {
+       "ab": "CHI",
+       "name": "Chicago Blackhawks",
+       "ha": "home",
+       "rec": "4-9-1",
+       "v": {
+        "gf": {
+         "val": 2.21428,
+         "rank": 31,
+         "n": 32
+        },
+        "ga": {
+         "val": 3.78571,
+         "rank": 31,
+         "n": 32
+        },
+        "sf": {
+         "val": 23.0,
+         "rank": 31,
+         "n": 32
+        },
+        "sa": {
+         "val": 30.42857,
+         "rank": 29,
+         "n": 32
+        }
+       }
+      }
+     ]
+    },
+    {
+     "name": "CGY @ SJ",
+     "start": "2026-11-03T02:00Z",
+     "status": "11/2 - 9:00 PM EST",
+     "teams": [
+      {
+       "ab": "CGY",
+       "name": "Calgary Flames",
+       "ha": "away",
+       "rec": "6-8-0",
+       "v": {
+        "gf": {
+         "val": 2.57142,
+         "rank": 28,
+         "n": 32
+        },
+        "ga": {
+         "val": 3.71428,
+         "rank": 28,
+         "n": 32
+        },
+        "sf": {
+         "val": 28.5,
+         "rank": 10,
+         "n": 32
+        },
+        "sa": {
+         "val": 30.07142,
+         "rank": 28,
+         "n": 32
+        }
+       }
+      },
+      {
+       "ab": "SJ",
+       "name": "San Jose Sharks",
+       "ha": "home",
+       "rec": "7-7-1",
+       "v": {
+        "gf": {
+         "val": 2.66666,
+         "rank": 26,
+         "n": 32
+        },
+        "ga": {
+         "val": 3.4,
+         "rank": 22,
+         "n": 32
+        },
+        "sf": {
+         "val": 27.13333,
+         "rank": 17,
+         "n": 32
+        },
+        "sa": {
+         "val": 31.0,
+         "rank": 31,
+         "n": 32
+        }
+       }
+      }
+     ]
+    }
+   ],
+   "stats": [
+    {
+     "key": "gf",
+     "label": "Goals for/gm",
+     "side": "off",
+     "src": "api.nhle.com",
+     "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+     "as_of": "2026-11-02 07:26 AM ET",
+     "n": 32,
+     "engine": false
+    },
+    {
+     "key": "ga",
+     "label": "Goals against/gm",
+     "side": "def",
+     "src": "api.nhle.com",
+     "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+     "as_of": "2026-11-02 05:56 AM ET",
+     "n": 32,
+     "engine": true
+    },
+    {
+     "key": "sf",
+     "label": "Shots for/gm",
+     "side": "off",
+     "src": "api.nhle.com",
+     "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+     "as_of": "2026-11-02 07:26 AM ET",
+     "n": 32,
+     "engine": false
+    },
+    {
+     "key": "sa",
+     "label": "Shots against/gm",
+     "side": "def",
+     "src": "api.nhle.com",
+     "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+     "as_of": "2026-11-02 05:56 AM ET",
+     "n": 32,
+     "engine": true
+    }
+   ],
+   "gaps": [],
+   "games_src": "ESPN scoreboard 2026-11-02, fetched 2026-11-02 07:26 AM ET"
+  },
+  "MLB": {
+   "games": [],
+   "stats": [],
+   "gaps": [],
+   "games_src": "ESPN scoreboard 2026-11-02, fetched 2026-11-02 07:26 AM ET",
+   "none": "No MLB games today (ESPN scoreboard 2026-11-02)."
+  },
+  "NASCAR": {
+   "skip": "Team VS is not shown for NASCAR: it is driver vs field, with no team-vs-team matchups or offensive/defensive ranks."
+  }
+ },
+ "note": "Defense rank 1 = fewest allowed; offense rank 1 = most produced. Pick engine matchup rank for an over = N+1 - defense rank."
+}
