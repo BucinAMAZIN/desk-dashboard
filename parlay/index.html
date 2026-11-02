@@ -853,7 +853,7 @@ function today(){const t=D.today;const RS={};((D.runners_up_record||{}).recent||
  if(!ALL&&!_hx)h+=P100E('',null,'Big 4');h+=HEIST();h+=edgeBox('BIG4');h+=s100('');h+=LDHOST();
 
  if(ALL){const n=t.ncaaf||[],NR=(D.ncaaf_record||{}).overall||{};
- h+=`<h2 style="margin-top:22px;border-top:1px solid #30363d;padding-top:14px">🏈 College Football <span class="m" style="font-weight:400">· separate record ${E(NR.w)}-${E(NR.l)}${NR.p?'-'+NR.p:''}</span></h2>`;
+ h+=`<h2 style="margin-top:22px;border-top:1px solid #30363d;padding-top:14px">🏈 College Football <span class="m" style="font-weight:400">· separate record ${E(NR.w)}-${E(NR.l)}${NR.p?'-'+NR.p:''}${((D.ncaaf_record||{}).cappers||{}).overall?` · Cappers ${E(D.ncaaf_record.cappers.overall.w)}-${E(D.ncaaf_record.cappers.overall.l)} (not counted)`:''}</span></h2>`;
  h+=n.length?n.map((x,i)=>`<details class="card" style="border-color:#6e40c9"><summary><div class="row"><div>${pkL(x,i)}<div class=m>${E(x.game)}</div></div><div style="text-align:right;white-space:nowrap"><b>${E(x.odds)}</b> ${chip(x.status)}<div class=m>Why ▾</div></div></div></summary>${x.stat&&x.stat!='—'?`<div class="m" style="margin-top:6px">Result: ${E(x.stat)}</div>`:''}${why(x.why,x.why_not)}</details>`).join(''):'<div class="card m">No College Football plays posted today.</div>';}
  return h}
 /* RESULTS (ALL OFFICIAL, RULEBOOK §0, Oct 24 2026): three groups Official / Edge / Cappers. Official = POTD, Parlay +100, The Heist. Cappers = results_v2 rows cat Cappers (tracking only). Retired tiers and placed tickets are archived and never shown. */
