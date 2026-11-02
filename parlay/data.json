@@ -1,10 +1,1309 @@
 {
- "generated": 1793621545.2730422,
+ "generated": 1793621657.4567904,
  "today": {
   "title": "Nov 2 picks (Hard Rock)",
-  "tickets": [],
+  "tickets": [
+   {
+    "name": "POTD",
+    "desc": "Domantas Sabonis Over 13.5 Rebounds -105",
+    "odds": "-105",
+    "stake": "—",
+    "payout": "—",
+    "status": "Pending",
+    "game": "",
+    "legs": [],
+    "why": "Volume: n/a, game line | Hit: 7/10 at line, 5/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+    "pick": "Domantas Sabonis Over 13.5 Rebounds",
+    "why_not": null,
+    "why_src": "Grade B. Volume: L5 min 38/40/37/35/39 (L3 38 vs L10 28.8 min) | Hit: 7/10 at O13.5, 5/5 | Matchup: Opp 12/30 vs Rebounds (TR) | Context: SAC +9.5 / O/U 234.5 | opp pace 99.9 (15th) | Away | Injuries: Dylan Cardwell, Maxime Raynaud out | Opp out: Tarik Biberovic, Dereck Lively II | Weather: neutral | Risk: Normal variance at this line.",
+    "ctx": {
+     "game": null,
+     "team": null,
+     "opp": null,
+     "stat": null,
+     "out": null
+    },
+    "gameday": [
+     "Volume: n/a, game line | Hit: 7/10 at line, 5/5",
+     "Matchup: n/a",
+     "Context: game lines n/a",
+     "Injuries: n/a",
+     "Weather: n/a",
+     "Risk: Normal variance at this line"
+    ]
+   },
+   {
+    "name": "+100 ticket",
+    "desc": "2-leg +128 (1u)",
+    "odds": "+128",
+    "stake": "—",
+    "payout": "—",
+    "status": "Pending",
+    "game": "",
+    "legs": [
+     {
+      "pick": "Will Smith Over 2.5 Shots On Goal",
+      "odds": "-165",
+      "game": "Sharks vs. Flames 09:00 PM ET",
+      "status": "Pending",
+      "why": "Volume: TOI 19.2 season avg | Hit: 8/10 at line, 4/5 · vs CGY 4/5. Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home. Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) (4/5 without Alexander Wennberg) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
+      "why_not": null,
+      "why_src": "Grade A-. Volume: L10 TOI 19.5 avg (L3 18.1 vs L10 19.5 TOI) | Hit: 8/10 at O2.5, 4/5 | Matchup: Opp 5/32 vs Shots On Goal (NHL API) | Context: SJ -1.5 / O/U 6.5 | - | Home · Div | Injuries: Igor Chernyshov, Alexander Wennberg out | Opp out: Connor Zary, Devin Cooley | Weather: neutral | Risk: Normal variance at this line.",
+      "ctx": {
+       "game": "Sharks vs. Flames",
+       "team": "SJS",
+       "opp": "CGY",
+       "stat": "sog",
+       "opp_rank": {
+        "rank": 28,
+        "of": 32,
+        "pg": 30.1,
+        "gp": 14,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "SJS",
+       "spread": -1.5,
+       "total": 6.5,
+       "team_totals": {
+        "CGY": 2.5,
+        "SJS": 3.5
+       },
+       "home": "SJS",
+       "away": "CGY",
+       "rest": {
+        "SJS": 1,
+        "CGY": 1
+       },
+       "record": {
+        "SJS": "7-7-1",
+        "CGY": "6-8-0"
+       },
+       "start_et": "Mon 11/02 09:00 PM ET",
+       "out": {
+        "SJS": [
+         {
+          "name": "Alexander Wennberg",
+          "status": "Injured Reserve",
+          "pos": "C",
+          "date": "2026-10-28",
+          "role": "20.0 TOI"
+         },
+         {
+          "name": "Kyle Keyser",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-09-28"
+         }
+        ],
+        "CGY": [
+         {
+          "name": "Devin Cooley",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-30"
+         },
+         {
+          "name": "Samuel Honzek",
+          "status": "Injured Reserve",
+          "pos": "LW",
+          "date": "2026-10-20",
+          "role": "15.6 TOI"
+         }
+        ]
+       }
+      },
+      "gameday": [
+       "Volume: TOI 19.2 season avg | Hit: 8/10 at line, 4/5 · vs CGY 4/5",
+       "Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable)",
+       "Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home",
+       "Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) (4/5 without Alexander Wennberg) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve)",
+       "Weather: indoor, neutral",
+       "Risk: Normal variance at this line"
+      ],
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     },
+     {
+      "pick": "Devin Booker Over 19.5 Points",
+      "odds": "-240",
+      "game": "Warriors vs Suns 10:00 PM ET",
+      "status": "Pending",
+      "why": "Volume: n/a, game line | Hit: 8/10 at line, 4/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Early-season sample: most of the last 10 come from 2025-26.",
+      "why_not": null,
+      "why_src": "Grade A-. Volume: L5 min 39/34/36/29/41 (L3 36.3 vs L10 38.5 min) | Hit: 8/10 at O19.5, 4/5 | Matchup: Opp 15/30 vs Points (TR) | Context: PHX +4.5 / O/U 227.5 | opp pace 97.1 (28th) | Away · Div | Injuries: Mark Williams out | Opp out: Draymond Green, Stephen Curry | Weather: neutral | Risk: Early-season sample: most of the last 10 come from 2025-26.",
+      "ctx": {
+       "game": null,
+       "team": null,
+       "opp": null,
+       "stat": null,
+       "out": null
+      },
+      "gameday": [
+       "Volume: n/a, game line | Hit: 8/10 at line, 4/5",
+       "Matchup: n/a",
+       "Context: game lines n/a",
+       "Injuries: n/a",
+       "Weather: n/a",
+       "Risk: Early-season sample: most of the last 10 come from 2025-26"
+      ],
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     }
+    ],
+    "why": null,
+    "pick": "2-leg +128 (1u)",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+    "dk_odds": null
+   },
+   {
+    "name": "Safe +100 / Alt Parlay",
+    "desc": "builds at the 10 AM window, not at 7 AM.",
+    "odds": "—",
+    "stake": "—",
+    "payout": "—",
+    "status": "—",
+    "game": "",
+    "legs": [],
+    "why": "Volume: n/a, game line | Hit: L10 n/a. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal single-game variance.",
+    "pick": "builds at the 10 AM window, not at 7 AM.",
+    "why_src": null,
+    "ctx": {
+     "game": null,
+     "team": null,
+     "opp": null,
+     "stat": null,
+     "out": null
+    },
+    "gameday": [
+     "Volume: n/a, game line | Hit: L10 n/a",
+     "Matchup: n/a",
+     "Context: game lines n/a",
+     "Injuries: n/a",
+     "Weather: n/a",
+     "Risk: Normal single-game variance"
+    ]
+   }
+  ],
   "runners_up": [],
   "ncaaf": [],
+  "sports": {
+   "NFL": {
+    "potd": {
+     "pick": "Jaxon Smith-Njigba Over 100.5 Receiving Yards",
+     "odds": "-115",
+     "game": "Seahawks vs Bears 08:15 PM ET",
+     "status": "Pending",
+     "why": "Volume: n/a | Hit: 7/10 at line, 4/5. Matchup: CHI 19/32 vs pass yds (225.9/g allowed, neutral). Context: SEA -3 / O/U 46.5 (SEA TT 24.5) | Home · Prime. Injuries: SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out) | CHI: Kyle Monangai (Out). Weather: 50°F, Intermittent clouds, wind 4 mph. Risk: Normal variance at this line.",
+     "desc": "Jaxon Smith-Njigba Over 100.5 Receiving Yards -115 — Pending",
+     "why_not": null,
+     "why_src": "Grade B. Volume: n/a (L3 9.7 vs L10 10.5 touches+targets) | Hit: 7/10 at O100.5, 4/5 | Matchup: Opp 14/32 vs Receiving Yards (TR) | Context: SEA -3 / O/U 46.5 | - | Home · Prime | Injuries: Charles Cross, Velus Jones Jr. out | Opp out: Kyle Monangai, Coby Bryant | Weather: neutral (49F, wind 3 mph) | Risk: Normal variance at this line.",
+     "ctx": {
+      "game": "Seahawks vs Bears",
+      "team": "SEA",
+      "opp": "CHI",
+      "stat": "pass_yds",
+      "opp_rank": {
+       "rank": 19,
+       "of": 32,
+       "pg": 225.9,
+       "gp": 7,
+       "scale": "N/of, higher = more allowed (LineMate order)"
+      },
+      "fav": "SEA",
+      "spread": -3.0,
+      "total": 46.5,
+      "team_totals": {
+       "SEA": 24.5,
+       "CHI": 21.5
+      },
+      "home": "SEA",
+      "away": "CHI",
+      "rest": null,
+      "record": {
+       "SEA": "4-3",
+       "CHI": "5-2"
+      },
+      "start_et": "Mon 11/02 08:15 PM ET",
+      "out": {
+       "SEA": [
+        {
+         "name": "Velus Jones Jr.",
+         "status": "Out",
+         "pos": "RB",
+         "date": "2026-11-01"
+        },
+        {
+         "name": "Drew Lock",
+         "status": "Questionable",
+         "pos": "QB",
+         "date": "2026-11-01"
+        },
+        {
+         "name": "Rashid Shaheed",
+         "status": "Out",
+         "pos": "WR",
+         "date": "2026-10-31"
+        }
+       ],
+       "CHI": [
+        {
+         "name": "Kyle Monangai",
+         "status": "Out",
+         "pos": "RB",
+         "date": "2026-10-31"
+        }
+       ]
+      },
+      "weather": {
+       "text": "Intermittent clouds",
+       "temp": 50,
+       "wind_mph": 4,
+       "wind_dir": 133
+      }
+     },
+     "gameday": [
+      "Volume: n/a | Hit: 7/10 at line, 4/5",
+      "Matchup: CHI 19/32 vs pass yds (225.9/g allowed, neutral)",
+      "Context: SEA -3 / O/U 46.5 (SEA TT 24.5) | Home · Prime",
+      "Injuries: SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out) | CHI: Kyle Monangai (Out)",
+      "Weather: 50°F, Intermittent clouds, wind 4 mph",
+      "Risk: Normal variance at this line"
+     ],
+     "sport": "NFL",
+     "dk": {
+      "odds": null,
+      "na": true,
+      "ladder": [
+       [
+        "30+",
+        "-10000"
+       ],
+       [
+        "40+",
+        "-1640"
+       ],
+       [
+        "50+",
+        "-870"
+       ],
+       [
+        "60+",
+        "-525"
+       ],
+       [
+        "70+",
+        "-350"
+       ],
+       [
+        "80+",
+        "-239"
+       ],
+       [
+        "90+",
+        "-161"
+       ],
+       [
+        "100+",
+        "-118"
+       ],
+       [
+        "102+",
+        "-111"
+       ],
+       [
+        "110+",
+        "+113"
+       ],
+       [
+        "120+",
+        "+149"
+       ],
+       [
+        "130+",
+        "+197"
+       ],
+       [
+        "140+",
+        "+255"
+       ],
+       [
+        "150+",
+        "+330"
+       ],
+       [
+        "160+",
+        "+428"
+       ],
+       [
+        "170+",
+        "+557"
+       ],
+       [
+        "180+",
+        "+720"
+       ],
+       [
+        "190+",
+        "+940"
+       ],
+       [
+        "200+",
+        "+1220"
+       ]
+      ]
+     },
+     "dk_odds": null
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+137",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +137 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "D'Andre Swift Over 39.5 Rushing Yards",
+       "odds": "-375",
+       "game": "Seahawks vs Bears 08:15 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a | Hit: 10/10 at line, 5/5. Matchup: SEA 6/32 vs rush yds (89.4/g allowed, unfavorable). Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime. Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out). Weather: 50°F, Intermittent clouds, wind 4 mph. Risk: Tough matchup: SEA 6/32 vs rush yds.",
+       "why_not": "matchup 27/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)",
+       "why_src": "Grade A. Volume: n/a (L3 21.3 vs L10 18.5 touches+targets) | Hit: 10/10 at O39.5, 5/5 | Matchup: Opp 27/32 vs Rushing Yards (TR) | Context: CHI +3 / O/U 46.5 | - | Away · Prime | Injuries: Kyle Monangai, Coby Bryant out | Opp out: Charles Cross, Velus Jones Jr. | Weather: neutral (49F, wind 3 mph) | Risk: matchup 27/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)",
+       "ctx": {
+        "game": "Seahawks vs Bears",
+        "team": "CHI",
+        "opp": "SEA",
+        "stat": "rush_yds",
+        "opp_rank": {
+         "rank": 6,
+         "of": 32,
+         "pg": 89.4,
+         "gp": 7,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "SEA",
+        "spread": -3.0,
+        "total": 46.5,
+        "team_totals": {
+         "SEA": 24.5,
+         "CHI": 21.5
+        },
+        "home": "SEA",
+        "away": "CHI",
+        "rest": null,
+        "record": {
+         "SEA": "4-3",
+         "CHI": "5-2"
+        },
+        "start_et": "Mon 11/02 08:15 PM ET",
+        "out": {
+         "SEA": [
+          {
+           "name": "Velus Jones Jr.",
+           "status": "Out",
+           "pos": "RB",
+           "date": "2026-11-01"
+          },
+          {
+           "name": "Drew Lock",
+           "status": "Questionable",
+           "pos": "QB",
+           "date": "2026-11-01"
+          },
+          {
+           "name": "Rashid Shaheed",
+           "status": "Out",
+           "pos": "WR",
+           "date": "2026-10-31"
+          }
+         ],
+         "CHI": [
+          {
+           "name": "Kyle Monangai",
+           "status": "Out",
+           "pos": "RB",
+           "date": "2026-10-31"
+          }
+         ]
+        },
+        "weather": {
+         "text": "Intermittent clouds",
+         "temp": 50,
+         "wind_mph": 4,
+         "wind_dir": 133
+        }
+       },
+       "gameday": [
+        "Volume: n/a | Hit: 10/10 at line, 5/5",
+        "Matchup: SEA 6/32 vs rush yds (89.4/g allowed, unfavorable)",
+        "Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime",
+        "Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out)",
+        "Weather: 50°F, Intermittent clouds, wind 4 mph",
+        "Risk: Tough matchup: SEA 6/32 vs rush yds"
+       ],
+       "dk": {
+        "odds": "-365",
+        "na": false,
+        "ladder": [
+         [
+          "25+",
+          "-1460"
+         ],
+         [
+          "30+",
+          "-840"
+         ],
+         [
+          "40+",
+          "-365"
+         ],
+         [
+          "50+",
+          "-189"
+         ],
+         [
+          "60+",
+          "-110"
+         ],
+         [
+          "70+",
+          "+149"
+         ],
+         [
+          "80+",
+          "+230"
+         ],
+         [
+          "90+",
+          "+347"
+         ],
+         [
+          "100+",
+          "+514"
+         ],
+         [
+          "110+",
+          "+740"
+         ],
+         [
+          "120+",
+          "+1060"
+         ],
+         [
+          "130+",
+          "+1480"
+         ],
+         [
+          "140+",
+          "+2100"
+         ],
+         [
+          "150+",
+          "+3000"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "Caleb Williams Over 229.5 Passing Yards",
+       "odds": "-115",
+       "game": "Seahawks vs Bears 08:15 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a | Hit: 8/10 at line, 4/5. Matchup: SEA 1/32 vs pass yds (144.4/g allowed, unfavorable). Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime. Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out). Weather: 50°F, Intermittent clouds, wind 4 mph. Risk: Tough matchup: SEA 1/32 vs pass yds.",
+       "why_not": "matchup 32/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)",
+       "why_src": "Grade A-. Volume: n/a (L3 31.7 vs L10 35.6 pass attempts) | Hit: 8/10 at O229.5, 4/5 | Matchup: Opp 32/32 vs Passing Yards (TR) | Context: CHI +3 / O/U 46.5 | - | Away · Prime | Injuries: Kyle Monangai, Coby Bryant out | Opp out: Charles Cross, Velus Jones Jr. | Weather: neutral (49F, wind 3 mph) | Risk: matchup 32/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)",
+       "ctx": {
+        "game": "Seahawks vs Bears",
+        "team": "CHI",
+        "opp": "SEA",
+        "stat": "pass_yds",
+        "opp_rank": {
+         "rank": 1,
+         "of": 32,
+         "pg": 144.4,
+         "gp": 7,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "SEA",
+        "spread": -3.0,
+        "total": 46.5,
+        "team_totals": {
+         "SEA": 24.5,
+         "CHI": 21.5
+        },
+        "home": "SEA",
+        "away": "CHI",
+        "rest": null,
+        "record": {
+         "SEA": "4-3",
+         "CHI": "5-2"
+        },
+        "start_et": "Mon 11/02 08:15 PM ET",
+        "out": {
+         "SEA": [
+          {
+           "name": "Velus Jones Jr.",
+           "status": "Out",
+           "pos": "RB",
+           "date": "2026-11-01"
+          },
+          {
+           "name": "Drew Lock",
+           "status": "Questionable",
+           "pos": "QB",
+           "date": "2026-11-01"
+          },
+          {
+           "name": "Rashid Shaheed",
+           "status": "Out",
+           "pos": "WR",
+           "date": "2026-10-31"
+          }
+         ],
+         "CHI": [
+          {
+           "name": "Kyle Monangai",
+           "status": "Out",
+           "pos": "RB",
+           "date": "2026-10-31"
+          }
+         ]
+        },
+        "weather": {
+         "text": "Intermittent clouds",
+         "temp": 50,
+         "wind_mph": 4,
+         "wind_dir": 133
+        }
+       },
+       "gameday": [
+        "Volume: n/a | Hit: 8/10 at line, 4/5",
+        "Matchup: SEA 1/32 vs pass yds (144.4/g allowed, unfavorable)",
+        "Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime",
+        "Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out)",
+        "Weather: 50°F, Intermittent clouds, wind 4 mph",
+        "Risk: Tough matchup: SEA 1/32 vs pass yds"
+       ],
+       "dk": {
+        "odds": "-119",
+        "na": false,
+        "ladder": [
+         [
+          "150+",
+          "-1540"
+         ],
+         [
+          "160+",
+          "-1020"
+         ],
+         [
+          "170+",
+          "-700"
+         ],
+         [
+          "180+",
+          "-492"
+         ],
+         [
+          "190+",
+          "-355"
+         ],
+         [
+          "200+",
+          "-265"
+         ],
+         [
+          "210+",
+          "-200"
+         ],
+         [
+          "220+",
+          "-153"
+         ],
+         [
+          "230+",
+          "-119"
+         ],
+         [
+          "232+",
+          "-113"
+         ],
+         [
+          "240+",
+          "+107"
+         ],
+         [
+          "250+",
+          "+137"
+         ],
+         [
+          "260+",
+          "+174"
+         ],
+         [
+          "270+",
+          "+220"
+         ],
+         [
+          "280+",
+          "+282"
+         ],
+         [
+          "290+",
+          "+354"
+         ],
+         [
+          "300+",
+          "+450"
+         ],
+         [
+          "310+",
+          "+570"
+         ],
+         [
+          "320+",
+          "+710"
+         ],
+         [
+          "330+",
+          "+890"
+         ],
+         [
+          "340+",
+          "+1100"
+         ],
+         [
+          "350+",
+          "+1380"
+         ],
+         [
+          "360+",
+          "+1680"
+         ],
+         [
+          "370+",
+          "+1980"
+         ],
+         [
+          "380+",
+          "+2400"
+         ],
+         [
+          "390+",
+          "+2800"
+         ]
+        ]
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NFL",
+     "dk_odds": "+134"
+    }
+   },
+   "NBA": {
+    "potd": {
+     "pick": "Alperen Sengun Over 8.5 Rebounds",
+     "odds": "-110",
+     "game": "Rockets vs Celtics 08:30 PM ET",
+     "status": "Pending",
+     "why": "Volume: n/a, game line | Hit: 8/10 at line, 4/5. Matchup: rebounds rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+     "desc": "Alperen Sengun Over 8.5 Rebounds -110 — Pending",
+     "why_not": null,
+     "why_src": "Grade A-. Volume: L5 min 33/37/33/36/30 (L3 35.3 vs L10 34.5 min) | Hit: 8/10 at O8.5, 4/5 | Matchup: Opp 2/30 vs Rebounds (TR) | Context: HOU -4.5 / O/U 219.5 | opp pace 98.1 (23rd) | Home | Injuries: Steven Adams out | Opp out: Mitchell Robinson, Devin Carter | Weather: neutral | Risk: Normal variance at this line.",
+     "ctx": {
+      "game": null,
+      "team": null,
+      "opp": null,
+      "stat": "reb",
+      "out": null
+     },
+     "gameday": [
+      "Volume: n/a, game line | Hit: 8/10 at line, 4/5",
+      "Matchup: rebounds rank n/a",
+      "Context: game lines n/a",
+      "Injuries: n/a",
+      "Weather: n/a",
+      "Risk: Normal variance at this line"
+     ],
+     "sport": "NBA",
+     "dk": {
+      "odds": "-106",
+      "na": false,
+      "ladder": [
+       [
+        "4+",
+        "-2700"
+       ],
+       [
+        "5+",
+        "-1040"
+       ],
+       [
+        "6+",
+        "-517"
+       ],
+       [
+        "7+",
+        "-286"
+       ],
+       [
+        "8+",
+        "-172"
+       ],
+       [
+        "9+",
+        "-106"
+       ],
+       [
+        "10+",
+        "+148"
+       ],
+       [
+        "11+",
+        "+230"
+       ],
+       [
+        "12+",
+        "+351"
+       ],
+       [
+        "13+",
+        "+532"
+       ],
+       [
+        "14+",
+        "+800"
+       ],
+       [
+        "15+",
+        "+1200"
+       ],
+       [
+        "16+",
+        "+1700"
+       ],
+       [
+        "17+",
+        "+2300"
+       ]
+      ]
+     },
+     "dk_odds": "-106"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+101",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +101 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "Davion Mitchell Over 9.5 Points",
+       "odds": "-250",
+       "game": "Lakers vs Heat 10:00 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a, game line | Hit: 9/10 at line, 5/5. Matchup: points rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+       "why_not": null,
+       "why_src": "Grade A. Volume: L5 min 35/34/33/37/33 (L3 34.7 vs L10 33.7 min) | Hit: 9/10 at O9.5, 5/5 | Matchup: Opp 14/30 vs Points (TR) | Context: MIA +2.5 / O/U 237.5 | opp pace 100.0 (14th) | Away | Injuries: none | Opp out: Ziaire Williams, Adou Thiero | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": null,
+        "team": null,
+        "opp": null,
+        "stat": "pts",
+        "out": null
+       },
+       "gameday": [
+        "Volume: n/a, game line | Hit: 9/10 at line, 5/5",
+        "Matchup: points rank n/a",
+        "Context: game lines n/a",
+        "Injuries: n/a",
+        "Weather: n/a",
+        "Risk: Normal variance at this line"
+       ],
+       "dk": {
+        "odds": "-284",
+        "na": false,
+        "ladder": [
+         [
+          "6+",
+          "-1160"
+         ],
+         [
+          "8+",
+          "-521"
+         ],
+         [
+          "10+",
+          "-284"
+         ],
+         [
+          "12+",
+          "-165"
+         ],
+         [
+          "13+",
+          "-123"
+         ],
+         [
+          "15+",
+          "+128"
+         ],
+         [
+          "18+",
+          "+253"
+         ],
+         [
+          "20+",
+          "+398"
+         ],
+         [
+          "25+",
+          "+1180"
+         ],
+         [
+          "30+",
+          "+2600"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "Jabari Smith Jr. Over 1.5 Threes Made",
+       "odds": "-230",
+       "game": "Rockets vs Celtics 08:30 PM ET",
+       "status": "Pending",
+       "why": "Volume: n/a, game line | Hit: 8/10 at line, 5/5. Matchup: 3PM rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+       "why_not": null,
+       "why_src": "Grade A-. Volume: L5 min 33/35/30/39/33 (L3 35.7 vs L10 38.3 min) | Hit: 8/10 at O1.5, 5/5 | Matchup: Opp 4/30 vs Threes Made (TR) | Context: HOU -4.5 / O/U 219.5 | opp pace 98.1 (23rd) | Home | Injuries: Steven Adams out | Opp out: Mitchell Robinson, Devin Carter | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": null,
+        "team": null,
+        "opp": null,
+        "stat": "3pm",
+        "out": null
+       },
+       "gameday": [
+        "Volume: n/a, game line | Hit: 8/10 at line, 5/5",
+        "Matchup: 3PM rank n/a",
+        "Context: game lines n/a",
+        "Injuries: n/a",
+        "Weather: n/a",
+        "Risk: Normal variance at this line"
+       ],
+       "dk": {
+        "odds": "-217",
+        "na": false,
+        "ladder": [
+         [
+          "1+",
+          "-1080"
+         ],
+         [
+          "2+",
+          "-217"
+         ],
+         [
+          "3+",
+          "+137"
+         ],
+         [
+          "4+",
+          "+336"
+         ],
+         [
+          "5+",
+          "+760"
+         ],
+         [
+          "6+",
+          "+1620"
+         ],
+         [
+          "7+",
+          "+2800"
+         ]
+        ]
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NBA",
+     "dk_odds": "-103"
+    }
+   },
+   "NHL": {
+    "potd": {
+     "pick": "Joel Farabee Over 0.5 Points",
+     "odds": "-125",
+     "game": "Sharks vs. Flames 09:00 PM ET",
+     "status": "Pending",
+     "why": "Volume: TOI 18.5 season avg | Hit: 7/10 at line, 4/5. Matchup: SJS 28/32 vs goals per LineMate (3.4/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (CGY TT 2.5) | Away. Injuries: CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve) | SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
+     "desc": "Joel Farabee Over 0.5 Points -125 — Pending",
+     "why_not": null,
+     "why_src": "Grade B. Volume: L10 TOI 19.3 avg (L3 20.2 vs L10 19.4 TOI) | Hit: 7/10 at O0.5, 4/5 | Matchup: Opp 11/32 vs Points (NHL API) | Context: CGY +1.5 / O/U 6.5 | - | Away · Div | Injuries: Connor Zary, Devin Cooley out | Opp out: Igor Chernyshov, Alexander Wennberg | Weather: neutral | Risk: Normal variance at this line.",
+     "ctx": {
+      "game": "Sharks vs. Flames",
+      "team": "CGY",
+      "opp": "SJS",
+      "stat": "ga",
+      "opp_rank": {
+       "rank": 28,
+       "of": 32,
+       "src": "LineMate",
+       "scale": "higher = more allowed"
+      },
+      "fav": "SJS",
+      "spread": -1.5,
+      "total": 6.5,
+      "team_totals": {
+       "CGY": 2.5,
+       "SJS": 3.5
+      },
+      "home": "SJS",
+      "away": "CGY",
+      "rest": {
+       "SJS": 1,
+       "CGY": 1
+      },
+      "record": {
+       "SJS": "7-7-1",
+       "CGY": "6-8-0"
+      },
+      "start_et": "Mon 11/02 09:00 PM ET",
+      "out": {
+       "SJS": [
+        {
+         "name": "Alexander Wennberg",
+         "status": "Injured Reserve",
+         "pos": "C",
+         "date": "2026-10-28",
+         "role": "20.0 TOI"
+        },
+        {
+         "name": "Kyle Keyser",
+         "status": "Injured Reserve",
+         "pos": "G",
+         "date": "2026-09-28"
+        }
+       ],
+       "CGY": [
+        {
+         "name": "Devin Cooley",
+         "status": "Injured Reserve",
+         "pos": "G",
+         "date": "2026-10-30"
+        },
+        {
+         "name": "Samuel Honzek",
+         "status": "Injured Reserve",
+         "pos": "LW",
+         "date": "2026-10-20",
+         "role": "15.6 TOI"
+        }
+       ]
+      }
+     },
+     "gameday": [
+      "Volume: TOI 18.5 season avg | Hit: 7/10 at line, 4/5",
+      "Matchup: SJS 28/32 vs goals per LineMate (3.4/g allowed, favorable)",
+      "Context: SJS -1.5 / O/U 6.5 (CGY TT 2.5) | Away",
+      "Injuries: CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve) | SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve)",
+      "Weather: indoor, neutral",
+      "Risk: Normal variance at this line"
+     ],
+     "sport": "NHL",
+     "dk": {
+      "odds": "-115",
+      "na": false,
+      "ladder": [
+       [
+        "1+",
+        "-115"
+       ],
+       [
+        "2+",
+        "+425"
+       ]
+      ]
+     },
+     "dk_odds": "-115"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+108",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +108 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "Connor Bedard Over 0.5 Points",
+       "odds": "-170",
+       "game": "Blackhawks vs. Avalanche 08:00 PM ET",
+       "status": "Pending",
+       "why": "Volume: TOI 20.5 season avg | Hit: 8/10 at line, 5/5. Matchup: COL 14/32 vs goals (3.1/g allowed, neutral). Context: COL -1.5 / O/U 6.5 (CHI TT 2.5) | Home. Injuries: CHI: Bowen Byram (Day-To-Day) | COL: Josh Manson (Out). Weather: indoor, neutral. Risk: Normal variance at this line.",
+       "why_not": null,
+       "why_src": "Grade A-. Volume: L10 TOI 20.4 avg (L3 20.3 vs L10 20.2 TOI) | Hit: 8/10 at O0.5, 5/5 | Matchup: Opp 19/32 vs Points (NHL API) | Context: CHI +1.5 / O/U 6.5 | - | Home · Div | Injuries: none | Opp out: Josh Manson, Zachary L'Heureux | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": "Blackhawks vs. Avalanche",
+        "team": "CHI",
+        "opp": "COL",
+        "stat": "ga",
+        "opp_rank": {
+         "rank": 14,
+         "of": 32,
+         "pg": 3.1,
+         "gp": 14,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "COL",
+        "spread": -1.5,
+        "total": 6.5,
+        "team_totals": {
+         "COL": 3.5,
+         "CHI": 2.5
+        },
+        "home": "CHI",
+        "away": "COL",
+        "rest": {
+         "CHI": 1,
+         "COL": 1
+        },
+        "record": {
+         "CHI": "4-9-1",
+         "COL": "8-5-1"
+        },
+        "start_et": "Mon 11/02 08:00 PM ET",
+        "out": {
+         "CHI": [
+          {
+           "name": "Bowen Byram",
+           "status": "Day-To-Day",
+           "pos": "D",
+           "date": "2026-11-01",
+           "role": "24.7 TOI"
+          }
+         ],
+         "COL": [
+          {
+           "name": "Josh Manson",
+           "status": "Out",
+           "pos": "D",
+           "date": "2026-10-30",
+           "role": "15.0 TOI"
+          }
+         ]
+        }
+       },
+       "gameday": [
+        "Volume: TOI 20.5 season avg | Hit: 8/10 at line, 5/5",
+        "Matchup: COL 14/32 vs goals (3.1/g allowed, neutral)",
+        "Context: COL -1.5 / O/U 6.5 (CHI TT 2.5) | Home",
+        "Injuries: CHI: Bowen Byram (Day-To-Day) | COL: Josh Manson (Out)",
+        "Weather: indoor, neutral",
+        "Risk: Normal variance at this line"
+       ],
+       "dk": {
+        "odds": "-205",
+        "na": false,
+        "ladder": [
+         [
+          "1+",
+          "-205"
+         ],
+         [
+          "2+",
+          "+225"
+         ],
+         [
+          "3+",
+          "+800"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "Macklin Celebrini Over 2.5 Shots On Goal",
+       "odds": "-325",
+       "game": "Sharks vs. Flames 09:00 PM ET",
+       "status": "Pending",
+       "why": "Volume: TOI 22.7 season avg | Hit: 7/10 at line, 2/5. Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home. Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
+       "why_not": null,
+       "why_src": "Grade B. Volume: L10 TOI 22.8 avg (L3 23.2 vs L10 21.5 TOI) | Hit: 7/10 at O2.5, 2/5 | Matchup: Opp 5/32 vs Shots On Goal (NHL API) | Context: SJ -1.5 / O/U 6.5 | - | Home · Div | Injuries: Igor Chernyshov, Alexander Wennberg out | Opp out: Connor Zary, Devin Cooley | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": "Sharks vs. Flames",
+        "team": "SJS",
+        "opp": "CGY",
+        "stat": "sog",
+        "opp_rank": {
+         "rank": 28,
+         "of": 32,
+         "pg": 30.1,
+         "gp": 14,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "SJS",
+        "spread": -1.5,
+        "total": 6.5,
+        "team_totals": {
+         "CGY": 2.5,
+         "SJS": 3.5
+        },
+        "home": "SJS",
+        "away": "CGY",
+        "rest": {
+         "SJS": 1,
+         "CGY": 1
+        },
+        "record": {
+         "SJS": "7-7-1",
+         "CGY": "6-8-0"
+        },
+        "start_et": "Mon 11/02 09:00 PM ET",
+        "out": {
+         "SJS": [
+          {
+           "name": "Alexander Wennberg",
+           "status": "Injured Reserve",
+           "pos": "C",
+           "date": "2026-10-28",
+           "role": "20.0 TOI"
+          },
+          {
+           "name": "Kyle Keyser",
+           "status": "Injured Reserve",
+           "pos": "G",
+           "date": "2026-09-28"
+          }
+         ],
+         "CGY": [
+          {
+           "name": "Devin Cooley",
+           "status": "Injured Reserve",
+           "pos": "G",
+           "date": "2026-10-30"
+          },
+          {
+           "name": "Samuel Honzek",
+           "status": "Injured Reserve",
+           "pos": "LW",
+           "date": "2026-10-20",
+           "role": "15.6 TOI"
+          }
+         ]
+        }
+       },
+       "gameday": [
+        "Volume: TOI 22.7 season avg | Hit: 7/10 at line, 2/5",
+        "Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable)",
+        "Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home",
+        "Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve)",
+        "Weather: indoor, neutral",
+        "Risk: Normal variance at this line"
+       ],
+       "dk": {
+        "odds": "-340",
+        "na": false,
+        "ladder": [
+         [
+          "1+",
+          "-8000"
+         ],
+         [
+          "2+",
+          "-1100"
+         ],
+         [
+          "3+",
+          "-340"
+         ],
+         [
+          "4+",
+          "-140"
+         ],
+         [
+          "5+",
+          "+145"
+         ],
+         [
+          "6+",
+          "+285"
+         ],
+         [
+          "7+",
+          "+600"
+         ],
+         [
+          "8+",
+          "+1200"
+         ]
+        ]
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NHL",
+     "dk_odds": "-108"
+    }
+   },
+   "WNBA": {
+    "potd": null,
+    "parlay": null
+   },
+   "MLB": {
+    "potd": null,
+    "parlay": null
+   },
+   "NCAA F": {
+    "potd": null,
+    "parlay": null
+   },
+   "NASCAR": {
+    "potd": null,
+    "parlay": null
+   },
+   "ALL": {
+    "potd": {
+     "pick": "Jabari Smith Jr. Over 23.5 Pts + Reb + Ast",
+     "odds": "-105",
+     "game": "Rockets vs Celtics 08:30 PM ET",
+     "status": "Pending",
+     "why": "Volume: n/a, game line | Hit: 7/10 at line, 3/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+     "desc": "Jabari Smith Jr. Over 23.5 Pts + Reb + Ast -105 — Pending",
+     "why_not": null,
+     "why_src": "Grade B. Volume: L5 min 33/35/30/39/33 (L3 35.7 vs L10 38.3 min) | Hit: 7/10 at O23.5, 3/5 | Matchup: Opp 16/30 vs Pts + Reb + Ast (TR) | Context: HOU -4.5 / O/U 219.5 | opp pace 98.1 (23rd) | Home | Injuries: Steven Adams out | Opp out: Mitchell Robinson, Devin Carter | Weather: neutral | Risk: Normal variance at this line.",
+     "ctx": {
+      "game": null,
+      "team": null,
+      "opp": null,
+      "stat": null,
+      "out": null
+     },
+     "gameday": [
+      "Volume: n/a, game line | Hit: 7/10 at line, 3/5",
+      "Matchup: n/a",
+      "Context: game lines n/a",
+      "Injuries: n/a",
+      "Weather: n/a",
+      "Risk: Normal variance at this line"
+     ],
+     "sport": null,
+     "dk": {
+      "odds": null,
+      "na": true
+     },
+     "dk_odds": null
+    },
+    "parlay": null
+   }
+  },
   "date": "2026-11-02"
  },
  "results": {
@@ -1720,7 +3019,7 @@
     "p": 0,
     "pct": 36
    },
-   "pending": 1
+   "pending": 10
   },
   "props": [
    {
@@ -4363,6 +5662,69 @@
     "odds": "+210",
     "result": "L",
     "detail": "Loss (BUF 33-30 LV)"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "NBA · POTD: Jabari Smith Jr. Over 23.5 Pts + Reb + Ast",
+    "odds": "-105",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "NHL · Parlay: 2-leg",
+    "odds": "+108",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "NHL · POTD: Joel Farabee Over 0.5 Points",
+    "odds": "-125",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "NBA · Parlay: 2-leg",
+    "odds": "+101",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "NBA · POTD: Alperen Sengun Over 8.5 Rebounds",
+    "odds": "-110",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "NFL · Parlay: 2-leg",
+    "odds": "+137",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "NFL · POTD: Jaxon Smith-Njigba Over 100.5 Receiving Yards",
+    "odds": "-115",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "BIG 4 · Parlay: 2-leg",
+    "odds": "+128",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-02",
+    "pick": "NBA · POTD: Domantas Sabonis Over 13.5 Rebounds",
+    "odds": "-105",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-11-01",
@@ -8173,7 +9535,7 @@
  "capper_today_date": "2026-11-02",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-02 07:12 AM ET",
+  "updated": "2026-11-02 07:14 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -11059,7 +12421,7 @@
     "w": 36,
     "l": 46,
     "p": 1,
-    "pending": 0,
+    "pending": 2,
     "units": -11.62
    }
   },
@@ -11081,7 +12443,7 @@
     "w": 29,
     "l": 32,
     "p": 0,
-    "pending": 0,
+    "pending": 2,
     "units": -10.62
    }
   },
@@ -11103,7 +12465,7 @@
     "w": 65,
     "l": 53,
     "p": 4,
-    "pending": 1,
+    "pending": 5,
     "units": -6.07
    }
   },
@@ -11213,7 +12575,7 @@
     "w": 9,
     "l": 18,
     "p": 0,
-    "pending": 0,
+    "pending": 1,
     "units": -7.42
    }
   }
@@ -16459,6 +17821,96 @@
    "odds": "-115",
    "res": "L",
    "stat": "P28 vs P17"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NBA",
+   "type": "POTD",
+   "prop": "NBA rebounds",
+   "pick": "Domantas Sabonis Over 13.5 Rebounds",
+   "odds": "-105",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "Big 4 parlay",
+   "pick": "2-leg",
+   "odds": "+128",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NFL",
+   "type": "POTD",
+   "prop": "NFL receiving yards",
+   "pick": "Jaxon Smith-Njigba Over 100.5 Receiving Yards",
+   "odds": "-115",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NFL",
+   "type": "Parlay",
+   "prop": "NFL parlay",
+   "pick": "2-leg",
+   "odds": "+137",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NBA",
+   "type": "POTD",
+   "prop": "NBA rebounds",
+   "pick": "Alperen Sengun Over 8.5 Rebounds",
+   "odds": "-110",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NBA",
+   "type": "Parlay",
+   "prop": "NBA parlay",
+   "pick": "2-leg",
+   "odds": "+101",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL points",
+   "pick": "Joel Farabee Over 0.5 Points",
+   "odds": "-125",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NHL",
+   "type": "Parlay",
+   "prop": "NHL parlay",
+   "pick": "2-leg",
+   "odds": "+108",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NBA",
+   "type": "POTD",
+   "prop": "NBA PRA",
+   "pick": "Jabari Smith Jr. Over 23.5 Pts + Reb + Ast",
+   "odds": "-105",
+   "res": "Pending",
+   "stat": "—"
   },
   {
    "date": "2026-10-18",
@@ -21965,6 +23417,198 @@
     "alt": false,
     "fam": "NASCAR finish",
     "uu": -1.0
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NBA rebounds",
+    "pick": "Domantas Sabonis Over 13.5 Rebounds",
+    "odds": "-105",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Rebounds"
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "Big 4 parlay",
+    "pick": "2-leg",
+    "odds": "+128",
+    "res": "",
+    "stat": "—",
+    "sub": "Will Smith Over 2.5 Shots On Goal + Devin Booker Over 19.5 Points",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Will Smith Over 2.5 Shots On Goal",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Devin Booker Over 19.5 Points",
+      "result": null,
+      "stat": ""
+     }
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NFL receiving yards",
+    "pick": "Jaxon Smith-Njigba Over 100.5 Receiving Yards",
+    "odds": "-115",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Receiving yds"
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NFL parlay",
+    "pick": "2-leg",
+    "odds": "+137",
+    "res": "",
+    "stat": "—",
+    "sub": "D'Andre Swift Over 39.5 Rushing Yards + Caleb Williams Over 229.5 Passing Yards",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "D'Andre Swift Over 39.5 Rushing Yards",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Caleb Williams Over 229.5 Passing Yards",
+      "result": null,
+      "stat": ""
+     }
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NBA rebounds",
+    "pick": "Alperen Sengun Over 8.5 Rebounds",
+    "odds": "-110",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Rebounds"
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NBA parlay",
+    "pick": "2-leg",
+    "odds": "+101",
+    "res": "",
+    "stat": "—",
+    "sub": "Davion Mitchell Over 9.5 Points + Jabari Smith Jr. Over 1.5 Threes Made",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Davion Mitchell Over 9.5 Points",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Jabari Smith Jr. Over 1.5 Threes Made",
+      "result": null,
+      "stat": ""
+     }
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NHL points",
+    "pick": "Joel Farabee Over 0.5 Points",
+    "odds": "-125",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Player points"
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NHL parlay",
+    "pick": "2-leg",
+    "odds": "+108",
+    "res": "",
+    "stat": "—",
+    "sub": "Connor Bedard Over 0.5 Points + Macklin Celebrini Over 2.5 Shots On Goal",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Connor Bedard Over 0.5 Points",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Macklin Celebrini Over 2.5 Shots On Goal",
+      "result": null,
+      "stat": ""
+     }
+    ]
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NBA PRA",
+    "pick": "Jabari Smith Jr. Over 23.5 Pts + Reb + Ast",
+    "odds": "-105",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "PRA"
    },
    {
     "date": "2026-10-18",
@@ -40206,7 +41850,7 @@
      "w": 145,
      "l": 137,
      "p": 6,
-     "pending": 1,
+     "pending": 10,
      "units": -19.63
     },
     "legs": {
@@ -40509,27 +42153,32 @@
  },
  "gameday": {
   "date": "2026-11-02",
-  "built": "2026-11-02 07:12 ET",
-  "picks": 2,
+  "built": "2026-11-02 07:14 ET",
+  "picks": 16,
   "vetoes": [],
   "gaps": [
    "NCAAF Connecticut vs North Carolina: no ESPN event match"
   ]
  },
  "dk": {
-  "fetched": "2026-11-02 07:11 ET",
-  "snapshots": 1,
+  "fetched": "2026-11-02 07:13 ET",
+  "snapshots": 2,
   "pregame_games": 103,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 1,
-   "priced": 1,
-   "na": []
+   "legs": 13,
+   "priced": 9,
+   "na": [
+    "Jaxon Smith-Njigba Over 100.5 Receiving Yards",
+    "Jabari Smith Jr. Over 23.5 Pts + Reb + Ast",
+    "Will Smith Over 2.5 Shots On Goal",
+    "Devin Booker Over 19.5 Points"
+   ]
   }
  },
  "late_injury": {
   "date": "2026-11-02",
-  "checked_et": "2026-11-02 07:11 AM ET",
+  "checked_et": "2026-11-02 07:13 AM ET",
   "stage": "7am",
   "flags": []
  },
@@ -40913,6 +42562,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-02 07:12 AM ET"
+  "checked_et": "2026-11-02 07:14 AM ET"
  }
 }
