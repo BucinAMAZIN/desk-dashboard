@@ -1,34 +1,77 @@
 {
- "generated": 1793622136.059935,
+ "generated": 1793623012.8027146,
  "today": {
   "title": "Nov 2 picks (Hard Rock)",
   "tickets": [
    {
     "name": "POTD",
-    "desc": "Domantas Sabonis Over 13.5 Rebounds -105",
-    "odds": "-105",
+    "desc": "Alperen Sengun Over 8.5 Rebounds -110",
+    "odds": "-110",
     "stake": "—",
     "payout": "—",
     "status": "Pending",
-    "game": "",
+    "game": "Rockets vs Celtics 08:30 PM ET",
     "legs": [],
-    "why": "Volume: n/a, game line | Hit: 7/10 at line, 5/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
-    "pick": "Domantas Sabonis Over 13.5 Rebounds",
+    "why": "Volume: L5 min 33/37/33/36/30 (L3 35.3 vs L10 34.5 min) | Hit: 8/10 at line, 4/5 (L10 avg 9.8 vs 8.5 line). Matchup: BOS 21/30 vs rebounds (45.8/g allowed, favorable). Context: HOU -4.5 / O/U 219.5 (HOU TT 112.5) | Pace HOU 8/30, BOS 15/30 | Home. Injuries: HOU: Reed Sheppard (Day-To-Day) | BOS: Mitchell Robinson (Out). Risk: Normal variance at this line.",
+    "pick": "Alperen Sengun Over 8.5 Rebounds",
     "why_not": null,
-    "why_src": "Grade B. Volume: L5 min 38/40/37/35/39 (L3 38 vs L10 28.8 min) | Hit: 7/10 at O13.5, 5/5 | Matchup: Opp 12/30 vs Rebounds (TR) | Context: SAC +9.5 / O/U 234.5 | opp pace 99.9 (15th) | Away | Injuries: Dylan Cardwell, Maxime Raynaud out | Opp out: Tarik Biberovic, Dereck Lively II | Weather: neutral | Risk: Normal variance at this line.",
+    "why_src": "Grade A-. Volume: L5 min 33/37/33/36/30 (L3 35.3 vs L10 34.5 min) | Hit: 8/10 at O8.5, 4/5 | Matchup: Opp 2/30 vs Rebounds (TR) | Context: HOU -4.5 / O/U 219.5 | opp pace 98.1 (23rd) | Home | Injuries: Steven Adams out | Opp out: Mitchell Robinson, Devin Carter | Weather: neutral | Risk: Normal variance at this line.",
     "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
-     "stat": null,
-     "out": null
+     "game": "Rockets vs Celtics",
+     "team": "HOU",
+     "opp": "BOS",
+     "stat": "reb",
+     "opp_rank": {
+      "rank": 21,
+      "of": 30,
+      "pg": 45.8,
+      "gp": 6,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "HOU",
+     "spread": -4.5,
+     "total": 219.5,
+     "team_totals": {
+      "HOU": 112.5,
+      "BOS": 107.5
+     },
+     "home": "HOU",
+     "away": "BOS",
+     "rest": {
+      "HOU": 1,
+      "BOS": 0
+     },
+     "record": {
+      "HOU": "6-1",
+      "BOS": "5-1"
+     },
+     "start_et": "Mon 11/02 08:30 PM ET",
+     "out": {
+      "HOU": [
+       {
+        "name": "Reed Sheppard",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-11-01",
+        "role": "23.2 min"
+       }
+      ],
+      "BOS": [
+       {
+        "name": "Mitchell Robinson",
+        "status": "Out",
+        "pos": "C",
+        "date": "2026-11-01",
+        "role": "20.0 min"
+       }
+      ]
+     }
     },
     "gameday": [
-     "Volume: n/a, game line | Hit: 7/10 at line, 5/5",
-     "Matchup: n/a",
-     "Context: game lines n/a",
-     "Injuries: n/a",
-     "Weather: n/a",
+     "Volume: L5 min 33/37/33/36/30 (L3 35.3 vs L10 34.5 min) | Hit: 8/10 at line, 4/5 (L10 avg 9.8 vs 8.5 line)",
+     "Matchup: BOS 21/30 vs rebounds (45.8/g allowed, favorable)",
+     "Context: HOU -4.5 / O/U 219.5 (HOU TT 112.5) | Pace HOU 8/30, BOS 15/30 | Home",
+     "Injuries: HOU: Reed Sheppard (Day-To-Day) | BOS: Mitchell Robinson (Out)",
      "Risk: Normal variance at this line"
     ]
    },
@@ -46,7 +89,7 @@
       "odds": "-165",
       "game": "Sharks vs. Flames 09:00 PM ET",
       "status": "Pending",
-      "why": "Volume: TOI 19.2 season avg | Hit: 8/10 at line, 4/5 · vs CGY 4/5. Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home. Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) (4/5 without Alexander Wennberg) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
+      "why": "Volume: L10 TOI 19.5 avg (L3 18.1 vs L10 19.5 TOI) | Hit: 8/10 at line, 4/5 (L10 avg 3.4 vs 2.5 line) · vs CGY 4/5. Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home. Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) (4/5 without Alexander Wennberg) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve). Risk: Normal variance at this line.",
       "why_not": null,
       "why_src": "Grade A-. Volume: L10 TOI 19.5 avg (L3 18.1 vs L10 19.5 TOI) | Hit: 8/10 at O2.5, 4/5 | Matchup: Opp 5/32 vs Shots On Goal (NHL API) | Context: SJ -1.5 / O/U 6.5 | - | Home · Div | Injuries: Igor Chernyshov, Alexander Wennberg out | Opp out: Connor Zary, Devin Cooley | Weather: neutral | Risk: Normal variance at this line.",
       "ctx": {
@@ -113,11 +156,10 @@
        }
       },
       "gameday": [
-       "Volume: TOI 19.2 season avg | Hit: 8/10 at line, 4/5 · vs CGY 4/5",
+       "Volume: L10 TOI 19.5 avg (L3 18.1 vs L10 19.5 TOI) | Hit: 8/10 at line, 4/5 (L10 avg 3.4 vs 2.5 line) · vs CGY 4/5",
        "Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable)",
        "Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home",
        "Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) (4/5 without Alexander Wennberg) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve)",
-       "Weather: indoor, neutral",
        "Risk: Normal variance at this line"
       ],
       "dk": {
@@ -130,23 +172,71 @@
       "odds": "-240",
       "game": "Warriors vs Suns 10:00 PM ET",
       "status": "Pending",
-      "why": "Volume: n/a, game line | Hit: 8/10 at line, 4/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Early-season sample: most of the last 10 come from 2025-26.",
-      "why_not": null,
+      "why": "Volume: L5 min 39/34/36/29/41 (L3 36.3 vs L10 38.5 min) | Hit: 8/10 at line, 4/5 (L10 avg 21.6 vs 19.5 line). Matchup: GSW 4/30 vs points per LineMate (114.9/g allowed, unfavorable). Context: GSW -4.5 / O/U 226.5 (PHX TT 111.5) | Pace GSW 7/30, PHX 9/30 | Away. Injuries: PHX: none | GSW: Gui Santos (Day-To-Day), Draymond Green (Out), Stephen Curry (Out). Risk: Tough matchup: GSW 4/30 vs points per LineMate.",
+      "why_not": "Early-season sample: most of the last 10 come from 2025-26.",
       "why_src": "Grade A-. Volume: L5 min 39/34/36/29/41 (L3 36.3 vs L10 38.5 min) | Hit: 8/10 at O19.5, 4/5 | Matchup: Opp 15/30 vs Points (TR) | Context: PHX +4.5 / O/U 227.5 | opp pace 97.1 (28th) | Away · Div | Injuries: Mark Williams out | Opp out: Draymond Green, Stephen Curry | Weather: neutral | Risk: Early-season sample: most of the last 10 come from 2025-26.",
       "ctx": {
-       "game": null,
-       "team": null,
-       "opp": null,
-       "stat": null,
-       "out": null
+       "game": "Warriors vs Suns",
+       "team": "PHX",
+       "opp": "GSW",
+       "stat": "pts",
+       "opp_rank": {
+        "rank": 4,
+        "of": 30,
+        "src": "LineMate",
+        "scale": "higher = more allowed"
+       },
+       "fav": "GSW",
+       "spread": -4.5,
+       "total": 226.5,
+       "team_totals": {
+        "GSW": 115.5,
+        "PHX": 111.5
+       },
+       "home": "GSW",
+       "away": "PHX",
+       "rest": {
+        "GSW": 0,
+        "PHX": 2
+       },
+       "record": {
+        "GSW": "4-3",
+        "PHX": "1-3"
+       },
+       "start_et": "Mon 11/02 10:00 PM ET",
+       "out": {
+        "GSW": [
+         {
+          "name": "Gui Santos",
+          "status": "Day-To-Day",
+          "pos": "F",
+          "date": "2026-11-02",
+          "role": "20.2 min"
+         },
+         {
+          "name": "Draymond Green",
+          "status": "Out",
+          "pos": "F",
+          "date": "2026-10-31",
+          "role": "28.6 min"
+         },
+         {
+          "name": "Stephen Curry",
+          "status": "Out",
+          "pos": "G",
+          "date": "2026-10-31",
+          "role": "28.2 min"
+         }
+        ],
+        "PHX": []
+       }
       },
       "gameday": [
-       "Volume: n/a, game line | Hit: 8/10 at line, 4/5",
-       "Matchup: n/a",
-       "Context: game lines n/a",
-       "Injuries: n/a",
-       "Weather: n/a",
-       "Risk: Early-season sample: most of the last 10 come from 2025-26"
+       "Volume: L5 min 39/34/36/29/41 (L3 36.3 vs L10 38.5 min) | Hit: 8/10 at line, 4/5 (L10 avg 21.6 vs 19.5 line)",
+       "Matchup: GSW 4/30 vs points per LineMate (114.9/g allowed, unfavorable)",
+       "Context: GSW -4.5 / O/U 226.5 (PHX TT 111.5) | Pace GSW 7/30, PHX 9/30 | Away",
+       "Injuries: PHX: none | GSW: Gui Santos (Day-To-Day), Draymond Green (Out), Stephen Curry (Out)",
+       "Risk: Tough matchup: GSW 4/30 vs points per LineMate"
       ],
       "dk": {
        "odds": null,
@@ -197,7 +287,7 @@
      "odds": "-115",
      "game": "Seahawks vs Bears 08:15 PM ET",
      "status": "Pending",
-     "why": "Volume: n/a | Hit: 7/10 at line, 4/5. Matchup: CHI 19/32 vs pass yds (225.9/g allowed, neutral). Context: SEA -3 / O/U 46.5 (SEA TT 24.5) | Home · Prime. Injuries: SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out) | CHI: Kyle Monangai (Out). Weather: 50°F, Intermittent clouds, wind 4 mph. Risk: Normal variance at this line.",
+     "why": "Volume: n/a (L3 9.7 vs L10 10.5 touches+targets) | Hit: 7/10 at line, 4/5 (L10 avg 106.6 vs 100.5 line). Matchup: CHI 19/32 vs pass yds (225.9/g allowed, neutral). Context: SEA -3 / O/U 46.5 (SEA TT 24.5) | Home · Prime. Injuries: SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out) | CHI: Kyle Monangai (Out). Weather: 52°F, Intermittent clouds, wind 2 mph. Risk: Normal variance at this line.",
      "desc": "Jaxon Smith-Njigba Over 100.5 Receiving Yards -115 — Pending",
      "why_not": null,
      "why_src": "Grade B. Volume: n/a (L3 9.7 vs L10 10.5 touches+targets) | Hit: 7/10 at O100.5, 4/5 | Matchup: Opp 14/32 vs Receiving Yards (TR) | Context: SEA -3 / O/U 46.5 | - | Home · Prime | Injuries: Charles Cross, Velus Jones Jr. out | Opp out: Kyle Monangai, Coby Bryant | Weather: neutral (49F, wind 3 mph) | Risk: Normal variance at this line.",
@@ -260,17 +350,17 @@
       },
       "weather": {
        "text": "Intermittent clouds",
-       "temp": 50,
-       "wind_mph": 4,
-       "wind_dir": 133
+       "temp": 52,
+       "wind_mph": 2,
+       "wind_dir": 146
       }
      },
      "gameday": [
-      "Volume: n/a | Hit: 7/10 at line, 4/5",
+      "Volume: n/a (L3 9.7 vs L10 10.5 touches+targets) | Hit: 7/10 at line, 4/5 (L10 avg 106.6 vs 100.5 line)",
       "Matchup: CHI 19/32 vs pass yds (225.9/g allowed, neutral)",
       "Context: SEA -3 / O/U 46.5 (SEA TT 24.5) | Home · Prime",
       "Injuries: SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out) | CHI: Kyle Monangai (Out)",
-      "Weather: 50°F, Intermittent clouds, wind 4 mph",
+      "Weather: 52°F, Intermittent clouds, wind 2 mph",
       "Risk: Normal variance at this line"
      ],
      "sport": "NFL",
@@ -371,7 +461,7 @@
        "odds": "-375",
        "game": "Seahawks vs Bears 08:15 PM ET",
        "status": "Pending",
-       "why": "Volume: n/a | Hit: 10/10 at line, 5/5. Matchup: SEA 6/32 vs rush yds (89.4/g allowed, unfavorable). Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime. Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out). Weather: 50°F, Intermittent clouds, wind 4 mph. Risk: Tough matchup: SEA 6/32 vs rush yds.",
+       "why": "Volume: n/a (L3 21.3 vs L10 18.5 touches+targets) | Hit: 10/10 at line, 5/5 (L10 avg 64.6 vs 39.5 line). Matchup: SEA 6/32 vs rush yds (89.4/g allowed, unfavorable). Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime. Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out). Weather: 52°F, Intermittent clouds, wind 2 mph. Risk: Tough matchup: SEA 6/32 vs rush yds.",
        "why_not": "matchup 27/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)",
        "why_src": "Grade A. Volume: n/a (L3 21.3 vs L10 18.5 touches+targets) | Hit: 10/10 at O39.5, 5/5 | Matchup: Opp 27/32 vs Rushing Yards (TR) | Context: CHI +3 / O/U 46.5 | - | Away · Prime | Injuries: Kyle Monangai, Coby Bryant out | Opp out: Charles Cross, Velus Jones Jr. | Weather: neutral (49F, wind 3 mph) | Risk: matchup 27/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)",
        "ctx": {
@@ -433,17 +523,17 @@
         },
         "weather": {
          "text": "Intermittent clouds",
-         "temp": 50,
-         "wind_mph": 4,
-         "wind_dir": 133
+         "temp": 52,
+         "wind_mph": 2,
+         "wind_dir": 146
         }
        },
        "gameday": [
-        "Volume: n/a | Hit: 10/10 at line, 5/5",
+        "Volume: n/a (L3 21.3 vs L10 18.5 touches+targets) | Hit: 10/10 at line, 5/5 (L10 avg 64.6 vs 39.5 line)",
         "Matchup: SEA 6/32 vs rush yds (89.4/g allowed, unfavorable)",
         "Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime",
         "Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out)",
-        "Weather: 50°F, Intermittent clouds, wind 4 mph",
+        "Weather: 52°F, Intermittent clouds, wind 2 mph",
         "Risk: Tough matchup: SEA 6/32 vs rush yds"
        ],
        "dk": {
@@ -514,7 +604,7 @@
        "odds": "-115",
        "game": "Seahawks vs Bears 08:15 PM ET",
        "status": "Pending",
-       "why": "Volume: n/a | Hit: 8/10 at line, 4/5. Matchup: SEA 1/32 vs pass yds (144.4/g allowed, unfavorable). Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime. Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out). Weather: 50°F, Intermittent clouds, wind 4 mph. Risk: Tough matchup: SEA 1/32 vs pass yds.",
+       "why": "Volume: n/a (L3 31.7 vs L10 35.6 pass attempts) | Hit: 8/10 at line, 4/5 (L10 avg 267.2 vs 229.5 line). Matchup: SEA 1/32 vs pass yds (144.4/g allowed, unfavorable). Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime. Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out). Weather: 52°F, Intermittent clouds, wind 2 mph. Risk: Tough matchup: SEA 1/32 vs pass yds.",
        "why_not": "matchup 32/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)",
        "why_src": "Grade A-. Volume: n/a (L3 31.7 vs L10 35.6 pass attempts) | Hit: 8/10 at O229.5, 4/5 | Matchup: Opp 32/32 vs Passing Yards (TR) | Context: CHI +3 / O/U 46.5 | - | Away · Prime | Injuries: Kyle Monangai, Coby Bryant out | Opp out: Charles Cross, Velus Jones Jr. | Weather: neutral (49F, wind 3 mph) | Risk: matchup 32/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)",
        "ctx": {
@@ -576,17 +666,17 @@
         },
         "weather": {
          "text": "Intermittent clouds",
-         "temp": 50,
-         "wind_mph": 4,
-         "wind_dir": 133
+         "temp": 52,
+         "wind_mph": 2,
+         "wind_dir": 146
         }
        },
        "gameday": [
-        "Volume: n/a | Hit: 8/10 at line, 4/5",
+        "Volume: n/a (L3 31.7 vs L10 35.6 pass attempts) | Hit: 8/10 at line, 4/5 (L10 avg 267.2 vs 229.5 line)",
         "Matchup: SEA 1/32 vs pass yds (144.4/g allowed, unfavorable)",
         "Context: SEA -3 / O/U 46.5 (CHI TT 21.5) | Away · Prime",
         "Injuries: CHI: Kyle Monangai (Out) | SEA: Velus Jones Jr.⁠ (Out), Drew Lock (Questionable), Rashid Shaheed (Out)",
-        "Weather: 50°F, Intermittent clouds, wind 4 mph",
+        "Weather: 52°F, Intermittent clouds, wind 2 mph",
         "Risk: Tough matchup: SEA 1/32 vs pass yds"
        ],
        "dk": {
@@ -712,23 +802,66 @@
      "odds": "-110",
      "game": "Rockets vs Celtics 08:30 PM ET",
      "status": "Pending",
-     "why": "Volume: n/a, game line | Hit: 8/10 at line, 4/5. Matchup: rebounds rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+     "why": "Volume: L5 min 33/37/33/36/30 (L3 35.3 vs L10 34.5 min) | Hit: 8/10 at line, 4/5 (L10 avg 9.8 vs 8.5 line). Matchup: BOS 21/30 vs rebounds (45.8/g allowed, favorable). Context: HOU -4.5 / O/U 219.5 (HOU TT 112.5) | Pace HOU 8/30, BOS 15/30 | Home. Injuries: HOU: Reed Sheppard (Day-To-Day) | BOS: Mitchell Robinson (Out). Risk: Normal variance at this line.",
      "desc": "Alperen Sengun Over 8.5 Rebounds -110 — Pending",
      "why_not": null,
      "why_src": "Grade A-. Volume: L5 min 33/37/33/36/30 (L3 35.3 vs L10 34.5 min) | Hit: 8/10 at O8.5, 4/5 | Matchup: Opp 2/30 vs Rebounds (TR) | Context: HOU -4.5 / O/U 219.5 | opp pace 98.1 (23rd) | Home | Injuries: Steven Adams out | Opp out: Mitchell Robinson, Devin Carter | Weather: neutral | Risk: Normal variance at this line.",
      "ctx": {
-      "game": null,
-      "team": null,
-      "opp": null,
+      "game": "Rockets vs Celtics",
+      "team": "HOU",
+      "opp": "BOS",
       "stat": "reb",
-      "out": null
+      "opp_rank": {
+       "rank": 21,
+       "of": 30,
+       "pg": 45.8,
+       "gp": 6,
+       "scale": "N/of, higher = more allowed (LineMate order)"
+      },
+      "fav": "HOU",
+      "spread": -4.5,
+      "total": 219.5,
+      "team_totals": {
+       "HOU": 112.5,
+       "BOS": 107.5
+      },
+      "home": "HOU",
+      "away": "BOS",
+      "rest": {
+       "HOU": 1,
+       "BOS": 0
+      },
+      "record": {
+       "HOU": "6-1",
+       "BOS": "5-1"
+      },
+      "start_et": "Mon 11/02 08:30 PM ET",
+      "out": {
+       "HOU": [
+        {
+         "name": "Reed Sheppard",
+         "status": "Day-To-Day",
+         "pos": "G",
+         "date": "2026-11-01",
+         "role": "23.2 min"
+        }
+       ],
+       "BOS": [
+        {
+         "name": "Mitchell Robinson",
+         "status": "Out",
+         "pos": "C",
+         "date": "2026-11-01",
+         "role": "20.0 min"
+        }
+       ]
+      }
      },
      "gameday": [
-      "Volume: n/a, game line | Hit: 8/10 at line, 4/5",
-      "Matchup: rebounds rank n/a",
-      "Context: game lines n/a",
-      "Injuries: n/a",
-      "Weather: n/a",
+      "Volume: L5 min 33/37/33/36/30 (L3 35.3 vs L10 34.5 min) | Hit: 8/10 at line, 4/5 (L10 avg 9.8 vs 8.5 line)",
+      "Matchup: BOS 21/30 vs rebounds (45.8/g allowed, favorable)",
+      "Context: HOU -4.5 / O/U 219.5 (HOU TT 112.5) | Pace HOU 8/30, BOS 15/30 | Home",
+      "Injuries: HOU: Reed Sheppard (Day-To-Day) | BOS: Mitchell Robinson (Out)",
       "Risk: Normal variance at this line"
      ],
      "sport": "NBA",
@@ -809,23 +942,57 @@
        "odds": "-250",
        "game": "Lakers vs Heat 10:00 PM ET",
        "status": "Pending",
-       "why": "Volume: n/a, game line | Hit: 9/10 at line, 5/5. Matchup: points rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
-       "why_not": null,
+       "why": "Volume: L5 min 35/34/33/37/33 (L3 34.7 vs L10 33.7 min) | Hit: 9/10 at line, 5/5 (L10 avg 16.1 vs 9.5 line) · vs OKL 4/4. Matchup: LAL 2/30 vs points per LineMate (115.0/g allowed, unfavorable). Context: LAL -2.5 / O/U 237.5 (MIA TT 118.5) | Pace LAL 18/30, MIA 26/30 | Away. Injuries: MIA: none | LAL: Ziaire Williams (Out). Risk: Tough matchup: LAL 2/30 vs points per LineMate.",
+       "why_not": "Normal variance at this line.",
        "why_src": "Grade A. Volume: L5 min 35/34/33/37/33 (L3 34.7 vs L10 33.7 min) | Hit: 9/10 at O9.5, 5/5 | Matchup: Opp 14/30 vs Points (TR) | Context: MIA +2.5 / O/U 237.5 | opp pace 100.0 (14th) | Away | Injuries: none | Opp out: Ziaire Williams, Adou Thiero | Weather: neutral | Risk: Normal variance at this line.",
        "ctx": {
-        "game": null,
-        "team": null,
-        "opp": null,
+        "game": "Lakers vs Heat",
+        "team": "MIA",
+        "opp": "LAL",
         "stat": "pts",
-        "out": null
+        "opp_rank": {
+         "rank": 2,
+         "of": 30,
+         "src": "LineMate",
+         "scale": "higher = more allowed"
+        },
+        "fav": "LAL",
+        "spread": -2.5,
+        "total": 237.5,
+        "team_totals": {
+         "MIA": 118.5,
+         "LAL": 119.5
+        },
+        "home": "LAL",
+        "away": "MIA",
+        "rest": {
+         "LAL": 0,
+         "MIA": 2
+        },
+        "record": {
+         "LAL": "5-2",
+         "MIA": "2-4"
+        },
+        "start_et": "Mon 11/02 10:00 PM ET",
+        "out": {
+         "LAL": [
+          {
+           "name": "Ziaire Williams",
+           "status": "Out",
+           "pos": "F",
+           "date": "2026-11-01",
+           "role": "28.5 min"
+          }
+         ],
+         "MIA": []
+        }
        },
        "gameday": [
-        "Volume: n/a, game line | Hit: 9/10 at line, 5/5",
-        "Matchup: points rank n/a",
-        "Context: game lines n/a",
-        "Injuries: n/a",
-        "Weather: n/a",
-        "Risk: Normal variance at this line"
+        "Volume: L5 min 35/34/33/37/33 (L3 34.7 vs L10 33.7 min) | Hit: 9/10 at line, 5/5 (L10 avg 16.1 vs 9.5 line) · vs OKL 4/4",
+        "Matchup: LAL 2/30 vs points per LineMate (115.0/g allowed, unfavorable)",
+        "Context: LAL -2.5 / O/U 237.5 (MIA TT 118.5) | Pace LAL 18/30, MIA 26/30 | Away",
+        "Injuries: MIA: none | LAL: Ziaire Williams (Out)",
+        "Risk: Tough matchup: LAL 2/30 vs points per LineMate"
        ],
        "dk": {
         "odds": "-284",
@@ -879,22 +1046,65 @@
        "odds": "-230",
        "game": "Rockets vs Celtics 08:30 PM ET",
        "status": "Pending",
-       "why": "Volume: n/a, game line | Hit: 8/10 at line, 5/5. Matchup: 3PM rank n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+       "why": "Volume: L5 min 33/35/30/39/33 (L3 35.7 vs L10 38.3 min) | Hit: 8/10 at line, 5/5 (L10 avg 27.6 vs 1.5 line). Matchup: BOS 27/30 vs 3PM (14.8/g allowed, favorable). Context: HOU -4.5 / O/U 219.5 (HOU TT 112.5) | Pace HOU 8/30, BOS 15/30 | Home. Injuries: HOU: Reed Sheppard (Day-To-Day) | BOS: Mitchell Robinson (Out). Risk: Normal variance at this line.",
        "why_not": null,
        "why_src": "Grade A-. Volume: L5 min 33/35/30/39/33 (L3 35.7 vs L10 38.3 min) | Hit: 8/10 at O1.5, 5/5 | Matchup: Opp 4/30 vs Threes Made (TR) | Context: HOU -4.5 / O/U 219.5 | opp pace 98.1 (23rd) | Home | Injuries: Steven Adams out | Opp out: Mitchell Robinson, Devin Carter | Weather: neutral | Risk: Normal variance at this line.",
        "ctx": {
-        "game": null,
-        "team": null,
-        "opp": null,
+        "game": "Rockets vs Celtics",
+        "team": "HOU",
+        "opp": "BOS",
         "stat": "3pm",
-        "out": null
+        "opp_rank": {
+         "rank": 27,
+         "of": 30,
+         "pg": 14.8,
+         "gp": 6,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "HOU",
+        "spread": -4.5,
+        "total": 219.5,
+        "team_totals": {
+         "HOU": 112.5,
+         "BOS": 107.5
+        },
+        "home": "HOU",
+        "away": "BOS",
+        "rest": {
+         "HOU": 1,
+         "BOS": 0
+        },
+        "record": {
+         "HOU": "6-1",
+         "BOS": "5-1"
+        },
+        "start_et": "Mon 11/02 08:30 PM ET",
+        "out": {
+         "HOU": [
+          {
+           "name": "Reed Sheppard",
+           "status": "Day-To-Day",
+           "pos": "G",
+           "date": "2026-11-01",
+           "role": "23.2 min"
+          }
+         ],
+         "BOS": [
+          {
+           "name": "Mitchell Robinson",
+           "status": "Out",
+           "pos": "C",
+           "date": "2026-11-01",
+           "role": "20.0 min"
+          }
+         ]
+        }
        },
        "gameday": [
-        "Volume: n/a, game line | Hit: 8/10 at line, 5/5",
-        "Matchup: 3PM rank n/a",
-        "Context: game lines n/a",
-        "Injuries: n/a",
-        "Weather: n/a",
+        "Volume: L5 min 33/35/30/39/33 (L3 35.7 vs L10 38.3 min) | Hit: 8/10 at line, 5/5 (L10 avg 27.6 vs 1.5 line)",
+        "Matchup: BOS 27/30 vs 3PM (14.8/g allowed, favorable)",
+        "Context: HOU -4.5 / O/U 219.5 (HOU TT 112.5) | Pace HOU 8/30, BOS 15/30 | Home",
+        "Injuries: HOU: Reed Sheppard (Day-To-Day) | BOS: Mitchell Robinson (Out)",
         "Risk: Normal variance at this line"
        ],
        "dk": {
@@ -944,7 +1154,7 @@
      "odds": "-125",
      "game": "Sharks vs. Flames 09:00 PM ET",
      "status": "Pending",
-     "why": "Volume: TOI 18.5 season avg | Hit: 7/10 at line, 4/5. Matchup: SJS 28/32 vs goals per LineMate (3.4/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (CGY TT 2.5) | Away. Injuries: CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve) | SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
+     "why": "Volume: L10 TOI 19.3 avg (L3 20.2 vs L10 19.4 TOI) | Hit: 7/10 at line, 4/5 (L10 avg 1.2 vs 0.5 line). Matchup: SJS 28/32 vs goals per LineMate (3.4/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (CGY TT 2.5) | Away. Injuries: CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve) | SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve). Risk: Normal variance at this line.",
      "desc": "Joel Farabee Over 0.5 Points -125 — Pending",
      "why_not": null,
      "why_src": "Grade B. Volume: L10 TOI 19.3 avg (L3 20.2 vs L10 19.4 TOI) | Hit: 7/10 at O0.5, 4/5 | Matchup: Opp 11/32 vs Points (NHL API) | Context: CGY +1.5 / O/U 6.5 | - | Away · Div | Injuries: Connor Zary, Devin Cooley out | Opp out: Igor Chernyshov, Alexander Wennberg | Weather: neutral | Risk: Normal variance at this line.",
@@ -1011,11 +1221,10 @@
       }
      },
      "gameday": [
-      "Volume: TOI 18.5 season avg | Hit: 7/10 at line, 4/5",
+      "Volume: L10 TOI 19.3 avg (L3 20.2 vs L10 19.4 TOI) | Hit: 7/10 at line, 4/5 (L10 avg 1.2 vs 0.5 line)",
       "Matchup: SJS 28/32 vs goals per LineMate (3.4/g allowed, favorable)",
       "Context: SJS -1.5 / O/U 6.5 (CGY TT 2.5) | Away",
       "Injuries: CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve) | SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve)",
-      "Weather: indoor, neutral",
       "Risk: Normal variance at this line"
      ],
      "sport": "NHL",
@@ -1048,7 +1257,7 @@
        "odds": "-170",
        "game": "Blackhawks vs. Avalanche 08:00 PM ET",
        "status": "Pending",
-       "why": "Volume: TOI 20.5 season avg | Hit: 8/10 at line, 5/5. Matchup: COL 14/32 vs goals (3.1/g allowed, neutral). Context: COL -1.5 / O/U 6.5 (CHI TT 2.5) | Home. Injuries: CHI: Bowen Byram (Day-To-Day) | COL: Josh Manson (Out). Weather: indoor, neutral. Risk: Normal variance at this line.",
+       "why": "Volume: L10 TOI 20.4 avg (L3 20.3 vs L10 20.2 TOI) | Hit: 8/10 at line, 5/5 (L10 avg 1.1 vs 0.5 line). Matchup: COL 14/32 vs goals (3.1/g allowed, neutral). Context: COL -1.5 / O/U 6.5 (CHI TT 2.5) | Home. Injuries: CHI: Bowen Byram (Day-To-Day) | COL: Josh Manson (Out). Risk: Normal variance at this line.",
        "why_not": null,
        "why_src": "Grade A-. Volume: L10 TOI 20.4 avg (L3 20.3 vs L10 20.2 TOI) | Hit: 8/10 at O0.5, 5/5 | Matchup: Opp 19/32 vs Points (NHL API) | Context: CHI +1.5 / O/U 6.5 | - | Home · Div | Injuries: none | Opp out: Josh Manson, Zachary L'Heureux | Weather: neutral | Risk: Normal variance at this line.",
        "ctx": {
@@ -1103,11 +1312,10 @@
         }
        },
        "gameday": [
-        "Volume: TOI 20.5 season avg | Hit: 8/10 at line, 5/5",
+        "Volume: L10 TOI 20.4 avg (L3 20.3 vs L10 20.2 TOI) | Hit: 8/10 at line, 5/5 (L10 avg 1.1 vs 0.5 line)",
         "Matchup: COL 14/32 vs goals (3.1/g allowed, neutral)",
         "Context: COL -1.5 / O/U 6.5 (CHI TT 2.5) | Home",
         "Injuries: CHI: Bowen Byram (Day-To-Day) | COL: Josh Manson (Out)",
-        "Weather: indoor, neutral",
         "Risk: Normal variance at this line"
        ],
        "dk": {
@@ -1134,7 +1342,7 @@
        "odds": "-325",
        "game": "Sharks vs. Flames 09:00 PM ET",
        "status": "Pending",
-       "why": "Volume: TOI 22.7 season avg | Hit: 7/10 at line, 2/5. Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home. Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve). Weather: indoor, neutral. Risk: Normal variance at this line.",
+       "why": "Volume: L10 TOI 22.8 avg (L3 23.2 vs L10 21.5 TOI) | Hit: 7/10 at line, 2/5 (L10 avg 4.1 vs 2.5 line). Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable). Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home. Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve). Risk: Normal variance at this line.",
        "why_not": null,
        "why_src": "Grade B. Volume: L10 TOI 22.8 avg (L3 23.2 vs L10 21.5 TOI) | Hit: 7/10 at O2.5, 2/5 | Matchup: Opp 5/32 vs Shots On Goal (NHL API) | Context: SJ -1.5 / O/U 6.5 | - | Home · Div | Injuries: Igor Chernyshov, Alexander Wennberg out | Opp out: Connor Zary, Devin Cooley | Weather: neutral | Risk: Normal variance at this line.",
        "ctx": {
@@ -1201,11 +1409,10 @@
         }
        },
        "gameday": [
-        "Volume: TOI 22.7 season avg | Hit: 7/10 at line, 2/5",
+        "Volume: L10 TOI 22.8 avg (L3 23.2 vs L10 21.5 TOI) | Hit: 7/10 at line, 2/5 (L10 avg 4.1 vs 2.5 line)",
         "Matchup: CGY 28/32 vs SOG (30.1/g allowed, favorable)",
         "Context: SJS -1.5 / O/U 6.5 (SJS TT 3.5) | Home",
         "Injuries: SJS: Alexander Wennberg (Injured Reserve), Kyle Keyser (Injured Reserve) | CGY: Devin Cooley (Injured Reserve), Samuel Honzek (Injured Reserve)",
-        "Weather: indoor, neutral",
         "Risk: Normal variance at this line"
        ],
        "dk": {
@@ -1275,23 +1482,66 @@
      "odds": "-105",
      "game": "Rockets vs Celtics 08:30 PM ET",
      "status": "Pending",
-     "why": "Volume: n/a, game line | Hit: 7/10 at line, 3/5. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal variance at this line.",
+     "why": "Volume: L5 min 33/35/30/39/33 (L3 35.7 vs L10 38.3 min) | Hit: 7/10 at line, 3/5 (L10 avg 27.6 vs 23.5 line). Matchup: BOS 12/30 vs PRA (179.7/g allowed, neutral). Context: HOU -4.5 / O/U 219.5 (HOU TT 112.5) | Pace HOU 8/30, BOS 15/30 | Home. Injuries: HOU: Reed Sheppard (Day-To-Day) | BOS: Mitchell Robinson (Out). Risk: Normal variance at this line.",
      "desc": "Jabari Smith Jr. Over 23.5 Pts + Reb + Ast -105 — Pending",
      "why_not": null,
      "why_src": "Grade B. Volume: L5 min 33/35/30/39/33 (L3 35.7 vs L10 38.3 min) | Hit: 7/10 at O23.5, 3/5 | Matchup: Opp 16/30 vs Pts + Reb + Ast (TR) | Context: HOU -4.5 / O/U 219.5 | opp pace 98.1 (23rd) | Home | Injuries: Steven Adams out | Opp out: Mitchell Robinson, Devin Carter | Weather: neutral | Risk: Normal variance at this line.",
      "ctx": {
-      "game": null,
-      "team": null,
-      "opp": null,
-      "stat": null,
-      "out": null
+      "game": "Rockets vs Celtics",
+      "team": "HOU",
+      "opp": "BOS",
+      "stat": "pra",
+      "opp_rank": {
+       "rank": 12,
+       "of": 30,
+       "pg": 179.7,
+       "gp": 6,
+       "scale": "N/of, higher = more allowed (LineMate order)"
+      },
+      "fav": "HOU",
+      "spread": -4.5,
+      "total": 219.5,
+      "team_totals": {
+       "HOU": 112.5,
+       "BOS": 107.5
+      },
+      "home": "HOU",
+      "away": "BOS",
+      "rest": {
+       "HOU": 1,
+       "BOS": 0
+      },
+      "record": {
+       "HOU": "6-1",
+       "BOS": "5-1"
+      },
+      "start_et": "Mon 11/02 08:30 PM ET",
+      "out": {
+       "HOU": [
+        {
+         "name": "Reed Sheppard",
+         "status": "Day-To-Day",
+         "pos": "G",
+         "date": "2026-11-01",
+         "role": "23.2 min"
+        }
+       ],
+       "BOS": [
+        {
+         "name": "Mitchell Robinson",
+         "status": "Out",
+         "pos": "C",
+         "date": "2026-11-01",
+         "role": "20.0 min"
+        }
+       ]
+      }
      },
      "gameday": [
-      "Volume: n/a, game line | Hit: 7/10 at line, 3/5",
-      "Matchup: n/a",
-      "Context: game lines n/a",
-      "Injuries: n/a",
-      "Weather: n/a",
+      "Volume: L5 min 33/35/30/39/33 (L3 35.7 vs L10 38.3 min) | Hit: 7/10 at line, 3/5 (L10 avg 27.6 vs 23.5 line)",
+      "Matchup: BOS 12/30 vs PRA (179.7/g allowed, neutral)",
+      "Context: HOU -4.5 / O/U 219.5 (HOU TT 112.5) | Pace HOU 8/30, BOS 15/30 | Home",
+      "Injuries: HOU: Reed Sheppard (Day-To-Day) | BOS: Mitchell Robinson (Out)",
       "Risk: Normal variance at this line"
      ],
      "sport": null,
@@ -3019,7 +3269,7 @@
     "p": 0,
     "pct": 36
    },
-   "pending": 10
+   "pending": 9
   },
   "props": [
    {
@@ -5716,13 +5966,6 @@
     "date": "2026-11-02",
     "pick": "BIG 4 · Parlay: 2-leg",
     "odds": "+128",
-    "result": "Pending",
-    "detail": "—"
-   },
-   {
-    "date": "2026-11-02",
-    "pick": "NBA · POTD: Domantas Sabonis Over 13.5 Rebounds",
-    "odds": "-105",
     "result": "Pending",
     "detail": "—"
    },
@@ -8656,7 +8899,20 @@
     -96
    ]
   ],
-  "counted_elsewhere": []
+  "counted_elsewhere": [
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
+    "type": "POTD",
+    "prop": "NBA rebounds",
+    "pick": "Alperen Sengun Over 8.5 Rebounds",
+    "odds": "-110",
+    "res": "Pending",
+    "stat": "—",
+    "counted_elsewhere": "NBA POTD",
+    "note": "counted on NBA POTD"
+   }
+  ]
  },
  "cappers": [
   {
@@ -9531,7 +9787,7 @@
  "capper_today_date": "2026-11-02",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-02 07:22 AM ET",
+  "updated": "2026-11-02 07:36 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12461,7 +12717,7 @@
     "w": 65,
     "l": 53,
     "p": 4,
-    "pending": 11,
+    "pending": 10,
     "units": -6.07
    }
   },
@@ -15606,7 +15862,7 @@
     "edge": 0.06147113233565582,
     "result": "Pending",
     "picked_et": "7:08 AM ET",
-    "why": "Volume: game line | Hit: n/a. Matchup: n/a. Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away. Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+    "why": "Volume: game line | Hit: n/a. Matchup: n/a. Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away. Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "B+",
     "grade_why": "+6.1% vs Pinnacle",
@@ -15615,11 +15871,40 @@
     "now": "+800",
     "why_src": "Hard Rock +800 vs Pinnacle no-vig fair +748 (11.8%) → edge +6.15%. Clears the 4% Pinnacle edge floor at +6.15%. Price +800 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
-     "game": null,
+     "game": "Spurs vs Jazz",
      "team": null,
      "opp": null,
      "stat": null,
-     "out": null,
+     "fav": "SAS",
+     "spread": -16.5,
+     "total": 231.5,
+     "team_totals": {
+      "SAS": 123.5,
+      "UTA": 107.5
+     },
+     "home": "SAS",
+     "away": "UTA",
+     "rest": {
+      "SAS": 1,
+      "UTA": 1
+     },
+     "record": {
+      "SAS": "4-2",
+      "UTA": "1-5"
+     },
+     "start_et": "Mon 11/02 08:30 PM ET",
+     "out": {
+      "SAS": [],
+      "UTA": [
+       {
+        "name": "Jaren Jackson Jr.",
+        "status": "Out",
+        "pos": "F",
+        "date": "2026-10-27",
+        "role": "26.0 min"
+       }
+      ]
+     },
      "game_day": {
       "sport": "NBA",
       "game": "Spurs vs Jazz",
@@ -15687,7 +15972,6 @@
      "Matchup: n/a",
      "Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away",
      "Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance",
-     "Weather: neutral",
      "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
     ],
     "dk": {
@@ -15712,17 +15996,46 @@
      "edge": 0.06147113233565582,
      "result": "Pending",
      "picked_et": "7:08 AM ET",
-     "why": "Volume: game line | Hit: n/a. Matchup: n/a. Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away. Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+     "why": "Volume: game line | Hit: n/a. Matchup: n/a. Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away. Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "B+",
      "grade_why": "+6.1% vs Pinnacle",
      "why_src": "Hard Rock +800 vs Pinnacle no-vig fair +748 (11.8%) → edge +6.15%. Clears the 4% Pinnacle edge floor at +6.15%. Price +800 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
-      "game": null,
+      "game": "Spurs vs Jazz",
       "team": null,
       "opp": null,
       "stat": null,
-      "out": null,
+      "fav": "SAS",
+      "spread": -16.5,
+      "total": 231.5,
+      "team_totals": {
+       "SAS": 123.5,
+       "UTA": 107.5
+      },
+      "home": "SAS",
+      "away": "UTA",
+      "rest": {
+       "SAS": 1,
+       "UTA": 1
+      },
+      "record": {
+       "SAS": "4-2",
+       "UTA": "1-5"
+      },
+      "start_et": "Mon 11/02 08:30 PM ET",
+      "out": {
+       "SAS": [],
+       "UTA": [
+        {
+         "name": "Jaren Jackson Jr.",
+         "status": "Out",
+         "pos": "F",
+         "date": "2026-10-27",
+         "role": "26.0 min"
+        }
+       ]
+      },
       "game_day": {
        "sport": "NBA",
        "game": "Spurs vs Jazz",
@@ -15790,7 +16103,6 @@
       "Matchup: n/a",
       "Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away",
       "Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance",
-      "Weather: neutral",
       "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
      ],
      "dk": {
@@ -17817,16 +18129,6 @@
    "odds": "-115",
    "res": "L",
    "stat": "P28 vs P17"
-  },
-  {
-   "date": "2026-11-02",
-   "sport": "NBA",
-   "type": "POTD",
-   "prop": "NBA rebounds",
-   "pick": "Domantas Sabonis Over 13.5 Rebounds",
-   "odds": "-105",
-   "res": "Pending",
-   "stat": "—"
   },
   {
    "date": "2026-11-02",
@@ -20922,13 +21224,70 @@
     "res": "",
     "stat": "",
     "why_src": null,
-    "why": "Volume: L5 min 26/28/25/11/2 | Hit: 6/6 at U1.5, 5/5. Matchup: Opp 16/30 vs Rebounds (TR). Context: OKC +3.5 / O/U 228.5 | opp pace 101.5 (8th) | Away. Injuries: Thomas Sorber, Cason Wallace out | Opp out: Jaylon Tyson. Weather: neutral. Risk: Normal single-game variance.",
+    "why": "Volume: L5 min 26/28/25/11/2 | Hit: 6/6 at U1.5, 5/5 (L10 avg 0.5 vs 1.5 line). Matchup: CLE 16/30 vs Rebounds (TR). Context: OKC +3.5 / O/U 228.5 | opp pace 101.5 (8th) | Away. Injuries: Thomas Sorber, Cason Wallace out | Opp out: Jaylon Tyson. Risk: Normal single-game variance.",
     "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
+     "game": "Cavaliers vs Thunder",
+     "team": "OKC",
+     "opp": "CLE",
      "stat": "reb",
-     "out": null,
+     "opp_rank": {
+      "rank": 3,
+      "of": 30,
+      "src": "LineMate",
+      "scale": "higher = more allowed"
+     },
+     "fav": "CLE",
+     "spread": -3.5,
+     "total": 228.5,
+     "team_totals": {
+      "CLE": 116.5,
+      "OKC": 112.5
+     },
+     "home": "CLE",
+     "away": "OKC",
+     "rest": {
+      "CLE": 1,
+      "OKC": 1
+     },
+     "record": {
+      "CLE": "4-2",
+      "OKC": "4-2"
+     },
+     "start_et": "Mon 11/02 07:00 PM ET",
+     "out": {
+      "CLE": [
+       {
+        "name": "Peyton Watson",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-11-01",
+        "role": "28.3 min"
+       },
+       {
+        "name": "Jaylon Tyson",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-11-01",
+        "role": "20.8 min"
+       }
+      ],
+      "OKC": [
+       {
+        "name": "Chet Holmgren",
+        "status": "Out",
+        "pos": "C",
+        "date": "2026-10-31",
+        "role": "30.0 min"
+       },
+       {
+        "name": "Jalen Williams",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-28",
+        "role": "31.7 min"
+       }
+      ]
+     },
      "game_day": {
       "sport": "NBA",
       "game": "Cavaliers vs Thunder",
@@ -21084,11 +21443,10 @@
      "why_from": "scout"
     },
     "gameday": [
-     "Volume: L5 min 26/28/25/11/2 | Hit: 6/6 at U1.5, 5/5",
-     "Matchup: Opp 16/30 vs Rebounds (TR)",
+     "Volume: L5 min 26/28/25/11/2 | Hit: 6/6 at U1.5, 5/5 (L10 avg 0.5 vs 1.5 line)",
+     "Matchup: CLE 16/30 vs Rebounds (TR)",
      "Context: OKC +3.5 / O/U 228.5 | opp pace 101.5 (8th) | Away",
      "Injuries: Thomas Sorber, Cason Wallace out | Opp out: Jaylon Tyson",
-     "Weather: neutral",
      "Risk: Normal single-game variance"
     ],
     "dk": {
@@ -21110,13 +21468,49 @@
     "res": "",
     "stat": "",
     "why_src": null,
-    "why": "Volume: L5 min 24/22/28/20/30 (L3 26 vs L10 26.2 min) | Hit: 6/10 at O1.5, 3/5. Matchup: Opp 20/30 vs Assists (TR). Context: MIL +10.5 / O/U 233.5 | opp pace 101.2 (9th) | Away. Injuries: none | Opp out: Anthony Edwards, Donte DiVincenzo. Weather: neutral. Risk: Normal single-game variance.",
+    "why": "Volume: L5 min 24/22/28/20/30 (L3 26 vs L10 26.2 min) | Hit: 6/10 at O1.5, 3/5. Matchup: MIN 20/30 vs Assists (TR). Context: MIL +10.5 / O/U 233.5 | opp pace 101.2 (9th) | Away. Injuries: none | Opp out: Anthony Edwards, Donte DiVincenzo. Risk: 10.5-point spread: blowout could cut his minutes.",
     "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
+     "game": "Timberwolves vs Bucks",
+     "team": "MIL",
+     "opp": "MIN",
      "stat": "ast",
-     "out": null,
+     "opp_rank": {
+      "rank": 10,
+      "of": 30,
+      "pg": 24.7,
+      "gp": 7,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "MIN",
+     "spread": -10.5,
+     "total": 233.5,
+     "team_totals": {
+      "MIL": 111.5,
+      "MIN": 122.5
+     },
+     "home": "MIN",
+     "away": "MIL",
+     "rest": {
+      "MIN": 1,
+      "MIL": 1
+     },
+     "record": {
+      "MIN": "4-3",
+      "MIL": "1-5"
+     },
+     "start_et": "Mon 11/02 08:00 PM ET",
+     "out": {
+      "MIN": [
+       {
+        "name": "Anthony Edwards",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "33.8 min"
+       }
+      ],
+      "MIL": []
+     },
      "game_day": {
       "sport": "NBA",
       "game": "Timberwolves vs Bucks",
@@ -21315,11 +21709,10 @@
     },
     "gameday": [
      "Volume: L5 min 24/22/28/20/30 (L3 26 vs L10 26.2 min) | Hit: 6/10 at O1.5, 3/5",
-     "Matchup: Opp 20/30 vs Assists (TR)",
+     "Matchup: MIN 20/30 vs Assists (TR)",
      "Context: MIL +10.5 / O/U 233.5 | opp pace 101.2 (9th) | Away",
      "Injuries: none | Opp out: Anthony Edwards, Donte DiVincenzo",
-     "Weather: neutral",
-     "Risk: Normal single-game variance"
+     "Risk: 10.5-point spread: blowout could cut his minutes"
     ],
     "dk": {
      "odds": "-112",
@@ -21362,13 +21755,56 @@
     "stat": "",
     "why_src": null,
     "why_not": "NBA 2nd night of back-to-back",
-    "why": "Volume: L5 min 30/26/24/25/5 (L3 20.3 vs L10 21.2 min) | Hit: 7/10 at U4.5, 3/5. Matchup: Opp 18/30 vs Assists (TR). Context: BKN +14.5 / O/U 221.5 | opp pace 97.9 (25th) | Away · Div. Injuries: Egor Demin, Tyler Bilodeau out | Opp out: Jose Alvarado. Weather: neutral. Risk: NBA 2nd night of back-to-back.",
+    "why": "Volume: L5 min 30/26/24/25/5 (L3 20.3 vs L10 21.2 min) | Hit: 7/10 at U4.5, 3/5. Matchup: NYK 18/30 vs Assists (TR). Context: BKN +14.5 / O/U 221.5 | opp pace 97.9 (25th) | Away · Div. Injuries: Egor Demin, Tyler Bilodeau out | Opp out: Jose Alvarado. Risk: NBA 2nd night of back-to-back.",
     "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
+     "game": "Knicks vs Nets",
+     "team": "BKN",
+     "opp": "NYK",
      "stat": "ast",
-     "out": null,
+     "opp_rank": {
+      "rank": 18,
+      "of": 30,
+      "pg": 27.2,
+      "gp": 6,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "NYK",
+     "spread": -14.5,
+     "total": 221.5,
+     "team_totals": {
+      "BKN": 102.5,
+      "NYK": 118.5
+     },
+     "home": "NYK",
+     "away": "BKN",
+     "rest": {
+      "NYK": 2,
+      "BKN": 0
+     },
+     "record": {
+      "NYK": "2-4",
+      "BKN": "1-5"
+     },
+     "start_et": "Mon 11/02 07:30 PM ET",
+     "out": {
+      "NYK": [],
+      "BKN": [
+       {
+        "name": "Mikel Brown Jr.",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-11-02",
+        "role": "22.8 min"
+       },
+       {
+        "name": "Egor Demin",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "21.8 min"
+       }
+      ]
+     },
      "game_day": {
       "sport": "NBA",
       "game": "Knicks vs Nets",
@@ -21567,10 +22003,9 @@
     },
     "gameday": [
      "Volume: L5 min 30/26/24/25/5 (L3 20.3 vs L10 21.2 min) | Hit: 7/10 at U4.5, 3/5",
-     "Matchup: Opp 18/30 vs Assists (TR)",
+     "Matchup: NYK 18/30 vs Assists (TR)",
      "Context: BKN +14.5 / O/U 221.5 | opp pace 97.9 (25th) | Away · Div",
      "Injuries: Egor Demin, Tyler Bilodeau out | Opp out: Jose Alvarado",
-     "Weather: neutral",
      "Risk: NBA 2nd night of back-to-back"
     ],
     "dk": {
@@ -21598,13 +22033,71 @@
     "stat": "",
     "why_src": null,
     "why_not": "matchup 24/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a)",
-    "why": "Volume: L5 min 31/28/30/36/35 (L3 33.7 vs L10 35.8 min) | Hit: 7/10 at U5.5, 5/5. Matchup: Opp 24/30 vs Assists (TR). Context: OKC +3.5 / O/U 228.5 | opp pace 101.5 (8th) | Away. Injuries: Thomas Sorber, Cason Wallace out | Opp out: Jaylon Tyson. Weather: neutral. Risk: matchup 24/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a).",
+    "why": "Volume: L5 min 31/28/30/36/35 (L3 33.7 vs L10 35.8 min) | Hit: 7/10 at U5.5, 5/5 (L10 avg 4.9 vs 5.5 line). Matchup: CLE 24/30 vs Assists (TR). Context: OKC +3.5 / O/U 228.5 | opp pace 101.5 (8th) | Away. Injuries: Thomas Sorber, Cason Wallace out | Opp out: Jaylon Tyson. Risk: matchup 24/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a).",
     "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
+     "game": "Cavaliers vs Thunder",
+     "team": "OKC",
+     "opp": "CLE",
      "stat": "ast",
-     "out": null,
+     "opp_rank": {
+      "rank": 26,
+      "of": 30,
+      "pg": 28.3,
+      "gp": 6,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "CLE",
+     "spread": -3.5,
+     "total": 228.5,
+     "team_totals": {
+      "CLE": 116.5,
+      "OKC": 112.5
+     },
+     "home": "CLE",
+     "away": "OKC",
+     "rest": {
+      "CLE": 1,
+      "OKC": 1
+     },
+     "record": {
+      "CLE": "4-2",
+      "OKC": "4-2"
+     },
+     "start_et": "Mon 11/02 07:00 PM ET",
+     "out": {
+      "CLE": [
+       {
+        "name": "Peyton Watson",
+        "status": "Day-To-Day",
+        "pos": "G",
+        "date": "2026-11-01",
+        "role": "28.3 min"
+       },
+       {
+        "name": "Jaylon Tyson",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-11-01",
+        "role": "20.8 min"
+       }
+      ],
+      "OKC": [
+       {
+        "name": "Chet Holmgren",
+        "status": "Out",
+        "pos": "C",
+        "date": "2026-10-31",
+        "role": "30.0 min"
+       },
+       {
+        "name": "Jalen Williams",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-28",
+        "role": "31.7 min"
+       }
+      ]
+     },
      "game_day": {
       "sport": "NBA",
       "game": "Cavaliers vs Thunder",
@@ -21802,11 +22295,10 @@
      "why_from": "scout"
     },
     "gameday": [
-     "Volume: L5 min 31/28/30/36/35 (L3 33.7 vs L10 35.8 min) | Hit: 7/10 at U5.5, 5/5",
-     "Matchup: Opp 24/30 vs Assists (TR)",
+     "Volume: L5 min 31/28/30/36/35 (L3 33.7 vs L10 35.8 min) | Hit: 7/10 at U5.5, 5/5 (L10 avg 4.9 vs 5.5 line)",
+     "Matchup: CLE 24/30 vs Assists (TR)",
      "Context: OKC +3.5 / O/U 228.5 | opp pace 101.5 (8th) | Away",
      "Injuries: Thomas Sorber, Cason Wallace out | Opp out: Jaylon Tyson",
-     "Weather: neutral",
      "Risk: matchup 24/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
@@ -21834,13 +22326,49 @@
     "stat": "",
     "why_src": null,
     "why_not": "matchup 25/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a)",
-    "why": "Volume: L5 min 23/27/31/32/28 (L3 28.3 vs L10 25.6 min) | Hit: 7/10 at O1.5, 4/5. Matchup: Opp 25/30 vs Threes Made (TR). Context: MEM -5.5 / O/U 234.5 | opp pace 103.9 (2nd) | Home · Div. Injuries: none | Opp out: Jordan Poole, Yves Missi. Weather: neutral. Risk: matchup 25/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a).",
+    "why": "Volume: L5 min 23/27/31/32/28 (L3 28.3 vs L10 25.6 min) | Hit: 7/10 at O1.5, 4/5 (L10 avg 2.1 vs 1.5 line). Matchup: NOP 25/30 vs Threes Made (TR). Context: MEM -5.5 / O/U 234.5 | opp pace 103.9 (2nd) | Home · Div. Injuries: none | Opp out: Jordan Poole, Yves Missi. Risk: matchup 25/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a).",
     "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
+     "game": "Grizzlies vs Pelicans",
+     "team": "MEM",
+     "opp": "NOP",
      "stat": "3pm",
-     "out": null,
+     "opp_rank": {
+      "rank": 6,
+      "of": 30,
+      "pg": 11.5,
+      "gp": 6,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "MEM",
+     "spread": -5.5,
+     "total": 234.5,
+     "team_totals": {
+      "NOP": 114.5,
+      "MEM": 120.5
+     },
+     "home": "MEM",
+     "away": "NOP",
+     "rest": {
+      "MEM": 1,
+      "NOP": 1
+     },
+     "record": {
+      "MEM": "6-0",
+      "NOP": "2-4"
+     },
+     "start_et": "Mon 11/02 08:00 PM ET",
+     "out": {
+      "MEM": [],
+      "NOP": [
+       {
+        "name": "Trey Murphy III",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-11-01",
+        "role": "31.8 min"
+       }
+      ]
+     },
      "game_day": {
       "sport": "NBA",
       "game": "Grizzlies vs Pelicans",
@@ -22039,11 +22567,10 @@
      "why_from": "scout"
     },
     "gameday": [
-     "Volume: L5 min 23/27/31/32/28 (L3 28.3 vs L10 25.6 min) | Hit: 7/10 at O1.5, 4/5",
-     "Matchup: Opp 25/30 vs Threes Made (TR)",
+     "Volume: L5 min 23/27/31/32/28 (L3 28.3 vs L10 25.6 min) | Hit: 7/10 at O1.5, 4/5 (L10 avg 2.1 vs 1.5 line)",
+     "Matchup: NOP 25/30 vs Threes Made (TR)",
      "Context: MEM -5.5 / O/U 234.5 | opp pace 103.9 (2nd) | Home · Div",
      "Injuries: none | Opp out: Jordan Poole, Yves Missi",
-     "Weather: neutral",
      "Risk: matchup 25/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
@@ -22091,13 +22618,49 @@
     "stat": "",
     "why_src": null,
     "why_not": "matchup 28/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a)",
-    "why": "Volume: L5 min 27/27/32/31/32 (L3 31.7 vs L10 33.7 min) | Hit: 7/10 at O2.5, 4/5. Matchup: Opp 28/30 vs Threes Made (TR). Context: MIL +10.5 / O/U 233.5 | opp pace 101.2 (9th) | Away. Injuries: none | Opp out: Anthony Edwards, Donte DiVincenzo. Weather: neutral. Risk: matchup 28/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a).",
+    "why": "Volume: L5 min 27/27/32/31/32 (L3 31.7 vs L10 33.7 min) | Hit: 7/10 at O2.5, 4/5. Matchup: MIN 28/30 vs Threes Made (TR). Context: MIL +10.5 / O/U 233.5 | opp pace 101.2 (9th) | Away. Injuries: none | Opp out: Anthony Edwards, Donte DiVincenzo. Risk: matchup 28/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a).",
     "ctx": {
-     "game": null,
-     "team": null,
-     "opp": null,
+     "game": "Timberwolves vs Bucks",
+     "team": "MIL",
+     "opp": "MIN",
      "stat": "3pm",
-     "out": null,
+     "opp_rank": {
+      "rank": 2,
+      "of": 30,
+      "pg": 11.0,
+      "gp": 7,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "MIN",
+     "spread": -10.5,
+     "total": 233.5,
+     "team_totals": {
+      "MIL": 111.5,
+      "MIN": 122.5
+     },
+     "home": "MIN",
+     "away": "MIL",
+     "rest": {
+      "MIN": 1,
+      "MIL": 1
+     },
+     "record": {
+      "MIN": "4-3",
+      "MIL": "1-5"
+     },
+     "start_et": "Mon 11/02 08:00 PM ET",
+     "out": {
+      "MIN": [
+       {
+        "name": "Anthony Edwards",
+        "status": "Out",
+        "pos": "G",
+        "date": "2026-10-29",
+        "role": "33.8 min"
+       }
+      ],
+      "MIL": []
+     },
      "game_day": {
       "sport": "NBA",
       "game": "Timberwolves vs Bucks",
@@ -22297,10 +22860,9 @@
     },
     "gameday": [
      "Volume: L5 min 27/27/32/31/32 (L3 31.7 vs L10 33.7 min) | Hit: 7/10 at O2.5, 4/5",
-     "Matchup: Opp 28/30 vs Threes Made (TR)",
+     "Matchup: MIN 28/30 vs Threes Made (TR)",
      "Context: MIL +10.5 / O/U 233.5 | opp pace 101.2 (9th) | Away",
      "Injuries: none | Opp out: Anthony Edwards, Donte DiVincenzo",
-     "Weather: neutral",
      "Risk: matchup 28/30 demoted (23+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
@@ -22351,7 +22913,7 @@
     "res": "",
     "stat": "",
     "why_src": null,
-    "why": "Volume: n/a | Hit: 5/7 at U8.5, 4/5. Matchup: Opp 1/32 vs Receiving Yards (TR). Context: CHI +3 / O/U 46.5 | - | Away · Prime. Injuries: Kyle Monangai, Coby Bryant out | Opp out: Charles Cross, Velus Jones Jr. Weather: neutral (49F, wind 3 mph). Risk: Normal single-game variance.",
+    "why": "Volume: n/a | Hit: 5/7 at U8.5, 4/5 (L10 avg 4.71 vs 8.5 line). Matchup: SEA 1/32 vs Receiving Yards (TR). Context: CHI +3 / O/U 46.5 | - | Away · Prime. Injuries: Kyle Monangai, Coby Bryant out | Opp out: Charles Cross, Velus Jones Jr. Weather: neutral (49F, wind 3 mph). Risk: Normal single-game variance.",
     "ctx": {
      "game": "Seahawks vs Bears",
      "team": "CHI",
@@ -22411,9 +22973,9 @@
      },
      "weather": {
       "text": "Intermittent clouds",
-      "temp": 50,
-      "wind_mph": 4,
-      "wind_dir": 133
+      "temp": 52,
+      "wind_mph": 2,
+      "wind_dir": 146
      },
      "game_day": {
       "sport": "NFL",
@@ -22548,8 +23110,8 @@
      "why_from": "scout"
     },
     "gameday": [
-     "Volume: n/a | Hit: 5/7 at U8.5, 4/5",
-     "Matchup: Opp 1/32 vs Receiving Yards (TR)",
+     "Volume: n/a | Hit: 5/7 at U8.5, 4/5 (L10 avg 4.71 vs 8.5 line)",
+     "Matchup: SEA 1/32 vs Receiving Yards (TR)",
      "Context: CHI +3 / O/U 46.5 | - | Away · Prime",
      "Injuries: Kyle Monangai, Coby Bryant out | Opp out: Charles Cross, Velus Jones Jr",
      "Weather: neutral (49F, wind 3 mph)",
@@ -22579,7 +23141,7 @@
     "res": "",
     "stat": "",
     "why_src": null,
-    "why": "Volume: L10 TOI 20.0 avg (L3 21 vs L10 20 TOI) | Hit: 8/10 at U1.5, 5/5. Matchup: Opp 3/32 vs Shots On Goal (NHL API). Context: DET +1.5 / O/U 5.5 | - | Away · Div. Injuries: Dylan Larkin, Mason Appleton out | Opp out: Brad Marchand, Aleksander Barkov. Weather: neutral. Risk: Normal single-game variance.",
+    "why": "Volume: L10 TOI 20.0 avg (L3 21 vs L10 20 TOI) | Hit: 8/10 at U1.5, 5/5 (L10 avg 1.0 vs 1.5 line). Matchup: FLA 3/32 vs Shots On Goal (NHL API). Context: DET +1.5 / O/U 5.5 | - | Away · Div. Injuries: Dylan Larkin, Mason Appleton out | Opp out: Brad Marchand, Aleksander Barkov. Risk: Normal single-game variance.",
     "ctx": {
      "game": "Panthers vs. Red Wings",
      "team": "DET",
@@ -22814,11 +23376,10 @@
      "why_from": "scout"
     },
     "gameday": [
-     "Volume: L10 TOI 20.0 avg (L3 21 vs L10 20 TOI) | Hit: 8/10 at U1.5, 5/5",
-     "Matchup: Opp 3/32 vs Shots On Goal (NHL API)",
+     "Volume: L10 TOI 20.0 avg (L3 21 vs L10 20 TOI) | Hit: 8/10 at U1.5, 5/5 (L10 avg 1.0 vs 1.5 line)",
+     "Matchup: FLA 3/32 vs Shots On Goal (NHL API)",
      "Context: DET +1.5 / O/U 5.5 | - | Away · Div",
      "Injuries: Dylan Larkin, Mason Appleton out | Opp out: Brad Marchand, Aleksander Barkov",
-     "Weather: neutral",
      "Risk: Normal single-game variance"
     ],
     "dk": {
@@ -22845,7 +23406,7 @@
     "res": "",
     "stat": "",
     "why_src": null,
-    "why": "Volume: L10 TOI 23.0 avg (L3 23.8 vs L10 24.2 TOI) | Hit: 6/10 at O2.5, 4/5. Matchup: Opp 4/32 vs Shots On Goal (NHL API). Context: COL -1.5 / O/U 6.5 | - | Away · Div. Injuries: Josh Manson, Zachary L'Heureux out | none. Weather: neutral. Risk: Normal single-game variance.",
+    "why": "Volume: L10 TOI 23.0 avg (L3 23.8 vs L10 24.2 TOI) | Hit: 6/10 at O2.5, 4/5 (L10 avg 2.9 vs 2.5 line). Matchup: CHI 4/32 vs Shots On Goal (NHL API). Context: COL -1.5 / O/U 6.5 | - | Away · Div. Injuries: Josh Manson, Zachary L'Heureux out | none. Risk: Normal single-game variance.",
     "ctx": {
      "game": "Blackhawks vs. Avalanche",
      "team": "COL",
@@ -23070,11 +23631,10 @@
      "why_from": "scout"
     },
     "gameday": [
-     "Volume: L10 TOI 23.0 avg (L3 23.8 vs L10 24.2 TOI) | Hit: 6/10 at O2.5, 4/5",
-     "Matchup: Opp 4/32 vs Shots On Goal (NHL API)",
+     "Volume: L10 TOI 23.0 avg (L3 23.8 vs L10 24.2 TOI) | Hit: 6/10 at O2.5, 4/5 (L10 avg 2.9 vs 2.5 line)",
+     "Matchup: CHI 4/32 vs Shots On Goal (NHL API)",
      "Context: COL -1.5 / O/U 6.5 | - | Away · Div",
      "Injuries: Josh Manson, Zachary L'Heureux out | none",
-     "Weather: neutral",
      "Risk: Normal single-game variance"
     ],
     "dk": {
@@ -23126,7 +23686,7 @@
     "stat": "",
     "why_src": null,
     "why_not": "volume collapse: last game 14.0 TOI < 17 floor",
-    "why": "Volume: L10 TOI 17.0 avg (L3 17.3 vs L10 17.4 TOI) | Hit: 7/10 at U1.5, 3/5. Matchup: Opp 18/32 vs Shots On Goal (NHL API). Context: CHI +1.5 / O/U 6.5 | - | Home · Div. Injuries: none | Opp out: Josh Manson, Zachary L'Heureux. Weather: neutral. Risk: volume collapse: last game 14.0 TOI < 17 floor.",
+    "why": "Volume: L10 TOI 17.0 avg (L3 17.3 vs L10 17.4 TOI) | Hit: 7/10 at U1.5, 3/5. Matchup: COL 18/32 vs Shots On Goal (NHL API). Context: CHI +1.5 / O/U 6.5 | - | Home · Div. Injuries: none | Opp out: Josh Manson, Zachary L'Heureux. Risk: volume collapse: last game 14.0 TOI < 17 floor.",
     "ctx": {
      "game": "Blackhawks vs. Avalanche",
      "team": "CHI",
@@ -23346,10 +23906,9 @@
     },
     "gameday": [
      "Volume: L10 TOI 17.0 avg (L3 17.3 vs L10 17.4 TOI) | Hit: 7/10 at U1.5, 3/5",
-     "Matchup: Opp 18/32 vs Shots On Goal (NHL API)",
+     "Matchup: COL 18/32 vs Shots On Goal (NHL API)",
      "Context: CHI +1.5 / O/U 6.5 | - | Home · Div",
      "Injuries: none | Opp out: Josh Manson, Zachary L'Heureux",
-     "Weather: neutral",
      "Risk: volume collapse: last game 14.0 TOI < 17 floor"
     ],
     "dk": {
@@ -23377,7 +23936,7 @@
     "stat": "",
     "why_src": null,
     "why_not": "matchup 30/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a)",
-    "why": "Volume: L10 TOI 19.1 avg (L3 19.2 vs L10 18 TOI) | Hit: 5/10 at O2.5, 2/5. Matchup: Opp 30/32 vs Shots On Goal (NHL API). Context: DET +1.5 / O/U 5.5 | - | Away · Div. Injuries: Dylan Larkin, Mason Appleton out | Opp out: Brad Marchand, Aleksander Barkov. Weather: neutral. Risk: matchup 30/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a).",
+    "why": "Volume: L10 TOI 19.1 avg (L3 19.2 vs L10 18 TOI) | Hit: 5/10 at O2.5, 2/5 (L10 avg 2.8 vs 2.5 line). Matchup: FLA 30/32 vs Shots On Goal (NHL API). Context: DET +1.5 / O/U 5.5 | - | Away · Div. Injuries: Dylan Larkin, Mason Appleton out | Opp out: Brad Marchand, Aleksander Barkov. Risk: matchup 30/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a).",
     "ctx": {
      "game": "Panthers vs. Red Wings",
      "team": "DET",
@@ -23617,11 +24176,10 @@
      "why_from": "scout"
     },
     "gameday": [
-     "Volume: L10 TOI 19.1 avg (L3 19.2 vs L10 18 TOI) | Hit: 5/10 at O2.5, 2/5",
-     "Matchup: Opp 30/32 vs Shots On Goal (NHL API)",
+     "Volume: L10 TOI 19.1 avg (L3 19.2 vs L10 18 TOI) | Hit: 5/10 at O2.5, 2/5 (L10 avg 2.8 vs 2.5 line)",
+     "Matchup: FLA 30/32 vs Shots On Goal (NHL API)",
      "Context: DET +1.5 / O/U 5.5 | - | Away · Div",
      "Injuries: Dylan Larkin, Mason Appleton out | Opp out: Brad Marchand, Aleksander Barkov",
-     "Weather: neutral",
      "Risk: matchup 30/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
@@ -26179,22 +26737,6 @@
     "alt": false,
     "fam": "NASCAR finish",
     "uu": -1.0
-   },
-   {
-    "date": "2026-11-02",
-    "sport": "NBA",
-    "grp": "O",
-    "cat": "POTD",
-    "prop": "NBA rebounds",
-    "pick": "Domantas Sabonis Over 13.5 Rebounds",
-    "odds": "-105",
-    "res": "",
-    "stat": "—",
-    "sub": "",
-    "leg": false,
-    "img": null,
-    "alt": false,
-    "fam": "Rebounds"
    },
    {
     "date": "2026-11-02",
@@ -44821,7 +45363,7 @@
      "w": 145,
      "l": 137,
      "p": 6,
-     "pending": 21,
+     "pending": 20,
      "units": -19.63
     },
     "legs": {
@@ -45054,7 +45596,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-02 07:22",
+    "priced": "2026-11-02 07:36",
     "first_priced": "2026-11-02 07:16",
     "dk": {
      "odds": "-113",
@@ -45207,7 +45749,7 @@
  },
  "gameday": {
   "date": "2026-11-02",
-  "built": "2026-11-02 07:22 ET",
+  "built": "2026-11-02 07:36 ET",
   "picks": 27,
   "vetoes": [],
   "gaps": [
@@ -45618,6 +46160,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-02 07:22 AM ET"
+  "checked_et": "2026-11-02 07:36 AM ET"
  }
 }
