@@ -1,5 +1,5 @@
 {
- "generated": 1793618777.70444,
+ "generated": 1793621545.2730422,
  "today": {
   "title": "Nov 2 picks (Hard Rock)",
   "tickets": [],
@@ -1720,7 +1720,7 @@
     "p": 0,
     "pct": 36
    },
-   "pending": 0
+   "pending": 1
   },
   "props": [
    {
@@ -2292,6 +2292,13 @@
    }
   ],
   "potd": [
+   {
+    "date": "2026-11-02",
+    "pick": "NBA · Edge: Jazz ML",
+    "odds": "+800",
+    "result": "Pending",
+    "detail": "Pending"
+   },
    {
     "date": "2026-11-01",
     "pick": "NHL · Edge: Logan Cooley Over 0.5 Goals",
@@ -7784,14 +7791,27 @@
      "fam": "Parlay"
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NFL",
+     "prop": "NFL longest reception (over)",
+     "pick": "Rome Odunze o19.5 Longest Reception (CHI @ SEA MNF; MNF Play Of The Day, POTD)",
+     "odds": "-110 DK",
+     "status": "Pending",
+     "fam": "Longest reception",
+     "game": "CHI @ SEA",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
+    }
+   ]
   },
   {
    "name": "@panpotd",
-   "w": 26,
+   "w": 27,
    "l": 28,
    "p": 0,
-   "pct": 48,
+   "pct": 49,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -7864,6 +7884,14 @@
      "p": 0,
      "pct": 100,
      "fam": "Pts+Reb"
+    },
+    {
+     "prop": "NBA pts + ast (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Pts+Ast"
     },
     {
      "prop": "NBA pts+ast (over)",
@@ -8028,7 +8056,24 @@
      "fam": "Parlay"
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NCAAB",
+     "prop": "NCAAB ML",
+     "pick": "Winthrop ML (opponent not stated; early morning CBB play)",
+     "odds": "+104",
+     "status": "Pending",
+     "fam": "ML"
+    },
+    {
+     "sport": "NCAAB",
+     "prop": "NCAAB spread",
+     "pick": "Liberty Flames +9.5 (vs High Point; first play of the 24 hour CBB marathon)",
+     "odds": "-112",
+     "status": "Pending",
+     "fam": "Spread"
+    }
+   ]
   },
   {
    "name": "@bigmikepickz",
@@ -8128,7 +8173,7 @@
  "capper_today_date": "2026-11-02",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-02 06:26 AM ET",
+  "updated": "2026-11-02 07:12 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -14190,10 +14235,213 @@
  "safe100": {},
  "edge": {
   "date": "2026-11-02",
-  "picks": [],
+  "picks": [
+   {
+    "sport": "NBA",
+    "rank": 1,
+    "game": "Spurs vs Jazz",
+    "start": "Mon 11/02 08:30 PM ET",
+    "pick": "Jazz ML",
+    "hr": "+800",
+    "fair": "+748",
+    "fair_prob": 0.11794123692618397,
+    "edge": 0.06147113233565582,
+    "result": "Pending",
+    "picked_et": "7:08 AM ET",
+    "why": "Volume: game line | Hit: n/a. Matchup: n/a. Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away. Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+    "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
+    "grade": "B+",
+    "grade_why": "+6.1% vs Pinnacle",
+    "big4": true,
+    "big4_only": null,
+    "now": "+800",
+    "why_src": "Hard Rock +800 vs Pinnacle no-vig fair +748 (11.8%) → edge +6.15%. Clears the 4% Pinnacle edge floor at +6.15%. Price +800 is inside the preferred band (about -130 or better, or plus money).",
+    "ctx": {
+     "game": null,
+     "team": null,
+     "opp": null,
+     "stat": null,
+     "out": null,
+     "game_day": {
+      "sport": "NBA",
+      "game": "Spurs vs Jazz",
+      "role": "Edge",
+      "team": "UTAH",
+      "opponent": "SA",
+      "home_away": "away",
+      "l10": "n/a",
+      "matchup_rank": "n/a",
+      "spread": "UTAH +16.5",
+      "total": 231.5,
+      "team_totals": {
+       "Spurs": 123.5,
+       "Jazz": 107.5
+      },
+      "pace": {
+       "home": {
+        "pace": 99.6,
+        "rank": 16,
+        "of": 30
+       },
+       "away": {
+        "pace": 99.6,
+        "rank": 17,
+        "of": 30
+       }
+      },
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Frost Bank Center",
+      "indoor": true,
+      "teammates_out": [
+       "Jaren Jackson Jr.",
+       "Trey Alexander",
+       "Jusuf Nurkic"
+      ],
+      "opp_out": [
+       "Tobias Harris",
+       "Jayden Quaintance"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "rank n/a",
+      "matchup_pref_limit": null
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
+      ],
+      "matchup_rank": "n/a",
+      "matchup_tier": "rank n/a",
+      "preference_limit": 20,
+      "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
+      "applied_at": "2026-11-02 05:56 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: game line | Hit: n/a",
+     "Matchup: n/a",
+     "Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away",
+     "Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance",
+     "Weather: neutral",
+     "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
+    ],
+    "dk": {
+     "odds": "+750",
+     "na": false,
+     "edge": 0.002500513872563781
+    }
+   }
+  ],
   "big4": {
    "date": "2026-11-02",
-   "picks": []
+   "picks": [
+    {
+     "sport": "NBA",
+     "b4rank": 1,
+     "game": "Spurs vs Jazz",
+     "start": "Mon 11/02 08:30 PM ET",
+     "pick": "Jazz ML",
+     "hr": "+800",
+     "fair": "+748",
+     "fair_prob": 0.11794123692618397,
+     "edge": 0.06147113233565582,
+     "result": "Pending",
+     "picked_et": "7:08 AM ET",
+     "why": "Volume: game line | Hit: n/a. Matchup: n/a. Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away. Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance. Weather: neutral. Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted).",
+     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
+     "grade": "B+",
+     "grade_why": "+6.1% vs Pinnacle",
+     "why_src": "Hard Rock +800 vs Pinnacle no-vig fair +748 (11.8%) → edge +6.15%. Clears the 4% Pinnacle edge floor at +6.15%. Price +800 is inside the preferred band (about -130 or better, or plus money).",
+     "ctx": {
+      "game": null,
+      "team": null,
+      "opp": null,
+      "stat": null,
+      "out": null,
+      "game_day": {
+       "sport": "NBA",
+       "game": "Spurs vs Jazz",
+       "role": "Edge",
+       "team": "UTAH",
+       "opponent": "SA",
+       "home_away": "away",
+       "l10": "n/a",
+       "matchup_rank": "n/a",
+       "spread": "UTAH +16.5",
+       "total": 231.5,
+       "team_totals": {
+        "Spurs": 123.5,
+        "Jazz": 107.5
+       },
+       "pace": {
+        "home": {
+         "pace": 99.6,
+         "rank": 16,
+         "of": 30
+        },
+        "away": {
+         "pace": 99.6,
+         "rank": 17,
+         "of": 30
+        }
+       },
+       "division_game": false,
+       "national_tv": [],
+       "rest_days": 1,
+       "b2b": false,
+       "venue": "Frost Bank Center",
+       "indoor": true,
+       "teammates_out": [
+        "Jaren Jackson Jr.",
+        "Trey Alexander",
+        "Jusuf Nurkic"
+       ],
+       "opp_out": [
+        "Tobias Harris",
+        "Jayden Quaintance"
+       ],
+       "player_injury_status": "not listed",
+       "lm_without": [],
+       "lm_vs_opp": "n/a",
+       "weather": "indoor",
+       "matchup_tier": "rank n/a",
+       "matchup_pref_limit": null
+      },
+      "filters_applied": {
+       "vetoes": [],
+       "flags": [
+        "matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
+       ],
+       "matchup_rank": "n/a",
+       "matchup_tier": "rank n/a",
+       "preference_limit": 20,
+       "hard_vetoes_apply": "§20 only (questionable, NFL/NCAAF wind, MLB HR wind, goalie); volume collapse is flag-only on Edge; matchup/spread/B2B volume vetoes do not apply to Edge",
+       "applied_at": "2026-11-02 05:56 AM ET"
+      },
+      "why_from": "scout"
+     },
+     "gameday": [
+      "Volume: game line | Hit: n/a",
+      "Matchup: n/a",
+      "Context: UTAH +16.5 / O/U 231.5 | opp pace 99.6 (16th) | Away",
+      "Injuries: Jaren Jackson Jr., Trey Alexander out | Opp out: Tobias Harris, Jayden Quaintance",
+      "Weather: neutral",
+      "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
+     ],
+     "dk": {
+      "odds": "+750",
+      "na": false,
+      "edge": 0.002500513872563781
+     }
+    }
+   ]
   }
  },
  "safe100_record": {
@@ -14289,7 +14537,7 @@
    "p": 2,
    "pct": 37,
    "units": -12.24,
-   "pending": 2
+   "pending": 3
   },
   "by_sport": {
    "MLB": {
@@ -14306,7 +14554,7 @@
     "p": 0,
     "pct": 36,
     "units": -2.8,
-    "pending": 0
+    "pending": 1
    },
    "NCAAF": {
     "w": 7,
@@ -14364,7 +14612,7 @@
     "p": 0,
     "pct": 0,
     "units": -4.0,
-    "pending": 0
+    "pending": 1
    },
    "NBA game total": {
     "w": 0,
@@ -19161,6 +19409,16 @@
    "odds": "+190",
    "res": "W",
    "stat": "Win (1 G)"
+  },
+  {
+   "date": "2026-11-02",
+   "sport": "NBA",
+   "type": "Edge",
+   "prop": "NBA ML",
+   "pick": "Jazz ML",
+   "odds": "+800",
+   "res": "Pending",
+   "stat": "Pending"
   }
  ],
  "tracked_rows": [],
@@ -26722,6 +26980,22 @@
     "alt": false,
     "fam": "Goals",
     "uu": 1.9
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
+    "grp": "E",
+    "cat": "Edge",
+    "prop": "NBA ML",
+    "pick": "Jazz ML",
+    "odds": "+800",
+    "res": "",
+    "stat": "Pending",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "alt": false,
+    "fam": "ML"
    },
    {
     "date": "2026-10-18",
@@ -36123,6 +36397,24 @@
     "uu": -1.0
    },
    {
+    "date": "2026-11-01",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA pts + ast (over)",
+    "fam": "Pts+Ast",
+    "pick": "Yaxel Lendeborg o24.5 PA (game not stated; NBA play, posted as a cashed recap)",
+    "odds": "-120",
+    "res": "W",
+    "stat": "W (43 P+A)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.83
+   },
+   {
     "date": "2026-10-23",
     "sport": "NBA",
     "grp": "C",
@@ -36172,6 +36464,91 @@
     "img": null,
     "sub": "",
     "nu": true
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NFL pass yds (over)",
+    "fam": "Pass yds",
+    "pick": "Tanner McKee o203.5 passing (PHI @ WAS SNF; NFL Primetime Play)",
+    "odds": "-113",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL ML",
+    "fam": "ML",
+    "pick": "Phi +210",
+    "odds": "+210",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NCAAB",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NCAAB spread",
+    "fam": "Spread",
+    "pick": "Liberty Flames +9.5 (vs High Point; first play of the 24 hour CBB marathon)",
+    "odds": "-112",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NCAAB",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NCAAB ML",
+    "fam": "ML",
+    "pick": "Winthrop ML (opponent not stated; early morning CBB play)",
+    "odds": "+104",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL longest reception (over)",
+    "fam": "Longest reception",
+    "pick": "Rome Odunze o19.5 Longest Reception (CHI @ SEA MNF; MNF Play Of The Day, POTD)",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
    },
    {
     "date": "2026-10-25",
@@ -39845,7 +40222,7 @@
      "w": 107,
      "l": 184,
      "p": 4,
-     "pending": 0,
+     "pending": 1,
      "units": -12.23
     },
     "legs": {
@@ -39858,11 +40235,11 @@
    },
    "C": {
     "tickets": {
-     "w": 188,
+     "w": 189,
      "l": 154,
      "p": 6,
-     "pending": 3,
-     "units": -41.46,
+     "pending": 8,
+     "units": -40.63,
      "no_odds": 122
     },
     "legs": {
@@ -39920,7 +40297,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 3 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 8 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "Big 4 rows that copy a sport ticket (RULEBOOK §21, history kept): [('2026-10-27', 'Parlay +100', '+140', ['Big 4', 'NBA']), ('2026-10-28', 'Parlay +100', '+121', ['Big 4', 'NBA'])]"
@@ -40043,51 +40420,76 @@
   ]
  },
  "heist": {
-  "date": "2026-11-02",
-  "title": "THE HEIST",
-  "sub": "▼ BOUGHT DOWN · CAPPERS",
-  "stake": "1u",
+  "status": "waiting",
+  "msg": "Builds after the morning capper pull",
   "legs": [],
-  "skipped": [
-   {
-    "capper": "@alexcaruso",
-    "why": "no picks today",
-    "pick": ""
-   },
-   {
-    "capper": "@panpotd",
-    "why": "no picks today",
-    "pick": ""
-   },
+  "conv": [
    {
     "capper": "@austinsprops",
-    "why": "no picks today",
-    "pick": ""
+    "sport": "NFL",
+    "pick": "Rome Odunze o19.5 Longest Reception (CHI @ SEA MNF; MNF Play Of The Day, POTD)",
+    "odds": "-110 DK",
+    "game": "CHI @ SEA",
+    "kick": "8:15 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept (longest rush/rec never bought down)",
+    "dk": "original line kept",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-02 20:15",
+    "hr_pick": "Rome Odunze o19.5 Longest Reception",
+    "dk_pick": "Rome Odunze o19.5 Longest Reception",
+    "trk": "Rome Odunze o19.5 Longest Reception",
+    "grade_odds": -110,
+    "hr_x": null,
+    "excluded": null
    },
    {
     "capper": "@showtimepicks2",
-    "why": "no picks today",
-    "pick": ""
+    "sport": "NCAAB",
+    "pick": "Winthrop ML (opponent not stated; early morning CBB play)",
+    "odds": "+104",
+    "game": null,
+    "kick": null,
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": null,
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ML (not a prop)"
    },
    {
-    "capper": "@bigmikepickz",
-    "why": "no picks today",
-    "pick": ""
-   },
-   {
-    "capper": "@habibtings",
-    "why": "no picks today",
-    "pick": ""
+    "capper": "@showtimepicks2",
+    "sport": "NCAAB",
+    "pick": "Liberty Flames +9.5 (vs High Point; first play of the 24 hour CBB marathon)",
+    "odds": "-112",
+    "game": null,
+    "kick": null,
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": null,
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "no gradable line"
    }
-  ],
-  "status": "waiting",
-  "msg": "Builds after the morning capper pull",
-  "odds": null,
-  "orig": null,
-  "final": false,
-  "sources": [
-   "LineMate Hard Rock alt cards",
-   "HR alt rows (scored-rows)"
   ],
   "props": {
    "n": 0,
@@ -40107,20 +40509,29 @@
  },
  "gameday": {
   "date": "2026-11-02",
-  "built": "2026-11-02 06:26 ET",
-  "picks": 0,
+  "built": "2026-11-02 07:12 ET",
+  "picks": 2,
   "vetoes": [],
   "gaps": [
    "NCAAF Connecticut vs North Carolina: no ESPN event match"
   ]
  },
  "dk": {
-  "stale": true
+  "fetched": "2026-11-02 07:11 ET",
+  "snapshots": 1,
+  "pregame_games": 103,
+  "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
+  "coverage": {
+   "legs": 1,
+   "priced": 1,
+   "na": []
+  }
  },
  "late_injury": {
   "date": "2026-11-02",
-  "flags": [],
-  "note": "no late-injury check run yet today"
+  "checked_et": "2026-11-02 07:11 AM ET",
+  "stage": "7am",
+  "flags": []
  },
  "fb_legs": {
   "note": "Per-leg hit tracking only. NOT counted in the Official W-L or units (the ticket counts once at posted odds).",
@@ -40502,6 +40913,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-02 06:26 AM ET"
+  "checked_et": "2026-11-02 07:12 AM ET"
  }
 }
