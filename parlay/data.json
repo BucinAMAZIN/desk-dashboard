@@ -1,10 +1,641 @@
 {
- "generated": 1793709024.2718074,
+ "generated": 1793711184.6408117,
  "today": {
   "title": "Nov 3 picks (Hard Rock)",
-  "tickets": [],
+  "tickets": [
+   {
+    "name": "POTD",
+    "desc": "Mitch Marner Over 0.5 Assists -120",
+    "odds": "-120",
+    "stake": "—",
+    "payout": "—",
+    "status": "Pending",
+    "game": "Penguins vs. Golden Knights 07:00 PM ET",
+    "legs": [],
+    "why": "Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.4 vs 0.5 line). Usage: TOI L5 19.7 / L10 19.8 · PP TOI L5 2.5 / L10 3.7 · SAT L5 5.0 / L10 4.9 (api.nhle.com thru 11/02; as of 11/03 8:06 AM ET). Matchup: PIT 24/32 vs goals (3.4/g allowed, favorable). Context: VGK -1.5 / O/U 6.5 (VGK TT 3.5) | Away · VGK B2B. Injuries: VGK: Parker Wotherspoon (Injured Reserve) | PIT: Evgeni Malkin (Day-To-Day), Kaedan Korczak (Day-To-Day), Bryan Rust (Injured Reserve). Risk: VGK on a back-to-back.",
+    "pick": "Mitch Marner Over 0.5 Assists",
+    "why_not": "Normal variance at this line.",
+    "why_src": "Grade A. Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at O0.5, 5/5 | Matchup: Opp 10/32 vs Assists (NHL API) | Context: VGK +1.5 / O/U 6.5 | - | Away | Injuries: Parker Wotherspoon out | Opp out: Elmer Soderblom, Bryan Rust | Weather: neutral | Risk: Normal variance at this line.",
+    "ctx": {
+     "game": "Penguins vs. Golden Knights",
+     "team": "VGK",
+     "opp": "PIT",
+     "stat": "ga",
+     "opp_rank": {
+      "rank": 24,
+      "of": 32,
+      "pg": 3.4,
+      "gp": 14,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "VGK",
+     "spread": -1.5,
+     "total": 6.5,
+     "team_totals": {
+      "VGK": 3.5,
+      "PIT": 3.5
+     },
+     "home": "PIT",
+     "away": "VGK",
+     "rest": {
+      "PIT": 2,
+      "VGK": 0
+     },
+     "record": {
+      "PIT": "5-7-2",
+      "VGK": "9-5-2"
+     },
+     "start_et": "Tue 11/03 07:00 PM ET",
+     "out": {
+      "PIT": [
+       {
+        "name": "Evgeni Malkin",
+        "status": "Day-To-Day",
+        "pos": "C",
+        "date": "2026-11-02",
+        "role": "17.0 TOI"
+       },
+       {
+        "name": "Kaedan Korczak",
+        "status": "Day-To-Day",
+        "pos": "D",
+        "date": "2026-11-02",
+        "role": "18.3 TOI"
+       },
+       {
+        "name": "Bryan Rust",
+        "status": "Injured Reserve",
+        "pos": "RW",
+        "date": "2026-10-22",
+        "role": "17.4 TOI"
+       },
+       {
+        "name": "Trevor van Riemsdyk",
+        "status": "Injured Reserve",
+        "pos": "D",
+        "date": "2026-10-12",
+        "role": "18.8 TOI"
+       }
+      ],
+      "VGK": [
+       {
+        "name": "Parker Wotherspoon",
+        "status": "Injured Reserve",
+        "pos": "D",
+        "date": "2026-10-21",
+        "role": "18.3 TOI"
+       }
+      ]
+     },
+     "usage": {
+      "parts": [
+       "TOI L5 19.7 / L10 19.8",
+       "PP TOI L5 2.5 / L10 3.7",
+       "SAT L5 5.0 / L10 4.9"
+      ],
+      "src": [
+       "api.nhle.com thru 11/02"
+      ],
+      "asof": "11/03 8:06 AM ET"
+     }
+    },
+    "gameday": [
+     "Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.4 vs 0.5 line)",
+     "Usage: TOI L5 19.7 / L10 19.8 · PP TOI L5 2.5 / L10 3.7 · SAT L5 5.0 / L10 4.9 (api.nhle.com thru 11/02; as of 11/03 8:06 AM ET)",
+     "Matchup: PIT 24/32 vs goals (3.4/g allowed, favorable)",
+     "Context: VGK -1.5 / O/U 6.5 (VGK TT 3.5) | Away · VGK B2B",
+     "Injuries: VGK: Parker Wotherspoon (Injured Reserve) | PIT: Evgeni Malkin (Day-To-Day), Kaedan Korczak (Day-To-Day), Bryan Rust (Injured Reserve)",
+     "Risk: VGK on a back-to-back"
+    ]
+   },
+   {
+    "name": "+100 ticket",
+    "desc": "Nothing met the official standards, so no ticket posts (no filler).",
+    "odds": "—",
+    "stake": "—",
+    "payout": "—",
+    "status": "None",
+    "game": "",
+    "legs": [],
+    "why": null,
+    "pick": "No qualifying ticket today",
+    "none": true
+   },
+   {
+    "name": "Safe +100 / Alt Parlay",
+    "desc": "builds at the 10 AM window, not at 7 AM.",
+    "odds": "—",
+    "stake": "—",
+    "payout": "—",
+    "status": "—",
+    "game": "",
+    "legs": [],
+    "why": "Volume: n/a, game line | Hit: L10 n/a. Matchup: n/a. Context: game lines n/a. Injuries: n/a. Weather: n/a. Risk: Normal single-game variance.",
+    "pick": "builds at the 10 AM window, not at 7 AM.",
+    "why_src": null,
+    "ctx": {
+     "game": null,
+     "team": null,
+     "opp": null,
+     "stat": null,
+     "out": null
+    },
+    "gameday": [
+     "Volume: n/a, game line | Hit: L10 n/a",
+     "Matchup: n/a",
+     "Context: game lines n/a",
+     "Injuries: n/a",
+     "Weather: n/a",
+     "Risk: Normal single-game variance"
+    ]
+   }
+  ],
   "runners_up": [],
   "ncaaf": [],
+  "sports": {
+   "NFL": {
+    "potd": null,
+    "parlay": null
+   },
+   "NBA": {
+    "potd": null,
+    "parlay": null
+   },
+   "NHL": {
+    "potd": {
+     "pick": "Mitch Marner Over 0.5 Assists",
+     "odds": "-120",
+     "game": "Penguins vs. Golden Knights 07:00 PM ET",
+     "status": "Pending",
+     "why": "Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.4 vs 0.5 line). Usage: TOI L5 19.7 / L10 19.8 · PP TOI L5 2.5 / L10 3.7 · SAT L5 5.0 / L10 4.9 (api.nhle.com thru 11/02; as of 11/03 8:06 AM ET). Matchup: PIT 24/32 vs goals (3.4/g allowed, favorable). Context: VGK -1.5 / O/U 6.5 (VGK TT 3.5) | Away · VGK B2B. Injuries: VGK: Parker Wotherspoon (Injured Reserve) | PIT: Evgeni Malkin (Day-To-Day), Kaedan Korczak (Day-To-Day), Bryan Rust (Injured Reserve). Risk: VGK on a back-to-back.",
+     "desc": "Mitch Marner Over 0.5 Assists -120 — Pending",
+     "why_not": "Normal variance at this line.",
+     "why_src": "Grade A. Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at O0.5, 5/5 | Matchup: Opp 10/32 vs Assists (NHL API) | Context: VGK +1.5 / O/U 6.5 | - | Away | Injuries: Parker Wotherspoon out | Opp out: Elmer Soderblom, Bryan Rust | Weather: neutral | Risk: Normal variance at this line.",
+     "ctx": {
+      "game": "Penguins vs. Golden Knights",
+      "team": "VGK",
+      "opp": "PIT",
+      "stat": "ga",
+      "opp_rank": {
+       "rank": 24,
+       "of": 32,
+       "pg": 3.4,
+       "gp": 14,
+       "scale": "N/of, higher = more allowed (LineMate order)"
+      },
+      "fav": "VGK",
+      "spread": -1.5,
+      "total": 6.5,
+      "team_totals": {
+       "VGK": 3.5,
+       "PIT": 3.5
+      },
+      "home": "PIT",
+      "away": "VGK",
+      "rest": {
+       "PIT": 2,
+       "VGK": 0
+      },
+      "record": {
+       "PIT": "5-7-2",
+       "VGK": "9-5-2"
+      },
+      "start_et": "Tue 11/03 07:00 PM ET",
+      "out": {
+       "PIT": [
+        {
+         "name": "Evgeni Malkin",
+         "status": "Day-To-Day",
+         "pos": "C",
+         "date": "2026-11-02",
+         "role": "17.0 TOI"
+        },
+        {
+         "name": "Kaedan Korczak",
+         "status": "Day-To-Day",
+         "pos": "D",
+         "date": "2026-11-02",
+         "role": "18.3 TOI"
+        },
+        {
+         "name": "Bryan Rust",
+         "status": "Injured Reserve",
+         "pos": "RW",
+         "date": "2026-10-22",
+         "role": "17.4 TOI"
+        },
+        {
+         "name": "Trevor van Riemsdyk",
+         "status": "Injured Reserve",
+         "pos": "D",
+         "date": "2026-10-12",
+         "role": "18.8 TOI"
+        }
+       ],
+       "VGK": [
+        {
+         "name": "Parker Wotherspoon",
+         "status": "Injured Reserve",
+         "pos": "D",
+         "date": "2026-10-21",
+         "role": "18.3 TOI"
+        }
+       ]
+      },
+      "usage": {
+       "parts": [
+        "TOI L5 19.7 / L10 19.8",
+        "PP TOI L5 2.5 / L10 3.7",
+        "SAT L5 5.0 / L10 4.9"
+       ],
+       "src": [
+        "api.nhle.com thru 11/02"
+       ],
+       "asof": "11/03 8:06 AM ET"
+      }
+     },
+     "gameday": [
+      "Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.4 vs 0.5 line)",
+      "Usage: TOI L5 19.7 / L10 19.8 · PP TOI L5 2.5 / L10 3.7 · SAT L5 5.0 / L10 4.9 (api.nhle.com thru 11/02; as of 11/03 8:06 AM ET)",
+      "Matchup: PIT 24/32 vs goals (3.4/g allowed, favorable)",
+      "Context: VGK -1.5 / O/U 6.5 (VGK TT 3.5) | Away · VGK B2B",
+      "Injuries: VGK: Parker Wotherspoon (Injured Reserve) | PIT: Evgeni Malkin (Day-To-Day), Kaedan Korczak (Day-To-Day), Bryan Rust (Injured Reserve)",
+      "Risk: VGK on a back-to-back"
+     ],
+     "sport": "NHL",
+     "dk": {
+      "odds": "-115",
+      "na": false,
+      "ladder": [
+       [
+        "1+",
+        "-115"
+       ],
+       [
+        "2+",
+        "+425"
+       ]
+      ]
+     },
+     "dk_odds": "-115"
+    },
+    "parlay": {
+     "pick": "2-leg",
+     "odds": "+109",
+     "game": "1u",
+     "status": "Pending",
+     "why": null,
+     "desc": "2-leg +109 (1u) — Pending",
+     "legs": [
+      {
+       "pick": "Mitch Marner Over 0.5 Points",
+       "odds": "-225",
+       "game": "Penguins vs. Golden Knights 07:00 PM ET",
+       "status": "Pending",
+       "why": "Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.4 vs 0.5 line). Usage: TOI L5 19.7 / L10 19.8 · PP TOI L5 2.5 / L10 3.7 · SAT L5 5.0 / L10 4.9 (api.nhle.com thru 11/02; as of 11/03 8:06 AM ET). Matchup: PIT 24/32 vs goals (3.4/g allowed, favorable). Context: VGK -1.5 / O/U 6.5 (VGK TT 3.5) | Away · VGK B2B. Injuries: VGK: Parker Wotherspoon (Injured Reserve) | PIT: Evgeni Malkin (Day-To-Day), Kaedan Korczak (Day-To-Day), Bryan Rust (Injured Reserve). Risk: VGK on a back-to-back.",
+       "why_not": "Normal variance at this line.",
+       "why_src": "Grade A. Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at O0.5, 5/5 | Matchup: Opp 10/32 vs Points (NHL API) | Context: VGK +1.5 / O/U 6.5 | - | Away | Injuries: Parker Wotherspoon out | Opp out: Elmer Soderblom, Bryan Rust | Weather: neutral | Risk: Normal variance at this line.",
+       "ctx": {
+        "game": "Penguins vs. Golden Knights",
+        "team": "VGK",
+        "opp": "PIT",
+        "stat": "ga",
+        "opp_rank": {
+         "rank": 24,
+         "of": 32,
+         "pg": 3.4,
+         "gp": 14,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "VGK",
+        "spread": -1.5,
+        "total": 6.5,
+        "team_totals": {
+         "VGK": 3.5,
+         "PIT": 3.5
+        },
+        "home": "PIT",
+        "away": "VGK",
+        "rest": {
+         "PIT": 2,
+         "VGK": 0
+        },
+        "record": {
+         "PIT": "5-7-2",
+         "VGK": "9-5-2"
+        },
+        "start_et": "Tue 11/03 07:00 PM ET",
+        "out": {
+         "PIT": [
+          {
+           "name": "Evgeni Malkin",
+           "status": "Day-To-Day",
+           "pos": "C",
+           "date": "2026-11-02",
+           "role": "17.0 TOI"
+          },
+          {
+           "name": "Kaedan Korczak",
+           "status": "Day-To-Day",
+           "pos": "D",
+           "date": "2026-11-02",
+           "role": "18.3 TOI"
+          },
+          {
+           "name": "Bryan Rust",
+           "status": "Injured Reserve",
+           "pos": "RW",
+           "date": "2026-10-22",
+           "role": "17.4 TOI"
+          },
+          {
+           "name": "Trevor van Riemsdyk",
+           "status": "Injured Reserve",
+           "pos": "D",
+           "date": "2026-10-12",
+           "role": "18.8 TOI"
+          }
+         ],
+         "VGK": [
+          {
+           "name": "Parker Wotherspoon",
+           "status": "Injured Reserve",
+           "pos": "D",
+           "date": "2026-10-21",
+           "role": "18.3 TOI"
+          }
+         ]
+        },
+        "usage": {
+         "parts": [
+          "TOI L5 19.7 / L10 19.8",
+          "PP TOI L5 2.5 / L10 3.7",
+          "SAT L5 5.0 / L10 4.9"
+         ],
+         "src": [
+          "api.nhle.com thru 11/02"
+         ],
+         "asof": "11/03 8:06 AM ET"
+        }
+       },
+       "gameday": [
+        "Volume: L10 TOI 19.8 avg (L3 18.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.4 vs 0.5 line)",
+        "Usage: TOI L5 19.7 / L10 19.8 · PP TOI L5 2.5 / L10 3.7 · SAT L5 5.0 / L10 4.9 (api.nhle.com thru 11/02; as of 11/03 8:06 AM ET)",
+        "Matchup: PIT 24/32 vs goals (3.4/g allowed, favorable)",
+        "Context: VGK -1.5 / O/U 6.5 (VGK TT 3.5) | Away · VGK B2B",
+        "Injuries: VGK: Parker Wotherspoon (Injured Reserve) | PIT: Evgeni Malkin (Day-To-Day), Kaedan Korczak (Day-To-Day), Bryan Rust (Injured Reserve)",
+        "Risk: VGK on a back-to-back"
+       ],
+       "dk": {
+        "odds": "-200",
+        "na": false,
+        "ladder": [
+         [
+          "1+",
+          "-200"
+         ],
+         [
+          "2+",
+          "+235"
+         ],
+         [
+          "3+",
+          "+800"
+         ]
+        ]
+       }
+      },
+      {
+       "pick": "Lucas Raymond Over 1.5 Shots On Goal",
+       "odds": "-225",
+       "game": "Lightning vs. Red Wings 07:00 PM ET",
+       "status": "Pending",
+       "why": "Volume: L10 TOI 20.1 avg (L3 18.8 vs L10 19.8 TOI) | Hit: 9/10 at line, 5/5 (L10 avg 2.8 vs 1.5 line). Usage: TOI L5 19.7 / L10 20.1 · PP TOI L5 3.1 / L10 3.5 · SAT L5 7.0 / L10 6.8 (api.nhle.com thru 11/02; as of 11/03 8:06 AM ET). Matchup: Opp G Andrei Vasilevskiy 0.876 SV% 18/64 (weak half, passes) · goalie unconfirmed | shots-allowed: TBL 7 of 32 vs SOG (24.9 of g allowed, unfavorable) (display only). Context: TBL -1.5 / O/U 6.5 (DET TT 2.5) | Away · DET B2B. Injuries: DET: Albert Johansson (Out), Dylan Larkin (Injured Reserve) | TBL: Erik Cernak (Day-To-Day). Risk: DET on a back-to-back.",
+       "why_not": "goalie unconfirmed (Andrei Vasilevskiy, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
+       "why_src": "Grade A. Volume: L10 TOI 20.1 avg (L3 18.8 vs L10 19.8 TOI) | Hit: 9/10 at O1.5, 5/5 | Matchup: Opp G Andrei Vasilevskiy 0.876 SV% 18/64 (weak half, passes) · goalie unconfirmed | shots-allowed 26 of 32 vs Shots On Goal (NHL API) (display only) | Context: DET +1.5 / O/U 6.5 | - | Away · Div | Injuries: Albert Johansson, Dylan Larkin out | Opp out: Zemgus Girgensons, Yanni Gourde | Weather: neutral | Risk: goalie unconfirmed (Andrei Vasilevskiy, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
+       "ctx": {
+        "game": "Lightning vs. Red Wings",
+        "team": "DET",
+        "opp": "TBL",
+        "stat": "sog",
+        "goalie_check": {
+         "goalie": "Andrei Vasilevskiy",
+         "svpct": 0.8765,
+         "sa": 243,
+         "gp": 10,
+         "rank": 18,
+         "of": 64,
+         "pctl": 0.734,
+         "half": "weak",
+         "ok": true,
+         "status": "probable",
+         "unconfirmed": true,
+         "source": "DailyFaceoff starting goalies (live pull)",
+         "dfo_status": "projected",
+         "opp": "TBL",
+         "text": "Opp G Andrei Vasilevskiy 0.876 SV% 18/64 (weak half, passes) · goalie unconfirmed"
+        },
+        "opp_rank_display_only": {
+         "rank": 7,
+         "of": 32,
+         "pg": 24.9,
+         "gp": 13,
+         "scale": "N/of, higher = more allowed (LineMate order)"
+        },
+        "fav": "TBL",
+        "spread": -1.5,
+        "total": 6.5,
+        "team_totals": {
+         "DET": 2.5,
+         "TBL": 3.5
+        },
+        "home": "TBL",
+        "away": "DET",
+        "rest": {
+         "TBL": 2,
+         "DET": 0
+        },
+        "record": {
+         "TBL": "8-3-2",
+         "DET": "7-5-3"
+        },
+        "start_et": "Tue 11/03 07:00 PM ET",
+        "out": {
+         "TBL": [
+          {
+           "name": "Erik Cernak",
+           "status": "Day-To-Day",
+           "pos": "D",
+           "date": "2026-11-01",
+           "role": "19.0 TOI"
+          }
+         ],
+         "DET": [
+          {
+           "name": "Albert Johansson",
+           "status": "Out",
+           "pos": "D",
+           "date": "2026-11-02",
+           "role": "15.7 TOI"
+          },
+          {
+           "name": "Dylan Larkin",
+           "status": "Injured Reserve",
+           "pos": "C",
+           "date": "2026-10-31",
+           "role": "21.7 TOI"
+          }
+         ]
+        },
+        "usage": {
+         "parts": [
+          "TOI L5 19.7 / L10 20.1",
+          "PP TOI L5 3.1 / L10 3.5",
+          "SAT L5 7.0 / L10 6.8"
+         ],
+         "src": [
+          "api.nhle.com thru 11/02"
+         ],
+         "asof": "11/03 8:06 AM ET"
+        }
+       },
+       "gameday": [
+        "Volume: L10 TOI 20.1 avg (L3 18.8 vs L10 19.8 TOI) | Hit: 9/10 at line, 5/5 (L10 avg 2.8 vs 1.5 line)",
+        "Usage: TOI L5 19.7 / L10 20.1 · PP TOI L5 3.1 / L10 3.5 · SAT L5 7.0 / L10 6.8 (api.nhle.com thru 11/02; as of 11/03 8:06 AM ET)",
+        "Matchup: Opp G Andrei Vasilevskiy 0.876 SV% 18/64 (weak half, passes) · goalie unconfirmed | shots-allowed: TBL 7 of 32 vs SOG (24.9 of g allowed, unfavorable) (display only)",
+        "Context: TBL -1.5 / O/U 6.5 (DET TT 2.5) | Away · DET B2B",
+        "Injuries: DET: Albert Johansson (Out), Dylan Larkin (Injured Reserve) | TBL: Erik Cernak (Day-To-Day)",
+        "Risk: DET on a back-to-back"
+       ],
+       "dk": {
+        "odds": "-270",
+        "na": false,
+        "ladder": [
+         [
+          "1+",
+          "-1200"
+         ],
+         [
+          "2+",
+          "-270"
+         ],
+         [
+          "3+",
+          "+100"
+         ],
+         [
+          "4+",
+          "+240"
+         ],
+         [
+          "5+",
+          "+550"
+         ],
+         [
+          "6+",
+          "+1200"
+         ]
+        ]
+       }
+      }
+     ],
+     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "sport": "NHL",
+     "dk_odds": "+106"
+    }
+   },
+   "WNBA": {
+    "potd": null,
+    "parlay": null
+   },
+   "MLB": {
+    "potd": null,
+    "parlay": null
+   },
+   "NCAA F": {
+    "potd": null,
+    "parlay": null
+   },
+   "NASCAR": {
+    "potd": null,
+    "parlay": null
+   },
+   "ALL": {
+    "potd": {
+     "pick": "Jackson LaCombe Over 0.5 Assists",
+     "odds": "-130",
+     "game": "Canucks vs. Ducks 09:00 PM ET",
+     "status": "Pending",
+     "why": "Volume: L10 TOI 26.0 avg (L3 27.8 vs L10 26 TOI) | Hit: 7/10 at line, 5/5 (L10 avg 0.7 vs 0.5 line). Matchup: VAN 32/32 vs goals (4.5/g allowed, favorable). Context: ANA -1.5 / O/U 6.5 (ANA TT 3.5) | Away. Injuries: ANA: none | VAN: Filip Chytil (Injured Reserve), Thatcher Demko (Injured Reserve). Risk: Hit 7 of the last 10 games, so it misses about 3 in 10.",
+     "desc": "Jackson LaCombe Over 0.5 Assists -130 — Pending",
+     "why_not": null,
+     "why_src": "Volume: L10 TOI 26.0 avg (L3 27.8 vs L10 26 TOI) | Hit: 7/10 at O0.5, 5/5 | Matchup: Opp 1/32 vs Assists | Context: ANA -1.5 / O/U 6.5 | - | Away · Div | Injuries: A.J. Greer, Troy Terry out (w/o Ryan Poehling: 6/6) | Opp out: Filip Chytil, Akil Thomas | Weather: neutral | Risk: n/a",
+     "ctx": {
+      "game": "Canucks vs. Ducks",
+      "team": "ANA",
+      "opp": "VAN",
+      "stat": "ga",
+      "opp_rank": {
+       "rank": 32,
+       "of": 32,
+       "pg": 4.5,
+       "gp": 16,
+       "scale": "N/of, higher = more allowed (LineMate order)"
+      },
+      "fav": "ANA",
+      "spread": -1.5,
+      "total": 6.5,
+      "team_totals": {
+       "ANA": 3.5,
+       "VAN": 3.5
+      },
+      "home": "VAN",
+      "away": "ANA",
+      "rest": {
+       "VAN": 2,
+       "ANA": 1
+      },
+      "record": {
+       "VAN": "3-12-1",
+       "ANA": "6-7-1"
+      },
+      "start_et": "Tue 11/03 09:00 PM ET",
+      "out": {
+       "VAN": [
+        {
+         "name": "Filip Chytil",
+         "status": "Injured Reserve",
+         "pos": "C",
+         "date": "2026-10-30",
+         "role": "19.9 TOI"
+        },
+        {
+         "name": "Thatcher Demko",
+         "status": "Injured Reserve",
+         "pos": "G",
+         "date": "2026-09-28"
+        }
+       ],
+       "ANA": []
+      }
+     },
+     "gameday": [
+      "Volume: L10 TOI 26.0 avg (L3 27.8 vs L10 26 TOI) | Hit: 7/10 at line, 5/5 (L10 avg 0.7 vs 0.5 line)",
+      "Matchup: VAN 32/32 vs goals (4.5/g allowed, favorable)",
+      "Context: ANA -1.5 / O/U 6.5 (ANA TT 3.5) | Away",
+      "Injuries: ANA: none | VAN: Filip Chytil (Injured Reserve), Thatcher Demko (Injured Reserve)",
+      "Risk: Hit 7 of the last 10 games, so it misses about 3 in 10"
+     ],
+     "sport": null,
+     "dk": {
+      "odds": null,
+      "na": true
+     },
+     "dk_odds": null
+    },
+    "parlay": null
+   }
+  },
   "date": "2026-11-03"
  },
  "results": {
@@ -1720,7 +2351,7 @@
     "p": 0,
     "pct": 37
    },
-   "pending": 31
+   "pending": 34
   },
   "props": [
    {
@@ -4587,6 +5218,27 @@
     "odds": "+210",
     "result": "L",
     "detail": "Loss (BUF 33-30 LV)"
+   },
+   {
+    "date": "2026-11-03",
+    "pick": "NHL · POTD: Jackson LaCombe Over 0.5 Assists",
+    "odds": "-130",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-03",
+    "pick": "NHL · Parlay: 2-leg",
+    "odds": "+109",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-03",
+    "pick": "NHL · POTD: Mitch Marner Over 0.5 Assists",
+    "odds": "-120",
+    "result": "Pending",
+    "detail": "—"
    },
    {
     "date": "2026-11-02",
@@ -7622,6 +8274,18 @@
     "stat": "7 REB",
     "counted_elsewhere": "NBA POTD",
     "note": "counted on NBA POTD"
+   },
+   {
+    "date": "2026-11-03",
+    "sport": "NHL",
+    "type": "POTD",
+    "prop": "NHL assists",
+    "pick": "Mitch Marner Over 0.5 Assists",
+    "odds": "-120",
+    "res": "Pending",
+    "stat": "—",
+    "counted_elsewhere": "NHL POTD",
+    "note": "counted on NHL POTD"
    }
   ]
  },
@@ -8496,7 +9160,7 @@
  "capper_today_date": "2026-11-03",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-03 07:30 AM ET",
+  "updated": "2026-11-03 08:06 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -11593,7 +12257,7 @@
     "w": 39,
     "l": 49,
     "p": 1,
-    "pending": 10,
+    "pending": 13,
     "units": -12.2
    }
   },
@@ -33570,6 +34234,36 @@
    "stat": "24 PRA"
   },
   {
+   "date": "2026-11-03",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL assists",
+   "pick": "Mitch Marner Over 0.5 Assists",
+   "odds": "-120",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-03",
+   "sport": "NHL",
+   "type": "Parlay",
+   "prop": "NHL parlay",
+   "pick": "2-leg",
+   "odds": "+109",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-03",
+   "sport": "NHL",
+   "type": "POTD",
+   "prop": "NHL assists",
+   "pick": "Jackson LaCombe Over 0.5 Assists",
+   "odds": "-130",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
    "date": "2026-10-18",
    "sport": "NFL",
    "type": "Edge",
@@ -42378,6 +43072,66 @@
     "alt": false,
     "fam": "PRA",
     "uu": 0.9524
+   },
+   {
+    "date": "2026-11-03",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NHL assists",
+    "pick": "Mitch Marner Over 0.5 Assists",
+    "odds": "-120",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Assists"
+   },
+   {
+    "date": "2026-11-03",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NHL parlay",
+    "pick": "2-leg",
+    "odds": "+109",
+    "res": "",
+    "stat": "—",
+    "sub": "Mitch Marner Over 0.5 Points + Lucas Raymond Over 1.5 Shots On Goal",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Mitch Marner Over 0.5 Points",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Lucas Raymond Over 1.5 Shots On Goal",
+      "result": null,
+      "stat": ""
+     }
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "POTD",
+    "prop": "NHL assists",
+    "pick": "Jackson LaCombe Over 0.5 Assists",
+    "odds": "-130",
+    "res": "",
+    "stat": "—",
+    "sub": "",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Assists"
    },
    {
     "date": "2026-10-18",
@@ -62424,7 +63178,7 @@
      "w": 164,
      "l": 149,
      "p": 6,
-     "pending": 11,
+     "pending": 14,
      "units": -16.91
     },
     "legs": {
@@ -62699,8 +63453,8 @@
  },
  "gameday": {
   "date": "2026-11-03",
-  "built": "2026-11-03 07:30 ET",
-  "picks": 72,
+  "built": "2026-11-03 08:06 ET",
+  "picks": 78,
   "vetoes": [],
   "gaps": [
    "NCAAF Connecticut vs North Carolina: no ESPN event match"
@@ -62712,14 +63466,15 @@
   "pregame_games": 99,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 41,
-   "priced": 36,
+   "legs": 45,
+   "priced": 39,
    "na": [
     "Edge Jordan Kyrou Over 0.5 Goals",
     "Edge Jakob Chychrun Over 0.5 Goals",
     "Edge Matvei Michkov Over 0.5 Goals",
     "Edge Ivan Barbashev Over 0.5 Goals",
-    "Edge William Nylander Over 0.5 Goals"
+    "Edge William Nylander Over 0.5 Goals",
+    "Jackson LaCombe Over 0.5 Assists"
    ]
   }
  },
@@ -63261,14 +64016,14 @@
  },
  "teamvs": {
   "date": "2026-11-03",
-  "built": "2026-11-03 07:15 AM ET",
+  "built": "2026-11-03 08:06 AM ET",
   "preview": false,
   "sports": {
    "NFL": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 07:15 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 08:06 AM ET",
     "none": "No NFL games today (ESPN scoreboard 2026-11-03)."
    },
    "NCAA F": {
@@ -63382,7 +64137,7 @@
          },
          "yds_o": {
           "val": 346.857,
-          "rank": 91,
+          "rank": 92,
           "n": 138
          },
          "pts_d": {
@@ -63407,7 +64162,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/points-per-game",
-      "as_of": "2026-11-03 07:15 AM ET",
+      "as_of": "2026-11-03 08:06 AM ET",
       "n": 138,
       "engine": false
      },
@@ -63417,7 +64172,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/yards-per-game",
-      "as_of": "2026-11-03 07:15 AM ET",
+      "as_of": "2026-11-03 08:06 AM ET",
       "n": 138,
       "engine": false
      },
@@ -63427,7 +64182,7 @@
       "side": "def",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/opponent-points-per-game",
-      "as_of": "2026-11-03 07:15 AM ET",
+      "as_of": "2026-11-03 08:06 AM ET",
       "n": 138,
       "engine": false
      },
@@ -63443,13 +64198,13 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 07:15 AM ET"
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 08:06 AM ET"
    },
    "NBA": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 07:15 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 08:06 AM ET",
     "none": "No NBA games today (ESPN scoreboard 2026-11-03)."
    },
    "NHL": {
@@ -64155,7 +64910,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-03 07:15 AM ET",
+      "as_of": "2026-11-03 08:06 AM ET",
       "n": 32,
       "engine": false
      },
@@ -64175,7 +64930,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-03 07:15 AM ET",
+      "as_of": "2026-11-03 08:06 AM ET",
       "n": 32,
       "engine": false
      },
@@ -64191,13 +64946,13 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 07:15 AM ET"
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 08:06 AM ET"
    },
    "MLB": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 07:15 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 08:06 AM ET",
     "none": "No MLB games today (ESPN scoreboard 2026-11-03)."
    },
    "WNBA": {
@@ -64213,6 +64968,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-03 07:30 AM ET"
+  "checked_et": "2026-11-03 08:06 AM ET"
  }
 }
