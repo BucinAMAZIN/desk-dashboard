@@ -1,5 +1,5 @@
 {
- "generated": 1793711184.6408117,
+ "generated": 1793712590.3035388,
  "today": {
   "title": "Nov 3 picks (Hard Rock)",
   "tickets": [
@@ -110,16 +110,205 @@
    },
    {
     "name": "+100 ticket",
-    "desc": "Nothing met the official standards, so no ticket posts (no filler).",
-    "odds": "—",
+    "desc": "2-leg +117 (1u)",
+    "odds": "+117",
     "stake": "—",
     "payout": "—",
-    "status": "None",
+    "status": "Pending",
     "game": "",
-    "legs": [],
+    "legs": [
+     {
+      "pick": "Evan Bouchard Over 0.5 Assists",
+      "odds": "-145",
+      "game": "Devils vs. Oilers 07:30 PM ET",
+      "status": "Pending",
+      "why": "Volume: L10 TOI 26.4 avg (L3 26.4 vs L10 25.2 TOI) | Hit: 9/10 at line, 4/5 (L10 avg 1.2 vs 0.5 line). Usage: TOI L5 25.5 / L10 26.4 · PP TOI L5 4.6 / L10 3.9 · SAT L5 7.0 / L10 7.0 (api.nhle.com thru 11/01; as of 11/03 8:29 AM ET). Matchup: NJD 6/32 vs goals (2.9/g allowed, unfavorable). Context: NJD -1.5 / O/U 6.5 (EDM TT 2.5) | Away. Injuries: EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve) | NJD: Evan Rodrigues (Day-To-Day). Risk: Tough matchup: NJD 6/32 vs goals.",
+      "why_not": "Normal variance at this line.",
+      "why_src": "Grade A. Volume: L10 TOI 26.4 avg (L3 26.4 vs L10 25.2 TOI) | Hit: 9/10 at O0.5, 4/5 | Matchup: Opp 3/32 vs Assists | Context: EDM +1.5 / O/U 6.5 | - | Away | Injuries: Zach Hyman, Devon Levi out (w/o Zach Hyman: 7/7) | Opp out: Seamus Casey | Weather: neutral | Risk: Normal variance at this line.",
+      "ctx": {
+       "game": "Devils vs. Oilers",
+       "team": "EDM",
+       "opp": "NJD",
+       "stat": "ga",
+       "opp_rank": {
+        "rank": 6,
+        "of": 32,
+        "pg": 2.9,
+        "gp": 14,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "NJD",
+       "spread": -1.5,
+       "total": 6.5,
+       "team_totals": {
+        "EDM": 2.5,
+        "NJD": 3.5
+       },
+       "home": "NJD",
+       "away": "EDM",
+       "rest": {
+        "NJD": 3,
+        "EDM": 1
+       },
+       "record": {
+        "NJD": "9-5-0",
+        "EDM": "11-2-2"
+       },
+       "start_et": "Tue 11/03 07:30 PM ET",
+       "out": {
+        "NJD": [
+         {
+          "name": "Evan Rodrigues",
+          "status": "Day-To-Day",
+          "pos": "C",
+          "date": "2026-11-02",
+          "role": "15.6 TOI"
+         }
+        ],
+        "EDM": [
+         {
+          "name": "Zach Hyman",
+          "status": "Injured Reserve",
+          "pos": "LW",
+          "date": "2026-10-28",
+          "role": "17.9 TOI"
+         },
+         {
+          "name": "Devon Levi",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-24"
+         },
+         {
+          "name": "Frederik Andersen",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-09-29"
+         }
+        ]
+       },
+       "usage": {
+        "parts": [
+         "TOI L5 25.5 / L10 26.4",
+         "PP TOI L5 4.6 / L10 3.9",
+         "SAT L5 7.0 / L10 7.0"
+        ],
+        "src": [
+         "api.nhle.com thru 11/01"
+        ],
+        "asof": "11/03 8:29 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: L10 TOI 26.4 avg (L3 26.4 vs L10 25.2 TOI) | Hit: 9/10 at line, 4/5 (L10 avg 1.2 vs 0.5 line)",
+       "Usage: TOI L5 25.5 / L10 26.4 · PP TOI L5 4.6 / L10 3.9 · SAT L5 7.0 / L10 7.0 (api.nhle.com thru 11/01; as of 11/03 8:29 AM ET)",
+       "Matchup: NJD 6/32 vs goals (2.9/g allowed, unfavorable)",
+       "Context: NJD -1.5 / O/U 6.5 (EDM TT 2.5) | Away",
+       "Injuries: EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve) | NJD: Evan Rodrigues (Day-To-Day)",
+       "Risk: Tough matchup: NJD 6/32 vs goals"
+      ],
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     },
+     {
+      "pick": "Cale Makar Over 1.5 Shots On Goal",
+      "odds": "-350",
+      "game": "Blue Jackets vs. Avalanche 07:00 PM ET",
+      "status": "Pending",
+      "why": "Volume: L10 TOI 23.1 avg (L3 24.4 vs L10 23.7 TOI) | Hit: 9/10 at line, 4/5 (L10 avg 2.9 vs 1.5 line). Usage: TOI L5 23.5 / L10 23.1 · PP TOI L5 4.5 / L10 4.5 · SAT L5 6.4 / L10 6.6 (api.nhle.com thru 11/02; as of 11/03 8:29 AM ET). Matchup: Opp G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed | shots-allowed: CBJ 14 of 32 vs SOG (27.1 of g allowed, neutral) (display only). Context: COL -1.5 / O/U 6.5 (COL TT 3.5) | Away · COL B2B. Injuries: COL: Josh Manson (Out) | CBJ: none. Risk: COL on a back-to-back.",
+      "why_not": "goalie unconfirmed (Jet Greaves, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
+      "why_src": "Grade A. Volume: L10 TOI 23.1 avg (L3 24.4 vs L10 23.7 TOI) | Hit: 9/10 at O1.5, 4/5 | Matchup: Opp G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed | shots-allowed 19 of 32 vs Shots On Goal (NHL API) (display only) | Context: COL -1.5 / O/U 6.5 | - | Away | Injuries: Josh Manson, Zachary L'Heureux out | none | Weather: neutral | Risk: goalie unconfirmed (Jet Greaves, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
+      "ctx": {
+       "game": "Blue Jackets vs. Avalanche",
+       "team": "COL",
+       "opp": "CBJ",
+       "stat": "sog",
+       "goalie_check": {
+        "goalie": "Jet Greaves",
+        "svpct": 0.8833,
+        "sa": 180,
+        "gp": 8,
+        "rank": 23,
+        "of": 64,
+        "pctl": 0.656,
+        "half": "weak",
+        "ok": true,
+        "status": "probable",
+        "unconfirmed": true,
+        "source": "DailyFaceoff starting goalies (live pull)",
+        "dfo_status": "projected",
+        "opp": "CBJ",
+        "text": "Opp G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed"
+       },
+       "opp_rank_display_only": {
+        "rank": 14,
+        "of": 32,
+        "pg": 27.1,
+        "gp": 12,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "COL",
+       "spread": -1.5,
+       "total": 6.5,
+       "team_totals": {
+        "COL": 3.5,
+        "CBJ": 2.5
+       },
+       "home": "CBJ",
+       "away": "COL",
+       "rest": {
+        "CBJ": 2,
+        "COL": 0
+       },
+       "record": {
+        "CBJ": "5-7-0",
+        "COL": "9-5-1"
+       },
+       "start_et": "Tue 11/03 07:00 PM ET",
+       "out": {
+        "CBJ": [],
+        "COL": [
+         {
+          "name": "Josh Manson",
+          "status": "Out",
+          "pos": "D",
+          "date": "2026-10-30",
+          "role": "15.0 TOI"
+         }
+        ]
+       },
+       "usage": {
+        "parts": [
+         "TOI L5 23.5 / L10 23.1",
+         "PP TOI L5 4.5 / L10 4.5",
+         "SAT L5 6.4 / L10 6.6"
+        ],
+        "src": [
+         "api.nhle.com thru 11/02"
+        ],
+        "asof": "11/03 8:29 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: L10 TOI 23.1 avg (L3 24.4 vs L10 23.7 TOI) | Hit: 9/10 at line, 4/5 (L10 avg 2.9 vs 1.5 line)",
+       "Usage: TOI L5 23.5 / L10 23.1 · PP TOI L5 4.5 / L10 4.5 · SAT L5 6.4 / L10 6.6 (api.nhle.com thru 11/02; as of 11/03 8:29 AM ET)",
+       "Matchup: Opp G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed | shots-allowed: CBJ 14 of 32 vs SOG (27.1 of g allowed, neutral) (display only)",
+       "Context: COL -1.5 / O/U 6.5 (COL TT 3.5) | Away · COL B2B",
+       "Injuries: COL: Josh Manson (Out) | CBJ: none",
+       "Risk: COL on a back-to-back"
+      ],
+      "dk": {
+       "odds": null,
+       "na": true
+      }
+     }
+    ],
     "why": null,
-    "pick": "No qualifying ticket today",
-    "none": true
+    "pick": "2-leg +117 (1u)",
+    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+    "dk_odds": null
    },
    {
     "name": "Safe +100 / Alt Parlay",
@@ -2351,7 +2540,7 @@
     "p": 0,
     "pct": 37
    },
-   "pending": 34
+   "pending": 35
   },
   "props": [
    {
@@ -5237,6 +5426,13 @@
     "date": "2026-11-03",
     "pick": "NHL · POTD: Mitch Marner Over 0.5 Assists",
     "odds": "-120",
+    "result": "Pending",
+    "detail": "—"
+   },
+   {
+    "date": "2026-11-03",
+    "pick": "BIG 4 · Parlay: 2-leg",
+    "odds": "+117",
     "result": "Pending",
     "detail": "—"
    },
@@ -9160,7 +9356,7 @@
  "capper_today_date": "2026-11-03",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-03 08:06 AM ET",
+  "updated": "2026-11-03 08:29 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -12256,7 +12452,7 @@
    "tickets": {
     "w": 39,
     "l": 49,
-    "p": 1,
+    "p": 2,
     "pending": 13,
     "units": -12.2
    }
@@ -12411,7 +12607,7 @@
     "w": 10,
     "l": 19,
     "p": 0,
-    "pending": 0,
+    "pending": 1,
     "units": -7.16
    }
   }
@@ -34235,6 +34431,16 @@
   },
   {
    "date": "2026-11-03",
+   "sport": "BIG 4",
+   "type": "Parlay",
+   "prop": "Big 4 parlay",
+   "pick": "2-leg",
+   "odds": "+117",
+   "res": "Pending",
+   "stat": "—"
+  },
+  {
+   "date": "2026-11-03",
    "sport": "NHL",
    "type": "POTD",
    "prop": "NHL assists",
@@ -38081,282 +38287,9 @@
     "prop": "Over 2.5 Shots On Goal",
     "odds": "-115",
     "alt": false,
-    "status": "pending",
-    "res": "",
-    "stat": "",
-    "why_src": null,
-    "why_not": "goalie unconfirmed (Jet Greaves, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
-    "why": "Volume: L10 TOI 23.1 avg (L3 24.4 vs L10 23.7 TOI) | Hit: 6/10 at O2.5, 3/5 (L10 avg 2.9 vs 2.5 line). Matchup: CBJ G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed | shots-allowed 19 of 32 vs Shots On Goal (NHL API) (display only). Context: COL -1.5 / O/U 6.5 | - | Away. Injuries: Josh Manson, Zachary L'Heureux out (w/o Zachary L'Heureux: 5/6) | none. Risk: goalie unconfirmed (Jet Greaves, DailyFaceoff starting goalies (live pull)): flag only, never blocks.",
-    "ctx": {
-     "game": "Blue Jackets vs. Avalanche",
-     "team": "COL",
-     "opp": "CBJ",
-     "stat": "sog",
-     "goalie_check": {
-      "goalie": "Jet Greaves",
-      "svpct": 0.8833,
-      "sa": 180,
-      "gp": 8,
-      "rank": 23,
-      "of": 64,
-      "pctl": 0.656,
-      "half": "weak",
-      "ok": true,
-      "status": "probable",
-      "unconfirmed": true,
-      "source": "DailyFaceoff starting goalies (live pull)",
-      "dfo_status": "projected",
-      "opp": "CBJ",
-      "text": "Opp G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed"
-     },
-     "opp_rank_display_only": {
-      "rank": 14,
-      "of": 32,
-      "pg": 27.1,
-      "gp": 12,
-      "scale": "N/of, higher = more allowed (LineMate order)"
-     },
-     "fav": "COL",
-     "spread": -1.5,
-     "total": 6.5,
-     "team_totals": {
-      "COL": 3.5,
-      "CBJ": 2.5
-     },
-     "home": "CBJ",
-     "away": "COL",
-     "rest": {
-      "CBJ": 2,
-      "COL": 0
-     },
-     "record": {
-      "CBJ": "5-7-0",
-      "COL": "9-5-1"
-     },
-     "start_et": "Tue 11/03 07:00 PM ET",
-     "out": {
-      "CBJ": [],
-      "COL": [
-       {
-        "name": "Josh Manson",
-        "status": "Out",
-        "pos": "D",
-        "date": "2026-10-30",
-        "role": "15.0 TOI"
-       }
-      ]
-     },
-     "game_day": {
-      "sport": "NHL",
-      "game": "Blue Jackets vs. Avalanche",
-      "role": "LEG DAY",
-      "team": "COL",
-      "opponent": "CBJ",
-      "home_away": "away",
-      "identity": {
-       "athlete_id": "8480069",
-       "team": "COL",
-       "how": "game-team roster (id + team)",
-       "reason": null
-      },
-      "l10_toi": 23.07,
-      "l10": {
-       "hits": 6,
-       "n": 10,
-       "l5_hits": 3,
-       "l5_n": 5,
-       "season_hits": 8,
-       "season_n": 14
-      },
-      "volume_collapse": {
-       "status": "ok",
-       "volume_stat": "TOI",
-       "blowout_margin": 4,
-       "blowout_source": "user default (4+ goals)",
-       "floor": [
-        "TOI",
-        17
-       ],
-       "floor_source": "§16: 17+ TOI",
-       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-       "excluded_games": [
-        {
-         "date": "2026-10-25",
-         "opp": "NSH",
-         "v": 23.3,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-14",
-         "opp": "DAL",
-         "v": 22.9,
-         "excluded_for": "OT/extra innings"
-        },
-        {
-         "date": "2026-10-08",
-         "opp": "CGY",
-         "v": 22.3,
-         "excluded_for": "blowout (margin 4)"
-        },
-        {
-         "date": "2026-10-03",
-         "opp": "STL",
-         "v": 20.1,
-         "excluded_for": "blowout (margin 5)"
-        },
-        {
-         "date": "2026-09-30",
-         "opp": "LAK",
-         "v": 18.2,
-         "excluded_for": "blowout (margin 4)"
-        }
-       ],
-       "unknown_margin_or_ot": 0,
-       "l3": [
-        23.0,
-        24.4,
-        25.9
-       ],
-       "l3_avg": 24.4,
-       "l10_avg": 23.7,
-       "l10_n": 10,
-       "drop_pct": -3.0,
-       "last_game": {
-        "date": "2026-11-02",
-        "opp": "CHI",
-        "v": 23.0,
-        "spot": null
-       },
-       "possible_exit_games": [],
-       "reason": "no collapse"
-      },
-      "matchup": {
-       "normalized": 23,
-       "of": 64,
-       "direction": "1 = lowest save % in the league pool (best for an over)",
-       "source": "goalie save % (ESPN box scores, games before the pick date)",
-       "stat": "sog",
-       "basis": "goalie",
-       "goalie_check": {
-        "goalie": "Jet Greaves",
-        "svpct": 0.8833,
-        "sa": 180,
-        "gp": 8,
-        "rank": 23,
-        "of": 64,
-        "pctl": 0.656,
-        "half": "weak",
-        "ok": true,
-        "status": "probable",
-        "unconfirmed": true,
-        "source": "DailyFaceoff starting goalies (live pull)",
-        "dfo_status": "projected",
-        "opp": "CBJ",
-        "text": "Opp G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed"
-       },
-       "shots_allowed_display_only": {
-        "raw_opp_rank": 14,
-        "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
-        "direction": "normalized 1 = best for the side taken",
-        "normalized": 19,
-        "of": 32,
-        "source": "nhl-api",
-        "stat": "sog",
-        "linemate": null,
-        "linemate_null_reason": "no Trends card for this player carries a rank line for opponent CBJ + stat 'Shots on Goal' + side Over; opponent-defensive-rank table has 1 rows",
-        "fallback": {
-         "value": 27.08333,
-         "raw": 14,
-         "of": 32,
-         "source": "nhl-api",
-         "source_rank": null,
-         "source_team": "Columbus Blue Jackets",
-         "source_rank_direction": "api gives values only; ranked here",
-         "mapping": "shots against/gm",
-         "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-         "fetched_at": "2026-11-03 01:39 AM ET"
-        },
-        "fallback_source": {
-         "file": "/workspace/scout/ranks/NHL-2026-11-03.json",
-         "source": "nhl-api",
-         "fetched_at": "2026-11-03 01:39 AM ET",
-         "failures": {},
-         "myspariedge": null,
-         "fantasyteamadvice": null
-        },
-        "source_rank": null,
-        "source_rank_direction": "api gives values only; ranked here"
-       }
-      },
-      "matchup_rank": 23,
-      "goalie_check": {
-       "goalie": "Jet Greaves",
-       "svpct": 0.8833,
-       "sa": 180,
-       "gp": 8,
-       "rank": 23,
-       "of": 64,
-       "pctl": 0.656,
-       "half": "weak",
-       "ok": true,
-       "status": "probable",
-       "unconfirmed": true,
-       "source": "DailyFaceoff starting goalies (live pull)",
-       "dfo_status": "projected",
-       "opp": "CBJ",
-       "text": "Opp G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed"
-      },
-      "spread": "COL -1.5",
-      "total": 6.5,
-      "team_totals": {
-       "Avalanche": 3.5,
-       "Blue Jackets": 2.5
-      },
-      "pace": "-",
-      "division_game": false,
-      "national_tv": [],
-      "rest_days": 0,
-      "b2b": true,
-      "venue": "Nationwide Arena",
-      "indoor": true,
-      "teammates_out": [
-       "Josh Manson",
-       "Zachary L'Heureux"
-      ],
-      "opp_out": [],
-      "player_injury_status": "not listed",
-      "lm_without": [
-       {
-        "hits": 5,
-        "n": 6,
-        "teammate": "Zachary L'Heureux"
-       }
-      ],
-      "lm_vs_opp": "n/a",
-      "weather": "indoor",
-      "matchup_tier": "preferred",
-      "matchup_pref_limit": "weak half (goalie check)"
-     },
-     "filters_applied": {
-      "vetoes": [],
-      "flags": [
-       "goalie unconfirmed (Jet Greaves, DailyFaceoff starting goalies (live pull)): flag only, never blocks"
-      ],
-      "matchup_rank": 23,
-      "matchup_tier": "preferred",
-      "preference_limit": "weak half (goalie check)",
-      "hard_vetoes_apply": true,
-      "applied_at": "2026-11-03 05:54 AM ET"
-     },
-     "why_from": "scout"
-    },
-    "gameday": [
-     "Volume: L10 TOI 23.1 avg (L3 24.4 vs L10 23.7 TOI) | Hit: 6/10 at O2.5, 3/5 (L10 avg 2.9 vs 2.5 line)",
-     "Matchup: CBJ G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed | shots-allowed 19 of 32 vs Shots On Goal (NHL API) (display only)",
-     "Context: COL -1.5 / O/U 6.5 | - | Away",
-     "Injuries: Josh Manson, Zachary L'Heureux out (w/o Zachary L'Heureux: 5/6) | none",
-     "Risk: goalie unconfirmed (Jet Greaves, DailyFaceoff starting goalies (live pull)): flag only, never blocks"
-    ],
+    "status": "final",
+    "res": "V",
+    "stat": "void: pulled for Today Parlay",
     "dk": {
      "odds": "-115",
      "na": false,
@@ -38384,6 +38317,273 @@
       [
        "6+",
        "+1100"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NHL",
+    "rank": 3,
+    "game": "Maple Leafs vs. Mammoth",
+    "start_et": "Tue 11/03 07:00 PM ET",
+    "player": "Logan Cooley",
+    "prop": "Under 2.5 Shots On Goal",
+    "odds": "-135",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "matchup 25/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a)",
+    "why": "Volume: L10 TOI 18.4 avg (L3 18.7 vs L10 18.2 TOI) | Hit: 6/10 at U2.5, 3/5. Matchup: TOR 25/32 vs Shots On Goal (NHL API). Context: UTA -1.5 / O/U 6.5 | - | Away. Injuries: John Marino, Maveric Lamoureux out | Opp out: Kirill Marchenko, Miles Wood. Risk: matchup 25/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a).",
+    "ctx": {
+     "game": "Maple Leafs vs. Mammoth",
+     "team": "UTA",
+     "opp": "TOR",
+     "stat": "sog",
+     "opp_rank": {
+      "rank": 29,
+      "of": 32,
+      "src": "LineMate",
+      "scale": "higher = more allowed"
+     },
+     "fav": "UTA",
+     "spread": -1.5,
+     "total": 6.5,
+     "team_totals": {
+      "TOR": 3.5,
+      "UTA": 3.5
+     },
+     "home": "TOR",
+     "away": "UTA",
+     "rest": {
+      "TOR": 2,
+      "UTA": 1
+     },
+     "record": {
+      "TOR": "8-6-2",
+      "UTA": "9-6-0"
+     },
+     "start_et": "Tue 11/03 07:00 PM ET",
+     "out": {
+      "TOR": [
+       {
+        "name": "Kirill Marchenko",
+        "status": "Injured Reserve",
+        "pos": "RW",
+        "date": "2026-10-29",
+        "role": "17.6 TOI"
+       },
+       {
+        "name": "John Tavares",
+        "status": "Injured Reserve",
+        "pos": "C",
+        "date": "2026-10-17",
+        "role": "16.5 TOI"
+       },
+       {
+        "name": "Elvis Merzlikins",
+        "status": "Injured Reserve",
+        "pos": "G",
+        "date": "2026-09-29"
+       }
+      ],
+      "UTA": [
+       {
+        "name": "John Marino",
+        "status": "Injured Reserve",
+        "pos": "D",
+        "date": "2026-11-01",
+        "role": "20.4 TOI"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NHL",
+      "game": "Maple Leafs vs. Mammoth",
+      "role": "LEG DAY backup",
+      "team": "UTA",
+      "opponent": "TOR",
+      "home_away": "away",
+      "identity": {
+       "athlete_id": "8483431",
+       "team": "UTA",
+       "how": "game-team roster (id + team)",
+       "reason": null
+      },
+      "l10_toi": 18.35,
+      "l10": {
+       "hits": 6,
+       "n": 10,
+       "l5_hits": 3,
+       "l5_n": 5,
+       "season_hits": 11,
+       "season_n": 15
+      },
+      "volume_collapse": {
+       "status": "ok",
+       "volume_stat": "TOI",
+       "blowout_margin": 4,
+       "blowout_source": "user default (4+ goals)",
+       "floor": [
+        "TOI",
+        17
+       ],
+       "floor_source": "§16: 17+ TOI",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-10-29",
+         "opp": "PIT",
+         "v": 18.6,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-24",
+         "opp": "TBL",
+         "v": 19.4,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-17",
+         "opp": "EDM",
+         "v": 17.9,
+         "excluded_for": "blowout (margin 4)"
+        },
+        {
+         "date": "2026-10-08",
+         "opp": "BOS",
+         "v": 20.5,
+         "excluded_for": "blowout (margin 5)"
+        },
+        {
+         "date": "2026-10-01",
+         "opp": "CHI",
+         "v": 16.1,
+         "excluded_for": "blowout (margin 6)"
+        },
+        {
+         "date": "2026-05-01",
+         "opp": "VGK",
+         "v": 17.3,
+         "excluded_for": "blowout (margin 4)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        18.2,
+        20.6,
+        17.4
+       ],
+       "l3_avg": 18.7,
+       "l10_avg": 18.2,
+       "l10_n": 10,
+       "drop_pct": -3.1,
+       "last_game": {
+        "date": "2026-11-01",
+        "opp": "PHI",
+        "v": 18.2,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "no collapse"
+      },
+      "matchup": {
+       "raw_opp_rank": 25,
+       "raw_meaning": "nhl-api: shots against/gm; raw re-ranked ascending (1 = lowest = toughest for an over); source rank None (api gives values only; ranked here)",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 25,
+       "of": 32,
+       "source": "nhl-api",
+       "stat": "sog",
+       "linemate": null,
+       "linemate_null_reason": "no Trends card for this player carries a rank line for opponent TOR + stat 'Shots on Goal' + side Under; opponent-defensive-rank table has 1 rows",
+       "fallback": {
+        "value": 29.3125,
+        "raw": 25,
+        "of": 32,
+        "source": "nhl-api",
+        "source_rank": null,
+        "source_team": "Toronto Maple Leafs",
+        "source_rank_direction": "api gives values only; ranked here",
+        "mapping": "shots against/gm",
+        "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
+        "fetched_at": "2026-11-03 01:39 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NHL-2026-11-03.json",
+        "source": "nhl-api",
+        "fetched_at": "2026-11-03 01:39 AM ET",
+        "failures": {},
+        "myspariedge": null,
+        "fantasyteamadvice": null
+       },
+       "source_rank": null,
+       "source_rank_direction": "api gives values only; ranked here"
+      },
+      "matchup_rank": 25,
+      "spread": "UTA -1.5",
+      "total": 6.5,
+      "team_totals": {
+       "Maple Leafs": 3.5,
+       "Mammoth": 3.5
+      },
+      "pace": "-",
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Scotiabank Arena",
+      "indoor": true,
+      "teammates_out": [
+       "John Marino",
+       "Maveric Lamoureux"
+      ],
+      "opp_out": [
+       "Kirill Marchenko",
+       "Miles Wood",
+       "Nick Blankenburg",
+       "Marshall Rifai",
+       "John Tavares",
+       "Max Domi",
+       "Cade Webber",
+       "Elvis Merzlikins",
+       "William Villeneuve"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "demoted",
+      "matchup_pref_limit": 23
+     },
+     "filters_applied": {
+      "vetoes": [],
+      "flags": [
+       "matchup 25/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a)"
+      ],
+      "matchup_rank": 25,
+      "matchup_tier": "demoted",
+      "preference_limit": 23,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-11-03 05:54 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L10 TOI 18.4 avg (L3 18.7 vs L10 18.2 TOI) | Hit: 6/10 at U2.5, 3/5",
+     "Matchup: TOR 25/32 vs Shots On Goal (NHL API)",
+     "Context: UTA -1.5 / O/U 6.5 | - | Away",
+     "Injuries: John Marino, Maveric Lamoureux out | Opp out: Kirill Marchenko, Miles Wood",
+     "Risk: matchup 25/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a)"
+    ],
+    "dk": {
+     "odds": "-175",
+     "na": false,
+     "ladder": [
+      [
+       "u2.5",
+       "-175"
       ]
      ]
     }
@@ -43072,6 +43272,34 @@
     "alt": false,
     "fam": "PRA",
     "uu": 0.9524
+   },
+   {
+    "date": "2026-11-03",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "Big 4 parlay",
+    "pick": "2-leg",
+    "odds": "+117",
+    "res": "",
+    "stat": "—",
+    "sub": "Evan Bouchard Over 0.5 Assists + Cale Makar Over 1.5 Shots On Goal",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay",
+    "legs": [
+     {
+      "pick": "Evan Bouchard Over 0.5 Assists",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Cale Makar Over 1.5 Shots On Goal",
+      "result": null,
+      "stat": ""
+     }
+    ]
    },
    {
     "date": "2026-11-03",
@@ -63027,8 +63255,8 @@
     "prop": "Cale Makar Over 2.5 Shots On Goal",
     "pick": "#3 Cale Makar Over 2.5 Shots On Goal",
     "odds": "-115",
-    "res": "",
-    "stat": "",
+    "res": "V",
+    "stat": "void: pulled for Today Parlay",
     "alt": false,
     "rank": 3,
     "uu": 0.0,
@@ -63170,6 +63398,25 @@
     "img": null,
     "sub": "",
     "fam": "SOG"
+   },
+   {
+    "date": "2026-11-03",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Logan Cooley Under 2.5 Shots On Goal",
+    "pick": "#3 Logan Cooley Under 2.5 Shots On Goal",
+    "odds": "-135",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 3,
+    "uu": 0.0,
+    "game": "Maple Leafs vs. Mammoth",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "SOG"
    }
   ],
   "summary": {
@@ -63177,8 +63424,8 @@
     "tickets": {
      "w": 164,
      "l": 149,
-     "p": 6,
-     "pending": 14,
+     "p": 7,
+     "pending": 15,
      "units": -16.91
     },
     "legs": {
@@ -63453,8 +63700,8 @@
  },
  "gameday": {
   "date": "2026-11-03",
-  "built": "2026-11-03 08:06 ET",
-  "picks": 78,
+  "built": "2026-11-03 08:29 ET",
+  "picks": 80,
   "vetoes": [],
   "gaps": [
    "NCAAF Connecticut vs North Carolina: no ESPN event match"
@@ -63466,15 +63713,17 @@
   "pregame_games": 99,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 45,
-   "priced": 39,
+   "legs": 48,
+   "priced": 40,
    "na": [
     "Edge Jordan Kyrou Over 0.5 Goals",
     "Edge Jakob Chychrun Over 0.5 Goals",
     "Edge Matvei Michkov Over 0.5 Goals",
     "Edge Ivan Barbashev Over 0.5 Goals",
     "Edge William Nylander Over 0.5 Goals",
-    "Jackson LaCombe Over 0.5 Assists"
+    "Jackson LaCombe Over 0.5 Assists",
+    "Evan Bouchard Over 0.5 Assists",
+    "Cale Makar Over 1.5 Shots On Goal"
    ]
   }
  },
@@ -64968,6 +65217,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-03 08:06 AM ET"
+  "checked_et": "2026-11-03 08:30 AM ET"
  }
 }
