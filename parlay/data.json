@@ -1,5 +1,5 @@
 {
- "generated": 1793746480.9965484,
+ "generated": 1793746709.6124063,
  "today": {
   "title": "Nov 3 picks (Hard Rock)",
   "tickets": [
@@ -9430,7 +9430,7 @@
  "capper_today_date": "2026-11-03",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-03 05:54 PM ET",
+  "updated": "2026-11-03 05:58 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -63862,7 +63862,7 @@
  },
  "gameday": {
   "date": "2026-11-03",
-  "built": "2026-11-03 17:54 ET",
+  "built": "2026-11-03 17:58 ET",
   "picks": 80,
   "vetoes": [],
   "gaps": [
@@ -66244,19 +66244,20 @@
   "unofficial": {
    "date": "2026-11-03",
    "label": "UNOFFICIAL",
-   "repriced": "2026-11-03 17:49 ET",
+   "repriced": "2026-11-03 17:58 ET",
    "note": "UNOFFICIAL · dry-run picks · not in the Official record, units, headline, Heist or official grading.",
    "parlay": {
     "name": "Parlay",
     "dry": "+108",
+    "swap": "Holy Cross +26.5 replaces +27.5 (user-approved 5:57 PM ET)",
     "legs": [
      {
-      "pick": "Holy Cross +27.5",
+      "pick": "Holy Cross +26.5",
       "game": "Rhode Island vs. Holy Cross",
       "start_et": "Tue 11/03 07:00 PM ET",
-      "odds": null,
+      "odds": "-275",
       "started": false,
-      "drop": "line no longer offered at Hard Rock"
+      "drop": null
      },
      {
       "pick": "Arkansas-Pine Bluff @ Arkansas Under 171.5",
@@ -66267,14 +66268,15 @@
       "drop": null
      }
     ],
-    "odds": "-170",
-    "dec": 1.5882,
-    "status": "Void",
-    "void_reason": "1 leg left, needs 2-3; -170 is outside the +100..+140 band"
+    "odds": "+117",
+    "dec": 2.1658,
+    "status": "Pending",
+    "void_reason": null
    },
    "safe": {
     "name": "Safe",
     "dry": "+129",
+    "swap": null,
     "legs": [
      {
       "pick": "Holy Cross +27.5",
@@ -68748,6 +68750,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-03 05:54 PM ET"
+  "checked_et": "2026-11-03 05:58 PM ET"
  }
 }
