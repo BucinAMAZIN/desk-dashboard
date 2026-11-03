@@ -1,5 +1,5 @@
 {
- "generated": 1793745295.09585,
+ "generated": 1793745828.9487016,
  "today": {
   "title": "Nov 3 picks (Hard Rock)",
   "tickets": [
@@ -103,18 +103,18 @@
    },
    {
     "name": "+100 ticket",
-    "desc": "2-leg +117 (1u)",
+    "desc": "2-leg +117 (1u) — Void (goalie re-check: opp starter Cam Talbot (confirmed, 0.894 38/64) is in the stronger half, SOG over blocked: Cale Makar; combined odds out of range: no eligible replacement keeps the ticket within +100..+140 (best Ryan O'Reilly Over 0.5 Points -130 -> +199))",
     "odds": "+117",
     "stake": "—",
     "payout": "—",
-    "status": "Pending",
+    "status": "—",
     "game": "",
     "legs": [
      {
       "pick": "Evan Bouchard Over 0.5 Assists",
       "odds": "-145",
       "game": "Devils vs. Oilers 07:30 PM ET",
-      "status": "Pending",
+      "status": "—",
       "why": "Volume: L10 TOI 26.4 avg (L3 26.4 vs L10 25.2 TOI) | Hit: 9/10 at line, 4/5 (L10 avg 1.2 vs 0.5 line). Usage: TOI L5 25.5 / L10 26.4 · PP TOI L5 4.6 / L10 3.9 · SAT L5 7.0 / L10 7.0 (api.nhle.com thru 11/01; as of 11/03 4:17 PM ET). Matchup: NJD 6/32 vs goals (2.9/g allowed, unfavorable). Context: NJD -1.5 / O/U 6.5 (EDM TT 2.5) | Away. Injuries: EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve) | NJD: none. Risk: Tough matchup: NJD 6/32 vs goals.",
       "why_not": "Normal variance at this line.",
       "why_src": "Grade A. Volume: L10 TOI 26.4 avg (L3 26.4 vs L10 25.2 TOI) | Hit: 9/10 at O0.5, 4/5 | Matchup: Opp 3/32 vs Assists | Context: EDM +1.5 / O/U 6.5 | - | Away | Injuries: Zach Hyman, Devon Levi out (w/o Zach Hyman: 7/7) | Opp out: Seamus Casey | Weather: neutral | Risk: Normal variance at this line.",
@@ -201,7 +201,7 @@
       "pick": "Cale Makar Over 1.5 Shots On Goal",
       "odds": "-350",
       "game": "Blue Jackets vs. Avalanche 07:00 PM ET",
-      "status": "Pending",
+      "status": "—",
       "why": "Volume: L10 TOI 23.1 avg (L3 24.4 vs L10 23.7 TOI) | Hit: 9/10 at line, 4/5 (L10 avg 2.9 vs 1.5 line). Usage: TOI L5 23.5 / L10 23.1 · PP TOI L5 4.5 / L10 4.5 · SAT L5 6.4 / L10 6.6 (api.nhle.com thru 11/02; as of 11/03 4:17 PM ET). Matchup: Opp G Cam Talbot 0.894 SV% 38/64 (strong half, BLOCKS the SOG over) · confirmed | shots-allowed: CBJ 14 of 32 vs SOG (27.1 of g allowed, neutral) (display only). Context: COL -1.5 / O/U 6.5 (COL TT 3.5) | Away · COL B2B. Injuries: COL: Josh Manson (Out) | CBJ: none. Risk: COL on a back-to-back.",
       "why_not": "goalie unconfirmed (Jet Greaves, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
       "why_src": "Grade A. Volume: L10 TOI 23.1 avg (L3 24.4 vs L10 23.7 TOI) | Hit: 9/10 at O1.5, 4/5 | Matchup: Opp G Jet Greaves 0.883 SV% 23/64 (weak half, passes) · goalie unconfirmed | shots-allowed 19 of 32 vs Shots On Goal (NHL API) (display only) | Context: COL -1.5 / O/U 6.5 | - | Away | Injuries: Josh Manson, Zachary L'Heureux out | none | Weather: neutral | Risk: goalie unconfirmed (Jet Greaves, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
@@ -291,7 +291,7 @@
      }
     ],
     "why": null,
-    "pick": "2-leg +117 (1u)",
+    "pick": "2-leg +117 (1u) — Void (goalie re-check: opp starter Cam Talbot (confirmed",
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
     "dk_odds": null
    },
@@ -9234,12 +9234,7 @@
      "pick": "Boston College -18.5 (vs Stetson; early CBB free play)",
      "odds": "-115",
      "status": "Pending",
-     "fam": "Spread",
-     "game_fix": "@showtimepicks2 Nov 3: the row says 'vs Stetson', but Boston College plays Wagner tonight (7:00 PM ET); Stetson plays at South Carolina. The game tag and grading use Wagner @ Boston College. The capper's line (-18.5) is kept as stored. Hard Rock prices BC -18.5 at -135 (the capper posted -115; HR's main line is BC -19.5 at -115). Raw capper store not edited (RULEBOOK §30).",
-     "game": "WAG @ BC",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Spread"
     }
    ]
   },
@@ -9316,11 +9311,7 @@
      "pick": "Anaheim Ducks ML (ANA @ VAN 9:00 PM ET; Action Network pick 565366622, 1u)",
      "odds": "-150",
      "status": "Pending",
-     "fam": "ML",
-     "game": "ANA @ VAN",
-     "kick": "9:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "ML"
     },
     {
      "sport": "NHL",
@@ -9328,11 +9319,7 @@
      "pick": "Columbus Blue Jackets ML (COL @ CBJ 7:00 PM ET; Action Network pick 565407191, 0.5u)",
      "odds": "+112",
      "status": "Pending",
-     "fam": "ML",
-     "game": "COL @ CBJ",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "ML"
     },
     {
      "sport": "NHL",
@@ -9340,11 +9327,7 @@
      "pick": "Philadelphia Flyers ML (MIN @ PHI 7:00 PM ET; Action Network pick 565448724, 0.5u)",
      "odds": "+147",
      "status": "Pending",
-     "fam": "ML",
-     "game": "MIN @ PHI",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "ML"
     },
     {
      "sport": "NHL",
@@ -9352,11 +9335,7 @@
      "pick": "Philadelphia Flyers ML (MIN @ PHI 7:00 PM ET; Action Network pick 565453513, 0.5u)",
      "odds": "+153",
      "status": "Pending",
-     "fam": "ML",
-     "game": "MIN @ PHI",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "ML"
     },
     {
      "sport": "NHL",
@@ -9364,11 +9343,7 @@
      "pick": "Dallas Stars @ Washington Capitals Over 5.5 (DAL @ WSH 7:00 PM ET; Action Network pick 565257012, 1u)",
      "odds": "-120",
      "status": "Pending",
-     "fam": "Total",
-     "game": "DAL @ WSH",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Total"
     },
     {
      "sport": "NHL",
@@ -9376,11 +9351,7 @@
      "pick": "Utah Mammoth @ Toronto Maple Leafs Over 6.5 (UTA @ TOR 7:00 PM ET; Action Network pick 565366758, 0.5u)",
      "odds": "-120",
      "status": "Pending",
-     "fam": "Total",
-     "game": "UTA @ TOR",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "fam": "Total"
     },
     {
      "sport": "NHL",
@@ -9388,29 +9359,7 @@
      "pick": "2-leg parlay: Colorado Avalanche @ Columbus Blue Jackets Over 6.5 + Columbus Blue Jackets ML vs Colorado Avalanche (COL @ CBJ 7:00 PM ET first leg; Action Network parlay 53144458, 0.35u)",
      "odds": "+320",
      "status": "Pending",
-     "fam": "Parlay",
-     "game": "COL @ CBJ",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false,
-     "legs": [
-      {
-       "leg": "Colorado Avalanche @ Columbus Blue Jackets Over 6.5",
-       "player": "Colorado Avalanche @ Columbus Blue Jackets",
-       "game": "COL @ CBJ",
-       "kick": "7:00 PM ET",
-       "started": false,
-       "final": false
-      },
-      {
-       "leg": "Columbus Blue Jackets ML vs Colorado Avalanche",
-       "player": "Columbus Blue Jackets ML vs Colorado Avalanche",
-       "game": "COL @ CBJ",
-       "kick": "7:00 PM ET",
-       "started": false,
-       "final": false
-      }
-     ]
+     "fam": "Parlay"
     }
    ]
   },
@@ -9481,7 +9430,7 @@
  "capper_today_date": "2026-11-03",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-03 05:34 PM ET",
+  "updated": "2026-11-03 05:43 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -63913,7 +63862,7 @@
  },
  "gameday": {
   "date": "2026-11-03",
-  "built": "2026-11-03 17:35 ET",
+  "built": "2026-11-03 17:43 ET",
   "picks": 80,
   "vetoes": [],
   "gaps": [
@@ -68713,6 +68662,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-03 05:35 PM ET"
+  "checked_et": "2026-11-03 05:43 PM ET"
  }
 }
