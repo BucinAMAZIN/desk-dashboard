@@ -1,5 +1,5 @@
 {
- "generated": 1793687941.8628519,
+ "generated": 1793688078.679631,
  "today": {
   "title": "Nov 3 picks (Hard Rock)",
   "tickets": [],
@@ -1200,6 +1200,24 @@
    {
     "date": "2026-11-02",
     "sport": "NBA",
+    "type": "Leg",
+    "pick": "Davion Mitchell Over 9.5 Points",
+    "odds": "-250",
+    "result": "W",
+    "stat": "15 PTS"
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
+    "type": "Parlay",
+    "pick": "2-leg",
+    "odds": "+101",
+    "result": "W",
+    "stat": null
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
     "type": "POTD",
     "pick": "Alperen Sengun Over 8.5 Rebounds",
     "odds": "-110",
@@ -1673,31 +1691,13 @@
     "odds": "-115",
     "result": "L",
     "stat": "209 pass yds"
-   },
-   {
-    "date": "2026-10-28",
-    "sport": "MLB",
-    "type": "Leg",
-    "pick": "Jake Bauers over 0.5 hits",
-    "odds": "-150",
-    "result": "L",
-    "stat": "0 H"
-   },
-   {
-    "date": "2026-10-28",
-    "sport": "MLB",
-    "type": "Leg",
-    "pick": "William Contreras over 0.5 hits",
-    "odds": "-230",
-    "result": "W",
-    "stat": "1 H"
    }
   ]
  },
  "record": {
   "overall": {
    "official": {
-    "w": 180,
+    "w": 181,
     "l": 278,
     "p": 2,
     "pct": 39
@@ -1715,12 +1715,12 @@
     "pct": 54
    },
    "parlay": {
-    "w": 18,
+    "w": 19,
     "l": 32,
     "p": 0,
-    "pct": 36
+    "pct": 37
    },
-   "pending": 1
+   "pending": 0
   },
   "props": [
    {
@@ -1781,10 +1781,10 @@
    },
    {
     "prop": "NBA parlay",
-    "w": 2,
+    "w": 3,
     "l": 6,
     "p": 0,
-    "pct": 25
+    "pct": 33
    },
    {
     "prop": "NCAAF team total",
@@ -4396,8 +4396,8 @@
     "date": "2026-11-02",
     "pick": "NBA · Parlay: 2-leg",
     "odds": "+101",
-    "result": "Pending",
-    "detail": "—"
+    "result": "W",
+    "detail": ""
    },
    {
     "date": "2026-11-02",
@@ -7374,19 +7374,23 @@
    ],
    [
     "11/02",
+    -95
+   ],
+   [
+    "11/02",
+    -96
+   ],
+   [
+    "11/02",
     -97
    ],
    [
     "11/02",
-    -98
+    -96
    ],
    [
     "11/02",
     -97
-   ],
-   [
-    "11/02",
-    -98
    ]
   ],
   "counted_elsewhere": [
@@ -7773,10 +7777,10 @@
   },
   {
    "name": "@austinsprops",
-   "w": 37,
+   "w": 38,
    "l": 34,
    "p": 0,
-   "pct": 52,
+   "pct": 53,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -7820,10 +7824,10 @@
     },
     {
      "prop": "NFL longest reception (over)",
-     "w": 0,
+     "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 0,
+     "pct": 50,
      "fam": "Longest reception"
     },
     {
@@ -7919,7 +7923,7 @@
   },
   {
    "name": "@panpotd",
-   "w": 27,
+   "w": 28,
    "l": 31,
    "p": 0,
    "pct": 47,
@@ -8006,7 +8010,7 @@
     },
     {
      "prop": "NBA pts+ast (over)",
-     "w": 3,
+     "w": 4,
      "l": 0,
      "p": 0,
      "pct": 100,
@@ -8058,9 +8062,9 @@
   {
    "name": "@showtimepicks2",
    "w": 24,
-   "l": 13,
+   "l": 14,
    "p": 0,
-   "pct": 65,
+   "pct": 63,
    "props": [
     {
      "prop": "NCAAF pass yds (over)",
@@ -8080,6 +8084,14 @@
     },
     {
      "prop": "NBA ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
+    },
+    {
+     "prop": "NCAAB ML",
      "w": 0,
      "l": 1,
      "p": 0,
@@ -8267,7 +8279,7 @@
  "capper_today_date": "2026-11-03",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-03 01:39 AM ET",
+  "updated": "2026-11-03 01:41 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -11383,19 +11395,19 @@
     "pct": 43
    },
    "tickets": {
-    "w": 33,
+    "w": 34,
     "l": 32,
     "p": 0,
-    "pending": 1,
-    "units": -6.6
+    "pending": 0,
+    "units": -5.69
    }
   },
   {
    "sport": "NBA",
-   "w": 12,
+   "w": 13,
    "l": 20,
    "p": 0,
-   "pct": 38,
+   "pct": 39,
    "active": true,
    "key": "NBA",
    "ticket_legs": {
@@ -11405,11 +11417,11 @@
     "pct": null
    },
    "tickets": {
-    "w": 75,
+    "w": 76,
     "l": 62,
     "p": 4,
-    "pending": 2,
-    "units": -8.71
+    "pending": 1,
+    "units": -7.7
    }
   },
   {
@@ -12763,17 +12775,17 @@
   },
   {
    "sport": "NBA",
-   "w": 12,
+   "w": 13,
    "l": 20,
    "p": 0,
-   "pct": 38,
+   "pct": 39,
    "props": [
     {
      "prop": "NBA parlay",
-     "w": 2,
+     "w": 3,
      "l": 6,
      "p": 0,
-     "pct": 25
+     "pct": 33
     },
     {
      "prop": "NBA ML",
@@ -12854,17 +12866,17 @@
     }
    ],
    "official": {
-    "w": 12,
+    "w": 13,
     "l": 20,
     "p": 0,
-    "pct": 38,
+    "pct": 39,
     "props": [
      {
       "prop": "NBA parlay",
-      "w": 2,
+      "w": 3,
       "l": 6,
       "p": 0,
-      "pct": 25
+      "pct": 33
      },
      {
       "prop": "NBA ML",
@@ -12946,17 +12958,17 @@
     ]
    },
    "tracked": {
-    "w": 11,
+    "w": 12,
     "l": 19,
     "p": 0,
-    "pct": 37,
+    "pct": 39,
     "props": [
      {
       "prop": "NBA parlay",
-      "w": 2,
+      "w": 3,
       "l": 6,
       "p": 0,
-      "pct": 25
+      "pct": 33
      },
      {
       "prop": "NBA PRA",
@@ -16630,8 +16642,8 @@
    "prop": "NBA parlay",
    "pick": "2-leg",
    "odds": "+101",
-   "res": "Pending",
-   "stat": "—"
+   "res": "W",
+   "stat": ""
   },
   {
    "date": "2026-11-02",
@@ -19634,8 +19646,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 460,
-  "headline": 460
+  "tiles_sum": 461,
+  "headline": 461
  },
  "inning_record": {},
  "ingame_lines": {
@@ -22269,18 +22281,19 @@
     "prop": "NBA parlay",
     "pick": "2-leg",
     "odds": "+101",
-    "res": "",
-    "stat": "—",
+    "res": "W",
+    "stat": "",
     "sub": "Davion Mitchell Over 9.5 Points + Jabari Smith Jr. Over 1.5 Threes Made",
     "leg": false,
     "img": null,
     "alt": false,
     "fam": "Parlay",
+    "uu": 1.01,
     "legs": [
      {
       "pick": "Davion Mitchell Over 9.5 Points",
-      "result": null,
-      "stat": ""
+      "result": "W",
+      "stat": "15 PTS"
      },
      {
       "pick": "Jabari Smith Jr. Over 1.5 Threes Made",
@@ -37407,6 +37420,60 @@
     "uu": -1.0
    },
    {
+    "date": "2026-11-02",
+    "sport": "NCAAB",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NCAAB ML",
+    "fam": "ML",
+    "pick": "Winthrop ML (opponent not stated; early morning CBB play)",
+    "odds": "+104",
+    "res": "L",
+    "stat": "L (QUC 103-98 WIN)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL longest reception (over)",
+    "fam": "Longest reception",
+    "pick": "Rome Odunze o19.5 Longest Reception (CHI @ SEA MNF; MNF Play Of The Day, POTD)",
+    "odds": "-110",
+    "res": "W",
+    "stat": "W (long 24)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.91
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA pts+ast (over)",
+    "fam": "Pts+Ast",
+    "pick": "Davion Mitchell o19.5 PA (NBA Monday Free Card)",
+    "odds": "none posted",
+    "res": "W",
+    "stat": "W (15 PTS + 7 AST = 22 P+A, MIA @ LAL)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": 0.0
+   },
+   {
     "date": "2026-10-23",
     "sport": "NBA",
     "grp": "C",
@@ -37507,57 +37574,6 @@
     "img": null,
     "sub": "",
     "nu": false
-   },
-   {
-    "date": "2026-11-02",
-    "sport": "NCAAB",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@showtimepicks2 · NCAAB ML",
-    "fam": "ML",
-    "pick": "Winthrop ML (opponent not stated; early morning CBB play)",
-    "odds": "+104",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-02",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL longest reception (over)",
-    "fam": "Longest reception",
-    "pick": "Rome Odunze o19.5 Longest Reception (CHI @ SEA MNF; MNF Play Of The Day, POTD)",
-    "odds": "-110",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-02",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NBA pts+ast (over)",
-    "fam": "Pts+Ast",
-    "pick": "Davion Mitchell o19.5 PA (NBA Monday Free Card)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
    },
    {
     "date": "2026-10-25",
@@ -38937,13 +38953,13 @@
     "pick": "Davion Mitchell o19.5 PA",
     "odds": "-120",
     "res": "W",
-    "stat": "28 P+A",
+    "stat": "22 P+A",
     "alt": true,
     "leg": false,
     "img": null,
     "sub": "from Davion Mitchell o19.5 PA",
     "uu": 0.83,
-    "game": "OKC @ CLE"
+    "game": "MIA @ LAL"
    },
    {
     "date": "2026-11-02",
@@ -41432,11 +41448,11 @@
     "prop": "Sam Roush Under 8.5 Receiving Yards",
     "pick": "#1 Sam Roush Under 8.5 Receiving Yards",
     "odds": "-110",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "0 rec yds (played, 0 targets)",
     "alt": false,
     "rank": 1,
-    "uu": 0.0,
+    "uu": 0.91,
     "game": "Seahawks vs Bears",
     "leg": false,
     "img": null,
@@ -41637,11 +41653,11 @@
   "summary": {
    "O": {
     "tickets": {
-     "w": 162,
+     "w": 164,
      "l": 149,
      "p": 6,
-     "pending": 3,
-     "units": -18.83
+     "pending": 1,
+     "units": -16.91
     },
     "legs": {
      "w": 7,
@@ -41669,11 +41685,11 @@
    },
    "C": {
     "tickets": {
-     "w": 195,
-     "l": 164,
+     "w": 197,
+     "l": 165,
      "p": 6,
-     "pending": 9,
-     "units": -50.63,
+     "pending": 6,
+     "units": -50.72,
      "no_odds": 135
     },
     "legs": {
@@ -41731,7 +41747,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 9 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 6 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-11-02', 'The Heist', 'NBA', 'Nikola Jokic 8+ Assists', '-325')]",
@@ -41901,6 +41917,7 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
+  "conv": [],
   "props": {
    "n": 0,
    "w": 0,
@@ -41908,8 +41925,7 @@
    "p": 0,
    "pending": 0,
    "units": 0.0
-  },
-  "conv": []
+  }
  },
  "big4_games": 11,
  "big4_games_by_sport": {
@@ -41920,7 +41936,7 @@
  },
  "gameday": {
   "date": "2026-11-03",
-  "built": "2026-11-03 01:39 ET",
+  "built": "2026-11-03 01:41 ET",
   "picks": 0,
   "vetoes": [],
   "gaps": [
@@ -43428,6 +43444,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-03 01:39 AM ET"
+  "checked_et": "2026-11-03 01:41 AM ET"
  }
 }
