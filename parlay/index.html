@@ -1662,6 +1662,31 @@ function lvAttachX(){const LVA=LV.sp===lvCur()?(LV.all||[]):[];
 function lvAttachLD(LVA){try{PCGMFIX()}catch(e){}LVA=LVA||(LV.sp===lvCur()?(LV.all||[]):[]);const host=document.getElementById('ldsph'),sr=host&&host.shadowRoot;if(!sr)return;sr.querySelectorAll('.lvp').forEach(e=>e.remove());if(!LVA.length)return;if(!sr.getElementById('lvcss')){const st=document.createElement('style');st.id='lvcss';st.textContent=lvCss()+'.ld-leg>.lvp{grid-column:1/-1;text-align:center}';sr.prepend(st)}
  const B=(D.legday||{}).board||[];sr.querySelectorAll('.ld-leg').forEach(el=>{const pl=(el.querySelector('.ld-pl')||{}).textContent||'',l2=(el.querySelector('.ld-l2')||{}).textContent||'',rk=(el.querySelector('.ld-st')||{}).textContent||'';const r=B.find(x=>x.player==pl&&String(rk)==String(x.rank)&&l2.startsWith(x.prop))||B.find(x=>x.player==pl&&l2.startsWith(x.prop));if(!r)return;const pk=r.player+' '+r.prop;if(lvUns(pk))return;const o=lvFindG(LVA,r.game,(r.start_et||'').replace(/^\w{3}\s+/,''));if(!o)return;lvNeedSum(o);const hh=_lvN(o,pk,lvRes(r.res));if(hh)(el.querySelector(':scope>details.ldw>summary')||el).insertAdjacentHTML('beforeend',hh)});XLIVE(sr)}
 {const _lva=lvAttach;lvAttach=function(){_lva.apply(this,arguments);try{if(K=='sport'||K=='today'||K=='cappers')lvAttachX();XLIVE()}catch(e){console.warn('lvx',e)}}}
+/* fblive1102 (user 2026-11-02 9:04 PM ET): First Blood live tracker on every leg. Rule = Hard Rock "1st Player to Score" (RULEBOOK §22):
+   the game's FIRST POINT (made FG or free throw) wins. ESPN play-by-play (summary). PENDING before tip, LIVE until the first point,
+   then HIT / MISS at once (VOID only if he did not start, Hard Rock rule). Match by ESPN athlete id; name fallback needs the same first AND last name.
+   Server grade (build_fps.grade, in-game every ~4 min) wins when present. Display only: picks/odds untouched. */
+function fbSame(a,b){a=nmN(a).split(' ');b=nmN(b).split(' ');return !!(a[0]&&b[0])&&a[0]==b[0]&&a[a.length-1]==b[b.length-1]}
+function fbAth(j){const R=[];for(const t of ((j.boxscore||{}).players||[]))for(const g of (t.statistics||[]).slice(0,1))for(const a of g.athletes||[])R.push({id:String((a.athlete||{}).id||''),nm:(a.athlete||{}).displayName||'',starter:!!a.starter,dnp:!!a.didNotPlay||!(a.stats||[]).length});return R}
+function fbFirst(j){try{const P=(j.plays||[]).slice().sort((a,b)=>(+a.sequenceNumber||0)-(+b.sequenceNumber||0)),p=P.find(x=>x.scoringPlay&&(x.scoreValue||0)>0&&(x.participants||[]).length);if(!p)return null;
+ const aid=String(((p.participants[0]||{}).athlete||{}).id||''),A=fbAth(j).find(a=>a.id==aid),n=+((p.period||{}).number||0);
+ return {aid,nm:A?A.nm:String(p.text||'').replace(/\s+makes\b.*$/i,''),tm:(((p.clock||{}).displayValue||'')+' '+({1:'1st',2:'2nd',3:'3rd',4:'4th'}[n]||(n==5?'OT':(n-4)+'OT'))).trim(),ft:/free throw/i.test(p.text||'')}}catch(_){return null}}
+const FBRF={};function fbRe(o){const id=o.e.id;if(FBRF[id]&&Date.now()-FBRF[id]<25000)return;FBRF[id]=Date.now();fetch(`https://site.api.espn.com/apis/site/v2/sports/${o.l[0]}/${o.l[1]}/summary?event=${id}`).then(r=>r.json()).then(j=>{bxNorm(j);LV.sum=LV.sum||{};LV.sum[id]=j;try{lvAttach()}catch(_){}}).catch(()=>{})}
+function fbLive(){if(K!='sport'||SP!='NBA')return;const T=D.first_blood,bx=document.querySelector('#v .xc-fb');if(!T||!(T.legs||[]).length||!bx)return;
+ const LVA=LV.sp===lvCur()?(LV.all||[]):[],els=[...bx.querySelectorAll('details.leg')];let miss=0;
+ T.legs.forEach((l,i)=>{const el=els[i];if(!el)return;el.querySelectorAll('.fbt').forEach(x=>x.remove());const ch=el.querySelector('.pc-s'),pc=el.querySelector('summary .pc');
+  const o=LVA.find(x=>String(x.e.id)==String(l.espn_event||''))||lvFindG(LVA,l.game,l.tip_iso);const srv=PCST(l)[0];let v=null,line='';
+  if(srv!='p'){v=srv=='w'?['s-w','✅ HIT']:srv=='l'?['s-l','❌ MISS']:['s-v','VOID'];if(l.first_scorer||l.result)line=l.first_scorer?`First point: ${l.first_scorer}${l.first_time?' '+l.first_time:''}${/free throw/i.test(l.result||'')?' (free throw)':''}`:String(l.result)}
+  else if(o&&o.st.state!='pre'){lvNeedSum(o);const j=(LV.sum||{})[o.e.id],f=j&&fbFirst(j);
+   if(!f){v=['s-p','🔴 LIVE'];line=j?'No points scored yet':'Loading play-by-play…';if(j&&o.st.state=='in')fbRe(o)}
+   else{const me=fbAth(j).find(a=>l.athlete_id?a.id==String(l.athlete_id):fbSame(a.nm,l.player)),hit=(l.athlete_id&&f.aid)?f.aid==String(l.athlete_id):fbSame(f.nm,l.player);
+    v=hit?['s-w','✅ HIT']:(me&&!me.starter?['s-v','VOID']:['s-l','❌ MISS']);line=`First point: ${f.nm} ${f.tm}${f.ft?' (free throw)':''}${v[1]=='VOID'?' · did not start (Hard Rock rule)':''}`}}
+  else if(o)line=`Tips ${new Date(o.e.date).toLocaleTimeString('en-US',{timeZone:'America/New_York',hour:'numeric',minute:'2-digit'})} ET · first point tracked live`;
+  if(v&&v[0]=='s-l')miss=1;
+  if(v&&ch){ch.className='pc-s '+v[0];ch.textContent=v[1];ch.dataset.auto=1}
+  if(line&&pc)pc.insertAdjacentHTML('afterend',`<div class="fbt m" style="font-size:12px;margin:2px 0 2px;line-height:1.35">${v&&v[0]!='s-p'?'🩸 ':'⏱ '}${E(line)}</div>`)});
+ const xs=bx.querySelector('summary .xst');if(miss&&xs&&xs.dataset.t=='Pending')xs.outerHTML=XSS('L')}
+{const _x=lvAttachX;lvAttachX=function(){_x.apply(this,arguments);try{fbLive()}catch(e){console.warn('fbl',e)}}}
 document.addEventListener('click',e=>{const h=e.target.closest&&e.target.closest('.lvh');if(!h)return;if(e.target.closest('.lvs'))return;e.preventDefault();e.stopPropagation();const b=h.closest('.lvp'),k=b.dataset.k,v=!colGetD(k,true);colSetD(k,v);b.querySelector('.lvb').style.display=v?'none':'';h.lastElementChild.textContent=v?'▸':'▾'},true);
 document.addEventListener('click',e=>{if(e.target.closest&&e.target.closest('.lvb'))e.preventDefault()},true);
 function lvClose(fromPop){const m=document.getElementById('lvm');if(!m)return;m.remove();document.body.style.overflow='';if(!fromPop&&history.state&&history.state.lvm)try{history.back()}catch(_){}}

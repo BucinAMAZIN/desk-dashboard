@@ -17649,7 +17649,7 @@
   "no_swap": true,
   "full_locked": true,
   "lock_note": "Locked 10:00 AM ET run; final, no swaps (RULEBOOK §22).",
-  "status": "Pending",
+  "status": "L",
   "odds": "~+29,181,697",
   "odds_note": "Estimated from single-leg Hard Rock prices; confirm the slip price.",
   "why": "Locked Mon Nov 2, 10:06 AM ET, final. No swaps. Rules (RULEBOOK §22, First Blood, unofficial/for fun): score = model chance he scores the first point = P(team scores first: tip-win odds from the two jumpers' shrunk tip records x P(tip winner scores first)) x his shot share ((FGA+0.44*FTA) last 15, shrunk halfway to 20%). Real Hard Rock First Player To Score prices +400..+1500 only; projected starters with >=1 first score in L10 or a top-2 first-unit shot role; no Questionable/Day-To-Day/Doubtful/Out (ESPN at lock). One leg per game; 4 preferred, max 8 (legs 5-8 within 1 point of leg 4). Isolated: does not count against the one-prop-type rule. Locked 10:00 AM ET, final, no swaps. Settlement (Hard Rock): a leg is void if the player does not start or enters after the first point; FTs count as the first point. 1u, units only. Sources: Hard Rock 2026-11-02 10:05 ET, ESPN box scores + play-by-play (713 games through 2026-11-01), ESPN injuries at run. Estimated parlay = product of single prices (Hard Rock SGP pricing may differ). Ranking: 1. · Luka Doncic LAL +375: 15.8% (price +375 outside +400..+1500) | 2. ✔ Shai Gilgeous-Alexander OKC +600: 15.0% | 3. ✔ Darius Garland LAC +425: 14.9% | 4. ✔ Tyrese Maxey PHI +600: 14.7% | 5. ✔ Jayson Tatum BOS +450: 14.2% | 6. · Victor Wembanyama SA +300: 14.1% (price +300 outside +400..+1500) | 7. · Cameron Boozer MEM +600: 14.0% (0 first-scorer L10 and not a top-2 first-unit shot taker) | 8. ✔ Cade Cunningham DET +450: 13.7% | 9. ✔ Jalen Brunson NY +400: 13.6% | 10. · Brandon Miller CHA +525: 13.5% | 11. ✔ Darius Acuff Jr. SAC +650: 13.2% | 12. · Yaxel Lendeborg GS +700: 13.0% | 13. · Pascal Siakam IND +500: 13.0% | 14. · Giannis Antetokounmpo MIA +400: 12.9% | 15. · Franz Wagner ORL +550: 12.7% | 16. · LaMelo Ball MIN +525: 12.7% | 17. · Cooper Flagg DAL +500: 12.6% | 18. · Michael Porter Jr. BKN +525: 12.4% | 19. · Julius Randle BKN +650: 12.3% | 20. · Deni Avdija POR +600: 12.2% | 21. · Devin Booker PHX +525: 12.1% | 22. · Brandin Podziemski GS +750: 12.0% | 23. · Jaylen Brown PHI +500: 11.9% | 24. · Caleb Wilson CHI +850: 11.8% | 25. · Jamal Murray DEN +475: 11.8%",
@@ -17669,10 +17669,13 @@
     "market": "First Player To Score",
     "grade": "A-",
     "score": 14.99,
-    "status": "Pending",
-    "result": null,
+    "status": "L",
+    "result": "First point: Evan Mobley 11:43 1st (Evan Mobley makes driving layup (James Harden assists))",
     "why": "Volume: shot share 30.6% of the OKC lineup (23.8 FGA+0.44*FTA per game, last 15; last-game starters) | L10 33.5 min, started 10/10, first scorer 1/10\nMatchup: tip Isaiah Hartenstein (56% shrunk) vs Jarrett Allen (63%) -> OKC wins tip 47%; tip winner scores first 67.1% -> OKC scores first 48.9%\nContext: OKC +3.5 / O/U 228.5 (TT 112.5) | Away · tip 7:00 PM ET\nInjuries: none | Team out: Thomas Sorber, Cason Wallace, Chet Holmgren | Opp out: Peyton Watson, Jaylon Tyson\nWeather: Indoor (neutral)\nRisk: long price +600: one possession decides it\nFormula: [A-] Model 15.0% to score first (rank 2 of 145) = OKC scores first 48.9% x shot share 30.6%.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "first_time": "11:43 1st",
+    "first_scorer": "Evan Mobley",
+    "hit": "L",
+    "hit_note": "played, first point: Evan Mobley (11:43 1st)"
    },
    {
     "pick": "Darius Garland first point scorer",
@@ -17690,8 +17693,7 @@
     "score": 14.95,
     "status": "Pending",
     "result": null,
-    "why": "Volume: shot share 29.1% of the LAC lineup (17.6 FGA+0.44*FTA per game, last 15; last-game starters) | L10 31.1 min, started 10/10, first scorer 1/10\nMatchup: tip Isaiah Jackson (39% shrunk) vs Scottie Barnes (33%) -> LAC wins tip 54%; tip winner scores first 67.1% -> LAC scores first 51.4%\nContext: LAC +5.5 / O/U 221.5 (TT 108.5) | Home · tip 10:00 PM ET\nInjuries: none | Team out: Derrick Jones Jr., Max Strus, Yanic Konan Niederhauser | Opp out: Jakob Poeltl, Kawhi Leonard, Nate Bittle\nWeather: Indoor (neutral)\nRisk: long price +425: one possession decides it\nFormula: [A-] Model 14.9% to score first (rank 3 of 145) = LAC scores first 51.4% x shot share 29.1%.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "why": "Volume: shot share 29.1% of the LAC lineup (17.6 FGA+0.44*FTA per game, last 15; last-game starters) | L10 31.1 min, started 10/10, first scorer 1/10\nMatchup: tip Isaiah Jackson (39% shrunk) vs Scottie Barnes (33%) -> LAC wins tip 54%; tip winner scores first 67.1% -> LAC scores first 51.4%\nContext: LAC +5.5 / O/U 221.5 (TT 108.5) | Home · tip 10:00 PM ET\nInjuries: none | Team out: Derrick Jones Jr., Max Strus, Yanic Konan Niederhauser | Opp out: Jakob Poeltl, Kawhi Leonard, Nate Bittle\nWeather: Indoor (neutral)\nRisk: long price +425: one possession decides it\nFormula: [A-] Model 14.9% to score first (rank 3 of 145) = LAC scores first 51.4% x shot share 29.1%."
    },
    {
     "pick": "Tyrese Maxey first point scorer",
@@ -17707,10 +17709,13 @@
     "market": "First Player To Score",
     "grade": "A-",
     "score": 14.69,
-    "status": "Pending",
-    "result": null,
+    "status": "L",
+    "result": "First point: Jaylen Brown 10:50 1st (Jaylen Brown makes free throw 1 of 2)",
     "why": "Volume: shot share 28.6% of the PHI lineup (24.2 FGA+0.44*FTA per game, last 15; last-game starters) | L10 38.8 min, started 10/10, first scorer 2/10\nMatchup: tip Adem Bona (41% shrunk) vs Jalen Smith (35%) -> PHI wins tip 54%; tip winner scores first 67.1% -> PHI scores first 51.3%\nContext: PHI -10.5 / O/U 239.5 (TT 125.5) | Home · tip 7:30 PM ET\nInjuries: none | Team out: Joel Embiid, Dominick Barlow, Ariel Hukporti | Opp out: Jalen Smith, Tobe Awaka, Nic Claxton\nWeather: Indoor (neutral)\nRisk: long price +600: one possession decides it\nFormula: [A-] Model 14.7% to score first (rank 4 of 145) = PHI scores first 51.3% x shot share 28.6%.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "first_time": "10:50 1st",
+    "first_scorer": "Jaylen Brown",
+    "hit": "L",
+    "hit_note": "played, first point: Jaylen Brown (10:50 1st)"
    },
    {
     "pick": "Jayson Tatum first point scorer",
@@ -17726,10 +17731,13 @@
     "market": "First Player To Score",
     "grade": "A-",
     "score": 14.17,
-    "status": "Pending",
-    "result": null,
+    "status": "L",
+    "result": "First point: Kevin Durant 10:51 1st (Kevin Durant makes 13-foot two point shot)",
     "why": "Volume: shot share 29.3% of the BOS lineup (24.5 FGA+0.44*FTA per game, last 15; last-game starters) | L10 36.1 min, started 10/10, first scorer 2/10\nMatchup: tip Neemias Queta (33% shrunk) vs Alperen Sengun (40%) -> BOS wins tip 45%; tip winner scores first 67.1% -> BOS scores first 48.4%\nContext: BOS +4.5 / O/U 219.5 (TT 107.5) | Away · tip 8:30 PM ET\nInjuries: none | Team out: Mitchell Robinson, Devin Carter | Opp out: Clint Capela, Reed Sheppard, Steven Adams\nWeather: Indoor (neutral)\nRisk: long price +450: one possession decides it\nFormula: [A-] Model 14.2% to score first (rank 5 of 145) = BOS scores first 48.4% x shot share 29.3%.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "first_time": "10:51 1st",
+    "first_scorer": "Kevin Durant",
+    "hit": "L",
+    "hit_note": "played, first point: Kevin Durant (10:51 1st)"
    },
    {
     "pick": "Cade Cunningham first point scorer",
@@ -17745,10 +17753,13 @@
     "market": "First Player To Score",
     "grade": "B+",
     "score": 13.73,
-    "status": "Pending",
-    "result": null,
+    "status": "L",
+    "result": "First point: Moussa Diabate 11:39 1st (Moussa Diabate makes 1-foot running dunk (Sion James assists))",
     "why": "Volume: shot share 26.4% of the DET lineup (17.9 FGA+0.44*FTA per game, last 15; last-game starters) | L10 35.8 min, started 10/10, first scorer 0/10\nMatchup: tip Paul Reed (42% shrunk) vs Moussa Diabate (33%) -> DET wins tip 56%; tip winner scores first 67.1% -> DET scores first 52.0%\nContext: DET -4.5 / O/U 210.5 (TT 107.5) | Away · tip 7:30 PM ET\nInjuries: none | Team out: Isaiah Joe, Jalen Duren | Opp out: Grant Williams, Kon Knueppel\nWeather: Indoor (neutral)\nRisk: long price +450: one possession decides it; no first score in L10\nFormula: [B+] Model 13.7% to score first (rank 8 of 145) = DET scores first 52.0% x shot share 26.4%.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "first_time": "11:39 1st",
+    "first_scorer": "Moussa Diabate",
+    "hit": "L",
+    "hit_note": "played, first point: Moussa Diabate (11:39 1st)"
    },
    {
     "pick": "Jalen Brunson first point scorer",
@@ -17764,10 +17775,13 @@
     "market": "First Player To Score",
     "grade": "B+",
     "score": 13.58,
-    "status": "Pending",
-    "result": null,
+    "status": "L",
+    "result": "First point: Michael Porter Jr. 11:20 1st (Michael Porter Jr. makes 16-foot pullup jump shot (Julius Randle assists))",
     "why": "Volume: shot share 26.9% of the NY lineup (24.0 FGA+0.44*FTA per game, last 15; projected starters) | L10 36.7 min, started 10/10, first scorer 1/10\nMatchup: tip Karl-Anthony Towns (50% shrunk) vs Day'Ron Sharpe (48%) -> NY wins tip 51%; tip winner scores first 67.1% -> NY scores first 50.4%\nContext: NY -14.5 / O/U 219.5 (TT 117.5) | Home · tip 7:30 PM ET\nInjuries: none | Team out: Jose Alvarado | Opp out: Mikel Brown Jr., Egor Demin, Tyler Bilodeau\nWeather: Indoor (neutral)\nRisk: long price +400: one possession decides it\nFormula: [B+] Model 13.6% to score first (rank 9 of 145) = NY scores first 50.4% x shot share 26.9%.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "first_time": "11:20 1st",
+    "first_scorer": "Michael Porter Jr.",
+    "hit": "L",
+    "hit_note": "played, first point: Michael Porter Jr. (11:20 1st)"
    },
    {
     "pick": "Darius Acuff Jr. first point scorer",
@@ -17783,17 +17797,21 @@
     "market": "First Player To Score",
     "grade": "B+",
     "score": 13.22,
-    "status": "Pending",
-    "result": null,
+    "status": "L",
+    "result": "First point: Daniel Gafford 10:45 1st (Daniel Gafford makes two point shot)",
     "why": "Volume: shot share 26.4% of the SAC lineup (26.1 FGA+0.44*FTA per game, last 15; last-game starters) | L10 36.5 min, started 6/6, first scorer 0/6\nMatchup: tip Domantas Sabonis (48% shrunk) vs Daniel Gafford (47%) -> SAC wins tip 50%; tip winner scores first 67.1% -> SAC scores first 50.1%\nContext: SAC +10.5 / O/U 232.5 (TT 111.5) | Away · tip 8:00 PM ET\nInjuries: none | Team out: Dylan Cardwell, Zach LaVine, Maxime Raynaud | Opp out: Tarik Biberovic, Dereck Lively II, Kyrie Irving\nWeather: Indoor (neutral)\nRisk: long price +650: one possession decides it; small sample (6 games); no first score in L10\nFormula: [B+] Model 13.2% to score first (rank 11 of 145) = SAC scores first 50.1% x shot share 26.4%.",
-    "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits."
+    "first_time": "10:45 1st",
+    "first_scorer": "Daniel Gafford",
+    "hit": "L",
+    "hit_note": "played, first point: Daniel Gafford (10:45 1st)"
    }
   ],
   "mode": "lock",
   "built_at": "Mon Nov 2, 10:06 AM ET",
   "hr_file": "/workspace/hr-lines/hr-markets-20261102-1005.json",
   "games": 15,
-  "isolated": true
+  "isolated": true,
+  "units": -1.0
  },
  "sport_status": {
   "MLB": {
@@ -48510,17 +48528,17 @@
   "note": "Per-leg hit tracking only. NOT counted in the Official W-L or units (the ticket counts once at posted odds).",
   "overall": {
    "w": 0,
-   "l": 15,
+   "l": 21,
    "void": 0,
-   "pending": 7,
+   "pending": 1,
    "hit_pct": 0.0
   },
   "by_source": {
    "First Blood model (build_fps.py)": {
     "w": 0,
-    "l": 15,
+    "l": 21,
     "void": 0,
-    "pending": 7,
+    "pending": 1,
     "hit_pct": 0.0
    }
   },
@@ -48541,17 +48559,17 @@
    },
    "Cade Cunningham": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "void": 0,
-    "pending": 1,
-    "hit_pct": null
+    "pending": 0,
+    "hit_pct": 0.0
    },
    "Darius Acuff Jr.": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "void": 0,
-    "pending": 1,
-    "hit_pct": null
+    "pending": 0,
+    "hit_pct": 0.0
    },
    "Darius Garland": {
     "w": 0,
@@ -48576,9 +48594,9 @@
    },
    "Jalen Brunson": {
     "w": 0,
-    "l": 1,
+    "l": 2,
     "void": 0,
-    "pending": 1,
+    "pending": 0,
     "hit_pct": 0.0
    },
    "Jalen Johnson": {
@@ -48590,9 +48608,9 @@
    },
    "Jayson Tatum": {
     "w": 0,
-    "l": 1,
+    "l": 2,
     "void": 0,
-    "pending": 1,
+    "pending": 0,
     "hit_pct": 0.0
    },
    "John Collins": {
@@ -48639,17 +48657,17 @@
    },
    "Shai Gilgeous-Alexander": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "void": 0,
-    "pending": 1,
-    "hit_pct": null
+    "pending": 0,
+    "hit_pct": 0.0
    },
    "Tyrese Maxey": {
     "w": 0,
-    "l": 0,
+    "l": 1,
     "void": 0,
-    "pending": 1,
-    "hit_pct": null
+    "pending": 0,
+    "hit_pct": 0.0
    },
    "Zach Edey": {
     "w": 0,
@@ -48925,12 +48943,12 @@
     "grade": "A-",
     "source": "First Blood model (build_fps.py)",
     "capper": "",
-    "hit": "Pending",
-    "settled": "Pending",
-    "first_scorer": "",
-    "note": "",
+    "hit": "L",
+    "settled": "L",
+    "first_scorer": "Evan Mobley",
+    "note": "played, first point: Evan Mobley (11:43 1st)",
     "ticket": "2026-11-02 7-leg First Blood",
-    "ticket_result": "Pending"
+    "ticket_result": "L"
    },
    {
     "date": "2026-11-02",
@@ -48947,7 +48965,7 @@
     "first_scorer": "",
     "note": "",
     "ticket": "2026-11-02 7-leg First Blood",
-    "ticket_result": "Pending"
+    "ticket_result": "L"
    },
    {
     "date": "2026-11-02",
@@ -48959,12 +48977,12 @@
     "grade": "A-",
     "source": "First Blood model (build_fps.py)",
     "capper": "",
-    "hit": "Pending",
-    "settled": "Pending",
-    "first_scorer": "",
-    "note": "",
+    "hit": "L",
+    "settled": "L",
+    "first_scorer": "Jaylen Brown",
+    "note": "played, first point: Jaylen Brown (10:50 1st)",
     "ticket": "2026-11-02 7-leg First Blood",
-    "ticket_result": "Pending"
+    "ticket_result": "L"
    },
    {
     "date": "2026-11-02",
@@ -48976,12 +48994,12 @@
     "grade": "A-",
     "source": "First Blood model (build_fps.py)",
     "capper": "",
-    "hit": "Pending",
-    "settled": "Pending",
-    "first_scorer": "",
-    "note": "",
+    "hit": "L",
+    "settled": "L",
+    "first_scorer": "Kevin Durant",
+    "note": "played, first point: Kevin Durant (10:51 1st)",
     "ticket": "2026-11-02 7-leg First Blood",
-    "ticket_result": "Pending"
+    "ticket_result": "L"
    },
    {
     "date": "2026-11-02",
@@ -48993,12 +49011,12 @@
     "grade": "B+",
     "source": "First Blood model (build_fps.py)",
     "capper": "",
-    "hit": "Pending",
-    "settled": "Pending",
-    "first_scorer": "",
-    "note": "",
+    "hit": "L",
+    "settled": "L",
+    "first_scorer": "Moussa Diabate",
+    "note": "played, first point: Moussa Diabate (11:39 1st)",
     "ticket": "2026-11-02 7-leg First Blood",
-    "ticket_result": "Pending"
+    "ticket_result": "L"
    },
    {
     "date": "2026-11-02",
@@ -49010,12 +49028,12 @@
     "grade": "B+",
     "source": "First Blood model (build_fps.py)",
     "capper": "",
-    "hit": "Pending",
-    "settled": "Pending",
-    "first_scorer": "",
-    "note": "",
+    "hit": "L",
+    "settled": "L",
+    "first_scorer": "Michael Porter Jr.",
+    "note": "played, first point: Michael Porter Jr. (11:20 1st)",
     "ticket": "2026-11-02 7-leg First Blood",
-    "ticket_result": "Pending"
+    "ticket_result": "L"
    },
    {
     "date": "2026-11-02",
@@ -49027,12 +49045,12 @@
     "grade": "B+",
     "source": "First Blood model (build_fps.py)",
     "capper": "",
-    "hit": "Pending",
-    "settled": "Pending",
-    "first_scorer": "",
-    "note": "",
+    "hit": "L",
+    "settled": "L",
+    "first_scorer": "Daniel Gafford",
+    "note": "played, first point: Daniel Gafford (10:45 1st)",
     "ticket": "2026-11-02 7-leg First Blood",
-    "ticket_result": "Pending"
+    "ticket_result": "L"
    }
   ]
  },
