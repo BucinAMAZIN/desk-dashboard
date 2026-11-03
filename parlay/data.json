@@ -1,5 +1,5 @@
 {
- "generated": 1793708162.619236,
+ "generated": 1793709024.2718074,
  "today": {
   "title": "Nov 3 picks (Hard Rock)",
   "tickets": [],
@@ -7760,10 +7760,10 @@
   },
   {
    "name": "@alexcaruso",
-   "w": 58,
-   "l": 37,
+   "w": 63,
+   "l": 39,
    "p": 0,
-   "pct": 61,
+   "pct": 62,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -7800,9 +7800,9 @@
     {
      "prop": "NFL rush yds (over)",
      "w": 4,
-     "l": 5,
+     "l": 6,
      "p": 0,
-     "pct": 44,
+     "pct": 40,
      "fam": "Rushing yds"
     },
     {
@@ -7824,9 +7824,9 @@
     {
      "prop": "NFL rec yds (over)",
      "w": 5,
-     "l": 8,
+     "l": 9,
      "p": 0,
-     "pct": 38,
+     "pct": 36,
      "fam": "Receiving yds"
     },
     {
@@ -7863,10 +7863,18 @@
     },
     {
      "prop": "NBA points (over)",
-     "w": 12,
+     "w": 15,
      "l": 3,
      "p": 0,
-     "pct": 80,
+     "pct": 83,
+     "fam": "Player points"
+    },
+    {
+     "prop": "NBA points (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
      "fam": "Player points"
     },
     {
@@ -7900,6 +7908,14 @@
      "p": 0,
      "pct": 100,
      "fam": "Pts+Reb"
+    },
+    {
+     "prop": "NBA reb+ast (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Reb+Ast"
     },
     {
      "prop": "NBA PRA (over)",
@@ -7974,99 +7990,14 @@
      "fam": "ML"
     }
    ],
-   "today": [
-    {
-     "sport": "NFL",
-     "prop": "NFL rush yds (over)",
-     "pick": "Caleb Williams o22.5 Rush Yards (CHI @ SEA MNF; NFL Play of the Day, POTD)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Rushing yds",
-     "game": "CHI @ SEA",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "D'Andre Swift o18.5 Rec Yards (CHI @ SEA MNF; NFL Play #3)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Receiving yds",
-     "game": "CHI @ SEA",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Donovan Clingan o10.5 Points (POR @ DEN; NBA Play of the Day, POTD)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Player points",
-     "game": "POR @ DEN",
-     "kick": "9:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (under)",
-     "pick": "Jalen Brunson u24.5 Points (BKN @ NY; NBA Play #5; playable at 23.5)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Player points",
-     "game": "BKN @ NY",
-     "kick": "7:30 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Saddiq Bey o12.5 Points (NO @ MEM; NBA Play #1)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Player points",
-     "game": "NO @ MEM",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Shai Gilgeous-Alexander 30+ Points (OKC @ CLE; NBA Play #3)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Player points",
-     "game": "OKC @ CLE",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA reb+ast (under)",
-     "pick": "Michael Porter Jr u9.5 Reb + Ast (BKN @ NY; NBA Play #4; playable at 8.5)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Reb+Ast",
-     "game": "BKN @ NY",
-     "kick": "7:30 PM ET",
-     "started": false,
-     "final": false
-    }
-   ]
+   "today": []
   },
   {
    "name": "@austinsprops",
-   "w": 36,
-   "l": 29,
+   "w": 38,
+   "l": 34,
    "p": 0,
-   "pct": 55,
+   "pct": 53,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -8078,10 +8009,10 @@
     },
     {
      "prop": "NFL rec yds (over)",
-     "w": 4,
+     "w": 5,
      "l": 4,
      "p": 0,
-     "pct": 50,
+     "pct": 56,
      "fam": "Receiving yds"
     },
     {
@@ -8110,18 +8041,18 @@
     },
     {
      "prop": "NFL longest reception (over)",
-     "w": 0,
+     "w": 1,
      "l": 1,
      "p": 0,
-     "pct": 0,
+     "pct": 50,
      "fam": "Longest reception"
     },
     {
      "prop": "NBA points (over)",
      "w": 4,
-     "l": 4,
+     "l": 6,
      "p": 0,
-     "pct": 50,
+     "pct": 40,
      "fam": "Player points"
     },
     {
@@ -8135,9 +8066,9 @@
     {
      "prop": "NBA assists (over)",
      "w": 3,
-     "l": 1,
+     "l": 2,
      "p": 0,
-     "pct": 75,
+     "pct": 60,
      "fam": "Assists"
     },
     {
@@ -8175,9 +8106,9 @@
     {
      "prop": "NBA 3PM (over)",
      "w": 7,
-     "l": 1,
+     "l": 3,
      "p": 0,
-     "pct": 88,
+     "pct": 70,
      "fam": "3PM"
     },
     {
@@ -8205,95 +8136,14 @@
      "fam": "Parlay"
     }
    ],
-   "today": [
-    {
-     "sport": "NFL",
-     "prop": "NFL rec yds (over)",
-     "pick": "Tory Horton o24.5 Rec Yards (CHI @ SEA MNF; Chalkboard)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Receiving yds",
-     "game": "CHI @ SEA",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NFL",
-     "prop": "NFL longest reception (over)",
-     "pick": "Rome Odunze o19.5 Longest Reception (CHI @ SEA MNF; MNF Play Of The Day, POTD)",
-     "odds": "-110 DK",
-     "status": "Pending",
-     "fam": "Longest reception",
-     "game": "CHI @ SEA",
-     "kick": "8:15 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Isaiah Hartenstein o9.5 Points (Full Card, VIP)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Player points",
-     "game": "OKC @ CLE",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA points (over)",
-     "pick": "Tristan da Silva o11.5 Points (Full Card, VIP)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Player points"
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA assists (over)",
-     "pick": "Nikola Jokic o9.5 Assists (POR @ DEN; #3, MY FAV NBA PAIRING)",
-     "odds": "-110 MGM",
-     "status": "Pending",
-     "fam": "Assists",
-     "game": "POR @ DEN",
-     "kick": "9:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA 3PM (over)",
-     "pick": "Cooper Flagg o1.5 3PM (SAC @ DAL; My NBA Play Of The Day, POTD)",
-     "odds": "+105 FD",
-     "status": "Pending",
-     "fam": "3PM",
-     "game": "SAC @ DAL",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA 3PM (over)",
-     "pick": "Ja'Kobe Walter o2.5 3PM (TOR @ LAC; Our First NBA Winner Tonight; 0.75u)",
-     "odds": "+140 HR",
-     "status": "Pending",
-     "fam": "3PM",
-     "game": "TOR @ LAC",
-     "kick": "10:00 PM ET",
-     "started": false,
-     "final": false
-    }
-   ]
+   "today": []
   },
   {
    "name": "@panpotd",
-   "w": 27,
-   "l": 28,
+   "w": 28,
+   "l": 31,
    "p": 0,
-   "pct": 49,
+   "pct": 47,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -8354,9 +8204,9 @@
     {
      "prop": "NBA assists (over)",
      "w": 1,
-     "l": 2,
+     "l": 4,
      "p": 0,
-     "pct": 33,
+     "pct": 20,
      "fam": "Assists"
     },
     {
@@ -8377,7 +8227,7 @@
     },
     {
      "prop": "NBA pts+ast (over)",
-     "w": 3,
+     "w": 4,
      "l": 0,
      "p": 0,
      "pct": 100,
@@ -8386,9 +8236,9 @@
     {
      "prop": "NBA reb+ast (over)",
      "w": 4,
-     "l": 1,
+     "l": 2,
      "p": 0,
-     "pct": 80,
+     "pct": 67,
      "fam": "Reb+Ast"
     },
     {
@@ -8424,63 +8274,14 @@
      "fam": "Parlay"
     }
    ],
-   "today": [
-    {
-     "sport": "NBA",
-     "prop": "NBA assists (over)",
-     "pick": "LaMelo Ball o6.5 Assists (NBA Monday Free Card)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Assists",
-     "game": "MIL @ MIN",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA assists (over)",
-     "pick": "Nikola Jokic o9.5 Assists (POR @ DEN; My First NBA Winner Today)",
-     "odds": "-115",
-     "status": "Pending",
-     "fam": "Assists",
-     "game": "POR @ DEN",
-     "kick": "9:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA pts+ast (over)",
-     "pick": "Davion Mitchell o19.5 PA (NBA Monday Free Card)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Pts+Ast",
-     "game": "OKC @ CLE",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
-    },
-    {
-     "sport": "NBA",
-     "prop": "NBA reb+ast (over)",
-     "pick": "Ausar Thompson o10.5 RA (NBA Monday Free Card)",
-     "odds": "none posted",
-     "status": "Pending",
-     "fam": "Reb+Ast",
-     "game": "DET @ CHA",
-     "kick": "7:30 PM ET",
-     "started": false,
-     "final": false
-    }
-   ]
+   "today": []
   },
   {
    "name": "@showtimepicks2",
    "w": 24,
-   "l": 13,
+   "l": 14,
    "p": 0,
-   "pct": 65,
+   "pct": 63,
    "props": [
     {
      "prop": "NCAAF pass yds (over)",
@@ -8500,6 +8301,14 @@
     },
     {
      "prop": "NBA ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
+    },
+    {
+     "prop": "NCAAB ML",
      "w": 0,
      "l": 1,
      "p": 0,
@@ -8587,24 +8396,7 @@
      "fam": "Parlay"
     }
    ],
-   "today": [
-    {
-     "sport": "NCAAB",
-     "prop": "NCAAB ML",
-     "pick": "Winthrop ML (opponent not stated; early morning CBB play)",
-     "odds": "+104",
-     "status": "Pending",
-     "fam": "ML"
-    },
-    {
-     "sport": "NCAAB",
-     "prop": "NCAAB spread",
-     "pick": "Liberty Flames +9.5 (vs High Point; first play of the 24 hour CBB marathon)",
-     "odds": "-112",
-     "status": "Pending",
-     "fam": "Spread"
-    }
-   ]
+   "today": []
   },
   {
    "name": "@bigmikepickz",
@@ -8701,10 +8493,10 @@
   "Parlay",
   "Other"
  ],
- "capper_today_date": "2026-11-02",
+ "capper_today_date": "2026-11-03",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-03 07:16 AM ET",
+  "updated": "2026-11-03 07:30 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -62847,586 +62639,48 @@
   ]
  },
  "heist": {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "title": "THE HEIST",
   "sub": "▼ BOUGHT DOWN · CAPPERS",
   "stake": "1u",
-  "legs": [
+  "legs": [],
+  "skipped": [
    {
     "capper": "@alexcaruso",
-    "sport": "NBA",
-    "orig": "Donovan Clingan o10.5 Points",
-    "orig_odds": -125,
-    "pick": "Donovan Clingan o10.5 Points",
-    "odds": -125,
-    "src": "Capper original line",
-    "game": "POR @ DEN; NBA Play of the Day, POTD",
-    "gkey": "NBA:401909918",
-    "start": "2026-11-02 21:00",
-    "locked": false,
-    "res": "",
-    "stat": "",
-    "priced": "2026-11-02 16:14",
-    "orig_note": "book price; capper posted no odds",
-    "first_priced": "2026-11-02 12:53",
-    "dk": {
-     "ladder": [
-      [
-       "6+",
-       "-770"
-      ],
-      [
-       "8+",
-       "-340"
-      ],
-      [
-       "10+",
-       "-179"
-      ],
-      [
-       "12+",
-       "-102"
-      ],
-      [
-       "15+",
-       "+215"
-      ],
-      [
-       "18+",
-       "+455"
-      ],
-      [
-       "20+",
-       "+750"
-      ],
-      [
-       "25+",
-       "+2300"
-      ]
-     ],
-     "odds": "-340",
-     "pick": "Donovan Clingan Over 7.5 Points",
-     "moved": true,
-     "na": false,
-     "orig_odds": null
-    }
+    "why": "no picks today",
+    "pick": ""
+   },
+   {
+    "capper": "@panpotd",
+    "why": "no picks today",
+    "pick": ""
    },
    {
     "capper": "@austinsprops",
-    "sport": "NFL",
-    "orig": "Rome Odunze o19.5 Longest Reception",
-    "orig_odds": -110,
-    "pick": "Rome Odunze o19.5 Longest Reception",
-    "odds": -110,
-    "src": "Capper original line",
-    "game": "CHI @ SEA MNF; MNF Play Of The Day, POTD",
-    "gkey": "NFL:401873036",
-    "start": "2026-11-02 20:15",
-    "locked": false,
-    "res": "",
-    "stat": "",
-    "priced": "2026-11-02 16:14",
-    "first_priced": "2026-11-02 07:16",
-    "dk": {
-     "odds": "-119",
-     "na": false,
-     "ladder": [
-      [
-       "15+",
-       "-369"
-      ],
-      [
-       "20+",
-       "-119"
-      ],
-      [
-       "25+",
-       "+195"
-      ],
-      [
-       "30+",
-       "+316"
-      ]
-     ],
-     "pick": "Rome Odunze o19.5 Longest Reception",
-     "src": "original line",
-     "orig_odds": "-119"
-    }
-   }
-  ],
-  "skipped": [
-   {
-    "capper": "@panpotd",
-    "why": "same game as @alexcaruso",
-    "pick": "Nikola Jokic o9.5 Assists"
+    "why": "no picks today",
+    "pick": ""
    },
    {
     "capper": "@showtimepicks2",
-    "why": "game started before pricing (never priced after start)",
-    "pick": "Liberty Flames +9.5 (vs High Point; first play of the 24 hour CBB marathon)"
+    "why": "no picks today",
+    "pick": ""
    },
    {
     "capper": "@bigmikepickz",
     "why": "no picks today",
     "pick": ""
-   },
-   {
-    "capper": "@habibtings",
-    "why": "no picks today",
-    "pick": ""
    }
   ],
-  "status": "live",
-  "msg": "",
-  "odds": 244,
-  "orig": 244,
+  "status": "waiting",
+  "msg": "Builds after the morning capper pull",
+  "odds": null,
+  "orig": null,
   "final": false,
   "sources": [
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
-  "conv": [
-   {
-    "capper": "@alexcaruso",
-    "sport": "NFL",
-    "pick": "Caleb Williams o22.5 Rush Yards (CHI @ SEA MNF; NFL Play of the Day, POTD)",
-    "odds": "none posted",
-    "game": "CHI @ SEA",
-    "kick": "8:15 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "15+ -317",
-    "hr_odds": null,
-    "dk_odds": -317,
-    "start": "2026-11-02 20:15",
-    "hr_pick": null,
-    "dk_pick": "Caleb Williams 15+ Rush Yards",
-    "trk": "Caleb Williams o22.5 Rush Yards",
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NFL",
-    "pick": "D'Andre Swift o18.5 Rec Yards (CHI @ SEA MNF; NFL Play #3)",
-    "odds": "none posted",
-    "game": "CHI @ SEA",
-    "kick": "8:15 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "10+ -289",
-    "hr_odds": null,
-    "dk_odds": -289,
-    "start": "2026-11-02 20:15",
-    "hr_pick": null,
-    "dk_pick": "D'Andre Swift 10+ Rec Yards",
-    "trk": "D'Andre Swift o18.5 Rec Yards",
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Donovan Clingan o10.5 Points (POR @ DEN; NBA Play of the Day, POTD)",
-    "odds": "none posted",
-    "game": "POR @ DEN",
-    "kick": "9:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "8+ -340",
-    "hr_odds": null,
-    "dk_odds": -340,
-    "start": "2026-11-02 21:00",
-    "hr_pick": null,
-    "dk_pick": "Donovan Clingan 8+ Points",
-    "trk": "Donovan Clingan o10.5 Points",
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Jalen Brunson u24.5 Points (BKN @ NY; NBA Play #5; playable at 23.5)",
-    "odds": "none posted",
-    "game": "BKN @ NY",
-    "kick": "7:30 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-11-02 19:30",
-    "hr_pick": null,
-    "dk_pick": "Jalen Brunson u24.5 Points",
-    "trk": "Jalen Brunson u24.5 Points",
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Saddiq Bey o12.5 Points (NO @ MEM; NBA Play #1)",
-    "odds": "none posted",
-    "game": "NO @ MEM",
-    "kick": "8:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "10+ -325",
-    "dk": "10+ -289",
-    "hr_odds": -325,
-    "dk_odds": -289,
-    "start": "2026-11-02 20:00",
-    "hr_pick": "Saddiq Bey 10+ Points",
-    "dk_pick": "Saddiq Bey 10+ Points",
-    "trk": "Saddiq Bey 10+ Points",
-    "grade_odds": -325,
-    "hr_x": null,
-    "excluded": null
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Shai Gilgeous-Alexander 30+ Points (OKC @ CLE; NBA Play #3)",
-    "odds": "none posted",
-    "game": "OKC @ CLE",
-    "kick": "7:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "25+ -325",
-    "dk": "25+ -364",
-    "hr_odds": -325,
-    "dk_odds": -364,
-    "start": "2026-11-02 19:00",
-    "hr_pick": "Shai Gilgeous-Alexander 25+ Points",
-    "dk_pick": "Shai Gilgeous-Alexander 25+ Points",
-    "trk": "Shai Gilgeous-Alexander 25+ Points",
-    "grade_odds": -325,
-    "hr_x": null,
-    "excluded": null
-   },
-   {
-    "capper": "@alexcaruso",
-    "sport": "NBA",
-    "pick": "Michael Porter Jr u9.5 Reb + Ast (BKN @ NY; NBA Play #4; playable at 8.5)",
-    "odds": "none posted",
-    "game": "BKN @ NY",
-    "kick": "7:30 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-11-02 19:30",
-    "hr_pick": null,
-    "dk_pick": "Michael Porter Jr u9.5 Reb + Ast",
-    "trk": "Michael Porter Jr u9.5 Reb + Ast",
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NFL",
-    "pick": "Tory Horton o24.5 Rec Yards (CHI @ SEA MNF; Chalkboard)",
-    "odds": "none posted",
-    "game": "CHI @ SEA",
-    "kick": "8:15 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "10+ -273",
-    "hr_odds": null,
-    "dk_odds": -273,
-    "start": "2026-11-02 20:15",
-    "hr_pick": "Tory Horton o24.5 Rec Yards",
-    "dk_pick": "Tory Horton 10+ Rec Yards",
-    "trk": "Tory Horton o24.5 Rec Yards",
-    "grade_odds": -115,
-    "hr_x": -115,
-    "excluded": null
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NFL",
-    "pick": "Rome Odunze o19.5 Longest Reception (CHI @ SEA MNF; MNF Play Of The Day, POTD)",
-    "odds": "-110 DK",
-    "game": "CHI @ SEA",
-    "kick": "8:15 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (longest rush/rec never bought down)",
-    "dk": "original line kept",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-11-02 20:15",
-    "hr_pick": "Rome Odunze o19.5 Longest Reception",
-    "dk_pick": "Rome Odunze o19.5 Longest Reception",
-    "trk": "Rome Odunze o19.5 Longest Reception",
-    "grade_odds": -110,
-    "hr_x": null,
-    "excluded": null
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NBA",
-    "pick": "Isaiah Hartenstein o9.5 Points (Full Card, VIP)",
-    "odds": "none posted",
-    "game": "OKC @ CLE",
-    "kick": "7:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "8+ -291",
-    "hr_odds": null,
-    "dk_odds": -291,
-    "start": "2026-11-02 19:00",
-    "hr_pick": "Isaiah Hartenstein o9.5 Points",
-    "dk_pick": "Isaiah Hartenstein 8+ Points",
-    "trk": "Isaiah Hartenstein o9.5 Points",
-    "grade_odds": -130,
-    "hr_x": -130,
-    "excluded": null
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NBA",
-    "pick": "Tristan da Silva o11.5 Points (Full Card, VIP)",
-    "odds": "none posted",
-    "game": null,
-    "kick": null,
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": null,
-    "hr_pick": null,
-    "dk_pick": "Tristan da Silva o11.5 Points",
-    "trk": "Tristan da Silva o11.5 Points",
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "n/a at Hard Rock (no exact-line price; capper posted no odds)"
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NBA",
-    "pick": "Nikola Jokic o9.5 Assists (POR @ DEN; #3, MY FAV NBA PAIRING)",
-    "odds": "-110 MGM",
-    "game": "POR @ DEN",
-    "kick": "9:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "8+ -325",
-    "dk": "8+ -352",
-    "hr_odds": -325,
-    "dk_odds": -352,
-    "start": "2026-11-02 21:00",
-    "hr_pick": "Nikola Jokic 8+ Assists",
-    "dk_pick": "Nikola Jokic 8+ Assists",
-    "trk": "Nikola Jokic 8+ Assists",
-    "grade_odds": -325,
-    "hr_x": null,
-    "excluded": null
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NBA",
-    "pick": "Cooper Flagg o1.5 3PM (SAC @ DAL; My NBA Play Of The Day, POTD)",
-    "odds": "+105 FD",
-    "game": "SAC @ DAL",
-    "kick": "8:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-11-02 20:00",
-    "hr_pick": "Cooper Flagg o1.5 3PM",
-    "dk_pick": "Cooper Flagg o1.5 3PM",
-    "trk": "Cooper Flagg o1.5 3PM",
-    "grade_odds": -125,
-    "hr_x": -125,
-    "excluded": null
-   },
-   {
-    "capper": "@austinsprops",
-    "sport": "NBA",
-    "pick": "Ja'Kobe Walter o2.5 3PM (TOR @ LAC; Our First NBA Winner Tonight; 0.75u)",
-    "odds": "+140 HR",
-    "game": "TOR @ LAC",
-    "kick": "10:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-11-02 22:00",
-    "hr_pick": "Ja'Kobe Walter o2.5 3PM",
-    "dk_pick": "Ja'Kobe Walter o2.5 3PM",
-    "trk": "Ja'Kobe Walter o2.5 3PM",
-    "grade_odds": 110,
-    "hr_x": 110,
-    "excluded": null
-   },
-   {
-    "capper": "@panpotd",
-    "sport": "NBA",
-    "pick": "LaMelo Ball o6.5 Assists (NBA Monday Free Card)",
-    "odds": "none posted",
-    "game": "MIL @ MIN",
-    "kick": "8:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "6+ -300",
-    "dk": "6+ -252",
-    "hr_odds": -300,
-    "dk_odds": -252,
-    "start": "2026-11-02 20:00",
-    "hr_pick": "LaMelo Ball 6+ Assists",
-    "dk_pick": "LaMelo Ball 6+ Assists",
-    "trk": "LaMelo Ball 6+ Assists",
-    "grade_odds": -300,
-    "hr_x": null,
-    "excluded": null
-   },
-   {
-    "capper": "@panpotd",
-    "sport": "NBA",
-    "pick": "Nikola Jokic o9.5 Assists (POR @ DEN; My First NBA Winner Today)",
-    "odds": "-115",
-    "game": "POR @ DEN",
-    "kick": "9:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "8+ -325",
-    "dk": "8+ -352",
-    "hr_odds": -325,
-    "dk_odds": -352,
-    "start": "2026-11-02 21:00",
-    "hr_pick": "Nikola Jokic 8+ Assists",
-    "dk_pick": "Nikola Jokic 8+ Assists",
-    "trk": "Nikola Jokic 8+ Assists",
-    "grade_odds": -325,
-    "hr_x": null,
-    "excluded": null
-   },
-   {
-    "capper": "@panpotd",
-    "sport": "NBA",
-    "pick": "Davion Mitchell o19.5 PA (NBA Monday Free Card)",
-    "odds": "none posted",
-    "game": "OKC @ CLE",
-    "kick": "7:00 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "15+ -373",
-    "hr_odds": null,
-    "dk_odds": -373,
-    "start": "2026-11-02 19:00",
-    "hr_pick": "Davion Mitchell o19.5 PA",
-    "dk_pick": "Davion Mitchell 15+ PA",
-    "trk": "Davion Mitchell o19.5 PA",
-    "grade_odds": -120,
-    "hr_x": -120,
-    "excluded": null
-   },
-   {
-    "capper": "@panpotd",
-    "sport": "NBA",
-    "pick": "Ausar Thompson o10.5 RA (NBA Monday Free Card)",
-    "odds": "none posted",
-    "game": "DET @ CHA",
-    "kick": "7:30 PM ET",
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "original line kept (no DK rung in -250..-375)",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": "2026-11-02 19:30",
-    "hr_pick": "Ausar Thompson o10.5 RA",
-    "dk_pick": "Ausar Thompson o10.5 RA",
-    "trk": "Ausar Thompson o10.5 RA",
-    "grade_odds": -125,
-    "hr_x": -125,
-    "excluded": null
-   },
-   {
-    "capper": "@showtimepicks2",
-    "sport": "NCAAB",
-    "pick": "Winthrop ML (opponent not stated; early morning CBB play)",
-    "odds": "+104",
-    "game": null,
-    "kick": null,
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": null,
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "ML (not a prop)"
-   },
-   {
-    "capper": "@showtimepicks2",
-    "sport": "NCAAB",
-    "pick": "Liberty Flames +9.5 (vs High Point; first play of the 24 hour CBB marathon)",
-    "odds": "-112",
-    "game": null,
-    "kick": null,
-    "started": false,
-    "final": false,
-    "frozen": false,
-    "hr": "not convertible (parlay/TD/ML: original kept)",
-    "dk": "—",
-    "hr_odds": null,
-    "dk_odds": null,
-    "start": null,
-    "hr_pick": null,
-    "dk_pick": null,
-    "trk": null,
-    "grade_odds": null,
-    "hr_x": null,
-    "excluded": "no gradable line"
-   }
-  ],
+  "conv": [],
   "props": {
    "n": 0,
    "w": 0,
@@ -63434,9 +62688,7 @@
    "p": 0,
    "pending": 0,
    "units": 0.0
-  },
-  "dk_odds": "+138",
-  "dk_orig": null
+  }
  },
  "big4_games": 11,
  "big4_games_by_sport": {
@@ -63447,7 +62699,7 @@
  },
  "gameday": {
   "date": "2026-11-03",
-  "built": "2026-11-03 07:16 ET",
+  "built": "2026-11-03 07:30 ET",
   "picks": 72,
   "vetoes": [],
   "gaps": [
@@ -64961,7 +64213,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-03 07:17 AM ET"
- },
- "capper_audit_hold": "Capper/HEIST data held at 2026-11-02 16:15 ET (self-audit failed; see logs/capper_audit_2026-11-03.txt)"
+  "checked_et": "2026-11-03 07:30 AM ET"
+ }
 }
