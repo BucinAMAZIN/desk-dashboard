@@ -1,5 +1,5 @@
 {
- "generated": 1793745828.9487016,
+ "generated": 1793746480.9965484,
  "today": {
   "title": "Nov 3 picks (Hard Rock)",
   "tickets": [
@@ -9430,7 +9430,7 @@
  "capper_today_date": "2026-11-03",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-03 05:43 PM ET",
+  "updated": "2026-11-03 05:54 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -63862,7 +63862,7 @@
  },
  "gameday": {
   "date": "2026-11-03",
-  "built": "2026-11-03 17:43 ET",
+  "built": "2026-11-03 17:54 ET",
   "picks": 80,
   "vetoes": [],
   "gaps": [
@@ -66240,18 +66240,104 @@
   "state": "preseason",
   "note": "First official NCAAM slate is the 2026-11-04 7 AM run.",
   "parlay": null,
-  "safe": null
+  "safe": null,
+  "unofficial": {
+   "date": "2026-11-03",
+   "label": "UNOFFICIAL",
+   "repriced": "2026-11-03 17:49 ET",
+   "note": "UNOFFICIAL · dry-run picks · not in the Official record, units, headline, Heist or official grading.",
+   "parlay": {
+    "name": "Parlay",
+    "dry": "+108",
+    "legs": [
+     {
+      "pick": "Holy Cross +27.5",
+      "game": "Rhode Island vs. Holy Cross",
+      "start_et": "Tue 11/03 07:00 PM ET",
+      "odds": null,
+      "started": false,
+      "drop": "line no longer offered at Hard Rock"
+     },
+     {
+      "pick": "Arkansas-Pine Bluff @ Arkansas Under 171.5",
+      "game": "Arkansas vs. Arkansas-Pine Bluff",
+      "start_et": "Tue 11/03 08:00 PM ET",
+      "odds": "-170",
+      "started": false,
+      "drop": null
+     }
+    ],
+    "odds": "-170",
+    "dec": 1.5882,
+    "status": "Void",
+    "void_reason": "1 leg left, needs 2-3; -170 is outside the +100..+140 band"
+   },
+   "safe": {
+    "name": "Safe",
+    "dry": "+129",
+    "legs": [
+     {
+      "pick": "Holy Cross +27.5",
+      "game": "Rhode Island vs. Holy Cross",
+      "start_et": "Tue 11/03 07:00 PM ET",
+      "odds": null,
+      "started": false,
+      "drop": "line no longer offered at Hard Rock"
+     },
+     {
+      "pick": "Kansas State -5.5",
+      "game": "Kansas State vs. South Dakota State",
+      "start_et": "Tue 11/03 08:00 PM ET",
+      "odds": "-275",
+      "started": false,
+      "drop": null
+     },
+     {
+      "pick": "Boston College -12.5",
+      "game": "Boston College vs. Wagner",
+      "start_et": "Tue 11/03 07:00 PM ET",
+      "odds": "-350",
+      "started": false,
+      "drop": null
+     }
+    ],
+    "odds": "-133",
+    "dec": 1.7532,
+    "status": "Void",
+    "void_reason": "-133 is outside the +100..+130 band"
+   },
+   "edge": [
+    {
+     "pick": "California Baptist team total Under 81.5",
+     "game": "California Baptist vs. North Florida",
+     "start_et": "Tue 11/03 10:00 PM ET",
+     "odds": "+120",
+     "started": false,
+     "drop": null,
+     "dry": "+120"
+    },
+    {
+     "pick": "Arkansas-Pine Bluff team total Under 60.5",
+     "game": "Arkansas vs. Arkansas-Pine Bluff",
+     "start_et": "Tue 11/03 08:00 PM ET",
+     "odds": "+120",
+     "started": false,
+     "drop": null,
+     "dry": "+120"
+    }
+   ]
+  }
  },
  "teamvs": {
   "date": "2026-11-03",
-  "built": "2026-11-03 05:19 PM ET",
+  "built": "2026-11-03 05:52 PM ET",
   "preview": false,
   "sports": {
    "NFL": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:19 PM ET",
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:52 PM ET",
     "none": "No NFL games today (ESPN scoreboard 2026-11-03)."
    },
    "NCAA F": {
@@ -66279,7 +66365,7 @@
          },
          "pts_d": {
           "val": 24.0,
-          "rank": 52,
+          "rank": 53,
           "n": 138
          },
          "yds_d": {
@@ -66390,7 +66476,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/points-per-game",
-      "as_of": "2026-11-03 05:19 PM ET",
+      "as_of": "2026-11-03 05:52 PM ET",
       "n": 138,
       "engine": false
      },
@@ -66400,7 +66486,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/yards-per-game",
-      "as_of": "2026-11-03 05:19 PM ET",
+      "as_of": "2026-11-03 05:52 PM ET",
       "n": 138,
       "engine": false
      },
@@ -66410,7 +66496,7 @@
       "side": "def",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/opponent-points-per-game",
-      "as_of": "2026-11-03 05:19 PM ET",
+      "as_of": "2026-11-03 05:52 PM ET",
       "n": 138,
       "engine": false
      },
@@ -66426,13 +66512,13 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:19 PM ET"
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:52 PM ET"
    },
    "NBA": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:19 PM ET",
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:52 PM ET",
     "none": "No NBA games today (ESPN scoreboard 2026-11-03)."
    },
    "NHL": {
@@ -67138,7 +67224,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-03 05:19 PM ET",
+      "as_of": "2026-11-03 05:52 PM ET",
       "n": 32,
       "engine": false
      },
@@ -67158,7 +67244,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-03 05:19 PM ET",
+      "as_of": "2026-11-03 05:52 PM ET",
       "n": 32,
       "engine": false
      },
@@ -67174,13 +67260,13 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:19 PM ET"
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:52 PM ET"
    },
    "MLB": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:19 PM ET",
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:52 PM ET",
     "none": "No MLB games today (ESPN scoreboard 2026-11-03)."
    },
    "WNBA": {
@@ -68607,18 +68693,18 @@
      }
     ],
     "gaps": [
-     "Milligan Buffaloes: not found in Torvik",
-     "Warren Wilson Owls: not found in Torvik",
-     "Lincoln (MO) Blue Tigers: not found in Torvik",
-     "Cornell (IA) Rams: not found in Torvik",
-     "Louisiana Christian Wildcats: not found in Torvik",
-     "Western New Mexico Mustangs: not found in Torvik",
-     "Regis University REGIS UNIVERSITY: not found in Torvik",
-     "Chapman Panthers: not found in Torvik",
-     "Lewis & Clark River Otters: not found in Torvik",
-     "Bethesda Flames: not found in Torvik"
+     "Milligan Buffaloes: no Torvik rating (likely a non-Division I team)",
+     "Warren Wilson Owls: no Torvik rating (likely a non-Division I team)",
+     "Lincoln (MO) Blue Tigers: no Torvik rating (likely a non-Division I team)",
+     "Cornell (IA) Rams: no Torvik rating (likely a non-Division I team)",
+     "Louisiana Christian Wildcats: no Torvik rating (likely a non-Division I team)",
+     "Western New Mexico Mustangs: no Torvik rating (likely a non-Division I team)",
+     "Regis University REGIS UNIVERSITY: no Torvik rating (likely a non-Division I team)",
+     "Chapman Panthers: no Torvik rating (likely a non-Division I team)",
+     "Lewis & Clark River Otters: no Torvik rating (likely a non-Division I team)",
+     "Bethesda Flames: no Torvik rating (likely a non-Division I team)"
     ],
-    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:19 PM ET",
+    "games_src": "ESPN scoreboard 2026-11-03, fetched 2026-11-03 05:52 PM ET",
     "stats": [
      {
       "key": "adjo",
@@ -68662,6 +68748,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-03 05:43 PM ET"
+  "checked_et": "2026-11-03 05:54 PM ET"
  }
 }
