@@ -831,12 +831,23 @@ function NW2(t){return `<span style="white-space:nowrap">${t}</span>`}
 /* LEG DAY BOARD host (RULEBOOK §17, 2026-10-25): the board mounts in a shadow root (ldSportMount) on Today and sport views */
 function LDHOST(){return'<div id="ldsph" style="margin:10px 0"></div>'}
 function sport(){const S=((D.today||{}).sports||{})[SP];const SR=(D.sport_records||[]).find(x=>x.sport==SP)||{},SU=SR.runners_up||{w:0,l:0,p:0,pct:null};let h=qualBox()+nlBox()+`<div class="card" style="padding:8px 12px"><div class="row">${(()=>{const v=sbV2(SP);return `<span class=m style="min-width:0">${E(SP)} official record</span><span style="white-space:nowrap;flex:none;margin-left:8px"><b>${v.w}-${v.l}${v.p?'-'+v.p:''}</b> <span class="${v.u>0?'sbp':v.u<0?'sbn':'sbz'}" style="font-size:12px">${v.u>0?'+':''}${v.u}u</span>${v.pe?` <span class=m>· ${v.pe} pending</span>`:''}</span>`})()}</div></div><h2>${E(SP)} picks today</h2>${SP=='MLB'?'':'<div class="m" style="margin-bottom:6px">Official · tap a pick for the reasoning</div>'}`;
+ if(SP=='NCAAM')return h+NCBOX()+fld();
  if(!S||(!S.potd&&!S.parlay&&!(S.runners_up||[]).length)){h+=`<div class="m esnote">${SP=='GOLF'?'No PGA Tour event this week':'No official picks posted today'}${SP=='NASCAR'?nsWhy():''}</div>`+PV8E('Play of the Day',SP)+P100E(SP,S&&S.parlay_done)+edgeBox()+s100(SP)+tdBox()+fbBox()+LDHOST()+proj();return h+fld()}
  const lg=l=>PCLEG(l,why(l.why,l.why_not));
  h+=S.potd?PV8(`Play of the Day${S.potd.chain?` #${E(S.potd.chain)}`:''}`,S.potd):PV8E('Play of the Day',SP);h+=(S.potd_more||[]).map(q=>PV8(`Play of the Day #${E(q.n)} · posted after POTD #${E(q.n-1)} settled`,q)).join('');
  h+=S.parlay?P100(`<div class="card"><div class="m">Parlay +100${S.parlay.chain?` #${E(S.parlay.chain)}`:''}${/same-game/i.test(S.parlay.desc||'')?' <span class="chip" style="font-size:10px;background:#1f6feb22;color:#58a6ff;border:1px solid #1f6feb66">Same-game parlay</span>':''}</div><div class="big" style="font-size:30px">${E(S.parlay.odds)}</div>${chip(S.parlay.status)}${S.parlay.why?WHYC(S.parlay.why,S.parlay.why_not):''}<div style="margin-top:8px">${(S.parlay.legs||[]).map(lg).join('')}</div></div>`,S.parlay,SP):P100E(SP,S.parlay_done);h+=edgeBox();
  h+=s100(SP);h+=tdBox();h+=fbBox();h+=LDHOST();h+=proj();
  return h+fld()}
+/*ncaam1103 (RULEBOOK §30): NCAAM sport page. Data: D.ncaam (dashboard/ncaam.json). Parlay +100 / Safe +100 from the scout's ncaam section,
+  Edge via edgeBox(), no POTD (§30.9), DK props display only (§30.10). States: preseason / waiting (scout) / locked; never breaks other sports.*/
+function NCLEG(l){return `<div class="card" style="padding:8px 10px;margin:6px 0"><div class="row"><b style="min-width:0;overflow-wrap:anywhere">${E(l.pick)}</b><span style="flex:none;margin-left:8px;color:#ffd400">${E(l.odds)}</span></div><div class="m" style="font-size:12px;overflow-wrap:anywhere">${E(l.game)} · ${E(l.start_et||'')}${l.started?' · started':''} · Injuries: unverified${l.matchup_rank?` · matchup #${E(l.matchup_rank)} of 365`:''}</div>${l.why?WHYC(l.why,''):''}</div>`}
+function NCTK(n,t,nul){if(!t)return `<div class="card"><div class="m">${n}</div><div class="m esnote">${E(nul||'No ticket today')}</div></div>`;return `<div class="card"><div class="m">${n} · Hard Rock</div><div class="big" style="font-size:30px">${E(t.odds)}</div>${chip(t.status||'Pending')}<div style="margin-top:8px">${(t.legs||[]).map(NCLEG).join('')}</div></div>`}
+function NCBOX(){const N=D.ncaam||{},st=N.state||'waiting';let h=`<div class="m esnote">${E(N.potd_note||'No NCAAM Play of the Day (§30.9).')}</div>`;
+ if(st=='locked'){h+=NCTK('Parlay +100',N.parlay,N.parlay_null)+NCTK('Safe +100',N.safe,N.safe_null)}
+ else h+=`<div class="card"><div class="m">${st=='preseason'?'NCAAM starts soon':'Waiting on scout'}</div><div class="m esnote" style="overflow-wrap:anywhere">${E(N.note||'Waiting on scout: no NCAAM section yet.')}</div></div>`;
+ h+=edgeBox();if(N.edge_note)h+=`<div class="m esnote">${E(N.edge_note)}</div>`;
+ const P=N.dk_props||{},G=P.games||[];h+=`<details class="card"><summary class="m">DraftKings NCAAM props · display only (${G.length} game${G.length==1?'':'s'})</summary><div class="m esnote">Display only: these never feed a pick (§30.10).${P.fetched?' Pulled '+E(P.fetched)+'.':''}${P.error?' '+E(P.error):''}</div>${G.map(g=>`<div style="margin:8px 0"><b style="overflow-wrap:anywhere">${E(g.game)}</b>${(g.props||[]).map(x=>`<div class="row m" style="font-size:12px"><span style="min-width:0;overflow-wrap:anywhere">${E(x.player)} ${E(x.market)} ${E(x.line)}</span><span style="flex:none;margin-left:8px">${x.odds?E(x.odds):`O ${E(x.over||'–')} / U ${E(x.under||'–')}`}</span></div>`).join('')}</div>`).join('')||'<div class="m esnote">No DraftKings NCAAM props posted.</div>'}</details>`;
+ return h}
 /*FIXES-1025 #107: a parlay ticket with no legs is the empty state (display only; data untouched)*/
 /*FIXES-1025 #117: thousands separators for 5+ digit prices (display only)*/
 function OCOM(o){return String(o??'').replace(/\d{5,}/g,x=>Number(x).toLocaleString('en-US'))}
@@ -1724,7 +1735,7 @@ let TVO={},TVD=null,TVT=0;
 /* teamvs1102-label (user 2026-11-02 6:58 PM ET): one-line stat labels, compact legend/header, rank cells never clipped. Display only; values unchanged. */
 const TVL={ortg:'Off. rating',drtg:'Def. rating',pts_o:'Points/gm',pts_d:'Pts allowed/gm',yds_o:'Yards/gm',yds_d:'Yds allowed/gm',gf:'Goals/gm',ga:'Goals allowed/gm',sf:'Shots/gm',sa:'Shots allowed/gm',r_o:'Runs/gm',r_d:'Runs allowed/gm'},tvLab=s=>TVL[s.key]||String(s.label||'').replace(/\s*\([^)]*\)/g,'');
 function tvLoad(){TVD=(D&&D.teamvs&&D.teamvs.sports)?D.teamvs:{err:1}}
-function tvBox(){const o=document.getElementById('tvb');if(o)o.remove();if(K!='sport'||!['NFL','NCAA F','NBA','NHL','WNBA','MLB','NASCAR'].includes(SP))return;tvLoad();
+function tvBox(){const o=document.getElementById('tvb');if(o)o.remove();if(K!='sport'||!['NFL','NCAA F','NBA','NHL','WNBA','MLB','NASCAR','NCAAM'].includes(SP))return;tvLoad();
  const S=TVD&&TVD.sports?TVD.sports[SP]:null;let body='';
  const nt=t=>`<div class=m style="font-size:12px;padding:6px 0">${E(t)}</div>`;
  if(!TVD)body=nt('Loading Team VS…');else if(TVD.err||!S)body=nt('Team VS data could not be loaded, so no ranks are shown.');
