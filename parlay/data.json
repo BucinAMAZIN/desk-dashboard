@@ -1,5 +1,5 @@
 {
- "generated": 1793805482.8556721,
+ "generated": 1793805671.8695397,
  "today": {
   "title": "Nov 4 picks (Hard Rock)",
   "tickets": [
@@ -366,11 +366,11 @@
       "ladder": [
        [
         "6+",
-        "-990"
+        "-1000"
        ],
        [
         "8+",
-        "-426"
+        "-432"
        ],
        [
         "10+",
@@ -382,11 +382,11 @@
        ],
        [
         "15+",
-        "+173"
+        "+172"
        ],
        [
         "18+",
-        "+364"
+        "+356"
        ],
        [
         "20+",
@@ -394,7 +394,7 @@
        ],
        [
         "25+",
-        "+1640"
+        "+1700"
        ]
       ]
      },
@@ -455,40 +455,40 @@
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-280",
+        "odds": "-275",
         "na": false,
         "ladder": [
          [
           "2+",
-          "-900"
+          "-880"
          ],
          [
           "3+",
-          "-280"
+          "-275"
          ],
          [
           "4+",
-          "-118"
+          "-114"
          ],
          [
           "5+",
-          "+180"
+          "+186"
          ],
          [
           "6+",
-          "+374"
+          "+372"
          ],
          [
           "7+",
-          "+750"
+          "+740"
          ],
          [
           "8+",
-          "+1440"
+          "+1420"
          ],
          [
           "9+",
-          "+2400"
+          "+2500"
          ]
         ]
        }
@@ -581,15 +581,15 @@
         "ladder": [
          [
           "12+",
-          "-1600"
+          "-1580"
          ],
          [
           "15+",
-          "-565"
+          "-577"
          ],
          [
           "18+",
-          "-265"
+          "-269"
          ],
          [
           "20+",
@@ -597,19 +597,19 @@
          ],
          [
           "22+",
-          "-110"
+          "-112"
          ],
          [
           "25+",
-          "+160"
+          "+162"
          ],
          [
           "30+",
-          "+417"
+          "+425"
          ],
          [
           "35+",
-          "+1040"
+          "+1060"
          ],
          [
           "40+",
@@ -621,7 +621,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NBA",
-     "dk_odds": "+116"
+     "dk_odds": "+117"
     }
    },
    "NHL": {
@@ -822,7 +822,7 @@
         "Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks"
        ],
        "dk": {
-        "odds": "-310",
+        "odds": "-320",
         "na": false,
         "ladder": [
          [
@@ -831,7 +831,7 @@
          ],
          [
           "2+",
-          "-310"
+          "-320"
          ],
          [
           "3+",
@@ -839,7 +839,7 @@
          ],
          [
           "4+",
-          "+230"
+          "+225"
          ],
          [
           "5+",
@@ -943,7 +943,7 @@
          ],
          [
           "3+",
-          "+1400"
+          "+1300"
          ]
         ]
        }
@@ -951,7 +951,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NHL",
-     "dk_odds": "+123"
+     "dk_odds": "+122"
     }
    },
    "WNBA": {
@@ -9038,11 +9038,27 @@
    "today": [
     {
      "sport": "NHL",
+     "prop": "NHL shots on goal (over)",
+     "pick": "M. Wood o1.5 shots on goal (CGY @ SEA 10:00 PM ET; Action Network pick 565573042, 0.75u)",
+     "odds": "-118",
+     "status": "Pending",
+     "fam": "SOG",
+     "game": "CGY @ SEA",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NHL",
      "prop": "NHL game total (under)",
      "pick": "Calgary Flames @ Seattle Kraken Under 6.5 (CGY @ SEA 10:00 PM ET; Action Network pick 565559871, 0.65u)",
      "odds": "-125",
      "status": "Pending",
-     "fam": "Total"
+     "fam": "Total",
+     "game": "CGY @ SEA",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9418,7 +9434,20 @@
      "fam": "ML"
     }
    ],
-   "today": []
+   "today": [
+    {
+     "sport": "NBA",
+     "prop": "NBA assists (over)",
+     "pick": "Trae Young Over 9.5 Assists (vs ATL; NBA Play #1)",
+     "odds": "none posted",
+     "status": "Pending",
+     "fam": "Assists",
+     "game": "ATL @ WSH",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
+    }
+   ]
   },
   {
    "name": "@austinsprops",
@@ -9571,7 +9600,23 @@
      "pick": "Kevin Durant o21.5 Pts (MIN @ HOU; NBA Play of the Day)",
      "odds": "-125 DK",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "MIN @ HOU",
+     "kick": "8:30 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA 3PM (over)",
+     "pick": "Deni Avdija o1.5 3PM (POR vs PHX; NBA Play of the Day #2)",
+     "odds": "-115 DK",
+     "status": "Pending",
+     "fam": "3PM",
+     "game": "POR @ PHX",
+     "kick": "9:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9856,7 +9901,11 @@
      "pick": "Butler Bulldogs -23.5 (vs FDU; early CBB play)",
      "odds": "-110",
      "status": "Pending",
-     "fam": "Spread"
+     "fam": "Spread",
+     "game": "FDU @ BTLR",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9924,7 +9973,35 @@
      "pick": "A. Wiggins u12.5 points (ATL @ WAS 7:00 PM ET; Action Network pick 565556657, 0.5u)",
      "odds": "-111",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "ATL @ WSH",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA points (over)",
+     "pick": "C. White o11.5 points (CHA @ BKN 7:30 PM ET; Action Network pick 565578609, 0.5u)",
+     "odds": "-135",
+     "status": "Pending",
+     "fam": "Player points",
+     "game": "CHA @ BKN",
+     "kick": "7:30 PM ET",
+     "started": false,
+     "final": false
+    },
+    {
+     "sport": "NBA",
+     "prop": "NBA points (over)",
+     "pick": "D. Peterson o13.5 points (UTA @ NOP 8:00 PM ET; Action Network pick 565578743, 0.5u)",
+     "odds": "-110",
+     "status": "Pending",
+     "fam": "Player points",
+     "game": "UTAH @ NO",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9995,7 +10072,7 @@
  "capper_today_date": "2026-11-04",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-04 10:18 AM ET",
+  "updated": "2026-11-04 10:21 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -13186,7 +13263,7 @@
     "w": 76,
     "l": 62,
     "p": 4,
-    "pending": 9,
+    "pending": 11,
     "units": -7.7
    }
   },
@@ -13318,7 +13395,7 @@
     "w": 11,
     "l": 19,
     "p": 0,
-    "pending": 1,
+    "pending": 2,
     "units": -5.99
    }
   }
@@ -16380,7 +16457,858 @@
  "nascar_extra": {},
  "live_picks": {},
  "live_record": {},
- "safe100": {},
+ "safe100": {
+  "date": "2026-11-04",
+  "sports": {
+   "NBA": {
+    "sport": "NBA",
+    "odds": "+113",
+    "posted": "10:19 AM ET",
+    "edge_tier": null,
+    "rule": "2026-10-26",
+    "locked": true,
+    "closest": false,
+    "label": null,
+    "sgp": false,
+    "price_note": null,
+    "legs": [
+     {
+      "pick": "Jalen Brunson 20+ pts",
+      "game": "Knicks vs Bulls 11/04 07:30 PM ET",
+      "odds": "-325",
+      "grade": "B+",
+      "reason": "Volume: min L5 34,35,35,36,32; points avg L10 28.50 | Hit: 8/10 at line, 4/5 (L10 avg 28.5 vs None line) · vs CHI 6/8. Matchup: CHI 26/30 vs points per LineMate (128.9/g allowed, favorable). Context: NYK -11.5 / O/U 233.5 (NYK TT 123.5) | Pace NYK 2/30, CHI 30/30 | Home. Injuries: NYK: Josh Hart (Questionable) | CHI: Jalen Smith (Probable). Risk: 11.5-point spread: blowout could cut his minutes.",
+      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "sport": "NBA",
+      "rule": "2026-10-26",
+      "prop_type": "NBA pts",
+      "hit10": "8/10",
+      "hit5": "4/5",
+      "season": "5/7",
+      "volume": "min L5 34,35,35,36,32; points avg L10 28.50",
+      "intake": "Hard Rock pool",
+      "matchup_rank": 1,
+      "matchup_of": 30,
+      "def_rank": 30,
+      "def_of": 30,
+      "matchup_src": "Prop Scout rank table (opponent points per game, teamrankings)",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 20+ in 8 of last 10 and 4 of last 5 (L10 avg 28.5); season 5/7 (under 10 games, check n/a). Volume: min L5 34,35,35,36,32; points avg L10 28.50. Highest Hard Rock alt rung priced -250 to -425 that passes. similar-opp fallback: last 5 overall (only 1 similar-opponent games; CHI = top third allowed (soft) vs points): 1 miss in 5 at 19.5 -> pass. Matchup: defense 30/30 vs points (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Knicks vs Bulls",
+       "team": "NYK",
+       "opp": "CHI",
+       "stat": "pts",
+       "opp_rank": {
+        "rank": 26,
+        "of": 30,
+        "src": "LineMate",
+        "scale": "higher = more allowed"
+       },
+       "fav": "NYK",
+       "spread": -11.5,
+       "total": 233.5,
+       "team_totals": {
+        "CHI": 110.5,
+        "NYK": 123.5
+       },
+       "home": "NYK",
+       "away": "CHI",
+       "rest": {
+        "NYK": 1,
+        "CHI": 1
+       },
+       "record": {
+        "NYK": "3-4",
+        "CHI": "1-6"
+       },
+       "start_et": "Wed 11/04 07:30 PM ET",
+       "out": {
+        "NYK": [
+         {
+          "name": "Josh Hart",
+          "status": "Day-To-Day",
+          "pos": "G",
+          "date": "2026-11-03",
+          "role": "31.7 min"
+         }
+        ],
+        "CHI": [
+         {
+          "name": "Jalen Smith",
+          "status": "Day-To-Day",
+          "pos": "F",
+          "date": "2026-11-03",
+          "role": "24.6 min"
+         }
+        ]
+       }
+      },
+      "gameday": [
+       "Volume: min L5 34,35,35,36,32; points avg L10 28.50 | Hit: 8/10 at line, 4/5 (L10 avg 28.5 vs None line) · vs CHI 6/8",
+       "Matchup: CHI 26/30 vs points per LineMate (128.9/g allowed, favorable)",
+       "Context: NYK -11.5 / O/U 233.5 (NYK TT 123.5) | Pace NYK 2/30, CHI 30/30 | Home",
+       "Injuries: NYK: Josh Hart (Day-To-Day) | CHI: Jalen Smith (Day-To-Day)",
+       "Risk: 11.5-point spread: blowout could cut his minutes"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "15+",
+         "-1400"
+        ],
+        [
+         "18+",
+         "-555"
+        ],
+        [
+         "20+",
+         "-335"
+        ],
+        [
+         "25+",
+         "-116"
+        ],
+        [
+         "30+",
+         "+222"
+        ],
+        [
+         "35+",
+         "+575"
+        ],
+        [
+         "40+",
+         "+1360"
+        ],
+        [
+         "45+",
+         "+2700"
+        ]
+       ],
+       "odds": "-335",
+       "pick": "Jalen Brunson 20+ pts",
+       "na": false
+      }
+     },
+     {
+      "pick": "Luka Doncic 6+ ast",
+      "game": "Kings vs Lakers 11/04 10:00 PM ET",
+      "odds": "-350",
+      "grade": "B+",
+      "reason": "Volume: min L5 36,35,37,37,38; assists avg L10 7.90 | Hit: 8/10 at line, 4/5 (L10 avg 7.9 vs None line) · vs SAC 3/3. Usage: USG L5 39.3% / szn 39.7% (7g) (USG ESPN box thru 11/03; as of 11/04 10:21 AM ET). Matchup: SAC 29/30 vs assists per LineMate (28.4/g allowed, favorable). Context: LAL -11.5 / O/U 234.5 (LAL TT 123.5) | Pace SAC 23/30, LAL 19/30 | Away. Injuries: LAL: none | SAC: Precious Achiuwa (Probable), Keegan Murray (Out). Risk: 11.5-point spread: blowout could cut his minutes.",
+      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "sport": "NBA",
+      "rule": "2026-10-26",
+      "prop_type": "NBA ast",
+      "hit10": "8/10",
+      "hit5": "4/5",
+      "season": "6/7",
+      "volume": "min L5 36,35,37,37,38; assists avg L10 7.90",
+      "intake": "Hard Rock pool",
+      "matchup_rank": 5,
+      "matchup_of": 30,
+      "def_rank": 26,
+      "def_of": 30,
+      "matchup_src": "Prop Scout rank table (opponent assists per game, teamrankings)",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 6+ in 8 of last 10 and 4 of last 5 (L10 avg 7.9); season 6/7 (under 10 games, check n/a). Volume: min L5 36,35,37,37,38; assists avg L10 7.90. Highest Hard Rock alt rung priced -250 to -425 that passes. similar-opp fallback: last 5 overall (only 1 similar-opponent games; SAC = top third allowed (soft) vs assists): 1 miss in 5 at 5.5 -> pass. Matchup: defense 26/30 vs assists (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Kings vs Lakers",
+       "team": "LAL",
+       "opp": "SAC",
+       "stat": "ast",
+       "opp_rank": {
+        "rank": 29,
+        "of": 30,
+        "src": "LineMate",
+        "scale": "higher = more allowed"
+       },
+       "fav": "LAL",
+       "spread": -11.5,
+       "total": 234.5,
+       "team_totals": {
+        "SAC": 111.5,
+        "LAL": 123.5
+       },
+       "home": "SAC",
+       "away": "LAL",
+       "rest": {
+        "SAC": 1,
+        "LAL": 1
+       },
+       "record": {
+        "SAC": "1-6",
+        "LAL": "6-2"
+       },
+       "start_et": "Wed 11/04 10:00 PM ET",
+       "out": {
+        "SAC": [
+         {
+          "name": "Precious Achiuwa",
+          "status": "Day-To-Day",
+          "pos": "F",
+          "date": "2026-11-04",
+          "role": "28.7 min"
+         },
+         {
+          "name": "Keegan Murray",
+          "status": "Out",
+          "pos": "F",
+          "date": "2026-10-26",
+          "role": "27.0 min"
+         }
+        ],
+        "LAL": []
+       },
+       "usage": {
+        "parts": [
+         "USG L5 39.3% / szn 39.7% (7g)"
+        ],
+        "src": [
+         "USG ESPN box thru 11/03"
+        ],
+        "asof": "11/04 10:21 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: min L5 36,35,37,37,38; assists avg L10 7.90 | Hit: 8/10 at line, 4/5 (L10 avg 7.9 vs None line) · vs SAC 3/3",
+       "Usage: USG L5 39.3% / szn 39.7% (7g) (USG ESPN box thru 11/03; as of 11/04 10:21 AM ET)",
+       "Matchup: SAC 29/30 vs assists per LineMate (28.4/g allowed, favorable)",
+       "Context: LAL -11.5 / O/U 234.5 (LAL TT 123.5) | Pace SAC 23/30, LAL 19/30 | Away",
+       "Injuries: LAL: none | SAC: Precious Achiuwa (Day-To-Day), Keegan Murray (Out)",
+       "Risk: 11.5-point spread: blowout could cut his minutes"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "4+",
+         "-1880"
+        ],
+        [
+         "5+",
+         "-740"
+        ],
+        [
+         "6+",
+         "-350"
+        ],
+        [
+         "7+",
+         "-192"
+        ],
+        [
+         "8+",
+         "-109"
+        ],
+        [
+         "9+",
+         "+155"
+        ],
+        [
+         "10+",
+         "+260"
+        ],
+        [
+         "11+",
+         "+430"
+        ],
+        [
+         "12+",
+         "+700"
+        ],
+        [
+         "13+",
+         "+1140"
+        ],
+        [
+         "14+",
+         "+1700"
+        ],
+        [
+         "15+",
+         "+2400"
+        ]
+       ],
+       "odds": "-350",
+       "pick": "Luka Doncic 6+ ast",
+       "na": false
+      }
+     },
+     {
+      "pick": "RJ Barrett 3+ ast",
+      "game": "Nuggets vs Raptors 11/04 09:00 PM ET",
+      "odds": "-375",
+      "grade": "A",
+      "reason": "Volume: min L5 37,32,34,32,32; assists avg L10 4.20 | Hit: 9/10 at line, 4/5 (L10 avg 4.2 vs None line) · vs DEN 3/4. Usage: USG L5 26.1% / szn 25.3% (7g) (USG ESPN box thru 11/03; as of 11/04 10:14 AM ET). Matchup: DEN 30/30 vs assists per LineMate (28.3/g allowed, favorable). Context: DEN -4.5 / O/U 230.5 (TOR TT 113.5) | Pace DEN 10/30, TOR 25/30 | Away. Injuries: TOR: Kawhi Leonard (Out), Jakob Poeltl (Questionable) | DEN: Cameron Johnson (Probable). Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
+      "why_not": null,
+      "sport": "NBA",
+      "rule": "2026-10-26",
+      "prop_type": "NBA ast",
+      "hit10": "9/10",
+      "hit5": "4/5",
+      "season": "6/7",
+      "volume": "min L5 37,32,34,32,32; assists avg L10 4.20",
+      "intake": "Prop Scout",
+      "matchup_rank": 6,
+      "matchup_of": 30,
+      "def_rank": 25,
+      "def_of": 30,
+      "matchup_src": "Prop Scout game_day.matchup",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 3+ in 9 of last 10 and 4 of last 5 (L10 avg 4.2); season 6/7 (under 10 games, check n/a). Volume: min L5 37,32,34,32,32; assists avg L10 4.20. Highest Hard Rock alt rung priced -250 to -425 that passes. similar-opp fallback: last 5 overall (only 4 similar-opponent games; DEN = top third allowed (soft) vs assists): 1 miss in 5 at 2.5 -> pass. Matchup: defense 25/30 vs assists (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Nuggets vs Raptors",
+       "team": "TOR",
+       "opp": "DEN",
+       "stat": "ast",
+       "opp_rank": {
+        "rank": 30,
+        "of": 30,
+        "src": "LineMate",
+        "scale": "higher = more allowed"
+       },
+       "fav": "DEN",
+       "spread": -4.5,
+       "total": 230.5,
+       "team_totals": {
+        "TOR": 113.5,
+        "DEN": 117.5
+       },
+       "home": "DEN",
+       "away": "TOR",
+       "rest": {
+        "DEN": 1,
+        "TOR": 1
+       },
+       "record": {
+        "DEN": "3-3",
+        "TOR": "4-3"
+       },
+       "start_et": "Wed 11/04 09:00 PM ET",
+       "out": {
+        "DEN": [
+         {
+          "name": "Cameron Johnson",
+          "status": "Day-To-Day",
+          "pos": "F",
+          "date": "2026-11-03",
+          "role": "26.3 min"
+         }
+        ],
+        "TOR": [
+         {
+          "name": "Kawhi Leonard",
+          "status": "Out",
+          "pos": "F",
+          "date": "2026-11-04",
+          "role": "26.0 min"
+         },
+         {
+          "name": "Jakob Poeltl",
+          "status": "Day-To-Day",
+          "pos": "C",
+          "date": "2026-11-03",
+          "role": "20.2 min"
+         }
+        ]
+       },
+       "usage": {
+        "parts": [
+         "USG L5 26.1% / szn 25.3% (7g)"
+        ],
+        "src": [
+         "USG ESPN box thru 11/03"
+        ],
+        "asof": "11/04 10:14 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: min L5 37,32,34,32,32; assists avg L10 4.20 | Hit: 9/10 at line, 4/5 (L10 avg 4.2 vs None line) · vs DEN 3/4",
+       "Usage: USG L5 26.1% / szn 25.3% (7g) (USG ESPN box thru 11/03; as of 11/04 10:14 AM ET)",
+       "Matchup: DEN 30/30 vs assists per LineMate (28.3/g allowed, favorable)",
+       "Context: DEN -4.5 / O/U 230.5 (TOR TT 113.5) | Pace DEN 10/30, TOR 25/30 | Away",
+       "Injuries: TOR: Kawhi Leonard (Out), Jakob Poeltl (Day-To-Day) | DEN: Cameron Johnson (Day-To-Day)",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "3+",
+         "-358"
+        ],
+        [
+         "4+",
+         "-150"
+        ],
+        [
+         "5+",
+         "+145"
+        ],
+        [
+         "6+",
+         "+297"
+        ],
+        [
+         "7+",
+         "+578"
+        ],
+        [
+         "8+",
+         "+1100"
+        ],
+        [
+         "9+",
+         "+1940"
+        ],
+        [
+         "10+",
+         "+2900"
+        ]
+       ],
+       "odds": "-358",
+       "pick": "RJ Barrett 3+ ast",
+       "na": false
+      }
+     }
+    ],
+    "dk_odds": "+114"
+   },
+   "TODAY": {
+    "sport": "TODAY",
+    "odds": "+118",
+    "posted": "10:19 AM ET",
+    "edge_tier": null,
+    "rule": "2026-10-26",
+    "locked": true,
+    "closest": false,
+    "label": null,
+    "sgp": false,
+    "price_note": null,
+    "legs": [
+     {
+      "pick": "Jack Quinn 2+ SOG",
+      "game": "Sabres vs. Senators 11/04 07:30 PM ET",
+      "odds": "-325",
+      "grade": "A",
+      "reason": "Volume: TOI L10 avg 19.0, shots/g L10 2.8 | Hit: 9/10 at line, 5/5 (L10 avg 2.8 vs None line). Usage: TOI L5 18.7 / L10 19.0 · PP TOI L5 3.5 / L10 3.8 · SAT L5 5.6 / L10 4.8 (api.nhle.com thru 10/31; as of 11/04 10:14 AM ET). Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only). Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home. Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve). Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "why_not": null,
+      "sport": "NHL",
+      "rule": "2026-10-26",
+      "prop_type": "NHL SOG",
+      "hit10": "9/10",
+      "hit5": "5/5",
+      "season": "12/14",
+      "volume": "TOI L10 avg 19.0, shots/g L10 2.8",
+      "intake": "Prop Scout",
+      "matchup_rank": 6,
+      "matchup_of": 32,
+      "def_rank": 27,
+      "def_of": 32,
+      "matchup_src": "goalie check (§26): DailyFaceoff starting goalies (live pull)",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 2+ in 9 of last 10 and 5 of last 5 (L10 avg 2.8); season 12/14 (86%). Volume: TOI L10 avg 19.0, shots/g L10 2.8. Highest Hard Rock alt rung priced -250 to -425 that passes. similar-opp fallback: last 5 overall (only 4 similar-opponent games; opposing goalie in the weak half): 0 misses in 5 at 1.5 -> pass. Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed.",
+      "ctx": {
+       "game": "Sabres vs. Senators",
+       "team": "BUF",
+       "opp": "OTT",
+       "stat": "sog",
+       "goalie_check": {
+        "goalie": "Samuel Ersson",
+        "svpct": 0.8662,
+        "sa": 142,
+        "gp": 7,
+        "rank": 11,
+        "of": 65,
+        "pctl": 0.846,
+        "half": "weak",
+        "ok": true,
+        "status": "probable",
+        "unconfirmed": true,
+        "source": "DailyFaceoff starting goalies (live pull)",
+        "dfo_status": "projected",
+        "opp": "OTT",
+        "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed"
+       },
+       "opp_rank_display_only": {
+        "rank": 14,
+        "of": 32,
+        "pg": 27.2,
+        "gp": 16,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "BUF",
+       "spread": -1.5,
+       "total": 6.5,
+       "team_totals": {
+        "OTT": 3.5,
+        "BUF": 3.5
+       },
+       "home": "BUF",
+       "away": "OTT",
+       "rest": {
+        "BUF": 3,
+        "OTT": 2
+       },
+       "record": {
+        "BUF": "7-4-3",
+        "OTT": "9-6-1"
+       },
+       "start_et": "Wed 11/04 07:30 PM ET",
+       "out": {
+        "BUF": [
+         {
+          "name": "Alex Lyon",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-15"
+         }
+        ],
+        "OTT": [
+         {
+          "name": "Linus Ullmark",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-22"
+         }
+        ]
+       },
+       "usage": {
+        "parts": [
+         "TOI L5 18.7 / L10 19.0",
+         "PP TOI L5 3.5 / L10 3.8",
+         "SAT L5 5.6 / L10 4.8"
+        ],
+        "src": [
+         "api.nhle.com thru 10/31"
+        ],
+        "asof": "11/04 10:14 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: TOI L10 avg 19.0, shots/g L10 2.8 | Hit: 9/10 at line, 5/5 (L10 avg 2.8 vs None line)",
+       "Usage: TOI L5 18.7 / L10 19.0 · PP TOI L5 3.5 / L10 3.8 · SAT L5 5.6 / L10 4.8 (api.nhle.com thru 10/31; as of 11/04 10:14 AM ET)",
+       "Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only)",
+       "Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home",
+       "Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve)",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "1+",
+         "-1600"
+        ],
+        [
+         "2+",
+         "-310"
+        ],
+        [
+         "3+",
+         "-110"
+        ],
+        [
+         "4+",
+         "+220"
+        ],
+        [
+         "5+",
+         "+475"
+        ],
+        [
+         "6+",
+         "+1000"
+        ]
+       ],
+       "odds": "-310",
+       "pick": "Jack Quinn 2+ SOG",
+       "na": false
+      }
+     },
+     {
+      "pick": "Domantas Sabonis 11+ reb",
+      "game": "Kings vs Lakers 11/04 10:00 PM ET",
+      "odds": "-300",
+      "grade": "B+",
+      "reason": "Volume: min L5 31,38,40,37,35; rebounds avg L10 13.60 | Hit: 8/10 at line, 4/5 (L10 avg 13.6 vs None line) · vs LAL 5/5. Usage: USG L5 15.1% / szn 15.6% (7g) (USG ESPN box thru 11/03; as of 11/04 10:21 AM ET). Matchup: LAL 4/30 vs rebounds (40.9/g allowed, unfavorable). Context: LAL -11.5 / O/U 234.5 (SAC TT 111.5) | Pace SAC 23/30, LAL 19/30 | Home. Injuries: SAC: Precious Achiuwa (Probable), Keegan Murray (Out) | LAL: none. Risk: 11.5-point spread: blowout could cut his minutes.",
+      "why_not": "Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "sport": "NBA",
+      "rule": "2026-10-26",
+      "prop_type": "NBA reb",
+      "hit10": "8/10",
+      "hit5": "4/5",
+      "season": "6/7",
+      "volume": "min L5 31,38,40,37,35; rebounds avg L10 13.60",
+      "intake": "Hard Rock pool",
+      "matchup_rank": 9,
+      "matchup_of": 30,
+      "def_rank": 22,
+      "def_of": 30,
+      "matchup_src": "reb1103 rebound rate allowed (TeamRankings nba/stat/total-rebounding-percentage?date=2026-11-04 (allowed share = 1 - TRB%); opp OREB%/DREB% from opponent-offensive/defensive-rebounding-pct)",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 11+ in 8 of last 10 and 4 of last 5 (L10 avg 13.6); season 6/7 (under 10 games, check n/a). Volume: min L5 31,38,40,37,35; rebounds avg L10 13.60. Highest Hard Rock alt rung priced -250 to -425 that passes. similar-opp fallback: last 5 overall (only 4 similar-opponent games; LAL = bottom third allowed (tough) vs rebounds): 1 miss in 5 at 10.5 -> pass. Matchup: Los Angeles Lakers allow 51.5% of available boards (opp OREB% 31.2, opp DREB% 72.7): 22/30 (1 = toughest) (passes the 20th-or-worse gate, reb1103 rebound rate).",
+      "ctx": {
+       "game": "Kings vs Lakers",
+       "team": "SAC",
+       "opp": "LAL",
+       "stat": "reb",
+       "opp_rank": {
+        "rank": 4,
+        "of": 30,
+        "pg": 40.9,
+        "gp": 8,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "LAL",
+       "spread": -11.5,
+       "total": 234.5,
+       "team_totals": {
+        "SAC": 111.5,
+        "LAL": 123.5
+       },
+       "home": "SAC",
+       "away": "LAL",
+       "rest": {
+        "SAC": 1,
+        "LAL": 1
+       },
+       "record": {
+        "SAC": "1-6",
+        "LAL": "6-2"
+       },
+       "start_et": "Wed 11/04 10:00 PM ET",
+       "out": {
+        "SAC": [
+         {
+          "name": "Precious Achiuwa",
+          "status": "Day-To-Day",
+          "pos": "F",
+          "date": "2026-11-04",
+          "role": "28.7 min"
+         },
+         {
+          "name": "Keegan Murray",
+          "status": "Out",
+          "pos": "F",
+          "date": "2026-10-26",
+          "role": "27.0 min"
+         }
+        ],
+        "LAL": []
+       },
+       "usage": {
+        "parts": [
+         "USG L5 15.1% / szn 15.6% (7g)"
+        ],
+        "src": [
+         "USG ESPN box thru 11/03"
+        ],
+        "asof": "11/04 10:21 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: min L5 31,38,40,37,35; rebounds avg L10 13.60 | Hit: 8/10 at line, 4/5 (L10 avg 13.6 vs None line) · vs LAL 5/5",
+       "Usage: USG L5 15.1% / szn 15.6% (7g) (USG ESPN box thru 11/03; as of 11/04 10:21 AM ET)",
+       "Matchup: LAL 4/30 vs rebounds (40.9/g allowed, unfavorable)",
+       "Context: LAL -11.5 / O/U 234.5 (SAC TT 111.5) | Pace SAC 23/30, LAL 19/30 | Home",
+       "Injuries: SAC: Precious Achiuwa (Day-To-Day), Keegan Murray (Out) | LAL: none",
+       "Risk: 11.5-point spread: blowout could cut his minutes"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "7+",
+         "-3900"
+        ],
+        [
+         "8+",
+         "-1460"
+        ],
+        [
+         "9+",
+         "-800"
+        ],
+        [
+         "10+",
+         "-472"
+        ],
+        [
+         "11+",
+         "-298"
+        ],
+        [
+         "12+",
+         "-195"
+        ],
+        [
+         "13+",
+         "-133"
+        ],
+        [
+         "14+",
+         "+109"
+        ],
+        [
+         "15+",
+         "+155"
+        ],
+        [
+         "16+",
+         "+220"
+        ],
+        [
+         "17+",
+         "+311"
+        ],
+        [
+         "18+",
+         "+433"
+        ],
+        [
+         "19+",
+         "+600"
+        ],
+        [
+         "20+",
+         "+840"
+        ]
+       ],
+       "odds": "-298",
+       "pick": "Domantas Sabonis 11+ reb",
+       "na": false
+      }
+     },
+     {
+      "pick": "VJ Edgecombe 4+ reb",
+      "game": "Pistons vs 76ers 11/04 07:00 PM ET",
+      "odds": "-400",
+      "grade": "A",
+      "reason": "Volume: min L5 33,37,36,29,30; rebounds avg L10 6.80 | Hit: 9/10 at line, 4/5 (L10 avg 6.8 vs None line) · vs DET 3/4. Usage: USG L5 17.6% / szn 17.0% (7g) (USG ESPN box thru 11/03; as of 11/04 10:21 AM ET). Matchup: DET 16/30 vs rebounds (44.7/g allowed, neutral). Context: DET -2.5 / O/U 219.5 (PHI TT 108.5) | Pace DET 7/30, PHI 12/30 | Away. Injuries: PHI: none | DET: none. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
+      "why_not": null,
+      "sport": "NBA",
+      "rule": "2026-10-26",
+      "prop_type": "NBA reb",
+      "hit10": "9/10",
+      "hit5": "4/5",
+      "season": "6/7",
+      "volume": "min L5 33,37,36,29,30; rebounds avg L10 6.80",
+      "intake": "Prop Scout",
+      "matchup_rank": 11,
+      "matchup_of": 30,
+      "def_rank": 20,
+      "def_of": 30,
+      "matchup_src": "reb1103 rebound rate allowed (TeamRankings nba/stat/total-rebounding-percentage?date=2026-11-04 (allowed share = 1 - TRB%); opp OREB%/DREB% from opponent-offensive/defensive-rebounding-pct)",
+      "rule2": "safefinal 2026-11-01",
+      "why_src": "Hit 4+ in 9 of last 10 and 4 of last 5 (L10 avg 6.8); season 6/7 (under 10 games, check n/a). Volume: min L5 33,37,36,29,30; rebounds avg L10 6.80. Highest Hard Rock alt rung priced -250 to -425 that passes. similar-opp fallback: last 5 overall (only 0 similar-opponent games; DET = middle third vs rebounds): 1 miss in 5 at 3.5 -> pass. Matchup: Detroit Pistons allow 51.5% of available boards (opp OREB% 28.7, opp DREB% 73.7): 20/30 (1 = toughest) (passes the 20th-or-worse gate, reb1103 rebound rate).",
+      "ctx": {
+       "game": "Pistons vs 76ers",
+       "team": "PHI",
+       "opp": "DET",
+       "stat": "reb",
+       "opp_rank": {
+        "rank": 16,
+        "of": 30,
+        "pg": 44.7,
+        "gp": 7,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "DET",
+       "spread": -2.5,
+       "total": 219.5,
+       "team_totals": {
+        "PHI": 108.5,
+        "DET": 110.5
+       },
+       "home": "DET",
+       "away": "PHI",
+       "rest": {
+        "DET": 1,
+        "PHI": 1
+       },
+       "record": {
+        "DET": "6-1",
+        "PHI": "7-1"
+       },
+       "start_et": "Wed 11/04 07:00 PM ET",
+       "out": {
+        "DET": [],
+        "PHI": []
+       },
+       "usage": {
+        "parts": [
+         "USG L5 17.6% / szn 17.0% (7g)"
+        ],
+        "src": [
+         "USG ESPN box thru 11/03"
+        ],
+        "asof": "11/04 10:21 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: min L5 33,37,36,29,30; rebounds avg L10 6.80 | Hit: 9/10 at line, 4/5 (L10 avg 6.8 vs None line) · vs DET 3/4",
+       "Usage: USG L5 17.6% / szn 17.0% (7g) (USG ESPN box thru 11/03; as of 11/04 10:21 AM ET)",
+       "Matchup: DET 16/30 vs rebounds (44.7/g allowed, neutral)",
+       "Context: DET -2.5 / O/U 219.5 (PHI TT 108.5) | Pace DET 7/30, PHI 12/30 | Away",
+       "Injuries: PHI: none | DET: none",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it"
+      ],
+      "dk": {
+       "ladder": [
+        [
+         "3+",
+         "-950"
+        ],
+        [
+         "4+",
+         "-382"
+        ],
+        [
+         "5+",
+         "-185"
+        ],
+        [
+         "6+",
+         "+103"
+        ],
+        [
+         "7+",
+         "+185"
+        ],
+        [
+         "8+",
+         "+320"
+        ],
+        [
+         "9+",
+         "+548"
+        ],
+        [
+         "10+",
+         "+930"
+        ],
+        [
+         "11+",
+         "+1500"
+        ],
+        [
+         "12+",
+         "+2300"
+        ]
+       ],
+       "odds": "-382",
+       "pick": "VJ Edgecombe 4+ reb",
+       "na": false
+      }
+     }
+    ],
+    "dk_odds": "+123"
+   }
+  },
+  "notes": {
+   "NHL": "No qualifying Alt Parlay today (NHL): 2 unstarted alt legs passed the leg checks (ESPN active, position, volume, rung -250 to -425, 8+/10 and 4+/5, season 70%+, overs only, defense 20th or worse vs the stat), no 2-4 leg combo at +100 to +130."
+  },
+  "extra": []
+ },
  "edge": {
   "date": "2026-11-04",
   "picks": [
@@ -16500,9 +17428,9 @@
      "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
     ],
     "dk": {
-     "odds": "+1300",
+     "odds": "+1400",
      "na": false,
-     "edge": -0.1055683920546735
+     "edge": -0.04168042005857875
     }
    },
    {
@@ -19177,19 +20105,19 @@
      "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
     ],
     "dk": {
-     "odds": "+180",
+     "odds": "+170",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+180"
+       "+170"
       ],
       [
        "2+",
-       "+1200"
+       "+1100"
       ]
      ],
-     "edge": 0.08570664527343208
+     "edge": 0.04693140794223827
     }
    },
    {
@@ -19767,9 +20695,9 @@
      "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
     ],
     "dk": {
-     "odds": "+122",
+     "odds": "+128",
      "na": false,
-     "edge": -0.054206643344532734
+     "edge": -0.028644660732222604
     }
    }
   ],
@@ -21459,9 +22387,9 @@
       "Risk: matchup rank n/a (no LineMate or TR/NHL API rank; kept, ranked between preferred and demoted)"
      ],
      "dk": {
-      "odds": "+122",
+      "odds": "+128",
       "na": false,
-      "edge": -0.054206643344532734
+      "edge": -0.028644660732222604
      }
     },
     {
@@ -22693,19 +23621,19 @@
       "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
      ],
      "dk": {
-      "odds": "+180",
+      "odds": "+170",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+180"
+        "+170"
        ],
        [
         "2+",
-        "+1200"
+        "+1100"
        ]
       ],
-      "edge": 0.08570664527343208
+      "edge": 0.04693140794223827
      }
     },
     {
@@ -28876,7 +29804,7 @@
   "posted": {
    "NBA": {
     "at": "7:09 AM ET",
-    "n": 5,
+    "n": 6,
     "source": "2026-11-04.json",
     "held": []
    },
@@ -29149,7 +30077,7 @@
      "Risk: 11.5-point spread: blowout could cut his minutes"
     ],
     "dk": {
-     "odds": "-132",
+     "odds": "-127",
      "na": false,
      "ladder": [
       [
@@ -29158,11 +30086,11 @@
       ],
       [
        "2+",
-       "-371"
+       "-369"
       ],
       [
        "3+",
-       "-132"
+       "-127"
       ],
       [
        "4+",
@@ -29170,15 +30098,15 @@
       ],
       [
        "5+",
-       "+397"
+       "+398"
       ],
       [
        "6+",
-       "+800"
+       "+830"
       ],
       [
        "7+",
-       "+1540"
+       "+1600"
       ],
       [
        "8+",
@@ -29469,32 +30397,32 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-146",
+     "odds": "-151",
      "na": false,
      "ladder": [
       [
        "1+",
-       "-710"
+       "-730"
       ],
       [
        "2+",
-       "-146"
+       "-151"
       ],
       [
        "3+",
-       "+203"
+       "+197"
       ],
       [
        "4+",
-       "+539"
+       "+516"
       ],
       [
        "5+",
-       "+1300"
+       "+1220"
       ],
       [
        "6+",
-       "+2500"
+       "+2400"
       ]
      ]
     }
@@ -29759,7 +30687,7 @@
      "Risk: volume collapse: last game 22.0 minutes < 28 floor"
     ],
     "dk": {
-     "odds": "-120",
+     "odds": "-125",
      "na": false,
      "ladder": [
       [
@@ -29768,15 +30696,15 @@
       ],
       [
        "7+",
-       "-120"
+       "-125"
       ],
       [
        "8+",
-       "+140"
+       "+135"
       ],
       [
        "10+",
-       "+360"
+       "+350"
       ],
       [
        "12+",
@@ -30018,24 +30946,24 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-106",
+     "odds": "-113",
      "na": false,
      "ladder": [
       [
        "5+",
-       "-810"
+       "-910"
       ],
       [
        "10+",
-       "-106"
+       "-113"
       ],
       [
        "15+",
-       "+405"
+       "+370"
       ],
       [
        "20+",
-       "+1340"
+       "+1240"
       ]
      ]
     }
@@ -30288,28 +31216,318 @@
      "Risk: Tough matchup: MIN 10/30 vs assists"
     ],
     "dk": {
-     "odds": "-136",
+     "odds": "-143",
      "na": false,
      "ladder": [
       [
        "2+",
-       "-136"
+       "-143"
       ],
       [
        "3+",
-       "+220"
+       "+203"
       ],
       [
        "4+",
-       "+575"
+       "+550"
       ],
       [
        "5+",
-       "+1400"
+       "+1240"
       ],
       [
        "6+",
-       "+2700"
+       "+2400"
+      ]
+     ]
+    }
+   },
+   {
+    "sport": "NBA",
+    "rank": 6,
+    "game": "Pelicans vs Jazz",
+    "start_et": "Wed 11/04 08:00 PM ET",
+    "player": "Derik Queen",
+    "prop": "Over 9.5 Points",
+    "odds": "-130",
+    "alt": false,
+    "status": "pending",
+    "res": "",
+    "stat": "",
+    "why_src": null,
+    "why_not": "volume collapse: last game 22.0 minutes < 28 floor",
+    "why": "Volume: L5 min 24/23/22/25/25 (L3 25.3 vs L10 26.9 min) | Hit: 8/10 at O9.5, 3/5. Matchup: UTA 7/30 vs Points (TR). Context: NO -5.5 / O/U 234.5 | opp pace 99.7 (15th) | Home. Injuries: Jordan Poole, Yves Missi out | Opp out: Jusuf Nurkic, Jaren Jackson Jr. Risk: volume collapse: last game 22.0 minutes < 28 floor.",
+    "ctx": {
+     "game": "Pelicans vs Jazz",
+     "team": "NOP",
+     "opp": "UTA",
+     "stat": "pts",
+     "opp_rank": {
+      "rank": 24,
+      "of": 30,
+      "pg": 118.9,
+      "gp": 7,
+      "scale": "N/of, higher = more allowed (LineMate order)"
+     },
+     "fav": "NOP",
+     "spread": -5.5,
+     "total": 234.5,
+     "team_totals": {
+      "NOP": 119.5,
+      "UTA": 114.5
+     },
+     "home": "NOP",
+     "away": "UTA",
+     "rest": {
+      "NOP": 1,
+      "UTA": 1
+     },
+     "record": {
+      "NOP": "3-4",
+      "UTA": "1-6"
+     },
+     "start_et": "Wed 11/04 08:00 PM ET",
+     "out": {
+      "NOP": [
+       {
+        "name": "Trey Murphy III",
+        "status": "Day-To-Day",
+        "pos": "F",
+        "date": "2026-11-03",
+        "role": "33.0 min"
+       }
+      ],
+      "UTA": [
+       {
+        "name": "Jaren Jackson Jr.",
+        "status": "Out",
+        "pos": "F",
+        "date": "2026-10-27",
+        "role": "26.0 min"
+       }
+      ]
+     },
+     "game_day": {
+      "sport": "NBA",
+      "game": "Pelicans vs Jazz",
+      "role": "LEG DAY backup",
+      "team": "NO",
+      "opponent": "UTAH",
+      "home_away": "home",
+      "identity": {
+       "athlete_id": "4869780",
+       "team": "NO",
+       "how": "game-team roster (id + team)",
+       "reason": null
+      },
+      "l5_minutes": [
+       24.0,
+       23.0,
+       22.0,
+       25.0,
+       25.0
+      ],
+      "l10": {
+       "hits": 8,
+       "n": 10,
+       "l5_hits": 3,
+       "l5_n": 5,
+       "season_hits": 5,
+       "season_n": 7
+      },
+      "volume_collapse": {
+       "status": "collapsed",
+       "volume_stat": "minutes",
+       "blowout_margin": 20,
+       "blowout_source": "RULEBOOK §20 hard veto 5 (20+ points, NBA)",
+       "floor": [
+        "minutes",
+        28
+       ],
+       "floor_source": "§16: 28+ minutes",
+       "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
+       "excluded_games": [
+        {
+         "date": "2026-11-03",
+         "opp": "MEM",
+         "v": 24.0,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-10-31",
+         "opp": "ATL",
+         "v": 23.0,
+         "excluded_for": "blowout (margin 22)"
+        },
+        {
+         "date": "2026-10-25",
+         "opp": "DEN",
+         "v": 25.0,
+         "excluded_for": "OT/extra innings"
+        },
+        {
+         "date": "2026-04-10",
+         "opp": "BOS",
+         "v": 39.0,
+         "excluded_for": "blowout (margin 26)"
+        },
+        {
+         "date": "2026-03-29",
+         "opp": "HOU",
+         "v": 24.0,
+         "excluded_for": "blowout (margin 32)"
+        },
+        {
+         "date": "2026-03-26",
+         "opp": "DET",
+         "v": 21.0,
+         "excluded_for": "blowout (margin 21)"
+        }
+       ],
+       "unknown_margin_or_ot": 0,
+       "l3": [
+        22.0,
+        25.0,
+        29.0
+       ],
+       "l3_avg": 25.3,
+       "l10_avg": 26.9,
+       "l10_n": 10,
+       "drop_pct": 5.8,
+       "last_game": {
+        "date": "2026-10-30",
+        "opp": "SAC",
+        "v": 22.0,
+        "spot": null
+       },
+       "possible_exit_games": [],
+       "reason": "last game 22.0 minutes < 28 floor"
+      },
+      "matchup": {
+       "raw_opp_rank": 24,
+       "raw_meaning": "teamrankings: opponent points per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 24 (TeamRankings rank 1 = lowest value (ascending))",
+       "direction": "normalized 1 = best for the side taken",
+       "normalized": 7,
+       "of": 30,
+       "source": "teamrankings",
+       "stat": "pts",
+       "linemate": null,
+       "linemate_null_reason": "no LineMate card for this player/stat/side",
+       "fallback": {
+        "value": 118.857,
+        "raw": 24,
+        "of": 30,
+        "source": "teamrankings",
+        "source_rank": 24,
+        "source_team": "Utah",
+        "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
+        "mapping": "opponent points per game",
+        "url": "https://www.teamrankings.com/nba/stat/opponent-points-per-game",
+        "fetched_at": "2026-11-04 01:32 AM ET"
+       },
+       "fallback_source": {
+        "file": "/workspace/scout/ranks/NBA-2026-11-04.json",
+        "source": "teamrankings",
+        "fetched_at": "2026-11-04 01:32 AM ET",
+        "failures": {},
+        "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
+        "fantasyteamadvice": "not used: HTTP 410 Content Removed"
+       },
+       "source_rank": 24,
+       "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
+      },
+      "matchup_rank": 7,
+      "spread": "NO -5.5",
+      "total": 234.5,
+      "team_totals": {
+       "Pelicans": 119.5,
+       "Jazz": 115.5
+      },
+      "pace": {
+       "home": {
+        "pace": 102.7,
+        "rank": 3,
+        "of": 30
+       },
+       "away": {
+        "pace": 99.7,
+        "rank": 15,
+        "of": 30
+       }
+      },
+      "division_game": false,
+      "national_tv": [],
+      "rest_days": 1,
+      "b2b": false,
+      "venue": "Smoothie King Center",
+      "indoor": true,
+      "teammates_out": [
+       "Jordan Poole",
+       "Yves Missi"
+      ],
+      "opp_out": [
+       "Jusuf Nurkic",
+       "Jaren Jackson Jr.",
+       "Trey Alexander"
+      ],
+      "player_injury_status": "not listed",
+      "lm_without": [],
+      "lm_vs_opp": "n/a",
+      "weather": "indoor",
+      "matchup_tier": "preferred",
+      "matchup_pref_limit": 22
+     },
+     "filters_applied": {
+      "vetoes": [
+       "volume collapse: last game 22.0 minutes < 28 floor"
+      ],
+      "flags": [],
+      "matchup_rank": 7,
+      "matchup_tier": "preferred",
+      "preference_limit": 22,
+      "hard_vetoes_apply": true,
+      "applied_at": "2026-11-04 05:54 AM ET"
+     },
+     "why_from": "scout"
+    },
+    "gameday": [
+     "Volume: L5 min 24/23/22/25/25 (L3 25.3 vs L10 26.9 min) | Hit: 8/10 at O9.5, 3/5",
+     "Matchup: UTA 7/30 vs Points (TR)",
+     "Context: NO -5.5 / O/U 234.5 | opp pace 99.7 (15th) | Home",
+     "Injuries: Jordan Poole, Yves Missi out | Opp out: Jusuf Nurkic, Jaren Jackson Jr",
+     "Risk: volume collapse: last game 22.0 minutes < 28 floor"
+    ],
+    "dk": {
+     "odds": "-125",
+     "na": false,
+     "ladder": [
+      [
+       "6+",
+       "-579"
+      ],
+      [
+       "8+",
+       "-254"
+      ],
+      [
+       "10+",
+       "-125"
+      ],
+      [
+       "12+",
+       "+149"
+      ],
+      [
+       "15+",
+       "+350"
+      ],
+      [
+       "18+",
+       "+800"
+      ],
+      [
+       "20+",
+       "+1280"
       ]
      ]
     }
@@ -30613,11 +31831,11 @@
      "ladder": [
       [
        "1+",
-       "-2500"
+       "-2000"
       ],
       [
        "2+",
-       "-400"
+       "-390"
       ],
       [
        "3+",
@@ -30633,11 +31851,11 @@
       ],
       [
        "6+",
-       "+750"
+       "+800"
       ],
       [
        "7+",
-       "+1600"
+       "+1700"
       ]
      ]
     }
@@ -42426,6 +43644,162 @@
     "grade": "B+"
    },
    {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "prop": "Safe +100",
+    "fam": "Parlay",
+    "pick": "Safe +100 3-leg",
+    "odds": "+113",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "tk": "NBA",
+    "tid": "2026-11-04|NBA|10:19 AM ET|3-leg"
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "NBA alt · NBA pts Jalen Brunson 20+ pts",
+    "pick": "Jalen Brunson 20+ pts",
+    "odds": "-325",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Player points",
+    "img": null,
+    "sub": "",
+    "tk": "NBA",
+    "tid": "2026-11-04|NBA|10:19 AM ET|3-leg",
+    "gm": "Knicks vs Bulls 11/04 07:30 PM ET",
+    "grade": "B+"
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "NBA alt · NBA ast Luka Doncic 6+ ast",
+    "pick": "Luka Doncic 6+ ast",
+    "odds": "-350",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Assists",
+    "img": null,
+    "sub": "",
+    "tk": "NBA",
+    "tid": "2026-11-04|NBA|10:19 AM ET|3-leg",
+    "gm": "Kings vs Lakers 11/04 10:00 PM ET",
+    "grade": "B+"
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "NBA alt · NBA ast RJ Barrett 3+ ast",
+    "pick": "RJ Barrett 3+ ast",
+    "odds": "-375",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Assists",
+    "img": null,
+    "sub": "",
+    "tk": "NBA",
+    "tid": "2026-11-04|NBA|10:19 AM ET|3-leg",
+    "gm": "Nuggets vs Raptors 11/04 09:00 PM ET",
+    "grade": "A"
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "prop": "Safe +100",
+    "fam": "Parlay",
+    "pick": "Safe +100 3-leg",
+    "odds": "+118",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-04|Today|10:19 AM ET|3-leg"
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NHL SOG Jack Quinn 2+ SOG",
+    "pick": "Jack Quinn 2+ SOG",
+    "odds": "-325",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-04|Today|10:19 AM ET|3-leg",
+    "gm": "Sabres vs. Senators 11/04 07:30 PM ET",
+    "grade": "A"
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NBA reb Domantas Sabonis 11+ reb",
+    "pick": "Domantas Sabonis 11+ reb",
+    "odds": "-300",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Rebounds",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-04|Today|10:19 AM ET|3-leg",
+    "gm": "Kings vs Lakers 11/04 10:00 PM ET",
+    "grade": "B+"
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NBA reb VJ Edgecombe 4+ reb",
+    "pick": "VJ Edgecombe 4+ reb",
+    "odds": "-400",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Rebounds",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-04|Today|10:19 AM ET|3-leg",
+    "gm": "Pistons vs 76ers 11/04 07:00 PM ET",
+    "grade": "A"
+   },
+   {
     "date": "2026-10-18",
     "sport": "NFL",
     "grp": "F",
@@ -50658,6 +52032,91 @@
     "nu": false
    },
    {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA assists (over)",
+    "fam": "Assists",
+    "pick": "Trae Young Over 9.5 Assists (vs ATL; NBA Play #1)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA 3PM (over)",
+    "fam": "3PM",
+    "pick": "Deni Avdija o1.5 3PM (POR vs PHX; NBA Play of the Day #2)",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@turveybets · NBA points (over)",
+    "fam": "Player points",
+    "pick": "C. White o11.5 points",
+    "odds": "-135",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@turveybets · NBA points (over)",
+    "fam": "Player points",
+    "pick": "D. Peterson o13.5 points",
+    "odds": "-110",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NHL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@nickm_hockey · NHL shots on goal (over)",
+    "fam": "SOG",
+    "pick": "M. Wood o1.5 shots on goal",
+    "odds": "-118",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false
+   },
+   {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
@@ -55072,6 +56531,25 @@
     "img": null,
     "sub": "",
     "fam": "SOG"
+   },
+   {
+    "date": "2026-11-04",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "LEG DAY",
+    "prop": "Derik Queen Over 9.5 Points",
+    "pick": "#6 Derik Queen Over 9.5 Points",
+    "odds": "-130",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "rank": 6,
+    "uu": 0.0,
+    "game": "Pelicans vs Jazz",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "fam": "Player points"
    }
   ],
   "summary": {
@@ -55080,7 +56558,7 @@
      "w": 171,
      "l": 156,
      "p": 7,
-     "pending": 15,
+     "pending": 16,
      "units": -17.42
     },
     "legs": {
@@ -55112,9 +56590,9 @@
      "w": 207,
      "l": 171,
      "p": 6,
-     "pending": 7,
+     "pending": 12,
      "units": -47.52,
-     "no_odds": 138
+     "no_odds": 139
     },
     "legs": {
      "w": 0,
@@ -55171,7 +56649,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 7 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 12 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-11-02', 'The Heist', 'NBA', 'Nikola Jokic 8+ Assists', '-325')]",
@@ -55314,47 +56792,47 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 10:18",
+    "priced": "2026-11-04 10:21",
     "first_priced": "2026-11-04 07:09",
     "dk": {
      "ladder": [
       [
        "15+",
-       "-830"
+       "-760"
       ],
       [
        "18+",
-       "-365"
+       "-335"
       ],
       [
        "20+",
-       "-221"
+       "-212"
       ],
       [
        "23+",
-       "-115"
+       "-112"
       ],
       [
        "25+",
-       "+130"
+       "+135"
       ],
       [
        "30+",
-       "+331"
+       "+354"
       ],
       [
        "35+",
-       "+830"
+       "+900"
       ],
       [
        "40+",
-       "+1940"
+       "+2000"
       ]
      ],
      "odds": "-365",
-     "pick": "Kevin Durant Over 17.5 Pts",
-     "moved": true,
+     "pick": "Kevin Durant 18+ Pts",
      "na": false,
+     "src": "heist.conv",
      "orig_odds": null
     }
    },
@@ -55372,7 +56850,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 10:18",
+    "priced": "2026-11-04 10:21",
     "first_priced": "2026-11-04 07:09",
     "dk": {
      "odds": null,
@@ -55385,8 +56863,8 @@
   "skipped": [
    {
     "capper": "@alexcaruso",
-    "why": "no picks today",
-    "pick": ""
+    "why": "no straight pick with odds",
+    "pick": "Trae Young Over 9.5 Assists (vs ATL; NBA Play #1)"
    },
    {
     "capper": "@panpotd",
@@ -55410,25 +56888,69 @@
   ],
   "conv": [
    {
+    "capper": "@alexcaruso",
+    "sport": "NBA",
+    "pick": "Trae Young Over 9.5 Assists (vs ATL; NBA Play #1)",
+    "odds": "none posted",
+    "game": "ATL @ WSH",
+    "kick": "7:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-04 19:00",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "excluded": "ambiguous stat (\"?\")"
+   },
+   {
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Kevin Durant o21.5 Pts (MIN @ HOU; NBA Play of the Day)",
-    "odds": "-125",
+    "odds": "-125 DK",
     "game": "MIN @ HOU",
     "kick": "8:30 PM ET",
     "started": false,
     "final": false,
     "frozen": false,
     "hr": "original line kept (no HR rung in -250..-375)",
-    "dk": "18+ -365",
+    "dk": "18+ -335",
     "hr_odds": null,
-    "dk_odds": -365,
+    "dk_odds": -335,
     "start": "2026-11-04 20:30",
     "hr_pick": "Kevin Durant o21.5 Pts",
     "dk_pick": "Kevin Durant 18+ Pts",
     "trk": "Kevin Durant o21.5 Pts",
     "grade_odds": -125,
     "hr_x": null,
+    "excluded": null
+   },
+   {
+    "capper": "@austinsprops",
+    "sport": "NBA",
+    "pick": "Deni Avdija o1.5 3PM (POR vs PHX; NBA Play of the Day #2)",
+    "odds": "-115 DK",
+    "game": "POR @ PHX",
+    "kick": "9:00 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept (no HR rung in -250..-375)",
+    "dk": "original line kept (no DK rung in -250..-375)",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-04 21:00",
+    "hr_pick": "Deni Avdija o1.5 3PM",
+    "dk_pick": "Deni Avdija o1.5 3PM",
+    "trk": "Deni Avdija o1.5 3PM",
+    "grade_odds": -130,
+    "hr_x": -130,
     "excluded": null
    },
    {
@@ -55474,21 +56996,21 @@
  },
  "gameday": {
   "date": "2026-11-04",
-  "built": "2026-11-04 10:18 ET",
-  "picks": 45,
+  "built": "2026-11-04 10:21 ET",
+  "picks": 52,
   "vetoes": [],
   "gaps": [
    "NCAAF Connecticut vs North Carolina: no ESPN event match"
   ]
  },
  "dk": {
-  "fetched": "2026-11-04 07:12 ET",
-  "snapshots": 1,
+  "fetched": "2026-11-04 10:20 ET",
+  "snapshots": 2,
   "pregame_games": 108,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 32,
-   "priced": 26,
+   "legs": 39,
+   "priced": 33,
    "na": [
     "HEIST Butler Bulldogs -23.5",
     "Edge Ivar Stenberg Over 0.5 Goals",
@@ -55501,8 +57023,8 @@
  },
  "late_injury": {
   "date": "2026-11-04",
-  "checked_et": "2026-11-04 07:12 AM ET",
-  "stage": "7am",
+  "checked_et": "2026-11-04 10:20 AM ET",
+  "stage": "10am",
   "flags": []
  },
  "fb_legs": {
@@ -56202,19 +57724,19 @@
  "ncaam": {
   "date": "2026-11-04",
   "sport": "NCAAM",
-  "updated": "2026-11-04 07:12 AM ET",
-  "stage": "7am",
+  "updated": "2026-11-04 10:21 AM ET",
+  "stage": "10am",
   "potd_note": "No NCAAM Play of the Day: there is no reliable NCAAM injury source yet (§30.9).",
   "edge_note": "NCAAM Edge: Hard Rock vs the Pinnacle no-vig price (edge 4%+, Hard Rock -130 or better), picked once at the 7 AM run with the other sports; §30.4 and §30.5 apply. Edge picks show in the Edge section.",
   "rules": "RULEBOOK §30",
   "dk_props": {
-   "fetched": "2026-11-04 07:12 AM ET",
+   "fetched": "2026-11-04 10:21 AM ET",
    "source": "DraftKings public sportsbook JSON (dkusoh)",
    "display_only": true,
    "games": [],
    "bars": {
     "source": "ESPN NCAAM athlete gamelog (site.web.api.espn.com), players matched by ESPN roster athlete id",
-    "built": "7:12 AM ET Nov 4",
+    "built": "10:21 AM ET Nov 4",
     "props": 0,
     "players": 0,
     "season": "2026-27",
@@ -59008,6 +60530,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-04 10:18 AM ET"
+  "checked_et": "2026-11-04 10:21 AM ET"
  }
 }
