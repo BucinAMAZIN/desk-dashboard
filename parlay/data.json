@@ -1,5 +1,5 @@
 {
- "generated": 1793796098.460987,
+ "generated": 1793796972.343056,
  "today": {
   "title": "Nov 4 picks (Hard Rock)",
   "tickets": [
@@ -733,7 +733,7 @@
        "odds": "-375",
        "game": "Sabres vs. Senators 07:30 PM ET",
        "status": "Pending",
-       "why": "Volume: L10 TOI 24.5 avg (L3 25.2 vs L10 23.5 TOI) | Hit: 9/10 at line, 5/5 (L10 avg 3.0 vs 1.5 line) · vs OTT 4/5. Usage: TOI L5 25.9 / L10 24.5 · PP TOI L5 3.6 / L10 3.3 · SAT L5 5.8 / L10 5.3 (api.nhle.com thru 10/31; as of 11/04 7:09 AM ET). Matchup: Opp G Jonas Johansson 0.848 SV% 6/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only). Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home. Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve). Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks.",
+       "why": "Volume: L10 TOI 24.5 avg (L3 25.2 vs L10 23.5 TOI) | Hit: 9/10 at line, 5/5 (L10 avg 3.0 vs 1.5 line) · vs OTT 4/5. Usage: TOI L5 25.9 / L10 24.5 · PP TOI L5 3.6 / L10 3.3 · SAT L5 5.8 / L10 5.3 (api.nhle.com thru 10/31; as of 11/04 7:09 AM ET). Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only). Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home. Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve). Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks.",
        "why_not": null,
        "why_src": "Volume: L10 TOI 24.5 avg (L3 25.2 vs L10 23.5 TOI) | Hit: 9/10 at O1.5, 5/5 | Matchup: Opp G Jonas Johansson 0.848 SV% 6/65 (weak half, passes) · goalie unconfirmed | shots-allowed 19 of 32 vs Shots On Goal (NHL API) (display only) | Context: BUF -1.5 / O/U 6.5 | - | Home · Div | Injuries: Konsta Helenius, Justin Danforth out | Opp out: Andre Burakovsky, Warren Foegele | Weather: neutral | Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
        "ctx": {
@@ -742,13 +742,13 @@
         "opp": "OTT",
         "stat": "sog",
         "goalie_check": {
-         "goalie": "Jonas Johansson",
-         "svpct": 0.8476,
-         "sa": 105,
-         "gp": 4,
-         "rank": 6,
+         "goalie": "Samuel Ersson",
+         "svpct": 0.8662,
+         "sa": 142,
+         "gp": 7,
+         "rank": 11,
          "of": 65,
-         "pctl": 0.923,
+         "pctl": 0.846,
          "half": "weak",
          "ok": true,
          "status": "probable",
@@ -756,7 +756,7 @@
          "source": "DailyFaceoff starting goalies (live pull)",
          "dfo_status": "projected",
          "opp": "OTT",
-         "text": "Opp G Jonas Johansson 0.848 SV% 6/65 (weak half, passes) · goalie unconfirmed"
+         "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed"
         },
         "opp_rank_display_only": {
          "rank": 14,
@@ -816,7 +816,7 @@
        "gameday": [
         "Volume: L10 TOI 24.5 avg (L3 25.2 vs L10 23.5 TOI) | Hit: 9/10 at line, 5/5 (L10 avg 3.0 vs 1.5 line) · vs OTT 4/5",
         "Usage: TOI L5 25.9 / L10 24.5 · PP TOI L5 3.6 / L10 3.3 · SAT L5 5.8 / L10 5.3 (api.nhle.com thru 10/31; as of 11/04 7:09 AM ET)",
-        "Matchup: Opp G Jonas Johansson 0.848 SV% 6/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only)",
+        "Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only)",
         "Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home",
         "Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve)",
         "Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks"
@@ -9119,7 +9119,11 @@
      "pick": "Calgary Flames @ Seattle Kraken Under 6.5 (CGY @ SEA 10:00 PM ET; Action Network pick 565559871, 0.65u)",
      "odds": "-125",
      "status": "Pending",
-     "fam": "Total"
+     "fam": "Total",
+     "game": "CGY @ SEA",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9640,7 +9644,11 @@
      "pick": "Kevin Durant o21.5 Pts (MIN @ HOU; NBA Play of the Day)",
      "odds": "-125 DK",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "MIN @ HOU",
+     "kick": "8:30 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9784,10 +9792,10 @@
   },
   {
    "name": "@showtimepicks2",
-   "w": 26,
+   "w": 27,
    "l": 15,
    "p": 0,
-   "pct": 63,
+   "pct": 64,
    "props": [
     {
      "prop": "NCAAF pass yds (over)",
@@ -9863,10 +9871,10 @@
     },
     {
      "prop": "NCAAF spread",
-     "w": 7,
+     "w": 8,
      "l": 1,
      "p": 0,
-     "pct": 88,
+     "pct": 89,
      "fam": "Spread"
     },
     {
@@ -9917,7 +9925,11 @@
      "pick": "Butler Bulldogs -23.5 (vs FDU; early CBB play)",
      "odds": "-110",
      "status": "Pending",
-     "fam": "Spread"
+     "fam": "Spread",
+     "game": "FDU @ BTLR",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9985,7 +9997,11 @@
      "pick": "A. Wiggins u12.5 points (ATL @ WAS 7:00 PM ET; Action Network pick 565556657, 0.5u)",
      "odds": "-111",
      "status": "Pending",
-     "fam": "Player points"
+     "fam": "Player points",
+     "game": "ATL @ WSH",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -10056,7 +10072,7 @@
  "capper_today_date": "2026-11-04",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-04 07:41 AM ET",
+  "updated": "2026-11-04 07:56 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -31910,13 +31926,13 @@
      "opp": "OTT",
      "stat": "sog",
      "goalie_check": {
-      "goalie": "Jonas Johansson",
-      "svpct": 0.8476,
-      "sa": 105,
-      "gp": 4,
-      "rank": 6,
+      "goalie": "Samuel Ersson",
+      "svpct": 0.8662,
+      "sa": 142,
+      "gp": 7,
+      "rank": 11,
       "of": 65,
-      "pctl": 0.923,
+      "pctl": 0.846,
       "half": "weak",
       "ok": true,
       "status": "probable",
@@ -31924,7 +31940,7 @@
       "source": "DailyFaceoff starting goalies (live pull)",
       "dfo_status": "projected",
       "opp": "OTT",
-      "text": "Opp G Jonas Johansson 0.848 SV% 6/65 (weak half, passes) · goalie unconfirmed"
+      "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed"
      },
      "opp_rank_display_only": {
       "rank": 14,
@@ -51503,6 +51519,24 @@
     "uu": 0.67
    },
    {
+    "date": "2026-11-03",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NCAAF spread",
+    "fam": "Spread",
+    "pick": "1.5u Buffalo Bulls +7.5 (Buffalo @ Miami (OH); CFB free play)",
+    "odds": "-136",
+    "res": "W",
+    "stat": "W (BUFF 34-31 M-OH)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.74
+   },
+   {
     "date": "2026-10-23",
     "sport": "NBA",
     "grp": "C",
@@ -51630,23 +51664,6 @@
     "fam": "Spread",
     "pick": "Butler Bulldogs -23.5 (vs FDU; early CBB play)",
     "odds": "-110",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-03",
-    "sport": "NCAAF",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@showtimepicks2 · NCAAF spread",
-    "fam": "Spread",
-    "pick": "1.5u Buffalo Bulls +7.5 (Buffalo @ Miami (OH); CFB free play)",
-    "odds": "-136",
     "res": "",
     "stat": "",
     "alt": false,
@@ -56141,11 +56158,11 @@
    },
    "C": {
     "tickets": {
-     "w": 205,
+     "w": 206,
      "l": 169,
      "p": 6,
-     "pending": 11,
-     "units": -47.14,
+     "pending": 10,
+     "units": -46.4,
      "no_odds": 138
     },
     "legs": {
@@ -56203,7 +56220,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 11 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 10 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-11-02', 'The Heist', 'NBA', 'Nikola Jokic 8+ Assists', '-325')]",
@@ -56346,7 +56363,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 07:41",
+    "priced": "2026-11-04 07:56",
     "first_priced": "2026-11-04 07:09",
     "dk": {
      "ladder": [
@@ -56404,7 +56421,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 07:41",
+    "priced": "2026-11-04 07:56",
     "first_priced": "2026-11-04 07:09",
     "dk": {
      "odds": null,
@@ -56445,7 +56462,7 @@
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Kevin Durant o21.5 Pts (MIN @ HOU; NBA Play of the Day)",
-    "odds": "-125",
+    "odds": "-125 DK",
     "game": "MIN @ HOU",
     "kick": "8:30 PM ET",
     "started": false,
@@ -56506,7 +56523,7 @@
  },
  "gameday": {
   "date": "2026-11-04",
-  "built": "2026-11-04 07:41 ET",
+  "built": "2026-11-04 07:56 ET",
   "picks": 67,
   "vetoes": [],
   "gaps": [
@@ -59881,6 +59898,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-04 07:41 AM ET"
+  "checked_et": "2026-11-04 07:56 AM ET"
  }
 }
