@@ -1,5 +1,5 @@
 {
- "generated": 1793811937.7484293,
+ "generated": 1793814203.1230693,
  "today": {
   "title": "Nov 4 picks (Hard Rock)",
   "tickets": [
@@ -780,7 +780,7 @@
        "odds": "-375",
        "game": "Sabres vs. Senators 07:30 PM ET",
        "status": "Pending",
-       "why": "Volume: L10 TOI 24.5 avg (L3 25.2 vs L10 23.5 TOI) | Hit: 9/10 at line, 5/5 (L10 avg 3.0 vs 1.5 line) · vs OTT 4/5. Usage: TOI L5 25.9 / L10 24.5 · PP TOI L5 3.6 / L10 3.3 · SAT L5 5.8 / L10 5.3 (api.nhle.com thru 10/31; as of 11/04 10:14 AM ET). Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only). Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home. Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve). Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks.",
+       "why": "Volume: L10 TOI 24.5 avg (L3 25.2 vs L10 23.5 TOI) | Hit: 9/10 at line, 5/5 (L10 avg 3.0 vs 1.5 line) · vs OTT 4/5. Usage: TOI L5 25.9 / L10 24.5 · PP TOI L5 3.6 / L10 3.3 · SAT L5 5.8 / L10 5.3 (api.nhle.com thru 10/31; as of 11/04 10:14 AM ET). Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · confirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only). Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home. Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve). Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks.",
        "why_not": null,
        "why_src": "Volume: L10 TOI 24.5 avg (L3 25.2 vs L10 23.5 TOI) | Hit: 9/10 at O1.5, 5/5 | Matchup: Opp G Jonas Johansson 0.848 SV% 6/65 (weak half, passes) · goalie unconfirmed | shots-allowed 19 of 32 vs Shots On Goal (NHL API) (display only) | Context: BUF -1.5 / O/U 6.5 | - | Home · Div | Injuries: Konsta Helenius, Justin Danforth out | Opp out: Andre Burakovsky, Warren Foegele | Weather: neutral | Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks",
        "ctx": {
@@ -798,12 +798,12 @@
          "pctl": 0.846,
          "half": "weak",
          "ok": true,
-         "status": "probable",
-         "unconfirmed": true,
+         "status": "confirmed",
+         "unconfirmed": false,
          "source": "DailyFaceoff starting goalies (live pull)",
-         "dfo_status": "projected",
+         "dfo_status": "Confirmed",
          "opp": "OTT",
-         "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed"
+         "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · confirmed"
         },
         "opp_rank_display_only": {
          "rank": 14,
@@ -863,7 +863,7 @@
        "gameday": [
         "Volume: L10 TOI 24.5 avg (L3 25.2 vs L10 23.5 TOI) | Hit: 9/10 at line, 5/5 (L10 avg 3.0 vs 1.5 line) · vs OTT 4/5",
         "Usage: TOI L5 25.9 / L10 24.5 · PP TOI L5 3.6 / L10 3.3 · SAT L5 5.8 / L10 5.3 (api.nhle.com thru 10/31; as of 11/04 10:14 AM ET)",
-        "Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only)",
+        "Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · confirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only)",
         "Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home",
         "Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve)",
         "Risk: goalie unconfirmed (Jonas Johansson, DailyFaceoff starting goalies (live pull)): flag only, never blocks"
@@ -900,8 +900,8 @@
        },
        "hr_sid": "5176446754215821740",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5176446754215821740",
-       "hr_live": "-425",
-       "hr_now": "-425"
+       "hr_live": "-400",
+       "hr_now": "-400"
       },
       {
        "pick": "Seth Jones Over 0.5 Points",
@@ -1000,8 +1000,8 @@
        },
        "hr_sid": "3554898000688054675",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3554898000688054675",
-       "hr_live": "-165",
-       "hr_now": "-165"
+       "hr_live": "-160",
+       "hr_now": "-160"
       }
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
@@ -9115,11 +9115,7 @@
      "hr_sid": "1626683703143039364",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1626683703143039364",
      "hr_live": "-125",
-     "hr_now": "-125",
-     "game": "CGY @ SEA",
-     "kick": "10:00 PM ET",
-     "started": false,
-     "final": false
+     "hr_now": "-125"
     },
     {
      "sport": "NHL",
@@ -9131,11 +9127,7 @@
      "hr_sid": "892772801184924040",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/892772801184924040",
      "hr_live": "-130",
-     "hr_now": "-130",
-     "game": "CGY @ SEA",
-     "kick": "10:00 PM ET",
-     "started": false,
-     "final": false
+     "hr_now": "-130"
     }
    ]
   },
@@ -9522,11 +9514,7 @@
      "hr_sid": "2135884823061987720",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2135884823061987720",
      "hr_live": "-145",
-     "hr_now": "-145",
-     "game": "ATL @ WSH",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "hr_now": "-145"
     }
    ]
   },
@@ -9685,11 +9673,7 @@
      "hr_sid": "3832510790334808471",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3832510790334808471",
      "hr_live": "-140",
-     "hr_now": "-140",
-     "game": "MIN @ HOU",
-     "kick": "8:30 PM ET",
-     "started": false,
-     "final": false
+     "hr_now": "-140"
     },
     {
      "sport": "NBA",
@@ -9701,11 +9685,7 @@
      "hr_sid": "3419051696251339155",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3419051696251339155",
      "hr_live": "-125",
-     "hr_now": "-125",
-     "game": "POR @ PHX",
-     "kick": "9:00 PM ET",
-     "started": false,
-     "final": false
+     "hr_now": "-125"
     }
    ]
   },
@@ -9994,11 +9974,7 @@
      "hr_sid": "326347122662310288",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/326347122662310288",
      "hr_live": "-210",
-     "hr_now": "-210",
-     "game": "FDU @ BTLR",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "hr_now": "-210"
     }
    ]
   },
@@ -10067,11 +10043,7 @@
      "odds": "-111",
      "status": "Pending",
      "fam": "Player points",
-     "hr_why": "line not offered on Hard Rock right now (HR has under 11.5, not 12.5)",
-     "game": "ATL @ WSH",
-     "kick": "7:00 PM ET",
-     "started": false,
-     "final": false
+     "hr_why": "line not offered on Hard Rock right now (HR has under 11.5, not 12.5)"
     },
     {
      "sport": "NBA",
@@ -10082,12 +10054,8 @@
      "fam": "Player points",
      "hr_sid": "1103825134831141276",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1103825134831141276",
-     "hr_live": "-155",
-     "hr_now": "-155",
-     "game": "CHA @ BKN",
-     "kick": "7:30 PM ET",
-     "started": false,
-     "final": false
+     "hr_live": "-195",
+     "hr_now": "-195"
     },
     {
      "sport": "NBA",
@@ -10098,12 +10066,8 @@
      "fam": "Player points",
      "hr_sid": "7560576647037059488",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7560576647037059488",
-     "hr_live": "-125",
-     "hr_now": "-125",
-     "game": "UTAH @ NO",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false
+     "hr_live": "-130",
+     "hr_now": "-130"
     }
    ]
   },
@@ -10174,7 +10138,7 @@
  "capper_today_date": "2026-11-04",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-04 12:05 PM ET",
+  "updated": "2026-11-04 12:43 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -16694,7 +16658,8 @@
       },
       "hr_sid": "6504773127610958220",
       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6504773127610958220",
-      "hr_live": "-325"
+      "hr_live": "-350",
+      "hr_now": "-350"
      },
      {
       "pick": "Luka Doncic 6+ ast",
@@ -17007,7 +16972,7 @@
       "game": "Sabres vs. Senators 11/04 07:30 PM ET",
       "odds": "-325",
       "grade": "A",
-      "reason": "Volume: TOI L10 avg 19.0, shots/g L10 2.8 | Hit: 9/10 at line, 5/5 (L10 avg 2.8 vs None line). Usage: TOI L5 18.7 / L10 19.0 · PP TOI L5 3.5 / L10 3.8 · SAT L5 5.6 / L10 4.8 (api.nhle.com thru 10/31; as of 11/04 10:14 AM ET). Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only). Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home. Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve). Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "reason": "Volume: TOI L10 avg 19.0, shots/g L10 2.8 | Hit: 9/10 at line, 5/5 (L10 avg 2.8 vs None line). Usage: TOI L5 18.7 / L10 19.0 · PP TOI L5 3.5 / L10 3.8 · SAT L5 5.6 / L10 4.8 (api.nhle.com thru 10/31; as of 11/04 10:14 AM ET). Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · confirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only). Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home. Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve). Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
       "why_not": null,
       "sport": "NHL",
       "rule": "2026-10-26",
@@ -17039,12 +17004,12 @@
         "pctl": 0.846,
         "half": "weak",
         "ok": true,
-        "status": "probable",
-        "unconfirmed": true,
+        "status": "confirmed",
+        "unconfirmed": false,
         "source": "DailyFaceoff starting goalies (live pull)",
-        "dfo_status": "projected",
+        "dfo_status": "Confirmed",
         "opp": "OTT",
-        "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed"
+        "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · confirmed"
        },
        "opp_rank_display_only": {
         "rank": 14,
@@ -17104,7 +17069,7 @@
       "gameday": [
        "Volume: TOI L10 avg 19.0, shots/g L10 2.8 | Hit: 9/10 at line, 5/5 (L10 avg 2.8 vs None line)",
        "Usage: TOI L5 18.7 / L10 19.0 · PP TOI L5 3.5 / L10 3.8 · SAT L5 5.6 / L10 4.8 (api.nhle.com thru 10/31; as of 11/04 10:14 AM ET)",
-       "Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only)",
+       "Matchup: Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · confirmed | shots-allowed: OTT 14 of 32 vs SOG (27.2 of g allowed, neutral) (display only)",
        "Context: BUF -1.5 / O/U 6.5 (BUF TT 3.5) | Home",
        "Injuries: BUF: Alex Lyon (Injured Reserve) | OTT: Linus Ullmark (Injured Reserve)",
        "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it"
@@ -17142,8 +17107,8 @@
       },
       "hr_sid": "2669771349119074706",
       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2669771349119074706",
-      "hr_live": "-375",
-      "hr_now": "-375"
+      "hr_live": "-350",
+      "hr_now": "-350"
      },
      {
       "pick": "Domantas Sabonis 11+ reb",
@@ -18748,12 +18713,12 @@
     "big_edge_assist": null,
     "now": "+400",
     "green_circle": false,
-    "green_status": "projected",
-    "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (projected) < .897 · SOG L5 2.0 < 2.5",
+    "green_status": "confirmed",
+    "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (confirmed) < .897 · SOG L5 2.0 < 2.5",
     "green_opp": "OTT",
     "green_opp_ga_l5": 4.2,
     "green_goalie": "Samuel Ersson",
-    "green_goalie_status": "projected",
+    "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.871,
     "green_sog_l5": 2.0,
     "hr_sid": "7968478412069274006",
@@ -19033,12 +18998,12 @@
     "big_edge_assist": null,
     "now": "+130",
     "green_circle": false,
-    "green_status": "projected",
-    "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (projected) < .897 · SOG L5 4.2 >= 2.5",
+    "green_status": "confirmed",
+    "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (confirmed) < .897 · SOG L5 4.2 >= 2.5",
     "green_opp": "OTT",
     "green_opp_ga_l5": 4.2,
     "green_goalie": "Samuel Ersson",
-    "green_goalie_status": "projected",
+    "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.871,
     "green_sog_l5": 4.2,
     "hr_sid": "917530245467341210",
@@ -19606,12 +19571,12 @@
     "big_edge_assist": null,
     "now": "+155",
     "green_circle": false,
-    "green_status": "projected",
-    "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (projected) < .897 · SOG L5 3.2 >= 2.5",
+    "green_status": "confirmed",
+    "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (confirmed) < .897 · SOG L5 3.2 >= 2.5",
     "green_opp": "OTT",
     "green_opp_ga_l5": 4.2,
     "green_goalie": "Samuel Ersson",
-    "green_goalie_status": "projected",
+    "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.871,
     "green_sog_l5": 3.2,
     "hr_sid": "4366161660126298544",
@@ -19726,12 +19691,12 @@
     "big_edge_assist": null,
     "now": "+140",
     "green_circle": false,
-    "green_status": "projected",
-    "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (projected) < .897 · SOG L5 3.0 >= 2.5",
+    "green_status": "confirmed",
+    "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (confirmed) < .897 · SOG L5 3.0 >= 2.5",
     "green_opp": "OTT",
     "green_opp_ga_l5": 4.2,
     "green_goalie": "Samuel Ersson",
-    "green_goalie_status": "projected",
+    "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.871,
     "green_sog_l5": 3.0,
     "hr_sid": "3471282340418945440",
@@ -22053,12 +22018,12 @@
      "grade_why": "+8.7% vs Pinnacle",
      "big_edge_assist": null,
      "green_circle": false,
-     "green_status": "projected",
-     "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (projected) < .897 · SOG L5 2.0 < 2.5",
+     "green_status": "confirmed",
+     "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (confirmed) < .897 · SOG L5 2.0 < 2.5",
      "green_opp": "OTT",
      "green_opp_ga_l5": 4.2,
      "green_goalie": "Samuel Ersson",
-     "green_goalie_status": "projected",
+     "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.871,
      "green_sog_l5": 2.0,
      "hr_sid": "7968478412069274006",
@@ -22626,12 +22591,12 @@
      "grade_why": "+6.5% vs Pinnacle",
      "big_edge_assist": null,
      "green_circle": false,
-     "green_status": "projected",
-     "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (projected) < .897 · SOG L5 4.2 >= 2.5",
+     "green_status": "confirmed",
+     "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (confirmed) < .897 · SOG L5 4.2 >= 2.5",
      "green_opp": "OTT",
      "green_opp_ga_l5": 4.2,
      "green_goalie": "Samuel Ersson",
-     "green_goalie_status": "projected",
+     "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.871,
      "green_sog_l5": 4.2,
      "hr_sid": "917530245467341210",
@@ -23193,12 +23158,12 @@
      "grade_why": "+5.5% vs Pinnacle",
      "big_edge_assist": null,
      "green_circle": false,
-     "green_status": "projected",
-     "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (projected) < .897 · SOG L5 3.2 >= 2.5",
+     "green_status": "confirmed",
+     "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (confirmed) < .897 · SOG L5 3.2 >= 2.5",
      "green_opp": "OTT",
      "green_opp_ga_l5": 4.2,
      "green_goalie": "Samuel Ersson",
-     "green_goalie_status": "projected",
+     "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.871,
      "green_sog_l5": 3.2,
      "hr_sid": "4366161660126298544",
@@ -23310,12 +23275,12 @@
      "grade_why": "+4.8% vs Pinnacle",
      "big_edge_assist": null,
      "green_circle": false,
-     "green_status": "projected",
-     "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (projected) < .897 · SOG L5 3.0 >= 2.5",
+     "green_status": "confirmed",
+     "green_why": "Opp OTT 4.2 GA/gp L5 >= 3.4 · G Samuel Ersson 0.871 SV% L5 (confirmed) < .897 · SOG L5 3.0 >= 2.5",
      "green_opp": "OTT",
      "green_opp_ga_l5": 4.2,
      "green_goalie": "Samuel Ersson",
-     "green_goalie_status": "projected",
+     "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.871,
      "green_sog_l5": 3.0,
      "hr_sid": "3471282340418945440",
@@ -24478,7 +24443,8 @@
     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
     "hr_sid": "5754551484708684187",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5754551484708684187",
-    "hr_live": "+650"
+    "hr_live": "+600",
+    "hr_now": "+600"
    }
   ],
   "mode": "lock",
@@ -30387,9 +30353,7 @@
       ]
      ]
     },
-    "hr_sid": "4213546441861366168",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4213546441861366168",
-    "hr_live": "-130"
+    "hr_why": "market or line not offered on Hard Rock right now"
    },
    {
     "sport": "NBA",
@@ -32154,8 +32118,8 @@
     },
     "hr_sid": "1736268384951206296",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1736268384951206296",
-    "hr_live": "-120",
-    "hr_now": "-120"
+    "hr_live": "-125",
+    "hr_now": "-125"
    },
    {
     "sport": "NHL",
@@ -32187,12 +32151,12 @@
       "pctl": 0.846,
       "half": "weak",
       "ok": true,
-      "status": "probable",
-      "unconfirmed": true,
+      "status": "confirmed",
+      "unconfirmed": false,
       "source": "DailyFaceoff starting goalies (live pull)",
-      "dfo_status": "projected",
+      "dfo_status": "Confirmed",
       "opp": "OTT",
-      "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · goalie unconfirmed"
+      "text": "Opp G Samuel Ersson 0.866 SV% 11/65 (weak half, passes) · confirmed"
      },
      "opp_rank_display_only": {
       "rank": 14,
@@ -32497,8 +32461,8 @@
     },
     "hr_sid": "755400658882003354",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/755400658882003354",
-    "hr_live": "-115",
-    "hr_now": "-115"
+    "hr_live": "+100",
+    "hr_now": "+100"
    }
   ]
  },
@@ -57093,7 +57057,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 12:05",
+    "priced": "2026-11-04 12:43",
     "orig_note": "book price; capper posted no odds",
     "first_priced": "2026-11-04 11:57",
     "dk": {
@@ -57175,7 +57139,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 12:05",
+    "priced": "2026-11-04 12:43",
     "first_priced": "2026-11-04 07:09",
     "dk": {
      "ladder": [
@@ -57237,7 +57201,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 12:05",
+    "priced": "2026-11-04 12:43",
     "first_priced": "2026-11-04 07:09",
     "dk": {
      "odds": null,
@@ -57303,7 +57267,7 @@
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Kevin Durant o21.5 Pts (MIN @ HOU; NBA Play of the Day)",
-    "odds": "-125 DK",
+    "odds": "-125",
     "game": "MIN @ HOU",
     "kick": "8:30 PM ET",
     "started": false,
@@ -57329,7 +57293,7 @@
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Deni Avdija o1.5 3PM (POR vs PHX; NBA Play of the Day #2)",
-    "odds": "-115 DK",
+    "odds": "-115",
     "game": "POR @ PHX",
     "kick": "9:00 PM ET",
     "started": false,
@@ -57349,7 +57313,8 @@
     "excluded": null,
     "hr_sid": "2061216408599134611",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2061216408599134611",
-    "hr_live": "-550"
+    "hr_live": "-525",
+    "hr_now": "-525"
    },
    {
     "capper": "@showtimepicks2",
@@ -57416,7 +57381,7 @@
  },
  "gameday": {
   "date": "2026-11-04",
-  "built": "2026-11-04 12:05 ET",
+  "built": "2026-11-04 12:43 ET",
   "picks": 52,
   "vetoes": [],
   "gaps": [
@@ -58204,7 +58169,8 @@
      "started": false,
      "hr_sid": "5680466447063712169",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5680466447063712169",
-     "hr_live": "-165"
+     "hr_live": "-145",
+     "hr_now": "-145"
     }
    ],
    "status": "Pending",
@@ -58223,14 +58189,14 @@
  },
  "teamvs": {
   "date": "2026-11-04",
-  "built": "2026-11-04 11:46 AM ET",
+  "built": "2026-11-04 12:43 PM ET",
   "preview": false,
   "sports": {
    "NFL": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 11:46 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 12:43 PM ET",
     "none": "No NFL games today (ESPN scoreboard 2026-11-04)."
    },
    "NCAA F": {
@@ -58321,7 +58287,7 @@
          },
          "pts_d": {
           "val": 27.5714,
-          "rank": 78,
+          "rank": 79,
           "n": 138
          },
          "yds_d": {
@@ -58432,7 +58398,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/points-per-game",
-      "as_of": "2026-11-04 11:46 AM ET",
+      "as_of": "2026-11-04 12:43 PM ET",
       "n": 138,
       "engine": false
      },
@@ -58442,7 +58408,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/yards-per-game",
-      "as_of": "2026-11-04 11:46 AM ET",
+      "as_of": "2026-11-04 12:43 PM ET",
       "n": 138,
       "engine": false
      },
@@ -58452,7 +58418,7 @@
       "side": "def",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/opponent-points-per-game",
-      "as_of": "2026-11-04 11:46 AM ET",
+      "as_of": "2026-11-04 12:43 PM ET",
       "n": 138,
       "engine": false
      },
@@ -58468,7 +58434,7 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 11:46 AM ET"
+    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 12:43 PM ET"
    },
    "NBA": {
     "games": [
@@ -59362,7 +59328,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/offensive-efficiency",
-      "as_of": "2026-11-04 11:46 AM ET",
+      "as_of": "2026-11-04 12:43 PM ET",
       "n": 30,
       "engine": false
      },
@@ -59372,7 +59338,7 @@
       "side": "def",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/defensive-efficiency",
-      "as_of": "2026-11-04 11:46 AM ET",
+      "as_of": "2026-11-04 12:43 PM ET",
       "n": 30,
       "engine": false
      },
@@ -59382,7 +59348,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/points-per-game",
-      "as_of": "2026-11-04 11:46 AM ET",
+      "as_of": "2026-11-04 12:43 PM ET",
       "n": 30,
       "engine": false
      },
@@ -59398,7 +59364,7 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 11:46 AM ET"
+    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 12:43 PM ET"
    },
    "NHL": {
     "games": [
@@ -59662,7 +59628,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-04 11:46 AM ET",
+      "as_of": "2026-11-04 12:43 PM ET",
       "n": 32,
       "engine": false
      },
@@ -59682,7 +59648,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-04 11:46 AM ET",
+      "as_of": "2026-11-04 12:43 PM ET",
       "n": 32,
       "engine": false
      },
@@ -59698,13 +59664,13 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 11:46 AM ET"
+    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 12:43 PM ET"
    },
    "MLB": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 11:46 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 12:43 PM ET",
     "none": "No MLB games today (ESPN scoreboard 2026-11-04)."
    },
    "WNBA": {
@@ -60917,7 +60883,7 @@
      "Grace University Lancers: no Torvik rating (likely a non-Division I team)",
      "Salish Kootenai Bison: no Torvik rating (likely a non-Division I team)"
     ],
-    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 11:46 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-04, fetched 2026-11-04 12:43 PM ET",
     "stats": [
      {
       "key": "adjo",
@@ -60961,6 +60927,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-04 12:05 PM ET"
+  "checked_et": "2026-11-04 12:43 PM ET"
  }
 }
