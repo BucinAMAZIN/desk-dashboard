@@ -1,5 +1,5 @@
 {
- "generated": 1793796972.343056,
+ "generated": 1793797411.6118803,
  "today": {
   "title": "Nov 4 picks (Hard Rock)",
   "tickets": [
@@ -9130,9 +9130,9 @@
   {
    "name": "@tonestakes",
    "w": 27,
-   "l": 35,
+   "l": 36,
    "p": 3,
-   "pct": 44,
+   "pct": 43,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -9181,6 +9181,14 @@
      "p": 0,
      "pct": 0,
      "fam": "Saves"
+    },
+    {
+     "prop": "NFL ML",
+     "w": 0,
+     "l": 1,
+     "p": 0,
+     "pct": 0,
+     "fam": "ML"
     },
     {
      "prop": "NHL ML",
@@ -9262,7 +9270,7 @@
   {
    "name": "@alexcaruso",
    "w": 65,
-   "l": 39,
+   "l": 40,
    "p": 0,
    "pct": 62,
    "props": [
@@ -9301,9 +9309,9 @@
     {
      "prop": "NFL rush yds (over)",
      "w": 4,
-     "l": 6,
+     "l": 7,
      "p": 0,
-     "pct": 40,
+     "pct": 36,
      "fam": "Rushing yds"
     },
     {
@@ -9792,13 +9800,21 @@
   },
   {
    "name": "@showtimepicks2",
-   "w": 27,
+   "w": 28,
    "l": 15,
    "p": 0,
-   "pct": 64,
+   "pct": 65,
    "props": [
     {
      "prop": "NCAAF pass yds (over)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": 100,
+     "fam": "Pass yds"
+    },
+    {
+     "prop": "NFL pass yds (over)",
      "w": 1,
      "l": 0,
      "p": 0,
@@ -10072,7 +10088,7 @@
  "capper_today_date": "2026-11-04",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-04 07:56 AM ET",
+  "updated": "2026-11-04 08:03 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -51537,6 +51553,60 @@
     "uu": 0.74
    },
    {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@showtimepicks2 · NFL pass yds (over)",
+    "fam": "Pass yds",
+    "pick": "Tanner McKee o203.5 passing (PHI @ WAS SNF; NFL Primetime Play)",
+    "odds": "-113",
+    "res": "W",
+    "stat": "W (212 pass yds)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": 0.88
+   },
+   {
+    "date": "2026-11-01",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@tonestakes · NFL ML",
+    "fam": "ML",
+    "pick": "Phi +210",
+    "odds": "+210",
+    "res": "L",
+    "stat": "L (PHI 10-27 WSH)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-11-02",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NFL rush yds (over)",
+    "fam": "Rushing yds",
+    "pick": "Emmanuel Wilson 20+ Rush Yards (CHI @ SEA MNF; Surgical Bet of the Day)",
+    "odds": "none posted",
+    "res": "L",
+    "stat": "L (0 rush yds (Emanuel Wilson, ESPN gamelog event 401873036; not in box score))",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "nu": true,
+    "uu": -1.0
+   },
+   {
     "date": "2026-10-23",
     "sport": "NBA",
     "grp": "C",
@@ -51578,57 +51648,6 @@
     "prop": "@alexcaruso · NBA rebounds (over)",
     "fam": "Rebounds",
     "pick": "Jaylen Brown o5.5 Rebounds (CHI @ BOS; Play of the Day)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": true
-   },
-   {
-    "date": "2026-11-01",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@showtimepicks2 · NFL pass yds (over)",
-    "fam": "Pass yds",
-    "pick": "Tanner McKee o203.5 passing (PHI @ WAS SNF; NFL Primetime Play)",
-    "odds": "-113",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-01",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@tonestakes · NFL ML",
-    "fam": "ML",
-    "pick": "Phi +210",
-    "odds": "+210",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "nu": false
-   },
-   {
-    "date": "2026-11-02",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@alexcaruso · NFL rush yds (over)",
-    "fam": "Rushing yds",
-    "pick": "Emmanuel Wilson 20+ Rush Yards (CHI @ SEA MNF; Surgical Bet of the Day)",
     "odds": "none posted",
     "res": "",
     "stat": "",
@@ -56158,11 +56177,11 @@
    },
    "C": {
     "tickets": {
-     "w": 206,
-     "l": 169,
+     "w": 207,
+     "l": 171,
      "p": 6,
-     "pending": 10,
-     "units": -46.4,
+     "pending": 7,
+     "units": -47.52,
      "no_odds": 138
     },
     "legs": {
@@ -56220,7 +56239,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 10 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 7 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
    "possible duplicate ticket rows: [('O', '2026-11-02', 'The Heist', 'NBA', 'Nikola Jokic 8+ Assists', '-325')]",
@@ -56363,7 +56382,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 07:56",
+    "priced": "2026-11-04 08:03",
     "first_priced": "2026-11-04 07:09",
     "dk": {
      "ladder": [
@@ -56421,7 +56440,7 @@
     "locked": false,
     "res": "",
     "stat": "",
-    "priced": "2026-11-04 07:56",
+    "priced": "2026-11-04 08:03",
     "first_priced": "2026-11-04 07:09",
     "dk": {
      "odds": null,
@@ -56523,7 +56542,7 @@
  },
  "gameday": {
   "date": "2026-11-04",
-  "built": "2026-11-04 07:56 ET",
+  "built": "2026-11-04 08:03 ET",
   "picks": 67,
   "vetoes": [],
   "gaps": [
@@ -59898,6 +59917,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-04 07:56 AM ET"
+  "checked_et": "2026-11-04 08:03 AM ET"
  }
 }
