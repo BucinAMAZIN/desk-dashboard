@@ -2325,7 +2325,7 @@ let q=0;const go=()=>{const v=document.getElementById('v');if(!v)return setTimeo
 (()=>{const nz=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/-/g,' ').replace(/[^a-z ]/g,'').replace(/ (jr|sr|iii|ii)\b/g,'').replace(/\s+/g,' ').trim();
 const PROP=/\b(over|under|[ou]\s?\d|\d+\+|\d+\.5|pts|points?|rebs?|rebounds?|asts?|assists?|pra|pr|pa|ra|3pt?m|threes|steals?|blocks?|sog|shots|goals?|saves|yds|yards|rec|receptions|rush|passing|td|touchdowns?|tds|anytime|scorer|hits|strikeouts)\b/i;
 let ver='',IX=null,RX=null;
-const col=l=>/^Out/.test(l)?'#f85149':/^Doubtful/.test(l)?'#f0883e':/^Left game/.test(l)?'#f0883e':/restriction/i.test(l)&&!/^(Q|GTD)/.test(l)?'#58a6ff':'#d29922';
+const col=l=>/^Not starting/.test(l)?'#a371f7':/^Out/.test(l)?'#f85149':/^Doubtful/.test(l)?'#f0883e':/^Left game/.test(l)?'#f0883e':/restriction/i.test(l)&&!/^(Q|GTD)/.test(l)?'#58a6ff':'#d29922';
 function idx(){let P;try{P=D&&D.player_status}catch(e){P=null}if(!P||!P.players)return false;const v=P.built+'|'+P.players.length;if(v===ver)return !!RX;ver=v;IX={};
  for(const p of P.players){if(!p.label||!p.key||p.key.split(' ').length<2)continue;IX[p.key]=p}
  const ks=Object.keys(IX).sort((a,b)=>b.length-a.length);RX=ks.length?new RegExp('(?:^| )('+ks.map(k=>k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')).join('|')+')(?= |$)'):null;
@@ -2336,7 +2336,7 @@ function run(){if(!idx())return;const tabOn=[...document.querySelectorAll('.on,[
   const m=nz(t).match(RX);if(!m)continue;const blk=el.closest('li,div,td,p,summary')||el;const key=m[1];
   if((blk.dataset.pst||'').split('|').includes(key))continue;const bt=nz(blk.textContent.replace(/🩹[^\n]*/g,''));const ki=bt.indexOf(key);/* the pick line itself: name near the start, a prop right after it (not a teammate in a why note) */if(/First point:/.test(blk.textContent)||ki<0||ki>45||bt.length>220||!PROP.test(blk.textContent.slice(0,400).replace(/^[\s\S]*?/,'')))continue;{const raw=blk.textContent;const rd=String(raw).normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/-/g,' ').replace(/[^a-z0-9 ]/g,'').replace(/ (jr|sr|iii|ii)\b/g,'').replace(/\s+/g,' ');const k2=rd.indexOf(key);if(k2<0)continue;const after=rd.slice(k2+key.length,k2+key.length+70);if(!/\b(over|under|o ?\d|u ?\d|\d|pts|points|reb|ast|anytime|first|sog|shots|goal|yards|yds|rec|td)/.test(after)||/^ \d\d? \d\d (st|nd|rd|th)/.test(after))continue}hits.push([n,blk,key])}
  for(const [n,blk,key] of hits){const p=IX[key];blk.dataset.pst=((blk.dataset.pst||'')+'|'+key);const s=document.createElement('span');s.className='pst';
-  const src=/official/i.test(p.src)?'NBA report':'ESPN';s.textContent=` 🩹 ${p.label} · ${src} ${tm(p.posted)}`;s.title=`${p.label} — ${p.src}${p.posted?' · posted '+p.posted:''} (display only; pick unchanged)`;
+  const src=/official/i.test(p.src)?'NBA report':/RotoWire/.test(p.src)?'RotoWire':/box score/.test(p.src)?'ESPN box':'ESPN';/*nostart1104*/s.textContent=` 🩹 ${p.label} · ${src} ${tm(p.posted)}`;s.title=`${p.label} — ${p.src}${p.posted?' · posted '+p.posted:''} (display only; pick unchanged)`;
   s.style.cssText=`display:inline-block;margin-left:4px;padding:0 5px;border-radius:6px;font-size:.78em;font-weight:700;line-height:1.5;white-space:normal;color:${col(p.label)};border:1px solid ${col(p.label)}66;background:${col(p.label)}1a;vertical-align:baseline`;
   n.after(s)}}
 let q=0;const go=()=>{if(q)return;q=requestAnimationFrame(()=>{q=0;try{run()}catch(e){}})};
