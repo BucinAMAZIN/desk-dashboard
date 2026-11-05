@@ -505,11 +505,13 @@
       "of": 1,
       "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7411762715078820267"
      },
-     "dk_sid": "0QA385138368#2350899847_13L88808Q1-1459054962Q20",
+     "dk_sid": null,
      "dk_eid": "34118164",
-     "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138368%232350899847_13L88808Q1-1459054962Q20",
+     "dk_link": null,
      "dk_live": "-122",
-     "bk_start": "2026-11-05T20:15-05:00"
+     "bk_start": "2026-11-05T20:15-05:00",
+     "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+     "dk_absent": false
     },
     "parlay": null
    },
@@ -9812,13 +9814,15 @@
      "odds": "+130",
      "status": "Pending",
      "fam": "ML",
-     "hr_sid": "2001219438673789331",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2001219438673789331",
+     "hr_sid": null,
+     "hr_link": null,
      "hr_live": "+105",
      "hr_now": "+105",
      "dk_why": "player/market not on DraftKings Predictions",
      "dk_absent": true,
-     "bk_start": "2026-11-05T20:00-05:00"
+     "bk_start": "2026-11-05T20:00-05:00",
+     "hr_why": "Unverified link: mismatch: event date 2026-11-06 vs pick 2026-11-05; game '['ANA', 'EDM']' vs event 'Flames vs. Ducks'; team 'Anaheim Ducks' not one participant of Flames vs. Du",
+     "hr_absent": false
     },
     {
      "sport": "NHL",
@@ -10471,14 +10475,18 @@
      "odds": "none posted",
      "status": "Pending",
      "fam": "Receptions",
-     "hr_sid": "8468082854109249946",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8468082854109249946",
+     "hr_sid": null,
+     "hr_link": null,
      "hr_live": "+160",
      "hr_now": "+160",
-     "dk_sid": "0QA385508153#2348756391_13L88808Q11605600600Q20",
+     "dk_sid": null,
      "dk_eid": "34118164",
-     "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385508153%232348756391_13L88808Q11605600600Q20",
-     "dk_live": "+144"
+     "dk_link": null,
+     "dk_live": "+144",
+     "hr_why": "Unverified link: mismatch: stat targets vs market rec (Receptions)",
+     "hr_absent": false,
+     "dk_why": "Unverified link: mismatch: stat targets vs rec",
+     "dk_absent": false
     },
     {
      "sport": "NFL",
@@ -10686,14 +10694,18 @@
      "odds": "none posted",
      "status": "Pending",
      "fam": "Receptions",
-     "hr_sid": "8468082854109249946",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8468082854109249946",
+     "hr_sid": null,
+     "hr_link": null,
      "hr_live": "+160",
      "hr_now": "+160",
-     "dk_sid": "0QA385508153#2348756391_13L88808Q11605600600Q20",
+     "dk_sid": null,
      "dk_eid": "34118164",
-     "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385508153%232348756391_13L88808Q11605600600Q20",
-     "dk_live": "+144"
+     "dk_link": null,
+     "dk_live": "+144",
+     "hr_why": "Unverified link: mismatch: stat targets vs market rec (Receptions)",
+     "hr_absent": false,
+     "dk_why": "Unverified link: mismatch: stat targets vs rec",
+     "dk_absent": false
     }
    ]
   },
@@ -10841,11 +10853,13 @@
      "odds": "-142",
      "status": "Pending",
      "fam": "ML",
-     "dk_sid": "0QA386212432#2351559733_13L92483Q1-1848597246Q20",
+     "dk_sid": null,
      "dk_eid": "34965071",
-     "dk_link": "https://sportsbook.draftkings.com/event/34965071?outcomes=0QA386212432%232351559733_13L92483Q1-1848597246Q20",
+     "dk_link": null,
      "dk_live": "-144",
-     "hr_why": "Unverified link: Hard Rock selection could not be verified for this NCAAB game"
+     "hr_why": "Unverified link: Hard Rock selection could not be verified for this NCAAB game",
+     "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+     "dk_absent": false
     },
     {
      "sport": "Tennis",
@@ -10957,12 +10971,14 @@
      "status": "Pending",
      "fam": "Assists",
      "hr_why": "market or line not offered on Hard Rock right now",
-     "dk_sid": "0QA386287181#2351960281_13L88808Q1-1040062812Q20",
+     "dk_sid": null,
      "dk_eid": "34118164",
-     "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA386287181%232351960281_13L88808Q1-1040062812Q20",
+     "dk_link": null,
      "dk_live": "+755",
      "hr_absent": true,
-     "bk_start": "2026-11-05T20:15-05:00"
+     "bk_start": "2026-11-05T20:15-05:00",
+     "dk_why": "Unverified link: mismatch: stat tklast vs ast",
+     "dk_absent": false
     },
     {
      "sport": "NFL",
@@ -28753,8 +28769,8 @@
     "sog_l10": 1.8,
     "sog_l10_n": 10,
     "sog_agree": false,
-    "hr_sid": "7093606704125968775",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7093606704125968775",
+    "hr_sid": null,
+    "hr_link": null,
     "hr_live": "+135",
     "hr_state": "open",
     "edge_single": true,
@@ -29018,7 +29034,9 @@
     "dk_sid": "0QA386221872#2351591860_13L42133Q1-975679027Q20",
     "dk_eid": "34951594",
     "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386221872%232351591860_13L42133Q1-975679027Q20",
-    "dk_live": "-170"
+    "dk_live": "-170",
+    "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+    "hr_absent": false
    },
    {
     "sport": "NHL",
@@ -32960,8 +32978,8 @@
      "sog_l10": 1.8,
      "sog_l10_n": 10,
      "sog_agree": false,
-     "hr_sid": "7093606704125968775",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7093606704125968775",
+     "hr_sid": null,
+     "hr_link": null,
      "hr_live": "+135",
      "hr_state": "open",
      "edge_single": true,
@@ -33225,7 +33243,9 @@
      "dk_sid": "0QA386221872#2351591860_13L42133Q1-975679027Q20",
      "dk_eid": "34951594",
      "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386221872%232351591860_13L42133Q1-975679027Q20",
-     "dk_live": "-170"
+     "dk_live": "-170",
+     "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+     "hr_absent": false
     },
     {
      "sport": "NHL",
@@ -71308,14 +71328,18 @@
      "pick": "Josh Cuevas 1.5 Receptions O",
      "orig_odds": null
     },
-    "hr_sid": "8468082854109249946",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8468082854109249946",
+    "hr_sid": null,
+    "hr_link": null,
     "hr_live": "+160",
-    "dk_sid": "0QA385508153#2348756391_13L88808Q11605600600Q20",
+    "dk_sid": null,
     "dk_eid": "34118164",
-    "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385508153%232348756391_13L88808Q11605600600Q20",
+    "dk_link": null,
     "dk_live": "+144",
-    "bk_start": "2026-11-05T20:15-05:00"
+    "bk_start": "2026-11-05T20:15-05:00",
+    "hr_why": "Unverified link: mismatch: stat targets vs market rec (Receptions)",
+    "hr_absent": false,
+    "dk_why": "Unverified link: mismatch: stat targets vs rec",
+    "dk_absent": false
    },
    {
     "capper": "@showtimepicks2",
@@ -71339,12 +71363,14 @@
      "pick": "McNeese Cowboys ML",
      "orig_odds": null
     },
-    "dk_sid": "0QA386212432#2351559733_13L92483Q1-1848597246Q20",
+    "dk_sid": null,
     "dk_eid": "34965071",
-    "dk_link": "https://sportsbook.draftkings.com/event/34965071?outcomes=0QA386212432%232351559733_13L92483Q1-1848597246Q20",
+    "dk_link": null,
     "dk_live": "-144",
     "bk_start": "2026-11-05T17:00-05:00",
-    "hr_why": "Unverified link: Hard Rock selection could not be verified for this NCAAB game"
+    "hr_why": "Unverified link: Hard Rock selection could not be verified for this NCAAB game",
+    "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+    "dk_absent": false
    }
   ],
   "skipped": [
@@ -71466,13 +71492,13 @@
     "hr_pick": "Justice Hill o2.5 Receptions",
     "dk_pick": "Justice Hill o2.5 Receptions",
     "trk": "Justice Hill o2.5 Receptions",
-    "grade_odds": -135,
-    "hr_x": -135,
+    "grade_odds": -130,
+    "hr_x": -130,
     "bd_flag": "no buy-down in range",
     "excluded": null,
     "hr_sid": "922756596554138013",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/922756596554138013",
-    "hr_live": "-135",
+    "hr_live": "-130",
     "dk_sid": "0QA385138139#2346933658_13L88808Q1-1278560502Q20",
     "dk_eid": "34118164",
     "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138139%232346933658_13L88808Q1-1278560502Q20",
@@ -71785,7 +71811,7 @@
   ],
   "bd_ticket": {
    "legs": 7,
-   "odds": 882,
+   "odds": 898,
    "bought": 6,
    "flagged": [
     "Justice Hill o2.5 Receptions"
@@ -71808,9 +71834,12 @@
   "dk_odds": null,
   "dk_orig": null,
   "hr_ticket": {
-   "n": 5,
+   "n": 4,
    "of": 8,
-   "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1224216296611250609,289795581415653771,3115191231613895049,7257196704145998232,8468082854109249946"
+   "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1224216296611250609,289795581415653771,3115191231613895049,7257196704145998232",
+   "unverified": [
+    "8468082854109249946"
+   ]
   }
  },
  "big4_games": 14,
