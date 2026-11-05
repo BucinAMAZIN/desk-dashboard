@@ -723,7 +723,7 @@ const HRMO=new MutationObserver(R=>{if(R.every(r=>r.target.id=='hrbar'||(r.targe
 /*hrslip1104b: Hard Rock link on every section (display/link only; user-approved 2026-11-04 10:21 AM ET) */
 function HRQ(q){const r=[...document.querySelectorAll(q)];document.querySelectorAll('#ldsph').forEach(h=>{if(h.shadowRoot)r.push(...h.shadowRoot.querySelectorAll(q))});return r}
 function HROK(l,f){return !!(l&&l.hr_sid&&l.hr_link&&String(l.book||'').toUpperCase()!='DK'&&(f||BK()!='draftkings'))}
-function HRTAG(l,f){if(BK()=='draftkings'||!HROK(l,f))return'';const b='display:block;width:max-content;max-width:100%;margin:2px 0 0 auto;font-size:10px;font-weight:600;border-radius:4px;padding:0 4px;white-space:nowrap';return (l.hr_now?`<span class="hrnow" title="Hard Rock price right now. Pick and record stay at the listed price." style="${b};color:#e3b341;border:1px solid #e3b34166">HR now ${E(l.hr_now)}</span>`:'')+(l.hr_edge_gone?`<span class="hrgone" title="Edge at the live price is under 4%. Display only." style="${b};color:#f85149;border:1px solid #f8514966">edge gone</span>`:'')}
+function HRTAG(l,f){if(l&&l.locked)return'';if(BK()=='draftkings'||!HROK(l,f))return'';const b='display:block;width:max-content;max-width:100%;margin:2px 0 0 auto;font-size:10px;font-weight:600;border-radius:4px;padding:0 4px;white-space:nowrap';return (l.hr_now?`<span class="hrnow" title="Hard Rock price right now. Pick and record stay at the listed price." style="${b};color:#e3b341;border:1px solid #e3b34166">HR now ${E(l.hr_now)}</span>`:'')+(l.hr_edge_gone?`<span class="hrgone" title="Edge at the live price is under 4%. Display only." style="${b};color:#f85149;border:1px solid #f8514966">edge gone</span>`:'')}
 /* hrslip1104c (user-approved 2026-11-04 10:39 AM ET): ONE render hook for every play. Linked -> checkbox + Hard Rock button (HRL);
    not on Hard Rock -> small 'not on HR' note with the reason from hr_why (never hidden silently). Display only. */
 /* dkslip1104 (user 2026-11-04 6:32/6:33 PM ET via dr eggbot; DISPLAY/LINK ONLY): secondary single-leg 'Open in DraftKings' button from a DK Predictions
@@ -744,9 +744,13 @@ function DKTK(legs,lab){const el=(legs||[]).filter(Boolean),of=el.length;if(of<2
    Each play carries a hidden i.bkm marker (data-h HR ok, data-hw has 'not on HR' reason, data-d DK exact). BKPASS() collapses singles that are
    not on the active book into one 'N not on DK/HR' line per list (tap to show) and tags ticket legs HR ✓/✗ · DK ✓/✗. Tickets, records, grading unchanged. */
 function BKP(l){const v=(DKID(l)&&l.dk_live)||(l.dk&&typeof l.dk=='object'&&!l.dk.na&&l.dk.odds)||'';return v?String(v):''}
-function HRX(l,f){if(!l)return '';const M=`<i class="bkm" hidden data-h="${HROK(l,1)?1:0}" data-hw="${l.hr_why?1:0}" data-d="${DKID(l)?1:0}"></i>`,nm=l.pick||((l.player||'')+' '+(l.prop||'')).trim();
+function HRX(l,f){if(!l)return '';const M=`<i class="bkm" hidden data-h="${HROK(l,1)?1:0}" data-hw="${l.hr_why?1:0}" data-d="${DKID(l)?1:0}" data-l="${l.locked?1:0}"></i>`,nm=l.pick||((l.player||'')+' '+(l.prop||'')).trim();
+ if(l.locked)return M+LKN(l);
  if(BK()=='draftkings'){const id=DKID(l);return M+(id?`<div class="hrrow dkrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK('',nm,id)}${BKP(l)?`<span class="dkp" title="DraftKings Predictions (FL) price incl. fee" style="font-size:11px;font-weight:700;color:#7ee36a">DK ${E(BKP(l))}</span>`:''}${DKB(l)}</div>`:'')}
  const h=HRL(l,f);if(h)return M+h;return M+(l.hr_why?`<div class="m hrno" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">not on HR: ${E(l.hr_why)}</div>`:'')}
+/* edgelock1104 (user 8:20 PM ET Nov 4 via dr eggbot; DISPLAY ONLY): a published play whose game started or is graded stays visible in both book modes,
+   locked at its published price; no live tags, no dead betslip buttons, never folded into 'not on HR/DK'. */
+function LKN(l){return `<div class="m lkn" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">🔒 Locked: ${E(l.lock_why||'game started')}${l.hr?` · published ${E(l.hr)}`:''}</div>`}
 function HRL(l,f){if(BK()=='draftkings'||!HROK(l,f))return'';return `<div class="hrrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK(l.hr_link,l.pick||((l.player||'')+' '+(l.prop||'')).trim(),'')}${HRB(l.hr_link,'Open in Hard Rock')}</div>`}
 function HRTK(legs,lab,T){const k=(legs||[]).filter(Boolean).length>=2?'<i class="bktk" hidden></i>':'';return k+(BK()=='draftkings'?DKTK(legs,lab):HRTK0(legs,lab,T))}
 function HRTK0(legs,lab,T){if(BK()=='draftkings'||(T&&String(T.book||'').toUpperCase()=='DK'))return'';const el=(legs||[]).filter(l=>l&&String(l.book||'').toUpperCase()!='DK');if(el.length<2)return'';const m=el.filter(l=>l.hr_sid),n=m.length,of=el.length,ids=[...new Set(m.map(l=>String(l.hr_sid)))];
@@ -2021,7 +2025,7 @@ function BKC(m){return m.closest('details,li,.card')||m.parentElement}
 function BKPASS(){const dk=BK()=='draftkings',L=dk?'DK':'HR',G=new Map(),seen=new Set();
  HRQ('i.bkm').forEach(m=>{if(BKTK(m)){const tg=`HR ${m.dataset.h=='1'?'✓':'✗'} · DK ${m.dataset.d=='1'?'✓':'✗'}`;let t=m.nextElementSibling;
    if(!t||!t.classList.contains('bklt')){m.insertAdjacentHTML('afterend',`<span class="bklt" style="display:inline-block;margin-top:3px;font-size:10px;font-weight:600;color:#8b949e;border:1px solid #30363d;border-radius:4px;padding:0 4px;white-space:nowrap">${tg}</span>`)}else if(t.textContent!=tg)t.textContent=tg;return}
-  const off=dk?m.dataset.d!='1':(m.dataset.h!='1'&&m.dataset.hw=='1');const c=BKC(m);if(!c||seen.has(c))return;seen.add(c);const P=c.parentElement;if(!P)return;
+  const off=m.dataset.l=='1'?false:dk?(m.closest('.edgec')?false:m.dataset.d!='1'):(m.dataset.h!='1'&&m.dataset.hw=='1');/* hrsusp1104: Edge plays never fold on missing DK data */const c=BKC(m);if(!c||seen.has(c))return;seen.add(c);const P=c.parentElement;if(!P)return;
   if(!G.has(P))G.set(P,{on:[],off:[]});G.get(P)[off?'off':'on'].push(c)});
  const live=new Set();let gi=0;
  for(const [P,g] of G){const all=[...g.on,...g.off];const show=c=>{if(c.dataset.bkh){c.style.display=c.dataset.bkd||'';delete c.dataset.bkh;delete c.dataset.bkd}};

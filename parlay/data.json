@@ -17843,10 +17843,7 @@
     "now": "+1400",
     "hr_sid": "5582856698193904023",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5582856698193904023",
-    "hr_live": "+600",
-    "hr_now": "+600",
-    "hr_edge_live": -0.5528,
-    "hr_edge_gone": true,
+    "hr_live": "+275",
     "why_src": "Hard Rock +1600 vs Pinnacle no-vig fair +1465 (6.4%) → edge +8.61%. Clears the 4% Pinnacle edge floor at +8.61%. Price +1600 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sacramento State vs Toledo",
@@ -17945,7 +17942,10 @@
      "odds": "+1459",
      "na": false,
      "edge": -0.003986516580882893
-    }
+    },
+    "hr_state": "open",
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NHL",
@@ -18256,7 +18256,8 @@
     "dk_sid": "0QA385790419#2349835497_13L42133Q12083844543Q20",
     "dk_eid": "34951581",
     "dk_link": "https://sportsbook.draftkings.com/event/34951581?outcomes=0QA385790419%232349835497_13L42133Q12083844543Q20",
-    "dk_live": "+327"
+    "dk_live": "+327",
+    "hr_state": "open"
    },
    {
     "sport": "NHL",
@@ -18559,7 +18560,8 @@
     "dk_sid": "0QA385853890#2350108486_13L42133Q11194366508Q20",
     "dk_eid": "34951584",
     "dk_link": "https://sportsbook.draftkings.com/event/34951584?outcomes=0QA385853890%232350108486_13L42133Q11194366508Q20",
-    "dk_live": "+186"
+    "dk_live": "+186",
+    "hr_state": "open"
    },
    {
     "sport": "NHL",
@@ -18855,7 +18857,8 @@
     "dk_sid": "0QA385853539#2350107277_13L42133Q11194366508Q20",
     "dk_eid": "34951584",
     "dk_link": "https://sportsbook.draftkings.com/event/34951584?outcomes=0QA385853539%232350107277_13L42133Q11194366508Q20",
-    "dk_live": "+212"
+    "dk_live": "+212",
+    "hr_state": "open"
    },
    {
     "sport": "NHL",
@@ -18886,7 +18889,6 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.882,
     "green_sog_l5": 2.8,
-    "hr_why": "selection gone from the Hard Rock feed",
     "why_src": "Hard Rock +210 vs Pinnacle no-vig fair +185 (35.1%) → edge +8.90%. Clears the 4% Pinnacle edge floor at +8.90%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Panthers vs. Blackhawks",
@@ -19127,7 +19129,14 @@
       ]
      ],
      "edge": 0.09606583442556027
-    }
+    },
+    "hr_sid": "7885722569893085600",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7885722569893085600",
+    "hr_live": "+190",
+    "hr_state": "suspended",
+    "hr_susp": true,
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NHL",
@@ -19160,10 +19169,7 @@
     "green_sog_l5": 2.0,
     "hr_sid": "7968478412069274006",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7968478412069274006",
-    "hr_live": "+425",
-    "hr_now": "+425",
-    "hr_edge_live": 0.1414,
-    "hr_edge_gone": false,
+    "hr_live": "+525",
     "why_src": "Hard Rock +400 vs Pinnacle no-vig fair +360 (21.7%) → edge +8.70%. Clears the 4% Pinnacle edge floor at +8.70%. Price +400 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sabres vs. Senators",
@@ -19423,7 +19429,10 @@
        "+8909"
       ]
      ]
-    }
+    },
+    "hr_state": "open",
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NHL",
@@ -19454,7 +19463,6 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.871,
     "green_sog_l5": 4.2,
-    "hr_why": "selection gone from the Hard Rock feed",
     "why_src": "Hard Rock +130 vs Pinnacle no-vig fair +116 (46.3%) → edge +6.46%. Clears the 4% Pinnacle edge floor at +6.46%. Price +130 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sabres vs. Senators",
@@ -19717,7 +19725,14 @@
       ]
      ],
      "edge": -0.07425645065983855
-    }
+    },
+    "hr_sid": "917530245467341210",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/917530245467341210",
+    "hr_live": "+115",
+    "hr_state": "suspended",
+    "hr_susp": true,
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NHL",
@@ -19748,7 +19763,6 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.88,
     "green_sog_l5": 2.0,
-    "hr_why": "selection gone from the Hard Rock feed",
     "why_src": "Hard Rock +220 vs Pinnacle no-vig fair +202 (33.2%) → edge +6.08%. Clears the 4% Pinnacle edge floor at +6.08%. Price +220 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sabres vs. Senators",
@@ -20011,7 +20025,14 @@
       ]
      ],
      "edge": -0.07842692808976015
-    }
+    },
+    "hr_sid": "8002466515507085740",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8002466515507085740",
+    "hr_live": "+210",
+    "hr_state": "suspended",
+    "hr_susp": true,
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NHL",
@@ -20042,7 +20063,6 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.871,
     "green_sog_l5": 3.2,
-    "hr_why": "selection gone from the Hard Rock feed",
     "why_src": "Hard Rock +155 vs Pinnacle no-vig fair +142 (41.4%) → edge +5.52%. Clears the 4% Pinnacle edge floor at +5.52%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sabres vs. Senators",
@@ -20137,7 +20157,14 @@
       ]
      ],
      "edge": -0.10208745059288526
-    }
+    },
+    "hr_sid": "4366161660126298544",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4366161660126298544",
+    "hr_live": "+140",
+    "hr_state": "suspended",
+    "hr_susp": true,
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NHL",
@@ -20168,7 +20195,6 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.871,
     "green_sog_l5": 3.0,
-    "hr_why": "selection gone from the Hard Rock feed",
     "why_src": "Hard Rock +140 vs Pinnacle no-vig fair +129 (43.7%) → edge +4.77%. Clears the 4% Pinnacle edge floor at +4.77%. Price +140 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sabres vs. Senators",
@@ -20431,7 +20457,14 @@
       ]
      ],
      "edge": -0.09201773835920157
-    }
+    },
+    "hr_sid": "3471282340418945440",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3471282340418945440",
+    "hr_live": "+130",
+    "hr_state": "suspended",
+    "hr_susp": true,
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NHL",
@@ -20740,7 +20773,8 @@
     "dk_sid": "0QA385833589#2350031033_13L42133Q11194366508Q20",
     "dk_eid": "34951581",
     "dk_link": "https://sportsbook.draftkings.com/event/34951581?outcomes=0QA385833589%232350031033_13L42133Q11194366508Q20",
-    "dk_live": "+138"
+    "dk_live": "+138",
+    "hr_state": "open"
    },
    {
     "sport": "NHL",
@@ -20771,7 +20805,6 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.88,
     "green_sog_l5": 1.0,
-    "hr_why": "selection gone from the Hard Rock feed",
     "why_src": "Hard Rock +195 vs Pinnacle no-vig fair +183 (35.4%) → edge +4.42%. Clears the 4% Pinnacle edge floor at +4.42%. Price +195 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Sabres vs. Senators",
@@ -21042,7 +21075,14 @@
       ]
      ],
      "edge": -0.11510225485055059
-    }
+    },
+    "hr_sid": "4363346910359191953",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4363346910359191953",
+    "hr_live": "+225",
+    "hr_state": "suspended",
+    "hr_susp": true,
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NBA",
@@ -21066,10 +21106,7 @@
     "now": "+475",
     "hr_sid": "3234187735371743646",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3234187735371743646",
-    "hr_live": "+1100",
-    "hr_now": "+1100",
-    "hr_edge_live": 1.2439,
-    "hr_edge_gone": false,
+    "hr_live": "+4000",
     "why_src": "Hard Rock +475 vs Pinnacle no-vig fair +435 (18.7%) → edge +7.52%. Clears the 4% Pinnacle edge floor at +7.52%. Price +475 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Knicks vs Bulls",
@@ -21182,7 +21219,10 @@
      "odds": "+420",
      "na": false,
      "edge": -0.027641045058690028
-    }
+    },
+    "hr_state": "open",
+    "locked": true,
+    "lock_why": "game started"
    },
    {
     "sport": "NBA",
@@ -21206,10 +21246,7 @@
     "now": "+165",
     "hr_sid": "7565451056960897453",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7565451056960897453",
-    "hr_live": "+160",
-    "hr_now": "+160",
-    "hr_edge_live": 0.1077,
-    "hr_edge_gone": false,
+    "hr_live": "+275",
     "why_src": "Hard Rock +150 vs Pinnacle no-vig fair +135 (42.6%) → edge +6.51%. Clears the 4% Pinnacle edge floor at +6.51%. Price +150 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
      "game": "Grizzlies vs Pacers",
@@ -21346,7 +21383,10 @@
     "dk_sid": "0QA385750132#2349660448_13L42648Q1-1268853121Q20",
     "dk_eid": "34936989",
     "dk_link": "https://sportsbook.draftkings.com/event/34936989?outcomes=0QA385750132%232349660448_13L42648Q1-1268853121Q20",
-    "dk_live": "+138"
+    "dk_live": "+138",
+    "hr_state": "open",
+    "locked": true,
+    "lock_why": "game started"
    }
   ],
   "big4": {
@@ -21658,7 +21698,8 @@
      "dk_sid": "0QA385790419#2349835497_13L42133Q12083844543Q20",
      "dk_eid": "34951581",
      "dk_link": "https://sportsbook.draftkings.com/event/34951581?outcomes=0QA385790419%232349835497_13L42133Q12083844543Q20",
-     "dk_live": "+327"
+     "dk_live": "+327",
+     "hr_state": "open"
     },
     {
      "sport": "NHL",
@@ -21958,7 +21999,8 @@
      "dk_sid": "0QA385853890#2350108486_13L42133Q11194366508Q20",
      "dk_eid": "34951584",
      "dk_link": "https://sportsbook.draftkings.com/event/34951584?outcomes=0QA385853890%232350108486_13L42133Q11194366508Q20",
-     "dk_live": "+186"
+     "dk_live": "+186",
+     "hr_state": "open"
     },
     {
      "sport": "NHL",
@@ -22251,7 +22293,8 @@
      "dk_sid": "0QA385853539#2350107277_13L42133Q11194366508Q20",
      "dk_eid": "34951584",
      "dk_link": "https://sportsbook.draftkings.com/event/34951584?outcomes=0QA385853539%232350107277_13L42133Q11194366508Q20",
-     "dk_live": "+212"
+     "dk_live": "+212",
+     "hr_state": "open"
     },
     {
      "sport": "NHL",
@@ -22279,7 +22322,6 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.882,
      "green_sog_l5": 2.8,
-     "hr_why": "selection gone from the Hard Rock feed",
      "why_src": "Hard Rock +210 vs Pinnacle no-vig fair +185 (35.1%) → edge +8.90%. Clears the 4% Pinnacle edge floor at +8.90%. Price +210 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Panthers vs. Blackhawks",
@@ -22520,7 +22562,14 @@
        ]
       ],
       "edge": 0.09606583442556027
-     }
+     },
+     "hr_sid": "7885722569893085600",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7885722569893085600",
+     "hr_live": "+190",
+     "hr_state": "suspended",
+     "hr_susp": true,
+     "locked": true,
+     "lock_why": "game started"
     },
     {
      "sport": "NHL",
@@ -22550,10 +22599,7 @@
      "green_sog_l5": 2.0,
      "hr_sid": "7968478412069274006",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7968478412069274006",
-     "hr_live": "+425",
-     "hr_now": "+425",
-     "hr_edge_live": 0.1414,
-     "hr_edge_gone": false,
+     "hr_live": "+525",
      "why_src": "Hard Rock +400 vs Pinnacle no-vig fair +360 (21.7%) → edge +8.70%. Clears the 4% Pinnacle edge floor at +8.70%. Price +400 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Sabres vs. Senators",
@@ -22813,7 +22859,10 @@
         "+8909"
        ]
       ]
-     }
+     },
+     "hr_state": "open",
+     "locked": true,
+     "lock_why": "game started"
     },
     {
      "sport": "NBA",
@@ -22834,10 +22883,7 @@
      "big_edge_assist": null,
      "hr_sid": "3234187735371743646",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3234187735371743646",
-     "hr_live": "+1100",
-     "hr_now": "+1100",
-     "hr_edge_live": 1.2439,
-     "hr_edge_gone": false,
+     "hr_live": "+4000",
      "why_src": "Hard Rock +475 vs Pinnacle no-vig fair +435 (18.7%) → edge +7.52%. Clears the 4% Pinnacle edge floor at +7.52%. Price +475 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Knicks vs Bulls",
@@ -22950,7 +22996,10 @@
       "odds": "+420",
       "na": false,
       "edge": -0.027641045058690028
-     }
+     },
+     "hr_state": "open",
+     "locked": true,
+     "lock_why": "game started"
     },
     {
      "sport": "NBA",
@@ -22971,10 +23020,7 @@
      "big_edge_assist": null,
      "hr_sid": "7565451056960897453",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7565451056960897453",
-     "hr_live": "+160",
-     "hr_now": "+160",
-     "hr_edge_live": 0.1077,
-     "hr_edge_gone": false,
+     "hr_live": "+275",
      "why_src": "Hard Rock +150 vs Pinnacle no-vig fair +135 (42.6%) → edge +6.51%. Clears the 4% Pinnacle edge floor at +6.51%. Price +150 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Grizzlies vs Pacers",
@@ -23111,7 +23157,10 @@
      "dk_sid": "0QA385750132#2349660448_13L42648Q1-1268853121Q20",
      "dk_eid": "34936989",
      "dk_link": "https://sportsbook.draftkings.com/event/34936989?outcomes=0QA385750132%232349660448_13L42648Q1-1268853121Q20",
-     "dk_live": "+138"
+     "dk_live": "+138",
+     "hr_state": "open",
+     "locked": true,
+     "lock_why": "game started"
     },
     {
      "sport": "NHL",
@@ -23139,7 +23188,6 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.871,
      "green_sog_l5": 4.2,
-     "hr_why": "selection gone from the Hard Rock feed",
      "why_src": "Hard Rock +130 vs Pinnacle no-vig fair +116 (46.3%) → edge +6.46%. Clears the 4% Pinnacle edge floor at +6.46%. Price +130 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Sabres vs. Senators",
@@ -23402,7 +23450,14 @@
        ]
       ],
       "edge": -0.07425645065983855
-     }
+     },
+     "hr_sid": "917530245467341210",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/917530245467341210",
+     "hr_live": "+115",
+     "hr_state": "suspended",
+     "hr_susp": true,
+     "locked": true,
+     "lock_why": "game started"
     },
     {
      "sport": "NHL",
@@ -23430,7 +23485,6 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.88,
      "green_sog_l5": 2.0,
-     "hr_why": "selection gone from the Hard Rock feed",
      "why_src": "Hard Rock +220 vs Pinnacle no-vig fair +202 (33.2%) → edge +6.08%. Clears the 4% Pinnacle edge floor at +6.08%. Price +220 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Sabres vs. Senators",
@@ -23693,7 +23747,14 @@
        ]
       ],
       "edge": -0.07842692808976015
-     }
+     },
+     "hr_sid": "8002466515507085740",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8002466515507085740",
+     "hr_live": "+210",
+     "hr_state": "suspended",
+     "hr_susp": true,
+     "locked": true,
+     "lock_why": "game started"
     },
     {
      "sport": "NHL",
@@ -23721,7 +23782,6 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.871,
      "green_sog_l5": 3.2,
-     "hr_why": "selection gone from the Hard Rock feed",
      "why_src": "Hard Rock +155 vs Pinnacle no-vig fair +142 (41.4%) → edge +5.52%. Clears the 4% Pinnacle edge floor at +5.52%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Sabres vs. Senators",
@@ -23816,7 +23876,14 @@
        ]
       ],
       "edge": -0.10208745059288526
-     }
+     },
+     "hr_sid": "4366161660126298544",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4366161660126298544",
+     "hr_live": "+140",
+     "hr_state": "suspended",
+     "hr_susp": true,
+     "locked": true,
+     "lock_why": "game started"
     },
     {
      "sport": "NHL",
@@ -23844,7 +23911,6 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.871,
      "green_sog_l5": 3.0,
-     "hr_why": "selection gone from the Hard Rock feed",
      "why_src": "Hard Rock +140 vs Pinnacle no-vig fair +129 (43.7%) → edge +4.77%. Clears the 4% Pinnacle edge floor at +4.77%. Price +140 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Sabres vs. Senators",
@@ -24107,7 +24173,14 @@
        ]
       ],
       "edge": -0.09201773835920157
-     }
+     },
+     "hr_sid": "3471282340418945440",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3471282340418945440",
+     "hr_live": "+130",
+     "hr_state": "suspended",
+     "hr_susp": true,
+     "locked": true,
+     "lock_why": "game started"
     },
     {
      "sport": "NHL",
@@ -24413,7 +24486,8 @@
      "dk_sid": "0QA385833589#2350031033_13L42133Q11194366508Q20",
      "dk_eid": "34951581",
      "dk_link": "https://sportsbook.draftkings.com/event/34951581?outcomes=0QA385833589%232350031033_13L42133Q11194366508Q20",
-     "dk_live": "+138"
+     "dk_live": "+138",
+     "hr_state": "open"
     },
     {
      "sport": "NHL",
@@ -24441,7 +24515,6 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.88,
      "green_sog_l5": 1.0,
-     "hr_why": "selection gone from the Hard Rock feed",
      "why_src": "Hard Rock +195 vs Pinnacle no-vig fair +183 (35.4%) → edge +4.42%. Clears the 4% Pinnacle edge floor at +4.42%. Price +195 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
       "game": "Sabres vs. Senators",
@@ -24712,7 +24785,14 @@
        ]
       ],
       "edge": -0.11510225485055059
-     }
+     },
+     "hr_sid": "4363346910359191953",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4363346910359191953",
+     "hr_live": "+225",
+     "hr_state": "suspended",
+     "hr_susp": true,
+     "locked": true,
+     "lock_why": "game started"
     }
    ]
   },
@@ -24779,8 +24859,8 @@
    }
   },
   "hr_all_nhl": {
-   "n": 5,
-   "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4433143143986233773,5707367178005774724,4043709328157442436,7968478412069274006,6176317674755326357"
+   "n": 11,
+   "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4433143143986233773,5707367178005774724,4043709328157442436,7885722569893085600,7968478412069274006,917530245467341210,8002466515507085740,4366161660126298544,3471282340418945440,6176317674755326357,4363346910359191953"
   }
  },
  "safe100_record": {
