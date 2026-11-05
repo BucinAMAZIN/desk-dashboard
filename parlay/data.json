@@ -1,5 +1,5 @@
 {
- "generated": 1793891815.4999552,
+ "generated": 1793891992.8123085,
  "today": {
   "title": "Nov 5 picks (Hard Rock)",
   "tickets": [
@@ -618,7 +618,7 @@
       "ladder": [
        [
         "10+",
-        "-1150"
+        "-1011"
        ],
        [
         "12+",
@@ -626,7 +626,7 @@
        ],
        [
         "14+",
-        "-317"
+        "-300"
        ],
        [
         "16+",
@@ -634,23 +634,23 @@
        ],
        [
         "18+",
-        "-113"
+        "-108"
        ],
        [
         "20+",
-        "+163"
+        "+178"
        ],
        [
         "22+",
-        "+212"
+        "+223"
        ],
        [
         "24+",
-        "+327"
+        "+347"
        ],
        [
         "26+",
-        "+485"
+        "+523"
        ],
        [
         "28+",
@@ -787,7 +787,7 @@
          ],
          [
           "3+",
-          "+127"
+          "+133"
          ],
          [
           "4+",
@@ -795,7 +795,7 @@
          ],
          [
           "5+",
-          "+675"
+          "+755"
          ],
          [
           "6+",
@@ -916,7 +916,7 @@
          ],
          [
           "4+",
-          "+122"
+          "+127"
          ],
          [
           "5+",
@@ -924,7 +924,7 @@
          ],
          [
           "6+",
-          "+567"
+          "+617"
          ],
          [
           "7+",
@@ -1456,7 +1456,7 @@
      "dk_sid": "0QA386284949#2351873294_13L42133Q1349793402Q20",
      "dk_eid": "34951601",
      "dk_link": "https://sportsbook.draftkings.com/event/34951601?outcomes=0QA386284949%232351873294_13L42133Q1349793402Q20",
-     "dk_live": "-203",
+     "dk_live": "-178",
      "bk_start": "2026-11-05T21:30-05:00"
     },
     "parlay": null
@@ -9768,7 +9768,11 @@
      "hr_live": "-155",
      "dk_why": "line/side not offered on DraftKings Predictions right now",
      "dk_absent": true,
-     "bk_start": "2026-11-05T21:00-05:00"
+     "bk_start": "2026-11-05T21:00-05:00",
+     "game": "ORL @ PHX",
+     "kick": "9:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -9783,7 +9787,11 @@
      "hr_now": "-130",
      "dk_why": "line/side not offered on DraftKings Predictions right now",
      "dk_absent": true,
-     "bk_start": "2026-11-05T22:00-05:00"
+     "bk_start": "2026-11-05T22:00-05:00",
+     "game": "MIA @ GS",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9851,7 +9859,11 @@
      "dk_eid": "34951597",
      "dk_link": "https://sportsbook.draftkings.com/event/34951597?outcomes=0QA385994662%232350576273_13L42133Q1-169641190Q20",
      "dk_live": "+122",
-     "bk_start": "2026-11-05T19:00-05:00"
+     "bk_start": "2026-11-05T19:00-05:00",
+     "game": "PHI @ NYR",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -9868,7 +9880,11 @@
      "dk_eid": "34951589",
      "dk_link": "https://sportsbook.draftkings.com/event/34951589?outcomes=0QA386002923%232350604948_13L42133Q1-745679317Q20",
      "dk_live": "-144",
-     "bk_start": "2026-11-05T19:00-05:00"
+     "bk_start": "2026-11-05T19:00-05:00",
+     "game": "VGK @ DET",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -10413,7 +10429,11 @@
      "pick": "Zay Flowers 4.5 Receptions \"O\" (BAL vs JAX; TNF Play Of The Day, POTD)",
      "odds": "+133 CZRs",
      "status": "Pending",
-     "fam": "Receptions"
+     "fam": "Receptions",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -10813,7 +10833,7 @@
  "capper_today_date": "2026-11-05",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-05 10:16 AM ET",
+  "updated": "2026-11-05 10:19 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -19327,7 +19347,7 @@
   }
  },
  "clv": {
-  "built": "2026-11-05T10:16:58-05:00",
+  "built": "2026-11-05T10:19:55-05:00",
   "source": "/workspace/dashboard/clv.jsonl",
   "snapshots": {
    "hr_close_files": 28,
@@ -21670,7 +21690,7 @@
     "w": 11,
     "l": 22,
     "p": 0,
-    "pending": 1,
+    "pending": 2,
     "units": -8.99
    }
   }
@@ -24756,7 +24776,504 @@
  "nascar_extra": {},
  "live_picks": {},
  "live_record": {},
- "safe100": {},
+ "safe100": {
+  "date": "2026-11-05",
+  "sports": {
+   "TODAY": {
+    "sport": "TODAY",
+    "odds": "+114",
+    "posted": "10:14 AM ET",
+    "edge_tier": null,
+    "rule": "2026-10-26",
+    "locked": true,
+    "closest": false,
+    "label": null,
+    "sgp": false,
+    "price_note": null,
+    "legs": [
+     {
+      "pick": "Connor McDavid 1+ ast",
+      "game": "Oilers vs. Ducks 11/05 08:00 PM ET",
+      "odds": "-285",
+      "grade": "A",
+      "reason": "Volume: TOI L10 avg 23.5, PP pts L10 12; assists avg L10 1.80 | Hit: 10/10 at line, 5/5 (L10 avg 1.8 vs None line) · vs ANA 4/5. Usage: TOI L5 23.2 / L10 23.5 · PP TOI L5 4.6 / L10 3.9 · SAT L5 4.8 / L10 5.1 (api.nhle.com thru 11/03; as of 11/05 10:20 AM ET). Matchup: ANA 32/32 vs stat per LineMate (favorable). Context: EDM -1.5 / O/U 6.5 (EDM TT 3.5) | Home. Injuries: EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve) | ANA: none. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it.",
+      "why_not": null,
+      "sport": "NHL",
+      "rule": "2026-10-26",
+      "prop_type": "NHL ast",
+      "hit10": "10/10",
+      "hit5": "5/5",
+      "season": "16/16",
+      "volume": "TOI L10 avg 23.5, PP pts L10 12; assists avg L10 1.80",
+      "intake": "DraftKings pool",
+      "matchup_rank": 3,
+      "matchup_of": 32,
+      "def_rank": 30,
+      "def_of": 32,
+      "matchup_src": "Prop Scout rank table (goals against/gm, nhl-api)",
+      "rule2": "safefinal 2026-11-01",
+      "book": "DK",
+      "book_name": "DraftKings",
+      "why_src": "Hit 1+ in 10 of last 10 and 5 of last 5 (L10 avg 1.8); season 16/16 (100%). Volume: TOI L10 avg 23.5, PP pts L10 12; assists avg L10 1.80. Highest DraftKings alt rung priced -250 to -425 that passes. similar-opp (ANA = top third allowed (soft) vs assists): 0 misses in last 5 at 0.5 -> pass. Matchup: defense 30/32 vs assists (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Oilers vs. Ducks",
+       "team": "EDM",
+       "opp": "ANA",
+       "stat": null,
+       "opp_rank": {
+        "rank": 32,
+        "of": 32,
+        "src": "LineMate",
+        "scale": "higher = more allowed"
+       },
+       "fav": "EDM",
+       "spread": -1.5,
+       "total": 6.5,
+       "team_totals": {
+        "ANA": 2.5,
+        "EDM": 3.5
+       },
+       "home": "EDM",
+       "away": "ANA",
+       "rest": {
+        "EDM": 1,
+        "ANA": 1
+       },
+       "record": {
+        "EDM": "11-2-3",
+        "ANA": "7-7-1"
+       },
+       "start_et": "Thu 11/05 08:00 PM ET",
+       "out": {
+        "EDM": [
+         {
+          "name": "Zach Hyman",
+          "status": "Injured Reserve",
+          "pos": "LW",
+          "date": "2026-10-28",
+          "role": "17.9 TOI"
+         },
+         {
+          "name": "Devon Levi",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-10-24"
+         },
+         {
+          "name": "Frederik Andersen",
+          "status": "Injured Reserve",
+          "pos": "G",
+          "date": "2026-09-29"
+         }
+        ],
+        "ANA": []
+       },
+       "usage": {
+        "parts": [
+         "TOI L5 23.2 / L10 23.5",
+         "PP TOI L5 4.6 / L10 3.9",
+         "SAT L5 4.8 / L10 5.1"
+        ],
+        "src": [
+         "api.nhle.com thru 11/03"
+        ],
+        "asof": "11/05 10:20 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: TOI L10 avg 23.5, PP pts L10 12; assists avg L10 1.80 | Hit: 10/10 at line, 5/5 (L10 avg 1.8 vs None line) · vs ANA 4/5",
+       "Usage: TOI L5 23.2 / L10 23.5 · PP TOI L5 4.6 / L10 3.9 · SAT L5 4.8 / L10 5.1 (api.nhle.com thru 11/03; as of 11/05 10:20 AM ET)",
+       "Matchup: ANA 32/32 vs stat per LineMate (favorable)",
+       "Context: EDM -1.5 / O/U 6.5 (EDM TT 3.5) | Home",
+       "Injuries: EDM: Zach Hyman (Injured Reserve), Devon Levi (Injured Reserve), Frederik Andersen (Injured Reserve) | ANA: none",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 4; one bad break loses it"
+      ],
+      "dk": {
+       "odds": "-285",
+       "na": false,
+       "ladder": [
+        [
+         "1+",
+         "-285"
+        ],
+        [
+         "2+",
+         "+178"
+        ],
+        [
+         "3+",
+         "+567"
+        ]
+       ]
+      },
+      "hr_why": "DraftKings-only play",
+      "dk_sid": "0QA386245459#2351715535_13L42133Q11194366508Q20",
+      "dk_eid": "34951600",
+      "dk_link": "https://sportsbook.draftkings.com/event/34951600?outcomes=0QA386245459%232351715535_13L42133Q11194366508Q20",
+      "dk_live": "-285",
+      "hr_absent": true,
+      "bk_start": "2026-11-05T20:00-05:00"
+     },
+     {
+      "pick": "Bo Horvat 2+ SOG",
+      "game": "Islanders vs. Hurricanes 11/05 07:00 PM ET",
+      "odds": "-400",
+      "grade": "A",
+      "reason": "Volume: TOI L10 avg 21.8, shots/g L10 3.0 | Hit: 10/10 at line, 5/5 (L10 avg 3.0 vs None line). Usage: TOI L5 21.7 / L10 21.8 · PP TOI L5 3.8 / L10 3.9 · SAT L5 5.6 / L10 5.5 (api.nhle.com thru 10/31; as of 11/05 10:20 AM ET). Matchup: Opp G Brandon Bussi 0.852 SV% 7/65 (weak half, passes) · goalie unconfirmed | shots-allowed: CAR 1 of 32 vs SOG (22.3 of g allowed, unfavorable) (display only). Context: CAR -1.5 / O/U 5.5 (NYI TT 2.5) | Home. Injuries: NYI: Ryan Pulock (Out), Alexander Romanov (Injured Reserve) (4/5 without Ryan Pulock) | CAR: Jordan Staal (Injured Reserve). Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
+      "why_not": null,
+      "sport": "NHL",
+      "rule": "2026-10-26",
+      "prop_type": "NHL SOG",
+      "hit10": "10/10",
+      "hit5": "5/5",
+      "season": "14/14",
+      "volume": "TOI L10 avg 21.8, shots/g L10 3.0",
+      "intake": "DraftKings pool",
+      "matchup_rank": 4,
+      "matchup_of": 32,
+      "def_rank": 29,
+      "def_of": 32,
+      "matchup_src": "goalie check (§26): DailyFaceoff starting goalies (live pull)",
+      "rule2": "safefinal 2026-11-01",
+      "book": "DK",
+      "book_name": "DraftKings",
+      "why_src": "Hit 2+ in 10 of last 10 and 5 of last 5 (L10 avg 3.0); season 14/14 (100%). Volume: TOI L10 avg 21.8, shots/g L10 3.0. Highest DraftKings alt rung priced -250 to -425 that passes. similar-opp fallback: last 5 overall (only 4 similar-opponent games; opposing goalie in the weak half): 0 misses in 5 at 1.5 -> pass. Matchup: Opp G Brandon Bussi 0.852 SV% 7/65 (weak half, passes) · goalie unconfirmed.",
+      "ctx": {
+       "game": "Islanders vs. Hurricanes",
+       "team": "NYI",
+       "opp": "CAR",
+       "stat": "sog",
+       "goalie_check": {
+        "goalie": "Brandon Bussi",
+        "svpct": 0.8516,
+        "sa": 128,
+        "gp": 5,
+        "rank": 7,
+        "of": 65,
+        "pctl": 0.908,
+        "half": "weak",
+        "ok": true,
+        "status": "probable",
+        "unconfirmed": true,
+        "source": "DailyFaceoff starting goalies (live pull)",
+        "dfo_status": "projected",
+        "opp": "CAR",
+        "text": "Opp G Brandon Bussi 0.852 SV% 7/65 (weak half, passes) · goalie unconfirmed"
+       },
+       "opp_rank_display_only": {
+        "rank": 1,
+        "of": 32,
+        "pg": 22.3,
+        "gp": 17,
+        "scale": "N/of, higher = more allowed (LineMate order)"
+       },
+       "fav": "CAR",
+       "spread": -1.5,
+       "total": 5.5,
+       "team_totals": {
+        "CAR": 3.5,
+        "NYI": 2.5
+       },
+       "home": "NYI",
+       "away": "CAR",
+       "rest": {
+        "NYI": 4,
+        "CAR": 1
+       },
+       "record": {
+        "NYI": "7-5-2",
+        "CAR": "12-3-2"
+       },
+       "start_et": "Thu 11/05 07:00 PM ET",
+       "out": {
+        "NYI": [
+         {
+          "name": "Ryan Pulock",
+          "status": "Out",
+          "pos": "D",
+          "date": "2026-11-01",
+          "role": "17.5 TOI"
+         },
+         {
+          "name": "Alexander Romanov",
+          "status": "Injured Reserve",
+          "pos": "D",
+          "date": "2026-10-19",
+          "role": "16.6 TOI"
+         }
+        ],
+        "CAR": [
+         {
+          "name": "Jordan Staal",
+          "status": "Injured Reserve",
+          "pos": "C",
+          "date": "2026-10-15",
+          "role": "15.6 TOI"
+         }
+        ]
+       },
+       "usage": {
+        "parts": [
+         "TOI L5 21.7 / L10 21.8",
+         "PP TOI L5 3.8 / L10 3.9",
+         "SAT L5 5.6 / L10 5.5"
+        ],
+        "src": [
+         "api.nhle.com thru 10/31"
+        ],
+        "asof": "11/05 10:20 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: TOI L10 avg 21.8, shots/g L10 3.0 | Hit: 10/10 at line, 5/5 (L10 avg 3.0 vs None line)",
+       "Usage: TOI L5 21.7 / L10 21.8 · PP TOI L5 3.8 / L10 3.9 · SAT L5 5.6 / L10 5.5 (api.nhle.com thru 10/31; as of 11/05 10:20 AM ET)",
+       "Matchup: Opp G Brandon Bussi 0.852 SV% 7/65 (weak half, passes) · goalie unconfirmed | shots-allowed: CAR 1 of 32 vs SOG (22.3 of g allowed, unfavorable) (display only)",
+       "Context: CAR -1.5 / O/U 5.5 (NYI TT 2.5) | Home",
+       "Injuries: NYI: Ryan Pulock (Out), Alexander Romanov (Injured Reserve) (4/5 without Ryan Pulock) | CAR: Jordan Staal (Injured Reserve)",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it"
+      ],
+      "dk": {
+       "odds": "-400",
+       "na": false,
+       "ladder": [
+        [
+         "1+",
+         "-4900"
+        ],
+        [
+         "2+",
+         "-400"
+        ],
+        [
+         "3+",
+         "-127"
+        ],
+        [
+         "4+",
+         "+178"
+        ],
+        [
+         "5+",
+         "+393"
+        ],
+        [
+         "6+",
+         "+755"
+        ],
+        [
+         "7+",
+         "+1249"
+        ],
+        [
+         "8+",
+         "+1784"
+        ],
+        [
+         "9+",
+         "+2222"
+        ],
+        [
+         "10+",
+         "+2222"
+        ]
+       ]
+      },
+      "hr_why": "DraftKings-only play",
+      "dk_sid": "0QA386245843#2351716558_13L42133Q1-1050779388Q20",
+      "dk_eid": "34951596",
+      "dk_link": "https://sportsbook.draftkings.com/event/34951596?outcomes=0QA386245843%232351716558_13L42133Q1-1050779388Q20",
+      "dk_live": "-400",
+      "hr_absent": true,
+      "bk_start": "2026-11-05T19:00-05:00"
+     },
+     {
+      "pick": "Desmond Bane 16+ pts",
+      "game": "Suns vs Magic 11/05 09:00 PM ET",
+      "odds": "-376",
+      "grade": "B+",
+      "reason": "Volume: min L5 36,40,39,34,35; points avg L10 17.60 | Hit: 8/10 at line, 4/5 (L10 avg 17.6 vs None line) · vs PHX 5/6. Usage: USG L5 24.0% / szn 23.9% (7g) (USG ESPN box thru 11/03; as of 11/05 10:18 AM ET). Matchup: PHX 26/30 vs points per LineMate (124.3/g allowed, favorable). Context: PHX -1.5 / O/U 223.5 (ORL TT 111.5) | Pace PHX 16/30, ORL 7/30 | Away. Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) | PHX: none. Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it.",
+      "why_not": null,
+      "sport": "NBA",
+      "rule": "2026-10-26",
+      "prop_type": "NBA pts",
+      "hit10": "8/10",
+      "hit5": "4/5",
+      "season": "5/7",
+      "volume": "min L5 36,40,39,34,35; points avg L10 17.60",
+      "intake": "DraftKings pool",
+      "matchup_rank": 2,
+      "matchup_of": 30,
+      "def_rank": 29,
+      "def_of": 30,
+      "matchup_src": "Prop Scout rank table (opponent points per game, teamrankings)",
+      "rule2": "safefinal 2026-11-01",
+      "book": "DK",
+      "book_name": "DraftKings",
+      "why_src": "Hit 16+ in 8 of last 10 and 4 of last 5 (L10 avg 17.6); season 5/7 (under 10 games, check n/a). Volume: min L5 36,40,39,34,35; points avg L10 17.60. Highest DraftKings alt rung priced -250 to -425 that passes. similar-opp fallback: last 5 overall (only 0 similar-opponent games; PHX = top third allowed (soft) vs points): 1 miss in 5 at 15.5 -> pass. Matchup: defense 29/30 vs points (passes the 20th-or-worse gate).",
+      "ctx": {
+       "game": "Suns vs Magic",
+       "team": "ORL",
+       "opp": "PHX",
+       "stat": "pts",
+       "opp_rank": {
+        "rank": 26,
+        "of": 30,
+        "src": "LineMate",
+        "scale": "higher = more allowed"
+       },
+       "fav": "PHX",
+       "spread": -1.5,
+       "total": 223.5,
+       "team_totals": {
+        "ORL": 111.5,
+        "PHX": 111.5
+       },
+       "home": "PHX",
+       "away": "ORL",
+       "rest": {
+        "PHX": 0,
+        "ORL": 2
+       },
+       "record": {
+        "PHX": "1-5",
+        "ORL": "2-5"
+       },
+       "start_et": "Thu 11/05 09:00 PM ET",
+       "out": {
+        "PHX": [],
+        "ORL": [
+         {
+          "name": "Jalen Suggs",
+          "status": "Out",
+          "pos": "G",
+          "date": "2026-10-26",
+          "role": "33.3 min"
+         },
+         {
+          "name": "Paolo Banchero",
+          "status": "Out",
+          "pos": "F",
+          "date": "2026-10-24",
+          "role": "33.5 min"
+         }
+        ]
+       },
+       "usage": {
+        "parts": [
+         "USG L5 24.0% / szn 23.9% (7g)"
+        ],
+        "src": [
+         "USG ESPN box thru 11/03"
+        ],
+        "asof": "11/05 10:18 AM ET"
+       }
+      },
+      "gameday": [
+       "Volume: min L5 36,40,39,34,35; points avg L10 17.60 | Hit: 8/10 at line, 4/5 (L10 avg 17.6 vs None line) · vs PHX 5/6",
+       "Usage: USG L5 24.0% / szn 23.9% (7g) (USG ESPN box thru 11/03; as of 11/05 10:18 AM ET)",
+       "Matchup: PHX 26/30 vs points per LineMate (124.3/g allowed, favorable)",
+       "Context: PHX -1.5 / O/U 223.5 (ORL TT 111.5) | Pace PHX 16/30, ORL 7/30 | Away",
+       "Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) | PHX: none",
+       "Risk: Even at this price, Hard Rock expects it to miss about 1 time in 5; one bad break loses it"
+      ],
+      "dk": {
+       "odds": "-376",
+       "na": false,
+       "ladder": [
+        [
+         "12+",
+         "-1567"
+        ],
+        [
+         "14+",
+         "-669"
+        ],
+        [
+         "16+",
+         "-376"
+        ],
+        [
+         "18+",
+         "-233"
+        ],
+        [
+         "20+",
+         "-144"
+        ],
+        [
+         "22+",
+         "+104"
+        ],
+        [
+         "24+",
+         "+156"
+        ],
+        [
+         "26+",
+         "+235"
+        ],
+        [
+         "28+",
+         "+347"
+        ],
+        [
+         "30+",
+         "+567"
+        ],
+        [
+         "32+",
+         "+675"
+        ],
+        [
+         "34+",
+         "+939"
+        ],
+        [
+         "36+",
+         "+1249"
+        ],
+        [
+         "38+",
+         "+1784"
+        ],
+        [
+         "40+",
+         "+2222"
+        ],
+        [
+         "42+",
+         "+2222"
+        ],
+        [
+         "44+",
+         "+2222"
+        ],
+        [
+         "46+",
+         "+2222"
+        ]
+       ]
+      },
+      "hr_why": "DraftKings-only play",
+      "dk_sid": "0QA386213689#2351646075_13L42648Q169492150Q20",
+      "dk_eid": "34937358",
+      "dk_link": "https://sportsbook.draftkings.com/event/34937358?outcomes=0QA386213689%232351646075_13L42648Q169492150Q20",
+      "dk_live": "-376",
+      "hr_absent": true,
+      "bk_start": "2026-11-05T21:00-05:00"
+     }
+    ],
+    "book": "DK",
+    "book_name": "DraftKings",
+    "dk_odds": "+114"
+   }
+  },
+  "notes": {
+   "NHL": "No qualifying Alt Parlay today (NHL): 6 unstarted alt legs passed the leg checks (ESPN active, position, volume, rung -250 to -425, 8+/10 and 4+/5, season 70%+, overs only, defense 20th or worse vs the stat), no 2-4 leg combo at +100 to +130.",
+   "NBA": "No qualifying Alt Parlay today (NBA): 5 unstarted alt legs passed the leg checks (ESPN active, position, volume, rung -250 to -425, 8+/10 and 4+/5, season 70%+, overs only, defense 20th or worse vs the stat), no 2-4 leg combo at +100 to +130."
+  },
+  "extra": []
+ },
  "edge": {
   "date": "2026-11-05",
   "picks": [
@@ -25192,7 +25709,10 @@
     "green_sog_l5": 2.6,
     "hr_sid": "1762779607993549210",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1762779607993549210",
-    "hr_live": "+180",
+    "hr_live": "+135",
+    "hr_now": "+135",
+    "hr_edge_live": -0.0413,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +180 vs Pinnacle no-vig fair +145 (40.8%) → edge +14.23%. Clears the 4% Pinnacle edge floor at +14.23%. Price +180 is inside the preferred band (about -130 or better, or plus money).",
@@ -25445,7 +25965,7 @@
       ],
       [
        "2+",
-       "+835"
+       "+755"
       ],
       [
        "3+",
@@ -26430,7 +26950,10 @@
     "green_sog_l5": 1.4,
     "hr_sid": "7598009862391464327",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7598009862391464327",
-    "hr_live": "+375",
+    "hr_live": "+350",
+    "hr_now": "+350",
+    "hr_edge_live": 0.0261,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +375 vs Pinnacle no-vig fair +339 (22.8%) → edge +8.31%. Clears the 4% Pinnacle edge floor at +8.31%. Price +375 is inside the preferred band (about -130 or better, or plus money).",
@@ -26992,15 +27515,15 @@
      "Risk: Price edge only"
     ],
     "dk": {
-     "odds": "+113",
+     "odds": "-186",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "+113"
+       "-186"
       ]
      ],
-     "edge": -0.06109262144172234
+     "edge": -0.3222083137269236
     },
     "dk_sid": "0QA386252103#2351745851_13L42133Q1-975679027Q20",
     "dk_eid": "34951600",
@@ -27328,7 +27851,10 @@
     "sog_agree": true,
     "hr_sid": "1205807252615856543",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1205807252615856543",
-    "hr_live": "+110",
+    "hr_live": "+105",
+    "hr_now": "+105",
+    "hr_edge_live": 0.0418,
+    "hr_edge_gone": false,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +110 vs Pinnacle no-vig fair -103 (50.8%) → edge +6.72%. Clears the 4% Pinnacle edge floor at +6.72%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
@@ -27565,15 +28091,15 @@
      "Risk: matchup 24/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "-150",
+     "odds": "-108",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-150"
+       "-108"
       ]
      ],
-     "edge": -0.1529942575881872
+     "edge": -0.02123780876857173
     },
     "dk_sid": "0QA386257642#2351762959_13L42133Q11341641792Q20",
     "dk_eid": "34951601",
@@ -27617,12 +28143,12 @@
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
     "edge_single": true,
     "dk": {
-     "odds": "+223",
+     "odds": "+224",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+223"
+       "+224"
       ],
       [
        "2+",
@@ -27633,7 +28159,7 @@
        "+2222"
       ]
      ],
-     "edge": -0.01608997891119268
+     "edge": -0.013043817855190154
     },
     "dk_sid": "0QA386229543#2351650143_13L42133Q11194366508Q20",
     "dk_eid": "34951597",
@@ -27737,12 +28263,12 @@
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
     "edge_single": true,
     "dk": {
-     "odds": "+223",
+     "odds": "+224",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+223"
+       "+224"
       ],
       [
        "2+",
@@ -27753,7 +28279,7 @@
        "+2222"
       ]
      ],
-     "edge": -0.02627892813641919
+     "edge": -0.023264311814859995
     },
     "dk_sid": "0QA386238805#2351686689_13L42133Q11194366508Q20",
     "dk_eid": "34951597",
@@ -27794,7 +28320,10 @@
     "sog_agree": true,
     "hr_sid": "6688792464381313426",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6688792464381313426",
-    "hr_live": "-105",
+    "hr_live": "-110",
+    "hr_now": "-110",
+    "hr_edge_live": 0.0301,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock -105 vs Pinnacle no-vig fair -117 (54.0%) → edge +5.35%. Clears the 4% Pinnacle edge floor at +5.35%. Price -105 is inside the preferred band (about -130 or better, or plus money).",
@@ -28031,15 +28560,15 @@
      "Risk: Price edge only"
     ],
     "dk": {
-     "odds": "-127",
+     "odds": "-133",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-127"
+       "-133"
       ]
      ],
-     "edge": -0.03555957347024408
+     "edge": -0.054726353501308056
     },
     "dk_sid": "0QA386260226#2351770944_13L42133Q11341641792Q20",
     "dk_eid": "34951600",
@@ -28314,15 +28843,15 @@
      "Risk: Price edge only"
     ],
     "dk": {
-     "odds": "-122",
+     "odds": "-138",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-122"
+       "-138"
       ]
      ],
-     "edge": -0.0901639344262295
+     "edge": -0.1376811594202898
     },
     "dk_sid": "0QA386287816#2351901143_13L42133Q1-975679027Q20",
     "dk_eid": "34951601",
@@ -28369,15 +28898,15 @@
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
     "edge_single": true,
     "dk": {
-     "odds": "-122",
+     "odds": "-138",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-122"
+       "-138"
       ]
      ],
-     "edge": -0.09201620654669729
+     "edge": -0.13943669451918994
     },
     "dk_sid": "0QA386285873#2351880899_13L42133Q11341641792Q20",
     "dk_eid": "34951601",
@@ -28418,7 +28947,10 @@
     "sog_agree": false,
     "hr_sid": "7093606704125968775",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7093606704125968775",
-    "hr_live": "+135",
+    "hr_live": "+130",
+    "hr_now": "+130",
+    "hr_edge_live": 0.0239,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +135 vs Pinnacle no-vig fair +125 (44.5%) → edge +4.61%. Clears the 4% Pinnacle edge floor at +4.61%. Price +135 is inside the preferred band (about -130 or better, or plus money).",
@@ -28675,15 +29207,15 @@
      "Risk: matchup 23/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "+117",
+     "odds": "-186",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "+117"
+       "-186"
       ]
      ],
-     "edge": -0.03398479913137886
+     "edge": -0.3154939114800416
     },
     "dk_sid": "0QA386221872#2351591860_13L42133Q1-975679027Q20",
     "dk_eid": "34951594",
@@ -28781,7 +29313,7 @@
     "green_sog_l5": 1.4,
     "hr_sid": "3498414340854383005",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3498414340854383005",
-    "hr_live": "+230",
+    "hr_live": "+240",
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -28841,7 +29373,7 @@
     "green_sog_l5": 3.4,
     "hr_sid": "874792680004125077",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/874792680004125077",
-    "hr_live": "+175",
+    "hr_live": "+180",
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -28896,7 +29428,7 @@
     "green_sog_l5": 2.4,
     "hr_sid": "8875343306704421261",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8875343306704421261",
-    "hr_live": "+165",
+    "hr_live": "+160",
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -29332,7 +29864,10 @@
      "green_sog_l5": 2.6,
      "hr_sid": "1762779607993549210",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1762779607993549210",
-     "hr_live": "+180",
+     "hr_live": "+135",
+     "hr_now": "+135",
+     "hr_edge_live": -0.0413,
+     "hr_edge_gone": true,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +180 vs Pinnacle no-vig fair +145 (40.8%) → edge +14.23%. Clears the 4% Pinnacle edge floor at +14.23%. Price +180 is inside the preferred band (about -130 or better, or plus money).",
@@ -29585,7 +30120,7 @@
        ],
        [
         "2+",
-        "+835"
+        "+755"
        ],
        [
         "3+",
@@ -30555,7 +31090,10 @@
      "green_sog_l5": 1.4,
      "hr_sid": "7598009862391464327",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7598009862391464327",
-     "hr_live": "+375",
+     "hr_live": "+350",
+     "hr_now": "+350",
+     "hr_edge_live": 0.0261,
+     "hr_edge_gone": true,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +375 vs Pinnacle no-vig fair +339 (22.8%) → edge +8.31%. Clears the 4% Pinnacle edge floor at +8.31%. Price +375 is inside the preferred band (about -130 or better, or plus money).",
@@ -31114,15 +31652,15 @@
       "Risk: Price edge only"
      ],
      "dk": {
-      "odds": "+113",
+      "odds": "-186",
       "na": false,
       "ladder": [
        [
         "u1.5",
-        "+113"
+        "-186"
        ]
       ],
-      "edge": -0.06109262144172234
+      "edge": -0.3222083137269236
      },
      "dk_sid": "0QA386252103#2351745851_13L42133Q1-975679027Q20",
      "dk_eid": "34951600",
@@ -31444,7 +31982,10 @@
      "sog_agree": true,
      "hr_sid": "1205807252615856543",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1205807252615856543",
-     "hr_live": "+110",
+     "hr_live": "+105",
+     "hr_now": "+105",
+     "hr_edge_live": 0.0418,
+     "hr_edge_gone": false,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +110 vs Pinnacle no-vig fair -103 (50.8%) → edge +6.72%. Clears the 4% Pinnacle edge floor at +6.72%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
@@ -31681,15 +32222,15 @@
       "Risk: matchup 24/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)"
      ],
      "dk": {
-      "odds": "-150",
+      "odds": "-108",
       "na": false,
       "ladder": [
        [
         "u2.5",
-        "-150"
+        "-108"
        ]
       ],
-      "edge": -0.1529942575881872
+      "edge": -0.02123780876857173
      },
      "dk_sid": "0QA386257642#2351762959_13L42133Q11341641792Q20",
      "dk_eid": "34951601",
@@ -31730,12 +32271,12 @@
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
      "edge_single": true,
      "dk": {
-      "odds": "+223",
+      "odds": "+224",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+223"
+        "+224"
        ],
        [
         "2+",
@@ -31746,7 +32287,7 @@
         "+2222"
        ]
       ],
-      "edge": -0.01608997891119268
+      "edge": -0.013043817855190154
      },
      "dk_sid": "0QA386229543#2351650143_13L42133Q11194366508Q20",
      "dk_eid": "34951597",
@@ -31844,12 +32385,12 @@
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
      "edge_single": true,
      "dk": {
-      "odds": "+223",
+      "odds": "+224",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+223"
+        "+224"
        ],
        [
         "2+",
@@ -31860,7 +32401,7 @@
         "+2222"
        ]
       ],
-      "edge": -0.02627892813641919
+      "edge": -0.023264311814859995
      },
      "dk_sid": "0QA386238805#2351686689_13L42133Q11194366508Q20",
      "dk_eid": "34951597",
@@ -31898,7 +32439,10 @@
      "sog_agree": true,
      "hr_sid": "6688792464381313426",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6688792464381313426",
-     "hr_live": "-105",
+     "hr_live": "-110",
+     "hr_now": "-110",
+     "hr_edge_live": 0.0301,
+     "hr_edge_gone": true,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock -105 vs Pinnacle no-vig fair -117 (54.0%) → edge +5.35%. Clears the 4% Pinnacle edge floor at +5.35%. Price -105 is inside the preferred band (about -130 or better, or plus money).",
@@ -32135,15 +32679,15 @@
       "Risk: Price edge only"
      ],
      "dk": {
-      "odds": "-127",
+      "odds": "-133",
       "na": false,
       "ladder": [
        [
         "u2.5",
-        "-127"
+        "-133"
        ]
       ],
-      "edge": -0.03555957347024408
+      "edge": -0.054726353501308056
      },
      "dk_sid": "0QA386260226#2351770944_13L42133Q11341641792Q20",
      "dk_eid": "34951600",
@@ -32415,15 +32959,15 @@
       "Risk: Price edge only"
      ],
      "dk": {
-      "odds": "-122",
+      "odds": "-138",
       "na": false,
       "ladder": [
        [
         "u1.5",
-        "-122"
+        "-138"
        ]
       ],
-      "edge": -0.0901639344262295
+      "edge": -0.1376811594202898
      },
      "dk_sid": "0QA386287816#2351901143_13L42133Q1-975679027Q20",
      "dk_eid": "34951601",
@@ -32563,15 +33107,15 @@
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
      "edge_single": true,
      "dk": {
-      "odds": "-122",
+      "odds": "-138",
       "na": false,
       "ladder": [
        [
         "u2.5",
-        "-122"
+        "-138"
        ]
       ],
-      "edge": -0.09201620654669729
+      "edge": -0.13943669451918994
      },
      "dk_sid": "0QA386285873#2351880899_13L42133Q11341641792Q20",
      "dk_eid": "34951601",
@@ -32609,7 +33153,10 @@
      "sog_agree": false,
      "hr_sid": "7093606704125968775",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7093606704125968775",
-     "hr_live": "+135",
+     "hr_live": "+130",
+     "hr_now": "+130",
+     "hr_edge_live": 0.0239,
+     "hr_edge_gone": true,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +135 vs Pinnacle no-vig fair +125 (44.5%) → edge +4.61%. Clears the 4% Pinnacle edge floor at +4.61%. Price +135 is inside the preferred band (about -130 or better, or plus money).",
@@ -32866,15 +33413,15 @@
       "Risk: matchup 23/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)"
      ],
      "dk": {
-      "odds": "+117",
+      "odds": "-186",
       "na": false,
       "ladder": [
        [
         "u1.5",
-        "+117"
+        "-186"
        ]
       ],
-      "edge": -0.03398479913137886
+      "edge": -0.3154939114800416
      },
      "dk_sid": "0QA386221872#2351591860_13L42133Q1-975679027Q20",
      "dk_eid": "34951594",
@@ -32966,7 +33513,7 @@
      "green_sog_l5": 1.4,
      "hr_sid": "3498414340854383005",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3498414340854383005",
-     "hr_live": "+230",
+     "hr_live": "+240",
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -33023,7 +33570,7 @@
      "green_sog_l5": 3.4,
      "hr_sid": "874792680004125077",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/874792680004125077",
-     "hr_live": "+175",
+     "hr_live": "+180",
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -33075,7 +33622,7 @@
      "green_sog_l5": 2.4,
      "hr_sid": "8875343306704421261",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8875343306704421261",
-     "hr_live": "+165",
+     "hr_live": "+160",
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -41939,12 +42486,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-156",
+     "odds": "-104",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-156"
+       "-104"
       ]
      ]
     },
@@ -42936,12 +43483,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "-150",
+     "odds": "-108",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-150"
+       "-108"
       ]
      ]
     },
@@ -43212,12 +43759,12 @@
      "Risk: matchup 25/32 demoted (24+; soft, still eligible, ranked below preferred and rank n/a)"
     ],
     "dk": {
-     "odds": "-186",
+     "odds": "+108",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "-186"
+       "+108"
       ]
      ]
     },
@@ -55394,6 +55941,84 @@
     "tid": "2026-11-04|Today|10:19 AM ET|3-leg",
     "gm": "Pistons vs 76ers 11/04 07:00 PM ET",
     "grade": "A"
+   },
+   {
+    "date": "2026-11-05",
+    "sport": "Big 4",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "prop": "Safe +100",
+    "fam": "Parlay",
+    "pick": "Safe +100 3-leg · DraftKings",
+    "odds": "+114",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-05|Today|10:14 AM ET|3-leg · DraftKings"
+   },
+   {
+    "date": "2026-11-05",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NHL ast · DK Connor McDavid 1+ ast",
+    "pick": "Connor McDavid 1+ ast",
+    "odds": "-285",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Assists",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-05|Today|10:14 AM ET|3-leg · DraftKings",
+    "gm": "Oilers vs. Ducks 11/05 08:00 PM ET",
+    "grade": "A"
+   },
+   {
+    "date": "2026-11-05",
+    "sport": "NHL",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NHL SOG · DK Bo Horvat 2+ SOG",
+    "pick": "Bo Horvat 2+ SOG",
+    "odds": "-400",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "SOG",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-05|Today|10:14 AM ET|3-leg · DraftKings",
+    "gm": "Islanders vs. Hurricanes 11/05 07:00 PM ET",
+    "grade": "A"
+   },
+   {
+    "date": "2026-11-05",
+    "sport": "NBA",
+    "grp": "O",
+    "cat": "Safe +100 (Alt Parlay)",
+    "leg": true,
+    "prop": "Today alt · NBA pts · DK Desmond Bane 16+ pts",
+    "pick": "Desmond Bane 16+ pts",
+    "odds": "-376",
+    "res": "",
+    "stat": "—",
+    "alt": true,
+    "fam": "Player points",
+    "img": null,
+    "sub": "",
+    "tk": "Today",
+    "tid": "2026-11-05|Today|10:14 AM ET|3-leg · DraftKings",
+    "gm": "Suns vs Magic 11/05 09:00 PM ET",
+    "grade": "B+"
    },
    {
     "date": "2026-10-18",
@@ -70034,7 +70659,7 @@
      "w": 41,
      "l": 35,
      "p": 0,
-     "pending": 0,
+     "pending": 1,
      "units": -14.1
     },
     "note": "Alt Lines record: Safe +100 tickets + alt-line singles (altbd1104)"
@@ -70253,6 +70878,29 @@
   ],
   "conv": [
    {
+    "capper": "@austinsprops",
+    "sport": "NFL",
+    "pick": "Zay Flowers 4.5 Receptions \"O\" (BAL vs JAX; TNF Play Of The Day, POTD)",
+    "odds": "+133 CZRs",
+    "game": "JAX @ BAL",
+    "kick": "8:15 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "not convertible (parlay/TD/ML: original kept)",
+    "dk": "—",
+    "hr_odds": null,
+    "dk_odds": null,
+    "start": "2026-11-05 20:15",
+    "hr_pick": null,
+    "dk_pick": null,
+    "trk": null,
+    "grade_odds": null,
+    "hr_x": null,
+    "bd_flag": null,
+    "excluded": "ambiguous stat (\"?\")"
+   },
+   {
     "capper": "@showtimepicks2",
     "sport": "Tennis",
     "pick": "Tomas Martin Etcheverry ML (rare tennis play)",
@@ -70273,8 +70921,7 @@
     "grade_odds": null,
     "hr_x": null,
     "bd_flag": null,
-    "excluded": "ML (not a prop)",
-    "bd": false
+    "excluded": "ML (not a prop)"
    }
   ],
   "bd_ticket": {
@@ -70307,8 +70954,8 @@
  },
  "gameday": {
   "date": "2026-11-05",
-  "built": "2026-11-05 10:19 ET",
-  "picks": 55,
+  "built": "2026-11-05 10:20 ET",
+  "picks": 58,
   "vetoes": [],
   "gaps": [
    "NCAAF Howard vs South Carolina State: no ESPN event match",
@@ -70316,13 +70963,13 @@
   ]
  },
  "dk": {
-  "fetched": "2026-11-05 10:14 ET",
-  "snapshots": 2,
+  "fetched": "2026-11-05 10:18 ET",
+  "snapshots": 3,
   "pregame_games": 123,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 49,
-   "priced": 28,
+   "legs": 52,
+   "priced": 31,
    "na": [
     "Kenneth Walker III (RB) anytime TD",
     "Samaje Perine (RB) anytime TD",
@@ -70355,7 +71002,7 @@
   "flags": []
  },
  "player_status": {
-  "built": "2026-11-05 10:19 AM ET",
+  "built": "2026-11-05 10:20 AM ET",
   "sources": {
    "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-05_10_15AM.pdf",
    "espn": "site.api.espn.com/apis/site/v2/sports/*/injuries"
@@ -70716,12 +71363,12 @@
    {
     "sp": "NBA",
     "team": "HOU",
-    "label": "Out",
-    "raw": "Out",
+    "label": "GTD (Day-To-Day)",
+    "raw": "Day-To-Day",
     "src": "ESPN injuries",
-    "posted": "2026-11-04 07:21 PM ET",
+    "posted": "2026-11-05 10:04 AM ET",
     "note": "",
-    "key": "steven adams",
+    "key": "clint capela",
     "name": null
    },
    {
@@ -70730,9 +71377,9 @@
     "label": "Out",
     "raw": "Out",
     "src": "ESPN injuries",
-    "posted": "2026-11-04 01:36 PM ET",
+    "posted": "2026-11-04 07:21 PM ET",
     "note": "",
-    "key": "clint capela",
+    "key": "steven adams",
     "name": null
    },
    {
@@ -75658,7 +76305,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Jamaree Bouyea",
     "key": "jamaree bouyea"
@@ -75669,7 +76316,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Ryan Dunn",
     "key": "ryan dunn"
@@ -75680,7 +76327,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Collin Gillespie",
     "key": "collin gillespie"
@@ -75691,7 +76338,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Oso Ighodaro",
     "key": "oso ighodaro"
@@ -75702,7 +76349,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Luke Kennard",
     "key": "luke kennard"
@@ -75713,7 +76360,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Koa Peat",
     "key": "koa peat"
@@ -75724,7 +76371,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Duop Reath",
     "key": "duop reath"
@@ -75735,7 +76382,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Pat Spencer",
     "key": "pat spencer"
@@ -75746,7 +76393,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Drew Timme",
     "key": "drew timme"
@@ -75757,7 +76404,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Goga Bitadze",
     "key": "goga bitadze"
@@ -75768,7 +76415,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Jamal Cain",
     "key": "jamal cain"
@@ -75779,7 +76426,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Jevon Carter",
     "key": "jevon carter"
@@ -75790,7 +76437,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Colin Castleton",
     "key": "colin castleton"
@@ -75801,7 +76448,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Tristan da Silva",
     "key": "tristan da silva"
@@ -75812,7 +76459,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Alex Morales",
     "key": "alex morales"
@@ -75823,7 +76470,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Nikola Vucevic",
     "key": "nikola vucevic"
@@ -75834,7 +76481,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Ryan Conwell",
     "key": "ryan conwell"
@@ -75845,7 +76492,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Tre Donaldson",
     "key": "tre donaldson"
@@ -75856,7 +76503,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Simone Fontecchio",
     "key": "simone fontecchio"
@@ -75867,7 +76514,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Myron Gardner",
     "key": "myron gardner"
@@ -75878,7 +76525,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Vladislav Goldin",
     "key": "vladislav goldin"
@@ -75889,7 +76536,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Tim Hardaway Jr.",
     "key": "tim hardaway"
@@ -75900,7 +76547,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Keshad Johnson",
     "key": "keshad johnson"
@@ -75911,7 +76558,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Nikola Jovic",
     "key": "nikola jovic"
@@ -75922,7 +76569,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Pelle Larsson",
     "key": "pelle larsson"
@@ -75933,7 +76580,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Bobby Portis",
     "key": "bobby portis"
@@ -75944,7 +76591,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Nick Richards",
     "key": "nick richards"
@@ -75955,7 +76602,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 10:19 AM ET",
+    "posted": "2026-11-05 10:20 AM ET",
     "note": "",
     "name": "Dru Smith",
     "key": "dru smith"
@@ -76707,13 +77354,13 @@
  "ncaam": {
   "date": "2026-11-05",
   "sport": "NCAAM",
-  "updated": "2026-11-05 07:13 AM ET",
-  "stage": "7am",
+  "updated": "2026-11-05 10:19 AM ET",
+  "stage": "10am",
   "potd_note": "No NCAAM Play of the Day: there is no reliable NCAAM injury source yet (§30.9).",
   "edge_note": "NCAAM Edge: Hard Rock vs the Pinnacle no-vig price (edge 4%+, Hard Rock -130 or better), picked once at the 7 AM run with the other sports; §30.4 and §30.5 apply. Edge picks show in the Edge section.",
   "rules": "RULEBOOK §30",
   "dk_props": {
-   "fetched": "2026-11-05 07:13 AM ET",
+   "fetched": "2026-11-05 10:19 AM ET",
    "source": "DraftKings public sportsbook JSON (dkusoh)",
    "display_only": true,
    "games": [
@@ -76836,7 +77483,7 @@
        "line": "8+",
        "over": null,
        "under": null,
-       "odds": "-265",
+       "odds": "-270",
        "bars": {
         "l5": [
          4,
@@ -76858,7 +77505,7 @@
        "line": "10+",
        "over": null,
        "under": null,
-       "odds": "-130",
+       "odds": "-125",
        "bars": {
         "l5": [
          2,
@@ -76946,7 +77593,7 @@
        "line": "14+",
        "over": null,
        "under": null,
-       "odds": "-105",
+       "odds": "-110",
        "bars": {
         "l5": [
          3,
@@ -77122,7 +77769,7 @@
        "line": "15+",
        "over": null,
        "under": null,
-       "odds": "-180",
+       "odds": "-185",
        "bars": {
         "l5": [
          4,
@@ -77562,7 +78209,7 @@
        "line": "6+",
        "over": null,
        "under": null,
-       "odds": "+225",
+       "odds": "+220",
        "bars": {
         "l5": [
          2,
@@ -77584,7 +78231,7 @@
        "line": "7+",
        "over": null,
        "under": null,
-       "odds": "+425",
+       "odds": "+450",
        "bars": {
         "l5": [
          1,
@@ -77826,7 +78473,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "-110",
+       "odds": "-115",
        "bars": {
         "l5": [
          3,
@@ -77914,7 +78561,7 @@
        "line": "10+",
        "over": null,
        "under": null,
-       "odds": "-350",
+       "odds": "-340",
        "bars": {
         "l5": [
          2,
@@ -77936,7 +78583,7 @@
        "line": "12+",
        "over": null,
        "under": null,
-       "odds": "-170",
+       "odds": "-165",
        "bars": {
         "l5": [
          0,
@@ -77958,7 +78605,7 @@
        "line": "13+",
        "over": null,
        "under": null,
-       "odds": "-120",
+       "odds": "-115",
        "bars": {
         "l5": [
          0,
@@ -78002,7 +78649,7 @@
        "line": "18+",
        "over": null,
        "under": null,
-       "odds": "+370",
+       "odds": "+360",
        "bars": {
         "l5": [
          0,
@@ -78046,7 +78693,7 @@
        "line": "15+",
        "over": null,
        "under": null,
-       "odds": "-575",
+       "odds": "-550",
        "bars": {
         "l5": [
          2,
@@ -78090,7 +78737,7 @@
        "line": "25+",
        "over": null,
        "under": null,
-       "odds": "+320",
+       "odds": "+310",
        "bars": {
         "l5": [
          0,
@@ -78112,7 +78759,7 @@
        "line": "4+",
        "over": null,
        "under": null,
-       "odds": "-1800",
+       "odds": "-1600",
        "bars": {
         "l5": [
          4,
@@ -78134,7 +78781,7 @@
        "line": "5+",
        "over": null,
        "under": null,
-       "odds": "-575",
+       "odds": "-550",
        "bars": {
         "l5": [
          3,
@@ -78178,7 +78825,7 @@
        "line": "7+",
        "over": null,
        "under": null,
-       "odds": "-130",
+       "odds": "-135",
        "bars": {
         "l5": [
          1,
@@ -78222,7 +78869,7 @@
        "line": "9+",
        "over": null,
        "under": null,
-       "odds": "+230",
+       "odds": "+235",
        "bars": {
         "l5": [
          0,
@@ -78288,7 +78935,7 @@
        "line": "1+",
        "over": null,
        "under": null,
-       "odds": "+180",
+       "odds": "+175",
        "bars": {
         "l5": [
          0,
@@ -78665,7 +79312,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "-125",
+       "odds": "-120",
        "bars": {
         "l5": [
          2,
@@ -78687,29 +79334,7 @@
        "line": "25+",
        "over": null,
        "under": null,
-       "odds": "+260",
-       "bars": {
-        "l5": [
-         0,
-         5
-        ],
-        "l10": [
-         0,
-         10
-        ],
-        "szn": [
-         0,
-         1
-        ]
-       }
-      },
-      {
-       "player": "Andrej Stojakovic",
-       "market": "Points",
-       "line": "30+",
-       "over": null,
-       "under": null,
-       "odds": "+750",
+       "odds": "+265",
        "bars": {
         "l5": [
          0,
@@ -78753,7 +79378,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "-210",
+       "odds": "-205",
        "bars": {
         "l5": [
          2,
@@ -78775,7 +79400,7 @@
        "line": "22+",
        "over": null,
        "under": null,
-       "odds": "-130",
+       "odds": "-125",
        "bars": {
         "l5": [
          2,
@@ -78797,7 +79422,7 @@
        "line": "25+",
        "over": null,
        "under": null,
-       "odds": "+160",
+       "odds": "+165",
        "bars": {
         "l5": [
          0,
@@ -78841,7 +79466,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "-700",
+       "odds": "-750",
        "bars": {
         "l5": [
          3,
@@ -78907,7 +79532,7 @@
        "line": "30+",
        "over": null,
        "under": null,
-       "odds": "+165",
+       "odds": "+170",
        "bars": {
         "l5": [
          0,
@@ -78929,7 +79554,7 @@
        "line": "35+",
        "over": null,
        "under": null,
-       "odds": "+450",
+       "odds": "+475",
        "bars": {
         "l5": [
          0,
@@ -78951,7 +79576,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "-1400",
+       "odds": "-1600",
        "bars": {
         "l5": [
          3,
@@ -78973,7 +79598,7 @@
        "line": "25+",
        "over": null,
        "under": null,
-       "odds": "-285",
+       "odds": "-290",
        "bars": {
         "l5": [
          2,
@@ -79039,7 +79664,7 @@
        "line": "35+",
        "over": null,
        "under": null,
-       "odds": "+295",
+       "odds": "+300",
        "bars": {
         "l5": [
          0,
@@ -79047,28 +79672,6 @@
         ],
         "l10": [
          1,
-         10
-        ],
-        "szn": [
-         0,
-         1
-        ]
-       }
-      },
-      {
-       "player": "Andrej Stojakovic",
-       "market": "Pts + Reb + Ast",
-       "line": "40+",
-       "over": null,
-       "under": null,
-       "odds": "+800",
-       "bars": {
-        "l5": [
-         0,
-         5
-        ],
-        "l10": [
-         0,
          10
         ],
         "szn": [
@@ -79105,7 +79708,7 @@
        "line": "5+",
        "over": null,
        "under": null,
-       "odds": "-500",
+       "odds": "-475",
        "bars": {
         "l5": [
          3,
@@ -79127,7 +79730,7 @@
        "line": "6+",
        "over": null,
        "under": null,
-       "odds": "-230",
+       "odds": "-225",
        "bars": {
         "l5": [
          2,
@@ -79325,7 +79928,7 @@
        "line": "4+",
        "over": null,
        "under": null,
-       "odds": "-290",
+       "odds": "-295",
        "bars": {
         "l5": [
          1,
@@ -79413,7 +80016,7 @@
        "line": "8+",
        "over": null,
        "under": null,
-       "odds": "+600",
+       "odds": "+550",
        "bars": {
         "l5": [
          0,
@@ -79425,28 +80028,6 @@
         ],
         "szn": [
          0,
-         1
-        ]
-       }
-      },
-      {
-       "player": "Ethan Brown",
-       "market": "Points",
-       "line": "6+",
-       "over": null,
-       "under": null,
-       "odds": "-3500",
-       "bars": {
-        "l5": [
-         1,
-         1
-        ],
-        "l10": [
-         1,
-         1
-        ],
-        "szn": [
-         1,
          1
         ]
        }
@@ -79567,7 +80148,7 @@
        "line": "18+",
        "over": null,
        "under": null,
-       "odds": "+255",
+       "odds": "+250",
        "bars": {
         "l5": [
          0,
@@ -79589,7 +80170,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "+425",
+       "odds": "+400",
        "bars": {
         "l5": [
          0,
@@ -79721,7 +80302,7 @@
        "line": "18+",
        "over": null,
        "under": null,
-       "odds": "-135",
+       "odds": "-130",
        "bars": {
         "l5": [
          1,
@@ -79765,7 +80346,7 @@
        "line": "25+",
        "over": null,
        "under": null,
-       "odds": "+425",
+       "odds": "+400",
        "bars": {
         "l5": [
          0,
@@ -79853,7 +80434,7 @@
        "line": "25+",
        "over": null,
        "under": null,
-       "odds": "+130",
+       "odds": "+125",
        "bars": {
         "l5": [
          1,
@@ -79875,7 +80456,7 @@
        "line": "30+",
        "over": null,
        "under": null,
-       "odds": "+400",
+       "odds": "+390",
        "bars": {
         "l5": [
          0,
@@ -79897,7 +80478,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "-650",
+       "odds": "-600",
        "bars": {
         "l5": [
          1,
@@ -79941,7 +80522,7 @@
        "line": "5+",
        "over": null,
        "under": null,
-       "odds": "-110",
+       "odds": "-105",
        "bars": {
         "l5": [
          1,
@@ -79963,7 +80544,7 @@
        "line": "6+",
        "over": null,
        "under": null,
-       "odds": "+185",
+       "odds": "+190",
        "bars": {
         "l5": [
          1,
@@ -79985,7 +80566,7 @@
        "line": "7+",
        "over": null,
        "under": null,
-       "odds": "+350",
+       "odds": "+370",
        "bars": {
         "l5": [
          1,
@@ -80073,7 +80654,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "+300",
+       "odds": "+295",
        "bars": {
         "l5": [
          0,
@@ -80271,7 +80852,7 @@
        "line": "15+",
        "over": null,
        "under": null,
-       "odds": "-220",
+       "odds": "-225",
        "bars": {
         "l5": [
          0,
@@ -80447,7 +81028,7 @@
        "line": "25+",
        "over": null,
        "under": null,
-       "odds": "+165",
+       "odds": "+160",
        "bars": {
         "l5": [
          0,
@@ -80513,7 +81094,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "-270",
+       "odds": "-275",
        "bars": {
         "l5": [
          1,
@@ -80579,7 +81160,7 @@
        "line": "30+",
        "over": null,
        "under": null,
-       "odds": "+360",
+       "odds": "+340",
        "bars": {
         "l5": [
          0,
@@ -80645,7 +81226,7 @@
        "line": "28+",
        "over": null,
        "under": null,
-       "odds": "-125",
+       "odds": "-130",
        "bars": {
         "l5": [
          1,
@@ -80689,7 +81270,7 @@
        "line": "35+",
        "over": null,
        "under": null,
-       "odds": "+350",
+       "odds": "+340",
        "bars": {
         "l5": [
          0,
@@ -80799,7 +81380,7 @@
        "line": "8+",
        "over": null,
        "under": null,
-       "odds": "+230",
+       "odds": "+225",
        "bars": {
         "l5": [
          1,
@@ -80865,7 +81446,7 @@
        "line": "1+",
        "over": null,
        "under": null,
-       "odds": "-1600",
+       "odds": "-1400",
        "bars": {
         "l5": [
          1,
@@ -80887,7 +81468,7 @@
        "line": "2+",
        "over": null,
        "under": null,
-       "odds": "-250",
+       "odds": "-240",
        "bars": {
         "l5": [
          1,
@@ -80909,7 +81490,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "+120",
+       "odds": "+125",
        "bars": {
         "l5": [
          0,
@@ -80975,7 +81556,7 @@
        "line": "2+",
        "over": null,
        "under": null,
-       "odds": "-160",
+       "odds": "-155",
        "bars": {
         "l5": [
          2,
@@ -80997,7 +81578,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "+195",
+       "odds": "+200",
        "bars": {
         "l5": [
          1,
@@ -81085,7 +81666,7 @@
        "line": "10+",
        "over": null,
        "under": null,
-       "odds": "-210",
+       "odds": "-225",
        "bars": {
         "l5": [
          4,
@@ -81151,7 +81732,29 @@
        "line": "18+",
        "over": null,
        "under": null,
-       "odds": "+475",
+       "odds": "+450",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Tomislav Ivisic",
+       "market": "Points",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+750",
        "bars": {
         "l5": [
          0,
@@ -81261,7 +81864,7 @@
        "line": "15+",
        "over": null,
        "under": null,
-       "odds": "-320",
+       "odds": "-310",
        "bars": {
         "l5": [
          3,
@@ -81305,7 +81908,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "+135",
+       "odds": "+130",
        "bars": {
         "l5": [
          2,
@@ -81437,7 +82040,7 @@
        "line": "5+",
        "over": null,
        "under": null,
-       "odds": "-390",
+       "odds": "-400",
        "bars": {
         "l5": [
          2,
@@ -81503,7 +82106,7 @@
        "line": "8+",
        "over": null,
        "under": null,
-       "odds": "+195",
+       "odds": "+190",
        "bars": {
         "l5": [
          1,
@@ -81525,7 +82128,7 @@
        "line": "9+",
        "over": null,
        "under": null,
-       "odds": "+350",
+       "odds": "+340",
        "bars": {
         "l5": [
          1,
@@ -81635,7 +82238,7 @@
        "line": "4+",
        "over": null,
        "under": null,
-       "odds": "+750",
+       "odds": "+800",
        "bars": {
         "l5": [
          0,
@@ -81800,6 +82403,2627 @@
      }
     },
     {
+     "game": "South Florida @ DePaul",
+     "props": [
+      {
+       "player": "Ade Popoola",
+       "market": "Assists",
+       "line": "1+",
+       "over": null,
+       "under": null,
+       "odds": "-160",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         5,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Points",
+       "line": "6+",
+       "over": null,
+       "under": null,
+       "odds": "-750",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         10,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Points",
+       "line": "8+",
+       "over": null,
+       "under": null,
+       "odds": "-330",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Points",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-160",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Points",
+       "line": "11+",
+       "over": null,
+       "under": null,
+       "odds": "-115",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Points",
+       "line": "12+",
+       "over": null,
+       "under": null,
+       "odds": "+115",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Points",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "+270",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Points",
+       "line": "18+",
+       "over": null,
+       "under": null,
+       "odds": "+600",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Ast",
+       "line": "5+",
+       "over": null,
+       "under": null,
+       "odds": "-2500",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         10,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Ast",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-210",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Ast",
+       "line": "12+",
+       "over": null,
+       "under": null,
+       "odds": "-110",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Ast",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "+210",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Ast",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+800",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Reb",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-750",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         10,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Reb",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "-135",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Reb",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+280",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Reb + Ast",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-1100",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         10,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Reb + Ast",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "-170",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Reb + Ast",
+       "line": "16+",
+       "over": null,
+       "under": null,
+       "odds": "-130",
+       "bars": {
+        "l5": [
+         4,
+         5
+        ],
+        "l10": [
+         7,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Reb + Ast",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+225",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Pts + Reb + Ast",
+       "line": "25+",
+       "over": null,
+       "under": null,
+       "odds": "+750",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Rebounds",
+       "line": "3+",
+       "over": null,
+       "under": null,
+       "odds": "-650",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         10,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Rebounds",
+       "line": "4+",
+       "over": null,
+       "under": null,
+       "odds": "-230",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         6,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Rebounds",
+       "line": "5+",
+       "over": null,
+       "under": null,
+       "odds": "-105",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         6,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Rebounds",
+       "line": "6+",
+       "over": null,
+       "under": null,
+       "odds": "+195",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Rebounds",
+       "line": "7+",
+       "over": null,
+       "under": null,
+       "odds": "+370",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Rebounds",
+       "line": "8+",
+       "over": null,
+       "under": null,
+       "odds": "+700",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Threes",
+       "line": "1+",
+       "over": null,
+       "under": null,
+       "odds": "-1000",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         10,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Threes",
+       "line": "2+",
+       "over": null,
+       "under": null,
+       "odds": "-180",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         10,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Threes",
+       "line": "3+",
+       "over": null,
+       "under": null,
+       "odds": "+170",
+       "bars": {
+        "l5": [
+         4,
+         5
+        ],
+        "l10": [
+         6,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Ade Popoola",
+       "market": "Threes",
+       "line": "4+",
+       "over": null,
+       "under": null,
+       "odds": "+450",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         5,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Assists",
+       "line": "2+",
+       "over": null,
+       "under": null,
+       "odds": "-195",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Assists",
+       "line": "3+",
+       "over": null,
+       "under": null,
+       "odds": "+155",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Assists",
+       "line": "4+",
+       "over": null,
+       "under": null,
+       "odds": "+400",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Points",
+       "line": "6+",
+       "over": null,
+       "under": null,
+       "odds": "-220",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Points",
+       "line": "8+",
+       "over": null,
+       "under": null,
+       "odds": "-110",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Points",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "+190",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Points",
+       "line": "12+",
+       "over": null,
+       "under": null,
+       "odds": "+360",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Ast",
+       "line": "5+",
+       "over": null,
+       "under": null,
+       "odds": "-1100",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Ast",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-110",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Ast",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "+425",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Reb",
+       "line": "5+",
+       "over": null,
+       "under": null,
+       "odds": "-1400",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Reb",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-125",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Reb",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "+390",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Reb + Ast",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-255",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Reb + Ast",
+       "line": "12+",
+       "over": null,
+       "under": null,
+       "odds": "-125",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Pts + Reb + Ast",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "+200",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Rebounds",
+       "line": "3+",
+       "over": null,
+       "under": null,
+       "odds": "+105",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Rebounds",
+       "line": "4+",
+       "over": null,
+       "under": null,
+       "odds": "+280",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Rebounds",
+       "line": "5+",
+       "over": null,
+       "under": null,
+       "odds": "+600",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Threes",
+       "line": "1+",
+       "over": null,
+       "under": null,
+       "odds": "-425",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Threes",
+       "line": "2+",
+       "over": null,
+       "under": null,
+       "odds": "+110",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Kruz McClure",
+       "market": "Threes",
+       "line": "3+",
+       "over": null,
+       "under": null,
+       "odds": "+350",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Assists",
+       "line": "3+",
+       "over": null,
+       "under": null,
+       "odds": "-320",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         8,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Assists",
+       "line": "4+",
+       "over": null,
+       "under": null,
+       "odds": "-125",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         5,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Assists",
+       "line": "5+",
+       "over": null,
+       "under": null,
+       "odds": "+180",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Assists",
+       "line": "6+",
+       "over": null,
+       "under": null,
+       "odds": "+380",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Assists",
+       "line": "7+",
+       "over": null,
+       "under": null,
+       "odds": "+750",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Points",
+       "line": "6+",
+       "over": null,
+       "under": null,
+       "odds": "-1000",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         6,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Points",
+       "line": "8+",
+       "over": null,
+       "under": null,
+       "odds": "-370",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         6,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Points",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-180",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Points",
+       "line": "11+",
+       "over": null,
+       "under": null,
+       "odds": "-130",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Points",
+       "line": "12+",
+       "over": null,
+       "under": null,
+       "odds": "+105",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Points",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "+255",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Points",
+       "line": "18+",
+       "over": null,
+       "under": null,
+       "odds": "+600",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Ast",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-700",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         7,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Ast",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "-120",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Ast",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+350",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Reb",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-650",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         5,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Reb",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "-115",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Reb",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+330",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Reb + Ast",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "-360",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Reb + Ast",
+       "line": "19+",
+       "over": null,
+       "under": null,
+       "odds": "-110",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Reb + Ast",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+120",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Pts + Reb + Ast",
+       "line": "25+",
+       "over": null,
+       "under": null,
+       "odds": "+425",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Rebounds",
+       "line": "3+",
+       "over": null,
+       "under": null,
+       "odds": "-290",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Rebounds",
+       "line": "4+",
+       "over": null,
+       "under": null,
+       "odds": "-115",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Rebounds",
+       "line": "5+",
+       "over": null,
+       "under": null,
+       "odds": "+185",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Rebounds",
+       "line": "6+",
+       "over": null,
+       "under": null,
+       "odds": "+390",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Rebounds",
+       "line": "7+",
+       "over": null,
+       "under": null,
+       "odds": "+750",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Threes",
+       "line": "1+",
+       "over": null,
+       "under": null,
+       "odds": "-225",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         7,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Threes",
+       "line": "2+",
+       "over": null,
+       "under": null,
+       "odds": "+215",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Layden Blocker",
+       "market": "Threes",
+       "line": "3+",
+       "over": null,
+       "under": null,
+       "odds": "+700",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Assists",
+       "line": "1+",
+       "over": null,
+       "under": null,
+       "odds": "-125",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Points",
+       "line": "6+",
+       "over": null,
+       "under": null,
+       "odds": "-1400",
+       "bars": {
+        "l5": [
+         5,
+         5
+        ],
+        "l10": [
+         7,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Points",
+       "line": "8+",
+       "over": null,
+       "under": null,
+       "odds": "-475",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         5,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Points",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-210",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Points",
+       "line": "12+",
+       "over": null,
+       "under": null,
+       "odds": "-110",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Points",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "+225",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Points",
+       "line": "18+",
+       "over": null,
+       "under": null,
+       "odds": "+500",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Ast",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "-270",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Ast",
+       "line": "12+",
+       "over": null,
+       "under": null,
+       "odds": "-135",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Ast",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "+180",
+       "bars": {
+        "l5": [
+         2,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Ast",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+750",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Reb",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "-265",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Reb",
+       "line": "18+",
+       "over": null,
+       "under": null,
+       "odds": "-110",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Reb",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+160",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Reb",
+       "line": "25+",
+       "over": null,
+       "under": null,
+       "odds": "+550",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Reb + Ast",
+       "line": "15+",
+       "over": null,
+       "under": null,
+       "odds": "-330",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Reb + Ast",
+       "line": "18+",
+       "over": null,
+       "under": null,
+       "odds": "-130",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         4,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Reb + Ast",
+       "line": "20+",
+       "over": null,
+       "under": null,
+       "odds": "+130",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Pts + Reb + Ast",
+       "line": "25+",
+       "over": null,
+       "under": null,
+       "odds": "+475",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Rebounds",
+       "line": "4+",
+       "over": null,
+       "under": null,
+       "odds": "-750",
+       "bars": {
+        "l5": [
+         4,
+         5
+        ],
+        "l10": [
+         6,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Rebounds",
+       "line": "5+",
+       "over": null,
+       "under": null,
+       "odds": "-300",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         5,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Rebounds",
+       "line": "6+",
+       "over": null,
+       "under": null,
+       "odds": "-145",
+       "bars": {
+        "l5": [
+         3,
+         5
+        ],
+        "l10": [
+         5,
+         10
+        ],
+        "szn": [
+         1,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Rebounds",
+       "line": "7+",
+       "over": null,
+       "under": null,
+       "odds": "+130",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         3,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Rebounds",
+       "line": "8+",
+       "over": null,
+       "under": null,
+       "odds": "+245",
+       "bars": {
+        "l5": [
+         1,
+         5
+        ],
+        "l10": [
+         2,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Rebounds",
+       "line": "9+",
+       "over": null,
+       "under": null,
+       "odds": "+425",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         1,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      },
+      {
+       "player": "Magoon Gwath",
+       "market": "Rebounds",
+       "line": "10+",
+       "over": null,
+       "under": null,
+       "odds": "+750",
+       "bars": {
+        "l5": [
+         0,
+         5
+        ],
+        "l10": [
+         0,
+         10
+        ],
+        "szn": [
+         0,
+         1
+        ]
+       }
+      }
+     ],
+     "players": {
+      "Ade Popoola": {
+       "id": "5313566",
+       "team": "DEP",
+       "opp": "USF",
+       "gp": 1,
+       "gp_prev": 38,
+       "last": [
+        {
+         "d": "2026-11-03",
+         "opp": "WGA",
+         "pts": 12.0,
+         "reb": 6.0,
+         "ast": 0.0,
+         "tpm": 4.0,
+         "cur": true
+        },
+        {
+         "d": "2026-04-06",
+         "opp": "AUB",
+         "pts": 13.0,
+         "reb": 3.0,
+         "ast": 1.0,
+         "tpm": 2.0,
+         "cur": false
+        },
+        {
+         "d": "2026-04-02",
+         "opp": "UNM",
+         "pts": 12.0,
+         "reb": 6.0,
+         "ast": 2.0,
+         "tpm": 4.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-24",
+         "opp": "WICH",
+         "pts": 12.0,
+         "reb": 3.0,
+         "ast": 0.0,
+         "tpm": 3.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-22",
+         "opp": "UNLV",
+         "pts": 16.0,
+         "reb": 3.0,
+         "ast": 0.0,
+         "tpm": 4.0,
+         "cur": false
+        }
+       ]
+      },
+      "Kruz McClure": {
+       "id": "5254161",
+       "team": "DEP",
+       "opp": "USF",
+       "gp": 1,
+       "gp_prev": 28,
+       "last": [
+        {
+         "d": "2026-11-03",
+         "opp": "WGA",
+         "pts": 2.0,
+         "reb": 1.0,
+         "ast": 1.0,
+         "tpm": 0.0,
+         "cur": true
+        },
+        {
+         "d": "2026-03-12",
+         "opp": "GTWN",
+         "pts": 9.0,
+         "reb": 1.0,
+         "ast": 0.0,
+         "tpm": 2.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-07",
+         "opp": "BTLR",
+         "pts": 0.0,
+         "reb": 1.0,
+         "ast": 1.0,
+         "tpm": 0.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-05",
+         "opp": "VILL",
+         "pts": 5.0,
+         "reb": 0.0,
+         "ast": 1.0,
+         "tpm": 1.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-01",
+         "opp": "MARQ",
+         "pts": 10.0,
+         "reb": 1.0,
+         "ast": 0.0,
+         "tpm": 2.0,
+         "cur": false
+        }
+       ]
+      },
+      "Layden Blocker": {
+       "id": "4845358",
+       "team": "DEP",
+       "opp": "USF",
+       "gp": 1,
+       "gp_prev": 32,
+       "last": [
+        {
+         "d": "2026-11-03",
+         "opp": "WGA",
+         "pts": 2.0,
+         "reb": 5.0,
+         "ast": 3.0,
+         "tpm": 0.0,
+         "cur": true
+        },
+        {
+         "d": "2026-03-12",
+         "opp": "GTWN",
+         "pts": 16.0,
+         "reb": 3.0,
+         "ast": 7.0,
+         "tpm": 4.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-07",
+         "opp": "BTLR",
+         "pts": 9.0,
+         "reb": 6.0,
+         "ast": 3.0,
+         "tpm": 1.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-05",
+         "opp": "VILL",
+         "pts": 10.0,
+         "reb": 2.0,
+         "ast": 0.0,
+         "tpm": 0.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-01",
+         "opp": "MARQ",
+         "pts": 4.0,
+         "reb": 2.0,
+         "ast": 1.0,
+         "tpm": 0.0,
+         "cur": false
+        }
+       ]
+      },
+      "Magoon Gwath": {
+       "id": "5176240",
+       "team": "DEP",
+       "opp": "USF",
+       "gp": 1,
+       "gp_prev": 25,
+       "last": [
+        {
+         "d": "2026-11-03",
+         "opp": "WGA",
+         "pts": 19.0,
+         "reb": 6.0,
+         "ast": 1.0,
+         "tpm": 2.0,
+         "cur": true
+        },
+        {
+         "d": "2026-03-14",
+         "opp": "USU",
+         "pts": 12.0,
+         "reb": 8.0,
+         "ast": 0.0,
+         "tpm": 1.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-14",
+         "opp": "UNM",
+         "pts": 17.0,
+         "reb": 6.0,
+         "ast": 0.0,
+         "tpm": 2.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-13",
+         "opp": "CSU",
+         "pts": 7.0,
+         "reb": 3.0,
+         "ast": 0.0,
+         "tpm": 1.0,
+         "cur": false
+        },
+        {
+         "d": "2026-03-07",
+         "opp": "UNLV",
+         "pts": 6.0,
+         "reb": 4.0,
+         "ast": 1.0,
+         "tpm": 1.0,
+         "cur": false
+        }
+       ]
+      }
+     }
+    },
+    {
      "game": "Wake Forest @ Vanderbilt",
      "props": [
       {
@@ -81830,7 +85054,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "+215",
+       "odds": "+210",
        "bars": {
         "l5": [
          1,
@@ -82028,7 +85252,7 @@
        "line": "15+",
        "over": null,
        "under": null,
-       "odds": "-170",
+       "odds": "-165",
        "bars": {
         "l5": [
          4,
@@ -82160,7 +85384,7 @@
        "line": "18+",
        "over": null,
        "under": null,
-       "odds": "-110",
+       "odds": "-115",
        "bars": {
         "l5": [
          3,
@@ -82182,7 +85406,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "+150",
+       "odds": "+145",
        "bars": {
         "l5": [
          3,
@@ -82248,7 +85472,7 @@
        "line": "20+",
        "over": null,
        "under": null,
-       "odds": "-105",
+       "odds": "-110",
        "bars": {
         "l5": [
          3,
@@ -82270,7 +85494,7 @@
        "line": "25+",
        "over": null,
        "under": null,
-       "odds": "+310",
+       "odds": "+300",
        "bars": {
         "l5": [
          2,
@@ -82292,7 +85516,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "-220",
+       "odds": "-230",
        "bars": {
         "l5": [
          1,
@@ -82336,7 +85560,7 @@
        "line": "5+",
        "over": null,
        "under": null,
-       "odds": "+255",
+       "odds": "+250",
        "bars": {
         "l5": [
          0,
@@ -82358,7 +85582,7 @@
        "line": "6+",
        "over": null,
        "under": null,
-       "odds": "+500",
+       "odds": "+550",
        "bars": {
         "l5": [
          0,
@@ -82710,7 +85934,7 @@
        "line": "10+",
        "over": null,
        "under": null,
-       "odds": "-320",
+       "odds": "-310",
        "bars": {
         "l5": [
          4,
@@ -82754,7 +85978,7 @@
        "line": "15+",
        "over": null,
        "under": null,
-       "odds": "+185",
+       "odds": "+180",
        "bars": {
         "l5": [
          3,
@@ -82766,28 +85990,6 @@
         ],
         "szn": [
          1,
-         1
-        ]
-       }
-      },
-      {
-       "player": "Berke Buyuktuncel",
-       "market": "Pts + Reb",
-       "line": "20+",
-       "over": null,
-       "under": null,
-       "odds": "+800",
-       "bars": {
-        "l5": [
-         0,
-         5
-        ],
-        "l10": [
-         0,
-         10
-        ],
-        "szn": [
-         0,
          1
         ]
        }
@@ -82886,7 +86088,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "-1200",
+       "odds": "-1100",
        "bars": {
         "l5": [
          4,
@@ -82908,7 +86110,7 @@
        "line": "4+",
        "over": null,
        "under": null,
-       "odds": "-380",
+       "odds": "-370",
        "bars": {
         "l5": [
          3,
@@ -82974,7 +86176,7 @@
        "line": "7+",
        "over": null,
        "under": null,
-       "odds": "+255",
+       "odds": "+250",
        "bars": {
         "l5": [
          2,
@@ -83128,7 +86330,7 @@
        "line": "15+",
        "over": null,
        "under": null,
-       "odds": "+600",
+       "odds": "+650",
        "bars": {
         "l5": [
          0,
@@ -83238,7 +86440,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "-265",
+       "odds": "-270",
        "bars": {
         "l5": [
          3,
@@ -83282,7 +86484,7 @@
        "line": "5+",
        "over": null,
        "under": null,
-       "odds": "+200",
+       "odds": "+205",
        "bars": {
         "l5": [
          0,
@@ -83304,7 +86506,7 @@
        "line": "6+",
        "over": null,
        "under": null,
-       "odds": "+400",
+       "odds": "+425",
        "bars": {
         "l5": [
          0,
@@ -84115,28 +87317,6 @@
       {
        "player": "Tyler Tanner",
        "market": "Pts + Ast",
-       "line": "15+",
-       "over": null,
-       "under": null,
-       "odds": "-2500",
-       "bars": {
-        "l5": [
-         5,
-         5
-        ],
-        "l10": [
-         10,
-         10
-        ],
-        "szn": [
-         1,
-         1
-        ]
-       }
-      },
-      {
-       "player": "Tyler Tanner",
-       "market": "Pts + Ast",
        "line": "20+",
        "over": null,
        "under": null,
@@ -84558,7 +87738,7 @@
        "line": "1+",
        "over": null,
        "under": null,
-       "odds": "-900",
+       "odds": "-800",
        "bars": {
         "l5": [
          5,
@@ -84580,7 +87760,7 @@
        "line": "2+",
        "over": null,
        "under": null,
-       "odds": "-160",
+       "odds": "-165",
        "bars": {
         "l5": [
          2,
@@ -84602,7 +87782,7 @@
        "line": "3+",
        "over": null,
        "under": null,
-       "odds": "+190",
+       "odds": "+185",
        "bars": {
         "l5": [
          2,
@@ -84624,7 +87804,7 @@
        "line": "4+",
        "over": null,
        "under": null,
-       "odds": "+475",
+       "odds": "+500",
        "bars": {
         "l5": [
          0,
@@ -84917,9 +88097,9 @@
    ],
    "bars": {
     "source": "ESPN NCAAM athlete gamelog (site.web.api.espn.com), players matched by ESPN roster athlete id",
-    "built": "7:13 AM ET Nov 5",
-    "props": 343,
-    "players": 13,
+    "built": "10:19 AM ET Nov 5",
+    "props": 448,
+    "players": 17,
     "season": "2026-27",
     "prior": "2025-26",
     "skipped": [],
@@ -89414,6 +92594,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-05 10:19 AM ET"
+  "checked_et": "2026-11-05 10:20 AM ET"
  }
 }
