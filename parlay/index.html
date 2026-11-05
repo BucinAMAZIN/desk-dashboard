@@ -743,22 +743,27 @@ function DKTK(legs,lab){const el=(legs||[]).filter(Boolean),of=el.length;if(of<2
    with the DK price (dk_live = FL Predictions slip price incl. fee, RULEBOOK §32) and DK buttons/checkboxes; no HR buttons.
    Each play carries a hidden i.bkm marker (data-h HR ok, data-hw has 'not on HR' reason, data-d DK exact). BKPASS() collapses singles that are
    not on the active book into one 'N not on DK/HR' line per list (tap to show) and tags ticket legs HR ✓/✗ · DK ✓/✗. Tickets, records, grading unchanged. */
-function BKP(l){const v=(DKID(l)&&l.dk_live)||(l.dk&&typeof l.dk=='object'&&!l.dk.na&&l.dk.odds)||'';return v?String(v):''}
+function BKP(l){const dkl=(l&&l.dk_live&&typeof l.dk_live==='object')?l.dk_live.price:l&&l.dk_live;const v=(DKID(l)&&dkl)||(l&&l.dk&&typeof l.dk=='object'&&!l.dk.na&&l.dk.odds)||'';return v?String(v):''}
 function HRX(l,f){if(!l)return '';const M=`<i class="bkm" hidden data-h="${HROK(l,1)?1:0}" data-hw="${HRABS(l)?1:0}" data-d="${DKID(l)?1:0}" data-dw="${DKABS(l)?1:0}" data-l="${l.locked||BKST(l)?1:0}"></i>`,nm=l.pick||((l.player||'')+' '+(l.prop||'')).trim();
- if(l.locked)return M+LKN(l);
- if(BKST(l)&&!(BK()=='draftkings'?DKID(l):HRL(l,f)))return M+LKN(Object.assign({},l,{lock_why:l.bk_started_why||'game started',hr:null}));
- if(BK()=='draftkings'){const id=DKID(l);return M+(id?`<div class="hrrow dkrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK('',nm,id,l)}${BKP(l)?`<span class="dkp" title="DraftKings Predictions (FL) price incl. fee" style="font-size:11px;font-weight:700;color:#7ee36a">DK ${E(BKP(l))}</span>`:''}${DKB(l)}</div>`:'')}
- const h=HRL(l,f);if(h)return M+h;return M+(l.hr_why?`<div class="m hrno" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">${HRABS(l)?'not on HR: '+E(l.hr_why):/not looked up/i.test(l.hr_why)?'Hard Rock link not checked yet':'Hard Rock link not found yet: '+E(l.hr_why)}</div>`:'')}
+ if(l.locked){const onDk=BK()=='draftkings',linked=onDk?DKID(l):HRL(l,f),live=onDk?(l.dk_live&&typeof l.dk_live==='object'&&l.dk_live.label):(l.hr_live&&typeof l.hr_live==='object'&&l.hr_live.label);if(!(linked&&live)){const t=l.bk_start?Date.parse(l.bk_start):NaN,started=!!(l.bk_started||(!isNaN(t)&&Date.now()>=t)),uv=started&&(onDk?(l.dk_absent===false&&UNVNOTE(l.dk_why)):(l.hr_absent===false&&UNVNOTE(l.hr_why)));return M+(uv||LKN(l))}}
+ if(BKST(l)&&!(BK()=='draftkings'?DKID(l):HRL(l,f))){const uv=BK()=='draftkings'?(l.dk_absent===false&&UNVNOTE(l.dk_why)):(l.hr_absent===false&&UNVNOTE(l.hr_why));return M+(uv||LKN(Object.assign({},l,{lock_why:l.bk_started_why||'game started',hr:null})))}
+ if(BK()=='draftkings'){const id=DKID(l);const dklive=id&&l.dk_live&&typeof l.dk_live==='object'&&l.dk_live.label?`<div class="m dklive" style="font-size:10.5px;margin-top:2px;color:#e3b341;overflow-wrap:anywhere">${E(l.dk_live.label)}</div>`:'';return M+(id?`<div class="hrrow dkrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK('',nm,id,l)}${BKP(l)?`<span class="dkp" title="DraftKings Predictions (FL) price incl. fee" style="font-size:11px;font-weight:700;color:#7ee36a">DK ${E(BKP(l))}</span>`:''}${DKB(l)}</div>`+dklive:(l.dk_absent===false?UNVNOTE(l.dk_why):''))}
+ const h=HRL(l,f);if(h)return M+h;return M+(l.hr_why?`<div class="m hrno" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">${HRABS(l)?'not on HR: '+E(l.hr_why):(l.hr_absent!==true&&UNVLAB(l.hr_why))||(/not looked up/i.test(l.hr_why)?'Hard Rock link not checked yet':'Hard Rock link not found yet: '+E(l.hr_why))}</div>`:'')}
 /* nolookup1104 (user via dr eggbot 8:49 PM ET Nov 4; DISPLAY ONLY): a non-Edge play folds into 'not on HR/DK' only when the book was checked and really
    does not list the line (hr_absent/dk_absent from bk_fold1104.py). Missing data ('not looked up', unread text, feed gaps) never folds; a started
    or graded game shows locked (or live when its link is still there). */
 function HRABS(l){if(!l||!l.hr_why||l.hr_sid)return false;if(l.hr_absent!=null)return !!l.hr_absent;return !/not looked up|could not read|event not in the live feed|no Hard Rock event found/i.test(l.hr_why)}
 function DKABS(l){return !!(l&&l.dk_absent&&!DKID(l))}
+/* unvlink1105 (display only): verification failed and the book does not call the line absent.
+   Accept "Unverified link…", a bare "unverified:" (that word is dropped so it is not repeated), or "mismatch:" (kept).
+   Absent-from-book notes stay "not on HR". */
+function UNVLAB(why){let s=String(why==null?'':why).trim();if(!s)return '';let hit=false;const p=s.match(/^unverified link\b\s*:?\s*/i);if(p){s=s.slice(p[0].length).trim();hit=true}const u=s.match(/^unverified\s*:\s*/i);if(u){s=s.slice(u[0].length).trim();hit=true}else if(/^mismatch\s*:/i.test(s))hit=true;if(!hit)return '';return E(s?'Unverified link: '+s:'Unverified link')}
+function UNVNOTE(why){const t=UNVLAB(why);return t?`<div class="m hrno" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">${t}</div>`:''}
 function BKST(l){if(!l||l.locked)return false;if(l.bk_started)return true;const t=l.bk_start?Date.parse(l.bk_start):NaN;return !isNaN(t)&&Date.now()>=t}
 /* edgelock1104 (user 8:20 PM ET Nov 4 via dr eggbot; DISPLAY ONLY): a published play whose game started or is graded stays visible in both book modes,
    locked at its published price; no live tags, no dead betslip buttons, never folded into 'not on HR/DK'. */
 function LKN(l){return `<div class="m lkn" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">🔒 Locked: ${E(l.lock_why||'game started')}${l.hr?` · published ${E(l.hr)}`:''}</div>`}
-function HRL(l,f){if(BK()=='draftkings'||!HROK(l,f))return'';return `<div class="hrrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK(l.hr_link,l.pick||((l.player||'')+' '+(l.prop||'')).trim(),'',l)}${HRB(l.hr_link,'Open in Hard Rock')}</div>`}
+function HRL(l,f){if(BK()=='draftkings'||!HROK(l,f))return'';const live=l.hr_live&&typeof l.hr_live==='object'&&l.hr_live.label?`<div class="m hrlive" style="font-size:10.5px;margin-top:2px;color:#e3b341;overflow-wrap:anywhere">${E(l.hr_live.label)}</div>`:'';return `<div class="hrrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK(l.hr_link,l.pick||((l.player||'')+' '+(l.prop||'')).trim(),'',l)}${HRB(l.hr_link,'Open in Hard Rock')}</div>`+live}
 /*played1105 (user 2026-11-05 ~4:40 AM ET via dr eggbot): personal My Plays log (was Played).
   Separate category/record. Logs on Open selected (HR/DK). Single/Parlay chosen ONLY in My Plays
   (NHL Edge defaults to Single). localStorage played_v1 (per-device). Own W-L/units + $ stake/winnings/earnings.
@@ -773,7 +778,7 @@ function PLYamWin(stake,odds,res){if(stake==null||stake==='')return null;const s
 function PLYcombine(oddsList){let d=1;for(const od of oddsList){const o=+String(od||'').replace(/[+,\s]/g,'');if(isNaN(o)||!o)return null;d*=o>0?(1+o/100):(1+100/Math.abs(o))}if(!(d>1))return null;return d>=2?('+'+Math.round((d-1)*100)):(''+(-Math.round(100/(d-1))))}
 function PLYsec(l){if(!l)return'Play';if(l.edge!=null||l.fair!=null||l.big4_only!=null||l.b4rank!=null)return'Edge';if(l.orig!=null||(l._pc&&l._pc.cv))return'The Heist';if(l.rank!=null&&l.player&&l.prop)return'LEG DAY';return'Play'}
 function PLYmeta(l,t,book){l=l||{};const pick=t||l.pick||((l.player||'')+' '+(l.prop||'')).trim();
- const odds=book=='dk'?String(BKP(l)||l.dk_live||(l.dk&&l.dk.odds)||''):String(l.hr||l.odds||l.hr_odds||'');
+ const dkl=(l.dk_live&&typeof l.dk_live==='object')?l.dk_live.price:l.dk_live;const odds=book=='dk'?String(BKP(l)||dkl||(l.dk&&l.dk.odds)||''):String(l.hr||l.odds||l.hr_odds||'');
  return{sport:String(l.sport||''),section:PLYsec(l),pick:String(pick||''),odds:odds,player:String(l.player||''),prop:String(l.prop||''),game:String(l.game||''),date:String(l.date||(D&&(D.capper_today_date||D.date))||PLYetd()),sid:String(l.hr_sid||l.dk_sid||''),book:book||'hardrock'}}
 function PLYenc(m){try{return encodeURIComponent(JSON.stringify(m))}catch(e){return''}}
 function PLYdec(s){try{return JSON.parse(decodeURIComponent(s||''))}catch(e){return null}}
