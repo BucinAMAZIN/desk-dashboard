@@ -82,7 +82,7 @@ html.lg #heist{--k:1.2}
 @media (prefers-reduced-motion:reduce){#heist .xa *{animation:none!important}}
 html.day{filter:invert(1) hue-rotate(180deg);background:#f2eee8}html.day img{filter:invert(1) hue-rotate(180deg)}html.lg body{zoom:1.2}.uit{display:flex;justify-content:flex-end;gap:6px;margin-bottom:6px}.uit button{background:#161b22;border:1px solid #30363d;color:#e6edf3;border-radius:8px;padding:4px 10px;font-size:13px;cursor:pointer}.uit button.on{border-color:#58a6ff;color:#58a6ff}
 body{background:#0d1117;color:#e6edf3;font-family:-apple-system,system-ui,sans-serif;margin:0;padding:calc(env(safe-area-inset-top) + 10px) 12px 30px;max-width:640px;margin:auto}
-.tabs{display:flex;gap:6px;margin-bottom:10px;position:sticky;top:0;background:#0d1117;padding:6px 0;z-index:2}.tab{flex:1;padding:10px 1px;border-radius:10px;background:#161b22;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600;font-size:11px;white-space:nowrap;cursor:pointer}
+.tabs{display:flex;gap:6px;margin-bottom:10px;position:sticky;top:0;background:#0d1117;padding:6px 0;z-index:2}.tab{flex:1;padding:10px 1px;border-radius:10px;background:#161b22;border:1px solid #30363d;color:#8b949e;text-align:center;font-weight:600;font-size:10.5px;white-space:nowrap;cursor:pointer}
 .tab.on{color:#e6edf3;border-color:#58a6ff}.card{background:#161b22;border:1px solid #30363d;border-radius:12px;padding:12px;margin-bottom:10px}
 .big{font-size:36px;font-weight:700}.g{color:#3fb950}.r{color:#f85149}.y{color:#d29922}.m{color:#8b949e;font-size:12px}h2{font-size:14px;color:#8b949e;margin:14px 0 6px}
 table{width:100%;border-collapse:collapse;font-size:13px}td{padding:6px 4px;border-bottom:1px solid #21262d;vertical-align:top}.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px}
@@ -533,7 +533,7 @@ function PCGMFIX(){const roots=[document];const h=document.getElementById('ldsph
 function PCHREC(D,H){const R=((D&&D.results_v2)||{}).rows||[],dt=H&&H.date,o={w:0,l:0,p:0,v:0,pending:0,units:0};let u=0;
  R.forEach(r=>{if(r.cat!=='The Heist'||(dt&&r.date!==dt))return;const x=String(r.res||'').toUpperCase();if(x=='W')o.w++;else if(x=='L')o.l++;else if(x=='P')o.p++;else if(x=='V')o.v++;else o.pending++;u+=+r.uu||0});o.units=Math.round(u*100)/100;return o}</script></head><body>
 
-<div class="uit"><div class="bk" id="bkT" role="group" aria-label="Sportsbook"><button type="button" data-book="hardrock" aria-pressed="true" title="Hard Rock Bet" aria-label="Hard Rock Bet"><img src="book-hardrock.png" alt="Hard Rock Bet" width="22" height="22"></button><button type="button" data-book="draftkings" aria-pressed="false" title="DraftKings" aria-label="DraftKings"><img src="book-draftkings.svg" alt="DraftKings" width="23" height="22"></button></div><button id="tLg" title="Large text">Aa</button><button id="tDay" title="Day / Night">🌙 Night</button></div><div id="bkNote">DraftKings view: plays with an exact DK Predictions line, DK price = FL Predictions incl. fee · Official record uses Hard Rock lock prices</div><div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Record</div><div class="tab" data-k="cappers">Cappers</div></div>
+<div class="uit"><div class="bk" id="bkT" role="group" aria-label="Sportsbook"><button type="button" data-book="hardrock" aria-pressed="true" title="Hard Rock Bet" aria-label="Hard Rock Bet"><img src="book-hardrock.png" alt="Hard Rock Bet" width="22" height="22"></button><button type="button" data-book="draftkings" aria-pressed="false" title="DraftKings" aria-label="DraftKings"><img src="book-draftkings.svg" alt="DraftKings" width="23" height="22"></button></div><button id="tLg" title="Large text">Aa</button><button id="tDay" title="Day / Night">🌙 Night</button></div><div id="bkNote">DraftKings view: plays with an exact DK Predictions line, DK price = FL Predictions incl. fee · Official record uses Hard Rock lock prices</div><div class="tabs"><div class="tab on" data-k="today">Today</div><div class="tab" data-k="results">Results</div><div class="tab" data-k="record">Record</div><div class="tab" data-k="played">Played</div><div class="tab" data-k="cappers">Cappers</div></div>
 <div id="sb" class="sb"></div><div id="v"></div><div class="m" id="upd" style="text-align:center;margin-top:8px"></div><div id="pwaA" style="display:none;text-align:center;margin:6px 0 10px"><button id="pwaB" style="font-size:11px;padding:3px 10px;border-radius:12px;border:1px solid #30363d;background:transparent;color:#8b949e">🔔 Enable alerts</button></div>
 <script>/*LEGHITS-1101 (user pt1152u): one line per parlay leg, mark centered, stat chip colored like its mark. Data: results_v2 row.legs (build_data.py + leghits.py). No legs -> old joined text.*/
 const LEGCSS=`.lhl{display:flex;flex-direction:column;gap:3px;margin:3px 0}
@@ -569,8 +569,8 @@ g.addEventListener('keydown',function(e){if(e.key!=='ArrowLeft'&&e.key!=='ArrowR
 g.addEventListener('animationend',function(){g.classList.remove('glint')});
 apply(cur())})();
 
-const UI_BUILD='1793574000';
-const U$=x=>{const v=Math.round(+String(x).replace(/,/g,'')/1.5*100)/100;return v+'u'};let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','cappers'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\b0(\d:\d\d\s?[AP]M)/g,'$1').replace(/(\bParlay\s+)?(\bTicket B\b|\+100 ticket)/gi,(m,p,t)=>p&&/^\+/.test(t)?m:'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,(m,o,x)=>/Lotto Ticket \($/.test(x.slice(Math.max(0,o-14),o))?m:'Lotto Ticket').replace(/\$\s?(\d[\d,]*(?:\.\d+)?)/g,(m,x)=>U$(x)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const UI_BUILD='1793868500';/*played1105*/
+const U$=x=>{const v=Math.round(+String(x).replace(/,/g,'')/1.5*100)/100;return v+'u'};let D=null,K=location.hash.slice(1)||'today';if(!['today','results','record','played','cappers'].includes(K))K='today';const $=i=>document.getElementById(i),E=s=>String(s??'—').replace(/\b0(\d:\d\d\s?[AP]M)/g,'$1').replace(/(\bParlay\s+)?(\bTicket B\b|\+100 ticket)/gi,(m,p,t)=>p&&/^\+/.test(t)?m:'Parlay +100').replace(/\bSunday NFL (?:anytime )?(?:touchdowns?|TDs?)(?: lotto)?\b/gi,'Lotto Ticket').replace(/\bTouchdown City\b|\bTD City\b|\bTDCITY\b/gi,(m,o,x)=>/Lotto Ticket \($/.test(x.slice(Math.max(0,o-14),o))?m:'Lotto Ticket').replace(/\$\s?(\d[\d,]*(?:\.\d+)?)/g,(m,x)=>U$(x)).replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
 const chipC=r=>{const u=String(r||'').trim().toUpperCase();return /^(W|WON|WIN|HIT)$/.test(u)?'W':/^(L|LOST|LOSS|MISS)$/.test(u)?'L':/^(PENDING|LIVE|OPEN)/.test(u)?'Pending':'P'};
 const chip=r=>r==='Pre-lock'?`<span class="chip cPending">⏳ Pending</span>`:`<span class="chip c${chipC(r)}">${E(r)}</span>`;
 const pc=p=>p==null?'—':p+'%',col=p=>p==null?'#8b949e':p>=55?'#3fb950':p>=45?'#d29922':'#f85149';
@@ -708,7 +708,7 @@ const GRT='🟢 opp <3.4 GA/gp L5 · opp G ≥.897 SV% L5 · player <2.5 SOG L5 
 function HRB(u,t,big){if(!u||!/^https:\/\/share\.hardrock\.bet\//.test(u))return '';return `<a href="${E(u)}" target="_blank" rel="noopener" onclick="event.stopPropagation()" style="display:inline-flex;align-items:center;gap:5px;margin-top:4px;padding:${big?'6px 10px':'3px 8px'};font-size:${big?'12.5px':'11px'};font-weight:600;border-radius:8px;border:1px solid #c9a22766;background:#c9a22714;color:#e3b341;text-decoration:none;white-space:${big?"normal":"nowrap"};box-sizing:border-box;max-width:100%"><img src="book-hardrock.png" alt="" style="height:${big?14:12}px;width:auto;border-radius:3px">${E(t)} ↗</a>`}
 const HRSEL=new Set(),DKSEL=new Set();/*hrslip1104 multi-select: client-side only; dkmulti1104 DKSEL = DK Predictions sids of checked plays*/
 function HRID(u){const m=/betslip\/([\d,]+)$/.exec(u||'');return m&&!m[1].includes(',')?m[1]:''}
-function HRCK(u,t,dk){const id=HRID(u);dk=dk||'';if(!id&&!dk)return '';return `<label onclick="event.stopPropagation()" style="display:inline-flex;align-items:center;gap:4px;margin-top:4px;font-size:11px;color:#8b949e;cursor:pointer"><input type="checkbox" class="hrck" data-sid="${id}" data-dk="${E(dk)}" ${(id&&HRSEL.has(id))||(dk&&DKSEL.has(dk))?'checked':''} onchange="HRT(this)" aria-label="Select ${E(t)} for ${id?'Hard Rock':'DraftKings'} slip" style="width:18px;height:18px;accent-color:#e3b341;margin:0">Select</label>`}
+function HRCK(u,t,dk,l){const id=HRID(u);dk=dk||'';if(!id&&!dk)return '';let ply='';if(l){try{ply=` data-ply="${PLYenc(PLYmeta(l,t,dk?'dk':'hr'))}"`}catch(e){}}return `<label onclick="event.stopPropagation()" style="display:inline-flex;align-items:center;gap:4px;margin-top:4px;font-size:11px;color:#8b949e;cursor:pointer"><input type="checkbox" class="hrck" data-sid="${id}" data-dk="${E(dk)}"${ply} ${(id&&HRSEL.has(id))||(dk&&DKSEL.has(dk))?'checked':''} onchange="HRT(this)" aria-label="Select ${E(t)} for ${id?'Hard Rock':'DraftKings'} slip" style="width:18px;height:18px;accent-color:#e3b341;margin:0">Select</label>`}
 function HRT(el){const id=el.dataset.sid,dk=el.dataset.dk,on=el.checked;if(id)on?HRSEL.add(id):HRSEL.delete(id);if(dk)on?DKSEL.add(dk):DKSEL.delete(dk);HRQ('.hrck').filter(x=>(id&&x.dataset.sid==id)||(dk&&x.dataset.dk==dk)).forEach(x=>x.checked=on);HRBAR()}
 function HRBAR(){try{BKPASS()}catch(e){console.error('bkpass',e)}let b=document.getElementById('hrbar');HRMO2();const any=HRQ('.hrck')[0];if(!any){if(b)b.style.display='none';document.body.style.paddingBottom='';return}
  if(!b){b=document.createElement('div');b.id='hrbar';b.style.cssText='position:fixed;left:0;right:0;bottom:0;z-index:50;display:flex;justify-content:center;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:rgba(13,17,23,.94);border-top:1px solid #30363d;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)';document.body.appendChild(b)}
@@ -747,7 +747,7 @@ function BKP(l){const v=(DKID(l)&&l.dk_live)||(l.dk&&typeof l.dk=='object'&&!l.d
 function HRX(l,f){if(!l)return '';const M=`<i class="bkm" hidden data-h="${HROK(l,1)?1:0}" data-hw="${HRABS(l)?1:0}" data-d="${DKID(l)?1:0}" data-dw="${DKABS(l)?1:0}" data-l="${l.locked||BKST(l)?1:0}"></i>`,nm=l.pick||((l.player||'')+' '+(l.prop||'')).trim();
  if(l.locked)return M+LKN(l);
  if(BKST(l)&&!(BK()=='draftkings'?DKID(l):HRL(l,f)))return M+LKN(Object.assign({},l,{lock_why:l.bk_started_why||'game started',hr:null}));
- if(BK()=='draftkings'){const id=DKID(l);return M+(id?`<div class="hrrow dkrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK('',nm,id)}${BKP(l)?`<span class="dkp" title="DraftKings Predictions (FL) price incl. fee" style="font-size:11px;font-weight:700;color:#7ee36a">DK ${E(BKP(l))}</span>`:''}${DKB(l)}</div>`:'')}
+ if(BK()=='draftkings'){const id=DKID(l);return M+(id?`<div class="hrrow dkrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK('',nm,id,l)}${BKP(l)?`<span class="dkp" title="DraftKings Predictions (FL) price incl. fee" style="font-size:11px;font-weight:700;color:#7ee36a">DK ${E(BKP(l))}</span>`:''}${DKB(l)}</div>`:'')}
  const h=HRL(l,f);if(h)return M+h;return M+(l.hr_why?`<div class="m hrno" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">${HRABS(l)?'not on HR: '+E(l.hr_why):/not looked up/i.test(l.hr_why)?'Hard Rock link not checked yet':'Hard Rock link not found yet: '+E(l.hr_why)}</div>`:'')}
 /* nolookup1104 (user via dr eggbot 8:49 PM ET Nov 4; DISPLAY ONLY): a non-Edge play folds into 'not on HR/DK' only when the book was checked and really
    does not list the line (hr_absent/dk_absent from bk_fold1104.py). Missing data ('not looked up', unread text, feed gaps) never folds; a started
@@ -758,7 +758,107 @@ function BKST(l){if(!l||l.locked)return false;if(l.bk_started)return true;const 
 /* edgelock1104 (user 8:20 PM ET Nov 4 via dr eggbot; DISPLAY ONLY): a published play whose game started or is graded stays visible in both book modes,
    locked at its published price; no live tags, no dead betslip buttons, never folded into 'not on HR/DK'. */
 function LKN(l){return `<div class="m lkn" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">🔒 Locked: ${E(l.lock_why||'game started')}${l.hr?` · published ${E(l.hr)}`:''}</div>`}
-function HRL(l,f){if(BK()=='draftkings'||!HROK(l,f))return'';return `<div class="hrrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK(l.hr_link,l.pick||((l.player||'')+' '+(l.prop||'')).trim(),'')}${HRB(l.hr_link,'Open in Hard Rock')}</div>`}
+function HRL(l,f){if(BK()=='draftkings'||!HROK(l,f))return'';return `<div class="hrrow" style="display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:4px">${HRCK(l.hr_link,l.pick||((l.player||'')+' '+(l.prop||'')).trim(),'',l)}${HRB(l.hr_link,'Open in Hard Rock')}</div>`}
+/*played1105 (user 2026-11-05 ~4:40 AM ET via dr eggbot): personal Played log.
+  Separate category/record. Logs on Open selected (HR/DK). Single/Parlay chosen ONLY in the Played log
+  (NHL Edge defaults to Single). localStorage played_v1 (per-device). Own W-L/units + $ stake/winnings/earnings.
+  Display/tracking only — no card or HR/DK panel UI changes; no picks/rules/grading changes for Official.*/
+const PLY_KEY='played_v1',PLY_OLD=['myplays_v1','my_plays_v1','play_tickets_v1','playedTickets_v1'];
+const PLY_DEDUP_MS=90e3;
+function PLYload(){try{let raw=localStorage.getItem(PLY_KEY);if(!raw){for(const k of PLY_OLD){raw=localStorage.getItem(k);if(raw){localStorage.setItem(PLY_KEY,raw);try{localStorage.removeItem(k)}catch(_){}break}}}if(!raw)return{v:1,entries:[]};const o=JSON.parse(raw);if(!o||!Array.isArray(o.entries))return{v:1,entries:[]};o.v=1;return o}catch(e){return{v:1,entries:[]}}}
+function PLYsave(o){try{localStorage.setItem(PLY_KEY,JSON.stringify(o))}catch(e){console.error('played save',e)}}
+function PLYetd(ts){return new Date(ts||Date.now()).toLocaleDateString('en-CA',{timeZone:'America/New_York'})}
+function PLYamU(odds,res){if(res=='P'||res=='V')return 0;const o=+String(odds||'').replace(/[+,\s]/g,'');if(isNaN(o)||!o)return res=='W'?1:res=='L'?-1:0;if(res=='L')return -1;if(res=='W')return Math.round((o>0?o/100:100/Math.abs(o))*100)/100;return 0}
+function PLYamWin(stake,odds,res){if(stake==null||stake==='')return null;const s=+stake;if(!(s>=0)||isNaN(s))return null;if(res=='L')return 0;if(res=='P'||res=='V')return Math.round(s*100)/100;if(res!='W')return null;const o=+String(odds||'').replace(/[+,\s]/g,'');if(isNaN(o)||!o)return null;const profit=o>0?s*o/100:s*100/Math.abs(o);return Math.round((s+profit)*100)/100}
+function PLYcombine(oddsList){let d=1;for(const od of oddsList){const o=+String(od||'').replace(/[+,\s]/g,'');if(isNaN(o)||!o)return null;d*=o>0?(1+o/100):(1+100/Math.abs(o))}if(!(d>1))return null;return d>=2?('+'+Math.round((d-1)*100)):(''+(-Math.round(100/(d-1))))}
+function PLYsec(l){if(!l)return'Play';if(l.edge!=null||l.fair!=null||l.big4_only!=null||l.b4rank!=null)return'Edge';if(l.orig!=null||(l._pc&&l._pc.cv))return'The Heist';if(l.rank!=null&&l.player&&l.prop)return'LEG DAY';return'Play'}
+function PLYmeta(l,t,book){l=l||{};const pick=t||l.pick||((l.player||'')+' '+(l.prop||'')).trim();
+ const odds=book=='dk'?String(BKP(l)||l.dk_live||(l.dk&&l.dk.odds)||''):String(l.hr||l.odds||l.hr_odds||'');
+ return{sport:String(l.sport||''),section:PLYsec(l),pick:String(pick||''),odds:odds,player:String(l.player||''),prop:String(l.prop||''),game:String(l.game||''),date:String(l.date||(D&&(D.capper_today_date||D.date))||PLYetd()),sid:String(l.hr_sid||l.dk_sid||''),book:book||'hardrock'}}
+function PLYenc(m){try{return encodeURIComponent(JSON.stringify(m))}catch(e){return''}}
+function PLYdec(s){try{return JSON.parse(decodeURIComponent(s||''))}catch(e){return null}}
+function PLYfp(book,legs,kind){return book+'|'+kind+'|'+(legs||[]).map(l=>(l.sid||'')+':'+(l.pick||'')).sort().join('||')}
+function PLYlegFromCk(ck,book){const m=PLYdec(ck.dataset.ply);const sid=book=='draftkings'?(ck.dataset.dk||''):(ck.dataset.sid||'');
+ if(m){m.sid=m.sid||sid;m.book=book;return m}
+ const lab=(ck.getAttribute('aria-label')||'').replace(/^Select\s+/i,'').replace(/\s+for\s+(Hard Rock|DraftKings).*$/i,'');
+ return{sport:'',section:'Play',pick:lab,odds:'',player:'',prop:'',game:'',date:PLYetd(),sid:sid,book:book}}
+function PLYlog(book){try{
+ const CK=HRQ('.hrck').filter(x=>x.checked&&(book=='draftkings'?x.dataset.dk:x.dataset.sid));
+ if(!CK.length)return;
+ const legs=CK.map(ck=>PLYlegFromCk(ck,book));
+ /* Defaults: every NHL Edge leg is its own Single; otherwise 2+ legs opened together = one Parlay, 1 = Single. Editable later in the Played log. */
+ const allEdgeNHL=legs.every(l=>l.section=='Edge'&&String(l.sport||'').toUpperCase()=='NHL');
+ const tickets=[];
+ if(allEdgeNHL){legs.forEach(l=>tickets.push({kind:'single',legs:[l]}))}
+ else if(legs.length>=2)tickets.push({kind:'parlay',legs:legs});
+ else tickets.push({kind:'single',legs:legs});
+ const store=PLYload();const now=Date.now();
+ tickets.forEach(t=>{
+  const odds=t.kind=='parlay'? (PLYcombine(t.legs.map(l=>l.odds))||t.legs.map(l=>l.odds).filter(Boolean).join(' / ')) : (t.legs[0]&&t.legs[0].odds)||'';
+  const fp=PLYfp(book,t.legs,t.kind);
+  const recent=store.entries.find(e=>e.fp===fp&&(now-(e.ts||0))<PLY_DEDUP_MS);
+  if(recent)return;
+  store.entries.unshift({id:'p_'+now.toString(36)+'_'+Math.random().toString(36).slice(2,7),ts:now,date:(t.legs[0]&&t.legs[0].date)||PLYetd(),book,kind:t.kind,stake:null,winnings:null,winningsEdited:false,legs:t.legs.map(l=>({...l})),odds:String(odds||''),res:'',uu:0,fp});
+ });
+ PLYsave(store);PLYgradeAll();if(K==='played')try{draw()}catch(_){}
+}catch(e){console.error('played log',e)}}
+function PLYmatchRes(leg){const X=((D&&D.results_v2)||{}).rows||[];if(!X.length||!leg)return null;
+ const pk=String(leg.pick||'').replace(/\s+/g,' ').trim().toLowerCase();
+ const dt=String(leg.date||'');
+ const hit=X.find(r=>{if(r.leg)return false;if(dt&&r.date&&r.date!==dt)return false;const rp=String(r.pick||'').replace(/\s+/g,' ').trim().toLowerCase();
+  if(rp===pk)return true;if(pk&&rp&&(rp.includes(pk)||pk.includes(rp)))return true;
+  const pl=String(leg.player||'').toLowerCase();if(pl&&rp.startsWith(pl)&&String(leg.prop||'')&&rp.includes(String(leg.prop).toLowerCase().slice(0,8)))return true;return false});
+ return hit||null}
+function PLYgradeEntry(e){if(!e||!e.legs||!e.legs.length)return e;
+ const ress=e.legs.map(l=>{const h=PLYmatchRes(l);const r=h&&['W','L','P','V'].includes(h.res)?h.res:'';if(h&&r){l.res=r;l.stat=h.stat||l.stat||'';l.uu=h.uu}return r});
+ let res='';if(ress.some(r=>!r))res='';else if(e.kind==='parlay'){if(ress.some(r=>r==='L'))res='L';else if(ress.every(r=>r==='W'))res='W';else if(ress.some(r=>r==='V')&&ress.every(r=>r==='W'||r==='V'||r==='P'))res=ress.every(r=>r==='V')?'V':'P';else if(ress.every(r=>r==='P'||r==='V'))res='P';else res='';}
+ else res=ress[0]||'';
+ e.res=res;e.uu=res?PLYamU(e.odds,res):0;
+ if(res&&!e.winningsEdited){const w=PLYamWin(e.stake,e.odds,res);if(w!=null)e.winnings=w}
+ return e}
+function PLYgradeAll(){const store=PLYload();let ch=0;store.entries.forEach(e=>{const before=JSON.stringify([e.res,e.uu,e.winnings]);PLYgradeEntry(e);if(JSON.stringify([e.res,e.uu,e.winnings])!==before)ch=1});if(ch)PLYsave(store);return store}
+function PLYrec(entries){let w=0,l=0,p=0,v=0,pe=0,u=0,stake=0,win=0,earn=0,ns=0;
+ (entries||[]).forEach(e=>{const r=e.res;if(r==='W')w++;else if(r==='L')l++;else if(r==='P')p++;else if(r==='V')v++;else pe++;u+=+e.uu||0;
+  if(e.stake!=null&&e.stake!==''&&!isNaN(+e.stake)){ns++;stake+=+e.stake;const ww=(e.winnings!=null&&e.winnings!=='')?+e.winnings:null;if(ww!=null&&!isNaN(ww)){win+=ww;earn+=ww-+e.stake}else if(r==='L'){earn+=-+e.stake}}});
+ return{w,l,p,v,pe,u:Math.round(u*100)/100,stake:Math.round(stake*100)/100,winnings:Math.round(win*100)/100,earnings:Math.round(earn*100)/100,ns}}
+function PLYset(id,patch){const store=PLYload();const e=store.entries.find(x=>x.id===id);if(!e)return;Object.assign(e,patch);if('stake' in patch||('winnings' in patch&&e.winningsEdited)||'kind' in patch||'odds' in patch){if('kind' in patch&&e.kind==='parlay'&&e.legs&&e.legs.length>=2){const c=PLYcombine(e.legs.map(l=>l.odds));if(c)e.odds=c}else if('kind' in patch&&e.kind==='single'&&e.legs&&e.legs[0])e.odds=e.legs[0].odds||e.odds;PLYgradeEntry(e)}PLYsave(store);if(K==='played')draw()}
+function PLYdel(id){const store=PLYload();store.entries=store.entries.filter(x=>x.id!==id);PLYsave(store);if(K==='played')draw()}
+function PLYmoney(n){if(n==null||n===''||isNaN(+n))return'—';const v=+n;return(v<0?'-':'')+'$'+Math.abs(v).toFixed(2)}
+function PLYrow(e){const lab={W:'Won',L:'Lost',P:'Push',V:'Void'}[e.res]||'Pending';
+ const col={W:'#3fb950',L:'#f85149',P:'#8b949e',V:'#8b949e'}[e.res]||'#d29922';
+ const earn=(e.stake!=null&&e.stake!==''&&e.winnings!=null&&e.winnings!=='')?(+e.winnings-+e.stake):null;
+ const legs=(e.legs||[]).map(l=>`<div style="font-size:12px;padding:2px 0;color:#c9d1d9"><span style="color:#8b949e">${E(l.section||'')}${l.sport?' · '+E(l.sport):''}</span> · ${E(l.pick||'')}${l.odds?` <b style="color:#e3b341">${E(l.odds)}</b>`:''}${l.res?` <span style="color:${({W:'#3fb950',L:'#f85149'}[l.res]||'#8b949e')}">${E(l.res)}</span>`:''}</div>`).join('');
+ return`<div class="card plyroot plye" data-id="${E(e.id)}" style="margin:8px 0;padding:10px">
+  <div class="row" style="align-items:flex-start;gap:8px"><div style="flex:1;min-width:0"><b style="font-size:13px">${E(e.kind==='parlay'?'Parlay':'Single')} · ${E(e.book==='draftkings'?'DK':'Hard Rock')}</b>
+   <div class=m style="font-size:11px">${E(e.date||'')} · ${E(e.odds||'—')} · <span style="color:${col};font-weight:700">${lab}</span>${e.uu?` · ${e.uu>0?'+':''}${E(e.uu)}u`:''}</div></div>
+   <button type="button" class="plydel" data-id="${E(e.id)}" title="Remove" style="flex:0 0 auto;padding:4px 8px;border-radius:8px;border:1px solid #30363d;background:#21262d;color:#f85149;font-size:11px">✕</button></div>
+  <div style="margin:6px 0 4px;display:flex;flex-wrap:wrap;gap:6px;align-items:center">
+   <span class=m style="font-size:11px">Type</span>
+   <button type="button" class="plykind" data-id="${E(e.id)}" data-v="single" style="padding:4px 8px;border-radius:8px;border:1px solid ${e.kind==='single'?'#e3b341':'#30363d'};background:${e.kind==='single'?'#e3b34122':'#161b22'};color:${e.kind==='single'?'#e3b341':'#8b949e'};font-size:11px;font-weight:700">Single</button>
+   <button type="button" class="plykind" data-id="${E(e.id)}" data-v="parlay" style="padding:4px 8px;border-radius:8px;border:1px solid ${e.kind==='parlay'?'#e3b341':'#30363d'};background:${e.kind==='parlay'?'#e3b34122':'#161b22'};color:${e.kind==='parlay'?'#e3b341':'#8b949e'};font-size:11px;font-weight:700">Parlay</button>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;margin:6px 0">
+   <label class=m style="font-size:10.5px">Stake $<input class="plystake" data-id="${E(e.id)}" type="number" inputmode="decimal" step="0.01" min="0" placeholder="optional" value="${e.stake!=null&&e.stake!==''?E(e.stake):''}" style="display:block;width:100%;margin-top:2px;padding:6px 8px;border-radius:8px;border:1px solid #30363d;background:#0d1117;color:#e6edf3;font-size:13px;box-sizing:border-box"></label>
+   <label class=m style="font-size:10.5px">Winnings $${e.winningsEdited?'<span title="Manual override" style="color:#e3b341;font-weight:700"> edited</span>':''}<input class="plywin" data-id="${E(e.id)}" type="number" inputmode="decimal" step="0.01" min="0" placeholder="${e.res?'auto':'—'}" value="${e.winnings!=null&&e.winnings!==''?E(e.winnings):''}" style="display:block;width:100%;margin-top:2px;padding:6px 8px;border-radius:8px;border:1px solid ${e.winningsEdited?'#e3b34166':'#30363d'};background:#0d1117;color:#e6edf3;font-size:13px;box-sizing:border-box"></label>
+   <div class=m style="font-size:10.5px">Earnings<div style="margin-top:2px;padding:6px 8px;border-radius:8px;border:1px solid #30363d;background:#161b22;font-size:13px;font-weight:700;color:${earn==null?'#8b949e':earn>=0?'#3fb950':'#f85149'}">${earn==null?'—':PLYmoney(earn)}</div></div>
+  </div>
+  <div style="margin-top:4px">${legs||'<div class=m style="font-size:11px">No legs</div>'}</div>
+ </div>`}
+function played(){const store=PLYgradeAll();const a=store.entries||[];const s=PLYrec(a);
+ const head=`<div class="card plyroot" style="margin-bottom:10px;padding:12px"><div class="row"><b style="font-size:15px">Played</b><span class=m style="font-size:11px">personal log · this device</span></div>
+  <div class="row" style="margin-top:8px;align-items:baseline;flex-wrap:wrap;gap:8px 14px"><b style="font-size:22px">${s.w}-${s.l}${s.p?'-'+s.p:''}</b><span style="font-size:16px;font-weight:700;color:${s.u>0?'#3fb950':s.u<0?'#f85149':'#8b949e'}">${s.u>0?'+':''}${s.u}u</span>
+   <span class=m style="font-size:12px">stake ${PLYmoney(s.stake)} · winnings ${PLYmoney(s.winnings)} · earnings <b style="color:${s.earnings>0?'#3fb950':s.earnings<0?'#f85149':'#c9d1d9'}">${PLYmoney(s.earnings)}</b></span></div>
+  <div class=m style="font-size:11px;margin-top:6px">${a.length?a.length+' entr'+(a.length==1?'y':'ies'):'No plays logged yet'}${s.pe?' · '+s.pe+' pending':''}${s.v?' · '+s.v+' void':''}. Open selected in Hard Rock or DraftKings to add. Single/Parlay is set here (NHL Edge defaults to Single). Dollars stay in Played only.</div></div>`;
+ if(!a.length)return head+`<div class="card plyroot" style="padding:16px;text-align:center"><div class=m>Nothing logged yet. Check plays on Today, tap Open selected, and they show up here.</div></div>`;
+ return head+a.map(PLYrow).join('')}
+function PLYwire(){if(window.__plyWire)return;window.__plyWire=1;
+ document.addEventListener('click',function(ev){const a=ev.target.closest&&ev.target.closest('#hrbtn,#dkbtn');if(!a)return;if(a.tagName==='BUTTON'||a.getAttribute('disabled')!=null)return;const book=a.id==='dkbtn'?'draftkings':'hardrock';PLYlog(book)},true);
+ document.addEventListener('click',function(ev){const t=ev.target.closest&&ev.target.closest('.plydel,.plykind');if(!t)return;ev.preventDefault();const id=t.dataset.id;if(t.classList.contains('plydel'))PLYdel(id);else if(t.classList.contains('plykind'))PLYset(id,{kind:t.dataset.v})});
+ document.addEventListener('change',function(ev){const t=ev.target;if(!t||!t.dataset||!t.dataset.id)return;
+  if(t.classList.contains('plystake')){const v=t.value===''?null:+t.value;PLYset(t.dataset.id,{stake:v});}
+  if(t.classList.contains('plywin')){const v=t.value===''?null:+t.value;PLYset(t.dataset.id,{winnings:v,winningsEdited:v!=null});}});}
+PLYwire();
+
 function HRTK(legs,lab,T){const k=(legs||[]).filter(Boolean).length>=2?'<i class="bktk" hidden></i>':'';return k+(BK()=='draftkings'?DKTK(legs,lab):HRTK0(legs,lab,T))}
 function HRTK0(legs,lab,T){if(BK()=='draftkings'||(T&&String(T.book||'').toUpperCase()=='DK'))return'';const el=(legs||[]).filter(l=>l&&String(l.book||'').toUpperCase()!='DK');if(el.length<2)return'';const m=el.filter(l=>l.hr_sid),n=m.length,of=el.length,ids=[...new Set(m.map(l=>String(l.hr_sid)))];
  if(!n)return `<div class="m hrtk" style="font-size:11px;margin:4px 0">Hard Rock: 0 of ${of} legs matched</div>`;
@@ -1515,7 +1615,7 @@ window.ldSportMount=function(){const host=document.getElementById('ldsph');if(!h
 })();
 function record(){return '<div id="rv1h"></div>'}
 
-function draw(){if(!D)return;const _vk=K+'|'+(K=='sport'?SP:'')+'|'+(K=='today'?ALL:'')+'|'+(K=='record'&&typeof RF!='undefined'?RF:''),_vsw=window.__vk!==_vk;window.__vk=_vk;window.__vsw=_vsw;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));const op=[...document.querySelectorAll('details:not(.rbk)')].map(d=>d.open);$('sb').innerHTML=sbub();$('v').innerHTML={today,results,record,cappers,sport}[K]();if(K=='record')try{rv1Mount()}catch(e){console.error('rv1',e)}if(K=='sport'||K=='today')try{ldSportMount()}catch(e){console.error('ldsp',e)}try{window.rvFitAll&&rvFitAll()}catch(_){}if(!_vsw)document.querySelectorAll('details:not(.rbk)').forEach((d,i)=>{if(op[i])d.open=true});paintLU();paintNow();paintLock();try{stBox()}catch(_){}try{tvBox()}catch(_){}lvBox();try{ndBox()}catch(_){}collapsify();try{ndEnsure()}catch(_){}$('upd').textContent='Updated '+et(D.generated)}
+function draw(){if(!D)return;const _vk=K+'|'+(K=='sport'?SP:'')+'|'+(K=='today'?ALL:'')+'|'+(K=='record'&&typeof RF!='undefined'?RF:''),_vsw=window.__vk!==_vk;window.__vk=_vk;window.__vsw=_vsw;document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.k===K));const op=[...document.querySelectorAll('details:not(.rbk)')].map(d=>d.open);$('sb').innerHTML=(K=='played'?'':sbub());$('v').innerHTML={today,results,record,played,cappers,sport}[K]();if(K=='record')try{rv1Mount()}catch(e){console.error('rv1',e)}if(K=='sport'||K=='today')try{ldSportMount()}catch(e){console.error('ldsp',e)}try{window.rvFitAll&&rvFitAll()}catch(_){}if(!_vsw)document.querySelectorAll('details:not(.rbk)').forEach((d,i)=>{if(op[i])d.open=true});paintLU();paintNow();paintLock();try{stBox()}catch(_){}try{tvBox()}catch(_){}lvBox();try{ndBox()}catch(_){}collapsify();try{ndEnsure()}catch(_){}$('upd').textContent='Updated '+et(D.generated)}
 (function(){try{Object.keys(localStorage).filter(k=>/^col:/.test(k)).forEach(k=>localStorage.removeItem(k))}catch(e){}})();
 function colKey(t){return 'col:'+K+(K=='sport'?SP:'')+':'+String(t).replace(/[\d$%.,+\-−—·▾▸()]/g,'').replace(/\s+/g,' ').trim().slice(0,40)}
 function colGet(k){try{return localStorage.getItem(k)=='1'}catch(e){return false}}
@@ -1530,7 +1630,7 @@ function collapsify(){const v=$('v');if(!v)return;let lastH='';[...v.children].f
  if(e.tagName=='DIV'&&e.classList.contains('card')&&e.children.length){const f=e.firstElementChild;if(!(e.children.length>=2&&f.matches('div.m,div.row,span.m'))){const w=document.createElement('div');w.className='m';w.textContent=lastH||'Details';e.prepend(w)}}});
  const kids=[...v.children];
  kids.forEach((h,i)=>{if(h.tagName!='H2')return;const body=[];for(let j=i+1;j<kids.length&&kids[j].tagName!='H2';j++)body.push(kids[j]);try{if(!h.querySelector('.xcnt')){const L=[];body.forEach(b=>b.querySelectorAll('.lth').forEach(t=>{if(t.closest('.xcw'))return;const m=t.textContent.match(/^\s*([A-Za-z][A-Za-z ]*?)\s*(?:\([^)]*[a-z][^)]*\)\s*)?\((\d+)\)/);if(m)L.push(m[2]+' '+m[1].trim())}));let c=L.length?L.join(' · '):'';if(!c&&/projected finish/i.test(h.textContent)){const n=((D.nascar_proj||{}).rows||[]).length;if(n)c=n+' driver'+(n==1?'':'s')}/*NASCARFIX-1101*/if(!c&&!/projected finish/i.test(h.textContent)){const n=body.reduce((a,b)=>a+[...b.querySelectorAll('details')].filter(d=>!d.querySelector('details')&&!d.closest('.why,.wyn,.ndw,.lvp,.xcw,.eslot')&&!d.classList.contains('ndw')&&!d.classList.contains('rbk')&&!d.querySelector('.eslot,.eslast')).length,0);if(n)c=n+' pick'+(n==1?'':'s')}if(c)h.insertAdjacentHTML('beforeend',`<span class="xcnt">${E(c)}</span>`)}}catch(_){}mkTog(h,body,colKey('h:'+h.textContent))});
- kids.forEach(c=>{if(c.tagName!='DIV'||!c.classList.contains('card'))return;const f=c.firstElementChild;if(!f||c.children.length<2)return;if(!(f.matches('div.m,div.row,span.m')))return;if(/Play of the Day|^POTD/i.test(f.textContent))return;if(f.matches('.nqh,.nlh,.lth'))return;/*NASCARFIX-1101: these headers own their collapse (own click handler); mkTog's .cx would pin them shut*/mkTog(f,[...c.children].slice(1),colKey('c:'+f.textContent))})}
+ kids.forEach(c=>{if(c.tagName!='DIV'||!c.classList.contains('card'))return;if(c.classList.contains('plyroot'))return;/*played1105: Played log stays expanded*/const f=c.firstElementChild;if(!f||c.children.length<2)return;if(!(f.matches('div.m,div.row,span.m')))return;if(/Play of the Day|^POTD/i.test(f.textContent))return;if(f.matches('.nqh,.nlh,.lth'))return;/*NASCARFIX-1101: these headers own their collapse (own click handler); mkTog's .cx would pin them shut*/mkTog(f,[...c.children].slice(1),colKey('c:'+f.textContent))})}
 function lkTime(g,sp){const m=String(g).match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);if(!m)return null;const et=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));const now=new Date();const off=now-et;let h=+m[1]%12+(/pm/i.test(m[3])?12:0);const d=new Date(et);d.setHours(h,+m[2],0,0);const W=['sun','mon','tue','wed','thu','fri','sat'];const wm=String(g).toLowerCase().match(/\b(sun|mon|tue|wed|thu|fri|sat)/);let wd=wm?W.indexOf(wm[1]):(sp=='NASCAR'?0:null);if(wd!=null){let add=(wd-et.getDay()+7)%7;d.setDate(d.getDate()+add)}return new Date(d.getTime()-(sp=='NASCAR'?8.5:24)*3600e3+off)}
 function pkS(p){return String(p||'').replace(/^\([^)]*\)\s*/,'')}
 function pkL(x,i){const m=String(x.pick||'').match(/^\(([^)]*)\)\s*(.*)$/);const tier=m?m[1]:'',nm=m?m[2]:String(x.pick||'');const rk=(x.rank!=null&&String(x.rank).trim()!=='')?x.rank:(i+1);const g=x.grade&&x.grade!='—'?`<span class="chip" style="background:${gc(x.grade)}22;color:${gc(x.grade)};border:1px solid ${gc(x.grade)}66">${E(x.grade)}</span>`:'';return `<div class="pl1"><span class="chip cP">${E(String(rk))}</span> ${g}${g?' ':''}${tier?`<span class="ptier">${E(tier)}</span> `:''}</div><div class="pl2">${E(nm)}</div>`}
