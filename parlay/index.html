@@ -754,8 +754,10 @@ function HRX(l,f){if(!l)return '';const M=`<i class="bkm" hidden data-h="${HROK(
    or graded game shows locked (or live when its link is still there). */
 function HRABS(l){if(!l||!l.hr_why||l.hr_sid)return false;if(l.hr_absent!=null)return !!l.hr_absent;return !/not looked up|could not read|event not in the live feed|no Hard Rock event found/i.test(l.hr_why)}
 function DKABS(l){return !!(l&&l.dk_absent&&!DKID(l))}
-/* unvlink1105 (display only): verification failed and the book does not call the line absent. Show "Unverified link: …" once. Do not prefix "Hard Rock link not found yet". Absent-from-book notes stay "not on HR". */
-function UNVLAB(why){const s=String(why==null?'':why).trim();if(!/^unverified link\b/i.test(s))return '';const rest=s.replace(/^unverified link\s*:?\s*/i,'').trim();return E(rest?'Unverified link: '+rest:'Unverified link:')}
+/* unvlink1105 (display only): verification failed and the book does not call the line absent.
+   Accept "Unverified link…", a bare "unverified:" (that word is dropped so it is not repeated), or "mismatch:" (kept).
+   Absent-from-book notes stay "not on HR". */
+function UNVLAB(why){let s=String(why==null?'':why).trim();if(!s)return '';let hit=false;const p=s.match(/^unverified link\b\s*:?\s*/i);if(p){s=s.slice(p[0].length).trim();hit=true}const u=s.match(/^unverified\s*:\s*/i);if(u){s=s.slice(u[0].length).trim();hit=true}else if(/^mismatch\s*:/i.test(s))hit=true;if(!hit)return '';return E(s?'Unverified link: '+s:'Unverified link')}
 function UNVNOTE(why){const t=UNVLAB(why);return t?`<div class="m hrno" style="font-size:11px;margin-top:3px;color:#8b949e;overflow-wrap:anywhere">${t}</div>`:''}
 function BKST(l){if(!l||l.locked)return false;if(l.bk_started)return true;const t=l.bk_start?Date.parse(l.bk_start):NaN;return !isNaN(t)&&Date.now()>=t}
 /* edgelock1104 (user 8:20 PM ET Nov 4 via dr eggbot; DISPLAY ONLY): a published play whose game started or is graded stays visible in both book modes,
