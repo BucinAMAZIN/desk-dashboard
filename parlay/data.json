@@ -1,5 +1,5 @@
 {
- "generated": 1793922588.8537319,
+ "generated": 1793922949.3826988,
  "today": {
   "title": "Nov 5 picks (Hard Rock)",
   "tickets": [
@@ -31,7 +31,7 @@
      "spread": -3.5,
      "total": 235.5,
      "team_totals": {
-      "MIA": 115.5,
+      "MIA": 116.5,
       "GSW": 119.5
      },
      "home": "GSW",
@@ -181,13 +181,24 @@
       },
       "hr_sid": "3236273623283138990",
       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3236273623283138990",
-      "hr_live": "-135",
+      "hr_live": {
+       "label": "Live HR price -145 as of 19:00 ET (game started; posted odds unchanged)",
+       "price": "-145",
+       "at": "2026-11-05T19:00:07-05:00",
+       "paused": false
+      },
       "hr_now": "-135",
       "dk_sid": "0QA386220496#2351587373_13L42133Q1349793402Q20",
       "dk_eid": "34951594",
       "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386220496%232351587373_13L42133Q1349793402Q20",
       "dk_live": "-178",
-      "bk_start": "2026-11-05T19:00-05:00"
+      "bk_start": "2026-11-05T19:00-05:00",
+      "hr_live_label": {
+       "label": "Live HR price -145 as of 19:00 ET (game started; posted odds unchanged)",
+       "price": "-145",
+       "at": "2026-11-05T19:00:07-05:00",
+       "paused": false
+      }
      },
      {
       "pick": "Neal Pionk Over 1.5 Shots On Goal",
@@ -302,13 +313,24 @@
       },
       "hr_sid": "385247278199341461",
       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/385247278199341461",
-      "hr_live": "-325",
+      "hr_live": {
+       "label": "Live HR price -325 as of 19:00 ET (game started; posted odds unchanged)",
+       "price": "-325",
+       "at": "2026-11-05T19:00:07-05:00",
+       "paused": false
+      },
       "hr_now": "-325",
       "dk_sid": "0QA386329846#2352086502_13L42133Q1-1050779388Q20",
       "dk_eid": "34951599",
       "dk_link": "https://sportsbook.draftkings.com/event/34951599?outcomes=0QA386329846%232352086502_13L42133Q1-1050779388Q20",
-      "dk_live": "-285",
-      "bk_start": "2026-11-05T19:00-05:00"
+      "dk_live": "-300",
+      "bk_start": "2026-11-05T19:00-05:00",
+      "hr_live_label": {
+       "label": "Live HR price -325 as of 19:00 ET (game started; posted odds unchanged)",
+       "price": "-325",
+       "at": "2026-11-05T19:00:07-05:00",
+       "paused": false
+      }
      }
     ],
     "why": null,
@@ -359,7 +381,7 @@
      "odds": "-115",
      "game": "Ravens vs Jaguars 08:15 PM ET",
      "status": "Pending",
-     "why": "Volume: snaps L5 42/57/50/62/47 (L3 9.7 vs L10 8.1 touches+targets) | Hit: 8/10 at line, 4/5 (L10 avg 86.0 vs 48.5 line). Usage: snap L5 82% / szn 67% (7g) · tgt L5 30% / szn 29% (7g) (snaps nflverse/PFR thru Wk8; tgt/carry ESPN box thru 11/01; as of 11/05 4:46 PM ET). Matchup: JAX 29/32 vs pass yds (253.9/g allowed, favorable). Context: JAX -9.5 / O/U 40 (BAL TT 14.5) | Home · Prime. Injuries: BAL: none | JAX: Bhayshul Tuten (Questionable). Weather: 66°F, Cloudy, wind 4 mph. Risk: Normal variance at this line.",
+     "why": "Volume: snaps L5 42/57/50/62/47 (L3 9.7 vs L10 8.1 touches+targets) | Hit: 8/10 at line, 4/5 (L10 avg 86.0 vs 48.5 line). Usage: snap L5 82% / szn 67% (7g) · tgt L5 30% / szn 29% (7g) (snaps nflverse/PFR thru Wk8; tgt/carry ESPN box thru 11/01; as of 11/05 4:46 PM ET). Matchup: JAX 29/32 vs pass yds (253.9/g allowed, favorable). Context: JAX -9.5 / O/U 40 (BAL TT 14.5) | Home · Prime. Injuries: BAL: none | JAX: Bhayshul Tuten (Questionable). Weather: 67°F, Thunderstorms, wind 4 mph. Risk: Normal variance at this line.",
      "desc": "Zay Flowers Over 48.5 Receiving Yards -115 — Pending",
      "why_not": null,
      "why_src": "Volume: n/a (L3 9.7 vs L10 8.1 touches+targets) | Hit: 8/10 at O48.5, 4/5 | Matchup: Opp 4/32 vs Receiving Yards (TR) | Context: BAL +10.5 / O/U 40 | - | Home · Prime | Injuries: Jaylinn Hawkins, Adam Randall out | Opp out: Eric Murray, DaVon Hamilton | Weather: neutral (68F, wind 2 mph) | Risk: Normal variance at this line.",
@@ -397,15 +419,15 @@
          "name": "Bhayshul Tuten",
          "status": "Questionable",
          "pos": "RB",
-         "date": "2026-11-04"
+         "date": "2026-11-05"
         }
        ]
       },
       "weather": {
-       "text": "Cloudy",
-       "temp": 66,
+       "text": "Thunderstorms",
+       "temp": 67,
        "wind_mph": 4,
-       "wind_dir": 199
+       "wind_dir": 190
       },
       "usage": {
        "parts": [
@@ -425,33 +447,29 @@
       "Matchup: JAX 29/32 vs pass yds (253.9/g allowed, favorable)",
       "Context: JAX -9.5 / O/U 40 (BAL TT 14.5) | Home · Prime",
       "Injuries: BAL: none | JAX: Bhayshul Tuten (Questionable)",
-      "Weather: 66°F, Cloudy, wind 4 mph",
+      "Weather: 67°F, Thunderstorms, wind 4 mph",
       "Risk: Normal variance at this line"
      ],
      "sport": "NFL",
      "dk": {
-      "odds": "-104",
-      "na": false,
+      "odds": null,
+      "na": true,
       "ladder": [
        [
         "20+",
-        "-809"
+        "-900"
        ],
        [
         "30+",
-        "-355"
+        "-376"
        ],
        [
         "40+",
-        "-194"
-       ],
-       [
-        "49+",
-        "-104"
+        "-203"
        ],
        [
         "50+",
-        "-113"
+        "-122"
        ],
        [
         "60+",
@@ -463,7 +481,7 @@
        ],
        [
         "80+",
-        "+291"
+        "+276"
        ],
        [
         "90+",
@@ -479,7 +497,7 @@
        ],
        [
         "120+",
-        "+939"
+        "+1069"
        ],
        [
         "130+",
@@ -495,7 +513,7 @@
        ]
       ]
      },
-     "dk_odds": "-104",
+     "dk_odds": null,
      "hr_sid": "7411762715078820267",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7411762715078820267",
      "hr_live": "-125",
@@ -507,8 +525,8 @@
      },
      "dk_sid": null,
      "dk_link": null,
-     "dk_why": "Unverified link: unverified: DK market 'Parker Washington Receptions O/U' not in the stat table",
-     "dk_absent": false,
+     "dk_why": "line/side not offered on DraftKings Predictions right now",
+     "dk_absent": true,
      "bk_start": "2026-11-05T20:15-05:00"
     },
     "parlay": null
@@ -538,7 +556,7 @@
       "spread": -3.5,
       "total": 235.5,
       "team_totals": {
-       "MIA": 115.5,
+       "MIA": 116.5,
        "GSW": 119.5
       },
       "home": "GSW",
@@ -579,19 +597,19 @@
       "ladder": [
        [
         "10+",
-        "-1150"
+        "-900"
        ],
        [
         "12+",
-        "-488"
+        "-456"
        ],
        [
         "14+",
-        "-285"
+        "-270"
        ],
        [
         "16+",
-        "-186"
+        "-178"
        ],
        [
         "17+",
@@ -599,7 +617,7 @@
        ],
        [
         "18+",
-        "+108"
+        "+113"
        ],
        [
         "20+",
@@ -607,7 +625,7 @@
        ],
        [
         "22+",
-        "+235"
+        "+248"
        ],
        [
         "24+",
@@ -619,7 +637,7 @@
        ],
        [
         "28+",
-        "+835"
+        "+755"
        ],
        [
         "30+",
@@ -706,7 +724,7 @@
         "spread": -3.5,
         "total": 235.5,
         "team_totals": {
-         "MIA": 115.5,
+         "MIA": 116.5,
          "GSW": 119.5
         },
         "home": "GSW",
@@ -741,16 +759,16 @@
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-233",
+        "odds": "-245",
         "na": false,
         "ladder": [
          [
           "1+",
-          "-1567"
+          "-1329"
          ],
          [
           "2+",
-          "-233"
+          "-245"
          ],
          [
           "3+",
@@ -758,15 +776,31 @@
          ],
          [
           "4+",
-          "+308"
+          "+327"
          ],
          [
           "5+",
-          "+755"
+          "+835"
          ],
          [
           "6+",
           "+1459"
+         ],
+         [
+          "7+",
+          "+1784"
+         ],
+         [
+          "8+",
+          "+2222"
+         ],
+         [
+          "9+",
+          "+2222"
+         ],
+         [
+          "10+",
+          "+2222"
          ]
         ]
        },
@@ -785,7 +819,7 @@
        "odds": "-175",
        "game": "Suns vs Magic 09:00 PM ET",
        "status": "Pending",
-       "why": "Volume: L5 min 36/40/39/34/35 (L3 38.3 vs L10 36.4 min) | Hit: 8/10 at line, 4/5 (L10 avg 3.5 vs 2.5 line). Usage: USG L5 24.0% / szn 23.9% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET). Matchup: PHX 29/30 vs 3PM per LineMate (15.8/g allowed, favorable). Context: PHX -1.5 / O/U 222.5 (ORL TT 110.5) | Pace PHX 16/30, ORL 7/30 | Away. Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) (4/5 without Paolo Banchero) | PHX: none. Risk: Normal variance at this line.",
+       "why": "Volume: L5 min 36/40/39/34/35 (L3 38.3 vs L10 36.4 min) | Hit: 8/10 at line, 4/5 (L10 avg 3.5 vs 2.5 line). Usage: USG L5 24.0% / szn 23.9% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET). Matchup: PHX 29/30 vs 3PM per LineMate (15.8/g allowed, favorable). Context: PHX -1.5 / O/U 222.5 (ORL TT 111.5) | Pace PHX 16/30, ORL 7/30 | Away. Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) (4/5 without Paolo Banchero) | PHX: none. Risk: Normal variance at this line.",
        "why_not": null,
        "why_src": "Volume: L5 min 36/40/39/34/35 (L3 38.3 vs L10 36.4 min) | Hit: 8/10 at O2.5, 4/5 | Matchup: Opp 2/30 vs Threes Made | Context: ORL +1.5 / O/U 223.5 | opp pace 97.3 (26th) | Away | Injuries: Jonathan Isaac, Jalen Suggs out | Opp out: Jordan Goodwin | Weather: neutral | Risk: Normal variance at this line.",
        "ctx": {
@@ -803,7 +837,7 @@
         "spread": -1.5,
         "total": 222.5,
         "team_totals": {
-         "ORL": 110.5,
+         "ORL": 111.5,
          "PHX": 111.5
         },
         "home": "PHX",
@@ -850,7 +884,7 @@
         "Volume: L5 min 36/40/39/34/35 (L3 38.3 vs L10 36.4 min) | Hit: 8/10 at line, 4/5 (L10 avg 3.5 vs 2.5 line)",
         "Usage: USG L5 24.0% / szn 23.9% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET)",
         "Matchup: PHX 29/30 vs 3PM per LineMate (15.8/g allowed, favorable)",
-        "Context: PHX -1.5 / O/U 222.5 (ORL TT 110.5) | Pace PHX 16/30, ORL 7/30 | Away",
+        "Context: PHX -1.5 / O/U 222.5 (ORL TT 111.5) | Pace PHX 16/30, ORL 7/30 | Away",
         "Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) (4/5 without Paolo Banchero) | PHX: none",
         "Risk: Normal variance at this line"
        ],
@@ -859,8 +893,12 @@
         "na": false,
         "ladder": [
          [
+          "1+",
+          "-9900"
+         ],
+         [
           "2+",
-          "-614"
+          "-567"
          ],
          [
           "3+",
@@ -868,7 +906,7 @@
          ],
          [
           "4+",
-          "+133"
+          "+138"
          ],
          [
           "5+",
@@ -876,7 +914,7 @@
          ],
          [
           "6+",
-          "+617"
+          "+755"
          ],
          [
           "7+",
@@ -909,7 +947,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NBA",
-     "dk_odds": "+117",
+     "dk_odds": "+113",
      "hr_ticket": {
       "n": 2,
       "of": 2,
@@ -1026,21 +1064,18 @@
        [
         "3+",
         "+1249"
-       ],
-       [
-        "4+",
-        "+2222"
-       ],
-       [
-        "5+",
-        "+2222"
        ]
       ]
      },
      "dk_odds": "-138",
      "hr_sid": "8925686254763377045",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8925686254763377045",
-     "hr_live": "-110",
+     "hr_live": {
+      "label": "Live HR price -110 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "-110",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_now": "-110",
      "hr_ticket": {
       "n": 1,
@@ -1051,7 +1086,13 @@
      "dk_eid": "34951599",
      "dk_link": "https://sportsbook.draftkings.com/event/34951599?outcomes=0QA386287797%232351900941_13L42133Q1349793402Q20",
      "dk_live": "-138",
-     "bk_start": "2026-11-05T19:00-05:00"
+     "bk_start": "2026-11-05T19:00-05:00",
+     "hr_live_label": {
+      "label": "Live HR price -110 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "-110",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     "parlay": {
      "pick": "2-leg",
@@ -1066,7 +1107,7 @@
        "odds": "-185",
        "game": "Red Wings vs. Golden Knights 07:00 PM ET",
        "status": "Pending",
-       "why": "Volume: L10 TOI 19.6 avg (L3 20.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.5 vs 0.5 line). Usage: TOI L5 20.6 / L10 19.6 · PP TOI L5 3.1 / L10 3.5 · SAT L5 5.2 / L10 4.5 (api.nhle.com thru 11/03; as of 11/05 4:46 PM ET). Matchup: DET 12/32 vs goals (3.0/g allowed, neutral). Context: VGK -1.5 / O/U 6.5 (VGK TT 3.5) | Away. Injuries: VGK: Parker Wotherspoon (Injured Reserve) | DET: Albert Johansson (Injured Reserve), John Gibson (Out), Dylan Larkin (Injured Reserve). Risk: Normal variance at this line.",
+       "why": "Volume: L10 TOI 19.6 avg (L3 20.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.5 vs 0.5 line). Usage: TOI L5 20.6 / L10 19.6 · PP TOI L5 3.1 / L10 3.5 · SAT L5 5.2 / L10 4.5 (api.nhle.com thru 11/03; as of 11/05 4:46 PM ET). Matchup: DET 12/32 vs goals (3.0/g allowed, neutral). Context: VGK -1.5 / O/U 5.5 (VGK TT 3.5) | Away. Injuries: VGK: Parker Wotherspoon (Injured Reserve) | DET: Albert Johansson (Injured Reserve), John Gibson (Out), Dylan Larkin (Injured Reserve). Risk: Normal variance at this line.",
        "why_not": null,
        "why_src": "Volume: L10 TOI 19.6 avg (L3 20.3 vs L10 20.7 TOI) | Hit: 10/10 at O0.5, 5/5 | Matchup: Opp 21/32 vs Points (NHL API) | Context: VGK -1.5 / O/U 5.5 | - | Away | Injuries: Parker Wotherspoon out | Opp out: Albert Johansson, Dylan Larkin | Weather: neutral | Risk: Normal variance at this line.",
        "ctx": {
@@ -1083,7 +1124,7 @@
         },
         "fav": "VGK",
         "spread": -1.5,
-        "total": 6.5,
+        "total": 5.5,
         "team_totals": {
          "VGK": 3.5,
          "DET": 2.5
@@ -1148,25 +1189,25 @@
         "Volume: L10 TOI 19.6 avg (L3 20.3 vs L10 20.7 TOI) | Hit: 10/10 at line, 5/5 (L10 avg 1.5 vs 0.5 line)",
         "Usage: TOI L5 20.6 / L10 19.6 · PP TOI L5 3.1 / L10 3.5 · SAT L5 5.2 / L10 4.5 (api.nhle.com thru 11/03; as of 11/05 4:46 PM ET)",
         "Matchup: DET 12/32 vs goals (3.0/g allowed, neutral)",
-        "Context: VGK -1.5 / O/U 6.5 (VGK TT 3.5) | Away",
+        "Context: VGK -1.5 / O/U 5.5 (VGK TT 3.5) | Away",
         "Injuries: VGK: Parker Wotherspoon (Injured Reserve) | DET: Albert Johansson (Injured Reserve), John Gibson (Out), Dylan Larkin (Injured Reserve)",
         "Risk: Normal variance at this line"
        ],
        "dk": {
-        "odds": "-213",
+        "odds": "-223",
         "na": false,
         "ladder": [
          [
           "1+",
-          "-213"
+          "-223"
          ],
          [
           "2+",
-          "+223"
+          "+212"
          ],
          [
           "3+",
-          "+755"
+          "+835"
          ],
          [
           "4+",
@@ -1180,13 +1221,24 @@
        },
        "hr_sid": "3669181587708313998",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3669181587708313998",
-       "hr_live": "-190",
+       "hr_live": {
+        "label": "Live HR price -190 as of 19:00 ET (game started; posted odds unchanged)",
+        "price": "-190",
+        "at": "2026-11-05T19:00:07-05:00",
+        "paused": false
+       },
        "hr_now": "-190",
        "dk_sid": null,
        "dk_link": null,
        "dk_why": "player/market not on DraftKings Predictions",
        "dk_absent": true,
-       "bk_start": "2026-11-05T19:00-05:00"
+       "bk_start": "2026-11-05T19:00-05:00",
+       "hr_live_label": {
+        "label": "Live HR price -190 as of 19:00 ET (game started; posted odds unchanged)",
+        "price": "-190",
+        "at": "2026-11-05T19:00:07-05:00",
+        "paused": false
+       }
       },
       {
        "pick": "Evan Bouchard Over 0.5 Assists",
@@ -1290,8 +1342,8 @@
        },
        "hr_sid": "7229646632130838934",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7229646632130838934",
-       "hr_live": "-195",
-       "hr_now": "-195",
+       "hr_live": "-210",
+       "hr_now": "-210",
        "dk_sid": "0QA386247792#2351723398_13L42133Q11194366508Q20",
        "dk_eid": "34951600",
        "dk_link": "https://sportsbook.draftkings.com/event/34951600?outcomes=0QA386247792%232351723398_13L42133Q11194366508Q20",
@@ -1301,7 +1353,7 @@
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NHL",
-     "dk_odds": "+116",
+     "dk_odds": "+113",
      "hr_ticket": {
       "n": 2,
       "of": 2,
@@ -9726,7 +9778,11 @@
      "dk_link": null,
      "dk_why": "line/side not offered on DraftKings Predictions right now",
      "dk_absent": true,
-     "bk_start": "2026-11-05T21:00-05:00"
+     "bk_start": "2026-11-05T21:00-05:00",
+     "game": "ORL @ PHX",
+     "kick": "9:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -9743,7 +9799,11 @@
      "hr_absent": false,
      "dk_why": "line/side not offered on DraftKings Predictions right now",
      "dk_absent": true,
-     "bk_start": "2026-11-05T22:00-05:00"
+     "bk_start": "2026-11-05T22:00-05:00",
+     "game": "MIA @ GS",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -9805,13 +9865,28 @@
      "fam": "SOG",
      "hr_sid": "187809552526344616",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/187809552526344616",
-     "hr_live": "-230",
-     "hr_now": "-230",
+     "hr_live": {
+      "label": "Live HR price -250 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "-250",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
+     "hr_now": "-250",
      "dk_sid": "0QA386338274#2352115734_13L42133Q1943374178Q20",
      "dk_eid": "34951611",
      "dk_link": "https://sportsbook.draftkings.com/event/34951611?outcomes=0QA386338274%232352115734_13L42133Q1943374178Q20",
      "dk_live": "-156",
-     "bk_start": "2026-11-05T19:00-05:00"
+     "bk_start": "2026-11-05T19:00-05:00",
+     "game": "DAL @ CBJ",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false,
+     "hr_live_label": {
+      "label": "Live HR price -250 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "-250",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -9828,7 +9903,11 @@
      "hr_absent": false,
      "dk_why": "player/market not on DraftKings Predictions",
      "dk_absent": true,
-     "bk_start": "2026-11-05T20:00-05:00"
+     "bk_start": "2026-11-05T20:00-05:00",
+     "game": "ANA @ EDM",
+     "kick": "8:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NHL",
@@ -9839,13 +9918,28 @@
      "fam": "ML",
      "hr_sid": "5819371993354600876",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5819371993354600876",
-     "hr_live": "+125",
+     "hr_live": {
+      "label": "Live HR price +115 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+115",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_now": "+125",
      "dk_sid": "0QA385994662#2350576273_13L42133Q1-169641190Q20",
      "dk_eid": "34951597",
      "dk_link": "https://sportsbook.draftkings.com/event/34951597?outcomes=0QA385994662%232350576273_13L42133Q1-169641190Q20",
      "dk_live": "+122",
-     "bk_start": "2026-11-05T19:00-05:00"
+     "bk_start": "2026-11-05T19:00-05:00",
+     "game": "PHI @ NYR",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false,
+     "hr_live_label": {
+      "label": "Live HR price +115 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+115",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -9856,13 +9950,28 @@
      "fam": "Total",
      "hr_sid": "3445855387776057764",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3445855387776057764",
-     "hr_live": "-130",
+     "hr_live": {
+      "label": "Live HR price -130 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "-130",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_now": "-130",
      "dk_sid": "0QA386002935#2350605002_13L42133Q1627588615Q20",
      "dk_eid": "34951589",
      "dk_link": "https://sportsbook.draftkings.com/event/34951589?outcomes=0QA386002935%232350605002_13L42133Q1627588615Q20",
      "dk_live": "-138",
-     "bk_start": "2026-11-05T19:00-05:00"
+     "bk_start": "2026-11-05T19:00-05:00",
+     "game": "VGK @ DET",
+     "kick": "7:00 PM ET",
+     "started": false,
+     "final": false,
+     "hr_live_label": {
+      "label": "Live HR price -130 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "-130",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     }
    ]
   },
@@ -10261,7 +10370,11 @@
      "dk_link": null,
      "hr_absent": false,
      "dk_why": "player/market not on DraftKings Predictions",
-     "dk_absent": true
+     "dk_absent": true,
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -10272,12 +10385,16 @@
      "fam": "Receiving yds",
      "hr_sid": "3115191231613895049",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3115191231613895049",
-     "hr_live": "-120",
-     "hr_now": "-120",
+     "hr_live": "-125",
+     "hr_now": "-125",
      "dk_sid": "0QA385138224#2349718646_13L88808Q1-2068902432Q20",
      "dk_eid": "34118164",
      "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138224%232349718646_13L88808Q1-2068902432Q20",
-     "dk_live": "-138"
+     "dk_live": "-138",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -10293,7 +10410,11 @@
      "dk_sid": "0QA385138139#2346933658_13L88808Q1-1278560502Q20",
      "dk_eid": "34118164",
      "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138139%232346933658_13L88808Q1-1278560502Q20",
-     "dk_live": "-170"
+     "dk_live": "-170",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -10309,7 +10430,11 @@
      "dk_sid": "0QA386213688#2351564632_13L42648Q1-1115091407Q20",
      "dk_eid": "34937358",
      "dk_link": "https://sportsbook.draftkings.com/event/34937358?outcomes=0QA386213688%232351564632_13L42648Q1-1115091407Q20",
-     "dk_live": "-144"
+     "dk_live": "-144",
+     "game": "ORL @ PHX",
+     "kick": "9:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -10325,7 +10450,11 @@
      "dk_link": null,
      "hr_absent": false,
      "dk_why": "player/market not on DraftKings Predictions",
-     "dk_absent": true
+     "dk_absent": true,
+     "game": "MIA @ GS",
+     "kick": "10:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -10496,7 +10625,11 @@
      "dk_sid": "0QA385508153#2348756391_13L88808Q11605600600Q20",
      "dk_eid": "34118164",
      "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385508153%232348756391_13L88808Q11605600600Q20",
-     "dk_live": "+138"
+     "dk_live": "+138",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -10504,7 +10637,11 @@
      "pick": "Zay Flowers 4.5 Receptions \"O\" (BAL vs JAX; TNF Play Of The Day, POTD)",
      "odds": "+133 CZRs",
      "status": "Pending",
-     "fam": "Receptions"
+     "fam": "Receptions",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -10515,12 +10652,16 @@
      "fam": "Player points",
      "hr_sid": "7257196704145998232",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7257196704145998232",
-     "hr_live": "-135",
-     "hr_now": "-135",
-     "dk_sid": null,
-     "dk_link": null,
-     "dk_why": "line/side not offered on DraftKings Predictions right now",
-     "dk_absent": true
+     "hr_live": "-140",
+     "hr_now": "-140",
+     "dk_sid": "0QA386447133#2352549672_13L42648Q1-186261298Q20",
+     "dk_eid": "34937358",
+     "dk_link": "https://sportsbook.draftkings.com/event/34937358?outcomes=0QA386447133%232352549672_13L42648Q1-186261298Q20",
+     "dk_live": "-133",
+     "game": "ORL @ PHX",
+     "kick": "9:00 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NBA",
@@ -10536,7 +10677,11 @@
      "dk_sid": null,
      "dk_link": null,
      "dk_why": "line/side not offered on DraftKings Predictions right now",
-     "dk_absent": true
+     "dk_absent": true,
+     "game": "ORL @ PHX",
+     "kick": "9:00 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -10686,12 +10831,16 @@
      "fam": "Pass other",
      "hr_sid": "8380270851072852377",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8380270851072852377",
-     "hr_live": "-125",
-     "hr_now": "-125",
+     "hr_live": "-120",
+     "hr_now": "-120",
      "dk_sid": null,
      "dk_link": null,
      "dk_why": "player/market not on DraftKings Predictions",
-     "dk_absent": true
+     "dk_absent": true,
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -10707,7 +10856,11 @@
      "dk_link": null,
      "hr_absent": false,
      "dk_why": "player/market not on DraftKings Predictions",
-     "dk_absent": true
+     "dk_absent": true,
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -10723,7 +10876,11 @@
      "dk_link": null,
      "hr_absent": false,
      "dk_why": "Unverified link: mismatch: stat targets vs rec",
-     "dk_absent": false
+     "dk_absent": false,
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -10739,7 +10896,11 @@
      "dk_sid": "0QA385138139#2346933658_13L88808Q1-1278560502Q20",
      "dk_eid": "34118164",
      "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138139%232346933658_13L88808Q1-1278560502Q20",
-     "dk_live": "-170"
+     "dk_live": "-170",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -10890,24 +11051,28 @@
      "hr_sid": "6868061461558722991",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6868061461558722991",
      "hr_live": {
-      "label": "Live HR price +1100 as of 18:53 ET (game started; posted odds unchanged)",
+      "label": "Live HR price +1100 as of 19:00 ET (game started; posted odds unchanged)",
       "price": "+1100",
-      "at": "2026-11-05T18:53:08-05:00",
+      "at": "2026-11-05T19:00:07-05:00",
       "paused": false
      },
      "hr_live_label": {
-      "label": "Live HR price +1100 as of 18:53 ET (game started; posted odds unchanged)",
+      "label": "Live HR price +1100 as of 19:00 ET (game started; posted odds unchanged)",
       "price": "+1100",
-      "at": "2026-11-05T18:53:08-05:00",
+      "at": "2026-11-05T19:00:07-05:00",
       "paused": false
      },
-     "hr_now": "+800",
+     "hr_now": "+650",
      "dk_sid": null,
      "dk_link": null,
      "dk_why": "game already started (DraftKings Predictions market closed)",
      "dk_absent": false,
      "bk_started": true,
-     "bk_started_why": "game started"
+     "bk_started_why": "game started",
+     "game": "MCN @ UNT",
+     "kick": "5:00 PM ET",
+     "started": true,
+     "final": false
     },
     {
      "sport": "Tennis",
@@ -10940,7 +11105,11 @@
      "hr_absent": false,
      "dk_why": "line/side not offered on DraftKings Predictions right now",
      "dk_absent": true,
-     "bk_start": "2026-11-05T19:30-05:00"
+     "bk_start": "2026-11-05T19:30-05:00",
+     "game": "UTSA @ FAU",
+     "kick": "7:30 PM ET",
+     "started": false,
+     "final": false
     }
    ]
   },
@@ -11013,11 +11182,15 @@
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8174181326367359370",
      "hr_live": "-145",
      "hr_now": "-145",
-     "dk_sid": null,
-     "dk_link": null,
-     "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
-     "dk_absent": false,
-     "bk_start": "2026-11-05T20:15-05:00"
+     "dk_sid": "0QA385138781#2346936033_13L88808Q1-415292142Q20",
+     "dk_eid": "34118164",
+     "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138781%232346936033_13L88808Q1-415292142Q20",
+     "dk_live": "+113",
+     "bk_start": "2026-11-05T20:15-05:00",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -11034,7 +11207,11 @@
      "hr_absent": false,
      "dk_why": "line/side not offered on DraftKings Predictions right now",
      "dk_absent": true,
-     "bk_start": "2026-11-05T20:15-05:00"
+     "bk_start": "2026-11-05T20:15-05:00",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -11051,7 +11228,11 @@
      "hr_absent": false,
      "dk_why": "Unverified link: mismatch: stat tklast vs ast",
      "dk_absent": false,
-     "bk_start": "2026-11-05T20:15-05:00"
+     "bk_start": "2026-11-05T20:15-05:00",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false
     },
     {
      "sport": "NFL",
@@ -11059,7 +11240,39 @@
      "pick": "2-leg parlay: R. Smith o7.5 tackles + assists + A. Johnson u5.5 tackles + assists (JAC @ BAL 8:15 PM ET first leg; Action Network parlay 53185940, 0.2u)",
      "odds": "+180",
      "status": "Pending",
-     "fam": "Parlay"
+     "fam": "Parlay",
+     "game": "JAX @ BAL",
+     "kick": "8:15 PM ET",
+     "started": false,
+     "final": false,
+     "legs": [
+      {
+       "leg": "R. Smith o7.5 tackles",
+       "player": "R. Smith",
+       "game": "JAX @ BAL",
+       "kick": "8:15 PM ET",
+       "started": false,
+       "final": false
+      },
+      {
+       "leg": "assists",
+       "player": "assists",
+       "game": null
+      },
+      {
+       "leg": "A. Johnson u5.5 tackles",
+       "player": "A. Johnson",
+       "game": "JAX @ BAL",
+       "kick": "8:15 PM ET",
+       "started": false,
+       "final": false
+      },
+      {
+       "leg": "assists",
+       "player": "assists",
+       "game": null
+      }
+     ]
     }
    ]
   }
@@ -11111,7 +11324,7 @@
  "capper_today_date": "2026-11-05",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-05 06:49 PM ET",
+  "updated": "2026-11-05 06:55 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -19578,7 +19791,7 @@
      {
       "a": "WAKE",
       "h": "VAN",
-      "st": "2:31 - 1st"
+      "st": "0:29 - 1st"
      },
      {
       "a": "JAX",
@@ -19625,10 +19838,10 @@
   }
  },
  "clv": {
-  "built": "2026-11-05T18:49:51-05:00",
+  "built": "2026-11-05T18:55:51-05:00",
   "source": "/workspace/dashboard/clv.jsonl",
   "snapshots": {
-   "hr_close_files": 28,
+   "hr_close_files": 29,
    "dk_close_files": 2
   },
   "plays": [
@@ -21314,32 +21527,304 @@
     "close_at": "2026-11-04T19:28:29-05:00",
     "close_state": "final",
     "product": "@colbymbets"
+   },
+   {
+    "pick_id": "2026-11-05|parlay_leg|TODAY|mikhail sergachev over 0.5 points|canadiens v mammoth",
+    "pick": "Mikhail Sergachev Over 0.5 Points",
+    "section": "Parlay +100",
+    "section_key": "parlay_leg",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-150",
+    "close_odds": "-135",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": -2.55,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "TODAY"
+   },
+   {
+    "pick_id": "2026-11-05|parlay_leg|TODAY|neal pionk over 1.5 shots on goal|jets v canucks",
+    "pick": "Neal Pionk Over 1.5 Shots On Goal",
+    "section": "Parlay +100",
+    "section_key": "parlay_leg",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-260",
+    "close_odds": "-325",
+    "posted_line": 1.5,
+    "close_line": 1.5,
+    "clv_pct": 4.25,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "TODAY"
+   },
+   {
+    "pick_id": "2026-11-05|potd|NHL|brock boeser over 0.5 points|jets v canucks",
+    "pick": "Brock Boeser Over 0.5 Points",
+    "section": "Play of the Day",
+    "section_key": "potd",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-115",
+    "close_odds": "-110",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": -1.11,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|parlay_leg|NHL|mitch marner over 0.5 points|red wings v golden knights",
+    "pick": "Mitch Marner Over 0.5 Points",
+    "section": "Parlay +100",
+    "section_key": "parlay_leg",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-185",
+    "close_odds": "-185",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": 0.0,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|edge|NHL|anton frondell over 0.5 assists|lightning v blackhawks",
+    "pick": "Anton Frondell Over 0.5 Assists",
+    "section": "Edge",
+    "section_key": "edge",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "+275",
+    "close_odds": "+225",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": 4.1,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|edge|NHL|rickard rakell over 0.5 assists|penguins v bruins",
+    "pick": "Rickard Rakell Over 0.5 Assists",
+    "section": "Edge",
+    "section_key": "edge",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "+180",
+    "close_odds": "+120",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": 9.74,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|edge|NHL|brayden schenn over 0.5 goals|islanders v hurricanes",
+    "pick": "Brayden Schenn Over 0.5 Goals",
+    "section": "Edge",
+    "section_key": "edge",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "+400",
+    "close_odds": "+400",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": 0.0,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|edge|NHL|tommy novak over 0.5 assists|penguins v bruins",
+    "pick": "Tommy Novak Over 0.5 Assists",
+    "section": "Edge",
+    "section_key": "edge",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "+175",
+    "close_odds": "+160",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": 2.1,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|edge|NHL|chris kreider over 0.5 goals|canadiens v mammoth",
+    "pick": "Chris Kreider Over 0.5 Goals",
+    "section": "Edge",
+    "section_key": "edge",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "+375",
+    "close_odds": "+350",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": 1.17,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|edge|NHL|anders lee under 1.5 shots on goal|canadiens v mammoth",
+    "pick": "Anders Lee Under 1.5 Shots On Goal",
+    "section": "Edge",
+    "section_key": "edge",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "+135",
+    "close_odds": "+145",
+    "posted_line": 1.5,
+    "close_line": 1.5,
+    "clv_pct": -1.74,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|legday|NHL|david pastrnak over 0.5 assists|penguins v bruins",
+    "pick": "David Pastrnak Over 0.5 Assists",
+    "section": "LEG DAY",
+    "section_key": "legday",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-110",
+    "close_odds": "-120",
+    "posted_line": 0.5,
+    "close_line": 0.5,
+    "clv_pct": 2.16,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|legday|NHL|connor bedard over 2.5 shots on goal|lightning v blackhawks",
+    "pick": "Connor Bedard Over 2.5 Shots On Goal",
+    "section": "LEG DAY",
+    "section_key": "legday",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-125",
+    "close_odds": "-120",
+    "posted_line": 2.5,
+    "close_line": 2.5,
+    "clv_pct": -1.01,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|legday|NHL|jack eichel under 2.5 shots on goal|red wings v golden knights",
+    "pick": "Jack Eichel Under 2.5 Shots On Goal",
+    "section": "LEG DAY",
+    "section_key": "legday",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-120",
+    "close_odds": "-130",
+    "posted_line": 2.5,
+    "close_line": 2.5,
+    "clv_pct": 1.98,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|legday|NHL|jake debrusk under 2.5 shots on goal|jets v canucks",
+    "pick": "Jake DeBrusk Under 2.5 Shots On Goal",
+    "section": "LEG DAY",
+    "section_key": "legday",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-130",
+    "close_odds": "-130",
+    "posted_line": 2.5,
+    "close_line": 2.5,
+    "clv_pct": 0.0,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "NHL"
+   },
+   {
+    "pick_id": "2026-11-05|capper|@nickm_hockey|philadelphia flyers ml|",
+    "pick": "Philadelphia Flyers ML",
+    "section": "Cappers",
+    "section_key": "capper",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "+130",
+    "close_odds": "+125",
+    "posted_line": null,
+    "close_line": null,
+    "clv_pct": 0.97,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "@nickm_hockey"
+   },
+   {
+    "pick_id": "2026-11-05|capper|@nickm_hockey|vegas golden knights  detroit red wings over 5.5|",
+    "pick": "Vegas Golden Knights @ Detroit Red Wings Over 5.5",
+    "section": "Cappers",
+    "section_key": "capper",
+    "sport": "NHL",
+    "date": "2026-11-05",
+    "book": "Hard Rock",
+    "posted_odds": "-126",
+    "close_odds": "-130",
+    "posted_line": 5.5,
+    "close_line": 5.5,
+    "clv_pct": 0.77,
+    "close_at": "2026-11-05T18:54:02-05:00",
+    "close_state": "provisional",
+    "product": "@nickm_hockey"
    }
   ],
   "by_section": {
    "Edge": {
-    "count": 40,
-    "avg_clv": 1.87,
-    "beat_close": 31,
-    "beat_close_pct": 77.5
+    "count": 46,
+    "avg_clv": 1.96,
+    "beat_close": 35,
+    "beat_close_pct": 76.1
    },
    "LEG DAY": {
-    "count": 17,
-    "avg_clv": 1.7,
-    "beat_close": 9,
-    "beat_close_pct": 52.9
+    "count": 21,
+    "avg_clv": 1.52,
+    "beat_close": 11,
+    "beat_close_pct": 52.4
    },
    "Parlay +100": {
-    "count": 13,
-    "avg_clv": -0.36,
-    "beat_close": 3,
-    "beat_close_pct": 23.1
+    "count": 16,
+    "avg_clv": -0.18,
+    "beat_close": 4,
+    "beat_close_pct": 25.0
    },
    "Cappers": {
-    "count": 7,
-    "avg_clv": 3.23,
-    "beat_close": 5,
-    "beat_close_pct": 71.4
+    "count": 9,
+    "avg_clv": 2.71,
+    "beat_close": 7,
+    "beat_close_pct": 77.8
    },
    "First Blood": {
     "count": 7,
@@ -21347,17 +21832,17 @@
     "beat_close": 2,
     "beat_close_pct": 28.6
    },
+   "Play of the Day": {
+    "count": 6,
+    "avg_clv": -0.1,
+    "beat_close": 3,
+    "beat_close_pct": 50.0
+   },
    "THE HEIST": {
     "count": 6,
     "avg_clv": 1.16,
     "beat_close": 4,
     "beat_close_pct": 66.7
-   },
-   "Play of the Day": {
-    "count": 5,
-    "avg_clv": 0.1,
-    "beat_close": 3,
-    "beat_close_pct": 60.0
    },
    "Safe +100": {
     "count": 4,
@@ -21367,10 +21852,10 @@
    }
   },
   "totals": {
-   "count": 99,
-   "avg_clv": 1.38,
-   "beat_close": 58,
-   "beat_close_pct": 58.6
+   "count": 115,
+   "avg_clv": 1.36,
+   "beat_close": 67,
+   "beat_close_pct": 58.3
   },
   "error": null
  },
@@ -25202,7 +25687,7 @@
     "big4": null,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "-130",
+    "now": "-135",
     "hr_state": "absent",
     "hr_why": "Hard Rock does not list this line",
     "edge_single": true,
@@ -25213,11 +25698,11 @@
      "opp": null,
      "stat": null,
      "fav": "UTSA",
-     "spread": -6.5,
+     "spread": -7.5,
      "total": 72.5,
      "team_totals": {
-      "UTSA": 40.5,
-      "FAU": 32.5
+      "FAU": 31.5,
+      "UTSA": 41.5
      },
      "home": "FAU",
      "away": "UTSA",
@@ -25232,10 +25717,10 @@
       "UTSA": []
      },
      "weather": {
-      "text": "Mostly clear",
+      "text": "Partly cloudy",
       "temp": 78,
-      "wind_mph": 5,
-      "wind_dir": 49
+      "wind_mph": 6,
+      "wind_dir": 59
      },
      "game_day": {
       "sport": "NCAAF",
@@ -25339,6 +25824,17 @@
     "green_goalie_status": "projected",
     "green_goalie_sv_l5": 0.871,
     "green_sog_l5": 2.8,
+    "hr_sid": "4589013658088112520",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4589013658088112520",
+    "hr_live": {
+     "label": "Live HR price +225 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+225",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
+    "hr_now": "+225",
+    "hr_edge_live": 0.013,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +275 vs Pinnacle no-vig fair +221 (31.2%) → edge +16.88%. Clears the 4% Pinnacle edge floor at +16.88%. Price +275 is inside the preferred band (about -130 or better, or plus money).",
@@ -25561,12 +26057,12 @@
      "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
     ],
     "dk": {
-     "odds": "+186",
+     "odds": "+203",
      "na": false,
      "ladder": [
       [
        "1+",
-       "+186"
+       "+203"
       ],
       [
        "2+",
@@ -25577,13 +26073,19 @@
        "+2222"
       ]
      ],
-     "edge": -0.10860197368421054
+     "edge": -0.05561677631578965
     },
     "dk_sid": "0QA386239029#2351687617_13L42133Q11194366508Q20",
     "dk_eid": "34951598",
     "dk_link": "https://sportsbook.draftkings.com/event/34951598?outcomes=0QA386239029%232351687617_13L42133Q11194366508Q20",
-    "dk_live": "+186",
-    "dk_absent": null
+    "dk_live": "+203",
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +225 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+225",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -25615,6 +26117,17 @@
     "green_goalie_status": "projected",
     "green_goalie_sv_l5": 0.878,
     "green_sog_l5": 2.6,
+    "hr_sid": "1762779607993549210",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1762779607993549210",
+    "hr_live": {
+     "label": "Live HR price +120 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+120",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
+    "hr_now": "+120",
+    "hr_edge_live": -0.1025,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +180 vs Pinnacle no-vig fair +145 (40.8%) → edge +14.23%. Clears the 4% Pinnacle edge floor at +14.23%. Price +180 is inside the preferred band (about -130 or better, or plus money).",
@@ -25630,7 +26143,7 @@
       "gp": 16,
       "scale": "N/of, higher = more allowed (LineMate order)"
      },
-     "fav": "BOS",
+     "fav": "PIT",
      "spread": -1.5,
      "total": 6.5,
      "team_totals": {
@@ -25860,7 +26373,7 @@
       ],
       [
        "2+",
-       "+755"
+       "+675"
       ],
       [
        "3+",
@@ -25873,7 +26386,13 @@
     "dk_eid": "34951612",
     "dk_link": "https://sportsbook.draftkings.com/event/34951612?outcomes=0QA386277078%232351828724_13L42133Q11194366508Q20",
     "dk_live": "+138",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +120 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+120",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -25904,6 +26423,14 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.852,
     "green_sog_l5": 1.4,
+    "hr_sid": "5447290111152751019",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5447290111152751019",
+    "hr_live": {
+     "label": "Live HR price +400 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+400",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +400 vs Pinnacle no-vig fair +349 (22.3%) → edge +11.29%. Clears the 4% Pinnacle edge floor at +11.29%. Price +400 is inside the preferred band (about -130 or better, or plus money).",
@@ -26170,7 +26697,13 @@
     "dk_eid": "34951596",
     "dk_link": "https://sportsbook.draftkings.com/event/34951596?outcomes=0QA386204232%232351508301_13L42133Q11450764349Q20",
     "dk_live": "+327",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +400 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+400",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -26191,7 +26724,7 @@
     "big4": true,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "+165",
+    "now": "+160",
     "green_circle": false,
     "green_status": "projected",
     "green_why": "Opp BOS 3.2 GA/gp L5 < 3.4 · G Jeremy Swayman 0.878 SV% L5 (projected) < .897 · SOG L5 2.2 < 2.5",
@@ -26201,6 +26734,17 @@
     "green_goalie_status": "projected",
     "green_goalie_sv_l5": 0.878,
     "green_sog_l5": 2.2,
+    "hr_sid": "3765122223568978339",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3765122223568978339",
+    "hr_live": {
+     "label": "Live HR price +160 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+160",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
+    "hr_now": "+160",
+    "hr_edge_live": 0.0474,
+    "hr_edge_gone": false,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +175 vs Pinnacle no-vig fair +148 (40.3%) → edge +10.78%. Clears the 4% Pinnacle edge floor at +10.78%. Price +175 is inside the preferred band (about -130 or better, or plus money).",
@@ -26216,7 +26760,7 @@
       "gp": 16,
       "scale": "N/of, higher = more allowed (LineMate order)"
      },
-     "fav": "BOS",
+     "fav": "PIT",
      "spread": -1.5,
      "total": 6.5,
      "team_totals": {
@@ -26459,7 +27003,13 @@
     "dk_eid": "34951612",
     "dk_link": "https://sportsbook.draftkings.com/event/34951612?outcomes=0QA386277077%232351828722_13L42133Q11194366508Q20",
     "dk_live": "+133",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +160 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+160",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -26480,7 +27030,7 @@
     "big4": true,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "+180",
+    "now": "+190",
     "green_circle": true,
     "green_status": "confirmed",
     "green_why": "Opp PIT 2.8 GA/gp L5 < 3.4 · G Arturs Silovs 0.899 SV% L5 (confirmed) >= .897 · SOG L5 2.0 < 2.5",
@@ -26490,6 +27040,14 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.899,
     "green_sog_l5": 2.0,
+    "hr_sid": "2342899534994211220",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2342899534994211220",
+    "hr_live": {
+     "label": "Live HR price +190 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+190",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -26517,7 +27075,13 @@
     "dk_eid": "34951612",
     "dk_link": "https://sportsbook.draftkings.com/event/34951612?outcomes=0QA386255009%232351754600_13L42133Q11194366508Q20",
     "dk_live": "+170",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +190 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+190",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -26548,6 +27112,9 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.908,
     "green_sog_l5": 1.2,
+    "hr_sid": "8939332237741130133",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8939332237741130133",
+    "hr_live": "+275",
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +275 vs Pinnacle no-vig fair +244 (29.1%) → edge +9.07%. Clears the 4% Pinnacle edge floor at +9.07%. Price +275 is inside the preferred band (about -130 or better, or plus money).",
@@ -26828,6 +27395,17 @@
     "green_goalie_status": "projected",
     "green_goalie_sv_l5": 0.88,
     "green_sog_l5": 1.4,
+    "hr_sid": "7598009862391464327",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7598009862391464327",
+    "hr_live": {
+     "label": "Live HR price +350 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+350",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
+    "hr_now": "+350",
+    "hr_edge_live": 0.0261,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +375 vs Pinnacle no-vig fair +339 (22.8%) → edge +8.31%. Clears the 4% Pinnacle edge floor at +8.31%. Price +375 is inside the preferred band (about -130 or better, or plus money).",
@@ -27099,7 +27677,13 @@
     "dk_eid": "34951594",
     "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386204031%232351505161_13L42133Q1-1305813313Q20",
     "dk_live": "+346",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +350 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+350",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -27133,6 +27717,12 @@
     "sog_l10": 1.4,
     "sog_l10_n": 10,
     "sog_agree": true,
+    "hr_sid": "4326654459825488276",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4326654459825488276",
+    "hr_live": "+140",
+    "hr_now": "+140",
+    "hr_edge_live": 0.0579,
+    "hr_edge_gone": false,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +145 vs Pinnacle no-vig fair +127 (44.1%) → edge +8.00%. Clears the 4% Pinnacle edge floor at +8.00%. Price +145 is inside the preferred band (about -130 or better, or plus money).",
@@ -27415,7 +28005,7 @@
     "big4": true,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "+160",
+    "now": "+165",
     "green_circle": false,
     "green_status": "projected",
     "green_why": "Opp ANA 4.8 GA/gp L5 >= 3.4 · G Laurent Brossoit 0.812 SV% L5 (projected) < .897 · SOG L5 2.8 >= 2.5",
@@ -27425,6 +28015,12 @@
     "green_goalie_status": "projected",
     "green_goalie_sv_l5": 0.812,
     "green_sog_l5": 2.8,
+    "hr_sid": "9219252505010110866",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/9219252505010110866",
+    "hr_live": "+165",
+    "hr_now": "+165",
+    "hr_edge_live": 0.1154,
+    "hr_edge_gone": false,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +155 vs Pinnacle no-vig fair +138 (42.1%) → edge +7.33%. Clears the 4% Pinnacle edge floor at +7.33%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
@@ -27716,6 +28312,12 @@
     "sog_l10": 1.6,
     "sog_l10_n": 10,
     "sog_agree": true,
+    "hr_sid": "1205807252615856543",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1205807252615856543",
+    "hr_live": "+105",
+    "hr_now": "+105",
+    "hr_edge_live": 0.0418,
+    "hr_edge_gone": false,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +110 vs Pinnacle no-vig fair -103 (50.8%) → edge +6.72%. Clears the 4% Pinnacle edge floor at +6.72%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
@@ -27997,6 +28599,14 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.876,
     "green_sog_l5": 1.6,
+    "hr_sid": "3780145950450909608",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3780145950450909608",
+    "hr_live": {
+     "label": "Live HR price +260 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+260",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -28024,7 +28634,13 @@
     "dk_eid": "34951597",
     "dk_link": "https://sportsbook.draftkings.com/event/34951597?outcomes=0QA386229543%232351650143_13L42133Q11194366508Q20",
     "dk_live": "+247",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +260 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+260",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -28045,7 +28661,7 @@
     "big4": true,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "+135",
+    "now": "+140",
     "green_circle": false,
     "green_status": "confirmed",
     "green_why": "Opp PHI 4.2 GA/gp L5 >= 3.4 · G Joseph Woll 0.876 SV% L5 (confirmed) < .897 · SOG L5 2.8 >= 2.5",
@@ -28055,6 +28671,14 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.876,
     "green_sog_l5": 2.8,
+    "hr_sid": "3109954030902837677",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3109954030902837677",
+    "hr_live": {
+     "label": "Live HR price +140 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+140",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -28082,7 +28706,13 @@
     "dk_eid": "34951597",
     "dk_link": "https://sportsbook.draftkings.com/event/34951597?outcomes=0QA386229517%232351648547_13L42133Q11194366508Q20",
     "dk_live": "+127",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +140 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+140",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -28113,6 +28743,14 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.889,
     "green_sog_l5": 2.2,
+    "hr_sid": "2287202673977590159",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2287202673977590159",
+    "hr_live": {
+     "label": "Live HR price +240 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+240",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -28140,7 +28778,13 @@
     "dk_eid": "34951597",
     "dk_link": "https://sportsbook.draftkings.com/event/34951597?outcomes=0QA386238805%232351686689_13L42133Q11194366508Q20",
     "dk_live": "+224",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +240 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+240",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -28161,7 +28805,7 @@
     "big4": true,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "-115",
+    "now": "-110",
     "green_circle": true,
     "green_status": "confirmed",
     "green_why": "Opp EDM 1.8 GA/gp L5 < 3.4 · G Matt Tomkins 0.964 SV% L5 (confirmed) >= .897 · SOG L5 2.0 < 2.5",
@@ -28174,6 +28818,12 @@
     "sog_l10": 2.3,
     "sog_l10_n": 10,
     "sog_agree": true,
+    "hr_sid": "6688792464381313426",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6688792464381313426",
+    "hr_live": "-110",
+    "hr_now": "-110",
+    "hr_edge_live": 0.0301,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock -105 vs Pinnacle no-vig fair -117 (54.0%) → edge +5.35%. Clears the 4% Pinnacle edge floor at +5.35%. Price -105 is inside the preferred band (about -130 or better, or plus money).",
@@ -28458,6 +29108,9 @@
     "sog_l10": 1.9,
     "sog_l10_n": 10,
     "sog_agree": false,
+    "hr_sid": "8153454102764978578",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8153454102764978578",
+    "hr_live": "+110",
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +110 vs Pinnacle no-vig fair -100 (50.0%) → edge +5.00%. Clears the 4% Pinnacle edge floor at +5.00%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
@@ -28691,15 +29344,15 @@
      "Risk: Price edge only"
     ],
     "dk": {
-     "odds": "-133",
+     "odds": "-127",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-133"
+       "-127"
       ]
      ],
-     "edge": -0.12406015037593987
+     "edge": -0.10629921259842523
     },
     "dk_why": "Unverified link: player/market not on DraftKings Predictions",
     "dk_sid": null,
@@ -28738,6 +29391,9 @@
     "sog_l10": 2.8,
     "sog_l10_n": 10,
     "sog_agree": false,
+    "hr_sid": "8986901508805230994",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8986901508805230994",
+    "hr_live": "-110",
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -28778,7 +29434,7 @@
     "big4": true,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "+135",
+    "now": "+145",
     "green_circle": false,
     "green_status": "confirmed",
     "green_why": "Opp MTL 2.4 GA/gp L5 < 3.4 · G Jakub Dobes 0.837 SV% L5 (confirmed) < .897 · SOG L5 2.2 < 2.5",
@@ -28791,8 +29447,18 @@
     "sog_l10": 1.8,
     "sog_l10_n": 10,
     "sog_agree": false,
-    "hr_state": "absent",
-    "hr_why": "Hard Rock does not list this line",
+    "hr_sid": "7093606704125968775",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7093606704125968775",
+    "hr_live": {
+     "label": "Live HR price +140 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+140",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
+    "hr_now": "+145",
+    "hr_edge_live": 0.0907,
+    "hr_edge_gone": false,
+    "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +135 vs Pinnacle no-vig fair +125 (44.5%) → edge +4.61%. Clears the 4% Pinnacle edge floor at +4.61%. Price +135 is inside the preferred band (about -130 or better, or plus money).",
     "ctx": {
@@ -29055,7 +29721,13 @@
     "dk_eid": "34951594",
     "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386221872%232351591860_13L42133Q1-975679027Q20",
     "dk_live": "-163",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +140 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+140",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -29086,6 +29758,14 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.891,
     "green_sog_l5": 1.6,
+    "hr_sid": "5566565132533891464",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5566565132533891464",
+    "hr_live": {
+     "label": "Live HR price +150 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+150",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -29100,11 +29780,11 @@
       ],
       [
        "2+",
-       "+617"
+       "+675"
       ],
       [
        "3+",
-       "+2222"
+       "+1784"
       ]
      ],
      "edge": -0.07295934446895702
@@ -29113,7 +29793,13 @@
     "dk_eid": "34951596",
     "dk_link": "https://sportsbook.draftkings.com/event/34951596?outcomes=0QA386277737%232351830858_13L42133Q11194366508Q20",
     "dk_live": "+122",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +150 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+150",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -29144,6 +29830,9 @@
     "green_goalie_status": "projected",
     "green_goalie_sv_l5": 0.812,
     "green_sog_l5": 1.4,
+    "hr_sid": "3498414340854383005",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3498414340854383005",
+    "hr_live": "+240",
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -29202,6 +29891,9 @@
     "green_goalie_status": "projected",
     "green_goalie_sv_l5": 0.913,
     "green_sog_l5": 3.4,
+    "hr_sid": "874792680004125077",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/874792680004125077",
+    "hr_live": "+185",
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -29216,7 +29908,7 @@
       ],
       [
        "3+",
-       "+4496"
+       "+8909"
       ]
      ]
     },
@@ -29245,7 +29937,7 @@
     "big4": true,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "+165",
+    "now": "+170",
     "green_circle": false,
     "green_status": "confirmed",
     "green_why": "Opp MTL 2.4 GA/gp L5 < 3.4 · G Jakub Dobes 0.837 SV% L5 (confirmed) < .897 · SOG L5 2.4 < 2.5",
@@ -29255,6 +29947,14 @@
     "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.837,
     "green_sog_l5": 2.4,
+    "hr_sid": "8875343306704421261",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8875343306704421261",
+    "hr_live": {
+     "label": "Live HR price +170 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+170",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_state": "open",
     "locked": true,
     "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -29269,7 +29969,7 @@
       ],
       [
        "2+",
-       "+835"
+       "+755"
       ],
       [
        "3+",
@@ -29282,7 +29982,13 @@
     "dk_eid": "34951594",
     "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386220676%232351587904_13L42133Q11194366508Q20",
     "dk_live": "+138",
-    "dk_absent": null
+    "dk_absent": null,
+    "hr_live_label": {
+     "label": "Live HR price +170 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "+170",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NBA",
@@ -29296,14 +30002,20 @@
     "edge": 0.048678916120318494,
     "result": "Pending",
     "picked_et": "7:10 AM ET",
-    "why": "Volume: min L5 38,40,39,34,37 | Hit: 7/10 at line (L10 avg 6.3 vs 6.5 line) · vs PHX 1/1. Usage: USG L5 29.5% / szn 30.2% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET). Matchup: PHX 20/30 vs assists (27.0/g allowed, unfavorable). Context: PHX -1.5 / O/U 222.5 (ORL TT 110.5) | Pace PHX 16/30, ORL 7/30 | Away. Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) | PHX: none. Risk: Tough matchup: PHX 20/30 vs assists.",
+    "why": "Volume: min L5 38,40,39,34,37 | Hit: 7/10 at line (L10 avg 6.3 vs 6.5 line) · vs PHX 1/1. Usage: USG L5 29.5% / szn 30.2% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET). Matchup: PHX 20/30 vs assists (27.0/g allowed, unfavorable). Context: PHX -1.5 / O/U 222.5 (ORL TT 111.5) | Pace PHX 16/30, ORL 7/30 | Away. Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) | PHX: none. Risk: Tough matchup: PHX 20/30 vs assists.",
     "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
     "grade": "A",
     "grade_why": "+4.9% vs Pinnacle",
     "big4": true,
     "big4_only": null,
     "big_edge_assist": null,
-    "now": "-105",
+    "now": "+100",
+    "hr_sid": "2291649670230966686",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2291649670230966686",
+    "hr_live": "+100",
+    "hr_now": "+100",
+    "hr_edge_live": 0.0743,
+    "hr_edge_gone": false,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock -105 vs Pinnacle no-vig fair -116 (53.7%) → edge +4.87%. Clears the 4% Pinnacle edge floor at +4.87%. Price -105 is inside the preferred band (about -130 or better, or plus money).",
@@ -29323,7 +30035,7 @@
      "spread": -1.5,
      "total": 222.5,
      "team_totals": {
-      "ORL": 110.5,
+      "ORL": 111.5,
       "PHX": 111.5
      },
      "home": "PHX",
@@ -29370,7 +30082,7 @@
      "Volume: min L5 38,40,39,34,37 | Hit: 7/10 at line (L10 avg 6.3 vs 6.5 line) · vs PHX 1/1",
      "Usage: USG L5 29.5% / szn 30.2% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET)",
      "Matchup: PHX 20/30 vs assists (27.0/g allowed, unfavorable)",
-     "Context: PHX -1.5 / O/U 222.5 (ORL TT 110.5) | Pace PHX 16/30, ORL 7/30 | Away",
+     "Context: PHX -1.5 / O/U 222.5 (ORL TT 111.5) | Pace PHX 16/30, ORL 7/30 | Away",
      "Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) | PHX: none",
      "Risk: Tough matchup: PHX 20/30 vs assists"
     ],
@@ -29422,6 +30134,17 @@
      "green_goalie_status": "projected",
      "green_goalie_sv_l5": 0.871,
      "green_sog_l5": 2.8,
+     "hr_sid": "4589013658088112520",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4589013658088112520",
+     "hr_live": {
+      "label": "Live HR price +225 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+225",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
+     "hr_now": "+225",
+     "hr_edge_live": 0.013,
+     "hr_edge_gone": true,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +275 vs Pinnacle no-vig fair +221 (31.2%) → edge +16.88%. Clears the 4% Pinnacle edge floor at +16.88%. Price +275 is inside the preferred band (about -130 or better, or plus money).",
@@ -29644,12 +30367,12 @@
       "Risk: Plus-money one-outcome prop: hits well under half the time even with the edge"
      ],
      "dk": {
-      "odds": "+186",
+      "odds": "+203",
       "na": false,
       "ladder": [
        [
         "1+",
-        "+186"
+        "+203"
        ],
        [
         "2+",
@@ -29660,13 +30383,19 @@
         "+2222"
        ]
       ],
-      "edge": -0.10860197368421054
+      "edge": -0.05561677631578965
      },
      "dk_sid": "0QA386239029#2351687617_13L42133Q11194366508Q20",
      "dk_eid": "34951598",
      "dk_link": "https://sportsbook.draftkings.com/event/34951598?outcomes=0QA386239029%232351687617_13L42133Q11194366508Q20",
-     "dk_live": "+186",
-     "dk_absent": null
+     "dk_live": "+203",
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +225 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+225",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -29695,6 +30424,17 @@
      "green_goalie_status": "projected",
      "green_goalie_sv_l5": 0.878,
      "green_sog_l5": 2.6,
+     "hr_sid": "1762779607993549210",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1762779607993549210",
+     "hr_live": {
+      "label": "Live HR price +120 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+120",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
+     "hr_now": "+120",
+     "hr_edge_live": -0.1025,
+     "hr_edge_gone": true,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +180 vs Pinnacle no-vig fair +145 (40.8%) → edge +14.23%. Clears the 4% Pinnacle edge floor at +14.23%. Price +180 is inside the preferred band (about -130 or better, or plus money).",
@@ -29710,7 +30450,7 @@
        "gp": 16,
        "scale": "N/of, higher = more allowed (LineMate order)"
       },
-      "fav": "BOS",
+      "fav": "PIT",
       "spread": -1.5,
       "total": 6.5,
       "team_totals": {
@@ -29940,7 +30680,7 @@
        ],
        [
         "2+",
-        "+755"
+        "+675"
        ],
        [
         "3+",
@@ -29953,7 +30693,13 @@
      "dk_eid": "34951612",
      "dk_link": "https://sportsbook.draftkings.com/event/34951612?outcomes=0QA386277078%232351828724_13L42133Q11194366508Q20",
      "dk_live": "+138",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +120 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+120",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -29981,6 +30727,14 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.852,
      "green_sog_l5": 1.4,
+     "hr_sid": "5447290111152751019",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5447290111152751019",
+     "hr_live": {
+      "label": "Live HR price +400 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+400",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +400 vs Pinnacle no-vig fair +349 (22.3%) → edge +11.29%. Clears the 4% Pinnacle edge floor at +11.29%. Price +400 is inside the preferred band (about -130 or better, or plus money).",
@@ -30247,7 +31001,13 @@
      "dk_eid": "34951596",
      "dk_link": "https://sportsbook.draftkings.com/event/34951596?outcomes=0QA386204232%232351508301_13L42133Q11450764349Q20",
      "dk_live": "+327",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +400 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+400",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -30275,6 +31035,17 @@
      "green_goalie_status": "projected",
      "green_goalie_sv_l5": 0.878,
      "green_sog_l5": 2.2,
+     "hr_sid": "3765122223568978339",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3765122223568978339",
+     "hr_live": {
+      "label": "Live HR price +160 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+160",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
+     "hr_now": "+160",
+     "hr_edge_live": 0.0474,
+     "hr_edge_gone": false,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +175 vs Pinnacle no-vig fair +148 (40.3%) → edge +10.78%. Clears the 4% Pinnacle edge floor at +10.78%. Price +175 is inside the preferred band (about -130 or better, or plus money).",
@@ -30290,7 +31061,7 @@
        "gp": 16,
        "scale": "N/of, higher = more allowed (LineMate order)"
       },
-      "fav": "BOS",
+      "fav": "PIT",
       "spread": -1.5,
       "total": 6.5,
       "team_totals": {
@@ -30533,7 +31304,13 @@
      "dk_eid": "34951612",
      "dk_link": "https://sportsbook.draftkings.com/event/34951612?outcomes=0QA386277077%232351828722_13L42133Q11194366508Q20",
      "dk_live": "+133",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +160 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+160",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -30561,6 +31338,14 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.899,
      "green_sog_l5": 2.0,
+     "hr_sid": "2342899534994211220",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2342899534994211220",
+     "hr_live": {
+      "label": "Live HR price +190 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+190",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -30588,7 +31373,13 @@
      "dk_eid": "34951612",
      "dk_link": "https://sportsbook.draftkings.com/event/34951612?outcomes=0QA386255009%232351754600_13L42133Q11194366508Q20",
      "dk_live": "+170",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +190 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+190",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -30616,6 +31407,9 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.908,
      "green_sog_l5": 1.2,
+     "hr_sid": "8939332237741130133",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8939332237741130133",
+     "hr_live": "+275",
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +275 vs Pinnacle no-vig fair +244 (29.1%) → edge +9.07%. Clears the 4% Pinnacle edge floor at +9.07%. Price +275 is inside the preferred band (about -130 or better, or plus money).",
@@ -30893,6 +31687,17 @@
      "green_goalie_status": "projected",
      "green_goalie_sv_l5": 0.88,
      "green_sog_l5": 1.4,
+     "hr_sid": "7598009862391464327",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7598009862391464327",
+     "hr_live": {
+      "label": "Live HR price +350 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+350",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
+     "hr_now": "+350",
+     "hr_edge_live": 0.0261,
+     "hr_edge_gone": true,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +375 vs Pinnacle no-vig fair +339 (22.8%) → edge +8.31%. Clears the 4% Pinnacle edge floor at +8.31%. Price +375 is inside the preferred band (about -130 or better, or plus money).",
@@ -31164,7 +31969,13 @@
      "dk_eid": "34951594",
      "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386204031%232351505161_13L42133Q1-1305813313Q20",
      "dk_live": "+346",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +350 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+350",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -31195,6 +32006,12 @@
      "sog_l10": 1.4,
      "sog_l10_n": 10,
      "sog_agree": true,
+     "hr_sid": "4326654459825488276",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4326654459825488276",
+     "hr_live": "+140",
+     "hr_now": "+140",
+     "hr_edge_live": 0.0579,
+     "hr_edge_gone": false,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +145 vs Pinnacle no-vig fair +127 (44.1%) → edge +8.00%. Clears the 4% Pinnacle edge floor at +8.00%. Price +145 is inside the preferred band (about -130 or better, or plus money).",
@@ -31484,6 +32301,12 @@
      "green_goalie_status": "projected",
      "green_goalie_sv_l5": 0.812,
      "green_sog_l5": 2.8,
+     "hr_sid": "9219252505010110866",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/9219252505010110866",
+     "hr_live": "+165",
+     "hr_now": "+165",
+     "hr_edge_live": 0.1154,
+     "hr_edge_gone": false,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +155 vs Pinnacle no-vig fair +138 (42.1%) → edge +7.33%. Clears the 4% Pinnacle edge floor at +7.33%. Price +155 is inside the preferred band (about -130 or better, or plus money).",
@@ -31772,6 +32595,12 @@
      "sog_l10": 1.6,
      "sog_l10_n": 10,
      "sog_agree": true,
+     "hr_sid": "1205807252615856543",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1205807252615856543",
+     "hr_live": "+105",
+     "hr_now": "+105",
+     "hr_edge_live": 0.0418,
+     "hr_edge_gone": false,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +110 vs Pinnacle no-vig fair -103 (50.8%) → edge +6.72%. Clears the 4% Pinnacle edge floor at +6.72%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
@@ -32050,6 +32879,14 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.876,
      "green_sog_l5": 1.6,
+     "hr_sid": "3780145950450909608",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3780145950450909608",
+     "hr_live": {
+      "label": "Live HR price +260 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+260",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -32077,7 +32914,13 @@
      "dk_eid": "34951597",
      "dk_link": "https://sportsbook.draftkings.com/event/34951597?outcomes=0QA386229543%232351650143_13L42133Q11194366508Q20",
      "dk_live": "+247",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +260 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+260",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -32105,6 +32948,14 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.876,
      "green_sog_l5": 2.8,
+     "hr_sid": "3109954030902837677",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3109954030902837677",
+     "hr_live": {
+      "label": "Live HR price +140 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+140",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -32132,7 +32983,13 @@
      "dk_eid": "34951597",
      "dk_link": "https://sportsbook.draftkings.com/event/34951597?outcomes=0QA386229517%232351648547_13L42133Q11194366508Q20",
      "dk_live": "+127",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +140 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+140",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -32160,6 +33017,14 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.889,
      "green_sog_l5": 2.2,
+     "hr_sid": "2287202673977590159",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2287202673977590159",
+     "hr_live": {
+      "label": "Live HR price +240 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+240",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -32187,7 +33052,13 @@
      "dk_eid": "34951597",
      "dk_link": "https://sportsbook.draftkings.com/event/34951597?outcomes=0QA386238805%232351686689_13L42133Q11194366508Q20",
      "dk_live": "+224",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +240 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+240",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -32218,6 +33089,12 @@
      "sog_l10": 2.3,
      "sog_l10_n": 10,
      "sog_agree": true,
+     "hr_sid": "6688792464381313426",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6688792464381313426",
+     "hr_live": "-110",
+     "hr_now": "-110",
+     "hr_edge_live": 0.0301,
+     "hr_edge_gone": true,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock -105 vs Pinnacle no-vig fair -117 (54.0%) → edge +5.35%. Clears the 4% Pinnacle edge floor at +5.35%. Price -105 is inside the preferred band (about -130 or better, or plus money).",
@@ -32499,6 +33376,9 @@
      "sog_l10": 1.9,
      "sog_l10_n": 10,
      "sog_agree": false,
+     "hr_sid": "8153454102764978578",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8153454102764978578",
+     "hr_live": "+110",
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +110 vs Pinnacle no-vig fair -100 (50.0%) → edge +5.00%. Clears the 4% Pinnacle edge floor at +5.00%. Price +110 is inside the preferred band (about -130 or better, or plus money).",
@@ -32732,15 +33612,15 @@
       "Risk: Price edge only"
      ],
      "dk": {
-      "odds": "-133",
+      "odds": "-127",
       "na": false,
       "ladder": [
        [
         "u1.5",
-        "-133"
+        "-127"
        ]
       ],
-      "edge": -0.12406015037593987
+      "edge": -0.10629921259842523
      },
      "dk_why": "Unverified link: player/market not on DraftKings Predictions",
      "dk_sid": null,
@@ -32759,11 +33639,17 @@
      "edge": 0.048678916120318494,
      "result": "Pending",
      "picked_et": "7:10 AM ET",
-     "why": "Volume: min L5 38,40,39,34,37 | Hit: 7/10 at line (L10 avg 6.3 vs 6.5 line) · vs PHX 1/1. Usage: USG L5 29.5% / szn 30.2% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET). Matchup: PHX 20/30 vs assists (27.0/g allowed, unfavorable). Context: PHX -1.5 / O/U 222.5 (ORL TT 110.5) | Pace PHX 16/30, ORL 7/30 | Away. Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) | PHX: none. Risk: Tough matchup: PHX 20/30 vs assists.",
+     "why": "Volume: min L5 38,40,39,34,37 | Hit: 7/10 at line (L10 avg 6.3 vs 6.5 line) · vs PHX 1/1. Usage: USG L5 29.5% / szn 30.2% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET). Matchup: PHX 20/30 vs assists (27.0/g allowed, unfavorable). Context: PHX -1.5 / O/U 222.5 (ORL TT 111.5) | Pace PHX 16/30, ORL 7/30 | Away. Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) | PHX: none. Risk: Tough matchup: PHX 20/30 vs assists.",
      "why_not": "No threshold miss; normal single-game variance and closing-line risk.",
      "grade": "A",
      "grade_why": "+4.9% vs Pinnacle",
      "big_edge_assist": null,
+     "hr_sid": "2291649670230966686",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2291649670230966686",
+     "hr_live": "+100",
+     "hr_now": "+100",
+     "hr_edge_live": 0.0743,
+     "hr_edge_gone": false,
      "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock -105 vs Pinnacle no-vig fair -116 (53.7%) → edge +4.87%. Clears the 4% Pinnacle edge floor at +4.87%. Price -105 is inside the preferred band (about -130 or better, or plus money).",
@@ -32783,7 +33669,7 @@
       "spread": -1.5,
       "total": 222.5,
       "team_totals": {
-       "ORL": 110.5,
+       "ORL": 111.5,
        "PHX": 111.5
       },
       "home": "PHX",
@@ -32830,7 +33716,7 @@
       "Volume: min L5 38,40,39,34,37 | Hit: 7/10 at line (L10 avg 6.3 vs 6.5 line) · vs PHX 1/1",
       "Usage: USG L5 29.5% / szn 30.2% (7g) (USG ESPN box thru 11/03; as of 11/05 4:46 PM ET)",
       "Matchup: PHX 20/30 vs assists (27.0/g allowed, unfavorable)",
-      "Context: PHX -1.5 / O/U 222.5 (ORL TT 110.5) | Pace PHX 16/30, ORL 7/30 | Away",
+      "Context: PHX -1.5 / O/U 222.5 (ORL TT 111.5) | Pace PHX 16/30, ORL 7/30 | Away",
       "Injuries: ORL: Jalen Suggs (Out), Paolo Banchero (Out) | PHX: none",
       "Risk: Tough matchup: PHX 20/30 vs assists"
      ],
@@ -32880,6 +33766,9 @@
      "sog_l10": 2.8,
      "sog_l10_n": 10,
      "sog_agree": false,
+     "hr_sid": "8986901508805230994",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8986901508805230994",
+     "hr_live": "-110",
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -32930,8 +33819,18 @@
      "sog_l10": 1.8,
      "sog_l10_n": 10,
      "sog_agree": false,
-     "hr_state": "absent",
-     "hr_why": "Hard Rock does not list this line",
+     "hr_sid": "7093606704125968775",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7093606704125968775",
+     "hr_live": {
+      "label": "Live HR price +140 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+140",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
+     "hr_now": "+145",
+     "hr_edge_live": 0.0907,
+     "hr_edge_gone": false,
+     "hr_state": "open",
      "edge_single": true,
      "why_src": "Hard Rock +135 vs Pinnacle no-vig fair +125 (44.5%) → edge +4.61%. Clears the 4% Pinnacle edge floor at +4.61%. Price +135 is inside the preferred band (about -130 or better, or plus money).",
      "ctx": {
@@ -33194,7 +34093,13 @@
      "dk_eid": "34951594",
      "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386221872%232351591860_13L42133Q1-975679027Q20",
      "dk_live": "-163",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +140 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+140",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -33222,6 +34127,14 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.891,
      "green_sog_l5": 1.6,
+     "hr_sid": "5566565132533891464",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5566565132533891464",
+     "hr_live": {
+      "label": "Live HR price +150 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+150",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -33236,11 +34149,11 @@
        ],
        [
         "2+",
-        "+617"
+        "+675"
        ],
        [
         "3+",
-        "+2222"
+        "+1784"
        ]
       ],
       "edge": -0.07295934446895702
@@ -33249,7 +34162,13 @@
      "dk_eid": "34951596",
      "dk_link": "https://sportsbook.draftkings.com/event/34951596?outcomes=0QA386277737%232351830858_13L42133Q11194366508Q20",
      "dk_live": "+122",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +150 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+150",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     },
     {
      "sport": "NHL",
@@ -33277,6 +34196,9 @@
      "green_goalie_status": "projected",
      "green_goalie_sv_l5": 0.812,
      "green_sog_l5": 1.4,
+     "hr_sid": "3498414340854383005",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3498414340854383005",
+     "hr_live": "+240",
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -33332,6 +34254,9 @@
      "green_goalie_status": "projected",
      "green_goalie_sv_l5": 0.913,
      "green_sog_l5": 3.4,
+     "hr_sid": "874792680004125077",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/874792680004125077",
+     "hr_live": "+185",
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -33346,7 +34271,7 @@
        ],
        [
         "3+",
-        "+4496"
+        "+8909"
        ]
       ]
      },
@@ -33382,6 +34307,14 @@
      "green_goalie_status": "confirmed",
      "green_goalie_sv_l5": 0.837,
      "green_sog_l5": 2.4,
+     "hr_sid": "8875343306704421261",
+     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8875343306704421261",
+     "hr_live": {
+      "label": "Live HR price +170 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+170",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     },
      "hr_state": "open",
      "locked": true,
      "lock_why": "graded: Void: rule change, pre-game (edgefilter1105)",
@@ -33396,7 +34329,7 @@
        ],
        [
         "2+",
-        "+835"
+        "+755"
        ],
        [
         "3+",
@@ -33409,7 +34342,13 @@
      "dk_eid": "34951594",
      "dk_link": "https://sportsbook.draftkings.com/event/34951594?outcomes=0QA386220676%232351587904_13L42133Q11194366508Q20",
      "dk_live": "+138",
-     "dk_absent": null
+     "dk_absent": null,
+     "hr_live_label": {
+      "label": "Live HR price +170 as of 19:00 ET (game started; posted odds unchanged)",
+      "price": "+170",
+      "at": "2026-11-05T19:00:07-05:00",
+      "paused": false
+     }
     }
    ]
   },
@@ -33420,8 +34359,8 @@
     "push": 0,
     "pending": 2,
     "units": -7.15,
-    "clv_n": 4,
-    "clv_avg": 3.66
+    "clv_n": 6,
+    "clv_avg": 4.75
    },
    "since_1025": {
     "w": 6,
@@ -33429,8 +34368,8 @@
     "push": 0,
     "pending": 2,
     "units": -4.15,
-    "clv_n": 4,
-    "clv_avg": 3.66
+    "clv_n": 6,
+    "clv_avg": 4.75
    },
    "thr": 0.12
   },
@@ -33441,8 +34380,8 @@
     "push": 0,
     "pending": 2,
     "units": 14.11,
-    "clv_n": 7,
-    "clv_avg": 2.6
+    "clv_n": 9,
+    "clv_avg": 3.56
    },
    "since_1025": {
     "w": 12,
@@ -33450,8 +34389,8 @@
     "push": 0,
     "pending": 2,
     "units": 11.1,
-    "clv_n": 7,
-    "clv_avg": 2.6
+    "clv_n": 9,
+    "clv_avg": 3.56
    },
    "thr": 0.12
   },
@@ -33579,7 +34518,7 @@
      },
      "fav": "KC",
      "spread": -10.0,
-     "total": 47.0,
+     "total": 47.5,
      "team_totals": {
       "NYJ": 17.5,
       "KC": 1.5
@@ -33599,27 +34538,9 @@
         "status": "Questionable",
         "pos": "WR",
         "date": "2026-11-05"
-       },
-       {
-        "name": "Rashee Rice",
-        "status": "Questionable",
-        "pos": "WR",
-        "date": "2026-11-04"
-       },
-       {
-        "name": "Travis Kelce",
-        "status": "Questionable",
-        "pos": "TE",
-        "date": "2026-11-04"
        }
       ],
       "NYJ": [
-       {
-        "name": "Breece Hall",
-        "status": "Questionable",
-        "pos": "RB",
-        "date": "2026-11-05"
-       },
        {
         "name": "Garrett Wilson",
         "status": "Questionable",
@@ -33632,7 +34553,7 @@
       "text": "Sunny",
       "temp": 62,
       "wind_mph": 8,
-      "wind_dir": 234
+      "wind_dir": 236
      },
      "why_from": "scout",
      "usage": {
@@ -33857,12 +34778,6 @@
       ],
       "HOU": [
        {
-        "name": "Brevin Jordan",
-        "status": "Questionable",
-        "pos": "TE",
-        "date": "2026-11-04"
-       },
-       {
         "name": "David Montgomery",
         "status": "Out",
         "pos": "RB",
@@ -33873,8 +34788,8 @@
      "weather": {
       "text": "Mostly sunny",
       "temp": 87,
-      "wind_mph": 3,
-      "wind_dir": 231
+      "wind_mph": 4,
+      "wind_dir": 202
      },
      "why_from": "scout",
      "usage": {
@@ -33991,12 +34906,6 @@
       ],
       "DAL": [
        {
-        "name": "KaVontae Turpin",
-        "status": "Questionable",
-        "pos": "WR",
-        "date": "2026-11-05"
-       },
-       {
         "name": "Jake Ferguson",
         "status": "Questionable",
         "pos": "TE",
@@ -34006,7 +34915,13 @@
         "name": "George Pickens",
         "status": "Questionable",
         "pos": "WR",
-        "date": "2026-11-04"
+        "date": "2026-11-05"
+       },
+       {
+        "name": "KaVontae Turpin",
+        "status": "Questionable",
+        "pos": "WR",
+        "date": "2026-11-05"
        },
        {
         "name": "Luke Schoonmaker",
@@ -40095,7 +41010,7 @@
      "spread": -3.5,
      "total": 235.5,
      "team_totals": {
-      "MIA": 115.5,
+      "MIA": 116.5,
       "GSW": 119.5
      },
      "home": "GSW",
@@ -40366,7 +41281,7 @@
      "spread": -3.5,
      "total": 235.5,
      "team_totals": {
-      "MIA": 115.5,
+      "MIA": 116.5,
       "GSW": 119.5
      },
      "home": "GSW",
@@ -40600,7 +41515,7 @@
      "spread": -1.5,
      "total": 222.5,
      "team_totals": {
-      "ORL": 110.5,
+      "ORL": 111.5,
       "PHX": 111.5
      },
      "home": "PHX",
@@ -40823,12 +41738,12 @@
      "Risk: Tough matchup: PHX 20/30 vs assists"
     ],
     "dk": {
-     "odds": "-113",
+     "odds": "-122",
      "na": false,
      "ladder": [
       [
        "u1.5",
-       "-113"
+       "-122"
       ]
      ]
     },
@@ -40873,7 +41788,7 @@
      "spread": -1.5,
      "total": 222.5,
      "team_totals": {
-      "ORL": 110.5,
+      "ORL": 111.5,
       "PHX": 111.5
      },
      "home": "PHX",
@@ -41194,15 +42109,15 @@
         "name": "Bhayshul Tuten",
         "status": "Questionable",
         "pos": "RB",
-        "date": "2026-11-04"
+        "date": "2026-11-05"
        }
       ]
      },
      "weather": {
-      "text": "Cloudy",
-      "temp": 66,
+      "text": "Thunderstorms",
+      "temp": 67,
       "wind_mph": 4,
-      "wind_dir": 199
+      "wind_dir": 190
      },
      "game_day": {
       "sport": "NFL",
@@ -41389,12 +42304,12 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": null,
-     "na": true,
+     "odds": "-117",
+     "na": false,
      "ladder": [
       [
-       "8+",
-       "-133"
+       "9+",
+       "-117"
       ],
       [
        "20+",
@@ -41410,7 +42325,7 @@
       ],
       [
        "50+",
-       "+1069"
+       "+939"
       ],
       [
        "60+",
@@ -41419,6 +42334,42 @@
       [
        "70+",
        "+1784"
+      ],
+      [
+       "80+",
+       "+1784"
+      ],
+      [
+       "90+",
+       "+2222"
+      ],
+      [
+       "100+",
+       "+2222"
+      ],
+      [
+       "110+",
+       "+2222"
+      ],
+      [
+       "120+",
+       "+2222"
+      ],
+      [
+       "130+",
+       "+2222"
+      ],
+      [
+       "140+",
+       "+2222"
+      ],
+      [
+       "150+",
+       "+2222"
+      ],
+      [
+       "160+",
+       "+2222"
       ]
      ]
     },
@@ -41426,10 +42377,10 @@
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7872017944237179273",
     "hr_live": "-115",
     "hr_now": "-115",
-    "dk_sid": null,
-    "dk_link": null,
-    "dk_why": "line/side not offered on DraftKings Predictions right now",
-    "dk_absent": true,
+    "dk_sid": "0QA385213838#2351772016_13L88808Q1-408767514Q20",
+    "dk_eid": "34118164",
+    "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385213838%232351772016_13L88808Q1-408767514Q20",
+    "dk_live": "-117",
     "bk_start": "2026-11-05T20:15-05:00"
    },
    {
@@ -41459,7 +42410,7 @@
       "gp": 15,
       "scale": "N/of, higher = more allowed (LineMate order)"
      },
-     "fav": "BOS",
+     "fav": "PIT",
      "spread": -1.5,
      "total": 6.5,
      "team_totals": {
@@ -41685,13 +42636,24 @@
     },
     "hr_sid": "8585733043459850643",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8585733043459850643",
-    "hr_live": "-120",
+    "hr_live": {
+     "label": "Live HR price -120 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-120",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_now": "-120",
     "dk_sid": "0QA386254997#2351754571_13L42133Q11194366508Q20",
     "dk_eid": "34951612",
     "dk_link": "https://sportsbook.draftkings.com/event/34951612?outcomes=0QA386254997%232351754571_13L42133Q11194366508Q20",
     "dk_live": "-138",
-    "bk_start": "2026-11-05T19:00-05:00"
+    "bk_start": "2026-11-05T19:00-05:00",
+    "hr_live_label": {
+     "label": "Live HR price -120 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-120",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -41961,7 +42923,7 @@
      "ladder": [
       [
        "1+",
-       "-809"
+       "-900"
       ],
       [
        "2+",
@@ -41973,11 +42935,11 @@
       ],
       [
        "4+",
-       "+451"
+       "+485"
       ],
       [
        "5+",
-       "+1069"
+       "+1249"
       ]
      ]
     },
@@ -42237,8 +43199,8 @@
     },
     "hr_sid": "5604128641626800536",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5604128641626800536",
-    "hr_live": "-155",
-    "hr_now": "-155",
+    "hr_live": "-150",
+    "hr_now": "-150",
     "dk_sid": "0QA386260221#2351770928_13L42133Q1-975679027Q20",
     "dk_eid": "34951600",
     "dk_link": "https://sportsbook.draftkings.com/event/34951600?outcomes=0QA386260221%232351770928_13L42133Q1-975679027Q20",
@@ -42258,7 +43220,7 @@
     "res": "V",
     "stat": "void: goalie re-check: Leevi Merilainen (confirmed, 0.897 43/65) stronger half",
     "dk": {
-     "odds": "-104",
+     "odds": "+104",
      "na": false,
      "ladder": [
       [
@@ -42271,19 +43233,19 @@
       ],
       [
        "3+",
-       "-104"
+       "+104"
       ],
       [
        "4+",
-       "+223"
+       "+235"
       ],
       [
        "5+",
-       "+485"
+       "+523"
       ],
       [
        "6+",
-       "+939"
+       "+1069"
       ],
       [
        "7+",
@@ -42305,13 +43267,24 @@
     },
     "hr_sid": "7852140693588935057",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7852140693588935057",
-    "hr_live": "-110",
+    "hr_live": {
+     "label": "Live HR price -110 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-110",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_now": "-110",
     "dk_sid": "0QA386330637#2352088287_13L42133Q11726824154Q20",
     "dk_eid": "34951599",
     "dk_link": "https://sportsbook.draftkings.com/event/34951599?outcomes=0QA386330637%232352088287_13L42133Q11726824154Q20",
     "dk_live": "+104",
-    "bk_start": "2026-11-05T19:00-05:00"
+    "bk_start": "2026-11-05T19:00-05:00",
+    "hr_live_label": {
+     "label": "Live HR price -110 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-110",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -42609,28 +43582,28 @@
      "Risk: goalie unconfirmed (Andrei Vasilevskiy, DailyFaceoff starting goalies (live pull)): flag only, never blocks"
     ],
     "dk": {
-     "odds": "-117",
+     "odds": "-122",
      "na": false,
      "ladder": [
       [
        "1+",
-       "-3233"
+       "-4900"
       ],
       [
        "2+",
-       "-355"
+       "-400"
       ],
       [
        "3+",
-       "-117"
+       "-122"
       ],
       [
        "4+",
-       "+203"
+       "+178"
       ],
       [
        "5+",
-       "+420"
+       "+393"
       ],
       [
        "6+",
@@ -42656,13 +43629,24 @@
     },
     "hr_sid": "2864135000805212562",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2864135000805212562",
-    "hr_live": "-120",
+    "hr_live": {
+     "label": "Live HR price -120 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-120",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "hr_now": "-120",
     "dk_sid": "0QA386239861#2351690618_13L42133Q11726824154Q20",
     "dk_eid": "34951598",
     "dk_link": "https://sportsbook.draftkings.com/event/34951598?outcomes=0QA386239861%232351690618_13L42133Q11726824154Q20",
     "dk_live": "-122",
-    "bk_start": "2026-11-05T19:00-05:00"
+    "bk_start": "2026-11-05T19:00-05:00",
+    "hr_live_label": {
+     "label": "Live HR price -120 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-120",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -42692,7 +43676,7 @@
      },
      "fav": "VGK",
      "spread": -1.5,
-     "total": 6.5,
+     "total": 5.5,
      "team_totals": {
       "VGK": 3.5,
       "DET": 2.5
@@ -42914,24 +43898,35 @@
      "Risk: Normal single-game variance"
     ],
     "dk": {
-     "odds": "+104",
+     "odds": "-104",
      "na": false,
      "ladder": [
       [
        "u2.5",
-       "+104"
+       "-104"
       ]
      ]
     },
     "hr_sid": "7751976124896379279",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7751976124896379279",
-    "hr_live": "-130",
-    "hr_now": "-130",
+    "hr_live": {
+     "label": "Live HR price -125 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-125",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
+    "hr_now": "-125",
     "dk_sid": "0QA386238218#2351684655_13L42133Q11341641792Q20",
     "dk_eid": "34951589",
     "dk_link": "https://sportsbook.draftkings.com/event/34951589?outcomes=0QA386238218%232351684655_13L42133Q11341641792Q20",
     "dk_live": "-104",
-    "bk_start": "2026-11-05T19:00-05:00"
+    "bk_start": "2026-11-05T19:00-05:00",
+    "hr_live_label": {
+     "label": "Live HR price -125 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-125",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    },
    {
     "sport": "NHL",
@@ -43202,12 +44197,23 @@
     },
     "hr_sid": "5218449705251504542",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5218449705251504542",
-    "hr_live": "-130",
+    "hr_live": {
+     "label": "Live HR price -130 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-130",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    },
     "dk_sid": "0QA386284372#2351871501_13L42133Q11341641792Q20",
     "dk_eid": "34951599",
     "dk_link": "https://sportsbook.draftkings.com/event/34951599?outcomes=0QA386284372%232351871501_13L42133Q11341641792Q20",
     "dk_live": "+113",
-    "bk_start": "2026-11-05T19:00-05:00"
+    "bk_start": "2026-11-05T19:00-05:00",
+    "hr_live_label": {
+     "label": "Live HR price -130 as of 19:00 ET (game started; posted odds unchanged)",
+     "price": "-130",
+     "at": "2026-11-05T19:00:07-05:00",
+     "paused": false
+    }
    }
   ]
  },
@@ -70648,40 +71654,68 @@
     "orig_note": "book price; capper posted no odds",
     "first_priced": "2026-11-05 12:55",
     "dk": {
-     "odds": "-163",
+     "odds": "-170",
      "na": false,
      "ladder": [
       [
        "2+",
-       "-335"
+       "-400"
       ],
       [
        "3+",
-       "-163"
+       "-170"
       ],
       [
        "4+",
-       "+178"
+       "+163"
       ],
       [
        "5+",
-       "+347"
+       "+308"
       ],
       [
        "6+",
-       "+675"
+       "+617"
       ],
       [
        "7+",
-       "+939"
+       "+835"
       ],
       [
        "8+",
-       "+1459"
+       "+1249"
+      ],
+      [
+       "9+",
+       "+1784"
+      ],
+      [
+       "10+",
+       "+2222"
+      ],
+      [
+       "11+",
+       "+2222"
+      ],
+      [
+       "12+",
+       "+2222"
+      ],
+      [
+       "13+",
+       "+2222"
+      ],
+      [
+       "14+",
+       "+2222"
+      ],
+      [
+       "15+",
+       "+2222"
       ]
      ],
      "pick": "Justice Hill Over 2.5 Receptions",
-     "orig_odds": "-163"
+     "orig_odds": "-170"
     },
     "hr_sid": "1224216296611250609",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1224216296611250609",
@@ -70716,7 +71750,7 @@
      "ladder": [
       [
        "6+",
-       "-2400"
+       "-1900"
       ],
       [
        "8+",
@@ -70724,7 +71758,7 @@
       ],
       [
        "10+",
-       "-285"
+       "-270"
       ],
       [
        "12+",
@@ -70732,11 +71766,11 @@
       ],
       [
        "13+",
-       "-113"
+       "-108"
       ],
       [
        "14+",
-       "+117"
+       "+122"
       ],
       [
        "16+",
@@ -70744,15 +71778,15 @@
       ],
       [
        "18+",
-       "+327"
+       "+369"
       ],
       [
        "20+",
-       "+617"
+       "+675"
       ],
       [
        "22+",
-       "+939"
+       "+835"
       ],
       [
        "24+",
@@ -70784,10 +71818,6 @@
       ],
       [
        "38+",
-       "+2222"
-      ],
-      [
-       "40+",
        "+2222"
       ]
      ],
@@ -70822,12 +71852,12 @@
     "orig_note": "book price; capper posted no odds",
     "first_priced": "2026-11-05 16:19",
     "dk": {
-     "odds": "-127",
+     "odds": "-138",
      "na": false,
      "ladder": [
       [
        "14+",
-       "-127"
+       "-138"
       ],
       [
        "20+",
@@ -70835,7 +71865,7 @@
       ],
       [
        "30+",
-       "+261"
+       "+276"
       ],
       [
        "40+",
@@ -70900,15 +71930,19 @@
       [
        "190+",
        "+2222"
+      ],
+      [
+       "200+",
+       "+2222"
       ]
      ],
      "pick": "Rashod Bateman Over 13.5 Rec Yards",
-     "orig_odds": "-127"
+     "orig_odds": "-138"
     },
     "hr_sid": "3115191231613895049",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3115191231613895049",
-    "hr_live": "-120",
-    "hr_now": "-120",
+    "hr_live": "-125",
+    "hr_now": "-125",
     "dk_sid": "0QA385138224#2349718646_13L88808Q1-2068902432Q20",
     "dk_eid": "34118164",
     "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138224%232349718646_13L88808Q1-2068902432Q20",
@@ -70944,7 +71978,7 @@
     "dk_sid": "0QA385138356#2346934445_13L88808Q1-664586959Q20",
     "dk_eid": "34118164",
     "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138356%232346934445_13L88808Q1-664586959Q20",
-    "dk_live": "-144",
+    "dk_live": "-138",
     "bk_start": "2026-11-05T20:15-05:00"
    },
    {
@@ -71004,12 +72038,12 @@
     },
     "hr_sid": "7257196704145998232",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7257196704145998232",
-    "hr_live": "-135",
-    "hr_now": "-135",
-    "dk_sid": null,
-    "dk_link": null,
-    "dk_why": "line/side not offered on DraftKings Predictions right now",
-    "dk_absent": true,
+    "hr_live": "-140",
+    "hr_now": "-140",
+    "dk_sid": "0QA386447133#2352549672_13L42648Q1-186261298Q20",
+    "dk_eid": "34937358",
+    "dk_link": "https://sportsbook.draftkings.com/event/34937358?outcomes=0QA386447133%232352549672_13L42648Q1-186261298Q20",
+    "dk_live": "-133",
     "bk_start": "2026-11-05T21:00-05:00"
    },
    {
@@ -71070,18 +72104,18 @@
     "hr_sid": "6868061461558722991",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6868061461558722991",
     "hr_live": {
-     "label": "Live HR price +1100 as of 18:53 ET (game started; posted odds unchanged)",
+     "label": "Live HR price +1100 as of 19:00 ET (game started; posted odds unchanged)",
      "price": "+1100",
-     "at": "2026-11-05T18:53:08-05:00",
+     "at": "2026-11-05T19:00:07-05:00",
      "paused": false
     },
     "hr_live_label": {
-     "label": "Live HR price +1100 as of 18:53 ET (game started; posted odds unchanged)",
+     "label": "Live HR price +1100 as of 19:00 ET (game started; posted odds unchanged)",
      "price": "+1100",
-     "at": "2026-11-05T18:53:08-05:00",
+     "at": "2026-11-05T19:00:07-05:00",
      "paused": false
     },
-    "hr_now": "+800",
+    "hr_now": "+650",
     "dk_sid": null,
     "dk_link": null,
     "dk_why": "game already started (DraftKings Predictions market closed)",
@@ -71220,16 +72254,12 @@
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
+    "bd": true,
     "hr_sid": "2796913401698320777",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2796913401698320777",
     "hr_live": "-325",
-    "hr_fp": "73dc4f94912f4685d530",
-    "bd": true,
-    "dk_sid": null,
-    "dk_link": null,
-    "dk_why": "line/side not offered on DraftKings Predictions right now",
-    "dk_absent": true,
-    "bk_start": "2026-11-05T20:15-05:00"
+    "hr_absent": null,
+    "hr_fp": "73dc4f94912f4685d530"
    },
    {
     "capper": "@alexcaruso",
@@ -71242,27 +72272,23 @@
     "final": false,
     "frozen": false,
     "hr": "original line kept · no buy-down in range (no HR alt in -250..-425)",
-    "dk": "original line kept · DK -150",
+    "dk": "original line kept · DK -170",
     "hr_odds": null,
-    "dk_odds": -150,
+    "dk_odds": -170,
     "start": "2026-11-05 20:15",
     "hr_pick": "Justice Hill o2.5 Receptions",
     "dk_pick": "Justice Hill o2.5 Receptions",
     "trk": "Justice Hill o2.5 Receptions",
-    "grade_odds": -145,
-    "hr_x": -145,
+    "grade_odds": -150,
+    "hr_x": -150,
     "bd_flag": "no buy-down in range",
     "excluded": null,
-    "hr_sid": "1224216296611250609",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1224216296611250609",
-    "hr_live": "-145",
-    "hr_fp": "524432b09d0bd57ec5bf",
     "bd": false,
-    "dk_sid": "0QA385138139#2346933658_13L88808Q1-1278560502Q20",
-    "dk_eid": "34118164",
-    "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138139%232346933658_13L88808Q1-1278560502Q20",
-    "dk_live": "-170",
-    "bk_start": "2026-11-05T20:15-05:00"
+    "hr_sid": "922756596554138013",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/922756596554138013",
+    "hr_live": "-150",
+    "hr_absent": null,
+    "hr_fp": "524432b09d0bd57ec5bf"
    },
    {
     "capper": "@alexcaruso",
@@ -71286,16 +72312,12 @@
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
+    "bd": true,
     "hr_sid": "8680423899671953803",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8680423899671953803",
     "hr_live": "-350",
-    "hr_fp": "570da3557468cc8175e6",
-    "bd": true,
-    "dk_sid": null,
-    "dk_link": null,
-    "dk_why": "line/side not offered on DraftKings Predictions right now",
-    "dk_absent": true,
-    "bk_start": "2026-11-05T21:00-05:00"
+    "hr_absent": null,
+    "hr_fp": "570da3557468cc8175e6"
    },
    {
     "capper": "@alexcaruso",
@@ -71343,16 +72365,12 @@
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
+    "bd": true,
     "hr_sid": "4554454777924288922",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4554454777924288922",
     "hr_live": "-300",
-    "hr_fp": "7925bb139bb68c89790f",
-    "bd": true,
-    "dk_sid": "0QA385508152#2348847953_13L88808Q1794588810Q20",
-    "dk_eid": "34118164",
-    "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385508152%232348847953_13L88808Q1794588810Q20",
-    "dk_live": "-300",
-    "bk_start": "2026-11-05T20:15-05:00"
+    "hr_absent": null,
+    "hr_fp": "7925bb139bb68c89790f"
    },
    {
     "capper": "@austinsprops",
@@ -71365,9 +72383,9 @@
     "final": false,
     "frozen": false,
     "hr": "4+ -275",
-    "dk": "4+ -257",
+    "dk": "4+ -270",
     "hr_odds": -275,
-    "dk_odds": -257,
+    "dk_odds": -270,
     "start": "2026-11-05 20:15",
     "hr_pick": "Zay Flowers 4+ Receptions",
     "dk_pick": "Zay Flowers 4+ Receptions",
@@ -71376,17 +72394,12 @@
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
+    "bd": true,
     "hr_sid": "4642782665320300954",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4642782665320300954",
     "hr_live": "-275",
-    "hr_fp": "acba5135c227d56c3aa4",
-    "bd": true,
-    "dk_sid": "0QA385138149#2346933690_13L88808Q1693199579Q20",
-    "dk_eid": "34118164",
-    "dk_link": "https://sportsbook.draftkings.com/event/34118164?outcomes=0QA385138149%232346933690_13L88808Q1693199579Q20",
-    "dk_live": "-270",
-    "bk_start": "2026-11-05T20:15-05:00",
-    "hr_absent": null
+    "hr_absent": null,
+    "hr_fp": "acba5135c227d56c3aa4"
    },
    {
     "capper": "@austinsprops",
@@ -71398,43 +72411,39 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "12+ -275",
+    "hr": "12+ -300",
     "dk": "12+ -317",
-    "hr_odds": -275,
+    "hr_odds": -300,
     "dk_odds": -317,
     "start": "2026-11-05 21:00",
     "hr_pick": "Anthony Black 12+ Pts",
     "dk_pick": "Anthony Black 12+ Pts",
     "trk": "Anthony Black 12+ Pts",
-    "grade_odds": -275,
+    "grade_odds": -300,
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
+    "bd": true,
     "hr_sid": "4914480472983208344",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4914480472983208344",
-    "hr_live": "-275",
-    "hr_fp": "1f0563e399f3c1be83a4",
-    "bd": true,
-    "dk_sid": "0QA386213686#2351648037_13L42648Q1-1115091407Q20",
-    "dk_eid": "34937358",
-    "dk_link": "https://sportsbook.draftkings.com/event/34937358?outcomes=0QA386213686%232351648037_13L42648Q1-1115091407Q20",
-    "dk_live": "-317",
-    "bk_start": "2026-11-05T21:00-05:00"
+    "hr_live": "-300",
+    "hr_absent": null,
+    "hr_fp": "1f0563e399f3c1be83a4"
    },
    {
     "capper": "@austinsprops",
     "sport": "NBA",
     "pick": "Anthony Black 18.5 PA \"O\" (ORL @ PHX; NBA Play Of The Day, POTD)",
-    "odds": "-120",
+    "odds": "-120 MGM",
     "game": "ORL @ PHX",
     "kick": "9:00 PM ET",
     "started": false,
     "final": false,
     "frozen": false,
     "hr": "16+ -325",
-    "dk": "16+ -335",
+    "dk": "16+ -317",
     "hr_odds": -325,
-    "dk_odds": -335,
+    "dk_odds": -317,
     "start": "2026-11-05 21:00",
     "hr_pick": "Anthony Black 16+ PA",
     "dk_pick": "Anthony Black 16+ PA",
@@ -71443,16 +72452,12 @@
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
+    "bd": true,
     "hr_sid": "3959915023555494311",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3959915023555494311",
     "hr_live": "-325",
-    "hr_fp": "fcde19e781e8f6fd3b21",
-    "bd": true,
-    "dk_sid": "0QA386237715#2351693681_13L42648Q11519785280Q20",
-    "dk_eid": "34937358",
-    "dk_link": "https://sportsbook.draftkings.com/event/34937358?outcomes=0QA386237715%232351693681_13L42648Q11519785280Q20",
-    "dk_live": "-317",
-    "bk_start": "2026-11-05T21:00-05:00"
+    "hr_absent": null,
+    "hr_fp": "fcde19e781e8f6fd3b21"
    },
    {
     "capper": "@panpotd",
@@ -71527,13 +72532,42 @@
     "bd": false
    },
    {
+    "capper": "@panpotd",
+    "sport": "NFL",
+    "pick": "Justice Hill o2.5 Receptions (JAC @ BAL; TNF locked spot)",
+    "odds": "-122",
+    "game": "JAX @ BAL",
+    "kick": "8:15 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept · no buy-down in range (no HR alt in -250..-425)",
+    "dk": "original line kept · DK -170",
+    "hr_odds": null,
+    "dk_odds": -170,
+    "start": "2026-11-05 20:15",
+    "hr_pick": "Justice Hill o2.5 Receptions",
+    "dk_pick": "Justice Hill o2.5 Receptions",
+    "trk": "Justice Hill o2.5 Receptions",
+    "grade_odds": -150,
+    "hr_x": -150,
+    "bd_flag": "no buy-down in range",
+    "excluded": null,
+    "bd": false,
+    "hr_sid": "922756596554138013",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/922756596554138013",
+    "hr_live": "-150",
+    "hr_absent": null,
+    "hr_fp": "524432b09d0bd57ec5bf"
+   },
+   {
     "capper": "@showtimepicks2",
     "sport": "NCAAB",
     "pick": "McNeese Cowboys ML (vs UNT; CBB free play)",
     "odds": "-142",
     "game": "MCN @ UNT",
     "kick": "5:00 PM ET",
-    "started": false,
+    "started": true,
     "final": false,
     "frozen": false,
     "hr": "not convertible (parlay/TD/ML: original kept)",
@@ -71573,13 +72607,44 @@
     "bd_flag": null,
     "excluded": "ML (not a prop)",
     "bd": false
+   },
+   {
+    "capper": "@showtimepicks2",
+    "sport": "NCAAF",
+    "pick": "UTSA Roadrunners -7 (@ FAU 7:30 PM ET; CFB free play)",
+    "odds": "-115",
+    "game": "UTSA @ FAU",
+    "kick": "7:30 PM ET",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "UTSA Roadrunners -1.5 -300",
+    "dk": "—",
+    "hr_odds": -300,
+    "dk_odds": null,
+    "start": "2026-11-05 19:30",
+    "hr_pick": "UTSA Roadrunners -1.5",
+    "dk_pick": null,
+    "trk": "UTSA Roadrunners -1.5",
+    "grade_odds": -300,
+    "hr_x": null,
+    "bd_flag": null,
+    "excluded": null,
+    "bd": true,
+    "hr_sid": null,
+    "hr_link": null,
+    "hr_live": "-300",
+    "hr_absent": false,
+    "hr_fp": "4e878c2a2a4298008937",
+    "hr_why": "Unverified link: mismatch: game 'UTSA @ FAU' vs event 'Florida Atlantic vs UTSA'"
    }
   ],
   "bd_ticket": {
-   "legs": 7,
-   "odds": 821,
-   "bought": 6,
+   "legs": 9,
+   "odds": 1874,
+   "bought": 7,
    "flagged": [
+    "Justice Hill o2.5 Receptions",
     "Justice Hill o2.5 Receptions"
    ],
    "band": [
@@ -71614,18 +72679,22 @@
  },
  "gameday": {
   "date": "2026-11-05",
-  "built": "2026-11-05 18:49 ET",
+  "built": "2026-11-05 18:56 ET",
   "picks": 54,
   "vetoes": [],
   "gaps": [
+   "NCAAF Marist vs Morehead State: no ESPN event match",
+   "NCAAF Yale vs Brown: no ESPN event match",
    "NCAAF Howard vs South Carolina State: no ESPN event match",
-   "NCAAF Connecticut vs North Carolina: no ESPN event match"
+   "NCAAF Lehigh vs Colgate: no ESPN event match",
+   "NCAAF Connecticut vs North Carolina: no ESPN event match",
+   "NCAAF Norfolk State vs North Carolina Central: no ESPN event match"
   ]
  },
  "dk": {
-  "fetched": "2026-11-05 16:21 ET",
-  "snapshots": 8,
-  "pregame_games": 169,
+  "fetched": "2026-11-05 18:54 ET",
+  "snapshots": 9,
+  "pregame_games": 179,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
    "legs": 58,
@@ -71650,7 +72719,7 @@
     "LEG DAY Bam Adebayo Under 14.5 Reb + Ast",
     "LEG DAY De'Anthony Melton Over 5.5 Reb + Ast",
     "LEG DAY Jase Richardson Under 11.5 Pts + Reb",
-    "LEG DAY Nate Boerkircher Over 8.5 Receiving Yards",
+    "Zay Flowers Over 48.5 Receiving Yards",
     "Ryan O'Reilly Over 0.5 Points",
     "Mikhail Sergachev Over 0.5 Points",
     "Neal Pionk Over 1.5 Shots On Goal"
@@ -71664,7 +72733,7 @@
   "flags": []
  },
  "player_status": {
-  "built": "2026-11-05 06:49 PM ET",
+  "built": "2026-11-05 06:56 PM ET",
   "sources": {
    "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-05_06_45PM.pdf",
    "espn": "site.api.espn.com/apis/site/v2/sports/*/injuries"
@@ -71852,7 +72921,7 @@
     "label": "Out",
     "raw": "Out",
     "src": "ESPN injuries",
-    "posted": "2026-11-05 11:59 AM ET",
+    "posted": "2026-11-05 06:39 PM ET",
     "note": "",
     "key": "nic claxton",
     "name": null
@@ -74456,8 +75525,8 @@
    {
     "sp": "NFL",
     "team": "BAL",
-    "label": "Questionable",
-    "raw": "Questionable",
+    "label": "Out",
+    "raw": "Out",
     "src": "ESPN injuries",
     "posted": "2026-11-04 08:06 PM ET",
     "note": "",
@@ -76557,6 +77626,17 @@
    {
     "sp": "NFL",
     "team": "SF",
+    "label": "Out (Injured Reserve)",
+    "raw": "Injured Reserve",
+    "src": "ESPN injuries",
+    "posted": "2026-11-05 06:45 PM ET",
+    "note": "",
+    "key": "demarcus robinson",
+    "name": null
+   },
+   {
+    "sp": "NFL",
+    "team": "SF",
     "label": "Questionable",
     "raw": "Questionable",
     "src": "ESPN injuries",
@@ -76629,17 +77709,6 @@
     "posted": "2026-11-04 08:50 PM ET",
     "note": "",
     "key": "nate hobbs",
-    "name": null
-   },
-   {
-    "sp": "NFL",
-    "team": "SF",
-    "label": "Out (Injured Reserve)",
-    "raw": "Injured Reserve",
-    "src": "ESPN injuries",
-    "posted": "2026-11-04 08:08 PM ET",
-    "note": "",
-    "key": "demarcus robinson",
     "name": null
    },
    {
@@ -77121,7 +78190,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Jamaree Bouyea",
     "key": "jamaree bouyea"
@@ -77132,7 +78201,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Ryan Dunn",
     "key": "ryan dunn"
@@ -77143,7 +78212,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Collin Gillespie",
     "key": "collin gillespie"
@@ -77154,7 +78223,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Oso Ighodaro",
     "key": "oso ighodaro"
@@ -77165,7 +78234,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Luke Kennard",
     "key": "luke kennard"
@@ -77176,7 +78245,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Koa Peat",
     "key": "koa peat"
@@ -77187,7 +78256,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Duop Reath",
     "key": "duop reath"
@@ -77198,7 +78267,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Pat Spencer",
     "key": "pat spencer"
@@ -77209,7 +78278,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Drew Timme",
     "key": "drew timme"
@@ -77220,7 +78289,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Goga Bitadze",
     "key": "goga bitadze"
@@ -77231,7 +78300,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Jamal Cain",
     "key": "jamal cain"
@@ -77242,7 +78311,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Jevon Carter",
     "key": "jevon carter"
@@ -77253,7 +78322,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Colin Castleton",
     "key": "colin castleton"
@@ -77264,7 +78333,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Tristan da Silva",
     "key": "tristan da silva"
@@ -77275,7 +78344,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Alex Morales",
     "key": "alex morales"
@@ -77286,7 +78355,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Nikola Vucevic",
     "key": "nikola vucevic"
@@ -77297,7 +78366,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Ryan Conwell",
     "key": "ryan conwell"
@@ -77308,7 +78377,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Simone Fontecchio",
     "key": "simone fontecchio"
@@ -77319,7 +78388,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Myron Gardner",
     "key": "myron gardner"
@@ -77330,7 +78399,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Tim Hardaway Jr.",
     "key": "tim hardaway"
@@ -77341,7 +78410,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Keshad Johnson",
     "key": "keshad johnson"
@@ -77352,7 +78421,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Nikola Jovic",
     "key": "nikola jovic"
@@ -77363,7 +78432,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Pelle Larsson",
     "key": "pelle larsson"
@@ -77374,7 +78443,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Bobby Portis",
     "key": "bobby portis"
@@ -77385,7 +78454,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Nick Richards",
     "key": "nick richards"
@@ -77396,7 +78465,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-05 06:49 PM ET",
+    "posted": "2026-11-05 06:56 PM ET",
     "note": "",
     "name": "Dru Smith",
     "key": "dru smith"
@@ -103275,6 +104344,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-05 06:51 PM ET"
+  "checked_et": "2026-11-05 06:58 PM ET"
  }
 }
