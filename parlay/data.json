@@ -71,9 +71,9 @@
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/750211732535902636",
     "hr_live": "-130",
     "hr_now": "-130",
-    "dk_sid": "0QA387200412#2356070224_13L42648Q1-703167132Q20",
+    "dk_sid": null,
     "dk_eid": "34973493",
-    "dk_link": "https://sportsbook.draftkings.com/event/34973493?outcomes=0QA387200412%232356070224_13L42648Q1-703167132Q20",
+    "dk_link": null,
     "dk_live": "-133",
     "bk_start": "2026-11-08T20:00-05:00",
     "link_status": "linked",
@@ -84,10 +84,12 @@
       "reason": ""
      },
      "dk": {
-      "status": "linked",
-      "reason": ""
+      "status": "lookup_failed",
+      "reason": "unverified link"
      }
-    }
+    },
+    "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+    "dk_absent": false
    },
    {
     "name": "+100",
@@ -640,10 +642,10 @@
       "of": 1,
       "link": null
      },
-     "dk_sid": "0QA387200412#2356070224_13L42648Q1-703167132Q20",
-     "dk_link": "https://sportsbook.draftkings.com/event/34973493?outcomes=0QA387200412%232356070224_13L42648Q1-703167132Q20",
+     "dk_sid": null,
+     "dk_link": null,
      "hr_absent": null,
-     "dk_absent": null,
+     "dk_absent": false,
      "bk_start": "2026-11-08T20:00-05:00",
      "potd_status": "posted",
      "potd_status_text": null,
@@ -655,14 +657,15 @@
        "reason": ""
       },
       "dk": {
-       "status": "linked",
-       "reason": ""
+       "status": "lookup_failed",
+       "reason": "unverified link"
       }
      },
      "hr_live": "-130",
      "hr_now": "-130",
      "dk_eid": "34973493",
-     "dk_live": "-133"
+     "dk_live": "-133",
+     "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id"
     },
     "parlay": {
      "pick": "2-leg",
@@ -9813,8 +9816,8 @@
      "status": "Pending",
      "legs": [],
      "fam": "Rushing yds",
-     "hr_sid": "3876646728966996400",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3876646728966996400",
+     "hr_sid": null,
+     "hr_link": null,
      "hr_live": {
       "label": "Live HR price +185 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
       "price": "+185",
@@ -9839,18 +9842,20 @@
      "kick": "4:25 PM ET",
      "started": true,
      "final": false,
-     "link_status": "linked",
-     "link_reason": "",
+     "link_status": "started",
+     "link_reason": "game started",
      "link_books": {
       "hr": {
-       "status": "linked",
-       "reason": ""
+       "status": "started",
+       "reason": "game started"
       },
       "dk": {
        "status": "started",
        "reason": "game started"
       }
-     }
+     },
+     "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+     "hr_absent": false
     },
     {
      "sport": "NFL",
@@ -10078,15 +10083,15 @@
      "hr_sid": "4058606088021475739",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4058606088021475739",
      "hr_live": {
-      "label": "Live HR price +145 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
+      "label": "Live HR price +145 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
       "price": "+145",
-      "at": "2026-11-08T18:56:46-05:00",
+      "at": "2026-11-08T18:58:16-05:00",
       "paused": true
      },
      "hr_live_label": {
-      "label": "Live HR price +145 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
+      "label": "Live HR price +145 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
       "price": "+145",
-      "at": "2026-11-08T18:56:46-05:00",
+      "at": "2026-11-08T18:58:16-05:00",
       "paused": true
      },
      "hr_now": "+145",
@@ -10880,8 +10885,8 @@
        "reason": ""
       },
       "dk": {
-       "status": "linked",
-       "reason": ""
+       "status": "lookup_failed",
+       "reason": "unverified link"
       }
      },
      "dk_absent": false,
@@ -11797,16 +11802,16 @@
      "hr_sid": "6073307849142960539",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6073307849142960539",
      "hr_live": {
-      "label": "Live HR price -1800 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
-      "price": "-1800",
-      "at": "2026-11-08T18:56:46-05:00",
-      "paused": true
+      "label": "Live HR price -2000 as of 18:58 ET (game started; posted odds unchanged)",
+      "price": "-2000",
+      "at": "2026-11-08T18:58:16-05:00",
+      "paused": false
      },
      "hr_live_label": {
-      "label": "Live HR price -1800 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
-      "price": "-1800",
-      "at": "2026-11-08T18:56:46-05:00",
-      "paused": true
+      "label": "Live HR price -2000 as of 18:58 ET (game started; posted odds unchanged)",
+      "price": "-2000",
+      "at": "2026-11-08T18:58:16-05:00",
+      "paused": false
      },
      "hr_now": "-1300",
      "dk_sid": null,
@@ -12088,15 +12093,15 @@
      "hr_sid": "7584290534263488901",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7584290534263488901",
      "hr_live": {
-      "label": "Live HR price +170 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
+      "label": "Live HR price +170 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
       "price": "+170",
-      "at": "2026-11-08T18:56:46-05:00",
+      "at": "2026-11-08T18:58:16-05:00",
       "paused": true
      },
      "hr_live_label": {
-      "label": "Live HR price +170 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
+      "label": "Live HR price +170 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
       "price": "+170",
-      "at": "2026-11-08T18:56:46-05:00",
+      "at": "2026-11-08T18:58:16-05:00",
       "paused": true
      },
      "hr_now": "+170",
@@ -30376,16 +30381,16 @@
       "hr_sid": "4221077270273589658",
       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4221077270273589658",
       "hr_live": {
-       "label": "Live HR price -110 as of 18:56 ET (game started; posted odds unchanged)",
-       "price": "-110",
-       "at": "2026-11-08T18:56:46-05:00",
-       "paused": false
+       "label": "Live HR price +170 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
+       "price": "+170",
+       "at": "2026-11-08T18:58:16-05:00",
+       "paused": true
       },
       "hr_live_label": {
-       "label": "Live HR price -110 as of 18:56 ET (game started; posted odds unchanged)",
-       "price": "-110",
-       "at": "2026-11-08T18:56:46-05:00",
-       "paused": false
+       "label": "Live HR price +170 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
+       "price": "+170",
+       "at": "2026-11-08T18:58:16-05:00",
+       "paused": true
       },
       "hr_now": "+140",
       "dk_sid": null,
@@ -42144,8 +42149,8 @@
       ]
      ]
     },
-    "hr_sid": "2342404383790203307",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2342404383790203307",
+    "hr_sid": null,
+    "hr_link": null,
     "hr_live": {
      "label": "Live HR price +130 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
      "price": "+130",
@@ -42166,18 +42171,20 @@
     "bk_start": "2026-11-08T16:05-05:00",
     "bk_started": true,
     "bk_started_why": "game started",
-    "link_status": "linked",
-    "link_reason": "",
+    "link_status": "started",
+    "link_reason": "game started",
     "link_books": {
      "hr": {
-      "status": "linked",
-      "reason": ""
+      "status": "started",
+      "reason": "game started"
      },
      "dk": {
       "status": "started",
       "reason": "game started"
      }
-    }
+    },
+    "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+    "hr_absent": false
    },
    {
     "sport": "NFL",
@@ -42447,12 +42454,12 @@
     "bk_start": "2026-11-08T16:25-05:00",
     "bk_started": true,
     "bk_started_why": "game started",
-    "link_status": "linked",
-    "link_reason": "",
+    "link_status": "started",
+    "link_reason": "game started",
     "link_books": {
      "hr": {
-      "status": "linked",
-      "reason": ""
+      "status": "started",
+      "reason": "game started"
      },
      "dk": {
       "status": "started",
@@ -149357,7 +149364,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/575603064241783209",
       "odds": null,
       "fingerprint": "5d559d51148e1faf2848",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|34a405cc298576d7ec1a1fda867e413aee146fa756e0ab12caf9077500274111",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -149370,7 +149377,7 @@
       "url": "https://sportsbook.draftkings.com/event/34118027?outcomes=0QA385677937%232349357650_13L88808Q1-1479172706Q20",
       "odds": null,
       "fingerprint": "3fedf1c75934a17880dd",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|34a405cc298576d7ec1a1fda867e413aee146fa756e0ab12caf9077500274111",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -149438,15 +149445,15 @@
        "hr_sid": "7584290534263488901",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7584290534263488901",
        "hr_live": {
-        "label": "Live HR price +170 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
+        "label": "Live HR price +170 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
         "price": "+170",
-        "at": "2026-11-08T18:56:46-05:00",
+        "at": "2026-11-08T18:58:16-05:00",
         "paused": true
        },
        "hr_live_label": {
-        "label": "Live HR price +170 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
+        "label": "Live HR price +170 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
         "price": "+170",
-        "at": "2026-11-08T18:56:46-05:00",
+        "at": "2026-11-08T18:58:16-05:00",
         "paused": true
        },
        "hr_now": "+170",
@@ -150490,16 +150497,16 @@
        "hr_sid": "6073307849142960539",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6073307849142960539",
        "hr_live": {
-        "label": "Live HR price -1800 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
-        "price": "-1800",
-        "at": "2026-11-08T18:56:46-05:00",
-        "paused": true
+        "label": "Live HR price -2000 as of 18:58 ET (game started; posted odds unchanged)",
+        "price": "-2000",
+        "at": "2026-11-08T18:58:16-05:00",
+        "paused": false
        },
        "hr_live_label": {
-        "label": "Live HR price -1800 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
-        "price": "-1800",
-        "at": "2026-11-08T18:56:46-05:00",
-        "paused": true
+        "label": "Live HR price -2000 as of 18:58 ET (game started; posted odds unchanged)",
+        "price": "-2000",
+        "at": "2026-11-08T18:58:16-05:00",
+        "paused": false
        },
        "hr_now": "-1300",
        "dk_sid": null,
@@ -150632,7 +150639,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8518447383848288674",
       "odds": null,
       "fingerprint": "79bf7344e2895b6740db",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|b60c9bfe72b27a4dd4d0c3482a9ddb93d9d16498868a62ce6d3715613d962d8c",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150645,7 +150652,7 @@
       "url": "https://sportsbook.draftkings.com/event/34973492?outcomes=0QA387256201%232356280693_13L42648Q1-1115091407Q20",
       "odds": null,
       "fingerprint": "13f1d24417916025fb87",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|b60c9bfe72b27a4dd4d0c3482a9ddb93d9d16498868a62ce6d3715613d962d8c",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150904,7 +150911,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8518447383848288674",
       "odds": null,
       "fingerprint": "8647133f2549bac08de7",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|d1a159e2f11de16ef2f3a21ccaf3329649669f677466542ba731d88c490c235c",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150917,7 +150924,7 @@
       "url": "https://sportsbook.draftkings.com/event/34973492?outcomes=0QA387256201%232356280693_13L42648Q1-1115091407Q20",
       "odds": null,
       "fingerprint": "fadf9af48601bf5d139c",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|d1a159e2f11de16ef2f3a21ccaf3329649669f677466542ba731d88c490c235c",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151010,7 +151017,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5312628411584348568",
       "odds": null,
       "fingerprint": "68990b2a23c14995535c",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|217e87b465e4416543b150d1feed9ddb7a9187a5d9ca15bbad6b24ed107e0b18",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151023,7 +151030,7 @@
       "url": "https://sportsbook.draftkings.com/event/34973493?outcomes=0QA387201992%232356075365_13L42648Q1-1342997856Q20",
       "odds": null,
       "fingerprint": "7733bb3fa8895b3f87b2",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|217e87b465e4416543b150d1feed9ddb7a9187a5d9ca15bbad6b24ed107e0b18",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151116,7 +151123,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1260193430548644254",
       "odds": "-140",
       "fingerprint": "2c0c94b393a181313af9",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|258829d6a23427619e83cbb852dcfb19f0126805c5a709c97f6c83b0d93628f3",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151305,7 +151312,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7012181002047062414",
       "odds": "-110",
       "fingerprint": "f985e345c1a7426b854e",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|28771f66aa12fb93f0c02546fa75decff891254ccfe7aed5c2af50fb2982422f",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151464,8 +151471,8 @@
        "status": "Pending",
        "legs": [],
        "fam": "Rushing yds",
-       "hr_sid": "3876646728966996400",
-       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3876646728966996400",
+       "hr_sid": null,
+       "hr_link": null,
        "hr_live": {
         "label": "Live HR price +185 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
         "price": "+185",
@@ -151486,7 +151493,9 @@
        "dk_absent": true,
        "bk_start": "2026-11-08T16:25-05:00",
        "bk_started": true,
-       "bk_started_why": "game started"
+       "bk_started_why": "game started",
+       "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+       "hr_absent": false
       }
      }
     ],
@@ -151840,7 +151849,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4501760684511592874",
       "odds": "-140",
       "fingerprint": "0174ae252d5409a0e394",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|0171fdcf7f62fc40cc4da1f9c65475b8291aba52329a260ba6ebe4bf20be9982",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -152064,15 +152073,15 @@
        "hr_sid": "4058606088021475739",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4058606088021475739",
        "hr_live": {
-        "label": "Live HR price +145 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
+        "label": "Live HR price +145 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
         "price": "+145",
-        "at": "2026-11-08T18:56:46-05:00",
+        "at": "2026-11-08T18:58:16-05:00",
         "paused": true
        },
        "hr_live_label": {
-        "label": "Live HR price +145 as of 18:56 ET (game started; posted odds unchanged) (market paused)",
+        "label": "Live HR price +145 as of 18:58 ET (game started; posted odds unchanged) (market paused)",
         "price": "+145",
-        "at": "2026-11-08T18:56:46-05:00",
+        "at": "2026-11-08T18:58:16-05:00",
         "paused": true
        },
        "hr_now": "+145",
@@ -153400,7 +153409,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5106257943135912368",
       "odds": "-120",
       "fingerprint": "7401dd3fff12a21bffbb",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|8bcca25003e78bbb4b35d7e85ac11f1596bf44266b64ad611dc4bdd3b5077e5b",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -153484,14 +153493,14 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2692550911844286861",
       "odds": "-120",
       "fingerprint": "7c96c518899c89b1e406",
-      "verified_at_et": "2026-11-08T18:57:27-05:00",
+      "verified_at_et": "2026-11-08T18:58:57-05:00",
       "audit_path": ".heist_original_links.items.original|v1|e48489a565661c67c1b708e6c250c3194abf3cc2a8d18694eed2ef68bc6888aa",
       "absent": false,
       "audit_verdict": "VERIFIED"
      },
      "dk": {
       "state": "UNVERIFIED",
-      "reason": "Unavailable on DK: DK Predictions resolver returned nothing for this id",
+      "reason": "Unavailable on DK: Unverified link: unverified: DK Predictions resolver returned nothing for this id",
       "sid": null,
       "event_id": null,
       "url": null,
@@ -188343,8 +188352,8 @@
       "reason": ""
      },
      "dk": {
-      "status": "linked",
-      "reason": ""
+      "status": "lookup_failed",
+      "reason": "unverified link"
      }
     },
     "hr_live": "-120",
