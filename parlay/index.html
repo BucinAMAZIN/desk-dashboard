@@ -185,6 +185,39 @@ details.r2slip{margin:2px 0 6px;border-radius:10px}details.r2slip>summary{paddin
 .r2bar{height:5px;border-radius:3px;background:#2a3046;margin-top:3px}.r2bar i{display:block;height:100%;border-radius:3px;background:#3ddc84}
 details.r2more>summary{font-size:12px;color:#f5c542;padding:6px 4px}.r2dt{font-size:10px;color:#8b93a7;margin-top:4px}
 .r2tag{font-size:10px;padding:2px 7px;border-radius:999px;background:#f5c54222;color:#f5c542;font-weight:700}
+.ttbox{border-radius:16px;margin:8px 0;padding:10px 10px 4px;overflow:hidden}
+.tth{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.ttword{flex:none;font-weight:900;font-style:italic;font-size:28px;line-height:1;color:#ffd400;letter-spacing:-.03em;text-shadow:0 1px 0 #000}
+.tth img{width:84px;height:40px;object-fit:contain;flex:none}
+.tthb{min-width:0;flex:1}
+.tthb b{font-size:13px}
+.tthr{font-size:22px;font-weight:900;font-style:italic;line-height:1.05}
+.ttplay{border-top:1px solid #ffffff14;position:relative}
+.ttplay>summary{display:block;cursor:pointer;padding-right:16px;list-style:none}
+.ttplay>summary::-webkit-details-marker{display:none}
+.ttchev{position:absolute;right:2px;top:12px;color:#8b949e;font-size:11px}
+.ttplay[open]>summary .ttchev{transform:rotate(180deg);display:inline-block}
+.ttlegs{padding:0 0 8px 8px}
+.ttx{margin:4px 0 8px}
+.ttx>summary{cursor:pointer;font-size:11px;font-weight:700;color:#8b949e;list-style:none;display:inline-flex;align-items:center;gap:4px}
+.ttx>summary::-webkit-details-marker{display:none}
+.ttx>summary:before{content:'▸';font-size:10px}
+.ttx[open]>summary:before{content:'▾'}
+.ttx .why{overflow-wrap:anywhere}
+.nastrk{margin:0 0 12px}
+.nashead{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin:2px 2px 8px;flex-wrap:wrap}
+.nashead b{font-size:14px}
+.nashead .m{text-align:right}
+.nasmkt{background:#161b22;border:1px solid #30363d;border-radius:12px;margin:0 0 8px}
+.nasmkt>summary{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;padding:10px 12px;cursor:pointer;list-style:none}
+.nasmkt>summary::-webkit-details-marker{display:none}
+.nasnm{font-weight:700;min-width:0;flex:1 1 150px;overflow-wrap:anywhere;line-height:1.25}
+.ttrec{flex:none;margin-left:auto;text-align:right;font-weight:800;font-variant-numeric:tabular-nums}
+.ttrec small{display:block;font-weight:600;color:#8b949e;font-size:10px}
+.nasb{padding:0 12px 8px}
+.nasempty{padding:2px 0 8px}
+.ttplay .r2res,.ttplay .rs{white-space:nowrap}.ttplay .nw{white-space:nowrap}
+@media (max-width:390px){.tthr{font-size:20px}.ttword{font-size:24px}.tth img{width:72px;height:34px}}
 details.r2rules{background:none;border-top:1px solid #30363d55;border-radius:0;margin-top:12px}details.r2rules>summary{font-size:12px;color:#8b93a7;padding:8px 4px}details.r2rules ul{margin:0;padding:0 8px 10px 22px;font-size:12px;color:#aab}details.r2rules li{margin:3px 0}
 
 /*SB-V2 tiles*/.sbv2>.m{display:block;white-space:nowrap;overflow:hidden}.sbv2 .sbr{color:#e6edf3;font-weight:700}.sbp{color:#3fb950;font-weight:700}.sbn{color:#f85149;font-weight:700}.sbz{color:#8b949e;font-weight:700}
@@ -585,7 +618,7 @@ let ALL=sessionStorage.getItem('allsp')=='1';
 function spOf(t){t=t||'';if(/\b(NASCAR|GOLF|PGA|LPGA)\b/i.test(t))return'OTHER';if(/\b(NHL|SOG|puck|Lightning|Kraken|Blues|Kings|Penguins)\b/i.test(t))return'NHL';if(/\b(MLB|F5|RBI|Rays|Guardians|innings?|strikeouts?|hits allowed)\b/i.test(t))return'MLB';if(/\bNBA\b/i.test(t))return'NBA';if(/\b(NFL|Rec Yds|Rush Yds|touchdowns?|TDs?)\b/i.test(t))return'NFL';return'';}
 function isMaj(t){const s=spOf(t);return s?['MLB','NHL','NBA','NFL'].includes(s):true}
 function setAll(v){ALL=v;sessionStorage.setItem('allsp',v?'1':'0');draw()}
-function sbV2(sp){const X=((D.results_v2||{}).rows||[]),k={'NCAA F':'NCAAF','BIG 4':'Big 4'}[sp]||sp;let w=0,l=0,p=0,v=0,pe=0,u=0;X.forEach(r=>{if(r.grp!='O'||r.leg||(k!='*'&&r.sport!=k))return;if(r.res=='W')w++;else if(r.res=='L')l++;else if(r.res=='P')p++;else if(r.res=='V')v++;else pe++;u+=r.uu!=null&&r.res?+r.uu:r.res=='W'?1:r.res=='L'?-1:0});return{w,l,p,v,pe,u:Math.round(u*100)/100}}/* AUDIT-1031: every Official ticket = 1u at its real odds (row uu from results_v2; user 6:13 PM ET); flat only if a row has no odds */
+function sbV2(sp){const X=TT_VIS((D.results_v2||{}).rows||[]),k={'NCAA F':'NCAAF','BIG 4':'Big 4'}[sp]||sp;let w=0,l=0,p=0,v=0,pe=0,u=0;X.forEach(r=>{if(r.grp!='O'||r.leg||(k!='*'&&r.sport!=k))return;if(r.res=='W')w++;else if(r.res=='L')l++;else if(r.res=='P')p++;else if(r.res=='V')v++;else pe++;u+=r.uu!=null&&r.res?+r.uu:r.res=='W'?1:r.res=='L'?-1:0});return{w,l,p,v,pe,u:Math.round(u*100)/100}}/* AUDIT-1031: every Official ticket = 1u at its real odds (row uu from results_v2; user 6:13 PM ET); flat only if a row has no odds */
 function sbT(lab,v,on,click){const n=v.w+v.l+v.p;return `<div class="card sbv2" style="cursor:pointer;${on?'border-color:#1f6feb;background:#1f6feb22':''}" onclick="${click}"><b>${E(lab)}</b><span class=m>${n?`<span class="sbr">${v.w}-${v.l}${v.p?'-'+v.p:''}</span> · <span class="${v.u>0?'sbp':v.u<0?'sbn':'sbz'}">${v.u>0?'+':''}${v.u}u</span>`:'No tickets yet'}${v.pe?` · ${v.pe} pend`:''}</span></div>`}
 function sbub(){const R=(D.sport_records||[]).filter(r=>K=='record'||r.sport!='BIG 4');if(D.results_v2&&D.results_v2.rows)return K=='record'?sbT('All',sbV2('*'),!RF,"setRF('')")+R.map(r=>sbT(r.label||r.sport,sbV2(r.sport),RF==r.sport,`setRF('${E(r.sport)}')`)).join(''):R.map(r=>sbT(r.label||r.sport,sbV2(r.sport),K=='sport'&&SP==r.sport,`goSport('${E(r.sport)}')`)).join('');return (K=='record'?`<div class="card" style="cursor:pointer;${!RF?'border-color:#1f6feb;background:#1f6feb22':''}" onclick="setRF('')"><b>All</b><span class=m>—</span></div>`:'')+R.map(r=>`<div class="card" style="cursor:pointer;${(K=='sport'&&SP==r.sport)||(K=='record'&&RF==r.sport)?'border-color:#1f6feb;background:#1f6feb22':''}" onclick="${K=='record'?`setRF('${E(r.sport)}')`:`goSport('${E(r.sport)}')`}"><b>${E(r.label||r.sport)}</b><span class=m>${E(r.w)}-${E(r.l)}-${E(r.p)} · ${r.pct==null?'—':r.pct+'%'}</span></div>`).join('')}
 
@@ -892,7 +925,7 @@ function ESLOT(kind,title,sub){return `<div class="eslot es-${kind}"><span class
 function ETD(){return new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'}).replace(/-/g,'')}
 function OC(v){return String(v==null?'':v).replace(/([+-])(\d{4,})\b/g,(m,g,d)=>g+(+d).toLocaleString('en-US'))}
 function EDGL(b4){/* bug #110 (2026-10-25): no-play label depends on whether the slate has games (D.big4_games from build_data) */const g=D.big4_games;return b4&&g===0?'No games today':b4?'No Edge plays qualified today':'No Edge plays qualified today'}
-function ESLAST(cat,sp,grp,lab){const X=((D.results_v2||{}).rows||[]),s=sp=='NCAA F'?'NCAAF':sp;let b=null,bi=-1;X.forEach((r,i)=>{if(r.leg||(s&&r.sport!=s)||!['W','L','P','V'].includes(r.res))return;const hit=r.cat==cat&&(!grp||r.grp==grp);const lotto=cat=='Lotto'&&r.cat=='Placed tickets'&&/Lotto Ticket/i.test(String(r.pick||''));if(!hit&&!lotto)return;if(!b||r.date>b.date||(r.date==b.date&&i>bi)){b=r;bi=i}});if(!b)return'';{/* bug #115 (2026-10-25): only show a recent Last card (yesterday ET; Lotto within 7 days) */const t=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));t.setDate(t.getDate()-(/Lotto/i.test(cat)?7:1));const y=t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0');if(b.date<y)return''}
+function ESLAST(cat,sp,grp,lab){const X=TT_VIS((D.results_v2||{}).rows||[]),s=sp=='NCAA F'?'NCAAF':sp;let b=null,bi=-1;X.forEach((r,i)=>{if(r.leg||(s&&r.sport!=s)||!['W','L','P','V'].includes(r.res))return;const hit=r.cat==cat&&(!grp||r.grp==grp);const lotto=cat=='Lotto'&&r.cat=='Placed tickets'&&/Lotto Ticket/i.test(String(r.pick||''));if(!hit&&!lotto)return;if(!b||r.date>b.date||(r.date==b.date&&i>bi)){b=r;bi=i}});if(!b)return'';{/* bug #115 (2026-10-25): only show a recent Last card (yesterday ET; Lotto within 7 days) */const t=new Date(new Date().toLocaleString('en-US',{timeZone:'America/New_York'}));t.setDate(t.getDate()-(/Lotto/i.test(cat)?7:1));const y=t.getFullYear()+'-'+String(t.getMonth()+1).padStart(2,'0')+'-'+String(t.getDate()).padStart(2,'0');if(b.date<y)return''}
  const L={W:['Won 💰','esW'],L:['Lost','esL'],P:['Push','esP'],V:['VOID','esP']}[b.res],dt=new Date(b.date+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric'});
  return `<div class="eslast"><div class="m" style="font-size:11.5px;letter-spacing:.05em;text-transform:uppercase">Last ${E(lab||cat)} · ${E(dt)}</div><div class="eslr"><span class="p">${E(String(b.pick).replace(/\s*\((backfill[^)]*)\)/i,''))}</span><b>${E(b.odds)}</b><span class="esc ${L[1]}">${L[0]}</span></div></div>`}
 function PV8E(lab,sp){const sub=(sp?E(sp)+' · ':'')+'Play of the Day';return `<div class="pv8o pv8eo"><div class="pv8"><div class="pv8i"><details class="card edgec pv8d pv8e"><summary><div class="pv8h"><div class="pv8l"><img src="potd-logo-v6.jpg" alt="POTD · Play of the Day"><i class="pv8g" style="animation-delay:-${Date.now()%2600}ms"></i></div></div>${ESLOT('potd','No play today',sub+' <span class="car">▾</span>')}</summary><div class="pv8x"><div class="pv8r"><div class="m" style="font-size:11px">${lab}</div><div class="pk" style="margin-top:2px">Nothing posted${sp?' for '+E(sp):''} today</div>${ESLAST('POTD',sp,'O','POTD')}</div></div></details></div></div></div>`}
@@ -1012,7 +1045,7 @@ function NW2(t){return `<span style="white-space:nowrap">${t}</span>`}
 /* LEG DAY per sport (owner report 2026-10-25 5:31 AM ET): every Official leg, scored per sport on the sport page and in Results */
 /* LEG DAY BOARD host (RULEBOOK §17, 2026-10-25): the board mounts in a shadow root (ldSportMount) on Today and sport views */
 function LDHOST(){return'<div id="ldsph" style="margin:10px 0"></div>'}
-function sport(){const S=((D.today||{}).sports||{})[SP];const SR=(D.sport_records||[]).find(x=>x.sport==SP)||{},SU=SR.runners_up||{w:0,l:0,p:0,pct:null};let h=qualBox()+nlBox()+`<div class="card" style="padding:8px 12px"><div class="row">${(()=>{const v=sbV2(SP);return `<span class=m style="min-width:0">${E(SP)} official record</span><span style="white-space:nowrap;flex:none;margin-left:8px"><b>${v.w}-${v.l}${v.p?'-'+v.p:''}</b> <span class="${v.u>0?'sbp':v.u<0?'sbn':'sbz'}" style="font-size:12px">${v.u>0?'+':''}${v.u}u</span>${v.v?` <span class=m>· ${v.v} void</span>`:''}${v.pe?` <span class=m>· ${v.pe} pending</span>`:''}</span>`})()}</div></div><h2>${E(SP)} picks today</h2>${SP=='MLB'?'':'<div class="m" style="margin-bottom:6px">Official · tap a pick for the reasoning</div>'}`;
+function sport(){const S=((D.today||{}).sports||{})[SP];const SR=(D.sport_records||[]).find(x=>x.sport==SP)||{},SU=SR.runners_up||{w:0,l:0,p:0,pct:null};let h=nasTrack()+qualBox()+nlBox()+`<div class="card" style="padding:8px 12px"><div class="row">${(()=>{const v=sbV2(SP);return `<span class=m style="min-width:0">${E(SP)} official record</span><span style="white-space:nowrap;flex:none;margin-left:8px"><b>${v.w}-${v.l}${v.p?'-'+v.p:''}</b> <span class="${v.u>0?'sbp':v.u<0?'sbn':'sbz'}" style="font-size:12px">${v.u>0?'+':''}${v.u}u</span>${v.v?` <span class=m>· ${v.v} void</span>`:''}${v.pe?` <span class=m>· ${v.pe} pending</span>`:''}</span>`})()}</div></div><h2>${E(SP)} picks today</h2>${SP=='MLB'?'':'<div class="m" style="margin-bottom:6px">Official · tap a pick for the reasoning</div>'}`;
  if(SP=='NCAAM')return h+NCBOX()+fld();
  if(!S||(!S.potd&&!S.parlay&&!(S.runners_up||[]).length)){h+=`<div class="m esnote">${SP=='GOLF'?'No PGA Tour event this week':'No official picks posted today'}${SP=='NASCAR'?nsWhy():''}</div>`+PV8E('Play of the Day',SP)+P100E(SP,S&&S.parlay_done)+edgeBox()+s100(SP)+tdBox()+fbBox()+LDHOST()+proj();return h+fld()}
  const lg=l=>PCLEG(l,why(l.why,l.why_not));
@@ -1089,6 +1122,159 @@ function R4CAPX(X){if(X._capx)return X._capx;const td=D.capper_today_date||'',ro
 function CAPAM(o){const m=String(o??'').replace(/\u2212/g,'-').match(/^\s*([+-])\s?(\d{3,6})(?![\d%.])/);if(!m)return null;const v=+m[2];return v>=100?(m[1]=='+'?v:-v):null}
 const ISPROPTICKET=r=>['Safe +100 (Alt Parlay)','+100','+250'].includes(r.cat);
 function R4G(r){return r.cat=='Cappers'?'C':ISPROPTICKET(r)?'A':r.grp=='F'?'U':r.grp}/* UNOFFICIAL-1101 (user 2026-11-01 10:19 AM ET): First Blood + TD City rows are grp 'F' (unofficial, for fun) -> Results group 'U', never in Official *//* FBTD-1031 (user 2026-10-31 6:09 PM ET, pt1131u): First Blood is grp 'O' (counts in Official W-L/units, 1 ticket = 1 result at posted odds); NOFB-1031 (user 2026-10-31 7:09 PM ET): 🩸 First Blood Results bubble removed; FB tickets show only inside Official */function IN4G(r,k){return R4G(r)==k}/* user 2026-10-28 6:18 AM ET: Safe +100 (Alt Parlay) tickets count only in the Alt Parlay bubble, never in Official */
+/* TT1108: +100 / +250 plays and NASCAR prop records.
+   Uses ticket_tracking, nascar_tracking, and the display flags when data.json has them.
+   Missing fields keep the current record and results. Nothing here edits the data. */
+function TT_ACTIVE(){
+ const T=D&&D.ticket_tracking&&D.ticket_tracking.products;
+ if(!T)return [];
+ const listed=D.record_display&&Array.isArray(D.record_display.active_products)&&D.record_display.active_products.length?D.record_display.active_products:['plus100','plus250'];
+ return listed.filter(k=>T[k]&&typeof T[k]=='object');
+}
+function TT_PROD(key){return TT_ACTIVE().indexOf(key)<0?null:D.ticket_tracking.products[key]}
+function TT_ON(key){return key?!!TT_PROD(key):TT_ACTIVE().length>0}
+function TT_SAFE_HIDDEN(){
+ const s=D&&D.safe100_record&&D.safe100_record.display;
+ const pt=D&&D.results_v2&&D.results_v2.summary&&D.results_v2.summary.prop_tickets;
+ const q=pt&&pt['Safe +100 (Alt Parlay)']&&pt['Safe +100 (Alt Parlay)'].display;
+ return !!((s&&s.hidden)||(q&&q.hidden));
+}
+function TT_LEGACY_BEFORE(){
+ const g=D&&D.legacy_plus100_record;
+ if(!g||!g.display||!g.display.hidden)return '';
+ return String(g.before||'2026-11-06');
+}
+function TT_HIDDEN_ROW(r){
+ if(!r)return false;
+ if(r.display&&r.display.hidden)return true;
+ if(TT_SAFE_HIDDEN()&&r.cat=='Safe +100 (Alt Parlay)')return true;
+ const before=TT_LEGACY_BEFORE();
+ if(before&&(r.cat=='Parlay +100'||r.cat=='+100')&&r.date&&String(r.date)<before)return true;
+ return false;
+}
+function TT_VIS(rows){return (rows||[]).filter(r=>!TT_HIDDEN_ROW(r))}
+function TT_NUM(rec){rec=rec||{};return {w:+rec.w||0,l:+rec.l||0,p:+rec.p||0,v:+rec.v||0,pe:+rec.pending||0}}
+function TT_WL(rec){const n=TT_NUM(rec);return n.w+'-'+n.l+(n.p?'-'+n.p:'')}
+function TT_TAIL(rec){const n=TT_NUM(rec),b=[];if(n.v)b.push(n.v+' void');if(n.pe)b.push(n.pe+' pending');return b.join(' · ')}
+function TT_PCT(rec){const n=TT_NUM(rec);return n.w+n.l?Math.round(100*n.w/(n.w+n.l)):null}
+function TT_TIER(rec){const p=TT_PCT(rec);return p==null?'t-none':p>=60?'t-elite':p>=52?'t-gold':p>=45?'t-silver':'t-bronze'}
+function TT_SUM(){
+ let w=0,l=0,p=0,v=0,pe=0;
+ TT_ACTIVE().forEach(k=>{const n=TT_NUM(TT_PROD(k).record);w+=n.w;l+=n.l;p+=n.p;v+=n.v;pe+=n.pe});
+ return {w,l,p,v,pe,u:0,pct:w+l?Math.round(100*w/(w+l)):null};
+}
+function TT_RES(res){
+ const u=String(res==null?'':res).trim().toUpperCase();
+ if(!u||u==='—'||u==='-'||u==='PENDING'||u==='PRE-LOCK'||u==='LIVE'||u==='OPEN')return {k:'X',t:'Pending'};
+ if(/^(W|WIN|WON|HIT)$/.test(u))return {k:'W',t:'W'};
+ if(/^(L|LOSS|LOST|MISS)$/.test(u))return {k:'L',t:'L'};
+ if(/^(P|PUSH)$/.test(u))return {k:'P',t:'Push'};
+ if(/^(V|VOID|VOIDED)$/.test(u))return {k:'V',t:'Void'};
+ return {k:'X',t:'Pending'};
+}
+function TT_LEGRES(res){const r=TT_RES(res);if(r.k=='W')return {k:'W',t:'HIT'};if(r.k=='L')return {k:'L',t:'MISS'};return r}
+function TT_COLLAPSED(item,fallback){
+ if(item&&item.explanation_collapsed===false)return false;
+ if(item&&item.explanation_collapsed===true)return true;
+ return fallback===false?false:true;
+}
+function TT_FALL(){
+ const t=D&&D.ticket_tracking;
+ if(t&&t.explanations_collapsed===false)return false;
+ if(D&&D.record_display&&D.record_display.explanations_collapsed===false)return false;
+ return true;
+}
+function TT_WHY(item,fallback){
+ const s=String(item&&item.explanation!=null?item.explanation:'').trim();
+ if(!s)return '';
+ return `<details class="ttx"${TT_COLLAPSED(item,fallback)?'':' open'}><summary>Note</summary><div class="why">${E(s).replace(/\n/g,'<br>')}</div></details>`;
+}
+function TT_ATTR(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function TT_PLAYS(prod,sport){
+ let a=Array.isArray(prod&&prod.plays)?prod.plays:[];
+ if(sport&&sport!=='All')a=a.filter(p=>String(p.sport||'')===sport);
+ return a;
+}
+function TT_LINE(p,opt){
+ opt=opt||{};
+ const res=opt.leg?TT_LEGRES(p.res!=null?p.res:p.status):TT_RES(p.res!=null?p.res:p.status);
+ const row=opt.shadow?'pr':'r2row',chip=opt.shadow?'rs':'r2res',name=opt.shadow?'n':'r2n',odds=opt.shadow?'o':'r2o';
+ const dt=String(p.date||p.race_date||'').slice(5).replace('-','/');
+ const title=opt.leg?(p.pick||''):(p.pick||p.label||p.selection||'');
+ const bits=[];
+ if(!opt.leg&&p.sport)bits.push(p.sport);
+ if(opt.leg){if(p.stat&&p.stat!=='—')bits.push(p.stat);if(p.gm)bits.push(p.gm)}
+ let recBit='';
+ if(p.record){const t=TT_TAIL(p.record);recBit=`<span class="nw">${E(TT_WL(p.record))}${t?' · '+E(t):''}</span>`}
+ const od=p.odds||'';
+ return `<div class="${row}" data-id="${TT_ATTR(p.id||'')}"><div class="r2lc"><span class="r2dd">${dt?E(dt):''}</span><span class="${chip} r${res.k}">${res.t}</span></div><div class="${name}">${opt.leg?'↳ ':''}${E(title)}<small>${bits.map(E).join(' · ')}${bits.length&&recBit?' · ':''}${recBit}</small></div>${od?`<span class="${odds}">${E(od)}</span>`:''}</div>`;
+}
+function TT_PLAY_BLOCK(p,shadow){
+ const fb=TT_FALL();
+ const legs=(Array.isArray(p.legs)?p.legs:[]).map(l=>TT_LINE(l,{shadow:shadow,leg:1})+TT_WHY(l,fb)).join('');
+ const why=TT_WHY(p,fb);
+ const row=TT_LINE(p,{shadow:shadow});
+ if(!legs&&!why)return `<div class="ttplay" data-id="${TT_ATTR(p.id||'')}">${row}</div>`;
+ return `<details class="ttplay" data-id="${TT_ATTR(p.id||'')}"><summary>${row}<span class="ttchev" aria-hidden="true">▾</span></summary><div class="ttlegs">${legs}${why}</div></details>`;
+}
+function TT_RESULTS(sport){
+ return TT_ACTIVE().map(k=>{
+  const p=TT_PROD(k),plays=TT_PLAYS(p,sport),rec=p.record||{},lg=p.leg_record||{};
+  const cls=k==='plus100'?'r2p100':'r2safe';
+  const mark=k==='plus100'?'<span class="ttword">+100</span>':`<img src="altlines-logo.jpg" alt="${E(p.label||'+250')}">`;
+  const tail=TT_TAIL(rec),lgTail=TT_TAIL(lg);
+  const empty=sport&&sport!=='All'&&!plays.length?`<div class="m nasempty">No ${E(sport)} plays</div>`:(plays.length?plays.map(x=>TT_PLAY_BLOCK(x,0)).join(''):'<div class="m nasempty">No plays yet</div>');
+  return `<div class="ttbox ${cls}" data-prod="${TT_ATTR(k)}"><div class="tth">${mark}<div class="tthb"><b>${E(p.label||k)}</b><div class="tthr">${E(TT_WL(rec))}</div><div class="m">${tail?E(tail)+' · ':''}Legs ${E(TT_WL(lg))}${lgTail?' · '+E(lgTail):''}</div></div></div>${empty}</div>`;
+ }).join('');
+}
+function TT_STRIP(){
+ const keys=TT_ACTIVE();
+ const tiles=keys.map(k=>{
+  const p=TT_PROD(k),r=p.record||{},lg=p.leg_record||{},tail=TT_TAIL(r),lt=TT_TAIL(lg);
+  return `<div class=r2tile><small>${E(p.label||k)}</small><b>${E(TT_WL(r))}</b>${tail?`<span class=r2legs>${E(tail)}</span>`:''}<span class=r2legs>Legs ${E(TT_WL(lg))}${lt?' · '+E(lt):''}</span></div>`;
+ }).join('');
+ return `<div class=r2strip style="grid-template-columns:repeat(${Math.max(keys.length,1)},minmax(0,1fr))">${tiles}</div>`;
+}
+function TT_RECORD_CARD(key,cls){
+ const p=TT_PROD(key);if(!p)return '';
+ const plays=Array.isArray(p.plays)?p.plays:[],rec=p.record||{},lg=p.leg_record||{};
+ const tail=TT_TAIL(rec),lgTail=TT_TAIL(lg),pct=TT_PCT(rec);
+ const mark=key==='plus100'?'<div class="tem gold">+100<small>TICKETS</small></div>':`<img src="altlines-logo.jpg" alt="${E(p.label||'+250')}">`;
+ const body=plays.length?`<div class="sec">PLAYS<i></i></div>`+plays.map(x=>TT_PLAY_BLOCK(x,1)).join(''):'<div class="empty">No plays yet</div>';
+ return `<div class="rc ${cls} ttcard" data-prod="${TT_ATTR(key)}"><details class="wrap"><summary><div class="em">${mark}</div><div class="st"><div class="r">${E(TT_WL(rec))}</div><small><span class="nw">${plays.length} ${plays.length==1?'play':'plays'}</span>${tail?' · <span class="nw">'+E(tail)+'</span>':''}</small><small>Legs <span class="nw">${E(TT_WL(lg))}</span>${lgTail?' · <span class="nw">'+E(lgTail)+'</span>':''}</small></div><div class="ovr ${TT_TIER(rec)}"><b>${pct==null?'—':pct}</b><i>HIT%</i></div><span class="chev">▸</span></summary><div class="body">${body}</div></details></div>`;
+}
+const NAS_MARKETS=['Winner','Top 3','Top 5','Top 10','Matchups','Car Number of Race Winner O/U','Odd vs Even Car Number of Race Winner'];
+function NAS_DATA(){
+ const N=D&&D.nascar_tracking;
+ if(!N||typeof N!=='object')return null;
+ if(!Array.isArray(N.markets)&&!N.by_market&&!Array.isArray(N.records))return null;
+ return N;
+}
+function NAS_HTML(shadow){
+ const N=NAS_DATA();if(!N)return '';
+ const markets=Array.isArray(N.markets)&&N.markets.length?N.markets:NAS_MARKETS;
+ const by=N.by_market||{},recs=Array.isArray(N.records)?N.records:[];
+ const fb=N.explanations_collapsed===false?false:true;
+ const blocks=markets.map(m=>{
+  const rec=by[m]||{w:0,l:0,p:0,v:0,pending:0};
+  const plays=recs.filter(r=>(r.market||r.category)===m);
+  const body=plays.length?plays.map(r=>{
+   let pick=String(r.selection||'').trim();
+   if(r.opponent)pick+=(pick?' vs ':'')+r.opponent;
+   const extra=[r.side,r.line].filter(x=>x!=null&&String(x)!=='');
+   if(extra.length)pick+=(pick?' ':'')+extra.join(' ');
+   const item={id:r.id,pick:pick||'Play',res:r.status,date:r.date||r.race_date,sport:[r.race,r.book].filter(Boolean).join(' · '),odds:r.odds,stat:r.stat,record:r.record,explanation:r.explanation,explanation_collapsed:r.explanation_collapsed!=null?r.explanation_collapsed:fb,legs:[]};
+   return TT_PLAY_BLOCK(item,shadow);
+  }).join(''):'<div class="m nasempty">No plays yet</div>';
+  const tail=TT_TAIL(rec);
+  return `<details class="nasmkt"><summary><span class="nasnm">${E(m)}</span><span class="ttrec">${E(TT_WL(rec))}${tail?'<small>'+E(tail)+'</small>':''}</span></summary><div class="nasb">${body}</div></details>`;
+ }).join('');
+ const sk=N.intake&&Array.isArray(N.intake.skipped)?N.intake.skipped:[];
+ const skipped=sk.length?`<details class="ttx"><summary>Research leans not tracked (${sk.length})</summary><div class="why">${sk.map(s=>E((s.selection||'Lean')+(s.reason?' — '+s.reason:''))).join('<br>')}</div></details>`:'';
+ return `<div class="nastrk"><div class="nashead"><b>NASCAR props</b><span class="m">Hard Rock markets · not in Official</span></div>${blocks}${skipped}</div>`;
+}
+function nasTrack(){if(typeof SP==='undefined'||SP!=='NASCAR')return '';return NAS_HTML(0)}
+function NAS_RECORD(){const h=NAS_HTML(1);return h?`<div class="gh ghU"><span class="t">NASCAR</span><span class="tag">OWN RECORD</span><span class="ln"></span></div>`+h:''}
 function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m">Results are rebuilding. Check back in a few minutes.</div>';
  if(!['O','A','E','C','U'].includes(R2S.g))R2S.g='O';const G=R2S.g,S=R2S.s,V=((R2S.v=='cap'&&G!='C')||(R2S.v=='cat'&&G!='A')||(R2S.v=='list'&&G!='A'&&G!='C'))?'days':R2S.v,ET=t=>new Date(t).toLocaleDateString('en-CA',{timeZone:'America/New_York'});
  const today=ET(Date.now()),wk=ET(Date.now()-6*864e5);
@@ -1098,29 +1284,31 @@ function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m
  const fu=u=>`<span class="${u>=0?'r2pos':'r2neg'}">${u>=0?'+':''}${u}u</span>`,fr=s=>`${s.w}-${s.l}${s.p?'-'+s.p:''}`;
  const chips=a=>'<span class=r2chips>'+a.slice(0,12).map(r=>`<i class="r2c c${['W','L','P','V'].includes(r.res)?r.res:'X'}"></i>`).join('')+'</span>';
  const lab={W:'💰',L:'L',P:'PUSH',V:'VOID'};
- const ALL=X.rows.concat(R4CAPX(X));
+ const ALL=TT_VIS(X.rows).concat(R4CAPX(X));
  /* ALT bubble (user 2026-10-28 6:16 AM ET): Safe +100 / Alt Parlay tickets + legs, grouped by ticket category (tk). Display only: Official totals unchanged, legs never count. */
  const ASC='Safe +100 (Alt Parlay)',AIN=(r,s)=>(ISPROPTICKET(r)||r.cat=='Alt lines')&&(s=='All'||String(r.tk||r.sport).replace(' ','')==s);
- const base=G=='A'?ALL.filter(r=>AIN(r,S)):ALL.filter(r=>(S=='All'||r.sport==S)&&IN4G(r,G)),tix=a=>a.filter(r=>!r.leg);
+ const dropA=r=>G=='A'&&((TT_ON('plus100')&&(r.cat=='+100'||r.cat=='Parlay +100'))||(TT_ON('plus250')&&r.cat=='+250')||(TT_SAFE_HIDDEN()&&r.cat=='Safe +100 (Alt Parlay)'));
+ const base=(G=='A'?ALL.filter(r=>AIN(r,S)):ALL.filter(r=>(S=='All'||r.sport==S)&&IN4G(r,G))).filter(r=>!dropA(r)),tix=a=>a.filter(r=>!r.leg);
  const t0=tix(base),lg0=base.filter(r=>r.leg);
  const capOf=r=>String(r.prop||'').split(' · ')[0];
  /* by-prop source: Official = POTD + LEG DAY singles (leg-by-leg tracker archived 2026-10-25, §17); Edge = singles + legs (ticket parlays live in their legs); Cappers = every pick (a capper parlay stays one pick; its nested display legs are never countable rows) */
  const propSrc=a=>a.filter(r=>G=='O'?(!r.leg&&(r.cat=='POTD'||r.cat=='LEG DAY')):G=='C'?!r.leg:(r.leg||r.fam!='Parlay'));
  let h=`<div class="r2 r4 r4-${G}"><div class="r2h">📊 Results</div>`;
  const GS=[['O','⭐','Official'],['A','🎯','Alt Parlay'],['E','⚡','Edge'],['C','🎙️','Cappers'],['U','🎲','Unofficial']];
- h+='<div class="r2seg r4seg">'+GS.map(([k,i,n])=>{const s=rec(tix(ALL.filter(r=>k=='A'?AIN(r,S):(S=='All'||r.sport==S)&&IN4G(r,k))));return`<button class="r4b r4b-${k}${G==k?' on':''}" onclick="r2set('g','${k}')"><i>${i}</i><b>${n}</b><small>${fr(s)}</small></button>`}).join('')+'</div>';
- {const s=rec(t0),HERO={O:['<span class="r4tem r4gold">OFFICIAL<small>OUR RECORD</small></span>','POTD · +100 · LEG DAY · The Heist · Heist tickets'],U:['<span class="r4tem r4unof">UNOFFICIAL<small>FOR FUN</small></span>','First Blood · TD City · for fun · not in Official'],E:['<img src="edge-logo-crop.jpg" alt="Edge">','Edge picks · official, own section'],C:['<img src="cappers-logo.png" alt="Cappers">','Idea sources · not in our record'],A:['<img src="altlines-logo.jpg" alt="Alt Parlay">','+250 · legacy Safe +100 history · legs shown, not counted']}[G];
+ h+='<div class="r2seg r4seg">'+GS.map(([k,i,n])=>{const s=(k=='A'&&TT_ON())?TT_SUM():rec(tix(ALL.filter(r=>k=='A'?AIN(r,S):(S=='All'||r.sport==S)&&IN4G(r,k))));return`<button class="r4b r4b-${k}${G==k?' on':''}" onclick="r2set('g','${k}')"><i>${i}</i><b>${n}</b><small>${fr(s)}</small></button>`}).join('')+'</div>';
+ {const tracked=G=='A'&&TT_ON(),s=tracked?TT_SUM():rec(t0),HERO={O:['<span class="r4tem r4gold">OFFICIAL<small>OUR RECORD</small></span>','POTD · +100 · LEG DAY · The Heist · Heist tickets'],U:['<span class="r4tem r4unof">UNOFFICIAL<small>FOR FUN</small></span>','First Blood · TD City · for fun · not in Official'],E:['<img src="edge-logo-crop.jpg" alt="Edge">','Edge picks · official, own section'],C:['<img src="cappers-logo.png" alt="Cappers">','Idea sources · not in our record'],A:['<img src="altlines-logo.jpg" alt="Alt Parlay">',tracked?'+100 · +250 · one play is one ticket':'+250 · legacy Safe +100 history · legs shown, not counted']}[G];
   const nc=G=='C'?new Set(t0.map(capOf)).size:0;
   const nNU=G=='C'?t0.filter(r=>r.nu).length:0;
-  h+=`<div class="r4hero r4h-${G}"><div class=r4em>${HERO[0]}</div><div class=r4hs><div class=r4big>${fr(s)}</div><div class=r4hu>${fu(s.u)}${s.pct!=null?` · ${s.pct}%`:''}${s.v?` · ${s.v} void`:''}</div></div><div class=r4hn>${E(HERO[1])}${nc?` · ${nc} ${nc==1?'capper':'cappers'}`:''}${G=='C'?' · 1u at posted odds'+(nNU?` · ${NW2(nNU+' no-odds '+(nNU==1?'pick':'picks')+': wins pay 0u')}`:''):''}</div><i class=r4gl></i></div>`}
- h+='<div class=r2strip>'+[['Today',x=>x.date==today],['This week',x=>x.date>=wk],['All-time',x=>1]].map(([n,f])=>{const s=rec(t0.filter(f)),l=rec(lg0.filter(f));
+  const heroU=tracked?`${s.pe?s.pe+' pending':''}${s.pct!=null?(s.pe?' · ':'')+s.pct+'%':''}${s.v?' · '+s.v+' void':''}`:`${fu(s.u)}${s.pct!=null?` · ${s.pct}%`:''}${s.v?` · ${s.v} void`:''}`;
+  h+=`<div class="r4hero r4h-${G}"><div class=r4em>${HERO[0]}</div><div class=r4hs><div class=r4big>${fr(s)}</div><div class=r4hu>${heroU}</div></div><div class=r4hn>${E(HERO[1])}${nc?` · ${nc} ${nc==1?'capper':'cappers'}`:''}${G=='C'?' · 1u at posted odds'+(nNU?` · ${NW2(nNU+' no-odds '+(nNU==1?'pick':'picks')+': wins pay 0u')}`:''):''}</div><i class=r4gl></i></div>`}
+ h+=(G=='A'&&TT_ON())?TT_STRIP():'<div class=r2strip>'+[['Today',x=>x.date==today],['This week',x=>x.date>=wk],['All-time',x=>1]].map(([n,f])=>{const s=rec(t0.filter(f)),l=rec(lg0.filter(f));
   return`<div class=r2tile><small>${n}</small><b>${fr(s)}</b>${fu(s.u)}${s.v?`<span class=r2legs>${s.v} void</span>`:''}${s.pe?`<span class=r2legs>${s.pe} pending</span>`:''}</div>`}).join('')+'</div>';
  if(G=='E'){const st=rec(t0.filter(r=>r.star));if(st.w+st.l)h+=`<div class="m" style="margin:6px 2px;padding:6px 8px;border:1px solid #e3b34199;background:#e3b34114;border-radius:10px;font-size:12px;color:#e3b341">⭐ 6-8% NHL Edge plays since Oct 25: <b>${fr(st)}</b> · ${fu(st.u)} <span class=m>(display only, already counted in Edge)</span></div>`}if(G=='E'){const gg=rec(t0.filter(r=>r.green)),gl=rec(t0.filter(r=>r.green&&!r.green_bf)),sg=x=>x>0?'+':x<0?'−':'±';h+=`<div class="m" style="margin:6px 2px;padding:6px 8px;border:1px solid #3fb95099;background:#3fb95014;border-radius:10px;font-size:12px;color:#3fb950;overflow-wrap:anywhere">🟢 low-GA: <b>${gg.w}-${gg.l}, ${sg(gg.u)}${Math.abs(gg.u).toFixed(2)}u</b> since Oct 25 (Oct 25–Nov 3 backfilled) <span class=m>(display only, already counted in Edge)</span><div class=m style="font-size:11px;margin-top:2px">Live since Nov 4: ${gl.w}-${gl.l} · ${sg(gl.u)}${Math.abs(gl.u).toFixed(2)}u</div></div>`}if(G=='E'){const sa=rec(t0.filter(r=>r.sogt)),sl=rec(t0.filter(r=>r.sogt&&!r.sogt_bf)),sg=x=>x>0?'+':x<0?'−':'±';h+=`<div class="m" style="margin:6px 2px;padding:6px 8px;border:1px solid #58a6ff99;background:#58a6ff14;border-radius:10px;font-size:12px;color:#58a6ff;overflow-wrap:anywhere">🎯 SOG avg agrees: <b>${sa.w}-${sa.l}, ${sg(sa.u)}${Math.abs(sa.u).toFixed(2)}u</b> since Oct 25 (Oct 25–Nov 3 backfilled) <span class=m>(display only, already counted in Edge)</span><div class=m style="font-size:11px;margin-top:2px">Live since Nov 4: ${sl.w}-${sl.l} · ${sg(sl.u)}${Math.abs(sl.u).toFixed(2)}u</div></div>`}if(G=='E'){const bg=rec(t0.filter(r=>r.big12));if(bg.w+bg.l)h+=`<div class="m" style="margin:6px 2px;padding:6px 8px;border:1px dashed #d2992299;background:#d2992214;border-radius:10px;font-size:12px;color:#d29922">${BIGSYM} 12%+ NHL Edge plays since Oct 25: <b>${fr(bg)}</b> · ${fu(bg.u)} <span class=m>(display only, already counted in Edge)</span></div>`}
  {const srt=t0.filter(r=>r.res=='W'||r.res=='L').sort((x,y)=>x.date<y.date?-1:x.date>y.date?1:0);let b=0,c=0;srt.forEach(r=>{c=r.res=='W'?c+1:0;b=Math.max(b,c)});
   const fm={};propSrc(base).forEach(r=>(fm[r.fam]=fm[r.fam]||[]).push(r));
   const fl=Object.entries(fm).map(([k,v])=>[k,rec(v)]).filter(([k,s])=>s.w+s.l>=3&&k!='Parlay'&&k!='Other').sort((x,y)=>y[1].pct-x[1].pct||(y[1].w+y[1].l)-(x[1].w+x[1].l));
   const [hot,cold]=HCOLD(fl),na='<span class=r4na>Needs 3+ results</span>';
-  h+=`<div class="r2co r4co"><div>🔥 Best streak<b>${b} W</b></div><div>📈 Hottest${hot?`<b>${E(hot[0])}</b><em>${hot[1].pct}%</em>`:na}</div><div>🧊 Coldest${cold?`<b>${E(cold[0])}</b><em>${cold[1].pct}%</em>`:na}</div></div>`}
+  if(!(G=='A'&&TT_ON()))h+=`<div class="r2co r4co"><div>🔥 Best streak<b>${b} W</b></div><div>📈 Hottest${hot?`<b>${E(hot[0])}</b><em>${hot[1].pct}%</em>`:na}</div><div>🧊 Coldest${cold?`<b>${E(cold[0])}</b><em>${cold[1].pct}%</em>`:na}</div></div>`}
  h+='<div class=r2sp>'+(X.sports||['All']).map(x=>`<button class="${S==x?'on':''}" onclick="r2set('s','${x}')">${x}</button>`).join('')+'</div>';
  h+='<div class=r2tabs>'+[['days','By day'],['props','By prop']].concat(G=='C'?[['cap','By capper'],['list','List']]:G=='A'?[['cat','By category'],['list','List']]:[]).map(([k,n])=>`<button class="${V==k?'on':''}" onclick="r2set('v','${k}')">${n}</button>`).join('')+'</div>';
  /* Cappers rows: pick on the main line; the trailing (game; note) goes to the small line as the game only (stake/entry notes stay off the card) */
@@ -1131,7 +1319,8 @@ function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m
  const row=r=>{if(r.cat=='Cappers'&&(r.legs||[]).length)return `<div class="r2row capparlay"><div class=r2lc><span class=r2dd>${E(r.date.slice(5).replace('-','/'))}</span><span class="r2res r${r.res||'X'}">${lab[r.res]||'…'}</span></div><div class=r2n><b>${CAPPARLAY(r)}</b><small>${E(String(r.prop).split(' · ')[0])} · One ticket</small>${CAPLEGROWS(r.legs)}</div></div>`;const [pk,cx]=G=='C'?cpk(r):[r.pick,''];return`<div class="r2row${r.leg?' r2lg':''}"><div class=r2lc><span class=r2dd>${E(r.date.slice(5).replace('-','/'))}</span><span class="r2res r${r.res||'X'}">${r._lab||lab[r.res]||'…'}</span></div><div class=r2n>${r.leg?'↳ ':''}${E(pk)}${r.alt?' <span class=r2tag>Alt line</span>':''}${LEGL(r)||(r.sub?`<small>${E(r.sub)}</small>`:'')}${r._xt?`<small class=r2tk>${r._xt}</small>`:''}${G=='C'&&hzOf(r)?`<small class=r2hz>${hzOf(r)}</small>`:''}${!(G=='C'&&r.nu)&&FX5OD(r.odds)[1]?`<small class=fx5x>${E(FX5OD(r.odds)[1])}</small>`:''}<small>${cx?E(cx)+' · ':''}${r.star?'⭐ ':''}${r.green?'🟢 ':''}${r.sogt?'🎯 ':''}${r.big12?BIGSYM+' ':''}${E(FX3S(r))} · ${E(G=='C'?SPP(r.sport,String(r.prop).split(' · ').slice(1).join(' · ')):FX3P(r))}${INTN(r.stat)&&r.stat!='—'&&String(r.stat).trim().toLowerCase()!=String(SPP(r.sport,r.prop)).trim().toLowerCase()?' · '+E(INTN(r.stat)):''}</small></div><span class="r2o fx5o">${G=='C'&&r.nu?'<span class=r2nop>none posted</span>':FX5OH(FX5OD(r.odds)[0])}</span></div>`+(false&&r.img?`<details class=r2slip><summary>🧾 Hard Rock slip ▾</summary><a href="${E(r.img)}" target=_blank rel=noopener><img loading=lazy src="${E(r.img)}" alt="Hard Rock slip"></a></details>`:'')};
  const unit=G=='O'||G=='U'?'tickets':'picks';
  const capCard=(nm,cr)=>{const cs=rec(cr),n=cr.length;return`<details class="r2cat r4cap"><summary><span class=r4mic>🎙️</span><span class=r2t>${E(nm)}<span class=r2s>${NW2(FX2PL(n,'picks'))}${cs.v?' · '+NW2(cs.v+' void'):''}${cs.pe?' · '+NW2(cs.pe+' pending'):''}</span></span><span class=r4cr>${fr(cs)} ${fu(cs.u)}</span></summary><div class=r2b>${cr.slice().sort(CSORT).map(row).join('')}</div></details>`};
- if(!base.length)h+=`<div class="card m">Nothing tracked for this filter yet.</div>`;
+ if(G=='A'&&TT_ON())h+=TT_RESULTS(S);
+ if(!base.length){if(!(G=='A'&&TT_ON()))h+=`<div class="card m">Nothing tracked for this filter yet.</div>`}
  else if(G=='A'&&V=='cat'){const AO=['NBA','NHL','NFL','MLB','WNBA','NCAA F','Today'],cats=[...new Set(base.map(r=>r.tk||r.sport))].sort((a,b)=>((AO.indexOf(a)+1)||99)-((AO.indexOf(b)+1)||99)||a.localeCompare(b));
   h+=cats.map(c=>{const x=base.filter(r=>(r.tk||r.sport)==c),t=tix(x).slice().sort((a,b)=>a.date<b.date?1:a.date>b.date?-1:0),s=rec(t);
    return`<details class=r2d><summary>${chips(t)}<span class=r2t>${E(c)}<span class=r2s>${NW2(FX2PL(t.length,'tickets'))} · ${NW2(fr(s))}${s.v?' · '+NW2(s.v+' void'):''}${s.pe?' · '+NW2(s.pe+' pending'):''} · ${NW2('Official')}</span></span>${fu(s.u)}</summary><div class=r2b>${t.map(k=>row(k)+x.filter(r=>r.leg&&r.tid==k.tid).map(row).join('')).join('')}</div></details>`}).join('')}
@@ -1506,6 +1695,35 @@ details>summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{d
 #legday .ld-pill{max-width:100%;white-space:normal;line-height:1.25}
 #legday .ld-meta{flex-wrap:wrap;justify-content:center;gap:4px 12px}
 #legday .ld-l2{white-space:normal;overflow-wrap:anywhere;text-overflow:clip}
+
+.ttbox{border-radius:16px;margin:8px 0;padding:10px 10px 4px}
+.tth{display:flex;align-items:center;gap:10px;margin-bottom:6px}
+.ttword{flex:none;font-weight:900;font-style:italic;font-size:28px;line-height:1;color:#ffd400}
+.tth img{width:84px;height:40px;object-fit:contain;flex:none}
+.tthb{min-width:0;flex:1}.tthr{font-size:22px;font-weight:900;font-style:italic;line-height:1.05}
+.ttplay{border-top:1px solid #ffffff14;position:relative}
+.ttplay>summary{display:block;cursor:pointer;padding-right:16px}
+.ttchev{position:absolute;right:2px;top:12px;color:#8b949e;font-size:11px}
+.ttplay[open]>summary .ttchev{transform:rotate(180deg);display:inline-block}
+.ttlegs{padding:0 0 8px 8px}
+.ttx{margin:4px 0 8px}
+.ttx>summary{cursor:pointer;font-size:11px;font-weight:700;color:#8b949e;display:inline-flex;gap:4px}
+.ttx>summary:before{content:'▸';font-size:10px}
+.ttx[open]>summary:before{content:'▾'}
+.ttx .why{margin-top:6px;padding:8px 10px;background:#0d1117;border-radius:8px;font-size:12px;line-height:1.4;color:#c9d1d9;overflow-wrap:anywhere}
+.nastrk{margin:8px 0 12px}
+.nashead{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin:2px 2px 8px;flex-wrap:wrap}
+.nashead b{font-size:13px;letter-spacing:.08em}
+.nasmkt{background:#12151f;border:1px solid #ffffff18;border-radius:12px;margin:0 0 8px}
+.nasmkt>summary{display:flex;align-items:flex-start;justify-content:space-between;gap:8px;padding:10px 12px}
+.nasnm{font-weight:700;min-width:0;flex:1 1 140px;overflow-wrap:anywhere;line-height:1.25}
+.ttrec{flex:none;margin-left:auto;text-align:right;font-weight:800}
+.ttrec small{display:block;font-weight:600;color:#8b949e;font-size:10px}
+.nasb{padding:0 12px 8px}
+.nasempty{padding:2px 0 8px;color:#8b949e}
+.ttplay .nw{white-space:nowrap}
+@media (max-width:390px){.tthr{font-size:20px}.ttword{font-size:24px}}
+
 `;
 const E=s=>String(s??'—').replace(/\bParlay\s+\+100\b/gi,'+100').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));const NE=s=>RV1_GE(s).replace(/"/g,'&quot;');
 const rec=a=>{let w=0,l=0,p=0,v=0,pe=0,u=0;a.forEach(r=>{if(r.res=='W')w++;else if(r.res=='L')l++;else if(r.res=='P')p++;else if(r.res=='V')v++;else pe++;u+=r.uu!=null&&r.res?+r.uu:r.res=='W'?1:r.res=='L'?-1:0});return{w,l,p,v,pe,u:Math.round(u*100)/100,n:a.length,pct:w+l?Math.round(100*w/(w+l)):null}};
@@ -1574,8 +1792,9 @@ function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F||(F=='Big 
  h+=`<div class="gh ghO"><span class=t>OFFICIAL</span><span class=ln></span><span class=tot>${fr(so)} ${fu(so.u)}</span></div>`;
  const P=Ot.filter(r=>r.cat=='POTD');
  h+=card('potd','<div class=em><img src="potd-logo-v6.jpg" alt="POTD"></div>',P,'POTD',()=>mini(P)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(P,r=>r.sport))+plist(P));
- const PX=Ot.filter(r=>r.cat=='Parlay +100');
- h+=card('p100','<div class=em><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20320%20160%22%3E%3Ctitle%3E%2B100%3C%2Ftitle%3E%3Ctext%20x%3D%22160%22%20y%3D%22116%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-weight%3D%22900%22%20font-style%3D%22italic%22%20font-size%3D%22110%22%20fill%3D%22%23ffd400%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20paint-order%3D%22stroke%22%3E%2B100%3C%2Ftext%3E%3C%2Fsvg%3E" alt="+100"></div>',PX,'ticket',()=>mini(PX)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(PX,r=>r.sport))+plist(PX));
+  const PX=Ot.filter(r=>r.cat=='Parlay +100');
+  if(TT_ON('plus100'))h+=TT_RECORD_CARD('plus100','p100').replace('<div class="rc p100 ttcard">','<div class="rc p100 ttcard">'+bolts());
+  else h+=card('p100','<div class=em><img src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20320%20160%22%3E%3Ctitle%3E%2B100%3C%2Ftitle%3E%3Ctext%20x%3D%22160%22%20y%3D%22116%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-weight%3D%22900%22%20font-style%3D%22italic%22%20font-size%3D%22110%22%20fill%3D%22%23ffd400%22%20stroke%3D%22%23111%22%20stroke-width%3D%223%22%20paint-order%3D%22stroke%22%3E%2B100%3C%2Ftext%3E%3C%2Fsvg%3E" alt="+100"></div>',PX,'ticket',()=>mini(PX)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(PX,r=>r.sport))+plist(PX));
  /* LEG DAY BOARD (RULEBOOK §17; user order 2026-10-25 5:43 AM ET): compact Official tile, same format as POTD / +100 */
  const LDX=Ot.filter(r=>r.cat=='LEG DAY'),ldT=rec(LDX.filter(r=>(r.rank||99)<=3)),ldB=rec(LDX.filter(r=>(r.rank||99)>3));
  h+=card('ldt','<div class=em><img src="legday-logo.webp" alt="LEG DAY"></div>',LDX,'pick',()=>LDTBODY(LDX),`<span class=nw>ranks 1-3 ${fr(ldT)}</span> · <span class=nw>4-10 ${fr(ldB)}</span>`,true);
@@ -1585,8 +1804,11 @@ function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F||(F=='Big 
  const HT=Ot.filter(r=>r.cat=='Heist tickets');
  if(HT.length)h+=card('uf u-hz','<div class=em><div class="tem hz">HEIST TICKETS<small>PARLAY TICKETS · 1u EACH</small></div></div>',HT,'ticket',()=>mini(HT)+plist(HT,8,'TICKETS'),'',true);
  /* altbd1104 (user 2026-11-04 8:28 PM ET): Alt Lines record = Safe +100 tickets + alt-line singles (bought-down Heist legs, grp 'A'; never Official) */
- const SC='Safe +100 (Alt Parlay)',SAL=base.filter(r=>r.cat=='Alt lines'&&!r.leg),SF=OtA.filter(r=>ISPROPTICKET(r)).concat(SAL),SFt=SF.length-SAL.length;
- h+=card('safe','<div class=em><img src="altlines-logo.jpg" alt="Safe +100 (Alt Parlay)"></div>',SF,'play',()=>mini(SF)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(SF,r=>r.sport))+plist(O.filter(r=>ISPROPTICKET(r)).concat(SAL),8,'TICKETS + LEGS + ALT LINES'),`<span class=nw>${pl(SFt,'ticket')}</span> · <span class=nw>${pl(SAL.length,'alt line')}</span>`);
+  const SC='Safe +100 (Alt Parlay)',SAL=base.filter(r=>r.cat=='Alt lines'&&!r.leg),SF=OtA.filter(r=>ISPROPTICKET(r)).concat(SAL),SFt=SF.length-SAL.length;
+  if(!TT_SAFE_HIDDEN()&&!TT_ON())h+=card('safe','<div class=em><img src="altlines-logo.jpg" alt="Safe +100 (Alt Parlay)"></div>',SF,'play',()=>mini(SF)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(SF,r=>r.sport))+plist(O.filter(r=>ISPROPTICKET(r)).concat(SAL),8,'TICKETS + LEGS + ALT LINES'),`<span class=nw>${pl(SFt,'ticket')}</span> · <span class=nw>${pl(SAL.length,'alt line')}</span>`);
+  else{if(TT_ON('plus250'))h+=TT_RECORD_CARD('plus250','safe');
+   let prop=OtA.filter(r=>ISPROPTICKET(r));if(TT_SAFE_HIDDEN())prop=prop.filter(r=>r.cat!=SC);if(TT_ON('plus100'))prop=prop.filter(r=>r.cat!='+100');if(TT_ON('plus250'))prop=prop.filter(r=>r.cat!='+250');
+   const rest=prop.concat(SAL);if(rest.length)h+=card('safe','<div class=em><img src="altlines-logo.jpg" alt="'+(prop.length?'Tickets':'Alt lines')+'"></div>',rest,'play',()=>mini(rest)+`<div class=sec>BY SPORT<i></i></div>`+bars(grp(rest,r=>r.sport))+plist(prop.concat(SAL),8,'TICKETS + LEGS + ALT LINES'),`<span class=nw>${pl(prop.length,'ticket')}</span> · <span class=nw>${pl(SAL.length,'alt line')}</span>`);}
  // EDGE
  const se=rec(Eg);
  h+=`<div class="gh ghE"><span class=t>EDGE</span><span class=tag>OFFICIAL · OWN SECTION</span><span class=ln></span><span class=tot>${fr(se)} ${fu(se.u)}</span></div>`;
@@ -1602,6 +1824,7 @@ function render(){const F=F0,base=ROWS.filter(r=>F=='All'||r.sport==F||(F=='Big 
  h+=card('uf u-lot','<div class=em><img src="lotto-logo.png" alt="Lotto Ticket (TD City)"></div>',LT,'ticket',()=>mini(LT)+plist(LT.concat(LTl),6,'TICKET + LEGS'),'Unofficial · for fun');
  const FBC='First Blood',FBt=Ut.filter(r=>r.cat==FBC),FBl=Ug.filter(r=>r.cat==FBC&&r.leg);
  h+=card('uf u-fb','<div class=em><img src="first-blood-logo.png" alt="First Blood"></div>',FBt,'ticket',()=>FBt.length?mini(FBt)+plist(FBt.concat(FBl),6,'TICKET + LEGS'):'<div class=empty>No First Blood tickets graded yet.</div>','Unofficial · for fun',true);
+ h+=NAS_RECORD();
  h+=`<details class="rules rr"><summary class="rsum"><span class="rsi" aria-hidden="true">📜</span><span class="rsl">Rules</span><span class="rsc" aria-hidden="true">▾</span></summary>${RULES().map(([t,l])=>`<h4>${E(t.toUpperCase())}</h4><ul>${l.map(x=>`<li>${E(x)}</li>`).join('')}</ul>`).join('')}</details>`;
  return h}
 
@@ -1613,7 +1836,7 @@ window.rvFitAll=function(){const h=document.getElementById('rv1h');if(h&&h.shado
 let RZ=0;window.addEventListener('resize',()=>{clearTimeout(RZ);RZ=setTimeout(()=>window.rvFitAll(),120)});
 window.rv1Mount=function(){const host=document.getElementById('rv1h');if(!host)return;const X=D.results_v2;
  if(!X||!X.rows){host.innerHTML='<div class="card m">Record is rebuilding. Check back in a few minutes.</div>';return}
- ROWS=X.rows;TD=ETd(Date.now());WK=ETd(Date.now()-6*864e5);FL=RF||'All';F0=({'NCAA F':'NCAAF','BIG 4':'Big 4'})[RF]||RF||'All';
+ ROWS=TT_VIS(X.rows);TD=ETd(Date.now());WK=ETd(Date.now()-6*864e5);FL=RF||'All';F0=({'NCAA F':'NCAAF','BIG 4':'Big 4'})[RF]||RF||'All';
  if(LASTF!==F0||window.__vsw){OPEN=new Set();LASTF=F0}
  const sr=host.shadowRoot||host.attachShadow({mode:'open'});sr.innerHTML='<style>'+CSS+LEGCSS+'</style>'+render();
  const ds=[...sr.querySelectorAll('details')];ds.forEach((d,i)=>{if(OPEN.has(i))d.open=true;d.addEventListener('toggle',()=>{d.open?OPEN.add(i):OPEN.delete(i);if(d.open)d.querySelectorAll(FITSEL).forEach(FIT)})});window.rvFitAll();requestAnimationFrame(()=>window.rvFitAll());if(document.fonts&&document.fonts.ready)document.fonts.ready.then(()=>window.rvFitAll());
