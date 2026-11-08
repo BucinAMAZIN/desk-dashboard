@@ -1153,6 +1153,8 @@ function TT_HIDDEN_ROW(r){
  return false;
 }
 function TT_VIS(rows){return (rows||[]).filter(r=>!TT_HIDDEN_ROW(r))}
+/* DAYSPLIT-1108: partition a day's rows for the by-day summary. Does not copy or edit the row objects. Legs stay with their category and are not extra results (callers total with tix()). Missing cat stays on the main card. */
+function daySplit(rows){const main=[],caps=[];(rows||[]).forEach(r=>{if(!r)return;if(r.cat==='Cappers')caps.push(r);else if(r.cat!=='Heist tickets')main.push(r)});return{main,caps}}
 function TT_NUM(rec){rec=rec||{};return {w:+rec.w||0,l:+rec.l||0,p:+rec.p||0,v:+rec.v||0,pe:+rec.pending||0}}
 function TT_WL(rec){const n=TT_NUM(rec);return n.w+'-'+n.l+(n.p?'-'+n.p:'')}
 function TT_TAIL(rec){const n=TT_NUM(rec),b=[];if(n.v)b.push(n.v+' void');if(n.pe)b.push(n.pe+' pending');return b.join(' · ')}
@@ -1348,13 +1350,26 @@ function results(){const X=D.results_v2;if(!X||!X.rows)return'<div class="card m
   const top=L.slice(0,8),rest=L.slice(8),th='<tr><th>Leg prop</th><th class=r>Hit-Miss</th><th class=r>Hit %</th><th class=r>Legs</th></tr>',sa=rec(a);
   h+=`<details class=r2d><summary><span class=r2t>🎯 Legs by prop<span class=r2s>${NW2(FX2PL(L.length,'families').replace(/familie$/,'family'))} · ${NW2(fr(sa)+' legs')}${sa.pct!=null?' · '+NW2(sa.pct+'% hit'):''} · ${NW2('legs carry no units')}</span></span></summary><div class=r2b><table class=r2tb>${th}${top.map(tr).join('')}</table>${rest.length?`<details class=r2more><summary>Show ${rest.length} more ▾</summary><table class=r2tb>${rest.map(tr).join('')}</table></details>`:''}</div></details>`;
   h+=L.map(([k,s,v])=>`<details class=r2d><summary>${chips(v)}<span class=r2t>${E(k)}<span class=r2s>${NW2(fr(s)+' legs')}${s.v?' · '+NW2(s.v+' void'):''}${s.pe?' · '+NW2(s.pe+' pending'):''}</span></span>${hr(s)}</summary><div class=r2b>${v.slice().sort((x,y)=>x.date<y.date?1:-1).map(row).join('')}</div></details>`).join('')}
- else if(V=='days'){const ds=[...new Set(base.map(r=>r.date))].sort().reverse();
-  h+=ds.map(dt=>{const x=base.filter(r=>r.date==dt),t=tix(x),s=rec(t);const d0=new Date(dt+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+ else if(V=='days'){
+  /* DAYSPLIT-1108 (display only): the by-day card is the daily summary. Heist parlay tickets (cat 'Heist tickets') leave that card and its day total; The Heist singles stay. Cappers for the same date are their own card directly underneath the Official day card. Every Cappers row is counted, including picks that also have a Heist single (no dedupe). Lotto and First Blood stay unofficial: their own card under that day, one result per ticket, legs not counted. All-time Official, the Record tab, and the source rows are unchanged. */
+  const capBy=G==='O'?(()=>{const m={};ALL.filter(r=>r&&r.cat==='Cappers'&&(S==='All'||r.sport===S)).forEach(r=>{(m[r.date]=m[r.date]||[]).push(r)});return m})():null;
+  const unBy=G==='O'?(()=>{const m={};ALL.filter(r=>r&&R4G(r)==='U'&&(S==='All'||r.sport===S)).forEach(r=>{(m[r.date]=m[r.date]||[]).push(r)});return m})():null;
+  const ds=[...new Set(base.map(r=>r.date).concat(unBy?Object.keys(unBy):[]))].sort().reverse();
+  h+=ds.map(dt=>{let x=base.filter(r=>r.date==dt);if(G!=='C')x=daySplit(x).main;const t=tix(x),s=rec(t);const d0=new Date(dt+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
    let inner;
    if(G=='C'){const cp=[...new Set(x.map(capOf))].sort((a,b)=>x.filter(r=>capOf(r)==b).length-x.filter(r=>capOf(r)==a).length||a.localeCompare(b));inner=cp.map(c=>capCard(c,x.filter(r=>capOf(r)==c))).join('')}
-   else{const cats=[...new Set(x.map(r=>r.cat))].filter(c=>!(G=='O'&&c=='Leg Day'));inner=cats.map(c=>{const cr=x.filter(r=>r.cat==c&&!r.leg).concat(x.filter(r=>r.cat==c&&r.leg&&!(G=='O'&&r.ldc&&r.cat=='POTD'))),cs=rec(tix(cr));const n=tix(cr).length;
+   else{const cats=[...new Set(x.map(r=>r.cat))].filter(c=>c&&!(G=='O'&&c=='Leg Day')&&c!=='Heist tickets'&&c!=='Cappers');inner=cats.map(c=>{const cr=x.filter(r=>r.cat==c&&!r.leg).concat(x.filter(r=>r.cat==c&&r.leg&&!(G=='O'&&r.ldc&&r.cat=='POTD'))),cs=rec(tix(cr));const n=tix(cr).length;
     return`<details class="r2cat ${CLS[c]||'r2unof'}"><summary>${LOGO[c]?`<img src="${LOGO[c]}" alt="">`:''}<span class=r2t>${E(c)}<span class=r2s>${n} ${n==1?unit.slice(0,-1):unit}</span></span><span>${fr(cs)} ${fu(cs.u)}</span></summary><div class=r2b>${cr.map(row).join('')}</div></details>`}).join('');}
-   return`<details class=r2d><summary>${chips(t)}<span class=r2t>${d0}<span class=r2s>${NW2(FX2PL(t.length,unit))} · ${NW2(fr(s))}${s.v?' · '+NW2(s.v+' void'):''}${s.pe?' · '+NW2(s.pe+' pending'):''}</span></span>${fu(s.u)}</summary><div class=r2b>${inner}</div></details>`}).join('')}
+   const dayCard=t.length?`<details class=r2d><summary>${chips(t)}<span class=r2t>${d0}<span class=r2s>${NW2(FX2PL(t.length,unit))} · ${NW2(fr(s))}${s.v?' · '+NW2(s.v+' void'):''}${s.pe?' · '+NW2(s.pe+' pending'):''}</span></span>${fu(s.u)}</summary><div class=r2b>${inner}</div></details>`:'';
+   let capHtml='';
+   if(capBy&&capBy[dt]&&capBy[dt].length){const cx=capBy[dt],ct=tix(cx),cs=rec(ct);const cp=[...new Set(cx.map(capOf))].sort((a,b)=>cx.filter(r=>capOf(r)==b).length-cx.filter(r=>capOf(r)==a).length||a.localeCompare(b));const cinner=cp.map(c=>capCard(c,cx.filter(r=>capOf(r)==c))).join('');
+    capHtml=`<details class="r2d r2dcap"><summary>${chips(ct)}<span class=r2t>${d0}<span class=r2s>${NW2('Cappers')} · ${NW2(FX2PL(ct.length,'picks'))} · ${NW2(fr(cs))}${cs.v?' · '+NW2(cs.v+' void'):''}${cs.pe?' · '+NW2(cs.pe+' pending'):''}</span></span>${fu(cs.u)}</summary><div class=r2b>${cinner}</div></details>`}
+   let unHtml='';
+   if(unBy&&unBy[dt]&&unBy[dt].length){const ux=unBy[dt],ut=tix(ux),us=rec(ut);
+    if(ut.length){const cats=[...new Set(ux.map(r=>r.cat))].filter(Boolean);const uinner=cats.map(c=>{const cr=ux.filter(r=>r.cat==c&&!r.leg).concat(ux.filter(r=>r.cat==c&&r.leg)),cs=rec(tix(cr)),n=tix(cr).length;
+     return`<details class="r2cat ${CLS[c]||'r2unof'}"><summary>${LOGO[c]?`<img src="${LOGO[c]}" alt="">`:''}<span class=r2t>${E(c)}<span class=r2s>${n} ${n==1?'ticket':'tickets'}${cs.v?' · '+cs.v+' void':''}${cs.pe?' · '+cs.pe+' pending':''}</span></span><span>${fr(cs)} ${fu(cs.u)}</span></summary><div class=r2b>${cr.map(row).join('')}</div></details>`}).join('');
+     unHtml=`<details class="r2d r2dun"><summary>${chips(ut)}<span class=r2t>${d0}<span class=r2s>${NW2('Unofficial')} · ${NW2(FX2PL(ut.length,'tickets'))} · ${NW2(fr(us))}${us.v?' · '+NW2(us.v+' void'):''}${us.pe?' · '+NW2(us.pe+' pending'):''}</span></span>${fu(us.u)}</summary><div class=r2b>${uinner}</div></details>`}}
+   return dayCard+capHtml+unHtml}).join('')}
  else if(V=='cap'){const cp={};t0.forEach(r=>(cp[capOf(r)]=cp[capOf(r)]||[]).push(r));
   const L=Object.entries(cp).map(([k,v])=>[k,rec(v),v]).sort((x,y)=>(y[1].u-x[1].u)||(y[2].length-x[2].length));
   const tr=([k,s])=>`<tr><td>${E(k)}<div class=r2bar><i style="width:${s.pct||0}%"></i></div></td><td class=r>${fr(s)}</td><td class=r>${s.pct??'–'}</td><td class=r>${fu(s.u)}</td></tr>`;
