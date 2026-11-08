@@ -1,5 +1,5 @@
 {
- "generated": 1794119643.2059786,
+ "generated": 1794119817.7858338,
  "today": {
   "title": "Nov 8 picks (Hard Rock)",
   "tickets": [],
@@ -9518,9 +9518,9 @@
   {
    "name": "@alexcaruso",
    "w": 75,
-   "l": 48,
+   "l": 49,
    "p": 0,
-   "pct": 61,
+   "pct": 60,
    "props": [
     {
      "prop": "NFL pass yds (over)",
@@ -9645,9 +9645,9 @@
     {
      "prop": "NBA rebounds (under)",
      "w": 1,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": "100%",
+     "pct": "50%",
      "fam": "Rebounds"
     },
     {
@@ -9760,10 +9760,10 @@
   },
   {
    "name": "@austinsprops",
-   "w": 43,
-   "l": 46,
+   "w": 46,
+   "l": 48,
    "p": 0,
-   "pct": 48,
+   "pct": 49,
    "props": [
     {
      "prop": "NFL rush yds (over)",
@@ -9832,9 +9832,9 @@
     {
      "prop": "NBA pts+reb (over)",
      "w": 4,
-     "l": 3,
+     "l": 4,
      "p": 0,
-     "pct": "57%",
+     "pct": "50%",
      "fam": "Pts+Reb"
     },
     {
@@ -9856,17 +9856,17 @@
     {
      "prop": "NBA PRA (over)",
      "w": 0,
-     "l": 3,
+     "l": 4,
      "p": 0,
      "pct": "0%",
      "fam": "PRA"
     },
     {
      "prop": "NBA 3PM (over)",
-     "w": 7,
+     "w": 10,
      "l": 4,
      "p": 0,
-     "pct": "64%",
+     "pct": "71%",
      "fam": "3PM"
     },
     {
@@ -10370,9 +10370,9 @@
   {
    "name": "@showtimepicks2",
    "w": 32,
-   "l": 19,
+   "l": 21,
    "p": 0,
-   "pct": 63,
+   "pct": 60,
    "props": [
     {
      "prop": "NCAAF pass yds (over)",
@@ -10433,9 +10433,9 @@
     {
      "prop": "Tennis ML",
      "w": 2,
-     "l": 0,
+     "l": 2,
      "p": 0,
-     "pct": "100%",
+     "pct": "50%",
      "fam": "ML"
     },
     {
@@ -10678,9 +10678,9 @@
   {
    "name": "@bigmikepickz",
    "w": 26,
-   "l": 19,
+   "l": 20,
    "p": 0,
-   "pct": 58,
+   "pct": 57,
    "props": [
     {
      "prop": "NCAAF ML",
@@ -10725,9 +10725,9 @@
     {
      "prop": "NCAAF parlay",
      "w": 4,
-     "l": 5,
+     "l": 6,
      "p": 0,
-     "pct": "44%",
+     "pct": "40%",
      "fam": "Parlay"
     }
    ],
@@ -10963,7 +10963,7 @@
  "capper_today_date": "2026-11-08",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-08 01:34 AM ET",
+  "updated": "2026-11-08 01:36 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -19541,7 +19541,7 @@
   }
  },
  "clv": {
-  "built": "2026-11-08T01:34:05-05:00",
+  "built": "2026-11-08T01:36:59-05:00",
   "source": "/workspace/dashboard/clv.jsonl",
   "snapshots": {
    "hr_close_files": 74,
@@ -62274,14 +62274,15 @@
     "fam": "ML",
     "pick": "Tomas Martin Etcheverry ML (rare tennis play)",
     "odds": "-135",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "L (lost to Hijikata 2-6 6-3 7-5, Paris R16, hand-graded)",
     "alt": false,
     "leg": false,
     "img": null,
     "sub": "",
     "legs": [],
-    "nu": false
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-11-05",
@@ -62292,32 +62293,15 @@
     "fam": "Rebounds",
     "pick": "Giannis Under 11.5 Rebounds (MIA @ GSW; NBA Play of the Day, POTD)",
     "odds": "none posted",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "L (14 REB, hand-graded from ESPN)",
     "alt": false,
     "leg": false,
     "img": null,
     "sub": "",
     "legs": [],
-    "nu": true
-   },
-   {
-    "date": "2026-11-05",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NFL receptions (over)",
-    "fam": "Receptions",
-    "pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "legs": [],
-    "nu": true
+    "nu": true,
+    "uu": -1.0
    },
    {
     "date": "2026-11-06",
@@ -62328,14 +62312,15 @@
     "fam": "ML",
     "pick": "Tommy Paul ML (ATP Paris; POTD)",
     "odds": "-134",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "L (lost to Shelton 6-4 4-6 6-3, Paris QF, hand-graded)",
     "alt": false,
     "leg": false,
     "img": null,
     "sub": "",
     "legs": [],
-    "nu": false
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-11-06",
@@ -62346,69 +62331,15 @@
     "fam": "3PM",
     "pick": "Cedric Coward 1.5 3PM O (OKC @ MEM; ladder)",
     "odds": "-135",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "W (2 3PM, ladder counted once, hand-graded from ESPN)",
     "alt": false,
     "leg": false,
     "img": null,
     "sub": "",
     "legs": [],
-    "nu": false
-   },
-   {
-    "date": "2026-11-06",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA 3PM (over)",
-    "fam": "3PM",
-    "pick": "Cedric Coward 2.5 3PM O (OKC @ MEM; ladder)",
-    "odds": "+227",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "legs": [],
-    "nu": false
-   },
-   {
-    "date": "2026-11-07",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NFL receptions (over)",
-    "fam": "Receptions",
-    "pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
-    "odds": "-135",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "legs": [],
-    "nu": false
-   },
-   {
-    "date": "2026-11-07",
-    "sport": "NFL",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@panpotd · NFL receptions (over)",
-    "fam": "Receptions",
-    "pick": "Drake London O 5.5 Receptions",
-    "odds": "-125",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "prop_raw": "NFL receptions (over), Sunday POTD",
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "legs": [],
-    "nu": false
+    "nu": false,
+    "uu": 0.74
    },
    {
     "date": "2026-11-07",
@@ -62419,15 +62350,15 @@
     "fam": "Pts+Reb",
     "pick": "Alperen Sengun 29.5 PR “O”",
     "odds": "-115",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "L (21 PR, hand-graded from ESPN)",
     "alt": false,
-    "prop_raw": "NBA points + rebounds (over), POTD",
     "leg": false,
     "img": null,
     "sub": "",
     "legs": [],
-    "nu": false
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-11-07",
@@ -62438,14 +62369,15 @@
     "fam": "PRA",
     "pick": "Jrue Holiday 21.5 PRA “O”",
     "odds": "-115",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "L (11 PRA, hand-graded from ESPN)",
     "alt": false,
     "leg": false,
     "img": null,
     "sub": "",
     "legs": [],
-    "nu": false
+    "nu": false,
+    "uu": -1.0
    },
    {
     "date": "2026-11-07",
@@ -62456,14 +62388,15 @@
     "fam": "3PM",
     "pick": "Tristan de Silva 2.5 3PM “O”",
     "odds": "none posted",
-    "res": "",
-    "stat": "",
+    "res": "W",
+    "stat": "W (5 3PM, hand-graded from ESPN)",
     "alt": false,
     "leg": false,
     "img": null,
     "sub": "",
     "legs": [],
-    "nu": true
+    "nu": true,
+    "uu": 0.0
    },
    {
     "date": "2026-11-07",
@@ -62474,8 +62407,8 @@
     "fam": "Parlay",
     "pick": "Oregon +14.5 + Oregon/Ohio St under 52.5",
     "odds": "-120",
-    "res": "",
-    "stat": "",
+    "res": "L",
+    "stat": "L (Oregon 41-28; under 52.5 lost (69), hand-graded)",
     "alt": false,
     "leg": false,
     "img": null,
@@ -62520,8 +62453,83 @@
     ],
     "ticket_id": "2026-11-07|capper|@bigmikepickz|parlay|c24a3c5a",
     "leg_count": 2,
-    "result": "Unavailable",
-    "reason": "Leg 2: market not recognized",
+    "result": "L",
+    "reason": "",
+    "nu": false,
+    "uu": -1.0
+   },
+   {
+    "date": "2026-11-07",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA 3PM (over)",
+    "fam": "3PM",
+    "pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
+    "odds": "none posted",
+    "res": "W",
+    "stat": "W (3 3PM, hand-graded from ESPN)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "nu": true,
+    "uu": 0.0
+   },
+   {
+    "date": "2026-11-05",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NFL receptions (over)",
+    "fam": "Receptions",
+    "pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
+    "odds": "none posted",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "nu": true
+   },
+   {
+    "date": "2026-11-07",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NFL receptions (over)",
+    "fam": "Receptions",
+    "pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
+    "odds": "-135",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "nu": false
+   },
+   {
+    "date": "2026-11-07",
+    "sport": "NFL",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NFL receptions (over)",
+    "fam": "Receptions",
+    "pick": "Drake London O 5.5 Receptions",
+    "odds": "-125",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "prop_raw": "NFL receptions (over), Sunday POTD",
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
     "nu": false
    },
    {
@@ -62559,24 +62567,6 @@
     "sub": "",
     "legs": [],
     "nu": false
-   },
-   {
-    "date": "2026-11-07",
-    "sport": "NBA",
-    "grp": "C",
-    "cat": "Cappers",
-    "prop": "@austinsprops · NBA 3PM (over)",
-    "fam": "3PM",
-    "pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
-    "odds": "none posted",
-    "res": "",
-    "stat": "",
-    "alt": false,
-    "leg": false,
-    "img": null,
-    "sub": "",
-    "legs": [],
-    "nu": true
    },
    {
     "date": "2026-10-25",
@@ -68780,11 +68770,11 @@
    },
    "C": {
     "tickets": {
-     "w": 267,
-     "l": 229,
+     "w": 270,
+     "l": 235,
      "p": 10,
-     "pending": 15,
-     "units": -61.46,
+     "pending": 5,
+     "units": -66.72,
      "no_odds": 173
     },
     "legs": {
@@ -68906,7 +68896,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 15 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 5 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 2 duplicate post(s) of the same pick by the same capper counted once (RULEBOOK §34.2)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
@@ -69071,15 +69061,6 @@
    "LineMate Hard Rock alt cards",
    "HR alt rows (scored-rows)"
   ],
-  "props": {
-   "n": 0,
-   "w": 0,
-   "l": 0,
-   "p": 0,
-   "v": 0,
-   "pending": 0,
-   "units": 0.0
-  },
   "conv": [],
   "bd_ticket": {
    "legs": 0,
@@ -69091,6 +69072,15 @@
     -250
    ],
    "target": -325
+  },
+  "props": {
+   "n": 0,
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "v": 0,
+   "pending": 0,
+   "units": 0.0
   }
  },
  "big4_games": 26,
@@ -69102,7 +69092,7 @@
  },
  "gameday": {
   "date": "2026-11-08",
-  "built": "2026-11-08 01:34 ET",
+  "built": "2026-11-08 01:37 ET",
   "picks": 4,
   "vetoes": [],
   "gaps": [
@@ -69126,7 +69116,7 @@
   "note": "no late-injury check run yet today"
  },
  "player_status": {
-  "built": "2026-11-08 01:34 AM ET",
+  "built": "2026-11-08 01:37 AM ET",
   "sources": {
    "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-08_01_30AM.pdf",
    "espn": "site.api.espn.com/apis/site/v2/sports/*/injuries"
@@ -73901,7 +73891,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Tyler Bilodeau",
     "key": "tyler bilodeau"
@@ -73912,7 +73902,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Noah Clowney",
     "key": "noah clowney"
@@ -73923,7 +73913,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Keon Ellis",
     "key": "keon ellis"
@@ -73934,7 +73924,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Joshua Jefferson",
     "key": "joshua jefferson"
@@ -73945,7 +73935,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Chaney Johnson",
     "key": "chaney johnson"
@@ -73956,7 +73946,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Terance Mann",
     "key": "terance mann"
@@ -73967,7 +73957,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Josh Minott",
     "key": "josh minott"
@@ -73978,7 +73968,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Grant Nelson",
     "key": "grant nelson"
@@ -73989,7 +73979,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Drake Powell",
     "key": "drake powell"
@@ -74000,7 +73990,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Ben Saraf",
     "key": "ben saraf"
@@ -74011,7 +74001,7 @@
     "label": "Not starting (confirmed)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-08 01:34 AM ET",
+    "posted": "2026-11-08 01:37 AM ET",
     "note": "",
     "name": "Moritz Wagner",
     "key": "moritz wagner"
@@ -124042,23 +124032,26 @@
        "fam": "ML",
        "pick": "Tomas Martin Etcheverry ML (rare tennis play)",
        "odds": "-135",
-       "res": "",
-       "stat": "",
+       "res": "L",
+       "stat": "L (lost to Hijikata 2-6 6-3 7-5, Paris R16, hand-graded)",
        "alt": false,
        "leg": false,
        "img": null,
        "sub": "",
        "legs": [],
        "nu": false,
+       "uu": -1.0,
        "dk_why": "not looked up",
-       "dk_absent": false
+       "dk_absent": false,
+       "bk_started": true,
+       "bk_started_why": "graded: L"
       }
      }
     ],
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "result": "L",
+     "detail": "L (lost to Hijikata 2-6 6-3 7-5, Paris R16, hand-graded)",
+     "reason": "",
      "evidence": "inputs/00-data.json:results_v2.rows[1331]",
      "revision": 0
     },
@@ -124125,107 +124118,27 @@
        "fam": "Rebounds",
        "pick": "Giannis Under 11.5 Rebounds (MIA @ GSW; NBA Play of the Day, POTD)",
        "odds": "none posted",
-       "res": "",
-       "stat": "",
+       "res": "L",
+       "stat": "L (14 REB, hand-graded from ESPN)",
        "alt": false,
        "leg": false,
        "img": null,
        "sub": "",
        "legs": [],
        "nu": true,
+       "uu": -1.0,
        "dk_why": "not looked up",
-       "dk_absent": false
+       "dk_absent": false,
+       "bk_started": true,
+       "bk_started_why": "graded: L"
       }
      }
     ],
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "result": "L",
+     "detail": "L (14 REB, hand-graded from ESPN)",
+     "reason": "",
      "evidence": "inputs/00-data.json:results_v2.rows[1332]",
-     "revision": 0
-    },
-    "books": {
-     "hr": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     },
-     "dk": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     }
-    },
-    "analyst": null
-   },
-   "original|v1|1c85cfa615101c9df256eee0a18e772a1ec19ebe3eb13a1cbd66189117a1548a": {
-    "original_id": "original|v1|1c85cfa615101c9df256eee0a18e772a1ec19ebe3eb13a1cbd66189117a1548a",
-    "owner": "capper_original",
-    "capper_id": "@austinsprops",
-    "date": "2026-11-05",
-    "sport": "NFL",
-    "prop": "NFL receptions (over)",
-    "fam": "Receptions",
-    "raw_pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
-    "raw_odds_cell": "none posted",
-    "posted_odds_raw": null,
-    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
-    "ticket_id": null,
-    "leg_count": 0,
-    "legs": [],
-    "selection": null,
-    "selection_state": "Unavailable",
-    "provenance_state": "ledger_only",
-    "source_post_ids": [],
-    "source_occurrences": [
-     {
-      "source_path": "inputs/00-data.json:results_v2.rows[1333]",
-      "raw_pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
-      "raw_odds_cell": "none posted",
-      "legacy_row": {
-       "date": "2026-11-05",
-       "sport": "NFL",
-       "grp": "C",
-       "cat": "Cappers",
-       "prop": "@austinsprops · NFL receptions (over)",
-       "fam": "Receptions",
-       "pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
-       "odds": "none posted",
-       "res": "",
-       "stat": "",
-       "alt": false,
-       "leg": false,
-       "img": null,
-       "sub": "",
-       "legs": [],
-       "nu": true,
-       "dk_why": "not looked up",
-       "dk_absent": false
-      }
-     }
-    ],
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1333]",
      "revision": 0
     },
     "books": {
@@ -124279,7 +124192,7 @@
     "source_post_ids": [],
     "source_occurrences": [
      {
-      "source_path": "inputs/00-data.json:results_v2.rows[1334]",
+      "source_path": "inputs/00-data.json:results_v2.rows[1333]",
       "raw_pick": "Tommy Paul ML (ATP Paris; POTD)",
       "raw_odds_cell": "-134",
       "legacy_row": {
@@ -124291,24 +124204,27 @@
        "fam": "ML",
        "pick": "Tommy Paul ML (ATP Paris; POTD)",
        "odds": "-134",
-       "res": "",
-       "stat": "",
+       "res": "L",
+       "stat": "L (lost to Shelton 6-4 4-6 6-3, Paris QF, hand-graded)",
        "alt": false,
        "leg": false,
        "img": null,
        "sub": "",
        "legs": [],
        "nu": false,
+       "uu": -1.0,
        "dk_why": "not looked up",
-       "dk_absent": false
+       "dk_absent": false,
+       "bk_started": true,
+       "bk_started_why": "graded: L"
       }
      }
     ],
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1334]",
+     "result": "L",
+     "detail": "L (lost to Shelton 6-4 4-6 6-3, Paris QF, hand-graded)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1333]",
      "revision": 0
     },
     "books": {
@@ -124362,7 +124278,7 @@
     "source_post_ids": [],
     "source_occurrences": [
      {
-      "source_path": "inputs/00-data.json:results_v2.rows[1335]",
+      "source_path": "inputs/00-data.json:results_v2.rows[1334]",
       "raw_pick": "Cedric Coward 1.5 3PM O (OKC @ MEM; ladder)",
       "raw_odds_cell": "-135",
       "legacy_row": {
@@ -124374,24 +124290,27 @@
        "fam": "3PM",
        "pick": "Cedric Coward 1.5 3PM O (OKC @ MEM; ladder)",
        "odds": "-135",
-       "res": "",
-       "stat": "",
+       "res": "W",
+       "stat": "W (2 3PM, ladder counted once, hand-graded from ESPN)",
        "alt": false,
        "leg": false,
        "img": null,
        "sub": "",
        "legs": [],
        "nu": false,
+       "uu": 0.74,
        "dk_why": "not looked up",
-       "dk_absent": false
+       "dk_absent": false,
+       "bk_started": true,
+       "bk_started_why": "graded: W"
       }
      }
     ],
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1335]",
+     "result": "W",
+     "detail": "W (2 3PM, ladder counted once, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1334]",
      "revision": 0
     },
     "books": {
@@ -124424,258 +124343,8 @@
     },
     "analyst": null
    },
-   "original|v1|bcc608f78c6169fe5f5cb6fff4d6365db9bb4b14fccd16fda61f1c4a957591b5": {
-    "original_id": "original|v1|bcc608f78c6169fe5f5cb6fff4d6365db9bb4b14fccd16fda61f1c4a957591b5",
-    "owner": "capper_original",
-    "capper_id": "@austinsprops",
-    "date": "2026-11-06",
-    "sport": "NBA",
-    "prop": "NBA 3PM (over)",
-    "fam": "3PM",
-    "raw_pick": "Cedric Coward 2.5 3PM O (OKC @ MEM; ladder)",
-    "raw_odds_cell": "+227",
-    "posted_odds_raw": null,
-    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
-    "ticket_id": null,
-    "leg_count": 0,
-    "legs": [],
-    "selection": null,
-    "selection_state": "Unavailable",
-    "provenance_state": "ledger_only",
-    "source_post_ids": [],
-    "source_occurrences": [
-     {
-      "source_path": "inputs/00-data.json:results_v2.rows[1336]",
-      "raw_pick": "Cedric Coward 2.5 3PM O (OKC @ MEM; ladder)",
-      "raw_odds_cell": "+227",
-      "legacy_row": {
-       "date": "2026-11-06",
-       "sport": "NBA",
-       "grp": "C",
-       "cat": "Cappers",
-       "prop": "@austinsprops · NBA 3PM (over)",
-       "fam": "3PM",
-       "pick": "Cedric Coward 2.5 3PM O (OKC @ MEM; ladder)",
-       "odds": "+227",
-       "res": "",
-       "stat": "",
-       "alt": false,
-       "leg": false,
-       "img": null,
-       "sub": "",
-       "legs": [],
-       "nu": false,
-       "dk_why": "not looked up",
-       "dk_absent": false
-      }
-     }
-    ],
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1336]",
-     "revision": 0
-    },
-    "books": {
-     "hr": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     },
-     "dk": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     }
-    },
-    "analyst": null
-   },
-   "original|v1|c0da9043c1c595ba5634b1e4dd2e3cc2a8219a5a8c99fd5d596052353b03e266": {
-    "original_id": "original|v1|c0da9043c1c595ba5634b1e4dd2e3cc2a8219a5a8c99fd5d596052353b03e266",
-    "owner": "capper_original",
-    "capper_id": "@panpotd",
-    "date": "2026-11-07",
-    "sport": "NFL",
-    "prop": "NFL receptions (over)",
-    "fam": "Receptions",
-    "raw_pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
-    "raw_odds_cell": "-135",
-    "posted_odds_raw": null,
-    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
-    "ticket_id": null,
-    "leg_count": 0,
-    "legs": [],
-    "selection": null,
-    "selection_state": "Unavailable",
-    "provenance_state": "ledger_only",
-    "source_post_ids": [],
-    "source_occurrences": [
-     {
-      "source_path": "inputs/00-data.json:results_v2.rows[1337]",
-      "raw_pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
-      "raw_odds_cell": "-135",
-      "legacy_row": {
-       "date": "2026-11-07",
-       "sport": "NFL",
-       "grp": "C",
-       "cat": "Cappers",
-       "prop": "@panpotd · NFL receptions (over)",
-       "fam": "Receptions",
-       "pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
-       "odds": "-135",
-       "res": "",
-       "stat": "",
-       "alt": false,
-       "leg": false,
-       "img": null,
-       "sub": "",
-       "legs": [],
-       "nu": false,
-       "dk_why": "not looked up",
-       "dk_absent": false
-      }
-     }
-    ],
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1337]",
-     "revision": 0
-    },
-    "books": {
-     "hr": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     },
-     "dk": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     }
-    },
-    "analyst": null
-   },
-   "original|v1|85cfcc851a27dffd19b2168e4914015f4107448cbffc7c1d2d1b40f24809a538": {
-    "original_id": "original|v1|85cfcc851a27dffd19b2168e4914015f4107448cbffc7c1d2d1b40f24809a538",
-    "owner": "capper_original",
-    "capper_id": "@panpotd",
-    "date": "2026-11-07",
-    "sport": "NFL",
-    "prop": "NFL receptions (over)",
-    "fam": "Receptions",
-    "raw_pick": "Drake London O 5.5 Receptions",
-    "raw_odds_cell": "-125",
-    "posted_odds_raw": null,
-    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
-    "ticket_id": null,
-    "leg_count": 0,
-    "legs": [],
-    "selection": null,
-    "selection_state": "Unavailable",
-    "provenance_state": "ledger_only",
-    "source_post_ids": [],
-    "source_occurrences": [
-     {
-      "source_path": "inputs/00-data.json:results_v2.rows[1338]",
-      "raw_pick": "Drake London O 5.5 Receptions",
-      "raw_odds_cell": "-125",
-      "legacy_row": {
-       "date": "2026-11-07",
-       "sport": "NFL",
-       "grp": "C",
-       "cat": "Cappers",
-       "prop": "@panpotd · NFL receptions (over)",
-       "fam": "Receptions",
-       "pick": "Drake London O 5.5 Receptions",
-       "odds": "-125",
-       "res": "",
-       "stat": "",
-       "alt": false,
-       "prop_raw": "NFL receptions (over), Sunday POTD",
-       "leg": false,
-       "img": null,
-       "sub": "",
-       "legs": [],
-       "nu": false,
-       "dk_why": "not looked up",
-       "dk_absent": false
-      }
-     }
-    ],
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1338]",
-     "revision": 0
-    },
-    "books": {
-     "hr": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     },
-     "dk": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     }
-    },
-    "analyst": null
-   },
-   "original|v1|ce6a1fa939853c92c6fb9cb206e09565947c012649e67aabaa9a53dc1c7832eb": {
-    "original_id": "original|v1|ce6a1fa939853c92c6fb9cb206e09565947c012649e67aabaa9a53dc1c7832eb",
+   "original|v1|4621e4f9320de7fac57f02a2c3f9cf23dfb068936b9cfcbb7a8bc94015af6cc1": {
+    "original_id": "original|v1|4621e4f9320de7fac57f02a2c3f9cf23dfb068936b9cfcbb7a8bc94015af6cc1",
     "owner": "capper_original",
     "capper_id": "@austinsprops",
     "date": "2026-11-07",
@@ -124695,7 +124364,7 @@
     "source_post_ids": [],
     "source_occurrences": [
      {
-      "source_path": "inputs/00-data.json:results_v2.rows[1339]",
+      "source_path": "inputs/00-data.json:results_v2.rows[1335]",
       "raw_pick": "Alperen Sengun 29.5 PR “O”",
       "raw_odds_cell": "-115",
       "legacy_row": {
@@ -124707,25 +124376,27 @@
        "fam": "Pts+Reb",
        "pick": "Alperen Sengun 29.5 PR “O”",
        "odds": "-115",
-       "res": "",
-       "stat": "",
+       "res": "L",
+       "stat": "L (21 PR, hand-graded from ESPN)",
        "alt": false,
-       "prop_raw": "NBA points + rebounds (over), POTD",
        "leg": false,
        "img": null,
        "sub": "",
        "legs": [],
        "nu": false,
+       "uu": -1.0,
        "dk_why": "not looked up",
-       "dk_absent": false
+       "dk_absent": false,
+       "bk_started": true,
+       "bk_started_why": "graded: L"
       }
      }
     ],
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1339]",
+     "result": "L",
+     "detail": "L (21 PR, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1335]",
      "revision": 0
     },
     "books": {
@@ -124779,7 +124450,7 @@
     "source_post_ids": [],
     "source_occurrences": [
      {
-      "source_path": "inputs/00-data.json:results_v2.rows[1340]",
+      "source_path": "inputs/00-data.json:results_v2.rows[1336]",
       "raw_pick": "Jrue Holiday 21.5 PRA “O”",
       "raw_odds_cell": "-115",
       "legacy_row": {
@@ -124791,24 +124462,27 @@
        "fam": "PRA",
        "pick": "Jrue Holiday 21.5 PRA “O”",
        "odds": "-115",
-       "res": "",
-       "stat": "",
+       "res": "L",
+       "stat": "L (11 PRA, hand-graded from ESPN)",
        "alt": false,
        "leg": false,
        "img": null,
        "sub": "",
        "legs": [],
        "nu": false,
+       "uu": -1.0,
        "dk_why": "not looked up",
-       "dk_absent": false
+       "dk_absent": false,
+       "bk_started": true,
+       "bk_started_why": "graded: L"
       }
      }
     ],
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1340]",
+     "result": "L",
+     "detail": "L (11 PRA, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1336]",
      "revision": 0
     },
     "books": {
@@ -124862,7 +124536,7 @@
     "source_post_ids": [],
     "source_occurrences": [
      {
-      "source_path": "inputs/00-data.json:results_v2.rows[1341]",
+      "source_path": "inputs/00-data.json:results_v2.rows[1337]",
       "raw_pick": "Tristan de Silva 2.5 3PM “O”",
       "raw_odds_cell": "none posted",
       "legacy_row": {
@@ -124874,24 +124548,27 @@
        "fam": "3PM",
        "pick": "Tristan de Silva 2.5 3PM “O”",
        "odds": "none posted",
-       "res": "",
-       "stat": "",
+       "res": "W",
+       "stat": "W (5 3PM, hand-graded from ESPN)",
        "alt": false,
        "leg": false,
        "img": null,
        "sub": "",
        "legs": [],
        "nu": true,
+       "uu": 0.0,
        "dk_why": "not looked up",
-       "dk_absent": false
+       "dk_absent": false,
+       "bk_started": true,
+       "bk_started_why": "graded: W"
       }
      }
     ],
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1341]",
+     "result": "W",
+     "detail": "W (5 3PM, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1337]",
      "revision": 0
     },
     "books": {
@@ -124982,7 +124659,7 @@
     "source_post_ids": [],
     "source_occurrences": [
      {
-      "source_path": "inputs/00-data.json:results_v2.rows[1342]",
+      "source_path": "inputs/00-data.json:results_v2.rows[1338]",
       "raw_pick": "Oregon +14.5 + Oregon/Ohio St under 52.5",
       "raw_odds_cell": "-120",
       "legacy_row": {
@@ -124994,8 +124671,8 @@
        "fam": "Parlay",
        "pick": "Oregon +14.5 + Oregon/Ohio St under 52.5",
        "odds": "-120",
-       "res": "",
-       "stat": "",
+       "res": "L",
+       "stat": "L (Oregon 41-28; under 52.5 lost (69), hand-graded)",
        "alt": false,
        "leg": false,
        "img": null,
@@ -125040,9 +124717,346 @@
        ],
        "ticket_id": "2026-11-07|capper|@bigmikepickz|parlay|c24a3c5a",
        "leg_count": 2,
-       "result": "Unavailable",
-       "reason": "Leg 2: market not recognized",
-       "nu": false
+       "result": "L",
+       "reason": "",
+       "nu": false,
+       "uu": -1.0
+      }
+     }
+    ],
+    "grade": {
+     "result": "L",
+     "detail": "L (Oregon 41-28; under 52.5 lost (69), hand-graded)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1338]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|64ec2f8dd7a7fafca2121364c315193c9f866fb76636a77ded4bd4e48f2afcb3": {
+    "original_id": "original|v1|64ec2f8dd7a7fafca2121364c315193c9f866fb76636a77ded4bd4e48f2afcb3",
+    "owner": "capper_original",
+    "capper_id": "@austinsprops",
+    "date": "2026-11-07",
+    "sport": "NBA",
+    "prop": "NBA 3PM (over)",
+    "fam": "3PM",
+    "raw_pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
+    "raw_odds_cell": "none posted",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1339]",
+      "raw_pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
+      "raw_odds_cell": "none posted",
+      "legacy_row": {
+       "date": "2026-11-07",
+       "sport": "NBA",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@austinsprops · NBA 3PM (over)",
+       "fam": "3PM",
+       "pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
+       "odds": "none posted",
+       "res": "W",
+       "stat": "W (3 3PM, hand-graded from ESPN)",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "nu": true,
+       "uu": 0.0,
+       "dk_why": "not looked up",
+       "dk_absent": false,
+       "bk_started": true,
+       "bk_started_why": "graded: W"
+      }
+     }
+    ],
+    "grade": {
+     "result": "W",
+     "detail": "W (3 3PM, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1339]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|1c85cfa615101c9df256eee0a18e772a1ec19ebe3eb13a1cbd66189117a1548a": {
+    "original_id": "original|v1|1c85cfa615101c9df256eee0a18e772a1ec19ebe3eb13a1cbd66189117a1548a",
+    "owner": "capper_original",
+    "capper_id": "@austinsprops",
+    "date": "2026-11-05",
+    "sport": "NFL",
+    "prop": "NFL receptions (over)",
+    "fam": "Receptions",
+    "raw_pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
+    "raw_odds_cell": "none posted",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1340]",
+      "raw_pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
+      "raw_odds_cell": "none posted",
+      "legacy_row": {
+       "date": "2026-11-05",
+       "sport": "NFL",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@austinsprops · NFL receptions (over)",
+       "fam": "Receptions",
+       "pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
+       "odds": "none posted",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "nu": true,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1340]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|c0da9043c1c595ba5634b1e4dd2e3cc2a8219a5a8c99fd5d596052353b03e266": {
+    "original_id": "original|v1|c0da9043c1c595ba5634b1e4dd2e3cc2a8219a5a8c99fd5d596052353b03e266",
+    "owner": "capper_original",
+    "capper_id": "@panpotd",
+    "date": "2026-11-07",
+    "sport": "NFL",
+    "prop": "NFL receptions (over)",
+    "fam": "Receptions",
+    "raw_pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
+    "raw_odds_cell": "-135",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1341]",
+      "raw_pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
+      "raw_odds_cell": "-135",
+      "legacy_row": {
+       "date": "2026-11-07",
+       "sport": "NFL",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@panpotd · NFL receptions (over)",
+       "fam": "Receptions",
+       "pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
+       "odds": "-135",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1341]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|85cfcc851a27dffd19b2168e4914015f4107448cbffc7c1d2d1b40f24809a538": {
+    "original_id": "original|v1|85cfcc851a27dffd19b2168e4914015f4107448cbffc7c1d2d1b40f24809a538",
+    "owner": "capper_original",
+    "capper_id": "@panpotd",
+    "date": "2026-11-07",
+    "sport": "NFL",
+    "prop": "NFL receptions (over)",
+    "fam": "Receptions",
+    "raw_pick": "Drake London O 5.5 Receptions",
+    "raw_odds_cell": "-125",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1342]",
+      "raw_pick": "Drake London O 5.5 Receptions",
+      "raw_odds_cell": "-125",
+      "legacy_row": {
+       "date": "2026-11-07",
+       "sport": "NFL",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@panpotd · NFL receptions (over)",
+       "fam": "Receptions",
+       "pick": "Drake London O 5.5 Receptions",
+       "odds": "-125",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "prop_raw": "NFL receptions (over), Sunday POTD",
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
       }
      }
     ],
@@ -125217,89 +125231,6 @@
      "detail": "",
      "reason": "Retained legacy unresolved state; source verification not performed in staging",
      "evidence": "inputs/00-data.json:results_v2.rows[1344]",
-     "revision": 0
-    },
-    "books": {
-     "hr": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     },
-     "dk": {
-      "state": "UNVERIFIED",
-      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
-      "sid": null,
-      "event_id": null,
-      "url": null,
-      "odds": null,
-      "fingerprint": null,
-      "verified_at_et": null,
-      "audit_path": null,
-      "absent": false,
-      "audit_verdict": null
-     }
-    },
-    "analyst": null
-   },
-   "original|v1|64ec2f8dd7a7fafca2121364c315193c9f866fb76636a77ded4bd4e48f2afcb3": {
-    "original_id": "original|v1|64ec2f8dd7a7fafca2121364c315193c9f866fb76636a77ded4bd4e48f2afcb3",
-    "owner": "capper_original",
-    "capper_id": "@austinsprops",
-    "date": "2026-11-07",
-    "sport": "NBA",
-    "prop": "NBA 3PM (over)",
-    "fam": "3PM",
-    "raw_pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
-    "raw_odds_cell": "none posted",
-    "posted_odds_raw": null,
-    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
-    "ticket_id": null,
-    "leg_count": 0,
-    "legs": [],
-    "selection": null,
-    "selection_state": "Unavailable",
-    "provenance_state": "ledger_only",
-    "source_post_ids": [],
-    "source_occurrences": [
-     {
-      "source_path": "inputs/00-data.json:results_v2.rows[1345]",
-      "raw_pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
-      "raw_odds_cell": "none posted",
-      "legacy_row": {
-       "date": "2026-11-07",
-       "sport": "NBA",
-       "grp": "C",
-       "cat": "Cappers",
-       "prop": "@austinsprops · NBA 3PM (over)",
-       "fam": "3PM",
-       "pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
-       "odds": "none posted",
-       "res": "",
-       "stat": "",
-       "alt": false,
-       "leg": false,
-       "img": null,
-       "sub": "",
-       "legs": [],
-       "nu": true,
-       "dk_why": "not looked up",
-       "dk_absent": false
-      }
-     }
-    ],
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1345]",
      "revision": 0
     },
     "books": {
@@ -127367,43 +127298,43 @@
     "source_path": "inputs/00-data.json:results_v2.rows[1332]"
    },
    {
-    "original_id": "original|v1|1c85cfa615101c9df256eee0a18e772a1ec19ebe3eb13a1cbd66189117a1548a",
+    "original_id": "original|v1|99f84045ea4fc9ef1a46884980bea2a6a2cbb5c67b9bd178282cda61d30c39c4",
     "source_path": "inputs/00-data.json:results_v2.rows[1333]"
    },
    {
-    "original_id": "original|v1|99f84045ea4fc9ef1a46884980bea2a6a2cbb5c67b9bd178282cda61d30c39c4",
+    "original_id": "original|v1|1327846c0d4a493141bd8ed9b1a7c6a066c0f2d0e8a781d8661ca7e16b204907",
     "source_path": "inputs/00-data.json:results_v2.rows[1334]"
    },
    {
-    "original_id": "original|v1|1327846c0d4a493141bd8ed9b1a7c6a066c0f2d0e8a781d8661ca7e16b204907",
+    "original_id": "original|v1|4621e4f9320de7fac57f02a2c3f9cf23dfb068936b9cfcbb7a8bc94015af6cc1",
     "source_path": "inputs/00-data.json:results_v2.rows[1335]"
    },
    {
-    "original_id": "original|v1|bcc608f78c6169fe5f5cb6fff4d6365db9bb4b14fccd16fda61f1c4a957591b5",
+    "original_id": "original|v1|ffb061d734ce3b20643fb4201eb661011ba9a9f409c9113fc47f5518d28bc307",
     "source_path": "inputs/00-data.json:results_v2.rows[1336]"
    },
    {
-    "original_id": "original|v1|c0da9043c1c595ba5634b1e4dd2e3cc2a8219a5a8c99fd5d596052353b03e266",
+    "original_id": "original|v1|5d4d05fc2ce620b4767d2f13fa72dc47cb7df512abf1bfba91f2c573926cd89f",
     "source_path": "inputs/00-data.json:results_v2.rows[1337]"
    },
    {
-    "original_id": "original|v1|85cfcc851a27dffd19b2168e4914015f4107448cbffc7c1d2d1b40f24809a538",
+    "original_id": "original|v1|e9f67b1b4f2b73807005d9a7a18248ce57bf64a53707fad94663336d963634c7",
     "source_path": "inputs/00-data.json:results_v2.rows[1338]"
    },
    {
-    "original_id": "original|v1|ce6a1fa939853c92c6fb9cb206e09565947c012649e67aabaa9a53dc1c7832eb",
+    "original_id": "original|v1|64ec2f8dd7a7fafca2121364c315193c9f866fb76636a77ded4bd4e48f2afcb3",
     "source_path": "inputs/00-data.json:results_v2.rows[1339]"
    },
    {
-    "original_id": "original|v1|ffb061d734ce3b20643fb4201eb661011ba9a9f409c9113fc47f5518d28bc307",
+    "original_id": "original|v1|1c85cfa615101c9df256eee0a18e772a1ec19ebe3eb13a1cbd66189117a1548a",
     "source_path": "inputs/00-data.json:results_v2.rows[1340]"
    },
    {
-    "original_id": "original|v1|5d4d05fc2ce620b4767d2f13fa72dc47cb7df512abf1bfba91f2c573926cd89f",
+    "original_id": "original|v1|c0da9043c1c595ba5634b1e4dd2e3cc2a8219a5a8c99fd5d596052353b03e266",
     "source_path": "inputs/00-data.json:results_v2.rows[1341]"
    },
    {
-    "original_id": "original|v1|e9f67b1b4f2b73807005d9a7a18248ce57bf64a53707fad94663336d963634c7",
+    "original_id": "original|v1|85cfcc851a27dffd19b2168e4914015f4107448cbffc7c1d2d1b40f24809a538",
     "source_path": "inputs/00-data.json:results_v2.rows[1342]"
    },
    {
@@ -127413,10 +127344,6 @@
    {
     "original_id": "original|v1|075a6256f2f1791bac22f343e6735b9c2c5a07597e20e7d8644754c182fcfaba",
     "source_path": "inputs/00-data.json:results_v2.rows[1344]"
-   },
-   {
-    "original_id": "original|v1|64ec2f8dd7a7fafca2121364c315193c9f866fb76636a77ded4bd4e48f2afcb3",
-    "source_path": "inputs/00-data.json:results_v2.rows[1345]"
    }
   ]
  },
@@ -146825,9 +146752,9 @@
     "scope": "capper_original",
     "countable": true,
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "result": "L",
+     "detail": "L (lost to Hijikata 2-6 6-3 7-5, Paris R16, hand-graded)",
+     "reason": "",
      "evidence": "inputs/00-data.json:results_v2.rows[1331]",
      "revision": 0
     },
@@ -146840,14 +146767,15 @@
      "fam": "ML",
      "pick": "Tomas Martin Etcheverry ML (rare tennis play)",
      "odds": "-135",
-     "res": "",
-     "stat": "",
+     "res": "L",
+     "stat": "L (lost to Hijikata 2-6 6-3 7-5, Paris R16, hand-graded)",
      "alt": false,
      "leg": false,
      "img": null,
      "sub": "",
      "legs": [],
-     "nu": false
+     "nu": false,
+     "uu": -1.0
     }
    },
    {
@@ -146860,9 +146788,9 @@
     "scope": "capper_original",
     "countable": true,
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "result": "L",
+     "detail": "L (14 REB, hand-graded from ESPN)",
+     "reason": "",
      "evidence": "inputs/00-data.json:results_v2.rows[1332]",
      "revision": 0
     },
@@ -146875,49 +146803,15 @@
      "fam": "Rebounds",
      "pick": "Giannis Under 11.5 Rebounds (MIA @ GSW; NBA Play of the Day, POTD)",
      "odds": "none posted",
-     "res": "",
-     "stat": "",
+     "res": "L",
+     "stat": "L (14 REB, hand-graded from ESPN)",
      "alt": false,
      "leg": false,
      "img": null,
      "sub": "",
      "legs": [],
-     "nu": true
-    }
-   },
-   {
-    "record_id": "capper-record|v1|a4b4b13597f0a7ec9a37519748e338c3caa6c58d8db0d2a1a84505c8d3b1d9b2",
-    "original_id": "original|v1|1c85cfa615101c9df256eee0a18e772a1ec19ebe3eb13a1cbd66189117a1548a",
-    "capper_id": "@austinsprops",
-    "date": "2026-11-05",
-    "prop": "NFL receptions (over)",
-    "fam": "Receptions",
-    "scope": "capper_original",
-    "countable": true,
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1333]",
-     "revision": 0
-    },
-    "legacy_row": {
-     "date": "2026-11-05",
-     "sport": "NFL",
-     "grp": "C",
-     "cat": "Cappers",
-     "prop": "@austinsprops · NFL receptions (over)",
-     "fam": "Receptions",
-     "pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
-     "odds": "none posted",
-     "res": "",
-     "stat": "",
-     "alt": false,
-     "leg": false,
-     "img": null,
-     "sub": "",
-     "legs": [],
-     "nu": true
+     "nu": true,
+     "uu": -1.0
     }
    },
    {
@@ -146930,10 +146824,10 @@
     "scope": "capper_original",
     "countable": true,
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1334]",
+     "result": "L",
+     "detail": "L (lost to Shelton 6-4 4-6 6-3, Paris QF, hand-graded)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1333]",
      "revision": 0
     },
     "legacy_row": {
@@ -146945,14 +146839,15 @@
      "fam": "ML",
      "pick": "Tommy Paul ML (ATP Paris; POTD)",
      "odds": "-134",
-     "res": "",
-     "stat": "",
+     "res": "L",
+     "stat": "L (lost to Shelton 6-4 4-6 6-3, Paris QF, hand-graded)",
      "alt": false,
      "leg": false,
      "img": null,
      "sub": "",
      "legs": [],
-     "nu": false
+     "nu": false,
+     "uu": -1.0
     }
    },
    {
@@ -146965,10 +146860,10 @@
     "scope": "capper_original",
     "countable": true,
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1335]",
+     "result": "W",
+     "detail": "W (2 3PM, ladder counted once, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1334]",
      "revision": 0
     },
     "legacy_row": {
@@ -146980,125 +146875,20 @@
      "fam": "3PM",
      "pick": "Cedric Coward 1.5 3PM O (OKC @ MEM; ladder)",
      "odds": "-135",
-     "res": "",
-     "stat": "",
+     "res": "W",
+     "stat": "W (2 3PM, ladder counted once, hand-graded from ESPN)",
      "alt": false,
      "leg": false,
      "img": null,
      "sub": "",
      "legs": [],
-     "nu": false
+     "nu": false,
+     "uu": 0.74
     }
    },
    {
-    "record_id": "capper-record|v1|048d333107230a171dca7355f3f144b6fb52dbd63dbbba71f522323005f7da94",
-    "original_id": "original|v1|bcc608f78c6169fe5f5cb6fff4d6365db9bb4b14fccd16fda61f1c4a957591b5",
-    "capper_id": "@austinsprops",
-    "date": "2026-11-06",
-    "prop": "NBA 3PM (over)",
-    "fam": "3PM",
-    "scope": "capper_original",
-    "countable": true,
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1336]",
-     "revision": 0
-    },
-    "legacy_row": {
-     "date": "2026-11-06",
-     "sport": "NBA",
-     "grp": "C",
-     "cat": "Cappers",
-     "prop": "@austinsprops · NBA 3PM (over)",
-     "fam": "3PM",
-     "pick": "Cedric Coward 2.5 3PM O (OKC @ MEM; ladder)",
-     "odds": "+227",
-     "res": "",
-     "stat": "",
-     "alt": false,
-     "leg": false,
-     "img": null,
-     "sub": "",
-     "legs": [],
-     "nu": false
-    }
-   },
-   {
-    "record_id": "capper-record|v1|8945e621b86f7aad6c45ec4c1d4b9f56d25e05a098771a776842f9147b6a0f2e",
-    "original_id": "original|v1|c0da9043c1c595ba5634b1e4dd2e3cc2a8219a5a8c99fd5d596052353b03e266",
-    "capper_id": "@panpotd",
-    "date": "2026-11-07",
-    "prop": "NFL receptions (over)",
-    "fam": "Receptions",
-    "scope": "capper_original",
-    "countable": true,
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1337]",
-     "revision": 0
-    },
-    "legacy_row": {
-     "date": "2026-11-07",
-     "sport": "NFL",
-     "grp": "C",
-     "cat": "Cappers",
-     "prop": "@panpotd · NFL receptions (over)",
-     "fam": "Receptions",
-     "pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
-     "odds": "-135",
-     "res": "",
-     "stat": "",
-     "alt": false,
-     "leg": false,
-     "img": null,
-     "sub": "",
-     "legs": [],
-     "nu": false
-    }
-   },
-   {
-    "record_id": "capper-record|v1|72ac3456daee7c1489396a4c407047cbc1dba6148be511c8fc3e61217c9d693e",
-    "original_id": "original|v1|85cfcc851a27dffd19b2168e4914015f4107448cbffc7c1d2d1b40f24809a538",
-    "capper_id": "@panpotd",
-    "date": "2026-11-07",
-    "prop": "NFL receptions (over)",
-    "fam": "Receptions",
-    "scope": "capper_original",
-    "countable": true,
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1338]",
-     "revision": 0
-    },
-    "legacy_row": {
-     "date": "2026-11-07",
-     "sport": "NFL",
-     "grp": "C",
-     "cat": "Cappers",
-     "prop": "@panpotd · NFL receptions (over)",
-     "fam": "Receptions",
-     "pick": "Drake London O 5.5 Receptions",
-     "odds": "-125",
-     "res": "",
-     "stat": "",
-     "alt": false,
-     "prop_raw": "NFL receptions (over), Sunday POTD",
-     "leg": false,
-     "img": null,
-     "sub": "",
-     "legs": [],
-     "nu": false
-    }
-   },
-   {
-    "record_id": "capper-record|v1|86618f6a34c6750bf379da26a78f114733e0a188c05049b0a896b950d748ef3a",
-    "original_id": "original|v1|ce6a1fa939853c92c6fb9cb206e09565947c012649e67aabaa9a53dc1c7832eb",
+    "record_id": "capper-record|v1|d7580275eaa75790035431b2d9bf5dbcc50b6fde64569ab30f6ac040b7ce87f0",
+    "original_id": "original|v1|4621e4f9320de7fac57f02a2c3f9cf23dfb068936b9cfcbb7a8bc94015af6cc1",
     "capper_id": "@austinsprops",
     "date": "2026-11-07",
     "prop": "NBA pts+reb (over)",
@@ -147106,10 +146896,10 @@
     "scope": "capper_original",
     "countable": true,
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1339]",
+     "result": "L",
+     "detail": "L (21 PR, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1335]",
      "revision": 0
     },
     "legacy_row": {
@@ -147121,15 +146911,15 @@
      "fam": "Pts+Reb",
      "pick": "Alperen Sengun 29.5 PR “O”",
      "odds": "-115",
-     "res": "",
-     "stat": "",
+     "res": "L",
+     "stat": "L (21 PR, hand-graded from ESPN)",
      "alt": false,
-     "prop_raw": "NBA points + rebounds (over), POTD",
      "leg": false,
      "img": null,
      "sub": "",
      "legs": [],
-     "nu": false
+     "nu": false,
+     "uu": -1.0
     }
    },
    {
@@ -147142,10 +146932,10 @@
     "scope": "capper_original",
     "countable": true,
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1340]",
+     "result": "L",
+     "detail": "L (11 PRA, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1336]",
      "revision": 0
     },
     "legacy_row": {
@@ -147157,14 +146947,15 @@
      "fam": "PRA",
      "pick": "Jrue Holiday 21.5 PRA “O”",
      "odds": "-115",
-     "res": "",
-     "stat": "",
+     "res": "L",
+     "stat": "L (11 PRA, hand-graded from ESPN)",
      "alt": false,
      "leg": false,
      "img": null,
      "sub": "",
      "legs": [],
-     "nu": false
+     "nu": false,
+     "uu": -1.0
     }
    },
    {
@@ -147177,10 +146968,10 @@
     "scope": "capper_original",
     "countable": true,
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1341]",
+     "result": "W",
+     "detail": "W (5 3PM, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1337]",
      "revision": 0
     },
     "legacy_row": {
@@ -147192,14 +146983,15 @@
      "fam": "3PM",
      "pick": "Tristan de Silva 2.5 3PM “O”",
      "odds": "none posted",
-     "res": "",
-     "stat": "",
+     "res": "W",
+     "stat": "W (5 3PM, hand-graded from ESPN)",
      "alt": false,
      "leg": false,
      "img": null,
      "sub": "",
      "legs": [],
-     "nu": true
+     "nu": true,
+     "uu": 0.0
     }
    },
    {
@@ -147212,10 +147004,10 @@
     "scope": "capper_original",
     "countable": true,
     "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1342]",
+     "result": "L",
+     "detail": "L (Oregon 41-28; under 52.5 lost (69), hand-graded)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1338]",
      "revision": 0
     },
     "legacy_row": {
@@ -147227,8 +147019,8 @@
      "fam": "Parlay",
      "pick": "Oregon +14.5 + Oregon/Ohio St under 52.5",
      "odds": "-120",
-     "res": "",
-     "stat": "",
+     "res": "L",
+     "stat": "L (Oregon 41-28; under 52.5 lost (69), hand-graded)",
      "alt": false,
      "leg": false,
      "img": null,
@@ -147273,8 +147065,151 @@
      ],
      "ticket_id": "2026-11-07|capper|@bigmikepickz|parlay|c24a3c5a",
      "leg_count": 2,
-     "result": "Unavailable",
-     "reason": "Leg 2: market not recognized",
+     "result": "L",
+     "reason": "",
+     "nu": false,
+     "uu": -1.0
+    }
+   },
+   {
+    "record_id": "capper-record|v1|d2a00908782d656277a3e7283515185fb0fcc019a03569416a638d4aedd7b197",
+    "original_id": "original|v1|64ec2f8dd7a7fafca2121364c315193c9f866fb76636a77ded4bd4e48f2afcb3",
+    "capper_id": "@austinsprops",
+    "date": "2026-11-07",
+    "prop": "NBA 3PM (over)",
+    "fam": "3PM",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "W",
+     "detail": "W (3 3PM, hand-graded from ESPN)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1339]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-07",
+     "sport": "NBA",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@austinsprops · NBA 3PM (over)",
+     "fam": "3PM",
+     "pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
+     "odds": "none posted",
+     "res": "W",
+     "stat": "W (3 3PM, hand-graded from ESPN)",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "nu": true,
+     "uu": 0.0
+    }
+   },
+   {
+    "record_id": "capper-record|v1|a4b4b13597f0a7ec9a37519748e338c3caa6c58d8db0d2a1a84505c8d3b1d9b2",
+    "original_id": "original|v1|1c85cfa615101c9df256eee0a18e772a1ec19ebe3eb13a1cbd66189117a1548a",
+    "capper_id": "@austinsprops",
+    "date": "2026-11-05",
+    "prop": "NFL receptions (over)",
+    "fam": "Receptions",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1340]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-05",
+     "sport": "NFL",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@austinsprops · NFL receptions (over)",
+     "fam": "Receptions",
+     "pick": "Josh Cuevas 1.5 Receptions O (BAL vs JAX; TNF & NBA Chalkboard)",
+     "odds": "none posted",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "nu": true
+    }
+   },
+   {
+    "record_id": "capper-record|v1|8945e621b86f7aad6c45ec4c1d4b9f56d25e05a098771a776842f9147b6a0f2e",
+    "original_id": "original|v1|c0da9043c1c595ba5634b1e4dd2e3cc2a8219a5a8c99fd5d596052353b03e266",
+    "capper_id": "@panpotd",
+    "date": "2026-11-07",
+    "prop": "NFL receptions (over)",
+    "fam": "Receptions",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1341]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-07",
+     "sport": "NFL",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@panpotd · NFL receptions (over)",
+     "fam": "Receptions",
+     "pick": "Ladd McConkey o3.5 Receptions (LAC vs HOU; NFL Sunday Prop #1)",
+     "odds": "-135",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "nu": false
+    }
+   },
+   {
+    "record_id": "capper-record|v1|72ac3456daee7c1489396a4c407047cbc1dba6148be511c8fc3e61217c9d693e",
+    "original_id": "original|v1|85cfcc851a27dffd19b2168e4914015f4107448cbffc7c1d2d1b40f24809a538",
+    "capper_id": "@panpotd",
+    "date": "2026-11-07",
+    "prop": "NFL receptions (over)",
+    "fam": "Receptions",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1342]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-07",
+     "sport": "NFL",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@panpotd · NFL receptions (over)",
+     "fam": "Receptions",
+     "pick": "Drake London O 5.5 Receptions",
+     "odds": "-125",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "prop_raw": "NFL receptions (over), Sunday POTD",
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
      "nu": false
     }
    },
@@ -147346,41 +147281,6 @@
      "sub": "",
      "legs": [],
      "nu": false
-    }
-   },
-   {
-    "record_id": "capper-record|v1|d2a00908782d656277a3e7283515185fb0fcc019a03569416a638d4aedd7b197",
-    "original_id": "original|v1|64ec2f8dd7a7fafca2121364c315193c9f866fb76636a77ded4bd4e48f2afcb3",
-    "capper_id": "@austinsprops",
-    "date": "2026-11-07",
-    "prop": "NBA 3PM (over)",
-    "fam": "3PM",
-    "scope": "capper_original",
-    "countable": true,
-    "grade": {
-     "result": "Pending",
-     "detail": "",
-     "reason": "Retained legacy unresolved state; source verification not performed in staging",
-     "evidence": "inputs/00-data.json:results_v2.rows[1345]",
-     "revision": 0
-    },
-    "legacy_row": {
-     "date": "2026-11-07",
-     "sport": "NBA",
-     "grp": "C",
-     "cat": "Cappers",
-     "prop": "@austinsprops · NBA 3PM (over)",
-     "fam": "3PM",
-     "pick": "Victor Wembanyama 2.5 3PM “O” (POR v SAS; Chalkboard SGP)",
-     "odds": "none posted",
-     "res": "",
-     "stat": "",
-     "alt": false,
-     "leg": false,
-     "img": null,
-     "sub": "",
-     "legs": [],
-     "nu": true
     }
    }
   ],
@@ -149453,10 +149353,10 @@
     "capper_id": "@alexcaruso",
     "totals": {
      "W": 75,
-     "L": 48,
+     "L": 49,
      "P": 0,
      "Void": 5,
-     "Pending": 1,
+     "Pending": 0,
      "Unavailable": 0,
      "rows": 129
     },
@@ -150386,10 +150286,10 @@
       "prop": "NBA rebounds (under)",
       "totals": {
        "W": 1,
-       "L": 0,
+       "L": 1,
        "P": 0,
        "Void": 1,
-       "Pending": 1,
+       "Pending": 0,
        "Unavailable": 0,
        "rows": 3
       },
@@ -150401,10 +150301,10 @@
         ],
         "totals": {
          "W": 0,
-         "L": 0,
+         "L": 1,
          "P": 0,
          "Void": 0,
-         "Pending": 1,
+         "Pending": 0,
          "Unavailable": 0,
          "rows": 1
         }
@@ -151361,9 +151261,9 @@
     "legacy_profile": {
      "name": "@alexcaruso",
      "w": 75,
-     "l": 48,
+     "l": 49,
      "p": 0,
-     "pct": 61,
+     "pct": 60,
      "props": [
       {
        "prop": "NFL pass yds (over)",
@@ -151488,9 +151388,9 @@
       {
        "prop": "NBA rebounds (under)",
        "w": 1,
-       "l": 0,
+       "l": 1,
        "p": 0,
-       "pct": "100%",
+       "pct": "50%",
        "fam": "Rebounds"
       },
       {
@@ -151603,13 +151503,13 @@
    {
     "capper_id": "@austinsprops",
     "totals": {
-     "W": 43,
-     "L": 46,
+     "W": 46,
+     "L": 48,
      "P": 0,
      "Void": 2,
-     "Pending": 9,
+     "Pending": 3,
      "Unavailable": 0,
-     "rows": 100
+     "rows": 99
     },
     "props": [
      {
@@ -151676,13 +151576,13 @@
       "prop_id": "prop|v1|e3d7de00c66b3046fc9469e6bb847fe3b233300c112ed93d4b42a9f2e36feaa5",
       "prop": "NBA 3PM (over)",
       "totals": {
-       "W": 7,
+       "W": 10,
        "L": 4,
        "P": 0,
        "Void": 0,
-       "Pending": 4,
+       "Pending": 0,
        "Unavailable": 0,
-       "rows": 15
+       "rows": 14
       },
       "days": [
        {
@@ -151692,11 +151592,11 @@
          "capper-record|v1|d2a00908782d656277a3e7283515185fb0fcc019a03569416a638d4aedd7b197"
         ],
         "totals": {
-         "W": 0,
+         "W": 2,
          "L": 0,
          "P": 0,
          "Void": 0,
-         "Pending": 2,
+         "Pending": 0,
          "Unavailable": 0,
          "rows": 2
         }
@@ -151704,17 +151604,16 @@
        {
         "date": "2026-11-06",
         "record_ids": [
-         "capper-record|v1|c9559a66d5409802c1d21c87b081c5e16ec3ff6c075717ac1f8f34e5ad4a9593",
-         "capper-record|v1|048d333107230a171dca7355f3f144b6fb52dbd63dbbba71f522323005f7da94"
+         "capper-record|v1|c9559a66d5409802c1d21c87b081c5e16ec3ff6c075717ac1f8f34e5ad4a9593"
         ],
         "totals": {
-         "W": 0,
+         "W": 1,
          "L": 0,
          "P": 0,
          "Void": 0,
-         "Pending": 2,
+         "Pending": 0,
          "Unavailable": 0,
-         "rows": 2
+         "rows": 1
         }
        },
        {
@@ -151847,10 +151746,10 @@
       "prop": "NBA PRA (over)",
       "totals": {
        "W": 0,
-       "L": 3,
+       "L": 4,
        "P": 0,
        "Void": 0,
-       "Pending": 1,
+       "Pending": 0,
        "Unavailable": 0,
        "rows": 4
       },
@@ -151862,10 +151761,10 @@
         ],
         "totals": {
          "W": 0,
-         "L": 0,
+         "L": 1,
          "P": 0,
          "Void": 0,
-         "Pending": 1,
+         "Pending": 0,
          "Unavailable": 0,
          "rows": 1
         }
@@ -152346,10 +152245,10 @@
       "prop": "NBA pts+reb (over)",
       "totals": {
        "W": 4,
-       "L": 3,
+       "L": 4,
        "P": 0,
        "Void": 1,
-       "Pending": 1,
+       "Pending": 0,
        "Unavailable": 0,
        "rows": 9
       },
@@ -152357,14 +152256,14 @@
        {
         "date": "2026-11-07",
         "record_ids": [
-         "capper-record|v1|86618f6a34c6750bf379da26a78f114733e0a188c05049b0a896b950d748ef3a"
+         "capper-record|v1|d7580275eaa75790035431b2d9bf5dbcc50b6fde64569ab30f6ac040b7ce87f0"
         ],
         "totals": {
          "W": 0,
-         "L": 0,
+         "L": 1,
          "P": 0,
          "Void": 0,
-         "Pending": 1,
+         "Pending": 0,
          "Unavailable": 0,
          "rows": 1
         }
@@ -153119,10 +153018,10 @@
     ],
     "legacy_profile": {
      "name": "@austinsprops",
-     "w": 43,
-     "l": 46,
+     "w": 46,
+     "l": 48,
      "p": 0,
-     "pct": 48,
+     "pct": 49,
      "props": [
       {
        "prop": "NFL rush yds (over)",
@@ -153191,9 +153090,9 @@
       {
        "prop": "NBA pts+reb (over)",
        "w": 4,
-       "l": 3,
+       "l": 4,
        "p": 0,
-       "pct": "57%",
+       "pct": "50%",
        "fam": "Pts+Reb"
       },
       {
@@ -153215,17 +153114,17 @@
       {
        "prop": "NBA PRA (over)",
        "w": 0,
-       "l": 3,
+       "l": 4,
        "p": 0,
        "pct": "0%",
        "fam": "PRA"
       },
       {
        "prop": "NBA 3PM (over)",
-       "w": 7,
+       "w": 10,
        "l": 4,
        "p": 0,
-       "pct": "64%",
+       "pct": "71%",
        "fam": "3PM"
       },
       {
@@ -154567,10 +154466,10 @@
     "capper_id": "@showtimepicks2",
     "totals": {
      "W": 32,
-     "L": 19,
+     "L": 21,
      "P": 0,
      "Void": 0,
-     "Pending": 2,
+     "Pending": 0,
      "Unavailable": 0,
      "rows": 53
     },
@@ -155440,10 +155339,10 @@
       "prop": "Tennis ML",
       "totals": {
        "W": 2,
-       "L": 0,
+       "L": 2,
        "P": 0,
        "Void": 0,
-       "Pending": 2,
+       "Pending": 0,
        "Unavailable": 0,
        "rows": 4
       },
@@ -155455,10 +155354,10 @@
         ],
         "totals": {
          "W": 0,
-         "L": 0,
+         "L": 1,
          "P": 0,
          "Void": 0,
-         "Pending": 1,
+         "Pending": 0,
          "Unavailable": 0,
          "rows": 1
         }
@@ -155470,10 +155369,10 @@
         ],
         "totals": {
          "W": 0,
-         "L": 0,
+         "L": 1,
          "P": 0,
          "Void": 0,
-         "Pending": 1,
+         "Pending": 0,
          "Unavailable": 0,
          "rows": 1
         }
@@ -155530,9 +155429,9 @@
     "legacy_profile": {
      "name": "@showtimepicks2",
      "w": 32,
-     "l": 19,
+     "l": 21,
      "p": 0,
-     "pct": 63,
+     "pct": 60,
      "props": [
       {
        "prop": "NCAAF pass yds (over)",
@@ -155593,9 +155492,9 @@
       {
        "prop": "Tennis ML",
        "w": 2,
-       "l": 0,
+       "l": 2,
        "p": 0,
-       "pct": "100%",
+       "pct": "50%",
        "fam": "ML"
       },
       {
@@ -155669,10 +155568,10 @@
     "capper_id": "@bigmikepickz",
     "totals": {
      "W": 26,
-     "L": 19,
+     "L": 20,
      "P": 0,
      "Void": 0,
-     "Pending": 1,
+     "Pending": 0,
      "Unavailable": 0,
      "rows": 46
     },
@@ -155956,10 +155855,10 @@
       "prop": "NCAAF parlay",
       "totals": {
        "W": 4,
-       "L": 5,
+       "L": 6,
        "P": 0,
        "Void": 0,
-       "Pending": 1,
+       "Pending": 0,
        "Unavailable": 0,
        "rows": 10
       },
@@ -155974,10 +155873,10 @@
         ],
         "totals": {
          "W": 1,
-         "L": 2,
+         "L": 3,
          "P": 0,
          "Void": 0,
-         "Pending": 1,
+         "Pending": 0,
          "Unavailable": 0,
          "rows": 4
         }
@@ -156195,9 +156094,9 @@
     "legacy_profile": {
      "name": "@bigmikepickz",
      "w": 26,
-     "l": 19,
+     "l": 20,
      "p": 0,
-     "pct": 58,
+     "pct": 57,
      "props": [
       {
        "prop": "NCAAF ML",
@@ -156242,9 +156141,9 @@
       {
        "prop": "NCAAF parlay",
        "w": 4,
-       "l": 5,
+       "l": 6,
        "p": 0,
-       "pct": "44%",
+       "pct": "40%",
        "fam": "Parlay"
       }
      ]
@@ -156252,13 +156151,13 @@
    }
   ],
   "totals": {
-   "W": 267,
-   "L": 229,
+   "W": 270,
+   "L": 235,
    "P": 3,
    "Void": 7,
-   "Pending": 15,
+   "Pending": 5,
    "Unavailable": 0,
-   "rows": 521
+   "rows": 520
   }
  },
  "heist_pooled_originals": {
@@ -157779,6 +157678,6 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-08 01:35 AM ET"
+  "checked_et": "2026-11-08 01:37 AM ET"
  }
 }
