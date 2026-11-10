@@ -1089,10 +1089,10 @@
          ]
         ]
        },
-       "hr_sid": "1739961489493721489",
-       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1739961489493721489",
-       "hr_live": "-160",
-       "hr_now": "-160",
+       "hr_sid": "3604253823132107166",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3604253823132107166",
+       "hr_live": "-210",
+       "hr_now": "-210",
        "dk_sid": null,
        "dk_link": null,
        "dk_why": "player/market not on DraftKings Predictions",
@@ -1109,7 +1109,8 @@
          "status": "not_offered",
          "reason": "not offered at DK"
         }
-       }
+       },
+       "hr_absent": null
       },
       {
        "pick": "Quinn Hughes Over 0.5 Points",
@@ -1261,7 +1262,8 @@
          "status": "not_offered",
          "reason": "not offered at DK"
         }
-       }
+       },
+       "hr_absent": null
       }
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
@@ -1270,7 +1272,7 @@
      "hr_ticket": {
       "n": 2,
       "of": 2,
-      "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1739961489493721489,4871441386460807567"
+      "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3604253823132107166,4871441386460807567"
      }
     }
    },
@@ -28492,10 +28494,10 @@
       "def_of": 138,
       "matchup_src": null,
       "rule2": "safefinal 2026-11-01",
-      "hr_sid": "851184916734542251",
-      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/851184916734542251",
+      "hr_sid": null,
+      "hr_link": null,
       "hr_status": "VERIFIED",
-      "hr_price": "-135",
+      "hr_price": null,
       "kind": "team_total",
       "team": "Bowling Green",
       "game_id": "2711446603914412428",
@@ -28554,18 +28556,20 @@
       "dk_why": "player/market not on DraftKings Predictions",
       "dk_absent": true,
       "bk_start": "2026-11-10T19:00-05:00",
-      "link_status": "linked",
-      "link_reason": "",
+      "link_status": "lookup_failed",
+      "link_reason": "unverified link",
       "link_books": {
        "hr": {
-        "status": "linked",
-        "reason": ""
+        "status": "lookup_failed",
+        "reason": "unverified link"
        },
        "dk": {
         "status": "not_offered",
         "reason": "not offered at DK"
        }
-      }
+      },
+      "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+      "hr_absent": false
      },
      {
       "pick": "Ohio +1.5",
@@ -28672,9 +28676,12 @@
     "dk_odds": null,
     "dk_na": "DK alternative unavailable: no exact DK line for Bowling Green Team Total Under 25.5, Ohio +1.5",
     "hr_ticket": {
-     "n": 2,
+     "n": 1,
      "of": 2,
-     "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/851184916734542251,5050178852578525616"
+     "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5050178852578525616",
+     "unverified": [
+      "851184916734542251"
+     ]
     }
    }
   },
@@ -76359,21 +76366,21 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "15+ -375",
+    "hr": "15+ -350",
     "dk": "n/a at DK (no exact DK line at HR rung 15+)",
-    "hr_odds": -375,
+    "hr_odds": -350,
     "dk_odds": null,
     "start": "2026-11-10 23:00",
     "hr_pick": "Ajay Mitchell 15+ Points",
     "dk_pick": null,
     "trk": "Ajay Mitchell 15+ Points",
-    "grade_odds": -375,
+    "grade_odds": -350,
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
     "straight": true,
     "stake": "1u",
-    "straight_odds": "-350",
+    "straight_odds": "-375",
     "straight_res": "",
     "straight_stat": "",
     "straight_units": null,
@@ -76381,14 +76388,14 @@
     "straight_counted": false,
     "hr_sid": "7599266384205447570",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7599266384205447570",
-    "hr_live": "-375",
+    "hr_live": "-350",
     "hr_absent": null,
     "hr_fp": "fe0f8783a7a02b9151d9"
    }
   ],
   "bd_ticket": {
    "legs": 1,
-   "odds": -375,
+   "odds": -350,
    "bought": 1,
    "flagged": [],
    "band": [
@@ -76546,7 +76553,7 @@
     "date": "2026-11-08",
     "capper": "@panpotd",
     "line": "Ajay Mitchell 15+ Points",
-    "odds": -350,
+    "odds": -375,
     "straight_counted": false,
     "straight_reason": "Not published in a Nov 8 heist.conv before kickoff (internal conversion only); excluded by Nov 8 6:57 PM ET user decision"
    }
@@ -76590,6 +76597,54 @@
     "n": 6
    },
    "note": "Each leg is its own 1u bet at its own price. Combined odds (bd_ticket.odds) and the whole-ticket link (hr_ticket) are display-only and not graded."
+  },
+  "hr_ticket_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7599266384205447570",
+  "dk_ticket_link": null,
+  "ticket_links": {
+   "rule": "linebot1109p (user 2026-11-09 7:18 PM ET)",
+   "built_at": "2026-11-10T14:57:50-05:00",
+   "of": 1,
+   "valid_until": "2026-11-10 23:00 ET",
+   "note": "Whole-ticket links hold only legs whose game has not started and that have an exact, freshly verified book id. Rebuild before each push.",
+   "hr": {
+    "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7599266384205447570",
+    "n": 1,
+    "legs_in": [
+     {
+      "text": "Ajay Mitchell 15+ Points",
+      "hr_sid": "7599266384205447570",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7599266384205447570",
+      "sport": "NBA",
+      "game": "OKC @ POR",
+      "start": "2026-11-10 23:00",
+      "i": 0,
+      "leg": "Ajay Mitchell 15+ Points",
+      "capper": "@panpotd",
+      "live": "-350",
+      "hr_market": "Ajay Mitchell - To Record 15+ Points",
+      "hr_selection": "Over 14.5"
+     }
+    ],
+    "legs_out": [],
+    "format": "share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/<sid>,<sid>,..."
+   },
+   "dk": {
+    "link": null,
+    "n": 0,
+    "legs_in": [],
+    "legs_out": [
+     {
+      "i": 0,
+      "leg": "Ajay Mitchell 15+ Points",
+      "capper": "@panpotd",
+      "game": "OKC @ POR",
+      "start": "2026-11-10 23:00",
+      "sport": "NBA",
+      "why": "no exact DraftKings line on this leg: n/a at DK (no exact DK line at HR rung 15+)"
+     }
+    ],
+    "format": "dk.html?ids=<id>+<id> -> dksb://sb/addbet/<id>+<id> (dkmulti1104)"
+   }
   }
  },
  "big4_games": null,
@@ -183380,7 +183435,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7676445938405212568",
       "odds": null,
       "fingerprint": "4f70bcf006dd0e760531",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183462,7 +183517,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4828537722935312787",
       "odds": null,
       "fingerprint": "e11b7b8a7a54db2b880c",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183544,7 +183599,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2369572326391022002",
       "odds": null,
       "fingerprint": "cbd8d1a1249e96c205c9",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|e47f64428180742e0007b06c4e931b5e2259de8a5e56bc57f9c5586c8fb025cf",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183625,7 +183680,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2028697754810843563",
       "odds": null,
       "fingerprint": "ee54b4241d2312a38068",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|c307c05a42872637680a98e96f4fc59e34c8c51ba31b0c78511336e895915a65",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183707,7 +183762,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4475130273173995936",
       "odds": null,
       "fingerprint": "eb34f3761ea14fd936a8",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|650670638a4f2ec5409bdcb0d94d6dcc39955f2007bb3cb200c4ba29d5a4ab62",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183789,7 +183844,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8745331508247658920",
       "odds": null,
       "fingerprint": "e7b5ea87b71b94cbf020",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|9ce4e9fc15d13682134f8038088203abecab8089bbde4d64967f6776c2fe1fcc",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183871,7 +183926,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2215654579836682628",
       "odds": null,
       "fingerprint": "204546097c7568e85d7a",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|cca4ccffb59fba14124dc6d17226eefff17b9450ad45fe16e1a2b3b25d3f1ff9",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183953,7 +184008,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7438525466847347096",
       "odds": null,
       "fingerprint": "ef195c8932061eee17dc",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|0354fabc75806786987283cb93342502b3547707006d0c564cbc2ae8e8ca0d14",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -184285,7 +184340,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6391175354666582413",
       "odds": null,
       "fingerprint": "a94fb12726e8e1b3b625",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|f0e7008898c1c1c6dbea3544ee35cba7f3c70a8d66c6f175a6e268c05024dee9",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -184367,7 +184422,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/9199225737295561106",
       "odds": null,
       "fingerprint": "8ef8b4a94072fc22f743",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|5e46d42f409b53e34a78a7bcc8a9b0a0381b15ec07e2384eb12fe0ad9fb5fe6e",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -184531,7 +184586,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6056909484966674824",
       "odds": null,
       "fingerprint": "04f191ba59f3ca56c029",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|b5b03819f696f576ee3f812439719a58b0c9df4efe6c3c71605355ed4eff5c07",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -184613,7 +184668,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/253490850739388804",
       "odds": null,
       "fingerprint": "e095c0887409b6021dac",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|0073cca9b17b54f9cbf9e4c587bc897157b38d9c4f98b6ede043c65816b435a1",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -184891,7 +184946,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1102369351645921669",
       "odds": null,
       "fingerprint": "289f713cdcb67beff3a3",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -184973,7 +185028,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5883564108160303525",
       "odds": null,
       "fingerprint": "90260a3a1b6aba55cdf9",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -185055,7 +185110,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4916497337152569761",
       "odds": null,
       "fingerprint": "d090877374392c510712",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -185137,7 +185192,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7037731075973579160",
       "odds": null,
       "fingerprint": "a661a8f97f34655ca126",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -185219,7 +185274,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2947263524950376852",
       "odds": null,
       "fingerprint": "e00141fece8bae5aa0ae",
-      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "verified_at_et": "2026-11-10T14:59:54-05:00",
       "audit_path": ".heist_original_links.items.original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7",
       "absent": false,
       "audit_verdict": "VERIFIED"
