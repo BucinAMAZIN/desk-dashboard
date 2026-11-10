@@ -1,5 +1,5 @@
 {
- "generated": 1794330623.790322,
+ "generated": 1794334213.5120413,
  "today": {
   "title": "Nov 10 picks (Hard Rock)",
   "tickets": [
@@ -224,8 +224,8 @@
      "dk_odds": "-127",
      "hr_sid": "2546106282354540968",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2546106282354540968",
-     "hr_live": "-120",
-     "hr_now": "-120",
+     "hr_live": "-105",
+     "hr_now": "-105",
      "hr_ticket": {
       "n": 1,
       "of": 1,
@@ -901,8 +901,7 @@
      "dk_odds": "-127",
      "hr_sid": "7045554106573914500",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7045554106573914500",
-     "hr_live": "-110",
-     "hr_now": "-110",
+     "hr_live": "-105",
      "hr_ticket": {
       "n": 1,
       "of": 1,
@@ -1242,21 +1241,21 @@
          ]
         ]
        },
-       "hr_why": "Unverified link: line not offered on Hard Rock right now (HR has over 1.5, not 0.5)",
-       "hr_sid": null,
-       "hr_link": null,
+       "hr_sid": "4871441386460807567",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4871441386460807567",
+       "hr_live": "-250",
+       "hr_now": "-250",
        "dk_sid": null,
        "dk_link": null,
-       "hr_absent": false,
        "dk_why": "player/market not on DraftKings Predictions",
        "dk_absent": true,
        "bk_start": "2026-11-10T19:00-05:00",
-       "link_status": "not_offered",
-       "link_reason": "not offered at HR or DK",
+       "link_status": "linked",
+       "link_reason": "",
        "link_books": {
         "hr": {
-         "status": "not_offered",
-         "reason": "not offered at HR"
+         "status": "linked",
+         "reason": ""
         },
         "dk": {
          "status": "not_offered",
@@ -1269,9 +1268,9 @@
      "sport": "NHL",
      "dk_odds": "+122",
      "hr_ticket": {
-      "n": 1,
+      "n": 2,
       "of": 2,
-      "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1739961489493721489"
+      "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1739961489493721489,4871441386460807567"
      }
     }
    },
@@ -10203,9 +10202,9 @@
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2369572326391022002",
      "hr_live": "-165",
      "hr_now": "-165",
-     "dk_sid": "0QA387354893#2356747471_13L92483Q11346444711Q20",
+     "dk_sid": null,
      "dk_eid": "34987165",
-     "dk_link": "https://sportsbook.draftkings.com/event/34987165?outcomes=0QA387354893%232356747471_13L92483Q11346444711Q20",
+     "dk_link": null,
      "dk_live": "-150",
      "bk_start": "2026-11-10T20:00-05:00",
      "link_status": "linked",
@@ -10216,10 +10215,12 @@
        "reason": ""
       },
       "dk": {
-       "status": "linked",
-       "reason": ""
+       "status": "lookup_failed",
+       "reason": "unverified link"
       }
-     }
+     },
+     "dk_why": "Unverified link: unverified: DK event id not in the fresh league feed",
+     "dk_absent": false
     },
     {
      "sport": "NCAAM",
@@ -10654,9 +10655,9 @@
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/253490850739388804",
      "hr_live": "-130",
      "hr_now": "-130",
-     "dk_sid": "0QA387616510#2357981285_13L42133Q1671124167Q20",
+     "dk_sid": null,
      "dk_eid": "34958207",
-     "dk_link": "https://sportsbook.draftkings.com/event/34958207?outcomes=0QA387616510%232357981285_13L42133Q1671124167Q20",
+     "dk_link": null,
      "dk_live": "-100",
      "bk_start": "2026-11-10T19:00-05:00",
      "game": "MIN @ MTL",
@@ -10671,10 +10672,12 @@
        "reason": ""
       },
       "dk": {
-       "status": "linked",
-       "reason": ""
+       "status": "lookup_failed",
+       "reason": "unverified link"
       }
-     }
+     },
+     "dk_why": "Unverified link: unverified: DK event id not in the fresh league feed",
+     "dk_absent": false
     }
    ],
    "recent_parlays": [
@@ -12670,7 +12673,7 @@
  "capper_today_date": "2026-11-10",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-10 12:10 PM ET",
+  "updated": "2026-11-10 01:10 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -21176,7 +21179,7 @@
   }
  },
  "clv": {
-  "built": "2026-11-10T12:10:25-05:00",
+  "built": "2026-11-10T13:10:15-05:00",
   "source": "/workspace/dashboard/clv.jsonl",
   "snapshots": {
    "hr_close_files": 117,
@@ -28246,7 +28249,7 @@
       },
       "hr_sid": "6775046346033463720",
       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6775046346033463720",
-      "hr_live": "-195",
+      "hr_live": "-185",
       "dk_sid": null,
       "dk_link": null,
       "dk_why": "player/market not on DraftKings Predictions",
@@ -28415,7 +28418,7 @@
       },
       "hr_sid": "4938713905894654340",
       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4938713905894654340",
-      "hr_live": "-155",
+      "hr_live": "-150",
       "dk_sid": null,
       "dk_link": null,
       "dk_why": "player/market not on DraftKings Predictions",
@@ -29263,12 +29266,12 @@
     "big_edge_assist": null,
     "now": "-175",
     "green_circle": false,
-    "green_status": "projected",
-    "green_why": "Opp WPG 4.2 GA/gp L5 >= 3.4 · G Nico Daws 0.878 SV% L5 (projected) < .897 · SOG L5 2.8 >= 2.5",
+    "green_status": "confirmed",
+    "green_why": "Opp WPG 4.2 GA/gp L5 >= 3.4 · G Nico Daws 0.878 SV% L5 (confirmed) < .897 · SOG L5 2.8 >= 2.5",
     "green_opp": "WPG",
     "green_opp_ga_l5": 4.2,
     "green_goalie": "Nico Daws",
-    "green_goalie_status": "projected",
+    "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.878,
     "green_sog_l5": 2.8,
     "sog_l10": 2.0,
@@ -29276,9 +29279,9 @@
     "sog_agree": true,
     "hr_sid": "6668152512775848342",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6668152512775848342",
-    "hr_live": "-165",
-    "hr_now": "-165",
-    "hr_edge_live": -0.0638,
+    "hr_live": "-155",
+    "hr_now": "-155",
+    "hr_edge_live": -0.041,
     "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
@@ -29555,20 +29558,20 @@
     "big_edge_assist": null,
     "now": "+230",
     "green_circle": false,
-    "green_status": "projected",
-    "green_why": "Opp DET 3.6 GA/gp L5 >= 3.4 · G John Gibson 0.831 SV% L5 (projected) < .897 · SOG L5 2.2 < 2.5",
+    "green_status": "confirmed",
+    "green_why": "Opp DET 3.6 GA/gp L5 >= 3.4 · G John Gibson 0.831 SV% L5 (confirmed) < .897 · SOG L5 2.2 < 2.5",
     "green_opp": "DET",
     "green_opp_ga_l5": 3.6,
     "green_goalie": "John Gibson",
-    "green_goalie_status": "projected",
+    "green_goalie_status": "confirmed",
     "green_goalie_sv_l5": 0.831,
     "green_sog_l5": 2.2,
     "hr_sid": "5310930409014559130",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5310930409014559130",
-    "hr_live": "+240",
-    "hr_now": "+240",
-    "hr_edge_live": 0.0777,
-    "hr_edge_gone": false,
+    "hr_live": "+220",
+    "hr_now": "+220",
+    "hr_edge_live": 0.0143,
+    "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
     "why_src": "Hard Rock +230 vs Pinnacle no-vig fair +215 (31.7%) → edge +4.60%. Clears the 4% Pinnacle edge floor at +4.60%. Price +230 is inside the preferred band (about -130 or better, or plus money). Clears NHL plus-money over filter (L10 TOI 16.3m, 1 PPP, 2/10 G, opp G John Gibson 0.831 L5 SV%).",
@@ -29868,9 +29871,9 @@
     "green_sog_l5": 2.2,
     "hr_sid": "6229297015078125956",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6229297015078125956",
-    "hr_live": "+160",
-    "hr_now": "+160",
-    "hr_edge_live": 0.0662,
+    "hr_live": "+165",
+    "hr_now": "+165",
+    "hr_edge_live": 0.0867,
     "hr_edge_gone": false,
     "hr_state": "open",
     "edge_single": true,
@@ -30455,9 +30458,9 @@
     "now": "+115",
     "hr_sid": "3623637263942025614",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3623637263942025614",
-    "hr_live": "+115",
-    "hr_now": "+115",
-    "hr_edge_live": -0.0372,
+    "hr_live": "+110",
+    "hr_now": "+110",
+    "hr_edge_live": -0.0595,
     "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
@@ -37735,8 +37738,8 @@
     },
     "hr_sid": "3957421278710858135",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3957421278710858135",
-    "hr_live": "-125",
-    "hr_now": "-125",
+    "hr_live": "-130",
+    "hr_now": "-130",
     "dk_sid": null,
     "dk_link": null,
     "dk_why": "player/market not on DraftKings Predictions",
@@ -39270,8 +39273,8 @@
     },
     "hr_sid": "5438884631587979696",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5438884631587979696",
-    "hr_live": "-125",
-    "hr_now": "-125",
+    "hr_live": "-140",
+    "hr_now": "-140",
     "dk_sid": null,
     "dk_link": null,
     "dk_why": "player/market not on DraftKings Predictions",
@@ -39547,8 +39550,8 @@
     },
     "hr_sid": "4194037701426676132",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4194037701426676132",
-    "hr_live": "+100",
-    "hr_now": "+100",
+    "hr_live": "-110",
+    "hr_now": "-110",
     "dk_sid": null,
     "dk_link": null,
     "dk_why": "player/market not on DraftKings Predictions",
@@ -39930,8 +39933,8 @@
     },
     "hr_sid": "2292778343753449871",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2292778343753449871",
-    "hr_live": "-140",
-    "hr_now": "-140",
+    "hr_live": "-150",
+    "hr_now": "-150",
     "dk_sid": null,
     "dk_link": null,
     "dk_why": "player/market not on DraftKings Predictions",
@@ -68603,6 +68606,158 @@
     "nu": false
    },
    {
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (over)",
+    "fam": "Rebounds",
+    "pick": "Khaman Maluach Over 5.5 Rebounds",
+    "odds": "-148",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false
+   },
+   {
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA pts+reb (over)",
+    "fam": "Pts+Reb",
+    "pick": "Tristan Da Silva Over 17.5 Pts + Reb",
+    "odds": "-118",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false
+   },
+   {
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA rebounds (under)",
+    "fam": "Rebounds",
+    "pick": "Robert Williams Under 6.5 Rebounds",
+    "odds": "-123",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false
+   },
+   {
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@alexcaruso · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Jaylen Brown Over 22.5 Points",
+    "odds": "-106",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false
+   },
+   {
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@austinsprops · NBA 3PM (over)",
+    "fam": "3PM",
+    "pick": "Deni Avdija 1.5 3PM “O”",
+    "odds": "-128",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false
+   },
+   {
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@panpotd · NBA points (over)",
+    "fam": "Player points",
+    "pick": "Darius Garland o 21.5 Points",
+    "odds": "-115",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false
+   },
+   {
+    "date": "2026-11-10",
+    "sport": "NCAAF",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@actionnetworkhq · NCAAF ML",
+    "fam": "ML",
+    "pick": "Ohio Bobcats ML vs Miami (OH) RedHawks",
+    "odds": "-111",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false
+   },
+   {
+    "date": "2026-11-10",
+    "sport": "NCAAM",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@actionnetworkhq · NCAAM spread",
+    "fam": "Spread",
+    "pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini",
+    "odds": "-120",
+    "res": "",
+    "stat": "",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false
+   },
+   {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
@@ -75927,7 +76082,7 @@
      "w": 307,
      "l": 266,
      "p": 13,
-     "pending": 16,
+     "pending": 24,
      "units": 21.44,
      "no_odds": 113
     },
@@ -76052,7 +76207,7 @@
    "leg day: 2026-10-18 Parker Washington (WR) ATD · 10/18 TDCIT counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Derrick Henry (RB) ATD · 10/18 TDCITY 11 counted once in Lotto Ticket (TD City)",
    "leg day: 2026-10-18 Jonathan Taylor (RB) ATD · 10/18 TDCITY  counted once in Lotto Ticket (TD City)",
-   "cappers: 24 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
+   "cappers: 32 pending picks added from capper-picks.md (not in capper-records.md yet; ladders counted once)",
    "cappers: 2 duplicate post(s) of the same pick by the same capper counted once (RULEBOOK §34.2)",
    "cappers: 13 carry-marker / early-logged duplicate rows dropped (each pick counted once with its final grade)",
    "all-official: 277 archived rows skipped (retired tier + placed tickets; see archive/)",
@@ -76204,15 +76359,15 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "16+ -275",
+    "hr": "15+ -375",
     "dk": "n/a at DK (no exact DK line at HR rung 15+)",
-    "hr_odds": -275,
+    "hr_odds": -375,
     "dk_odds": null,
     "start": "2026-11-10 23:00",
-    "hr_pick": "Ajay Mitchell 16+ Points",
+    "hr_pick": "Ajay Mitchell 15+ Points",
     "dk_pick": null,
-    "trk": "Ajay Mitchell 16+ Points",
-    "grade_odds": -275,
+    "trk": "Ajay Mitchell 15+ Points",
+    "grade_odds": -375,
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
@@ -76224,16 +76379,16 @@
     "straight_units": null,
     "straight_recorded": false,
     "straight_counted": false,
-    "hr_sid": "3923343925852635551",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3923343925852635551",
-    "hr_live": "-275",
+    "hr_sid": "7599266384205447570",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7599266384205447570",
+    "hr_live": "-375",
     "hr_absent": null,
-    "hr_fp": "d27305331b61898d2e66"
+    "hr_fp": "fe0f8783a7a02b9151d9"
    }
   ],
   "bd_ticket": {
    "legs": 1,
-   "odds": -275,
+   "odds": -375,
    "bought": 1,
    "flagged": [],
    "band": [
@@ -76441,7 +76596,7 @@
  "big4_games_by_sport": {},
  "gameday": {
   "date": "2026-11-10",
-  "built": "2026-11-10 12:10 ET",
+  "built": "2026-11-10 13:10 ET",
   "picks": 32,
   "vetoes": [],
   "gaps": [
@@ -76450,8 +76605,8 @@
   ]
  },
  "dk": {
-  "fetched": "2026-11-10 11:09 ET",
-  "snapshots": 9,
+  "fetched": "2026-11-10 12:16 ET",
+  "snapshots": 11,
   "pregame_games": 166,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
@@ -76480,9 +76635,9 @@
   "flags": []
  },
  "player_status": {
-  "built": "2026-11-10 12:10 PM ET",
+  "built": "2026-11-10 01:10 PM ET",
   "sources": {
-   "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_12_00PM.pdf",
+   "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-10_01_00PM.pdf",
    "espn": "site.api.espn.com/apis/site/v2/sports/*/injuries"
   },
   "players": [
@@ -76810,8 +76965,8 @@
     "team": "LA Clippers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Yanic Konan Niederhauser",
     "key": "yanic konan niederhauser"
@@ -76821,8 +76976,8 @@
     "team": "LA Clippers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Brandon Ingram",
     "key": "brandon ingram"
@@ -76832,8 +76987,8 @@
     "team": "LA Clippers",
     "label": "Questionable · not starting (projected)",
     "raw": "Questionable",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET + RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET + RotoWire NBA lineups (projected)",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Cam Christie",
     "key": "cam christie"
@@ -76843,8 +76998,8 @@
     "team": "LA Clippers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Bradley Beal",
     "key": "bradley beal"
@@ -76854,8 +77009,8 @@
     "team": "LA Clippers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Jordan Miller",
     "key": "jordan miller"
@@ -76929,10 +77084,21 @@
    {
     "sp": "NBA",
     "team": "Milwaukee Bucks",
+    "label": "Questionable · not starting (projected)",
+    "raw": "Questionable",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET + RotoWire NBA lineups (projected)",
+    "posted": "2026-11-10 01:00 PM ET",
+    "note": "",
+    "name": "Kel'el Ware",
+    "key": "kelel ware"
+   },
+   {
+    "sp": "NBA",
+    "team": "Milwaukee Bucks",
     "label": "Questionable",
     "raw": "Questionable",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Tyler Herro",
     "key": "tyler herro"
@@ -77008,8 +77174,8 @@
     "team": "New York Knicks",
     "label": "Questionable",
     "raw": "Questionable",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Josh Hart",
     "key": "josh hart"
@@ -77019,8 +77185,8 @@
     "team": "Oklahoma City Thunder",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Jaylin Williams",
     "key": "jaylin williams"
@@ -77030,8 +77196,8 @@
     "team": "Oklahoma City Thunder",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Thomas Sorber",
     "key": "thomas sorber"
@@ -77041,8 +77207,8 @@
     "team": "Oklahoma City Thunder",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Cason Wallace",
     "key": "cason wallace"
@@ -77052,8 +77218,8 @@
     "team": "Oklahoma City Thunder",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Chet Holmgren",
     "key": "chet holmgren"
@@ -77063,8 +77229,8 @@
     "team": "Oklahoma City Thunder",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Jalen Williams",
     "key": "jalen williams"
@@ -77085,8 +77251,8 @@
     "team": "Orlando Magic",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Jalen Suggs",
     "key": "jalen suggs"
@@ -77096,8 +77262,8 @@
     "team": "Orlando Magic",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Jonathan Isaac",
     "key": "jonathan isaac"
@@ -77107,8 +77273,8 @@
     "team": "Orlando Magic",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Paolo Banchero",
     "key": "paolo banchero"
@@ -77118,8 +77284,8 @@
     "team": "Orlando Magic",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Noah Penda",
     "key": "noah penda"
@@ -77129,8 +77295,8 @@
     "team": "Orlando Magic",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Izaiyah Nelson",
     "key": "izaiyah nelson"
@@ -77140,8 +77306,8 @@
     "team": "Philadelphia 76ers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Adem Bona",
     "key": "adem bona"
@@ -77151,8 +77317,8 @@
     "team": "Philadelphia 76ers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Dominick Barlow",
     "key": "dominick barlow"
@@ -77162,8 +77328,8 @@
     "team": "Philadelphia 76ers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Ariel Hukporti",
     "key": "ariel hukporti"
@@ -77195,8 +77361,8 @@
     "team": "Portland Trail Blazers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Ja Morant",
     "key": "ja morant"
@@ -77206,8 +77372,8 @@
     "team": "Portland Trail Blazers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Vit Krejci",
     "key": "vit krejci"
@@ -77217,8 +77383,8 @@
     "team": "Portland Trail Blazers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Shaedon Sharpe",
     "key": "shaedon sharpe"
@@ -77228,8 +77394,8 @@
     "team": "Sacramento Kings",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Maxime Raynaud",
     "key": "maxime raynaud"
@@ -77239,8 +77405,8 @@
     "team": "Sacramento Kings",
     "label": "Questionable · not starting (projected)",
     "raw": "Questionable",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET + RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET + RotoWire NBA lineups (projected)",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Keegan Murray",
     "key": "keegan murray"
@@ -77250,8 +77416,8 @@
     "team": "Sacramento Kings",
     "label": "Questionable",
     "raw": "Questionable",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Domantas Sabonis",
     "key": "domantas sabonis"
@@ -77261,11 +77427,22 @@
     "team": "Sacramento Kings",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Ben Simmons",
     "key": "ben simmons"
+   },
+   {
+    "sp": "NBA",
+    "team": "TOR",
+    "label": "Out",
+    "raw": "Out",
+    "src": "ESPN injuries",
+    "posted": "2026-11-10 12:33 PM ET",
+    "note": "",
+    "key": "kawhi leonard",
+    "name": null
    },
    {
     "sp": "NBA",
@@ -77313,22 +77490,11 @@
    },
    {
     "sp": "NBA",
-    "team": "TOR",
-    "label": "Out",
-    "raw": "Out",
-    "src": "ESPN injuries",
-    "posted": "2026-11-03 07:14 PM ET",
-    "note": "",
-    "key": "kawhi leonard",
-    "name": null
-   },
-   {
-    "sp": "NBA",
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Keyonte George",
     "key": "keyonte george"
@@ -77338,8 +77504,8 @@
     "team": "Utah Jazz",
     "label": "Questionable",
     "raw": "Questionable",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Lauri Markkanen",
     "key": "lauri markkanen"
@@ -77349,8 +77515,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Jusuf Nurkic",
     "key": "jusuf nurkic"
@@ -77360,8 +77526,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Jaren Jackson Jr.",
     "key": "jaren jackson"
@@ -77426,8 +77592,8 @@
     "team": "Boston Celtics",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Devin Carter",
     "key": "devin carter"
@@ -77438,7 +77604,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Dillon Mitchell",
     "key": "dillon mitchell"
@@ -77448,8 +77614,8 @@
     "team": "Boston Celtics",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Amari Williams",
     "key": "amari williams"
@@ -77459,8 +77625,8 @@
     "team": "LA Clippers",
     "label": "Questionable · not starting (projected)",
     "raw": "Questionable",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET + RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET + RotoWire NBA lineups (projected)",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Nick Martinelli",
     "key": "nick martinelli"
@@ -77470,8 +77636,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Trey Alexander",
     "key": "trey alexander"
@@ -77481,8 +77647,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Kobe Bufkin",
     "key": "kobe bufkin"
@@ -77492,8 +77658,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Harrison Ingram",
     "key": "harrison ingram"
@@ -77503,8 +77669,8 @@
     "team": "Sacramento Kings",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Jonathan Mogbo",
     "key": "jonathan mogbo"
@@ -77514,8 +77680,8 @@
     "team": "Sacramento Kings",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Sean Pedulla",
     "key": "sean pedulla"
@@ -77525,8 +77691,8 @@
     "team": "Oklahoma City Thunder",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "Nikola Topic",
     "key": "nikola topic"
@@ -77536,8 +77702,8 @@
     "team": "Portland Trail Blazers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/10/26 12:00 PM ET",
-    "posted": "2026-11-10 12:00 PM ET",
+    "src": "NBA official injury report 11/10/26 01:00 PM ET",
+    "posted": "2026-11-10 01:00 PM ET",
     "note": "",
     "name": "John Tonje",
     "key": "john tonje"
@@ -77600,6 +77766,17 @@
    {
     "sp": "NHL",
     "team": "BUF",
+    "label": "Out (Injured Reserve)",
+    "raw": "Injured Reserve",
+    "src": "ESPN injuries",
+    "posted": "2026-11-10 12:54 PM ET",
+    "note": "",
+    "key": "alex lyon",
+    "name": null
+   },
+   {
+    "sp": "NHL",
+    "team": "BUF",
     "label": "Out",
     "raw": "Out",
     "src": "ESPN injuries",
@@ -77625,31 +77802,9 @@
     "label": "Out (Injured Reserve)",
     "raw": "Injured Reserve",
     "src": "ESPN injuries",
-    "posted": "2026-10-15 01:59 PM ET",
-    "note": "",
-    "key": "alex lyon",
-    "name": null
-   },
-   {
-    "sp": "NHL",
-    "team": "BUF",
-    "label": "Out (Injured Reserve)",
-    "raw": "Injured Reserve",
-    "src": "ESPN injuries",
     "posted": "2026-10-13 04:51 PM ET",
     "note": "",
     "key": "matt grzelcyk",
-    "name": null
-   },
-   {
-    "sp": "NHL",
-    "team": "CGY",
-    "label": "GTD (Day-To-Day)",
-    "raw": "Day-To-Day",
-    "src": "ESPN injuries",
-    "posted": "2026-11-09 09:28 AM ET",
-    "note": "",
-    "key": "brennan othmann",
     "name": null
    },
    {
@@ -77820,45 +77975,12 @@
    {
     "sp": "NHL",
     "team": "DET",
-    "label": "GTD (Day-To-Day)",
-    "raw": "Day-To-Day",
-    "src": "ESPN injuries",
-    "posted": "2026-11-08 08:39 AM ET",
-    "note": "",
-    "key": "john gibson",
-    "name": null
-   },
-   {
-    "sp": "NHL",
-    "team": "DET",
     "label": "Out (Injured Reserve)",
     "raw": "Injured Reserve",
     "src": "ESPN injuries",
     "posted": "2026-11-06 12:30 PM ET",
     "note": "",
     "key": "albert johansson",
-    "name": null
-   },
-   {
-    "sp": "NHL",
-    "team": "DET",
-    "label": "Out (Injured Reserve)",
-    "raw": "Injured Reserve",
-    "src": "ESPN injuries",
-    "posted": "2026-11-05 11:57 AM ET",
-    "note": "",
-    "key": "marco kasper",
-    "name": null
-   },
-   {
-    "sp": "NHL",
-    "team": "DET",
-    "label": "Out (Injured Reserve)",
-    "raw": "Injured Reserve",
-    "src": "ESPN injuries",
-    "posted": "2026-11-05 11:56 AM ET",
-    "note": "",
-    "key": "mason appleton",
     "name": null
    },
    {
@@ -77881,17 +78003,6 @@
     "posted": "2026-10-14 11:15 AM ET",
     "note": "",
     "key": "simon edvinsson",
-    "name": null
-   },
-   {
-    "sp": "NHL",
-    "team": "EDM",
-    "label": "GTD (Day-To-Day)",
-    "raw": "Day-To-Day",
-    "src": "ESPN injuries",
-    "posted": "2026-11-10 09:24 AM ET",
-    "note": "",
-    "key": "colton dach",
     "name": null
    },
    {
@@ -78068,17 +78179,6 @@
     "posted": "2026-11-05 01:51 PM ET",
     "note": "",
     "key": "filip gustavsson",
-    "name": null
-   },
-   {
-    "sp": "NHL",
-    "team": "MIN",
-    "label": "Out (Injured Reserve)",
-    "raw": "Injured Reserve",
-    "src": "ESPN injuries",
-    "posted": "2026-11-05 01:12 PM ET",
-    "note": "",
-    "key": "jared spurgeon",
     "name": null
    },
    {
@@ -81178,7 +81278,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Nate Ament",
     "key": "nate ament"
@@ -81189,7 +81289,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Ousmane Dieng",
     "key": "ousmane dieng"
@@ -81200,7 +81300,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "AJ Green",
     "key": "aj green"
@@ -81211,7 +81311,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Kasparas Jakucionis",
     "key": "kasparas jakucionis"
@@ -81222,7 +81322,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Kam Jones",
     "key": "kam jones"
@@ -81233,7 +81333,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Caris LeVert",
     "key": "caris levert"
@@ -81244,7 +81344,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Bogoljub Markovic",
     "key": "bogoljub markovic"
@@ -81255,7 +81355,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Pete Nance",
     "key": "pete nance"
@@ -81266,7 +81366,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Ryan Rollins",
     "key": "ryan rollins"
@@ -81277,7 +81377,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Cormac Ryan",
     "key": "cormac ryan"
@@ -81288,7 +81388,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jericho Sims",
     "key": "jericho sims"
@@ -81299,21 +81399,10 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Gary Trent Jr.",
     "key": "gary trent"
-   },
-   {
-    "sp": "NBA",
-    "team": "Milwaukee Bucks",
-    "label": "Not starting (projected)",
-    "raw": "bench",
-    "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
-    "note": "",
-    "name": "Kel'el Ware",
-    "key": "kelel ware"
    },
    {
     "sp": "NBA",
@@ -81321,7 +81410,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Kentavious Caldwell-Pope",
     "key": "kentavious caldwell pope"
@@ -81332,7 +81421,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Justin Edwards",
     "key": "justin edwards"
@@ -81343,7 +81432,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Tacko Fall",
     "key": "tacko fall"
@@ -81354,7 +81443,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Caleb Love",
     "key": "caleb love"
@@ -81365,7 +81454,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Labaron Philon Jr.",
     "key": "labaron philon"
@@ -81376,7 +81465,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Rayan Rupert",
     "key": "rayan rupert"
@@ -81387,7 +81476,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Anfernee Simons",
     "key": "anfernee simons"
@@ -81398,7 +81487,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Dean Wade",
     "key": "dean wade"
@@ -81409,7 +81498,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jabari Walker",
     "key": "jabari walker"
@@ -81420,7 +81509,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Luka Garza",
     "key": "luka garza"
@@ -81431,7 +81520,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Hugo Gonzalez",
     "key": "hugo gonzalez"
@@ -81442,7 +81531,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Ron Harper Jr.",
     "key": "ron harper"
@@ -81453,7 +81542,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Sam Hauser",
     "key": "sam hauser"
@@ -81464,7 +81553,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Payton Pritchard",
     "key": "payton pritchard"
@@ -81475,7 +81564,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Mitchell Robinson",
     "key": "mitchell robinson"
@@ -81486,7 +81575,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Baylor Scheierman",
     "key": "baylor scheierman"
@@ -81497,7 +81586,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jordan Walsh",
     "key": "jordan walsh"
@@ -81508,7 +81597,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jamaree Bouyea",
     "key": "jamaree bouyea"
@@ -81519,7 +81608,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Ryan Dunn",
     "key": "ryan dunn"
@@ -81530,7 +81619,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Rasheer Fleming",
     "key": "rasheer fleming"
@@ -81541,7 +81630,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Collin Gillespie",
     "key": "collin gillespie"
@@ -81552,7 +81641,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Luke Kennard",
     "key": "luke kennard"
@@ -81563,7 +81652,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Khaman Maluach",
     "key": "khaman maluach"
@@ -81574,7 +81663,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Koa Peat",
     "key": "koa peat"
@@ -81585,7 +81674,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Duop Reath",
     "key": "duop reath"
@@ -81596,7 +81685,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Pat Spencer",
     "key": "pat spencer"
@@ -81607,7 +81696,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Drew Timme",
     "key": "drew timme"
@@ -81618,7 +81707,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Gradey Dick",
     "key": "gradey dick"
@@ -81629,7 +81718,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Isaiah Jackson",
     "key": "isaiah jackson"
@@ -81640,7 +81729,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Baba Miller",
     "key": "baba miller"
@@ -81651,7 +81740,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jalen Pickett",
     "key": "jalen pickett"
@@ -81662,7 +81751,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Kobe Sanders",
     "key": "kobe sanders"
@@ -81673,7 +81762,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Max Strus",
     "key": "max strus"
@@ -81684,7 +81773,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Keaton Wagler",
     "key": "keaton wagler"
@@ -81695,7 +81784,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Blake Wesley",
     "key": "blake wesley"
@@ -81706,7 +81795,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Ryan Conwell",
     "key": "ryan conwell"
@@ -81717,7 +81806,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Tre Donaldson",
     "key": "tre donaldson"
@@ -81728,7 +81817,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Simone Fontecchio",
     "key": "simone fontecchio"
@@ -81739,7 +81828,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Myron Gardner",
     "key": "myron gardner"
@@ -81750,7 +81839,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Vladislav Goldin",
     "key": "vladislav goldin"
@@ -81761,7 +81850,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Tim Hardaway Jr.",
     "key": "tim hardaway"
@@ -81772,7 +81861,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Keshad Johnson",
     "key": "keshad johnson"
@@ -81783,7 +81872,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Nikola Jovic",
     "key": "nikola jovic"
@@ -81794,7 +81883,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Pelle Larsson",
     "key": "pelle larsson"
@@ -81805,7 +81894,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Bobby Portis",
     "key": "bobby portis"
@@ -81816,7 +81905,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Nick Richards",
     "key": "nick richards"
@@ -81827,7 +81916,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Dru Smith",
     "key": "dru smith"
@@ -81838,7 +81927,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Leaky Black",
     "key": "leaky black"
@@ -81849,7 +81938,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Dylan Cardwell",
     "key": "dylan cardwell"
@@ -81860,7 +81949,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Alex Karaban",
     "key": "alex karaban"
@@ -81871,7 +81960,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Malik Monk",
     "key": "malik monk"
@@ -81882,7 +81971,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Daeqwon Plowden",
     "key": "daeqwon plowden"
@@ -81893,7 +81982,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Emanuel Sharp",
     "key": "emanuel sharp"
@@ -81904,7 +81993,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Goga Bitadze",
     "key": "goga bitadze"
@@ -81915,7 +82004,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jamal Cain",
     "key": "jamal cain"
@@ -81926,7 +82015,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jevon Carter",
     "key": "jevon carter"
@@ -81937,7 +82026,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Colin Castleton",
     "key": "colin castleton"
@@ -81948,7 +82037,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Alex Morales",
     "key": "alex morales"
@@ -81959,7 +82048,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Nikola Vucevic",
     "key": "nikola vucevic"
@@ -81970,7 +82059,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Branden Carlson",
     "key": "branden carlson"
@@ -81981,7 +82070,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Sidy Cissoko",
     "key": "sidy cissoko"
@@ -81992,7 +82081,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Yang Hansen",
     "key": "yang hansen"
@@ -82003,7 +82092,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jrue Holiday",
     "key": "jrue holiday"
@@ -82014,7 +82103,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jayson Kent",
     "key": "jayson kent"
@@ -82025,7 +82114,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Micah Potter",
     "key": "micah potter"
@@ -82036,7 +82125,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Robert Williams III",
     "key": "robert williams"
@@ -82047,7 +82136,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Chris Youngblood",
     "key": "chris youngblood"
@@ -82058,7 +82147,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Brooks Barnhizer",
     "key": "brooks barnhizer"
@@ -82069,7 +82158,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Alex Caruso",
     "key": "alex caruso"
@@ -82080,7 +82169,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Nique Clifford",
     "key": "nique clifford"
@@ -82091,7 +82180,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Josh Dix",
     "key": "josh dix"
@@ -82102,7 +82191,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Jared McCain",
     "key": "jared mccain"
@@ -82113,7 +82202,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Micah Peavy",
     "key": "micah peavy"
@@ -82124,7 +82213,7 @@
     "label": "Not starting (projected)",
     "raw": "bench",
     "src": "RotoWire NBA lineups (projected)",
-    "posted": "2026-11-10 12:10 PM ET",
+    "posted": "2026-11-10 01:10 PM ET",
     "note": "",
     "name": "Bennett Stirtz",
     "key": "bennett stirtz"
@@ -122944,14 +123033,14 @@
  },
  "teamvs": {
   "date": "2026-11-10",
-  "built": "2026-11-10 12:10 PM ET",
+  "built": "2026-11-10 01:10 PM ET",
   "preview": false,
   "sports": {
    "NFL": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 12:10 PM ET",
+    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 01:10 PM ET",
     "none": "No NFL games today (ESPN scoreboard 2026-11-10)."
    },
    "NCAA F": {
@@ -123153,7 +123242,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/points-per-game",
-      "as_of": "2026-11-10 12:10 PM ET",
+      "as_of": "2026-11-10 01:10 PM ET",
       "n": 138,
       "engine": false
      },
@@ -123163,7 +123252,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/yards-per-game",
-      "as_of": "2026-11-10 12:10 PM ET",
+      "as_of": "2026-11-10 01:10 PM ET",
       "n": 138,
       "engine": false
      },
@@ -123173,7 +123262,7 @@
       "side": "def",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/opponent-points-per-game",
-      "as_of": "2026-11-10 12:10 PM ET",
+      "as_of": "2026-11-10 01:10 PM ET",
       "n": 138,
       "engine": false
      },
@@ -123189,7 +123278,7 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 12:10 PM ET"
+    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 01:10 PM ET"
    },
    "NBA": {
     "games": [
@@ -123579,7 +123668,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/offensive-efficiency",
-      "as_of": "2026-11-10 12:10 PM ET",
+      "as_of": "2026-11-10 01:10 PM ET",
       "n": 30,
       "engine": false
      },
@@ -123589,7 +123678,7 @@
       "side": "def",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/defensive-efficiency",
-      "as_of": "2026-11-10 12:10 PM ET",
+      "as_of": "2026-11-10 01:10 PM ET",
       "n": 30,
       "engine": false
      },
@@ -123599,7 +123688,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/points-per-game",
-      "as_of": "2026-11-10 12:10 PM ET",
+      "as_of": "2026-11-10 01:10 PM ET",
       "n": 30,
       "engine": false
      },
@@ -123615,7 +123704,7 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 12:10 PM ET"
+    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 01:10 PM ET"
    },
    "NHL": {
     "games": [
@@ -123733,7 +123822,7 @@
          },
          "sf": {
           "val": 27.64705,
-          "rank": 14,
+          "rank": 15,
           "n": 32
          },
          "sa": {
@@ -123859,7 +123948,7 @@
          },
          "sf": {
           "val": 27.61111,
-          "rank": 15,
+          "rank": 16,
           "n": 32
          },
          "sa": {
@@ -124068,7 +124157,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-10 12:10 PM ET",
+      "as_of": "2026-11-10 01:10 PM ET",
       "n": 32,
       "engine": false
      },
@@ -124088,7 +124177,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-10 12:10 PM ET",
+      "as_of": "2026-11-10 01:10 PM ET",
       "n": 32,
       "engine": false
      },
@@ -124104,13 +124193,13 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 12:10 PM ET"
+    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 01:10 PM ET"
    },
    "MLB": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 12:10 PM ET",
+    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 01:10 PM ET",
     "none": "No MLB games today (ESPN scoreboard 2026-11-10)."
    },
    "WNBA": {
@@ -127635,7 +127724,7 @@
      "Dallas Christian Crusaders: no Torvik rating (likely a non-Division I team)",
      "Livingstone Blue Bears: no Torvik rating (likely a non-Division I team)"
     ],
-    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 12:10 PM ET",
+    "games_src": "ESPN scoreboard 2026-11-10, fetched 2026-11-10 01:10 PM ET",
     "stats": [
      {
       "key": "adjo",
@@ -127677,7 +127766,10 @@
   "groups": [
    {
     "capper_id": "@actionnetworkhq",
-    "original_ids": []
+    "original_ids": [
+     "original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82",
+     "original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2"
+    ]
    },
    {
     "capper_id": "@the_oddsmaker",
@@ -127715,16 +127807,24 @@
    },
    {
     "capper_id": "@alexcaruso",
-    "original_ids": []
+    "original_ids": [
+     "original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3",
+     "original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4",
+     "original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668",
+     "original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a"
+    ]
    },
    {
     "capper_id": "@austinsprops",
-    "original_ids": []
+    "original_ids": [
+     "original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7"
+    ]
    },
    {
     "capper_id": "@panpotd",
     "original_ids": [
-     "original|v1|5dd204e9e6707dbbb600e309a6e2ac8d01293fdaa9c2218c8e7002399919749d"
+     "original|v1|5dd204e9e6707dbbb600e309a6e2ac8d01293fdaa9c2218c8e7002399919749d",
+     "original|v1|4a777186c004489d98ca55506dce9b6ae092b2488c560c2824ea2e2abb353ac7"
     ]
    },
    {
@@ -134359,7 +134459,7 @@
        "price_source": "posted",
        "nu": false,
        "uu": -1.0,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: L"
@@ -136913,7 +137013,7 @@
        "price_source": "posted",
        "nu": false,
        "uu": -1.0,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: L"
@@ -137000,7 +137100,7 @@
        "price_source": "posted",
        "nu": false,
        "uu": 0.87,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: W"
@@ -141179,7 +141279,7 @@
        "price_source": "draftkings",
        "nu": false,
        "uu": 0.69,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: W"
@@ -156658,7 +156758,7 @@
        "price_source": "unpriced",
        "nu": true,
        "uu": null,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: L"
@@ -158482,7 +158582,7 @@
        "price_source": "hard_rock",
        "nu": false,
        "uu": -1.0,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK event id not in the fresh league feed)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: L"
@@ -163174,7 +163274,7 @@
        "price_source": "posted",
        "nu": false,
        "uu": -1.0,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: L"
@@ -167965,7 +168065,7 @@
        "price_source": "posted",
        "nu": false,
        "uu": 0.8,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: W"
@@ -172781,7 +172881,7 @@
        "price_source": "hard_rock",
        "nu": false,
        "uu": 0.65,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: W"
@@ -172956,7 +173056,7 @@
        "price_source": "hard_rock",
        "nu": false,
        "uu": -1.0,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: L"
@@ -173304,7 +173404,7 @@
        "price_source": "posted",
        "nu": false,
        "uu": -1.0,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: L"
@@ -177660,7 +177760,7 @@
        "price_source": "posted",
        "nu": false,
        "uu": -1.0,
-       "dk_why": "not looked up",
+       "dk_why": "Unverified link: mismatch: DK selection was Georgia Tech, not Georgia Bulldogs (wrong team; withheld)",
        "dk_absent": false,
        "bk_started": true,
        "bk_started_why": "graded: L"
@@ -181153,7 +181253,7 @@
        "legs": [],
        "price_source": "posted",
        "nu": false,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false
       }
      }
@@ -181321,7 +181421,7 @@
        "legs": [],
        "price_source": "posted",
        "nu": false,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false
       }
      }
@@ -181741,7 +181841,7 @@
        "legs": [],
        "price_source": "posted",
        "nu": false,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK event id not in the fresh league feed)",
        "dk_absent": false
       }
      }
@@ -181993,7 +182093,7 @@
        "legs": [],
        "price_source": "posted",
        "nu": false,
-       "dk_why": "not looked up",
+       "dk_why": "lookup failed: DK verify could not get fresh DraftKings evidence (DK Predictions resolver returned nothing for this id)",
        "dk_absent": false
       }
      }
@@ -182547,6 +182647,842 @@
     },
     "analyst": null
    },
+   "original|v1|34a8f005f07e555f491a540537e4cefb13429756f0b4070b182028bb33e3e1a3": {
+    "original_id": "original|v1|34a8f005f07e555f491a540537e4cefb13429756f0b4070b182028bb33e3e1a3",
+    "owner": "capper_original",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA rebounds (over)",
+    "fam": "Rebounds",
+    "raw_pick": "Khaman Maluach Over 5.5 Rebounds",
+    "raw_odds_cell": "-148",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1433]",
+      "raw_pick": "Khaman Maluach Over 5.5 Rebounds",
+      "raw_odds_cell": "-148",
+      "legacy_row": {
+       "date": "2026-11-10",
+       "sport": "NBA",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@alexcaruso · NBA rebounds (over)",
+       "fam": "Rebounds",
+       "pick": "Khaman Maluach Over 5.5 Rebounds",
+       "odds": "-148",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1433]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|0a0a7394c91262ea29be67d7cebcfec0a88105297826354f5389f1ea98d2f62b": {
+    "original_id": "original|v1|0a0a7394c91262ea29be67d7cebcfec0a88105297826354f5389f1ea98d2f62b",
+    "owner": "capper_original",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA pts+reb (over)",
+    "fam": "Pts+Reb",
+    "raw_pick": "Tristan Da Silva Over 17.5 Pts + Reb",
+    "raw_odds_cell": "-118",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1434]",
+      "raw_pick": "Tristan Da Silva Over 17.5 Pts + Reb",
+      "raw_odds_cell": "-118",
+      "legacy_row": {
+       "date": "2026-11-10",
+       "sport": "NBA",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@alexcaruso · NBA pts+reb (over)",
+       "fam": "Pts+Reb",
+       "pick": "Tristan Da Silva Over 17.5 Pts + Reb",
+       "odds": "-118",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1434]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|22502955c7c10e9977284a45fd17948a444816dbb51e26c8b432054c2a8a3c41": {
+    "original_id": "original|v1|22502955c7c10e9977284a45fd17948a444816dbb51e26c8b432054c2a8a3c41",
+    "owner": "capper_original",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA rebounds (under)",
+    "fam": "Rebounds",
+    "raw_pick": "Robert Williams Under 6.5 Rebounds",
+    "raw_odds_cell": "-123",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1435]",
+      "raw_pick": "Robert Williams Under 6.5 Rebounds",
+      "raw_odds_cell": "-123",
+      "legacy_row": {
+       "date": "2026-11-10",
+       "sport": "NBA",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@alexcaruso · NBA rebounds (under)",
+       "fam": "Rebounds",
+       "pick": "Robert Williams Under 6.5 Rebounds",
+       "odds": "-123",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1435]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|257bb6ca045265ed43ac103eb4746a4a73d2544d927c19fb4d6c52eaba19d1ac": {
+    "original_id": "original|v1|257bb6ca045265ed43ac103eb4746a4a73d2544d927c19fb4d6c52eaba19d1ac",
+    "owner": "capper_original",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA points (over)",
+    "fam": "Player points",
+    "raw_pick": "Jaylen Brown Over 22.5 Points",
+    "raw_odds_cell": "-106",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1436]",
+      "raw_pick": "Jaylen Brown Over 22.5 Points",
+      "raw_odds_cell": "-106",
+      "legacy_row": {
+       "date": "2026-11-10",
+       "sport": "NBA",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@alexcaruso · NBA points (over)",
+       "fam": "Player points",
+       "pick": "Jaylen Brown Over 22.5 Points",
+       "odds": "-106",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1436]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|1e5d4d4a80cc07009073e3254c604148378e66f017b5f8a9802b05199a6c2f1e": {
+    "original_id": "original|v1|1e5d4d4a80cc07009073e3254c604148378e66f017b5f8a9802b05199a6c2f1e",
+    "owner": "capper_original",
+    "capper_id": "@austinsprops",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA 3PM (over)",
+    "fam": "3PM",
+    "raw_pick": "Deni Avdija 1.5 3PM “O”",
+    "raw_odds_cell": "-128",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1437]",
+      "raw_pick": "Deni Avdija 1.5 3PM “O”",
+      "raw_odds_cell": "-128",
+      "legacy_row": {
+       "date": "2026-11-10",
+       "sport": "NBA",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@austinsprops · NBA 3PM (over)",
+       "fam": "3PM",
+       "pick": "Deni Avdija 1.5 3PM “O”",
+       "odds": "-128",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1437]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|4ccc450d2b43c150b3e838d71ec95efbff8c7fd2eeff2d437206733361f773be": {
+    "original_id": "original|v1|4ccc450d2b43c150b3e838d71ec95efbff8c7fd2eeff2d437206733361f773be",
+    "owner": "capper_original",
+    "capper_id": "@panpotd",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA points (over)",
+    "fam": "Player points",
+    "raw_pick": "Darius Garland o 21.5 Points",
+    "raw_odds_cell": "-115",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1438]",
+      "raw_pick": "Darius Garland o 21.5 Points",
+      "raw_odds_cell": "-115",
+      "legacy_row": {
+       "date": "2026-11-10",
+       "sport": "NBA",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@panpotd · NBA points (over)",
+       "fam": "Player points",
+       "pick": "Darius Garland o 21.5 Points",
+       "odds": "-115",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1438]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|f7a9c69b1f79379d4106273c4ab9df566f15d355caee85b8225403f2ba6873a4": {
+    "original_id": "original|v1|f7a9c69b1f79379d4106273c4ab9df566f15d355caee85b8225403f2ba6873a4",
+    "owner": "capper_original",
+    "capper_id": "@actionnetworkhq",
+    "date": "2026-11-10",
+    "sport": "NCAAF",
+    "prop": "NCAAF ML",
+    "fam": "ML",
+    "raw_pick": "Ohio Bobcats ML vs Miami (OH) RedHawks",
+    "raw_odds_cell": "-111",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1439]",
+      "raw_pick": "Ohio Bobcats ML vs Miami (OH) RedHawks",
+      "raw_odds_cell": "-111",
+      "legacy_row": {
+       "date": "2026-11-10",
+       "sport": "NCAAF",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@actionnetworkhq · NCAAF ML",
+       "fam": "ML",
+       "pick": "Ohio Bobcats ML vs Miami (OH) RedHawks",
+       "odds": "-111",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1439]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|f230e01cb03b80af013f9b2d2be94608531d17cd6f3aee9db1013ae866cc9c41": {
+    "original_id": "original|v1|f230e01cb03b80af013f9b2d2be94608531d17cd6f3aee9db1013ae866cc9c41",
+    "owner": "capper_original",
+    "capper_id": "@actionnetworkhq",
+    "date": "2026-11-10",
+    "sport": "NCAAM",
+    "prop": "NCAAM spread",
+    "fam": "Spread",
+    "raw_pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini",
+    "raw_odds_cell": "-120",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1440]",
+      "raw_pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini",
+      "raw_odds_cell": "-120",
+      "legacy_row": {
+       "date": "2026-11-10",
+       "sport": "NCAAM",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@actionnetworkhq · NCAAM spread",
+       "fam": "Spread",
+       "pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini",
+       "odds": "-120",
+       "res": "",
+       "stat": "",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "dk_why": "not looked up",
+       "dk_absent": false
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1440]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82": {
+    "original_id": "original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82",
+    "owner": "capper_original",
+    "capper_id": "@actionnetworkhq",
+    "date": "2026-11-10",
+    "sport": "NCAAF",
+    "prop": "NCAAF ML",
+    "fam": "ML",
+    "raw_pick": "Ohio Bobcats ML vs Miami (OH) RedHawks (OHIO @ M-OH 8:00 PM ET; via @roadtocfb; HQ post 2120172152041152942)",
+    "raw_odds_cell": "-111",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:cappers[@actionnetworkhq].today[0]",
+      "raw_pick": "Ohio Bobcats ML vs Miami (OH) RedHawks (OHIO @ M-OH 8:00 PM ET; via @roadtocfb; HQ post 2120172152041152942)",
+      "raw_odds_cell": "-111",
+      "legacy_row": {
+       "sport": "NCAAF",
+       "prop": "NCAAF ML",
+       "pick": "Ohio Bobcats ML vs Miami (OH) RedHawks (OHIO @ M-OH 8:00 PM ET; via @roadtocfb; HQ post 2120172152041152942)",
+       "odds": "-111",
+       "status": "Pending",
+       "legs": [],
+       "fam": "ML",
+       "hr_sid": "7676445938405212568",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7676445938405212568",
+       "hr_live": "-120",
+       "hr_now": "-120",
+       "dk_sid": null,
+       "dk_link": null,
+       "res": "Pending",
+       "dk_why": "Unverified link: unverified: DK event id not in the fresh league feed",
+       "dk_absent": false,
+       "bk_start": "2026-11-10T20:00-05:00"
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:cappers[@actionnetworkhq].today[0]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "VERIFIED",
+      "reason": "",
+      "sid": "7676445938405212568",
+      "event_id": null,
+      "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7676445938405212568",
+      "odds": null,
+      "fingerprint": "4f70bcf006dd0e760531",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "audit_path": ".heist_original_links.items.original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82",
+      "absent": false,
+      "audit_verdict": "VERIFIED"
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: unverified: DK event id not in the fresh league feed",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82",
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2": {
+    "original_id": "original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2",
+    "owner": "capper_original",
+    "capper_id": "@actionnetworkhq",
+    "date": "2026-11-10",
+    "sport": "NCAAM",
+    "prop": "NCAAM spread",
+    "fam": "Spread",
+    "raw_pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini (ILL @ TTU 8:00 PM ET; via @charliedisturco; HQ post 2120166782539358216)",
+    "raw_odds_cell": "-120",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:cappers[@actionnetworkhq].today[1]",
+      "raw_pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini (ILL @ TTU 8:00 PM ET; via @charliedisturco; HQ post 2120166782539358216)",
+      "raw_odds_cell": "-120",
+      "legacy_row": {
+       "sport": "NCAAM",
+       "prop": "NCAAM spread",
+       "pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini (ILL @ TTU 8:00 PM ET; via @charliedisturco; HQ post 2120166782539358216)",
+       "odds": "-120",
+       "status": "Pending",
+       "legs": [],
+       "fam": "Spread",
+       "hr_sid": "4828537722935312787",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4828537722935312787",
+       "hr_live": "+100",
+       "hr_now": "+100",
+       "dk_sid": null,
+       "dk_link": null,
+       "res": "Pending",
+       "dk_why": "Unverified link: unverified: DK event id not in the fresh league feed",
+       "dk_absent": false,
+       "bk_start": "2026-11-10T20:00-05:00"
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:cappers[@actionnetworkhq].today[1]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "VERIFIED",
+      "reason": "",
+      "sid": "4828537722935312787",
+      "event_id": null,
+      "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4828537722935312787",
+      "odds": null,
+      "fingerprint": "e11b7b8a7a54db2b880c",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "audit_path": ".heist_original_links.items.original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2",
+      "absent": false,
+      "audit_verdict": "VERIFIED"
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: unverified: DK event id not in the fresh league feed",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2",
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
    "original|v1|e47f64428180742e0007b06c4e931b5e2259de8a5e56bc57f9c5586c8fb025cf": {
     "original_id": "original|v1|e47f64428180742e0007b06c4e931b5e2259de8a5e56bc57f9c5586c8fb025cf",
     "owner": "capper_original",
@@ -182581,14 +183517,12 @@
        "fam": "ML",
        "hr_sid": "2369572326391022002",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2369572326391022002",
-       "hr_live": "-165",
-       "hr_now": "-165",
+       "hr_live": "-145",
+       "hr_now": "-145",
        "dk_sid": null,
-       "dk_eid": "34987165",
        "dk_link": null,
-       "dk_live": "-150",
        "res": "Pending",
-       "dk_why": "not looked up",
+       "dk_why": "Unverified link: unverified: DK event id not in the fresh league feed",
        "dk_absent": false,
        "bk_start": "2026-11-10T20:00-05:00"
       }
@@ -182610,14 +183544,14 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2369572326391022002",
       "odds": null,
       "fingerprint": "cbd8d1a1249e96c205c9",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|e47f64428180742e0007b06c4e931b5e2259de8a5e56bc57f9c5586c8fb025cf",
       "absent": false,
       "audit_verdict": "VERIFIED"
      },
      "dk": {
       "state": "UNVERIFIED",
-      "reason": "Unavailable on DK: Unverified link: unverified: DK event id not in the fresh league feed",
+      "reason": "Unavailable on DK: unverified: DK event id not in the fresh league feed",
       "sid": null,
       "event_id": null,
       "url": null,
@@ -182691,7 +183625,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2028697754810843563",
       "odds": null,
       "fingerprint": "ee54b4241d2312a38068",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|c307c05a42872637680a98e96f4fc59e34c8c51ba31b0c78511336e895915a65",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -182773,7 +183707,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4475130273173995936",
       "odds": null,
       "fingerprint": "eb34f3761ea14fd936a8",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|650670638a4f2ec5409bdcb0d94d6dcc39955f2007bb3cb200c4ba29d5a4ab62",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -182855,7 +183789,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8745331508247658920",
       "odds": null,
       "fingerprint": "e7b5ea87b71b94cbf020",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|9ce4e9fc15d13682134f8038088203abecab8089bbde4d64967f6776c2fe1fcc",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -182937,7 +183871,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2215654579836682628",
       "odds": null,
       "fingerprint": "204546097c7568e85d7a",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|cca4ccffb59fba14124dc6d17226eefff17b9450ad45fe16e1a2b3b25d3f1ff9",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183019,7 +183953,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7438525466847347096",
       "odds": null,
       "fingerprint": "ef195c8932061eee17dc",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|0354fabc75806786987283cb93342502b3547707006d0c564cbc2ae8e8ca0d14",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183351,7 +184285,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6391175354666582413",
       "odds": null,
       "fingerprint": "a94fb12726e8e1b3b625",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|f0e7008898c1c1c6dbea3544ee35cba7f3c70a8d66c6f175a6e268c05024dee9",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183406,8 +184340,8 @@
        "fam": "SOG",
        "hr_sid": "9199225737295561106",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/9199225737295561106",
-       "hr_live": "+105",
-       "hr_now": "+105",
+       "hr_live": "+100",
+       "hr_now": "+100",
        "dk_sid": null,
        "dk_link": null,
        "res": "Pending",
@@ -183433,7 +184367,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/9199225737295561106",
       "odds": null,
       "fingerprint": "8ef8b4a94072fc22f743",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|5e46d42f409b53e34a78a7bcc8a9b0a0381b15ec07e2384eb12fe0ad9fb5fe6e",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183597,7 +184531,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6056909484966674824",
       "odds": null,
       "fingerprint": "04f191ba59f3ca56c029",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|b5b03819f696f576ee3f812439719a58b0c9df4efe6c3c71605355ed4eff5c07",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183679,7 +184613,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/253490850739388804",
       "odds": null,
       "fingerprint": "e095c0887409b6021dac",
-      "verified_at_et": "2026-11-10T12:14:42-05:00",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
       "audit_path": ".heist_original_links.items.original|v1|0073cca9b17b54f9cbf9e4c587bc897157b38d9c4f98b6ede043c65816b435a1",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -183734,7 +184668,7 @@
       "source_url": "https://www.espn.com/nhl/game/_/gameId/401892685",
       "game_state": "pre",
       "leg_id": "2026-11-10|capper|@nickm_hockey|parlay|53329853|L1",
-      "hr_why": "Unverified link: unverified: pick text not readable for identity",
+      "hr_why": "Unverified link: mismatch: team 'Washington Capitals' not one participant of Senators vs. Capitals",
       "hr_sid": null,
       "hr_link": null,
       "dk_sid": null,
@@ -183807,7 +184741,7 @@
          "source_url": "https://www.espn.com/nhl/game/_/gameId/401892685",
          "game_state": "pre",
          "leg_id": "2026-11-10|capper|@nickm_hockey|parlay|53329853|L1",
-         "hr_why": "Unverified link: unverified: pick text not readable for identity",
+         "hr_why": "Unverified link: mismatch: team 'Washington Capitals' not one participant of Senators vs. Capitals",
          "hr_sid": null,
          "hr_link": null,
          "dk_sid": null,
@@ -183896,6 +184830,416 @@
     },
     "analyst": null
    },
+   "original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3": {
+    "original_id": "original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3",
+    "owner": "capper_original",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA points (over)",
+    "fam": "Player points",
+    "raw_pick": "Jaylen Brown Over 22.5 Points (BOS @ PHI 8:00 PM ET; NBA play)",
+    "raw_odds_cell": "-106",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:cappers[@alexcaruso].today[0]",
+      "raw_pick": "Jaylen Brown Over 22.5 Points (BOS @ PHI 8:00 PM ET; NBA play)",
+      "raw_odds_cell": "-106",
+      "legacy_row": {
+       "sport": "NBA",
+       "prop": "NBA points (over)",
+       "pick": "Jaylen Brown Over 22.5 Points (BOS @ PHI 8:00 PM ET; NBA play)",
+       "odds": "-106",
+       "status": "Pending",
+       "legs": [],
+       "fam": "Player points",
+       "hr_sid": "1102369351645921669",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1102369351645921669",
+       "hr_live": "-110",
+       "hr_now": "-110",
+       "dk_sid": null,
+       "dk_link": null,
+       "res": "Pending",
+       "dk_why": "player/market not on DraftKings Predictions",
+       "dk_absent": true,
+       "bk_start": "2026-11-10T20:00-05:00"
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:cappers[@alexcaruso].today[0]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "VERIFIED",
+      "reason": "",
+      "sid": "1102369351645921669",
+      "event_id": null,
+      "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1102369351645921669",
+      "odds": null,
+      "fingerprint": "289f713cdcb67beff3a3",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "audit_path": ".heist_original_links.items.original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3",
+      "absent": false,
+      "audit_verdict": "VERIFIED"
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: player/market not on DraftKings Predictions",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3",
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4": {
+    "original_id": "original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4",
+    "owner": "capper_original",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA rebounds (over)",
+    "fam": "Rebounds",
+    "raw_pick": "Khaman Maluach Over 5.5 Rebounds (LAC @ PHX 9:00 PM ET; NBA play)",
+    "raw_odds_cell": "-148",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:cappers[@alexcaruso].today[1]",
+      "raw_pick": "Khaman Maluach Over 5.5 Rebounds (LAC @ PHX 9:00 PM ET; NBA play)",
+      "raw_odds_cell": "-148",
+      "legacy_row": {
+       "sport": "NBA",
+       "prop": "NBA rebounds (over)",
+       "pick": "Khaman Maluach Over 5.5 Rebounds (LAC @ PHX 9:00 PM ET; NBA play)",
+       "odds": "-148",
+       "status": "Pending",
+       "legs": [],
+       "fam": "Rebounds",
+       "hr_sid": "5883564108160303525",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5883564108160303525",
+       "hr_live": "-145",
+       "hr_now": "-145",
+       "dk_sid": null,
+       "dk_link": null,
+       "res": "Pending",
+       "dk_why": "player/market not on DraftKings Predictions",
+       "dk_absent": true,
+       "bk_start": "2026-11-10T21:00-05:00"
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:cappers[@alexcaruso].today[1]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "VERIFIED",
+      "reason": "",
+      "sid": "5883564108160303525",
+      "event_id": null,
+      "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5883564108160303525",
+      "odds": null,
+      "fingerprint": "90260a3a1b6aba55cdf9",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "audit_path": ".heist_original_links.items.original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4",
+      "absent": false,
+      "audit_verdict": "VERIFIED"
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: player/market not on DraftKings Predictions",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4",
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668": {
+    "original_id": "original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668",
+    "owner": "capper_original",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA rebounds (under)",
+    "fam": "Rebounds",
+    "raw_pick": "Robert Williams Under 6.5 Rebounds (OKC @ POR 11:00 PM ET; NBA Play of the Day, POTD)",
+    "raw_odds_cell": "-123",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:cappers[@alexcaruso].today[2]",
+      "raw_pick": "Robert Williams Under 6.5 Rebounds (OKC @ POR 11:00 PM ET; NBA Play of the Day, POTD)",
+      "raw_odds_cell": "-123",
+      "legacy_row": {
+       "sport": "NBA",
+       "prop": "NBA rebounds (under)",
+       "pick": "Robert Williams Under 6.5 Rebounds (OKC @ POR 11:00 PM ET; NBA Play of the Day, POTD)",
+       "odds": "-123",
+       "status": "Pending",
+       "legs": [],
+       "fam": "Rebounds",
+       "hr_sid": "4916497337152569761",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4916497337152569761",
+       "hr_live": "-135",
+       "hr_now": "-135",
+       "dk_sid": null,
+       "dk_link": null,
+       "res": "Pending",
+       "dk_why": "player/market not on DraftKings Predictions",
+       "dk_absent": true,
+       "bk_start": "2026-11-10T23:00-05:00"
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:cappers[@alexcaruso].today[2]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "VERIFIED",
+      "reason": "",
+      "sid": "4916497337152569761",
+      "event_id": null,
+      "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4916497337152569761",
+      "odds": null,
+      "fingerprint": "d090877374392c510712",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "audit_path": ".heist_original_links.items.original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668",
+      "absent": false,
+      "audit_verdict": "VERIFIED"
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: player/market not on DraftKings Predictions",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668",
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a": {
+    "original_id": "original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a",
+    "owner": "capper_original",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA pts+reb (over)",
+    "fam": "Pts+Reb",
+    "raw_pick": "Tristan Da Silva Over 17.5 Pts + Reb (ORL @ SAC 10:00 PM ET; NBA play)",
+    "raw_odds_cell": "-118",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:cappers[@alexcaruso].today[3]",
+      "raw_pick": "Tristan Da Silva Over 17.5 Pts + Reb (ORL @ SAC 10:00 PM ET; NBA play)",
+      "raw_odds_cell": "-118",
+      "legacy_row": {
+       "sport": "NBA",
+       "prop": "NBA pts+reb (over)",
+       "pick": "Tristan Da Silva Over 17.5 Pts + Reb (ORL @ SAC 10:00 PM ET; NBA play)",
+       "odds": "-118",
+       "status": "Pending",
+       "legs": [],
+       "fam": "Pts+Reb",
+       "hr_sid": "7037731075973579160",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7037731075973579160",
+       "hr_live": "-125",
+       "hr_now": "-125",
+       "dk_sid": null,
+       "dk_link": null,
+       "res": "Pending",
+       "dk_why": "player/market not on DraftKings Predictions",
+       "dk_absent": true,
+       "bk_start": "2026-11-10T22:00-05:00"
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:cappers[@alexcaruso].today[3]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "VERIFIED",
+      "reason": "",
+      "sid": "7037731075973579160",
+      "event_id": null,
+      "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7037731075973579160",
+      "odds": null,
+      "fingerprint": "a661a8f97f34655ca126",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "audit_path": ".heist_original_links.items.original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a",
+      "absent": false,
+      "audit_verdict": "VERIFIED"
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: player/market not on DraftKings Predictions",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a",
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7": {
+    "original_id": "original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7",
+    "owner": "capper_original",
+    "capper_id": "@austinsprops",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA 3PM (over)",
+    "fam": "3PM",
+    "raw_pick": "Deni Avdija 1.5 3PM “O” (OKC @ POR 11:00 PM ET; My First NBA Winner Today, My NBA Play Of The Day, POTD)",
+    "raw_odds_cell": "-128",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:cappers[@austinsprops].today[0]",
+      "raw_pick": "Deni Avdija 1.5 3PM “O” (OKC @ POR 11:00 PM ET; My First NBA Winner Today, My NBA Play Of The Day, POTD)",
+      "raw_odds_cell": "-128",
+      "legacy_row": {
+       "sport": "NBA",
+       "prop": "NBA 3PM (over)",
+       "pick": "Deni Avdija 1.5 3PM “O” (OKC @ POR 11:00 PM ET; My First NBA Winner Today, My NBA Play Of The Day, POTD)",
+       "odds": "-128",
+       "status": "Pending",
+       "legs": [],
+       "fam": "3PM",
+       "hr_sid": "2947263524950376852",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2947263524950376852",
+       "hr_live": "-145",
+       "hr_now": "-145",
+       "dk_sid": null,
+       "dk_link": null,
+       "res": "Pending",
+       "dk_why": "player/market not on DraftKings Predictions",
+       "dk_absent": true,
+       "bk_start": "2026-11-10T23:00-05:00"
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:cappers[@austinsprops].today[0]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "VERIFIED",
+      "reason": "",
+      "sid": "2947263524950376852",
+      "event_id": null,
+      "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2947263524950376852",
+      "odds": null,
+      "fingerprint": "e00141fece8bae5aa0ae",
+      "verified_at_et": "2026-11-10T13:14:51-05:00",
+      "audit_path": ".heist_original_links.items.original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7",
+      "absent": false,
+      "audit_verdict": "VERIFIED"
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: player/market not on DraftKings Predictions",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7",
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
    "original|v1|5dd204e9e6707dbbb600e309a6e2ac8d01293fdaa9c2218c8e7002399919749d": {
     "original_id": "original|v1|5dd204e9e6707dbbb600e309a6e2ac8d01293fdaa9c2218c8e7002399919749d",
     "owner": "capper_original",
@@ -183963,6 +185307,79 @@
       "fingerprint": null,
       "verified_at_et": null,
       "audit_path": ".heist_original_links.items.original|v1|5dd204e9e6707dbbb600e309a6e2ac8d01293fdaa9c2218c8e7002399919749d",
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
+   },
+   "original|v1|4a777186c004489d98ca55506dce9b6ae092b2488c560c2824ea2e2abb353ac7": {
+    "original_id": "original|v1|4a777186c004489d98ca55506dce9b6ae092b2488c560c2824ea2e2abb353ac7",
+    "owner": "capper_original",
+    "capper_id": "@panpotd",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "prop": "NBA points (over)",
+    "fam": "Player points",
+    "raw_pick": "Darius Garland o 21.5 Points (LAC @ PHX 9:00 PM ET; NBA Play Of The Day, POTD)",
+    "raw_odds_cell": "-115 FAN / -120 CZR / -120 MGM",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:cappers[@panpotd].today[1]",
+      "raw_pick": "Darius Garland o 21.5 Points (LAC @ PHX 9:00 PM ET; NBA Play Of The Day, POTD)",
+      "raw_odds_cell": "-115 FAN / -120 CZR / -120 MGM",
+      "legacy_row": {
+       "sport": "NBA",
+       "prop": "NBA points (over)",
+       "pick": "Darius Garland o 21.5 Points (LAC @ PHX 9:00 PM ET; NBA Play Of The Day, POTD)",
+       "odds": "-115 FAN / -120 CZR / -120 MGM",
+       "status": "Pending",
+       "legs": [],
+       "fam": "Player points",
+       "res": "Pending"
+      }
+     }
+    ],
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:cappers[@panpotd].today[1]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on HR: exact original line not verified",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|4a777186c004489d98ca55506dce9b6ae092b2488c560c2824ea2e2abb353ac7",
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: exact original line not verified",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": ".heist_original_links.items.original|v1|4a777186c004489d98ca55506dce9b6ae092b2488c560c2824ea2e2abb353ac7",
       "absent": false,
       "audit_verdict": null
      }
@@ -186380,6 +187797,46 @@
     "source_path": "inputs/00-data.json:results_v2.rows[1432]"
    },
    {
+    "original_id": "original|v1|34a8f005f07e555f491a540537e4cefb13429756f0b4070b182028bb33e3e1a3",
+    "source_path": "inputs/00-data.json:results_v2.rows[1433]"
+   },
+   {
+    "original_id": "original|v1|0a0a7394c91262ea29be67d7cebcfec0a88105297826354f5389f1ea98d2f62b",
+    "source_path": "inputs/00-data.json:results_v2.rows[1434]"
+   },
+   {
+    "original_id": "original|v1|22502955c7c10e9977284a45fd17948a444816dbb51e26c8b432054c2a8a3c41",
+    "source_path": "inputs/00-data.json:results_v2.rows[1435]"
+   },
+   {
+    "original_id": "original|v1|257bb6ca045265ed43ac103eb4746a4a73d2544d927c19fb4d6c52eaba19d1ac",
+    "source_path": "inputs/00-data.json:results_v2.rows[1436]"
+   },
+   {
+    "original_id": "original|v1|1e5d4d4a80cc07009073e3254c604148378e66f017b5f8a9802b05199a6c2f1e",
+    "source_path": "inputs/00-data.json:results_v2.rows[1437]"
+   },
+   {
+    "original_id": "original|v1|4ccc450d2b43c150b3e838d71ec95efbff8c7fd2eeff2d437206733361f773be",
+    "source_path": "inputs/00-data.json:results_v2.rows[1438]"
+   },
+   {
+    "original_id": "original|v1|f7a9c69b1f79379d4106273c4ab9df566f15d355caee85b8225403f2ba6873a4",
+    "source_path": "inputs/00-data.json:results_v2.rows[1439]"
+   },
+   {
+    "original_id": "original|v1|f230e01cb03b80af013f9b2d2be94608531d17cd6f3aee9db1013ae866cc9c41",
+    "source_path": "inputs/00-data.json:results_v2.rows[1440]"
+   },
+   {
+    "original_id": "original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82",
+    "source_path": "inputs/00-data.json:cappers[@actionnetworkhq].today[0]"
+   },
+   {
+    "original_id": "original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2",
+    "source_path": "inputs/00-data.json:cappers[@actionnetworkhq].today[1]"
+   },
+   {
     "original_id": "original|v1|e47f64428180742e0007b06c4e931b5e2259de8a5e56bc57f9c5586c8fb025cf",
     "source_path": "inputs/00-data.json:cappers[@colbymbets].today[0]"
    },
@@ -186440,8 +187897,32 @@
     "source_path": "inputs/00-data.json:cappers[@nickm_hockey].today[4]"
    },
    {
+    "original_id": "original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3",
+    "source_path": "inputs/00-data.json:cappers[@alexcaruso].today[0]"
+   },
+   {
+    "original_id": "original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4",
+    "source_path": "inputs/00-data.json:cappers[@alexcaruso].today[1]"
+   },
+   {
+    "original_id": "original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668",
+    "source_path": "inputs/00-data.json:cappers[@alexcaruso].today[2]"
+   },
+   {
+    "original_id": "original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a",
+    "source_path": "inputs/00-data.json:cappers[@alexcaruso].today[3]"
+   },
+   {
+    "original_id": "original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7",
+    "source_path": "inputs/00-data.json:cappers[@austinsprops].today[0]"
+   },
+   {
     "original_id": "original|v1|5dd204e9e6707dbbb600e309a6e2ac8d01293fdaa9c2218c8e7002399919749d",
     "source_path": "inputs/00-data.json:cappers[@panpotd].today[0]"
+   },
+   {
+    "original_id": "original|v1|4a777186c004489d98ca55506dce9b6ae092b2488c560c2824ea2e2abb353ac7",
+    "source_path": "inputs/00-data.json:cappers[@panpotd].today[1]"
    }
   ]
  },
@@ -210195,6 +211676,294 @@
      "price_source": "posted",
      "nu": false
     }
+   },
+   {
+    "record_id": "capper-record|v1|28d67a0f4b4847720395129b742d895edf7ee66d8434860f3ac9e9de17fb0e95",
+    "original_id": "original|v1|34a8f005f07e555f491a540537e4cefb13429756f0b4070b182028bb33e3e1a3",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "prop": "NBA rebounds (over)",
+    "fam": "Rebounds",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1433]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-10",
+     "sport": "NBA",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@alexcaruso · NBA rebounds (over)",
+     "fam": "Rebounds",
+     "pick": "Khaman Maluach Over 5.5 Rebounds",
+     "odds": "-148",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false
+    }
+   },
+   {
+    "record_id": "capper-record|v1|fc7bd4d8ff1f3aeb4fce478d0c7e5bc9bc73ba8989e2b25eef30bb70d7f8e1f6",
+    "original_id": "original|v1|0a0a7394c91262ea29be67d7cebcfec0a88105297826354f5389f1ea98d2f62b",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "prop": "NBA pts+reb (over)",
+    "fam": "Pts+Reb",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1434]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-10",
+     "sport": "NBA",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@alexcaruso · NBA pts+reb (over)",
+     "fam": "Pts+Reb",
+     "pick": "Tristan Da Silva Over 17.5 Pts + Reb",
+     "odds": "-118",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false
+    }
+   },
+   {
+    "record_id": "capper-record|v1|7241e66d42d3111df953b271043ae15ade61e532fcdf3d09d876b11991bc4ae4",
+    "original_id": "original|v1|22502955c7c10e9977284a45fd17948a444816dbb51e26c8b432054c2a8a3c41",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "prop": "NBA rebounds (under)",
+    "fam": "Rebounds",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1435]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-10",
+     "sport": "NBA",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@alexcaruso · NBA rebounds (under)",
+     "fam": "Rebounds",
+     "pick": "Robert Williams Under 6.5 Rebounds",
+     "odds": "-123",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false
+    }
+   },
+   {
+    "record_id": "capper-record|v1|e22a30686440cb865aebda44da5d0ae553eeaf31b6cb54c36f7fb13dd0d2d5be",
+    "original_id": "original|v1|257bb6ca045265ed43ac103eb4746a4a73d2544d927c19fb4d6c52eaba19d1ac",
+    "capper_id": "@alexcaruso",
+    "date": "2026-11-10",
+    "prop": "NBA points (over)",
+    "fam": "Player points",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1436]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-10",
+     "sport": "NBA",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@alexcaruso · NBA points (over)",
+     "fam": "Player points",
+     "pick": "Jaylen Brown Over 22.5 Points",
+     "odds": "-106",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false
+    }
+   },
+   {
+    "record_id": "capper-record|v1|940598189cc9c4a572433232f0e65945b3becba18206afd637c8cb4a890bcdc8",
+    "original_id": "original|v1|1e5d4d4a80cc07009073e3254c604148378e66f017b5f8a9802b05199a6c2f1e",
+    "capper_id": "@austinsprops",
+    "date": "2026-11-10",
+    "prop": "NBA 3PM (over)",
+    "fam": "3PM",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1437]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-10",
+     "sport": "NBA",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@austinsprops · NBA 3PM (over)",
+     "fam": "3PM",
+     "pick": "Deni Avdija 1.5 3PM “O”",
+     "odds": "-128",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false
+    }
+   },
+   {
+    "record_id": "capper-record|v1|29f6c5cca2ace03e579620eb711b748c8b8b35d7a3f8c0cbf8dd5624f8b5b507",
+    "original_id": "original|v1|4ccc450d2b43c150b3e838d71ec95efbff8c7fd2eeff2d437206733361f773be",
+    "capper_id": "@panpotd",
+    "date": "2026-11-10",
+    "prop": "NBA points (over)",
+    "fam": "Player points",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1438]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-10",
+     "sport": "NBA",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@panpotd · NBA points (over)",
+     "fam": "Player points",
+     "pick": "Darius Garland o 21.5 Points",
+     "odds": "-115",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false
+    }
+   },
+   {
+    "record_id": "capper-record|v1|174ac4035153a182d5cf2a8a8b058f2d3f426cae7dca2f9ae25920cf34037993",
+    "original_id": "original|v1|f7a9c69b1f79379d4106273c4ab9df566f15d355caee85b8225403f2ba6873a4",
+    "capper_id": "@actionnetworkhq",
+    "date": "2026-11-10",
+    "prop": "NCAAF ML",
+    "fam": "ML",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1439]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-10",
+     "sport": "NCAAF",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@actionnetworkhq · NCAAF ML",
+     "fam": "ML",
+     "pick": "Ohio Bobcats ML vs Miami (OH) RedHawks",
+     "odds": "-111",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false
+    }
+   },
+   {
+    "record_id": "capper-record|v1|930bae2520b2c28f7574a77935303836ed718909c36d9d1115cdcf8fdf29f189",
+    "original_id": "original|v1|f230e01cb03b80af013f9b2d2be94608531d17cd6f3aee9db1013ae866cc9c41",
+    "capper_id": "@actionnetworkhq",
+    "date": "2026-11-10",
+    "prop": "NCAAM spread",
+    "fam": "Spread",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "Pending",
+     "detail": "",
+     "reason": "Retained legacy unresolved state; source verification not performed in staging",
+     "evidence": "inputs/00-data.json:results_v2.rows[1440]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-10",
+     "sport": "NCAAM",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@actionnetworkhq · NCAAM spread",
+     "fam": "Spread",
+     "pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini",
+     "odds": "-120",
+     "res": "",
+     "stat": "",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false
+    }
    }
   ],
   "capper_tree": [
@@ -210205,11 +211974,41 @@
      "L": 4,
      "P": 0,
      "Void": 0,
-     "Pending": 0,
+     "Pending": 2,
      "Unavailable": 0,
-     "rows": 5
+     "rows": 7
     },
     "props": [
+     {
+      "prop_id": "prop|v1|5edd2fd27801605d11095e5e6d664eb4fe4e16845c7883ace9160d19320d5358",
+      "prop": "NCAAF ML",
+      "totals": {
+       "W": 0,
+       "L": 0,
+       "P": 0,
+       "Void": 0,
+       "Pending": 1,
+       "Unavailable": 0,
+       "rows": 1
+      },
+      "days": [
+       {
+        "date": "2026-11-10",
+        "record_ids": [
+         "capper-record|v1|174ac4035153a182d5cf2a8a8b058f2d3f426cae7dca2f9ae25920cf34037993"
+        ],
+        "totals": {
+         "W": 0,
+         "L": 0,
+         "P": 0,
+         "Void": 0,
+         "Pending": 1,
+         "Unavailable": 0,
+         "rows": 1
+        }
+       }
+      ]
+     },
      {
       "prop_id": "prop|v1|007b6de584b11b36fbd2b2a63e698a8e24185004302cb7e0e3995e151be737c3",
       "prop": "NCAAF game total (under)",
@@ -210309,11 +212108,26 @@
        "L": 0,
        "P": 0,
        "Void": 0,
-       "Pending": 0,
+       "Pending": 1,
        "Unavailable": 0,
-       "rows": 1
+       "rows": 2
       },
       "days": [
+       {
+        "date": "2026-11-10",
+        "record_ids": [
+         "capper-record|v1|930bae2520b2c28f7574a77935303836ed718909c36d9d1115cdcf8fdf29f189"
+        ],
+        "totals": {
+         "W": 0,
+         "L": 0,
+         "P": 0,
+         "Void": 0,
+         "Pending": 1,
+         "Unavailable": 0,
+         "rows": 1
+        }
+       },
        {
         "date": "2026-11-06",
         "record_ids": [
@@ -212999,9 +214813,9 @@
      "L": 53,
      "P": 0,
      "Void": 6,
-     "Pending": 0,
+     "Pending": 4,
      "Unavailable": 0,
-     "rows": 137
+     "rows": 141
     },
     "props": [
      {
@@ -213449,11 +215263,26 @@
        "L": 6,
        "P": 0,
        "Void": 0,
-       "Pending": 0,
+       "Pending": 1,
        "Unavailable": 0,
-       "rows": 25
+       "rows": 26
       },
       "days": [
+       {
+        "date": "2026-11-10",
+        "record_ids": [
+         "capper-record|v1|e22a30686440cb865aebda44da5d0ae553eeaf31b6cb54c36f7fb13dd0d2d5be"
+        ],
+        "totals": {
+         "W": 0,
+         "L": 0,
+         "P": 0,
+         "Void": 0,
+         "Pending": 1,
+         "Unavailable": 0,
+         "rows": 1
+        }
+       },
        {
         "date": "2026-11-07",
         "record_ids": [
@@ -213761,11 +215590,26 @@
        "L": 0,
        "P": 0,
        "Void": 0,
-       "Pending": 0,
+       "Pending": 1,
        "Unavailable": 0,
-       "rows": 2
+       "rows": 3
       },
       "days": [
+       {
+        "date": "2026-11-10",
+        "record_ids": [
+         "capper-record|v1|fc7bd4d8ff1f3aeb4fce478d0c7e5bc9bc73ba8989e2b25eef30bb70d7f8e1f6"
+        ],
+        "totals": {
+         "W": 0,
+         "L": 0,
+         "P": 0,
+         "Void": 0,
+         "Pending": 1,
+         "Unavailable": 0,
+         "rows": 1
+        }
+       },
        {
         "date": "2026-10-27",
         "record_ids": [
@@ -213836,11 +215680,26 @@
        "L": 4,
        "P": 0,
        "Void": 1,
-       "Pending": 0,
+       "Pending": 1,
        "Unavailable": 0,
-       "rows": 14
+       "rows": 15
       },
       "days": [
+       {
+        "date": "2026-11-10",
+        "record_ids": [
+         "capper-record|v1|28d67a0f4b4847720395129b742d895edf7ee66d8434860f3ac9e9de17fb0e95"
+        ],
+        "totals": {
+         "W": 0,
+         "L": 0,
+         "P": 0,
+         "Void": 0,
+         "Pending": 1,
+         "Unavailable": 0,
+         "rows": 1
+        }
+       },
        {
         "date": "2026-11-09",
         "record_ids": [
@@ -213977,11 +215836,26 @@
        "L": 1,
        "P": 0,
        "Void": 1,
-       "Pending": 0,
+       "Pending": 1,
        "Unavailable": 0,
-       "rows": 4
+       "rows": 5
       },
       "days": [
+       {
+        "date": "2026-11-10",
+        "record_ids": [
+         "capper-record|v1|7241e66d42d3111df953b271043ae15ade61e532fcdf3d09d876b11991bc4ae4"
+        ],
+        "totals": {
+         "W": 0,
+         "L": 0,
+         "P": 0,
+         "Void": 0,
+         "Pending": 1,
+         "Unavailable": 0,
+         "rows": 1
+        }
+       },
        {
         "date": "2026-11-09",
         "record_ids": [
@@ -215269,9 +217143,9 @@
      "L": 57,
      "P": 0,
      "Void": 2,
-     "Pending": 0,
+     "Pending": 1,
      "Unavailable": 0,
-     "rows": 115
+     "rows": 116
     },
     "props": [
      {
@@ -215342,11 +217216,26 @@
        "L": 4,
        "P": 0,
        "Void": 0,
-       "Pending": 0,
+       "Pending": 1,
        "Unavailable": 0,
-       "rows": 15
+       "rows": 16
       },
       "days": [
+       {
+        "date": "2026-11-10",
+        "record_ids": [
+         "capper-record|v1|940598189cc9c4a572433232f0e65945b3becba18206afd637c8cb4a890bcdc8"
+        ],
+        "totals": {
+         "W": 0,
+         "L": 0,
+         "P": 0,
+         "Void": 0,
+         "Pending": 1,
+         "Unavailable": 0,
+         "rows": 1
+        }
+       },
        {
         "date": "2026-11-09",
         "record_ids": [
@@ -217235,9 +219124,9 @@
      "L": 43,
      "P": 0,
      "Void": 1,
-     "Pending": 1,
+     "Pending": 2,
      "Unavailable": 0,
-     "rows": 83
+     "rows": 84
     },
     "props": [
      {
@@ -217520,24 +219409,25 @@
        "L": 8,
        "P": 0,
        "Void": 0,
-       "Pending": 1,
+       "Pending": 2,
        "Unavailable": 0,
-       "rows": 16
+       "rows": 17
       },
       "days": [
        {
         "date": "2026-11-10",
         "record_ids": [
-         "capper-record|v1|168783fd45eb5d2b7512cfa9a5d4d34b5175ed42ffba5a2b6b37de4f10000463"
+         "capper-record|v1|168783fd45eb5d2b7512cfa9a5d4d34b5175ed42ffba5a2b6b37de4f10000463",
+         "capper-record|v1|29f6c5cca2ace03e579620eb711b748c8b8b35d7a3f8c0cbf8dd5624f8b5b507"
         ],
         "totals": {
          "W": 0,
          "L": 0,
          "P": 0,
          "Void": 0,
-         "Pending": 1,
+         "Pending": 2,
          "Unavailable": 0,
-         "rows": 1
+         "rows": 2
         }
        },
        {
@@ -220284,9 +222174,9 @@
    "L": 266,
    "P": 3,
    "Void": 10,
-   "Pending": 16,
+   "Pending": 24,
    "Unavailable": 0,
-   "rows": 602
+   "rows": 610
   }
  },
  "heist_pooled_originals": {
@@ -223718,8 +225608,8 @@
     "owner": "personal",
     "product": "heist_alt",
     "date": "2026-11-10",
-    "pick": "Ajay Mitchell 15+ Points",
-    "odds_raw": "-350",
+    "pick": "Ajay Mitchell 16+ Points",
+    "odds_raw": "-275",
     "sport": "NBA",
     "game": "OKC @ POR",
     "origin_original_ids": [
@@ -223729,7 +225619,7 @@
     "origin_capper_id": "@panpotd",
     "origin_pick_raw": "Ajay Mitchell o 19.5 Points (OKC @ POR 11:00 PM ET; NBA Tuesday Free Prop)",
     "conversion_changed": true,
-    "conversion_selection_id": "7599266384205447570",
+    "conversion_selection_id": "3923343925852635551",
     "migration_state": "new_personal",
     "selected_at_et": "2026-11-10T10:21:45-05:00",
     "start_time_et": "2026-11-10T23:00:00-05:00",
@@ -223773,7 +225663,44 @@
     "counting": {
      "scope": "personal_heist_alt",
      "enabled": true
-    }
+    },
+    "conversion_history": [
+     {
+      "pick": "Ajay Mitchell 15+ Points",
+      "odds_raw": "-350",
+      "books": {
+       "hr": {
+        "state": "UNVERIFIED",
+        "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+        "sid": null,
+        "event_id": null,
+        "url": null,
+        "odds": null,
+        "fingerprint": null,
+        "verified_at_et": null,
+        "audit_path": null,
+        "absent": false,
+        "audit_verdict": null
+       },
+       "dk": {
+        "state": "UNVERIFIED",
+        "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+        "sid": null,
+        "event_id": null,
+        "url": null,
+        "odds": null,
+        "fingerprint": null,
+        "verified_at_et": null,
+        "audit_path": null,
+        "absent": false,
+        "audit_verdict": null
+       }
+      },
+      "selected_at_et": "2026-11-10T10:21:45-05:00",
+      "conversion_selection_id": "7599266384205447570"
+     }
+    ],
+    "corrected_at_et": "2026-11-10T12:13:46-05:00"
    }
   },
   "active_totals": {
@@ -223854,6 +225781,56 @@
  },
  "heist_original_links": {
   "items": {
+   "original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82": {
+    "original_id": "original|v1|1193679312152fb80fb7fc2b2f66d0e6522fb05181b9e62e7e875535a2198b82",
+    "pick": "Ohio Bobcats ML vs Miami (OH) RedHawks (OHIO @ M-OH 8:00 PM ET; via @roadtocfb; HQ post 2120172152041152942)",
+    "date": "2026-11-10",
+    "sport": "NCAAF",
+    "game": "",
+    "hr_sid": "7676445938405212568",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7676445938405212568",
+    "hr_absent": null,
+    "dk_why": "unverified: DK event id not in the fresh league feed",
+    "bk_start": "2026-11-10T20:00:00-05:00",
+    "bk_start_src": "espn teams",
+    "link_status": "linked",
+    "link_reason": "",
+    "link_books": {
+     "hr": {
+      "status": "linked",
+      "reason": ""
+     },
+     "dk": {
+      "status": "lookup_failed",
+      "reason": "unverified link"
+     }
+    }
+   },
+   "original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2": {
+    "original_id": "original|v1|d480fb5736b060f054ded9ba805edf3823a6c95e9c5aae3d40cc5529b10540f2",
+    "pick": "Texas Tech Red Raiders +1.5 vs Illinois Fighting Illini (ILL @ TTU 8:00 PM ET; via @charliedisturco; HQ post 2120166782539358216)",
+    "date": "2026-11-10",
+    "sport": "NCAAM",
+    "game": "",
+    "hr_sid": "4828537722935312787",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4828537722935312787",
+    "hr_absent": null,
+    "dk_why": "unverified: DK event id not in the fresh league feed",
+    "bk_start": "2026-11-10T20:00:00-05:00",
+    "bk_start_src": "espn teams",
+    "link_status": "linked",
+    "link_reason": "",
+    "link_books": {
+     "hr": {
+      "status": "linked",
+      "reason": ""
+     },
+     "dk": {
+      "status": "lookup_failed",
+      "reason": "unverified link"
+     }
+    }
+   },
    "original|v1|e47f64428180742e0007b06c4e931b5e2259de8a5e56bc57f9c5586c8fb025cf": {
     "original_id": "original|v1|e47f64428180742e0007b06c4e931b5e2259de8a5e56bc57f9c5586c8fb025cf",
     "pick": "Illinois Fighting Illini ML (ILL @ TTU 8:00 PM ET; Action Network pick 566861840, 1.25u)",
@@ -223862,12 +225839,8 @@
     "game": "",
     "hr_sid": "2369572326391022002",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2369572326391022002",
-    "dk_sid": null,
-    "dk_eid": "34987165",
-    "dk_link": null,
     "hr_absent": null,
-    "dk_absent": false,
-    "dk_why": "Unverified link: unverified: DK event id not in the fresh league feed",
+    "dk_why": "unverified: DK event id not in the fresh league feed",
     "bk_start": "2026-11-10T20:00:00-05:00",
     "bk_start_src": "espn teams",
     "link_status": "linked",
@@ -224229,6 +226202,131 @@
      }
     }
    },
+   "original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3": {
+    "original_id": "original|v1|8359aafb2d45afea20b8c1fd24640d47845b372a1d7e8fad3c378f72b04e27a3",
+    "pick": "Jaylen Brown Over 22.5 Points (BOS @ PHI 8:00 PM ET; NBA play)",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "game": "",
+    "hr_sid": "1102369351645921669",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1102369351645921669",
+    "hr_absent": null,
+    "dk_why": "player/market not on DraftKings Predictions",
+    "bk_start": "2026-11-10T20:00:00-05:00",
+    "bk_start_src": "espn teams",
+    "link_status": "linked",
+    "link_reason": "",
+    "link_books": {
+     "hr": {
+      "status": "linked",
+      "reason": ""
+     },
+     "dk": {
+      "status": "not_offered",
+      "reason": "not offered at DK"
+     }
+    }
+   },
+   "original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4": {
+    "original_id": "original|v1|5df05d389fb9e5ea6a26fecd31aaf27846a322a1b4e62e2239a628f39593bbe4",
+    "pick": "Khaman Maluach Over 5.5 Rebounds (LAC @ PHX 9:00 PM ET; NBA play)",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "game": "",
+    "hr_sid": "5883564108160303525",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5883564108160303525",
+    "hr_absent": null,
+    "dk_why": "player/market not on DraftKings Predictions",
+    "bk_start": "2026-11-10T21:00:00-05:00",
+    "bk_start_src": "espn teams",
+    "link_status": "linked",
+    "link_reason": "",
+    "link_books": {
+     "hr": {
+      "status": "linked",
+      "reason": ""
+     },
+     "dk": {
+      "status": "not_offered",
+      "reason": "not offered at DK"
+     }
+    }
+   },
+   "original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668": {
+    "original_id": "original|v1|c7821445ebf789b143096ed8740488c16413bdc3ed03aed71530194d422d4668",
+    "pick": "Robert Williams Under 6.5 Rebounds (OKC @ POR 11:00 PM ET; NBA Play of the Day, POTD)",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "game": "",
+    "hr_sid": "4916497337152569761",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4916497337152569761",
+    "hr_absent": null,
+    "dk_why": "player/market not on DraftKings Predictions",
+    "bk_start": "2026-11-10T23:00:00-05:00",
+    "bk_start_src": "espn teams",
+    "link_status": "linked",
+    "link_reason": "",
+    "link_books": {
+     "hr": {
+      "status": "linked",
+      "reason": ""
+     },
+     "dk": {
+      "status": "not_offered",
+      "reason": "not offered at DK"
+     }
+    }
+   },
+   "original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a": {
+    "original_id": "original|v1|98dc7fefd17b58306c49f99f54c41624fb23d8b741a21d9a363fad09207e319a",
+    "pick": "Tristan Da Silva Over 17.5 Pts + Reb (ORL @ SAC 10:00 PM ET; NBA play)",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "game": "",
+    "hr_sid": "7037731075973579160",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7037731075973579160",
+    "hr_absent": null,
+    "dk_why": "player/market not on DraftKings Predictions",
+    "bk_start": "2026-11-10T22:00:00-05:00",
+    "bk_start_src": "espn teams",
+    "link_status": "linked",
+    "link_reason": "",
+    "link_books": {
+     "hr": {
+      "status": "linked",
+      "reason": ""
+     },
+     "dk": {
+      "status": "not_offered",
+      "reason": "not offered at DK"
+     }
+    }
+   },
+   "original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7": {
+    "original_id": "original|v1|21a0a452461bd0d28870f4674e001a9d894cec85a1062733aa49fc674c4db2e7",
+    "pick": "Deni Avdija 1.5 3PM “O” (OKC @ POR 11:00 PM ET; My First NBA Winner Today, My NBA Play Of The Day, POTD)",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "game": "",
+    "hr_sid": "2947263524950376852",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2947263524950376852",
+    "hr_absent": null,
+    "dk_why": "player/market not on DraftKings Predictions",
+    "bk_start": "2026-11-10T23:00:00-05:00",
+    "bk_start_src": "espn teams",
+    "link_status": "linked",
+    "link_reason": "",
+    "link_books": {
+     "hr": {
+      "status": "linked",
+      "reason": ""
+     },
+     "dk": {
+      "status": "not_offered",
+      "reason": "not offered at DK"
+     }
+    }
+   },
    "original|v1|5dd204e9e6707dbbb600e309a6e2ac8d01293fdaa9c2218c8e7002399919749d": {
     "original_id": "original|v1|5dd204e9e6707dbbb600e309a6e2ac8d01293fdaa9c2218c8e7002399919749d",
     "pick": "Ajay Mitchell o 19.5 Points (OKC @ POR 11:00 PM ET; NBA Tuesday Free Prop)",
@@ -224238,6 +226336,29 @@
     "hr_why": "exact original line not verified",
     "dk_why": "exact original line not verified",
     "bk_start": "2026-11-10T23:00:00-05:00",
+    "bk_start_src": "espn teams",
+    "link_status": "lookup_failed",
+    "link_reason": "other: exact original line not verified",
+    "link_books": {
+     "hr": {
+      "status": "lookup_failed",
+      "reason": "other: exact original line not verified"
+     },
+     "dk": {
+      "status": "lookup_failed",
+      "reason": "other: exact original line not verified"
+     }
+    }
+   },
+   "original|v1|4a777186c004489d98ca55506dce9b6ae092b2488c560c2824ea2e2abb353ac7": {
+    "original_id": "original|v1|4a777186c004489d98ca55506dce9b6ae092b2488c560c2824ea2e2abb353ac7",
+    "pick": "Darius Garland o 21.5 Points (LAC @ PHX 9:00 PM ET; NBA Play Of The Day, POTD)",
+    "date": "2026-11-10",
+    "sport": "NBA",
+    "game": "",
+    "hr_why": "exact original line not verified",
+    "dk_why": "exact original line not verified",
+    "bk_start": "2026-11-10T21:00:00-05:00",
     "bk_start_src": "espn teams",
     "link_status": "lookup_failed",
     "link_reason": "other: exact original line not verified",
@@ -225644,7 +227765,7 @@
   "ok": true,
   "problems": [],
   "warnings": [],
-  "checked_et": "2026-11-10 12:12 PM ET"
+  "checked_et": "2026-11-10 01:12 PM ET"
  },
  "capper_audit_hold": "Capper/HEIST data held at 2026-11-10 10:47 ET (self-audit failed; see logs/capper_audit_2026-11-10.txt)",
  "heist_straight_record": {
