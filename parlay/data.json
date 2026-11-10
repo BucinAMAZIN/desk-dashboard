@@ -519,18 +519,18 @@
          ]
         ]
        },
-       "hr_sid": "5582422121463808414",
-       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5582422121463808414",
+       "hr_sid": null,
+       "hr_link": null,
        "hr_live": {
-        "label": "Live HR price -350 as of 19:26 ET (game started; posted odds unchanged)",
-        "price": "-350",
-        "at": "2026-11-09T19:26:09-05:00",
+        "label": "Live HR price -300 as of 19:37 ET (game started; posted odds unchanged)",
+        "price": "-300",
+        "at": "2026-11-09T19:37:01-05:00",
         "paused": false
        },
        "hr_live_label": {
-        "label": "Live HR price -350 as of 19:26 ET (game started; posted odds unchanged)",
-        "price": "-350",
-        "at": "2026-11-09T19:26:09-05:00",
+        "label": "Live HR price -300 as of 19:37 ET (game started; posted odds unchanged)",
+        "price": "-300",
+        "at": "2026-11-09T19:37:01-05:00",
         "paused": false
        },
        "hr_now": "-400",
@@ -541,27 +541,32 @@
        "bk_started": true,
        "bk_started_why": "game started",
        "bk_start": "2026-11-09T19:00-05:00",
-       "link_status": "linked",
-       "link_reason": "",
+       "link_status": "started",
+       "link_reason": "game started",
        "link_books": {
         "hr": {
-         "status": "linked",
-         "reason": ""
+         "status": "started",
+         "reason": "game started"
         },
         "dk": {
          "status": "started",
          "reason": "game started"
         }
-       }
+       },
+       "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+       "hr_absent": false
       }
      ],
      "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
      "sport": "NBA",
      "dk_odds": "-123",
      "hr_ticket": {
-      "n": 2,
+      "n": 1,
       "of": 2,
-      "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2580584527057519018,5582422121463808414"
+      "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2580584527057519018",
+      "unverified": [
+       "5582422121463808414"
+      ]
      }
     }
    },
@@ -9835,8 +9840,8 @@
      "status": "Pending",
      "legs": [],
      "fam": "Spread",
-     "hr_sid": "4800673301190017452",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4800673301190017452",
+     "hr_sid": null,
+     "hr_link": null,
      "hr_live": {
       "label": "Live HR price +210 as of 19:26 ET (game started; posted odds unchanged)",
       "price": "+210",
@@ -9857,18 +9862,20 @@
      "bk_start": "2026-11-09T19:00-05:00",
      "bk_started": true,
      "bk_started_why": "game started",
-     "link_status": "linked",
-     "link_reason": "",
+     "link_status": "started",
+     "link_reason": "game started",
      "link_books": {
       "hr": {
-       "status": "linked",
-       "reason": ""
+       "status": "started",
+       "reason": "game started"
       },
       "dk": {
        "status": "started",
        "reason": "game started"
       }
-     }
+     },
+     "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+     "hr_absent": false
     },
     {
      "sport": "NCAAM",
@@ -10098,8 +10105,8 @@
      "status": "Pending",
      "legs": [],
      "fam": "SOG",
-     "hr_sid": "2940418765090849155",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2940418765090849155",
+     "hr_sid": null,
+     "hr_link": null,
      "hr_live": "+145",
      "hr_now": "+145",
      "dk_sid": "0QA387546346#2357712341_13L42133Q1-30571947Q20",
@@ -10115,14 +10122,16 @@
      "link_reason": "",
      "link_books": {
       "hr": {
-       "status": "linked",
-       "reason": ""
+       "status": "lookup_failed",
+       "reason": "unverified link"
       },
       "dk": {
        "status": "linked",
        "reason": ""
       }
-     }
+     },
+     "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+     "hr_absent": false
     },
     {
      "sport": "NHL",
@@ -11461,11 +11470,16 @@
      "fam": "Rebounds",
      "hr_sid": "2156232632480956837",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2156232632480956837",
-     "hr_live": "-130",
+     "hr_live": {
+      "label": "Live HR price +155 as of 19:54 ET (game started; posted odds unchanged)",
+      "price": "+155",
+      "at": "2026-11-09T19:54:45-05:00",
+      "paused": false
+     },
      "hr_now": "-130",
-     "dk_sid": "0QA387512197#2357559294_13L42648Q1-1802214231Q20",
+     "dk_sid": null,
      "dk_eid": "34978850",
-     "dk_link": "https://sportsbook.draftkings.com/event/34978850?outcomes=0QA387512197%232357559294_13L42648Q1-1802214231Q20",
+     "dk_link": null,
      "dk_live": "-133",
      "bk_start": "2026-11-09T19:30-05:00",
      "game": "MEM @ TOR",
@@ -11480,10 +11494,18 @@
        "reason": ""
       },
       "dk": {
-       "status": "linked",
-       "reason": ""
+       "status": "started",
+       "reason": "game started"
       }
-     }
+     },
+     "hr_live_label": {
+      "label": "Live HR price +155 as of 19:54 ET (game started; posted odds unchanged)",
+      "price": "+155",
+      "at": "2026-11-09T19:54:45-05:00",
+      "paused": false
+     },
+     "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+     "dk_absent": false
     },
     {
      "sport": "NBA",
@@ -12414,15 +12436,15 @@
      "hr_sid": "7121062191035449743",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7121062191035449743",
      "hr_live": {
-      "label": "Live HR price +175 as of 19:26 ET (game started; posted odds unchanged)",
-      "price": "+175",
-      "at": "2026-11-09T19:26:09-05:00",
+      "label": "Live HR price -165 as of 19:54 ET (game started; posted odds unchanged)",
+      "price": "-165",
+      "at": "2026-11-09T19:54:45-05:00",
       "paused": false
      },
      "hr_live_label": {
-      "label": "Live HR price +175 as of 19:26 ET (game started; posted odds unchanged)",
-      "price": "+175",
-      "at": "2026-11-09T19:26:09-05:00",
+      "label": "Live HR price -165 as of 19:54 ET (game started; posted odds unchanged)",
+      "price": "-165",
+      "at": "2026-11-09T19:54:45-05:00",
       "paused": false
      },
      "hr_now": "+175",
@@ -28155,18 +28177,18 @@
         ]
        ]
       },
-      "hr_sid": "4429564718170112423",
-      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4429564718170112423",
+      "hr_sid": null,
+      "hr_link": null,
       "hr_live": {
-       "label": "Live HR price -130 as of 19:26 ET (game started; posted odds unchanged)",
-       "price": "-130",
-       "at": "2026-11-09T19:26:09-05:00",
+       "label": "Live HR price -575 as of 19:47 ET (game started; posted odds unchanged)",
+       "price": "-575",
+       "at": "2026-11-09T19:47:35-05:00",
        "paused": false
       },
       "hr_live_label": {
-       "label": "Live HR price -130 as of 19:26 ET (game started; posted odds unchanged)",
-       "price": "-130",
-       "at": "2026-11-09T19:26:09-05:00",
+       "label": "Live HR price -575 as of 19:47 ET (game started; posted odds unchanged)",
+       "price": "-575",
+       "at": "2026-11-09T19:47:35-05:00",
        "paused": false
       },
       "hr_now": "-140",
@@ -28177,18 +28199,20 @@
       "bk_started": true,
       "bk_started_why": "game started",
       "bk_start": "2026-11-09T19:00-05:00",
-      "link_status": "linked",
-      "link_reason": "",
+      "link_status": "started",
+      "link_reason": "game started",
       "link_books": {
        "hr": {
-        "status": "linked",
-        "reason": ""
+        "status": "started",
+        "reason": "game started"
        },
        "dk": {
         "status": "started",
         "reason": "game started"
        }
-      }
+      },
+      "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+      "hr_absent": false
      },
      {
       "pick": "P.J. Washington 2+ 3PM",
@@ -28349,9 +28373,12 @@
     },
     "dk_odds": "+203",
     "hr_ticket": {
-     "n": 3,
+     "n": 2,
      "of": 3,
-     "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7468747121934598578,4429564718170112423,7880456745915646340"
+     "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7468747121934598578,7880456745915646340",
+     "unverified": [
+      "4429564718170112423"
+     ]
     }
    }
   },
@@ -35819,11 +35846,16 @@
     },
     "hr_sid": "7409470491576107412",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7409470491576107412",
-    "hr_live": "-140",
+    "hr_live": {
+     "label": "Live HR price -150 as of 19:54 ET (game started; posted odds unchanged)",
+     "price": "-150",
+     "at": "2026-11-09T19:54:45-05:00",
+     "paused": false
+    },
     "hr_now": "-140",
-    "dk_sid": "0QA387512184#2357558999_13L42648Q1-1279241849Q20",
+    "dk_sid": null,
     "dk_eid": "34978850",
-    "dk_link": "https://sportsbook.draftkings.com/event/34978850?outcomes=0QA387512184%232357558999_13L42648Q1-1279241849Q20",
+    "dk_link": null,
     "dk_live": "-144",
     "bk_start": "2026-11-09T19:30-05:00",
     "link_status": "linked",
@@ -35834,10 +35866,18 @@
       "reason": ""
      },
      "dk": {
-      "status": "linked",
-      "reason": ""
+      "status": "started",
+      "reason": "game started"
      }
-    }
+    },
+    "hr_live_label": {
+     "label": "Live HR price -150 as of 19:54 ET (game started; posted odds unchanged)",
+     "price": "-150",
+     "at": "2026-11-09T19:54:45-05:00",
+     "paused": false
+    },
+    "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+    "dk_absent": false
    },
    {
     "sport": "NFL",
@@ -71097,35 +71137,52 @@
     "odds": "-120",
     "game": "LAL @ ATL",
     "kick": "7:00 PM ET",
-    "started": true,
+    "started": false,
     "final": false,
-    "frozen": true,
-    "hr": "original line kept · no buy-down in range (no HR alt in -250..-425)",
-    "dk": "n/a at DK (no exact DK line at the original line)",
-    "hr_odds": null,
-    "dk_odds": null,
+    "frozen": false,
+    "hr": "30+ -350",
+    "dk": "30+ -400",
+    "hr_odds": -350,
+    "dk_odds": -400,
     "start": "2026-11-09 19:00",
-    "hr_pick": "Luka Doncic u34.5 Points",
-    "dk_pick": null,
-    "trk": "Luka Doncic u34.5 Points",
-    "grade_odds": -120,
+    "hr_pick": "Luka Doncic 30+ Points",
+    "dk_pick": "Luka Doncic 30+ Points",
+    "trk": "Luka Doncic 30+ Points",
+    "grade_odds": -350,
     "hr_x": null,
-    "bd_flag": "no buy-down in range",
+    "bd_flag": null,
     "excluded": null,
-    "res": "",
-    "stat": "",
-    "uu": null,
-    "graded_line": "Luka Doncic 30+ Points",
-    "graded_odds": "-350",
-    "bd": false,
     "straight": true,
     "stake": "1u",
-    "straight_odds": "-120",
+    "straight_odds": "-350",
     "straight_res": "",
     "straight_stat": "",
     "straight_units": null,
     "straight_recorded": true,
-    "straight_counted": true
+    "straight_counted": true,
+    "hr_sid": "4542391942446711191",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4542391942446711191",
+    "hr_live": {
+     "label": "Live HR price -160 as of 19:54 ET (game started; posted odds unchanged)",
+     "price": "-160",
+     "at": "2026-11-09T19:54:45-05:00",
+     "paused": false
+    },
+    "hr_absent": null,
+    "hr_fp": "3dda040f0585c13fe482",
+    "over_switch": {
+     "rule": "RULEBOOK §31.13 underswap1109",
+     "capper_line": "u34.5",
+     "over": "o29.5",
+     "over_odds": -350,
+     "source": "capper_over_switch (Line Bot verified)"
+    },
+    "hr_live_label": {
+     "label": "Live HR price -160 as of 19:54 ET (game started; posted odds unchanged)",
+     "price": "-160",
+     "at": "2026-11-09T19:54:45-05:00",
+     "paused": false
+    }
    },
    {
     "capper": "@alexcaruso",
@@ -71181,27 +71238,27 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "4+ -400",
+    "hr": "4+ -425",
     "dk": "4+ -426",
-    "hr_odds": -400,
+    "hr_odds": -425,
     "dk_odds": -426,
     "start": "2026-11-09 21:00",
     "hr_pick": "Khaman Maluach 4+ Rebounds",
     "dk_pick": "Khaman Maluach 4+ Rebounds",
     "trk": "Khaman Maluach 4+ Rebounds",
-    "grade_odds": -400,
+    "grade_odds": -425,
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
     "bd": true,
     "hr_sid": "6069125801106866584",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6069125801106866584",
-    "hr_live": "-400",
+    "hr_live": "-425",
     "hr_absent": null,
     "hr_fp": "64f37dcc65f5865d2508",
     "straight": true,
     "stake": "1u",
-    "straight_odds": "-400",
+    "straight_odds": "-425",
     "straight_res": "",
     "straight_stat": "",
     "straight_units": null,
@@ -71398,27 +71455,27 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "9+ -260",
+    "hr": "9+ -275",
     "dk": "n/a at DK (no exact DK line at HR rung 9+)",
-    "hr_odds": -260,
+    "hr_odds": -275,
     "dk_odds": null,
     "start": "2026-11-09 20:00",
     "hr_pick": "Ivica Zubac 9+ Pts",
     "dk_pick": null,
     "trk": "Ivica Zubac 9+ Pts",
-    "grade_odds": -260,
+    "grade_odds": -275,
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
     "bd": true,
     "hr_sid": "5889456949990392237",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5889456949990392237",
-    "hr_live": "-260",
+    "hr_live": "-275",
     "hr_absent": null,
     "hr_fp": "f429af27da2e90e3b5b8",
     "straight": true,
     "stake": "1u",
-    "straight_odds": "-260",
+    "straight_odds": "-275",
     "straight_res": "",
     "straight_stat": "",
     "straight_units": null,
@@ -71447,20 +71504,30 @@
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
-    "bd": true,
-    "hr_sid": "7335935153910448549",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7335935153910448549",
-    "hr_live": "-375",
-    "hr_absent": null,
-    "hr_fp": "82c4944802f0e97e26fd",
     "straight": true,
     "stake": "1u",
     "straight_odds": "-375",
     "straight_res": "",
     "straight_stat": "",
     "straight_units": null,
-    "straight_recorded": false,
-    "straight_counted": false
+    "straight_recorded": true,
+    "straight_counted": true,
+    "hr_sid": "7335935153910448549",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7335935153910448549",
+    "hr_live": {
+     "label": "Live HR price -195 as of 19:54 ET (game started; posted odds unchanged)",
+     "price": "-195",
+     "at": "2026-11-09T19:54:45-05:00",
+     "paused": false
+    },
+    "hr_absent": null,
+    "hr_fp": "82c4944802f0e97e26fd",
+    "hr_live_label": {
+     "label": "Live HR price -195 as of 19:54 ET (game started; posted odds unchanged)",
+     "price": "-195",
+     "at": "2026-11-09T19:54:45-05:00",
+     "paused": false
+    }
    },
    {
     "capper": "@austinsprops",
@@ -71506,27 +71573,21 @@
     "odds": "+100",
     "game": "LAL @ ATL",
     "kick": "7:00 PM ET",
-    "started": true,
+    "started": false,
     "final": false,
-    "frozen": true,
-    "hr": "1+ -475",
-    "dk": "1+ -567",
-    "hr_odds": -475,
-    "dk_odds": -567,
+    "frozen": false,
+    "hr": "1+ -450",
+    "dk": "1+ -525",
+    "hr_odds": null,
+    "dk_odds": -525,
     "start": "2026-11-09 19:00",
     "hr_pick": "Onyeka Okongwu 1+ 3PM",
     "dk_pick": "Onyeka Okongwu 1+ 3PM",
     "trk": "Onyeka Okongwu 1+ 3PM",
-    "grade_odds": -475,
+    "grade_odds": -450,
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
-    "res": "",
-    "stat": "",
-    "uu": null,
-    "graded_line": "Onyeka Okongwu 1+ 3PM",
-    "graded_odds": "-475",
-    "bd": true,
     "straight": true,
     "stake": "1u",
     "straight_odds": "-475",
@@ -71534,7 +71595,24 @@
     "straight_stat": "",
     "straight_units": null,
     "straight_recorded": true,
-    "straight_counted": true
+    "straight_counted": true,
+    "hr_sid": null,
+    "hr_link": null,
+    "hr_live": {
+     "label": "Live HR price -500 as of 19:12 ET (game started; posted odds unchanged) (market paused)",
+     "price": "-500",
+     "at": "2026-11-09T19:12:37-05:00",
+     "paused": true
+    },
+    "hr_absent": false,
+    "hr_fp": "a02a0462d0c9a483ad50",
+    "hr_live_label": {
+     "label": "Live HR price -500 as of 19:12 ET (game started; posted odds unchanged) (market paused)",
+     "price": "-500",
+     "at": "2026-11-09T19:12:37-05:00",
+     "paused": true
+    },
+    "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)"
    },
    {
     "capper": "@panpotd",
@@ -71583,24 +71661,24 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "57+ -325",
+    "hr": "56+ -325",
     "dk": "n/a at DK (no exact DK line at HR rung 57+)",
     "hr_odds": -325,
     "dk_odds": null,
     "start": "2026-11-09 20:15",
-    "hr_pick": "Justin Jefferson 57+ Rec Yards",
+    "hr_pick": "Justin Jefferson 56+ Rec Yards",
     "dk_pick": null,
-    "trk": "Justin Jefferson 57+ Rec Yards",
+    "trk": "Justin Jefferson 56+ Rec Yards",
     "grade_odds": -325,
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
     "bd": true,
-    "hr_sid": "7566325982601281925",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7566325982601281925",
+    "hr_sid": "6703851469587743109",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6703851469587743109",
     "hr_live": "-325",
     "hr_absent": null,
-    "hr_fp": "27460abcfe670dc7d004",
+    "hr_fp": "25f0f6f2990d74002b77",
     "straight": true,
     "stake": "1u",
     "straight_odds": "-325",
@@ -71620,24 +71698,24 @@
     "started": false,
     "final": false,
     "frozen": false,
-    "hr": "57+ -325",
+    "hr": "56+ -325",
     "dk": "n/a at DK (no exact DK line at HR rung 57+)",
     "hr_odds": -325,
     "dk_odds": null,
     "start": "2026-11-09 20:15",
-    "hr_pick": "Justin Jefferson 57+ Rec Yards",
+    "hr_pick": "Justin Jefferson 56+ Rec Yards",
     "dk_pick": null,
-    "trk": "Justin Jefferson 57+ Rec Yards",
+    "trk": "Justin Jefferson 56+ Rec Yards",
     "grade_odds": -325,
     "hr_x": null,
     "bd_flag": null,
     "excluded": null,
     "bd": true,
-    "hr_sid": "7566325982601281925",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7566325982601281925",
+    "hr_sid": "6703851469587743109",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6703851469587743109",
     "hr_live": "-325",
     "hr_absent": null,
-    "hr_fp": "27460abcfe670dc7d004",
+    "hr_fp": "25f0f6f2990d74002b77",
     "straight": true,
     "stake": "1u",
     "straight_odds": "-325",
@@ -71760,43 +71838,6 @@
    },
    {
     "capper": "@showtimepicks2",
-    "sport": "NCAAB",
-    "pick": "Indiana -5.5 (vs Syracuse 6:30 PM ET; CBB free play)",
-    "odds": "-112",
-    "game": "SYR @ IU",
-    "kick": "6:30 PM ET",
-    "started": true,
-    "final": false,
-    "frozen": true,
-    "hr": "Indiana +3.5 -275",
-    "dk": "—",
-    "hr_odds": -275,
-    "dk_odds": null,
-    "start": "2026-11-09 18:30",
-    "hr_pick": "Indiana +3.5",
-    "dk_pick": null,
-    "trk": "Indiana +3.5",
-    "grade_odds": -275,
-    "hr_x": null,
-    "bd_flag": null,
-    "excluded": null,
-    "res": "",
-    "stat": "",
-    "uu": null,
-    "graded_line": "Indiana +3.5",
-    "graded_odds": "-275",
-    "bd": true,
-    "straight": true,
-    "stake": "1u",
-    "straight_odds": "-275",
-    "straight_res": "",
-    "straight_stat": "",
-    "straight_units": null,
-    "straight_recorded": true,
-    "straight_counted": true
-   },
-   {
-    "capper": "@showtimepicks2",
     "sport": "NFL",
     "pick": "Minnesota Vikings +3.5 (BUF @ MIN 8:15 PM ET; NFL play)",
     "odds": "-122",
@@ -71831,18 +71872,101 @@
     "straight_units": null,
     "straight_recorded": false,
     "straight_counted": false
+   },
+   {
+    "capper": "@the_oddsmaker",
+    "sport": "NFL",
+    "pick": "C. Benford u4.5 tackles + assists (BUF @ MIN 8:15 PM ET; Action Network pick 566904358, 0.45u)",
+    "odds": "+115",
+    "game": "BUF @ MIN",
+    "kick": "8:15 PM ET",
+    "start": "2026-11-09 20:15",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "original line kept · as is, no buy-down type (Sacks; tackles; tackles + assists; RULEBOOK §31.14 nobuydown1109)",
+    "dk": "n/a at DK (market not offered)",
+    "hr_odds": null,
+    "dk_odds": null,
+    "hr_pick": "C. Benford u4.5 tackles + assists",
+    "dk_pick": null,
+    "trk": "C. Benford u4.5 tackles + assists",
+    "grade_odds": -150,
+    "hr_x": -150,
+    "hr_sid": "1478183651561832852",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1478183651561832852",
+    "bd_flag": "as is (no buy-down type; RULEBOOK §31.14)",
+    "as_is": true,
+    "excluded": null,
+    "bd": false,
+    "straight": true,
+    "stake": "1u",
+    "straight_odds": "-150",
+    "straight_res": "",
+    "straight_stat": "",
+    "straight_units": null,
+    "straight_recorded": false,
+    "straight_counted": false,
+    "nobuydown": {
+     "id": 10,
+     "type": "Sacks; tackles; tackles + assists",
+     "rule": "RULEBOOK §31.14 nobuydown1109"
+    },
+    "hr_why": null
+   },
+   {
+    "capper": "@the_oddsmaker",
+    "sport": "NFL",
+    "pick": "R. Davis u5.5 rush yds (BUF @ MIN 8:15 PM ET; Action Network pick 566897263, 0.56u)",
+    "odds": "-112",
+    "game": "BUF @ MIN",
+    "kick": "8:15 PM ET",
+    "start": "2026-11-09 20:15",
+    "started": false,
+    "final": false,
+    "frozen": false,
+    "hr": "u11.5 -325",
+    "dk": "n/a at DK (market not offered)",
+    "hr_odds": -325,
+    "dk_odds": null,
+    "hr_pick": "R. Davis u11.5 rush yds",
+    "dk_pick": null,
+    "trk": "R. Davis u11.5 rush yds",
+    "grade_odds": -325,
+    "hr_x": null,
+    "hr_sid": "6147829489010344330",
+    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6147829489010344330",
+    "bd_flag": null,
+    "excluded": null,
+    "bd": true,
+    "straight": true,
+    "stake": "1u",
+    "straight_odds": "-275",
+    "straight_res": "",
+    "straight_stat": "",
+    "straight_units": null,
+    "straight_recorded": false,
+    "straight_counted": false,
+    "exact_hr": {
+     "pick": "R. Davis u5.5 Rush Yards",
+     "odds": -135,
+     "sid": "156423503491498378"
+    },
+    "hr_live": "-325",
+    "hr_absent": null,
+    "hr_fp": "32df203357535b2a3943"
    }
   ],
   "bd_ticket": {
-   "legs": 20,
-   "odds": 68143,
-   "bought": 15,
+   "legs": 21,
+   "odds": 75066,
+   "bought": 16,
    "flagged": [
     "Carson Wentz o1.5 Pass TDs",
-    "Luka Doncic u34.5 Points",
     "Alperen Sengun u0.5 Threes Made",
     "Jordan Addison o18.5 Long Rec",
-    "Jeremiah Fears o3.5 Asts"
+    "Jeremiah Fears o3.5 Asts",
+    "C. Benford u4.5 tackles + assists"
    ],
    "band": [
     -425,
@@ -72014,8 +72138,8 @@
    {
     "date": "2026-11-08",
     "capper": "@alexcaruso",
-    "line": "Luka Doncic u34.5 Points",
-    "odds": -120,
+    "line": "Luka Doncic 30+ Points",
+    "odds": -350,
     "straight_counted": false,
     "straight_reason": "Not published in a Nov 8 heist.conv before kickoff (internal conversion only); excluded by Nov 8 6:57 PM ET user decision"
    },
@@ -72031,7 +72155,7 @@
     "date": "2026-11-08",
     "capper": "@alexcaruso",
     "line": "Khaman Maluach 4+ Rebounds",
-    "odds": -400,
+    "odds": -425,
     "straight_counted": false,
     "straight_reason": "Not published in a Nov 8 heist.conv before kickoff (internal conversion only); excluded by Nov 8 6:57 PM ET user decision"
    },
@@ -72071,7 +72195,7 @@
     "date": "2026-11-08",
     "capper": "@austinsprops",
     "line": "Ivica Zubac 9+ Pts",
-    "odds": -260,
+    "odds": -275,
     "straight_counted": false,
     "straight_reason": "Not published in a Nov 8 heist.conv before kickoff (internal conversion only); excluded by Nov 8 6:57 PM ET user decision"
    },
@@ -72095,7 +72219,7 @@
     "date": "2026-11-08",
     "capper": "@austinsprops",
     "line": "Onyeka Okongwu 1+ 3PM",
-    "odds": -475,
+    "odds": -450,
     "straight_counted": false,
     "straight_reason": "Not published in a Nov 8 heist.conv before kickoff (internal conversion only); excluded by Nov 8 6:57 PM ET user decision"
    },
@@ -72142,16 +72266,24 @@
    {
     "date": "2026-11-08",
     "capper": "@showtimepicks2",
-    "line": "Indiana +3.5",
-    "odds": -275,
+    "line": "Minnesota Vikings +11",
+    "odds": -325,
     "straight_counted": false,
     "straight_reason": "Not published in a Nov 8 heist.conv before kickoff (internal conversion only); excluded by Nov 8 6:57 PM ET user decision"
    },
    {
     "date": "2026-11-08",
-    "capper": "@showtimepicks2",
-    "line": "Minnesota Vikings +11",
-    "odds": -325,
+    "capper": "@the_oddsmaker",
+    "line": "C. Benford u4.5 tackles + assists",
+    "odds": -150,
+    "straight_counted": false,
+    "straight_reason": "Not published in a Nov 8 heist.conv before kickoff (internal conversion only); excluded by Nov 8 6:57 PM ET user decision"
+   },
+   {
+    "date": "2026-11-08",
+    "capper": "@the_oddsmaker",
+    "line": "R. Davis u10.5 Rush Yards",
+    "odds": -275,
     "straight_counted": false,
     "straight_reason": "Not published in a Nov 8 heist.conv before kickoff (internal conversion only); excluded by Nov 8 6:57 PM ET user decision"
    }
@@ -72168,21 +72300,21 @@
     "l": 3,
     "p": 0,
     "v": 0,
-    "pending": 4,
+    "pending": 5,
     "units": -2.4,
-    "n": 9,
+    "n": 10,
     "since": "2026-11-08",
     "stake_per_leg": "1u",
     "format": "straights",
     "source": "heist-props.md"
    },
    "today": {
-    "n": 4,
+    "n": 5,
     "w": 0,
     "l": 0,
     "p": 0,
     "v": 0,
-    "pending": 4,
+    "pending": 5,
     "units": 0.0,
     "date": "2026-11-09"
    },
@@ -72195,7 +72327,321 @@
     "n": 6
    },
    "note": "Each leg is its own 1u bet at its own price. Combined odds (bd_ticket.odds) and the whole-ticket link (hr_ticket) are display-only and not graded."
-  }
+  },
+  "ticket_links": {
+   "rule": "linebot1109p (user 2026-11-09 7:18 PM ET)",
+   "built_at": "2026-11-09T19:47:14-05:00",
+   "of": 23,
+   "valid_until": "2026-11-09 20:00 ET",
+   "note": "Whole-ticket links hold only legs whose game has not started and that have an exact, freshly verified book id. Rebuild before each push.",
+   "hr": {
+    "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4104892006489260454,5099669452297994634,6599287136671891844,6069125801106866584,5231161416616116638,8181677182733648285,8570825028371874209,5889456949990392237,4713769799432405381,3238218458569245065,7566325982601281925,2020778421776417199,4459715793388700078,4502290901177074093,4999879892091928986,1478183651561832852,1134267572584317322",
+    "n": 17,
+    "legs_in": [
+     {
+      "text": "Carson Wentz o1.5 Pass TDs",
+      "hr_sid": "4104892006489260454",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4104892006489260454",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 0,
+      "leg": "Carson Wentz o1.5 Pass TDs",
+      "capper": "@alexcaruso",
+      "live": "-110",
+      "hr_market": "Carson Wentz - To Record 2+ Passing TDs",
+      "hr_selection": "Over 1.5"
+     },
+     {
+      "text": "Ty Johnson u23.5 Rec Yards",
+      "hr_sid": "5099669452297994634",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5099669452297994634",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 1,
+      "leg": "Ty Johnson u23.5 Rec Yards",
+      "capper": "@alexcaruso",
+      "live": "-325",
+      "hr_market": "Ty Johnson - Receiving Yards",
+      "hr_selection": "Under 23.5"
+     },
+     {
+      "text": "Jamal Murray 3+ Rebounds",
+      "hr_sid": "6599287136671891844",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6599287136671891844",
+      "sport": "NBA",
+      "game": "DEN @ HOU",
+      "start": "2026-11-09 20:30",
+      "i": 3,
+      "leg": "Jamal Murray 3+ Rebounds",
+      "capper": "@alexcaruso",
+      "live": "-350",
+      "hr_market": "Jamal Murray - Rebounds",
+      "hr_selection": "Over 2.5"
+     },
+     {
+      "text": "Khaman Maluach 4+ Rebounds",
+      "hr_sid": "6069125801106866584",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6069125801106866584",
+      "sport": "NBA",
+      "game": "SA @ PHX",
+      "start": "2026-11-09 21:00",
+      "i": 4,
+      "leg": "Khaman Maluach 4+ Rebounds",
+      "capper": "@alexcaruso",
+      "live": "-425",
+      "hr_market": "Khaman Maluach - To Record 4+ Rebounds",
+      "hr_selection": "Over 3.5"
+     },
+     {
+      "text": "Alperen Sengun u0.5 Threes Made",
+      "hr_sid": "5231161416616116638",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5231161416616116638",
+      "sport": "NBA",
+      "game": "DEN @ HOU",
+      "start": "2026-11-09 20:30",
+      "i": 5,
+      "leg": "Alperen Sengun u0.5 Threes Made",
+      "capper": "@alexcaruso",
+      "live": "-175",
+      "hr_market": "Alperen Sengun - Threes Made",
+      "hr_selection": "Under 0.5"
+     },
+     {
+      "text": "Josh Allen u46.5 Rush Yards",
+      "hr_sid": "8181677182733648285",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8181677182733648285",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 6,
+      "leg": "Josh Allen u46.5 Rush Yards",
+      "capper": "@austinsprops",
+      "live": "-325",
+      "hr_market": "Josh Allen - Rushing Yards",
+      "hr_selection": "Under 46.5"
+     },
+     {
+      "text": "Aaron Jones 2+ Rec Yds",
+      "hr_sid": "8570825028371874209",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8570825028371874209",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 7,
+      "leg": "Aaron Jones 2+ Rec Yds",
+      "capper": "@austinsprops",
+      "live": "-325",
+      "hr_market": "Aaron Jones Sr. - Receiving Yards",
+      "hr_selection": "Over 1.5"
+     },
+     {
+      "text": "Ivica Zubac 9+ Pts",
+      "hr_sid": "5889456949990392237",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5889456949990392237",
+      "sport": "NBA",
+      "game": "IND @ DAL",
+      "start": "2026-11-09 20:00",
+      "i": 10,
+      "leg": "Ivica Zubac 9+ Pts",
+      "capper": "@austinsprops",
+      "live": "-275",
+      "hr_market": "Ivica Zubac - Points",
+      "hr_selection": "Over 8.5"
+     },
+     {
+      "text": "Jeremiah Fears o3.5 Asts",
+      "hr_sid": "4713769799432405381",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4713769799432405381",
+      "sport": "NBA",
+      "game": "NO @ GS",
+      "start": "2026-11-09 22:00",
+      "i": 12,
+      "leg": "Jeremiah Fears o3.5 Asts",
+      "capper": "@austinsprops",
+      "live": "-375",
+      "hr_market": "Jeremiah Fears - Assists",
+      "hr_selection": "Over 3.5"
+     },
+     {
+      "text": "Carson Wentz 178+ Pass Yards",
+      "hr_sid": "3238218458569245065",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3238218458569245065",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 14,
+      "leg": "Carson Wentz 178+ Pass Yards",
+      "capper": "@panpotd",
+      "live": "-325",
+      "hr_market": "Carson Wentz - Passing Yards",
+      "hr_selection": "Over 177.5"
+     },
+     {
+      "text": "Justin Jefferson 57+ Rec Yards",
+      "hr_sid": "7566325982601281925",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7566325982601281925",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 15,
+      "leg": "Justin Jefferson 57+ Rec Yards",
+      "capper": "@panpotd",
+      "live": "-350",
+      "hr_market": "Justin Jefferson - Receiving Yards",
+      "hr_selection": "Over 56.5"
+     },
+     {
+      "text": "Khalil Shakir 3+ Rec",
+      "hr_sid": "2020778421776417199",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2020778421776417199",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 17,
+      "leg": "Khalil Shakir 3+ Rec",
+      "capper": "@panpotd",
+      "live": "-375",
+      "hr_market": "Khalil Shakir - To Record 3+ Receptions",
+      "hr_selection": "Over 2.5"
+     },
+     {
+      "text": "Devin Booker 23+ PR",
+      "hr_sid": "4459715793388700078",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4459715793388700078",
+      "sport": "NBA",
+      "game": "SA @ PHX",
+      "start": "2026-11-09 21:00",
+      "i": 18,
+      "leg": "Devin Booker 23+ PR",
+      "capper": "@panpotd",
+      "live": "-300",
+      "hr_market": "Devin Booker - Points + Rebounds",
+      "hr_selection": "Over 22.5"
+     },
+     {
+      "text": "Pascal Siakam 20+ PA",
+      "hr_sid": "4502290901177074093",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4502290901177074093",
+      "sport": "NBA",
+      "game": "IND @ DAL",
+      "start": "2026-11-09 20:00",
+      "i": 19,
+      "leg": "Pascal Siakam 20+ PA",
+      "capper": "@panpotd",
+      "live": "-300",
+      "hr_market": "Pascal Siakam - Points + Assists",
+      "hr_selection": "Over 19.5"
+     },
+     {
+      "text": "Minnesota Vikings +11",
+      "hr_sid": "4999879892091928986",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4999879892091928986",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 20,
+      "leg": "Minnesota Vikings +11",
+      "capper": "@showtimepicks2",
+      "live": "-325",
+      "hr_market": "Spread",
+      "hr_selection": "Vikings +11"
+     },
+     {
+      "text": "C. Benford u4.5 tackles + assists",
+      "hr_sid": "1478183651561832852",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1478183651561832852",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 21,
+      "leg": "C. Benford u4.5 tackles + assists",
+      "capper": "@the_oddsmaker",
+      "live": "-150",
+      "hr_market": "Christian Benford - Tackles + Assists",
+      "hr_selection": "Under 4.5"
+     },
+     {
+      "text": "R. Davis u10.5 Rush Yards",
+      "hr_sid": "1134267572584317322",
+      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1134267572584317322",
+      "sport": "NFL",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "i": 22,
+      "leg": "R. Davis u10.5 Rush Yards",
+      "capper": "@the_oddsmaker",
+      "live": "-275",
+      "hr_market": "Ray Davis - Rushing Yards",
+      "hr_selection": "Under 10.5"
+     }
+    ],
+    "legs_out": [
+     {
+      "i": 2,
+      "leg": "Luka Doncic 30+ Points",
+      "capper": "@alexcaruso",
+      "game": "LAL @ ATL",
+      "start": "2026-11-09 19:00",
+      "sport": "NBA",
+      "why": "game started at 7:00 PM ET (§24)"
+     },
+     {
+      "i": 8,
+      "leg": "T.J. Hockenson o0.5 Rush + Rec TDs",
+      "capper": "@austinsprops",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "sport": "NFL",
+      "why": "no exact Hard Rock id: n/a at Hard Rock (no exact-line price; capper posted no odds)"
+     },
+     {
+      "i": 9,
+      "leg": "Jordan Addison o18.5 Long Rec",
+      "capper": "@austinsprops",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "sport": "NFL",
+      "why": "no exact Hard Rock id: original line kept · as is, no buy-down type (Longest reception / rush / pass completion; RULEBOOK §31.14 nobuydown1109)"
+     },
+     {
+      "i": 11,
+      "leg": "Cameron Boozer 7+ Rebs",
+      "capper": "@austinsprops",
+      "game": "MEM @ TOR",
+      "start": "2026-11-09 19:30",
+      "sport": "NBA",
+      "why": "game started at 7:30 PM ET (§24)"
+     },
+     {
+      "i": 13,
+      "leg": "Onyeka Okongwu 1+ 3PM",
+      "capper": "@austinsprops",
+      "game": "LAL @ ATL",
+      "start": "2026-11-09 19:00",
+      "sport": "NBA",
+      "why": "game started at 7:00 PM ET (§24)"
+     },
+     {
+      "i": 16,
+      "leg": "Justin Jefferson 57+ Rec Yards",
+      "capper": "@panpotd",
+      "game": "BUF @ MIN",
+      "start": "2026-11-09 20:15",
+      "sport": "NFL",
+      "why": "same Hard Rock selection as leg 15 (counted once)"
+     }
+    ],
+    "format": "share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/<sid>,<sid>,..."
+   },
+   "dk_cleared": {
+    "at": "2026-11-09 19:53 ET",
+    "why": "RULEBOOK §32.4 still reads No DK whole-ticket or multi-select button; cleared by Line Bot pending Rules Keeper update. Saved copy: /workspace/edge/heist-ticket-links.json",
+    "n_was": 5
+   }
+  },
+  "hr_ticket_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4104892006489260454,5099669452297994634,6599287136671891844,6069125801106866584,5231161416616116638,8181677182733648285,8570825028371874209,5889456949990392237,4713769799432405381,3238218458569245065,7566325982601281925,2020778421776417199,4459715793388700078,4502290901177074093,4999879892091928986,1478183651561832852,1134267572584317322"
  },
  "big4_games": null,
  "big4_games_by_sport": {},
@@ -149750,7 +150196,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/156423503491498378",
       "odds": null,
       "fingerprint": "aea70f650f47ce302d19",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|a8bf5fb49468d8b703c8616c00d9e52a1525890d36a4a28b4eb9b8b5cdc98820",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -149832,7 +150278,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1478183651561832852",
       "odds": null,
       "fingerprint": "ef856594d3cbfe29124f",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|9eb49269309227a085794c3a81c4352a5fcda0cc4cbc6d68f40dfcb161959e6c",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150069,8 +150515,8 @@
        "status": "Pending",
        "legs": [],
        "fam": "Spread",
-       "hr_sid": "4800673301190017452",
-       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4800673301190017452",
+       "hr_sid": null,
+       "hr_link": null,
        "hr_live": {
         "label": "Live HR price +210 as of 19:26 ET (game started; posted odds unchanged)",
         "price": "+210",
@@ -150091,7 +150537,9 @@
        "dk_absent": false,
        "bk_start": "2026-11-09T19:00-05:00",
        "bk_started": true,
-       "bk_started_why": "game started"
+       "bk_started_why": "game started",
+       "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+       "hr_absent": false
       }
      }
     ],
@@ -150277,7 +150725,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2537395415039476108",
       "odds": null,
       "fingerprint": "27feb571cb2683858c27",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|287c178660e20d40a5ce2ee423871e13348ff0f917d39d88702f989a7f202239",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150290,7 +150738,7 @@
       "url": "https://sportsbook.draftkings.com/event/34978854?outcomes=0QA387519724%232357589808_13L42648Q11781983701Q20",
       "odds": null,
       "fingerprint": "615f3331c9fcc8e7950f",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|287c178660e20d40a5ce2ee423871e13348ff0f917d39d88702f989a7f202239",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150359,7 +150807,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1379226602858217885",
       "odds": null,
       "fingerprint": "4cc11623e5041110e454",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|9d7b2bb9b7cf7b12912d897d5c2b5cde5f40c3a4a1f6103ce17c5a74f28eae78",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150372,7 +150820,7 @@
       "url": "https://sportsbook.draftkings.com/event/34958203?outcomes=0QA387549090%232357721534_13L42133Q1943374178Q20",
       "odds": null,
       "fingerprint": "25d69338106a4e506fb6",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|9d7b2bb9b7cf7b12912d897d5c2b5cde5f40c3a4a1f6103ce17c5a74f28eae78",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150412,8 +150860,8 @@
        "status": "Pending",
        "legs": [],
        "fam": "SOG",
-       "hr_sid": "2940418765090849155",
-       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2940418765090849155",
+       "hr_sid": null,
+       "hr_link": null,
        "hr_live": "+145",
        "hr_now": "+145",
        "dk_sid": "0QA387546346#2357712341_13L42133Q1-30571947Q20",
@@ -150421,7 +150869,9 @@
        "dk_link": "https://sportsbook.draftkings.com/event/34958203?outcomes=0QA387546346%232357712341_13L42133Q1-30571947Q20",
        "dk_live": "+194",
        "res": "Pending",
-       "bk_start": "2026-11-09T21:30-05:00"
+       "bk_start": "2026-11-09T21:30-05:00",
+       "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+       "hr_absent": false
       }
      }
     ],
@@ -150434,17 +150884,17 @@
     },
     "books": {
      "hr": {
-      "state": "VERIFIED",
-      "reason": "",
-      "sid": "2940418765090849155",
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on HR: Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)",
+      "sid": null,
       "event_id": null,
-      "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2940418765090849155",
+      "url": null,
       "odds": null,
-      "fingerprint": "fd60fdf2b05750e2ed74",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "fingerprint": null,
+      "verified_at_et": null,
       "audit_path": ".heist_original_links.items.original|v1|7c1cfae23b386a477601fb066979f543945c12402724427352e08f8fd4332c57",
       "absent": false,
-      "audit_verdict": "VERIFIED"
+      "audit_verdict": null
      },
      "dk": {
       "state": "VERIFIED",
@@ -150454,7 +150904,7 @@
       "url": "https://sportsbook.draftkings.com/event/34958203?outcomes=0QA387546346%232357712341_13L42133Q1-30571947Q20",
       "odds": null,
       "fingerprint": "7d50bdd26e586a16d640",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|7c1cfae23b386a477601fb066979f543945c12402724427352e08f8fd4332c57",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150522,7 +150972,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6256759896170168717",
       "odds": null,
       "fingerprint": "49b1d5f0e25b6571af9b",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|4487e3a5d0b43406634edfcbeab8523a472f8a11da9ffadb40a3a858b5428db3",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150686,7 +151136,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/1743572936232665482",
       "odds": null,
       "fingerprint": "15e41b3a91ca494ffeca",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|de4b5fd728da36871c1471819fa2bb3e49cb3def096c8e5fa8a1f3c1d707a981",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150941,7 +151391,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4342663847079969183",
       "odds": null,
       "fingerprint": "88732c7f8fac526b099e",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|457e41056688aac1721b19f7eb8fceb82ceeed3d47740f540d856004b09ca7aa",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -150954,7 +151404,7 @@
       "url": "https://sportsbook.draftkings.com/event/34978853?outcomes=0QA387514126%232357720044_13L42648Q1762411311Q20",
       "odds": null,
       "fingerprint": "e7d7182050164144788b",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|457e41056688aac1721b19f7eb8fceb82ceeed3d47740f540d856004b09ca7aa",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151023,7 +151473,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5231161416616116638",
       "odds": null,
       "fingerprint": "473ddfdf5f2ca3049a36",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|accc25e920d0b76f0c11ceea215231e1eac6d2706fafb33382171ea6bbc3053d",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151105,7 +151555,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/668124891907752349",
       "odds": null,
       "fingerprint": "f80607c17d8175b2e713",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|31aa46fec545bd3388e719f41e12f24f32f58b782790afc0f1ed2ccf4adeeb3f",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151118,7 +151568,7 @@
       "url": "https://sportsbook.draftkings.com/event/34118167?outcomes=0QA385772764%232353358839_13L88808Q1-1305684449Q20",
       "odds": null,
       "fingerprint": "e582d533d739154d4f2e",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|31aa46fec545bd3388e719f41e12f24f32f58b782790afc0f1ed2ccf4adeeb3f",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151187,7 +151637,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3698493181510418849",
       "odds": null,
       "fingerprint": "f62753dba4bcc7de513d",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|04a34e1ae9ae5c308f565b9fb870cc272dbbcfeba5b742f6b8f569006c950cd4",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151351,7 +151801,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4708043609709085083",
       "odds": null,
       "fingerprint": "ec0f3113b49a220f9732",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|12c0d2d091e280096317211ece89a87a0c0b8ce711b0696e6f3327923c7e1c2b",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151433,7 +151883,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4615501205397963181",
       "odds": null,
       "fingerprint": "5a6c4b07ee86529b8f4f",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|0c5df260ee03083dce59bd06cf0eb8541b059222fd8ecbe91f66dc7b2e53db92",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151446,7 +151896,7 @@
       "url": "https://sportsbook.draftkings.com/event/34978851?outcomes=0QA387520218%232357591911_13L42648Q1790759744Q20",
       "odds": null,
       "fingerprint": "08725e5c1566a5e6e10c",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|0c5df260ee03083dce59bd06cf0eb8541b059222fd8ecbe91f66dc7b2e53db92",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151488,14 +151938,27 @@
        "fam": "Rebounds",
        "hr_sid": "2156232632480956837",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2156232632480956837",
-       "hr_live": "-130",
+       "hr_live": {
+        "label": "Live HR price +155 as of 19:54 ET (game started; posted odds unchanged)",
+        "price": "+155",
+        "at": "2026-11-09T19:54:45-05:00",
+        "paused": false
+       },
        "hr_now": "-130",
-       "dk_sid": "0QA387512197#2357559294_13L42648Q1-1802214231Q20",
+       "dk_sid": null,
        "dk_eid": "34978850",
-       "dk_link": "https://sportsbook.draftkings.com/event/34978850?outcomes=0QA387512197%232357559294_13L42648Q1-1802214231Q20",
+       "dk_link": null,
        "dk_live": "-133",
        "res": "Pending",
-       "bk_start": "2026-11-09T19:30-05:00"
+       "bk_start": "2026-11-09T19:30-05:00",
+       "hr_live_label": {
+        "label": "Live HR price +155 as of 19:54 ET (game started; posted odds unchanged)",
+        "price": "+155",
+        "at": "2026-11-09T19:54:45-05:00",
+        "paused": false
+       },
+       "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+       "dk_absent": false
       }
      }
     ],
@@ -151513,25 +151976,25 @@
       "sid": "2156232632480956837",
       "event_id": null,
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2156232632480956837",
-      "odds": null,
+      "odds": "+155",
       "fingerprint": "15da092f44d2328d591e",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|a4aa1cee808de2d32f1dba55b6410f70bc408099fda4b727adbc7d10a6d9d207",
       "absent": false,
       "audit_verdict": "VERIFIED"
      },
      "dk": {
-      "state": "VERIFIED",
-      "reason": "",
-      "sid": "0QA387512197#2357559294_13L42648Q1-1802214231Q20",
-      "event_id": "34978850",
-      "url": "https://sportsbook.draftkings.com/event/34978850?outcomes=0QA387512197%232357559294_13L42648Q1-1802214231Q20",
+      "state": "UNVERIFIED",
+      "reason": "Unavailable on DK: Unverified link: unverified: DK Predictions resolver returned nothing for this id",
+      "sid": null,
+      "event_id": null,
+      "url": null,
       "odds": null,
-      "fingerprint": "f2c7384266391be96723",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "fingerprint": null,
+      "verified_at_et": null,
       "audit_path": ".heist_original_links.items.original|v1|a4aa1cee808de2d32f1dba55b6410f70bc408099fda4b727adbc7d10a6d9d207",
       "absent": false,
-      "audit_verdict": "VERIFIED"
+      "audit_verdict": null
      }
     },
     "analyst": null
@@ -151597,7 +152060,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4713769799432405381",
       "odds": null,
       "fingerprint": "31c4f2116c5cd56d4add",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|a819264c8f137077231a0019bc6d0ad97a3a5e219fc198994596279b4486bf29",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151610,7 +152073,7 @@
       "url": "https://sportsbook.draftkings.com/event/34978854?outcomes=0QA387555742%232357744840_13L42648Q12035124477Q20",
       "odds": null,
       "fingerprint": "50ac059e615f7faec0be",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|a819264c8f137077231a0019bc6d0ad97a3a5e219fc198994596279b4486bf29",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151770,7 +152233,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8126312904126497161",
       "odds": null,
       "fingerprint": "9b989ee6270fab1a5f19",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|a563d60365923cf3af9937ea011ec799c01b1963a079b71e3b01e299c2af858e",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151783,7 +152246,7 @@
       "url": "https://sportsbook.draftkings.com/event/34118167?outcomes=0QA386418879%232352424558_13L88808Q1-2143690359Q20",
       "odds": null,
       "fingerprint": "45618e3bb707917a173c",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|a563d60365923cf3af9937ea011ec799c01b1963a079b71e3b01e299c2af858e",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151852,7 +152315,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7317220628212351365",
       "odds": null,
       "fingerprint": "a3b0847ebf008b7c49e6",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|4148241fb038f6b8f8ae7503142faa9d615d0b2925d45e0a1076dc78ac5e413a",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151934,7 +152397,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8301538621769515397",
       "odds": null,
       "fingerprint": "b183818493c78e1e4659",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|5b80525cceba7c15fe5de2c9d4bff6f966a2c65e0c0c9bf6141d29a1500577d9",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -151947,7 +152410,7 @@
       "url": "https://sportsbook.draftkings.com/event/34118167?outcomes=0QA385811801%232349945807_13L88808Q1-323733744Q20",
       "odds": null,
       "fingerprint": "2582492be0ea3113657d",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|5b80525cceba7c15fe5de2c9d4bff6f966a2c65e0c0c9bf6141d29a1500577d9",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -152016,7 +152479,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3389872708497047977",
       "odds": null,
       "fingerprint": "d4781e288acc9487497f",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|3a367caaf67ba6eecba111ab7fd1a907be1186e2283dbc3fa4ca6c9ff9d3053d",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -152029,7 +152492,7 @@
       "url": "https://sportsbook.draftkings.com/event/34118167?outcomes=0QA385771939%232349758035_13L88808Q1-15795622Q20",
       "odds": null,
       "fingerprint": "f62a306d4743c6bce113",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|3a367caaf67ba6eecba111ab7fd1a907be1186e2283dbc3fa4ca6c9ff9d3053d",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -152098,7 +152561,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/581553564269281710",
       "odds": null,
       "fingerprint": "a51abe19d8f7b1c71c50",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|f2b7b1e84fa46d058a224514e2ff0492866f272bf7097adc2398a0486e9c38cd",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -152111,7 +152574,7 @@
       "url": "https://sportsbook.draftkings.com/event/34978853?outcomes=0QA387514910%232357569925_13L42648Q11706801320Q20",
       "odds": null,
       "fingerprint": "41a6b8c8f858ae588cc9",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|f2b7b1e84fa46d058a224514e2ff0492866f272bf7097adc2398a0486e9c38cd",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -152180,7 +152643,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/9047408087612391853",
       "odds": null,
       "fingerprint": "018a51c2e6fd47a43258",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|816b0dfb744a0e6083ff123610cd489d890e4145a9266527b95d33dbdb244580",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -152193,7 +152656,7 @@
       "url": "https://sportsbook.draftkings.com/event/34978851?outcomes=0QA387535386%232357665059_13L42648Q1-410777860Q20",
       "odds": null,
       "fingerprint": "a8f7798ef1cc447be197",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|816b0dfb744a0e6083ff123610cd489d890e4145a9266527b95d33dbdb244580",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -152236,15 +152699,15 @@
        "hr_sid": "7121062191035449743",
        "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/7121062191035449743",
        "hr_live": {
-        "label": "Live HR price +175 as of 19:26 ET (game started; posted odds unchanged)",
-        "price": "+175",
-        "at": "2026-11-09T19:26:09-05:00",
+        "label": "Live HR price -165 as of 19:54 ET (game started; posted odds unchanged)",
+        "price": "-165",
+        "at": "2026-11-09T19:54:45-05:00",
         "paused": false
        },
        "hr_live_label": {
-        "label": "Live HR price +175 as of 19:26 ET (game started; posted odds unchanged)",
-        "price": "+175",
-        "at": "2026-11-09T19:26:09-05:00",
+        "label": "Live HR price -165 as of 19:54 ET (game started; posted odds unchanged)",
+        "price": "-165",
+        "at": "2026-11-09T19:54:45-05:00",
         "paused": false
        },
        "hr_now": "+175",
@@ -152357,7 +152820,7 @@
       "url": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5747899642700497305",
       "odds": null,
       "fingerprint": "e5c22052b4316fe57e8f",
-      "verified_at_et": "2026-11-09T19:26:55-05:00",
+      "verified_at_et": "2026-11-09T19:55:31-05:00",
       "audit_path": ".heist_original_links.items.original|v1|05111b3b8a002dc924831e4b5fbf0fae701029a97bcbf1b37f0a645b78d556c1",
       "absent": false,
       "audit_verdict": "VERIFIED"
@@ -191020,12 +191483,12 @@
     "date": "2026-11-09",
     "sport": "NHL",
     "game": "",
-    "hr_sid": "2940418765090849155",
-    "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2940418765090849155",
+    "hr_sid": null,
+    "hr_link": null,
     "dk_sid": "0QA387546346#2357712341_13L42133Q1-30571947Q20",
     "dk_eid": "34958203",
     "dk_link": "https://sportsbook.draftkings.com/event/34958203?outcomes=0QA387546346%232357712341_13L42133Q1-30571947Q20",
-    "hr_absent": null,
+    "hr_absent": false,
     "dk_absent": null,
     "bk_start": "2026-11-09T21:30:00-05:00",
     "bk_start_src": "espn teams",
@@ -191033,14 +191496,15 @@
     "link_reason": "",
     "link_books": {
      "hr": {
-      "status": "linked",
-      "reason": ""
+      "status": "lookup_failed",
+      "reason": "unverified link"
      },
      "dk": {
       "status": "linked",
       "reason": ""
      }
-    }
+    },
+    "hr_why": "Unverified link: unverified: selection id not in the fresh Hard Rock feed (closed, started, or unknown)"
    },
    "original|v1|4487e3a5d0b43406634edfcbeab8523a472f8a11da9ffadb40a3a858b5428db3": {
     "original_id": "original|v1|4487e3a5d0b43406634edfcbeab8523a472f8a11da9ffadb40a3a858b5428db3",
@@ -191351,11 +191815,11 @@
     "game": "",
     "hr_sid": "2156232632480956837",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2156232632480956837",
-    "dk_sid": "0QA387512197#2357559294_13L42648Q1-1802214231Q20",
+    "dk_sid": null,
     "dk_eid": "34978850",
-    "dk_link": "https://sportsbook.draftkings.com/event/34978850?outcomes=0QA387512197%232357559294_13L42648Q1-1802214231Q20",
+    "dk_link": null,
     "hr_absent": null,
-    "dk_absent": null,
+    "dk_absent": false,
     "bk_start": "2026-11-09T19:30:00-05:00",
     "bk_start_src": "espn teams",
     "link_status": "linked",
@@ -191366,10 +191830,23 @@
       "reason": ""
      },
      "dk": {
-      "status": "linked",
-      "reason": ""
+      "status": "started",
+      "reason": "game started"
      }
-    }
+    },
+    "hr_live_label": {
+     "label": "Live HR price +155 as of 19:54 ET (game started; posted odds unchanged)",
+     "price": "+155",
+     "at": "2026-11-09T19:54:45-05:00",
+     "paused": false
+    },
+    "hr_live": {
+     "label": "Live HR price +155 as of 19:54 ET (game started; posted odds unchanged)",
+     "price": "+155",
+     "at": "2026-11-09T19:54:45-05:00",
+     "paused": false
+    },
+    "dk_why": "Unverified link: unverified: DK Predictions resolver returned nothing for this id"
    },
    "original|v1|a819264c8f137077231a0019bc6d0ad97a3a5e219fc198994596279b4486bf29": {
     "original_id": "original|v1|a819264c8f137077231a0019bc6d0ad97a3a5e219fc198994596279b4486bf29",
@@ -192720,9 +193197,9 @@
   "l": 3,
   "p": 0,
   "v": 0,
-  "pending": 4,
+  "pending": 5,
   "units": -2.4,
-  "n": 9,
+  "n": 10,
   "since": "2026-11-08",
   "stake_per_leg": "1u",
   "format": "straights",
