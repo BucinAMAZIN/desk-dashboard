@@ -1,5 +1,5 @@
 {
- "generated": 1794897293.6430728,
+ "generated": 1794913003.5469012,
  "today": {
   "title": "Nov 17 picks (Hard Rock)",
   "tickets": [],
@@ -11,8 +11,8 @@
   "linemate_cutoff": {
    "state": "missing_before_cutoff",
    "cutoff": "2026-11-17 10:30 ET",
-   "ready_at": null,
-   "ready_kind": null,
+   "ready_at": "2026-11-17 04:29 ET",
+   "ready_kind": "PARTIAL",
    "scout_at": null,
    "rescan_needed": false,
    "eleven_am_rule": false
@@ -8955,10 +8955,10 @@
  "cappers": [
   {
    "name": "@actionnetworkhq",
-   "w": 4,
+   "w": 5,
    "l": 8,
    "p": 0,
-   "pct": 33,
+   "pct": 38,
    "props": [
     {
      "prop": "NCAAF rush yds (under)",
@@ -8967,6 +8967,14 @@
      "p": 0,
      "pct": "0%",
      "fam": "Rushing yds"
+    },
+    {
+     "prop": "NBA points (under)",
+     "w": 1,
+     "l": 0,
+     "p": 0,
+     "pct": "100%",
+     "fam": "Player points"
     },
     {
      "prop": "NCAAF ML",
@@ -11641,7 +11649,7 @@
  "capper_today_date": "2026-11-17",
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-17 01:34 AM ET",
+  "updated": "2026-11-17 05:56 AM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -20178,7 +20186,7 @@
   }
  },
  "clv": {
-  "built": "2026-11-17T01:34:55-05:00",
+  "built": "2026-11-17T05:56:45-05:00",
   "source": "/workspace/dashboard/clv.jsonl",
   "snapshots": {
    "hr_close_files": 198,
@@ -71556,6 +71564,26 @@
     "uu": 0.8
    },
    {
+    "date": "2026-11-16",
+    "sport": "NBA",
+    "grp": "C",
+    "cat": "Cappers",
+    "prop": "@actionnetworkhq · NBA points (under)",
+    "fam": "Player points",
+    "pick": "Devin Booker Under 23.5 Points",
+    "odds": "-130",
+    "res": "W",
+    "stat": "W (20 PTS)",
+    "alt": false,
+    "leg": false,
+    "img": null,
+    "sub": "",
+    "legs": [],
+    "price_source": "posted",
+    "nu": false,
+    "uu": 0.77
+   },
+   {
     "date": "2026-10-25",
     "sport": "NFL",
     "grp": "O",
@@ -81537,11 +81565,11 @@
    },
    "C": {
     "tickets": {
-     "w": 417,
+     "w": 418,
      "l": 375,
      "p": 15,
      "pending": 0,
-     "units": 12.5,
+     "units": 13.27,
      "no_odds": 113
     },
     "legs": {
@@ -81789,16 +81817,16 @@
   ],
   "odds_tracking": {
    "overall": {
-    "w": 1080,
+    "w": 1081,
     "l": 987,
     "v": 38,
     "p": 5,
     "pending": 7,
-    "units": -68.96,
+    "units": -68.19,
     "pct": 52,
-    "record": "1080-987",
+    "record": "1081-987",
     "pct_label": "52%",
-    "units_label": "-68.96 units"
+    "units_label": "-68.19 units"
    },
    "daily": [
     {
@@ -81815,16 +81843,16 @@
      "day": "Sunday"
     },
     {
-     "w": 179,
+     "w": 180,
      "l": 143,
      "v": 3,
      "p": 0,
      "pending": 0,
-     "units": -10.02,
+     "units": -9.25,
      "pct": 56,
-     "record": "179-143",
+     "record": "180-143",
      "pct_label": "56%",
-     "units_label": "-10.02 units",
+     "units_label": "-9.25 units",
      "day": "Monday"
     },
     {
@@ -81909,16 +81937,16 @@
     "day": "Sunday"
    },
    {
-    "w": 179,
+    "w": 180,
     "l": 143,
     "v": 3,
     "p": 0,
     "pending": 0,
-    "units": -10.02,
+    "units": -9.25,
     "pct": 56,
-    "record": "179-143",
+    "record": "180-143",
     "pct_label": "56%",
-    "units_label": "-10.02 units",
+    "units_label": "-9.25 units",
     "day": "Monday"
    },
    {
@@ -82006,15 +82034,6 @@
   ],
   "retired_from": "2026-11-09",
   "format": "straights",
-  "props": {
-   "n": 0,
-   "w": 0,
-   "l": 0,
-   "p": 0,
-   "v": 0,
-   "pending": 0,
-   "units": 0.0
-  },
   "conv": [],
   "bd_ticket": {
    "legs": 0,
@@ -82026,6 +82045,15 @@
     -250
    ],
    "target": -325
+  },
+  "props": {
+   "n": 0,
+   "w": 0,
+   "l": 0,
+   "p": 0,
+   "v": 0,
+   "pending": 0,
+   "units": 0.0
   },
   "uncounted_straights": [
    {
@@ -82209,7 +82237,7 @@
  "big4_games_by_sport": {},
  "gameday": {
   "date": "2026-11-17",
-  "built": "2026-11-17 01:38 ET",
+  "built": "2026-11-17 05:56 ET",
   "picks": 0,
   "vetoes": [],
   "gaps": [
@@ -82311,9 +82339,9 @@
   "note": "no late-injury check run yet today"
  },
  "player_status": {
-  "built": "2026-11-17 01:38 AM ET",
+  "built": "2026-11-17 05:56 AM ET",
   "sources": {
-   "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-17_01_30AM.pdf",
+   "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-17_05_45AM.pdf",
    "espn": "site.api.espn.com/apis/site/v2/sports/*/injuries"
   },
   "players": [
@@ -82388,8 +82416,8 @@
     "team": "Charlotte Hornets",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Kon Knueppel",
     "key": "kon knueppel"
@@ -82399,8 +82427,8 @@
     "team": "Charlotte Hornets",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Dennis Schroder",
     "key": "dennis schroder"
@@ -82586,8 +82614,8 @@
     "team": "Detroit Pistons",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Taurean Prince",
     "key": "taurean prince"
@@ -82597,8 +82625,8 @@
     "team": "Detroit Pistons",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Ronald Holland II",
     "key": "ronald holland"
@@ -82608,8 +82636,8 @@
     "team": "Detroit Pistons",
     "label": "Doubtful",
     "raw": "Doubtful",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Isaiah Joe",
     "key": "isaiah joe"
@@ -82619,8 +82647,8 @@
     "team": "Detroit Pistons",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Duncan Robinson",
     "key": "duncan robinson"
@@ -82630,8 +82658,8 @@
     "team": "Detroit Pistons",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Jalen Duren",
     "key": "jalen duren"
@@ -82784,8 +82812,8 @@
     "team": "LA Clippers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Yanic Konan Niederhauser",
     "key": "yanic konan niederhauser"
@@ -82795,8 +82823,8 @@
     "team": "LA Clippers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Brandon Ingram",
     "key": "brandon ingram"
@@ -82806,8 +82834,8 @@
     "team": "LA Clippers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Bradley Beal",
     "key": "bradley beal"
@@ -82817,8 +82845,8 @@
     "team": "LA Clippers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Jordan Miller",
     "key": "jordan miller"
@@ -82828,8 +82856,8 @@
     "team": "Los Angeles Lakers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Austin Reaves",
     "key": "austin reaves"
@@ -82839,8 +82867,8 @@
     "team": "Los Angeles Lakers",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Walker Kessler",
     "key": "walker kessler"
@@ -83323,8 +83351,8 @@
     "team": "San Antonio Spurs",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Tobias Harris",
     "key": "tobias harris"
@@ -83334,8 +83362,8 @@
     "team": "San Antonio Spurs",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Jayden Quaintance",
     "key": "jayden quaintance"
@@ -83345,8 +83373,8 @@
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Nate Bittle",
     "key": "nate bittle"
@@ -83356,8 +83384,8 @@
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Kevin McCullar Jr.",
     "key": "kevin mccullar"
@@ -83367,8 +83395,8 @@
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Kawhi Leonard",
     "key": "kawhi leonard"
@@ -83378,8 +83406,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Jaxson Hayes",
     "key": "jaxson hayes"
@@ -83389,8 +83417,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Lauri Markkanen",
     "key": "lauri markkanen"
@@ -83400,8 +83428,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Jusuf Nurkic",
     "key": "jusuf nurkic"
@@ -83411,8 +83439,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Jaren Jackson Jr.",
     "key": "jaren jackson"
@@ -83466,8 +83494,8 @@
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Malachi Smith",
     "key": "malachi smith"
@@ -83477,8 +83505,8 @@
     "team": "Detroit Pistons",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Ebuka Okorie",
     "key": "ebuka okorie"
@@ -83488,8 +83516,8 @@
     "team": "Detroit Pistons",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Ugonna Onyenso",
     "key": "ugonna onyenso"
@@ -83499,8 +83527,8 @@
     "team": "San Antonio Spurs",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Maliq Brown",
     "key": "maliq brown"
@@ -83510,8 +83538,8 @@
     "team": "San Antonio Spurs",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Ja'Kobi Gillespie",
     "key": "jakobi gillespie"
@@ -83521,8 +83549,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Kobe Bufkin",
     "key": "kobe bufkin"
@@ -83532,8 +83560,8 @@
     "team": "Utah Jazz",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Harrison Ingram",
     "key": "harrison ingram"
@@ -83543,8 +83571,8 @@
     "team": "Charlotte Hornets",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Michael Ajayi",
     "key": "michael ajayi"
@@ -83554,8 +83582,8 @@
     "team": "Charlotte Hornets",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Kylan Boswell",
     "key": "kylan boswell"
@@ -83565,8 +83593,8 @@
     "team": "Charlotte Hornets",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/17/26 01:30 AM ET",
-    "posted": "2026-11-17 01:30 AM ET",
+    "src": "NBA official injury report 11/17/26 05:45 AM ET",
+    "posted": "2026-11-17 05:45 AM ET",
     "note": "",
     "name": "Hannes Steinbach",
     "key": "hannes steinbach"
@@ -86994,11 +87022,99 @@
    },
    {
     "sp": "NBA",
-    "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "team": "Toronto Raptors",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Kyle Anderson",
+    "key": "kyle anderson"
+   },
+   {
+    "sp": "NBA",
+    "team": "Toronto Raptors",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Jamison Battle",
+    "key": "jamison battle"
+   },
+   {
+    "sp": "NBA",
+    "team": "Toronto Raptors",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Jaden Bradley",
+    "key": "jaden bradley"
+   },
+   {
+    "sp": "NBA",
+    "team": "Toronto Raptors",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Allen Graves",
+    "key": "allen graves"
+   },
+   {
+    "sp": "NBA",
+    "team": "Toronto Raptors",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Trayce Jackson-Davis",
+    "key": "trayce jackson davis"
+   },
+   {
+    "sp": "NBA",
+    "team": "Toronto Raptors",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Alijah Martin",
+    "key": "alijah martin"
+   },
+   {
+    "sp": "NBA",
+    "team": "Toronto Raptors",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Jakob Poeltl",
+    "key": "jakob poeltl"
+   },
+   {
+    "sp": "NBA",
+    "team": "Toronto Raptors",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Jamal Shead",
+    "key": "jamal shead"
+   },
+   {
+    "sp": "NBA",
+    "team": "Minnesota Timberwolves",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Joan Beringer",
     "key": "joan beringer"
@@ -87006,10 +87122,10 @@
    {
     "sp": "NBA",
     "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Johni Broome",
     "key": "johni broome"
@@ -87017,10 +87133,10 @@
    {
     "sp": "NBA",
     "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Isaiah Evans",
     "key": "isaiah evans"
@@ -87028,10 +87144,10 @@
    {
     "sp": "NBA",
     "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Bones Hyland",
     "key": "bones hyland"
@@ -87039,10 +87155,10 @@
    {
     "sp": "NBA",
     "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Trey Lyles",
     "key": "trey lyles"
@@ -87050,10 +87166,10 @@
    {
     "sp": "NBA",
     "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Zyon Pullin",
     "key": "zyon pullin"
@@ -87061,10 +87177,10 @@
    {
     "sp": "NBA",
     "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Terrence Shannon Jr.",
     "key": "terrence shannon"
@@ -87072,10 +87188,10 @@
    {
     "sp": "NBA",
     "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Cody Williams",
     "key": "cody williams"
@@ -87083,10 +87199,10 @@
    {
     "sp": "NBA",
     "team": "Minnesota Timberwolves",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Rocco Zikarsky",
     "key": "rocco zikarsky"
@@ -87094,10 +87210,10 @@
    {
     "sp": "NBA",
     "team": "Portland Trail Blazers",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Branden Carlson",
     "key": "branden carlson"
@@ -87105,10 +87221,10 @@
    {
     "sp": "NBA",
     "team": "Portland Trail Blazers",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Yang Hansen",
     "key": "yang hansen"
@@ -87116,10 +87232,10 @@
    {
     "sp": "NBA",
     "team": "Portland Trail Blazers",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Scoot Henderson",
     "key": "scoot henderson"
@@ -87127,10 +87243,10 @@
    {
     "sp": "NBA",
     "team": "Portland Trail Blazers",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Jrue Holiday",
     "key": "jrue holiday"
@@ -87138,10 +87254,10 @@
    {
     "sp": "NBA",
     "team": "Portland Trail Blazers",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Jayson Kent",
     "key": "jayson kent"
@@ -87149,10 +87265,10 @@
    {
     "sp": "NBA",
     "team": "Portland Trail Blazers",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Micah Potter",
     "key": "micah potter"
@@ -87160,10 +87276,10 @@
    {
     "sp": "NBA",
     "team": "Portland Trail Blazers",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "John Tonje",
     "key": "john tonje"
@@ -87171,13 +87287,398 @@
    {
     "sp": "NBA",
     "team": "Portland Trail Blazers",
-    "label": "Not starting (confirmed)",
+    "label": "Not starting (projected)",
     "raw": "bench",
-    "src": "RotoWire NBA lineups (confirmed)",
-    "posted": "2026-11-17 01:38 AM ET",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
     "note": "",
     "name": "Robert Williams III",
     "key": "robert williams"
+   },
+   {
+    "sp": "NBA",
+    "team": "Detroit Pistons",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Javonte Green",
+    "key": "javonte green"
+   },
+   {
+    "sp": "NBA",
+    "team": "Detroit Pistons",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Elijah Harkless",
+    "key": "elijah harkless"
+   },
+   {
+    "sp": "NBA",
+    "team": "Detroit Pistons",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Isaac Jones",
+    "key": "isaac jones"
+   },
+   {
+    "sp": "NBA",
+    "team": "Detroit Pistons",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Paul Reed",
+    "key": "paul reed"
+   },
+   {
+    "sp": "NBA",
+    "team": "Detroit Pistons",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Tolu Smith",
+    "key": "tolu smith"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Cam Christie",
+    "key": "cam christie"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Gradey Dick",
+    "key": "gradey dick"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Isaiah Jackson",
+    "key": "isaiah jackson"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Nick Martinelli",
+    "key": "nick martinelli"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Baba Miller",
+    "key": "baba miller"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Jalen Pickett",
+    "key": "jalen pickett"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Kobe Sanders",
+    "key": "kobe sanders"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Max Strus",
+    "key": "max strus"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Keaton Wagler",
+    "key": "keaton wagler"
+   },
+   {
+    "sp": "NBA",
+    "team": "LA Clippers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Blake Wesley",
+    "key": "blake wesley"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Cameron Carr",
+    "key": "cameron carr"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Carson Cooper",
+    "key": "carson cooper"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Jaden Hardy",
+    "key": "jaden hardy"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Bronny James",
+    "key": "bronny james"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Arthur Kaluma",
+    "key": "arthur kaluma"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Kevon Looney",
+    "key": "kevon looney"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Chris Manon",
+    "key": "chris manon"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "AK Okereke",
+    "key": "ak okereke"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Collin Sexton",
+    "key": "collin sexton"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Adou Thiero",
+    "key": "adou thiero"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Jarred Vanderbilt",
+    "key": "jarred vanderbilt"
+   },
+   {
+    "sp": "NBA",
+    "team": "Los Angeles Lakers",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Ziaire Williams",
+    "key": "ziaire williams"
+   },
+   {
+    "sp": "NBA",
+    "team": "Charlotte Hornets",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Christian Anderson",
+    "key": "christian anderson"
+   },
+   {
+    "sp": "NBA",
+    "team": "Charlotte Hornets",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "PJ Hall",
+    "key": "pj hall"
+   },
+   {
+    "sp": "NBA",
+    "team": "Charlotte Hornets",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Sion James",
+    "key": "sion james"
+   },
+   {
+    "sp": "NBA",
+    "team": "Charlotte Hornets",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Ryan Kalkbrenner",
+    "key": "ryan kalkbrenner"
+   },
+   {
+    "sp": "NBA",
+    "team": "Charlotte Hornets",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Liam McNeeley",
+    "key": "liam mcneeley"
+   },
+   {
+    "sp": "NBA",
+    "team": "Charlotte Hornets",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Royce O'Neale",
+    "key": "royce oneale"
+   },
+   {
+    "sp": "NBA",
+    "team": "Charlotte Hornets",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Tidjane Salaun",
+    "key": "tidjane salaun"
+   },
+   {
+    "sp": "NBA",
+    "team": "Charlotte Hornets",
+    "label": "Not starting (projected)",
+    "raw": "bench",
+    "src": "RotoWire NBA lineups (projected)",
+    "posted": "2026-11-17 05:56 AM ET",
+    "note": "",
+    "name": "Grant Williams",
+    "key": "grant williams"
    }
   ]
  },
@@ -87206,14 +87707,14 @@
  },
  "teamvs": {
   "date": "2026-11-17",
-  "built": "2026-11-17 01:38 AM ET",
+  "built": "2026-11-17 05:56 AM ET",
   "preview": false,
   "sports": {
    "NFL": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 01:38 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 05:56 AM ET",
     "none": "No NFL games today (ESPN scoreboard 2026-11-17)."
    },
    "NCAA F": {
@@ -87241,7 +87742,7 @@
          },
          "pts_d": {
           "val": 29.2222,
-          "rank": 98,
+          "rank": 97,
           "n": 138
          },
          "yds_d": {
@@ -87415,7 +87916,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/points-per-game",
-      "as_of": "2026-11-17 01:38 AM ET",
+      "as_of": "2026-11-17 05:56 AM ET",
       "n": 138,
       "engine": false
      },
@@ -87425,7 +87926,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/yards-per-game",
-      "as_of": "2026-11-17 01:38 AM ET",
+      "as_of": "2026-11-17 05:56 AM ET",
       "n": 138,
       "engine": false
      },
@@ -87435,7 +87936,7 @@
       "side": "def",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/college-football/stat/opponent-points-per-game",
-      "as_of": "2026-11-17 01:38 AM ET",
+      "as_of": "2026-11-17 05:56 AM ET",
       "n": 138,
       "engine": false
      },
@@ -87451,7 +87952,7 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 01:38 AM ET"
+    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 05:56 AM ET"
    },
    "NBA": {
     "games": [
@@ -87778,7 +88279,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/offensive-efficiency",
-      "as_of": "2026-11-17 01:38 AM ET",
+      "as_of": "2026-11-17 05:56 AM ET",
       "n": 30,
       "engine": false
      },
@@ -87788,7 +88289,7 @@
       "side": "def",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/defensive-efficiency",
-      "as_of": "2026-11-17 01:38 AM ET",
+      "as_of": "2026-11-17 05:56 AM ET",
       "n": 30,
       "engine": false
      },
@@ -87798,7 +88299,7 @@
       "side": "off",
       "src": "TeamRankings",
       "url": "https://www.teamrankings.com/nba/stat/points-per-game",
-      "as_of": "2026-11-17 01:38 AM ET",
+      "as_of": "2026-11-17 05:56 AM ET",
       "n": 30,
       "engine": false
      },
@@ -87814,7 +88315,7 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 01:38 AM ET"
+    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 05:56 AM ET"
    },
    "NHL": {
     "games": [
@@ -88519,7 +89020,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-17 01:38 AM ET",
+      "as_of": "2026-11-17 05:56 AM ET",
       "n": 32,
       "engine": false
      },
@@ -88539,7 +89040,7 @@
       "side": "off",
       "src": "api.nhle.com",
       "url": "https://api.nhle.com/stats/rest/en/team/summary?cayenneExp=seasonId=20262027%20and%20gameTypeId=2",
-      "as_of": "2026-11-17 01:38 AM ET",
+      "as_of": "2026-11-17 05:56 AM ET",
       "n": 32,
       "engine": false
      },
@@ -88555,13 +89056,13 @@
      }
     ],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 01:38 AM ET"
+    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 05:56 AM ET"
    },
    "MLB": {
     "games": [],
     "stats": [],
     "gaps": [],
-    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 01:38 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 05:56 AM ET",
     "none": "No MLB games today (ESPN scoreboard 2026-11-17)."
    },
    "WNBA": {
@@ -92033,7 +92534,7 @@
      "Simon Fraser Red Leafs: no Torvik rating (likely a non-Division I team)",
      "Pacific Union PACIFIC UNION: no Torvik rating (likely a non-Division I team)"
     ],
-    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 01:38 AM ET",
+    "games_src": "ESPN scoreboard 2026-11-17, fetched 2026-11-17 05:56 AM ET",
     "stats": [
      {
       "key": "adjo",
@@ -162489,6 +162990,89 @@
      }
     },
     "analyst": null
+   },
+   "original|v1|095fb48ee86b181783c084ba47aaa7a87ba5ca18a17fab379cf2830c8c2ba051": {
+    "original_id": "original|v1|095fb48ee86b181783c084ba47aaa7a87ba5ca18a17fab379cf2830c8c2ba051",
+    "owner": "capper_original",
+    "capper_id": "@actionnetworkhq",
+    "date": "2026-11-16",
+    "sport": "NBA",
+    "prop": "NBA points (under)",
+    "fam": "Player points",
+    "raw_pick": "Devin Booker Under 23.5 Points",
+    "raw_odds_cell": "-130",
+    "posted_odds_raw": null,
+    "posted_odds_reason": "Unverified original-post odds; legacy display cell retained separately",
+    "ticket_id": null,
+    "leg_count": 0,
+    "legs": [],
+    "selection": null,
+    "selection_state": "Unavailable",
+    "provenance_state": "ledger_only",
+    "source_post_ids": [],
+    "source_occurrences": [
+     {
+      "source_path": "inputs/00-data.json:results_v2.rows[1771]",
+      "raw_pick": "Devin Booker Under 23.5 Points",
+      "raw_odds_cell": "-130",
+      "legacy_row": {
+       "date": "2026-11-16",
+       "sport": "NBA",
+       "grp": "C",
+       "cat": "Cappers",
+       "prop": "@actionnetworkhq · NBA points (under)",
+       "fam": "Player points",
+       "pick": "Devin Booker Under 23.5 Points",
+       "odds": "-130",
+       "res": "W",
+       "stat": "W (20 PTS)",
+       "alt": false,
+       "leg": false,
+       "img": null,
+       "sub": "",
+       "legs": [],
+       "price_source": "posted",
+       "nu": false,
+       "uu": 0.77
+      }
+     }
+    ],
+    "grade": {
+     "result": "W",
+     "detail": "W (20 PTS)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1771]",
+     "revision": 0
+    },
+    "books": {
+     "hr": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     },
+     "dk": {
+      "state": "UNVERIFIED",
+      "reason": "Unavailable: no fresh exact-match evidence in offline preparation",
+      "sid": null,
+      "event_id": null,
+      "url": null,
+      "odds": null,
+      "fingerprint": null,
+      "verified_at_et": null,
+      "audit_path": null,
+      "absent": false,
+      "audit_verdict": null
+     }
+    },
+    "analyst": null
    }
   },
   "source_occurrences": [
@@ -165719,6 +166303,10 @@
    {
     "original_id": "original|v1|d9eb35c4fc50ce99fc07d888e1b9fa07447dd9d8e57c67102edf4a1ea337e0e5",
     "source_path": "inputs/00-data.json:results_v2.rows[1770]"
+   },
+   {
+    "original_id": "original|v1|095fb48ee86b181783c084ba47aaa7a87ba5ca18a17fab379cf2830c8c2ba051",
+    "source_path": "inputs/00-data.json:results_v2.rows[1771]"
    }
   ]
  },
@@ -197416,21 +198004,88 @@
      "nu": false,
      "uu": 0.8
     }
+   },
+   {
+    "record_id": "capper-record|v1|975af61caf1c0a114fda3c5764c0498a363e6aae7e29d7e57b1028dd84c12345",
+    "original_id": "original|v1|095fb48ee86b181783c084ba47aaa7a87ba5ca18a17fab379cf2830c8c2ba051",
+    "capper_id": "@actionnetworkhq",
+    "date": "2026-11-16",
+    "prop": "NBA points (under)",
+    "fam": "Player points",
+    "scope": "capper_original",
+    "countable": true,
+    "grade": {
+     "result": "W",
+     "detail": "W (20 PTS)",
+     "reason": "",
+     "evidence": "inputs/00-data.json:results_v2.rows[1771]",
+     "revision": 0
+    },
+    "legacy_row": {
+     "date": "2026-11-16",
+     "sport": "NBA",
+     "grp": "C",
+     "cat": "Cappers",
+     "prop": "@actionnetworkhq · NBA points (under)",
+     "fam": "Player points",
+     "pick": "Devin Booker Under 23.5 Points",
+     "odds": "-130",
+     "res": "W",
+     "stat": "W (20 PTS)",
+     "alt": false,
+     "leg": false,
+     "img": null,
+     "sub": "",
+     "legs": [],
+     "price_source": "posted",
+     "nu": false,
+     "uu": 0.77
+    }
    }
   ],
   "capper_tree": [
    {
     "capper_id": "@actionnetworkhq",
     "totals": {
-     "W": 4,
+     "W": 5,
      "L": 8,
      "P": 0,
      "Void": 0,
      "Pending": 0,
      "Unavailable": 0,
-     "rows": 12
+     "rows": 13
     },
     "props": [
+     {
+      "prop_id": "prop|v1|2fe68c1992d7425aad1d72607931c4627f59c1b4dc2f848473df1eaa1e802ce3",
+      "prop": "NBA points (under)",
+      "totals": {
+       "W": 1,
+       "L": 0,
+       "P": 0,
+       "Void": 0,
+       "Pending": 0,
+       "Unavailable": 0,
+       "rows": 1
+      },
+      "days": [
+       {
+        "date": "2026-11-16",
+        "record_ids": [
+         "capper-record|v1|975af61caf1c0a114fda3c5764c0498a363e6aae7e29d7e57b1028dd84c12345"
+        ],
+        "totals": {
+         "W": 1,
+         "L": 0,
+         "P": 0,
+         "Void": 0,
+         "Pending": 0,
+         "Unavailable": 0,
+         "rows": 1
+        }
+       }
+      ]
+     },
      {
       "prop_id": "prop|v1|5edd2fd27801605d11095e5e6d664eb4fe4e16845c7883ace9160d19320d5358",
       "prop": "NCAAF ML",
@@ -197705,10 +198360,10 @@
     ],
     "legacy_profile": {
      "name": "@actionnetworkhq",
-     "w": 4,
+     "w": 5,
      "l": 8,
      "p": 0,
-     "pct": 33,
+     "pct": 38,
      "props": [
       {
        "prop": "NCAAF rush yds (under)",
@@ -197717,6 +198372,14 @@
        "p": 0,
        "pct": "0%",
        "fam": "Rushing yds"
+      },
+      {
+       "prop": "NBA points (under)",
+       "w": 1,
+       "l": 0,
+       "p": 0,
+       "pct": "100%",
+       "fam": "Player points"
       },
       {
        "prop": "NCAAF ML",
@@ -210111,13 +210774,13 @@
    }
   ],
   "totals": {
-   "W": 417,
+   "W": 418,
    "L": 375,
    "P": 3,
    "Void": 12,
    "Pending": 0,
    "Unavailable": 0,
-   "rows": 807
+   "rows": 808
   }
  },
  "heist_pooled_originals": {
@@ -221808,7 +222471,7 @@
    "units": false
   },
   "comparison_only": true,
-  "built_at": "2026-11-17T01:40:19-05:00",
+  "built_at": "2026-11-17T05:58:54-05:00",
   "dates": {
    "2026-11-10": {
     "rows": [
@@ -225047,7 +225710,7 @@
     "row Replaced (allowlisted, card t937s3612); not graded"
    ]
   ],
-  "checked_et": "2026-11-17 01:40 AM ET"
+  "checked_et": "2026-11-17 05:58 AM ET"
  },
  "heist_straight_record": {
   "w": 66,
