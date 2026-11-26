@@ -1,5 +1,5 @@
 {
- "generated": 1795728349.1482494,
+ "generated": 1795728949.1905339,
  "today": {
   "title": "Nov 26 picks (Hard Rock)",
   "tickets": [
@@ -38,792 +38,235 @@
    "NFL": {
     "potd": null,
     "parlay": {
-     "pick": "2-leg",
-     "odds": "+130",
-     "game": "1u",
+     "pick": "3-leg",
+     "odds": "+101",
+     "game": "calc from Hard Rock leg prices",
      "status": "Pending",
-     "why": null,
-     "desc": "2-leg +130 (1u) — Pending",
+     "why": "Patrick Mahomes Over 174.5 Passing Yards: Mahomes averages 270.9 pass yds this season and has gone over 174.5 in 9 of 10 games. James Cook III Over 49.5 Rushing Yards: III averages 106.0 rush yds this season and has gone over 49.5 in 10 of 10 games. Josh Allen Over 199.5 Passing Yards: Allen averages 252.7 pass yds this season and has gone over 199.5 in 9 of 10 games.",
+     "desc": "3-leg +101 (calc from Hard Rock leg prices)",
+     "n": 2,
      "legs": [
       {
-       "pick": "Kyle Monangai Over 24.5 Rushing Yards",
-       "odds": "-230",
-       "game": "Lions vs Bears 01:00 PM ET",
+       "pick": "Patrick Mahomes Over 174.5 Passing Yards",
+       "odds": "-850",
+       "game": "Bills vs Chiefs 11/26 08:20 PM ET",
        "status": "Pending",
-       "why": "Volume: snaps L5 23/50/22/25/32 (L3 16.7 vs L10 14.3 touches+targets) | Hit: 8/10 at O24.5, 4/5 (L10 avg 50.7 vs 24.5 line) · H2H vs DET at O24.5: n/a. Usage: snap L5 40% / szn 40% (5g) · tgt L5 4% / szn 4% (5g) · carry L5 33% / szn 33% (5g) (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:23 PM ET). Matchup: DET 26/32 vs Rushing Yards (TR). Context: CHI -1 / O/U 56 | - | Away · Div · Prime. Injuries: Kyler Gordon, Roschon Johnson out | Opp out: Skyler Gill-Howard, Ennis Rakestraw Jr. Risk: matchup 26/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a).",
-       "why_not": "Normal variance at this line.",
-       "why_src": "Kyle Monangai Over 24.5 Rushing Yards -230. L10 8/10. No LineMate card (signed out).",
+       "why": "Volume: snaps L5 61/62/62/69/53 | Hit: 9/10 at line (L10 avg 270.9 vs 174.5 line) · H2H vs BUF at O174.5: n/a. Usage: snap L5 95% / L10 97% · carry L5 7% / L10 9% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET). Matchup: BUF 14/32 vs pass yds (226.3/g allowed, ESPN box scores; 1 = best for the over, neutral). Context: BUF -3 / O/U 46 (KC TT 21.5) | Away · Prime. Injuries: KC: Noah Gray (Questionable), Kenneth Walker III (Out) | BUF: Dalton Kincaid (Questionable). Weather: 35°F, Rain. Risk: Missed in 1 of the last 10 (low of 165 pass yds).",
+       "why_not": "He fell short as recently as SEA. Same-game parlay: the legs share one game script, so a bad night for the offense can sink both.",
+       "why_src": "Mahomes averages 270.9 pass yds this season and has gone over 174.5 in 9 of 10 games. Last 10 games: 9/10 cleared the line; last 5 went 324, 348, 242, 321, 165. Close game expected (Bills -3, total 46.0), which keeps both offenses playing it straight for four quarters. [A]",
        "ctx": {
-        "game": "Lions vs Bears",
-        "team": "CHI",
-        "opp": "DET",
-        "stat": "rush_yds",
+        "game": "Bills vs Chiefs",
+        "team": "KC",
+        "opp": "BUF",
+        "stat": "pass_yds",
         "h2h": {
          "h2h": null,
          "reason": "no exact player/stat/side/line LineMate card with an H2H line; no LineMate game-log file"
         },
-        "h2h_text": "H2H vs DET at O24.5: n/a",
+        "h2h_text": "H2H vs BUF at O174.5: n/a",
         "opp_rank": {
-         "rank": 26,
+         "rank": 14,
          "of": 32,
-         "src": "TeamRankings",
-         "pg": 93.4,
+         "pg": 226.3,
+         "src": "ESPN box scores",
          "scale": "1 = best matchup for the side taken (RULEBOOK §20)",
          "gp": 10
         },
-        "fav": "CHI",
-        "spread": -3.5,
-        "total": 73.5,
-        "team_totals": null,
-        "home": "DET",
-        "away": "CHI",
+        "fav": "BUF",
+        "spread": -3.0,
+        "total": 46.0,
+        "team_totals": {
+         "KC": 21.5,
+         "BUF": 24.5
+        },
+        "home": "BUF",
+        "away": "KC",
         "rest": null,
         "record": {
-         "DET": "8-2",
-         "CHI": "8-2"
+         "BUF": "9-1",
+         "KC": "8-2"
         },
-        "start_et": "Thu 11/26 01:00 PM ET",
+        "start_et": "Thu 11/26 08:20 PM ET",
         "out": {
-         "DET": [],
-         "CHI": [
+         "BUF": [
           {
-           "name": "Colston Loveland",
-           "status": "Out",
+           "name": "Dalton Kincaid",
+           "status": "Questionable",
            "pos": "TE",
-           "date": "2026-11-26"
+           "date": "2026-11-25"
+          }
+         ],
+         "KC": [
+          {
+           "name": "Noah Gray",
+           "status": "Questionable",
+           "pos": "TE",
+           "date": "2026-11-25"
           },
           {
-           "name": "Case Keenum",
-           "status": "Out",
-           "pos": "QB",
-           "date": "2026-11-26"
-          },
-          {
-           "name": "Roschon Johnson",
+           "name": "Kenneth Walker III",
            "status": "Out",
            "pos": "RB",
            "date": "2026-11-25"
           }
          ]
         },
-        "game_day": {
-         "sport": "NFL",
-         "game": "Lions vs Bears",
-         "role": "pool",
-         "team": "CHI",
-         "opponent": "DET",
-         "home_away": "away",
-         "identity": {
-          "athlete_id": "4608686",
-          "team": "CHI",
-          "how": "game-team roster (id + team)",
-          "reason": null
-         },
-         "l10": {
-          "hits": 8,
-          "n": 10,
-          "l5_hits": 4,
-          "l5_n": 5,
-          "season_hits": 4,
-          "season_n": 5,
-          "avg": 50.7,
-          "last_date": "2026-11-22"
-         },
-         "volume_collapse": {
-          "status": "ok",
-          "volume_stat": "touches+targets",
-          "blowout_margin": 21,
-          "blowout_source": "user default (21+)",
-          "floor": null,
-          "floor_source": "§16 lists touches/targets with no number: floor n/a",
-          "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-          "excluded_games": [
-           {
-            "date": "2026-09-13",
-            "opp": "CAR",
-            "v": 12.0,
-            "excluded_for": "blowout (margin 22)"
-           },
-           {
-            "date": "2026-01-18",
-            "opp": "LAR",
-            "v": 17.0,
-            "excluded_for": "OT/extra innings"
-           },
-           {
-            "date": "2025-12-21",
-            "opp": "GB",
-            "v": 13.0,
-            "excluded_for": "OT/extra innings"
-           },
-           {
-            "date": "2025-12-14",
-            "opp": "CLE",
-            "v": 13.0,
-            "excluded_for": "blowout (margin 28)"
-           }
-          ],
-          "unknown_margin_or_ot": 0,
-          "l3": [
-           9.0,
-           31.0,
-           10.0
-          ],
-          "l3_avg": 16.7,
-          "l10_avg": 14.3,
-          "l10_n": 10,
-          "drop_pct": -16.6,
-          "last_game": {
-           "date": "2026-11-22",
-           "opp": "NO",
-           "v": 9.0,
-           "spot": null
-          },
-          "possible_exit_games": [],
-          "reason": "no collapse"
-         },
-         "matchup": {
-          "raw_opp_rank": 7,
-          "raw_meaning": "teamrankings: opponent rushing yards per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 7 (TeamRankings rank 1 = lowest value (ascending))",
-          "direction": "normalized 1 = best for the side taken",
-          "normalized": 26,
-          "of": 32,
-          "source": "teamrankings",
-          "stat": "rushing yards",
-          "linemate": null,
-          "linemate_null_reason": "no LineMate card for this player/stat/side",
-          "fallback": {
-           "value": 93.4,
-           "raw": 7,
-           "of": 32,
-           "source": "teamrankings",
-           "source_rank": 7,
-           "source_team": "Detroit",
-           "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
-           "mapping": "opponent rushing yards per game",
-           "url": "https://www.teamrankings.com/nfl/stat/opponent-rushing-yards-per-game",
-           "fetched_at": "2026-11-26 01:28 AM ET"
-          },
-          "fallback_source": {
-           "file": "/workspace/scout/ranks/NFL-2026-11-26.json",
-           "source": "teamrankings",
-           "fetched_at": "2026-11-26 01:28 AM ET",
-           "failures": {},
-           "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
-           "fantasyteamadvice": null
-          },
-          "source_rank": 7,
-          "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
-         },
-         "matchup_rank": 26,
-         "spread": "CHI -1",
-         "total": 56.0,
-         "team_totals": {
-          "Bears": 28.5,
-          "Lions": 27.5
-         },
-         "pace": "-",
-         "division_game": true,
-         "national_tv": [
-          "CBS"
-         ],
-         "rest_days": 3,
-         "b2b": false,
-         "venue": "Ford Field",
-         "indoor": true,
-         "teammates_out": [
-          "Kyler Gordon",
-          "Roschon Johnson",
-          "Elijah Hicks"
-         ],
-         "opp_out": [
-          "Skyler Gill-Howard",
-          "Ennis Rakestraw Jr.",
-          "Cade Mays"
-         ],
-         "player_injury_status": "not listed",
-         "lm_without": [],
-         "lm_vs_opp": "n/a",
-         "weather": "indoor",
-         "matchup_tier": "demoted",
-         "matchup_pref_limit": 21,
-         "role_check": {
-          "status": "ok",
-          "rules": [],
-          "thresholds": {
-           "role_drop": 0.6,
-           "line_vol": 0.6,
-           "mate_up": 1.5,
-           "wr_rush": "2+ att in 3 of 4"
-          },
-          "volume_stat": "rushingAttempts",
-          "last": {
-           "date": "2026-11-22",
-           "vol": 8.0,
-           "val": 18.0
-          },
-          "l10_avg_vol": 11.5,
-          "line_needs_vol": 5.4,
-          "position": "RB",
-          "top_teammate": {
-           "name": "D'Andre Swift",
-           "position": "RB",
-           "last": 13.0,
-           "prior4_avg": 19.2
-          },
-          "reason": "role ok"
-         }
+        "weather": {
+         "text": "Rain",
+         "temp": 35
         },
-        "filters_applied": {
-         "vetoes": [],
-         "flags": [
-          "matchup 26/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)"
-         ],
-         "matchup_rank": 26,
-         "matchup_tier": "demoted",
-         "preference_limit": 21,
-         "hard_vetoes_apply": true,
-         "applied_at": "2026-11-26 04:46 AM ET"
-        },
-        "why_from": "scout",
         "usage": {
          "parts": [
-          "snap L5 40% / szn 40% (5g)",
-          "tgt L5 4% / szn 4% (5g)",
-          "carry L5 33% / szn 33% (5g)"
+          "snap L5 95% / L10 97%",
+          "carry L5 7% / L10 9%"
          ],
          "src": [
           "snaps nflverse/PFR thru Wk11",
           "tgt/carry ESPN box thru 11/22"
          ],
-         "asof": "11/26 4:23 PM ET"
+         "asof": "11/26 4:35 PM ET"
         }
        },
        "gameday": [
-        "Volume: snaps L5 23/50/22/25/32 (L3 16.7 vs L10 14.3 touches+targets) | Hit: 8/10 at O24.5, 4/5 (L10 avg 50.7 vs 24.5 line) · H2H vs DET at O24.5: n/a",
-        "Usage: snap L5 40% / szn 40% (5g) · tgt L5 4% / szn 4% (5g) · carry L5 33% / szn 33% (5g) (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:23 PM ET)",
-        "Matchup: DET 26/32 vs Rushing Yards (TR)",
-        "Context: CHI -1 / O/U 56 | - | Away · Div · Prime",
-        "Injuries: Kyler Gordon, Roschon Johnson out | Opp out: Skyler Gill-Howard, Ennis Rakestraw Jr",
-        "Risk: matchup 26/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a)"
+        "Volume: snaps L5 61/62/62/69/53 | Hit: 9/10 at line (L10 avg 270.9 vs 174.5 line) · H2H vs BUF at O174.5: n/a",
+        "Usage: snap L5 95% / L10 97% · carry L5 7% / L10 9% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET)",
+        "Matchup: BUF 14/32 vs pass yds (226.3/g allowed, ESPN box scores; 1 = best for the over, neutral)",
+        "Context: BUF -3 / O/U 46 (KC TT 21.5) | Away · Prime",
+        "Injuries: KC: Noah Gray (Questionable), Kenneth Walker III (Out) | BUF: Dalton Kincaid (Questionable)",
+        "Weather: 35°F, Rain",
+        "Risk: Missed in 1 of the last 10 (low of 165 pass yds)"
        ],
        "dk": {
         "odds": null,
         "na": true,
         "ladder": [
          [
-          "20+",
-          "-317"
-         ],
-         [
-          "30+",
-          "-138"
-         ],
-         [
-          "34+",
-          "-108"
-         ],
-         [
-          "40+",
-          "+138"
-         ],
-         [
-          "50+",
-          "+223"
-         ],
-         [
-          "60+",
-          "+347"
-         ],
-         [
-          "70+",
-          "+617"
-         ],
-         [
-          "80+",
-          "+755"
-         ],
-         [
-          "90+",
-          "+1069"
-         ],
-         [
-          "100+",
-          "+1459"
-         ],
-         [
-          "110+",
-          "+1784"
-         ],
-         [
-          "120+",
-          "+2222"
-         ],
-         [
-          "130+",
-          "+1249"
-         ],
-         [
           "140+",
-          "+1249"
-         ],
-         [
-          "150+",
-          "+1249"
-         ],
-         [
-          "160+",
-          "+1249"
-         ],
-         [
-          "170+",
-          "+1249"
-         ],
-         [
-          "180+",
-          "+1249"
-         ],
-         [
-          "190+",
-          "+1249"
-         ],
-         [
-          "200+",
-          "+1249"
-         ],
-         [
-          "210+",
-          "+1249"
-         ],
-         [
-          "220+",
-          "+1249"
-         ],
-         [
-          "230+",
-          "+1249"
-         ]
-        ]
-       },
-       "hr_sid": "3477424762167361954",
-       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3477424762167361954",
-       "hr_live": {
-        "label": "Live HR price +500 as of 16:30 ET (game started; posted odds unchanged) (market paused)",
-        "price": "+500",
-        "at": "2026-11-26T16:30:38-05:00",
-        "paused": true
-       },
-       "hr_live_label": {
-        "label": "Live HR price +500 as of 16:30 ET (game started; posted odds unchanged) (market paused)",
-        "price": "+500",
-        "at": "2026-11-26T16:30:38-05:00",
-        "paused": true
-       },
-       "hr_now": "+500",
-       "leg_id": "L1",
-       "swap_candidates": [],
-       "swap_note": "a leg has started (§24)",
-       "dk_sid": null,
-       "dk_link": null,
-       "dk_why": "line/side not offered on DraftKings Predictions right now (DK has 20+, 30+, 40+, 50+, 60+, 70+, 80+, 90+, not Over 24.5)",
-       "dk_absent": true,
-       "bk_start": "2026-11-26T13:00-05:00",
-       "bk_started": true,
-       "bk_started_why": "game started",
-       "link_status": "linked",
-       "link_reason": "",
-       "link_books": {
-        "hr": {
-         "status": "linked",
-         "reason": ""
-        },
-        "dk": {
-         "status": "started",
-         "reason": "game started"
-        }
-       }
-      },
-      {
-       "pick": "Dak Prescott Over 249.5 Passing Yards",
-       "odds": "-165",
-       "game": "Cowboys vs Eagles 04:30 PM ET",
-       "status": "Pending",
-       "why": "Volume: snaps L5 65/83/79/74/68 (L3 37.3 vs L10 36.9 pass attempts) | Hit: 8/10 at O249.5, 3/5 (L10 avg 287.4 vs 249.5 line) · H2H vs PHI at O249.5: n/a. Usage: snap L5 100% / L10 100% · carry L5 12% / L10 11% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:23 PM ET). Matchup: PHI 16/32 vs Passing Yards (TR). Context: DAL -8.5 / O/U 48 | - | Home · Div · Prime. Injuries: Devin Moore, P.J.⁠ Locke out | Opp out: Arnold Ebiketie, Jonathan Jones. Risk: possible in-game exit (not verifiable, not excluded): 2026-01-04 11.0.",
-       "why_not": "Normal variance at this line.",
-       "why_src": "Dak Prescott Over 249.5 Passing Yards -165. L10 8/10. No LineMate card (signed out).",
-       "ctx": {
-        "game": "Cowboys vs Eagles",
-        "team": "DAL",
-        "opp": "PHI",
-        "stat": "pass_yds",
-        "h2h": {
-         "h2h": null,
-         "reason": "no exact player/stat/side/line LineMate card with an H2H line; no LineMate game-log file"
-        },
-        "h2h_text": "H2H vs PHI at O249.5: n/a",
-        "opp_rank": {
-         "rank": 16,
-         "of": 32,
-         "src": "TeamRankings",
-         "pg": 222.8,
-         "scale": "1 = best matchup for the side taken (RULEBOOK §20)",
-         "gp": 10
-        },
-        "fav": "DAL",
-        "spread": -9.0,
-        "total": 49.5,
-        "team_totals": {
-         "DAL": 1.5,
-         "PHI": 19.5
-        },
-        "home": "DAL",
-        "away": "PHI",
-        "rest": null,
-        "record": {
-         "DAL": "5-6",
-         "PHI": "3-7"
-        },
-        "start_et": "Thu 11/26 04:30 PM ET",
-        "out": {
-         "DAL": [
-          {
-           "name": "Jake Ferguson",
-           "status": "Out",
-           "pos": "TE",
-           "date": "2026-11-26"
-          },
-          {
-           "name": "Jonathan Mingo",
-           "status": "Out",
-           "pos": "WR",
-           "date": "2026-11-26"
-          }
-         ],
-         "PHI": [
-          {
-           "name": "Cole Payton",
-           "status": "Out",
-           "pos": "QB",
-           "date": "2026-11-26"
-          },
-          {
-           "name": "Grant Calcaterra",
-           "status": "Out",
-           "pos": "TE",
-           "date": "2026-11-26"
-          }
-         ]
-        },
-        "game_day": {
-         "sport": "NFL",
-         "game": "Cowboys vs Eagles",
-         "role": "pool",
-         "team": "DAL",
-         "opponent": "PHI",
-         "home_away": "home",
-         "identity": {
-          "athlete_id": "2577417",
-          "team": "DAL",
-          "how": "game-team roster (id + team)",
-          "reason": null
-         },
-         "l10": {
-          "hits": 8,
-          "n": 10,
-          "l5_hits": 3,
-          "l5_n": 5,
-          "season_hits": 8,
-          "season_n": 11,
-          "avg": 287.4,
-          "last_date": "2026-11-22"
-         },
-         "volume_collapse": {
-          "status": "ok",
-          "volume_stat": "pass attempts",
-          "blowout_margin": 21,
-          "blowout_source": "user default (21+)",
-          "floor": null,
-          "floor_source": "§16 lists touches/targets with no number: floor n/a",
-          "injury_exit_note": "no source feed marks in-game injury exits; none can be excluded automatically. A counted game under 50% of his L10 median is flagged \"possible exit - verify\" (not excluded).",
-          "excluded_games": [
-           {
-            "date": "2026-11-22",
-            "opp": "TEN",
-            "v": 33.0,
-            "excluded_for": "blowout (margin 21)"
-           },
-           {
-            "date": "2026-11-01",
-            "opp": "ARI",
-            "v": 29.0,
-            "excluded_for": "OT/extra innings"
-           }
-          ],
-          "unknown_margin_or_ot": 0,
-          "l3": [
-           51.0,
-           34.0,
-           27.0
-          ],
-          "l3_avg": 37.3,
-          "l10_avg": 36.9,
-          "l10_n": 10,
-          "drop_pct": -1.2,
-          "last_game": {
-           "date": "2026-11-15",
-           "opp": "SF",
-           "v": 51.0,
-           "spot": null
-          },
-          "possible_exit_games": [
-           {
-            "date": "2026-01-04",
-            "v": 11.0
-           }
-          ],
-          "reason": "no collapse"
-         },
-         "matchup": {
-          "raw_opp_rank": 17,
-          "raw_meaning": "teamrankings: opponent passing yards per game; raw re-ranked ascending (1 = lowest = toughest for an over); source rank 17 (TeamRankings rank 1 = lowest value (ascending))",
-          "direction": "normalized 1 = best for the side taken",
-          "normalized": 16,
-          "of": 32,
-          "source": "teamrankings",
-          "stat": "passing yards",
-          "linemate": null,
-          "linemate_null_reason": "no LineMate card for this player/stat/side",
-          "fallback": {
-           "value": 222.8,
-           "raw": 17,
-           "of": 32,
-           "source": "teamrankings",
-           "source_rank": 17,
-           "source_team": "Philadelphia",
-           "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)",
-           "mapping": "opponent passing yards per game",
-           "url": "https://www.teamrankings.com/nfl/stat/opponent-passing-yards-per-game",
-           "fetched_at": "2026-11-26 01:28 AM ET"
-          },
-          "fallback_source": {
-           "file": "/workspace/scout/ranks/NFL-2026-11-26.json",
-           "source": "teamrankings",
-           "fetched_at": "2026-11-26 01:28 AM ET",
-           "failures": {},
-           "myspariedge": "not used: DvP data API returns 401 Authentication required (login); page is JS-only. Not bypassed.",
-           "fantasyteamadvice": null
-          },
-          "source_rank": 17,
-          "source_rank_direction": "TeamRankings rank 1 = lowest value (ascending)"
-         },
-         "matchup_rank": 16,
-         "spread": "DAL -8.5",
-         "total": 48.0,
-         "team_totals": {
-          "Eagles": 19.5,
-          "Cowboys": 29.5
-         },
-         "pace": "-",
-         "division_game": true,
-         "national_tv": [
-          "Fox"
-         ],
-         "rest_days": 3,
-         "b2b": false,
-         "venue": "AT&T Stadium",
-         "indoor": true,
-         "teammates_out": [
-          "Devin Moore",
-          "P.J. Locke",
-          "Jonathan Mingo",
-          "Jake Ferguson",
-          "DaRon Bland",
-          "Tyler Booker"
-         ],
-         "opp_out": [
-          "Arnold Ebiketie",
-          "Jonathan Jones",
-          "Zack Baun",
-          "Dontayvion Wicks"
-         ],
-         "player_injury_status": "not listed",
-         "lm_without": [],
-         "lm_vs_opp": "n/a",
-         "weather": "indoor",
-         "matchup_tier": "preferred",
-         "matchup_pref_limit": 21,
-         "role_check": {
-          "status": "ok",
-          "rules": [],
-          "thresholds": {
-           "role_drop": 0.6,
-           "line_vol": 0.6,
-           "mate_up": 1.5,
-           "wr_rush": "2+ att in 3 of 4"
-          },
-          "volume_stat": "passingAttempts",
-          "last": {
-           "date": "2026-11-22",
-           "vol": 33.0,
-           "val": 325.0
-          },
-          "l10_avg_vol": 38.7,
-          "line_needs_vol": 33.5,
-          "position": "QB",
-          "reason": "role ok"
-         }
-        },
-        "filters_applied": {
-         "vetoes": [],
-         "flags": [
-          "possible in-game exit (not verifiable, not excluded): 2026-01-04 11.0"
-         ],
-         "matchup_rank": 16,
-         "matchup_tier": "preferred",
-         "preference_limit": 21,
-         "hard_vetoes_apply": true,
-         "applied_at": "2026-11-26 04:46 AM ET"
-        },
-        "why_from": "scout",
-        "usage": {
-         "parts": [
-          "snap L5 100% / L10 100%",
-          "carry L5 12% / L10 11%"
-         ],
-         "src": [
-          "snaps nflverse/PFR thru Wk11",
-          "tgt/carry ESPN box thru 11/22"
-         ],
-         "asof": "11/26 4:23 PM ET"
-        }
-       },
-       "gameday": [
-        "Volume: snaps L5 65/83/79/74/68 (L3 37.3 vs L10 36.9 pass attempts) | Hit: 8/10 at O249.5, 3/5 (L10 avg 287.4 vs 249.5 line) · H2H vs PHI at O249.5: n/a",
-        "Usage: snap L5 100% / L10 100% · carry L5 12% / L10 11% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:23 PM ET)",
-        "Matchup: PHI 16/32 vs Passing Yards (TR)",
-        "Context: DAL -8.5 / O/U 48 | - | Home · Div · Prime",
-        "Injuries: Devin Moore, P.J.⁠ Locke out | Opp out: Arnold Ebiketie, Jonathan Jones",
-        "Risk: possible in-game exit (not verifiable, not excluded): 2026-01-04 11.0"
-       ],
-       "dk": {
-        "odds": "-178",
-        "na": false,
-        "ladder": [
-         [
-          "170+",
           "-9900"
          ],
          [
-          "180+",
-          "-3233"
+          "150+",
+          "-1329"
          ],
          [
-          "190+",
-          "-4900"
+          "160+",
+          "-1150"
          ],
          [
-          "200+",
+          "170+",
           "-733"
          ],
          [
-          "210+",
-          "-669"
+          "180+",
+          "-525"
          ],
          [
-          "220+",
-          "-456"
+          "190+",
+          "-376"
          ],
          [
-          "230+",
-          "-335"
-         ],
-         [
-          "240+",
+          "200+",
           "-245"
          ],
          [
-          "250+",
-          "-178"
+          "210+",
+          "-194"
          ],
          [
-          "260+",
-          "-144"
+          "220+",
+          "-150"
          ],
          [
-          "268+",
+          "228+",
           "-127"
          ],
          [
+          "230+",
+          "-117"
+         ],
+         [
+          "240+",
+          "-127"
+         ],
+         [
+          "250+",
+          "+127"
+         ],
+         [
+          "260+",
+          "+170"
+         ],
+         [
           "270+",
-          "-113"
+          "+212"
          ],
          [
           "280+",
-          "+117"
+          "+276"
          ],
          [
           "290+",
-          "+144"
+          "+347"
          ],
          [
           "300+",
-          "+178"
-         ],
-         [
-          "310+",
-          "+194"
-         ],
-         [
-          "320+",
-          "+203"
-         ],
-         [
-          "330+",
-          "+308"
-         ],
-         [
-          "340+",
-          "+393"
-         ],
-         [
-          "350+",
-          "+523"
-         ],
-         [
-          "360+",
           "+451"
          ],
          [
-          "370+",
-          "+523"
+          "310+",
+          "+567"
          ],
          [
-          "380+",
-          "+617"
+          "320+",
+          "+675"
          ],
          [
-          "390+",
+          "330+",
+          "+835"
+         ],
+         [
+          "340+",
+          "+1069"
+         ],
+         [
+          "350+",
           "+1249"
          ],
          [
-          "400+",
+          "360+",
           "+1459"
+         ],
+         [
+          "370+",
+          "+1784"
+         ],
+         [
+          "380+",
+          "+2222"
+         ],
+         [
+          "390+",
+          "+2222"
+         ],
+         [
+          "400+",
+          "+2222"
          ],
          [
           "410+",
-          "+1459"
+          "+2222"
          ],
          [
           "420+",
-          "+939"
+          "+2222"
          ],
          [
           "430+",
-          "+1069"
+          "+2222"
          ],
          [
           "440+",
-          "+1069"
+          "+2222"
          ],
          [
           "450+",
@@ -831,23 +274,224 @@
          ]
         ]
        },
-       "hr_sid": "9088487393348157843",
-       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/9088487393348157843",
-       "hr_live": {
-        "label": "Live HR price -200 as of 16:30 ET (game started; posted odds unchanged)",
-        "price": "-200",
-        "at": "2026-11-26T16:30:38-05:00",
-        "paused": false
+       "hr_sid": "4279035946464313754",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4279035946464313754",
+       "hr_live": "-700",
+       "hr_now": "-700",
+       "leg_id": "L1",
+       "swap_candidates": [],
+       "swap_note": "no eligible replacement leg",
+       "dk_sid": null,
+       "dk_link": null,
+       "dk_why": "line/side not offered on DraftKings Predictions right now (DK has Over 227.5, 140+, 150+, 160+, 170+, 180+, 190+, 200+, not Over 174.5)",
+       "dk_absent": true,
+       "bk_start": "2026-11-26T20:20-05:00",
+       "link_status": "linked",
+       "link_reason": "",
+       "link_books": {
+        "hr": {
+         "status": "linked",
+         "reason": ""
+        },
+        "dk": {
+         "status": "not_offered",
+         "reason": "not offered at DK"
+        }
+       }
+      },
+      {
+       "pick": "James Cook III Over 49.5 Rushing Yards",
+       "odds": "-600",
+       "game": "Bills vs Chiefs 11/26 08:20 PM ET",
+       "status": "Pending",
+       "why": "Volume: snaps L5 41/35/51/44/45 | Hit: 10/10 at line (L10 avg 106.0 vs 49.5 line) · H2H vs KC at O49.5: n/a. Usage: snap L5 60% / L10 63% · tgt L5 6% / L10 7% · carry L5 67% / L10 66% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET). Matchup: KC 23/32 vs rush yds (95.5/g allowed, ESPN box scores; 1 = best for the over, unfavorable). Context: BUF -3 / O/U 46 (BUF TT 24.5) | Home · Prime. Injuries: BUF: Dalton Kincaid (Questionable) | KC: Noah Gray (Questionable), Kenneth Walker III (Out). Weather: 35°F, Rain. Risk: Tough matchup: KC 23/32 vs rush yds.",
+       "why_not": "Same-game parlay: the legs share one game script, so a bad night for the offense can sink both.",
+       "why_src": "III averages 106.0 rush yds this season and has gone over 49.5 in 10 of 10 games. Last 10 games: 10/10 cleared the line; last 5 went 89, 157, 107, 80, 95. Close game expected (Bills -3, total 46.0), which keeps both offenses playing it straight for four quarters. [A]",
+       "ctx": {
+        "game": "Bills vs Chiefs",
+        "team": "BUF",
+        "opp": "KC",
+        "stat": "rush_yds",
+        "h2h": {
+         "h2h": null,
+         "reason": "no exact player/stat/side/line LineMate card with an H2H line; no LineMate game-log file"
+        },
+        "h2h_text": "H2H vs KC at O49.5: n/a",
+        "opp_rank": {
+         "rank": 23,
+         "of": 32,
+         "pg": 95.5,
+         "src": "ESPN box scores",
+         "scale": "1 = best matchup for the side taken (RULEBOOK §20)",
+         "gp": 10
+        },
+        "fav": "BUF",
+        "spread": -3.0,
+        "total": 46.0,
+        "team_totals": {
+         "KC": 21.5,
+         "BUF": 24.5
+        },
+        "home": "BUF",
+        "away": "KC",
+        "rest": null,
+        "record": {
+         "BUF": "9-1",
+         "KC": "8-2"
+        },
+        "start_et": "Thu 11/26 08:20 PM ET",
+        "out": {
+         "BUF": [
+          {
+           "name": "Dalton Kincaid",
+           "status": "Questionable",
+           "pos": "TE",
+           "date": "2026-11-25"
+          }
+         ],
+         "KC": [
+          {
+           "name": "Noah Gray",
+           "status": "Questionable",
+           "pos": "TE",
+           "date": "2026-11-25"
+          },
+          {
+           "name": "Kenneth Walker III",
+           "status": "Out",
+           "pos": "RB",
+           "date": "2026-11-25"
+          }
+         ]
+        },
+        "weather": {
+         "text": "Rain",
+         "temp": 35
+        },
+        "usage": {
+         "parts": [
+          "snap L5 60% / L10 63%",
+          "tgt L5 6% / L10 7%",
+          "carry L5 67% / L10 66%"
+         ],
+         "src": [
+          "snaps nflverse/PFR thru Wk11",
+          "tgt/carry ESPN box thru 11/22"
+         ],
+         "asof": "11/26 4:35 PM ET"
+        }
        },
-       "hr_now": "-200",
-       "dk_sid": "0QA391890559#2377828445_13L88808Q1-2143690359Q20",
-       "dk_eid": "34118122",
-       "dk_link": "https://sportsbook.draftkings.com/event/34118122?outcomes=0QA391890559%232377828445_13L88808Q1-2143690359Q20",
-       "dk_live": "-178",
+       "gameday": [
+        "Volume: snaps L5 41/35/51/44/45 | Hit: 10/10 at line (L10 avg 106.0 vs 49.5 line) · H2H vs KC at O49.5: n/a",
+        "Usage: snap L5 60% / L10 63% · tgt L5 6% / L10 7% · carry L5 67% / L10 66% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET)",
+        "Matchup: KC 23/32 vs rush yds (95.5/g allowed, ESPN box scores; 1 = best for the over, unfavorable)",
+        "Context: BUF -3 / O/U 46 (BUF TT 24.5) | Home · Prime",
+        "Injuries: BUF: Dalton Kincaid (Questionable) | KC: Noah Gray (Questionable), Kenneth Walker III (Out)",
+        "Weather: 35°F, Rain",
+        "Risk: Tough matchup: KC 23/32 vs rush yds"
+       ],
+       "dk": {
+        "odds": "-900",
+        "na": false,
+        "ladder": [
+         [
+          "40+",
+          "-4900"
+         ],
+         [
+          "50+",
+          "-900"
+         ],
+         [
+          "60+",
+          "-456"
+         ],
+         [
+          "70+",
+          "-213"
+         ],
+         [
+          "80+",
+          "-138"
+         ],
+         [
+          "87+",
+          "-127"
+         ],
+         [
+          "90+",
+          "+108"
+         ],
+         [
+          "100+",
+          "+150"
+         ],
+         [
+          "110+",
+          "+212"
+         ],
+         [
+          "120+",
+          "+308"
+         ],
+         [
+          "130+",
+          "+451"
+         ],
+         [
+          "140+",
+          "+617"
+         ],
+         [
+          "150+",
+          "+939"
+         ],
+         [
+          "160+",
+          "+1249"
+         ],
+         [
+          "170+",
+          "+1459"
+         ],
+         [
+          "180+",
+          "+2222"
+         ],
+         [
+          "190+",
+          "+2985"
+         ],
+         [
+          "200+",
+          "+2222"
+         ],
+         [
+          "210+",
+          "+2222"
+         ],
+         [
+          "220+",
+          "+2222"
+         ],
+         [
+          "230+",
+          "+2222"
+         ]
+        ]
+       },
+       "hr_sid": "5680256811897323930",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/5680256811897323930",
+       "hr_live": "-850",
+       "hr_now": "-850",
+       "dk_sid": "0QA391897917#2377876298_13L88808Q11582321587Q20",
+       "dk_eid": "34118209",
+       "dk_link": "https://sportsbook.draftkings.com/event/34118209?outcomes=0QA391897917%232377876298_13L88808Q11582321587Q20",
+       "dk_live": "-1011",
        "leg_id": "L2",
        "swap_candidates": [],
-       "swap_note": "a leg has started (§24)",
-       "bk_start": "2026-11-26T16:30-05:00",
+       "swap_note": "no eligible replacement leg",
+       "bk_start": "2026-11-26T20:20-05:00",
        "link_status": "linked",
        "link_reason": "",
        "link_books": {
@@ -859,22 +503,273 @@
          "status": "linked",
          "reason": ""
         }
+       }
+      },
+      {
+       "pick": "Josh Allen Over 199.5 Passing Yards",
+       "odds": "-185",
+       "game": "Bills vs Chiefs 11/26 08:20 PM ET",
+       "status": "Pending",
+       "why": "Volume: snaps L5 77/54/77/78/68 | Hit: 9/10 at line (L10 avg 252.7 vs 199.5 line) · H2H vs KC at O199.5: n/a. Usage: snap L5 97% / L10 98% · carry L5 13% / L10 21% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET). Matchup: KC 25/32 vs pass yds (208.3/g allowed, ESPN box scores; 1 = best for the over, unfavorable). Context: BUF -3 / O/U 46 (BUF TT 24.5) | Home · Prime. Injuries: BUF: Dalton Kincaid (Questionable) | KC: Noah Gray (Questionable), Kenneth Walker III (Out). Weather: 35°F, Rain. Risk: Tough matchup: KC 25/32 vs pass yds.",
+       "why_not": "Missed in 1 of the last 10 (low of 196 pass yds). He fell short as recently as NYJ. Same-game parlay: the legs share one game script, so a bad night for the offense can sink both.",
+       "why_src": "Allen averages 252.7 pass yds this season and has gone over 199.5 in 9 of 10 games. Last 10 games: 9/10 cleared the line; last 5 went 304, 196, 234, 289, 255. Close game expected (Bills -3, total 46.0), which keeps both offenses playing it straight for four quarters. [A]",
+       "ctx": {
+        "game": "Bills vs Chiefs",
+        "team": "BUF",
+        "opp": "KC",
+        "stat": "pass_yds",
+        "h2h": {
+         "h2h": null,
+         "reason": "no exact player/stat/side/line LineMate card with an H2H line; no LineMate game-log file"
+        },
+        "h2h_text": "H2H vs KC at O199.5: n/a",
+        "opp_rank": {
+         "rank": 25,
+         "of": 32,
+         "pg": 208.3,
+         "src": "ESPN box scores",
+         "scale": "1 = best matchup for the side taken (RULEBOOK §20)",
+         "gp": 10
+        },
+        "fav": "BUF",
+        "spread": -3.0,
+        "total": 46.0,
+        "team_totals": {
+         "KC": 21.5,
+         "BUF": 24.5
+        },
+        "home": "BUF",
+        "away": "KC",
+        "rest": null,
+        "record": {
+         "BUF": "9-1",
+         "KC": "8-2"
+        },
+        "start_et": "Thu 11/26 08:20 PM ET",
+        "out": {
+         "BUF": [
+          {
+           "name": "Dalton Kincaid",
+           "status": "Questionable",
+           "pos": "TE",
+           "date": "2026-11-25"
+          }
+         ],
+         "KC": [
+          {
+           "name": "Noah Gray",
+           "status": "Questionable",
+           "pos": "TE",
+           "date": "2026-11-25"
+          },
+          {
+           "name": "Kenneth Walker III",
+           "status": "Out",
+           "pos": "RB",
+           "date": "2026-11-25"
+          }
+         ]
+        },
+        "weather": {
+         "text": "Rain",
+         "temp": 35
+        },
+        "usage": {
+         "parts": [
+          "snap L5 97% / L10 98%",
+          "carry L5 13% / L10 21%"
+         ],
+         "src": [
+          "snaps nflverse/PFR thru Wk11",
+          "tgt/carry ESPN box thru 11/22"
+         ],
+         "asof": "11/26 4:35 PM ET"
+        }
        },
-       "hr_live_label": {
-        "label": "Live HR price -200 as of 16:30 ET (game started; posted odds unchanged)",
-        "price": "-200",
-        "at": "2026-11-26T16:30:38-05:00",
-        "paused": false
+       "gameday": [
+        "Volume: snaps L5 77/54/77/78/68 | Hit: 9/10 at line (L10 avg 252.7 vs 199.5 line) · H2H vs KC at O199.5: n/a",
+        "Usage: snap L5 97% / L10 98% · carry L5 13% / L10 21% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET)",
+        "Matchup: KC 25/32 vs pass yds (208.3/g allowed, ESPN box scores; 1 = best for the over, unfavorable)",
+        "Context: BUF -3 / O/U 46 (BUF TT 24.5) | Home · Prime",
+        "Injuries: BUF: Dalton Kincaid (Questionable) | KC: Noah Gray (Questionable), Kenneth Walker III (Out)",
+        "Weather: 35°F, Rain",
+        "Risk: Tough matchup: KC 25/32 vs pass yds"
+       ],
+       "dk": {
+        "odds": "-178",
+        "na": false,
+        "ladder": [
+         [
+          "130+",
+          "-9900"
+         ],
+         [
+          "140+",
+          "-2400"
+         ],
+         [
+          "150+",
+          "-809"
+         ],
+         [
+          "160+",
+          "-733"
+         ],
+         [
+          "170+",
+          "-488"
+         ],
+         [
+          "180+",
+          "-355"
+         ],
+         [
+          "190+",
+          "-257"
+         ],
+         [
+          "200+",
+          "-178"
+         ],
+         [
+          "210+",
+          "-144"
+         ],
+         [
+          "216+",
+          "-122"
+         ],
+         [
+          "220+",
+          "-113"
+         ],
+         [
+          "230+",
+          "-117"
+         ],
+         [
+          "240+",
+          "+144"
+         ],
+         [
+          "250+",
+          "+186"
+         ],
+         [
+          "260+",
+          "+223"
+         ],
+         [
+          "270+",
+          "+291"
+         ],
+         [
+          "280+",
+          "+369"
+         ],
+         [
+          "290+",
+          "+451"
+         ],
+         [
+          "300+",
+          "+617"
+         ],
+         [
+          "310+",
+          "+675"
+         ],
+         [
+          "320+",
+          "+835"
+         ],
+         [
+          "330+",
+          "+1069"
+         ],
+         [
+          "340+",
+          "+1249"
+         ],
+         [
+          "350+",
+          "+1459"
+         ],
+         [
+          "360+",
+          "+1784"
+         ],
+         [
+          "370+",
+          "+2222"
+         ],
+         [
+          "380+",
+          "+2222"
+         ],
+         [
+          "390+",
+          "+2222"
+         ],
+         [
+          "400+",
+          "+2222"
+         ],
+         [
+          "410+",
+          "+2222"
+         ],
+         [
+          "420+",
+          "+2222"
+         ],
+         [
+          "430+",
+          "+2222"
+         ],
+         [
+          "440+",
+          "+2222"
+         ],
+         [
+          "450+",
+          "+2222"
+         ]
+        ]
+       },
+       "hr_sid": "3107914174343283098",
+       "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3107914174343283098",
+       "hr_live": "-185",
+       "dk_sid": "0QA391918335#2377978243_13L88808Q1721550941Q20",
+       "dk_eid": "34118209",
+       "dk_link": "https://sportsbook.draftkings.com/event/34118209?outcomes=0QA391918335%232377978243_13L88808Q1721550941Q20",
+       "dk_live": "-178",
+       "leg_id": "L3",
+       "swap_candidates": [],
+       "swap_note": "no eligible replacement leg",
+       "bk_start": "2026-11-26T20:20-05:00",
+       "link_status": "linked",
+       "link_reason": "",
+       "link_books": {
+        "hr": {
+         "status": "linked",
+         "reason": ""
+        },
+        "dk": {
+         "status": "linked",
+         "reason": ""
+        }
        }
       }
      ],
-     "why_not": "It's a plus-money price, so Hard Rock expects it to miss more often than it hits.",
+     "why_not": "Patrick Mahomes Over 174.5 Passing Yards: Missed in 1 of the last 10 (low of 165 pass yds). James Cook III Over 49.5 Rushing Yards: Same-game parlay: the legs share one game script, so a bad night for the offense can sink both. Josh Allen Over 199.5 Passing Yards: Missed in 1 of the last 10 (low of 196 pass yds). Same-game parlay: both legs ride one game script.",
+     "chain": 2,
      "sport": "NFL",
      "dk_odds": null,
      "hr_ticket": {
-      "n": 2,
-      "of": 2,
-      "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/3477424762167361954,9088487393348157843"
+      "n": 3,
+      "of": 3,
+      "link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4279035946464313754,5680256811897323930,3107914174343283098"
      },
      "legswap": {
       "schema": "legswap1110",
@@ -889,10 +784,10 @@
         2.4
        ]
       },
-      "built_at": "2026-11-26T16:29:26-05:00",
-      "open": false,
-      "closed_reason": "a leg has started (§24)",
-      "valid_until": "2026-11-26T13:00:00-05:00",
+      "built_at": "2026-11-26T16:56:03-05:00",
+      "open": true,
+      "closed_reason": null,
+      "valid_until": "2026-11-26T20:20:00-05:00",
       "vetoed": [],
       "schema_rev": "asterisk1111",
       "swapped_from": null,
@@ -907,7 +802,8 @@
        "via": "message to Parlay Bot (relayed by dr eggbot); no webhook"
       }
      }
-    }
+    },
+    "parlay_more": []
    },
    "NBA": {
     "potd": null,
@@ -2098,6 +1994,24 @@
   ],
   "sport_picks": [
    {
+    "date": "2026-11-26",
+    "sport": "NFL",
+    "type": "Leg",
+    "pick": "Kyle Monangai Over 24.5 Rushing Yards",
+    "odds": "-230",
+    "result": "L",
+    "stat": "15 rush yds"
+   },
+   {
+    "date": "2026-11-26",
+    "sport": "NFL",
+    "type": "Parlay",
+    "pick": "2-leg",
+    "odds": "+130",
+    "result": "L",
+    "stat": "ending"
+   },
+   {
     "date": "2026-11-25",
     "sport": "NHL",
     "type": "Leg",
@@ -2618,24 +2532,6 @@
     "odds": "-210",
     "result": "W",
     "stat": "USC 96"
-   },
-   {
-    "date": "2026-11-19",
-    "sport": "NCAAM",
-    "type": "Parlay",
-    "pick": "2-leg",
-    "odds": "+137",
-    "result": "W",
-    "stat": null
-   },
-   {
-    "date": "2026-11-18",
-    "sport": "NHL",
-    "type": "Leg",
-    "pick": "Lane Hutson Over 0.5 Assists",
-    "odds": "-105",
-    "result": "W",
-    "stat": "3 AST"
    }
   ]
  },
@@ -2655,7 +2551,7 @@
    },
    "parlay": {
     "w": 40,
-    "l": 45,
+    "l": 46,
     "p": 0,
     "pct": 47
    },
@@ -2714,9 +2610,9 @@
    {
     "prop": "NFL parlay",
     "w": 3,
-    "l": 8,
+    "l": 9,
     "p": 0,
-    "pct": 27
+    "pct": 25
    },
    {
     "prop": "NFL anytime TD",
@@ -6453,10 +6349,17 @@
    },
    {
     "date": "2026-11-26",
-    "pick": "NFL · Parlay: 2-leg",
-    "odds": "+130",
+    "pick": "NFL · Parlay #2: 3-leg",
+    "odds": "+101",
     "result": "Pending",
     "detail": "—"
+   },
+   {
+    "date": "2026-11-26",
+    "pick": "NFL · Parlay: 2-leg",
+    "odds": "+130",
+    "result": "L",
+    "detail": ""
    },
    {
     "date": "2026-11-25",
@@ -10771,7 +10674,11 @@
    ],
    [
     "11/26",
-    -149
+    -151
+   ],
+   [
+    "11/26",
+    -150
    ]
   ],
   "counted_elsewhere": []
@@ -10875,10 +10782,6 @@
      "dk_why": "line/side not offered on DraftKings Predictions right now",
      "dk_absent": true,
      "bk_start": "2026-11-26T20:00-05:00",
-     "game": "TCU @ TTU",
-     "kick": "8:00 PM ET",
-     "started": false,
-     "final": false,
      "link_status": "linked",
      "link_reason": "",
      "link_books": {
@@ -11021,10 +10924,10 @@
   },
   {
    "name": "@the_oddsmaker",
-   "w": 35,
+   "w": 37,
    "l": 25,
    "p": 0,
-   "pct": 58,
+   "pct": 60,
    "props": [
     {
      "prop": "NFL interceptions (over)",
@@ -11076,10 +10979,10 @@
     },
     {
      "prop": "NFL rush attempts (under)",
-     "w": 1,
+     "w": 2,
      "l": 2,
      "p": 0,
-     "pct": "33%",
+     "pct": "50%",
      "fam": "Rush attempts"
     },
     {
@@ -11132,10 +11035,10 @@
     },
     {
      "prop": "NFL tackles + assists (under)",
-     "w": 6,
+     "w": 7,
      "l": 3,
      "p": 0,
-     "pct": "67%",
+     "pct": "70%",
      "fam": "Assists"
     },
     {
@@ -11159,21 +11062,24 @@
      "hr_sid": "8303330793281946012",
      "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/8303330793281946012",
      "hr_live": {
-      "label": "Live HR price -225 as of 16:30 ET (game started; posted odds unchanged)",
-      "price": "-225",
-      "at": "2026-11-26T16:30:38-05:00",
+      "label": "Live HR price -210 as of 16:56 ET (game started; posted odds unchanged)",
+      "price": "-210",
+      "at": "2026-11-26T16:56:32-05:00",
       "paused": false
      },
      "hr_now": "-225",
+     "started": true,
      "dk_sid": null,
      "dk_link": null,
+     "hr_live_label": {
+      "label": "Live HR price -210 as of 16:56 ET (game started; posted odds unchanged)",
+      "price": "-210",
+      "at": "2026-11-26T16:56:32-05:00",
+      "paused": false
+     },
      "dk_why": "line/side not offered on DraftKings Predictions right now (DK has 13+, 15+, 17+, 19+, 21+, 23+, 25+, 27+, not Under 19.5)",
      "dk_absent": true,
      "bk_start": "2026-11-26T16:30-05:00",
-     "game": "PHI @ DAL",
-     "kick": "4:30 PM ET",
-     "started": true,
-     "final": false,
      "bk_started": true,
      "bk_started_why": "game started",
      "link_status": "linked",
@@ -11187,12 +11093,6 @@
        "status": "started",
        "reason": "game started"
       }
-     },
-     "hr_live_label": {
-      "label": "Live HR price -225 as of 16:30 ET (game started; posted odds unchanged)",
-      "price": "-225",
-      "at": "2026-11-26T16:30:38-05:00",
-      "paused": false
      }
     },
     {
@@ -11212,10 +11112,6 @@
      "dk_why": "line/side not offered on DraftKings Predictions right now (DK has 20+, 30+, 40+, 50+, 60+, 70+, 80+, 90+, not Under 4.5)",
      "dk_absent": true,
      "bk_start": "2026-11-26T20:20-05:00",
-     "game": "KC @ BUF",
-     "kick": "8:20 PM ET",
-     "started": false,
-     "final": false,
      "link_status": "linked",
      "link_reason": "",
      "link_books": {
@@ -11234,41 +11130,27 @@
      "prop": "NFL rush attempts (under)",
      "pick": "D. Swift u13.5 rush attempts (CHI @ DET 1:00 PM ET; Action Network pick 570133890, 0.65u)",
      "odds": "-130",
-     "status": "Pending",
+     "status": "W",
      "legs": [],
      "fam": "Rush attempts",
-     "hr_sid": "2609174763681218990",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2609174763681218990",
-     "hr_live": {
-      "label": "Live HR price -4000 as of 16:30 ET (game started; posted odds unchanged) (market paused)",
-      "price": "-4000",
-      "at": "2026-11-26T16:30:38-05:00",
-      "paused": true
-     },
-     "hr_live_label": {
-      "label": "Live HR price -4000 as of 16:30 ET (game started; posted odds unchanged) (market paused)",
-      "price": "-4000",
-      "at": "2026-11-26T16:30:38-05:00",
-      "paused": true
-     },
-     "hr_now": "-4000",
+     "hr_why": "Unverified link: event not in the live feed",
+     "hr_sid": null,
+     "hr_link": null,
      "started": true,
      "dk_sid": null,
      "dk_link": null,
-     "dk_why": "line/side not offered on DraftKings Predictions right now (DK has 11+, 17+, not Under 13.5)",
+     "hr_absent": false,
+     "dk_why": "player/market not on DraftKings Predictions",
      "dk_absent": true,
      "bk_start": "2026-11-26T13:00-05:00",
      "bk_started": true,
-     "bk_started_why": "game started",
-     "game": "CHI @ DET",
-     "kick": "1:00 PM ET",
-     "final": false,
-     "link_status": "linked",
-     "link_reason": "",
+     "bk_started_why": "graded: W",
+     "link_status": "started",
+     "link_reason": "game started",
      "link_books": {
       "hr": {
-       "status": "linked",
-       "reason": ""
+       "status": "started",
+       "reason": "game started"
       },
       "dk": {
        "status": "started",
@@ -11281,41 +11163,27 @@
      "prop": "NFL tackles + assists (under)",
      "pick": "D. Barnes u6.5 tackles + assists (CHI @ DET 1:00 PM ET; Action Network pick 570134283, 0.59u)",
      "odds": "-118",
-     "status": "Pending",
+     "status": "W",
      "legs": [],
      "fam": "Assists",
-     "hr_sid": "2360677293461995950",
-     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/2360677293461995950",
-     "hr_live": {
-      "label": "Live HR price -155 as of 16:30 ET (game started; posted odds unchanged) (market paused)",
-      "price": "-155",
-      "at": "2026-11-26T16:30:38-05:00",
-      "paused": true
-     },
-     "hr_live_label": {
-      "label": "Live HR price -155 as of 16:30 ET (game started; posted odds unchanged) (market paused)",
-      "price": "-155",
-      "at": "2026-11-26T16:30:38-05:00",
-      "paused": true
-     },
-     "hr_now": "-155",
+     "hr_why": "Unverified link: event not in the live feed",
+     "hr_sid": null,
+     "hr_link": null,
      "started": true,
      "dk_sid": null,
      "dk_link": null,
+     "hr_absent": false,
      "dk_why": "player/market not on DraftKings Predictions",
      "dk_absent": true,
      "bk_start": "2026-11-26T13:00-05:00",
      "bk_started": true,
-     "bk_started_why": "game started",
-     "game": "CHI @ DET",
-     "kick": "1:00 PM ET",
-     "final": false,
-     "link_status": "linked",
-     "link_reason": "",
+     "bk_started_why": "graded: W",
+     "link_status": "started",
+     "link_reason": "game started",
      "link_books": {
       "hr": {
-       "status": "linked",
-       "reason": ""
+       "status": "started",
+       "reason": "game started"
       },
       "dk": {
        "status": "started",
@@ -11340,10 +11208,6 @@
      "dk_why": "line/side not offered on DraftKings Predictions right now (DK has 2+, 3+, 4+, 5+, 6+, 7+, 8+, 9+, not Under 4.5)",
      "dk_absent": true,
      "bk_start": "2026-11-26T20:20-05:00",
-     "game": "KC @ BUF",
-     "kick": "8:20 PM ET",
-     "started": false,
-     "final": false,
      "link_status": "not_offered",
      "link_reason": "not offered at HR or DK",
      "link_books": {
@@ -11677,7 +11541,7 @@
      "status": "Pending",
      "legs": [],
      "fam": "Total",
-     "hr_why": "Unverified link: line not offered on Hard Rock right now (HR has Under 136.5, Under 135.5, Under 134.5, Under 133.5, not Under 140.5)",
+     "hr_why": "Unverified link: market or line not offered on Hard Rock right now",
      "hr_sid": null,
      "hr_link": null,
      "started": true,
@@ -12445,8 +12309,8 @@
   },
   {
    "name": "@alexcaruso",
-   "w": 122,
-   "l": 100,
+   "w": 123,
+   "l": 101,
    "p": 0,
    "pct": 55,
    "props": [
@@ -12525,9 +12389,9 @@
     {
      "prop": "NFL rec yds (over)",
      "w": 9,
-     "l": 14,
+     "l": 15,
      "p": 0,
-     "pct": "39%",
+     "pct": "38%",
      "fam": "Receiving yds"
     },
     {
@@ -12556,10 +12420,10 @@
     },
     {
      "prop": "NFL receptions (under)",
-     "w": 5,
+     "w": 6,
      "l": 2,
      "p": 0,
-     "pct": "71%",
+     "pct": "75%",
      "fam": "Receptions"
     },
     {
@@ -12724,10 +12588,6 @@
      "dk_link": "https://sportsbook.draftkings.com/event/34118209?outcomes=0QA391917411%232377971791_13L88808Q1-946252831Q20",
      "dk_live": "-194",
      "bk_start": "2026-11-26T20:20-05:00",
-     "game": "KC @ BUF",
-     "kick": "8:20 PM ET",
-     "started": false,
-     "final": false,
      "link_status": "linked",
      "link_reason": "",
      "link_books": {
@@ -12758,10 +12618,6 @@
      "dk_why": "player/market not on DraftKings Predictions",
      "dk_absent": true,
      "bk_start": "2026-11-26T20:20-05:00",
-     "game": "KC @ BUF",
-     "kick": "8:20 PM ET",
-     "started": false,
-     "final": false,
      "link_status": "not_offered",
      "link_reason": "not offered at HR or DK",
      "link_books": {
@@ -12781,7 +12637,7 @@
   {
    "name": "@austinsprops",
    "w": 95,
-   "l": 94,
+   "l": 95,
    "p": 0,
    "pct": 50,
    "props": [
@@ -12804,9 +12660,9 @@
     {
      "prop": "NFL rush attempts (over)",
      "w": 2,
-     "l": 0,
+     "l": 1,
      "p": 0,
-     "pct": "100%",
+     "pct": "67%",
      "fam": "Rush attempts"
     },
     {
@@ -12995,10 +12851,6 @@
      "dk_why": "line/side not offered on DraftKings Predictions right now (DK has Over 16.5, 20+, 30+, 40+, 50+, 60+, 70+, 80+, not Over 15.5)",
      "dk_absent": true,
      "bk_start": "2026-11-26T20:20-05:00",
-     "game": "KC @ BUF",
-     "kick": "8:20 PM ET",
-     "started": false,
-     "final": false,
      "link_status": "linked",
      "link_reason": "",
      "link_books": {
@@ -13623,7 +13475,7 @@
   {
    "name": "@showtimepicks2",
    "w": 41,
-   "l": 33,
+   "l": 34,
    "p": 0,
    "pct": 55,
    "props": [
@@ -13686,9 +13538,9 @@
     {
      "prop": "NFL ML",
      "w": 1,
-     "l": 1,
+     "l": 2,
      "p": 0,
-     "pct": "50%",
+     "pct": "33%",
      "fam": "ML"
     },
     {
@@ -14211,7 +14063,7 @@
  },
  "runners_up_record": {},
  "standings": {
-  "updated": "2026-11-26 04:25 PM ET",
+  "updated": "2026-11-26 04:35 PM ET",
   "leagues": {
    "NFL": {
     "groups": [
@@ -14544,33 +14396,33 @@
       "name": "NFC North",
       "rows": [
        {
-        "t": "Detroit Lions",
-        "ab": "DET",
-        "rec": "8-2",
-        "pct": ".800",
-        "gb": "-",
-        "pts": null,
-        "home": "6-0",
-        "road": "2-2",
-        "l10": null,
-        "strk": "W6",
-        "diff": "+68",
-        "div": "2-0",
-        "seed": "2"
-       },
-       {
         "t": "Chicago Bears",
         "ab": "CHI",
-        "rec": "8-2",
-        "pct": ".800",
+        "rec": "9-2",
+        "pct": ".818",
         "gb": "-",
         "pts": null,
         "home": "5-1",
-        "road": "3-1",
+        "road": "4-1",
         "l10": null,
-        "strk": "W5",
-        "diff": "+65",
-        "div": "0-2",
+        "strk": "W6",
+        "diff": "+69",
+        "div": "1-2",
+        "seed": "2"
+       },
+       {
+        "t": "Detroit Lions",
+        "ab": "DET",
+        "rec": "8-3",
+        "pct": ".727",
+        "gb": "1",
+        "pts": null,
+        "home": "6-1",
+        "road": "2-2",
+        "l10": null,
+        "strk": "L1",
+        "diff": "+64",
+        "div": "2-1",
         "seed": "5"
        },
        {
@@ -14578,7 +14430,7 @@
         "ab": "MIN",
         "rec": "7-3",
         "pct": ".700",
-        "gb": "1",
+        "gb": "1.5",
         "pts": null,
         "home": "3-1",
         "road": "4-2",
@@ -14593,7 +14445,7 @@
         "ab": "GB",
         "rec": "6-5",
         "pct": ".545",
-        "gb": "2.5",
+        "gb": "3",
         "pts": null,
         "home": "3-2",
         "road": "3-3",
@@ -14740,9 +14592,9 @@
      {
       "a": "CHI",
       "h": "DET",
-      "st": "0:53 - 4th",
+      "st": "Final",
       "div": true,
-      "stake": "CHI 8-2: 2nd NFC North, NFC #5 seed (in playoff spot) · DET 8-2: 1st NFC North, NFC #2 seed (in playoff spot)"
+      "stake": "CHI 9-2: 1st NFC North, NFC #2 seed (in playoff spot) · DET 8-3: 2nd NFC North (1 GB), NFC #5 seed (in playoff spot)"
      },
      {
       "a": "PHI",
@@ -17993,21 +17845,6 @@
         "seed": "5"
        },
        {
-        "t": "Arizona State Sun Devils",
-        "ab": "ASU",
-        "rec": "5-1",
-        "pct": ".833",
-        "gb": "1",
-        "pts": null,
-        "home": "5-0",
-        "road": "0-0",
-        "l10": null,
-        "strk": "L1",
-        "diff": "+90",
-        "div": "0-0",
-        "seed": "6"
-       },
-       {
         "t": "Baylor Bears",
         "ab": "BAY",
         "rec": "5-1",
@@ -18020,7 +17857,7 @@
         "strk": "W2",
         "diff": "+158",
         "div": "0-0",
-        "seed": "7"
+        "seed": "6"
        },
        {
         "t": "TCU Horned Frogs",
@@ -18035,7 +17872,7 @@
         "strk": "W1",
         "diff": "+119",
         "div": "0-0",
-        "seed": "8"
+        "seed": "7"
        },
        {
         "t": "Texas Tech Red Raiders",
@@ -18050,7 +17887,7 @@
         "strk": "L1",
         "diff": "+146",
         "div": "0-0",
-        "seed": "9"
+        "seed": "8"
        },
        {
         "t": "Iowa State Cyclones",
@@ -18064,6 +17901,21 @@
         "l10": null,
         "strk": "W4",
         "diff": "+93",
+        "div": "0-0",
+        "seed": "9"
+       },
+       {
+        "t": "Arizona State Sun Devils",
+        "ab": "ASU",
+        "rec": "5-2",
+        "pct": ".714",
+        "gb": "1.5",
+        "pts": null,
+        "home": "5-0",
+        "road": "0-0",
+        "l10": null,
+        "strk": "L2",
+        "diff": "+83",
         "div": "0-0",
         "seed": "10"
        },
@@ -21298,6 +21150,21 @@
         "seed": "8"
        },
        {
+        "t": "South Carolina Gamecocks",
+        "ab": "SC",
+        "rec": "6-1",
+        "pct": ".857",
+        "gb": "1",
+        "pts": null,
+        "home": "5-0",
+        "road": "0-0",
+        "l10": null,
+        "strk": "W1",
+        "diff": "+102",
+        "div": "0-0",
+        "seed": "9"
+       },
+       {
         "t": "Texas A&M Aggies",
         "ab": "TA&M",
         "rec": "6-1",
@@ -21310,7 +21177,7 @@
         "strk": "L1",
         "diff": "+160",
         "div": "0-0",
-        "seed": "9"
+        "seed": "10"
        },
        {
         "t": "Alabama Crimson Tide",
@@ -21324,21 +21191,6 @@
         "l10": null,
         "strk": "L1",
         "diff": "+97",
-        "div": "0-0",
-        "seed": "10"
-       },
-       {
-        "t": "South Carolina Gamecocks",
-        "ab": "SC",
-        "rec": "5-1",
-        "pct": ".833",
-        "gb": "1.5",
-        "pts": null,
-        "home": "5-0",
-        "road": "0-0",
-        "l10": null,
-        "strk": "L1",
-        "diff": "+95",
         "div": "0-0",
         "seed": "11"
        },
@@ -22599,17 +22451,17 @@
      {
       "a": "GTWN",
       "h": "TEX",
-      "st": "9:30 - 2nd"
+      "st": "7:36 - 2nd"
      },
      {
       "a": "TENN",
       "h": "ISU",
-      "st": "8:16 - 1st"
+      "st": "4:36 - 1st"
      },
      {
       "a": "MIA",
       "h": "MICH",
-      "st": "0:53 - 1st"
+      "st": "Halftime"
      },
      {
       "a": "ARK",
@@ -22656,10 +22508,10 @@
   }
  },
  "clv": {
-  "built": "2026-11-26T16:25:50-05:00",
+  "built": "2026-11-26T16:35:51-05:00",
   "source": "/workspace/dashboard/clv.jsonl",
   "snapshots": {
-   "hr_close_files": 295,
+   "hr_close_files": 297,
    "dk_close_files": 20
   },
   "plays": [
@@ -31125,8 +30977,8 @@
     "posted_line": 249.5,
     "close_line": 249.5,
     "clv_pct": 4.4,
-    "close_at": "2026-11-26T16:24:13-05:00",
-    "close_state": "provisional",
+    "close_at": "2026-11-26T16:28:15-05:00",
+    "close_state": "final",
     "product": "NFL"
    },
    {
@@ -31142,8 +30994,8 @@
     "posted_line": 8.5,
     "close_line": 8.5,
     "clv_pct": 0.0,
-    "close_at": "2026-11-26T16:24:13-05:00",
-    "close_state": "provisional",
+    "close_at": "2026-11-26T16:28:15-05:00",
+    "close_state": "final",
     "product": "NFL"
    }
   ],
@@ -31630,9 +31482,9 @@
   {
    "sport": "NFL",
    "w": 22,
-   "l": 43,
+   "l": 44,
    "p": 0,
-   "pct": 34,
+   "pct": 33,
    "active": true,
    "key": "NFL",
    "ticket_legs": {
@@ -31643,10 +31495,10 @@
    },
    "tickets": {
     "w": 79,
-    "l": 74,
+    "l": 75,
     "p": 0,
     "pending": 6,
-    "units": -25.33
+    "units": -26.33
    }
   },
   {
@@ -32534,16 +32386,16 @@
   {
    "sport": "NFL",
    "w": 22,
-   "l": 43,
+   "l": 44,
    "p": 0,
-   "pct": 34,
+   "pct": 33,
    "props": [
     {
      "prop": "NFL parlay",
      "w": 3,
-     "l": 8,
+     "l": 9,
      "p": 0,
-     "pct": 27
+     "pct": 25
     },
     {
      "prop": "NFL anytime TD",
@@ -32681,16 +32533,16 @@
    ],
    "official": {
     "w": 22,
-    "l": 43,
+    "l": 44,
     "p": 0,
-    "pct": 34,
+    "pct": 33,
     "props": [
      {
       "prop": "NFL parlay",
       "w": 3,
-      "l": 8,
+      "l": 9,
       "p": 0,
-      "pct": 27
+      "pct": 25
      },
      {
       "prop": "NFL anytime TD",
@@ -32829,16 +32681,16 @@
    },
    "tracked": {
     "w": 23,
-    "l": 35,
+    "l": 36,
     "p": 0,
-    "pct": 40,
+    "pct": 39,
     "props": [
      {
       "prop": "NFL parlay",
       "w": 3,
-      "l": 8,
+      "l": 9,
       "p": 0,
-      "pct": 27
+      "pct": 25
      },
      {
       "prop": "NFL anytime TD",
@@ -34054,9 +33906,9 @@
     "now": "+450",
     "hr_sid": "4871556516179739030",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/4871556516179739030",
-    "hr_live": "+450",
-    "hr_now": "+450",
-    "hr_edge_live": -0.0789,
+    "hr_live": "+400",
+    "hr_now": "+400",
+    "hr_edge_live": -0.1626,
     "hr_edge_gone": true,
     "hr_state": "open",
     "edge_single": true,
@@ -34339,6 +34191,28 @@
    }
   },
   "by_rule": {
+   "leaderwaive1120": {
+    "overall": {
+     "w": 5,
+     "l": 6,
+     "p": 0,
+     "pct": 45
+    },
+    "by_sport": {
+     "NBA": {
+      "w": 1,
+      "l": 5,
+      "p": 0,
+      "pct": 17
+     },
+     "NHL": {
+      "w": 4,
+      "l": 1,
+      "p": 0,
+      "pct": 80
+     }
+    }
+   },
    "2026-11-06-p250loose": {
     "overall": {
      "w": 4,
@@ -34392,28 +34266,6 @@
       "l": 1,
       "p": 0,
       "pct": 0
-     }
-    }
-   },
-   "leaderwaive1120": {
-    "overall": {
-     "w": 5,
-     "l": 6,
-     "p": 0,
-     "pct": 45
-    },
-    "by_sport": {
-     "NBA": {
-      "w": 1,
-      "l": 5,
-      "p": 0,
-      "pct": 17
-     },
-     "NHL": {
-      "w": 4,
-      "l": 1,
-      "p": 0,
-      "pct": 80
      }
     }
    }
@@ -37194,6 +37046,16 @@
    "prop": "NFL parlay",
    "pick": "2-leg",
    "odds": "+130",
+   "res": "L",
+   "stat": ""
+  },
+  {
+   "date": "2026-11-26",
+   "sport": "NFL",
+   "type": "Parlay",
+   "prop": "NFL parlay",
+   "pick": "3-leg",
+   "odds": "+101",
    "res": "Pending",
    "stat": "—"
   },
@@ -41778,8 +41640,8 @@
  "integrity": {
   "ok": true,
   "errors": [],
-  "tiles_sum": 669,
-  "headline": 669
+  "tiles_sum": 670,
+  "headline": 670
  },
  "inning_record": {},
  "ingame_lines": {
@@ -42129,16 +41991,25 @@
     "hr_sid": "6992391620295524758",
     "hr_link": "https://share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/6992391620295524758",
     "hr_live": {
-     "label": "Live HR price -115 as of 16:30 ET (game started; posted odds unchanged)",
+     "label": "Live HR price -115 as of 16:56 ET (game started; posted odds unchanged) (market paused)",
      "price": "-115",
-     "at": "2026-11-26T16:30:38-05:00",
-     "paused": false
+     "at": "2026-11-26T16:56:32-05:00",
+     "paused": true
     },
+    "hr_now": "-120",
     "dk_sid": null,
     "dk_link": null,
+    "hr_live_label": {
+     "label": "Live HR price -115 as of 16:56 ET (game started; posted odds unchanged) (market paused)",
+     "price": "-115",
+     "at": "2026-11-26T16:56:32-05:00",
+     "paused": true
+    },
     "dk_why": "line/side not offered on DraftKings Predictions right now (DK has Over 7.5, 20+, 30+, 40+, 50+, 60+, 70+, 80+, not Over 8.5)",
     "dk_absent": true,
     "bk_start": "2026-11-26T16:30-05:00",
+    "bk_started": true,
+    "bk_started_why": "game started",
     "link_status": "linked",
     "link_reason": "",
     "link_books": {
@@ -42150,12 +42021,6 @@
       "status": "started",
       "reason": "game started"
      }
-    },
-    "hr_live_label": {
-     "label": "Live HR price -115 as of 16:30 ET (game started; posted odds unchanged)",
-     "price": "-115",
-     "at": "2026-11-26T16:30:38-05:00",
-     "paused": false
     }
    },
    {
@@ -47493,21 +47358,61 @@
     "prop": "NFL parlay",
     "pick": "2-leg",
     "odds": "+130",
+    "res": "L",
+    "stat": "",
+    "sub": "Kyle Monangai Over 24.5 Rushing Yards + Dak Prescott Over 249.5 Passing Yards",
+    "leg": false,
+    "img": null,
+    "alt": false,
+    "fam": "Parlay",
+    "uu": -1.0,
+    "legs": [
+     {
+      "pick": "Kyle Monangai Over 24.5 Rushing Yards",
+      "result": "L",
+      "stat": "15 rush yds"
+     },
+     {
+      "pick": "Dak Prescott Over 249.5 Passing Yards",
+      "result": null,
+      "stat": ""
+     }
+    ],
+    "display_label": "+100",
+    "display": {
+     "hidden": false,
+     "legacy": false,
+     "product": "plus100"
+    }
+   },
+   {
+    "date": "2026-11-26",
+    "sport": "NFL",
+    "grp": "O",
+    "cat": "Parlay +100",
+    "prop": "NFL parlay",
+    "pick": "3-leg",
+    "odds": "+101",
     "res": "",
     "stat": "—",
-    "sub": "Kyle Monangai Over 24.5 Rushing Yards + Dak Prescott Over 249.5 Passing Yards",
+    "sub": "Patrick Mahomes Over 174.5 Passing Yards + James Cook III Over 49.5 Rushing Yards + Josh Allen Over 199.5 Passing Yards",
     "leg": false,
     "img": null,
     "alt": false,
     "fam": "Parlay",
     "legs": [
      {
-      "pick": "Kyle Monangai Over 24.5 Rushing Yards",
+      "pick": "Patrick Mahomes Over 174.5 Passing Yards",
       "result": null,
       "stat": ""
      },
      {
-      "pick": "Dak Prescott Over 249.5 Passing Yards",
+      "pick": "James Cook III Over 49.5 Rushing Yards",
+      "result": null,
+      "stat": ""
+     },
+     {
+      "pick": "Josh Allen Over 199.5 Passing Yards",
       "result": null,
       "stat": ""
      }
@@ -103150,10 +103055,10 @@
    "O": {
     "tickets": {
      "w": 492,
-     "l": 363,
+     "l": 364,
      "p": 23,
      "pending": 8,
-     "units": -32.68
+     "units": -33.68
     },
     "legs": {
      "w": 7,
@@ -103459,16 +103364,16 @@
   ],
   "odds_tracking": {
    "overall": {
-    "w": 1389,
-    "l": 1230,
+    "w": 1392,
+    "l": 1234,
     "v": 58,
     "p": 6,
-    "pending": 43,
-    "units": -79.8,
+    "pending": 45,
+    "units": -81.51,
     "pct": 53,
-    "record": "1389-1230",
+    "record": "1392-1234",
     "pct_label": "53%",
-    "units_label": "-79.80 units"
+    "units_label": "-81.51 units"
    },
    "daily": [
     {
@@ -103524,16 +103429,16 @@
      "day": "Wednesday"
     },
     {
-     "w": 149,
-     "l": 149,
+     "w": 152,
+     "l": 153,
      "v": 13,
      "p": 1,
-     "pending": 8,
-     "units": -15.87,
+     "pending": 10,
+     "units": -17.58,
      "pct": 50,
-     "record": "149-149",
+     "record": "152-153",
      "pct_label": "50%",
-     "units_label": "-15.87 units",
+     "units_label": "-17.58 units",
      "day": "Thursday"
     },
     {
@@ -103618,16 +103523,16 @@
     "day": "Wednesday"
    },
    {
-    "w": 149,
-    "l": 149,
+    "w": 152,
+    "l": 153,
     "v": 13,
     "p": 1,
-    "pending": 8,
-    "units": -15.87,
+    "pending": 10,
+    "units": -17.58,
     "pct": 50,
-    "record": "149-149",
+    "record": "152-153",
     "pct_label": "50%",
-    "units_label": "-15.87 units",
+    "units_label": "-17.58 units",
     "day": "Thursday"
    },
    {
@@ -103667,29 +103572,6 @@
   "msg": "Pending: today's Heist posts after the capper check passes.",
   "audit_pending": true,
   "audit_note": "Pending: today's Heist posts after the capper check passes.",
-  "hr_ticket_link": null,
-  "dk_ticket_link": null,
-  "ticket_links": {
-   "rule": "linebot1109p (user 2026-11-09 7:18 PM ET)",
-   "built_at": "2026-11-26T16:30:34-05:00",
-   "of": 0,
-   "valid_until": null,
-   "note": "Whole-ticket links hold only legs whose game has not started and that have an exact, freshly verified book id. Rebuild before each push.",
-   "hr": {
-    "link": null,
-    "n": 0,
-    "legs_in": [],
-    "legs_out": [],
-    "format": "share.hardrock.bet/Pt0T/bet?deep_link_value=hardrock://betslip/<sid>,<sid>,..."
-   },
-   "dk": {
-    "link": null,
-    "n": 0,
-    "legs_in": [],
-    "legs_out": [],
-    "format": "dk.html?ids=<id>+<id> -> dksb://sb/addbet/<id>+<id> (dkmulti1104)"
-   }
-  },
   "conv": [],
   "bd_ticket": {
    "legs": 0,
@@ -103885,8 +103767,8 @@
  "big4_games_by_sport": {},
  "gameday": {
   "date": "2026-11-26",
-  "built": "2026-11-26 16:28 ET",
-  "picks": 7,
+  "built": "2026-11-26 16:35 ET",
+  "picks": 8,
   "vetoes": [],
   "gaps": [
    "open-meteo Ohio vs Toledo: HTTPError HTTP Error 429: Too Many Requests",
@@ -103979,12 +103861,12 @@
   "pregame_games": 171,
   "source": "DraftKings public sportsbook JSON (sportsbook-nash, dkusoh)",
   "coverage": {
-   "legs": 7,
-   "priced": 4,
+   "legs": 8,
+   "priced": 5,
    "na": [
     "Edge Cyrus Allen Over 0.5 Touchdowns",
     "LEG DAY Javonte Williams Over 8.5 Receiving Yards",
-    "Kyle Monangai Over 24.5 Rushing Yards"
+    "Patrick Mahomes Over 174.5 Passing Yards"
    ]
   }
  },
@@ -103995,9 +103877,9 @@
   "flags": []
  },
  "player_status": {
-  "built": "2026-11-26 04:28 PM ET",
+  "built": "2026-11-26 04:36 PM ET",
   "sources": {
-   "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-26_04_15PM.pdf",
+   "nba_official": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-26_04_30PM.pdf",
    "espn": "site.api.espn.com/apis/site/v2/sports/*/injuries"
   },
   "players": [
@@ -104061,33 +103943,33 @@
     "team": "Boston Celtics",
     "label": "Questionable",
     "raw": "Questionable",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Mitchell Robinson",
     "key": "mitchell robinson"
    },
    {
     "sp": "NBA",
-    "team": "BKN",
+    "team": "Brooklyn Nets",
     "label": "Out",
     "raw": "Out",
-    "src": "ESPN injuries",
-    "posted": "2026-11-25 09:48 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
-    "key": "moritz wagner",
-    "name": null
+    "name": "Moritz Wagner",
+    "key": "moritz wagner"
    },
    {
     "sp": "NBA",
-    "team": "BKN",
+    "team": "Brooklyn Nets",
     "label": "Out",
     "raw": "Out",
-    "src": "ESPN injuries",
-    "posted": "2026-11-23 10:22 AM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
-    "key": "nolan traore",
-    "name": null
+    "name": "Nolan Traore",
+    "key": "nolan traore"
    },
    {
     "sp": "NBA",
@@ -104531,22 +104413,22 @@
    },
    {
     "sp": "NBA",
-    "team": "NO",
-    "label": "Out",
-    "raw": "Out",
-    "src": "ESPN injuries",
-    "posted": "2026-11-26 04:21 PM ET",
+    "team": "New Orleans Pelicans",
+    "label": "Doubtful",
+    "raw": "Doubtful",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
-    "key": "bennedict mathurin",
-    "name": null
+    "name": "Bennedict Mathurin",
+    "key": "bennedict mathurin"
    },
    {
     "sp": "NBA",
     "team": "New Orleans Pelicans",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Julian Reese",
     "key": "julian reese"
@@ -104556,8 +104438,8 @@
     "team": "New Orleans Pelicans",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Dejounte Murray",
     "key": "dejounte murray"
@@ -104850,22 +104732,22 @@
    },
    {
     "sp": "NBA",
-    "team": "TOR",
-    "label": "GTD (Day-To-Day)",
-    "raw": "Day-To-Day",
-    "src": "ESPN injuries",
-    "posted": "2026-11-26 04:19 PM ET",
+    "team": "Toronto Raptors",
+    "label": "Questionable",
+    "raw": "Questionable",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
-    "key": "alijah martin",
-    "name": null
+    "name": "Alijah Martin",
+    "key": "alijah martin"
    },
    {
     "sp": "NBA",
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Kawhi Leonard",
     "key": "kawhi leonard"
@@ -104875,8 +104757,8 @@
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Nate Bittle",
     "key": "nate bittle"
@@ -104886,8 +104768,8 @@
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "RJ Barrett",
     "key": "rj barrett"
@@ -104985,8 +104867,8 @@
     "team": "Miami Heat",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Tre Donaldson",
     "key": "tre donaldson"
@@ -104996,19 +104878,52 @@
     "team": "Miami Heat",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Vladislav Goldin",
     "key": "vladislav goldin"
    },
    {
     "sp": "NBA",
+    "team": "Brooklyn Nets",
+    "label": "Out",
+    "raw": "Out",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
+    "note": "",
+    "name": "Tyler Bilodeau",
+    "key": "tyler bilodeau"
+   },
+   {
+    "sp": "NBA",
+    "team": "Brooklyn Nets",
+    "label": "Out",
+    "raw": "Out",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
+    "note": "",
+    "name": "Joshua Jefferson",
+    "key": "joshua jefferson"
+   },
+   {
+    "sp": "NBA",
+    "team": "Brooklyn Nets",
+    "label": "Out",
+    "raw": "Out",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
+    "note": "",
+    "name": "Drake Powell",
+    "key": "drake powell"
+   },
+   {
+    "sp": "NBA",
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Kevin McCullar Jr.",
     "key": "kevin mccullar"
@@ -105018,8 +104933,8 @@
     "team": "Toronto Raptors",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Malachi Smith",
     "key": "malachi smith"
@@ -105029,8 +104944,8 @@
     "team": "Boston Celtics",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Devin Carter",
     "key": "devin carter"
@@ -105040,8 +104955,8 @@
     "team": "Boston Celtics",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Dillon Mitchell",
     "key": "dillon mitchell"
@@ -105051,8 +104966,8 @@
     "team": "Boston Celtics",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Amari Williams",
     "key": "amari williams"
@@ -105062,8 +104977,8 @@
     "team": "New Orleans Pelicans",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Malik Dia",
     "key": "malik dia"
@@ -105073,8 +104988,8 @@
     "team": "New Orleans Pelicans",
     "label": "Out",
     "raw": "Out",
-    "src": "NBA official injury report 11/26/26 04:15 PM ET",
-    "posted": "2026-11-26 04:15 PM ET",
+    "src": "NBA official injury report 11/26/26 04:30 PM ET",
+    "posted": "2026-11-26 04:30 PM ET",
     "note": "",
     "name": "Jaron Pierre Jr.",
     "key": "jaron pierre"
@@ -106677,6 +106592,50 @@
    {
     "sp": "NFL",
     "team": "CAR",
+    "label": "Questionable",
+    "raw": "Questionable",
+    "src": "ESPN injuries",
+    "posted": "2026-11-26 04:35 PM ET",
+    "note": "",
+    "key": "jackson kuwatch",
+    "name": null
+   },
+   {
+    "sp": "NFL",
+    "team": "CAR",
+    "label": "Questionable",
+    "raw": "Questionable",
+    "src": "ESPN injuries",
+    "posted": "2026-11-26 04:35 PM ET",
+    "note": "",
+    "key": "mitchell evans",
+    "name": null
+   },
+   {
+    "sp": "NFL",
+    "team": "CAR",
+    "label": "Questionable",
+    "raw": "Questionable",
+    "src": "ESPN injuries",
+    "posted": "2026-11-26 04:35 PM ET",
+    "note": "",
+    "key": "patrick jones",
+    "name": null
+   },
+   {
+    "sp": "NFL",
+    "team": "CAR",
+    "label": "Questionable",
+    "raw": "Questionable",
+    "src": "ESPN injuries",
+    "posted": "2026-11-26 04:26 PM ET",
+    "note": "",
+    "key": "tetairoa mcmillan",
+    "name": null
+   },
+   {
+    "sp": "NFL",
+    "team": "CAR",
     "label": "Out (Injured Reserve)",
     "raw": "Injured Reserve",
     "src": "ESPN injuries",
@@ -106694,17 +106653,6 @@
     "posted": "2026-11-25 05:54 PM ET",
     "note": "",
     "key": "jonathon brooks",
-    "name": null
-   },
-   {
-    "sp": "NFL",
-    "team": "CAR",
-    "label": "Questionable",
-    "raw": "Questionable",
-    "src": "ESPN injuries",
-    "posted": "2026-11-25 03:18 PM ET",
-    "note": "",
-    "key": "tetairoa mcmillan",
     "name": null
    },
    {
@@ -106743,10 +106691,10 @@
    {
     "sp": "NFL",
     "team": "CHI",
-    "label": "Out",
-    "raw": "Out",
+    "label": "Questionable",
+    "raw": "Questionable",
     "src": "ESPN injuries",
-    "posted": "2026-11-26 01:45 PM ET",
+    "posted": "2026-11-26 04:33 PM ET",
     "note": "",
     "key": "colston loveland",
     "name": null
@@ -310549,7 +310497,7 @@
   "schema": "legswap1110",
   "preview": false,
   "date": "2026-11-26",
-  "built_at": "2026-11-26T16:29:26-05:00",
+  "built_at": "2026-11-26T16:56:03-05:00",
   "tickets": [
    "2026-11-26|parlay100|NFL|1"
   ],
@@ -313613,31 +313561,31 @@
       "label": "+100",
       "pick": "2-leg",
       "odds": "+130",
-      "res": "",
-      "stat": "—",
+      "res": "L",
+      "stat": "",
       "record": {
        "w": 0,
-       "l": 0,
+       "l": 1,
        "p": 0,
        "v": 0,
-       "pending": 1
+       "pending": 0
       },
       "legs": [
        {
         "pick": "Kyle Monangai Over 24.5 Rushing Yards",
         "odds": "-230",
-        "res": "",
-        "stat": "—",
+        "res": "L",
+        "stat": "15 rush yds",
         "gm": "",
         "id": "plus100|88f1d419827016c2ca94|leg|1",
         "record": {
          "w": 0,
-         "l": 0,
+         "l": 1,
          "p": 0,
          "v": 0,
-         "pending": 1
+         "pending": 0
         },
-        "explanation": "Volume: snaps L5 23/50/22/25/32 (L3 16.7 vs L10 14.3 touches+targets) | Hit: 8/10 at O24.5, 4/5 (L10 avg 50.7 vs 24.5 line) · H2H vs DET at O24.5: n/a. Usage: snap L5 40% / szn 40% (5g) · tgt L5 4% / szn 4% (5g) · carry L5 33% / szn 33% (5g) (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:23 PM ET). Matchup: DET 26/32 vs Rushing Yards (TR). Context: CHI -1 / O/U 56 | - | Away · Div · Prime. Injuries: Kyler Gordon, Roschon Johnson out | Opp out: Skyler Gill-Howard, Ennis Rakestraw Jr. Risk: matchup 26/32 demoted (22+; soft, still eligible, ranked below preferred and rank n/a).",
+        "explanation": "",
         "explanation_collapsed": true
        },
        {
@@ -313654,7 +313602,80 @@
          "v": 0,
          "pending": 1
         },
-        "explanation": "Volume: snaps L5 65/83/79/74/68 (L3 37.3 vs L10 36.9 pass attempts) | Hit: 8/10 at O249.5, 3/5 (L10 avg 287.4 vs 249.5 line) · H2H vs PHI at O249.5: n/a. Usage: snap L5 100% / L10 100% · carry L5 12% / L10 11% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:23 PM ET). Matchup: PHI 16/32 vs Passing Yards (TR). Context: DAL -8.5 / O/U 48 | - | Home · Div · Prime. Injuries: Devin Moore, P.J.⁠ Locke out | Opp out: Arnold Ebiketie, Jonathan Jones. Risk: possible in-game exit (not verifiable, not excluded): 2026-01-04 11.0.",
+        "explanation": "",
+        "explanation_collapsed": true
+       }
+      ],
+      "explanation": "",
+      "explanation_collapsed": true,
+      "source_category": "Parlay +100"
+     },
+     {
+      "id": "plus100|de3c23fa3fd0a7fdd9c4",
+      "date": "2026-11-26",
+      "sport": "NFL",
+      "label": "+100",
+      "pick": "3-leg",
+      "odds": "+101",
+      "res": "",
+      "stat": "—",
+      "record": {
+       "w": 0,
+       "l": 0,
+       "p": 0,
+       "v": 0,
+       "pending": 1
+      },
+      "legs": [
+       {
+        "pick": "Patrick Mahomes Over 174.5 Passing Yards",
+        "odds": "-850",
+        "res": "",
+        "stat": "—",
+        "gm": "",
+        "id": "plus100|de3c23fa3fd0a7fdd9c4|leg|1",
+        "record": {
+         "w": 0,
+         "l": 0,
+         "p": 0,
+         "v": 0,
+         "pending": 1
+        },
+        "explanation": "Volume: snaps L5 61/62/62/69/53 | Hit: 9/10 at line (L10 avg 270.9 vs 174.5 line) · H2H vs BUF at O174.5: n/a. Usage: snap L5 95% / L10 97% · carry L5 7% / L10 9% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET). Matchup: BUF 14/32 vs pass yds (226.3/g allowed, ESPN box scores; 1 = best for the over, neutral). Context: BUF -3 / O/U 46 (KC TT 21.5) | Away · Prime. Injuries: KC: Noah Gray (Questionable), Kenneth Walker III (Out) | BUF: Dalton Kincaid (Questionable). Weather: 35°F, Rain. Risk: Missed in 1 of the last 10 (low of 165 pass yds).",
+        "explanation_collapsed": true
+       },
+       {
+        "pick": "James Cook III Over 49.5 Rushing Yards",
+        "odds": "-600",
+        "res": "",
+        "stat": "—",
+        "gm": "",
+        "id": "plus100|de3c23fa3fd0a7fdd9c4|leg|2",
+        "record": {
+         "w": 0,
+         "l": 0,
+         "p": 0,
+         "v": 0,
+         "pending": 1
+        },
+        "explanation": "Volume: snaps L5 41/35/51/44/45 | Hit: 10/10 at line (L10 avg 106.0 vs 49.5 line) · H2H vs KC at O49.5: n/a. Usage: snap L5 60% / L10 63% · tgt L5 6% / L10 7% · carry L5 67% / L10 66% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET). Matchup: KC 23/32 vs rush yds (95.5/g allowed, ESPN box scores; 1 = best for the over, unfavorable). Context: BUF -3 / O/U 46 (BUF TT 24.5) | Home · Prime. Injuries: BUF: Dalton Kincaid (Questionable) | KC: Noah Gray (Questionable), Kenneth Walker III (Out). Weather: 35°F, Rain. Risk: Tough matchup: KC 23/32 vs rush yds.",
+        "explanation_collapsed": true
+       },
+       {
+        "pick": "Josh Allen Over 199.5 Passing Yards",
+        "odds": "-185",
+        "res": "",
+        "stat": "—",
+        "gm": "",
+        "id": "plus100|de3c23fa3fd0a7fdd9c4|leg|3",
+        "record": {
+         "w": 0,
+         "l": 0,
+         "p": 0,
+         "v": 0,
+         "pending": 1
+        },
+        "explanation": "Volume: snaps L5 77/54/77/78/68 | Hit: 9/10 at line (L10 avg 252.7 vs 199.5 line) · H2H vs KC at O199.5: n/a. Usage: snap L5 97% / L10 98% · carry L5 13% / L10 21% (snaps nflverse/PFR thru Wk11; tgt/carry ESPN box thru 11/22; as of 11/26 4:35 PM ET). Matchup: KC 25/32 vs pass yds (208.3/g allowed, ESPN box scores; 1 = best for the over, unfavorable). Context: BUF -3 / O/U 46 (BUF TT 24.5) | Home · Prime. Injuries: BUF: Dalton Kincaid (Questionable) | KC: Noah Gray (Questionable), Kenneth Walker III (Out). Weather: 35°F, Rain. Risk: Tough matchup: KC 25/32 vs pass yds.",
         "explanation_collapsed": true
        }
       ],
@@ -313665,17 +313686,17 @@
     ],
     "record": {
      "w": 25,
-     "l": 21,
+     "l": 22,
      "p": 0,
      "v": 2,
      "pending": 3
     },
     "leg_record": {
      "w": 75,
-     "l": 28,
+     "l": 29,
      "p": 0,
      "v": 4,
-     "pending": 7
+     "pending": 9
     }
    },
    "plus250": {
@@ -315707,7 +315728,7 @@
    "units": false
   },
   "comparison_only": true,
-  "built_at": "2026-11-26T16:29:48-05:00",
+  "built_at": "2026-11-26T16:56:25-05:00",
   "dates": {
    "2026-11-13": {
     "rows": [
@@ -320636,7 +320657,7 @@
     "row Replaced (allowlisted, card t937s3612); not graded"
    ]
   ],
-  "checked_et": "2026-11-26 04:29 PM ET"
+  "checked_et": "2026-11-26 04:56 PM ET"
  },
  "capper_audit_hold": "Capper/HEIST self-audit failed and no audited snapshot exists for 2026-11-26: Heist published as pending (see logs/capper_audit_2026-11-26.txt)",
  "heist_straight_record": {
